@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:questListItem extends="ListItem" content.layout.alignment="MiddleLeft">
+	<image name="image" preferredSize="40 40" glowColor="GUI/Black"/>
+	<label name="label" preferredSize="FillParent WrapContent" weights="1 FillAll" style="<style name='ShadowedHeading'/>"/>
+</world:questListItem>

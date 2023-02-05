@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:playerActionsPanel extends="Panel" showEffect="FadeInLeft" hideEffect="FadeOutLeft">
+	<container name="contentContainer" preferredSize="FillParent WrapContent"/>
+</world:playerActionsPanel>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:itemListItem extends="ListItem" content.margin="8 8" content.layout.alignment="MiddleLeft" layout.gap="8 8" preferredSize="FillParent WrapContent">
+	<image name="image" preferredSize="40 40"/>
+	<label name="label" preferredSize="FillParent WrapContent" weights="1 FillAll"/>
+</world:itemListItem>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:mixerPanel extends="Panel" titleLabel.caption="<string name='GUI/Mixer'/>" content.layout.direction="TopToBottom" showEffect="FadeInBottom" hideEffect="FadeOutBottom">
+	<scrollableContainer name="contentContainer" scrollableContent.layout.direction="TopToBottom" preferredSize="FillParent FillParent" weights="FillAll 1"/>
+	<container preferredSize="FillParent 30">
+		<button name="reloadButton" label.caption="Reload" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		<button name="saveButton" label.caption="Save" preferredSize="FillParent FillParent" weights="1 FillAll" visible="0"/>
+	</container>
+</world:mixerPanel>

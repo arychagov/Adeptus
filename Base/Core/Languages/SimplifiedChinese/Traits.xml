@@ -1,0 +1,1933 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="Artefacts/Accuracy" value="<string name='Units/Neutral/Artefacts/Accuracy'/>"/>
+	<entry name="Artefacts/AccuracyDescription" value="提高准确度."/>
+	<entry name="Artefacts/Armor" value="<string name='Units/Neutral/Artefacts/Armor'/>"/>
+	<entry name="Artefacts/ArmorDescription" value="提高护甲."/>
+	<entry name="Artefacts/ArmorPenetration" value="<string name='Units/Neutral/Artefacts/ArmorPenetration'/>"/>
+	<entry name="Artefacts/ArmorPenetrationDescription" value="提高护甲穿透."/>
+	<entry name="Artefacts/Damage" value="<string name='Units/Neutral/Artefacts/Damage'/>"/>
+	<entry name="Artefacts/DamageDescription" value="提高伤害."/>
+	<entry name="Artefacts/Healing" value="<string name='Units/Neutral/Artefacts/Healing'/>"/>
+	<entry name="Artefacts/HealingDescription" value="每回合恢复生命值."/>
+	<entry name="Artefacts/Hitpoints" value="<string name='Units/Neutral/Artefacts/Hitpoints'/>"/>
+	<entry name="Artefacts/HitpointsDescription" value="提高生命值."/>
+	<entry name="Artefacts/Loyalty" value="<string name='Units/Neutral/Artefacts/Loyalty'/>"/>
+	<entry name="Artefacts/LoyaltyDescription" value="提高忠诚度."/>
+	<entry name="Artefacts/Movement" value="<string name='Units/Neutral/Artefacts/Movement'/>"/>
+	<entry name="Artefacts/MovementDescription" value="提高移动."/>
+	<entry name="Artefacts/Sight" value="<string name='Units/Neutral/Artefacts/Sight'/>"/>
+	<entry name="Artefacts/SightDescription" value="提高视野."/>
+	
+	<entry name="Items/AdamantiumWeaveVest" value="<string name='Items/AdamantiumWeaveVest'/>"/>
+	<entry name="Items/AdamantiumWeaveVestDescription" value="<string name='Items/AdamantiumWeaveVestDescription'/>"/>
+	<entry name="Items/AdamantiumWeaveVestFlavor" value="<string name='Items/AdamantiumWeaveVestFlavor'/>"/>
+	<entry name="Items/ArmaplasBracers" value="<string name='Items/ArmaplasBracers'/>"/>
+	<entry name="Items/ArmaplasBracersDescription" value="<string name='Items/ArmaplasBracersDescription'/>"/>
+	<entry name="Items/ArmaplasBracersFlavor" value="<string name='Items/ArmaplasBracersFlavor'/>"/>
+	<entry name="Items/AxeOfBlindFury" value="<string name='Items/AxeOfBlindFury'/>"/>
+	<entry name="Items/AxeOfBlindFuryDescription" value="<string name='Items/AxeOfBlindFuryDescription'/>"/>
+	<entry name="Items/AxeOfBlindFuryFlavor" value="<string name='Items/AxeOfBlindFuryFlavor'/>"/>
+	<entry name="Items/CombatStimulant" value="<string name='Items/CombatStimulant'/>"/>
+	<entry name="Items/CombatStimulantDescription" value="<string name='Items/CombatStimulantDescription'/>"/>
+	<entry name="Items/CombatStimulantFlavor" value="<string name='Items/CombatStimulantFlavor'/>"/>
+	<entry name="Items/ConcealedWeaponSystem" value="<string name='Items/ConcealedWeaponSystem'/>"/>
+	<entry name="Items/ConcealedWeaponSystemDescription" value="<string name='Items/ConcealedWeaponSystemDescription'/>"/>
+	<entry name="Items/ConcealedWeaponSystemFlavor" value="<string name='Items/ConcealedWeaponSystemFlavor'/>"/>
+	<entry name="Items/DuskBlade" value="<string name='Items/DuskBlade'/>"/>
+	<entry name="Items/DuskBladeDescription" value="<string name='Items/DuskBladeDescription'/>"/>
+	<entry name="Items/DuskBladeFlavor" value="<string name='Items/DuskBladeFlavor'/>"/>
+	<entry name="Items/EnduranceImplant" value="<string name='Items/EnduranceImplant'/>"/>
+	<entry name="Items/EnduranceImplantDescription" value="<string name='Items/EnduranceImplantDescription'/>"/>
+	<entry name="Items/EnduranceImplantFlavor" value="<string name='Items/EnduranceImplantFlavor'/>"/>
+	<entry name="Items/EntropicLocum" value="<string name='Items/EntropicLocum'/>"/>
+	<entry name="Items/EntropicLocumDescription" value="<string name='Items/EntropicLocumDescription'/>"/>
+	<entry name="Items/EntropicLocumFlavor" value="<string name='Items/EntropicLocumFlavor'/>"/>
+	<entry name="Items/FaolchusWing" value="<string name='Items/FaolchusWing'/>"/>
+	<entry name="Items/FaolchusWingDescription" value="<string name='Items/FaolchusWingDescription'/>"/>
+	<entry name="Items/FaolchusWingFlavor" value="<string name='Items/FaolchusWingFlavor'/>"/>
+	<entry name="Items/LightningGauntlet" value="<string name='Items/LightningGauntlet'/>"/>
+	<entry name="Items/LightningGauntletDescription" value="<string name='Items/LightningGauntletDescription'/>"/>
+	<entry name="Items/LightningGauntletFlavor" value="<string name='Items/LightningGauntletFlavor'/>"/>
+	<entry name="Items/MourningBladeOfLazaerek" value="<string name='Items/MourningBladeOfLazaerek'/>"/>
+	<entry name="Items/MourningBladeOfLazaerekDescription" value="<string name='Items/MourningBladeOfLazaerekDescription'/>"/>
+	<entry name="Items/MourningBladeOfLazaerekFlavor" value="<string name='Items/MourningBladeOfLazaerekFlavor'/>"/>
+	<entry name="Items/OmniScope" value="<string name='Items/OmniScope'/>"/>
+	<entry name="Items/OmniScopeDescription" value="<string name='Items/OmniScopeDescription'/>"/>
+	<entry name="Items/OmniScopeFlavor" value="<string name='Items/OmniScopeFlavor'/>"/>
+	<entry name="Items/PoweredGauntlet" value="<string name='Items/PoweredGauntlet'/>"/>
+	<entry name="Items/PoweredGauntletDescription" value="<string name='Items/PoweredGauntletDescription'/>"/>
+	<entry name="Items/PoweredGauntletFlavor" value="<string name='Items/PoweredGauntletFlavor'/>"/>
+	<entry name="Items/ScrollsOfMagnus" value="<string name='Items/ScrollsOfMagnus'/>"/>
+	<entry name="Items/ScrollsOfMagnusDescription" value="<string name='Items/ScrollsOfMagnusDescription'/>"/>
+	<entry name="Items/ScrollsOfMagnusFlavor" value="<string name='Items/ScrollsOfMagnusFlavor'/>"/>
+	<entry name="Items/TantalisingIcon" value="<string name='Items/TantalisingIcon'/>"/>
+	<entry name="Items/TantalisingIconDescription" value="<string name='Items/TantalisingIconDescription'/>"/>
+	<entry name="Items/TantalisingIconFlavor" value="<string name='Items/TantalisingIconFlavor'/>"/>
+	<entry name="Items/TemporaryShield" value="<string name='Items/TemporaryShield'/>"/>
+	<entry name="Items/TemporaryShieldDescription" value="<string name='Items/TemporaryShieldDescription'/>"/>
+	<entry name="Items/TemporaryShieldFlavor" value="<string name='Items/TemporaryShieldFlavor'/>"/>
+	<entry name="Items/VolcanisShroud" value="<string name='Items/VolcanisShroud'/>"/>
+	<entry name="Items/VolcanisShroudDescription" value="<string name='Items/VolcanisShroudDescription'/>"/>
+	<entry name="Items/VolcanisShroudFlavor" value="<string name='Items/VolcanisShroudFlavor'/>"/>
+	<entry name="Items/ZoatHideJerkin" value="<string name='Items/ZoatHideJerkin'/>"/>
+	<entry name="Items/ZoatHideJerkinDescription" value="<string name='Items/ZoatHideJerkinDescription'/>"/>
+	<entry name="Items/ZoatHideJerkinFlavor" value="<string name='Items/ZoatHideJerkinFlavor'/>"/>
+	
+	<entry name="AdeptusMechanicus/AdjacencyIntegration" value="邻接整合"/>
+	<entry name="AdeptusMechanicus/AdjacencyIntegrationDescription" value="提高临近位置每个建筑的研究产出."/>
+	<entry name="AdeptusMechanicus/AdjacencyIntegrationFlavor" value="知识的重新发现是一种神圣的仪式, 整个巢都世界都必须强制遵循. 随着人口密度的增长, 信徒们不断地祭祀并祈求城市的机械之神, 试图能够将它们的秘密传递给图书馆中的科技神甫."/>
+	<entry name="AdeptusMechanicus/AggressionOverride" value="<string name='Actions/AdeptusMechanicus/AggressionOverride'/>"/>
+	<entry name="AdeptusMechanicus/AggressionOverrideDescription" value="提高攻击."/>
+	<entry name="AdeptusMechanicus/AggressionOverrideFlavor" value="<string name='Actions/AdeptusMechanicus/AggressionOverrideFlavor'/>"/>
+	<entry name="AdeptusMechanicus/AggressorImperative" value="<string name='Actions/AdeptusMechanicus/AggressorImperative'/>"/>
+	<entry name="AdeptusMechanicus/AggressorImperativeDescription" value="提高移动, 但降低护甲."/>
+	<entry name="AdeptusMechanicus/AggressorImperativeFlavor" value="<string name='Actions/AdeptusMechanicus/AggressorImperativeFlavor'/>"/>
+	<entry name="AdeptusMechanicus/AssaultWeaponBonus" value="合金教条"/>
+	<entry name="AdeptusMechanicus/AssaultWeaponBonusDescription" value="提高护甲穿透效果."/>
+	<entry name="AdeptusMechanicus/AssaultWeaponBonusFlavor" value="梅特利卡的狂热者们以带来震耳欲聋的喧嚣而闻名, 这不禁让人想起铸造世界中无尽的工业—他们无止境的前进, 任何胆敢阻挡的敌人都得死."/>
+	<entry name="AdeptusMechanicus/BenedictionOfOmniscience" value="<string name='Actions/AdeptusMechanicus/BenedictionOfOmniscience'/>"/>
+	<entry name="AdeptusMechanicus/BenedictionOfOmniscienceDescription" value="提高远程准确度."/>
+	<entry name="AdeptusMechanicus/BenedictionOfOmniscienceFlavor" value="<string name='Actions/AdeptusMechanicus/BenedictionOfOmniscienceFlavor'/>"/>
+	<entry name="AdeptusMechanicus/Bionics" value="仿生学"/>
+	<entry name="AdeptusMechanicus/BionicsDescription" value="提高无敌伤害减免效果."/>
+	<entry name="AdeptusMechanicus/BionicsFlavor" value="这是一名非常罕见的机械神教贤者, 自阿克汉·兰德时代之后便再也没有任何强化. 一些虚荣的家伙会故意隐瞒自己, 但绝大多数仿生强化都是残忍和不仁的, 那是万机之神虚假祝福的象征."/>
+	<entry name="AdeptusMechanicus/BroadSpectrumDataTether" value="<string name='Actions/AdeptusMechanicus/BroadSpectrumDataTether'/>"/>
+	<entry name="AdeptusMechanicus/BroadSpectrumDataTetherDescription" value="降低士气损失."/>
+	<entry name="AdeptusMechanicus/BroadSpectrumDataTetherFlavor" value="<string name='Actions/AdeptusMechanicus/BroadSpectrumDataTetherFlavor'/>"/>
+	<entry name="AdeptusMechanicus/BulwarkImperative" value="<string name='Actions/AdeptusMechanicus/BulwarkImperative'/>"/>
+	<entry name="AdeptusMechanicus/BulwarkImperativeDescription" value="提高护甲, 但降低移动."/>
+	<entry name="AdeptusMechanicus/BulwarkImperativeFlavor" value="<string name='Actions/AdeptusMechanicus/BulwarkImperativeFlavor'/>"/>
+	<entry name="AdeptusMechanicus/CanticlesOfTheOmnissiah" value="万机之神圣歌"/>
+	<entry name="AdeptusMechanicus/CanticlesOfTheOmnissiahDescription" value="分类."/>
+	<entry name="AdeptusMechanicus/CanticlesOfTheOmnissiahFlavor" value="在战争时期, 机械之神的门徒会吟诵复杂的战争福音. 这些皆为得到了优化的子程序, 表达着对无所不知全能神祇的信仰."/>
+	<entry name="AdeptusMechanicus/ChantOfTheRemorselessFist" value="<string name='Actions/AdeptusMechanicus/ChantOfTheRemorselessFist'/>"/>
+	<entry name="AdeptusMechanicus/ChantOfTheRemorselessFistDescription" value="提高近战准确度."/>
+	<entry name="AdeptusMechanicus/ChantOfTheRemorselessFistFlavor" value="<string name='Actions/AdeptusMechanicus/ChantOfTheRemorselessFistFlavor'/>"/>
+	<entry name="AdeptusMechanicus/CityTier2" value="玛沃拉铸形"/>
+	<entry name="AdeptusMechanicus/CityTier2Description" value="提高能够占领的土地半径."/>
+	<entry name="AdeptusMechanicus/CityTier2Flavor" value="地球化是一种极具讽刺意味的过程, 它使一颗星球表面变得适合人类居住, 然而在其地下深处却到处是被毁坏的断壁残垣. 而火星化就没有这样的问题, 它把一颗星球变成充满剥削的, 惨遭毒害的, 点缀着强大生产力的城市群, 就如同家园一样."/>
+	<entry name="AdeptusMechanicus/CityTier3" value="巢都世界试验"/>
+	<entry name="AdeptusMechanicus/CityTier3Description" value="提高能够占领的土地半径."/>
+	<entry name="AdeptusMechanicus/CityTier3Flavor" value="从太空中可以清晰的看到一颗星球是如何转化为巢都世界的. 连绵起伏的丘陵, 山谷, 树木都消失不见. 没有了湖泊, 海洋和大气. 刺骨的狂沙带着尘土, 只有顽固的帝国追随者还在勉强维持着生计."/>
+	<entry name="AdeptusMechanicus/Cognis" value="认知"/>
+	<entry name="AdeptusMechanicus/CognisDescription" value="限制准确度损失."/>
+	<entry name="AdeptusMechanicus/CognisFlavor" value="<string name='Weapons/CognisFlavor'/>"/>
+	<entry name="AdeptusMechanicus/CommandUplink" value="<string name='Actions/AdeptusMechanicus/CommandUplink'/>"/>
+	<entry name="AdeptusMechanicus/CommandUplinkDescription" value="降低士气损失."/>
+	<entry name="AdeptusMechanicus/CommandUplinkFlavor" value="<string name='Actions/AdeptusMechanicus/CommandUplinkFlavor'/>"/>
+	<entry name="AdeptusMechanicus/ConquerorImperative" value="<string name='Actions/AdeptusMechanicus/ConquerorImperative'/>"/>
+	<entry name="AdeptusMechanicus/ConquerorImperativeDescription" value="提高近战准确度, 但降低远程准确度."/>
+	<entry name="AdeptusMechanicus/ConquerorImperativeFlavor" value="<string name='Actions/AdeptusMechanicus/ConquerorImperativeFlavor'/>"/>
+	<entry name="AdeptusMechanicus/ControlEdict" value="<string name='Actions/AdeptusMechanicus/ControlEdict'/>"/>
+	<entry name="AdeptusMechanicus/ControlEdictDescription" value="移除教令惩戒."/>
+	<entry name="AdeptusMechanicus/ControlEdictFlavor" value="<string name='Actions/AdeptusMechanicus/ControlEdictFlavor'/>"/>
+	<entry name="AdeptusMechanicus/DartingHunters" value="飞镖猎手"/>
+	<entry name="AdeptusMechanicus/DartingHuntersDescription" value="动作不消耗移动."/>
+	<entry name="AdeptusMechanicus/DartingHuntersFlavor" value="铁翼灭杀者通过特殊的反射能力来减少阻碍其主要功能的认知从而获得强化."/>
+	<entry name="AdeptusMechanicus/DataBlessedAutosermon" value="<string name='Actions/AdeptusMechanicus/DataBlessedAutosermon'/>"/>
+	<entry name="AdeptusMechanicus/DataBlessedAutosermonDescription" value="当消灭一名敌人时获得研究点数."/>
+	<entry name="AdeptusMechanicus/DataBlessedAutosermonFlavor" value="<string name='Actions/AdeptusMechanicus/DataBlessedAutosermonFlavor'/>"/>
+	<entry name="AdeptusMechanicus/DoctrinaImperatives" value="教令"/>
+	<entry name="AdeptusMechanicus/DoctrinaImperativesDescription" value="分类."/>
+	<entry name="AdeptusMechanicus/DoctrinaImperativesFlavor" value="护教军是一群可怕的敌人, 他们无情地追随者万机之神, 同时配备有帝国最先进的武器. 然而, 事实上, 他们不过是科技神甫意志所控制的容器而已. 在激烈的战斗中, 数据教令会远程控制护教军, 将他们的思维和身体提升到超凡的水平."/>
+	<entry name="AdeptusMechanicus/Dunestrider" value="沙丘行者"/>
+	<entry name="AdeptusMechanicus/DunestriderDescription" value="提高移动."/>
+	<entry name="AdeptusMechanicus/DunestriderFlavor" value="一些护教军能够以无情的速度穿过敌对地形, 他们的四肢永不疲倦, 绝不磨损."/>
+	<entry name="AdeptusMechanicus/EmanatusForceField" value="伊曼纳图斯力场"/>
+	<entry name="AdeptusMechanicus/EmanatusForceFieldDescription" value="提高伤害减免效果."/>
+	<entry name="AdeptusMechanicus/EmanatusForceFieldFlavor" value="沙丘爬行者所产生的叠加力场是可谓是军事科学上的奇迹. 就如同在低阶火星神甫所常见的折射力场一样, 它们能够将充满敌意的能量散播至大气层, 每一颗进入的子弹都将瞬间化为蓝色的闪光和臭氧的味道."/>
+	<entry name="AdeptusMechanicus/EnhancedDataTether" value="增强型数据链路"/>
+	<entry name="AdeptusMechanicus/EnhancedDataTetherDescription" value="提高士气."/>
+	<entry name="AdeptusMechanicus/EnhancedDataTetherFlavor" value="作为科技神甫的喉舌, 同时又是万机之神的先知, 那些携带增强型数据链路的人将受到虔诚的护教军毫不犹豫地服从."/>
+	<entry name="AdeptusMechanicus/EnrichedRounds" value="<string name='Actions/AdeptusMechanicus/EnrichedRounds'/>"/>
+	<entry name="AdeptusMechanicus/EnrichedRoundsDescription" value="提高伤害."/>
+	<entry name="AdeptusMechanicus/EnrichedRoundsFlavor" value="<string name='Actions/AdeptusMechanicus/EnrichedRoundsFlavor'/>"/>
+	<entry name="AdeptusMechanicus/EnslavedToThePast" value="过往奴役"/>
+	<entry name="AdeptusMechanicus/EnslavedToThePastDescription" value="提高研究消耗."/>
+	<entry name="AdeptusMechanicus/EnslavedToThePastFlavor" value="邪恶知识堡垒终将建立在谎言的基础上. 真正的创新已然失落, 取而代之的是对人类自己主宰命运的崇敬时代. 机械神教不再是其造物的主宰, 他们遭受着过往的奴役. 它利用仪式, 教条和法令, 而不是明辨和领悟来维持昔日的辉煌. 即便是理论上非常简单的武器激活过程, 也需要涂抹仪式用油, 点燃神圣树脂并咏唱冗长而复杂的赞美诗. 但只要这个过程是有效的—或者更确切地说, 只要邪教的部队能够消灭那些令他们感到不悦的敌人—科技神甫就会继续走在通往混乱和无知的道路上."/>
+	<entry name="AdeptusMechanicus/GuldiresOrison" value="戈迪厄斯祷文"/>
+	<entry name="AdeptusMechanicus/GuldiresOrisonDescription" value="降低准确度."/>
+	<entry name="AdeptusMechanicus/GuldiresOrisonFlavor" value="戈迪厄斯曾是厄瑞玻斯麾下怀言者的首席亚空间铁匠. 它的'祷文'只纯粹包含着对机器带来破坏的代码, 携带着来自亚空间深处恶魔的低语. 虽然帝国的防御并非致命, 但它仍能够分散敌人足够的注意力…"/>
+	<entry name="AdeptusMechanicus/FidorumVossPrime" value="沃斯主星"/>
+	<entry name="AdeptusMechanicus/FidorumVossPrimeDescription" value="提高临近位置每个建筑的影响力产出."/>
+	<entry name="AdeptusMechanicus/FidorumVossPrimeFlavor" value="科技神甫对沃斯主星锻造世界充满了崇敬, 因为在那里忠诚高于一切—没有谁敢说自己对帝国的忠诚比他们更高. 即便是火星被黑暗机械神教所吞噬, 但沃斯主星依然在继续生产武器, 在平定荷鲁斯叛乱时起到了重要的作用."/>
+	<entry name="AdeptusMechanicus/GalvanicField" value="<string name='Actions/AdeptusMechanicus/GalvanicField'/>"/>
+	<entry name="AdeptusMechanicus/GalvanicFieldDescription" value="提高护甲穿透效果."/>
+	<entry name="AdeptusMechanicus/GalvanicFieldFlavor" value="<string name='Actions/AdeptusMechanicus/GalvanicFieldFlavor'/>"/>
+	<entry name="AdeptusMechanicus/EntropicDestabilisation" value="不稳定熵能"/>
+	<entry name="AdeptusMechanicus/EntropicDestabilisationDescription" value="获得伤害减免效果."/>
+	<entry name="AdeptusMechanicus/EntropicDestabilisationFlavor" value="万机之神的祝福让你充满了活力! 没有什么可以挡住你的去路 (那是梦吗? 你真的见到了万机之神?!)"/>
+	<entry name="AdeptusMechanicus/HeavyWeaponBonus" value="戒律缮写室"/>
+	<entry name="AdeptusMechanicus/HeavyWeaponBonusDescription" value="提高护甲穿透效果."/>
+	<entry name="AdeptusMechanicus/HeavyWeaponBonusFlavor" value="火星型大将军炮是独一无二的泰坦级设备, 每一座都是出自不同的目的而建造, 并受到严密的保护. 你的研究所发现的这种巨型火炮是在阿玛吉顿战争期间使用的履带式歼星炮."/>
+	<entry name="AdeptusMechanicus/IconsOfTheOmnissiah" value="万机之神印记"/>
+	<entry name="AdeptusMechanicus/IconsOfTheOmnissiahDescription" value="提高临近位置每个建筑的忠诚产出."/>
+	<entry name="AdeptusMechanicus/IconsOfTheOmnissiahFlavor" value="保护我们, 主人. 让我们自由, 万机之神. 万机之神来了. 来了. 来-了! 惩罚那些血肉."/>
+	<entry name="AdeptusMechanicus/IncantationOfTheIronSoul" value="<string name='Actions/AdeptusMechanicus/IncantationOfTheIronSoul'/>"/>
+	<entry name="AdeptusMechanicus/IncantationOfTheIronSoulDescription" value="降低士气损失."/>
+	<entry name="AdeptusMechanicus/IncantationOfTheIronSoulFlavor" value="<string name='Actions/AdeptusMechanicus/IncantationOfTheIronSoulFlavor'/>"/>
+	<entry name="AdeptusMechanicus/InvocationOfMachineMight" value="<string name='Actions/AdeptusMechanicus/InvocationOfMachineMight'/>"/>
+	<entry name="AdeptusMechanicus/InvocationOfMachineMightDescription" value="提高近战伤害."/>
+	<entry name="AdeptusMechanicus/InvocationOfMachineMightFlavor" value="<string name='Actions/AdeptusMechanicus/InvocationOfMachineMightFlavor'/>"/>
+	<entry name="AdeptusMechanicus/IonShield" value="离子护盾"/>
+	<entry name="AdeptusMechanicus/IonShieldDescription" value="提高伤害减免效果."/>
+	<entry name="AdeptusMechanicus/IonShieldFlavor" value="骑士携带着称之为离子护盾的强大力场发生器. 这些设备利用远古科技, 能够通过狭长的弧线投射出能量场. 通过移动护盾的位置拦截敌人的攻击, 使得骑士能够在哪怕是最为猛烈的炮火中也能幸存下来, 同时使用自己的武器来作为反击. 护盾的精准设置和定位至关重要, 因为离子护盾只能够偏转和减慢敌人的射击速度, 而不是像帝国泰坦所使用的虚空护盾那样直接吸收伤害. 换句话说, 离子护盾的有效性将取决于操作者的技术和经验."/>
+	<entry name="AdeptusMechanicus/LordOfTheMachineCult" value="<string name='Actions/AdeptusMechanicus/LordOfTheMachineCult'/>"/>
+	<entry name="AdeptusMechanicus/LordOfTheMachineCultDescription" value="提高准确度."/>
+	<entry name="AdeptusMechanicus/LordOfTheMachineCultFlavor" value="<string name='Actions/AdeptusMechanicus/LordOfTheMachineCultFlavor'/>"/>
+	<entry name="AdeptusMechanicus/LucianSpecialisation" value="卢锡安专精"/>
+	<entry name="AdeptusMechanicus/LucianSpecialisationDescription" value="提高同一位置相同类型的非指挥中心建筑的资源产出."/>
+	<entry name="AdeptusMechanicus/LucianSpecialisationFlavor" value="空洞的卢锡安铸造世界中捕获了一颗恒星, 但对于机械神教来说还有别的东西更吸引他们的注意—一种非常独特的金属以及亚空间穿梭—非常有趣. 卢锡安的贤者鼓励深度的专业化."/>
+	<entry name="AdeptusMechanicus/MechanicusLocum" value="<string name='Actions/AdeptusMechanicus/MechanicusLocum'/>"/>
+	<entry name="AdeptusMechanicus/MechanicusLocumDescription" value="<string name='Actions/AdeptusMechanicus/MechanicusLocumDescription'/>"/>
+	<entry name="AdeptusMechanicus/MechanicusLocumFlavor" value="<string name='Actions/AdeptusMechanicus/MechanicusLocumFlavor'/>"/>
+	<entry name="AdeptusMechanicus/MeleeWeaponBonus" value="莱赞狂怒"/>
+	<entry name="AdeptusMechanicus/MeleeWeaponBonusDescription" value="提高护甲穿透效果."/>
+	<entry name="AdeptusMechanicus/MeleeWeaponBonusFlavor" value="尽管这颗星球专注于等离子科技和防护设备, 但兽人入侵莱赞铸造世界是如此的普遍, 因此这里的防御者以兽人式的近战而闻名."/>
+	<entry name="AdeptusMechanicus/MonolithicBuildings" value="巨型建筑"/>
+	<entry name="AdeptusMechanicus/MonolithicBuildingsDescription" value="提高同一位置相同类型的非指挥中心建筑的资源产出. 降低同一位置不同类型的非指挥中心建筑的产出."/>
+	<entry name="AdeptusMechanicus/MonolithicBuildingsFlavor" value="先有规则, 再有专业. 先有专业, 再有效率. 先有效率, 再有喜悦.”<br/>—大鞭笞者凯弗尔·佐克迪姆"/>
+	<entry name="AdeptusMechanicus/NeurostaticInterface" value="神经静力接口"/>
+	<entry name="AdeptusMechanicus/NeurostaticInterfaceDescription" value="当被临近敌方单位攻击时, 提高伤害减免效果."/>
+	<entry name="AdeptusMechanicus/NeurostaticInterfaceFlavor" value="伴随着西卡里安渗透者所发出的嘈杂声源自一种宽带电磁干扰, 能够削弱敌人的系统并扰乱其神经."/>
+	<entry name="AdeptusMechanicus/Omnispex" value="欧姆弥赛亚偏光器"/>
+	<entry name="AdeptusMechanicus/OmnispexDescription" value="无视敌人远程伤害减免效果."/>
+	<entry name="AdeptusMechanicus/OmnispexFlavor" value="欧姆弥赛亚偏光器拥有猛禽级的机械之魂, 即便是在极端范围内也能够读取热量分布, 数据签名以及生物波形. 如果长时间保持专注, 它将能够仔细扫描敌人的弱点并将其传递给主人."/>
+	<entry name="AdeptusMechanicus/OptateRestrictions" value="抉择限制"/>
+	<entry name="AdeptusMechanicus/OptateRestrictionsDescription" value="提高人口上限."/>
+	<entry name="AdeptusMechanicus/OptateRestrictionsFlavor" value="巢都管理者已同意解除繁殖限制. 事实上, 这仅仅意味着从配给包中去掉抑制剂而不是营造新建筑—现有的生活区域只会变得更加拥挤…"/>
+	<entry name="AdeptusMechanicus/PowerSurge" value="<string name='Actions/AdeptusMechanicus/PowerSurge'/>"/>
+	<entry name="AdeptusMechanicus/PowerSurgeDescription" value="提高非指挥中心建筑的产出."/>
+	<entry name="AdeptusMechanicus/PowerSurgeFlavor" value="<string name='Actions/AdeptusMechanicus/PowerSurgeFlavor'/>"/>
+	<entry name="AdeptusMechanicus/ProtectorImperative" value="<string name='Actions/AdeptusMechanicus/ProtectorImperative'/>"/>
+	<entry name="AdeptusMechanicus/ProtectorImperativeDescription" value="提高远程准确度, 但降低近战准确度."/>
+	<entry name="AdeptusMechanicus/ProtectorImperativeFlavor" value="<string name='Actions/AdeptusMechanicus/ProtectorImperativeFlavor'/>"/>
+	<entry name="AdeptusMechanicus/RadPoisoning" value="辐射中毒"/>
+	<entry name="AdeptusMechanicus/RadPoisoningDescription" value="提高对步兵和巨兽生物单位的伤害."/>
+	<entry name="AdeptusMechanicus/RadSaturation" value="<string name='Actions/AdeptusMechanicus/RadSaturation'/>"/>
+	<entry name="AdeptusMechanicus/RadSaturationDescription" value="降低生命值和近战伤害."/>
+	<entry name="AdeptusMechanicus/RadSaturationFlavor" value="<string name='Actions/AdeptusMechanicus/RadSaturationFlavor'/>"/>
+	<entry name="AdeptusMechanicus/ReclaimatorProtocols" value="回收者协议"/>
+	<entry name="AdeptusMechanicus/ReclaimatorProtocolsDescription" value="提高增长率."/>
+	<entry name="AdeptusMechanicus/ReclaimatorProtocolsFlavor" value="任何东西都不能浪费—一点食物, 一瓦特能量, 一小片肉都不行. 处决执行也被降低到最低, 以利于奴工转化, 并促进其他活动增加…"/>
+	<entry name="AdeptusMechanicus/ServoSkullUplink" value="<string name='Actions/AdeptusMechanicus/ServoSkullUplink'/>"/>
+	<entry name="AdeptusMechanicus/ServoSkullUplinkDescription" value="提高伤害."/>
+	<entry name="AdeptusMechanicus/ServoSkullUplinkFlavor" value="<string name='Actions/AdeptusMechanicus/ServoSkullUplinkFlavor'/>"/>
+	<entry name="AdeptusMechanicus/Shroudpsalm" value="<string name='Actions/AdeptusMechanicus/Shroudpsalm'/>"/>
+	<entry name="AdeptusMechanicus/ShroudpsalmDescription" value="提高远程伤害减免效果."/>
+	<entry name="AdeptusMechanicus/ShroudpsalmFlavor" value="<string name='Actions/AdeptusMechanicus/ShroudpsalmFlavor'/>"/>
+	<entry name="AdeptusMechanicus/SiphonVigour" value="虹吸活力"/>
+	<entry name="AdeptusMechanicus/SiphonVigourDescription" value="消灭一名敌方单位将提高无敌伤害减免效果."/>
+	<entry name="AdeptusMechanicus/SiphonVigourFlavor" value="<string name='Traits/AdeptusMechanicus/SiphonedVigourFlavor'/>"/>
+	<entry name="AdeptusMechanicus/SiphonedVigour" value="活力吸取"/>
+	<entry name="AdeptusMechanicus/SiphonedVigourDescription" value="提高无敌伤害减免效果."/>
+	<entry name="AdeptusMechanicus/SiphonedVigourFlavor" value="他们可能喜欢浪费能量, 但电僧可不是伪君子. 当敌人被电蛭法杖夺去生命时, 保护性的电能护盾将被生物电注入新的活力, 足以抵挡哪怕是最强大的攻击."/>
+	<entry name="AdeptusMechanicus/SolarReflectors" value="太阳能反射器"/>
+	<entry name="AdeptusMechanicus/SolarReflectorsDescription" value="提高临近位置每个建筑的能量产出."/>
+	<entry name="AdeptusMechanicus/SolarReflectorsFlavor" value="计划, 计划, 还是计划. 机械神教贤者设计每一座城市, 使其作为一个功能整体而运作, 每个部分彼此支撑. 所有结构体上的太阳能反射器能够将从格雷迪厄斯风暴系统中捕获的少数能量引导至最近的热交换神庙."/>
+	<entry name="AdeptusMechanicus/SoylensAcquisitionTeams" value="尸粉收购队"/>
+	<entry name="AdeptusMechanicus/SoylensAcquisitionTeamsDescription" value="提高临近位置每个建筑的食物产出."/>
+	<entry name="AdeptusMechanicus/SoylensAcquisitionTeamsFlavor" value="回收者雇佣了小部分地下城市的居民来扮演着令人厌恶的角色. 这些所谓的收购队更广为熟知的名字叫做尸体抢夺者. 他们四处寻找死者 (或濒死之人), 以确保每日配给口粮中拥有最新鲜的尸粉蛋白…"/>
+	<entry name="AdeptusMechanicus/StygianEnlightenment" value="冥河启示"/>
+	<entry name="AdeptusMechanicus/StygianEnlightenmentDescription" value="降低研究消耗."/>
+	<entry name="AdeptusMechanicus/StygianEnlightenmentFlavor" value="一些科技神甫比其他任何人都愿意研究异种科技. 只有黄泉八号铸造世界成功逃脱了对这些异种学教研究的惩罚, 一部分原因是他们的世界非常重要, 另一部分则是他们成功的削弱了任何可能的攻击者. 遵循他们的道路必然能够加快对解禁忌科技的了解."/>
+	<entry name="AdeptusMechanicus/TerranGeneralism" value="冥冥众生"/>
+	<entry name="AdeptusMechanicus/TerranGeneralismDescription" value="临近位置每有一座建筑时提高生产产出."/>
+	<entry name="AdeptusMechanicus/TerranGeneralismFlavor" value="尽管许多铸造世界是为某些特定需求而存在并且是以独立帝国的形式, 但值得注意的是, 大多数科技神甫都涉猎广泛, 忠诚地支持着帝国将影响力散播至更多星系—并尽可能遵循地球以及火星的命令."/>
+	<entry name="AdeptusMechanicus/TriplexNecessity" value="三重必然"/>
+	<entry name="AdeptusMechanicus/TriplexNecessityDescription" value="提高临近位置每个建筑的矿石产出."/>
+	<entry name="AdeptusMechanicus/TriplexNecessityFlavor" value="根据新发现的设计, 在修建新的构造体的过程中必须小心地探测所有地下区域并绘制出任何潜在的矿脉. 等到血咏反应器安装到位后, 它的等离子体将能够被引导至这些规划好的路线上, 以便能够更有效地提取矿石."/>
+	<entry name="AdeptusMechanicus/VoltagheistField" value="电压力场"/>
+	<entry name="AdeptusMechanicus/VoltagheistFieldDescription" value="提高无敌伤害减免效果."/>
+	<entry name="AdeptusMechanicus/VoltagheistFieldFlavor" value="由纯净能量构成的雨云围绕着电僧, 从他们裸露的皮肤上噼啪作响, 凝聚成闪耀着火光的电磁波, 就如同一缕缕光芒盘旋在溺死尸体的上方. 当来袭的弹药或能量束威胁到电僧时, 这些微小的电压幽魂将挺身而出, 以燃烧臭氧的方式粉碎或消散威胁. 当携带者向敌人冲锋时, 同样的电压将以爆发的形式落在附近敌人的身上."/>
+	<entry name="AdeptusMechanicus/VoicesInTheCode" value="<string name='Actions/AdeptusMechanicus/VoicesInTheCode'/>"/>
+	<entry name="AdeptusMechanicus/VoicesInTheCodeDescription" value="提高士气损失."/>
+	<entry name="AdeptusMechanicus/VoicesInTheCodeFlavor" value="<string name='Actions/AdeptusMechanicus/VoicesInTheCodeFlavor'/>"/>
+	<entry name="AdeptusMechanicus/WrathOfMars" value="<string name='Actions/AdeptusMechanicus/WrathOfMars'/>"/>
+	<entry name="AdeptusMechanicus/WrathOfMarsDescription" value="提高伤害."/>
+	<entry name="AdeptusMechanicus/WrathOfMarsFlavor" value="<string name='Actions/AdeptusMechanicus/WrathOfMarsFlavor'/>"/>
+	<entry name="AerialAttack" value="空中打击"/>
+	<entry name="AerialAttackDescription" value="只能以空中单位作为目标."/>
+	<entry name="Agile" value="<string name='Actions/Agile'/>"/>
+	<entry name="AgileDescription" value="<string name='Actions/AgileDescription'/>"/>
+	<entry name="AmmoRunt" value="弹药小鬼"/>
+	<entry name="AmmoRuntDescription" value="提高远程准确度."/>
+	<entry name="AmmoRuntFlavor" value="<string name='Actions/AmmoRuntFlavor'/>"/>
+	<entry name="Amphibious" value="两栖作战"/>
+	<entry name="AmphibiousDescription" value="该单位能够在水面移动并无视河流地形惩罚效果."/>
+	<entry name="AmphibiousFlavor" value="在第41千年的标准军用车辆中, 很少有关于两栖攻击方面的设计考虑—为了减轻重量, 设计者不得不减少弹药量, 同时装甲也将被极大地削弱. 但是, 早在数千年之前就被制造出的帝国奇美拉坦克却是个完美的例外, 它拥有轻松穿过河流的能力."/>
+	<entry name="AndTheyShallKnowNoFear" value="无所畏惧"/>
+	<entry name="AndTheyShallKnowNoFearDescription" value="降低士气损失并免疫恐惧."/>
+	<entry name="AndTheyShallKnowNoFearFlavor" value="不论出现什么样的情况, 一些战士都会拒绝投降."/>
+	<entry name="Animosity" value="敌意"/>
+	<entry name="AnimosityDescription" value="降低攻击."/>
+	<entry name="AnimosityFlavor" value="当哇! 的力量开始汹涌, 欧克兽人会变得更大也更强—但当这股力量消退, 它们也会随之衰弱."/>
+	<entry name="AntiGravUpwash" value="反重力升流"/>
+	<entry name="AntiGravUpwashDescription" value="当生命值高于66%时提高移动."/>
+	<entry name="ApocalypticBarrage" value="天启弹幕"/>
+	<entry name="ApocalypticBarrageDescription" value="<string name='Traits/BlastDescription'/>"/>
+	<entry name="ApocalypticBarrageFlavor" value="<string name='Weapons/BlastFlavor'/>"/>
+	<entry name="ApocalypticBlast" value="天启爆炸"/>
+	<entry name="ApocalypticBlastDescription" value="<string name='Traits/BlastDescription'/>"/>
+	<entry name="ApocalypticBlastFlavor" value="<string name='Weapons/BlastFlavor'/>"/>
+	<entry name="ApocalypticMegaBlast" value="超级天启爆炸"/>
+	<entry name="ApocalypticMegaBlastDescription" value="<string name='Traits/BlastDescription'/>"/>
+	<entry name="ApocalypticMegaBlastFlavor" value="<string name='Weapons/BlastFlavor'/>"/>
+	<entry name="ArmoriumCherub" value="<string name='Actions/ArmoriumCherub'/>"/>
+	<entry name="ArmoriumCherubDescription" value="提高准确度."/>
+	<entry name="ArmoriumCherubFlavor" value="<string name='Actions/ArmoriumCherubFlavor'/>"/>
+	<entry name="Armourbane" value="装甲杀手"/>
+	<entry name="ArmourbaneDescription" value="提高护甲穿透效果."/>
+	<entry name="ArmourbaneFlavor" value="这件武器的诞生只为一个目的: 刺穿任何载具的装甲."/>
+	<entry name="Artefact" value="神器"/>
+	<entry name="ArtefactDescription" value="分类."/>
+	<entry name="ArtefactFlavor" value="千百年来, 位于格雷迪厄斯上的古贤者构造体吸引了无数种族来到这里. 他们带来了拥有强大力量的实体, 意味着这颗星球的表面到处都是强大的外星科技."/>
+	<entry name="Assault" value="攻击"/>
+	<entry name="AssaultDescription" value="分类."/>
+	<entry name="AssaultDoctrine" value="进攻准则"/>
+	<entry name="AssaultDoctrineDescription" value="提高准确度."/>
+	<entry name="AssaultDoctrineFlavor" value="<string name='Actions/AssaultDoctrineFlavor'/>"/>
+	<entry name="AssaultVehicle" value="攻击载具"/>
+	<entry name="AssaultVehicleDescription" value="卸载单位时不消耗移动."/>
+	<entry name="AssaultVehicleFlavor" value="这种特别设计的载具负责专门将部队投入战场之中."/>
+	<entry name="AstraMilitarum/BlastDamage" value="改进型碎裂外壳"/>
+	<entry name="AstraMilitarum/BlastDamageDescription" value="提高护甲穿透效果."/>
+	<entry name="AstraMilitarum/BlastDamageFlavor" value="通过使用更加先进的协议来改进外壳, 爆炸的杀伤力得到了极大提升."/>
+	<entry name="AstraMilitarum/BoltDamage" value="北海巨妖弹药"/>
+	<entry name="AstraMilitarum/BoltDamageDescription" value="提高护甲穿透效果."/>
+	<entry name="AstraMilitarum/BoltDamageFlavor" value="这个套件允许爆矢枪发射北海巨妖穿甲弹, 拥有更加恐怖的爆炸力. 对于星际战士死亡守望猎手们来说, 这一点非常靠谱."/>
+	<entry name="AstraMilitarum/CityTier2" value="基础扩张"/>
+	<entry name="AstraMilitarum/CityTier2Description" value="提高能够占领的土地半径."/>
+	<entry name="AstraMilitarum/CityTier2Flavor" value="总有一天这里会变为巢都—数十亿人生活在一栋建筑物里, 并高悬于一个有毒的世界之上—但首先这个解决方案需要再扩大一点, 这样才能够为星系的大都会奠定基础."/>
+	<entry name="AstraMilitarum/CityTier3" value="基础补给管道"/>
+	<entry name="AstraMilitarum/CityTier3Description" value="提高能够占领的土地半径."/>
+	<entry name="AstraMilitarum/CityTier3Flavor" value="军务部也许效率低下, 但至少他们能够进行计划, 并命令科技神甫探索者和奴工们进行建造. 这些掩体隧道允许帝国卫队的指挥官们能够看到更大的城市区域, 这样就不会失去对防御的控制."/>
+	<entry name="AstraMilitarum/ShootSharpAndScarper" value="一击脱离"/>
+	<entry name="AstraMilitarum/ShootSharpAndScarperDescription" value="动作不消耗移动."/>
+	<entry name="AstraMilitarum/ShootSharpAndScarperFlavor" value="莱特林几乎缺乏所有的军事手段, 因此他们清楚地知道什么时候最适合射击, 什么时候最适合撤离."/>
+	<entry name="AstraMilitarumAircraftProductionEdict" value="<string name='Actions/AstraMilitarumAircraftProductionEdict'/>"/>
+	<entry name="AstraMilitarumAircraftProductionEdictDescription" value="提高生产产出."/>
+	<entry name="AstraMilitarumAircraftProductionEdictFlavor" value="<string name='Actions/AstraMilitarumAircraftProductionEdictFlavor'/>"/>
+	<entry name="AstraMilitarumDefenseEdict" value="<string name='Actions/AstraMilitarumDefenseEdict'/>"/>
+	<entry name="AstraMilitarumDefenseEdictDescription" value="提高护甲."/>
+	<entry name="AstraMilitarumDefenseEdictFlavor" value="<string name='Actions/AstraMilitarumDefenseEdictFlavor'/>"/>
+	<entry name="AstraMilitarumEnergyEdict" value="<string name='Actions/AstraMilitarumEnergyEdict'/>"/>
+	<entry name="AstraMilitarumEnergyEdictDescription" value="提高能量产出."/>
+	<entry name="AstraMilitarumEnergyEdictFlavor" value="<string name='Actions/AstraMilitarumEnergyEdictFlavor'/>"/>
+	<entry name="AstraMilitarumFoodEdict" value="<string name='Actions/AstraMilitarumFoodEdict'/>"/>
+	<entry name="AstraMilitarumFoodEdictDescription" value="提高食物产出."/>
+	<entry name="AstraMilitarumFoodEdictFlavor" value="<string name='Actions/AstraMilitarumFoodEdictFlavor'/>"/>
+	<entry name="AstraMilitarumGrowthEdict" value="<string name='Actions/AstraMilitarumGrowthEdict'/>"/>
+	<entry name="AstraMilitarumGrowthEdictDescription" value="提高增长率."/>
+	<entry name="AstraMilitarumGrowthEdictFlavor" value="<string name='Actions/AstraMilitarumGrowthEdictFlavor'/>"/>
+	<entry name="AstraMilitarumInfantryProductionEdict" value="<string name='Actions/AstraMilitarumInfantryProductionEdict'/>"/>
+	<entry name="AstraMilitarumInfantryProductionEdictDescription" value="提高生产产出."/>
+	<entry name="AstraMilitarumInfantryProductionEdictFlavor" value="<string name='Actions/AstraMilitarumInfantryProductionEdictFlavor'/>"/>
+	<entry name="AstraMilitarumInfluenceEdict" value="<string name='Actions/AstraMilitarumInfluenceEdict'/>"/>
+	<entry name="AstraMilitarumInfluenceEdictDescription" value="提高影响力产出."/>
+	<entry name="AstraMilitarumInfluenceEdictFlavor" value="<string name='Actions/AstraMilitarumInfluenceEdictFlavor'/>"/>
+	<entry name="AstraMilitarum/LasDamage" value="热流能量包"/>
+	<entry name="AstraMilitarum/LasDamageDescription" value="提高护甲穿透效果."/>
+	<entry name="AstraMilitarum/LasDamageFlavor" value="这些模块能够将标准的激光枪变为'地狱之枪', 它们拥有更高的射程和威力, 但与此同时也降低了电源的容量和可靠性, 因此需要不断地进行维护. 即便是已经装备了热熔激光枪的单位也更愿意选择这样的模块."/>
+	<entry name="AstraMilitarumLoyaltyEdict" value="<string name='Actions/AstraMilitarumLoyaltyEdict'/>"/>
+	<entry name="AstraMilitarumLoyaltyEdictDescription" value="提高忠诚度产出."/>
+	<entry name="AstraMilitarumLoyaltyEdictFlavor" value="<string name='Actions/AstraMilitarumLoyaltyEdictFlavor'/>"/>
+	<entry name="AstraMilitarumOreEdict" value="<string name='Actions/AstraMilitarumOreEdict'/>"/>
+	<entry name="AstraMilitarumOreEdictDescription" value="提高矿石产出."/>
+	<entry name="AstraMilitarumOreEdictFlavor" value="<string name='Actions/AstraMilitarumOreEdictFlavor'/>"/>
+	<entry name="AstraMilitarumPsykerProductionEdict" value="<string name='Actions/AstraMilitarumPsykerProductionEdict'/>"/>
+	<entry name="AstraMilitarumPsykerProductionEdictDescription" value="提高生产产出."/>
+	<entry name="AstraMilitarumPsykerProductionEdictFlavor" value="<string name='Actions/AstraMilitarumPsykerProductionEdictFlavor'/>"/>
+	<entry name="AstraMilitarumResearchEdict" value="<string name='Actions/AstraMilitarumResearchEdict'/>"/>
+	<entry name="AstraMilitarumResearchEdictDescription" value="提高研究产出."/>
+	<entry name="AstraMilitarumResearchEdictFlavor" value="<string name='Actions/AstraMilitarumResearchEdictFlavor'/>"/>
+	<entry name="AstraMilitarumVehicleProductionEdict" value="<string name='Actions/AstraMilitarumVehicleProductionEdict'/>"/>
+	<entry name="AstraMilitarumVehicleProductionEdictDescription" value="提高生产产出."/>
+	<entry name="AstraMilitarumVehicleProductionEdictFlavor" value="<string name='Actions/AstraMilitarumVehicleProductionEdictFlavor'/>"/>
+	<entry name="AversionToLight" value="厌恶光芒"/>
+	<entry name="AversionToLightDescription" value="提高受到烈焰和热熔武器的伤害."/>
+	<entry name="AversionToLightFlavor" value="本影怪的恐惧充斥在格雷迪厄斯阴暗的角落. 但如果点上一盏灯它们就会缩小, 噩梦也会逐渐消失. 另外别忘了为他们带上火焰枪…"/>
+	<entry name="Barrage" value="弹幕"/>
+	<entry name="BarrageDescription" value="不再需要直线视线, 但无法进行掩护."/>
+	<entry name="BarrageFlavor" value="<string name='Weapons/BarrageFlavor'/>"/>
+	<entry name="Beam" value="射线"/>
+	<entry name="BeamDescription" value="将根据目标单位的规模来决定命中准确度."/>
+	<entry name="Bike" value="摩托化"/>
+	<entry name="BikeDescription" value="分类."/>
+	<entry name="BikeFlavor" value="摩托化后的单位特别适合作为排头先锋. 他们能够以极快的速度深入敌人的领土, 并在敌人作出反应之前逃脱. 这些战士通常被认为是危险的, 勇往直前的冒险者, 但其效果却不可否认."/>
+	<entry name="Bladestorm" value="剑刃风暴"/>
+	<entry name="BladestormDescription" value="提高伤害和护甲穿透效果."/>
+	<entry name="Blast" value="爆破"/>
+	<entry name="BlastDescription" value="攻击目标单位中的多个成员."/>
+	<entry name="BlastFlavor" value="<string name='Weapons/BlastFlavor'/>"/>
+	<entry name="Blighted" value="凋零"/>
+	<entry name="BlightedDescription" value="每回合造成伤害."/>
+	<entry name="Blind" value="致盲"/>
+	<entry name="BlindDescription" value="降低准确度."/>
+	<entry name="BlindFlavor" value="该攻击释放出闪耀的光芒, 强烈地灼烧着受害者的双眼, 迫使其在一定时间内无法看到战斗目标."/>
+	<entry name="Blinding" value="炫目"/>
+	<entry name="BlindingDescription" value="降低目标步兵或巨兽单位的准确度."/>
+	<entry name="BloodBlessing" value="鲜血祝福"/>
+	<entry name="BloodBlessingDescription" value="提高攻击."/>
+	<entry name="BloodBlessingFlavor" value="<string name='Features/SkullAltarFlavor'/>"/>
+	<entry name="BolsterDefences" value="<string name='Actions/BolsterDefences'/>"/>
+	<entry name="BolsterDefencesDescription" value="获得远程伤害减免效果."/>
+	<entry name="BolsterDefencesFlavor" value="<string name='Actions/BolsterDefencesFlavor'/>"/>
+	<entry name="BoltWeapon" value="爆矢武器"/>
+	<entry name="BoltWeaponFlavor" value="<string name='Weapons/BoltFlavor'/>"/>
+	<entry name="BolterDrill" value="爆矢枪演练"/>
+	<entry name="BolterDrillDescription" value="提高准确度."/>
+	<entry name="BolterDrillFlavor" value="<string name='Actions/BolterDrillFlavor'/>"/>
+	<entry name="Bomb" value="炸弹"/>
+	<entry name="BombDescription" value="固定准确度."/>
+	<entry name="Bosspole" value="兽人旗帜"/>
+	<entry name="BosspoleDescription" value="根据区域内友方单位的数量降低士气损失."/>
+	<entry name="BosspoleFlavor" value="兽人老大会经常炫耀一个奖杯似的杆子, 以证明它们不会把事情搞砸. 携带着兽人旗帜的老大常常发现在激烈的战斗中恢复一些秩序是很有帮助的."/>
+	<entry name="BringItDown" value="“拿下来!”"/>
+	<entry name="BringItDownDescription" value="提高护甲穿透效果."/>
+	<entry name="Broken" value="破碎"/>
+	<entry name="BrokenDescription" value="降低准确度并提高受到的伤害."/>
+	<entry name="BruteShield" value="残暴之盾"/>
+	<entry name="BruteShieldDescription" value="提高伤害减免效果."/>
+	<entry name="BruteShieldFlavor" value="这些盾牌看上去放大版的能量小圆盾. 它们会被一些牛格林所装备, 既能够提供足够的防护, 同时又是一把随手可用的钝器."/>
+	<entry name="CamoNetting" value="伪装网"/>
+	<entry name="CamoNettingDescription" value="提高远程伤害减免效果."/>
+	<entry name="CamoNettingFlavor" value="不论是用高级的迷彩织布还是当地的植物编织, 这些伪装网都能够有助于隐藏车辆, 防止窥探."/>
+	<entry name="Capturable" value="可捕获"/>
+	<entry name="CapturableDescription" value="该单位能够被另一个临近单位捕获."/>
+	<entry name="CeramitePlating" value="強化陶瓷裝甲"/>
+	<entry name="CeramitePlatingDescription" value="提高护甲."/>
+	<entry name="CeramitePlatingFlavor" value="战团的技术军士为这些板甲进行了三次祝福并涂上了七层保护, 以防止再次进入轨道时的极端条件所造成的不良影响. 这样的措施还能够平息某些武器的怒火, 即使是最极端的温度和辐射也能够轻松吸收和消散."/>
+	<entry name="Chaff" value="诱饵弹"/>
+	<entry name="ChaffDescription" value="提高远程伤害减免效果."/>
+	<entry name="ChaosSpaceMarines/ArcaneOcculum" value="奥秘之眼"/>
+	<entry name="ChaosSpaceMarines/ArcaneOcculumDescription" value="混沌之赐能够提升准确度."/>
+	<entry name="ChaosSpaceMarines/ArcaneOcculumFlavor" value="这只眼睛能够看穿一切."/>
+	<entry name="ChaosSpaceMarines/BlastDamage" value="恶魔护壳"/>
+	<entry name="ChaosSpaceMarines/BlastDamageDescription" value="提高护甲穿透效果."/>
+	<entry name="ChaosSpaceMarines/BlastDamageFlavor" value="亚空间铁匠可能只会对这些爆炸性的小东西感到恐惧, 毕竟它们的威力可一点儿也不小—它们会碎裂并返回亚空间, 周围的任何物质都会被吸收殆尽."/>
+	<entry name="ChaosSpaceMarines/Bloated" value="肿胀"/>
+	<entry name="ChaosSpaceMarines/BloatedDescription" value="恢复生命值."/>
+	<entry name="ChaosSpaceMarines/BloatedFlavor" value="尽管纳垢的诅咒瘟疫能够从身体上和精神上摧毁一个人, 但也会赋予受害者强大的韧性. 对于这种肿胀的形态, 那是瘟疫之神的祝福之一."/>
+	<entry name="ChaosSpaceMarines/BloodForTheBloodGod" value="血祭"/>
+	<entry name="ChaosSpaceMarines/BloodForTheBloodGodDescription" value="提高攻击."/>
+	<entry name="ChaosSpaceMarines/BloodRage" value="鲜血之怒"/>
+	<entry name="ChaosSpaceMarines/BloodRageDescription" value="提高近战攻击和移动."/>
+	<entry name="ChaosSpaceMarines/BloodRageFlavor" value="地狱兽向附近的敌人发起进攻, 遭到诅咒的无畏机甲将陷入彻底的疯狂."/> <!-- Hellbrute Crazed result. -->
+	<entry name="ChaosSpaceMarines/BoltDamage" value="亚空间弹药"/>
+	<entry name="ChaosSpaceMarines/BoltDamageDescription" value="提高护甲穿透效果."/>
+	<entry name="ChaosSpaceMarines/BoltDamageFlavor" value="与帝国弹药和背叛者军团弹药所不同的是, 亚空间弹药能够直接突破次元壁垒, 向目标带来巨大的化学爆炸."/>
+	<entry name="ChaosSpaceMarines/CityTier2" value="黑暗之神的召唤"/>
+	<entry name="ChaosSpaceMarines/CityTier2Description" value="提高能够占领的土地半径."/>
+	<entry name="ChaosSpaceMarines/CityTier2Flavor" value="帝国的居民听信任何谎言, 相信任何传说, 认为自己并未遭到诅咒. 可悲的是, 这样的方式是毁灭性的. 混沌大门已经敞开—迷失和诅咒之人将会义无反顾地进入."/>
+	<entry name="ChaosSpaceMarines/CityTier3" value="厄运枢纽"/>
+	<entry name="ChaosSpaceMarines/CityTier3Description" value="提高能够占领的土地半径."/>
+	<entry name="ChaosSpaceMarines/CityTier3Flavor" value="崇尚混沌之人已经撕去了他们的伪装. 现在, 他们将用鞭子和锁链来囚禁灵魂. 成群结队的奴隶和战士在城市中寻找用来献祭的生命. 只有最强者才能够逃脱追捕; 而弱者只能被混沌所粉碎."/>
+	<entry name="ChaosSpaceMarines/Crazed" value="狂乱"/>
+	<entry name="ChaosSpaceMarines/CrazedDescription" value="如果该单位在上一回合受到伤害, 它将在一回合内随机获得一种特质效果: 烈焰之怒, 爆发之怒, 鲜血之怒."/>
+	<entry name="ChaosSpaceMarines/CrazedFlavor" value="所有的地狱兽都是危险的怪兽—即便是久经沙场的老兵也会变得精神错乱. 因此向地狱兽发起进攻是合理的, 但你无法摧毁它, 你只会让它更加愤怒和疯狂."/> <!-- Hellbrute. -->
+	<entry name="ChaosSpaceMarines/ChampionOfChaos" value="混沌勇士"/>
+	<entry name="ChaosSpaceMarines/ChampionOfChaosDescription" value="杀死一名敌人有几率使该单位获得混沌之赐效果. 若为非英雄单位则还将有几率变异为混沌之卵或恶魔王子."/>
+	<entry name="ChaosSpaceMarines/ChampionOfChaosFlavor" value="混沌力量赐予那些奇怪的东西和变异体并不罕见. 并不是所有的恩赐都是有益的—黑暗之神变幻莫测, 那些最狂热的信徒也不过是游戏中的小卒而已."/>
+	<entry name="ChaosSpaceMarines/CrystallineBody" value="结晶躯体"/>
+	<entry name="ChaosSpaceMarines/CrystallineBodyDescription" value="混沌之赐能够提高生命值."/>
+	<entry name="ChaosSpaceMarines/CrystallineBodyFlavor" value="勇士的血肉化为钻石."/>
+	<entry name="ChaosSpaceMarines/CultistSacrifice" value="<string name='Actions/ChaosSpaceMarines/CultistSacrifice'/>"/>
+	<entry name="ChaosSpaceMarines/CultistSacrificeDescription" value="提高增长率."/>
+	<entry name="ChaosSpaceMarines/CultistSacrificeFlavor" value="<string name='Actions/ChaosSpaceMarines/CultistSacrificeFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/Daemonforge" value="<string name='Actions/ChaosSpaceMarines/Daemonforge'/>"/>
+	<entry name="ChaosSpaceMarines/DaemonforgeDescription" value="提高伤害和护甲穿透."/>
+	<entry name="ChaosSpaceMarines/DaemonforgeFlavor" value="<string name='Actions/ChaosSpaceMarines/DaemonforgeFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/DarkGlory" value="<string name='Actions/ChaosSpaceMarines/DarkGlory'/>"/>
+	<entry name="ChaosSpaceMarines/DarkGloryDescription" value="<string name='Actions/ChaosSpaceMarines/DarkGloryDescription'/>"/>
+	<entry name="ChaosSpaceMarines/DarkGloryFlavor" value="<string name='Actions/ChaosSpaceMarines/DarkGloryFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/DevourerOfSouls" value="灵魂吞噬者"/>
+	<entry name="ChaosSpaceMarines/DevourerOfSoulsDescription" value="每次杀死一名敌方单位将每回合恢复生命值."/>
+	<entry name="ChaosSpaceMarines/DevourerOfSoulsFlavor" value="剧毒爬行者也许是亚空间铁匠最复杂的造物, 这是一种如蜘蛛一般的恶魔引擎, 能够吞噬任何恶魔实体—以及活物."/> <!-- Venomcrawler -->
+	<entry name="ChaosSpaceMarines/DirgeCaster" value="<string name='Actions/ChaosSpaceMarines/DirgeCaster'/>"/>
+	<entry name="ChaosSpaceMarines/DirgeCasterDescription" value="阻止该单位进行掩护."/>
+	<entry name="ChaosSpaceMarines/DirgeCasterFlavor" value="<string name='Actions/ChaosSpaceMarines/DirgeCasterFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/FireFrenzy" value="烈焰之怒"/>
+	<entry name="ChaosSpaceMarines/FireFrenzyDescription" value="降低移动并提高远程攻击."/>
+	<entry name="ChaosSpaceMarines/FireFrenzyFlavor" value="作为对于可怜凡人的回应, 地狱兽无情地卸下自己的武器, 发出了震耳欲聋的咆哮."/> <!-- Hellbrute Crazed result. -->
+	<entry name="ChaosSpaceMarines/DeferredAbsolution" value="<string name='Actions/ChaosSpaceMarines/DeferredAbsolution'/>"/>
+	<entry name="ChaosSpaceMarines/DeferredAbsolutionDescription" value="提高无敌伤害减免效果."/>
+	<entry name="ChaosSpaceMarines/DeferredAbsolutionFlavor" value="<string name='Actions/ChaosSpaceMarines/DeferredAbsolutionFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/GiftOfMutation" value="变异之赐"/>
+	<entry name="ChaosSpaceMarines/GiftOfMutationDescription" value="在下回合开始时, 该单位随机获得另一个已解锁的混沌之赐并替换当前特质."/>
+	<entry name="ChaosSpaceMarines/GiftOfMutationFlavor" value="黑暗之神赐予勇士一个恶意的玩笑. 它需要安装在舌头上, 但上面却布满了尖刺."/>
+	<entry name="ChaosSpaceMarines/GraspingPseudopods" value="抓握之荚"/>
+	<entry name="ChaosSpaceMarines/GraspingPseudopodsDescription" value="提高近战攻击."/>
+	<entry name="ChaosSpaceMarines/GraspingPseudopodsFlavor" value="混沌之卵上的触手疯狂地拍打着附近的敌人. 如果靠得太近, 它们就将在一瞬间包裹目标, 然后用牙齿把它们撕碎."/> <!-- MutatedBeyondReason result. -->
+	<entry name="ChaosSpaceMarines/IchorBlood" value="<string name='Actions/ChaosSpaceMarines/IchorBlood'/>"/>
+	<entry name="ChaosSpaceMarines/IchorBloodDescription" value="<string name='Actions/ChaosSpaceMarines/IchorBloodDescription'/>"/>
+	<entry name="ChaosSpaceMarines/IchorBloodFlavor" value="<string name='Actions/ChaosSpaceMarines/IchorBloodFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/IconOfDespair" value="<string name='Actions/ChaosSpaceMarines/IconOfDespair'/>"/>
+	<entry name="ChaosSpaceMarines/IconOfDespairDescription" value="在受到被恐惧敌人攻击时提高近战伤害减免效果."/>
+	<entry name="ChaosSpaceMarines/IconOfDespairFlavor" value="<string name='Actions/ChaosSpaceMarines/IconOfDespairFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/IconOfExcess" value="<string name='Actions/ChaosSpaceMarines/IconOfExcess'/>"/>
+	<entry name="ChaosSpaceMarines/IconOfExcessDescription" value="提高伤害减免效果."/>
+	<entry name="ChaosSpaceMarines/IconOfExcessFlavor" value="<string name='Actions/ChaosSpaceMarines/IconOfExcessFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/IconOfWrath" value="<string name='Actions/ChaosSpaceMarines/IconOfWrath'/>"/>
+	<entry name="ChaosSpaceMarines/IconOfWrathDescription" value="提高伤害."/>
+	<entry name="ChaosSpaceMarines/IconOfWrathFlavor" value="<string name='Actions/ChaosSpaceMarines/IconOfWrathFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/InfernalIndustry" value="<string name='Actions/ChaosSpaceMarines/InfernalIndustry'/>"/>
+	<entry name="ChaosSpaceMarines/InfernalIndustryDescription" value="<string name='Actions/ChaosSpaceMarines/InfernalIndustryDescription'/>"/>
+	<entry name="ChaosSpaceMarines/InfernalIndustryFlavor" value="<string name='Actions/ChaosSpaceMarines/InfernalIndustryFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/InfernalPower" value="<string name='Actions/ChaosSpaceMarines/InfernalPower'/>"/>
+	<entry name="ChaosSpaceMarines/InfernalPowerDescription" value="提高准确度和伤害."/>
+	<entry name="ChaosSpaceMarines/InfernalPowerFlavor" value="<string name='Actions/ChaosSpaceMarines/InfernalPowerFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/LasDamage" value="禁忌能量"/>
+	<entry name="ChaosSpaceMarines/LasDamageDescription" value="提高护甲穿透效果."/>
+	<entry name="ChaosSpaceMarines/LasDamageFlavor" value="黑暗机械神教拥有远超帝国禁忌科技的力量, 能够释放出更加致命和恐怖的威力."/>
+	<entry name="ChaosSpaceMarines/LasherTendrils" value="<string name='Actions/ChaosSpaceMarines/LasherTendrils'/>"/>
+	<entry name="ChaosSpaceMarines/LasherTendrilsDescription" value="降低近战攻击."/>
+	<entry name="ChaosSpaceMarines/LasherTendrilsFlavor" value="<string name='Actions/ChaosSpaceMarines/LasherTendrilsFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/LoathsomeAura" value="<string name='Actions/ChaosSpaceMarines/LoathsomeAura'/>"/>
+	<entry name="ChaosSpaceMarines/LoathsomeAuraDescription" value="提高无敌伤害减免效果."/>
+	<entry name="ChaosSpaceMarines/LoathsomeAuraFlavor" value="<string name='Actions/ChaosSpaceMarines/LoathsomeAuraFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/MalevolentLocus" value="<string name='Actions/ChaosSpaceMarines/MalevolentLocus'/>"/>
+	<entry name="ChaosSpaceMarines/MalevolentLocusDescription" value="每回合造成伤害."/>
+	<entry name="ChaosSpaceMarines/MalevolentLocusFlavor" value="<string name='Actions/ChaosSpaceMarines/MalevolentLocusFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/MaliciousVolleys" value="恶毒齐射"/>
+	<entry name="ChaosSpaceMarines/MaliciousVolleysDescription" value="若单位保持静止则会施展急速射击, 并增加射程内的攻击."/>
+	<entry name="ChaosSpaceMarines/MaliciousVolleysFlavor" value="对于阿斯塔特异教徒而言, 爆矢枪不仅仅是一种武器, 还是他愤怒的工具和敌人的死亡使者."/>
+	<entry name="ChaosSpaceMarines/MarkOfKhorne" value="<string name='Actions/ChaosSpaceMarines/MarkOfKhorne'/>"/>
+	<entry name="ChaosSpaceMarines/MarkOfKhorneDescription" value="提高攻击."/>
+	<entry name="ChaosSpaceMarines/MarkOfKhorneFlavor" value="<string name='Actions/ChaosSpaceMarines/MarkOfKhorneFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/MarkOfNurgle" value="<string name='Actions/ChaosSpaceMarines/MarkOfNurgle'/>"/>
+	<entry name="ChaosSpaceMarines/MarkOfNurgleDescription" value="提高生命值."/>
+	<entry name="ChaosSpaceMarines/MarkOfNurgleFlavor" value="<string name='Actions/ChaosSpaceMarines/MarkOfNurgleFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/MarkOfSlaanesh" value="<string name='Actions/ChaosSpaceMarines/MarkOfSlaanesh'/>"/>
+	<entry name="ChaosSpaceMarines/MarkOfSlaaneshDescription" value="提高移动."/>
+	<entry name="ChaosSpaceMarines/MarkOfSlaaneshFlavor" value="<string name='Actions/ChaosSpaceMarines/MarkOfSlaaneshFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/MarkOfTzeentch" value="<string name='Actions/ChaosSpaceMarines/MarkOfTzeentch'/>"/>
+	<entry name="ChaosSpaceMarines/MarkOfTzeentchDescription" value="提高伤害减免效果."/>
+	<entry name="ChaosSpaceMarines/MarkOfTzeentchFlavor" value="<string name='Actions/ChaosSpaceMarines/MarkOfTzeentchFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/Mechanoid" value="机甲"/>
+	<entry name="ChaosSpaceMarines/MechanoidDescription" value="混沌之赐将提高护甲."/>
+	<entry name="ChaosSpaceMarines/MechanoidFlavor" value="勇士的血肉和护甲融合在一起."/>
+	<entry name="ChaosSpaceMarines/MeleeDamage" value="联结武器"/>
+	<entry name="ChaosSpaceMarines/MeleeDamageDescription" value="提高护甲穿透效果."/>
+	<entry name="ChaosSpaceMarines/MeleeDamageFlavor" value="士兵信奉自己的武器是正常的—但反叛者军团却不止如此. 数个世纪以来, 阿斯塔特战会在武器上获得了长足发展, 成为了同时装备枪械和利刃的军队, 极大地提高了战斗效果."/>
+	<entry name="ChaosSpaceMarines/MutatedBeyondReason" value="无序变异"/>
+	<entry name="ChaosSpaceMarines/MutatedBeyondReasonDescription" value="在每回合开始前, 单位将在该回合获得一个随机变异效果: 抓握之荚, 皮下护甲, 中毒出血."/>
+	<entry name="ChaosSpaceMarines/MutatedBeyondReasonFlavor" value="当它们被神祇所遗弃, 混沌崇拜者将遭到同样程度的祝福和诅咒, 然后化为混沌之卵—不断地变异, 在神祇的执念中不断地发展出新的特征."/>
+	<entry name="ChaosSpaceMarines/Possession" value="<string name='Actions/ChaosSpaceMarines/Possession'/>"/>
+	<entry name="ChaosSpaceMarines/PossessionDescription" value="<string name='Actions/ChaosSpaceMarines/PossessionDescription'/>"/>
+	<entry name="ChaosSpaceMarines/PossessionFlavor" value="<string name='Actions/ChaosSpaceMarines/PossessionFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/PrinceOfChaos" value="<string name='Actions/ChaosSpaceMarines/PrinceOfChaos'/>"/>
+	<entry name="ChaosSpaceMarines/PrinceOfChaosDescription" value="提高准确度."/>
+	<entry name="ChaosSpaceMarines/PrinceOfChaosFlavor" value="<string name='Actions/ChaosSpaceMarines/PrinceOfChaosFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/ReservoirOfDaemonicEnergy" value="<string name='Actions/ChaosSpaceMarines/ReservoirOfDaemonicEnergy'/>"/>
+	<entry name="ChaosSpaceMarines/ReservoirOfDaemonicEnergyDescription" value="降低袭击的冷却时间."/>
+	<entry name="ChaosSpaceMarines/ReservoirOfDaemonicEnergyFlavor" value="<string name='Actions/ChaosSpaceMarines/ReservoirOfDaemonicEnergyFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/RiteOfBlood" value="<string name='Actions/ChaosSpaceMarines/RiteOfBlood'/>"/>
+	<entry name="ChaosSpaceMarines/RiteOfBloodDescription" value="提高生产产出."/>
+	<entry name="ChaosSpaceMarines/RiteOfBloodFlavor" value="<string name='Actions/ChaosSpaceMarines/RiteOfBloodFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/RiteOfChange" value="<string name='Actions/ChaosSpaceMarines/RiteOfChange'/>"/>
+	<entry name="ChaosSpaceMarines/RiteOfChangeDescription" value="提高生产和研究产出."/>
+	<entry name="ChaosSpaceMarines/RiteOfChangeFlavor" value="<string name='Actions/ChaosSpaceMarines/RiteOfChangeFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/RiteOfPestilence" value="<string name='Actions/ChaosSpaceMarines/RiteOfPestilence'/>"/>
+	<entry name="ChaosSpaceMarines/RiteOfPestilenceDescription" value="提高食物产出和增长率."/>
+	<entry name="ChaosSpaceMarines/RiteOfPestilenceFlavor" value="<string name='Actions/ChaosSpaceMarines/RiteOfPestilenceFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/RiteOfUnholyPleasure" value="<string name='Actions/ChaosSpaceMarines/RiteOfUnholyPleasure'/>"/>
+	<entry name="ChaosSpaceMarines/RiteOfUnholyPleasureDescription" value="提高影响力和忠诚度产出."/>
+	<entry name="ChaosSpaceMarines/RiteOfUnholyPleasureFlavor" value="<string name='Actions/ChaosSpaceMarines/RiteOfUnholyPleasureFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/RisingFury" value="爆发之怒"/>
+	<entry name="ChaosSpaceMarines/RisingFuryDescription" value="提高近战攻击."/>
+	<entry name="ChaosSpaceMarines/RisingFuryFlavor" value="地狱兽变得极端愤怒, 它把怒火倾洒在周围的任何东西上."/> <!-- Hellbrute Crazed result. -->
+	<entry name="ChaosSpaceMarines/ShatterDefences" value="<string name='Actions/ChaosSpaceMarines/ShatterDefences'/>"/>
+	<entry name="ChaosSpaceMarines/ShatterDefencesDescription" value="降低远程伤害减免效果."/>
+	<entry name="ChaosSpaceMarines/ShatterDefencesFlavor" value="<string name='Actions/ChaosSpaceMarines/ShatterDefencesFlavor'/>"/>
+	<entry name="ChaosSpaceMarines/SiegeCrawler" value="攻城爬行者"/>
+	<entry name="ChaosSpaceMarines/SiegeCrawlerDescription" value="提高对堡垒单位的护甲穿透效果."/>
+	<entry name="ChaosSpaceMarines/SiegeCrawlerFlavor" value="重拳魔缺少远程武器, 对于如此大小的载具而言是不寻常的. 然而, 它们的灵活性以及各种各样的切割武器对于防御工事来说是一种巨大的威胁. 它们能够轻松发现其弱点并加以利用."/> <!-- Maulerfiend. -->
+	<entry name="ChaosSpaceMarines/SubcutaneousArmour" value="皮下护甲"/>
+	<entry name="ChaosSpaceMarines/SubcutaneousArmourDescription" value="提高护甲."/>
+	<entry name="ChaosSpaceMarines/SubcutaneousArmourFlavor" value="星际战士的护甲, 即便是反叛者军团, 基本上都融合了阿斯塔特战会特有的黑色强化物质. 在经过了数千年的演化, 许多混沌星际战士护甲已经与自己血肉和骨骼融合在了一起."/> <!-- MutatedBeyondReason result. -->
+	<entry name="ChaosSpaceMarines/TemporalDistortion" value="时间畸变"/>
+	<entry name="ChaosSpaceMarines/TemporalDistortionDescription" value="混沌之赐将提高移动."/>
+	<entry name="ChaosSpaceMarines/TemporalDistortionFlavor" value="勇士周围的时间发生了变化."/>
+	<entry name="ChaosSpaceMarines/ToxicHaemorrhage" value="中毒出血"/>
+	<entry name="ChaosSpaceMarines/ToxicHaemorrhageDescription" value="提高对步兵单位的伤害."/>
+	<entry name="ChaosSpaceMarines/ToxicHaemorrhageFlavor" value="混沌之卵喷发出恶臭的气体和令人作呕的液体, 沾染上的生物将会立刻暴毙而亡."/> <!-- MutatedBeyondReason result. -->
+	<entry name="ChaosSpaceMarines/VeteransOfTheLongWar" value="久经沙场的老兵"/>
+	<entry name="ChaosSpaceMarines/VeteransOfTheLongWarDescription" value="降低士气损失, 提高步兵单位对星际战士阵营单位的近战准确度."/>
+	<entry name="ChaosSpaceMarines/VeteransOfTheLongWarFlavor" value="数个世纪以来, 许多混沌星际战士都一直处于一个持续不断的残酷战争之中. 对忠诚弟兄们的憎恨变得愈发强烈, 这让其他情愫都变得黯然失色. 最重要的是, 一万年前曾聚集在荷鲁斯旗帜前的九个背叛者军团将继续与他们的兄弟们战斗, 时至今日也未曾停息."/>
+	<entry name="ChaosSpaceMarines/WarpFrenzy" value="亚空间狂乱"/>
+	<entry name="ChaosSpaceMarines/WarpFrenzyDescription" value="混沌之赐将提高攻击."/>
+	<entry name="ChaosSpaceMarines/WarpFrenzyFlavor" value="勇士充满了愤怒."/>
+	<entry name="ChaosSpaceMarines/WorthyOffering" value="<string name='Actions/ChaosSpaceMarines/WorthyOffering'/>"/>
+	<entry name="ChaosSpaceMarines/WorthyOfferingDescription" value="<string name='Actions/ChaosSpaceMarines/WorthyOfferingDescription'/>"/>
+	<entry name="ChaosSpaceMarines/WorthyOfferingFlavor" value="<string name='Actions/ChaosSpaceMarines/WorthyOfferingFlavor'/>"/>
+	<entry name="ChapterUnity" value="团结一致"/>
+	<entry name="ChapterUnityDescription" value="提高忠诚度产出."/>
+	<entry name="ChapterUnityFlavor" value="大礼堂中摆放的遗迹时常让人回忆起阿斯塔特战会英雄们的过去. 总有一天, 他们的装甲, 武器和骸骨都会保存在这里."/>
+	<entry name="City" value="城市"/>
+	<entry name="CityDescription" value="提高友方单位的伤害减免效果和治疗速率. 降低单位的移动消耗. 提高步兵单位的远程伤害减免效果."/>
+	<entry name="ClusterMines" value="<string name='Weapons/ClusterMines'/>"/>
+	<entry name="ClusterMinesDescription" value="进入该位置时造成伤害."/>
+	<entry name="ClusterMinesFlavor" value="<string name='Weapons/ClusterMinesFlavor'/>"/>
+	<entry name="CombatShield" value="战斗护盾"/>
+	<entry name="CombatShieldDescription" value="提高伤害减免效果."/>
+	<entry name="CombatShieldFlavor" value="战斗护盾是风暴之盾的轻型版本, 既能够让使用者腾出另一只手来操作武器, 同时也能够提供足够的保护来抵挡攻击."/>
+	<entry name="CompendiumFlavor" value="如果第41千年中的战士都是一样的话, 那么这些战争将完全变成一个人力问题—人类本该在很久之前就能够拿下胜利. 相反, 每一个种族的军队和战士都拥有自己的特质, 这也使得他们中的一些能够成为某些情况下的理想选择—然后让他们惊恐地暴露在其他人面前."/>
+	<entry name="Concussion" value="震荡波"/>
+	<entry name="ConcussionDescription" value="降低准确度."/>
+	<entry name="Concussive" value="震荡"/>
+	<entry name="ConcussiveDescription" value="暂时降低目标步兵单位的准确度."/>
+	<entry name="ConcussiveFlavor" value="有些武器就是要让敌人变得失去方向, 这样才能够更好地消灭."/>
+	<entry name="ConvergentTargeting" value="收敛目标"/>
+	<entry name="ConvergentTargetingDescription" value="位于雷霆之火加农炮旁边时提高准确度."/>
+	<entry name="CultAmbush" value="狂热伏击"/>
+	<entry name="CultAmbushDescription" value="提高掩护的准确度."/>
+	<entry name="CultAmbushFlavor" value="基因窃取者教派在发动每一次袭击前都会精心策划, 当融为一体时他们的策略总能获得各种优势."/>
+	<entry name="Daemon" value="守护神"/>
+	<entry name="DaemonDescription" value="提高伤害减免效果."/>
+	<entry name="DaemonFlavor" value="亚空间生物数量庞大, 种类繁多, 但它们拥有着一些共同特征."/>
+	<entry name="Damaged" value="受损"/>
+	<entry name="DamagedDescription" value="降低准确度."/>
+	<entry name="Deathshriek" value="死亡尖啸"/>
+	<entry name="DeathshriekDescription" value="死亡时造成伤害."/>
+	<entry name="DeathshriekFlavor" value="在本影怪死后, 周围所有人都看到了一个幻象—很久以前的生物被撕成了碎片并被扔进了亚空间, 同时一个恐怖而诱惑的声音响起, 低语着诅咒… “徘徊…”"/>
+	<entry name="DeedsOfGlory" value="荣耀事迹"/>
+	<entry name="DeedsOfGloryDescription" value="<string name='Actions/DeedsOfGloryDescription'/>"/>
+	<entry name="DestroyerWeapon" value="毁灭者武器"/>
+	<entry name="DestroyerWeaponDescription" value="提高伤害和护甲穿透效果."/>
+	<entry name="DevastatorDoctrine" value="毁灭者准则"/>
+	<entry name="DevastatorDoctrineDescription" value="提高准确度."/>
+	<entry name="DevastatorDoctrineFlavor" value="<string name='Actions/DevastatorDoctrineFlavor'/>"/>
+	<entry name="Discipline" value="戒律"/>
+	<entry name="DisciplineDescription" value="提高准确度."/>
+	<entry name="DisciplineFlavor" value="<string name='Actions/AuraOfDisciplineFlavor'/>"/>
+	<entry name="DistortScythe" value="扭曲之镰"/>
+	<entry name="DistortScytheDescription" value="提高伤害."/>
+	<entry name="DistortScytheFlavor" value="<string name='Weapons/DistortionFlavor'/>"/>
+	<entry name="DogmaAstrates" value="阿斯塔特教条"/>
+	<entry name="DogmaAstratesDescription" value="<string name='Actions/DogmaAstratesDescription'/>"/>
+	<entry name="DogmaAstratesFlavor" value="<string name='Actions/DogmaAstratesFlavor'/>"/>
+	<entry name="DozerBlade" value="推土机铲刀"/>
+	<entry name="DozerBladeDescription" value="降低在森林和帝国废墟中的移动惩罚效果."/>
+	<entry name="DozerBladeFlavor" value="推土机铲刀能够为载具清理前方的障碍."/>
+	<entry name="EavyArmour" value="'重型装甲"/>
+	<entry name="EavyArmourDescription" value="提高护甲."/>
+	<entry name="EavyArmourFlavor" value="欧克兽人的重型装甲是由废铁, 金属薄板以及战场上检获的敌人装甲所打造而成的. 尽管合不合适是个问题, 但起码能够为穿戴者带来坚实的防御能力."/>
+	<entry name="Eldar/AerobaticGrace" value="优雅特技"/>
+	<entry name="Eldar/AerobaticGraceDescription" value="若单位在回合已经移动则获得远程伤害减免效果."/>
+	<entry name="Eldar/AerobaticGraceFlavor" value="虽然丑角才是艾达灵族中真正的舞蹈大师, 但闪耀之矛控制着喷气摩托冲向敌人时, 旋转着的爆矢火焰风暴将如同舞蹈一般追击着他们."/>
+	<entry name="Eldar/AircraftBuildingBonus" value="库尔那斯的召唤"/>
+	<entry name="Eldar/AircraftBuildingBonusDescription" value="提高生产产出."/>
+	<entry name="Eldar/AircraftBuildingBonusFlavor" value="绯红猎手信奉艾达灵族的狩猎之神, 库尔那斯. 尽管已经死去了六千万年, 但他的名声依然为人们所熟知."/>
+	<entry name="Eldar/AncientDoom" value="远古厄运"/>
+	<entry name="Eldar/AncientDoomDescription" value="提高对混沌单位的准确度和伤害."/>
+	<entry name="Eldar/AncientDoomFlavor" value="艾达灵族厌恶并惧怕饥渴者, 因为色孽让他们看到了自己的厄运."/>
+	<entry name="Eldar/AssaultWeaponBonus" value="亚分子弹药"/>
+	<entry name="Eldar/AssaultWeaponBonusDescription" value="提高护甲穿透."/>
+	<entry name="Eldar/AssaultWeaponBonusFlavor" value="艾达灵族特殊的弹药由高速射击的单分子旋刃组成. 但如果是更小, 更致命结构的话, 分子还是拥有一定的局限性."/>
+	<entry name="Eldar/AssuredDestruction" value="既定毁灭"/>
+	<entry name="Eldar/AssuredDestructionDescription" value="提高对载具的伤害."/>
+	<entry name="Eldar/AssuredDestructionFlavor" value="“如果一名队长愚蠢到让五名装备了热熔枪并且拥有数千年战斗经验的艾达灵族距离他的坦克20米之内…那么, 坦率地说, 他应该被扔进地下的熔浆池里.”<br/>  — 政委格鲁伯."/>
+	<entry name="Eldar/AsuryaniArrivals" value="<string name='Actions/Eldar/AsuryaniArrivals'/>"/>
+	<entry name="Eldar/AsuryaniArrivalsDescription" value="<string name='Actions/Eldar/AsuryaniArrivalsDescription'/>"/>
+	<entry name="Eldar/AsuryaniArrivalsFlavor" value="<string name='Actions/Eldar/AsuryaniArrivalsFlavor'/>"/>
+	<entry name="Eldar/AutarchsAssault" value="<string name='Actions/Eldar/AutarchsAssault'/>"/>
+	<entry name="Eldar/AutarchsAssaultDescription" value="提高伤害."/>
+	<entry name="Eldar/AutarchsAssaultFlavor" value="<string name='Actions/Eldar/AutarchsAssaultFlavor'/>"/>
+	<entry name="Eldar/AutarchsAssaultPassive" value="<string name='Actions/Eldar/AutarchsAssault'/>"/>
+	<entry name="Eldar/BansheeMask" value="女妖面具"/>
+	<entry name="Eldar/BansheeMaskDescription" value="<string name='Traits/InfiltrateDescription'/>"/>
+	<entry name="Eldar/BansheeMaskFlavor" value="这些面具能够放大艾达灵族的战斗怒吼, 带来更严重的精神创伤."/>
+	<entry name="Eldar/BattleFocus" value="战斗集中"/>
+	<entry name="Eldar/BattleFocusDescription" value="执行动作不消耗移动."/>
+	<entry name="Eldar/BattleFocusFlavor" value="当阿苏焉的信徒带上战争面具时, 他们将进入全神贯注的战斗姿态, 如同水银一般横穿战场, 轻而易举地就能消灭敌人."/>
+	<entry name="Eldar/CityTier2" value="放逐据点"/>
+	<entry name="Eldar/CityTier2Description" value="提高能够占领的土地半径."/>
+	<entry name="Eldar/CityTier2Flavor" value="尽管他们花费了数千年的时间追逐星辰, 一些方舟世界艾达灵族已经在放逐和未开发世界中度过了无数时光, 学会了如何以古老的方式开垦星球, 种植食物以及建造灵骨建筑."/>
+	<entry name="Eldar/CityTier3" value="开拓者基建"/>
+	<entry name="Eldar/CityTier3Description" value="提高能够占领的土地半径."/>
+	<entry name="Eldar/CityTier3Flavor" value="方舟世界的吟骨者正在学习开拓者们的建造设计. 尽管只在古老的方舟世界中实施过, 但第一次建造城市的想法对于他们而言是全新的."/>
+	<entry name="Eldar/Command" value="<string name='Actions/Eldar/Command'/>"/>
+	<entry name="Eldar/CommandDescription" value="提高准确度."/>
+	<entry name="Eldar/CommandFlavor" value="<string name='Actions/Eldar/CommandFlavor'/>"/>
+	<entry name="Eldar/ConstructionBuildingBonus" value="吟骨者圣典"/>
+	<entry name="Eldar/ConstructionBuildingBonusDescription" value="提高生产产出."/>
+	<entry name="Eldar/ConstructionBuildingBonusFlavor" value="吟骨者是稀有并且值得珍惜的—但成千上万的他们受到先知的召唤以占领这个独特的星球, 试图挽救他们那垂死的种族."/>
+	<entry name="Eldar/CrackShot" value="碎裂射击"/>
+	<entry name="Eldar/CrackShotDescription" value="提高准确度和护甲穿透效果."/>
+	<entry name="Eldar/CrackShotFlavor" value="火龙战士是令敌人闻风丧胆的坦克猎手, 它们的主教在前线鼓励着小队, 以带来更加巨大的毁灭."/>
+	<entry name="Eldar/CrystalTargetingMatrix" value="<string name='Actions/Eldar/CrystalTargetingMatrix'/>"/>
+	<entry name="Eldar/CrystalTargetingMatrixDescription" value="<string name='Actions/Eldar/CrystalTargetingMatrixDescription'/>"/>
+	<entry name="Eldar/CrystalTargetingMatrixFlavor" value="<string name='Actions/Eldar/CrystalTargetingMatrixFlavor'/>"/>
+	<entry name="Eldar/Doom" value="<string name='Actions/Eldar/Doom'/>"/>
+	<entry name="Eldar/DoomDescription" value="提高受到的伤害."/>
+	<entry name="Eldar/DoomFlavor" value="<string name='Actions/Eldar/DoomFlavor'/>"/>
+	<entry name="Eldar/ExpertHunter" value="猎手专家"/>
+	<entry name="Eldar/ExpertHunterDescription" value="提高对巨兽单位, 载具和堡垒单位的伤害."/>
+	<entry name="Eldar/ExpertHunterFlavor" value="闪耀之矛的武器并没有太高的射程, 但他们的星辰之矛和激光之矛的威力令人难以置信, 因为其能够攻击到更大的目标, 并发现其弱点."/>
+	<entry name="Eldar/FoodBuildingBonus" value="精细耕作"/>
+	<entry name="Eldar/FoodBuildingBonusDescription" value="提高食物产出."/>
+	<entry name="Eldar/FoodBuildingBonusFlavor" value="艾达灵族如此强烈地感觉到, 即便是他们的食物也是艺术品, 那是由拥有千百年经验的美食工匠所培育而来的. 凭借广泛的原料和调味品, 他们能够以看似最简单的食品创造奇迹."/>
+	<entry name="Eldar/Forceshield" value="力场盾"/>
+	<entry name="Eldar/ForceshieldDescription" value="提高伤害减免效果."/>
+	<entry name="Eldar/ForceshieldFlavor" value="这些强大的力场盾几乎能够消除任何的打击."/>
+	<entry name="Eldar/HeavyWeaponBonus" value="瓦尔引擎"/>
+	<entry name="Eldar/HeavyWeaponBonusDescription" value="提高护甲穿透效果."/>
+	<entry name="Eldar/HeavyWeaponBonusFlavor" value="人类的等离子武器对于使用者来说同样是致命的, 但优雅的艾达灵族武器却没有这种危险. 现在, 在格雷迪厄斯, 一个偶然的发现让吟骨者和主教能够更好地集中他们的注意力."/>
+	<entry name="Eldar/HoloFields" value="全息力场"/>
+	<entry name="Eldar/HoloFieldsDescription" value="若单位在该回合移动则提高伤害减免效果."/>
+	<entry name="Eldar/HoloFieldsFlavor" value="利用动能来扭曲车辆的轮廓, 全息力场能够阻止敌人在战场上准确瞄准目标."/>
+	<entry name="Eldar/InfantryBuildingBonus" value="阿苏焉的召唤"/>
+	<entry name="Eldar/InfantryBuildingBonusDescription" value="提高生产产出."/>
+	<entry name="Eldar/InfantryBuildingBonusFlavor" value="阿苏曼是战士之道的创始人, 同时也是第一位凤凰领主, 外相神殿的创始人. 提到他的名字必然会吸引更多的勇士前往格雷迪厄斯, 为艾达灵族夺取这颗星球."/>
+	<entry name="Eldar/InfluenceBuildingBonus" value="莉莉丝的神谕"/>
+	<entry name="Eldar/InfluenceBuildingBonusDescription" value="提高影响力产出."/>
+	<entry name="Eldar/InfluenceBuildingBonusFlavor" value="很少有凡人具有先知那般的远见卓识—这种力量或许来自于失落的艾达灵族女神莉莉丝, 她曾预言了诸神将死于艾达灵族的手中. 她的神谕毫无疑问将吸引所有艾达灵族的目光…"/>
+	<entry name="Eldar/Jinx" value="厄运"/>
+	<entry name="Eldar/JinxDescription" value="降低护甲."/>
+	<entry name="Eldar/JinxFlavor" value="<string name='Actions/Eldar/ProtectJinxFlavor'/>"/>
+	<entry name="Eldar/KhaineAwakened" value="<string name='Actions/Eldar/KhaineAwakened'/>"/>
+	<entry name="Eldar/KhaineAwakenedDescription" value="提高近战攻击和近战伤害, 降低士气损失并免疫恐惧和定身."/>
+	<entry name="Eldar/KhaineAwakenedFlavor" value="<string name='Actions/Eldar/KhaineAwakenedFlavor'/>"/>
+	<entry name="Eldar/KhainesMight" value="<string name='Actions/Eldar/KhainesMight'/>"/>
+	<entry name="Eldar/KhainesMightDescription" value="提高近战攻击."/>
+	<entry name="Eldar/KhainesMightFlavor" value="<string name='Actions/Eldar/KhainesMightFlavor'/>"/>
+	<entry name="Eldar/LinkedFire" value="<string name='Actions/Eldar/LinkedFire'/>"/>
+	<entry name="Eldar/LinkedFireDescription" value="提高棱镜加农炮的伤害和护甲穿透效果."/>
+	<entry name="Eldar/LinkedFireFlavor" value="<string name='Actions/Eldar/LinkedFireFlavor'/>"/>
+	<entry name="Eldar/MarksmansEye" value="射手之眼"/>
+	<entry name="Eldar/MarksmansEyeDescription" value="提高准确度."/>
+	<entry name="Eldar/MarksmansEyeFlavor" value="只有绯红猎手才会考虑驾驶最快, 最易操控的艾达灵族飞行器以应对如此少有的挑战, 以至于他们能够同时使用三种不同的武器来向敌人发起攻击."/>
+	<entry name="Eldar/MeleeWeaponBonus" value="亚分子面板"/>
+	<entry name="Eldar/MeleeWeaponBonusDescription" value="提高护甲穿透效果."/>
+	<entry name="Eldar/MeleeWeaponBonusFlavor" value="艾达灵族的单分子丝线和刀刃对于他们来说已经足够致命, 但在应用了最小化的额外相位技术后 (正如丑角剧团所使用的), 他们能够轻松穿透最厚重的护甲."/>
+	<entry name="Eldar/MindWar" value="<string name='Actions/Eldar/MindWar'/>"/>
+	<entry name="Eldar/MindWarDescription" value="降低准确度."/>
+	<entry name="Eldar/MindWarFlavor" value="<string name='Actions/Eldar/MindWarFlavor'/>"/>
+	<entry name="Eldar/MoltenBody" value="熔化躯体"/>
+	<entry name="Eldar/MoltenBodyDescription" value="免疫烈焰和热熔武器."/>
+	<entry name="Eldar/MoltenBodyFlavor" value="卡恩的化身不仅仅只是垂死之神的一个碎片—更确切的是, 它是一种极为炽热的钢铁结构, 其核心实际上是熔岩, 并且被艾达灵族的精神力量和来自神祇的不朽愤怒所包裹. 继续加热只会让它更为狂怒…"/>
+	<entry name="Eldar/OreBuildingBonus" value="高效提取"/>
+	<entry name="Eldar/OreBuildingBonusDescription" value="提高矿石产出."/>
+	<entry name="Eldar/OreBuildingBonusFlavor" value="艾达灵族所需的金属比其他种族少, 因为他们几乎所有的构造体和车辆都是以灵骨的灵能力量所具化的. 但他们依然需要一定数量的金属, 并且需要持续进行精炼."/>
+	<entry name="Eldar/PowerField" value="力量场"/>
+	<entry name="Eldar/PowerFieldDescription" value="提高伤害减免效果."/>
+	<entry name="Eldar/PowerFieldFlavor" value="力量场能够改变载具的能量供应, 以在其四周投射出一层散发着微光的保护层."/>
+	<entry name="Eldar/Protect" value="防护"/>
+	<entry name="Eldar/ProtectDescription" value="提高护甲."/>
+	<entry name="Eldar/ProtectFlavor" value="<string name='Actions/Eldar/ProtectJinxFlavor'/>"/>
+	<entry name="Eldar/RemnantsOfTheFall" value="堕落者遗迹"/>
+	<entry name="Eldar/RemnantsOfTheFallDescription" value="降低增长率."/>
+	<entry name="Eldar/RemnantsOfTheFallFlavor" value="自色孽诞生以来, 剩下的艾达灵族一直挣扎着在敌对星系中生存. 他们超长的寿命意味着生育率低下, 因此很难替换那些战死沙场的同伴. 在许多方舟世界, 死去的艾达灵族数量要远超那些还活着的人."/>
+	<entry name="Eldar/ResearchBuildingBonus" value="黑暗图书管理员"/>
+	<entry name="Eldar/ResearchBuildingBonusDescription" value="提高研究产出."/>
+	<entry name="Eldar/ResearchBuildingBonusFlavor" value="黑暗图书馆的先知将该任务委托给我们, 并且现在他们提供了支持. 通过访问档案馆, 我们应该能够重新发现失落已久的科技, 并更快地建立我们在这个星球上的立足点."/>
+	<entry name="Eldar/ReturnOfTheAeldari" value="<string name='Actions/Eldar/ReturnOfTheAeldari'/>"/>
+	<entry name="Eldar/ReturnOfTheAeldariDescription" value="<string name='Actions/Eldar/ReturnOfTheAeldariDescription'/>"/>
+	<entry name="Eldar/ReturnOfTheAeldariFlavor" value="<string name='Actions/Eldar/ReturnOfTheAeldariFlavor'/>"/>
+	<entry name="Eldar/RuneArmour" value="符文护甲"/>
+	<entry name="Eldar/RuneArmourDescription" value="提高伤害减免效果."/>
+	<entry name="Eldar/RuneArmourFlavor" value="艾达灵族灵能者为自己打造了一副优雅的盔甲, 上面装饰着灵骨符文. 据说符文护甲能够随着使用者的心跳而同步脉动, 以此来保护他们免受灵精神和实体上的攻击."/>
+	<entry name="Eldar/Scattershield" value="分布式护盾"/>
+	<entry name="Eldar/ScattershieldDescription" value="提高伤害减免效果, 并使步兵和巨兽单位攻击者致盲."/>
+	<entry name="Eldar/ScattershieldFlavor" value="分布式护盾用于保护珍贵的艾达灵族战争建筑, 是一种巨大的扇形护盾生成器, 能够将来犯的攻击能量转化为五彩缤纷的光芒."/>
+	<entry name="Eldar/SerpentShield" value="巨蛇护盾"/>
+	<entry name="Eldar/SerpentShieldDescription" value="当没有处于冷却时间时, 提高护甲."/>
+	<entry name="Eldar/SerpentShieldFlavor" value="<string name='Weapons/SerpentShieldFlavor'/>"/>
+	<entry name="Eldar/Skyhunter" value="猎空者"/>
+	<entry name="Eldar/SkyhunterDescription" value="提高对飞行单位的护甲穿透效果."/>
+	<entry name="Eldar/SkyhunterFlavor" value="一名失落的贝耶-坦主教灵魂被灌注至绯红猎手, 揭示了千年来艾达灵族与敌人作战的秘密. 重新发现的智慧将使我们能够以前所未有的姿态统御天空."/>
+	<entry name="Eldar/SpiritMark" value="<string name='Actions/Eldar/SpiritMark'/>"/>
+	<entry name="Eldar/SpiritMarkDescription" value="提高准确度."/>
+	<entry name="Eldar/SpiritMarkFlavor" value="<string name='Actions/Eldar/SpiritMarkFlavor'/>"/>
+	<entry name="Eldar/SpiritPreservation" value="灵魂保护"/>
+	<entry name="Eldar/SpiritPreservationDescription" value="死亡时获得能量."/>
+	<entry name="Eldar/SpiritPreservationFlavor" value="我们没有数量优势, 而饥渴者在亚空间中等待着, 试图吞噬我们的灵魂. 然而在死亡之际, 我们将通过灵魂之石来保存我们的精魄. 尽管每个艾达灵族都对这种想法感到震惊, 但恢复之后, 这些精魄将用来指导我们的战争机器."/>
+	<entry name="Eldar/SpiritStones" value="灵魂之石"/>
+	<entry name="Eldar/SpiritStonesDescription" value="降低士气损失."/>
+	<entry name="Eldar/SpiritStonesFlavor" value="一些艾达灵族载具拥有巨大的灵魂之石, 能够在车辆无法动作时继续对其进行控制."/>
+	<entry name="Eldar/StarEngines" value="星辰引擎"/>
+	<entry name="Eldar/StarEnginesDescription" value="提高移动."/>
+	<entry name="Eldar/StarEnginesFlavor" value="尽管所有的艾达灵族载具都是迅速而敏捷的, 但装备了星辰引擎的载具将拥有更快的速度. 弱小种族只能感叹它那惊人的速度和可操控性."/>
+	<entry name="Eldar/TitanHoloFields" value="泰坦全息力场"/>
+	<entry name="Eldar/TitanHoloFieldsDescription" value="<string name='Traits/Eldar/HoloFieldsDescription'/>"/>
+	<entry name="Eldar/TitanHoloFieldsFlavor" value="“我当时正在观看巢都世界中最好的灯光秀, 所有的一切都是如此令人着迷…然后我惊呆了, 无数人瞬间死去, 那个外星坦克在我的身边滚来滚去.”<br/>  — 步兵格兰德, 巢都第四师团唯一幸存者."/>
+	<entry name="Eldar/TranscendentBliss" value="<string name='Actions/Eldar/TranscendentBliss'/>"/>
+	<entry name="Eldar/TranscendentBlissDescription" value="<string name='Actions/Eldar/TranscendentBlissDescription'/>"/>
+	<entry name="Eldar/TranscendentBlissFlavor" value="<string name='Actions/Eldar/TranscendentBlissFlavor'/>"/>
+	<entry name="Eldar/VectorDancer" value="<string name='Actions/Eldar/VectorDancer'/>"/>
+	<entry name="Eldar/VectorDancerDescription" value="<string name='Actions/Eldar/VectorDancerDescription'/>"/>
+	<entry name="Eldar/VectorDancerFlavor" value="<string name='Actions/Eldar/VectorDancerFlavor'/>"/>
+	<entry name="Eldar/VectoredEngines" value="<string name='Actions/Eldar/VectoredEngines'/>"/>
+	<entry name="Eldar/VectoredEnginesDescription" value="<string name='Actions/Eldar/VectoredEnginesDescription'/>"/>
+	<entry name="Eldar/VectoredEnginesFlavor" value="<string name='Actions/Eldar/VectoredEnginesFlavor'/>"/>
+	<entry name="Eldar/VehicleBuildingBonus" value="瓦尔的召唤"/>
+	<entry name="Eldar/VehicleBuildingBonusDescription" value="提高生产产出."/>
+	<entry name="Eldar/VehicleBuildingBonusFlavor" value="从格雷迪厄斯回收的这块灵魂之石被证明是属于一名古老的吟骨者, 距今已经数千年. 借助他们对这颗星球结构和资源的洞察, 我们将能够极大地提高产量."/>
+	<entry name="Enslaved" value="奴役"/>
+	<entry name="EnslavedDescription" value="击杀奴役者以释放该单位."/>
+	<entry name="EreWeGo" value="开始了!"/>
+	<entry name="EreWeGoDescription" value="提高移动."/>
+	<entry name="EreWeGoFlavor" value="<string name='Actions/EreWeGoFlavor'/>"/>
+	<entry name="ExtraInfantryArmour" value="额外步兵装甲"/>
+	<entry name="ExtraInfantryArmourDescription" value="提高护甲."/>
+	<entry name="ExtraMonstrousCreatureArmour" value="额外巨兽生物护甲"/>
+	<entry name="ExtraMonstrousCreatureArmourDescription" value="提高护甲."/>
+	<entry name="ExtraVehicleArmour" value="额外载具装甲"/>
+	<entry name="ExtraVehicleArmourDescription" value="提高护甲."/>
+	<entry name="Fear" value="恐惧"/>
+	<entry name="FearDescription" value="每回合降低士气."/>
+	<entry name="FearFlavor" value="<string name='Actions/AuraOfFearFlavor'/>"/>
+	<entry name="Fearless" value="无所畏惧"/>
+	<entry name="FearlessDescription" value="降低士气损失并且免疫恐惧和定身效果."/>
+	<entry name="FearlessFlavor" value="无所畏惧的部队永不言弃, 并且很少完全利用掩护—尽管这样做会更加明智."/>
+	<entry name="FeelNoPain" value="无视痛苦"/>
+	<entry name="FeelNoPainDescription" value="提高伤害减免效果."/>
+	<entry name="FeelNoPainFlavor" value="不论是依靠意志的力量, 生物强化或者是邪恶魔法, 这名战士能够无视可怕的伤口, 继续战斗."/>
+	<entry name="Flail" value="连枷武器"/>
+	<entry name="FlailDescription" value="提高近战伤害减免效果."/>
+	<entry name="FlailFlavor" value="这些战士装备了连枷武器, 阻止攻击者靠近."/>
+	<entry name="Flame" value="烈焰"/>
+	<entry name="FlameDescription" value="分类."/>
+	<entry name="Fleet" value="舰队"/>
+	<entry name="FleetDescription" value="提高移动."/>
+	<entry name="FleetFlavor" value="这些战士非常敏捷, 能够比笨重的敌人更加迅速地占领地面."/>
+	<entry name="Fleshbane" value="血肉灾祸"/>
+	<entry name="FleshbaneDescription" value="提高对步兵单位的伤害."/>
+	<entry name="Flyer" value="飞行器"/>
+	<entry name="FlyerDescription" value="能够飞跃悬崖, 水域以及敌方单位. 无法占领神器或前哨站. 无视敌方地面单位的区域控制效果. 不会被地面近战武器攻击, 并且除了天火武器外很难被其他地面武器击中. 没有对重型和大炮武器的惩罚效果."/>
+	<entry name="FlyerFlavor" value="战斗机和轰炸机呼啸着飞向战场上空, 除了彼此之间进行空战格斗外它们还将为地面部队提供火力支援."/>
+	<entry name="Forest" value="森林"/>
+	<entry name="ForestDescription" value="提高步兵单位的远程伤害减免效果."/>
+	<entry name="ForestFlavor" value="<string name='Features/ForestFlavor'/>"/>
+	<entry name="ForestStealth" value="森林隐形"/>
+	<entry name="ForestStealthDescription" value="提高在森林中时的远程伤害减免效果."/>
+	<entry name="Fortification" value="堡垒"/>
+	<entry name="FortificationDescription" value="岿然不动的重型堡垒单位, 武装时能够控制临近的前哨站."/>
+	<entry name="FullThrottle" value="“全速出击!”"/>
+	<entry name="FullThrottleDescription" value="提高移动."/>
+	<entry name="FuelledByRage" value="怒火中烧"/>
+	<entry name="FuelledByRageDescription" value="当单位的生命值降低时提高其攻击."/>
+	<entry name="FuriousCharge" value="狂怒冲锋"/>
+	<entry name="FuriousChargeDescription" value="提高近战伤害."/>
+	<entry name="FuriousChargeFlavor" value="一些战士会利用冲锋的势头来点燃自己的怒火."/>
+	<entry name="Gargantuan" value="巨型怪兽"/>
+	<entry name="GargantuanDescription" value="分类."/>
+	<entry name="GargantuanFlavor" value="巨型怪兽拥有如此庞大的身躯, 几乎能够胜任整个军队的作战任务. 当它们出现在战场时地面都将为止震颤, 弱小的生物将被踩得粉碎."/>
+	<entry name="GargantuanCreature" value="<string name='Traits/Gargantuan'/>"/>
+	<entry name="GargantuanCreatureDescription" value="<string name='Traits/GargantuanDescription'/>"/>
+	<entry name="GargantuanCreatureFlavor" value="<string name='Traits/GargantuanFlavor'/>"/>
+	<entry name="Gauss" value="高斯"/>
+	<entry name="GaussDescription" value="造成的最低伤害将根据目标单位的生命值决定."/>
+	<entry name="GaussFlavor" value="<string name='Weapons/GaussFlavor'/>"/>
+	<entry name="GaussDamage" value="原子掠夺者"/>
+	<entry name="GaussDamageDescription" value="提高护甲穿透效果."/>
+	<entry name="GaussDamageFlavor" value="对于一个充斥着残酷, 怪诞与疯狂武器的星系而言, 高斯技术尤其令人感到恐惧. 爆矢枪会在身体内爆炸, 但高斯武器却能够一个原子一个原子将你活生生地分解殆尽."/>
+	<entry name="GetsHot" value="炽热"/>
+	<entry name="GetsHotDescription" value="每次远程武器射击时单位将失去一定的生命值."/>
+	<entry name="GetsHotFlavor" value="一些武器的能量来源非常不稳定, 每一次射击都会带来过热的风险—这对于使用者来说非常不利."/>
+	<entry name="Graviton" value="引力子"/>
+	<entry name="GravitonDescription" value="根据目标单位的护甲决定伤害."/>
+	<entry name="GravitonFlavor" value="有些武器能够轻松透过护甲碾碎敌人."/>
+	<entry name="Grenade" value="手雷"/>
+	<entry name="GrenadeDescription" value="分类."/>
+	<entry name="GrotRiggers" value="屁精操作员"/>
+	<entry name="GrotRiggersDescription" value="每回合恢复生命值."/>
+	<entry name="GrotRiggersFlavor" value="不论是匆忙地装上铆钉枪, 或者仅仅只是出去推车, 屁精操作员们能够保证欧克兽人的载具战斗足够长的时间."/>
+	<entry name="GroundAttack" value="地面进攻"/>
+	<entry name="GroundAttackDescription" value="只能以地面单位作为目标."/>
+	<entry name="GunnersKillOnSight" value="“火炮手, 杀无赦!”"/>
+	<entry name="GunnersKillOnSightDescription" value="提高远程攻击."/>
+	<entry name="HammerOfWrath" value="<string name='Actions/HammerOfWrath'/>"/>
+	<entry name="HammerOfWrathDescription" value="提高非炸弹武器的伤害."/>
+	<entry name="HammerOfWrathFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+	<entry name="Hammerhand" value="<string name='Actions/Hammerhand'/>"/>
+	<entry name="HammerhandDescription" value="<string name='Actions/HammerhandDescription'/>"/>
+	<entry name="HammerhandFlavor" value="<string name='Actions/HammerhandFlavor'/>"/>
+	<entry name="Hallucination" value="<string name='Actions/Hallucination'/>"/>
+	<entry name="HallucinationDescription" value="降低攻击."/>
+	<entry name="HallucinationFlavor" value="<string name='Actions/HallucinationFlavor'/>"/>
+	<entry name="HarvestResourceFeatures" value="收获资源地形"/>
+	<entry name="HarvestResourceFeaturesDescription" value="从临近特殊地形中收获资源."/>
+	<entry name="Haywire" value="狂乱"/>
+	<entry name="HaywireDescription" value="提高伤害并无视载具和堡垒的护甲."/>
+	<entry name="HaywireFlavor" value="狂乱武器能够释放强大的电磁脉冲."/>
+	<entry name="Headquarters" value="指挥中心"/>
+	<entry name="HeadquartersDescription" value="摧毁指挥中心单位意味着整座城市也将不复存在."/>
+	<entry name="HeavyWeapon" value="重型"/>
+	<entry name="HeavyWeaponDescription" value="降低移动后的准确度."/>
+	<entry name="HellstormTemplate" value="地狱风暴模块"/>
+	<entry name="HellstormTemplateDescription" value="<string name='Traits/BeamDescription'/>"/>
+	<entry name="Hero" value="英雄"/>
+	<entry name="HeroDescription" value="提高步兵单位的伤害减免效果."/>
+	<entry name="HeroFlavor" value="什么是英雄? 很多人将其定义为种族种某个勇敢无比, 聪明或者强大的成员. 可悲的是, 在任何一场看不到尽头的战争中, 英雄却是那些非常善于击杀对手, 并以某种方式最终存活下来的人."/>
+	<entry name="HighPower" value="高功率"/>
+	<entry name="HighPowerDescription" value="移动前激活."/>
+	<entry name="HitAndRun" value="打了就跑"/>
+	<entry name="HitAndRunDescription" value="无视敌人的控制区域."/>
+	<entry name="HitAndRunFlavor" value="一些部队会选择更加灵活的战斗姿态, 他们会在一瞬间出现在敌人面前, 干掉之后又会继续寻找下一个目标."/>
+	<entry name="Homing" value="归位"/>
+	<entry name="HomingDescription" value="不再需要视线."/>
+	<entry name="IgnoresCover" value="无视掩护"/>
+	<entry name="IgnoresCoverDescription" value="无视目标单位的远程伤害减免效果."/>
+	<entry name="IgnoresCoverFlavor" value="这件武器所发射出的弹药能够欺骗敌人的防护."/>
+	<entry name="Illuminated" value="照明"/>
+	<entry name="IlluminatedDescription" value="降低目标单位的远程伤害减免效果."/>
+	<entry name="Immobilized" value="无法动弹"/>
+	<entry name="ImmobilizedDescription" value="该单位无法移动."/>
+	<entry name="ImperialRuin" value="<string name='Features/ImperialRuin'/>"/>
+	<entry name="ImperialRuinDescription" value="提高步兵单位的远程伤害减免效果."/>
+	<entry name="ImperialRuinFlavor" value="<string name='Features/ImperialRuinFlavor'/>"/>
+	<entry name="ImperialSplendour" value="帝国的辉煌"/>
+	<entry name="ImperialSplendourDescription" value="提高影响力."/>
+	<entry name="ImperialSplendourFlavor" value="一名成功的星球管理者会通过帝国纪念碑来反应他所拥有的财富—比如巨型教堂以及星际战士, 原体以及帝皇的雕像."/>
+	<entry name="Infiltrate" value="渗透"/>
+	<entry name="InfiltrateDescription" value="防止单位成为掩护的目标."/>
+	<entry name="InfiltrateFlavor" value="许多军队都配备了侦察人员, 这些侦察兵能够隐蔽好几天, 只要等待恰当的时机就能够立即展开攻击."/>
+	<entry name="Invulnerable" value="无坚不摧"/>
+	<entry name="InvulnerableDescription" value="该单位不会受到伤害."/>
+	<entry name="IronHalo" value="钢铁光环"/>
+	<entry name="IronHaloDescription" value="提高伤害减免效果."/>
+	<entry name="IronHaloFlavor" value="钢铁光环是属于星际战士指挥官们的荣誉, 是其超凡勇气和智慧的象征. 钢铁光环一般会装在背包或者装甲内部, 它所含有的能量场能够抵御敌人最强大武器的伤害."/>
+	<entry name="IronWill" value="钢铁意志"/>
+	<entry name="IronWillDescription" value="<string name='Actions/IronWillDescription'/>"/>
+	<entry name="IronWillFlavor" value="<string name='Actions/IronWillFlavor'/>"/>
+	<entry name="ItWillNotDie" value="永不磨灭"/>
+	<entry name="ItWillNotDieDescription" value="每回合恢复生命值."/>
+	<entry name="ItWillNotDieFlavor" value="在星系中的黑暗角落, 一些生物拥有恐怖的复原能力."/>
+	<entry name="JetPack" value="喷射背包"/>
+	<entry name="JetPackDescription" value="单位能够在水上移动. 无视河流和铁线草的惩罚效果."/>
+	<entry name="JetPackFlavor" value="喷射背包旨在提供稳定的射击平台而不是近距离战斗的手段."/>
+	<entry name="Jetbike" value="喷气摩托"/>
+	<entry name="JetbikeDescription" value="该单位能够在水面上移动并无视河流和铁线草的惩罚效果."/>
+	<entry name="JetbikeFlavor" value="制造可靠, 小型而快速的掠行艇所需要的技术远比它的外表看上去困难得多, 这么多年来只有艾达灵族拥有这样的技术. 最近, 欧克兽人开发出了它们的笨重版本, 兽人直升机, 而太空死灵则拿出了它们深不可测的墓穴之刃."/>
+	<entry name="Jink" value="<string name='Actions/Jink'/>"/>
+	<entry name="JinkDescription" value="提高远程伤害减免效果, 但降低准确度."/>
+	<entry name="JinkFlavor" value="<string name='Actions/JinkFlavor'/>"/>
+	<entry name="Killshot" value="杀戮射击"/>
+	<entry name="KillshotDescription" value="位于友方掠食者旁边时, 提高对巨兽生物, 载具和堡垒单位的伤害."/>
+	<entry name="KillshotFlavor" value="很少有东西能够在掠食者刺杀小队面前活下来. 它们的星际战士炮手能够制造出交错的杀戮地带, 密集的加农炮攻击能够让哪怕是体型再巨大的异种生物或者战争机器瞬间被消灭."/>
+	<entry name="Lance" value="标枪"/>
+	<entry name="LanceDescription" value="限制目标单位的护甲值."/>
+	<entry name="LanceFlavor" value="坦克指挥官的恐怖在于, 他所指挥的标枪武器能够发射出高能射线, 哪怕是再厚的装甲也能够轻松摧毁."/>
+	<entry name="LargeBlast" value="大规模爆炸"/>
+	<entry name="LargeBlastDescription" value="<string name='Traits/BlastDescription'/>"/>
+	<entry name="LargeBlastFlavor" value="<string name='Weapons/BlastFlavor'/>"/>
+	<entry name="LastStand" value="破釜沉舟"/>
+	<entry name="LastStandDescription" value="提高士气."/>
+	<entry name="LastStandFlavor" value="“我们站在这里也许会骄傲的死去, 哪怕死亡的双手已经伸向了我们, 我们也要坚持到最后!”<br/>  — 咆哮狮鹫牧师, 阿曼德提图斯"/>
+	<entry name="LifeDrain" value="生命吸取"/>
+	<entry name="LifeDrainDescription" value="提高对步兵单位的伤害."/>
+	<entry name="LifeSteal" value="生命窃取"/>
+	<entry name="LifeStealDescription" value="将伤害转化为该单位及其临近步兵单位的生命值."/>
+	<entry name="LinebreakerBombardment" value="破线者轰炸"/>
+	<entry name="LinebreakerBombardmentDescription" value="位于友方维护者旁边时, 无视目标单位的远程伤害减免效果."/>
+	<entry name="Luminagen" value="发光"/>
+	<entry name="LuminagenDescription" value="暂时降低目标单位的远程伤害减免效果."/>
+	<entry name="LocatorBeacon" value="定位信标"/>
+	<entry name="LocatorBeaconDescription" value="当放置在该单位临近位置时, 轨道部署不消耗动作点数."/>
+	<entry name="LocatorBeaconFlavor" value="定位信标一般由摩托侦察兵携带或安装在空降舱上, 它提供了一个信号包, 广谱通信器以及地理定位装置. 激活后信标会将详细位置信息上传至战术网格, 待命部队此时就能够精准地进行支援."/>
+	<entry name="LowPower" value="低功率"/>
+	<entry name="LowPowerDescription" value="移动后激活."/>
+	<entry name="MachineEmpathy" value="机械共鸣"/>
+	<entry name="MachineEmpathyDescription" value="恢复生命值."/>
+	<entry name="MachineEmpathyFlavor" value="<string name='Actions/MachineEmpathyFlavor'/>"/>
+	<entry name="MannedWeapon" value="运载武器"/>
+	<entry name="MannedWeaponDescription" value="需要运载才能射击."/>
+	<entry name="MassiveBlast" value="超大规模爆炸"/>
+	<entry name="MassiveBlastDescription" value="<string name='Traits/BlastDescription'/>"/>
+	<entry name="MassiveBlastFlavor" value="<string name='Weapons/BlastFlavor'/>"/>
+	<entry name="MasterCrafted" value="匠心铸造"/>
+	<entry name="MasterCraftedDescription" value="提高准确度."/>
+	<entry name="MasterCraftedFlavor" value="有些武器是由人工精心制造的, 使用了一种失传已久的技艺. 尽管大师的造物拥有各不相同的形式, 但它始终被认为是武器匠艺术的巅峰之作."/>
+	<entry name="Melee" value="近战"/>
+	<entry name="MeleeDescription" value="无法进行掩护."/>
+	<entry name="MeleeFlavor" value="<string name='Weapons/MeleeFlavor'/>"/>
+	<entry name="Melta" value="热熔"/>
+	<entry name="MeltaDescription" value="提高在一半射程处的护甲穿透效果."/>
+	<entry name="MeltaFlavor" value="<string name='Weapons/MeltaFlavor'/>"/>
+	<entry name="MindControl" value="心灵控制"/>
+	<entry name="MindControlDescription" value="每回合降低士气."/>
+	<entry name="Misfortune" value="<string name='Actions/Misfortune'/>"/>
+	<entry name="MisfortuneDescription" value="提高受到的伤害."/>
+	<entry name="MisfortuneFlavor" value="<string name='Actions/MisfortuneFlavor'/>"/>
+	<entry name="Missing" value="未命中"/>
+	<entry name="MobRule" value="暴徒守则"/>
+	<entry name="MobRuleDescription" value="根据区域内友方单位的数量降低损失的士气."/>
+	<entry name="MobRuleFlavor" value="欧克兽人是大脑简单而又残忍的生物, 它们喜爱战斗, 会因为数量庞大而信心倍增."/>
+	<entry name="MobileCommand" value="机动命令"/>
+	<entry name="MobileCommandDescription" value="该运输单位输送装备的被动能力."/>
+	<entry name="MobileCommandFlavor" value="运输车辆通常是密封的, 装载于其中的部队在抵达目的地前将无法进行战斗(但能够获得很好地保护). 与射击孔所不同的是, 运输车辆的通讯设备却不会因为保护而打折扣, 比如帝国奇美拉就是很好地证明, 它能够让指挥官继续引领部队进行战斗."/>
+	<entry name="Monofilament" value="单丝"/>
+	<entry name="MonofilamentDescription" value="根据目标单位的最大移动决定准确度. 提高护甲穿透效果."/>
+	<entry name="MonofilamentFlavor" value="<string name='Weapons/MonofilamentFlavor'/>"/>
+	<entry name="MonstrousCreature" value="巨兽生物"/>
+	<entry name="MonstrousCreatureDescription" value="分类."/>
+	<entry name="MonstrousCreatureFlavor" value="这些巨大的生物拥有粉碎坦克的能力—比如泰伦虫族的刽子手, 在经过了生物工程改造和不断进化之后它们成为了凶猛的攻城武器."/>
+	<entry name="MoraleSoak" value="士气浸透"/>
+	<entry name="MoraleSoakDescription" value="根据目标的士气降低其伤害."/>
+	<entry name="MoveThroughCover" value="穿过掩护"/>
+	<entry name="MoveThroughCoverDescription" value="无视在森林和帝国废墟中的移动惩罚效果."/>
+	<entry name="MoveThroughCoverFlavor" value="一些战士拥有穿越崎岖和障碍地形的技巧."/>
+	<entry name="Necrons/AircraftBuildingBonus" value="神秘严酷"/>
+	<entry name="Necrons/AircraftBuildingBonusDescription" value="提高生产产出."/>
+	<entry name="Necrons/AircraftBuildingBonusFlavor" value="这块巨大的石头似乎不可能变得弯曲. 不过当太空死灵的飞行器穿过它时, 它却神奇地发生了延展和闪烁."/>
+	<entry name="Necrons/AttackCityBonus" value="静止目标"/>
+	<entry name="Necrons/AttackCityBonusDescription" value="提高攻击城市内单位的准确度."/>
+	<entry name="Necrons/AttackCityBonusFlavor" value="太空死灵的科技虽然都来自于布满尘土的远古墓穴, 但在过去的6000万年里, 很少有种族能够在操纵空间变换上与它们相提并论. 没有任何高墙, 地堡或者是激光防御网能够抵御这样的武器."/>
+	<entry name="Necrons/BlastDamage" value="分散目标"/>
+	<entry name="Necrons/BlastDamageDescription" value="提高护甲穿透效果."/>
+	<entry name="Necrons/BlastDamageFlavor" value="人类的瞄准系统是基于精确度实现的, 会尽量降低武器射击的分散程度. 与之相反的是, 太空死灵所拥有更加高级的瞄准系统会分散武器的攻击, 但依然能够提高每一次射击的命中."/>
+	<entry name="Necrons/BloodyCrusade" value="<string name='Actions/Necrons/BloodyCrusade'/>"/>
+	<entry name="Necrons/BloodyCrusadeDescription" value="提高伤害."/>
+	<entry name="Necrons/CityTier2" value="初步挖掘"/>
+	<entry name="Necrons/CityTier2Description" value="提高能够占领的土地半径."/>
+	<entry name="Necrons/CityTier2Flavor" value="奴隶们已经发掘出了更多古代城市遗迹, 它们现在正尝试修复这些已经深埋已久的建筑物."/>
+	<entry name="Necrons/CityTier3" value="地下城市"/>
+	<entry name="Necrons/CityTier3Description" value="提高能够占领的土地半径."/>
+	<entry name="Necrons/CityTier3Flavor" value="深埋已久的大墓地已经完全被发掘出来了, 一种摄人心魄的恐惧扑面而来."/>
+	<entry name="Necrons/ConstructionBuildingBonus" value="奴隶强化"/>
+	<entry name="Necrons/ConstructionBuildingBonusDescription" value="提高生产产出."/>
+	<entry name="Necrons/ConstructionBuildingBonusFlavor" value="对奴隶的身体和心灵进行一些改造, 就能够让它们睡得干得多. 当然前提是它们脆弱的身子撑得住."/>
+	<entry name="Necrons/CtanNecrodermis" value="星神骸体"/>
+	<entry name="Necrons/CtanNecrodermisDescription" value="提高伤害减免效果."/>
+	<entry name="Necrons/CtanNecrodermisBlast" value="星神骸体爆炸"/>
+	<entry name="Necrons/CtanNecrodermisBlastDescription" value="死亡时对附近单位造成伤害."/>
+	<entry name="Necrons/DefensiveProtocols" value="<string name='Actions/Necrons/DefensiveProtocols'/>"/>
+	<entry name="Necrons/DefensiveProtocolsDescription" value="提高护甲."/>
+	<entry name="Necrons/DestructionProtocols" value="<string name='Actions/Necrons/DestructionProtocols'/>"/>
+	<entry name="Necrons/DestructionProtocolsDescription" value="提高受到的伤害."/>
+	<entry name="Necrons/Dynasty" value="<string name='Actions/Necrons/Dynasty'/>"/>
+	<entry name="Necrons/DynastyDescription" value="<string name='Actions/Necrons/DynastyDescription'/>"/>
+	<entry name="Necrons/EnergyBuildingBonus" value="太空收集器"/>
+	<entry name="Necrons/EnergyBuildingBonusDescription" value="提高能量产出."/>
+	<entry name="Necrons/EnergyBuildingBonusFlavor" value="这座巴洛克式的石棺外部并没有发生什么变化—然而在它神秘的内部, 黑暗地宫技师的设备正在制造另一个更加先进的设备."/>
+	<entry name="Necrons/EntropicStrike" value="墒能打击"/>
+	<entry name="Necrons/EntropicStrikeDescription" value="造成的最低伤害将根据目标单位的生命值决定."/>
+	<entry name="Necrons/EternityGate" value="永恒之门"/>
+	<entry name="Necrons/EternityGateDescription" value="太空死灵单位能够传送至临近位置."/>
+	<entry name="Necrons/EternityGateFlavor" value="符石巨塔的永恒之门是一个连接战场和墓穴世界的维度通道. 只需向前一步, 太空死灵战士们就能够跨越极远的距离瞬间出现在战场."/>
+	<entry name="Necrons/GloomPrism" value="<string name='Actions/Necrons/GloomPrism'/>"/>
+	<entry name="Necrons/GloomPrismDescription" value="提高巫火伤害减免效果."/>
+	<entry name="Necrons/GloomPrismFlavor" value="<string name='Actions/Necrons/GloomPrismFlavor'/>"/>
+	<entry name="Necrons/GravityPulse" value="<string name='Actions/Necrons/GravityPulse'/>"/>
+	<entry name="Necrons/GravityPulseDescription" value="降低范围内飞行器, 喷气摩托和掠行艇的移动并对其造成伤害."/>
+	<entry name="Necrons/GrowthBonus" value="鼓舞仪式"/>
+	<entry name="Necrons/GrowthBonusDescription" value="提高增长率."/>
+	<entry name="Necrons/GrowthBonusFlavor" value="建立更为高效的协议来使太空死灵们从墓穴中恢复, 能够减少因笨拙的奴隶挖掘者所造成的损失."/>
+	<entry name="Necrons/HousingBuildingBonus" value="庇护所压缩"/>
+	<entry name="Necrons/HousingBuildingBonusDescription" value="提高人口上限."/>
+	<entry name="Necrons/HousingBuildingBonusFlavor" value="通过改变每一座庇护所的空间限制, 更多的太空死灵能够容纳在这里进行修理或维护."/>
+	<entry name="Necrons/ImmuneToNaturalLaw" value="违背自然"/>
+	<entry name="Necrons/ImmuneToNaturalLawDescription" value="该单位能够在水面上移动, 穿过敌人并无视河流和铁线草的惩罚效果."/>
+	<entry name="Necrons/InfantryBuildingBonus" value="核心提纯"/>
+	<entry name="Necrons/InfantryBuildingBonusDescription" value="提高生产产出."/>
+	<entry name="Necrons/InfantryBuildingBonusFlavor" value="在更好的工具和更少的限制下, 地宫技师能够以更快的速度来使被埋葬的太空死灵得以恢复."/>
+	<entry name="Necrons/InfluenceBuildingBonus" value="萦绕铭文"/>
+	<entry name="Necrons/InfluenceBuildingBonusDescription" value="提高影响力产出."/>
+	<entry name="Necrons/InfluenceBuildingBonusFlavor" value="任何注视着这些铭文的人类都会招来灾祸—它们那锐利的边缘似乎像是在眼边晃动, 把惊恐带入人的内心."/>
+	<entry name="Necrons/InvasionBeams" value="入侵射线"/>
+	<entry name="Necrons/InvasionBeamsDescription" value="卸载不消耗移动."/>
+	<entry name="Necrons/JetCharge" value="<string name='Actions/Necrons/JetCharge'/>"/>
+	<entry name="Necrons/JetChargeDescription" value="提高伤害减免效果."/>
+	<entry name="Necrons/LivingMetal" value="活体金属"/>
+	<entry name="Necrons/LivingMetalDescription" value="每回合恢复生命值."/>
+	<entry name="Necrons/LivingMetalFlavor" value="可以理解为何太空死灵会使用与身体构造相同的活体金属来建造它们的载具, 因为这样既能够保证其耐久性, 同时进行维修也会相当容易."/>
+	<entry name="Necrons/LoyaltyBuildingBonus" value="巴洛克盟约"/>
+	<entry name="Necrons/LoyaltyBuildingBonusDescription" value="提高忠诚度产出."/>
+	<entry name="Necrons/LoyaltyBuildingBonusFlavor" value="更多关于这座神殿的秘密被挖掘了出来, 尽管这个故事在沉默之王向星神展开复仇之前就已经结束了."/>
+	<entry name="Necrons/MeleeDamage" value="死灵之刃"/>
+	<entry name="Necrons/MeleeDamageDescription" value="提高护甲穿透效果."/>
+	<entry name="Necrons/MeleeDamageFlavor" value="这些极为纤薄的利刃是由太空死灵那不可思议的活体金属所制作而成, 能够不费吹灰之力切断绝大多数皮肤, 骨头和装甲."/>
+	<entry name="Necrons/Nebuloscope" value="星云镜"/>
+	<entry name="Necrons/NebuloscopeDescription" value="无视敌方远程伤害减免效果."/>
+	<entry name="Necrons/NebuloscopeFlavor" value="这座神秘的装置能够允许墓穴之刃的操作者从不同的维度定位其猎物, 让其无处可藏."/>
+	<entry name="Necrons/OreBuildingBonus" value="信赖的奴隶"/>
+	<entry name="Necrons/OreBuildingBonusDescription" value="提高矿石产出."/>
+	<entry name="Necrons/OreBuildingBonusFlavor" value="为古贤者造物所奴役的种族增添一些信仰并改变它们的命运是愚蠢的, 但至少能够提高生产力."/>
+	<entry name="Necrons/Chronometron" value="<string name='Actions/Necrons/Chronometron'/>"/>
+	<entry name="Necrons/ChronometronDescription" value="提高伤害减免效果."/>
+	<entry name="Necrons/ChronometronFlavor" value="<string name='Actions/Necrons/ChronometronFlavor'/>"/>
+	<entry name="Necrons/PhaseShiftGenerator" value="<string name='Actions/Necrons/PhaseShiftGenerator'/>"/>
+	<entry name="Necrons/PhaseShiftGeneratorDescription" value="提高无敌伤害减免效果."/>
+	<entry name="Necrons/PhaseShiftGeneratorFlavor" value="<string name='Actions/Necrons/PhaseShiftGeneratorFlavor'/>"/>
+	<entry name="Necrons/QuantumShielding" value="<string name='Actions/Necrons/QuantumShielding'/>"/>
+	<entry name="Necrons/QuantumShieldingDescription" value="提高无敌伤害减免效果."/>
+	<entry name="Necrons/QuantumShieldingFlavor" value="<string name='Actions/Necrons/QuantumShieldingFlavor'/>"/>
+	<entry name="Necrons/ReanimationProtocols" value="鼓舞协议"/>
+	<entry name="Necrons/ReanimationProtocolsDescription" value="每回合恢复生命值."/>
+	<entry name="Necrons/ReanimationProtocolsFlavor" value="太空死灵拥有尖端的自我修复系统, 能够让严重受伤的战士重新回到战斗中去."/>
+	<entry name="Necrons/Reaper" value="<string name='Actions/Necrons/Reaper'/>"/>
+	<entry name="Necrons/ReaperFlavor" value="<string name='Actions/Necrons/ReaperFlavor'/>"/>
+	<entry name="Necrons/ResearchBuildingBonus" value="地宫技师数据类别"/>
+	<entry name="Necrons/ResearchBuildingBonusDescription" value="提高研究产出."/>
+	<entry name="Necrons/ResearchBuildingBonusFlavor" value="研发新技术是地宫技师的职责所在—通过数据类别判断它们能够获得共享信息, 而无需冒着思维连接所带来的风险."/>
+	<entry name="Necrons/ShieldVane" value="盾牌叶片"/>
+	<entry name="Necrons/ShieldVaneDescription" value="提高护甲."/>
+	<entry name="Necrons/ShieldVaneFlavor" value="直接部署在敌人防守范围内的墓穴之刃通常都会装备额外的装甲面板."/>
+	<entry name="Necrons/SleepingSentry" value="<string name='Actions/Necrons/SleepingSentry'/>"/>
+	<entry name="Necrons/SleepingSentryDescription" value="使单位获得无敌伤害减免效果, 但无法移动或执行行动."/>
+	<entry name="Necrons/TargetRelayed" value="目标中继"/>
+	<entry name="Necrons/TargetRelayedDescription" value="提高太空死灵对该单位的远程伤害准确度."/>
+	<entry name="Necrons/TargetRelayedFlavor" value="<string name='Traits/Necrons/TargetingRelayFlavor'/>"/>
+	<entry name="Necrons/TargetingRelay" value="瞄准信标"/>
+	<entry name="Necrons/TargetingRelayDescription" value="暂时提高太空死灵对该目标单位的远程准确度."/>
+	<entry name="Necrons/TargetingRelayFlavor" value="三圣追猎者虽然看上去无比脆弱, 但它们独特的量子护盾能够让其保持一体, 使得其瞄准信标能够强化附近战士的火力."/>
+	<entry name="Necrons/Technomancer" value="机械巫师"/>
+	<entry name="Necrons/TechnomancerDescription" value="提高伤害减免效果."/>
+	<entry name="Necrons/VehiclesBuildingBonus" value="墓穴奴工"/>
+	<entry name="Necrons/VehiclesBuildingBonusDescription" value="提高生产产出."/>
+	<entry name="Necrons/VehiclesBuildingBonusFlavor" value="指派墓穴建造者维护和修理各类长期休眠的战争机器能够极大地加快其恢复速度."/>
+	<entry name="Necrons/VengeanceOfTheEnchained" value="束缚者的复仇"/>
+	<entry name="Necrons/VengeanceOfTheEnchainedDescription" value="死亡爆炸会造成额外的伤害."/>
+	<entry name="Necrons/WraithForm" value="冥灵形态"/>
+	<entry name="Necrons/WraithFormDescription" value="提高无敌伤害减免效果."/>
+	<entry name="Necrons/WraithFormFlavor" value="作为墓穴设备, 冥灵旨在维持太空死灵千年的沉睡, 除此之外还能够修复内部的故障组件. 现在她已经被唤醒, 类似技术的应用使得它能够毫发无损地穿过整个战场."/>
+	<entry name="Necrons/Wraithflight" value="冥灵飞行"/>
+	<entry name="Necrons/WraithflightDescription" value="<string name='Traits/Necrons/ImmuneToNaturalLawDescription'/>"/>
+	<entry name="Necrons/WraithflightFlavor" value="他们的空间稳定矩阵不仅让冥灵几乎无法被杀死 --- 还能够使它们穿过任何障碍, 无论是河流, 铁线草抑或是敌方战士."/>
+	<entry name="Necrons/WrithingWorldscape" value="<string name='Actions/Necrons/WrithingWorldscape'/>"/>
+	<entry name="NoEscape" value="无路可逃"/>
+	<entry name="NoEscapeDescription" value="提高对开敞型单位的攻击."/>
+	<entry name="OpenTopped" value="开敞型"/>
+	<entry name="OpenToppedDescription" value="分类."/>
+	<entry name="OpenToppedFlavor" value="一些载具由于装甲不足, 轻量化的结构使得它们更加容易受到伤害."/>
+	<entry name="OrationOfRestoration" value="恢复演说"/>
+	<entry name="OrationOfRestorationDescription" value="恢复生命值."/>
+	<entry name="Ordnance" value="大炮"/>
+	<entry name="OrdnanceDescription" value="提高对载具和堡垒单位的护甲穿透效果. 移动后无法为步兵单位使用."/>
+	<entry name="OrkoidFungus" value="兽人真菌"/>
+	<entry name="OrkoidFungusDescription" value="提高欧克兽人单位的治疗速率."/>
+	<entry name="OrkoidFungusFlavor" value="欧克兽人与遍布在星球上的真菌有着奇怪的共生关系—虽然它们与史奎格和屁精拥有相同的基因结构, 但所有的这些物种应该由真菌形成的, 而不是出生而来. 在战场上筋疲力尽的兽人单位只需撤退到拥有真菌的地方就能够立刻得到恢复."/>
+	<entry name="OrkoidFungusBonusHealingRate" value="真菌森林"/>
+	<entry name="OrkoidFungusBonusHealingRateDescription" value="欧克兽人地面单位每回合恢复生命值."/>
+	<entry name="OrkoidFungusBonusHealingRateFlavor" value="一旦欧克兽人真菌孢子遍布整个星球, 它们很快就会形成森林—尽管这些森林其实是巨大的蘑菇, 再然后就会喷射出野蛮的欧克兽人, 屁精和史奎格."/>
+	<entry name="OrkoidFungusFood" value="蘑菇生长"/>
+	<entry name="OrkoidFungusFoodDescription" value="提高食物产出."/>
+	<entry name="OrkoidFungusFoodFlavor" value="小小的鼻涕精与兽人一样, 都拥有同样的真菌基因结构. 然而所不同的是, 那些特别懒惰的鼻涕精可以重新回到真菌里然后变成巨型的半蘑菇生物, 对于欧克兽人而言这可是无比的美味."/>
+	<entry name="Orks/BigBoss" value="<string name='Actions/Orks/BigBoss'/>"/>
+	<entry name="Orks/BigBossDescription" value="提高生命值."/>
+	<entry name="Orks/BlastDamage" value="<string name='Traits/AstraMilitarum/BlastDamage'/>"/>
+	<entry name="Orks/BlastDamageDescription" value="<string name='Traits/AstraMilitarum/BlastDamageDescription'/>"/>
+	<entry name="Orks/BlastDamageFlavor" value="<string name='Traits/AstraMilitarum/BlastDamageFlavor'/>"/>
+	<entry name="Orks/BoltDamage" value="大弹头"/>
+	<entry name="Orks/BoltDamageDescription" value="<string name='Traits/AstraMilitarum/BoltDamageDescription'/>"/>
+	<entry name="Orks/BoltDamageFlavor" value="与星际战士的北海巨妖弹药类似, 兽人技师对枪管的改进能够使机枪容纳更大口径的弹药, 那些有幸获得这种武器的兽人可以好好地炫耀一番."/>
+	<entry name="Orks/BonusBeastsProduction" value="大鞭子"/>
+	<entry name="Orks/BonusBeastsProductionDescription" value="提高监工场的生产产出."/>
+	<entry name="Orks/BonusBeastsProductionFlavor" value="“我们需要更大的鞭子.”<br/>  — 监工斯诺特米尔在被史格古巨兽踩扁前如此说道"/>
+	<entry name="Orks/BonusColonizersProduction" value="废品锤"/>
+	<entry name="Orks/BonusColonizersProductionDescription" value="提高技师小院的生产产出."/>
+	<entry name="Orks/BonusColonizersProductionFlavor" value="当没有足够的小尺寸废料来建造它们的'作品'时, 兽人技师就会发明一些奇怪又奇妙的机器来从被征服的世界里继续进行收集."/>
+	<entry name="Orks/BonusInfantryProduction" value="更多大枪"/>
+	<entry name="Orks/BonusInfantryProductionDescription" value="提高砰砰仓库的生产产出."/>
+	<entry name="Orks/BonusInfantryProductionFlavor" value="“这是我造出来最牛逼的一把机枪. 超多的弹药, 绝对致命. 试试这把火焰喷射枪, 它可以喷火. 是的, 它很棒. 那是炸弹…你都不需要开枪, 轰的一声啥都没了. 那个按钮…是最棒的东西. 能用来干啥? 你瞧, 它可以…可以… 呃, 没事儿, 老大. 啊, 你不需要知道这个按钮是做什么的… 老实说. 别按它!”<br/>  — 兽人技师纳兹达卡布斯尼克, 最后的遗言"/>
+	<entry name="Orks/BonusVehiclesProduction" value="修补工作"/>
+	<entry name="Orks/BonusVehiclesProductionDescription" value="提高急速狂热的生产产出."/>
+	<entry name="Orks/BonusVehiclesProductionFlavor" value="大多数欧克兽人的科技都是没有任何作用的—要么就是关键元件丢失, 或者是根本就无法实现. 欧克兽人的信念很简单—在哇!能量中觉醒—然后拿去填坑. 这也就是为什么加速欧克兽人载具和武器并不会提高质量的原因…"/>
+	<entry name="Orks/BustHeads" value="<string name='Actions/Orks/BustHeads'/>"/>
+	<entry name="Orks/BustHeadsDescription" value="降低士气损失."/>
+	<entry name="Orks/BustHeadsFlavor" value="<string name='Actions/Orks/BustHeadsFlavor'/>"/>
+	<entry name="Orks/ChannelMentalEmissions" value="<string name='Actions/Orks/ChannelMentalEmissions'/>"/>
+	<entry name="Orks/ChannelMentalEmissionsDescription" value="提高研究产出."/>
+	<entry name="Orks/CityEnergy" value="爆裂机件"/>
+	<entry name="Orks/CityEnergyDescription" value="提高能量产出."/>
+	<entry name="Orks/CityEnergyFlavor" value="这些功率放大设备的复杂引脚之间闪动着红色和绿色的电弧, 任何徘徊在附近的绿皮都会被炸成碎片. 这是广大绿皮所乐于见到的好家伙, 但由于缺少关键组件, 因此兽人技师关于增加了它能量输出的说法并不可信—更别说欧克兽人向来都是如此的不靠谱."/>
+	<entry name="Orks/CityGrowth" value="首领喇叭"/>
+	<entry name="Orks/CityGrowthDescription" value="提高增长率."/>
+	<entry name="Orks/CityGrowthFlavor" value="“啊, 我不想要这个…那个东西才更大!”<br/>  — 血耳莫夫里克"/>
+	<entry name="Orks/CityInfluence" value="大宝贝"/>
+	<entry name="Orks/CityInfluenceDescription" value="提高影响力产出."/>
+	<entry name="Orks/CityInfluenceFlavor" value="“我不知道它们是啥, 但我就是想要.”<br/>—战争首领尼特维兹, 在看到帝国教堂黄金大门时如是说"/>
+	<entry name="Orks/CityLoyalty" value="额外忠诚"/>
+	<entry name="Orks/CityLoyaltyDescription" value="提高忠诚度产出."/>
+	<entry name="Orks/CityLoyaltyFlavor" value="把敌人(或者是他们的残骸)高高挂起让所有兽人都看到, 没有什么比这更能激起兽人的斗志了."/>
+	<entry name="Orks/CityPopulationLimit" value="深入挖掘"/>
+	<entry name="Orks/CityPopulationLimitDescription" value="提高人口上限."/>
+	<entry name="Orks/CityPopulationLimitFlavor" value="兽人技师的最新创造能够让兽人窝棚和煅炉修建在城市地表以下. 虽然偶尔的垮塌会让倒霉的兽人哀嚎不已, 但能够腾出额外的空间就是值得的."/>
+	<entry name="Orks/CityResearch" value="恐怖房间"/>
+	<entry name="Orks/CityResearchDescription" value="提高研究产出."/>
+	<entry name="Orks/CityResearchFlavor" value="聪明的战争首领会投入大量的空间, 资源和时间来把兽人技师锁进一间小房子里, 命令它们创造出一些值得回报的好东西来."/>
+	<entry name="Orks/CityTier2" value="贫民区"/>
+	<entry name="Orks/CityTier2Description" value="提高能够占领的土地半径."/>
+	<entry name="Orks/CityTier2Flavor" value="在每一座要塞的城墙外都会有一座塞满了屁精, 史奎格, 鼻涕精和低等级兽人的贫民窟. 这里所充斥着的绿色真菌就是兽人世界的最好反映."/>
+	<entry name="Orks/CityTier3" value="破烂城市"/>
+	<entry name="Orks/CityTier3Description" value="提高能够占领的土地半径."/>
+	<entry name="Orks/CityTier3Flavor" value="战争首领的名声已经遍布整个星球, 伴随着的还有无形的哇!能量. 不论兽人在哪里出现, 它们都会受到一股无形力量的吸引, 来到战争首领所在的城市. 这也是为什么城市周围充满了大量贫民窟和窝棚的原因."/>
+	<entry name="Orks/CreateOrkoidFungusOnDeath" value="迅速分解"/>
+	<entry name="Orks/CreateOrkoidFungusOnDeathDescription" value="使单位死亡后能够制造兽人真菌."/>
+	<entry name="Orks/CreateOrkoidFungusOnDeathFlavor" value="“图表27: 由'孢子'所构成的异种, 编号#0451, 名为'欧克兽人'. 伙计, 你应该注意这些真菌的质地和微观结构. 我们推测, 这些'孢子'能够在肥沃的环境下产生新的'欧克兽人'. 当欧克兽人成熟(通常只需要30分钟)后, 它将会被立即排出—但在死亡时, 这些孢子将会大量释放出来. 请不要丢弃它.”<br/>  — 讲座笔录, “兽人爱好者”格里高曼德尔, 无赖商人兼业余异种学家"/>
+	<entry name="Orks/CyborkImplants" value="<string name='Actions/Orks/CyborkImplants'/>"/>
+	<entry name="Orks/CyborkImplantsDescription" value="提高伤害和伤害减免效果."/>
+	<entry name="Orks/ExtraBitz" value="<string name='Actions/Orks/ExtraBitz'/>"/>
+	<entry name="Orks/ExtraBitzDescription" value="降低食物, 矿石以及能量维护费."/>
+	<entry name="Orks/ExperimentalProcedure" value="<string name='Actions/Orks/ExperimentalProcedure'/>"/>
+	<entry name="Orks/ExperimentalProcedureDescription" value="提高伤害和伤害减免效果."/>
+	<entry name="Orks/Flyboss" value="飞行首领"/>
+	<entry name="Orks/FlybossDescription" value="提高对飞行器, 喷气摩托以及掠行艇的远程准确度."/>
+	<entry name="Orks/FlybossFlavor" value="飞行首领一般都是经历过无数战斗的王牌飞行员(哪怕是用脚操作的也算)."/>
+	<entry name="Orks/Gitfinda" value="搜寻者"/>
+	<entry name="Orks/GitfindaDescription" value="若单位保持静止则提高准确度."/>
+	<entry name="Orks/GitfindaFlavor" value="它们可以是复杂的仿生眼, 单眼头套, 超大望远镜或者是别的什么玩意. 搜索者能够让使用者的准确度提高到一个接近平均的水平."/>
+	<entry name="Orks/GreenTide" value="绿潮"/>
+	<entry name="Orks/GreenTideFlavor" value="欧克兽人很难被杀死. 就算看上去已经被消灭掉, 它们也有可能会出现在下一次的战斗里. 兽人们要么被医师救活要么就是奇迹般地好了—在积累了经验之后它们变得更加坚韧和强大."/>
+	<entry name="Orks/GreenTideGrowth" value="<string name='Traits/Orks/GreenTide'/>"/>
+	<entry name="Orks/GreenTideGrowthDescription" value="提高增长率."/>
+	<entry name="Orks/GreenTideGrowthFlavor" value="<string name='Traits/Orks/GreenTideFlavor'/>"/>
+	<entry name="Orks/GreenTideHealing" value="<string name='Traits/Orks/GreenTide'/>"/>
+	<entry name="Orks/GreenTideHealingDescription" value="提高治疗速率."/>
+	<entry name="Orks/GreenTideHealingFlavor" value="<string name='Traits/Orks/GreenTideFlavor'/>"/>
+	<entry name="Orks/GrotGunner" value="屁精炮手"/>
+	<entry name="Orks/GrotGunnerDescription" value="提高大机枪和双联大机枪的准确度."/>
+	<entry name="Orks/KustomForceField" value="<string name='Actions/Orks/KustomForceField'/>"/>
+	<entry name="Orks/KustomForceFieldDescription" value="提高远程伤害减免效果."/>
+	<entry name="Orks/KustomForceFieldFlavor" value="<string name='Actions/Orks/KustomForceFieldFlavor'/>"/>
+	<entry name="Orks/MeleeDamage" value="大斧头"/>
+	<entry name="Orks/MeleeDamageDescription" value="提高护甲穿透效果."/>
+	<entry name="Orks/MeleeDamageFlavor" value="关于升级, 欧克兽人们并不会想太多. 超级装甲, 超级机枪…或者是更大的斧头. 只要能拿得起就肯定挥得动, 挥得动那就能够造成伤害."/>
+	<entry name="Orks/MightMakesRight" value="力量即正义"/>
+	<entry name="Orks/MightMakesRightDescription" value="进行攻击时获得影响力."/>
+	<entry name="Orks/MightMakesRightFlavor" value="欧克兽人只有在哇!状态下才会感觉自己活着, 而只有经过不断地战斗才能够激发出哇!. 只要欧克兽人在战斗, 哇!就会不断增长."/>
+	<entry name="Orks/ProphetOfTheWaaagh" value="<string name='Actions/Orks/ProphetOfTheWaaagh'/>"/>
+	<entry name="Orks/ProphetOfTheWaaaghDescription" value="攻击时根据维护费获得影响力."/>
+	<entry name="Orks/Scavenger" value="拾荒者"/>
+	<entry name="Orks/ScavengerDescription" value="每杀死一名敌人将获得矿石."/>
+	<entry name="Orks/ScavengerFlavor" value="欧克兽人并不是因为爱劳动而著称, 它们宁愿从嘴里掏出几只史奎格然后坐下来看它们打架. 因此相比挖矿, 它们宁愿跑出去捡垃圾. 或者让屁精去做也行."/>
+	<entry name="Orks/WarbikeTurboBoost" value="<string name='Actions/Orks/WarbikeTurboBoost'/>"/>
+	<entry name="Orks/WarbikeTurboBoostDescription" value="<string name='Actions/Orks/WarbikeTurboBoostDescription'/>"/>
+	<entry name="Orks/WarbikeTurboBoostFlavor" value="<string name='Actions/Orks/WarbikeTurboBoostFlavor'/>"/>
+	<entry name="Orks/Warpath" value="<string name='Actions/Orks/Warpath'/>"/>
+	<entry name="Orks/WarpathDescription" value="<string name='Actions/Orks/WarpathDescription'/>"/>
+	<entry name="Orks/WarpathFlavor" value="<string name='Actions/Orks/WarpathFlavor'/>"/>
+	<entry name="Orks/WingMissiles" value="<string name='Weapons/WingMissiles'/>"/>
+	<entry name="Orks/WingMissilesDescription" value="提高对载具的准确度."/>
+	<entry name="Outpost" value="前哨站"/>
+	<entry name="OutpostDescription" value="使友方单位提高伤害减免效果和治疗速率. 提高步兵单位的远程伤害减免效果."/>
+	<entry name="Outflank" value="侧面包抄"/>
+	<entry name="OutflankDescription" value="当临近一名友方单位时提高准确度."/>
+	<entry name="OutflankFlavor" value="给敌人惊喜的最好办法就是从一个出其不意的方向上展开进攻."/>
+	<entry name="Pinned" value="牵制"/>
+	<entry name="PinnedDescription" value="降低移动和远程准确度, 提高远程伤害减免效果并阻止单位进行掩护."/>
+	<entry name="PinnedFlavor" value="当攻击不知从何处而起, 或者如倾盆大雨般的炮火从天而降, 即使是最勇敢的战士也会变得动摇, 让他们选择掩护自己."/>
+	<entry name="Pinning" value="牵制"/>
+	<entry name="PinningDescription" value="暂时降低被恐惧的目标步兵单位的移动并阻止其进行掩护."/>
+	<entry name="PinningFlavor" value="<string name='Traits/PinnedFlavor'/>"/>
+	<entry name="Poisoned" value="中毒"/>
+	<entry name="PoisonedDescription" value="提高对步兵单位的伤害."/>
+	<entry name="PoisonedFlavor" value="在黑暗的未来之中, 各种致命的毒药是再常见不过了. 毒药这种简单本身的非常适合应用在战场上. 不论是被涂抹在武器战刃或者子弹上, 甚至是由外星生物分泌 --- 它们都非常致命."/>
+	<entry name="PowerOfTheMachineSpirit" value="<string name='Actions/PowerOfTheMachineSpirit'/>"/>
+	<entry name="PowerOfTheMachineSpiritDescription" value="<string name='Actions/PowerOfTheMachineSpiritDescription'/>"/>
+	<entry name="PowerOfTheMachineSpiritFlavor" value="<string name='Actions/PowerOfTheMachineSpiritFlavor'/>"/>
+	<entry name="PrecisionShots" value="精准射击"/>
+	<entry name="PrecisionShotsDescription" value="提高准确度."/>
+	<entry name="PreferredEnemy" value="首要敌人"/>
+	<entry name="PreferredEnemyDescription" value="提高准确度."/>
+	<entry name="PreferredEnemyFlavor" value="为了能够应对某些特定的敌人, 星系中的很多战士都会非常刻苦的训练以预测敌人的战斗姿态, 这样才能够轻松地将其消灭."/>
+	<entry name="PrimaryWeapon" value="主武器"/>
+	<entry name="PrimaryWeaponDescription" value="提高护甲穿透效果."/>
+	<entry name="PsychicBlock" value="灵能格挡"/>
+	<entry name="PsychicBlockDescription" value="格挡下一次敌方灵能攻击的伤害及效果."/>
+	<entry name="PsychicHood" value="灵能兜帽"/>
+	<entry name="PsychicHoodDescription" value="获得巫火伤害减免效果."/>
+	<entry name="PsychicLash" value="灵能鞭笞"/>
+	<entry name="PsychicLashDescription" value="攻击能够穿透所有护甲."/>
+	<entry name="PsychicPower" value="灵能之力"/>
+	<entry name="PsychicPowerDescription" value="分类."/>
+	<entry name="PsychneueinInfest" value="食灵怪寄生"/>
+	<entry name="PsychneueinInfestDescription" value="使目标单位在死亡后刷新一只食灵怪."/>
+	<entry name="PsychneueinInfestation" value="食灵怪出没"/>
+	<entry name="PsychneueinInfestationDescription" value="死亡后刷新一只食灵怪."/>
+	<entry name="Psyker" value="灵能者"/>
+	<entry name="PsykerDescription" value="分类."/>
+	<entry name="PsykerFlavor" value="灵能者是战场上谜一般的存在, 他们能够驾驭亚空间的力量."/>
+	<entry name="Rage" value="愤怒"/>
+	<entry name="RageDescription" value="提高攻击."/>
+	<entry name="RageFlavor" value="嗜血是战场上的强大武器, 它能够刺激战士, 让他们在无意识(但非常令人满意)的屠杀中将敌人劈成两半."/>
+	<entry name="Rampage" value="暴怒"/>
+	<entry name="RampageDescription" value="当临近位置敌方单位数量多余友方单位数量时, 提高攻击."/>
+	<entry name="RampageFlavor" value="对于一些战士来说, 处于数量上的劣势并不会让他们感到绝望, 相反这能够使他们更加狂暴地向敌人展开反击."/>
+	<entry name="RapidFire" value="急速射击"/>
+	<entry name="RapidFireDescription" value="在一半射程处时攻击提高为原来的两倍."/>
+	<entry name="RecoveryGear" value="恢复装备"/>
+	<entry name="RecoveryGearDescription" value="提高治疗速率."/>
+	<entry name="RecoveryGearFlavor" value="很多载具的操作者都会携带各种工具, 比如牵引绳以及其他有用的工具包等等. 等出现到底是想办法把载具弄出来还是直接放弃的情况时, 这种区别就能够体现出来了."/>
+	<entry name="RedPaintJob" value="涂成红色"/>
+	<entry name="RedPaintJobDescription" value="提高伤害."/>
+	<entry name="RedPaintJobFlavor" value="欧克兽人相信, 把载具涂成红色能够让其变得更牛逼. 尽管看上去很奇怪, 但它们并没有错."/>
+	<entry name="RefractorField" value="折射场"/>
+	<entry name="RefractorFieldDescription" value="提高伤害减免效果."/>
+	<entry name="RefractorFieldFlavor" value="高级别的官员和帝国的英雄们都会携带闪光折射场, 它能够偏转扑面而来的能量, 爆炸以及刀刃, 不然的话这些东西很可能要了他们的命."/>
+	<entry name="Regeneration" value="恢复"/>
+	<entry name="RegenerationDescription" value="每回合恢复生命值."/>
+	<entry name="RegenerationFlavor" value="一些单位拥有能够从致命伤害中得以恢复的能力."/>
+	<entry name="Relentless" value="坚韧不拔"/>
+	<entry name="RelentlessDescription" value="无视重型, 大炮和齐射武器的惩罚效果."/>
+	<entry name="RelentlessFlavor" value="无畏的战士拥有强健的双臂-- 没有什么能够阻止其前进."/>
+	<entry name="RelicPlating" value="遗物装甲"/>
+	<entry name="RelicPlatingDescription" value="提高巫火伤害减免效果."/>
+	<entry name="RelicPlatingFlavor" value="有时候操作者会与战斗坦克的机械之魂引发共鸣. 当这些操作者死亡后, 它们的遗体将与载具融合在一起, 残存的精神力量能够驱赶虚空中的可怕能量."/>
+	<entry name="Rending" value="撕碎"/>
+	<entry name="RendingDescription" value="提高伤害和护甲穿透效果."/>
+	<entry name="RendingFlavor" value="一些武器能够对没有装甲保护的目标造成暴击效果."/>
+	<entry name="RepulsorGrid" value="反射网格"/>
+	<entry name="RepulsorGridDescription" value="提高远程伤害减免效果, 将非爆破武器或巫火返还给攻击者."/>
+	<entry name="RitesOfWar" value="战争仪式"/>
+	<entry name="RitesOfWarDescription" value="提高伤害."/>
+	<entry name="RitesOfWarFlavor" value="<string name='Actions/RitesOfWarFlavor'/>"/>
+	<entry name="Rosarius" value="玫瑰念珠"/>
+	<entry name="RosariusDescription" value="提高伤害减免效果."/>
+	<entry name="RosariusFlavor" value="玫瑰念珠由星际战士牧师所携带, 它既能够提供保护, 同时也是身份的象征. 玫瑰念珠能够释放出防护性的能量场, 偏转那些足以毁灭混凝土地堡的强大攻击. 据说携带者对于帝皇之力的信念越强大, 玫瑰念珠产生的能量场同样也会变得强大."/>
+	<entry name="RuinsStealth" value="废墟潜行"/>
+	<entry name="RuinsStealthDescription" value="提高在帝国废墟中的远程伤害减免."/>
+	<entry name="Salvo" value="炮火齐射"/>
+	<entry name="SalvoDescription" value="如果单位没有移动, 则在一半射程处的攻击提高为原来的两倍."/>
+	<entry name="SavantInterlocution" value="学者箴言"/>
+	<entry name="SavantInterlocutionDescription" value="当临近一名友方猎手时提高对飞行器和掠行艇的远程准确度."/>
+	<entry name="SavantLock" value="学者之锁"/>
+	<entry name="SavantLockDescription" value="提高对飞行器, 喷气摩托和掠行艇的准确度."/>
+	<entry name="SeekerMissile" value="<string name='Weapons/SeekerMissile'/>"/>
+	<entry name="SeekerMissileDescription" value="降低对未获得标记之光效果目标的射程. 对获得标记之光效果的目标不再需要直线视野."/>
+	<entry name="SeekerMissileFlavor" value="<string name='Weapons/SeekerMissileFlavor'/>"/>
+	<entry name="Seeking" value="搜寻"/>
+	<entry name="SeekingDescription" value="提高应对飞行器的远程准确度."/>
+	<entry name="Shaken" value="动摇"/>
+	<entry name="ShakenDescription" value="降低准确度并提高受到的伤害."/>
+	<entry name="Shielded" value="护盾"/>
+	<entry name="ShieldedDescription" value="提高伤害减免效果."/>
+	<entry name="ShieldedFlavor" value="一些战士可不仅仅只有物理装甲的保护. 他们可以通过神秘能量施展力场, 或者获得具有能够消除攻击的结构."/>
+	<entry name="Shop" value="商店"/>
+	<entry name="ShopDescription" value="允许英雄单位购买和出售物品."/>
+	<entry name="Shred" value="撕碎"/>
+	<entry name="ShredDescription" value="提高伤害."/>
+	<entry name="ShredFlavor" value="各种武器和战士们不断地进攻, 血肉横飞."/>
+	<entry name="Shrouded" value="隐蔽"/>
+	<entry name="ShroudedDescription" value="提高远程伤害减免效果."/>
+	<entry name="ShroudedFlavor" value="这些战士周围的黑暗物质非常奇怪—而只有那么幸运的一枪才有可能刺破他们的防护罩."/>
+	<entry name="SiegeMasters" value="攻城大师"/>
+	<entry name="SiegeMastersDescription" value="提高对位于城市和要塞中敌方单位的伤害."/>
+	<entry name="SiegeShield" value="攻城护盾"/>
+	<entry name="SiegeShieldDescription" value="提高护甲并降低在森林和帝国废墟中的移动惩罚效果."/>
+	<entry name="SiegeShieldFlavor" value="很多维护者都配备了巨型推土机铲刀, 这样就能够轻松地将战场上的碎石推到一边."/>
+	<entry name="Signum" value="信号器"/>
+	<entry name="SignumDescription" value="提高远程准确度."/>
+	<entry name="SignumFlavor" value="<string name='Actions/SignumFlavor'/>"/>
+	<entry name="SistersOfBattle/ActOfFaith" value="信仰法令"/>
+	<entry name="SistersOfBattle/ActOfFaithDescription" value="单位在没有处于动摇或破碎状态时才可使用."/>
+	<entry name="SistersOfBattle/ActOfFaithFlavor" value="战斗修女可以汲取他们信仰的源泉, 并祈求帝皇指引她们的行动. 对帝国信条的绝对信仰也让战斗修女们能够在战场上完成看似不可能的任务. 然而, 奇迹不是理所当然的. 帝国信条的核心是相信神圣的帝皇并依靠他的追随者来创造属于自己的救赎, 但如果情形足够悲惨, 那么他将会介入以拯救他真正的追随者."/>
+	<entry name="SistersOfBattle/AnchoriteSarcophagus" value="隐士石棺"/>
+	<entry name="SistersOfBattle/AnchoriteSarcophagusDescription" value="提高护甲."/>
+	<entry name="SistersOfBattle/AnchoriteSarcophagusFlavor" value="对于那些临阵逃脱, 而且在战斗中背叛了姐妹的忏悔者来说, 更糟糕的命运正在等待着. 在谴罪机甲被浸入坩埚后, 她们将被进一步埋在厚厚的精金外壳之中. 这个石棺将保护她们饱受折磨的身体免受来袭的烈焰和拼命挥动的利刃, 绝不允许她们通过死亡来得以解脱."/>
+	<entry name="SistersOfBattle/AngelicVisage" value="天使面容"/>
+	<entry name="SistersOfBattle/AngelicVisageDescription" value="提高伤害减免效果."/>
+	<entry name="SistersOfBattle/AngelicVisageFlavor" value="风天使面带微笑, 优雅地转移着敌人的攻击, 然后以自己的方式进行致命一击. 通常会使用爆矢枪直接打掉敌人的脑袋或是使用她们的动力剑进行攻击."/>
+	<entry name="SistersOfBattle/AnguishOfTheUnredeemed" value="未救赎者的痛苦"/>
+	<entry name="SistersOfBattle/AnguishOfTheUnredeemedDescription" value="死亡时对近战攻击者造成伤害."/>
+	<entry name="SistersOfBattle/AnguishOfTheUnredeemedFlavor" value="谴罪机甲用火焰喷射器开辟出一条毁灭之路, 然后一头扎进敌人之中. 愧疚和痛苦驱使它们前进, 无惧任何危险. 临死之际, 它们再度向敌人发起进攻, 每时每刻都在为救赎而战斗."/>
+	<entry name="SistersOfBattle/ArmourOfSaintKatherine" value="圣凯瑟琳护甲"/>
+	<entry name="SistersOfBattle/ArmourOfSaintKatherineDescription" value="提高伤害减免效果."/>
+	<entry name="SistersOfBattle/ArmourOfSaintKatherineFlavor" value="自从这件受人尊敬的盔甲涂上了来自殉道者圣凯瑟琳的鲜血之后, 它被认为拥有了神圣的防护力量."/>
+	<entry name="SistersOfBattle/AssaultWeaponBonus" value="狂怒连击"/>
+	<entry name="SistersOfBattle/AssaultWeaponBonusDescription" value="提高护甲穿透效果."/>
+	<entry name="SistersOfBattle/AssaultWeaponBonusFlavor" value="“正确的攻击, 精心的布局, 可以击败最强大的敌人. 但, 如果我们不知道正确的攻击呢? 那么, 只要一场势不可挡的猛攻最终必然会击中正确的位置…”<br/>  — 修女长凡迪尔, 战略名义."/>
+	<entry name="SistersOfBattle/AvengingZeal" value="复仇狂热"/>
+	<entry name="SistersOfBattle/AvengingZealDescription" value="降低士气损失."/>
+	<entry name="SistersOfBattle/AvengingZealFlavor" value="<string name='Traits/SistersOfBattle/MartyrSpiritFlavor'/>"/>
+	<entry name="SistersOfBattle/BerserkKillingMachine" value="狂暴杀戮机器"/>
+	<entry name="SistersOfBattle/BerserkKillingMachineDescription" value="提高伤害减免效果."/>
+	<entry name="SistersOfBattle/BerserkKillingMachineFlavor" value="被神经兴奋剂阵列所折磨, 放大了自我厌恶. 头部周围的封闭挡板无法进行祈祷, 悲惨驾驶员的精神痛苦助长了谴罪机甲. 它们就像可怕的突击部队一样向前冲锋, 然后撞向它们的敌人."/>
+	<entry name="SistersOfBattle/BloodyResolution" value="血腥决心"/>
+	<entry name="SistersOfBattle/BloodyResolutionDescription" value="防止士气损失."/>
+	<entry name="SistersOfBattle/BloodyResolutionFlavor" value="<string name='Traits/SistersOfBattle/MartyrdomFlavor'/>"/>
+	<entry name="SistersOfBattle/CatechismOfRepugnance" value="<string name='Actions/SistersOfBattle/CatechismOfRepugnance'/>"/>
+	<entry name="SistersOfBattle/CatechismOfRepugnanceDescription" value="<string name='Actions/SistersOfBattle/CatechismOfRepugnanceDescription'/>"/>
+	<entry name="SistersOfBattle/CatechismOfRepugnanceFlavor" value="<string name='Actions/SistersOfBattle/CatechismOfRepugnanceFlavor'/>"/>
+	<entry name="SistersOfBattle/CityGrowth" value="新手招募"/>
+	<entry name="SistersOfBattle/CityGrowthDescription" value="提高成长率."/>
+	<entry name="SistersOfBattle/CityGrowthFlavor" value="欧克兽人入侵和随后对格雷迪厄斯的战争留下了许多孤儿. 派遣传教士和传道者前往荒芜之地招募帝国部队将促进我们城市的发展."/>
+	<entry name="SistersOfBattle/CityTier2" value="指导性附件"/>
+	<entry name="SistersOfBattle/CityTier2Description" value="提高能够占领的土地半径."/>
+	<entry name="SistersOfBattle/CityTier2Flavor" value="鉴于大量难民从格雷迪厄斯被摧毁的巢都和荒芜之地涌入修会分殿, 高阶修女长已下令我们将新的土地进行圣化以供使用, 无论是否愿意, 都应将任何人纳入其中."/>
+	<entry name="SistersOfBattle/CityTier3" value="圣域要塞"/>
+	<entry name="SistersOfBattle/CityTier3Description" value="提高能够占领的土地半径."/>
+	<entry name="SistersOfBattle/CityTier3Flavor" value="修会分殿现在更像是一座城市, 类似于曾经点缀在这颗星球表面的巢都世界都市. 在它的地下是一座地下城, 而之上则是塔尖和圣殿. 也许只有阿斯塔特战会的要塞修道院在规模和神圣装饰上可以与之匹敌."/>
+	<entry name="SistersOfBattle/DivineDeliverance" value="<string name='Actions/SistersOfBattle/DivineDeliverance'/>"/>
+	<entry name="SistersOfBattle/DivineDeliveranceDescription" value="<string name='Actions/SistersOfBattle/DivineDeliveranceDescription'/>"/>
+	<entry name="SistersOfBattle/DivineDeliveranceFlavor" value="<string name='Actions/SistersOfBattle/DivineDeliveranceFlavor'/>"/>
+	<entry name="SistersOfBattle/EternalCrusade" value="永恒远征"/>
+	<entry name="SistersOfBattle/EternalCrusadeDescription" value="提高生产产出."/>
+	<entry name="SistersOfBattle/EternalCrusadeFlavor" value="“我们绝不停歇, 因为帝皇的眼睛在看着我们. 他看到每个灵魂都得到救赎, 并且知道更多的灵魂还在遭受威胁. 我们不能停止, 我们不能放慢脚步—这是一场永恒的远征.”<br/>  — 修女长凡迪尔, 美德纪念."/>
+	<entry name="SistersOfBattle/ExpertFighters" value="战斗专家"/>
+	<entry name="SistersOfBattle/ExpertFightersDescription" value="提高准确度."/>
+	<entry name="SistersOfBattle/ExpertFightersFlavor" value="在大多数打击分队中, 只有少数是由经验丰富的飞行员驾驶. 这些王牌飞行员是真正危险的敌人, 能够以不可思议的准确度预测猎物的反应. 他们中很少有人能够在经历一两次战役后活下来, 因为最危险的任务只有最富经验的人才能胜任."/>
+	<entry name="SistersOfBattle/FlankSpeed" value="侧翼速度"/>
+	<entry name="SistersOfBattle/FlankSpeedDescription" value="提高移动, 但无法使用远程武器."/>
+	<entry name="SistersOfBattle/FlankSpeedFlavor" value="“人们不应该质疑帝国行刑官的高贵. 但是对于信仰, 没有人能比得上枪骑士. 它们只带着长枪和自己惊人的速度冲向战场, 祈祷能够践踏敌人的阵地. 这对我们的部队来说是一个很好的选择.”<br/>  — 修女长凡迪尔, 战略名义"/>
+	<entry name="SistersOfBattle/HeavyWeaponBonus" value="强化军械"/>
+	<entry name="SistersOfBattle/HeavyWeaponBonusDescription" value="提高护甲穿透效果."/>
+	<entry name="SistersOfBattle/HeavyWeaponBonusFlavor" value="“苛罚者的火炮将救赎倾洒在我们神圣的泰拉领域, 祈祷之声喷薄而出, 并在圣凯瑟琳神殿前跪下. 然后我们在每个炮弹上增加25%的炸药，并用精金覆盖住.”<br/>  — 修女长凡迪尔, 战略名义"/>
+	<entry name="SistersOfBattle/IonGauntletShield" value="离子护手盾"/>
+	<entry name="SistersOfBattle/IonGauntletShieldDescription" value="提高对远程攻击者的伤害减免和远程伤害减免效果."/>
+	<entry name="SistersOfBattle/IonGauntletShieldFlavor" value="安装在塞拉斯图斯右侧手甲组件中的离子护手盾发生器比安装在圣骑士上的定向离子防护罩更坚固, 但缺乏战术灵活性."/>
+	<entry name="SistersOfBattle/KeepersOfTheFaith" value="信念守护者"/>
+	<entry name="SistersOfBattle/KeepersOfTheFaithDescription" value="阻止掩护, 但提高伤害减免效果."/>
+	<entry name="SistersOfBattle/KeepersOfTheFaithFlavor" value="“道理说, 见敌即开火. 道理说, 当敌人向你开火时赶紧掩护. 理性说, 中弹即死. 但道理并不了解我们的信仰以及我们如何保持它.”<br/>  — 修女长凡迪尔, 战略名义"/>
+	<entry name="SistersOfBattle/KnightParry" value="骑士招架"/>
+	<entry name="SistersOfBattle/KnightParryDescription" value="降低近战准确度."/>
+	<entry name="SistersOfBattle/KnightParryFlavor" value="安装在塞拉斯图斯右侧手甲组件中的离子护手盾发生器可在近距离战斗中偏转最强大的攻击."/>
+	<entry name="SistersOfBattle/LaudHailer" value="圣歌传递器"/>
+	<entry name="SistersOfBattle/LaudHailerDescription" value="该单位即使处于动摇状态也可以执行信仰法令."/>
+	<entry name="SistersOfBattle/LaudHailerFlavor" value="<string name='Actions/SistersOfBattle/LaudHailerFlavor'/>"/>
+	<entry name="SistersOfBattle/LeadTheRighteous" value="<string name='Actions/SistersOfBattle/LeadTheRighteous'/>"/>
+	<entry name="SistersOfBattle/LeadTheRighteousDescription" value="提高准确度."/>
+	<entry name="SistersOfBattle/LeadTheRighteousFlavor" value="<string name='Actions/SistersOfBattle/LeadTheRighteousFlavor'/>"/>
+	<entry name="SistersOfBattle/LightOfTheEmperor" value="<string name='Actions/SistersOfBattle/LightOfTheEmperor'/>"/>
+	<entry name="SistersOfBattle/LightOfTheEmperorDescription" value="<string name='Actions/SistersOfBattle/LightOfTheEmperorDescription'/>"/>
+	<entry name="SistersOfBattle/LightOfTheEmperorFlavor" value="<string name='Actions/SistersOfBattle/LightOfTheEmperorFlavor'/>"/>
+	<entry name="SistersOfBattle/Martyrdom" value="殉道"/>
+	<entry name="SistersOfBattle/MartyrdomDescription" value="死亡时, 可防止所有友方战斗修女单位失去士气."/>
+	<entry name="SistersOfBattle/MartyrdomFlavor" value="当领袖被杀害时, 战斗修女们不会陷入绝望. 相反这些殉道英雄的鲜血只会增强她们的决心, 这种牺牲会激励她们展现出伟大的英雄主义."/>
+	<entry name="SistersOfBattle/MartyrSpirit" value="殉道者之魂"/>
+	<entry name="SistersOfBattle/MartyrSpiritDescription" value="死亡时, 降低临近拥有信仰之盾单位的士气损失."/>
+	<entry name="SistersOfBattle/MartyrSpiritFlavor" value="“失去我们的姐妹和战友让我们感到难过, 但这将鼓励我们加倍努力.”<br/>  — 未知记忆者, 网道福音."/>
+	<entry name="SistersOfBattle/MedicusMinistorum" value="<string name='Actions/SistersOfBattle/MedicusMinistorum'/>"/>
+	<entry name="SistersOfBattle/MedicusMinistorumDescription" value="提高伤害减免效果."/>
+	<entry name="SistersOfBattle/MedicusMinistorumFlavor" value="<string name='Actions/SistersOfBattle/MedicusMinistorumFlavor'/>"/>
+	<entry name="SistersOfBattle/MeleeWeaponBonus" value="祝福之刃"/>
+	<entry name="SistersOfBattle/MeleeWeaponBonusDescription" value="提高护甲穿透效果."/>
+	<entry name="SistersOfBattle/MeleeWeaponBonusFlavor" value="战斗修女与帝国卫队的武器几乎没有区别, 除了两个方面: 她们更加注重维护质量; 以及对神圣的祝福和恳求. 后者能够解释战斗中出现的各种奇迹, 这些受到祝福的刀刃能够一次又一次地发现敌人哪怕是最微不足道的弱点."/>
+	<entry name="SistersOfBattle/MiraculousIntervention" value="<string name='Actions/SistersOfBattle/MiraculousIntervention'/>"/>
+	<entry name="SistersOfBattle/MiraculousInterventionDescription" value="<string name='Actions/SistersOfBattle/MiraculousInterventionDescription'/>"/>
+	<entry name="SistersOfBattle/MiraculousInterventionFlavor" value="<string name='Actions/SistersOfBattle/MiraculousInterventionFlavor'/>"/>
+	<entry name="SistersOfBattle/NonMilitantMobilisation" value="国教会动员"/>
+	<entry name="SistersOfBattle/NonMilitantMobilisationDescription" value="提高征募产出."/>
+	<entry name="SistersOfBattle/NonMilitantMobilisationFlavor" value="国教会的仪式不仅仅是出于军事目的: 祈祷和礼仪存在于帝国每一个角落. 成为这样一个仪式的焦点, 无论是役从修会还遗迹修会成员, 甚至是最底层的工人, 都会促使她们更加努力."/>
+	<entry name="SistersOfBattle/OathOfFaith" value="信仰之誓"/>
+	<entry name="SistersOfBattle/OathOfFaithDescription" value="降低准确度并无法使用信仰之盾."/>
+	<entry name="SistersOfBattle/OathOfFaithFlavor" value="“我们宣誓保卫帝国, 肃清异种和异端. 它支持我们, 驱使我们度过痛苦和恐惧. 但当我们的姐妹们最终崩溃并逃跑时, 我们的誓言会一直萦绕在她们心头… 如果能够逃过一劫, 她们会以忏悔修女的身份归来…”<br/>  — 未知记忆者, 网道福音."/>
+	<entry name="SistersOfBattle/ParagonWarblade" value="楷模战刃"/>
+	<entry name="SistersOfBattle/ParagonWarbladeDescription" value="获得额外的近战攻击."/>
+	<entry name="SistersOfBattle/ParagonWarbladeFlavor" value="这些巨大的动力剑只能由无畏大小的楷模战甲所携带. 围绕它的爆裂能量场会在切割物质时进行扰动, 让沉重的刀刃能够轻松切穿最厚的盔甲."/>
+	<entry name="SistersOfBattle/ParagonWarsuit" value="楷模战甲"/>
+	<entry name="SistersOfBattle/ParagonWarsuitDescription" value="提高伤害减免效果."/>
+	<entry name="SistersOfBattle/ParagonWarsuitFlavor" value="在武装修会的神圣武器中, 古老的楷模战甲被视为是具有高尚意志的神圣盔甲. 只有最重要的天神圣女才能掌控其精神并用于战斗."/>
+	<entry name="SistersOfBattle/Protected" value="保护"/>
+	<entry name="SistersOfBattle/ProtectedDescription" value="提高伤害减免效果."/>
+	<entry name="SistersOfBattle/ProtectedFlavor" value="<string name='Actions/SistersOfBattle/BodyguardFlavor'/>"/>
+	<entry name="SistersOfBattle/PsyShock" value="灵能震击"/>
+	<entry name="SistersOfBattle/PsyShockDescription" value="击晕灵能者."/>
+	<entry name="SistersOfBattle/PsyShockFlavor" value="<string name='Weapons/CondemnorBoltgunSilverStake'/>"/>
+	<entry name="SistersOfBattle/PurifyingRecitations" value="净化歌颂"/>
+	<entry name="SistersOfBattle/PurifyingRecitationsDescription" value="提高伤害."/>
+	<entry name="SistersOfBattle/PurifyingRecitationsFlavor" value="“敌人称我们冷酷, 无情, 毫无人性. 但我们共情, 我们哀恸, 我们愤怒. 让他们感受我们的温暖吧—在我们的烈焰喷射器中, 在我们的热熔武器中.”<br/>  — 修女长凡迪尔, 战略名义."/>
+	<entry name="SistersOfBattle/RagingFervour" value="狂怒热情"/>
+	<entry name="SistersOfBattle/RagingFervourDescription" value="提高伤害."/>
+	<entry name="SistersOfBattle/RagingFervourFlavor" value="“我们手中的武器是信仰的工具. 每一道闪电都是赐予不信者心中的祈祷, 将它的话语传播到他们的生命之中.”<br/>  — 修女长凡迪尔, 战略名义."/>
+	<entry name="SistersOfBattle/RighteousJudgement" value="<string name='Actions/SistersOfBattle/RighteousJudgement'/>"/>
+	<entry name="SistersOfBattle/RighteousJudgementDescription" value="<string name='Actions/SistersOfBattle/RighteousJudgementDescription'/>"/>
+	<entry name="SistersOfBattle/RighteousJudgementFlavor" value="<string name='Actions/SistersOfBattle/RighteousJudgementFlavor'/>"/>
+	<entry name="SistersOfBattle/SacresantShield" value="圣卫之盾"/>
+	<entry name="SistersOfBattle/SacresantShieldDescription" value="提高伤害减免效果."/>
+	<entry name="SistersOfBattle/SacresantShieldFlavor" value="忠实的天神圣卫坚定地与银河系最可怕的恐怖对抗着. 成群结队的变异体和异教徒徒劳地撞击着她们的盾墙, 然后被正义的愤怒压倒."/>
+	<entry name="SistersOfBattle/SaintlyBlessings" value="神圣祝福"/>
+	<entry name="SistersOfBattle/SaintlyBlessingsDescription" value="提高伤害减免效果."/>
+	<entry name="SistersOfBattle/SaintlyBlessingsFlavor" value="<string name='Actions/SistersOfBattle/SaintlyBlessingsFlavor'/>"/>
+	<entry name="SistersOfBattle/ShieldOfFaith" value="信仰之盾"/>
+	<entry name="SistersOfBattle/ShieldOfFaithDescription" value="提高伤害减免效果."/>
+	<entry name="SistersOfBattle/ShieldOfFaithFlavor" value="战斗修女的成员被教导说, 信仰是比任何盔甲都坚固的护盾. 这就是她们所相信的帝皇庇护之力, 以至于修女能够可以摆脱最严重的伤口并抵抗敌人的巫术."/>
+	<entry name="SistersOfBattle/SimulacrumImperialis" value="帝国圣像"/>
+	<entry name="SistersOfBattle/SimulacrumImperialisDescription" value="降低信仰法令的冷却时间."/>
+	<entry name="SistersOfBattle/SimulacrumImperialisFlavor" value="这些国教会的神圣象征曾经由帝国的众多圣人携带, 甚至可能是用他们的骨头制成的. 它们是灵感和信仰的源泉, 能将这样一件不可替代的遗产带入战场是莫大的荣幸."/>
+	<entry name="SistersOfBattle/SisterSuperior" value="高阶修女"/>
+	<entry name="SistersOfBattle/SisterSuperiorDescription" value="提高步兵和楷模战甲单位的士气."/>
+	<entry name="SistersOfBattle/SisterSuperiorFlavor" value="高阶修女是每支战斗修女队伍的真正核心. 凭借多年的战斗经验和对帝皇的至高信仰, 这些卓越的军官凭借着权威, 以确保麾下的每一位姐妹都全力以赴地战斗, 从而最大限度地发挥整个队伍的战略影响力."/>
+	<entry name="SistersOfBattle/SolaceInAnguish" value="<string name='Actions/SistersOfBattle/SolaceInAnguish'/>"/>
+	<entry name="SistersOfBattle/SolaceInAnguishDescription" value="<string name='Actions/SistersOfBattle/SolaceInAnguishDescription'/>"/>
+	<entry name="SistersOfBattle/SolaceInAnguishFlavor" value="<string name='Actions/SistersOfBattle/SolaceInAnguishFlavor'/>"/>
+	<entry name="SistersOfBattle/StirringRhetoric" value="<string name='Actions/SistersOfBattle/StirringRhetoric'/>"/>
+	<entry name="SistersOfBattle/StirringRhetoricDescription" value="提高护甲."/>
+	<entry name="SistersOfBattle/StirringRhetoricFlavor" value="<string name='Actions/SistersOfBattle/StirringRhetoricFlavor'/>"/>
+	<entry name="SistersOfBattle/ThePassion" value="<string name='Actions/SistersOfBattle/ThePassion'/>"/>
+	<entry name="SistersOfBattle/ThePassionDescription" value="提高战斗准确度."/>
+	<entry name="SistersOfBattle/ThePassionFlavor" value="<string name='Actions/SistersOfBattle/ThePassionFlavor'/>"/>
+	<entry name="SistersOfBattle/UsedActOfFaith" value="信仰法令失效"/>
+	<entry name="SistersOfBattle/UsedActOfFaithDescription" value="该单位已经在本回合使用了信仰法令技能."/>
+	<entry name="SistersOfBattle/UsedActOfFaithFlavor" value="<string name='Traits/SistersOfBattle/UsedActOfFaithDescription'/>"/>
+	<entry name="SistersOfBattle/UsedSacredRite" value="已使用1神圣仪式"/>
+	<entry name="SistersOfBattle/UsedSacredRite2" value="已使用2神圣仪式"/>
+	<entry name="SistersOfBattle/VengefulSpirit" value="复仇之魂"/>
+	<entry name="SistersOfBattle/VengefulSpiritDescription" value="将伤害返还给攻击者."/>
+	<entry name="SistersOfBattle/VengefulSpiritFlavor" value="“在死亡中, 我们还有最后一次机会—从忧虑中解脱出来. 等一旦死去, 没有什么能够阻止我们的愤怒, 我们不需要自我保护. 我们可以用尽全部承受所有的打击, 争取最后一次伸张正义的机会.”<br/>  — 修女长凡迪尔, 战略名义."/>
+	<entry name="SistersOfBattle/WarHymn" value="<string name='Actions/SistersOfBattle/WarHymn'/>"/>
+	<entry name="SistersOfBattle/WarHymnDescription" value="提高攻击."/>
+	<entry name="SistersOfBattle/WarHymnFlavor" value="<string name='Actions/SistersOfBattle/WarHymnFlavor'/>"/>
+	<entry name="SistersOfBattle/WarmachinesWrath" value="机械之怒"/>
+	<entry name="SistersOfBattle/WarmachinesWrathDescription" value="提高生产产出."/>
+	<entry name="SistersOfBattle/WarmachinesWrathFlavor" value="“在那最后的日子里, 这种热情蔓延了开来. 祈愿仪式之后, 所有运行中的铸造厂和傅有古代战争引擎的机库所拥有的机魂将马力全开. 它们从未让人失望.”<br/>  — 未知记忆者, 网道福音."/>
+	<entry name="SkilledJink" value="<string name='Actions/SkilledJink'/>"/>
+	<entry name="SkilledJinkDescription" value="<string name='Traits/JinkDescription'/>"/>
+	<entry name="SkilledJinkFlavor" value="<string name='Actions/SkilledJinkFlavor'/>"/>
+	<entry name="Skimmer" value="掠行艇"/>
+	<entry name="SkimmerDescription" value="该单位能够在水面上移动并无视河流和铁线草的惩罚效果. 降低在森林和帝国废墟中的移动惩罚效果."/>
+	<entry name="SkimmerFlavor" value="一些高度先进的载具会装备反重力驱动, 能够迅捷地掠过崎岖地形并干涉部队行动, 使得其成为了侧面突袭的完美选择."/>
+	<entry name="SkullAltar" value="<string name='Features/SkullAltar'/>"/>
+	<entry name="SkullAltarDescription" value="为进入该地点的单位提供奖励."/>
+	<entry name="SkullAltarFlavor" value="<string name='Features/SkullAltarFlavor'/>"/>
+	<entry name="SkullsForTheSkullThrone" value="王座骷髅"/>
+	<entry name="SkullsForTheSkullThroneDescription" value="提高伤害减免效果."/>
+	<entry name="SkullsForTheSkullThroneFlavor" value="恐虐只会尊敬充满杀气的强者."/>	
+	<entry name="Skyfire" value="天火"/>
+	<entry name="SkyfireDescription" value="提高对飞行单位的准确度, 降低对非掠行艇, 喷气摩托或喷射背包地面单位的准确度."/>
+	<entry name="SkyfireFlavor" value="天火武器特别适合用来摧毁敌方飞机掠行艇."/>
+	<entry name="SlowAndPurposeful" value="别有用心"/>
+	<entry name="SlowAndPurposefulDescription" value="无视重型以及火炮武器的惩罚效果."/>
+	<entry name="SlowAndPurposefulFlavor" value="许多战士都很沉稳, 但可以确定的是, 尽管移动速度缓慢, 但非常致命."/>
+	<entry name="Slowed" value="减速"/>
+	<entry name="SlowedDescription" value="降低移动和准确度."/>
+	<entry name="Smash" value="撞击"/>
+	<entry name="SmashDescription" value="提高近战护甲穿透效果."/>
+	<entry name="SmashFlavor" value="对于那些最为可怕的生物来说, 一次简单的攻击足以破坏坦克的装甲或者是把其他生物压成血淋淋的肉饼."/>
+	<entry name="SmokeScreen" value="烟雾屏障"/>
+	<entry name="SmokeScreenDescription" value="提高远程伤害减免效果."/>
+	<entry name="SmokeScreenFlavor" value="<string name='Actions/CreateSmokeScreenFlavor'/>"/>
+	<entry name="Sniper" value="狙击手"/>
+	<entry name="SniperDescription" value="提高对步兵单位的伤害和护甲穿透效果."/>
+	<entry name="SniperFlavor" value="狙击手的武器是无比精密的, 能够迅速找出敌人的弱点."/>
+	<entry name="SonicBoom" value="音速爆炸"/>
+	<entry name="SonicBoomDescription" value="提高对飞行单位的伤害."/>
+	<entry name="SoulBlaze" value="灵魂烈焰"/>
+	<entry name="SoulBlazeDescription" value="每回合造成伤害."/>
+	<entry name="SoulBlazed" value="灵魂烈焰"/>
+	<entry name="SoulBlazedDescription" value="<string name='Traits/SoulBlazeDescription'/>"/>
+	<entry name="SpaceMarines/BlastDamage" value="<string name='Traits/AstraMilitarum/BlastDamage'/>"/>
+	<entry name="SpaceMarines/BlastDamageDescription" value="<string name='Traits/AstraMilitarum/BlastDamageDescription'/>"/>
+	<entry name="SpaceMarines/BlastDamageFlavor" value="<string name='Traits/AstraMilitarum/BlastDamageFlavor'/>"/>
+	<entry name="SpaceMarines/BoltDamage" value="<string name='Traits/AstraMilitarum/BoltDamage'/>"/>
+	<entry name="SpaceMarines/BoltDamageDescription" value="<string name='Traits/AstraMilitarum/BoltDamageDescription'/>"/>
+	<entry name="SpaceMarines/BoltDamageFlavor" value="<string name='Traits/AstraMilitarum/BoltDamageFlavor'/>"/>
+	<entry name="SpaceMarines/BolterDiscipline" value="爆矢枪戒律"/>
+	<entry name="SpaceMarines/BolterDisciplineDescription" value="<string name='Traits/ChaosSpaceMarines/MaliciousVolleysDescription'/>"/>
+	<entry name="SpaceMarines/BolterDisciplineFlavor" value="对星际战士而言, 爆矢枪不仅仅是一种武器-它是人类神性的工具, 是敌人死亡的使者."/>
+	<entry name="SpaceMarines/CityTier2" value="堡垒扩张"/>
+	<entry name="SpaceMarines/CityTier2Description" value="提高能够占领的土地半径."/>
+	<entry name="SpaceMarines/CityTier2Flavor" value="堡垒第二阶段的建造已经开始. 在核心设施完成后, 技术军士将奉命开始修建第二道防线.."/>
+	<entry name="SpaceMarines/CityTier3" value="高级阵地"/>
+	<entry name="SpaceMarines/CityTier3Description" value="<string name='Traits/SpaceMarines/CityTier2Description'/>"/>
+	<entry name="SpaceMarines/CityTier3Flavor" value="堡垒建造的第三阶段是沿着额外的城墙修建独立的要塞和扶垛. 在这些巨大的屏障之下, 无数奴工正是在这样一个接一个的任务中走完了自己的生命."/>
+	<entry name="SpaceMarines/CityTier4" value="超级堡垒"/>
+	<entry name="SpaceMarines/CityTier4Description" value="<string name='Traits/SpaceMarines/CityTier2Description'/>"/>
+	<entry name="SpaceMarines/CityTier4Flavor" value="经过新一轮的扩大, 大技师宣布要塞的建造全部完成. 现在它在规模上已经能够跟巢都相媲美了. 那坚不可摧的城墙之内, 你可能是身处帝国的任何地方. 其外, 当地的氏族将千里迢迢赶来奉献贡品以表达敬意, 希望他们最优秀的战士能够接受危险的试炼, 并最终成为一名星际战士."/>
+	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction" value="要塞护盾"/>
+	<entry name="SpaceMarines/FortressOfRedemptionDamageReductionDescription" value="提高无敌伤害减免效果."/>
+	<entry name="SpaceMarines/FortressOfRedemptionDamageReductionFlavor" value="格雷迪厄斯上的敌意远超政务部的预计. 鉴于堡垒的物理防御正不断受到攻击, 技术军士被批准安装虚空护盾. 一旦建成, 这个闪闪发光的动力穹顶足以抵挡整个战斗营 (甚至是反叛帝国骑士)的火力."/>
+	<entry name="SpaceMarines/LasDamage" value="<string name='Traits/AstraMilitarum/LasDamage'/>"/>
+	<entry name="SpaceMarines/LasDamageDescription" value="<string name='Traits/AstraMilitarum/LasDamageDescription'/>"/>
+	<entry name="SpaceMarines/LasDamageFlavor" value="<string name='Traits/AstraMilitarum/LasDamageFlavor'/>"/>
+	<entry name="SpaceMarines/MeleeDamage" value="近战精通"/>
+	<entry name="SpaceMarines/MeleeDamageDescription" value="提高护甲穿透效果."/>
+	<entry name="SpaceMarines/MeleeDamageFlavor" value="一些阿斯塔特战会所属的战团—比如太空野狼, 饮血者和牛头怪—正是以高超的近战格斗技巧而闻名. 这些战团中哪怕是级别最低的侦察兵也是经过了无数的知识积累和训练才拥有了现在的强大."/>
+	<entry name="SpaceMarines/Omniscope" value="<string name='Actions/SpaceMarines/Omniscope'/>"/>
+	<entry name="SpaceMarines/OmniscopeDescription" value="<string name='Actions/SpaceMarines/OmniscopeDescription'/>"/>
+	<entry name="SpaceMarines/OmniscopeFlavor" value="<string name='Actions/SpaceMarines/OmniscopeFlavor'/>"/>
+	<entry name="SpaceSlip" value="<string name='Actions/SpaceSlip'/>"/>
+	<entry name="SpaceSlipDescription" value="提高伤害减免效果."/>
+	<entry name="Stealth" value="隐形"/>
+	<entry name="StealthDescription" value="提高远程伤害减免效果."/>
+	<entry name="StealthFlavor" value="一些战士是伪装和隐藏的大师, 他们能够消失在战场中, 准备好进攻之后就会立刻显现."/>
+	<entry name="StrafingRun" value="猛烈轰炸"/>
+	<entry name="StrafingRunDescription" value="提高攻击地面单位时的远程准确度."/>
+	<entry name="StrafingRunFlavor" value="该载具被设计成为一种对地攻击舰艇, 其武器的覆盖程度和射击距离保证了其对敌人的致命一击."/>
+	<entry name="Strikedown" value="击倒"/>
+	<entry name="StrikedownDescription" value="暂时降低目标步兵单位的移动."/>
+	<entry name="StrikedownFlavor" value="足够强的攻击能够让最强大的战士倒下."/>
+	<entry name="Stubborn" value="坚强决心"/>
+	<entry name="StubbornDescription" value="降低士气损失."/>
+	<entry name="StubbornFlavor" value="很多战士都秉承着'无荣耀吾宁死'的信条生存和死亡. 不过在危险面前, 只有少部分战士会选择后退."/>
+	<entry name="Stunned" value="眩晕"/>
+	<entry name="StunnedDescription" value="使单位无法移动或动作."/>
+	<entry name="Suicider" value="自我毁灭"/>
+	<entry name="SuiciderDescription" value="当该单位自杀时敌人不会获得经验值."/>
+	<entry name="Summon" value="召唤"/>
+	<entry name="SummonDescription" value="分类."/>
+	<entry name="SuperHeavy" value="超重型"/>
+	<entry name="SuperHeavyDescription" value="分类."/>
+	<entry name="SuperHeavyFlavor" value="由巨型装甲所包裹的构造体拥有足够的火力让敌人灰飞烟灭."/>
+	<entry name="Supersonic" value="超音速"/>
+	<entry name="SupersonicDescription" value="提高移动."/>
+	<entry name="SupersonicFlavor" value="超音速载具拥有非常快的移动速度, 即是是传统的飞行器也难以企及. 这赋予了它们在战斗中无与伦比的机动性."/>
+	<entry name="Swarms" value="虫群"/>
+	<entry name="SwarmsDescription" value="受到的伤害将由整个团队分摊, 但在受到爆炸和模块武器攻击时将会受到额外伤害."/>
+	<entry name="SwarmsFlavor" value="这些生物的数量是如此的庞大, 以至于无法一一挑选出来. 它们必须作为一个团队来进行战斗."/>
+	<entry name="Swiftstrike" value="迅捷打击"/>
+	<entry name="SwiftstrikeDescription" value="提高攻击."/>
+	<entry name="TacticalDoctrine" value="战术准则"/>
+	<entry name="TacticalDoctrineDescription" value="提高准确度."/>
+	<entry name="TacticalDoctrineFlavor" value="<string name='Actions/TacticalDoctrineFlavor'/>"/>
+	<entry name="Tank" value="坦克"/>
+	<entry name="TankDescription" value="分类."/>
+	<entry name="TankFlavor" value="坦克可以凭借其重量作为武器, 直接驶入并压过成群的敌人. 这往往会导致敌方战线陷入混乱, 毕竟当有巨大的金属野兽向你奔来时任何人都会感到不安."/>
+	<entry name="TankHunters" value="坦克猎手"/>
+	<entry name="TankHuntersDescription" value="攻击敌方载具单位时提高护甲穿透效果."/>
+	<entry name="TankHuntersFlavor" value="这些装甲老兵能够发现敌方载具的弱点, 并展开针对性的进攻."/>
+	<entry name="Tau/AdvancedTargetingSystem" value="高级瞄准系统"/>
+	<entry name="Tau/AdvancedTargetingSystemDescription" value="提高远程准确度."/>
+	<entry name="Tau/AdvancedTargetingSystemFlavor" value="先进的瞄准系统能够识别具有特殊价值或极端危险的目标, 拥有制定反制策略的能力."/>
+	<entry name="Tau/AutomatedRepairSystem" value="自动维修系统"/>
+	<entry name="Tau/AutomatedRepairSystemDescription" value="每回合恢复生命值."/>
+	<entry name="Tau/AutomatedRepairSystemFlavor" value="小型维护无人机将成群涌向受损的战斗系统, 在战场中对其进行维修."/>
+	<entry name="Tau/BlacksunFilter" value="黑日过滤器"/>
+	<entry name="Tau/BlacksunFilterDescription" value="提高视野."/>
+	<entry name="Tau/BlacksunFilterFlavor" value="这套光学过滤套件能够使载具传感器在哪怕是夜间的战斗行动中依然能够以最大效率和准确度命中敌人."/>
+	<entry name="Tau/BlastDamage" value="爆炸相移"/>
+	<entry name="Tau/BlastDamageDescription" value="提高护甲穿透效果."/>
+	<entry name="Tau/BlastDamageFlavor" value="与车辆之类的坚硬目标相比, 范围武器更适合用来对付大规模的步兵编队—但地族工程师已经想出了应对办法. 通过对爆炸和燃烧武器的能量武器进行相位移动, 他们至少可以确保一部分能够‘泄漏’并突破任何屏障."/>
+	<entry name="Tau/BoltDamage" value="巴克伊兰组装线"/>
+	<entry name="Tau/BoltDamageDescription" value="提高护甲穿透效果."/>
+	<entry name="Tau/BoltDamageFlavor" value="即便是最优秀的地族技师也无法以手工方式组装轨道武器部件. 但他们把这项工作交给了微小的巴克伊兰族并为其提供微型工具, 这样就能够缩小规模并降低精细操作的偏差, 从而能够对武器进行更加细致的调整."/>
+	<entry name="Tau/BreakComposure" value="<string name='Actions/Tau/BreakComposure'/>"/>
+	<entry name="Tau/BreakComposureDescription" value="被攻击的单位降低士气."/>
+	<entry name="Tau/BreakComposureFlavor" value="<string name='Actions/Tau/BreakComposureFlavor'/>"/>
+	<entry name="Tau/CityTier2" value="散播"/>
+	<entry name="Tau/CityTier2Description" value="提高能够占领的土地半径."/>
+	<entry name="Tau/CityTier2Flavor" value="一旦城市达到一定规模, 水族便会发起外交攻势, 去指引更多的市民—用各种各样的广播信息轰炸他们."/>
+	<entry name="Tau/CityTier3" value="安萨佐德基础"/>
+	<entry name="Tau/CityTier3Description" value="提高能够占领的土地半径."/>
+	<entry name="Tau/CityTier3Flavor" value="拥有厚重皮肤的安索佐德是一种缓慢思考的种族, 通常被钛星人用来进行危险而繁重的活动, 比如小行星开采. 但在土族的指挥下, 他们可以产生城市子结构以及无人驾驶运输隧道, 让遥远的各处连接起来."/>
+	<entry name="Tau/CounterfireDefenceSystem" value="逆火防御系统"/>
+	<entry name="Tau/CounterfireDefenceSystemDescription" value="提高掩护的准确度."/>
+	<entry name="Tau/CounterfireDefenceSystemFlavor" value="<string name='Actions/Tau/CounterfireDefenceSystemFlavor'/>"/>
+	<entry name="Tau/DisruptionPod" value="干扰舱"/>
+	<entry name="Tau/DisruptionPodDescription" value="提高远程伤害减免."/>
+	<entry name="Tau/DisruptionPodFlavor" value="干扰舱能够抛出视觉上和电磁光谱上的是真图像, 从而使敌人难以瞄准载具."/>
+	<entry name="Tau/DroneController" value="无人机控制器"/>
+	<entry name="Tau/DroneControllerDescription" value="提高临近无人机的准确度."/>
+	<entry name="Tau/DroneControllerFlavor" value="<string name='Actions/Tau/DroneControllerFlavor'/>"/>
+	<entry name="Tau/DroneControllerInRange" value="范围无人机控制器"/>
+	<entry name="Tau/DroneControllerInRangeDescription" value="提高准确度."/>
+	<entry name="Tau/DroneControllerInRangeFlavor" value="<string name='Actions/Tau/DroneControllerFlavor'/>"/>
+	<entry name="Tau/FireTeam" value="烈焰小队"/>
+	<entry name="Tau/FireTeamDescription" value="当位于友方载具或巨兽生物旁边时提高远程准确度."/>
+	<entry name="Tau/FireTeamFlavor" value="一些战斗装甲和战争坦克的传感器网络能够联结在一起, 以提高在战斗中的效率."/>
+	<entry name="Tau/FlechetteDischarger" value="飞镖放电器"/>
+	<entry name="Tau/FlechetteDischargerDescription" value="对近战攻击者造成伤害."/>
+	<entry name="Tau/FlechetteDischargerFlavor" value="在很多钛星人载具的外壳上都附着强大的反应电荷簇. 如果敌人接近, 高速喷出的飞镖会将其撕得粉碎."/>
+	<entry name="Tau/GhostkeelElectrowarfareSuite" value="魂骨电子战斗装甲"/>
+	<entry name="Tau/GhostkeelElectrowarfareSuiteDescription" value="提高受到2格以外位置攻击的远程伤害减免效果."/>
+	<entry name="Tau/GhostkeelElectrowarfareSuiteFlavor" value="魂骨的AI电子战套件能够主动扫描敌人的目标频谱并入侵其传感器阵列, 向它们填充虚假信息和无效信息, 以此来妨碍远处的战斗装甲正常工作."/>
+	<entry name="Tau/HolophotonCountermeasures" value="<string name='Actions/Tau/HolophotonCountermeasures'/>"/>
+	<entry name="Tau/HolophotonCountermeasuresDescription" value="降低远程准确度."/>
+	<entry name="Tau/HolophotonCountermeasuresFlavor" value="<string name='Actions/Tau/HolophotonCountermeasuresFlavor'/>"/>
+	<entry name="Tau/Kauyon" value="<string name='Actions/Tau/Kauyon'/>"/>
+	<entry name="Tau/KauyonDescription" value="提高远程伤害减免效果."/>
+	<entry name="Tau/KauyonFlavor" value="<string name='Actions/Tau/KauyonFlavor'/>"/>
+	<entry name="Tau/LasDamage" value="莫顿加速器"/>
+	<entry name="Tau/LasDamageDescription" value="提高护甲穿透效果."/>
+	<entry name="Tau/LasDamageFlavor" value="正如人类的代价所证明的那样, 在武器装备中使用放射性物质始终是危险的. 可以认为钛星人也意识到了这一点, 但无论如何, 他们依然选择在军事技术中使用最近发现的莫顿. 当暴露在空气中后, 它将迅速衰变并放射出巨大的离子能量."/>
+	<entry name="Tau/MobileDefencePlatform" value="机动防御平台"/>
+	<entry name="Tau/MobileDefencePlatformDescription" value="提高装载运输时的移动."/>
+	<entry name="Tau/Montka" value="<string name='Actions/Tau/Montka'/>"/>
+	<entry name="Tau/MontkaDescription" value="提高对生命值50%以下目标的伤害."/>
+	<entry name="Tau/MontkaFlavor" value="<string name='Actions/Tau/MontkaFlavor'/>"/>
+	<entry name="Tau/NetworkedMarkerlight" value="网络标记之光"/>
+	<entry name="Tau/NetworkedMarkerlightDescription" value="提高远程准确度和远程伤害减免效果. 该单位的攻击将不会受到目标捕获的影响也不会消耗该效果."/>
+	<entry name="Tau/NetworkedMarkerlightFlavor" value="这些标记之光将直接连接至武器系统中, 允许其精确地传递信息."/>
+	<entry name="Tau/NovaBoost" value="<string name='Actions/Tau/NovaBoost'/>"/>
+	<entry name="Tau/NovaBoostDescription" value="提高移动."/>
+	<entry name="Tau/NovaBoostFlavor" value="<trait name='Actions/Tau/NovaBoostFlavor'/>"/>
+	<entry name="Tau/NovaFire" value="<string name='Actions/Tau/NovaFire'/>"/>
+	<entry name="Tau/NovaFireDescription" value="提高攻击."/>
+	<entry name="Tau/NovaFireFlavor" value="<trait name='Actions/Tau/NovaBoostFlavor'/>"/>
+	<entry name="Tau/NovaShield" value="<string name='Actions/Tau/NovaShield'/>"/>
+	<entry name="Tau/NovaShieldDescription" value="提高伤害减免."/>
+	<entry name="Tau/NovaShieldFlavor" value="<trait name='Actions/Tau/NovaBoostFlavor'/>"/>
+	<entry name="Tau/PointDefenceTargetingRelay" value="点状防御目标中继器"/>
+	<entry name="Tau/PointDefenceTargetingRelayDescription" value="提高对位于友方目标旁边敌方目标的掩护伤害."/>
+	<entry name="Tau/PointDefenceTargetingRelayFlavor" value="点状防御中继器能够为附近的火族单位提供超强的掩护火力, 能够自动瞄准目标并与之交战."/>
+	<entry name="Tau/PulseAccelerator" value="脉冲加速器"/>
+	<entry name="Tau/PulseAcceleratorDescription" value="提高脉冲武器的射程."/>
+	<entry name="Tau/PulseAcceleratorFlavor" value="<trait name='Actions/Tau/PulseAcceleratorFlavor'/>"/>
+	<entry name="Tau/Rinyon" value="<string name='Actions/Tau/Rinyon'/>"/>
+	<entry name="Tau/RinyonDescription" value="提高临近其他友方单位目标的准确度."/>
+	<entry name="Tau/RinyonFlavor" value="<string name='Actions/Tau/RinyonFlavor'/>"/>
+	<entry name="Tau/RiptideShieldGenerator" value="激流护盾发生器"/>
+	<entry name="Tau/RiptideShieldGeneratorDescription" value="提高伤害减免效果."/>
+	<entry name="Tau/RiptideShieldGeneratorFlavor" value="在激流战斗装甲的消融护盾中安装有一个小型能量场发生器, 其能量可以通过从XV104新星反应堆转移功率来进一步提升."/>
+	<entry name="Tau/Ripyka" value="<string name='Actions/Tau/Ripyka'/>"/>
+	<entry name="Tau/RipykaDescription" value="<string name='Actions/Tau/RipykaDescription'/>"/>
+	<entry name="Tau/RipykaFlavor" value="<string name='Actions/Tau/RipykaFlavor'/>"/>
+	<entry name="Tau/RipykaVa" value="瑞皮卡瓦"/>
+	<entry name="Tau/RipykaVaDescription" value="<string name='Actions/Tau/RipykaDescription'/>"/>
+	<entry name="Tau/RipykaVaFlavor" value="指挥官冷焰以其敏锐和战术意识而闻名, 但她也倾向于激励部队以努力应对自己的战略复杂性. 有传言说, 对于上上善道她太过于偏袒自己, 甚至连火族战士都不如…"/>
+	<entry name="Tau/SenseOfStone" value="<string name='Actions/Tau/SenseOfStone'/>"/>
+	<entry name="Tau/SenseOfStoneDescription" value="提高伤害减免."/>
+	<entry name="Tau/SenseOfStoneFlavor" value="<string name='Actions/Tau/SenseOfStoneFlavor'/>"/>
+	<entry name="Tau/ShieldGenerator" value="护盾发生器"/>
+	<entry name="Tau/ShieldGeneratorDescription" value="提高伤害减免."/>
+	<entry name="Tau/ShieldGeneratorFlavor" value="<string name='Actions/Tau/ShieldGeneratorFlavor'/>"/>
+	<entry name="Tau/StabilisingAnchors" value="稳定之矛"/>
+	<entry name="Tau/StabilisingAnchorsDescription" value="若单位该回合内未移动则提高其远程攻击."/>
+	<entry name="Tau/StabilisingAnchorsFlavor" value="KV128风暴之涌战斗装甲过于巨大, 无法像其他战斗装甲那样安装喷射背包. 不过地族科学家伯尔坎设计了新的方式, 允许它们将所有的反应堆功率都应用到其巨大的武器装备上."/>
+	<entry name="Tau/StimulantInjector" value="兴奋剂注射器"/>
+	<entry name="Tau/StimulantInjectorDescription" value="提高伤害减免效果."/>
+	<entry name="Tau/StimulantInjectorFlavor" value="<string name='Actions/Tau/StimulantInjectorFlavor'/>"/>
+	<entry name="Tau/StormOfFire" value="<string name='Actions/Tau/StormOfFire'/>"/>
+	<entry name="Tau/StormOfFireDescription" value="提高攻击."/>
+	<entry name="Tau/StormOfFireFlavor" value="<string name='Actions/Tau/StormOfFireFlavor'/>"/>
+	<entry name="Tau/SubvertCity" value="<string name='Actions/Tau/SubvertCity'/>"/>
+	<entry name="Tau/SubvertCityDescription" value="降低忠诚度."/>
+	<entry name="Tau/SubvertCityFlavor" value="<string name='Actions/Tau/SubvertCityFlavor'/>"/>
+	<entry name="Tau/SupportSystems" value="支援系统"/>
+	<entry name="Tau/SupportSystemsDescription" value="允许安装支援系统."/>
+	<entry name="Tau/SupportSystemsFlavor" value="钛星人的战斗装甲拥有模块化设计, 因此地族能够轻松进行定制以适应不同的战斗环境. 由于每套战斗装甲都只有有限的挂载点, 因此是否降低其火力始终都是一个艰难的选择."/>
+	<entry name="Tau/SupportingFire" value="支援火力"/>
+	<entry name="Tau/SupportingFireDescription" value="若敌方单位位于其他友方单位旁边则提高掩护伤害."/>
+	<entry name="Tau/SupportingFireFlavor" value="烈焰法典指引着火族战士保护自己的占有. 整个团队通过火力叠加, 能够在战场上互相支援."/>
+	<entry name="Tau/TargetAcquired" value="目标捕获"/>
+	<entry name="Tau/TargetAcquiredDescription" value="提高钛帝国单位对该单位的远程准确度. 降低该单位对钛帝国单位的远程伤害减免效果. 在受到钛帝国单位攻击后该效果消失."/>
+	<entry name="Tau/TargetAcquiredFlavor" value="没有哪个种族会像钛星人那样致力于合作, 而标记之光就是最典型的例子. 这是一种手持瞄准激光器, 与钛帝国的信息系统相连接, 能够让钛星人部队执行精确打击."/>
+	<entry name="Tau/TidewallShieldline" value="潮墙盾线"/>
+	<entry name="Tau/TidewallShieldlineDescription" value="将来自武器的非爆炸, 模块或巫火伤害返还给攻击者."/>
+	<entry name="Tau/TidewallShieldlineFlavor" value="钛帝国军队最常使用的防御工事就是潮墙盾线. 这是一道能量强, 允许步兵在后进行掩护. 盾线的折射场能够把敌人撕成碎块, 而它所保护的火族战士则可以释放出起伏的脉冲火焰. 对于任何试图通过盾线驱逐钛星人的敌人来说, 这种力墙能够重新引导动能, 从而将爆炸和炮弹反弹回敌人的队伍中."/>
+	<entry name="Tau/TidewallShieldlineCity" value="<string name='Traits/Tau/TidewallShieldline'/>"/>
+	<entry name="Tau/TidewallShieldlineCityDescription" value="<string name='Traits/Tau/TidewallShieldlineDescription'/>"/>
+	<entry name="Tau/TidewallShieldlineCityFlavor" value="<string name='Traits/Tau/TidewallShieldlineFlavor'/>"/>
+	<entry name="Tau/TidewallShieldlineOutpost" value="<string name='Traits/Tau/TidewallShieldline'/>"/>
+	<entry name="Tau/TidewallShieldlineOutpostDescription" value="<string name='Traits/Tau/TidewallShieldlineDescription'/>"/>
+	<entry name="Tau/TidewallShieldlineOutpostFlavor" value="<string name='Traits/Tau/TidewallShieldlineFlavor'/>"/>
+	<entry name="Tau/Unity" value="<string name='Actions/Tau/Unity'/>"/>
+	<entry name="Tau/UnityDescription" value="<string name='Actions/Tau/UnityDescription'/>"/>
+	<entry name="Tau/UnityFlavor" value="<string name='Actions/Tau/UnityFlavor'/>"/>
+	<entry name="Tau/UtopiaBonus" value="团结一致"/>
+	<entry name="Tau/UtopiaBonusDescription" value="提高新建筑类型的忠诚度加成."/>
+	<entry name="Tau/UtopiaBonusFlavor" value="理想的钛帝国城市是一个榜样, 其展现了不同氏族的钛星人与其他种族, 包括他们的客户和盟友之间的完美平衡."/>
+	<entry name="Tau/VectoredRetroThrusters" value="矩阵推进器"/>
+	<entry name="Tau/VectoredRetroThrustersDescription" value="提高移动并无视敌人的区域控制效果."/>
+	<entry name="Tau/VectoredRetroThrustersFlavor" value="<string name='Actions/Tau/VectoredRetroThrustersFlavor'/>"/>
+	<entry name="Tau/VelocityTracker" value="速度追踪器"/>
+	<entry name="Tau/VelocityTrackerDescription" value="提高对飞行单位的远程准确度."/>
+	<entry name="Tau/VelocityTrackerFlavor" value="<string name='Actions/Tau/VelocityTrackerFlavor'/>"/>
+	<entry name="Tau/VolleyFire" value="<string name='Actions/Tau/VolleyFire'/>"/>
+	<entry name="Tau/VolleyFireDescription" value="若单位未移动则提高其远程攻击."/>
+	<entry name="Tau/VolleyFireFlavor" value="<string name='Actions/Tau/VolleyFireFlavor'/>"/>
+	<entry name="Tau/ZephyrsGrace" value="<string name='Actions/Tau/ZephyrsGrace'/>"/>
+	<entry name="Tau/ZephyrsGraceDescription" value="提高动作点数."/>
+	<entry name="Tau/ZephyrsGraceFlavor" value="<string name='Actions/Tau/ZephyrsGraceFlavor'/>"/>
+	<entry name="TelekineDome" value="心灵屏障"/>
+	<entry name="TelekineDomeDescription" value="获得远程伤害减免效果."/>
+	<entry name="TelekineDomeFlavor" value="<string name='Actions/TelekineDomeFlavor'/>"/>
+	<entry name="TeleportHomer" value="传送信鸽"/>
+	<entry name="TeleportHomerDescription" value="当终结者部署在该单位的临近位置时, 轨道部署将不消耗动作点数."/>
+	<entry name="TeleportHomerFlavor" value="传送信鸽能够发出强大的信号, 使得轨道上的攻击巡洋舰能够通过传送装置进行锁定. 在对信号坐标进行匹配后, 丢失标记的风险就会大大降低."/>
+	<entry name="Template" value="模块"/>
+	<entry name="TemplateDescription" value="<string name='Traits/BeamDescription'/>"/>
+	<entry name="TerminatorArmour" value="终结者装甲"/>
+	<entry name="TerminatorArmourDescription" value="提高伤害减免效果."/>
+	<entry name="TerminatorArmourFlavor" value="终结者装甲是星际战士最好的防护. 甚至有传言说终结者护甲能够承受等离子生成器核心中的巨大能量. 事实上, 这件装甲被设计出来就是因为这个原因."/>
+	<entry name="Tesla" value="特斯拉"/>
+	<entry name="TeslaDescription" value="提高攻击."/>
+	<entry name="TeslaFlavor" value="<string name='Weapons/TeslaFlavor'/>"/>
+	<entry name="TeslaDamage" value="碧芒释放"/>
+	<entry name="TeslaDamageDescription" value="提高护甲穿透效果."/>
+	<entry name="TeslaDamageFlavor" value="这些闪耀着绿色光芒的远古太空死灵武器仿佛是有生命一般. 它们不断扭动着, 似乎想要抓住任何所触碰到的目标, 就如同拥有自己的思想."/>
+	<entry name="TheFleshIsWeak" value="脆弱肉身"/>
+	<entry name="TheFleshIsWeakDescription" value="提高伤害减免效果."/>
+	<entry name="TheFleshIsWeakFlavor" value="<string name='Actions/TheFleshIsWeakFlavor'/>"/>
+	<entry name="TrainedSentinelPilots" value="训练哨兵驾驶员"/>
+	<entry name="TrainedSentinelPilotsDescription" value="提高伤害."/>
+	<entry name="TrainedSentinelPilotsFlavor" value="哨兵在整个人类帝国中扮演着各种各样的角色—比如装载宇宙飞船武器或者是进行跳伞侦察. 一些哨兵装备着改进型装甲并能够携带重型武器. 这样一来, 它们的角色就将从支援和侦察转变为可怕的重型火力平台."/>
+	<entry name="Traktor" value="牵引器"/>
+	<entry name="TraktorDescription" value="使敌方飞行单位无法移动."/>
+	<entry name="Transport" value="运输"/>
+	<entry name="TransportDescription" value="允许运输步兵单位."/>
+	<entry name="TransportFlavor" value="一些载具可以携带步兵穿越战场, 带来速度优势. 当然如果这些车辆被摧毁的话, 那么乘客就将在爆炸中殒命."/>
+	<entry name="TurboBoost" value="涡轮加速"/>
+	<entry name="TurboBoostDescription" value="提高移动."/>
+	<entry name="Tusked" value="獠牙"/>
+	<entry name="TuskedDescription" value="攻击时提高近战武器的攻击."/>
+	<entry name="Tyranids/AcidBlood" value="酸性血液"/>
+	<entry name="Tyranids/AcidBloodDescription" value="以近战方式攻击该单位的敌人将会受到伤害."/>
+	<entry name="Tyranids/AcidBloodFlavor" value="某些泰伦虫族的血液拥有极强的腐蚀性, 它甚至可以穿透强化陶瓷装甲, 并在一瞬间溶解血肉."/>
+	<entry name="Tyranids/AdaptiveBiology" value="<string name='Actions/Tyranids/AdaptiveBiology'/>"/>
+	<entry name="Tyranids/AdaptiveBiologyDescription" value="提高伤害减免效果."/>
+	<entry name="Tyranids/AdaptiveBiologyFlavor" value="<string name='Actions/Tyranids/AdaptiveBiologyFlavor'/>"/>
+	<entry name="Tyranids/AlphaWarrior" value="<string name='Actions/Tyranids/AlphaWarrior'/>"/>
+	<entry name="Tyranids/AlphaWarriorDescription" value="提高准确度."/>
+	<entry name="Tyranids/AlphaWarriorFlavor" value="<string name='Actions/Tyranids/AlphaWarriorFlavor'/>"/>
+	<entry name="Tyranids/Biomorph" value="生物拟态"/>
+	<entry name="Tyranids/BiomorphDescription" value="分类."/>
+	<entry name="Tyranids/BiomorphDamage" value="生物拟态适应"/>
+	<entry name="Tyranids/BiomorphDamageDescription" value="提高护甲穿透效果."/>
+	<entry name="Tyranids/BiomorphDamageFlavor" value="尽管泰伦虫族并没有与生俱来能够应对各种情况的能力, 但在它们的DNA种却拥有极强的适应性. 从资源的角度来说拥有这种能力无疑是耗费巨大的, 但能够允许它们在战场上改变自己的行为和物理伤害能力."/>
+	<entry name="Tyranids/BoundingLeap" value="超强弹跳"/>
+	<entry name="Tyranids/BoundingLeapDescription" value="无视河流的移动惩罚效果."/>
+	<entry name="Tyranids/BroodProgenitor" value="<string name='Actions/Tyranids/BroodProgenitor'/>"/>
+	<entry name="Tyranids/BroodProgenitorDescription" value="提高攻击."/>
+	<entry name="Tyranids/BroodProgenitorFlavor" value="<string name='Actions/Tyranids/BroodProgenitorFlavor'/>"/>
+	<entry name="Tyranids/ChameleonicSkin" value="变色皮肤"/>
+	<entry name="Tyranids/ChameleonicSkinDescription" value="允许使用近战武器进行掩护."/>
+	<entry name="Tyranids/CityDamage" value="蜘蛛母巢"/>
+	<entry name="Tyranids/CityDamageDescription" value="每回合造成伤害"/>
+	<entry name="Tyranids/CityDamageFlavor" value="进入一个成熟的泰伦虫族城市, 就好比进入了一头巨兽的体内—敌人, 生物改造的怪兽, 都想要将你吞食. 拥有剧毒绒毛的步兵, 长满了牙齿和如同下颚般紧闭的山谷, 以及如同城镇般大小的括约肌突然打开, 将整个毫无察觉的军队瞬间投进充满酸液的回收池."/>
+	<entry name="Tyranids/CityGrowth" value="激进扩张"/>
+	<entry name="Tyranids/CityGrowthDescription" value="提高增长率."/>
+	<entry name="Tyranids/CityGrowthFlavor" value="泰伦虫族的城市在规模上并不突出, 但它们将精力集中在了生产上. 只要一座城市能够有效地产生军队, 那么它是否占据土地并不重要. 然而当一座城市必须扩张时, 它又能非常迅速地做到. 而只要土地被占领, 泰伦虫族就能够立即开始孕育新的建筑物."/>
+	<entry name="Tyranids/CityLoyalty" value="灰色物质分离"/>
+	<entry name="Tyranids/CityLoyaltyDescription" value="降低城市数量所造成的忠诚度惩罚."/>
+	<entry name="Tyranids/CityLoyaltyFlavor" value="在整个虫巢种, 不论是大型的生产有机体, 还是较小的维护用生物, 到基质本身, 无数小型的灰色物质在这里被分散开来, 增加了虫群生物能够被控制的可靠性."/>
+	<entry name="Tyranids/CityPopulationLimit" value="生源细胞器"/>
+	<entry name="Tyranids/CityPopulationLimitDescription" value="提高人口上限."/>
+	<entry name="Tyranids/CityPopulationLimitFlavor" value="在泰伦虫族的城市中没有什么是“真正”活着的. 毫无心智的“细胞器”生物在被重新同化前将起到非常关键的作用. 它们可以对城市结构进行改造, 使得这些有机体能够在更短的时间内产生和重新吸收, 进而使得总体人口得以增加."/>
+	<entry name="Tyranids/CityProduction" value="推进式分娩"/>
+	<entry name="Tyranids/CityProductionDescription" value="提高生产产出."/>
+	<entry name="Tyranids/CityProductionFlavor" value="等待泰伦虫族新生命的诞生并让其自行离开母体建筑是一件非常低效的事情. 然而基因专家发现, 这些新生物能够通过电能脉冲直接从分娩囊中喷射而出, 进而使其能够迅速投入使用.等待泰伦虫族新生命的诞生并让其自行离开母体建筑是一件非常低效的事情. 然而基因专家发现, 这些新生物能够通过电能脉冲直接从分娩囊中喷射而出, 进而使其能够迅速投入使用."/>
+	<entry name="Tyranids/CityTier2" value="撕裂虫分离"/>
+	<entry name="Tyranids/CityTier2Description" value="提高能够占领的土地半径."/>
+	<entry name="Tyranids/CityTier2Flavor" value="随着虫巢的成熟, 撕裂虫不再需要大量聚集在一起来保证安全. 通过分散它们, 能够将虫巢意志更好地进行传播并执行其回收行为."/>
+	<entry name="Tyranids/Dominion" value="<string name='Actions/Tyranids/Dominion'/>"/>
+	<entry name="Tyranids/DominionDescription" value="提高忠诚度产出."/>
+	<entry name="Tyranids/DominionFlavor" value="<string name='Actions/Tyranids/DominionFlavor'/>"/>
+	<entry name="Tyranids/ExploitWeaknesses" value="<string name='Actions/Tyranids/ExploitWeaknesses'/>"/>
+	<entry name="Tyranids/ExploitWeaknessesDescription" value="降低护甲."/>
+	<entry name="Tyranids/ExploitWeaknessesFlavor" value="<string name='Actions/Tyranids/ExploitWeaknessesFlavor'/>"/>
+	<entry name="Tyranids/FeederBeast" value="野兽饲养"/>
+	<entry name="Tyranids/FeederBeastDescription" value="由该单位造成的伤害将被转化为治疗."/>
+	<entry name="Tyranids/GraspingTail" value="<string name='Actions/Tyranids/GraspingTail'/>"/>
+	<entry name="Tyranids/GraspingTailDescription" value="降低攻击."/>
+	<entry name="Tyranids/GraspingTailFlavor" value="<string name='Actions/Tyranids/GraspingTailFlavor'/>"/>
+	<entry name="Tyranids/HiveCommander" value="<string name='Actions/Tyranids/HiveCommander'/>"/>
+	<entry name="Tyranids/HiveCommanderDescription" value="提高伤害和伤害减免效果."/>
+	<entry name="Tyranids/HiveCommanderFlavor" value="<string name='Actions/Tyranids/HiveCommanderFlavor'/>"/>
+	<entry name="Tyranids/IndescribableHorror" value="<string name='Actions/Tyranids/IndescribableHorror'/>"/>
+	<entry name="Tyranids/IndescribableHorrorDescription" value="每回合降低士气."/>
+	<entry name="Tyranids/IndescribableHorrorFlavor" value="<string name='Actions/Tyranids/IndescribableHorrorFlavor'/>"/>
+	<entry name="Tyranids/InfantryUpkeep" value="荒芜本能"/>
+	<entry name="Tyranids/InfantryUpkeepDescription" value="降低生物质维护费."/>
+	<entry name="Tyranids/InfantryUpkeepFlavor" value="虫巢意志通常都能够保持其对虫群的严密控制, 除了无意识的行动外它指导着一切—但如果放松这种控制, 较小的有机体就能够足以自行寻找食物."/>
+	<entry name="Tyranids/InstinctiveBehaviour" value="本能行为"/>
+	<entry name="Tyranids/InstinctiveBehaviourDescription" value="<string name='Traits/Tyranids/InstinctiveBehaviourLurkDescription'/>"/>
+	<entry name="Tyranids/InstinctiveBehaviourFlavor" value="<string name='Traits/Tyranids/InstinctiveBehaviourLurkFlavor'/>"/>
+	<entry name="Tyranids/InstinctiveBehaviourFeed" value="本能行为(喂养)"/>
+	<entry name="Tyranids/InstinctiveBehaviourFeedDescription" value="如果没有在突触生物范围内则单位将每回合失去一定的生命值."/>
+	<entry name="Tyranids/InstinctiveBehaviourFeedFlavor" value="如果没有虫巢意志的控制或者协同, 无数泰伦虫族有机体将会恢复其卑劣的本能."/>
+	<entry name="Tyranids/InstinctiveBehaviourHunt" value="本能行为(狩猎)"/>
+	<entry name="Tyranids/InstinctiveBehaviourHuntDescription" value="如果没有在突触生物范围内则单位将每回合失去一定的移动."/>
+	<entry name="Tyranids/InstinctiveBehaviourHuntFlavor" value="<string name='Traits/Tyranids/InstinctiveBehaviourFeedFlavor'/>"/>
+	<entry name="Tyranids/InstinctiveBehaviourLurk" value="本能行为(潜伏)"/>
+	<entry name="Tyranids/InstinctiveBehaviourLurkDescription" value="如果没有在突触生物范围内则单位将每回合失去一定的士气."/>
+	<entry name="Tyranids/InstinctiveBehaviourLurkFlavor" value="<string name='Traits/Tyranids/InstinctiveBehaviourFeedFlavor'/>"/>
+	<entry name="Tyranids/InstinctiveBehaviourOverride" value="压制本能行为"/>
+	<entry name="Tyranids/InstinctiveBehaviourOverrideDescription" value="该单位将不再屈从其本能行为."/>
+	<entry name="Tyranids/InstinctiveBehaviourOverrideFlavor" value="<string name='Traits/Tyranids/InstinctiveBehaviourFeedFlavor'/>"/>
+	<entry name="Tyranids/LivingBatteringRam" value="<string name='Actions/Tyranids/LivingBatteringRam'/>"/>
+	<entry name="Tyranids/LivingBatteringRamDescription" value="提高伤害."/>
+	<entry name="Tyranids/LivingBatteringRamFlavor" value="<string name='Actions/Tyranids/LivingBatteringRamFlavor'/>"/>
+	<entry name="Tyranids/LongRangedDamage" value="视觉扩展"/>
+	<entry name="Tyranids/LongRangedDamageDescription" value="提高护甲穿透效果."/>
+	<entry name="Tyranids/LongRangedDamageFlavor" value="想要通过简单的双目视觉发现远处的敌人是非常困难的. 一种明智的同化选择是, 增加有机体的眼部传感器种类和数量, 以提高发现所有种类敌人的能力."/>
+	<entry name="Tyranids/MassIncubation" value="<string name='Actions/Tyranids/MassIncubation'/>"/>
+	<entry name="Tyranids/MassIncubationDescription" value="<string name='Actions/Tyranids/MassIncubationDescription'/>"/>
+	<entry name="Tyranids/MassIncubationFlavor" value="<string name='Actions/Tyranids/MassIncubationFlavor'/>"/>
+	<entry name="Tyranids/MeleeDamage" value="生物武器共生"/>
+	<entry name="Tyranids/MeleeDamageDescription" value="提高护甲穿透效果."/>
+	<entry name="Tyranids/MeleeDamageFlavor" value="当泰伦虫族第一次被发现时, 特别是它们的先驱半龙人, 它们的武器通常是一系列独立的有机体. 随着时间流逝, 泰伦虫族和它们的武器几乎已经融为一体."/>
+	<entry name="Tyranids/Onslaught" value="<string name='Actions/Tyranids/Onslaught'/>"/>
+	<entry name="Tyranids/OnslaughtDescription" value="提高移动."/>
+	<entry name="Tyranids/OnslaughtFlavor" value="<string name='Actions/Tyranids/OnslaughtFlavor'/>"/>
+	<entry name="Tyranids/Paroxysm" value="<string name='Actions/Tyranids/Paroxysm'/>"/>
+	<entry name="Tyranids/ParoxysmDescription" value="降低准确度."/>
+	<entry name="Tyranids/ParoxysmFlavor" value="<string name='Actions/Tyranids/ParoxysmFlavor'/>"/>
+	<entry name="Tyranids/PreyAdaptation" value="捕食同化"/>
+	<entry name="Tyranids/PreyAdaptationDescription" value="当马兰脑虫获得经验时虫巢意志将获得研究."/>
+	<entry name="Tyranids/PreyAdaptationFlavor" value="马兰脑虫不仅从尸体中获得新的基因数据—它们还能够观察生物之间的传递模式, 无论是父母还是老师, 并将其保留在虫巢意志生物中进行记录和编码."/>
+	<entry name="Tyranids/ProductionBuildingUpkeep" value="生育管道"/>
+	<entry name="Tyranids/ProductionBuildingUpkeepDescription" value="降低影响力维护费."/>
+	<entry name="Tyranids/ProductionBuildingUpkeepFlavor" value="只需轻松的转化, 虫巢就能够改变其生物结构. 分娩通道就如同生物化的产线, 使得许多生物能够在没有虫巢意志的监督下同时展开生产."/>
+	<entry name="Tyranids/RakingStrike" value="斜掠"/>
+	<entry name="Tyranids/RakingStrikeDescription" value="提高天巫的近战攻击. 在攻击飞行单位时近战攻击还将额外提高."/>
+	<entry name="Tyranids/RakingStrikeFlavor" value="在天巫的底部加长并加固刃刺能够让其向敌人发起致命的飞行袭击. 除此之外, 锋利的翼尖还能够使天巫准确地瞄准敌方飞行员."/>
+	<entry name="Tyranids/RapaciousHunger" value="<string name='Actions/Tyranids/RapaciousHunger'/>"/>
+	<entry name="Tyranids/RapaciousHungerDescription" value="提高攻击."/>
+	<entry name="Tyranids/RapaciousHungerFlavor" value="<string name='Actions/Tyranids/RapaciousHungerFlavor'/>"/>
+	<entry name="Tyranids/Reclamation2" value="突触共生"/>
+	<entry name="Tyranids/Reclamation2Description" value="降低影响力消耗."/>
+	<entry name="Tyranids/Reclamation2Flavor" value="回收池是泰伦虫族中最简单的有机体—冒着泡的消化坑能够分解生物质—但它们确实泰伦虫族生命循环中的核心, 它们见证着一代又一代的进化. 这种特殊适应性控制着每座回收池边缘的突触, 这样能够以较少的虫巢意志监督来管理所有的消化过程."/>
+	<entry name="Tyranids/Reclamation3" value="消化促进"/>
+	<entry name="Tyranids/Reclamation3Description" value="移除冷却时间."/>
+	<entry name="Tyranids/Reclamation3Flavor" value="回收池拥有非常高的效率—生物质中的每个基点都又可能导致失败. 这种适应性使回收成为了一个连续的过程, 可以实现高百分比的生物质回收."/>
+	<entry name="Tyranids/Regeneration" value="恢复"/>
+	<entry name="Tyranids/RegenerationDescription" value="每回合恢复生命值"/>
+	<entry name="Tyranids/RegenerationFlavor" value="一些泰伦虫族拥有能够从致命伤害中得以恢复的能力."/>
+	<entry name="Tyranids/ResourceBuildingUpkeep" value="食腐同化"/>
+	<entry name="Tyranids/ResourceBuildingUpkeepDescription" value="降低影响力维护费."/>
+	<entry name="Tyranids/ResourceBuildingUpkeepFlavor" value="虫巢意志通常都能够保持其对虫群的严密控制, 除了无意识的行动外它指导着一切—但如果放松这种控制, 较小的有机体就能够足以自行寻找食物."/>
+	<entry name="Tyranids/ScourgeOfTheBrood" value="<string name='Actions/Tyranids/ScourgeOfTheBrood'/>"/>
+	<entry name="Tyranids/ScourgeOfTheBroodDescription" value="提高伤害."/>
+	<entry name="Tyranids/ScourgeOfTheBroodFlavor" value="<string name='Actions/Tyranids/ScourgeOfTheBroodFlavor'/>"/>
+	<entry name="Tyranids/ShadowInTheWarp" value="<string name='Actions/Tyranids/ShadowInTheWarp'/>"/>
+	<entry name="Tyranids/ShadowInTheWarpDescription" value="每回合降低士气."/>
+	<entry name="Tyranids/ShadowInTheWarpFlavor" value="<string name='Actions/Tyranids/ShadowInTheWarpFlavor'/>"/>
+	<entry name="Tyranids/ShortRangedDamage" value="钻肉虫巢穴"/>
+	<entry name="Tyranids/ShortRangedDamageDescription" value="提高护甲穿透效果."/>
+	<entry name="Tyranids/ShortRangedDamageFlavor" value="独特而令人作呕的钻肉虫的巢穴是由一群紧凑排列的钻甲虫所组成的, 这些能够喷射酸液的虫子能够通过武器进行发射. 更大体积的巢穴内部包含着数量较少但体型更为巨大的甲虫, 所造成的伤害自然也更高."/>
+	<entry name="Tyranids/SporeCloud" value="<string name='Actions/Tyranids/SporeCloud'/>"/>
+	<entry name="Tyranids/SporeCloudDescription" value="获得远程伤害减免."/>
+	<entry name="Tyranids/SporeCloudFlavor" value="<string name='Actions/Tyranids/SporeCloudFlavor'/>"/>
+	<entry name="Tyranids/SymbioticTargeting" value="共生目标"/>
+	<entry name="Tyranids/SymbioticTargetingDescription" value="如果单位保持静止则提高其远程准确度."/>
+	<entry name="Tyranids/SynapseLink" value="突触连接"/>
+	<entry name="Tyranids/SynapseLinkDescription" value="该单位不会受到士气影响, 免疫恐惧并且不会屈从于本能行为."/>
+	<entry name="Tyranids/SynapseLinkFlavor" value="<string name='Traits/Tyranids/InstinctiveBehaviourFeedFlavor'/>"/>
+	<entry name="Tyranids/SynapticBacklash" value="突触反弹"/>
+	<entry name="Tyranids/SynapticBacklashDescription" value="当恶妇兽死亡后区域内的迅猛兽将受到伤害."/>
+	<entry name="Tyranids/SynapticBacklashFlavor" value="尽管泰伦虫族彼此之间没有任何感情—它们会平静地看着自己的同胞死亡或者走进回收池—然而当恶妇兽死亡时其子嗣所承受的灵能创伤却显得非常奇怪, 甚至连虫巢意志都无法消除它. 也许这就是恶妇兽在长期进化中写进了基因里的遗产—虫巢意志很少创新, 但绝大多数时候都是抄袭."/>
+	<entry name="Tyranids/ToxinSacs" value="剧毒液囊"/>
+	<entry name="Tyranids/ToxinSacsDescription" value="提高近战武器对步兵单位的伤害."/>
+	<entry name="Tyranids/ToxinSacsFlavor" value="这些寄生腺体能够分泌各种散发着恶臭的液体, 能够让泰伦虫族的尖牙利爪沾染上致命毒素."/>
+	<entry name="Tyranids/Tunnel2" value="螠虫之墙"/>
+	<entry name="Tyranids/Tunnel2Description" value="提高生命值."/>
+	<entry name="Tyranids/Tunnel2Flavor" value="对于泰伦虫族来说, 母巢的墙壁迅速增厚意味着其内部是相对比较脆弱的. 基因专家观察到其同化过程相对比较缓慢, 但随着时间推移肌肉量会得到增加, 而且对敌人的行动也会变得更加灵活."/>
+	<entry name="Tyranids/VehiclesUpkeep" value="极限本能"/>
+	<entry name="Tyranids/VehiclesUpkeepDescription" value="降低生物质维护费."/>
+	<entry name="Tyranids/VehiclesUpkeepFlavor" value="虫巢意志通常都能够保持其对虫群的严密控制, 除了无意识的行动外它指导着一切—但如果放松这种控制, 较小的有机体就能够足以自行寻找食物."/>
+	<entry name="Tyranids/WarpField" value="亚空间力场"/>
+	<entry name="Tyranids/WarpFieldDescription" value="提高伤害减免效果."/>
+	<entry name="Tyranids/WarpFieldFlavor" value="对于虫巢意志的灵能力量来说脑虫时非常重要的掌控节点, 具有天生的强大自我保护能力. 因此, 它们在战斗中会本能地召唤一个强大的亚空间力场以保护自己 --- 这是一个看不见的精神力盾牌, 不论是小型武器还是重型火力仅仅只会在它的表面擦出点点闪光."/>
+	<entry name="TwinLinked" value="双联"/>
+	<entry name="TwinLinkedDescription" value="提高准确度."/>
+	<entry name="TwinLinkedFlavor" value="这些武器移植由同样的瞄准系统, 但精确度更高."/>
+	<entry name="Uncommon" value="稀有"/>
+	<entry name="UncommonDescription" value="分类."/>
+	<entry name="Unique" value="唯一"/>
+	<entry name="UniqueDescription" value="限制该类型单位的数量."/>
+	<entry name="Unwieldy" value="笨重不堪"/>
+	<entry name="UnwieldyDescription" value="降低准确度."/>
+	<entry name="UnwieldyFlavor" value="这件武器非常巨大而且笨重, 使得快速打击成为了一件不可能的事情."/>
+	<entry name="VectoredAfterburners" value="矢量喷射"/>
+	<entry name="VectoredAfterburnersDescription" value="提高移并获得远程伤害减免效果."/>
+	<entry name="Vehicle" value="载具"/>
+	<entry name="VehicleDescription" value="无视重型和火炮武器的惩罚效果. 提高在森林和帝国废墟中的移动惩罚效果."/>
+	<entry name="VehicleFlavor" value="战争不光只有活着的士兵, 还有强大的战争引擎和坦克."/>
+	<entry name="VoidShield" value="虚空护盾"/>
+	<entry name="VoidShieldDescription" value="提高远程伤害减免效果."/>
+	<entry name="VoidShieldFlavor" value="<string name='Actions/AstraMilitarum/ProjectedVoidShieldFlavor'/>"/>
+	<entry name="VoxCaster" value="声响投递者"/>
+	<entry name="VoxCasterDescription" value="降低士气损失."/>
+	<entry name="VoxCasterFlavor" value="声响投递者是一种可靠的通信阵列, 可以通过紧束发射器连接到战术指挥网络."/>
+	<entry name="Waaagh" value="哇!"/>
+	<entry name="WaaaghDescription" value="提高攻击."/>
+	<entry name="WaaaghFlavor" value="哇! 是一种乐趣, 是一次远征, 巨大的灵能力量, 有形的信仰光环, 也可能是欧克兽人主神本身. 当陷入到兴奋而痛苦的咆哮之中, 所有的欧克兽人就将穿越银河并带来战争. 这便是欧克兽人的核心所在."/>
+	<entry name="Walker" value="行者"/>
+	<entry name="WalkerDescription" value="<string name='Traits/DozerBladeDescription'/>"/>
+	<entry name="Weakened" value="削弱"/>
+	<entry name="WeakenedDescription" value="降低移动和伤害."/>
+	<entry name="WireWeed" value="<string name='Features/WireWeed'/>"/>
+	<entry name="WireWeedDescription" value="每回合造成伤害."/>
+	<entry name="WireWeedFlavor" value="<string name='Features/WireWeedFlavor'/>"/>
+	<entry name="Witchfire" value="巫火"/>
+	<entry name="WitchfireDescription" value="分类."/>
+	<entry name="Zzap" value="闪电"/>
+	<entry name="ZzapFlavor" value="闪电枪能够发射不稳定的闪电箭. 它们能够冲击最坚固的敌方载具, 但有一定几率引发过载, 导致使用者遭到电击."/>
+	<entry name="Zealot" value="狂热"/>
+	<entry name="ZealotDescription" value="降低士气损失, 提高近战伤害同时免疫恐惧和定身效果."/>
+	<entry name="ZealotFlavor" value="不论伤亡亦或是战争所带来的恐惧, 狂热只会受到信念的驱使."/>
+</language>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:cityOverlay layout.alignment="TopCenter" layout.direction="TopToBottom" showEffect="FadeIn" hideEffect="FadeOut">
+	<container preferredSize="FillParent 46"/>
+	<contentContainer layout.gap="0 0" layout.collapseInvisible="1" hint="<string name='GUI/SelectCityHint'/>" surface.texture="GUI/ShadowedSurface" name="contentContainer" preferredSize="WrapContent WrapContent" content.margin="4 2" pressedSound="Interface/Press">
+		<label name="nameLabel"/>
+		<container name="growthContainer" layout="Relative" layout.alignment="MiddleCenter" preferredSize="WrapContent WrapContent">
+			<label name="populationLabel" style="<style name='Shadowed'/>"/>
+		</container>
+	</contentContainer>
+	<container name="productionContainer" preferredSize="WrapContent WrapContent"/>
+</world:cityOverlay>

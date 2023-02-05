@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:buildingOverlay layout.alignment="MiddleCenter" 
+		layout.direction="TopToBottom"
+		showEffect="FadeIn"
+		hideEffect="FadeOut">
+	<imageButton name="orderButton"
+			unpressedTexture="GUI/ShadowedEmphasizedButton"
+			pressedTexture="GUI/ShadowedEmphasizedButton"
+			label.style="<style name='Shadowed'/>"/>
+</world:buildingOverlay>

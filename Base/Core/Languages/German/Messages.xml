@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ConfirmDelete" value="Möchten Sie „%1%” wirklich löschen?"/>
+	<entry name="ConfirmDisband" value="Möchten Sie „%1%” wirklich auflösen?"/>
+	<entry name="ConfirmOverwrite" value="Möchten Sie „%1%” wirklich überschreiben?"/>
+	<entry name="ConfirmRemoveItem" value="Möchten Sie „%1%” wirklich zerstören?"/>
+	<entry name="ConfirmRestoreDefaults" value="Möchten Sie die Standardeinstellungen der Kategorie „%1%” wirklich wiederherstellen?"/>
+	<entry name="ConfirmSurrender" value="Möchten Sie wirklich aufgeben?"/>
+	<entry name="ConnectingToServer" value="Verbindung zum Server wird hergestellt…"/>
+	<entry name="ConnectionLost" value="Verbindung unterbrochen."/>
+	<entry name="Error" value="Fehler"/>
+	<entry name="GameLoaded" value="Spiel geladen"/>
+	<entry name="GameSaved" value="Spiel gespeichert"/>
+	<entry name="GraphicsDriverOutdated" value="Ihr Grafikkartentreiber ist veraltet.<br/><br/>Bitte aktualisieren Sie ihn, indem Sie die Support-Webseite Ihres Grafikkartenherstellers besuchen, um die Stabilität und Performance zu verbessern."/>
+	<entry name="IncompatibleVersion" value="Inkompatible Spielversion."/>
+	<entry name="Info" value="Info"/>
+	<entry name="Kicked" value="Sie wurden vom Server entfernt."/>
+	<entry name="MasterServerUnreachable" value="Verbindung zum Hauptserver konnte nicht hergestellt werden."/>
+	<entry name="MissingDLC" value="DLC fehlt."/>
+	<entry name="ModUploading" value="Mod wird hochgeladen…"/>
+	<entry name="ModUploadComplete" value="Mod hochgeladen."/>
+	<entry name="ModUploadFailed" value="Mod-Upload fehlgeschlagen."/>
+	<entry name="NoFreeSlots" value="Kein freier Slot auf dem Server verfügbar."/>
+	<entry name="NoGames" value="Derzeit sind keine öffentlichen Partien vorhanden.<br/>Erstellen Sie doch Ihre eigene Partie."/>
+	<entry name="NoMods" value="Keine Mods installiert."/>
+	<entry name="NoValidTargets" value="<style color='GUI/Red'/>Keine gültigen Ziele"/>
+	<entry name="PlayerJoined" value="%1% ist beigetreten."/>
+	<entry name="PlayerLeft" value="%1% ist ausgetreten."/>
+	<entry name="PleaseEnterYourName" value="Bitte geben Sie Ihren Namen ein."/>
+	<entry name="PleaseWait" value="<style color='GUI/Red'/>Bitte warten"/>
+	<entry name="ReceivingInfo" value="Informationen werden abgerufen…"/>
+	<entry name="RestartRequired" value="Sie müssen das Spiel neu starten, damit die Änderungen wirksam werden."/>
+	<entry name="RetrievingServerList" value="Serverliste wird abgerufen…"/>
+	<entry name="ScreenShotSaveError" value="Fehler beim Speichern des Screenshots."/>
+	<entry name="ScreenShotSaved" value="Screenshot gespeichert"/>
+	<entry name="SetBinding" value="Drücken Sie eine neue Tastenkombination, die Aktion „%1%” zugewiesen werden soll."/>
+	<entry name="ServerUnreachable" value="Verbindung zum Server konnte nicht hergestellt werden.<br/><br/>Deaktivieren Sie Ihre Firewalls und aktivieren Sie UPnP auf Ihrem Router oder leiten Sie den TCP-Port %1% an Ihr Gerät weiter, um die Verbindung zu verbessern."/>
+	<entry name="SelectTarget" value="Ziel auswählen"/>
+	<entry name="TerminatedWithDisableMods" value="Aufgrund eines Absturzes wurden Mods deaktiviert. Rufen Sie den Mods-Bildschirm auf, um sie wieder zu aktivieren."/>
+	<entry name="TermsAndConditions" value="Nutzungsbedingungen"/>
+	<entry name="TurnTimerPaused" value="%1% hat den Timer pausiert."/>
+	<entry name="TurnTimerUnpaused" value="%1% hat die Timer-Pause aufgehoben."/>
+	<entry name="UnboundControl" value="Tastenkombination von Aktion „%1%” entfernt."/>
+	<entry name="Warning" value="Achtung"/>
+</language>

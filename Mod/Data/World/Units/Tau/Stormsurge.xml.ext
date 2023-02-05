@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement5">
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<energyCost base="100.0"/> <!-- %energyCost base tier=10 factor=0.5 -->
+				<oreCost base="100.0"/> <!-- %oreCost base tier=10 factor=0.5 -->
+				<oreUpkeep base="10.0"/> <!-- %oreUpkeep base tier=10 factor=1 -->
+				<productionCost base="63.0"/> <!-- %productionCost base tier=10 factor=1 -->
+			</effects>
+		</modifier>
+	</modifiers>
+</unit>

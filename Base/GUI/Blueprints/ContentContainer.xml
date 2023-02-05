@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentContainer layout="Absolute"
+		handleSelf="1"
+		addToContent="0">
+	<surface name="surface"
+			preferredSize="FillParent FillParent"
+			texture=""
+			interactive="0"/>
+	<container name="content"
+			preferredSize="FillParent FillParent"/>
+</contentContainer>

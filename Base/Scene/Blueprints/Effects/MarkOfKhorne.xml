@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpleParticleSystem material="Effects/MarkOfKhorne"
+		particleOrientation="AxisBillboarded"
+		variationCount="1 1">
+	<updateQueues>
+		<updateQueue name="Parallel3"/>
+	</updateQueues>
+	<renderQueues>
+		<renderQueue name="GlowingSimpleParticleSystems"/>
+	</renderQueues>
+	<affectors>
+		<colorAffector>
+			<colors>
+				<color value="1 1 1 0" progress="0.0"/>
+				<color value="1 1 1 1" progress="0.25"/>
+				<color value="1 0.2 0.2 1" progress="0.75"/>
+				<color value="0.5 0.1 0.1 0" progress="1.0"/>
+			</colors>
+		</colorAffector>
+		<scaleAffector>
+			<scales>
+				<scale value="1.0 1.0 1.0" progress="0.0"/>
+				<scale value="1.5 1.0 1.0" progress="1.0"/>
+			</scales>
+		</scaleAffector>		
+	</affectors>
+</simpleParticleSystem>

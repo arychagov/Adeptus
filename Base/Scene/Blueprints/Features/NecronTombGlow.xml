@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene version="1.0">
+	<model mesh="Plane" position="-38.412 -15.4417 0.0" rotation="0.0 0.0 -0.258819 0.965926" scale="35.328 35.328 35.328"/>
+	<model mesh="Plane" position="-62.5855 -32.8148 0.0" rotation="0.0 0.0 -0.67559 0.737277" scale="31.9299 31.9299 31.9299"/>
+	<model mesh="Plane" position="-15.9139 7.75629 0.0" rotation="0.0 0.0 -0.461749 0.887011" scale="31.9299 31.9299 31.9299"/>
+	<model mesh="Plane" position="-35.5246 -68.0851 0.0" rotation="0.0 0.0 -0.34202 0.939693" scale="21.8041 21.8041 21.8041"/>
+	<model mesh="Plane" position="-30.8802 67.4109 0.0" rotation="0.0 0.0 -0.737277 0.67559" scale="39.7714 39.7714 39.7714"/>
+	<model mesh="Plane" position="-60.7445 67.4064 0.0" rotation="0.0 0.0 -0.819152 0.573577" scale="17.122 17.122 17.122"/>
+	<model mesh="Plane" position="57.3811 -30.8296 0.0" rotation="0.0 0.0 -0.906308 0.422618" scale="25.1638 25.1638 25.1638"/>
+	<model mesh="Plane" position="56.2604 -51.5926 0.0" rotation="0.0 0.0 -0.382683 0.92388" scale="25.1638 25.1638 25.1638"/>
+	<model mesh="Plane" position="76.7796 -34.6571 0.0" rotation="0.0 0.0 -0.573576 0.819152" scale="19.503 19.503 19.503"/>
+	<model mesh="Plane" position="71.5887 -47.5196 0.0" rotation="0.0 0.0 -0.939693 0.34202" scale="11.4954 11.4954 11.4954"/>
+	<model mesh="Plane" position="50.4048 1.47792 0.0" rotation="0.0 0.0 -1.0 0.0" scale="18.9351 18.9351 18.9351"/>
+	<model mesh="Plane" position="55.9268 -14.3704 0.0" rotation="0.0 0.0 -0.991445 -0.130526" scale="18.9351 18.9351 18.9351"/>
+	<model mesh="Plane" position="-61.5334 60.725 0.0" rotation="0.0 0.0 -0.34202 0.939693" scale="13.2703 13.2703 13.2703"/>
+</scene>

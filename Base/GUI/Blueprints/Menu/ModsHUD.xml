@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu:modsHUD extends="HUD" layout="Flow" layout.alignment="MiddleCenter" layout.gap="0 0" layout.direction="TopToBottom" preferredSize="1240 720" showEffect="FadeInRight" hideEffect="FadeOutRight">
+	<label caption="<style name='ShadowedMenuTitle'/><string name='GUI/Mods'/>"/>
+	<image texture="GUI/HeadlineBar" color="GUI/HeadlineBar"/>
+	<component preferredSize="FillParent 30"/>
+	<container layout.alignment="TopCenter" layout.gap="20 20" preferredSize="FillParent 540">
+		<list name="list" surface.texture="GUI/ShadowedSurface" preferredSize="400 WrapContent" maxSize="0 550" weights="FillAll 1"/>
+	</container>
+	<component preferredSize="FillParent 30"/>
+	<container layout.alignment="TopCenter" layout.collapseInvisible="1" preferredSize="FillParent WrapContent">
+		<navigationOKButton/>
+		<navigationButton name="steamWorkshopButton" label.caption="<string name='GUI/SteamWorkshop'/>"/>
+	</container>
+</menu:modsHUD>

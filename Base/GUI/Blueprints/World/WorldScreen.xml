@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:worldScreen extends="HUD">
+	<container layout="Relative" layout.alignment="MiddleCenter" name="hudContainer" preferredSize="FillParent FillParent" showEffect="FadeIn" hideEffect="FadeOut">
+		<world:compendiumHUD name="compendiumHUD"/>
+		<world:itemShopHUD name="itemShopHUD"/>
+		<world:questHUD name="questHUD"/>
+		<world:researchHUD name="researchHUD"/>
+		<world:worldHUD name="worldHUD"/>
+		<world:menuHUD name="menuHUD"/>
+		<saveGameHUD name="saveGameHUD"/>
+		<loadGameHUD name="loadGameHUD"/>
+		<settingsHUD name="settingsHUD"/>
+	</container>
+	<container layout="Relative" layout.alignment="BottomCenter" preferredSize="FillParent 350" stayOnTop="1">
+		<label name="messageLabel" alignment="BottomCenter" preferredSize="FillParent WrapContent" style="<style name='ShadowedMenuTitle'/>" visible="0" interactive="0" hideEffect="Message"/>
+	</container>
+</world:worldScreen>

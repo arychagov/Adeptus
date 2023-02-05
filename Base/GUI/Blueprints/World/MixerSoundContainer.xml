@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:mixerSoundContainer preferredSize="FillParent WrapContent" layout.direction="TopToBottom">
+	<label name="label" preferredSize="FillParent 20"/>
+	<container preferredSize="FillParent 20">
+		<slider name="gainSlider" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		<slider name="pitchSlider" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		<imageButton name="playButton" image.texture="GUI/Arrow" preferredSize="20 FillParent"/>
+	</container>
+</world:mixerSoundContainer>

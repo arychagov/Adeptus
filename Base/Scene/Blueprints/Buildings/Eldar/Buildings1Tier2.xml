@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene version="1.0">
+	<model mesh="Building4" position="-28.194973 3.948135 -0.000003" rotation="0.000000 0.000000 0.176086 0.984375" scale="1.000000 1.000000 1.000000"/>
+	<model mesh="Building5" position="3.522745 -10.181358 -0.000001" rotation="0.000000 0.000000 -0.283578 0.958949" scale="1.000000 1.000000 1.000000"/>
+	<model mesh="Building7" position="29.214703 6.002539 0.000023" rotation="0.000000 0.000000 0.269794 0.962918" scale="1.000000 1.000000 1.000000"/>
+</scene>

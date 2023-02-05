@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<newSavePanel extends="Panel" titleLabel.caption="<string name='GUI/NewSavedGame'/>" content.layout.direction="TopToBottom" preferredSize="420 WrapContent">
+	<textBox name="nameTextBox" preferredSize="FillParent 30" weights="FillAll 1"/>
+	<container name="buttonContainer" layout.alignment="BottomCenter" preferredSize="FillParent WrapContent">
+		<okButton name="saveButton" label.caption="<string name='GUI/Save'/>"/>
+		<cancelButton/>
+	</container>
+</newSavePanel>

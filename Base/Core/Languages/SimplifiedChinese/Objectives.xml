@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="AccumulateBiomassDescription" value="积累生物质(%1%/%2%)."/>
+	<entry name="AccumulateInfluenceDescription" value="积累影响力(%1%/%2%)."/>
+	<entry name="AccumulateKillExperienceDescription" value="积累击杀经验(%1%/%2%)."/>
+	<entry name="AccumulatePopulationDescription" value="积累人口(%1%/%2%)."/>
+	<entry name="AccumulateResearchDescription" value="积累研究(%1%/%2%)."/>
+	<entry name="ActivateCanticleDescription" value="激活圣歌(%1%/1)."/>
+	<entry name="ActivateDoctrinaDescription" value="激活教令(%1%/1)."/>
+	<entry name="ActivateUnitDescription" value="激活%1%(%2%/1)."/>
+	<entry name="ActivateSacredRiteDescription" value="激活神圣仪式(%1%/%2%)."/>
+	<entry name="ActivateTacticDescription" value="激活战团战术(%1%/1)."/>
+	<entry name="CaptureUnitDescription" value="占领%1%(%2%/1)."/>
+	<entry name="ClaimWebwayGateWithCelestineDescription" value="将<string name='Units/SistersOfBattle/SaintCelestine'/>移动至<string name='Units/Eldar/WebwayGate'/>附近(%1%/1)."/>
+	<entry name="ClearHolySiteDescription" value="清理<string name='Features/HolySite'/> (%1%/%2%)."/>
+	<entry name="ClearInfestationDescription" value="摧毁%1%(%2%/%3%)."/>
+	<entry name="ConstructBuildingDescription" value="建造%1%(%2%/%3%)."/>
+	<entry name="ConstructBuildingOnSameTileDescription" value="在同一位置建造%1% (%2%/%3%)."/>
+	<entry name="ConstructFeatureDescription" value="建造%1%(%2%/%3%)."/>
+	<entry name="ConsumeTileDescription" value="通过马兰脑虫吸收(%2%/%3%)."/>
+	<entry name="ControlCityDescription" value="控制城市(%1%/%2%)."/>
+	<entry name="ControlOutpostDescription" value="控制前哨站(%1%/%2%)."/>
+	<entry name="ControlUnitDescription" value="控制%1%(%2%/1)."/>
+	<entry name="DefendTileDescription" value="防守高亮区域."/>
+	<entry name="DefendTileWithTurnLimitDescription" value="防守高亮区域(%1%回合)."/>
+	<entry name="DefendTileWithEntranceWithTurnLimitDescription" value="防守新发现的入口%1%回合(%2%/1)."/>
+	<entry name="DeployFortressDescription" value="将%1%部署于特殊资源地形并守卫其边界(%2%/1)."/>
+	<entry name="DeployGunDroneDescription" value="部署<string name='Units/Tau/GunDrone'/> (%2%/%3%)."/>
+	<entry name="DestroySpawnedCityDescription" value="摧毁帝国卫队城市(%1%/1)."/>
+	<entry name="ExploreDepthsEntryDescription" value="%1%(%2%/%3%)"/>
+	<entry name="ExploreDepthsDescription" value="将单位派遣至星球深处:"/>
+	<entry name="FoundCityDescription" value="建立新城市(%1%/1)."/>
+	<entry name="FoundCityNearEntranceDescription" value="在新发现的入口3格范围内建立一座新的城市(%1%/1)."/>
+	<entry name="FoundCityOnNecronTombDescription" value="在高亮地点建立新城市(%1%/1)."/>
+	<entry name="GenerateResearchFromExperienceDescription" value="消灭位于马兰脑虫3格范围内的敌方单位(%1%/%2%)"/>
+	<entry name="InfiltrateCampWithUnitTypeDescription" value="将%1%临近单位移动至敌方堡垒 (%2%/%3%)."/>
+	<entry name="InvokeCultistSacrificeDescription" value="使用%1%与混沌狂热者(%2%/%3%)."/>
+	<entry name="InvokeRapidRiseOnWarriorDescription" value="为战士生产激活快速增长(%1%/1)."/>
+	<entry name="InvokeRiteDescription" value="在一座城市使用%1% (%2%/%3%)."/>
+	<entry name="KeepUnitAliveDescription" value="保证%1%存活(%2%/1)."/>
+	<entry name="KeepWebwayGateAliveDescription" value="<string name='Objectives/KeepUnitAliveDescription'/>"/>
+	<entry name="KillCampDescription" value="摧毁敌方营地(%1%/1)."/>
+	<entry name="KillCampWithDaemonPrinceWithTurnLimitDescription" value="在%2%回合内击败正在进行仪式的恶魔王子(%1%/1)."/>
+	<entry name="KillCampWithDeceiverDescription" value="找到并消灭欺诈者(%1%/1)."/>
+	<entry name="KillCampWithFortressOfRedemptionDescription" value="摧毁叛军赎罪要塞(%1%/1)."/>
+	<entry name="KillCampWithOrksDescription" value="摧毁兽人营地(%1%/1)."/>
+	<entry name="KillCampWithKastelansDescription" value="摧毁或占领卡斯特兰营地(%1%/1)."/>
+	<entry name="KillCampWithRebelNecronArmyDescription" value="消灭太空死灵叛军(%1%/1)."/>
+	<entry name="KillCampWithTechpriestWithTurnLimitDescription" value="在%2%回合内击败叛乱的科技神甫和他的精英机器人部队(%1%/1)."/>
+	<entry name="KillCampWithTurnLimitDescription" value="在%2%回合内摧毁敌方营地(%1%/1)."/>
+	<entry name="KillCampWithTyranidsDescription" value="摧毁泰伦虫族巢穴(%1%/1)."/>
+	<entry name="KillCampWithWebwayGateDescription" value="击败守卫<string name='Units/Eldar/WebwayGate'/>的艾达灵族部队(%1%/1)."/>
+	<entry name="KillLordOfSkullsActiveDescription" value="消灭%1%于%4%回合内(%2%/%3%)."/>
+	<entry name="KillLordOfSkullsInactiveDescription" value="等待%1%重返这个世界(0/1)."/>
+	<entry name="KillSpawnedUnitsDescription" value="消灭分散四处的单位(%1%/%2%)."/>
+	<entry name="KillUmbraDescription" value="杀死本影怪(%1%/1)."/>
+	<entry name="KillUnitDescription" value="消灭%1%(%2%/%3%)."/>
+	<entry name="KillUnitNativeDescription" value="消灭原生异种(%1%/%2%)."/>
+	<entry name="KillUnitWithTokenDescription" value="摧毁%1% (%2%/1)."/>
+	<entry name="MoveUnitIntoCityDescription" value="移动%1%进入城市指挥中心(%2%/1)."/>
+	<entry name="ProduceLoyaltyFromUtopiaPerTurnDescription" value="每回合乌托邦产生%1%忠诚度(当前%2%) (%3%/1)."/>
+	<entry name="ProduceUnitDescription" value="生产单位%1%(%2%/%3%)."/>
+	<entry name="ProduceUnitOfTypeDescription" value="生产%1% (%2%/%3%)."/>
+	<entry name="ProduceUnitWithTraitDescription" value="生产拥有%1%特质的单位(%2%/%3%)."/>
+	<entry name="ProduceRequisitionsPerTurnDescription" value="每回合进行%1%征募(当前%2%)(%3%/1)."/>
+	<entry name="RaiseLoyaltyDescription" value="在1回合内将首都城市的忠诚度提高至%1%或更高(%2%/1)."/>
+	<entry name="ReachLevelDescription" value="达到等级%2%与%1%(%3%/1)."/>
+	<entry name="ReclaimUnitDescription" value="使用任何生产建筑以回收单位(%2%/%3%)."/>
+	<entry name="RecoverArcheotechDescription" value="寻回神器(%1%/%2%)."/>
+	<entry name="RecoverUnitDescription" value="寻回四散的单位(%1%/%2%)."/>
+	<entry name="ResearchUpgradeDescription" value="研究%1%(%2%/%3%)."/>
+	<entry name="ResearchUpgradeTierDescription" value="研究级别%1%升级(%2%/1)."/>
+	<entry name="ScanTilesDescription" value="在高亮区域使用%1%(%2%/%3%)."/>
+	<entry name="StartEdictDescription" value="开始城市法令(%1%/1)."/>
+	<entry name="SurviveInvasionDescription" value="抵抗入侵并消灭所有入侵者 (%1%/1)."/>
+	<entry name="SurviveInvasionWithTurnLimitDescription" value="抵抗入侵%1%回合(%2%/1)."/>
+	<entry name="UseCityAbilityDescription" value="在你的城市中使用%1% (%2%/%3%)."/>
+	<entry name="UseConvertWildlifeDescription" value="对协军使用%1% (%2%/%3%)."/>
+	<entry name="UseMarkDescription" value="在一个单位上使用%1% (%2%/%3%)."/>
+	<entry name="UseMarkerlightDescription" value="对一名敌方单位使用%1% (%2%/%3%)."/>
+	<entry name="UsePurchaseFoodDescription" value="使用%1%购买食物(%2%/%3%)."/>
+	<entry name="UsePurchaseOreDescription" value="使用%1%购买矿石(%2%/%3%)."/>
+	<entry name="UsePurchaseEnergyDescription" value="使用%1%购买能量(%2%/%3%)."/>
+	<entry name="UsePurchasePopulationDescription" value="在你的城市使用%1% (%2%/%3%)."/>
+	<entry name="VisitTileAndClearEnemiesDescription" value="前往高亮区域并守卫其边界(%4%/%2%)."/>
+	<entry name="VisitTileChaosCultistWithUnitTypeAndTurnLimitDescription" value="在%5%回合内于高亮区域牺牲%3% (%1%/%2%)."/>
+	<entry name="VisitTileDaemonPrinceWithUnitTypeDescription" value="使用%3%前往高亮区域(%1%/%2%)."/>
+	<entry name="VisitTileDescription" value="前往高亮区域(%1%/%2%)."/>
+	<entry name="VisitTileExoditeWithUnitTypeDescription" value="派遣%3%前往高亮区域(%1%/%2%)."/>
+	<entry name="VisitTileWithUnitTypeAndClearEnemiesDescription" value="派遣%3%前往高亮区域并守卫其边界(%4%/%2%)."/>
+	<entry name="VisitTileWithUnitTypeAndTurnLimitDescription" value="派遣%3%在%5%回合内前往高亮区域(%1%/%2%)."/>
+	<entry name="VisitTileWithUnitTypeDescription" value="派遣%3%前往高亮区域(%1%/%2%)."/>
+</language>

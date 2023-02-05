@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:unclaimedItemsPanel extends="Panel" titleLabel.caption="<string name='GUI/UnclaimedItems'/>" showEffect="FadeInLeft" hideEffect="FadeOutLeft"/>

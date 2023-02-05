@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu:cinematicScreen extends="HUD" layout="Relative" showEffect="FadeInSlow" hideEffect="FadeOutSlow">
+	<cinematic name="cinematic" preferredSize="FillParent FillParent" visible="0"/>
+	<cinematic name="logoCinematic" preferredSize="FillParent FillParent" visible="0" video="Logos"/>
+</menu:cinematicScreen>

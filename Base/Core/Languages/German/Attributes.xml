@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<!-- Generic -->
+	<entry name="Accuracy" value="Genauigkeit"/>
+	<entry name="AccuracyDescription" value="Jeder Genauigkeitspunkt erhöht die Trefferwahrscheinlichkeit um etwa 8,3%."/>
+	<entry name="AccuracyIcon" value="<icon height='20' texture='Icons/Attributes/Accuracy'/>"/>
+	<entry name="ActionPoints" value="Aktionspunkte"/>
+	<entry name="ActionPointsIcon" value="<icon height='20' texture='Icons/Attributes/Actions'/>"/>
+	<entry name="ActionPointsMax" value="Max. Aktionspunkte"/>
+	<entry name="ActionPointsMaxIcon" value="<icon height='20' texture='Icons/Attributes/Actions'/>"/>
+	<entry name="Actions" value="Aktionen"/>
+	<entry name="ActionsIcon" value="<icon height='20' texture='Icons/Attributes/Actions'/>"/>
+	<entry name="ActionsDescription" value="Die Anzahl der Aktionen, die die Einheit durchführen kann. Eine Aktion verbraucht unter Umständen alle Bewegungspunkte."/>
+	<entry name="AdditionalMembersHit" value="Zusätzlicher Gruppentreffer"/>
+	<entry name="AdditionalMembersHitIcon" value="<icon height='20' texture='Icons/Attributes/Damage'/>"/>
+	<entry name="Armor" value="Panzerung"/>
+	<entry name="ArmorDescription" value="Verringert die Höhe des <icon height='20' texture='Icons/Attributes/Damage'/> erlittenen Schadens durch Waffen und Fähigkeiten. Jeder Panzerungspunkt verringert den erlittenen Schaden um etwa 8,3% (bis zu 83%). Waffen und Fähigkeiten ignorieren jedoch eine gewisse Anzahl von Panzerungspunkten bis zur Höhe ihres Panzerungsdurchschlagswerts."/>
+	<entry name="ArmorIcon" value="<icon height='20' texture='Icons/Attributes/Armor'/>"/>
+	<entry name="ArmorDamageReduction" value="Panzerung-Schadensreduktion"/>
+	<entry name="ArmorDamageReductionIcon" value="<icon height='20' texture='Icons/Attributes/Armor'/>"/>
+	<entry name="ArmorPenetration" value="Panzerungsdurchschlag"/>
+	<entry name="ArmorPenetrationDescription" value=""/>
+	<entry name="ArmorPenetrationIcon" value="<icon height='20' texture='Icons/Attributes/ArmorPenetration'/>"/>
+	<entry name="Attacks" value="Angriffe"/>
+	<entry name="AttacksDescription" value=""/>
+	<entry name="AttacksIcon" value="<icon height='20' texture='Icons/Attributes/Attacks'/>"/>
+	<entry name="AttacksPerCharge" value="Angriffe pro Ladung"/>
+	<entry name="AttacksTaken" value="Angriffserhöhung"/>
+	<entry name="AttacksTakenIcon" value="<icon height='20' texture='Icons/Attributes/Attacks'/>"/>
+	<entry name="Biomass" value="Biomasse"/>
+	<entry name="BiomassIcon" value="<icon height='20' texture='Icons/Attributes/Biomass'/>"/>
+	<entry name="BiomassCost" value="Biomassekosten"/>
+	<entry name="BiomassCostIcon" value="<icon height='20' texture='Icons/Attributes/Biomass'/>"/>
+	<entry name="BiomassOnConsume" value="Biomasse"/>
+	<entry name="BiomassOnConsumeIcon" value="<icon height='20' texture='Icons/Attributes/Biomass'/>"/>
+	<entry name="BiomassUpkeep" value="Biomasseunterhalt"/>
+	<entry name="BiomassUpkeepIcon" value="<icon height='20' texture='Icons/Attributes/Biomass'/>"/>
+	<entry name="BoonOfChaosChance" value="Chance für Segen des Chaos"/>
+	<entry name="BoonOfChaosChanceIcon" value="<icon height='20' texture='Icons/Traits/ChaosSpaceMarines/ChampionOfChaos'/>"/>
+	<entry name="BuildingSlots" value="Gebäudefelder"/>
+	<entry name="BuildingSlotsIcon" value="<icon height='20' texture='Icons/Attributes/BuildingSlots'/>"/>
+	<entry name="CargoSlots" value="Transporterfelder"/>
+	<entry name="CargoSlotsIcon" value="<icon height='20' texture='Icons/Attributes/CargoSlots'/>"/>
+	<entry name="CargoSlotsRequired" value="Benötigte Transporterfelder"/>
+	<entry name="CargoSlotsRequiredIcon" value="<icon height='20' texture='Icons/Attributes/CargoSlots'/>"/>
+	<entry name="CircumstanceMeleeDamage" value="Unterrangiger Nahkampfschaden"/>
+	<entry name="CircumstanceMeleeDamageIcon" value="<icon height='20' texture='Icons/Attributes/Damage'/>"/>
+	<entry name="CityDamageReduction" value="Stadt-Schadensreduktion"/>
+	<entry name="CityDamageReductionIcon" value="<icon height='20' texture='Icons/Attributes/DamageReduction'/>"/>
+	<entry name="CityRadius" value="Stadtradius"/>
+	<entry name="CityRadiusIcon" value="<icon height='20' texture='Icons/Attributes/Radius'/>"/>
+	<entry name="ConstructionCost" value="Baukosten"/>
+	<entry name="ConstructionCostIcon" value="<icon height='20' texture='Icons/Attributes/ConstructionCost'/>"/>
+	<entry name="ConsumedActionPoints" value="Aufgebrauchte Aktionspunkte"/>
+	<entry name="ConsumedActionPointsIcon" value="<icon height='20' texture='Icons/Attributes/Actions'/>"/>
+	<entry name="ConsumedMovement" value="Aufgebrauchte Bewegungspunkte"/>
+	<entry name="ConsumedMovementIcon" value="<icon height='20' texture='Icons/Attributes/Movement'/>"/>
+	<entry name="Cooldown" value="Abklingzeit"/>
+	<entry name="CooldownIcon" value="<icon height='20' texture='Icons/Attributes/Cooldown'/>"/>
+	<entry name="Damage" value="Schaden"/>
+	<entry name="DamageIcon" value="<icon height='20' texture='Icons/Attributes/Damage'/>"/>
+	<entry name="DamageFromHitpoints" value="Schaden abhängig von Trefferpunkten des Ziels"/>
+	<entry name="DamageFromHitpointsIcon" value="<icon height='20' texture='Icons/Attributes/Damage'/>"/>
+	<entry name="DamageReduction" value="Schadensreduktion"/>
+	<entry name="DamageReductionIcon" value="<icon height='20' texture='Icons/Attributes/DamageReduction'/>"/>
+	<entry name="DamageReturnFactor" value="Schaden zurückgeworfen"/>
+	<entry name="DamageReturnFactorIcon" value="<icon height='20' texture='Icons/Attributes/Damage'/>"/>
+	<entry name="DamageSelfFactor" value="Selbstschaden"/>
+	<entry name="DamageSelfFactorIcon" value="<icon height='20' texture='Icons/Attributes/Damage'/>"/>
+	<entry name="DamageSelfFromHitpointsFactor" value="Selbstschaden abhängig von den Trefferpunkten"/>
+	<entry name="DamageSelfFromHitpointsFactorIcon" value="<icon height='20' texture='Icons/Attributes/Damage'/>"/>
+	<entry name="DamageTaken" value="Erlittener Schaden"/>
+	<entry name="DamageTakenIcon" value="<icon height='20' texture='Icons/Attributes/Damage'/>"/>
+	<entry name="DamageTakenByGroupSizeFactor" value="Erlittener Schaden abhängig von Gruppengröße"/>
+	<entry name="DamageTakenByGroupSizeFactorIcon" value="<icon height='20' texture='Icons/Attributes/Damage'/>"/>
+	<entry name="DeathExperience" value="Erfahrung durch Tod dieser Einheit"/>
+	<entry name="DeathExperienceIcon" value="<icon height='20' texture='Icons/Attributes/Level'/>"/>
+	<entry name="DeathMorale" value="Moral durch Tod dieser Einheit"/>
+	<entry name="DeathMoraleIcon" value="<icon height='20' texture='Icons/Attributes/Morale'/>"/>
+	<entry name="DuplicateTypeCost" value="Doppelte Typkosten"/>
+	<entry name="Energy" value="Energie"/>
+	<entry name="EnergyIcon" value="<icon height='20' texture='Icons/Attributes/Energy'/>"/>
+	<entry name="EnergyCost" value="Energiekosten"/>
+	<entry name="EnergyCostIcon" value="<icon height='20' texture='Icons/Attributes/Energy'/>"/>
+	<entry name="EnergyFromAdjacentBuildings" value="Energie pro angrenzendem Gebäude"/>
+	<entry name="EnergyFromAdjacentBuildingsIcon" value="<icon height='20' texture='Icons/Attributes/Energy'/>"/>
+	<entry name="EnergyFromExperienceValueFactor" value="Energie durch Erfahrungswert"/>
+	<entry name="EnergyFromExperienceValueFactorIcon" value="<icon height='20' texture='Icons/Attributes/Energy'/>"/>
+	<entry name="EnergyUpkeep" value="Energieunterhalt"/>
+	<entry name="EnergyUpkeepIcon" value="<icon height='20' texture='Icons/Attributes/Energy'/>"/>
+	<entry name="ExperienceGainRate" value="Erfahrungszuwachsrate"/>
+	<entry name="ExperienceGainRateIcon" value="<icon height='20' texture='Icons/Attributes/Level'/>"/>
+	<entry name="FeelNoPainDamageReduction" value="Schadensreduktion „Verletzungen ignorieren”"/>
+	<entry name="FeelNoPainDamageReductionIcon" value="<icon height='20' texture='Icons/Attributes/DamageReduction'/>"/>
+	<entry name="FlankingDamageFactor" value="Schaden durch Flankieren"/>
+	<entry name="FlankingDamageFactorIcon" value="<icon height='20' texture='Icons/Attributes/Damage'/>"/>
+	<entry name="FlatResourcesFromFeatures" value="Fester Ressourcenbetrag durch Kartenelemente"/>
+	<entry name="FlatResourcesFromFeaturesIcon" value="<icon height='20' texture='Icons/Features/Grassland'/>"/>
+	<entry name="Food" value="Nahrung"/>
+	<entry name="FoodIcon" value="<icon height='20' texture='Icons/Attributes/Food'/>"/>
+	<entry name="FoodCost" value="Nahrungskosten"/>
+	<entry name="FoodCostIcon" value="<icon height='20' texture='Icons/Attributes/Food'/>"/>
+	<entry name="FoodFromAdjacentBuildings" value="Nahrung pro angrenzendem Gebäude"/>
+	<entry name="FoodFromAdjacentBuildingsIcon" value="<icon height='20' texture='Icons/Attributes/Food'/>"/>
+	<entry name="FoodUpkeep" value="Nahrungsunterhalt"/>
+	<entry name="FoodUpkeepIcon" value="<icon height='20' texture='Icons/Attributes/Food'/>"/>
+	<entry name="GroupSize" value="Gruppengröße"/>
+	<entry name="GroupSizeIcon" value="<icon height='20' texture='Icons/Attributes/PopulationLimit'/>"/>
+	<entry name="GroupSizeMax" value="Max. Gruppengröße"/>
+	<entry name="GroupSizeMaxIcon" value="<icon height='20' texture='Icons/Attributes/PopulationLimit'/>"/>
+	<entry name="Growth" value="Wachstum"/>
+	<entry name="GrowthHint" value="<style name='Title'/>Wachstum<br/><style name='Default'/>Gibt an, wie schnell die Stadt wächst. Sobald sie eine gewisse Größe erreicht hat, erhöht sich die Bevölkerung um 1. Die Wachstumsrate wird geringer, wenn sich die Bevölkerung dem Bevölkerungslimit annähert."/>
+	<entry name="GrowthIcon" value="<icon height='20' texture='Icons/Attributes/Growth'/>"/>
+	<entry name="GrowthFactor" value="Wachstum"/>
+	<entry name="GrowthFactorIcon" value="<icon height='20' texture='Icons/Attributes/Growth'/>"/>
+	<entry name="HeroDamageReduction" value="Helden-Schadensreduktion"/>
+	<entry name="HeroDamageReductionIcon" value="<icon height='20' texture='Icons/Attributes/DamageReduction'/>"/>
+	<entry name="HealingRate" value="Heilungsrate"/>
+	<entry name="HealingRateIcon" value="<icon height='20' texture='Icons/Attributes/HealingRate'/>"/>
+	<entry name="Hitpoints" value="Trefferpunkte"/>
+	<entry name="HitpointsDescription" value="Der <icon height='20' texture='Icons/Attributes/Damage'/> Schaden, den die Einheit einstecken kann, bevor sie stirbt bzw. zerstört wird. Einheiten heilen automatisch, wenn sie keinen Schaden erlitten haben und über alle Bewegungs- und Aktionspunkte verfügen."/>
+	<entry name="HitpointsIcon" value="<icon height='20' texture='Icons/Attributes/Hitpoints'/>"/>
+	<entry name="HitpointsFactorFromMax" value="Trefferpunkte"/>
+	<entry name="HitpointsFactorFromMaxIcon" value="<icon height='20' texture='Icons/Attributes/Hitpoints'/>"/>
+	<entry name="HitpointsFactorFromMoraleDifference" value="Trefferpunkte durch Moralunterschied"/>
+	<entry name="HitpointsFactorFromMoraleDifferenceIcon" value="<icon height='20' texture='Icons/Attributes/Hitpoints'/>"/>
+	<entry name="HitpointsMax" value="Max. Trefferpunkte"/>
+	<entry name="HitpointsMaxIcon" value="<icon height='20' texture='Icons/Attributes/Hitpoints'/>"/>
+	<entry name="HitpointsPerMoraleLoss" value="Trefferpunkte pro Moralverlust"/>
+	<entry name="HitpointsPerMoraleLossIcon" value="<icon height='20' texture='Icons/Attributes/Hitpoints'/>"/>
+	<entry name="Influence" value="Einfluss"/>
+	<entry name="InfluenceIcon" value="<icon height='20' texture='Icons/Attributes/Influence'/>"/>
+	<entry name="InfluenceCost" value="Einflusskosten"/>
+	<entry name="InfluenceCostIcon" value="<icon height='20' texture='Icons/Attributes/Influence'/>"/>
+	<entry name="InfluenceFromAdjacentBuildings" value="Einfluss pro angrenzendem Gebäude"/>
+	<entry name="InfluenceFromAdjacentBuildingsIcon" value="<icon height='20' texture='Icons/Attributes/Influence'/>"/>
+	<entry name="InfluencePerCombat" value="Einfluss pro Kampf"/>
+	<entry name="InfluencePerCombatIcon" value="<icon height='20' texture='Icons/Attributes/Influence'/>"/>
+	<entry name="InfluencePerCombatFromUpkeepFactor" value="Einfluss pro Kampf vom Unterhaltsfaktor"/>
+	<entry name="InfluencePerCombatFromUpkeepFactorIcon" value="<icon height='20' texture='Icons/Attributes/Influence'/>"/>
+	<entry name="InfluencePerDamage" value="Einfluss pro Schaden"/>
+	<entry name="InfluencePerDamageIcon" value="<icon height='20' texture='Icons/Attributes/Influence'/>"/>
+	<entry name="InfluencePerExperience" value="Einfluss pro Erfahrung"/>
+	<entry name="InfluencePerExperienceIcon" value="<icon height='20' texture='Icons/Attributes/Influence'/>"/>
+	<entry name="InfluenceUpkeep" value="Einflussunterhalt"/>
+	<entry name="InfluenceUpkeepIcon" value="<icon height='20' texture='Icons/Attributes/Influence'/>"/>
+	<entry name="InvulnerableDamageReduction" value="Unverwundbar-Schadensreduktion"/>
+	<entry name="InvulnerableDamageReductionIcon" value="<icon height='20' texture='Icons/Attributes/DamageReduction'/>"/>
+	<entry name="ItemSlots" value="Felder für Gegenstände"/>
+	<entry name="ItemSlotsHint" value="<style name='Title'/>Felder für Gegenstände<br/><style name='Default'/>"/>
+	<entry name="ItemSlotsIcon" value="<icon height='20' texture='Icons/Attributes/ItemSlots'/>"/>
+	<entry name="Level" value="Stufe"/>
+	<entry name="LevelDescription" value="Die Erfahrungsstufe der Einheit. Ab der zweiten Stufe werden mit jeder Stufe die <icon height='20' texture='Icons/Attributes/Hitpoints'/> Trefferpunkte und der <icon height='20' texture='Icons/Attributes/Damage'/> Schaden der Einheit um 5% sowie die <icon height='20' texture='Icons/Attributes/Morale'/> Moral um 10% erhöht."/>
+	<entry name="LevelIcon" value="<icon height='20' texture='Icons/Attributes/Level'/>"/>
+	<entry name="LevelMax" value="Max. Stufe"/>
+	<entry name="LevelMaxIcon" value="<icon height='20' texture='Icons/Attributes/Level'/>"/>
+	<entry name="LifeSteal" value="Lebensraub"/>
+	<entry name="LifeStealIcon" value="<icon height='20' texture='Icons/Attributes/LifeSteal'/>"/>
+	<entry name="LifeStealFactor" value="Lebensraub"/>
+	<entry name="LifeStealFactorIcon" value="<icon height='20' texture='Icons/Attributes/LifeSteal'/>"/>
+	<entry name="LifeStealRadius" value="Lebensraub-Radius"/>
+	<entry name="LifeStealRadiusIcon" value="<icon height='20' texture='Icons/Attributes/LifeSteal'/>"/>
+	<entry name="Loyalty" value="Loyalität"/>
+	<entry name="LoyaltyHint" value="<style name='Title'/>Loyalität<br/><style name='Default'/>Gibt an, wie geschlossen die Bevölkerung hinter Ihren Vorhaben steht. Jeder positive Loyalitätspunkt erhöht die Ressourcengesamtproduktion der Stadt um 1%, jeder negative Loyalitätspunkt verringert die Ressourcengesamtproduktion der Stadt um 2% (bis -50%). Jede Stadt zusätzlich zur ersten verringert die Loyalität in allen Städten um 6 Punkte."/>
+	<entry name="LoyaltyIcon" value="<icon height='20' texture='Icons/Attributes/Loyalty'/>"/>
+	<entry name="LoyaltyFromAdjacentBuildings" value="Loyalität pro angrenzendem Gebäude"/>
+	<entry name="LoyaltyFromAdjacentBuildingsIcon" value="<icon height='20' texture='Icons/Attributes/Loyalty'/>"/>
+	<entry name="LoyaltyFromUtopia" value="Loyalität durch Utopie"/>
+	<entry name="LoyaltyFromUtopiaIcon" value="<icon height='20' texture='Icons/Attributes/Loyalty'/>"/>
+	<entry name="LoyaltyFromUtopiaType" value="Loyalität durch Utopieart"/>
+	<entry name="LoyaltyFromUtopiaTypeIcon" value="<icon height='20' texture='Icons/Attributes/Loyalty'/>"/>
+	<entry name="LoyaltyPerCity" value="Loyalität pro Stadt"/>
+	<entry name="LoyaltyPerCityIcon" value="<icon height='20' texture='Icons/Attributes/Loyalty'/>"/>
+	<entry name="LoyaltyUpkeep" value="Loyalitätsunterhalt"/>
+	<entry name="LoyaltyUpkeepIcon" value="<icon height='20' texture='Icons/Attributes/Loyalty'/>"/>
+	<entry name="MeleeAccuracy" value="Nahkampfgenauigkeit"/>
+	<entry name="MeleeAccuracyIcon" value="<icon height='20' texture='Icons/Attributes/Accuracy'/>"/>
+	<entry name="MeleeArmorPenetration" value="Nahkampf-Panzerungsdurchschlag"/>
+	<entry name="MeleeArmorPenetrationIcon" value="<icon height='20' texture='Icons/Attributes/ArmorPenetration'/>"/>
+	<entry name="MeleeAttacks" value="Nahkampfangriffe"/>
+	<entry name="MeleeAttacksIcon" value="<icon height='20' texture='Icons/Attributes/Attacks'/>"/>
+	<entry name="MeleeDamage" value="Nahkampfschaden"/>
+	<entry name="MeleeDamageIcon" value="<icon height='20' texture='Icons/Attributes/Damage'/>"/>
+	<entry name="MeleeDamageReduction" value="Nahkampf-Schadensreduktion"/>
+	<entry name="MeleeDamageReductionIcon" value="<icon height='20' texture='Icons/Attributes/DamageReduction'/>"/>
+	<entry name="MeleeDamageTaken" value="Erlittener Nahkampfschaden"/>
+	<entry name="MeleeDamageTakenIcon" value="<icon height='20' texture='Icons/Attributes/Damage'/>"/>
+	<entry name="MinDamageFromHitpointsFraction" value="Minimaler Schaden abhängig von den Trefferpunkten des Ziels"/>
+	<entry name="MinDamageFromHitpointsFractionIcon" value="<icon height='20' texture='Icons/Attributes/Damage'/>"/>
+	<entry name="MonolithicBuildingsBonus" value="Monolithgebäude-Bonus"/>
+	<entry name="MonolithicBuildingsPenalty" value="Monolithgebäude-Malus"/>
+	<entry name="Morale" value="Moral"/>
+	<entry name="MoraleDescription" value="Die psychische Verfassung der Einheit. Die Moral regeneriert sich, falls die Einheit in dieser Runde keinen Schaden erlitten hat. Sinkt die Moral unter 66%, ist die Einheit <icon height='20' texture='Icons/Traits/Shaken'/> aufgewühlt. Dies senkt ihre Genauigkeit und erhöht ihren erlittenen Schaden um 17%. Unter 33% gilt die Moral der Einheit als <icon height='20' texture='Icons/Traits/Broken'/> gebrochen. Dies senkt ihre Genauigkeit und erhöht ihren erlittenen Schaden um 33%."/>
+	<entry name="MoraleIcon" value="<icon height='20' texture='Icons/Attributes/Morale'/>"/>
+	<entry name="MoraleRegeneration" value="Moralregeneration"/>
+	<entry name="MoraleRegenerationIcon" value="<icon height='20' texture='Icons/Attributes/Morale'/>"/>
+	<entry name="MoraleLossFactor" value="Moralverlust"/>
+	<entry name="MoraleLossFactorIcon" value="<icon height='20' texture='Icons/Attributes/Morale'/>"/>
+	<entry name="MoraleLossFactorPerAllyInArea" value="Moralverlust pro Verbündetem in der Nähe"/>
+	<entry name="MoraleLossFactorPerAllyInAreaIcon" value="<icon height='20' texture='Icons/Attributes/Morale'/>"/>
+	<entry name="MoraleMax" value="Max. Moral"/>
+	<entry name="MoraleMaxIcon" value="<icon height='20' texture='Icons/Attributes/Morale'/>"/>
+	<entry name="Movement" value="Bewegung"/>
+	<entry name="MovementIcon" value="<icon height='20' texture='Icons/Attributes/Movement'/>"/>
+	<entry name="MovementDescription" value="Die Anzahl von Hexfeldern, die eine Einheit pro Runde bewegt werden kann. Auf unwegsamem Gelände wird mehr als ein Bewegungspunkt aufgebraucht. Bewegt sich eine Einheit auf ein Hexfeld, das an eine feindliche Einheit angrenzt, macht sie halt."/>
+	<entry name="MovementCost" value="Bewegungskosten"/>
+	<entry name="MovementCostIcon" value="<icon height='20' texture='Icons/Attributes/Movement'/>"/>
+	<entry name="MovementMax" value="Max. Bewegung"/>
+	<entry name="MovementMaxIcon" value="<icon height='20' texture='Icons/Attributes/Movement'/>"/>
+	<entry name="OpponentRangedAccuracy" value="Fernkampfgenauigkeit des Gegners"/>
+	<entry name="OpponentRangedAccuracyIcon" value="<icon height='20' texture='Icons/Attributes/Accuracy'/>"/>
+	<entry name="Ore" value="Erz"/>
+	<entry name="OreIcon" value="<icon height='20' texture='Icons/Attributes/Ore'/>"/>
+	<entry name="OreCost" value="Erzkosten"/>
+	<entry name="OreCostIcon" value="<icon height='20' texture='Icons/Attributes/Ore'/>"/>
+	<entry name="OreCostHint" value="<style name='Title'/>Erzkosten<br/><style name='Default'/>"/>
+	<entry name="OreFromAdjacentBuildings" value="Erz pro angrenzendem Gebäude"/>
+	<entry name="OreFromAdjacentBuildingsIcon" value="<icon height='20' texture='Icons/Attributes/Ore'/>"/>
+	<entry name="OrePerKillValue" value="Erz pro getöteter Einheit"/>
+	<entry name="OrePerKillValueIcon" value="<icon height='20' texture='Icons/Attributes/Ore'/>"/>
+	<entry name="OreUpkeep" value="Erzunterhalt"/>
+	<entry name="OreUpkeepIcon" value="<icon height='20' texture='Icons/Attributes/Ore'/>"/>
+	<entry name="Population" value="Bevölkerung"/>
+	<entry name="PopulationCost" value="Bevölkerungskosten"/>
+	<entry name="PopulationCostIcon" value="<icon height='20' texture='Icons/Attributes/PopulationLimit'/>"/>
+	<entry name="PopulationIcon" value="<icon height='20' texture='Icons/Attributes/PopulationLimit'/>"/>
+	<entry name="PopulationHint" value="<style name='Title'/>Bevölkerung<br/><style name='Default'/>Benötigt, um Gebäude in der Stadt zu betreiben. Jedes aktivierte Gebäude beschäftigt einen Teil der Bevölkerung. Wird mehr Bevölkerung benötigt, als vorhanden ist, sinkt die Ressourcenproduktion der Gebäude."/>
+	<entry name="PopulationLimit" value="Bevölkerungslimit"/>
+	<entry name="PopulationLimitIcon" value="<icon height='20' texture='Icons/Attributes/PopulationLimit'/>"/>
+	<entry name="PopulationLimitHint" value="<style name='Title'/>Bevölkerungslimit<br/><style name='Default'/>Gibt die maximale Bevölkerung der Stadt an."/>
+	<entry name="Production" value="Produktion"/>
+	<entry name="ProductionIcon" value="<icon height='20' texture='Icons/Attributes/Production'/>"/>
+	<entry name="ProductionHint" value="<style name='Title'/>Produktion<br/><style name='Default'/>Gibt an, wie schnell in dem Gebäude produziert wird."/>
+	<entry name="ProductionCost" value="Produktionskosten"/>
+	<entry name="ProductionCostIcon" value="<icon height='20' texture='Icons/Attributes/ProductionCost'/>"/>
+	<entry name="ProductionFromAdjacentBuildings" value="Produktion pro angrenzendem Gebäude"/>
+	<entry name="ProductionFromAdjacentBuildingsIcon" value="<icon height='20' texture='Icons/Attributes/Production'/>"/>
+	<entry name="Radius" value="Radius"/>
+	<entry name="RadiusDescription" value=""/>
+	<entry name="RadiusIcon" value="<icon height='20' texture='Icons/Attributes/Radius'/>"/>
+	<entry name="Range" value="Reichweite"/>
+	<entry name="RangeIcon" value="<icon height='20' texture='Icons/Attributes/Range'/>"/>
+	<entry name="RangeDescription" value=""/>
+	<entry name="RangeMax" value="Maximale Reichweite"/>
+	<entry name="RangeMaxIcon" value="<icon height='20' texture='Icons/Attributes/Range'/>"/>
+	<entry name="RangeMin" value="Minimale Reichweite"/>
+	<entry name="RangeMinIcon" value="<icon height='20' texture='Icons/Attributes/Range'/>"/>
+	<entry name="RangedAccuracy" value="Fernkampfgenauigkeit"/>
+	<entry name="RangedAccuracyIcon" value="<icon height='20' texture='Icons/Attributes/Accuracy'/>"/>
+	<entry name="RangedArmorPenetration" value="Fernkampf-Panzerungsdurchschlag"/>
+	<entry name="RangedArmorPenetrationIcon" value="<icon height='20' texture='Icons/Attributes/ArmorPenetration'/>"/>
+	<entry name="RangedAttacks" value="Fernkampfangriffe"/>
+	<entry name="RangedAttacksIcon" value="<icon height='20' texture='Icons/Attributes/Attacks'/>"/>
+	<entry name="RangedDamage" value="Fernkampfschaden"/>
+	<entry name="RangedDamageIcon" value="<icon height='20' texture='Icons/Attributes/Damage'/>"/>
+	<entry name="RangedDamageReduction" value="Fernkampf-Schadensreduktion"/>
+	<entry name="RangedDamageReductionIcon" value="<icon height='20' texture='Icons/Attributes/DamageReduction'/>"/>
+	<entry name="RangedDamageReductionBypass" value="Ignorierte Fernkampf-Schadensreduktion"/>
+	<entry name="RangedDamageTaken" value="Erlittener Fernkampfschaden"/>
+	<entry name="RangedDamageTakenIcon" value="<icon height='20' texture='Icons/Attributes/Damage'/>"/>
+	<entry name="RangedInvulnerableDamageReduction" value="Unverwundbar-Fernkampf-Schadensreduktion"/>
+	<entry name="RangedInvulnerableDamageReductionIcon" value="<icon height='20' texture='Icons/Attributes/DamageReduction'/>"/>
+	<entry name="RequiredActionPoints" value="Benötigte Aktionspunkte"/>
+	<entry name="RequiredActionPointsIcon" value="<icon height='20' texture='Icons/Attributes/Actions'/>"/>
+	<entry name="RequiredMovement" value="Benötigte Bewegungspunkte"/>
+	<entry name="RequiredMovementIcon" value="<icon height='20' texture='Icons/Attributes/Movement'/>"/>
+	<entry name="Requisitions" value="Bedarfsgüter"/>
+	<entry name="RequisitionsIcon" value="<icon height='20' texture='Icons/Attributes/Requisitions'/>"/>
+	<entry name="RequisitionsCost" value="Bedarfsgüterkosten"/>
+	<entry name="RequisitionsCostIcon" value="<icon height='20' texture='Icons/Attributes/Requisitions'/>"/>
+	<entry name="RequisitionsUpkeep" value="Bedarfsgüter-Unterhalt"/>
+	<entry name="RequisitionsUpkeepIcon" value="<icon height='20' texture='Icons/Attributes/Requisitions'/>"/>
+	<entry name="Research" value="Forschung"/>
+	<entry name="ResearchHint" value="<style name='Title'/>Forschung<br/><style name='Default'/>Benötigt für die Erforschung neuer Technologien."/>
+	<entry name="ResearchIcon" value="<icon height='20' texture='Icons/Attributes/Research'/>"/>
+	<entry name="ResearchCost" value="Forschungskosten"/>
+	<entry name="ResearchCostIcon" value="<icon height='20' texture='Icons/Attributes/Research'/>"/>
+	<entry name="ResearchFromAdjacentBuildings" value="Forschungspunkte pro angrenzendem Gebäude"/>
+	<entry name="ResearchFromAdjacentBuildingsIcon" value="<icon height='20' texture='Icons/Attributes/Research'/>"/>
+	<entry name="ResearchPerExperience" value="Forschungspunkte pro Erfahrungspunkt"/>
+	<entry name="ResearchPerExperienceIcon" value="<icon height='20' texture='Icons/Attributes/Research'/>"/>
+	<entry name="ResearchPerKillValue" value="Forschungspunkte pro ausgeschalteter Einheit"/>
+	<entry name="ResearchPerKillValueIcon" value="<icon height='20' texture='Icons/Attributes/Research'/>"/>
+	<entry name="ResearchUpkeep" value="Forschungsunterhalt"/>
+	<entry name="ResearchUpkeepIcon" value="<icon height='20' texture='Icons/Attributes/Research'/>"/>
+	<entry name="ResourcesFromFeatures" value="Ressourcen durch Kartenelemente"/>
+	<entry name="ResourcesFromFeaturesIcon" value="<icon height='20' texture='Icons/Features/Grassland'/>"/>
+	<entry name="Sight" value="Sichtweite"/>
+	<entry name="SightIcon" value="<icon height='20' texture='Icons/Attributes/Sight'/>"/>
+	<entry name="SightDescription" value="Wie weit die Einheit sehen kann.<br/><br/>Die Sichtweite kann durch Geländeelemente wie Wälder, Nebel und Klippen eingeschränkt sein."/>
+	<entry name="SlotsRequired" value="Felder benötigt"/>
+	<entry name="SupportSystemSlots" value="Felder für Unterstützungssysteme"/>
+	<entry name="SupportSystemSlotsIcon" value="<icon height='20' texture='Icons/Attributes/SupportSystemSlots'/>"/>
+	<entry name="TargetArmor" value="Panzerung des Ziels"/>
+	<entry name="TargetArmorIcon" value="<icon height='20' texture='Icons/Attributes/Armor'/>"/>
+	<entry name="Turns" value="Runden"/>
+	<entry name="TurnsIcon" value="<icon height='20' texture='Icons/Attributes/Turns'/>"/>
+	<entry name="TypeLimit" value="Typlimit"/>
+	<entry name="WitchfireDamageReduction" value="Hexenfeuer-Schadensreduktion"/>
+	<entry name="WitchfireDamageReductionIcon" value="<icon height='20' texture='Icons/Attributes/DamageReduction'/>"/>
+
+	<!-- Faction-specific -->
+	<entry name="BiomassHint" value="<style name='Title'/>Biomasse<br/><style name='Default'/>Benötigt für die Versorgung der Bevölkerung in den Städten, für die Errichtung von Gebäuden sowie für die Produktion und den Unterhalt von Einheiten."/>
+	<entry name="EnergyHint" value="<style name='Title'/>Energie<br/><style name='Default'/>Benötigt für den Unterhalt von Gebäuden sowie für die Produktion und den Unterhalt von Spezialeinheiten."/>
+	<entry name="FoodHint" value="<style name='Title'/>Nahrung<br/><style name='Default'/>Benötigt für die Versorgung der Bevölkerung in den Städten sowie für die Produktion und den Unterhalt organischer Einheiten."/>
+	<entry name="OreHint" value="<style name='Title'/>Erz<br/><style name='Default'/>Benötigt für die Errichtung von Gebäuden sowie für die Produktion und den Unterhalt mechanischer Einheiten."/>
+	<entry name="AdeptusMechanicus/InfluenceHint" value="<string name='Attributes/Tau/InfluenceHint'/>"/>
+	<entry name="AstraMilitarum/InfluenceHint" value="<style name='Title'/>Einfluss<br/><style name='Default'/>Benötigt, um sich Stadthexfelder einverleiben zu können und diese zu unterhalten, Verordnungen zu erlassen, mächtige Heldeneinheiten zu rekrutieren und Gegenstände für sie zu kaufen."/>
+	<entry name="ChaosSpaceMarines/InfluenceHint" value="<style name='Title'/>Einfluss<br/><style name='Default'/>Benötigt, um sich Stadthexfelder einverleiben zu können und diese zu unterhalten, Male des Chaos zu beschwören, mächtige Heldeneinheiten zu rekrutieren und Gegenstände für sie zu kaufen."/>
+	<entry name="Eldar/InfluenceHint" value="<style name='Title'/>Einfluss<br/><style name='Default'/>Benötigt, um sich Stadthexfelder einverleiben zu können und diese zu unterhalten, Spezialfähigkeiten einzusetzen, mächtige Helden zu rekrutieren und Gegenstände für sie zu kaufen."/>
+	<entry name="Necrons/EnergyHint" value="<style name='Title'/>Energie<br/><style name='Default'/>Benötigt für die Errichtung von Gebäuden und die Produktion von Einheiten."/>
+	<entry name="Necrons/InfluenceHint" value="<style name='Title'/>Einfluss<br/><style name='Default'/>Benötigt, um sich Stadthexfelder einverleiben zu können und diese zu unterhalten, Spezialfähigkeiten einzusetzen, mächtige Helden zu rekrutieren und Gegenstände für sie zu kaufen."/>
+	<entry name="Necrons/OreHint" value="<style name='Title'/>Erz<br/><style name='Default'/>Benötigt für die Versorgung der Bevölkerung in den Städten sowie für den Unterhalt von Gebäuden und Einheiten."/>
+	<entry name="Orks/InfluenceHint" value="<style name='Title'/>Einfluss<br/><style name='Default'/>Benötigt, um sich Stadthexfelder einverleiben zu können und diese zu unterhalten, den Waaagh aufrechtzuerhalten, mächtige Heldeneinheiten zu rekrutieren und Gegenstände für sie zu kaufen."/>
+	<entry name="SistersOfBattle/InfluenceHint" value="<style name='Title'/>Einfluss<br/><style name='Default'/>Benötigt für die Einverleibung und den Unterhalt von Stadthexfeldern, die Durchführung Heiliger Riten, die Rekrutierung mächtiger Heldeneinheiten und den Kauf von Gegenständen für Heldeneinheiten."/>
+	<entry name="SistersOfBattle/RequisitionsHint" value="<style name='Title'/>Bedarfsgüter<br/><style name='Default'/>Benötigt für die Versorgung der Bevölkerung in der Stadt, die Errichtung von Gebäuden sowie für die Produktion und den Unterhalt von Einheiten."/>
+	<entry name="SpaceMarines/InfluenceHint" value="<style name='Title'/>Einfluss<br/><style name='Default'/>Benötigt, um sich Stadthexfelder einverleiben zu können und diese zu unterhalten, Taktiken anzuwenden, Operationen durchzuführen, mächtige Helden zu rekrutieren und Gegenstände für sie zu kaufen."/>
+	<entry name="SpaceMarines/RequisitionsHint" value="<style name='Title'/>Bedarfsgüter<br/><style name='Default'/>Benötigt für die Versorgung der Bevölkerung in der Stadt, die Errichtung von Gebäuden sowie für die Produktion und den Unterhalt von Einheiten."/>
+	<entry name="Tau/InfluenceHint" value="<style name='Title'/>Einfluss<br/><style name='Default'/>Benötigt, um sich Stadthexfelder einverleiben zu können und diese zu unterhalten, Spezialfähigkeiten einzusetzen, mächtige Helden zu rekrutieren und Gegenstände für sie zu kaufen."/>
+	<entry name="Tyranids/InfluenceHint" value="<style name='Title'/>Einfluss<br/><style name='Default'/>Benötigt, um sich Stadthexfelder einverleiben zu können und diese mitsamt all ihren Gebäuden zu unterhalten, Spezialfähigkeiten einzusetzen, mächtige Heldeneinheiten zu rekrutieren und Gegenstände für sie zu kaufen."/>
+</language>

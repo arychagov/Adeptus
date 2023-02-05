@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:cityResourcesPanel extends="Panel" titleLabel.caption="<string name='GUI/CityResources'/>" content.layout.collapseInvisible="1" content.layout.direction="TopToBottom"
+		 showEffect="FadeInLeft" hideEffect="FadeOutLeft">
+	<container name="populationContainer" preferredSize="FillParent 24">
+		<label name="populationAttributeLabel" caption="<string name='Attributes/Population'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		<label name="populationValueLabel" alignment="TopLeft" preferredSize="FillParent FillParent" weights="2 FillAll"/>
+	</container>
+	<container name="growthContainer" preferredSize="FillParent 24">
+		<label name="growthAttributeLabel" caption="<string name='Attributes/Growth'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		<label name="growthValueLabel" alignment="TopLeft" preferredSize="FillParent FillParent" weights="2 FillAll"/>
+	</container>
+	<container name="biomassContainer" preferredSize="FillParent 24">
+		<label name="biomassAttributeLabel" caption="<string name='Attributes/Biomass'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		<label name="biomassValueLabel" alignment="TopLeft" preferredSize="FillParent FillParent" weights="2 FillAll"/>
+	</container>
+	<container name="foodContainer" preferredSize="FillParent 24">
+		<label name="foodAttributeLabel" caption="<string name='Attributes/Food'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		<label name="foodValueLabel" alignment="TopLeft" preferredSize="FillParent FillParent" weights="2 FillAll"/>
+	</container>
+	<container name="oreContainer" preferredSize="FillParent 24">
+		<label name="oreAttributeLabel" caption="<string name='Attributes/Ore'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		<label name="oreValueLabel" alignment="TopLeft" preferredSize="FillParent FillParent" weights="2 FillAll"/>
+	</container>
+	<container name="requisitionsContainer" preferredSize="FillParent 24">
+		<label name="requisitionsAttributeLabel" caption="<string name='Attributes/Requisitions'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		<label name="requisitionsValueLabel" alignment="TopLeft" preferredSize="FillParent FillParent" weights="2 FillAll"/>
+	</container>
+	<container name="energyContainer" preferredSize="FillParent 24">
+		<label name="energyAttributeLabel" caption="<string name='Attributes/Energy'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		<label name="energyValueLabel" alignment="TopLeft" preferredSize="FillParent FillParent" weights="2 FillAll"/>
+	</container>
+	<container name="researchContainer" preferredSize="FillParent 24">
+		<label name="researchAttributeLabel" caption="<string name='Attributes/Research'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		<label name="researchValueLabel" alignment="TopLeft" preferredSize="FillParent FillParent" weights="2 FillAll"/>
+	</container>
+	<container name="influenceContainer" preferredSize="FillParent 24">
+		<label name="influenceAttributeLabel" caption="<string name='Attributes/Influence'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		<label name="influenceValueLabel" alignment="TopLeft" preferredSize="FillParent FillParent" weights="2 FillAll"/>
+	</container>
+	<container name="loyaltyContainer" preferredSize="FillParent 24">
+		<label name="loyaltyAttributeLabel" caption="<string name='Attributes/Loyalty'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		<label name="loyaltyValueLabel" alignment="TopLeft" preferredSize="FillParent FillParent" weights="2 FillAll"/>
+	</container>
+</world:cityResourcesPanel>

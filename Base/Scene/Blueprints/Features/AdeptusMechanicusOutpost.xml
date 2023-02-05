@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene version="1.0">
+	<model mesh="AdeptusMechanicusFlag" position="0.000019 122.921074 43.596832" rotation="0.000000 0.000000 0.707107 0.707107" scale="1.000000 1.000000 1.000000"/>
+	<model mesh="AdeptusMechanicusFlag" position="-100.691055 70.504623 43.596832" rotation="0.000000 0.000000 0.953717 0.300706" scale="1.000000 1.000000 1.000000"/>
+	<model mesh="AdeptusMechanicusFlag" position="-0.000000 -122.921059 43.596832" rotation="0.000000 0.000000 -0.707107 0.707107" scale="1.000000 1.000000 1.000000"/>
+	<model mesh="AdeptusMechanicusFlag" position="-106.452774 -61.460522 43.596832" rotation="0.000000 0.000000 -0.965926 0.258819" scale="1.000000 1.000000 1.000000"/>
+	<model mesh="AdeptusMechanicusFlag" position="106.452782 61.460522 43.596832" rotation="0.000000 0.000000 0.258819 0.965926" scale="1.000000 1.000000 1.000000"/>
+	<model mesh="AdeptusMechanicusFlag" position="106.452774 -61.460522 43.596832" rotation="0.000000 0.000000 -0.258819 0.965926" scale="1.000000 1.000000 1.000000"/>
+</scene>

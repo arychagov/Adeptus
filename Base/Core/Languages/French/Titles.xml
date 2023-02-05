@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="AdeptusMechanicus0" value="Marchedunes"/>
+	<entry name="AdeptusMechanicus1" value="Dyzoniseurs"/>
+	<entry name="AdeptusMechanicus2" value="Le manipule gothique"/>
+	<entry name="AdeptusMechanicus3" value="Oud Oudiens"/>
+	<entry name="AdeptusMechanicus4" value="Zaibatsun"/>
+	<entry name="AdeptusMechanicus5" value="Terrawatt Rembrancers"/>
+	<entry name="AdeptusMechanicus6" value="Acier, confessé"/>
+	<entry name="AdeptusMechanicus7" value="Les dragons de Mars"/>
+	<entry name="AdeptusMechanicus8" value="Land Grinders"/>
+	<entry name="AdeptusMechanicus9" value="Gulden Scriptoria"/>
+	<entry name="AdeptusMechanicus10" value="Questor Peltasts"/>
+	<entry name="AdeptusMechanicus11" value="Cyberiades"/>
+	<entry name="AdeptusMechanicus12" value="Belisarien"/>
+	<entry name="AdeptusMechanicusCount" value="13"/>
+	<entry name="AstraMilitarum0" value="Les vétérans de Miral"/>
+	<entry name="AstraMilitarum1" value="Les irrégulières de Kathur"/>
+	<entry name="AstraMilitarum2" value="Gardien de la désolation de Nurth"/>
+	<entry name="AstraMilitarum3" value="Le poing de fer de Stygia"/>
+	<entry name="AstraMilitarum4" value="La légion de pierre de Praedis-Zeta"/>
+	<entry name="AstraMilitarum5" value="Les highlanders du monde d'Hamman"/>
+	<entry name="AstraMilitarum6" value="Les érudits de Perlia"/>
+	<entry name="AstraMilitarum7" value="Le Vengeur de Cadia"/>
+	<entry name="AstraMilitarum8" value="Le souvenir de Tanith"/>
+	<entry name="AstraMilitarum9" value="Ceux d'Ioline"/>
+	<entry name="AstraMilitarum10" value="Les Assiégeants de Lelithar"/>
+	<entry name="AstraMilitarum11" value="Les soldats de Tourmalid"/>
+	<entry name="AstraMilitarumCount" value="12"/>
+	<entry name="ChaosSpaceMarines0" value="Les enfants du Maelstrom"/>
+	<entry name="ChaosSpaceMarines1" value="Les fils du Tyran"/>
+	<entry name="ChaosSpaceMarines2" value="La ruine de l'Empereur-Cadavre"/>
+	<entry name="ChaosSpaceMarines3" value="Le tourment d'Isha"/>
+	<entry name="ChaosSpaceMarines4" value="Les écorchelangues incandescentes"/>
+	<entry name="ChaosSpaceMarines5" value="Le rêve du Tzaangor"/>
+	<entry name="ChaosSpaceMarines6" value="Les chiens sanglants"/>
+	<entry name="ChaosSpaceMarines7" value="Les voies, altérées"/>
+	<entry name="ChaosSpaceMarines8" value="Les tallymen"/>
+	<entry name="ChaosSpaceMarines9" value="Les griffes d'Horus"/>
+	<entry name="ChaosSpaceMarines10" value="Les tourmenteurs suaves"/>
+	<entry name="ChaosSpaceMarines11" value="Les dépossédés"/>
+	<entry name="ChaosSpaceMarinesCount" value="12"/>
+ 	<entry name="Eldar0" value="La chevauchée sauvage"/>
+ 	<entry name="Eldar1" value="La récolte fantômatique"/>
+ 	<entry name="Eldar2" value="Les pillards de cristal"/>
+ 	<entry name="Eldar3" value="Larmes d'Isha"/>
+ 	<entry name="Eldar4" value="Marteaux de Vaul"/>
+ 	<entry name="Eldar5" value="Chevaliers Exodites"/>
+ 	<entry name="Eldar6" value="Les lames runiques de la Vieille"/>
+ 	<entry name="Eldar7" value="Le cri d'Eldanesh"/>
+ 	<entry name="Eldar8" value="La tempête brûlante"/>
+ 	<entry name="Eldar9" value="Les ombres du silence"/>
+ 	<entry name="Eldar10" value="Les chasseurs d'âmes"/>
+ 	<entry name="Eldar11" value="Protecteurs de la Vierge"/>
+ 	<entry name="EldarCount" value="12"/>
+	<entry name="Necrons0" value="Les anciens pionniers"/>
+	<entry name="Necrons1" value="Les harpies dorées"/>
+	<entry name="Necrons2" value="Les hauts gardes"/>
+	<entry name="Necrons3" value="Les élus du tétrarque"/>
+	<entry name="Necrons4" value="Les anatomistes"/>
+	<entry name="Necrons5" value="La particule de l'essaim infini"/>
+	<entry name="Necrons6" value="Les langues du Mystificateur"/>
+	<entry name="Necrons7" value="Les tueurs du Dépeceur"/>
+	<entry name="Necrons8" value="Les braises de l'Ardent"/>
+	<entry name="Necrons9" value="Les ombres de l'Etranger"/>
+	<entry name="Necrons10" value="L'aube du Nyctophore"/>
+	<entry name="NecronsCount" value="11"/>
+	<entry name="Orks0" value="La band bizar'"/>
+	<entry name="Orks1" value="Lé frakassé eud'Mork"/>
+	<entry name="Orks2" value="Lé diskré"/>
+	<entry name="Orks3" value="Lé gro boyz"/>
+	<entry name="Orks4" value="Lé fléo"/>
+	<entry name="Orks5" value="Lé boys Gorkesk"/>
+	<entry name="Orks6" value="Lé gard' Goff"/>
+	<entry name="Orks7" value="Lé gorkas dé Blood Axes"/>
+	<entry name="Orks8" value="Lé greffon dé Deathskulls"/>
+	<entry name="Orks9" value="La band' de frimeurs dé Bad Moons"/>
+	<entry name="Orks10" value="Lé tueurs de wyrm dé Snakebites"/>
+	<entry name="Orks11" value="Lé fondus d'la vitesse dé Evil Sunz"/>
+	<entry name="OrksCount" value="12"/>
+	<entry name="SistersOfBattle0" value="Suppléants de Terra"/>
+	<entry name="SistersOfBattle1" value="Delenda Esthers"/>
+	<entry name="SistersOfBattle2" value="Semper Veritas"/>
+	<entry name="SistersOfBattle3" value="Aleast Iacters"/>
+	<entry name="SistersOfBattle4" value="Le gant de la mère"/>
+	<entry name="SistersOfBattle5" value="Ordo Familiaris"/>
+	<entry name="SistersOfBattle6" value="Convocation auréenne"/>
+	<entry name="SistersOfBattle7" value="Gardiens du Néant"/>
+	<entry name="SistersOfBattle8" value="Bene Bearers"/>
+	<entry name="SistersOfBattle9" value="Les mémorialistes de Celtine"/>
+	<entry name="SistersOfBattle10" value="Malédiction de Raguel"/>
+	<entry name="SistersOfBattle11" value="Les luminaries"/>
+	<entry name="SistersOfBattleCount" value="12"/>		
+	<entry name="SpaceMarines0" value="La garde invincible"/>
+	<entry name="SpaceMarines1" value="Les tacticiens honorés"/>
+	<entry name="SpaceMarines2" value="Les vétérans vénérés"/>
+	<entry name="SpaceMarines3" value="Les gardiens honorables"/>
+	<entry name="SpaceMarines4" value="les défenseurs de Gladius"/>
+	<entry name="SpaceMarines5" value="Les immortels"/>
+	<entry name="SpaceMarines6" value="Crux Terminatus"/>
+	<entry name="SpaceMarines7" value="Lauriers Imperialis"/>
+	<entry name="SpaceMarines8" value="L'honneur des tireurs d'élite"/>
+	<entry name="SpaceMarines9" value="Prime Helix"/>
+	<entry name="SpaceMarines10" value="Sceau de pureté"/>
+	<entry name="SpaceMarines11" value="Machina Opus"/>
+	<entry name="SpaceMarinesCount" value="12"/>
+	<entry name="Tau0" value="Les chasseurs patients"/>
+	<entry name="Tau1" value="La frappe simple"/>
+	<entry name="Tau2" value="Le solitaire"/>
+	<entry name="Tau3" value="Sur des courants inconnus"/>
+	<entry name="Tau4" value="Ceux qui suivent la voie"/>
+	<entry name="Tau5" value="L'ami de tous"/>
+	<entry name="Tau6" value="Destinés à l'excellence"/>
+	<entry name="Tau7" value="Le salut final"/>
+	<entry name="Tau8" value="Une meilleure solution"/>
+	<entry name="Tau9" value="Forts ensemble"/>
+	<entry name="Tau10" value="Les ombres en feu"/>
+	<entry name="Tau11" value="Ceux qui s'en vont"/>
+	<entry name="TauCount" value="12"/>
+	<entry name="Tyranids0" value="Les pures souches"/>
+	<entry name="Tyranids1" value="Les yeux de la Norne"/>
+	<entry name="Tyranids2" value="La progéniture du cnidocyste"/>
+	<entry name="Tyranids3" value="Les moissoneurs autophages"/>
+	<entry name="Tyranids4" value="La meute acrosomique"/>
+	<entry name="Tyranids5" value="Les lysosomiques"/>
+	<entry name="Tyranids6" value="Les horreurs flagelloïdes"/>
+	<entry name="Tyranids7" value="Les piloïdes recourbés"/>
+	<entry name="Tyranids8" value="Les thylacoïdes passifs"/>
+	<entry name="Tyranids9" value="Les symbiotes voraces"/>
+	<entry name="Tyranids10" value="Les chasseurs fins"/>
+	<entry name="Tyranids11" value="La myriade inspirée"/>
+	<entry name="TyranidsCount" value="12"/>
+</language>

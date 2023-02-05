@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<language>
+	<!-- Artefacts -->
+	<entry name="Artefacts/AncientExterminatusDevice" value="<string name='Units/Neutral/Artefacts/AncientExterminatusDevice'/>"/>
+	<entry name="Artefacts/AncientExterminatusDeviceDescription" value=""/>
+	<entry name="Artefacts/Damage" value="<string name='Units/Neutral/Artefacts/Damage'/>"/>
+	<entry name="Artefacts/DamageDescription" value="Aumenta el daño de todas las unidades aliadas."/>
+	<entry name="Artefacts/Healing" value="<string name='Units/Neutral/Artefacts/Healing'/>"/>
+	<entry name="Artefacts/HealingDescription" value="Recupera los puntos de vida de todas las unidades aliadas en cada turno."/>
+	<entry name="Artefacts/Hitpoints" value="<string name='Units/Neutral/Artefacts/Hitpoints'/>"/>
+	<entry name="Artefacts/HitpointsDescription" value="Aumenta los puntos de vida de todas las unidades aliadas."/>
+	<entry name="Artefacts/Loyalty" value="<string name='Units/Neutral/Artefacts/Loyalty'/>"/>
+	<entry name="Artefacts/LoyaltyDescription" value="Aumenta la lealtad de todas las ciudades aliadas."/>
+	<entry name="Artefacts/Movement" value="<string name='Units/Neutral/Artefacts/Movement'/>"/>
+	<entry name="Artefacts/MovementDescription" value="Aumenta el movimiento de todas las unidades aliadas."/>
+	<entry name="Artefacts/Sight" value="<string name='Units/Neutral/Artefacts/Sight'/>"/>
+	<entry name="Artefacts/SightDescription" value="Aumenta la visión de todas las unidades aliadas."/>
+	
+	<!-- Items -->
+	<entry name="BlightGrenade" value="<string name='Items/BlightGrenade'/>"/>
+	<entry name="BlightGrenadeDescription" value="<string name='Items/BlightGrenadeDescription'/>"/>
+	<entry name="BlindGrenade" value="<string name='Items/BlindGrenade'/>"/>
+	<entry name="BlindGrenadeDescription" value="<string name='Items/BlindGrenadeDescription'/>"/>
+	<entry name="CombatStimulant" value="<string name='Items/CombatStimulant'/>"/>
+	<entry name="CombatStimulantDescription" value="<string name='Items/CombatStimulantDescription'/>"/>
+	<entry name="FaolchusWing" value="<string name='Items/FaolchusWing'/>"/>
+	<entry name="FaolchusWingDescription" value="<string name='Items/FaolchusWingDescription'/>"/>
+	<entry name="ForbiddenKnowledge" value="<string name='Items/ForbiddenKnowledge'/>"/>
+	<entry name="ForbiddenKnowledgeDescription" value="<string name='Items/ForbiddenKnowledgeDescription'/>"/>
+	<entry name="JokaeroDigitalWeapon" value="<string name='Items/JokaeroDigitalWeapon'/>"/>
+	<entry name="JokaeroDigitalWeaponDescription" value="<string name='Items/JokaeroDigitalWeaponDescription'/>"/>
+	<entry name="LaurelsOfCommand" value="<string name='Items/LaurelsOfCommand'/>"/>
+	<entry name="LaurelsOfCommandDescription" value="<string name='Items/LaurelsOfCommandDescription'/>"/>
+	<entry name="PoweredBolas" value="<string name='Items/PoweredBolas'/>"/>
+	<entry name="PoweredBolasDescription" value="<string name='Items/PoweredBolasDescription'/>"/>
+	<entry name="StunGrenade" value="<string name='Items/StunGrenade'/>"/>
+	<entry name="StunGrenadeDescription" value="<string name='Items/StunGrenadeDescription'/>"/>
+	<entry name="TemporaryShield" value="<string name='Items/TemporaryShield'/>"/>
+	<entry name="TemporaryShieldDescription" value="<string name='Items/TemporaryShieldDescription'/>"/>
+
+	<entry name="AcquireTile" value="Adquirir Casilla"/>
+	<entry name="AcquireTileDescription" value="Adquiere una nueva casilla para la ciudad. Los edificios solo pueden ser construidos en casillas adquiridas. Cada casilla tiene un coste de mantenimiento de influencia."/>
+	<entry name="Activate" value="Activar"/>	
+ 	<entry name="AdeptusMechanicus/AggressionOverride" value="Anular Agresión"/> <!-- Skitarii Marshal ability -->
+ 	<entry name="AdeptusMechanicus/AggressionOverrideDescription" value="Aumenta los ataques de la unidad aliada de infantería objetivo del Adeptus Mechanicus ."/>
+ 	<entry name="AdeptusMechanicus/AggressionOverrideFlavor" value="Empleando protocolos cántico-letales data-refinados, el Mariscal se asegura de que sus Skitarii alcanzan un estado de ferocidad superior, que hace que su circulación sanguínea hierva con hiperestimulantes de combate."/>
+ 	<entry name="AdeptusMechanicus/AggressorImperative" value="Agressor Imperative"/>
+ 	<entry name="AdeptusMechanicus/AggressorImperativeDescription" value="Aumenta el movimiento, pero reduce la defensa de las unidades Doctrina Imperative. El coste aumenta con el número de unidades afectadas (hasta 10)."/>
+ 	<entry name="AdeptusMechanicus/AggressorImperativeFlavor" value="Los Skitarii sienten la presión de una mano invisible sobre sus mentes mientras el Dios Máquina les impulsa hacia adelante. Los servos se llevan a sus límites estructurales mientras los manojos de fibras se llenan con la ilimitada Fuerza Motriz, propulsando a los fieles en una cruzada imparable."/>
+ 	<entry name="AdeptusMechanicus/BenedictionOfOmniscience" value="Bendición de la Omnisciencia"/>
+ 	<entry name="AdeptusMechanicus/BenedictionOfOmniscienceDescription" value="Aumenta la precisión a distancia de las unidades de los Cánticos del Omnissiah. El coste y la efectividad aumentan con el número de unidades afectadas (hasta 10)."/>
+ 	<entry name="AdeptusMechanicus/BenedictionOfOmniscienceFlavor" value="Aquellos bendecidos con la capacidad de entender esta estridente vocooración notan cómo sus retículas de apuntaje son guiadas por la vigilancia del propio Omnissiah."/>
+ 	<entry name="AdeptusMechanicus/BroadSpectrumDataTether" value="Cadena de Datos de Amplio Espectro"/>
+ 	<entry name="AdeptusMechanicus/BroadSpectrumDataTetherDescription" value="Reduce la pérdida de moral de las unidades adyacentes aliadas del Adeptus Mechanicus."/>
+ 	<entry name="AdeptusMechanicus/BroadSpectrumDataTetherFlavor" value="Una versión motorizada de la que usan los Skitarii veteranos, la cadena de datos de amplio espectro proyecta las ráfagas de binario del tecnosacerdote con tal claridad que parece que esté presente entre las filas de los Skitarii. Los Imperatives entregados mediante este método transmisión de información son más potentes y fiables que cualquier otro."/>
+ 	<entry name="AdeptusMechanicus/BulwarkImperative" value="Bulwark Imperative"/>
+ 	<entry name="AdeptusMechanicus/BulwarkImperativeDescription" value="Aumenta la defensa, pero disminuye el movimiento de las unidades Doctrina Imperative. El coste aumenta con el número de unidades afectadas (hasta 10)."/>
+ 	<entry name="AdeptusMechanicus/BulwarkImperativeFlavor" value="La sabiduría guerrera de antiguos y experimentados Reductores se carga a la fuerza en las mentes de los Skitarii. Cada electrificante impulso de datos provoca el bloqueo de microactuadores en posiciones de combate, saca fuerza de las células de energía de reserva y otorga una sensación de sagrada invulnerabilidad a los soldados de los tecnosacerdotes."/>
+ 	<entry name="AdeptusMechanicus/ChantOfTheRemorselessFist" value="Cántico del Puño Implacable"/>
+	<entry name="AdeptusMechanicus/ChantOfTheRemorselessFistDescription" value="Aumenta la precisión en combate cuerpo a cuerpo de las unidades de los Cánticos del Omnissiah. El coste y la efectividad aumentan con el número de unidades afectadas (hasta 10)."/>
+ 	<entry name="AdeptusMechanicus/ChantOfTheRemorselessFistFlavor" value="Al escupir un estacato de binario a la Fuerza Motriz, los fieles guerreros del Culto Mecánico son imbuídos de una certeza e intención implacables."/>
+ 	<entry name="AdeptusMechanicus/CommandUplink" value="Enlace de Mando Ascendente"/>
+ 	<entry name="AdeptusMechanicus/CommandUplinkDescription" value="Reduce la pérdida de moral de las unidades adyacentes aliadas del Adeptus Mechanicus."/>
+ 	<entry name="AdeptusMechanicus/CommandUplinkFlavor" value="“Puedes sentir miedo, puedes sentir el deseo de huir; pero cuando tu Magos puede, con un pensamiento, evitar que tus miembros den un paso atrás, bueno, en ese caso, no te queda otra que luchar.”<br/>—Mariscal Diktum"/>
+ 	<entry name="AdeptusMechanicus/ConquerorImperative" value="Conqueror Imperative"/>
+ 	<entry name="AdeptusMechanicus/ConquerorImperativeDescription" value="Aumenta la precisión en combate cuerpo a cuerpo, pero disminuye la precisión a distancia de las unidades Doctrina Imperative. El coste aumenta con el número de unidades afectadas (hasta a 10)."/>
+ 	<entry name="AdeptusMechanicus/ConquerorImperativeFlavor" value="Cuando el enemigo se aproxima, los tecnosacerdotes al mando de cada manípulo cargan las Imperatives Conquistador, que refuerzan las subrutinas marciales de sus Skitarii subordinados, lanzándoles a la acción física por delante de sus más elaborados programas de selección de objetivos."/>
+ 	<entry name="AdeptusMechanicus/ControlEdict" value="Edicto de Control"/> <!-- Skitarii Marshal ability -->
+ 	<entry name="AdeptusMechanicus/ControlEdictDescription" value="Elimina la Doctrina Imperative de las unidades aliadas de infantería dentro del alcance."/>
+ 	<entry name="AdeptusMechanicus/ControlEdictFlavor" value="Una Doctrina Imperative no es una herramienta sutil, al incapacitar ciertas capacidades de un soldado aunque mejore otras. Pero la atención de un experimentado Mariscal puede ayudar a sobrellevar las órdenes más crudas del Imperative, permitiendo al soldado desempeñar su labor muy por encima de sus capacidades nominales."/>
+ 	<entry name="AdeptusMechanicus/DataBlessedAutosermon" value="Autosermón Dato-Bendecido"/> <!-- Tech-Priest Manipulus elite -->
+ 	<entry name="AdeptusMechanicus/DataBlessedAutosermonDescription" value="Las unidades de los Cánticos del Omnissiah proporcionan investigación al eliminar enemigos."/>
+ 	<entry name="AdeptusMechanicus/DataBlessedAutosermonFlavor" value="Golpeados por una revelación provocada por una sobrecarga de información, los tecnosacerdotes verdaderamente bendecidos anularán los sagrados cánticos para hacer entrega de la sabiduría adaptativa del Dios Máquina."/>
+ 	<entry name="AdeptusMechanicus/ElectroShocked" value="Electro-Shock"/> <!-- Tech-Priest Manipulus ability -->
+ 	<entry name="AdeptusMechanicus/ElectroShockedDescription" value="Paraliza la infantería o criatura monstruosa enemigas objetivo."/>
+ 	<entry name="AdeptusMechanicus/ElectroShockedFlavor" value="El verdaderamente devoto puedo lanzar una súbita descarga de la Fuerza Motriz a través de sus numerosos aumentos, paralizando a los enemigos cercanos."/>
+ 	<entry name="AdeptusMechanicus/EnrichedRounds" value="Proyectiles Enriquecidos"/> <!-- Skitarii Marshal elite -->
+ 	<entry name="AdeptusMechanicus/EnrichedRoundsDescription" value="Aumenta el daño de la unidad aliada del Adeptus Mechanicus objetivo."/>
+ 	<entry name="AdeptusMechanicus/EnrichedRoundsFlavor" value="Santificados con la Letanía Triple, cada uno de estos proyectiles ha permanecido durante una década en el templo más antiguo y más irradiado para certificar su letalidad. Cuando el Mariscal los reparte a sus manípulos, saben que cada disparo debe contar."/>
+ 	<entry name="AdeptusMechanicus/GalvanicField" value="Campo Galvánico"/> <!-- Tech-Priest Manipulus ability -->
+ 	<entry name="AdeptusMechanicus/GalvanicFieldDescription" value="Aumenta la penetración de blindaje de la unidad aliada del Adeptus Mechanicus objetivo."/>
+ 	<entry name="AdeptusMechanicus/GalvanicFieldFlavor" value="Empleando la Fuerza Motriz contenida en una gran célula galvánica, los electropositores del Manipulus pueden imbuir el armamento de aliados cercanos con la corriente latente de toda vida, llevando las bendiciones sagradas del Omnissiah para eliminar a todos los herejes."/>
+ 	<entry name="AdeptusMechanicus/IncantationOfTheIronSoul" value="Conjuro del Alma de Hierro"/>
+ 	<entry name="AdeptusMechanicus/IncantationOfTheIronSoulDescription" value="Reduce la pérdida de moral de las unidades de los Cánticos del Omnissiah. El coste y la efectividad aumentan con el número de unidades afectadas (hasta 10)."/>
+ 	<entry name="AdeptusMechanicus/IncantationOfTheIronSoulFlavor" value="Alzando sus voces en alabanza binaria, los Discípulos del Dios Máquina refuerzan su espíritu con la certeza del hierro."/>
+ 	<entry name="AdeptusMechanicus/InvocationOfMachineMight" value="Invocación de la Fuerza-Máquina"/>
+ 	<entry name="AdeptusMechanicus/InvocationOfMachineMightDescription" value="Aumenta el daño en combate cuerpo a cuerpo de las unidades de los Cánticos del Omnissiah. El coste y la efectividad aumentan con el número de unidades afectadas (hasta 10)."/>
+ 	<entry name="AdeptusMechanicus/InvocationOfMachineMightFlavor" value="Los tecnosacerdotes lideran a sus subordinados en oración binaria, que envía fuerza milagrosa a sus tendones, cables y pistones."/>
+ 	<entry name="AdeptusMechanicus/LitanyOfTheElectromancer" value="Letanía del Electromante"/>
+ 	<entry name="AdeptusMechanicus/LitanyOfTheElectromancerDescription" value="Daña la unidad enemiga objetivo. Los ataques y el coste aumentan con el número de unidades de los Cánticos del Omnissiah (hasta 10)."/>
+ 	<entry name="AdeptusMechanicus/LitanyOfTheElectromancerFlavor" value="Convocando la chispa de la divinidad del Dios Máquina que habita en ellos, los fieles del Omnissiah manifiestan relampagueantes auras de energía que asaltan a los infieles."/>
+ 	<entry name="AdeptusMechanicus/LordOfTheMachineCult" value="Señor del Culto Máquina"/> <!-- Tech-Priest Dominus ability -->
+ 	<entry name="AdeptusMechanicus/LordOfTheMachineCultDescription" value="Aumenta la precisión de los vehículos del Adeptus Mechanicus adyacentes."/>
+	<entry name="AdeptusMechanicus/LordOfTheMachineCultFlavor" value="“Se podría decir que es imposible que un hombre se convierta en la Máquina. Y yo contestaría que sólo la más pequeña de las mentes se esfuerza por comprender sus límites.”<br/>—Fabricador General Kane"/>
+ 	<entry name="AdeptusMechanicus/GalvanicFieldFlavor" value="Empleando la Fuerza Motriz contenida en una gran célula galvánica, los electropositores del Manipulus pueden imbuir el armamento de aliados cercanos con la corriente latente de toda vida, llevando las bendiciones sagradas del Omnissiah para eliminar a todos los herejes."/>
+ 	<entry name="AdeptusMechanicus/MasterOfMachines" value="Maestro de las Máquinas"/>
+ 	<entry name="AdeptusMechanicus/MasterOfMachinesDescription" value="Restaura los puntos de vida de la unidad, vehículo o fortificación aliada del Adeptus Mechanicus."/>
+ 	<entry name="AdeptusMechanicus/MasterOfMachinesFlavor" value="“Nuestros enemigos pueden descansar, pero el óxido no lo hace nunca.”<br/>—Tecnosacerdote Jung, Mundo Forja Gehenna"/>
+ 	<entry name="AdeptusMechanicus/MechanicusLocum" value="Mechanicus Locum"/> <!-- Tech-Priest Domunis elite -->
+ 	<entry name="AdeptusMechanicus/MechanicusLocumDescription" value="Aumenta la producción de influencia e investigación."/>
+ 	<entry name="AdeptusMechanicus/MechanicusLocumFlavor" value="Cada congregación de tecnosacerdotes consta de maestros de la sabiduría arcana—celosos líderes de hombres y máquinas."/>
+ 	<entry name="AdeptusMechanicus/PowerSurge" value="Aumento de Energía"/> <!-- Faction ability -->
+ 	<entry name="AdeptusMechanicus/PowerSurgeDescription" value="Aumenta la producción de edificios que no sean de cuartel general en la casilla objetivo."/>
+ 	<entry name="AdeptusMechanicus/PowerSurgeFlavor" value="“Abre del todo el oscilador transónico y escala el dereactor otros tres puntos. Necesito esas forjas trabajando a eficiencia óptima”<br/>—Archimagos Dyatskin, poco antes de la pérdida de la colmena Arklis Primus"/>
+ 	<entry name="AdeptusMechanicus/ProtectorImperative" value="Protector Imperative"/>
+ 	<entry name="AdeptusMechanicus/ProtectorImperativeDescription" value="Aumenta la precisión a distancia, pero disminuye la precisión en combate cuerpo a cuerpo de las unidades Doctrina Imperatives. El coste aumenta con el número de unidades afectadas (hasta 10)."/>
+ 	<entry name="AdeptusMechanicus/ProtectorImperativeFlavor" value="La Protector Imperative está codificada para proporcionar el máximo espectro de datos sólidos. Se alimenta energía extra a los sistemas ópticos de banda estrecha y a los telémetros conectados directamente a los programas prioritarios de los Skitarii, mientras las armas de los guerreros sagrados se convierten en extensiones de sí mismos."/>
+ 	<entry name="AdeptusMechanicus/RadSaturation" value="Saturación-Rad"/>
+ 	<entry name="AdeptusMechanicus/RadSaturationDescription" value="Daña a la infantería enemiga adyacente y a las criaturas monstruosas cada turno."/>
+ 	<entry name="AdeptusMechanicus/RadSaturationFlavor" value="Al recolectar la energía destructiva de mundos forja en su armamento, ciertos Skitarii se encuentran tan imbuidos de radiación que el mero hecho de acercarse a ellos supone tu sentencia de muerte. Su victoria es pírrica, pues la radiación penetra incluso su pesado blindaje, envenenándoles lentamente hasta su muerte, al mismo tiempo que sus carabinas reparten muerte (bastante más rápida) a sus enemigos."/>
+ 	<entry name="AdeptusMechanicus/ReprogramKastelanRobot" value="Reprogramar Robot Kastelan"/>
+ 	<entry name="AdeptusMechanicus/ReprogramKastelanRobotDescription" value="Toma el control del Robot Kastelan enemigo objetivo."/>
+ 	<entry name="AdeptusMechanicus/ReprogramKastelanRobotFlavor" value="Tras las secuelas de la rebelión de la Herejia de Horus, los robots de la Legio Cybernetica han sido controlados completamente por sus maestros – no por los cerebros bioplásticos y los zarcillos como nervios de los constructos del Mechanicum, sino por obleas doctrinales santificadas. No más grandes que las cartas del Tarot del Emperador, estas briznas de cerebro son entregadas en custodia a los Herreros de Datos de la Cybernetica que acompañan a los manípulos de robots a la guerra. Insertados en la ranura de datos que cada robot tiene detrás de su coraza pectoral, los protocolos de mando de la oblea dictarán todos y cada uno de los comportamientos del portador, optimizando su habilidad para destruir a los enemigos de maneras espectaculares."/>
+	<entry name="AdeptusMechanicus/Scryerskull" value="Cráneodivinador"/> <!-- Tech-Priest Dominus ability -->
+ 	<entry name="AdeptusMechanicus/ScryerskullDescription" value="Revela la casilla objetivo y las adyacentes."/>
+ 	<entry name="AdeptusMechanicus/ScryerskullFlavor" value="El Adeptus Mechanicus se toma la valoración y explotación de los recursos del campo de batalla de manera muy seria – tanto, que muchos de ellos continuan con su trabajo más allá de la muerte."/>
+ 	<entry name="AdeptusMechanicus/ServoSkullUplink" value="Enlace Servocráneo Ascendente"/> <!-- Skitarii Marshal ability -->
+ 	<entry name="AdeptusMechanicus/ServoSkullUplinkDescription" value="Aumenta el daño de las unidades aliadas de infantería del Adeptus Mechanicus dentro del alcance."/>
+ 	<entry name="AdeptusMechanicus/ServoSkullUplinkFlavor" value="Es un gran honor, para un piadoso siervo Imperial o tecnoadepto, el ser convertido en un servocráneo tras la muerte, augmentando su cráneo con dispositivos anti-grav y una inteligencia máquina rudimentaria. Los servocráneos con augméticos ópticos, como los de los Mariscales Skitarii, son muy útiles para reconocimiento y selección de objetivos, ayudando a evitar el despilfarro de disparos."/>
+ 	<entry name="AdeptusMechanicus/Shroudpsalm" value="Sudario de Salmo"/>
+ 	<entry name="AdeptusMechanicus/ShroudpsalmDescription" value="Aumenta la reducción de daño frente a ataques a distancia de las unidades de los Cánticos del Omnissiah. El coste y la efectividad aumentan con el número de unidades afectadas (hasta 10)."/>
+ 	<entry name="AdeptusMechanicus/ShroudpsalmFlavor" value="Robot, servidor y sacerdote cambian sus emisiones de binario al espectro visible, la estática que surge de sus vocoemisores manifestándose como una tormenta electromagnética que los oculta del enemigo."/>
+ 	<entry name="AdeptusMechanicus/TechAdept" value="Tecnoadepto"/> <!-- Tech-Priest Manipulus ability -->
+ 	<entry name="AdeptusMechanicus/TechAdeptDescription" value="<string name='Actions/AdeptusMechanicus/MasterOfMachinesDescription'/>"/>
+ 	<entry name="AdeptusMechanicus/TechAdeptFlavor" value="Reparar las máquinas de guerra dañadas en la cruzada es una tarea sagrada."/>
+ 	<entry name="AdeptusMechanicus/VoicesInTheCode" value="Voces en el Código"/>
+ 	<entry name="AdeptusMechanicus/VoicesInTheCodeDescription" value="Aumenta la pérdida de moral de las unidades enemigas adyacentes."/>
+ 	<entry name="AdeptusMechanicus/VoicesInTheCodeFlavor" value="Acercarse a un Infiltrador Sicariano es un error: sus cráneos augmentados emiten un brutalmente perturbador, lo que hace que sus enemigos caigan sordos y ciegos. A menudo las batallas quedan zanjadas antes de que se confirme ninguna muerte."/>
+ 	<entry name="AdeptusMechanicus/WrathOfMars" value="Ira de Marte"/> <!-- Tech-Priest Dominus ability -->
+ 	<entry name="AdeptusMechanicus/WrathOfMarsDescription" value="Aumenta el daño del tecnosacerdote Dominus."/>
+ 	<entry name="AdeptusMechanicus/WrathOfMarsFlavor" value="Nadie castigar al blásfemo como los oriundos de Marte, pues suyo es el celo más justo. ¡Alabemos la gloria del Dios Máquina!"/>
+	<entry name="Agile" value="Ágil"/>
+ 	<entry name="AgileDescription" value="Aumenta el movimiento, pero reduce los ataques."/>
+	<entry name="AgileFlavor" value="El tamaño no impide la velocidad. Observa la increíble maniobrabilidad del Caza Imperial Lightning. O mira al Hierodule Tiránido. En lugar de avanzar pesadamente como un Ogrete, su concentración y gracia son más parecidos a los de un Arlequín. Un Arlequín hambriento del tamaño de una casa, es verdad, con saliva ácida y guadañas del tamaño de un Land Raider por brazos, quiero decir. Pero elegante de todos modos."/>
+	<entry name="Appear" value="Aparecer"/>
+	<entry name="AmmoRunt" value="Kanijo munizionero"/>
+	<entry name="AmmoRuntDescription" value="Aumenta la puntería a distancia."/>
+	<entry name="AmmoRuntFlavor" value="Un Kanijo munizionero es un Gretchin fuertemente sobrecargado que lleva munición extra para su señor."/>
+	<entry name="ArmoriumCherub" value="Armorium Querubín"/>
+	<entry name="ArmoriumCherubDescription" value="Aumenta la puntería."/>
+	<entry name="ArmoriumCherubFlavor" value="Los Querubines son diminutos cíborgs voladores creados para ayudar a los sirvientes del Emperador, ya sean escribas o soldados. Entre los Adeptus Astartes son raramente vistos fuera del Librarius, excepto para aquellos pocos que transmiten datos de objetivos y llevan munición de repuesto para las Escuadras de Devastadores."/>
+	<entry name="AssaultDoctrine" value="Implementa la Doctrina de Asalto"/>
+	<entry name="AssaultDoctrineDescription" value="Capítulo táctico que aumenta la puntería de los Marines Espaciales de Asalto."/>
+	<entry name="AssaultDoctrineFlavor" value="“Donde haya incertidumbre, traeré luz <br/>Donde haya duda, sembraré fe.<br/>Donde haya vergüenza, señalaré la expiación.<br/>Donde haya ira, mostraré su curso.<br/>Mi palabra en el alma será como mi perno en el campo.”<br/> —Letanía de la Devoción, tradicional"/>
+	<entry name="AstraMilitarum/ProjectedVoidShield" value="Escudo de Vacío Proyectado"/>
+	<entry name="AstraMilitarum/ProjectedVoidShieldDescription" value="Aumenta la reducción de daño, de las unidades dentro de rango, contra ataques a distancia."/>
+	<entry name="AstraMilitarum/ProjectedVoidShieldFlavor" value="El Escudo de Vacío es la cúspide de la tecnología Imperial contra ataques a distancia, y normalmente sólo se monta en Titanes o Tanques Superpesados debido a sus inmensas necesidades de energía. Esta variante emplea una tecnología que permite proyectar el escudo para defender una zona más amplia, aunque es inútil en combates cuerpo a cuerpo."/>
+	<entry name="AstraMilitarumAircraftProductionEdict" value="Órdenes Navales"/>
+	<entry name="AstraMilitarumAircraftProductionEdictDescription" value="Edicto que aumenta la producción de Voidports en la ciudad."/>
+	<entry name="AstraMilitarumAircraftProductionEdictFlavor" value="Edicto, Departamento Munitorum: a todos los supervisores de Voidports. Los ciclos de sueño de los trabajadores se reducen a la mitad hasta nuevo aviso, los objetivos de producción se aumentan. Se están desplegando jueces en todos los sectores para garantizar dicho cumplimiento."/>
+	<entry name="AstraMilitarumDefenseEdict" value="Baluarte del Emperador"/>
+	<entry name="AstraMilitarumDefenseEdictDescription" value="Edicto que aumenta la armadura de las unidades en la ciudad."/>
+	<entry name="AstraMilitarumDefenseEdictFlavor" value="Edicto, Astra Militarum: a todo el Estado Mayor, Comandantes de Regimientos, Comandantes de Compañía. Todas las unidades deben mantenerse debajo o detrás de cubierta protectora en todo momento, incluso durante el R&R. Se autoriza el gasto adicional de recursos para reparaciones de defensa."/>
+	<entry name="AstraMilitarumEnergyEdict" value="Calentando"/>
+	<entry name="AstraMilitarumEnergyEdictDescription" value="Edicto que aumenta la producción de energía de los ionizadores de plasma en la ciudad."/>
+	<entry name="AstraMilitarumEnergyEdictFlavor" value="Edicto, Departamento Munitorum: a todos los supervisores de unidades generadoras de energía. Los dispositivos de seguridad deben ser eliminados de los ionizadores de plasma; se ha ordenado al Cuerpo de trabajadores que reponga la mano de obra agotada por las fusiones resultantes sin autorización adicional."/>
+	<entry name="AstraMilitarumFoodEdict" value="Aumento Agronómico"/>
+	<entry name="AstraMilitarumFoodEdictDescription" value="Edicto que aumenta la producción de comida de las granjas de Soylens en la ciudad."/>
+	<entry name="AstraMilitarumFoodEdictFlavor" value="Edicto, Departamento Munitorum: a todos los súbditos Imperiales. Las raciones personales se reducen con efecto inmediato. Los jueces han sido enviados a las granjas, graneros y almacenes para garantizar dicho cumplimiento."/>
+	<entry name="AstraMilitarumGrowthEdict" value="Licencias de Cría"/>
+	<entry name="AstraMilitarumGrowthEdictDescription" value="Edicto que aumenta la tasa de crecimiento de la ciudad."/>
+	<entry name="AstraMilitarumGrowthEdictFlavor" value="Edicto, Departamento Munitorum: a todos los que poseen casas oficiales. Durante el periodo de este Edicto, se fomentan los encuentros conyugales. También a todos los supervisores de almacenes Imperiales. Durante el periodo de este Edicto, las dosis anafrodisíacas deben ser eliminadas del suministro de alimentos y agua."/>
+	<entry name="AstraMilitarumInfantryProductionEdict" value="Formación Inspirada"/>
+	<entry name="AstraMilitarumInfantryProductionEdictDescription" value="Edicto que aumenta la producción de los cuarteles Imperiales en la ciudad."/>
+	<entry name="AstraMilitarumInfantryProductionEdictFlavor" value="Edicto, Astra Militarum: a todos los Comisarios y oficiales de reclutamiento. Los barridos voluntarios deben ser duplicados, la Misericordia del Emperador debe ser aplicada a todos los recusantes."/>
+	<entry name="AstraMilitarumInfluenceEdict" value="Fe Imperial"/>
+	<entry name="AstraMilitarumInfluenceEdictDescription" value="Edicto que aumenta la producción de influencia de las estaciones cogitadoras en la ciudad."/>
+	<entry name="AstraMilitarumInfluenceEdictFlavor" value="Edicto, Adeptus Ministorum: se ordena a todos los trabajadores no asignados que se presenten en la Misión, Santuario o Schola Progenium más cercana para ayudar a difundir la palabra del Emperador. Los Pontífices estarán disponibles para la prueba obligatoria de herejía."/>
+	<entry name="AstraMilitarumLoyaltyEdict" value="Emisión de Propaganda"/>
+	<entry name="AstraMilitarumLoyaltyEdictDescription" value="Edicto que aumenta la producción de lealtad de los Sancti Imperialum en la ciudad."/>
+	<entry name="AstraMilitarumLoyaltyEdictFlavor" value="Edicto, Adeptus Arbites: a todos los Comisarios, Jueces y Cuerpos y Fuerzas de Seguridad: se ha encargado un periodo de creciente comunicación Imperial. Durante este tiempo, las búsquedas casa a casa, están ahora autorizadas para asegurar la máxima devoción al Emperador. Los Ajusticiadores deben aplicar rigurosamente la Lex Imperialis."/>
+	<entry name="AstraMilitarumOreEdict" value="Cuotas de Extracción"/>
+	<entry name="AstraMilitarumOreEdictDescription" value="Edicto que aumenta la producción de mineral de los extractores de mineral en la ciudad."/>
+	<entry name="AstraMilitarumOreEdictFlavor" value="Edicto, Departamento Munitorum: a todos los supervisores de fábricas: se requiere que los servidores funcionen continuamente durante este ciclo. Quemaduras / Muertes deben ser reemplazados desde los rangos inferiores del cuerpo penal y laboral."/>
+	<entry name="AstraMilitarumPsykerProductionEdict" value="Cónclave del Enfoque"/>
+	<entry name="AstraMilitarumPsykerProductionEdictDescription" value="Edicto que aumenta la producción del Cónclave de Psíquicos en la ciudad."/>
+	<entry name="AstraMilitarumPsykerProductionEdictFlavor" value="Edicto, Adeptus Astra Telepathica: al Concilio de los Maestros y magistrados de la Scholastia Psykana. Se han reducido los umbrales de calidad para el reclutamiento; por lo tanto, las ejecuciones sumarias deben ser las mínimas, la munición de fogueo queda exceptuada. Se asignan todos los reclutas a un Psíquico autorizado inmediatamente."/>
+	<entry name="AstraMilitarumResearchEdict" value="Revelaciones del Omnissiah"/>
+	<entry name="AstraMilitarumResearchEdictDescription" value="Edicto que aumenta la producción de investigación de los Officiis Tácticas en la ciudad."/>
+	<entry name="AstraMilitarumResearchEdictFlavor" value="Edicto, Adeptus Mechanicus: a todos los Sacerdotes-Técnicos. Durante este ciclo, la Búsqueda del Conocimiento tiene prioridad. Deben fomentarse los estudios sobre los diseños de plantilla de construcción estándar (PCE) y las misiones exploratorias. Alabado sea Omnissiah!"/>
+	<entry name="AstraMilitarumVehicleProductionEdict" value="Ritos de los Espíritus Máquina"/>
+	<entry name="AstraMilitarumVehicleProductionEdictDescription" value="Edicto que aumenta la producción de Manufactorums en la ciudad."/>
+	<entry name="AstraMilitarumVehicleProductionEdictFlavor" value="Edicto, Adeptus Mechanicus: a todos los Magos Manufactorum. Las cuotas de producción para este periodo se aumentan. Los proyectos personales deben ponerse en espera durante este periodo. Recursos adicionales / ungüentos serán proporcionados para la realización de los ritos máquina. ¡Alabado sea Omnissiah!"/>
+	<entry name="Attack" value="Ataca"/>
+	<entry name="AuraOfDiscipline" value="Aura de Disciplina"/>
+	<entry name="AuraOfDisciplineDescription" value="Aumenta la puntería del Comisario Mayor y de la infantería Astra Militarum aliada adyacente."/>
+	<entry name="AuraOfDisciplineFlavor" value="Si la disciplina o la moral decaen, es tarea del Comisario tomar todas las medidas necesarias para restaurar el orden, y hacerlo con el absoluto conocimiento de que sus acciones son justas. Bajo la mirada de acero de un hombre así, los Guardias Imperiales deben ser inspirados con hechos que nunca creyeron posibles."/>
+	<entry name="AuraOfFear" value="Aura del Miedo"/>
+	<entry name="AuraOfFearDescription" value="Reduce la moral de las unidades enemigas adyacentes cada turno."/>
+	<entry name="AuraOfFearFlavor" value="Algunos seres son tan monstruosos o extraterrestres que pueden forzar a sus enemigos a retroceder con horror."/>
+	<entry name="AwakenTheMachine" value="Despertar a La Máquina"/>
+	<entry name="AwakenTheMachineDescription" value="Aumenta la puntería a distancia de la unidad vehículo o fortaleza aliada objetivo."/>
+	<entry name="AwakenTheMachineFlavor" value="“Con pulsar el Botón se enciende el Motor<br/>y la Turbina desencadena la vida…<br/>Llama Tres veces a la Gran Campana!<br/>Canta la Alabanza al<br/>Dios de Las Máquinas”<br/> —Catecismo del Autoculus de Marte"/>
+	<entry name="BlessingsOfTheOmnissiah" value="Bendiciones del Omnissiah"/>
+	<entry name="BlessingsOfTheOmnissiahDescription" value="Recupera los puntos de vida de la unidad vehículo aliada."/>
+	<entry name="BlessingsOfTheOmnissiahFlavor" value="“Así invocamos al Dios Máquina.<br/>Así hacemos renovamos por completo todo lo que fue roto.”<br/>  — Himno del Reforjamiento"/>
+	<entry name="BolsterDefences" value="Reforzar las Defensas"/>
+	<entry name="BolsterDefencesDescription" value="Aumenta la reducción de daño contra ataques a distancia en la casilla seleccionada."/>
+	<entry name="BolsterDefencesFlavor" value="“Cada posición debe mantenerse hasta el último hombre: no debe haber retirada. De espaldas a la pared, y creyendo en la justicia de nuestra causa, cada uno de nosotros debe luchar hasta el final.”<br/>  — Imperial Warmaster Solon"/>
+	<entry name="BolterDrill" value="Desplegar a los Diestros con el bólter"/>
+	<entry name="BolterDrillDescription" value="Capítulo táctico que aumenta la puntería de las armas bólter."/>
+	<entry name="BolterDrillFlavor" value="“Creo en tres principios de batalla—potencia de fuego, potencia de fuego, y más potencia de fuego.”<br/>  — Kardan Stronos, Señor del Capítulo de las Manos de Hierro"/>
+	<entry name="BringItDown" value="“¡Derríbalo!”"/>
+	<entry name="BringItDownDescription" value="Aumenta la penetración del blindaje del Comisario Mayor y de la infantería Astra Militarum aliada adyacente."/>
+	<entry name="BringItDownFlavor" value="Las máquinas de guerra enemigas y las monstruosidades alienígenas son objetivos igualmente prioritarios para los comandantes de la Guardia Imperial."/>
+	<entry name="BuyHint" value="<style name='Title'/>Comprar %1%%2%<style name='Default'/><br/>%3%%4%%5%%6%%7%%8%<style name='Italic'/>%9%"/>
+	<entry name="CanticlesOfWrath" value="Cánticos de Ira"/>
+	<entry name="CanticlesOfWrathDescription" value="Restaura la moral de las unidades aliadas adyacentes y reduce la moral de las unidades enemigas adyacentes."/>
+	<entry name="CanticlesOfWrathFlavor" value="Amplificado a través de su vocoparrilla, la retórica belicosa del Capellán y los cánticos de cólera resuenan como truenos a través del campo de batalla, llenando a los Marines Espaciales de nueva fuerza mientras causan que el enemigo se acobarde de terror."/>
+	<entry name="Capture" value="Capturar"/>
+	<entry name="ChaosSpaceMarines/BoonOfMutation" value="Bendición de la mutación"/>
+	<entry name="ChaosSpaceMarines/BoonOfMutationDescription" value="El objetivo adyacente Campeón del Caos aliado gana una Bendición del Caos faltante y desbloqueada."/>
+	<entry name="ChaosSpaceMarines/BoonOfMutationFlavor" value="El psíquico pone sus manos sobre un guerrero marcado para la gloria, canalizando el poder combativo del Caos en su cuerpo hasta que su carne se retuerza y fluye."/>
+	<entry name="ChaosSpaceMarines/DarkGlory" value="Gloria Oscura"/>
+	<entry name="ChaosSpaceMarines/DarkGloryDescription" value="Aumenta la reducción del daño."/>
+ 	<entry name="ChaosSpaceMarines/DarkGloryFlavor" value="Algunos campeones del Caos están tan bendecidos por su deidad protectora que están protegidos sobrenaturalmente de cualquier daño. Pueden estar rodeados por un poderoso y crepitante escudo de energía, o bien las balas que se dirigen hacia ellos pueden ser extrañamente desviadas justo antes de que impacten. En cualquier caso, está claro que los Dioses Oscuros están cuidando de ellos."/>
+	<entry name="ChaosSpaceMarines/DeferredAbsolution" value="Absolución diferida"/>
+ 	<entry name="ChaosSpaceMarines/DeferredAbsolutionDescription" value="Aumenta la reducción de daño invulnerable de las unidades del Caos aliadas adyacentes."/>
+ 	<entry name="ChaosSpaceMarines/DeferredAbsolutionFlavor" value="Las figuras inclinadas de los Discípulos Oscuros gritan incesantemente los nombres de los Dioses del Caos, pidiendo su protección. Como siempre volubles, los Dioses tienden a bendecir a los que están cerca, dejando a los desesperados Discípulos tan frágiles como siempre."/>
+ 	<entry name="ChaosSpaceMarines/ExaltedStrike" value="Golpe glorioso"/>
+	<entry name="ChaosSpaceMarines/ExaltedStrikeDescription" value="Realiza un devastador ataque con un Martillo de Trueno contra la unidad enemiga objetivo con menos del 50% de puntos de vida."/>
+ 	<entry name="ChaosSpaceMarines/ExaltedStrikeFlavor" value="Enfrentarse a un Señor del Caos en la batalla no es solo enfrentar a un Adeptus Astartes de élite, o un veterano de diez mil años de guerra—es enfrentares a aquellos pocos supervivientes, también bendecidos por los dioses. Después de diez milenios, conocen bien la debilidad y cómo explotarla."/>
+ 	<entry name="ChaosSpaceMarines/GiftOfContagion" value="Regalo del contagio"/>
+ 	<entry name="ChaosSpaceMarines/GiftOfContagionDescription" value="Provoca daño a la unidad de infantería o criatura monstruosa enemiga objetivo."/>
+ 	<entry name="ChaosSpaceMarines/GiftOfContagionFlavor" value="El psíquico extiende nubes de contagio y moscas putrefactas sobre sus enemigos, otorgándoles la bendición del Padre Nurgle."/>
+	<entry name="ChaosSpaceMarines/IchorBlood" value="Sangre de icor"/>
+ 	<entry name="ChaosSpaceMarines/IchorBloodDescription" value="Los enemigos sufren daño cuando hacen daño cuerpo a cuerpo."/>
+ 	<entry name="ChaosSpaceMarines/IchorBloodFlavor" value="No hay sangre en las venas de este campeón, sino icor, bronce fundido, psicodélicos y narcóticos, e incluso pus y otras sustancias dañinas."/>
+ 	<entry name="ChaosSpaceMarines/IconOfDespair" value="Icono de la Desesperación"/>
+ 	<entry name="ChaosSpaceMarines/IconOfDespairDescription" value="Icono del Caos que aumenta la reducción del daño cuerco a cuerpo a unidades con la Marca de Nurgle."/>
+ 	<entry name="ChaosSpaceMarines/IconOfDespairFlavor" value="Este icono está rodeado por un miasma de enfermedades y despesperación, convirtiendo los pensamientos de los enemigos cercanos en imágenes tétricas y penosas acerca de su inevitable muerte."/>
+ 	<entry name="ChaosSpaceMarines/IconOfExcess" value="Icono del Exceso"/>
+ 	<entry name="ChaosSpaceMarines/IconOfExcessDescription" value="Icono del Caos que aumenta la reducción de daño cuerpo a cuerpo a una unidad con la marca de Slaanesh."/>
+ 	<entry name="ChaosSpaceMarines/IconOfExcessFlavor" value="La depravación se agarra a este icono como un dulce aroma, que lanza a los que se encuentran bajo él a participar en una orgía de sensaciones que solo se detiene con la destrucción de sus cuerpos."/>
+ 	<entry name="ChaosSpaceMarines/IconOfFlame" value="Icono de la Llama"/>
+ 	<entry name="ChaosSpaceMarines/IconOfFlameDescription" value="Icono del Caos que otorga “los ataques hacen daño abrasaalmas cada turno” a una unidad con la Marca de Tzeentch."/>
+ 	<entry name="ChaosSpaceMarines/IconOfFlameFlavor" value="Calentando energías que rodean al icono, rodeando las llamas de las armas del devoto con llamas."/>
+ 	<entry name="ChaosSpaceMarines/IconOfVengeance" value="Icono de la Venganza"/>
+ 	<entry name="ChaosSpaceMarines/IconOfVengeanceDescription" value="Icono del Caos que da Coraje a cualquier unidad con una marca del Caos."/>
+ 	<entry name="ChaosSpaceMarines/IconOfVengeanceFlavor" value="Estos iconos brillan en la Disformidad, reuniendo las energías maléficas del Caos para aquellos que los portan y lanzándolos a actos de bravura suicida en su lucha por la victoria sobre los esclavos del Emperador-Cadáver."/>
+ 	<entry name="ChaosSpaceMarines/IconOfWrath" value="Icono de la Ira"/>
+ 	<entry name="ChaosSpaceMarines/IconOfWrathDescription" value="Icono del Caos que aumenta el daño de una unidad con la Marca de Khorne."/>
+ 	<entry name="ChaosSpaceMarines/IconOfWrathFlavor" value="Las maldiciones del Dios de la Sangre resuenan en las mentes de aquellos bajo la sombra de este icono, lanzándoles a lanzarse al combate sin preocupaciones ni miedo."/>
+ 	<entry name="ChaosSpaceMarines/Incursion" value="Incursión"/>
+ 	<entry name="ChaosSpaceMarines/IncursionDescription" value="Convocar a un demonio aleatorio temporalmente."/>
+ 	<entry name="ChaosSpaceMarines/IncursionFlavor" value="El psíquico abre un portal al Reino del Caos, que permite la llegada de demonios al plano de la realidad."/>
+ 	<entry name="ChaosSpaceMarines/InfernalPower" value="Poder infernal"/>
+ 	<entry name="ChaosSpaceMarines/InfernalPowerDescription" value="Aumenta la puntería y el daño de las unidades del Caos aliadas adyacentes."/>
+ 	<entry name="ChaosSpaceMarines/InfernalPowerFlavor" value="El poder de la Inmaterialidad del Caos fluye por el psíquico, lanzando demonios que residen en los cuerpos de los seguidores."/>
+	<entry name="ChaosSpaceMarines/LoathsomeAura" value="Aura Repugnante"/>
+	<entry name="ChaosSpaceMarines/LoathsomeAuraDescription" value="Aumenta la reducción de daño invulnerable de las unidades aliadas del Caos adyacentes."/>
+	<entry name="ChaosSpaceMarines/LoathsomeAuraFlavor" value="Una construcción brutal, erigida para desestabilizar la realidad local por las fuerzas del Caos, la Corona Noctilith atrae a la Disformidad más cerca, aumentando el poder de aquellos afines a los Dioses Oscuros."/>
+	<entry name="ChaosSpaceMarines/MalevolentLocus" value="Epicentro Malévolo"/>
+	<entry name="ChaosSpaceMarines/MalevolentLocusDescription" value="Daña, dentro del rango y cada turno, a los Psíquicos que no sean del Caos."/>
+	<entry name="ChaosSpaceMarines/MalevolentLocusFlavor" value="Gracias a esta retorcida construcción, los susurros de la Disformidad son ampliados, asaltando constantemente las mentes de los psíquicos enemigos. Pocos salen indemnes de la prueba."/>
+ 	<entry name="ChaosSpaceMarines/MarkOfKhorne" value="Marca de Khorne"/>
+ 	<entry name="ChaosSpaceMarines/MarkOfKhorneDescription" value="Marca del Caos que aumenta los ataques de una unidad de infantería del Caos no psíquica aliada."/>
+ 	<entry name="ChaosSpaceMarines/MarkOfKhorneFlavor" value="La marca de Khorne es dada solo a aquellos cuyo odio y furia agradan al Dios de la Sangre. A estos seguidores, Khorne otorga una furia sacrílega que arde como las estrellas."/>
+ 	<entry name="ChaosSpaceMarines/MarkOfNurgle" value="Marca de Nurgle"/>
+ 	<entry name="ChaosSpaceMarines/MarkOfNurgleDescription" value="Marca del Caos que aumenta los puntos de vida de una unidad de infantería del Caos aliada."/>
+ 	<entry name="ChaosSpaceMarines/MarkOfNurgleFlavor" value="Las bendiciones de Nurgle no solo aparecen como enfermedades y plagas, sino también la constitución inhumana necesaria para sobrevivir."/>
+ 	<entry name="ChaosSpaceMarines/MarkOfSlaanesh" value="Marca de Slaanesh."/>
+ 	<entry name="ChaosSpaceMarines/MarkOfSlaaneshDescription" value="Marca del Caos que aumenta el movimiento de una unidad de infantería del Caos aliada."/>
+ 	<entry name="ChaosSpaceMarines/MarkOfSlaaneshFlavor" value="Los devotos a Slaanesh tienen sus sentidos y reacciones aumentados, mejor para beber el exceso de los estímulos de un campo de batalla. Un buen guerrero, pues, se mueve con gracia y rapidez, su espada azotando como la lengua de una serpiente mientras disfruta de la masacre."/>
+	<entry name="ChaosSpaceMarines/MarkOfTzeentch" value="Marca de Tzeentch"/>
+ 	<entry name="ChaosSpaceMarines/MarkOfTzeentchDescription" value="Marca del Caos que aumenta la reducción de daño invulnerable de una unidad de infantería del Caos aliada."/>
+ 	<entry name="ChaosSpaceMarines/MarkOfTzeentchFlavor" value="Aquellos dedicados a Tzeentch disfrutan de la protección y precognición del Maestro de la Manipulación."/>
+ 	<entry name="ChaosSpaceMarines/MasterOfMechanisms" value="Señor de los Mecanismos."/>
+ 	<entry name="ChaosSpaceMarines/MasterOfMechanismsDescription" value="Restaura los puntos de vida de un vehículo o fortificación aliados."/>
+ 	<entry name="ChaosSpaceMarines/MasterOfMechanismsFlavor" value="A pesar de sus increíbles armas, solo un loco seguidor de Khorne lanzaría a un Herrero de la Disformidad a la batalla, cuando estaría mejor reparando y reconstruyendo los lazos de unión de los Ingenios Demoníacos."/> <!-- Warpsmith levelable ability. -->
+ 	<entry name="ChaosSpaceMarines/Mechatendrils" value="Mechatentáculos"/>
+ 	<entry name="ChaosSpaceMarines/MechatendrilsFlavor" value="Recordando al servoarnés de los Tecnomarines del Adeptus Astartes, estos tentáculos, a veces implantados en el cuerpo del Herrero, le dan ese aspecto fiero."/> <!-- Warpsmith levelable ability. -->
+ 	<entry name="ChaosSpaceMarines/CultistSacrifice" value="Sacrificio de cultistas"/>
+ 	<entry name="ChaosSpaceMarines/CultistSacrificeDescription" value="Incrementa el crecimiento de la ciudad de Marines Espaciales del Caos seleccionada sacrificando cultistas."/>
+ 	<entry name="ChaosSpaceMarines/CultistSacrificeFlavor" value="Tan fervientes son los cultistas, y a la vez tan débiles en el combate, que los Dioses Oscuros disfrutan de su muerte más que su vida incluso, o esa impresión da al ver las bendiciones que dan tras el sacrificio."/>
+ 	<entry name="ChaosSpaceMarines/Daemonforge" value="Forja demoníaca"/>
+ 	<entry name="ChaosSpaceMarines/DaemonforgeDescription" value="Sacrifica puntos de vida para aumentar el daño y la penetración de armadura."/>
+ 	<entry name="ChaosSpaceMarines/DaemonforgeFlavor" value="Los Ingenios Demoníacos de los marines caídos son dirigidos por el odio sin fondo de la Disformidad."/>
+ 	<entry name="ChaosSpaceMarines/DirgeCaster" value="Altavoz de letanía fúnebre"/>
+ 	<entry name="ChaosSpaceMarines/DirgeCasterDescription" value="Evita que las unidades adyacentes enemigas hagan ataques defensivos."/>
+ 	<entry name="ChaosSpaceMarines/DirgeCasterFlavor" value="Este aparato emite gritos terribles, gruñidos y otros sonidos que confunden y desmoralizan al enemigo que los oyen."/>
+ 	<entry name="ChaosSpaceMarines/InfernalIndustry" value="Industria infernal"/>
+ 	<entry name="ChaosSpaceMarines/InfernalIndustryDescription" value="Aumenta la energía y la producción de metales."/>
+ 	<entry name="ChaosSpaceMarines/InfernalIndustryFlavor" value="Un Herrero de la Disformidad es un maestro de la tecnología, sin restricciones históricas o éticas como las de los miembros del Mechanicum. Si pueden aumentar la funcionalidad de un edificio por unos cuantos cientos de vidas, lo harán."/> <!-- Warpsmith levelable ability. -->
+ 	<entry name="ChaosSpaceMarines/LasherTendrils" value="Zarcillos desgarradores"/>
+ 	<entry name="ChaosSpaceMarines/LasherTendrilsDescription" value="Disminuye los ataques cuerpo a cuerpo de unidades adyacentes."/>
+ 	<entry name="ChaosSpaceMarines/LasherTendrilsFlavor" value="Estos tentáculos metálicos atrapan a su presa en sus garras de hierro."/>
+ 	<entry name="ChaosSpaceMarines/Possession" value="Posesión"/>
+ 	<entry name="ChaosSpaceMarines/PossessionDescription" value="Matar a las unidades enemigas las convierte en Engendros del Caos aliadas."/>
+ 	<entry name="ChaosSpaceMarines/PossessionFlavor" value="El psíquico golpea el alma de su enemigo para que su cuerpo sin espíritu sea poseído por demonios, que rápidamente les dan una nueva forma."/>
+	<entry name="ChaosSpaceMarines/PrinceOfChaos" value="Príncipe del Caos"/>
+	<entry name="ChaosSpaceMarines/PrinceOfChaosDescription" value="Aumenta la puntería de las unidades aliadas del Caos adyacentes."/>
+	<entry name="ChaosSpaceMarines/PrinceOfChaosFlavor" value="Hay pocas cosas más inspiradoras para un guerrero del Caos que ver a un Príncipe Demonio—antes un mortal igual que ellos, ahora más cerca de ser un Dios—luchando a su lado."/>
+ 	<entry name="ChaosSpaceMarines/ReservoirOfDaemonicEnergy" value="Reservas de Energías Demoníacas"/>
+ 	<entry name="ChaosSpaceMarines/ReservoirOfDaemonicEnergyDescription" value="Reduce el tiempo de espera de Incursión para los Maestros de Posesión aliados adyacentes."/>
+ 	<entry name="ChaosSpaceMarines/ReservoirOfDaemonicEnergyFlavor" value="Los venomcrawlers son únicos y son valiosos tanto en el combate como fuera de él. No solo son reservas de energía de la disformidad que pueden emplearse en nuevos Ingenios Demoníacos, pero también se pueden usar en combate para destruir el tejido de la realidad. Los Maestros de la Posesión son especialmente Buenos extrayendo estas energías y usándolas para atraer demonios del Caos. Al final de la batalla, estos demonios son consumidos por los Venomcrawler, sus esencias recargarán su maquinaria."/>
+ 	<entry name="ChaosSpaceMarines/RiteOfBlood" value="Rito de Sangre"/>
+ 	<entry name="ChaosSpaceMarines/RiteOfBloodDescription" value="Sacrifica población a Khorne para aumentar la producción de las unidades en la ciudad."/>
+ 	<entry name="ChaosSpaceMarines/RiteOfBloodFlavor" value="Khorne puede tener otros rasgos, como cierta nobleza y la simplicidad de la guerra, pero su deseo por la sangre los supera. Los ritos en su nombre traen no solo bendiciones, sino que también aumentan las tasas de trabajo de los esclavos, debido al terror de que ellos podrían ser los siguientes."/>
+ 	<entry name="ChaosSpaceMarines/RiteOfChange" value="Rito del Cambio"/>
+ 	<entry name="ChaosSpaceMarines/RiteOfChangeDescription" value="Sacrifica población a Tzeentch para aumentar la producción de las Forjas de Disformidad y la investigación de los Archivos de Caminos en la ciudad."/>
+ 	<entry name="ChaosSpaceMarines/RiteOfChangeFlavor" value="Invocar el nombre de los Cambiadores es peligroso, pocos saben qué harían para avanzar sus planes o las maldiciones que podrían traer consigo. Tras un Rito del Cambio algunos cambian, otros desaparecen, otros son atrapados en vida en las murallas de la ciudad… pero siempre se aprende algo."/>
+	<entry name="ChaosSpaceMarines/RiteOfPestilence" value="Rito de la Pestilencia"/>
+ 	<entry name="ChaosSpaceMarines/RiteOfPestilenceDescription" value="Sacrifica población a Nurgle para aumentar la producción de comida de los Aceradores y la tasa de crecimiento de la ciudad."/>
+ 	<entry name="ChaosSpaceMarines/RiteOfPestilenceFlavor" value="Un rito de Pestilencia no hace sacrificios explícitos a Nurgle, simplemente solicita sus bendiciones para tus gentes. Dada la virulencia de las enfermedades de Nurgle, muchos morirán por ellas, en su nombre. Otros muchos vivirán y se reproducirán con fecundidad enfermiza."/>
+ 	<entry name="ChaosSpaceMarines/RiteOfUnholyPleasure" value="Rito del Placer sacrílego"/>
+ 	<entry name="ChaosSpaceMarines/RiteOfUnholyPleasureDescription" value="Sacrifica población a Slaanesh para aumentar la producción de influencia de los Altares del Caos y la producción de lealtad de los Prados del Pesar en la ciudad."/>
+ 	<entry name="ChaosSpaceMarines/RiteOfUnholyPleasureFlavor" value="Tapar los oídos con cera, coser tu boca y tus ojos, colgarse bocaabajo… Solo así invoca a Slaanesh, para no sucumbir completamente al poder y los deseos del Dios del Placer."/>
+ 	<entry name="ChaosSpaceMarines/Sacrifice" value="Sacrificio"/>
+ 	<entry name="ChaosSpaceMarines/SacrificeDescription" value="Pierde puntos de vida para restaurar los de una unidad aliada objetivo."/>
+ 	<entry name="ChaosSpaceMarines/SacrificeFlavor" value="El psíquico usa un alma sacrificada para reparar una forma demoníaca. Los espíritus impíos de los Herreros son especialmente deliciosos para los Ingenios Demoníacos bajo su mando."/>
+ 	<entry name="ChaosSpaceMarines/SelfRepair" value="Auto-reparar"/>
+ 	<entry name="ChaosSpaceMarines/SelfRepairDescription" value="Restaura los puntos de vida."/>
+ 	<entry name="ChaosSpaceMarines/SelfRepairFlavor" value="El espíritu-máquina de las Legiones Traidoras hace tiempo que llegaron a la desesperación o que se vieron corrompidos por demonios pero aquellos vehículos supervivientes ahora pueden regenerarse que une el metal maldito para poder continuar matando en el nombre de los Dioses."/> <!-- Chaos Rhino -->
+ 	<entry name="ChaosSpaceMarines/ShatterDefences" value="Machacar defensas"/>
+ 	<entry name="ChaosSpaceMarines/ShatterDefencesDescription" value="Reduce la reducción del daño a distancia de la casilla seleccionada."/>
+ 	<entry name="ChaosSpaceMarines/ShatterDefencesFlavor" value="Cualquier cobertura tras la que se esconda un enemigo, un Herrero de la Disformidad puede sacar lecciones valiosas de sus milenios de experiencia y así saber cómo destruir las defensas o evitarlas."/> <!-- Warpsmith levelable ability. -->
+ 	<entry name="ChaosSpaceMarines/WarpflameStrike" value="Golpe de llamas de la disformidad"/>
+ 	<entry name="ChaosSpaceMarines/WarpflameStrikeDescription" value="Vuela sobre los obstáculos hasta la casilla objetivo y ciega a la infantería enemiga y a las criaturas monstruosas."/>
+ 	<entry name="ChaosSpaceMarines/WarpflameStrikeFlavor" value="A pesar de que la lesión que hacen en el tejido de la realidad se cierra rápidamente, el daño mental debido de la naturaleza de sus ataques aturden a las presas. Estos momentos de duda son fatales, pues los Talones de la Disformidad y sus garras destrozan los cuerpos de sus enemigos."/>
+ 	<entry name="ChaosSpaceMarines/WorthyOffering" value="Ofrenda adecuada"/>
+ 	<entry name="ChaosSpaceMarines/WorthyOfferingDescription" value="Aumenta las oportunidades de que los Campeones del Caos adyacentes reciban bendiciones del caos."/>
+ 	<entry name="ChaosSpaceMarines/WorthyOfferingFlavor" value="Tener los ojos de los Dioses sobre ti significa que todos los que te rodean están bajo mayor escrutinio—si esto les convierte en engendros o príncipes demonios, depende de cómo de bien cumplan con sus funciones bajo la mirada de los Dioses."/> <!-- Chaos Lord levelable ability. -->
+	<entry name="CleansingFlame" value="<string name='Weapons/CleansingFlame'/>"/>
+	<entry name="CleansingFlameFlavor" value="<string name='Weapons/CleansingFlameFlavor'/>"/>
+	<entry name="ClearTile" value="Despejar la casilla"/>
+	<entry name="ClearTileDescription" value="Restaura la casilla a su estado normal y la limpia de hierba de alambre, lugares sagrados, ruinas imperiales y bosques, de una en una."/>
+	<entry name="ClusterMines" value="<string name='Weapons/ClusterMines'/>"/>
+	<entry name="ClusterMinesDescription" value="Coloca minas de racimo en la casilla adyacente objetivo para ralentizar y dañar a los enemigos."/>
+	<entry name="ClusterMinesFlavor" value="<string name='Weapons/ClusterMinesFlavor'/>"/>
+	<entry name="ConstructBuilding" value="Construir %1%"/>
+	<entry name="ConstructBuildingHint" value="<style name='Title'/>Construir %1%%2%<style name='Default'/><br/>%3%%4%%5%%6%%7%%8%<style name='Italic'/>%9%"/>
+	<entry name="ConstructFeature" value="Construir %1%"/>
+	<entry name="ConstructFeatureHint" value="<style name='Title'/>Construir %1%%2%<style name='Default'/><br/>%3%%4%%5%%6%%7%%8%<style name='Italic'/>%9%"/>
+	<entry name="ConstructImperialStrongpoint" value="Construye <string name='Units/AstraMilitarum/ImperialStrongpoint'/>"/>
+	<entry name="ConstructImperialStrongpointDescription" value="<string name='Units/AstraMilitarum/ImperialStrongpointDescription'/>"/>
+	<entry name="ConstructImperialStrongpointFlavor" value="<string name='Units/AstraMilitarum/ImperialStrongpointFlavor'/>"/>
+	<entry name="ConstructFortification" value="Construir %1%"/>
+	<entry name="ConstructFortificationHint" value="<style name='Title'/>Construir %1%%2%<style name='Default'/><br/>%3%%4%%5%%6%%7%%8%<style name='Italic'/>%9%"/>
+	<entry name="ConstructGaussPylon" value="Construir <string name='Units/Necrons/GaussPylon'/>"/>
+	<entry name="ConstructGaussPylonDescription" value="<string name='Units/Necrons/GaussPylonDescription'/>"/>
+	<entry name="ConstructGaussPylonFlavor" value="<string name='Units/Necrons/GaussPylonFlavor'/>"/>
+	<entry name="ConstructNoctilithCrown" value="Construir <string name='Units/ChaosSpaceMarines/NoctilithCrown'/>"/>
+	<entry name="ConstructNoctilithCrownDescription" value="<string name='Units/ChaosSpaceMarines/NoctilithCrownDescription'/>"/>
+	<entry name="ConstructNoctilithCrownFlavor" value="<string name='Units/ChaosSpaceMarines/NoctilithCrownFlavor'/>"/>
+	<entry name="ConstructTidewallGunrig" value="Construct <string name='Units/Tau/TidewallGunrig'/>"/>
+	<entry name="ConstructTidewallGunrigDescription" value="<string name='Units/Tau/TidewallGunrigDescription'/>"/>
+	<entry name="ConstructTidewallGunrigFlavor" value="<string name='Units/Tau/TidewallGunrigFlavor'/>"/>
+	<entry name="ConstructVoidShieldGenerator" value="Construir <string name='Units/AstraMilitarum/VoidShieldGenerator'/>"/>
+	<entry name="ConstructVoidShieldGeneratorDescription" value="<string name='Units/AstraMilitarum/VoidShieldGeneratorDescription'/>"/>
+	<entry name="ConstructVoidShieldGeneratorFlavor" value="<string name='Units/AstraMilitarum/VoidShieldGeneratorFlavor'/>"/>
+	<entry name="ConstructPlayerAction" value="Construir %1%"/>
+	<entry name="ConstructPlayerActionHint" value="<style name='Title'/>Construir %1%%2%<style name='Default'/><br/>%3%%4%%5%%6%%7%%8%<style name='Italic'/>%9%"/>
+	<entry name="CreateSmokeScreen" value="Crear una pantalla de humo"/>
+	<entry name="CreateSmokeScreenDescription" value="Aumenta la reducción de daño por ataques a distancia en la casilla objetivo."/>
+	<entry name="CreateSmokeScreenFlavor" value="Algunos vehículos tienen pequeñas lanzadoras montadas en ellos que llevan botes de humo. Éstos se utilizan para oscurecer temporalmente al vehículo detrás de nubes de humo, permitiéndole cruzar áreas abiertas con mayor seguridad—aunque lo hace a costa de poder disparar sus propias armas."/>
+	<entry name="CycleWeapon" value="Cambiar Arma"/>
+ 	<entry name="CycleWeaponDescription" value="Cambiar entre las armas activas."/>
+ 	<entry name="CycleWeaponOnUse" value="Cambiar de arma después de usar"/>
+ 	<entry name="CycleWeaponOnUseDescription" value="Cambia automáticamente de arma después de utilizarla."/>
+	<entry name="DeedsOfGlory" value="Gestas de Gloria"/>
+	<entry name="DeedsOfGloryDescription" value="Al ganar experiencia en combate, el Capítulo gana influencia."/>
+	<entry name="DeedsOfGloryFlavor" value="“El deber de un capitán es anteponer la vida de un legionario a la suya. Hay muy poca gloria en la galaxia para todos y los oficiales deben ser generosos en la confianza que depositan en los demás—porque un día tales hermanos también deben ser capitanes.”<br/>  — Rouboute Guilliman, Primarca de los Ultramarines, Comandante General y Regente Imperial"/>
+	<entry name="DeployCity" value="Desplegar la Ciudad"/>
+	<entry name="DeployCityDescription" value="Operación que despliega la ciudad en la casilla de destino.<br/><br/>Las ciudades solo se pueden ubicar a una distancia de %1% casillas de otra ciudad."/>
+	<entry name="DeployFortress" value="<string name='Actions/DeployUnit'/>"/>
+	<entry name="DeployFortressHint" value="<string name='Actions/DeployUnitHint'/>"/>
+	<entry name="DeployUnit" value="Desplegar %1%"/>
+	<entry name="DeployUnitHint" value="<style name='Title'/>Desplegar %1%%2%<style name='Default'/><br/>%3%%4%%5%%6%%7%%8%<style name='Italic'/>%9%"/>
+	<entry name="DevastatorDoctrine" value="Desplegar Doctrina Devastadora"/>
+	<entry name="DevastatorDoctrineDescription" value="Capítulo táctico que incrementa la puntería de los Marines Espaciales Devastadores y los Devastadores Centurión."/>
+	<entry name="DevastatorDoctrineFlavor" value="“La victoria a menudo depende de que el armamento correcto esté en el lugar correcto y en el momento correcto. Incluso las armas de guerra más destructivas no valen nada si están ausentes de la batalla.”<br/>  — Artor Amhrad, Señor del Capítulo de los Caballeros Astrales"/>
+	<entry name="Disappear" value="Desaparecer"/>
+	<entry name="Disband" value="Disolver"/>
+	<entry name="DisbandDescription" value="Disuelve la unidad."/>
+	<!-- <entry name="DisbandDescription" value="25%% of unit's <icon texture='Resources/Credits'/> credits value received if disbanded in allied territory."/>
+	<entry name="DisbandProperties" value="x1x <icon texture='Resources/Credits'/> credits received if disbanded here."/> -->
+	<entry name="DispenseChaff" value="Disparar señuelo"/>
+	<entry name="DispenseChaffDescription" value="Aumenta la reducción de daño."/>
+	<entry name="DispenseChaffFlavor" value="Desde los primeros días del combate aéreo, se ha utilizado algún tipo de material ligero para distraer a los pilotos enemigos. Los señuelos de hoy sería irreconocible para los primeros aviadores, pero su eficacia contra las contramedidas modernas es más o menos la misma."/>
+	<entry name="DogmaAstrates" value="Dogma Astartes"/>
+	<entry name="DogmaAstratesDescription" value="Aumenta la producción de lealtad de las ciudades-fortaleza."/>
+	<entry name="DogmaAstratesFlavor" value="Los Capellanes de los Marines Espaciales son sombríos guardianes espirituales, cuyo primer deber es estar siempre atentos a los peligros del orgullo, la duda y la herejía. Los Capellanes, que intimidan incluso a sus propios hermanos, confían en el dogma y la liturgia para evitar la corrupción espiritual de sus hermanos."/>
+	<entry name="Dominate" value="Dominar"/>
+	<entry name="DominateDescription" value="Impide actuar a la infantería o criatura monstruosa enemiga objetivo."/>
+	<entry name="DominateFlavor" value="El psíquico llega a la mente de su enemigo, atando su alma y aplastando su voluntad de luchar."/>
+	<entry name="Eldar/ActivateWebwayGate" value="Activar puerta a la Telaraña"/>
+	<entry name="Eldar/ActivateWebwayGateDescription" value="Activa y reclama una puerta neutral a la Telaraña."/>
+	<entry name="Eldar/ActivateWebwayGateFlavor" value="La Telaraña fue una vez la columna vertebral del Imperio Aeldari-túneles construidos a través de la Disformidad en la época de los Antiguos que conectaban sus sistemas de núcleo dorado con los Mundos Vírgenes. Ahora esos sistemas centrales son los Mundos Ancestrales del Caos y la Telaraña está hecha pedazos-pero no en Gladius Prime…"/>
+	<entry name="Eldar/AutarchsAssault" value="Asalto del Autarca"/>
+	<entry name="Eldar/AutarchsAssaultDescription" value="Las muertes por el Autarca aumentan el daño de las unidades mundo astronave Aeldari aliadas en el área."/>
+	<entry name="Eldar/AutarchsAssaultFlavor" value="El Autarca es el maestro de la guerra, habiendo vivido muchas vidas en el templo de la senda Aeldari. Cada uno de sus hábiles ataques es tanto una inspiración para otros Aeldari como una lección de cómo conducir la guerra de la manera más efectiva."/>
+	<entry name="Eldar/AsuryaniArrivals" value="Llegada de los Asuryani"/>
+	<entry name="Eldar/AsuryaniArrivalsDescription" value="Aumenta la tasa de crecimiento."/>
+	<entry name="Eldar/AsuryaniArrivalsFlavor" value="A una palabra del comandante Farseer, una misiva psíquica es enviada a través de la Telaraña, a los mundos astronave, planetas exoditas y exploradores itinerantes, solicitando apoyo en este crítico esfuerzo. Aunque la raza Aeldari está muriendo, morirán luchando-y llegan a Gladius para morir allí."/>
+	<entry name="Eldar/Command" value="Estratega"/>
+	<entry name="Eldar/CommandDescription" value="Aumenta la puntería de las unidades mundo astronave Aeldari aliadas en el área."/>
+	<entry name="Eldar/CommandFlavor" value="Los Autarcas siguen el camino del estratega, e incluyo son Exarcas de los templos de la senda les dan deferencia. Un Autarca personalmente coordina el fuego de su ejército, con hábiles señales y comunicaciones, combinando la potencia de fuego y el movimiento para atraer a los enemigos a ingeniosas trampas mortales."/>
+	<entry name="Eldar/CrystalTargetingMatrix" value="Matriz de puntería cristalina"/>
+	<entry name="Eldar/CrystalTargetingMatrixDescription" value="Aumenta la puntería."/>
+	<entry name="Eldar/CrystalTargetingMatrixFlavor" value="Utilizando tecnologías avanzadas de escaneo, esta matriz de objetivos permite fijar el disparo incluso en movimiento."/>
+	<entry name="Eldar/DestructorRenewer" value="Renovar / Destruir"/>
+	<entry name="Eldar/DestructorRenewerDescription" value="Restaura los puntos de vida de la unidad objetivo aliada o daña la unidad objetivo enemiga."/>
+	<entry name="Eldar/DestructorRenewerFlavor" value="Concentrando una porción de su poder psíquico, el guardián de las almas envía ondas de energía para destruir a sus enemigos en un estallido de llamas azules--o, si es necesario, curar las heridas de sus aliados."/>
+	<entry name="Eldar/Doom" value="Destino"/>
+	<entry name="Eldar/DoomDescription" value="Aumenta el daño sufrido por la unidad enemiga objetivo."/>
+	<entry name="Eldar/DoomFlavor" value="Con una simple manipulación de lo que está por venir, el Vidente concede un oscuro destino a un enemigo elegido. Mientras esta sombra descansa sobre el alma del enemigo, la muerte lo busca por encima de todos los demás, cada golpe o disparo que se le da es ineludiblemente letal."/>
+	<entry name="Eldar/EmboldenHorrify" value="Inspirar / Aterrar"/>
+	<entry name="Eldar/EmboldenHorrifyDescription" value="Restaura la moral de la unidad aliada objetivo o disminuye la moral de la unidad enemiga objetivo."/>
+	<entry name="Eldar/EmboldenHorrifyFlavor" value="El guardián de las almas clama el esplendor de la batalla, inculcando el valor en sus aliados o el desánimo en sus enemigos."/>
+	<entry name="Eldar/KhaineAwakened" value="Despertar de Khaine"/>
+	<entry name="Eldar/KhaineAwakenedDescription" value="Aumentar los ataques y el daño cuerpo a cuerpo, disminuye la perdida de moral y concede inmunidad al miedo y a quedar clavado a las unidades aliadas Aeldari adyacentes."/>
+	<entry name="Eldar/KhaineAwakenedFlavor" value="Como la Maldición Aullante clama por sangre y el Avatar se despierta para la guerra, así también los cercanos Aeldari son conducidos a mayores acciones en su nombre. No temiendo nada, se lanzan a la batalla cuerpo a cuerpo enloquecidos."/>
+	<entry name="Eldar/KhainesMight" value="El poder de Khaine"/>
+	<entry name="Eldar/KhainesMightDescription" value="Aumenta los ataques del Autarca."/>
+	<entry name="Eldar/KhainesMightFlavor" value="Un Autarca domina todos los templos exarca y ha aprendido algo de todos ellos. Pocas criaturas mortales pueden enfrentarse a la habilidad de un Autarca cuando se les da rienda suelta."/>
+	<entry name="Eldar/LinkedFire" value="Grito de Guerra"/>
+	<entry name="Eldar/LinkedFireDescription" value="Aumenta el daño y la penetración de blindaje del cañon prima del Prisma aliado objetivo."/>
+	<entry name="Eldar/LinkedFireFlavor" value="El inusual diseño del cañón de prisma del Prisma le permite concentrar su ya de por sí intenso haz en otro Prisma, uniendo la potencia de fuego de ambas máquinas en un único disparo."/>
+	<entry name="Eldar/MindWar" value="Ataque Mental"/>
+	<entry name="Eldar/MindWarDescription" value="Reduce la puntería de la unidad enemiga objetivo. Daña en base a la diferencia de moral entre el Vidente y la unidad objetivo."/>
+	<entry name="Eldar/MindWarFlavor" value="El Vidente se extiende para atacar la mente de un enemigo en un desesperado duelo mental. Los enemigos encuentran sus pensamientos invadidos por la aplastante presencia del Vidente, su antigua e inescrutable voluntad extinguiendo su personalidad con una facilidad horrorosa, desencadenando una cascada de traumas psicosomáticos."/>
+	<entry name="Eldar/ProtectJinx" value="Proteger / Maldecir"/>
+	<entry name="Eldar/ProtectJinxDescription" value="Aumenta el blindaje de la unidad aliada objetivo o disminuye el blindaje de la unidad enemiga objetivo."/>
+	<entry name="Eldar/ProtectJinxFlavor" value="Encadenado con runas de poder, el destino mismo está sometido a la voluntad del guardián de almas."/>
+	<entry name="Eldar/ReturnOfTheAeldari" value="Retorno de los Aeldari"/>
+	<entry name="Eldar/ReturnOfTheAeldariDescription" value="Aumenta la cantidad fija de recursos obtenidos por los puestos avanzados."/>
+	<entry name="Eldar/ReturnOfTheAeldariFlavor" value="Tras la desaparición de los Antiguos, los Aeldari gobernaron este planeta durante millones de años. Ellos entienden mejor que nadie cómo cultivar y acceder a sus recursos únicos."/>
+	<entry name="Eldar/SpiritMark" value="Marca Espiritual"/>
+	<entry name="Eldar/SpiritMarkDescription" value="Aumenta la puntería de los Filo Espectrales y los Caballeros Espectrales aliados."/>
+	<entry name="Eldar/SpiritMarkFlavor" value="La presencia del Avatar estimula a los muertos de forma distinta a los vivos. Mientras estos últimos están llenos de la ira incandescente de Khaine, esas máquinas tripuladas por cristales espirituales en cambio ven como es eleva su conciencia desde su sonambulismo habitual, permitiéndoles enfocarse mejor en sus objetivos."/>
+	<entry name="Eldar/TranscendentBliss" value="Dicha trascendental"/>
+	<entry name="Eldar/TranscendentBlissDescription" value="Aumenta la lealtad."/>
+	<entry name="Eldar/TranscendentBlissFlavor" value="La vida de un Aeldari es infinitamente más rica que la de un humano, dada su tremenda sensibilidad, intelecto e intensidad de sentimiento—y a veces se necesitan momentos compartidos de esa dicha para recordar a los Aeldari por lo que están luchando en este oscuro universo."/>
+	<entry name="Eldar/VectorDancer" value="Pilotaje Vectorial"/>
+	<entry name="Eldar/VectorDancerDescription" value="Aumenta el blindaje contra ataques a distancia."/>
+	<entry name="Eldar/VectorDancerFlavor" value="Algunas aeronaves están construidas con vista a su maniobrabilidad."/>
+	<entry name="Eldar/VectoredEngines" value="Turbinas estelares"/>
+	<entry name="Eldar/VectoredEnginesDescription" value="Aumenta el blindaje contra ataques a distancia."/>
+	<entry name="Eldar/VectoredEnginesFlavor" value="Las turbinas estelares permiten al piloto de un vehículo Aeldari cambiar rápidamente su encaramiento, posicionando sus mortíferas armas, o blindaje más fuerte, al frente. A menudo, esto puede suponer la diferencia entre sufrir un daño crítico o recibir un impacto indirecto recibido con encogimiento de hombros."/>
+	<entry name="Eldar/WarShout" value="Disparo de Guerra"/>
+	<entry name="Eldar/WarShoutDescription" value="Reduce la moral de las unidades enemigas adyacentes."/>
+	<entry name="Eldar/WarShoutFlavor" value="En la mitología de Aeldari, los espectros predicen la muerte de los guerreros con su aullido. Los espectros aulladores llevan una máscara especializada que amplifica y convierte sus pensamientos en gritos psíquicos. Mientras sus enemigos están aturdidos, los espectros se acercan, con las espadas de poder listas…"/>
+	<entry name="Eldar/WebwayRedoubt" value="Fundar Reducto de la Telaraña"/>
+	<entry name="Eldar/WebwayRedoubtDescription" value="Funda una ciudad en una puerta de la Telaraña reclamada.<br/><br/>Las ciudades sólo se pueden fundar donde no haya otras ciudades en un radio de %1% casillas. Cada ciudad después de la primera disminuye la lealtad en todas las ciudades en %2%."/>
+	<entry name="Eldar/WebwayRedoubtFlavor" value="Para preservar las antiguas puertas de la Telaraña en Gladius, los Aeldari saben que deben protegerlas. Estos reductos rápidamente construidos proporcionan algunas defensas, aprovechando el poder ilimitado de la Telaraña para devastar a cualquier enemigo lo suficientemente tonto como para aventurarse cerca."/>
+	<entry name="Eldar/WebwayTravel" value="Viaje en la Telaraña"/>
+	<entry name="Eldar/WebwayTravelDescription" value="Viajar de una puerta o reducto de la Telaraña a otro."/>
+	<entry name="Eldar/WebwayTravelFlavor" value="La sub-estructura única de la Telaraña que esconde Gladius Prime permite a los Aeldari viajar rápidamente entre las puertas de entrada dispersas a lo largo planeta—aunque ahora que están activas, las sabias razas enemigas reconocerán su amenaza y las eliminarán a primera vista."/>
+	<entry name="Eldar/WillOfAsuryan" value="La voluntad de Asuryan"/>
+	<entry name="Eldar/WillOfAsuryanDescription" value="Restaura la moral de las unidades aliadas en el área."/>
+	<entry name="Eldar/WillOfAsuryanFlavor" value="El líder de los dioses de Aeldari, Asuryan proporcionó orientación a la creciente raza Aeldari antes de ser consumido por Slaanesh. Los Videntes de Gladius pueden recurrir a su poder para reforzar sus fuerzas, inspirándolos a seguir luchando."/>
+	<entry name="Enfeeble" value="Debilitar"/>
+	<entry name="EnfeebleDescription" value="Reduce el daño y movimiento de la unidad enemiga objetivo."/>
+	<entry name="EnfeebleFlavor" value="A medida que el psíquico canaliza sus poderes, rizos de energía disforme azotan a sus víctimas, cada caricia absorbe fuerza y vitalidad de sus cuerpos."/>
+	<entry name="Enslavement" value="Esclavizar"/>
+	<entry name="EnslavementDescription" value="Toma el control de la unidad enemiga objetivo con baja moral hasta que la unidad esclavizada muera."/>
+	<entry name="EreWeGo" value="¡Allá vamoz!"/>
+	<entry name="EreWeGoDescription" value="Aumenta el movimiento."/>
+	<entry name="EreWeGoFlavor" value="Siempre ansiosos por quedar atrapados en la refriega, los orkos cruzarán el campo de batalla tan rápido como puedan cuando el enemigo aparezca a la vista"/>
+	<entry name="FoundCity" value="Fundar una ciudad"/>
+	<entry name="FoundCityDescription" value="Consume la unidad para fundar una nueva ciudad.<br/><br/>Las ciudades solo pueden ser fundadas donde no haya otras ciudades en un radio de %1% casillas. Cada ciudad posterior a la primera disminuye la lealtad de todas las ciudades en %2%."/>
+	<entry name="FoundCityNecrons" value="Fundar ciudad (Necrones)"/>
+	<entry name="FoundCityNecronsDescription" value="Consume la unidad para fundar una nueva ciudad.<br/><br/>Las ciudades Necrón solo pueden ser fundadas encima de tumbas Necrón y si no hay otras ciudades en un radio de 4 casillas. Cada ciudad posterior a la primera disminuye la lealtad de todas las ciudades en 6."/>
+	<entry name="FullThrottle" value="“¡Acelera a fondo!”"/>
+	<entry name="FullThrottleDescription" value="Otorga movimiento al Comandante de Tanque y a los tanques aliados adyacentes con movimiento aún restante."/>
+	<entry name="FullThrottleFlavor" value="El oficial lidera una gloriosa carga de tanques que aplasta al enemigo bajo sus pisadas."/>
+	<entry name="GateOfInfinity" value="Puerta al infinito"/>
+ 	<entry name="GateOfInfinityDescription" value="Teletransporta a la casilla explorada objetivo."/>
+	<entry name="GateOfInfinityFlavor" value="El psíquico abre un pasillo a través del Immaterium, lo que le permite cruzar grandes distancias en un abrir y cerrar de ojos."/>
+	<entry name="GrabbinKlaw" value="Garra Mekánika"/>
+	<entry name="GrabbinKlawDescription" value="Inmoviliza la unidad de vehículo terrestre enemiga objetivo."/>
+	<entry name="GrabbinKlawFlavor" value="En su búsqueda de Garras de combate cada vez más grandes, Ork Meks de vez en cuando hacen unas que son simplemente demasiado grandes incluso para el jefe más grande o Dreadnought orko. Se montan en vehículos, donde se utilizan para inmovilizar vehículos enemigos o para realizar giros escandalosos con el freno de mano."/>
+	<entry name="GunnersKillOnSight" value="“¡Artilleros, muerte a la vista!”"/>
+	<entry name="GunnersKillOnSightDescription" value="Aumenta los ataques a distancia del Comandante del Tanque y de los tanques aliados adyacentes."/>
+	<entry name="GunnersKillOnSightFlavor" value="El oficial da rienda suelta a sus hombres para desatar fuego discrecional."/>
+	<entry name="Hallucination" value="Alucinación"/>
+	<entry name="HallucinationDescription" value="Disminuye los ataques de la unidad enemiga objetivo."/>
+	<entry name="HallucinationFlavor" value="La paranoia, la confusión y el pánico se agravan hasta un grado debilitante cuando el telépata altera las percepciones de sus enemigos."/>
+	<entry name="HammerOfWrath" value="Martillo de Furia"/>
+	<entry name="HammerOfWrathDescription" value="Aumenta el daño de las armas que no son Bomb."/>
+	<entry name="HammerOfWrathFlavor" value="Muchos guerreros se lanzan de cabeza al combate, buscando aplastar o pisotear al enemigo."/>
+	<entry name="Hammerhand" value="Puño divino"/>
+	<entry name="HammerhandDescription" value="Aumenta el daño cuerpo a cuerpo"/>
+	<entry name="HammerhandFlavor" value="Concentrando el poder de la ira de su mente, el psíquico aumenta la fuerza de sus camaradas hasta el punto de que pueden aplastar la carne y los huesos con un solo golpe."/>
+	<entry name="Heal" value="Mantén la posición hasta que la unidad esté curada"/>
+	<entry name="HealDescription" value="Mantén la posición hasta que la unidad esté completamente curada."/>
+	<entry name="HealingSurge" value="Oleada de curación"/>
+	<entry name="HealingSurgeDescription" value="Restaura los puntos de vida."/>
+	<entry name="HealingSurgeFlavor" value="“No he perdido un brazo, hermano. Esta justo ahí.”<br/>  — Capitán Alessio Cortez, Puños Carmesíes"/>
+	<entry name="HoldFire" value="Alto el fuego"/>
+	<entry name="HoldFireDescription" value="Previene represalias cuando es atacado."/>
+	<entry name="HoldPosition" value="Mantén la posición"/>
+	<entry name="HoldPositionDescription" value="Mantén la posición hasta que seas atacado por una unidad enemiga."/>
+	<entry name="IronWill" value="Voluntad de Hierro"/>
+	<entry name="IronWillDescription" value="Después de morir, el Comisario Mayor vuelve a la vida inmediatamente.."/>
+	<entry name="IronWillFlavor" value="“El dolor es temporal, el Honor es para siempre.”<br/>  — Coronel Comisario Ibram Gaunt, los Primeros y Únicos de Tanith"/>
+	<entry name="Jink" value="Esquivo"/>
+	<entry name="JinkDescription" value="Aumenta la reducción de daño por ataques a distancia en la casilla objetivo, pero reduce la puntería. No puede ser usada si la unidad ha atacado este turno."/>
+	<entry name="JinkFlavor" value="Algunas unidades prefieren la velocidad y la agilidad a la armadura pesada para mantenerse vivas en el campo de batalla, esquivando y saliendo ilesas a través de oleadas de fuego."/>
+	<entry name="JumpPack" value="Propulsor de Salto"/>
+	<entry name="JumpPackDescription" value="Vuela a través de obstáculos hacia la celda objetivo."/>
+	<entry name="JumpPackFlavor" value="Un propulsor de salto permite al portador hacer saltos a través del campo de batalla y hacer vuelos impulsados sobre distancias cortas o hasta la cima de las murallas de la fortaleza."/>
+	<entry name="LevelUp" value="Subir de nivel"/>
+	<entry name="Levitate" value="Levitar"/>
+	<entry name="LevitateDescription" value="Vuela a través de obstáculos hacia la celda objetivo."/>
+	<entry name="LevitateFlavor" value="El psíquico usa sus poderes telequinéticos para lanzarse hacia el cielo, saltando a través del campo de batalla de un solo salto."/>
+	<entry name="MachineEmpathy" value="Desplegar la Empatía Mecánica"/>
+	<entry name="MachineEmpathyDescription" value="Capítulo táctico que recupera los puntos de vida de los vehículos."/>
+	<entry name="MachineEmpathyFlavor" value="“Considere al Depredador. Que tu alma esté armada de Fe, conducida por las sendas de la obediencia que supera todos los obstáculos, y armada con las tres grandes armas del Celo, el Deber y la Pureza.”<br/>  — Oración tradicional Imperial, fuente desconocida"/>
+	<entry name="MediPack" value="Botiquín"/>
+	<entry name="MediPackDescription" value="Recupera los puntos de vida."/>
+	<entry name="MediPackFlavor" value="Los botiquines contienen todos los medicamentos, apósitos y herramientas quirúrgicas necesarias para que un Guardia Imperial herido regrese a la lucha, o para salvar la vida de personal vital."/>
+	<entry name="MeksTools" value="Herramientaz de Mekániko"/>
+	<entry name="MeksToolsDescription" value="Recupera los puntos de vida de los vehículos aliados."/>
+	<entry name="MeksToolsFlavor" value="“¿Tu brazo? No me importa tu brazo! Se me estropeó el camión zogging! No te dijo Wun que te alejaras de Laskannons? Sí, Grot. Pásame el wotsit, el chisme, y el whacker. Y la pintura roja, por supuesto. Estará brillante y nueva en un santiamén.”<br/>  — Skinwab, Evil Sunz Mek."/>
+	<entry name="MindControl" value="Control mental"/>
+	<entry name="MindControlDescription" value="Reduce la moral de las unidades enemigas adyacentes cada turno."/>
+	<entry name="Misfortune" value="Mala suerte"/>
+	<entry name="MisfortuneDescription" value="Aumenta el daño causado a la unidad objetivo enemiga."/>
+	<entry name="MisfortuneFlavor" value="Con un clic de sus dedos, el adivino tuerce el destino para que los golpes de sus discípulos atraviesen los puntos más débiles de la armadura de su oponente."/>
+	<entry name="Move" value="Mover"/>
+	<entry name="Narthecium" value="Narthecium"/>
+ 	<entry name="NartheciumDescription" value="Restaura los puntos de vida de la unidad de infantería o criatura monstruosa aliada objetivo."/>
+	<entry name="NartheciumDescription" value="Concede reducción de daño al Apotecario y a las unidades aliadas adyacentes."/>
+	<entry name="NartheciumFlavor" value="El Narthecium es utilizado por los Apotecarios de los Marines Espaciales para dispensar ayuda médica, incluyendo cirugía compleja en el campo de batalla, a los heridos. El dispositivo montado en la muñeca también alberga un reductor—el mecanismo con el que se recupera la semilla genética de los caídos, asegurando el futuro del Capítulo."/>
+	<entry name="Necrons/BloodyCrusade" value="Cruzada Sangrienta"/>
+	<entry name="Necrons/BloodyCrusadeDescription" value="Aumenta los ataques."/>
+	<entry name="Necrons/BloodyCrusadeFlavor" value="En su deseo de librar el universo de vida orgánica, un Lord Destroyer puede descender a una locura salvaje, lloviendo golpe tras golpe en sus oponentes, más allá de los protocolos de seguridad."/>
+	<entry name="Necrons/Chronometron" value="Cronometrón"/>
+	<entry name="Necrons/ChronometronDescription" value="Aumenta la reducción de daño de las unidades aliadas."/>
+	<entry name="Necrons/ChronometronFlavor" value="Estos dispositivos en forma de ojo proyectan una burbuja de energía que puede alterar el flujo del tiempo en sí mismo, ralentizando la entrada de proyectiles de manera que los que están cerca puedan simplemente apartarse de su camino."/>
+	<entry name="Necrons/DefensiveProtocols" value="Protocolos defensivos"/>
+	<entry name="Necrons/DefensiveProtocolsDescription" value="Aumenta el blindaje del Señor y de la infantería Necrón aliada dentro del alcance."/>
+	<entry name="Necrons/DefensiveProtocolsFlavor" value="Las altas funciones de un Señor Necrón no están dedicadas a contener una personalidad más carismática o una inteligencia feroz; también contienen protocolos de control que les permiten coordinar tropas Necrón cercanas con más detalle, aumentando altamente sus posibilidades de supervivencia."/>
+	<entry name="Necrons/DestructionProtocols" value="Protocolos de destrucción"/>
+	<entry name="Necrons/DestructionProtocolsDescription" value="Aumenta el daño causado a las unidades enemigas adyacentes."/>
+	<entry name="Necrons/DestructionProtocolsFlavor" value="Cuando un Señor Necrón cae ante la maldición del Destructor, abandonan la cautela de sus Protocolos Defensivos, reconfigurando sus caminos engrámicos para aumentar la agresión de sus compañeros, no sus capacidades defensivas."/>
+	<entry name="Necrons/DimensionalCorridor" value="Corredor dimensional"/>
+	<entry name="Necrons/DimensionalCorridorDescription" value="Teletransporta a una casilla adyacente, a una ciudad o a un monolito."/>
+	<entry name="Necrons/DimensionalCorridorFlavor" value="“Y el primero en caminar por el puente de la luz de las estrellas, de incorpóreo a corpóreo, fue Artemorra, a quien el Necrontyr le dio el nombre de 'Mensajero', más tarde cambiado a'Engañador'—con razón.”<br/>  — Inscripción incompleta sobre un Orbe defensivo Jokaero"/>
+	<entry name="Necrons/Dynasty" value="Dinastía"/>
+	<entry name="Necrons/DynastyDescription" value="Aumenta el límite poblacional de las ciudades."/>
+	<entry name="Necrons/DynastyFlavor" value="Es cierto que los más grandes líderes atraen el mayor número de seguidores; o en el caso de los Necrones, los más grandes líderes tienen mayores permisos de seguridad sobre sus unidades de mantenimiento canópticas, permitiendo una mayor densidad de población en una localización dada."/>
+	<entry name="Necrons/FabricatorClawArray" value="Garras de reparación"/>
+	<entry name="Necrons/FabricatorClawArrayDescription" value="Recupera los puntos de vida de los vehículos aliados."/>
+	<entry name="Necrons/FabricatorClawArrayFlavor" value="Esta proliferación de herramientas energéticas que hace clic y zumbido están destinadas principalmente al mantenimiento y a la reparación."/>
+	<entry name="Necrons/GloomPrism" value="Prismas de Penumbra"/>
+	<entry name="Necrons/GloomPrismDescription" value="Aumenta la reducción de daño por fuego brujo a la Araña Canóptica y unidades aliadas adyacentes."/>
+	<entry name="Necrons/GloomPrismFlavor" value="El campo de energía del prisma de penumbra crea una zona rodeada de poderes generados por la Disformidad."/>
+	<entry name="Necrons/GravityPulse" value="Pulso gravitacional"/>
+	<entry name="Necrons/GravityPulseDescription" value="Reduce el movimiento de y además inflige daño a la unidad enemiga adyacente sea aeronave, gravítica y/o a la motocicleta a reacción."/>
+	<entry name="Necrons/JetCharge" value="Carga de la unidad a reacción"/>
+	<entry name="Necrons/JetChargeDescription" value="Otorga reducción de daño y vuela a través de obstáculos a la celda objetivo."/>
+	<entry name="Necrons/JetChargeFlavor" value="En su ira ilimitada, un Señor Destructor Necrón obstinado puede sobrecargar su plataforma gravitacional para moverse cortas distancias extremadamente rápido, aunque con un coste mayor a su cordura."/>
+	<entry name="Necrons/MindshackleScarabs" value="Escarabajos cepomentales"/>
+	<entry name="Necrons/MindshackleScarabsDescription" value="Reduce la moral de la unidad enemiga objetivo."/>
+	<entry name="Necrons/MindshackleScarabsFlavor" value="A la orden del comandante, diminutos escarabajos nervudos excavan el cerebro de su objetivo, anulando las funciones cerebrales y robando a la desafortunada víctima su ingenio."/>
+	<entry name="Necrons/NecrodermisRepair" value="Reparar Necrodermis"/>
+	<entry name="Necrons/NecrodermisRepairDescription" value="Recupera los puntos de vida."/>
+	<entry name="Necrons/NecrodermisRepairFlavor" value="Si un Necrón sólo está ligeramente dañado, su cuerpo metálico vivo puede curarse a sí mismo, haciendo fluir metales de reserva para cubrir defectos y fallas."/>
+	<entry name="Necrons/PhaseShiftGenerator" value="Generador de Alteración Fásica"/>
+	<entry name="Necrons/PhaseShiftGeneratorDescription" value="Aumenta la reducción de daño invulnerable del Pilón Gauss y unidades Necrón aliadas."/>
+	<entry name="Necrons/PhaseShiftGeneratorFlavor" value="Cuando un Pilón Gauss se alza en el terreno, genera una burbuja temporal que altera el flujo del espacio-tiempo local. Los Necrones que se encuentren cerca pueden aprovechar este efecto, saliendo de la realidad fásica para evitar la destrucción."/>
+	<entry name="Necrons/QuantumShielding" value="Escudos cuánticos"/>
+	<entry name="Necrons/QuantumShieldingDescription" value="Aumenta la reducción del daño invulnerable. Cuenta el enfriamiento al comienzo del siguiente turno si recibe daño."/>
+	<entry name="Necrons/QuantumShieldingFlavor" value="El escudo cuántico Necrón es una maravilla de la ciencia, que existe sólo en el momento preciso de la desviación—en todos los demás momentos no hay indicación de su presencia. Sin embargo, son dispositivos temperamentales, propensos a funcionar mal si se sobrecargan."/>
+	<entry name="Necrons/RapidRise" value="Rápido ascenso"/>
+	<entry name="Necrons/RapidRiseDescription" value="Acelera la producción actual."/>
+	<entry name="Necrons/RapidRiseFlavor" value="En tiempos de desesperación, un Señor Necrón puede anular los protocolos de seguridad en la reanimación de las tropas o la reparación de los vehículos, a costa de un fuerte aumento de las pérdidas. Sin embargo, perderá apoyo entre aquellos de la clase dominante que conservan la sensibilidad, horrorizados por el desperdicio de recursos."/>
+	<entry name="Necrons/Reaper" value="Cosechadora"/>
+	<entry name="Necrons/ReaperDescription" value="Aumenta la armadura y la puntería. Las unidades a reacción se recargan cunado el Líder Destructor gana experiencia por el combate."/>
+	<entry name="Necrons/ReaperFlavor" value="Donde los desolladores sufren la maldición de la muerte de Llandu'gor, la locura de los Destructores deriva del destino universal de todos los Necrones—la pérdida de sus almas cuando tomaron cuerpos de metal vivos. En los Destructores, esto los lleva a refinarse más y más, a acercarse a las armas perfectas—curiosamente, así, más cerca de Aza'gorod, el Portador de la Noche, la perdición de toda vida."/>
+	<entry name="Necrons/RepairBarge" value="Barcaza de Reparación"/> <!-- Ghost Ark -->
+	<entry name="Necrons/RepairBargeDescription" value="Restaura los puntos de vida de la unidad de infantería o criatura monstruosa Necrona aliada."/>
+	<entry name="Necrons/RepairBargeFlavor" value="Pueden ser majestuosos, pero estos siniestros vehículos son una amenaza tan grande como el más conocido Monolito. Su papel es apoyar al ejército Necrón, deslizándose por el campo de batalla y arrojando diminutos escarabajos reparadores para poner incluso a los guerreros Necrón más destrozados a punto para el combate, antes de transportarlos de regreso a la refriega."/>
+	<entry name="Necrons/ResurrectionOrb" value="Orbe de Resurrección"/>
+	<entry name="Necrons/ResurrectionOrbDescription" value="Recupera los puntos de vida de la unidad objetivo aliada."/>
+	<entry name="Necrons/ResurrectionOrbFlavor" value="Esta esfera brillante enfoca la energía en los circuitos de regeneración de los Necrones cercanos, mejorando su capacidad de auto-reparación."/>
+	<entry name="Necrons/RoyalGuard" value="Guardia Real"/>
+	<entry name="Necrons/RoyalGuardDescription" value="Convoca Triarcas Pretorianos temporales."/>
+	<entry name="Necrons/RoyalGuardFlavor" value="“He observado la galaxia durante sesenta millones de años. He elevado las civilizaciones a nuestros caminos y las he visto prosperar, desvanecerse y convertirse en mitos. Y sigo creyendo que para existir sin honor, sin leyes—bueno, es mejor no existir.”<br/>  — Eystan, Pretoriano de la Triarca"/>
+	<entry name="Necrons/ScarabHive" value="Colonia de escarabajos"/>
+	<entry name="Necrons/ScarabHiveDescription" value="Convoca escarabajos canópticos."/>
+	<entry name="Necrons/ScarabHiveFlavor" value="<string name='Units/Necrons/CanoptekScarabFlavor'/>"/>
+	<entry name="Necrons/SleepingSentry" value="Centinela durmiente"/>
+	<entry name="Necrons/SleepingSentryDescription" value="Aumenta la reducción de daños pero impide actuar."/>
+	<entry name="Necrons/SolarPulse" value="Pulso Solar"/>
+	<entry name="Necrons/SolarPulseDescription" value="Reduce la puntería de las unidades de infantería enemigas y de las criaturas monstruosas en el área."/>
+	<entry name="Necrons/SolarPulseFlavor" value="El Báculo Solar arde con la luz de la verdad y el honor, y cuando se desatan sus poderes son una perdición para todas las sombras. Desatadas, las energías de la vara resplandecen en una poderosa llamarada, como si hubiera nacido un nuevo sol. Esta falsa aurora hace retroceder la oscuridad, y el enemigo se tambalea mientras sus ojos están cegados y sus engaños al descubierto."/>
+	<entry name="Necrons/TheBoundCoalescent" value="Fragmentos coalescentes"/>
+	<entry name="Necrons/TheBoundCoalescentDescription" value="Se fusiona con un Obelisco para crear una Bóveda Teseráctica."/>
+	<entry name="Necrons/TheBoundCoalescentFlavor" value="Los C'tan eran inconmensurablemente poderosos y totalmente malvados; estos fragmentos, fragmentados por la desesperada conspiración de los Necrones, son todo lo que queda de ellos. En tiempos desesperados, se puede permitir que dos fragmentos se fusionen, para formar un arma más grande—pero los Necrones nunca olvidan el poder demente de los originales."/>
+	<entry name="Necrons/VoidStrike" value="Ataque vacío"/>
+	<entry name="Necrons/VoidStrikeDescription" value="Lleva a cabo un ataque de Cuchilla de vacío con ataques aumentados."/>
+	<entry name="Necrons/VoidStrikeFlavor" value="“La mejor arma es la que nunca debes usar.”<br/>  — Kanaa el Sosegado, Criptecnólogo Necrón, creador del Golpe de Vacío."/>
+	<entry name="Necrons/WrithingWorldscape" value="Retorcer el mundo"/>
+	<entry name="Necrons/WrithingWorldscapeDescription" value="Reduce el movimiento de las unidades enemigas adyacentes."/>
+	<entry name="ObjurationMechanicum" value="Objuración Mechanicum"/>
+	<entry name="ObjurationMechanicumDescription" value="Maldice el armamento a distancia de la unidad enemiga objetivo. También causa daño si el objetivo es un vehículo o una fortificación."/>
+	<entry name="ObjurationMechanicumFlavor" value="Las armas y los motores se atascan mientras el telekinético usa sus poderes para arrancar y retorcer el funcionamiento interno de los corazones de las máquinas cercanas."/>
+	<entry name="OrationOfRestoration" value="Oración de Restauración"/>
+	<entry name="OrationOfRestorationDescription" value="Recupera los puntos de vida del Capellán y de las unidades aliadas adyacentes cada turno."/>
+	<entry name="OrationOfRestorationFlavor" value="“Al final de la batalla, habla la Liturgia con voz clara. Respeta la valentía de los vivos. Da el Rito de Paso a los caídos. Honra el equipo de batalla de los muertos. Hace todo esto con reverencia, incluso cuando está agotado por la batalla y cansado del campo de batalla, es el deber de un Capellán. Es su carga y satisfacción.”<br/>  — Adeptus Astartes, El Libro de la Fe"/>
+	<entry name="OrbitalBombardment" value="Asalto Orbital"/>
+	<entry name="OrbitalBombardmentDescription" value="Operación que bombardea la unidad enemiga objetivo."/>
+	<entry name="OrbitalBombardmentFlavor" value="“Ninguna orden de Exterminatus Extremis se lleva a cabo a la ligera. Para ordenar la muerte de un planeta por Virus Bomba, Torpedo Ciclónico o Incinerador Atmosférico, uno debe estar seguro de su intención. Hay que aceptar que millones, incluso miles de millones, morirán para que el resto de la humanidad pueda vivir.”<br/>  — Gran Almirante Soheil, en la limpieza de Colchis"/>
+	<entry name="OrbitalDeployment" value="Despliegue Orbital"/>
+	<entry name="OrbitalDeploymentDescription" value="Despliega la unidad desde una casilla de ciudad a la casilla de destino."/>
+	<entry name="OrbitalDeploymentFlavor" value="Algunas unidades se dirigen a la batalla a través de túneles, teletransporte, vuelo u otros medios extraordinarios que les permiten aparecer en medio de la lucha."/>
+	<entry name="OrbitalScan" value="Escáner Orbital"/>
+	<entry name="OrbitalScanDescription" value="Operación que revela la casilla objetivo y las casillas adyacentes."/>
+	<entry name="OrbitalScanFlavor" value="Un Capítulo de Marines Espaciales posee comúnmente una flota entera de naves, que van desde las diminutas Cañoneras Thunderhawk hasta los masivos Cruceros de Asalto. En Gladius Prime, la flota del Capítulo fue diezmada por la tormenta de disformidad. Sólo una nave sobrevive, girando alrededor del planeta en una órbita baja y errática. Sin embargo, para objetivos suficientemente importantes, la tripulación de tecnomarines y servidores centrará todos sus sensores en la superficie del planeta."/>
+	<entry name="OrbitalStrike" value="Asalto Orbital"/>
+	<entry name="OrbitalStrikeDescription" value="Ordena un ataque orbital sobre la unidad enemiga objetivo."/>
+	<entry name="Orks/BigBoss" value="Gran Jefe"/>
+	<entry name="Orks/BigBossDescription" value="Aumenta los puntos de vida al máximo."/>
+	<entry name="Orks/BigBossFlavor" value="“Cuánto más grande sea, más dura será la caída.”<br/>  — Da Rok, Orco Noble"/>
+	<entry name="Orks/BustHeads" value="Cabezas de busto"/>
+	<entry name="Orks/BustHeadsDescription" value="Reduce la pérdida de moral para el Kaudillo y las unidades aliadas cercanas."/>
+	<entry name="Orks/BustHeadsFlavor" value="“Oye, tú zogging berks! Para de golpear a cada uvver y empieza a golpear a los beakies! O tengo que empezar a golpearte? No estoy preguntando—te lo estoy diciendo. ¿Lo pillas?”<br/>  — Da Rok, Orko Noblez"/>
+	<entry name="Orks/ChannelMentalEmissions" value="Emisiones Mentales del Canal"/>
+	<entry name="Orks/ChannelMentalEmissionsDescription" value="Aumenta la producción de investigación del clan."/>
+	<entry name="Orks/ChannelMentalEmissionsFlavor" value="“Los Orkos son el pináculo de la creación. Para ellos, la gran lucha está ganada. Han desarrollado una sociedad que no conoce estrés ni angustia. Quiénes somos nosotros para juzgarlos? Nosotros los Aeldari que hemos fallado, o los Humanos, en el camino a la ruina a su vez? Y por qué? Porque buscábamos respuestas a preguntas que un Orko ni siquiera se molestaría en hacer! Vemos una cultura que es fuerte y la despreciamos como burda.”<br/>  — Uthan el Perverso, Filósofo Aeldari"/>
+	<entry name="Orks/CyborkImplants" value="Implantes Zibernétikos"/>
+ 	<entry name="Orks/CyborkImplantsDescription" value="Aumenta de manera permanente el daño y la reducción de daño de la unidad de infantería o criatura monstruosa aliada objetivo."/>
+	<entry name="Orks/CyborkImplantsFlavor" value="“Muestra 40: Muestra de piel orka. Esto fue de un individuo de alto rango en la jerarquía orkoide, como puede verse por el aumento del grosor del hueso, músculo y piel ablativa, y la reducción de las estructuras nerviosas. La rejilla láser está ahí para evitar que intente volver a crecer todo el Orko.”<br/>  — Transcripciones de las conferencias, Grigomen “Orklover” Delr, Comerciante independiente y Xenólogo amateur"/>
+	<entry name="Orks/DaJump" value="Gran Zalto"/>
+	<entry name="Orks/DaJumpDescription" value="Teletransporta las unidades Eztrambótikas y aliadas adyacentes a la casilla objetivo y a las casillas adyacentes."/>
+	<entry name="Orks/DaJumpFlavor" value="El Eztrambótiko cierra los ojos con fuerza y, en una tormenta de luz verde parpadeante, se teletransporta a otra parte del campo de batalla—junto con los confundidos chikoz que estaban demasiado cerca de él en ese momento."/>
+	<entry name="Orks/DoksTools" value="Herramientaz de Matazanoz"/>
+	<entry name="Orks/DoksToolsDescription" value="Recupera los puntos de vida de la unidad de infantería aliada objetivo."/>
+	<entry name="Orks/DoksToolsFlavor" value="Desde bisturíes de cadena y paletas craneales hasta un mazo bien pesado, los implementos quirúrgicos Orkos son toscos pero sorprendentemente efectivos."/>
+	<entry name="Orks/ExperimentalProcedure" value="Procedimiento experimental"/>
+	<entry name="Orks/ExperimentalProcedureDescription" value="Aumenta el daño y la reducción de daño de la unidad de infantería aliada objetivo."/>
+	<entry name="Orks/ExperimentalProcedureFlavor" value="“Muestra 12: Modificación biomecánica de Orko. 'Zibernétikos' son modificados con equipos como este por los especialistas innatos de la especie, los 'Zabelotodoz', para reparar lesiones mayores y/o aumentar sus capacidades. Esta se asemeja a un arma de poder Imperial, excepto por las grandes garras y la marca del fabricante que dice 'Grillmek woz 'ere!'”<br/>  — Transcripciones de las conferencias, Grigomen “Orklover” Delr, Comerciante independiente y Xenólogo amateur"/>
+	<entry name="Orks/ExtraBitz" value="Extra Bitz"/>
+	<entry name="Orks/ExtraBitzDescription" value="Reduce el mantenimiento de alimentos, mineral y energía de las unidades de infantería en la región."/>
+	<entry name="Orks/KustomForceField" value="Pantalla de Energía Ezpezial"/>
+	<entry name="Orks/KustomForceFieldDescription" value="Aumenta la reducción de daño por ataques a distancia de las unidades aliadas adyacentes."/>
+	<entry name="Orks/KustomForceFieldFlavor" value="Estos extraños artefactos se alimentan por bobinas de energía y proyectan burbujas de energía invisible que protegen a los Orkos cercanos de los ataques a distancia."/>
+	<entry name="Orks/ProphetOfTheWaaagh" value="Profeta del Waaagh!"/>
+	<entry name="Orks/ProphetOfTheWaaaghDescription" value="Aumenta la ganancia de influencia cuando infliges daño a unidades con poder de Ley del Más Fuerte en la región."/>
+	<entry name="Orks/ProphetOfTheWaaaghFlavor" value="“Zoy la mano de Gork y Mork, elloz me enviaron para despertar a loz chicoz para aplastar y matar, porke a loz chicoz ze lez olvidó lo k eran… Zoy el beneficiario del Waaagh y de ke los mundoz ze kemen bajo miz botaz. Zoy el zeñor de la guerra Ghazghkull Mag Uruk Thraka y hablo por la palabra de Dioz.”<br/>  — Ghazghkull Mag Uruk Thraka, Señor de la guerra Orko"/>
+	<entry name="Orks/WarbikeTurboBoost" value="Turbopropulsores de warbike"/>
+	<entry name="Orks/WarbikeTurboBoostDescription" value="Aumenta el movimiento y reduce el daño a distancia."/>
+	<entry name="Orks/WarbikeTurboBoostFlavor" value="“‘¡Rápido, máz rápido! ¡No pueden acertar a lo ke no pueden ver! ¡A fondo todoz loz turboz!”<br/>  — Últimas palabras de Da Rok, Noble Orko y antiguo motorizta."/>
+	<entry name="Orks/Warpath" value="Atakad!"/>
+	<entry name="Orks/WarpathDescription" value="Aumenta el número de ataques cuerpo a cuerpo del Eztrambótiko y de las Unidades De La Peña aliadas adyacentes."/>
+	<entry name="Orks/WarpathFlavor" value="El Eztrambótiko dispersa la energía Waaagh! a través de su cuerpo hacia los guerreros Orkos que lo rodean, moviendo su ya belicosa naturaleza guerrera hacia el rugiente tono de la fiebre."/>
+	<entry name="Overwatch" value="Vigilancia"/>
+	<entry name="OverwatchDescription" value="Ataca a las unidades enemigas que entren en el rango de ataque."/>
+	<entry name="PowerOfTheMachineSpirit" value="Fuerzo del Espíritu de la Máquina"/>
+	<entry name="PowerOfTheMachineSpiritDescription" value="Aumenta la puntería a distancia."/>
+	<entry name="PowerOfTheMachineSpiritFlavor" value="La interconexión entre este espíritu avanzando de la máquina y su mecanismo de control de fuego permite a la tripulación alcanzar objetivos con increíble puntería."/>
+	<entry name="PowerStrike" value="Ataque de Fuerza"/>
+	<entry name="PowerStrikeDescription" value="Realiza un ataque de Espada de Energía con daño aumentado."/>
+	<entry name="PowerStrikeFlavor" value="“Mi espada está al servicio del Emperador. No respondo ante ningún otro hombre, vivo o muerto.”<br/>  — Tu'shan, Maestro de Capítulo de los Salamandras."/>
+	<entry name="ProduceUnit" value="Producir en %1%"/>
+	<entry name="ProduceUnitHint" value="<style name='Title'/>Producir %1%%2%<style name='Default'/><br/>%3%%4%%5%%6%%7%%8%<style name='Italic'/>%9%"/>
+	<entry name="RazeBuilding" value="Arrasar edificio"/>
+	<entry name="RazeBuildingDescription" value="Arrasar edificio objetivo."/>
+	<entry name="Repair" value="Reparar"/>
+	<entry name="RepairDescription" value="Restaura los puntos de vida del vehículo, fortaleza o unidad T'au aliada objetivo."/>
+	<entry name="RepairFlavor" value="Para los Tiránidos, puede ser un cúmulo de enzimas y simbiontes curativos. Para los Orkos, un soplete y un poder WAAAGH!. Para los T’au, ciencia avanzada. Pero todas las razas tienen cierta capacidad de arreglar el daño infligido en combate y en el mundo hostil de Gladius Prime."/>
+	<entry name="ReturnToTheShadows" value="Vuelta a las Sombras."/>
+	<entry name="ReturnToTheShadowsDescription" value="Aumenta la reducción de daño."/>
+	<entry name="ReturnToTheShadowsFlavor" value="Aquellos besados por el Vacío tienen facilidad para fundirse con las sombras una vez que su sangrienta emboscada ha sido ejecutada."/>
+	<entry name="RitesOfWar" value="Ritos de Guerra"/>
+	<entry name="RitesOfWarDescription" value="Aumenta el daño del Capellán y de las unidades aliadas adyacentes."/>
+	<entry name="RitesOfWarFlavor" value="El Capellán y sus guerreros, atados por sagrados juramentos de lealtad al Imperio, juran ante el Capítulo y el Emperador asegurar la victoria a toda costa."/>
+	<entry name="RollOverThem" value="“¡Pasemos por encima de ellos!”"/>
+	<entry name="RollOverThemDescription" value="Pasa por encima de la infantería enemiga objetivo."/>
+	<entry name="RollOverThemFlavor" value="Cuando todo lo demás falla, la gravedad y el inmenso peso de un vehículo pueden aplastar defensas que de otro modo serían impenetrables—o enemigos incondicionales."/>
+	<entry name="SciersGaze" value="Mirada del Contemplador"/>
+	<entry name="SciersGazeDescription" value="Revela la casilla objetivo y las casillas adyacentes."/>
+	<entry name="SciersGazeFlavor" value="El adivino puede ver el campo de batalla claramente en el ojo de la mente, con el punto de vista de un halcón de caza y la puntería de un láser. El ir y venir de ejércitos y máquinas de guerra no es más que el correr de hormigas bajo su omnisciente mirada. De este modo, el adivino puede dirigir el despliegue de las fuerzas especializadas exactamente cuando y donde más se necesitan, orientándolas hacia objetivos vitales que, una vez asegurados, aseguren la victoria."/>
+	<entry name="Scout" value="Explorador"/>
+	<entry name="ScoutDescription" value="Revela todas las casilla en la área."/>
+	<entry name="SellHint" value="<style name='Title'/>Vender %1%%2%<style name='Default'/><br/>%3%%4%%5%%6%%7%%8%<style name='Italic'/>%9%"/>
+	<entry name="SetRallyPoint" value="Establecer el punto de reunión"/>
+	<entry name="SetRallyPointDescription" value="Establecer el punto de reunión para las unidades de nueva producción en esta ciudad."/>
+	<entry name="Shockwave" value="<string name='Weapons/Shockwave'/>"/>
+	<entry name="ShockwaveFlavor" value="<string name='Weapons/ShockwaveFlavor'/>"/>
+	<entry name="Shop" value="Tienda"/>
+	<entry name="ShopDescription" value="Compra y vende artículos para ejercer influencia. Disponible en el Campamento de Comerciantes de los Jokaero."/>
+	<entry name="Shrouding" value="Ofuscación"/>
+	<entry name="ShroudingDescription" value="Aumenta la reducción del daño a distancia de las unidades aliadas adyacentes."/>
+	<entry name="ShroudingFlavor" value="El psíquico utiliza su dominio de la Disformidad para empañar la mente de sus enemigos, nublando su vista y sus instintos de manera que él parece poco más que una sombre indistinguible."/>
+	<entry name="SiegeMasters" value="Desplegar a los Maestros del Asedio"/>
+	<entry name="SiegeMastersDescription" value="Capítulo táctico que aumenta el daño de unidades que atacan a unidades enemigas en ciudades y fortificaciones."/>
+	<entry name="SiegeMastersFlavor" value="“Una fortaleza circunvalada deja de ser un obstáculo. Una fortaleza destruida deja de ser una amenaza. No olvides la diferencia.”<br/>  — Leman Russ, Primarca de los Lobos Espaciales."/>
+	<entry name="Signum" value="Signum"/>
+	<entry name="SignumDescription" value="<string name='Traits/RelentlessDescription'/>"/>
+	<entry name="SignumFlavor" value="El signum es un dispositivo de comunicación que procesa y difunde rápidamente los datos de segmentación. Esta antigua pieza de tecnología permite a un miembro de un escuadrón de Marines Espaciales disparar con aún mayor puntería, golpeando objetivos vitales con una lluvia de disparos infalibles."/>
+	<entry name="SistersOfBattle/ActOfFaithDescription" value="Acto de Fe. Se puede usar si la unidad no está acobardada o desmoralizada."/>
+	<entry name="SistersOfBattle/BeaconOfFaith" value="Faro de Fe"/>
+	<entry name="SistersOfBattle/BeaconOfFaithDescription" value="Restaura la moral de todas las unidades aliadas cercanas."/>
+	<entry name="SistersOfBattle/BeaconOfFaithFlavor" value="“Los guerreros de Khorne amenazaban con sobrepasarnos, no teníamos escapatoria, destrozadas…incluso la Canonesa había caído…y entonces Ella intervino. Al descender, un brillante faro, nuestras heridas se cerraron, nuestros espíritus se elevaron e hicimos retroceder a los herejes con renovada devoción…”<br/>  — Rememoradora desconocida, Evangelio de la Telaraña"/>
+	<entry name="SistersOfBattle/Bodyguard" value="Guardaespaldas"/>
+	<entry name="SistersOfBattle/BodyguardDescription" value="Proporciona protección adicional a los héroes aliados adyacentes."/>
+	<entry name="SistersOfBattle/BodyguardFlavor" value="Las Hermanas Celestes son aquellas Hermanas más henchidas de espíritu marcial, probándolo en los combates cuerpo a cuerpo más intensos. Frecuentemente actúan como guardaespaldas y campeonas de Canonesas, sacrificándose voluntariamente para protegerlas."/>
+	<entry name="SistersOfBattle/CatechismOfRepugnance" value="Catecismo de Repugnancia"/>
+	<entry name="SistersOfBattle/CatechismOfRepugnanceDescription" value="Aumenta la precisión y la penetración de blindaje a distancia de la unidad del Adepta Sororitas elegida."/>
+	<entry name="SistersOfBattle/CatechismOfRepugnanceFlavor" value="Con bólter sagrado purificaremos al mutante, al alien, al hereje. Con el regalo del Emperador entregamos nuestro odio al profanador."/>
+	<entry name="SistersOfBattle/ChaseTheProfane" value="Persecución del Profano"/>
+	<entry name="SistersOfBattle/ChaseTheProfaneDescription" value="Rito Sagrado que otorga Movimiento a Través de Cobertura a unidades de infantería aliadas."/>
+	<entry name="SistersOfBattle/ChaseTheProfaneFlavor" value="“Y los fieles serán incansables en su inquisición. Nada se interpondrá en el camino de su voluntad; ni las leyes de los hombres ni las de los xenos; ni escrúpulos ni amigos; ni acero ni plasticemento ni adamantium.”<br/>  — Canonesa Vandire, In Memoriam De Virtute."/>
+	<entry name="SistersOfBattle/ConvictionOfFaith" value="Convicción de Fe"/> 
+	<entry name="SistersOfBattle/ConvictionOfFaithDescription" value="Rito Sagrado que restaura la moral de las unidades dentro del alcance del Escudo de Fe."/>
+	<entry name="SistersOfBattle/ConvictionOfFaithFlavor" value="“Desde nuestra desgracia, ninguna de nosotras ha caído. No luchamos contra nuestros escrúpulos como lo hacen otros, ni sucumbimos al camino oscuro. Repitamos: No conozco el miedo pues ya estoy muerta.”<br/>  — Canonesa Vandire, “El Rito de Convicción” del In Memoriam De Virtute."/>
+	<entry name="SistersOfBattle/DeathBeforeDisgrace" value="Muerte Antes que Desgracia"/>
+	<entry name="SistersOfBattle/DeathBeforeDisgraceDescription" value="Restaura la moral de la unidad aliada elegida."/>
+	<entry name="SistersOfBattle/DeathBeforeDisgraceFlavor" value="“¿Qué es la muerte, para nosotras? No somos pasto de dioses risueños. No estamos consagradas en piedras, como los asquerosos Aeldari. Para nosotras la muerte es el final del servicio, una recompensa lograda sólo si no se busca. Así que actuad como si cada momento fuera el último, pero luchad contra ese día con todo vuestro corazón.”<br/>  — Canonesa Vandire, In Memoriam De Virtute."/>
+	<entry name="SistersOfBattle/DivineDeliverance" value="Liberación Divina"/>
+	<entry name="SistersOfBattle/DivineDeliveranceDescription" value="Los ataques de las unidades del Adepta Sororitas adyacentes causan pérdida de moral en el enemigo."/>
+	<entry name="SistersOfBattle/DivineDeliveranceFlavor" value="Los señores de la guerra enemigos se estremecen ante la divina majestad de una de las bendecidas del Emperador, y sus esbirros tiemblan ante la carnicería provocada por las compañeras de esa guerrera."/>
+	<entry name="SistersOfBattle/DivineGuidance" value="Guía Divina"/>
+	<entry name="SistersOfBattle/DivineGuidanceDescription" value="Aumenta el daño y la penetración de blindaje.<br/><br/><string name='Actions/SistersOfBattle/ActOfFaithDescription'/>"/>
+	<entry name="SistersOfBattle/DivineGuidanceFlavor" value="Mientras las combatientes del Sororitas recitan ritos de destrucción, su puntería cae infaliblemente allí donde provocarán más daño – cada disparo y cada ataque se convierte en un golpe mortal que condenará al olvido a otro hereje."/>
+	<entry name="SistersOfBattle/EndlessCrusade" value="Cruzada Eterna"/>
+	<entry name="SistersOfBattle/EndlessCrusadeDescription" value="Gana Flota y Movimiento A Través De Cobertura.<br/><br/><string name='Actions/SistersOfBattle/ActOfFaithDescription'/>"/>
+	<entry name="SistersOfBattle/EndlessCrusadeFlavor" value="Las extremidades no se agotan cuando las mueve el espíritu del Emperador, sino que encuentran nueva fuerza en la obra justa que se avecina."/>
+	<entry name="SistersOfBattle/EternalCrusade" value="<string name='Traits/SistersOfBattle/EternalCrusade'/>"/>
+	<entry name="SistersOfBattle/EternalCrusadeDescription" value="Rito Sagrado que aumenta la producción de las Capillas de Batalla y Prioras Legatinas."/>
+	<entry name="SistersOfBattle/EternalCrusadeFlavor" value="<string name='Traits/SistersOfBattle/EternalCrusadeFlavor'/>"/>
+	<entry name="SistersOfBattle/FlankSpeed" value="<string name='Traits/SistersOfBattle/FlankSpeed'/>"/>
+	<entry name="SistersOfBattle/FlankSpeedDescription" value="<string name='Traits/SistersOfBattle/FlankSpeedDescription'/>"/>
+	<entry name="SistersOfBattle/FlankSpeedFlavor" value="<string name='Traits/SistersOfBattle/FlankSpeedFlavor'/>"/>
+	<entry name="SistersOfBattle/HealingTears" value="Lágrimas Sanadoras"/>
+	<entry name="SistersOfBattle/HealingTearsDescription" value="Restaura una parte de los puntos de vida de Santa Celestine."/>
+	<entry name="SistersOfBattle/HealingTearsFlavor" value="“Y, mirad, las lágrimas eran humanas, lágrimas por sus hermanas perdidas, lágrimas por la guerra sin fin—pero fueron transfiguradas en su descenso y allí donde caían, bendecían. Y la Santa misma se revitalizó con justa furia…”<br/>  — Rememoradora desconocida, Evangelio de la Telaraña"/>
+	<entry name="SistersOfBattle/IonGauntletShield" value="Guantelete Escudo Iónico"/>
+	<entry name="SistersOfBattle/IonGauntletShieldDescription" value="Reduce la precisión cuerpo a cuerpo de las unidades gigantescas y caminantes super-pesados adyacentes."/>
+	<entry name="SistersOfBattle/IonGauntletShieldFlavor" value="<string name='Traits/SistersOfBattle/IonGauntletShieldFlavor'/>"/>
+	<entry name="SistersOfBattle/KeepersOfTheFaith" value="Guardianes de la Fe"/>
+	<entry name="SistersOfBattle/KeepersOfTheFaithDescription" value="Impide la Vigilancia pero aumenta la reducción de daño si esta unidad aún le quedan acciones.<br/><br/><string name='Actions/SistersOfBattle/ActOfFaithDescription'/>"/>
+	<entry name="SistersOfBattle/KeepersOfTheFaithFlavor" value="<string name='Traits/SistersOfBattle/KeepersOfTheFaithFlavor'/>"/>
+	<entry name="SistersOfBattle/LaudHailer" value="Megáfono de las Alabanzas"/>
+	<entry name="SistersOfBattle/LaudHailerDescription" value="Las unidades del Adepta Sororitas adyacentes puede ejecutar Actos de Fe aunque estén acobardadas."/>
+	<entry name="SistersOfBattle/LaudHailerFlavor" value="Proclamando el poder del Emperador con tonos celestiales, el Megáfono de las Alabanzas refuerza el espíritu de los fieles."/>
+	<entry name="SistersOfBattle/LeadTheRighteous" value="Dirige a los Justos"/>
+	<entry name="SistersOfBattle/LeadTheRighteousDescription" value="Aumenta la puntería de las unidades del Adepta Sororitas cercanas."/>
+	<entry name="SistersOfBattle/LeadTheRighteousFlavor" value="“Una Canonesa no es un comisario merodeador para ocultarse tras las faldas de sus hermanas y enviarlas a sus muertes. Mi papel es el de liderar desde el frente, inspirar amor y fe con mi ejemplo. Porque somos las justas del Emperador y no fallaremos en nuestro objetivo.”<br/>  — Canonesa Vandire, In Memoriam De Virtute."/>
+	<entry name="SistersOfBattle/LightOfTheEmperor" value="Luz del Emperador"/>
+	<entry name="SistersOfBattle/LightOfTheEmperorDescription" value="Aumenta la puntería.<br/><br/><string name='Actions/SistersOfBattle/ActOfFaithDescription'/>"/>
+	<entry name="SistersOfBattle/LightOfTheEmperorFlavor" value="Las Hermanas del Adepta Sororitas están henchidas del conocimiento de que lo único que tienen que temer es fallarle el Emperador de la Humanidad. Armadas con semejante fe, llegan a conseguir proezas sin precedentes."/>
+	<entry name="SistersOfBattle/MedicusMinistorum" value="Medicus Ministorum"/>
+	<entry name="SistersOfBattle/MedicusMinistorumDescription" value="Otorga No Sienten Dolor a las unidades de infantería aliadas adyacentes."/>
+	<entry name="SistersOfBattle/MedicusMinistorumFlavor" value="Un Medicus Ministorum es un kit médico de campo utilizados por los miembros del Adeptus Ministorum y las Hospitalarias del Adepta Sororitas. Conservada en el interior de una valiosa y rara caja de madera perfumada se encuentra una serie de reliquias las cuales son usadas para sanar todo tipo de lesiones y dolencias…"/>
+	<entry name="SistersOfBattle/MiraculousIntervention" value="Intervención Milagrosa"/>
+	<entry name="SistersOfBattle/MiraculousInterventionDescription" value="Tras morir, Santa Celestine vuelve inmediatamente a la vida.<br/><br/><string name='Actions/SistersOfBattle/ActOfFaithDescription'/>"/>
+	<entry name="SistersOfBattle/MiraculousInterventionFlavor" value="Ni siquiera la muerte puede parar a los servidores elegidos del Emperador, y a través de su benevolencia resucitan para servir a la voluntad del Maestro de la Humanidad."/>
+	<entry name="SistersOfBattle/NonMilitantMobilisation" value="<string name='Traits/SistersOfBattle/NonMilitantMobilisation'/>"/>
+	<entry name="SistersOfBattle/NonMilitantMobilisationDescription" value="Rito Sagrado que aumenta la producción de requisición en las ciudades."/>
+	<entry name="SistersOfBattle/NonMilitantMobilisationFlavor" value="<string name='Traits/SistersOfBattle/NonMilitantMobilisationFlavor'/>"/>
+	<entry name="SistersOfBattle/PurifyingRecitations" value="<string name='Traits/SistersOfBattle/PurifyingRecitations'/>"/>
+	<entry name="SistersOfBattle/PurifyingRecitationsDescription" value="Rito Sagrado que aumenta el daño provocado por las armas lanzallamas y de fusión."/>
+	<entry name="SistersOfBattle/PurifyingRecitationsFlavor" value="<string name='Traits/SistersOfBattle/PurifyingRecitationsFlavor'/>"/>
+	<entry name="SistersOfBattle/RagingFervour" value="<string name='Traits/SistersOfBattle/RagingFervour'/>"/>
+	<entry name="SistersOfBattle/RagingFervourDescription" value="Rito Sagrado que aumenta el daño provocado por las armas bólter."/>
+	<entry name="SistersOfBattle/RagingFervourFlavor" value="<string name='Traits/SistersOfBattle/RagingFervourFlavor'/>"/>
+	<entry name="SistersOfBattle/RighteousJudgement" value="Juicio Justo"/>
+	<entry name="SistersOfBattle/RighteousJudgementDescription" value="Ignora la reducción del daño a distancia y aumenta el daño recibido por la unidad enemiga objetivo."/>
+	<entry name="SistersOfBattle/RighteousJudgementFlavor" value="Nadie puede escapar al juicio del Emperador, y allí donde un enemigo intente guarecerse lo alcanzarán, milagrosamente, los disparos del Adepta Sororitas."/>
+	<entry name="SistersOfBattle/SacralVigor" value="Vigor Sacro"/>
+	<entry name="SistersOfBattle/SacralVigorDescription" value="Rito Sagrado que restaura los puntos de daño de las unidades dentro del alcance del Escudo de Fe."/>
+	<entry name="SistersOfBattle/SacralVigorFlavor" value="“¿Qué hay de estas heridas que sufrimos, hermanas? ¿Es nuestra carne tan preciosa para nosotras, nuestra belleza tan sagrada? Tirad de esos cortes, abridlos, pues no son otra cosa motas en aire imaginario. Nunca olvidéis que nuestra realidad es fe, que el dolor, como la vida, es evanescente…”<br/>  — Canonesa Vandire, In Memoriam De Virtute."/>
+	<entry name="SistersOfBattle/SacredHealing" value="Sagrada Sanación"/>
+	<entry name="SistersOfBattle/SacredHealingDescription" value="Cura a una unidad de infantería aliada."/>
+	<entry name="SistersOfBattle/SacredHealingFlavor" value="Implementos tanto de tortura como de salvación, el instrumental del cirujano puede restaurar al caído para que pueda luchar una vez más."/>
+	<entry name="SistersOfBattle/SaintlyBlessings" value="Santas Bendiciones"/>
+	<entry name="SistersOfBattle/SaintlyBlessingsDescription" value="Otorga reducción de daño adicional a las unidades aliadas adyacentes."/>
+	<entry name="SistersOfBattle/SaintlyBlessingsFlavor" value="En presencia de una Santa en Vida, incluso los más descreídos de los sirvientes del Emperador no pueden evitar sentirse arrastrados por una marea de fervor religioso."/>
+	<entry name="SistersOfBattle/SolaceInAnguish" value="Consuelo en la Angustia"/>
+	<entry name="SistersOfBattle/SolaceInAnguishDescription" value="Aumenta la reducción de daño.<br/><br/><string name='Actions/SistersOfBattle/ActOfFaithDescription'/>"/>
+	<entry name="SistersOfBattle/SolaceInAnguishFlavor" value="“He visto a un Predicador empalado en un campanario. Los restos de un misionero después de ser descubierto por cultistas genestealers. Sentimos la pérdida tan fuerte—pero nuestra angustia no nos debilitó, sino que nos animó…”<br/>  — Rememoradora desconocida, Evangelio de la Telaraña"/>
+	<entry name="SistersOfBattle/StirringRhetoric" value="Conmovedora Retórica"/>
+	<entry name="SistersOfBattle/StirringRhetoricDescription" value="Las unidades aliadas cercanas que realizaron un Acto de Fe obtienen blindaje adicional."/>
+	<entry name="SistersOfBattle/StirringRhetoricFlavor" value="“¡No hay más luz que la luz del Emperador! ¡No hay más fe que la fe en el Emperador! ¡No hay más verdad que la verdad del Emperador!”<br/> — Primera Exclamación de la Orden Dialogante del Resonante Voto."/>
+	<entry name="SistersOfBattle/TheEmperorsVengeance" value="La Venganza del Emperador"/>
+	<entry name="SistersOfBattle/TheEmperorsVengeanceDescription" value="Convoca un rayo divino para bombardear posiciones enemigas. Daña al objetivo y las casillas adyacentes."/>
+	<entry name="SistersOfBattle/TheEmperorsVengeanceFlavor" value="“Esto no estaba en las doctrinas, ni en la efímera, ni siquiera en la apócrifa. Este planeta ha drenado a la Santa, es cierto. Pero en momentos de gran ira, su poder real se abrió camino, todo a la vez, y devastó a aquellos que osaron interponerse en su camino.”<br/>  — Rememoradora desconocida, Evangelio de la Telaraña."/>
+	<entry name="SistersOfBattle/ThePassion" value="La Pasión"/>
+	<entry name="SistersOfBattle/ThePassionDescription" value="Aumenta la precisión cuerpo a cuerpo de las unidades aliadas adyacentes.<br/><br/><string name='Actions/SistersOfBattle/ActOfFaithDescription'/>"/>
+	<entry name="SistersOfBattle/ThePassionFlavor" value="Una Canonesa lidera a sus Hermanas a través del caos del cuerpo a cuerpo, golpeando a sus enemigos con una velocidad y odio nacidos de un sagrado fervor."/>
+	<entry name="SistersOfBattle/VengefulSpirit" value="<string name='Traits/SistersOfBattle/VengefulSpirit'/>"/>
+	<entry name="SistersOfBattle/VengefulSpiritDescription" value="Rito Sagrado que devuelve el daño al atacante enemigo."/>
+	<entry name="SistersOfBattle/VengefulSpiritFlavor" value="<string name='Traits/SistersOfBattle/VengefulSpiritFlavor'/>"/>
+	<entry name="SistersOfBattle/VerseOfHolyPiety" value="Verso de la Santa Piedad"/>
+	<entry name="SistersOfBattle/VerseOfHolyPietyDescription" value="Reduce el enfriamiento del Acto de Fe de la unidad objetivo."/>
+	<entry name="SistersOfBattle/VerseOfHolyPietyFlavor" value="La oración es más fuerte que cualquier espada. Como las santificadas palabras de los sagrados principios de la Orden se rugen a lo largo del campo de batalla, los devotos se insuflan con las bendiciones del Emperador."/>
+	<entry name="SistersOfBattle/WarHymn" value="Himno de Guerra"/>
+	<entry name="SistersOfBattle/WarHymnDescription" value="Aumenta los ataques de la unidad aliada no super-pesada del Adepta Sororitas."/>
+	<entry name="SistersOfBattle/WarHymnFlavor" value="No permitas que los enemigos de la Humanidad vivan. Acaba con ellos con toda tu fuerza y furia."/>
+	<entry name="SistersOfBattle/WarmachinesWrath" value="<string name='Traits/SistersOfBattle/WarmachinesWrath'/>"/>
+	<entry name="SistersOfBattle/WarmachinesWrathDescription" value="Rito Sagrado que aumenta la producción de Hangares Ungidos y Refuerzos Eclesiásticos."/>
+	<entry name="SistersOfBattle/WarmachinesWrathFlavor" value="<string name='Traits/SistersOfBattle/WarmachinesWrathFlavor'/>"/>
+	<entry name="SkilledJink" value="Esquivo habilidoso"/>
+	<entry name="SkilledJinkDescription" value="<string name='Actions/JinkDescription'/>"/>
+	<entry name="SkilledJinkFlavor" value="<string name='Actions/JinkFlavor'/>"/>
+	<entry name="Skip" value="Omitir"/>
+	<entry name="SkipDescription" value="Pasa el turno."/>
+	<entry name="Sleep" value="Reposo"/>
+	<entry name="SleepDescription" value="Pausa la producción hasta que se cancele la orden."/>
+	<entry name="SpaceMarines/Omniscope" value="Omniscopio"/>
+	<entry name="SpaceMarines/OmniscopeDescription" value="Ignora la reducción al daño a distancia del enemigo."/>
+	<entry name="SpaceMarines/OmniscopeFlavor" value="Los Centuriones hacen uso de omniscopios para dirigir mejor su temible potencia de fuego y atravesar la oscuridad de una galaxia hostil."/>
+	<entry name="SpaceSlip" value="Espacio de deslizamiento"/>
+	<entry name="SpaceSlipDescription" value="Aumenta la reducción de daño."/>
+	<entry name="SpawnUnits" value="Generación %1%"/>
+	<entry name="SpawnUnitsHint" value="<style name='Title'/>Invocaciones %1%%2%<style name='Default'/><br/>%3%%4%%5%%6%%7%%8%<style name='Italic'/>%9%"/>
+	<entry name="StrikeAndShroud" value="“Golpe y Sudario!”"/>
+	<entry name="StrikeAndShroudDescription" value="Crea una pantalla de humo en la casilla del Comandante del Tanque y en las casillas adyacentes con tanques aliados que proporciona reducción de daños a distancia."/>
+	<entry name="SummaryExecution" value="Ejecución Sumaria"/>
+	<entry name="SummaryExecutionDescription" value="Ejecuta un miembro de escuadrón de una unidad de infantería adyacente para restaurar la moral de unidades aliadas cercanas."/>
+	<entry name="SummaryExecutionFlavor" value="In extremis, un Comisario debe estar preparado para ejecutar a soldados vacilantes u oficiales incompetentes sin remordimientos; pocas cosas imponen mejor la disciplina que un malcontento o cobarde que es asesinado a tiros por sus faltas, y este mensaje es aún más fuerte cuando un proyectil de perno masivamente reactivo rocía los sesos de un Guardia a través de sus camaradas horrorizados en una lluvia de sangre."/>
+	<entry name="Supersonic" value="Supersónico"/>
+	<entry name="SupersonicDescription" value="Aumenta el movimiento."/>
+	<entry name="SupersonicFlavor" value="Los vehículos supersónicos son extremadamente rápidos, incluso para los estándares normales de los aviones, lo que los hace excepcionalmente móviles en la batalla."/>
+	<entry name="TacticalDoctrine" value="Desplegar la Doctrina Táctica"/>
+	<entry name="TacticalDoctrineDescription" value="Capítulo táctico que aumenta la puntería de los Marines Espaciales Tácticos."/>
+	<entry name="TacticalDoctrineFlavor" value="“Serán puros de corazón y fuertes de cuerpo, no manchados por la duda y no manchados por el ensalzamiento propio. Serán estrellas brillantes en el firmamento de la batalla, Ángeles de la Muerte cuyas brillantes alas traen rápida aniquilación a los enemigos del Hombre. Así será mil veces por mil años, hasta el fin de la eternidad y la extinción de la carne mortal.”<br/>  — Códex Astartes, por Roboute Guilliman, Primarca de los Ultramarines, Comandante General y Regente Imperial"/>
+	<entry name="Tau/AdvancedTargetingSystem" value="Instalar <string name='Traits/Tau/AdvancedTargetingSystem'/>"/>
+	<entry name="Tau/AdvancedTargetingSystemDescription" value="Instala un sistema de soporte que aumenta la puntería a distancia."/>
+	<entry name="Tau/AdvancedTargetingSystemFlavor" value="Un avanzado sistema de apuntado asiste al tirador de un vehículo identificando objetivos de un valor o peligro particular y planeando estrategias para contrarrestarles."/>
+	<entry name="Tau/BondingKnifeRitual" value="Ritual Ta'Lissera."/>
+	<entry name="Tau/BondingKnifeRitualDescription" value="Restaura la moral."/>
+	<entry name="Tau/BondingKnifeRitualFlavor" value="Muchos grupos T'au se someten a la solemne y sangrienta ceremonia conocida como Ta'Lissera. Aquellos equipos que comparten este vínculo juran apoyarse unos a otros a cualquier precio durante el resto de sus vidas."/>
+	<entry name="Tau/BreakComposure" value="Romper Compostura"/>
+	<entry name="Tau/BreakComposureDescription" value="Las unidades de infantería aliadas adyacentes causan pérdida de moral a las unidades atacadas."/>
+	<entry name="Tau/BreakComposureFlavor" value="Aunque no sean impresionantes físicamente, los T’au pueden infundir miedo en sus enemigos mediante medios sutiles; hostigándoles para que no puedan centrarse, rodeándoles, forzándoles a seguir planes tácticos que llevan al fracaso repetitivo. A veces no necesitas ni tocar a un enemigo para derrotarlo."/>
+	<entry name="Tau/CalmOfTides" value="Mareas en calma"/>
+	<entry name="Tau/CalmOfTidesDescription" value="Restauran los puntos de vida de los Etéreos y de la infantería T'au y criaturas monstruosas adyacentes aliadas."/>
+	<entry name="Tau/CalmOfTidesFlavor" value="“Espera un momento. Respira. No te precipites a su salvación. Todo llega a los T’au eventualmente. Vivo o muerto.”<br/>  — Aun’Dak’E, Conservador del Espíritu."/>
+	<entry name="Tau/ConvertWildlife" value="Persuadir Auxiliario"/>
+	<entry name="Tau/ConvertWildlifeDescription" value="Persuade a una unidad de Mastines de Guerra Kroot o Aquijones Alados de Véspid para que cambien a tu bando. Las unidades esclavizadas no pueden ser persuadidas. El coste varía dependiendo de la fuerza del objetivo."/>
+	<entry name="Tau/ConvertWildlifeFlavor" value="“¡Soldados de la Casta del Fuego! Aliados Kroot y Véspidos! ¡Hoy, nos erigimos como un bastión contra los egoístas, los desalmados, y los locos!”<br/>  — Aun'el Shi'ores, a la pérdida de Kronus."/>
+	<entry name="Tau/CounterfireDefenceSystem" value="Instalar <string name='Traits/Tau/CounterfireDefenceSystem'/>"/>
+	<entry name="Tau/CounterfireDefenceSystemDescription" value="Instala un sistema de soporte que aumenta la puntería de ataques sobreextendidos."/>
+	<entry name="Tau/CounterfireDefenceSystemFlavor" value="Estos sensores de IA adapta lógica predictiva incorporada a circuitos para asegurarse de que los enemigos asaltante se encuentran con una devastadora lluvia de fuego."/>
+	<entry name="Tau/DeployDrone" value="Desplegar %1%"/>
+	<entry name="Tau/DeployDroneDescription" value="Despliegue temporal %1%.<br/><br/>%2%"/>
+	<entry name="Tau/DroneController" value="Instalar <string name='Traits/Tau/DroneController'/>"/>
+	<entry name="Tau/DroneControllerDescription" value="Instala un sistema de soporte que aumenta la puntería de los drones adyacentes."/>
+	<entry name="Tau/DroneControllerFlavor" value="Un controlador de drones actúa como una interfaz entre un operador de la Casta de Fuego y las IAs de programas de combate de los drones cercanos."/>
+	<entry name="Tau/ForTheGreaterGood" value="Por el Bien Supremo"/>
+	<entry name="Tau/ForTheGreaterGoodDescription" value="Reduce la moral de las unidades enemigas. El coste varía dependiendo de la fuerza del objetivo."/>
+	<entry name="Tau/ForTheGreaterGoodFlavor" value="“Hay dos tipos de conducta que los Etéreos no consentirán. La primera es el fracaso al reflexionar sobre qué es para el Bien Supremos de la raza T'au. La segunda es la negativa deliberada de seguir el camino del Bien Supremo cuando está claro lo que debe ser.”<br/>  — Por'ui Dal'yth Ukos, enviado de la Casta del Agua."/>
+	<entry name="Tau/GravityWaveProjector" value="Proyector de Onda Gravítica"/>
+	<entry name="Tau/GravityWaveProjectorDescription" value="Impide el movimiento de unidades en la casilla objetivo."/>
+	<entry name="Tau/GravityWaveProjectorFlavor" value="Este proyector emite una onda gravitacional de alto poder que repele a los enemigos cercanos, reduciendo su avance a un mínimo."/>
+	<entry name="Tau/HolophotonCountermeasures" value="Contramedidas Holophoton"/>
+	<entry name="Tau/HolophotonCountermeasuresDescription" value="Reduce la puntería a distancia de la unidad enemiga objetivo."/>
+	<entry name="Tau/HolophotonCountermeasuresFlavor" value="Desencadenado por protocolos anti amenazas asistidos por IAs, las contramedidas holophoton adquieren la forma de una cortina de holoseñuelos dirigida, simulacros de fuego amigo y explosiones estroboscópicas. Las armas enemigas se confunden, aplicándose medidas de seguridad y espíritus máquinas rebelándose mientras sus operadores se quedan confusos y ciegos por la arrolladora sobrecarga sensorial."/>
+	<entry name="Tau/Kauyon" value="Kauyon (El Cazador Paciente)"/>
+	<entry name="Tau/KauyonDescription" value="Metaestrategia que aumenta la reducción de daño a distancia de las unidades T'au aliadas en el área. Comparte enfriamiento con otras metaestrategias."/>
+	<entry name="Tau/KauyonFlavor" value="“Tus tropas están perdiendo. ¡Se retiran! ¡Huyen! ¡El enemigo persigue, hambriento de nuestra valerosa sangre! Todo está perdido… y entonces tus tropas se giran y disparan. Revelas las tropas de flanqueo. Y tu enemigo está en una bolsa, rodeados. El cazador paciente triunfa.”<br/>  — Tutor Falsaluna"/>
+	<entry name="Tau/Markerlight" value="Marcador telemétrico"/>
+	<entry name="Tau/MarkerlightDescription" value="Aumenta la puntería a distancia T'au contra la unidad enemiga objetivo. Reduce la reducción del daño a distancia de la unidad enemiga objetivo. Finaliza después de que la unidad objetivo enemiga sea atacada por un T'au."/>
+	<entry name="Tau/MarkerlightFlavor" value="Un marcador telemétrico es un dispositivo portátil que proyecta un simple láser sobre un objetivo que luego transmite un torrente de datos de apuntado a otras unidades T'au, permitiéndoles enfrentarse al objetivo con una puntería infalible."/>
+	<entry name="Tau/Montka" value="Mont'ka (Golpe letal)"/>
+	<entry name="Tau/MontkaDescription" value="Metaestrategia que aumenta el daño de las unidades T'au aliadas en el área contra las unidades enemigas por debajo del 50% de puntos de vida. Comparte enfriamiento con otras metaestrategias."/>
+	<entry name="Tau/MontkaFlavor" value="“Tu enemigo forma sus fuerzas cuidadosamente. En el centro están sus mejores unidades. Finges debilidad. Los atraes. Y centras tu fuego sobre ellos. Sin ellos, el enemigo está perdido. Corta la cabeza, y la bestia muere. Bueno, excepto por Be’gel.”<br/>  — Tutor Lunafalsa"/>
+	<entry name="Tau/NovaBoost" value="Propulsión Nova"/>
+	<entry name="Tau/NovaBoostDescription" value="Sacrifica puntos de vida para aumentar el movimiento."/>
+	<entry name="Tau/NovaBoostFlavor" value="Aunque es levemente inestable, el reactor nova es una fuente de energía de materia oscura con una producción similar a la de una pequeña estrella."/>
+	<entry name="Tau/NovaFire" value="Fuego Nova"/>
+	<entry name="Tau/NovaFireDescription" value="Sacrifica puntos de vida para aumentar los ataques."/>
+	<entry name="Tau/NovaFireFlavor" value="<string name='Actions/Tau/NovaBoostFlavor'/>"/>
+	<entry name="Tau/NovaShield" value="Escudo Nova"/>
+	<entry name="Tau/NovaShieldDescription" value="Sacrifica puntos de vida para aumentar la reducción de daño."/>
+	<entry name="Tau/NovaShieldFlavor" value="<string name='Actions/Tau/NovaBoostFlavor'/>"/>
+	<entry name="Tau/PreciseShot" value="Disparo Preciso"/>
+	<entry name="Tau/PreciseShotDescription" value="Realiza un contundente ataque de Rifle de Pulso con puntería, daño y puntería aumentadas."/>
+	<entry name="Tau/PreciseShotFlavor" value="“No voy a enseñaros un golpe letal especial. No voy a daros un arma más grande. No voy a rodearos con drones escudo mágicos dispuestos a morir por ti. Pero voy a enseñaros a disparar recto, bajo fuego enemigo, juntos. Eso os hace inmediatamente mejor que cualquier Gue’la.”<br/>  — Tutor Lenguaafilada."/>
+	<entry name="Tau/PulseAccelerator" value="Acelerador de pulso"/>
+	<entry name="Tau/PulseAcceleratorDescription" value="Aumenta el rango de las armas de pulso de la unidad aliada objetivo."/>
+	<entry name="Tau/PulseAcceleratorFlavor" value="Este aparato emite un poderoso campo de inducción que acelera las cargas de las armas de pulso, aumentando su alcance."/>
+	<entry name="Tau/PurchaseEnergy" value="Iguales Bajo El Cielo"/>
+	<entry name="Tau/PurchaseEnergyDescription" value="Compra energía."/>
+	<entry name="Tau/PurchaseEnergyFlavor" value="En las ruinas de Gladius Prime, aún viven un billón de personas. Aunque la guerra se propaga a su alrededor, aunque las monstruosidades destruyen sus ciudades, persisten; y aquellos que les reconocen, les entienden y les ayudan, serán ayudados a cambio."/>
+	<entry name="Tau/PurchaseFood" value="Muchas Bocas"/>
+	<entry name="Tau/PurchaseFoodDescription" value="Compra comida."/>
+	<entry name="Tau/PurchaseFoodFlavor" value="El billón de supervivientes de las ciudades colmenas de Gladius viven precariamente pero sobreviven. Cenan en suministros robados, cosechas segadas, comida encubada secreta, almejas de ceniza y cánidos cazados. Convénceles de que se unan a los T’au y compartirán su festín."/>
+	<entry name="Tau/PurchaseOre" value="Un Escudo Para Todos"/>
+	<entry name="Tau/PurchaseOreDescription" value="Compra mineral."/>
+	<entry name="Tau/PurchaseOreFlavor" value="Más allá de la supervisión Imperial, el billón de supervivientes de Gladius pueden estar en peligro constante de inanición, muerte o corrupción, pero también tienen su primer tiempo libre. Tráelos a los T’au, y puede que lo ocupen buscando minerales y restos de los enjambres caídos para ti."/>
+	<entry name="Tau/PurchasePopulation" value="Proselitismo"/>
+	<entry name="Tau/PurchasePopulationDescription" value="Aumenta la población de la ciudad aliada T'au objetivo."/>
+	<entry name="Tau/PurchasePopulationFlavor" value="Afuera en los yermos, viven el billón de supervivientes de Gladius Prime. Pero los T’au no discriminan contra los gue’la; si les persuades de que se te unan, sin duda contribuirán a nuestra ciudad y a salvar este mundo."/>
+	<entry name="Tau/PurchaseResearch" value="Sabiduría Compartida"/>
+	<entry name="Tau/PurchaseResearchDescription" value="Compra investigación."/>
+	<entry name="Tau/PurchaseResearchFlavor" value="La tecnología del Imperio puede ser arcaica y extraña, pero la casta de la Tierra nunca dejará de aprender. Si la Casta del Agua puede convencer aunque sea a un puñado de Tecnosacerdotes de que se unan a nuestra causa, su conocimiento podría suplir el nuestro; podrían incluso permitir avances mayores en nuestra tecnología."/>
+	<entry name="Tau/Rinyon" value="Rinyon (Círculo de Filos)"/>
+	<entry name="Tau/RinyonDescription" value="Metaestrategia que aumenta la puntería de las unidades T'au aliadas en el área contra unidades enemigas adyacentes a otras unidades aliadas. Comparte enfriamiento con otras metaestrategias."/>
+	<entry name="Tau/RinyonFlavor" value="“Tu enemigo te rodea. Sus tropas están cerca. Demasiado cerca. Tu red de apuntado asigna a cada Casta de Fuego una víctima, no su vecino. Disparáis como uno solo, todo disparo acierta, los enemigos caen como uno solo. Un enemigo distraído es un enemigo muerto.”<br/>  — Tutor Falsaluna"/>
+	<entry name="Tau/Ripyka" value="Rip'yka (Mil Dagas)"/>
+	<entry name="Tau/RipykaDescription" value="Reduce el enfriamiento de las metaestrategias del Comandante."/>
+	<entry name="Tau/RipykaFlavor" value="“La armadura del enemigo es gruesa, tu hoja sólo hace un rasguño. En su arrogancia, te permite golpear. Golpea el mismo lugar, diez, cien, mil veces. El rasguño se vuelve una muesca que se vuelve un agujero que se vuelve su muerte. El agua erosiona la roca.”<br/>  — Tutor Falsaluna"/>
+	<entry name="Tau/ProjectShield" value="Proyecto Escudo"/>
+	<entry name="Tau/ProjectShieldDescription" value="Aumenta la reducción de daño de la unidad aliada objetivo."/>
+	<entry name="Tau/ProjectShieldFlavor" value="<string name='Units/Tau/ShieldDroneFlavor'/>"/>
+	<entry name="Tau/SenseOfStone" value="Solidez de Piedra"/>
+	<entry name="Tau/SenseOfStoneDescription" value="Aumenta la reducción de daño del Etéreo y de la infantería T'au y criaturas monstruosas aliadas adyacentes. Comparte enfriamiento con Tormenta de Fuego."/>
+	<entry name="Tau/SenseOfStoneFlavor" value="“Sólo hay cuatro pensamientos que la Casta de Fuego debe saber. Saber cuando esconderse. Saber cuando defender. Saber cuando engañar. Y saber cuando golpear. No pidas más.”<br/>  — Aun’Dak’E, Conservador del Espíritu."/>
+	<entry name="Tau/ShieldGenerator" value="Instalar <string name='Traits/Tau/ShieldGenerator'/>"/>
+	<entry name="Tau/ShieldGeneratorDescription" value="Instala un sistema de soporte que aumenta la reducción de daño."/>
+	<entry name="Tau/ShieldGeneratorFlavor" value="Este generador proyecta un campo de energía cohesiva capaz de proteger al portador de artillería pesada y armas antitanque."/>
+	<entry name="Tau/StealthField" value="Campo Mimético"/>
+	<entry name="Tau/StealthFieldDescription" value="Aumenta la reducción de daño a distancia de la unidad objetivo aliada."/>
+	<entry name="Tau/StealthFieldFlavor" value="<string name='Units/Tau/StealthDroneFlavor'/>"/>
+	<entry name="Tau/StimulantInjector" value="Instalar <string name='Traits/Tau/StimulantInjector'/>"/>
+	<entry name="Tau/StimulantInjectorDescription" value="Instala un sistema de soporte que aumenta la reducción de daño."/>
+	<entry name="Tau/StimulantInjectorFlavor" value="La armadura de combate está complementada con un avanzado sistema de soporte de vida que puede inundar el sistema del guerrero con drogas analgésicas y estimulantes en caso de que resultara herido."/>
+	<entry name="Tau/StormOfFire" value="Tormenta de Fuego"/>
+	<entry name="Tau/StormOfFireDescription" value="Aumenta los ataques del Etéreo y de la infantería T'au y criaturas monstruosas aliadas adyacentes. Comparte enfriamiento con Solidez de Piedra."/>
+	<entry name="Tau/StormOfFireFlavor" value="“Arde tan brevemente, la luz de mis hijos, tan brevemente. Pero, por el Bien Supremo, arde tan brillante!”<br/> — Aun’Va, Maestro del Espíritu Eterno."/>
+	<entry name="Tau/SubvertCity" value="Subvertir Ciudad"/>
+	<entry name="Tau/SubvertCityDescription" value="Reduce la lealtad de la ciudad objetivo enemiga. El coste escala con la población objetivo"/>
+	<entry name="Tau/SubvertCityFlavor" value="“¿Qué es eso? ¿Llamas a eso una casa? ¿Alguien vive en eso?! Madre mía. Bueno, muestra como de valientes sois todos. ¡Vuestros maestros saben que no necesitáis refugio o agua o comida o sueño o descanso para morir haciendo vuestros trabajos, por el ‘Gran Emperador’! Si acaso existe. De todas formas, si cambiáis de idea sobre uniros a los T’au, hacédmelo saber.”<br/>  — Por'el Dal'kor Lengualadina, emisario de la Casta del Agua"/>
+	<entry name="Tau/Unity" value="Unidad"/>
+	<entry name="Tau/UnityDescription" value="Aumenta la producción de lealtad de todas las ciudades."/>
+	<entry name="Tau/UnityFlavor" value="Aunque los Comandantes son los iconos de la propaganda T’au, son los Filoardientes quienes son silenciosamente vistos como los verdaderos héroes guerreros lo suficientemente buenos como para vestir Armaduras de Combate que en cambio eligen permanecer con la tropa, entrenándoles por el Bien Supremo. Ellos son la verdadera inspiración."/>
+	<entry name="Tau/VectoredRetroThrusters" value="Instalar  <string name='Traits/Tau/VectoredRetroThrusters'/>"/>
+	<entry name="Tau/VectoredRetroThrustersDescription" value="Instala un sistema de soporte que aumenta el movimiento y permite a la unidad ignorar la zona de control enemiga."/>
+	<entry name="Tau/VectoredRetroThrustersFlavor" value="El traje de combate de un guerrero está equipado con con boquillas de motor suplementarias, permitiéndole una mayor maniobrabilidad."/>
+	<entry name="Tau/VelocityTracker" value="Instalar <string name='Traits/Tau/VelocityTracker'/>"/>
+	<entry name="Tau/VelocityTrackerDescription" value="Instala un sistema de soporte que aumenta la puntería a distancia contra voladores."/>
+	<entry name="Tau/VelocityTrackerFlavor" value="Estos sistemas avanzados de detección de movimiento y búsqueda de calor que permiten a los pilotos rastrear el movimiento de objetivos aéreos."/>
+	<entry name="Tau/VolleyFire" value="Aluvión de Fuego"/>
+	<entry name="Tau/VolleyFireDescription" value="Aumenta el daño a distancia de las unidades de infantería aliadas adyacentes que no se hayan movido."/>
+	<entry name="Tau/VolleyFireFlavor" value="Bajo la constante vigilancia de su Tutor, las unidades de la Casta del Fuego aprender a cubrirse, esperar el momento oportuno y disparar como uno solo. El aluvión de disparos de energía de pulso golpea como fuegos artificiales neones y puede desmoralizar a los enemigos."/>
+	<entry name="Tau/ZephyrsGrace" value="Grácil cual Céfiro"/>
+	<entry name="Tau/ZephyrsGraceDescription" value="Aumenta los puntos de acción de la infantería T'au y criaturas monstruosas aliadas adyacentes."/>
+	<entry name="Tau/ZephyrsGraceFlavor" value="“Que nadie dude de que el Imperio Tau traerá la unidad a todos. Que nadie dude que ahora es nuestro momento. ¡Adelante, por el Bien Supremo!”<br/> — Aun’Va, Maestro del Espíritu Eterno."/>
+	<entry name="TelekineDome" value="Domo Telekinético"/>
+	<entry name="TelekineDomeDescription" value="Crea una barrera en la casilla del Bibliotecario y casillas adyacentes que aumenta la reducción de daño por ataques a distancia."/>
+	<entry name="TelekineDomeFlavor" value="Las balas rebotan en el aire y se desvían inofensivamente a medida que el psíquico erige una barrera de energía resplandeciente sobre sí mismo."/>
+	<entry name="TheFleshIsWeak" value="Desplegar La Carne es Débil"/>
+	<entry name="TheFleshIsWeakDescription" value="Capítulo táctico que aumenta la reducción de daño a las unidades de infantería."/>
+	<entry name="TheFleshIsWeakFlavor" value="“Hemos sido gravemente heridos. Sin embargo, todavía estamos de pie, con fuego en nuestros ojos y valor en nuestros corazones. Que piensen que nos han vencido. Les enseñaremos lo contrario.”<br/>  — Pedro Kantor, Señor del Capítulo Puños Carmesíes"/>
+	<entry name="TurboBoost" value="Turbopropulsores"/>
+	<entry name="TurboBoostDescription" value="Aumenta el movimiento."/>
+	<entry name="Tyranids/AcquireTile" value="Adquirir casillas (Tiránidos)"/>
+	<entry name="Tyranids/AcquireTileDescription" value="Adquiere la una nueva casillas para la ciudad, consumiendo su biomasa, eliminado los bosques y volviéndola rocosa. Los edificios solo pueden ser construidos en casillas adquiridas. Cada casilla tiene un coste de mantenimiento de influencia."/>
+	<entry name="Tyranids/AdaptiveBiology" value="Biología adaptativa"/>
+	<entry name="Tyranids/AdaptiveBiologyDescription" value="Aumenta la sensación de no dolor reduciendo el daño para el resto del turno tras recibir daño."/>
+	<entry name="Tyranids/AdaptiveBiologyFlavor" value="Este héroe ha sido creado para adaptarse contra el armamento utilizado por los actuales defensores de su mundo presa."/>
+	<entry name="Tyranids/AlphaWarrior" value="Guerrero alfa"/>
+	<entry name="Tyranids/AlphaWarriorDescription" value="Aumenta la puntería de los guerreros tiránidos aliados dentro del alcance."/>
+	<entry name="Tyranids/AlphaWarriorFlavor" value="“Pensar que los tiránidos son bestias irracionales es un grave error. Cuando luchas contra los tiránidos, no solo te enfrentas a los que tienes delante en el campo de batalla, sino a los miles de que te rodean, los cuales atacan a tus unidades de apoyo y destruyen tus líneas de suministros en perfecta sincronización.”<br/>  — Marneus Calgar, Señor de los Ultramarines"/>
+	<entry name="Tyranids/BroodProgenitor" value="Instigador de progenie"/>
+	<entry name="Tyranids/BroodProgenitorDescription" value="Aumenta los ataques de los Termagantes aliados."/>
+	<entry name="Tyranids/BroodProgenitorFlavor" value="“Este horror, esta abominación, ha pensado y tiene un propósito que sirve a una escala galáctica inimaginable y todo lo que podemos hacer es intentar parar los enjambres de bio-ingeniería que desata sobre nosotros por instinto. Le hemos dado un nombre a este horror para salvarnos de nuestros miedos; los llamamos los Tiránidos, pero si ellos son conscientes de nosotros, solo deben conocernos como Presa.”<br/>  — Inquisidor Czevak"/>
+	<entry name="Tyranids/Catalyst" value="Catalizador"/>
+	<entry name="Tyranids/CatalystDescription" value="Restaura los puntos de vida del Tervigor y la unidad tiránida aliada objetivo."/>
+	<entry name="Tyranids/CatalystFlavor" value="A través de sus conductos sinápticos, el poder de la mente enjambre se extiende para infundir a los organismos bajo su control, vigorizando sus sistemas con una vitalidad tan poco natural que pueden ignorar las heridas más graves."/>
+	<entry name="Tyranids/ClearTile" value="Limpiar casilla (Tiránidos)"/>
+	<entry name="Tyranids/ClearTileDescription" value="Limpia la casilla de alambre de espino, ruinas imperiales y bosque, uno cada vez."/>
+	<entry name="Tyranids/ConstructTunnel" value="Construir <string name='Units/Tyranids/Tunnel'/>"/>
+	<entry name="Tyranids/ConstructTunnelFlavor" value="<string name='Units/Tyranids/TunnelFlavor'/>"/>
+	<entry name="Tyranids/ConsumeTile" value="Consumir casilla"/>
+	<entry name="Tyranids/ConsumeTileDescription" value="Se alimenta del planeta, consumiendo la biomasa de la casilla, desforestando bosques y convirtiendo la tierra en lecho de roca."/>
+	<entry name="Tyranids/ConsumeTileFlavor" value="Los devoradores son expertos en la recopilación de material de biomasa de todo tipo—pero se necesitan unidades de apoyo tiránidas más pesadas, coordinadas por un Malántropo, para despojar a un planeta de todos sus recursos, dejando solo un lecho de rocoso detrás."/>
+	<entry name="Tyranids/Dominion" value="Dominio"/>
+	<entry name="Tyranids/DominionDescription" value="Aumenta el radio del enlace sináptico y la producción de lealtad de todas la ciudades."/>
+	<entry name="Tyranids/DominionFlavor" value="Los tiránidos utilizan su prodigiosa fuerza psíquica para canalizar y ampliar la voluntad de la mente enjambre."/>
+	<entry name="Tyranids/ExploitWeaknesses" value="Explotar la debilidad"/>
+	<entry name="Tyranids/ExploitWeaknessesDescription" value="El tiránido prime reduce el blindaje de la unidad enemiga objetivo."/>
+	<entry name="Tyranids/ExploitWeaknessesFlavor" value="“Nos replegamos, retrocedemos, hacemos retiradas estratégicas, consolidamos la posición, evacuamos. ¿Cuando, en el nombre de lo más sagrado, vamos a volver a contraatacar?”<br/>  — Comisario General Vortigus Hornth, Señor de la guerra en funciones; Sector Diatan, Ultima Segmentum"/>
+	<entry name="Tyranids/GraspingTail" value="Cola prensil"/>
+	<entry name="Tyranids/GraspingTailDescription" value="Reduce los ataques de la unidad enemiga objetivo."/>
+	<entry name="Tyranids/GraspingTailFlavor" value="Si un Malántropo tiene que entrar en batalla, se convierte en un enemigo complicado. Su cuerpo sinuoso es difícil de golpear, su cola prensil puede inmovilizar enemigos o sus armas, y sus zarcillos de alimentación son extremadamente venenosos, causando un dolor insoportable. Si un enemigo es paralizado por sus zarcillos, el Malántropo comenzará a absorberlo vivo, para adquirir los datos genéticos más selectos y frescos."/>
+	<entry name="Tyranids/HiveCommander" value="Comandante del Enjambre"/>
+	<entry name="Tyranids/HiveCommanderDescription" value="El Tirano de enjambre aumenta el daño y la reducción del daño de las unidades aliadas tiránidas en el área."/>
+	<entry name="Tyranids/HiveCommanderFlavor" value="“Un nuevo tiránido se unió a la lucha, y en un abrir y cerrar de ojo, el enjambre completo cambió. El voraz espíritu berserker que había dirigido a los tiránidos desapareció. En su lugar quedó algo más inteligente e infinitamente más preocupante. Fue entonces cuando supe que la batalla estaba perdida.”<br/>  — Sargento Torias Telion, Ultramarines 10ª Compañía"/>
+	<entry name="Tyranids/IndescribableHorror" value="Horror indescriptible"/>
+	<entry name="Tyranids/IndescribableHorrorDescription" value="El Tirano de enjambre reduce la moral de las unidades enemigas adyacentes cada turno."/>
+	<entry name="Tyranids/IndescribableHorrorFlavor" value="“No podemos vivir con esto. La humanidad no puede vivir con esto. En un solo día han cubierto la superficie de este planeta con una avalancha de cuchillas afiladas y fauces hambrientas. Matas una y diez ocupan su lugar. ¡Si realmente son innumerables nuestra raza esta condenada a una muerte violenta antes de que cada fragmento de nuestra civilización sea destruido por una fuerza más voraz que los fuegos del infierno! ¡Muerte! ¡Por el Dios Máquina, la muertes está aquí!”<br/>  — Magos Varnak, Supervisore de la estación de investigación tiránida"/>
+	<entry name="Tyranids/InstinctiveBehaviourOverride" value="Anular comportamiento instintivo"/>
+	<entry name="Tyranids/InstinctiveBehaviourOverrideDescription" value="Enfoca la atención de la mente Enjambre para evitar, temporalmente, el comportamiento instintivo."/>
+	<entry name="Tyranids/InstinctiveBehaviourOverrideFlavor" value="<string name='Traits/Tyranids/InstinctiveBehaviourOverrideFlavor'/>"/>
+	<entry name="Tyranids/LivingBatteringRam" value="Ariete viviente"/>
+	<entry name="Tyranids/LivingBatteringRamDescription" value="Aumenta el daño."/>
+	<entry name="Tyranids/LivingBatteringRamFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+	<entry name="Tyranids/LivingIncubator" value="Incubadora viviente"/>
+	<entry name="Tyranids/LivingIncubatorDescription" value="Convoca Termagantes."/>
+	<entry name="Tyranids/LivingIncubatorFlavor" value="Un enemigo que se enfrente a un Tervigón de cerca se encontrará asaltado por oleadas de Termagantes. Tal confrontación es terrible de contemplar, ya que la capacidad de refuerzo de un Tervigón es enorme, y sus crías llegan a un estado casi frenéticas debido a la necesidad de proteger a su progenitor."/>
+	<entry name="Tyranids/MassIncubation" value="Incubación en masa"/>
+	<entry name="Tyranids/MassIncubationDescription" value="Elimina el coste de la Incubadora viviente."/>
+	<entry name="Tyranids/MassIncubationFlavor" value="Si un Tervigón lo necesita, puede dar a luz a toda su progenie rápidamente. Un oponente centrado únicamente en este adversario, puede verse repentinamente superado en número."/>
+	<entry name="Tyranids/Onslaught" value="Embestida"/>
+	<entry name="Tyranids/OnslaughtDescription" value="Aumenta el movimiento del tirano del enjambre y las unidades aliadas adyacente."/>
+	<entry name="Tyranids/OnslaughtFlavor" value="La criatura sináptica alcanza su mente y toma el control las armas simbióticas de las criaturas inferiores, guiando su fuego mientras simultáneamente conduce a los enjambres hacia el enemigo a un ritmo vertiginoso."/>
+	<entry name="Tyranids/Paroxysm" value="Paroxismo"/>
+	<entry name="Tyranids/ParoxysmDescription" value="Reduce la puntería de la unidad enemiga objetivo."/>
+	<entry name="Tyranids/ParoxysmFlavor" value="La mente enjambre debilita a sus enemigos al activar cada nervio y receptor del dolor en sus cuerpos, abrumando sus sentidos con desgarradores ataques de agonía."/>
+	<entry name="Tyranids/PsychicScream" value="<string name='Weapons/PsychicScream'/>"/>
+	<entry name="Tyranids/PsychicScreamFlavor" value="<string name='Weapons/PsychicScreamFlavor'/>"/>
+	<entry name="Tyranids/RapaciousHunger" value="Hambre voraz"/>
+	<entry name="Tyranids/RapaciousHungerDescription" value="La Harúspex aumenta sus ataques."/>
+	<entry name="Tyranids/RapaciousHungerFlavor" value="Ver a un Harúspex en su apogeo de frenesí voraz es darte cuenta de que tu vida está perdida—no necesariamente en las fauces de tamaño descomunal, sino en lo que simboliza el Harúspex. Estas criaturas normalmente solo se despliegan al final de la invasión planetaria—por lo tanto, verlas es aceptar que tu planeta está condenado"/>
+	<entry name="Tyranids/ReclaimUnit" value="Reclamar unidad"/>
+	<entry name="Tyranids/ReclaimUnitDescription" value="Reclama a una unidad tiránida para recuperar su biomasa y producción al coste de influencia."/>
+	<entry name="Tyranids/ReclaimUnitFlavor" value="Aunque la mente enjambre normalmente solo despacha a los devoradores inservibles en sus pozos de recuperación, en situaciones extremas pueden utilizar cualquier criatura para obtener sus recursos. En los planetas conquistados por sus sustitutos Genestealer, no es extraño ver poblaciones asimiladas y pelotones de defensa marchando alegremente en los pozos digestivos."/>
+	<entry name="Tyranids/ScourgeOfTheBrood" value="Azote de la progenie"/>
+	<entry name="Tyranids/ScourgeOfTheBroodDescription" value="El tiránido prime aumenta su daño."/>
+	<entry name="Tyranids/ScourgeOfTheBroodFlavor" value="“Al mirar en sus ojos negros muertos, vi la terrible sintética que tenía en lugar de alma. Detrás de eso estaba la voluntad de acero de su líder. Más aún, pude sentir su primogenitor evaluándome fríamente desde el vacío. Y mirando desde atrás de lo más profundo de la mente alienígena, percibí lo que solo puedo describir como un hambre inmortal.”<br/>  — Bibliotecario jefe Varro Tigurius de los Ultramarines"/>
+	<entry name="Tyranids/ShadowInTheWarp" value="Sombra de la Disformidad"/>
+	<entry name="Tyranids/ShadowInTheWarpDescription" value="Reduce la moral de la unidad psíquica enemiga cada turno."/>
+	<entry name="Tyranids/ShadowInTheWarpFlavor" value="La insondable presencia de la mente enjambre se irradia desde sus criaturas sinápticas, sofocando la capacidad de los psíquicos que están delante de ellos para aprovechar sus poderes místicos."/>
+	<entry name="Tyranids/SporeCloud" value="Nube de esporas"/>
+	<entry name="Tyranids/SporeCloudDescription" value="Aumenta la reducción de daño por ataques a distancia de las unidades aliadas adyacentes."/>
+	<entry name="Tyranids/SporeCloudFlavor" value="La mejor táctica posible contra los tiránidos es la decapitación—es decir, la eliminación de las criaturas sinápticas que transmiten las órdenes de la Reina Norn. Desafortunadamente, a través de la masa fluida de carne sinuosa que constituye un asalto tiránido, la lluvia de proyectiles vivos y ácidos, y las nubes de esporas ofuscantes, incluso un asesino Vindicare tendría problemas para elegir una Dominatrix, y mucho menos un Tirano."/>
+	<entry name="Tyranids/SporeMine" value="Explosión de Esporas"/>
+	<entry name="Tyranids/SporeMineDescription" value="Crear Minas de Esporas."/>
+	<entry name="Tyranids/SporeMineFlavor" value="Cuando se lanza la Mina de Esporas por los aires, su cámara de gas se infla y flota suavemente hacia el nivel del suelo. Aunque el lanzamiento falle su objetivo inicial, el peligro que representa no se queda ahí, pues que la Mina de Esporas tiene una rudimentaria forma de inteligencia y detona no al impacto con el suelo sino cuando detecta la proximidad de una forma de vida no Tiránida."/>
+	<entry name="Tyranids/SubterraneanAssault" value="Asalto subterráneo"/>
+	<entry name="Tyranids/SubterraneanAssaultDescription" value="Túneles de un enjambre progenie a otro."/>
+	<entry name="Tyranids/SubterraneanAssaultFlavor" value="“Es irónico que tan rápido como difundimos el progreso y la esperanza a través de la galaxia, los tiránidos difunden la muerte y la desesperación. Solo unidos podremos tener la esperanza de hacerles frente.”<br/>  — Aun'shi del Imperio Tau"/>
+	<entry name="Tyranids/SynapseCreature" value="Criaturas sinápticas"/>
+	<entry name="Tyranids/SynapseCreatureDescription" value="Otorga a esta unidad y a las adyacentes inmunidad a los efectos contra la moral, el miedo y el instinto."/>
+	<entry name="Tyranids/SynapseCreatureFlavor" value="Algunos tiránidos sirven como conductos sinápticos o relés nodales a través de los cuales fluye una parte de la voluntad de hierro de la mente enjambre, que anula los instintos naturales del enjambre."/>
+	<entry name="Tyranids/TheHorror" value="El Horror"/>
+	<entry name="Tyranids/TheHorrorDescription" value="Reduce el movimiento y la puntería a distancia, aumenta la reducción de daño por ataques a distancia e impide que la infantería enemiga realice ataques defensivos."/>
+	<entry name="Tyranids/TheHorrorFlavor" value="La presencia psíquica aterradora de la mente enjambre se irradia desde la criatura sinápticas, inundando las mentes de los enemigos de los tiránidos y causando que se acobarden y entren en pánico."/>
+	<entry name="VectoredAfterburners" value="Postquemadores estelares"/>
+	<entry name="VectoredAfterburnersDescription" value="Aumenta el movimiento y la reducción del daño a distancia."/>
+</language>

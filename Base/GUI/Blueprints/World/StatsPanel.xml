@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:statsPanel extends="Panel" titleLabel.caption="<string name='GUI/Stats'/>" content.layout.direction="TopToBottom" preferredSize="1256 WrapContent">
+	<container name="contentContainer" layout.alignment="MiddleCenter" layout.collapseInvisible="1" preferredSize="FillParent WrapContent" weights="FillAll 1">
+		<image name="image" preferredSize="270 540" texture="Images/Statistics" visible="1"/>
+		<container layout.alignment="TopCenter" layout.gap="8 8" layout.direction="TopToBottom" preferredSize="FillParent 540" weights="1 FillAll">
+			<container preferredSize="FillParent WrapContent" layout.alignment="MiddleCenter">
+				<button name="totalButton" label.caption="<string name='GUI/Total'/>" preferredSize="190 28"/>
+				<button name="economyButton" label.caption="<string name='GUI/Economy'/>" preferredSize="190 28"/>
+				<button name="militaryButton" label.caption="<string name='GUI/Military'/>" preferredSize="190 28"/>
+				<button name="researchButton" label.caption="<string name='GUI/Research'/>" preferredSize="190 28"/>
+				<button name="detailsButton" label.caption="<string name='GUI/Details'/>" preferredSize="190 28"/>
+			</container>
+			<container layout="Relative" preferredSize="FillParent FillParent" weights="FillAll 1">
+				<container name="playerLabelsContainer"
+						preferredSize="190 FillParent"
+						stayOnTop="1"/>
+				<chart name="chart"
+						preferredSize="FillParent FillParent"/>
+				<scrollableContainer name="detailsContainer" 
+						preferredSize="FillParent FillParent"
+						scrollableContent.layout.direction="TopToBottom" 
+						wheelScroll="Horizontal" 
+						scrollableContent.preferredSize="WrapContent WrapContent" 
+						visibleContentContainer.content.margin="0 0"
+						margin="194 0; 0 0">
+					<container name="detailsHeadingContainer" preferredSize="WrapContent WrapContent">
+						<label alignment="MiddleCenter" caption="<string name='GUI/ResourcesAccumulated'/>" preferredSize="190 20"/>
+						<label alignment="MiddleCenter" caption="<string name='GUI/DamageDealt'/>" preferredSize="190 20"/>
+						<label alignment="MiddleCenter" caption="<string name='GUI/DamageTaken'/>" preferredSize="190 20"/>
+						<label alignment="MiddleCenter" caption="<string name='GUI/UnitsCreated'/>" preferredSize="190 20"/>
+						<label alignment="MiddleCenter" caption="<string name='GUI/UnitsLost'/>" preferredSize="190 20"/>
+						<label alignment="MiddleCenter" caption="<string name='GUI/UnitsKilled'/>" preferredSize="190 20"/>
+						<label alignment="MiddleCenter" caption="<string name='GUI/BuildingsConstructed'/>" preferredSize="190 20"/>
+					</container>
+				</scrollableContainer>
+			</container>
+		</container>
+	</container>
+	<container name="buttonContainer" layout.alignment="BottomRight" preferredSize="FillParent WrapContent" layout.collapseInvisible="1">
+		<button name="exitToMainMenuButton" label.caption="<string name='GUI/ExitToMainMenu'/>"/>
+		<emphasizedButton name="justOneMoreTurnButton" label.caption="<string name='GUI/JustOneMoreTurn'/>" preferredSize="300 28"/>
+	</container>
+</world:statsPanel>

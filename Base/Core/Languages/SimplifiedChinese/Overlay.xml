@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="LevelUp" value="<style name='ShadowedHeading' color='GUI/Blue'/>升级"/>
+	<entry name="Overwatch" value="<style name='ShadowedHeading'/><icon height='20' texture='Icons/Actions/Overwatch'/>掩护"/>
+	<entry name="Rallied" value="<style name='ShadowedHeading' color='GUI/Turquoise'/>动摇"/>
+	<entry name="Unleashed" value="<style name='ShadowedHeading'/>释放"/>
+</language>

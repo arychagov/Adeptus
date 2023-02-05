@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:unitOverlay layout="Relative" layout.alignment="MiddleCenter" showEffect="FadeIn" hideEffect="FadeOut">
+	<container layout.alignment="TopCenter" layout.direction="TopToBottom" layout.gap="2 2" preferredSize="WrapContent WrapContent">
+		<label name="nameLabel" alignment="BottomCenter" preferredSize="255 20" style="<style name='Shadowed'/>" showEffect="FadeIn" hideEffect="FadeOut" interactive="0"/>
+		<contentContainer hint="<string name='GUI/SelectUnitHint'/>" surface.texture="GUI/ShadowedSurface" name="contentContainer" preferredSize="WrapContent WrapContent" content.margin="1 1" content.layout.gap="-1 -1" pressedSound="Interface/Press">
+			<container layout="Relative" preferredSize="30 30">
+				<image name="icon" preferredSize="FillParent FillParent"/>
+				<label name="levelLabel" alignment="TopRight" style="<style name='Shadowed'/>" showEffect="FadeIn" hideEffect="FadeOut"/>
+				<label name="cargoLabel" alignment="BottomRight" style="<style name='Shadowed'/>" showEffect="FadeIn" hideEffect="FadeOut"/>
+			</container>
+			<container preferredSize="WrapContent FillParent" layout.gap="-1 -1" layout.collapseInvisible="1">
+				<progressBar name="healthBar" preferredSize="6 FillParent" background.color="0 0 0 0" direction="BottomToTop"/>
+				<progressBar name="moraleBar" preferredSize="4 FillParent" background.color="0 0 0 0" direction="BottomToTop"/>
+			</container>
+		</contentContainer>
+	</container>
+</world:unitOverlay>

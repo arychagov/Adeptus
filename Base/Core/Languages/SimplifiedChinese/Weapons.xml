@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+	<!-- Generic -->
+	<entry name="AutoFlavor" value="这些强大的武器拥有自动化, 自填充的能力, 能够进行不间断地高速射击. 自动武器拥有多种形式, 从最常见的自动手枪到诸如惩罚者加特林炮等重型支援武器, 应有尽有."/>
+	<entry name="BarrageFlavor" value="弹幕武器会将弹药射向高空, 然后再掉落在敌人中间."/>
+	<entry name="BlastFlavor" value="爆破武器能够发射炮弹, 导弹或者是碰触就炸的能量包."/>
+	<entry name="BoltFlavor" value="爆矢枪能够发射被称之为'爆矢'的小型导弹. 这些拥有自我推进能力的导弹能够在穿透目标后引发极具破坏力的爆炸. 爆矢枪拥有很多种类, 包括短筒爆矢手枪以及能够装备在泰坦及其他超大型载具上的火神巨型爆矢枪等等."/>
+	<entry name="BurstFlavor" value="爆燃武器在整个钛帝国军队中使用广泛, 主要安装在战斗装甲以及载具上. 通过利用类似于钛帝国脉冲技术的等离子感应科技, 使得爆燃加农炮能够以极高的速度进行射击."/>
+	<entry name="CognisFlavor" value="认知武器虽然在表面上与帝国其他地方使用的武器相似, 但有一个重要的区别—它的机械之魂早已被万机之神仪式永久唤醒. 当持枪者无法全神贯注时, 灌注于武器中的战斗意志就将进行接管."/>
+	<entry name="DestroyerFlavor" value="又名泰坦杀手, 能够造成极为恐怖的伤害."/>
+	<entry name="DistortionFlavor" value="艾达灵族最危险的武器能够让使用者打开通往亚空间的传送门. 这类恐怖的武器又称之为D武器, 所运用的技术甚至能够摧毁物质宇宙中的某个区域. 无论是局部或是分散的裂隙, 这样的结果对于附近的人而言都是致命的."/>
+	<entry name="FlamerFlavor" value="火焰枪是近距离武器, 其高速喷射出的不稳定液态化学物质在接触到空气后将会立刻被点燃. 它们主要用来抵挡敌人的进攻, 其超高温蒸汽爆炸能够形成很好地防御."/>
+	<entry name="ForceFlavor" value="灵能武器只有那些经过了特殊训练的灵能者才能使用. 通过将精神力的一部分灌注至武器中, 灵能者能够通过强大的力场风暴攻击敌人并伤害其神经系统, 进而使其失去意识."/>
+	<entry name="FusionFlavor" value="聚变武器主要用于反坦克用途, 能够在瞬间将强化装甲化为熔渣."/>
+	<entry name="GaussFlavor" value="高斯武器在外观上拥有多种类型, 包括步枪大小的掠夺者以及巨型的高斯加农炮. 与其他传统的能量武器所不同的是, 高斯武器能够发射分子分解射线, 能够轻松将肌肉, 骨骼甚至是护甲分解为原子."/>
+	<entry name="GhostFlavor" value="无论是战斧, 战刃或是战剑, 每把幽灵武器都通过灵魂之石赋予了力量, 并引导者持有者向敌人的要害挥去."/>
+	<entry name="IonFlavor" value="离子武器所发射的高能射线流能够与目标发生破坏性反应, 使得肉体和金属都能够在瞬间蒸发. 离子武器允许进行充能以产生更具破坏性的攻击, 在存在着动力电池过热的风险."/>
+	<entry name="KlawFlavor" value="相比其他种族对高精尖拳套的选择, 欧克兽人则更加偏爱野蛮的力量之爪. 这些巨大的液压剪能够撕裂并粉碎最为强大的敌人. 欧克兽人行者的体型非常适合这把武器, 任何阻挡在前方的蠢货将会被轻松撕碎."/>
+	<entry name="LasFlavor" value="激光武器能够发射出具有爆炸性的激光能量—尺寸越大, 威力也就越大. 但不管尺寸如何, 激光武器都是相当可靠的, 它是整个帝国最受青睐的战争武器."/>
+	<entry name="LaserFlavor" value="艾达灵族激光通过灵能水晶将强大的能量发挥到了极致. 许多艾达灵族认为激光是最为优雅的武器, 这是因为他们的技术专长甚至能够扩展到光线本身."/>
+	<entry name="MeltaFlavor" value="热熔武器拥有致命的反护甲能力, 在近距离时使用非常有效. 发射时, 被瞬间加热的空气将发出独特而凶恶的嘶嘶声. 坚硬的岩石将化为熔解的炉渣, 而活体生物则会瞬间蒸发!"/>
+	<entry name="MeleeFlavor" value="宇宙中的战士能够使用各类近战武器. 除了沾血的链锯剑和粗野的小刀外, 各种强化利刃, 斧头, 战锤等等都将成为他们的选择. 所有这类的武器都是为了能够给敌人带来迅速而痛苦的死亡而设计的, 在战斗中迟疑一秒则意味着离失败又近了一步."/>
+	<entry name="MonofilamentFlavor" value="许多艾达灵族都使用丝线武器, 所有的这些都是以极为精密的方式工作, 即由某种复杂的有机聚合物制作而成的一个致密的单丝网络. 它通过成千上万的微小喷射通道释放能量, 并通过旋转重力编织为一张金属网. 受害者为自己的挣扎带来了厄运, 因为丝线上的刀刃非常锋利, 能够在数秒中的时间内将一个纠缠的敌人切割成肉块."/>
+	<entry name="ParticleFlavor" value="这些武器所发射出的极少量反物质粒子流在接触目标后将会引发巨大的爆炸. 它们是如此地可靠, 只需要足够的能量维持抑制场, 来保证反物质不会在武器内部引发爆炸."/>
+	<entry name="PhosphorFlavor" value="磷光武器的范围很广, 包括许多科技神甫所青睐的手持蛇铳以及装备在装甲战斗奴工上的重型磷光火炮. 从磷光武器中发射出的白色燃烧球体将会紧紧地吸附在目标身上, 并在融穿护甲和外骨骼并灼烧肉体时发出狂野的嘶嘶声. 很多时候, 这些明亮的球体往往会带来死亡. 即便是目标足以承受燃烧所带来的痛苦, 但这些球体所发射出的磷光能够引导盟友向同一个目标展开攻击."/>
+	<entry name="PlasmaFlavor" value="等离子武器能够发射灼热的能量脉冲, 用来对付重型步兵和轻型载具非常有效. 然而它们在发射时会产生非常高的温度并导致过热—有时候会是非常致命的."/>
+	<entry name="PowerFlavor" value="能量武器能够发射极具致命性和破坏性的能量场, 能够轻松穿过护甲, 肉体和骨骼."/>
+	<entry name="PulseFlavor" value="对于火族而言脉冲科技非常常见, 所有的脉冲武器都能够利用脉冲感应场因此可以将知名的等离子体射出非常远的距离. 脉冲来复枪或卡宾枪是火族战士的标准装备, 而毁灭者小队则使用的是脉冲爆破器, 其负电荷的A.R.C离子能够在短距离内带来毁灭性的伤害. 钛帝国所使用更大型的脉冲武器, 包括脉冲驱动的加农炮和爆燃加农炮, 均运用了不同比例的过热等离子体, 在完成攻击后目标地点只会剩下发光的坑."/>
+	<entry name="RadiumFlavor" value="辐射武器非常不稳定, 并会最终杀死其持有者. 它们那巴洛克式的华丽外表掩盖了一种极为卑鄙的功能—不仅仅是为了攻击, 而是让战争变得如同火星辐射废墟一样致命. 每个武器的弹药筒都完全浸润在辐射之中, 火力全开时甚至将引发局部辐射风暴. 很快, 里面的人会发现自己的血肉发黑, 以至脱落."/>
+	<entry name="RailFlavor" value="钛帝国轨道武器利用线性加速技术能够以超高的速度发射固体弹药. 它们能够穿透最后的装甲并击败最强大的敌人."/>
+	<entry name="ShootaFlavor" value="大口径的机枪射击往往伴随着震耳欲聋的嘈杂声. 这类武器拥有不同的尺寸和设计, 从能够被兽人小子们所随身携带, 到能够装载在飞行器上的超级机枪等等应有尽有. 不论这些武器拥有什么样的设计, 至少它们都是非常致命的."/>
+	<entry name="ShurikenFlavor" value="星镖武器能够以惊人的速度发射刀片飞盘, 每个飞盘几乎用肉眼无法看见, 但却足够坚硬, 能够轻松穿透敌人. 这种战争工具能够在短短几秒钟时间内发射上百枚, 在高能脉冲的作用下能够以极快的速度推动弹丸发射."/>
+	<entry name="StubFlavor" value="这些是应对高科技战场上远程武器的低成本解决方案. 包括诸如霰弹枪, 短枪以及重型碉堡(有时也成为重炮)之类的武器 , 这些武器的共同点是, 它们都无一例外地笨重, 嘈杂而且原始. 这些武器通常由工作人员, 执法人员甚至是帝国平民所使用, 虽然响声巨大但维护起来非常简单."/>
+	<entry name="TailBiomorphFlavor" value="一些泰伦虫族的尾巴是致命的武器, 有的拥有能够掀翻坦克的高密度骨质突起, 有的则生长着剧毒尖刺, 足以消灭所有的敌人."/>
+	<entry name="TaserFlavor" value="泰瑟武器由超级动力电容驱动, 可以储存大量势能. 强力撞击会导致这股能量在灼热的爆炸中得以释放, 并且能够被武器尖端的窃电叉得以再次利用."/>
+	<entry name="TeslaFlavor" value="特斯拉武器将会释放强大的活体闪电, 在命中目标后能够迅速熔解护甲并使肉体发生碳化. 特斯拉武器需要消耗能量, 能量越高, 闪电所造成的伤害也就越大."/>
+	<entry name="ThoraxBiomorphFlavor" value="某些泰伦虫族的胸腔能够容纳成群的寄生虫—这些微小生物中的一类能够吸干敌人的体液, 其它种类则能够释放电荷, 这对于敌人的载具无疑是致命的. 还有一些能够钻入敌人的盔甲之中进而引发爆炸."/>
+	
+	<!-- Specific -->
+	<entry name="AnointedHalberd" value="圣傅长戟"/>
+	<entry name="AnointedHalberdFlavor" value="圣傅长戟是战斗修女天神圣卫所挥舞的重型动力长戟. 如果在天神圣卫坚不可摧的神圣之盾后面正确使用它, 那么它在战斗中将会是无比致命的."/>
+	<entry name="AnguishOfTheUnredeemed" value="未赎之苦"/>
+	<entry name="AnguishOfTheUnredeemedFlavor" value="谴罪机甲忏悔引擎中的忏悔修女们渴望着两件事: 通过战斗获得赦免和她们自己的死亡. 然而她们的痛苦是如此之大, 以至于在临死时都没有任何意识, 还将继续攻击敌人. 即便她们已经死亡, 也将继续为救赎而战."/>
+	<entry name="AquilaMacroCannon" value="天鹰巨炮"/>
+	<entry name="AquilaMacroCannonFlavor" value="天鹰巨炮能够发射特殊的地震火炮, 每一发炮弹都有数英尺长并进行了充能, 使其能够在发射后达到超音速."/>
+	<entry name="AssaultCannon" value="攻击加农炮"/>
+	<entry name="AssaultCannonFlavor" value="<string name='Weapons/AutoFlavor'/>"/>
+	<entry name="Autogun" value="自动枪"/>
+	<entry name="AutogunFlavor" value="<string name='Weapons/AutoFlavor'/>"/>
+	<entry name="AttackSquig" value="攻击史奎格"/>
+	<entry name="AttackSquigDescription" value="为战争首领添加额外的武器. 伤害会随技能等级提高而增加."/>
+	<entry name="AttackSquigFlavor" value="攻击史奎格是贪婪的掠食者, 拥有一张巨大的嘴."/>
+	<entry name="Autocannon" value="自动加农炮"/>
+	<entry name="AutocannonFlavor" value="<string name='Weapons/AutoFlavor'/>"/>
+	<entry name="Autopistol" value="自动左轮枪"/>
+	<entry name="AutopistolFlavor" value="<string name='Weapons/AutoFlavor'/>"/>
+	<entry name="AvengerBoltCannon" value="复仇者爆矢加农炮"/>
+	<entry name="AvengerBoltCannonFlavor" value="带有六个转动枪管的复仇者爆矢加农炮可以以惊人的速度发射大口径炮弹. 这些高速射击可以轻松击倒敌人的步兵或撕破轻型装甲. 而精准的射击则可以穿透更加厚重的装甲, 炸开重装步兵或战斗坦克. 当以最大速度射击时, 复仇者会在敌人的前线进入死亡模式, 双眼甚至都无法看清炮管的转动, 耳边只有震耳欲聋的咆哮声."/>
+	<entry name="AvengerGatlingCannon" value="复仇者加特林炮"/>
+	<entry name="AvengerGatlingCannonFlavor" value="在六个循环枪管的加持下, 复仇者加特林炮能够以惊人的速度发射大口径炮弹. 如此高射速能够轻松消灭敌方步兵或是撕裂轻型装甲. 在占据良好地形时, 它们甚至能够炸开更厚的钢板, 对重装步兵和战斗坦克带来威胁. 当以最大速率射击时, 敌人的前线将被死亡所笼罩."/>
+	<entry name="Baleflamer" value="灾痛喷火器"/>
+	<entry name="BaleflamerFlavor" value="<string name='Weapons/FlamerFlavor'/>"/>
+	<entry name="BanebladeCannon" value="毒刃坦克加农炮"/>
+	<entry name="BanebladeCannonFlavor" value="<string name='Weapons/BlastFlavor'/>"/>
+	<entry name="BattleCannon" value="战斗加农炮"/>
+	<entry name="BattleCannonFlavor" value="安装于炮塔上的战斗加农炮是第41千年中最为常见的战斗坦克装备. 战斗加农炮所拥有的重型爆炸弹药能够对步兵团以及敌方坦克予以轻松歼灭."/>
+	<entry name="BigShoota" value="大机枪"/>
+	<entry name="BigShootaFlavor" value="<string name='Weapons/ShootaFlavor'/>"/>
+	<entry name="Bigbomm" value="大炸弹"/>
+	<entry name="BigbommFlavor" value="<string name='Weapons/BlastFlavor'/>"/>
+	<entry name="BioAcidSpray" value="生物酸喷射"/>
+	<entry name="BioElectricPulse" value="生物电脉冲"/>
+	<entry name="BioElectricPulseFlavor" value="当掘蟒移动时, 它将产生一个强大的生物静电场, 而一旦发现了猎物电场就会发挥其致命的作用. 首席掘蟒的身体拥有弯曲的尖刺, 不仅包含同时还能够增幅这股能量."/>
+	<entry name="BioPlasma" value="生物等离子体"/>
+	<entry name="BioPlasmaFlavor" value="一些刽子手能够在体内产生呼啸着的生物等离子球, 这股混合能量从身体中喷射而出产生了亮如白昼的火焰."/>
+	<entry name="BioPlasmicCannon" value="生物等离子体加农炮"/>
+	<entry name="BioPlasmicCannonFlavor" value="这座巨型武器可以通过一系列不同的腔室引导生物等离子体来确保猎物被消灭, 既可以通过位于中部的腔体发射能量球, 也可以通过周围的枪管发射致命的光束射线."/>
+	<entry name="Blighted" value="凋零"/>
+	<entry name="BlindingVenom" value="致盲毒液"/>
+	<entry name="BlindingVenomFlavor" value="一些泰伦虫族能够朝着猎物的眼睛喷吐腐蚀性毒液."/>
+	<entry name="Boneswords" value="骨剑"/>
+	<entry name="BoneswordsFlavor" value="骨剑是活着的单分子利刃, 能够吸取受害者的生命."/>
+	<entry name="BoltPistol" value="爆矢手枪"/>
+	<entry name="BoltPistolFlavor" value="<string name='Weapons/BoltFlavor'/>"/>
+	<entry name="Boltgun" value="爆矢枪"/>
+	<entry name="BoltgunFlavor" value="<string name='Weapons/BoltFlavor'/>"/>
+	<entry name="BoneMace" value="骨锤"/>
+	<entry name="BoneMaceFlavor" value="<string name='Weapons/TailBiomorphFlavor'/>"/>
+	<entry name="BreathOfChaos" value="混沌之息"/>
+	<entry name="BreathOfChaosFlavor" value="灵能者深深地吸了口气, 将战场上的反能量化作一团巨大的变异云雾, 四散逃离的受害者身体瞬间就化为了蜡像."/>
+	<entry name="BrightLance" value="闪耀长枪"/>
+	<entry name="BrightLanceFlavor" value="<string name='Weapons/LaserFlavor'/>"/>
+	<entry name="BurnaBomb" value="燃烧炸弹"/>
+	<entry name="BurnaBombFlavor" value="燃烧炸弹由一个巨大的金属罐和引信组成, 内部则填满了钷素和史奎格油脂. 引爆后, 大片区域将会瞬间化为火海."/>
+	<entry name="BurstCannon" value="爆燃加农炮"/>
+	<entry name="BurstCannonFlavor" value="<string name='Weapons/BurstFlavor'/>"/>
+	<entry name="BurstaKannon" value="坦克加农炮"/>
+	<entry name="BurstaKannonFlavor" value="<string name='Weapons/DestroyerFlavor'/>"/>
+	<entry name="CastigatorBattleCannonSanctifiedShell" value="苛罚者战斗加农炮 (圣化火炮)"/>
+	<entry name="CastigatorBattleCannonSanctifiedShellFlavor" value="虽然苛罚者战斗加农炮非常普遍, 但它所发射的炮弹均由国教会设计. 甚至连它最'普通'的炮弹也得到了祝福, 拥有比一般的黎曼鲁斯战斗加农炮更加可靠, 更加强大的爆炸穿透力."/>
+	<entry name="CastigatorBattleCannonPyreShell" value="苛罚者战斗加农炮 (烈焰火炮)"/>
+	<entry name="CastigatorBattleCannonPyreShellFlavor" value="虽然苛罚者战斗加农炮非常普遍, 但它所发射的炮弹均由国教会设计. 烈焰火炮不同于帝国卫队的任何炮弹, 它们在击中时会产生巨大的火焰风暴, 能够轻松穿透掩体."/>
+	<entry name="CerastusShockLanceMelee" value="塞拉斯图斯震击长枪 (近战)"/>
+	<entry name="CerastusShockLanceMeleeFlavor" value="由离子钢和艾德曼合金制成的长枪, 其长度与骑士或超重型坦克相当, 末端锋利得令人毛骨悚然. 当它的携带者—枪骑士全速冲锋, 为冲击和爆炸做好准备时, 此时的敌人已经做好了被自己命运撕碎的准备."/>
+	<entry name="CerastusShockLanceRanged" value="塞拉斯图斯震击长枪 (远程)"/>
+	<entry name="CerastusShockLanceRangedFlavor" value="<string name='Weapons/CerastusShockLanceMeleeFlavor'/>"/>
+	<entry name="Chainaxe" value="链锯斧"/>
+	<entry name="ChainaxeFlavor" value="链锯剑的变种, 起源于荷鲁斯叛乱时期. 挥舞链锯斧所发出的嗡鸣声能够瞬间打破盔甲, 撕裂里面脆弱的血肉."/>
+	<entry name="Chainsword" value="链锯剑"/>
+	<entry name="ChainswordFlavor" value="链锯剑本身是一把高功率的链锯, 并配以刀柄和基座使其看上去不那么笨拙. 这是帝国最为常见的武器, 以其对肉体造成的恐怖伤害闻名于世."/>
+	<entry name="Choppa" value="切肉斧"/>
+	<entry name="ChoppaFlavor" value="欧克兽人喜欢各种拥有刀刃和链刃的武器. 最大的手持切肉斧能够轻松将敌人切成两半, 而践踏者所装备的这把武器能够将泰坦一分为二."/>
+	<entry name="CrushingClaws" value="碾压之爪"/>
+	<entry name="CrushingClawsFlavor" value="这些利爪可怕的力量足以粉碎任何敌人."/>
+	<entry name="ClawedLimbs" value="利爪义肢"/>
+	<entry name="ClawedLimbsFlavor" value="<string name='Weapons/MeleeFlavor'/>"/>
+	<entry name="CleansingFlame" value="净化烈焰"/>
+	<entry name="CleansingFlameFlavor" value="灵能者驾驭着灵魂之火, 制造出一道炽热的火焰墙, 轰击并清除战场上的敌人."/>
+	<entry name="CloseCombatWeapon" value="近距离战斗武器"/>
+	<entry name="CloseCombatWeaponFlavor" value="<string name='Weapons/MeleeFlavor'/>"/>
+	<entry name="ClusterMines" value="集束地雷"/>
+	<entry name="ClusterMinesFlavor" value="深入敌后的摩托侦察兵携带着集束地雷—这个爆炸装置中塞满了小型杀人炸弹, 能够由绊网或者压力传感器触发."/>
+	<entry name="ClusterRocketSystem" value="集束火箭系统"/>
+	<entry name="ClusterRocketSystemFlavor" value="这些巨大的火箭吊舱经过了编程, 优化了饱和模式能够发射数十枚无人机辅助弹头并维持足够的射速和密度, 足以摧毁整个兽人或泰伦虫族部队. 攻击所引发的爆炸能够覆盖目标区域, 敌人也将在尖叫中化为尘埃."/>
+	<entry name="CognisHeavyStubber" value="认知重型伐木枪"/>
+	<entry name="CognisHeavyStubberFlavor" value="<string name='Weapons/CognisFlavor'/>"/>
+	<entry name="CompendiumFlavor" value="为了赢得这场战争, 每个阵营都在杀戮的艺术上展现出了无穷的创新能力. 从欧克兽人的切肉斧, 到艾达灵族精致的手里剑发射器, 可以说第41千年中的武器拥有上千种致命的方式. 从杀伤力的角度来说, 这些武器对于使用者及其敌人并没有什么区别—比如帝国舰队强大的宏炮所发射的炮弹相当于哈布块大小, 一次攻击即可消灭成百上千的奴工."/>
+	<entry name="CombiBolter" value="组合爆矢枪"/>
+	<entry name="CombiBolterFlavor" value="从本质上说这是一把双联爆矢枪, 它诞生于荷鲁斯叛乱时期, 是星际战士终结者最灵活的战术武器. 尽管忠于帝皇的星际战士研制出了狂怒爆矢枪, 但较为古老的组合爆矢枪却依然在反叛者军团中发挥着举足轻重的作用."/>
+	<entry name="CondemnorBoltgunSilverStake" value="谴责者爆矢枪的银桩"/>
+	<entry name="CondemnorBoltgunSilverStakeFlavor" value="谴责者爆矢枪是一种高度专业化的组合武器, 几乎只由异端审判庭和战斗修女使用. 这些看似古老的武器结合了爆矢枪和单发弩的骨架, 能够发射雕刻着毁灭印记的银色弹药, 以破坏灵能者与亚空间的联系."/>
+	<entry name="ControlStave" value="统御权杖"/>
+	<entry name="ControlStaveFlavor" value="作为管理, 控制和武器, 这柄法杖只能由护教军元帅随身携带. 尽管扮演着多种角色, 但它都能够很好地胜任—毕竟这是一件残暴的近战武器, 它将能够使得元帅通过控制法令和凌驾侵略来密切控制他的护教军."/>
+	<entry name="CroziusArcanum" value="克洛休斯手杖"/>
+	<entry name="CroziusArcanumFlavor" value="克洛休斯手杖是牧师职业的象征, 同时也是正义审判的武器. 每一根手杖都是古老的遗迹, 其拥有者的传奇故事将会被蚀刻在其手柄之上."/>
+	<entry name="CtanNecrodermisExplosion" value="星神骸体爆炸"/>
+	<entry name="CyclicIonRakerOvercharged" value="循环离子耙(过载)"/>
+	<entry name="CyclicIonRakerOverchargedFlavor" value="<string name='Weapons/IonFlavor'/>"/>
+	<entry name="CyclicIonRakerStandard" value="循环离子耙(标准)"/>
+	<entry name="CyclicIonRakerStandardFlavor" value="<string name='Weapons/IonFlavor'/>"/>
+	<entry name="DCannon" value="次元加农炮"/>
+	<entry name="DCannonFlavor" value="<string name='Weapons/DistortionFlavor'/>"/>
+	<entry name="DaedalusMissileLauncher" value="代达罗斯导弹发射器"/>
+	<entry name="DaedalusMissileLauncherFlavor" value="<string name='Weapons/IcarusArrayFlavor'/>"/>
+	<entry name="Dataspike" value="数据尖刺"/>
+	<entry name="DataspikeFlavor" value="机械神教特工特别青睐数据尖刺. 在刺入敌方机器的表层后能够在几秒钟之内窃取它们的秘密."/>
+	<entry name="DeathRay" value="死亡射线"/>
+	<entry name="DeathRayFlavor" value="<string name='Weapons/BlastFlavor'/>"/>
+	<entry name="Deathshriek" value="<string name='Traits/Deathshriek'/>"/>
+	<entry name="DeathshriekFlavor" value="<string name='Traits/DeathshriekFlavor'/>"/>
+	<entry name="Deathspitter" value="死亡喷吐者"/>
+	<entry name="DeathspitterFlavor" value="这种多生物共生体能够发射具有腐蚀效果的蛆状有机体. 如蜘蛛下颚般的毒牙从武器的腔室中拖出一只有机体并剥除其外壳, 在死亡喷吐者痉挛着对腐蚀性血肉作出反应前, 它将发射蛆状有机体并引发爆炸, 使目标暴露在腐蚀性粘液之中."/>
+	<entry name="DefensiveHeavyStubber" value="防卫重型伐木枪"/>
+	<entry name="DefensiveHeavyStubberFlavor" value="<string name='Weapons/StubFlavor'/>"/>
+	<entry name="DeffstormMegaShoota" value="死亡风暴超级机枪"/>
+	<entry name="DeffstormMegaShootaFlavor" value="<string name='Weapons/ShootaFlavor'/>"/>
+	<entry name="DemolisherCannon" value="毁灭者加农炮"/>
+	<entry name="DemolisherCannonFlavor" value="毁灭者攻城加农炮以牺牲射程为代价获得了极大的威力. 毁灭者所发射出的每一枚弹药几乎是普通战斗加农炮的三倍, 超高的重量和超强的爆炸效果保证了它能够消灭任何东西."/>
+	<entry name="DestroyerBlades" value="毁灭之刃"/>
+	<entry name="DestroyerBladesDescription" value="只能以步兵作为目标."/>
+	<entry name="DestroyerBladesFlavor" value="这两载具的外表加装了无比锋利的尖刺, 旋转的刀刃以及锯齿状的桅杆."/>
+	<entry name="DestroyerMissile" value="毁灭者导弹"/>
+	<entry name="DestroyerMissileFlavor" value="每枚毁灭者导弹都配备了AI瞄准处理器, 其性能远超其他种类的制导导弹. 毁灭者弹道能够利用大量实时目标数据确定目标的主要弱点. 然后, 它将利用自我引导微型火箭来调整弹道以确保直接命中要害, 从而使目标在一次壮观的爆炸中化为灰烬."/>
+	<entry name="Destructor" value="毁灭者"/>
+	<entry name="DestructorFlavor" value="<string name='Actions/Eldar/DestructorRenewerFlavor'/>"/>
+	<entry name="Devourer" value="吞噬者"/>
+	<entry name="DevourerFlavor" value="这些武器能够投掷寄生蠕虫, 它们能够钻进受害者的身体, 并通过神经系统进入大脑. 由大型泰伦虫族所操控的吞噬者还生长着噬脑蠕虫的巢穴, 这是一种更具攻击性同时也更加贪婪的吞噬者蠕虫."/>
+	<entry name="DialogusStaff" value="文书修女之杖"/>
+	<entry name="DialogusStaffDescription" value="文书修女之杖是文书修会的象征, 在战斗中也可以兼作武器使用."/>
+	<entry name="DoomsdayCannonHighPower" value="末日加农炮(高功率)"/>
+	<entry name="DoomsdayCannonHighPowerFlavor" value="哪怕是在低功率条件下开火, 末日加农炮也是一具可怕的武器; 在进行全力射击时, 恐怕只有泰坦的虚空之盾能够提供足够的保护."/>
+	<entry name="DoomsdayCannonLowPower" value="末日加农炮(低功率)"/>
+	<entry name="DoomsdayCannonLowPowerFlavor" value="<string name='Weapons/DoomsdayCannonHighPowerFlavor'/>"/>
+	<entry name="DesiccatorLarvae" value="脱水幼虫"/>
+	<entry name="DesiccatorLarvaeFlavor" value="<string name='Weapons/ThoraxBiomorphFlavor'/>"/>
+	<entry name="DisruptorMissileLauncher" value="干扰者导弹发射器"/>
+	<entry name="DroolCannon" value="狂涎加农炮"/>
+	<entry name="DroolCannonFlavor" value="狂涎加农炮能够向敌人发射极具腐蚀性的消化液."/>
+	<entry name="EMPGrenade" value="EMP手雷"/>
+	<entry name="EMPGrenadeFlavor" value="EMP手雷所释放的电磁脉冲能够对载具造成大量伤害."/>
+	<entry name="EarthshakerCannon" value="撼地者加农炮"/>
+	<entry name="EarthshakerCannonFlavor" value="光是撼地者加农炮那标志性的炮筒就足以让帝国的敌人们胆战心惊. 这些长颈火炮拥有惊人的射程并能够保持恐怖的射击速度, 一颗又一颗的炮弹轰炸足以让敌人化为灰烬."/>
+	<entry name="EldritchStorm" value="恐怖风暴"/>
+	<entry name="EldritchStormFlavor" value="先知召唤出旋涡状的能量团, 利用闪电和灵能震击向敌人发起攻击. 随着越来越多的力量投入到这个毁灭风暴之中, 整个战场上的敌人将会在瞬间被能量风暴席卷进而摧毁."/>
+	<entry name="ElectroleechStave" value="电蛭法杖"/>
+	<entry name="ElectroleechStaveFlavor" value="每把电蛭法杖都内置了强大的电容, 让它们能够从每一次撞击中吸收敌人的电能—无论是活着的敌人抑或是亵渎神明的机器."/>
+	<entry name="EvisceratingClaws" value="切割之爪"/>
+	<entry name="EvisceratingClasFlavor" value="<string name='Weapons/MeleeFlavor'/>"/>
+	<entry name="Eviscerator" value="分离锯"/>
+	<entry name="EvisceratorFlavor" value="<string name='Weapons/ChainswordFlavor'/>"/>
+	<entry name="ExcruciatorCannon" value="切割者加农炮"/>
+	<entry name="ExcruciatorCannonFlavor" value="<string name='Weapons/AutoFlavor'/>"/>
+	<entry name="ExorcistMissileLauncher" value="驱魔者导弹发射器"/>
+	<entry name="ExorcistMissileLauncherFlavor" value="这些受人尊敬的坦克所发射的驱魔者导弹能够在一次惩罚性的齐射中撕开敌人的坦克或摧毁整个重型步兵小队, 当然前提是驱魔者那喜怒无常的机魂没有发生故障."/>
+	<entry name="FerrumiteCannon" value="铁石巨炮"/>
+	<entry name="Flamer" value="火焰枪"/>
+	<entry name="FlamerFlavor" value="<string name='Weapons/FlamerFlavor'/>"/>
+	<entry name="FlechetteBlaster" value="镖弹爆矢枪"/>
+	<entry name="FlechetteBlasterFlavor" value="镖弹爆矢枪重量轻但却致命, 是西卡里安渗透者最爱的工具. 它能够发射数百枚飞镖, 每一个都包含着已经在枪膛中所唤醒的颅内细胞. 命中后, 飞镖将发出生物电脉冲并吸引其他的飞镖, 从而引发一系列足以刺透骨骼的冲击."/>
+	<entry name="FlechetteDischarger" value="<string name='Traits/Tau/FlechetteDischarger'/>"/>
+	<entry name="FlechetteDischargerFlavor" value="<string name='Traits/Tau/FlechetteDischargerFlavor'/>"/>
+	<entry name="Fleshborer" value="钻肉枪"/>
+	<entry name="FleshborerFlavor" value="钻肉枪是一个紧凑的育虫巢, 里面布满了拥有尖牙的钻肉甲虫. 当武器发射时, 钻肉甲虫只需轻轻挥动其跳蚤一般的腿就可以迅速向前突进. 在接下来的几秒钟时间里甲虫将会消耗剩余的生命能量, 它们将疯狂地穿破任何阻挡在前方的盔甲, 血肉甚至是骨头."/>
+	<entry name="FleshHooks" value="血肉之钩"/>
+	<entry name="FleshHooksFlavor" value="血肉之钩通过强壮的卷须连接到泰伦虫族的胸腔, 并允许其在近距离范围内测量物体表面或者是诱捕猎物."/>
+	<entry name="FloatingDeath" value="漂浮死亡"/>
+	<entry name="FloatingDeathFlavor" value="只有虫巢意志的进化行为才能够将活物变为包含了不稳定的酸, 气体和骸骨的漂浮球体. 这种球体的唯一目的就是在爆炸后带来大量死亡."/>
+	<entry name="ForceStave" value="灵能战锤"/>
+	<entry name="ForceStaveFlavor" value="<string name='Weapons/ForceFlavor'/>"/>
+	<entry name="FragGrenade" value="碎片手雷"/>
+	<entry name="FragGrenadeFlavor" value="这些手雷引爆后所散布的致命弹片能够极大地杀伤掩体下的敌人, 并让攻击者有足够的时间靠近, 给予他们致命一击."/>
+	<entry name="FusionBlaster" value="聚变爆矢枪"/>
+	<entry name="FusionBlasterFlavor" value="<string name='Weapons/FusionFlavor'/>"/>
+	<entry name="FusionGun" value="聚变火炮"/>
+	<entry name="FusionGunFlavor" value="<string name='Weapons/FusionFlavor'/>"/>
+	<entry name="FusionPistol" value="聚变手枪"/>
+	<entry name="FusionPistolFlavor" value="<string name='Weapons/FusionFlavor'/>"/>
+	<entry name="GammaPistol" value="伽马手枪"/>
+	<entry name="GammaPistolFlavor" value="只有真正受到祝福之人才由资格拿起伽马手枪. 从枪口中喷涌而出的电离辐射束能够在一秒钟之内将一个活生生的人化为一片黑影. 但这完全是在浪费它真正的力量—在必要的时候, 狂野的机械之魂甚至能够赐予它穿透天鹰要塞的能力."/>
+	<entry name="GatlingRocketLauncher" value="加特林火箭发射器"/>
+	<entry name="GatlingRocketLauncherFlavor" value="<string name='Weapons/IcarusArrayFlavor'/>"/>
+	<entry name="GaussAnnihilator" value="高斯吸收器"/>
+	<entry name="GaussAnnihilatorFlavor" value="高斯水晶塔能够从太空亡灵能量矩阵中吸取能量, 并通过包括安装在其上方的高斯通量弧在内的硬线武器系统进行释放. 更可怕的是水晶塔的高斯吸收器—这是一种进行了紧束处理的粒子鞭, 在结合先进的制导和目标锁定系统后, 使其能够与来袭的部队和飞行器进行交战."/>
+	<entry name="GaussCannon" value="高斯加农炮"/>
+	<entry name="GaussCannonFlavor" value="<string name='Weapons/GaussFlavor'/>"/>
+	<entry name="GaussFlayer" value="高斯掠夺者"/>
+	<entry name="GaussFlayerFlavor" value="<string name='Weapons/GaussFlavor'/>"/>
+	<entry name="GaussFlayerArray" value="高斯掠夺者阵列"/>
+	<entry name="GaussFlayerArrayFlavor" value="<string name='Weapons/GaussFlavor'/>"/>
+	<entry name="GaussFluxArc" value="高斯能量电弧"/>
+	<entry name="GaussFluxArcFlavor" value="<string name='Weapons/GaussFlavor'/>"/>
+	<entry name="GaussCannon" value="高斯加农炮"/>
+	<entry name="GaussCannonFlavor" value="<string name='Weapons/GaussFlavor'/>"/>
+	<entry name="Ghostaxe" value="幽灵之斧"/>
+	<entry name="GhostaxeFlavor" value="<string name='Weapons/GhostFlavor'/>"/>
+	<entry name="GorestormCannon" value="血腥风暴加农炮"/>
+	<entry name="GorestormCannonFlavor" value="血腥风暴加农炮是一种简单却异常有效的武器, 能够在极大范围内喷射沸腾着的高压血液. 那些没有被溶解掉的敌人要么溺毙在血海之中, 要么就在盔甲里被活活烹煮."/>
+	<entry name="GraspingTongue" value="抓握之舌"/>
+	<entry name="GraspingTongueFlavor" value="这种生物如爪子般的舌头能够轻松抓住猎物, 然后将其一口吞掉."/>
+	<entry name="GreaterCleaverOfKhorne" value="恐虐巨斧"/>
+	<entry name="GreaterCleaverOfKhorneFlavor" value="每一柄这样的巨大而厚实的利斧与一辆战斗坦克重量相当. 当颅骨之主愤怒地将它挥舞, 一次劈砍就能轻松撕裂泰坦的腿部."/>
+	<entry name="GrenadierGauntlet" value="掷弹兵手甲"/>
+	<entry name="GrenadierGauntletFlavor" value="这些简单的手甲能够将碎片炸弹投掷到敌人之中."/>
+	<entry name="HadesAutocannon" value="哈迪斯自动加农炮"/>
+	<entry name="HadesAutocannonFlavor" value="哈迪斯自动加农炮是最常见的恶魔引擎装置, 亚空间铁匠曾利用它们来征服帝国的星球. 这件武器拥有六个炮管, 可以施展极高的射速, 以至于它们能够以雷鸣般的炮弹撕裂步兵集群甚至是装甲精良的目标."/>
+	<entry name="HadesGatlingCannon" value="冥神加特林炮"/>
+	<entry name="HadesGatlingCannonFlavor" value="如果冥神自动加农炮带来的是一场火焰之雨, 那么体积更为巨大的冥神加特林炮引发的将是一场飓风. 这种武器每秒钟可以发射数百枚由符文所雕刻的弹药, 所指之处任何目标都将会被打成无法辨认的碎片."/>
+	<entry name="HavocLauncher" value="浩劫发射器"/>
+	<entry name="HavocLauncherFlavor" value="这些装置能够发射出具有惊人爆炸威力的飞弹."/>
+	<entry name="HaywireGrenade" value="狂乱手雷"/>
+	<entry name="HaywireGrenadeFlavor" value="狂乱手雷爆炸所释放的电磁脉冲能够对载具造成伤害."/>
+	<entry name="HeatRayDispersed" value="分散热能射线"/>
+	<entry name="HeatRayDispersedFlavor" value="热能射线是一种多用途的融合武器, 其聚焦爆炸能够将敌人的坦克从头到尾切成两半. 在面对敌方步兵时, 操作者能够将发射的光束进行分散, 目标会瞬间被灼热的等离子云包围."/>
+	<entry name="HeatRayFocused" value="集中热能射线"/>
+	<entry name="HeatRayFocusedFlavor" value="<string name='Weapons/HeatRayDispersedFlavor'/>"/>
+	<entry name="HeavyBolter" value="重型爆矢枪"/>
+	<entry name="HeavyBolterFlavor" value="<string name='Weapons/BoltFlavor'/>"/>
+	<entry name="HeavyBombClusters" value="重型集束炸弹"/>
+	<entry name="HeavyDScythe" value="重型D镰"/>
+	<entry name="HeavyDScytheFlavor" value="<string name='Weapons/DistortionFlavor'/>"/>
+	<entry name="HeavyFlamer" value="重型火焰枪"/>
+	<entry name="HeavyFlamerFlavor" value="<string name='Weapons/FlamerFlavor'/>"/>
+	<entry name="HeavyGaussCannon" value="重型高斯加农炮"/>
+	<entry name="HeavyGaussCannonFlavor" value="<string name='Weapons/GaussFlavor'/>"/>
+	<entry name="HeavyGravCannon" value="重型重力加农炮"/>
+	<entry name="HeavyGravCannonFlavor" value="机械神教所使用的引力子科技令人恐惧. 被重型引力子炮命中的目标将会被看不见的力场所击晕或者瘫痪, 甚至会被呈指数级增长的质量所压碎, 直至留下一个渗出液体的生物金属圆盘."/>
+	<entry name="HeavyPhosphorBlaster" value="重型磷光爆矢枪"/>
+	<entry name="HeavyPhosphorBlasterFlavor" value="<string name='Weapons/PhosphorFlavor'/>"/>
+	<entry name="HeavyStubber" value="重型伐木枪"/>
+	<entry name="HeavyStubberFlavor" value="<string name='Weapons/StubFlavor'/>"/>
+	<entry name="HeavyVenomCannon" value="重型毒液加农炮"/>
+	<entry name="HeavyVenomCannonFlavor" value="这些强大的生物武器能够以极快地速度发射大量的腐蚀性晶体, 这些晶体一旦被接触就能够迅速粉碎敌人."/>
+	<entry name="HellstrikeMissile" value="地狱之击导弹"/>
+	<entry name="HellstrikeMissileFlavor" value="这些导弹能够轻松穿透异教徒的护甲和异种的肉体."/>
+	<entry name="HonourBlade" value="荣耀之刃"/>
+	<entry name="HonourBladeFlavor" value="荣耀之刃实际上是一把长而宽的矛, 用于程序化解决乙太族成员之间的争执. 对于银河系中未开化的种族而言它是致命的武器, 当然优雅的扫过时, 敌人在死之前甚至都看不清它的样子."/>
+	<entry name="HornetPulseLaser" value="大黄蜂脉冲激光器"/>
+	<entry name="HornetPulseLaserFlavor" value="<string name='Weapons/LaserFlavor'/>"/>
+	<entry name="HotShotLasgun" value="热流激光枪"/>
+	<entry name="HotShotLasgunFlavor" value="<string name='Weapons/LasFlavor'/>"/>
+	<entry name="HunterKillerMissile" value="猎人杀手导弹"/>
+	<entry name="HunterKillerMissileFlavor" value="猎人杀手导弹多装备在帝国的载具山. 这些一次性使用的武器系统允许诸如犀牛运兵车等拥有对抗敌方载具的能力, 否则前者只有挨打的份."/>
+	<entry name="ImpalerCannon" value="穿刺者加农炮"/>
+	<entry name="ImpalerCannonFlavor" value="穿刺者加农炮能够以极高的速度发射脊刺, 以至于能够穿透强化装甲. 在每根脊刺的底部都有一个被称之为碎片兽的小型生物, 它利用极薄的膜状鳍将脊刺向目标推进."/>
+	<entry name="FlameBreath" value="烈焰之息"/>
+	<entry name="FlameBreathFlavor" value="从灵能者的双眼和口中喷射出的灵能火焰将能够吞噬目标."/>
+	<entry name="FlayerClaws" value="掠夺者之爪"/>
+	<entry name="FlayerClawsFlavor" value="掠夺者用一系列致命的利刃, 尖爪和机械剪代替其双手, 以更快地把猎物撕成肉条."/>
+	<entry name="FragMissileLauncher" value="破片导弹发射器"/>
+	<entry name="FragMissileLauncherFlavor" value="导弹发射器能够发射多种类型的导弹, 这让其成为了一款非常全能的武器."/>
+	<entry name="Frazzle" value="意志折磨"/>
+	<entry name="FrazzleFlavor" value="怪异小子将弧状的灵能射向敌人, 在同伴惊恐的眼神中, 敌人将被分解成为干瘪的躯壳."/>
+	<entry name="IcarusArrayFlavor" value="机械神教所使用的伊卡洛斯阵列让天空不可避免地充满了死亡. 一座带有泣天者棱镜的双联伊卡洛斯自动加农炮, 一座具有强大齐射能力的加特林火箭发射器, 再加上穿甲导弹发射器, 这一强大的火力组合能够轻松粉碎敌人的战斗机中队."/>
+	<entry name="IncendineCombustor" value="爆燃喷射器"/>
+	<entry name="IncendineCombustorFlavor" value="爆燃喷射器一般会安装在卡斯特兰战斗机器人顶部, 能够喷射出燃烧着的钷素. 只需几秒钟的时间, 任何物质都将立刻化为灰烬."/>
+	<entry name="IonAcceleratorOvercharged" value="离子加速器过载"/>
+	<entry name="IonAcceleratorOverchargedFlavor" value="<string name='Weapons/IonFlavor'/>"/>
+	<entry name="IonAcceleratorStandard" value="离子加速器标准"/>
+	<entry name="IonAcceleratorStandardFlavor" value="<string name='Weapons/IonFlavor'/>"/>
+	<entry name="IonRifleOvercharged" value="离子来复枪过载"/>
+	<entry name="IonRifleOverchargedFlavor" value="<string name='Weapons/IonFlavor'/>"/>
+	<entry name="IonRifleStandard" value="离子来复枪标准"/>
+	<entry name="IonRifleStandardFlavor" value="<string name='Weapons/IonFlavor'/>"/>
+	<entry name="JokaeroDigitalWeapon" value="<string name='Items/JokaeroDigitalWeapon'/>"/>
+	<entry name="JokaeroDigitalWeaponDescription" value="<string name='Items/JokaeroDigitalWeaponDescription'/>"/>
+	<entry name="JokaeroDigitalWeaponFlavor" value="<string name='Items/JokaeroDigitalWeaponFlavor'/>"/>
+	<entry name="KanKlaw" value="开罐爪"/>
+	<entry name="KanKlawFlavor" value="<string name='Weapons/KlawFlavor'/>"/>
+	<entry name="KlawOfGork" value="搞哥之爪"/>
+	<entry name="KlawOfGorkFlavor" value="<string name='Weapons/KlawFlavor'/>"/>
+	<entry name="KrakGrenade" value="碎裂手雷"/>
+	<entry name="KrakGrenadeFlavor" value="碎裂手雷能够以内爆的形式摧毁载具的装甲."/>
+	<entry name="KrakMissileLauncher" value="碎裂导弹发射器"/>
+	<entry name="KrakMissileLauncherFlavor" value="<string name='Weapons/FragMissileLauncherFlavor'/>"/>
+	<entry name="KrakstormMissileSilo" value="碎裂风暴导弹发射井"/>
+	<entry name="KrakstormMissileSiloFlavor" value="<string name='Weapons/BlastFlavor'/>"/>
+	<entry name="KrootGun" value="克鲁特炮"/>
+	<entry name="KrootGunFlavor" value="克鲁特使用钛帝国改装的武器发射脉冲能量."/>
+	<entry name="KustomMegaBlasta" value="自制超级熔岩枪"/>
+	<entry name="KustomMegaBlastaFlavor" value="<string name='Weapons/KustomMegaSluggaFlavor'/>"/>
+	<entry name="KustomMegaSlugga" value="定制超级打击者"/>
+	<entry name="KustomMegaSluggaFlavor" value="兽人技师最喜爱的枪械通常都是它最喜爱的项目. 在一个美好的日子里, 即使是这种枪里最轻便的那一支也能够在二十步开外把星际战士打出一个洞. 当然了, 定制超级武器也有一定的代价, 那就是过量的发热会有可能导致爆炸. 尽管会带来伤害, 但相比威力而言冒这样的风险是值得的."/>
+	<entry name="Lascannon" value="激光加农炮"/>
+	<entry name="LascannonFlavor" value="<string name='Weapons/LasFlavor'/>"/>
+	<entry name="LaserLanceMelee" value="激光战矛 (近战)"/>
+	<entry name="LaserLanceMeleeFlavor" value="由闪耀之矛战士所使用, 能够产生聚集的能量脉冲, 并释放出惊人的爆炸威力."/>
+	<entry name="LaserLanceRanged" value="激光战矛 (远程)"/>
+	<entry name="LaserLanceRangedFlavor" value="<string name='Weapons/LaserLanceMeleeFlavor'/>"/>
+	<entry name="Lasgun" value="激光枪"/>
+	<entry name="LasgunFlavor" value="<string name='Weapons/LasFlavor'/>"/>
+	<entry name="LasgunArray" value="激光枪阵列"/>
+	<entry name="LasgunArrayFlavor" value="<string name='Weapons/LasFlavor'/>"/>
+	<entry name="LashWhipAndBonesword" value="束缚之鞭和骨刀"/>
+	<entry name="LashWhipAndBoneswordFlavor" value="一些泰伦虫族生物会装备这些生物武器, 作为一种致命的共生组合."/>
+	<entry name="LashWhips" value="缠绕鞭"/>
+	<entry name="LashWhipsFlavor" value="缠绕鞭能够以闪电般的速度对目标造成伤害."/>
+	<entry name="LashingWarpEnergies" value="亚空间能量鞭笞"/>
+	<entry name="LashingWarpEnergiesFlavor" value="如果那令人作呕的光环还不够具有警告性的话, 那么你越靠近诺斯里斯之冠, 邪恶的能量就越快扑向你, 粉碎最强的防御, 甚至能够将虚弱的攻击者悉数带进亚空间虚空之中."/>
+	<entry name="Laspistol" value="激光手枪"/>
+	<entry name="LaspistolFlavor" value="<string name='Weapons/LasFlavor'/>"/>
+	<entry name="LifeLeech" value="生命吸取"/>
+	<entry name="LifeLeechFlavor" value="随着双手的扭动, 愤怒的灵能者夺走了敌人的生命. 通过聚集这些窃取而来的生命精华, 灵能者能够使用并为受伤的盟友进行治疗."/>
+	<entry name="LightningClaws" value="闪电之爪"/>
+	<entry name="LightningClawsFlavor" value="闪电之爪通常是成对使用, 它们由多个刀刃组成. 每个刀刃都是一种小型动力武器, 通常安装在手甲背面."/>
+	<entry name="LitanyOfTheElectromancer" value="<string name='Actions/AdeptusMechanicus/LitanyOfTheElectromancer'/>"/>
+	<entry name="LitanyOfTheElectromancerFlavor" value="<string name='Actions/AdeptusMechanicus/LitanyOfTheElectromancerFlavor'/>"/>
+	<entry name="Mandiblasters" value="激光雷管"/>
+	<entry name="MandiblastersFlavor" value="激光雷管能够射出针刺碎片并引导致命的激光爆炸."/>
+	<entry name="MagnarailLance" value="磁轨长枪"/>
+	<entry name="ManipulusMechadendrites" value="机械卷须"/>
+	<entry name="MeltaBomb" value="热熔炸弹"/>
+	<entry name="MeltaBombDescription" value="可以对载具, 大型生物或堡垒单位使用."/>
+	<entry name="MeltaBombFlavor" value="热熔炸弹能够在几秒的时间里将敌人的装甲烧穿."/>
+	<entry name="MeltaCannon" value="热熔加农炮"/>
+	<entry name="MeltaCannonFlavor" value="这种武器能够极快地将目标装甲化为熔渣."/>
+	<entry name="Meltagun" value="热熔枪"/>
+	<entry name="MeltagunFlavor" value="<string name='Weapons/MeltaFlavor'/>"/>
+	<entry name="MeteoricDescent" value="流星坠落"/>
+	<entry name="MeteoricDescentDescription" value="提高对飞行单位的攻击."/>
+	<entry name="MeteoricDescentFlavor" value="那些安装有双翼的恐怖造物从风暴肆虐的空中疾驰而出, 将它们毫无戒备的猎物们瞬间撕成碎片, 带来毁灭性的打击."/>
+	<entry name="MissilePod" value="导弹舱"/>
+	<entry name="MissilePodFlavor" value="这些携带弹道的武器舱是简单而有效的运载系统, 适合中轻型载具和重型步兵使用, 也可以安装在许多战斗装甲和无人机上."/>
+	<entry name="MoltenBeam" value="熔岩射线"/>
+	<entry name="MoltenBeamFlavor" value="烈焰巫师双手一合, 闪耀着白光的炽热能量射线便开始从手掌中喷薄而出. 熔岩射线能够瞬间融化装甲并摧毁肉体, 只留下如同鬼魅般的阴影."/>
+	<entry name="MultiLaser" value="多重激光器"/>
+	<entry name="MultiLaserFlavor" value="<string name='Weapons/LasFlavor'/>"/>
+	<entry name="MultiMelta" value="多重热熔"/>
+	<entry name="MultiMeltaFlavor" value="<string name='Weapons/MeltaFlavor'/>"/>
+	<entry name="MultiMeltaPlaytest" value="多重热熔"/>
+	<entry name="MultiMeltaPlaytestFlavor" value="<string name='Weapons/MeltaFlavor'/>"/>
+	<entry name="NeutronBlaster" value="中子爆破枪"/>
+	<entry name="NeutronBlasterFlavor" value="刺翼武器融合了胡蜂人和钛星人的技术. 安装在武器上的晶体能够发出强大的中子爆炸, 除了最强大的装甲外没有任何防御手段可以阻挡."/>
+	<entry name="None" value="无"/>
+	<entry name="NoseDrill" value="鼻钻"/> <!-- Megatrakk Scrapjet -->
+	<entry name="NoseDrillFlavor" value="尽管飞行小子看到他那珍贵的大枪攻击机被困在格雷迪厄斯无疑感到很愤怒, 但兽人技师却带来了好消息—在头部装上一个巨大的钻头, 这样它就能像过去那样从空中切入敌人.."/>
+	<entry name="OmnissianStaff" value="万机之神法杖"/>
+	<entry name="ParagonGrenadeLauncher" value="楷模手雷发射器"/>
+	<entry name="ParagonGrenadeLauncherFlavor" value="嵌入在这个楷模战甲中的双榴弹发射器被设计用于在移动中发射, 能够将大量破片炮弹散布到更广阔的区域."/>
+	<entry name="ParagonWarBlade" value="楷模战刃"/>
+	<entry name="ParagonWarBladeFlavor" value="通常装备有战斗修女三一圣化重武器重的一个—重型爆矢枪, 国教会重型火焰喷射器和多重热熔武器—此外楷模战甲还能够挥舞巨大的近战武器, 能量场发出的声响使它能够像撕开纸巾一样破坏敌人的盔甲."/>
+	<entry name="OrbitalBombardment" value="轨道轰炸"/>
+	<entry name="ParticleWhip" value="粒子鞭笞"/>
+	<entry name="ParticleWhipFlavor" value="<string name='Weapons/ParticleFlavor'/>"/>
+	<entry name="PenitentBuzzBlade" value="忏悔者之刃"/>
+	<entry name="PenitentBuzzBlade" value="这些机器的臂式火焰喷射器在向敌人发出雷鸣般的咆哮声时, 还会燃起一条炽热的毁灭印记. 它们巨大而锋利的动力锯则会在每一次疯狂的挥动中都切碎敌人的盔甲, 血肉和骨头."/>
+	<entry name="PhosphorBlaster" value="磷光爆矢枪"/>
+	<entry name="PhosphorBlasterFlavor" value="<string name='Weapons/PhosphorFlavor'/>"/>
+	<entry name="PhosphorPistol" value="磷光手枪"/>
+	<entry name="PhosphorPistolFlavor" value="<string name='Weapons/PhosphorFlavor'/>"/>
+	<entry name="PhosphorSerpenta" value="磷光蛇杖"/>
+	<entry name="PhosphorSerpentaFlavor" value="<string name='Weapons/PhosphorFlavor'/>"/>
+	<entry name="PhosphorTorch" value="磷光火炬"/>
+	<entry name="PhosphorTorchFlavor" value="<string name='Weapons/FlamerFlavor'/>"/>
+	<entry name="PhotonGrenade" value="光子手雷"/>
+	<entry name="PhotonGrenadeFlavor" value="防御性手雷, 比如钛星人的光子手雷, 能够发射出广谱光线和声爆, 因此具有双重用途. 在充能后, 这些手雷能够迷惑敌人的进攻; 而在对抗攻击时, 光子手雷四散的气体和烟雾云能够有助于掩护使用者."/>
+	<entry name="PlasmaCutter" value="等离子切割器"/>
+	<entry name="PlasmaCutterFlavor" value="<string name='Weapons/PlasmaFlavor'/>"/>
+	<entry name="PlasmaGrenade" value="等离子手雷"/>
+	<entry name="PlasmaGrenadeFlavor" value="等离子手雷是一种先进的突击手雷, 通常由艾达灵族所使用."/>
+	<entry name="PlasmaGun" value="等离子枪"/>
+	<entry name="PlasmaGunFlavor" value="<string name='Weapons/PlasmaFlavor'/>"/>
+	<entry name="PlasmaPistol" value="等离子左轮枪"/>
+	<entry name="PlasmaPistolFlavor" value="<string name='Weapons/PlasmaFlavor'/>"/>
+	<entry name="PlasmaRifle" value="等离子来复枪"/>
+	<entry name="PlasmaRifleFlavor" value="尽管等离子体技术极不稳定, 但依然为许多种族所使用. 钛星人最偏爱的技术形式能够在一定程度上终止能量进一步提高, 以此来保证操作者的安全."/>
+	<entry name="PowerAxe" value="能量之斧"/>
+	<entry name="PowerAxeFlavor" value="<string name='Weapons/PowerFlavor'/>"/>
+	<entry name="PowerFist" value="能量拳套"/>
+	<entry name="PowerFistFlavor" value="<string name='Weapons/PowerFlavor'/>"/>
+	<entry name="PowerKlaw" value="能量之爪"/>
+	<entry name="PowerKlawFlavor" value="<string name='Weapons/KlawFlavor'/>"/>
+	<entry name="PowerMaul" value="能量之锤"/>
+	<entry name="PowerMaulFlavor" value="<string name='Weapons/PowerFlavor'/>"/>
+	<entry name="PowerScourge" value="能量天灾"/>
+	<entry name="PowerScourgeFlavor" value="<string name='Weapons/PowerFlavor'/>"/>
+	<entry name="PowerSword" value="能量之剑"/>
+	<entry name="PowerSwordFlavor" value="<string name='Weapons/PowerFlavor'/>"/>
+	<entry name="PulseBomb" value="脉冲炸弹"/>
+	<entry name="PulseBombFlavor" value="<string name='Weapons/PulseFlavor'/>"/>
+	<entry name="PulseDriverCannon" value="脉冲驱动加农炮"/>
+	<entry name="PulseDriverCannonFlavor" value="<string name='Weapons/PulseFlavor'/>"/>
+	<entry name="PulseLaser" value="脉冲激光"/>
+	<entry name="PulseLaserFlavor" value="<string name='Weapons/LaserFlavor'/>"/>
+	<entry name="PulseRifle" value="脉冲来复枪"/>
+	<entry name="PulseRifleFlavor" value="<string name='Weapons/PulseFlavor'/>"/>
+	<entry name="PrehensilePincer" value="抓握刃螯"/>
+	<entry name="PrehensilePincerFlavor" value="<string name='Weapons/TailBiomorphFlavor'/>"/>
+	<entry name="PrismCannonDispersed" value="棱镜加农炮 (散射)"/>
+	<entry name="PrismCannonDispersedFlavor" value="棱镜加农炮通常安装在炎晶坦克上, 可以通过宝贵的灵能水晶放大高强度激光从而产生毁灭性的爆炸. 激光既可以聚焦为狭窄的光束, 也可以扩大以摧毁更大区域的面积."/>
+	<entry name="PrismCannonFocused" value="棱镜加农炮(聚焦)"/>
+	<entry name="PrismCannonFocusedFlavor" value="<string name='Weapons/PrismCannonDispersedFlavor'/>"/>
+	<entry name="PrismCannonLance" value="棱镜加农炮 (战矛)"/>
+	<entry name="PrismCannonLanceFlavor" value="<string name='Weapons/PrismCannonDispersedFlavor'/>"/>
+	<entry name="PsychicMaelstrom" value="灵能漩涡"/>
+	<entry name="PsychicMaelstromFlavor" value="使用者将全部的精神之力聚集在一起, 形成一股具有毁灭之力的巨型漩涡. 漩涡所释放出的灵能风暴能够将敌人彻底摧毁."/>
+	<entry name="PsychicScream" value="灵能尖啸"/>
+	<entry name="PsychicScreamFlavor" value="虫巢意志能够通过其仆从释放出尖锐而刺耳的灵能尖啸, 足以摧毁任何生物的心智."/>
+	<entry name="PteraxiiTalons" value="灭杀者之爪"/>
+	<entry name="PteraxiiTalonsFlavor" value="<string name='Weapons/MeleeFlavor'/>"/>
+	<entry name="QuadIonTurretOvercharged" value="四联离子炮塔过载"/>
+	<entry name="QuadIonTurretOverchargedFlavor" value="<string name='Weapons/IonFlavor'/>"/>
+	<entry name="QuadIonTurretStandard" value="四联离子炮塔标准"/>
+	<entry name="QuadIonTurretStandardFlavor" value="<string name='Weapons/IonFlavor'/>"/>
+	<entry name="RadSaturation" value="<string name='Actions/AdeptusMechanicus/RadSaturation'/>"/>
+	<entry name="RadSaturationFlavor" value="<string name='Actions/AdeptusMechanicus/RadSaturationFlavor'/>"/>
+	<entry name="RadiumCarbine" value="辐射卡宾枪"/>
+	<entry name="RadiumCarbineFlavor" value="<string name='Weapons/RadiumFlavor'/>"/>
+	<entry name="RadiumSerpenta" value="辐射蛇杖"/>
+	<entry name="RadiumSerpentaFlavor" value="<string name='Weapons/RadiumFlavor'/>"/>
+	<entry name="RailgunWithSolidShot" value="实弹轨道炮"/>
+	<entry name="RailgunWithSolidShotFlavor" value="<string name='Weapons/RailFlavor'/>"/>
+	<entry name="RangerLongRifle" value="游侠长枪"/>
+	<entry name="RangerLongRifleFlavor" value="游侠长枪是一种精密的武器, 即便是在极远的距离下也能够精确地找出目标护甲的薄弱点."/>
+	<entry name="RapidFireBattleCannon" value="速火战斗加农炮"/>
+	<entry name="RapidFireBattleCannonFlavor" value="这门远程大炮类似于一个附着在帝国骑士手臂上的大口径火炮. 它的快速自主填装系统能够以惊人的速度向敌人倾斜怒火, 爆炸射击造成的冲击波能够带来可怕的伤亡. 这个武器通常用于对抗步兵集团, 重型坦克以及轻型载具."/>
+	<entry name="ReaperAutocannon" value="收割者自动加农炮"/>
+	<entry name="ReaperAutocannonFlavor" value="人们将某种特殊的双管自动加农炮称之为收割者, 尽管它已经不再被帝皇的军队所使用. 这是混沌终结者最常用的武器, 能够让它们有更高的几率消灭准星中的敌人."/>
+	<entry name="RendingClaws" value="碎裂之爪"/>
+	<entry name="RendingClawsFlavor" value="这些利爪如钻石般坚硬的尖端能够轻松撕开任何护甲."/>
+	<entry name="RodOfCovenantMelee" value="誓约之杖(近战)"/>
+	<entry name="RodOfCovenantMeleeFlavor" value="誓约之杖是三圣卫队用来迅速处决的武器. 在每把武器的顶端都用力场束缚着一块死星碎片, 它能够像烧纸一般轻松点燃敌人的盔甲. 这股强大的能量能够在使用者的引导下形成炽热的爆炸, 尽管射程不高, 但哪怕是太空死灵也会最终变成一滩融化的金属—更别说那些有机体生物了."/>
+	<entry name="RodOfCovenantRanged" value="誓约之杖(远程)"/>
+	<entry name="RodOfCovenantRangedFlavor" value="<string name='Weapons/RodOfCovenantMeleeFlavor'/>"/>
+	<entry name="RokkitKannon" value="火箭加农炮"/> <!-- Megatrakk Scrapjet -->
+	<entry name="RokkitKannonFlavor" value="飞行小子可能会从天而降, 但他的大枪攻击机却没有失去任何武器. 确实, 这些用皮带困住的火箭非常适合在地面上使用, 消灭敌人简直不费吹灰之力. 现在要瞄准谁?"/>
+	<entry name="RokkitLauncha" value="火箭发射器"/>
+	<entry name="RokkitLaunchaFlavor" value="火箭发射器尽管很原始, 但制造起来相当的容易. 简单地触发机制能够让欧克兽人站在'安全'的一端向敌人的方向发射火箭弹."/>
+	<entry name="RollOverThem" value="“翻滚起来!”"/>
+	<entry name="RuptureCannon" value="碎裂加农炮"/>
+	<entry name="RuptureCannonFlavor" value="这种武器能够以极快地速度射出两种不同的弹药. 第一种是体态臃肿的蜱虫, 在接触目标后发生爆炸同时能够将厚厚的油状物质喷向目标. 第二种是一类籽荚, 当其接触到油状物质时将会发生剧烈反应, 所产生的内爆甚至可以将装甲载具轻松击毁."/>
+	<entry name="ScythingTalons" value="巨镰利爪"/>
+	<entry name="ScythingTalonsFlavor" value="巨镰利爪由锯齿几丁质所组成, 巨大而锋利."/>
+	<entry name="SeekerMissile" value="搜寻者导弹"/>
+	<entry name="SeekerMissileFlavor" value="搜寻者导弹是一种单发武器, 通常需要标记之光来引导目标, 尽管它们本身也可以独立发射."/>
+	<entry name="SeismicAssaultCoalescent" value="地震突袭(联合)"/>
+	<entry name="SeismicAssaultCoalescentFlavor" value="当星神碎片从地底被拖出来时, 奔涌的岩浆能够让石头裂隙和矿石迅速喷射出银色的蒸汽."/>
+	<entry name="SeismicAssaultTranscendent" value="地震突袭(卓越)"/>
+	<entry name="SeismicAssaultTranscendentFlavor" value="<string name='Weapons/SeismicAssaultCoalescentFlavor'/>"/>
+	<entry name="SensoryOverload" value="感官过载"/>
+	<entry name="SensoryOverloadDescription" value="造成伤害并使目标敌方单位虚弱."/>
+	<entry name="SensoryOverloadFlavor" value="为了能够让敌人的中枢神经超负荷运转, 灵能者需要确保它们以一个合适的状态来接受如此一般的致命爱抚."/>
+	<entry name="SerpentShield" value="巨蛇护盾"/>
+	<entry name="SerpentShieldFlavor" value="当艾达灵族海蛇运输艇行进时, 它们会被强大的护盾所保护. 这些护盾能够施放强大的能量波, 以便将敌人从脚下炸开."/>
+	<entry name="ServoArm" value="伺服手臂"/>
+	<entry name="ServoArmFlavor" value="科技神甫工程师和他们的奴工时常夸耀那强大的伺服手臂. 这些机械肢体能够轻松进行复杂的战场修理, 或者是终结敌人的生命. 尽管这些武器攻击速度很慢, 而一旦伺服手臂锁在液压地驱动下进行锁定并开始挤压, 那么敌人将要面对的就是可怕的死亡."/>
+	<entry name="ShadowWeaver" value="暗影编织者"/>
+	<entry name="ShadowWeaverFlavor" value="<string name='Weapons/MonofilamentFlavor'/>"/>
+	<entry name="Shadowlimbs" value="暗影肢体"/>
+	<entry name="ShadowlimbsFlavor" value="在战斗中试图消灭一只本影怪意味着要面对不断变化的恐怖打击, 而这些恐怖之物已经存在了数百万年. 所有的恐怖梦魇均由暗影本身所构成, 它并不是什么梦境, 而是有形而致命的实体."/>
+	<entry name="SingingSpearMelee" value="歌唱之矛 (近战)"/>
+	<entry name="SingingSpearMeleeFlavor" value="艾达灵族灵能者投掷的这支长矛能够轻松击碎装甲和肉身, 并且最终将回到持有者手中."/>
+	<entry name="SingingSpearRanged" value="歌唱之矛 (远程)"/>
+	<entry name="SingingSpearRangedFlavor" value="<string name='Weapons/SingingSpearMeleeFlavor'/>"/>
+	<entry name="Shockwave" value="震荡波"/>
+	<entry name="ShockwaveFlavor" value="灵能者将双掌拍合在一起, 发出的声响在放大数百倍后形成了一股强大的震荡波, 能够轻松地将敌人的骨头震碎."/>
+	<entry name="Shoota" value="机枪"/>
+	<entry name="ShurikenCannon" value="星镖加农炮"/>
+	<entry name="ShurikenCannonFlavor" value="<string name='Weapons/ShurikenFlavor'/>"/>
+	<entry name="ShurikenCatapult" value="星镖射枪"/>
+	<entry name="ShurikenCatapultFlavor" value="<string name='Weapons/ShurikenFlavor'/>"/>
+	<entry name="ShurikenPistol" value="星镖手枪"/>
+	<entry name="ShurikenPistolFlavor" value="<string name='Weapons/ShurikenFlavor'/>"/>
+	<entry name="Skorcha" value="火焰喷射枪"/>
+	<entry name="SkorchaFlavor" value="火焰喷射枪能够朝着目标区域喷射大量火焰, 它们是欧克兽人纵火犯们的最爱. 这把武器通常会装备在欧克兽人载具上, 不过一些兽人技师也开始将其成功地运用到合体武器上."/>
+	<entry name="SkorchaMissile" value="火焰喷射导弹"/>
+	<entry name="SkorchaMissileFlavor" value="焚燃轰炸机的飞行员能够使用火焰喷射导弹将步兵赶出掩体. 导弹的弹头在爆炸后将喷射出炽热的化学烈焰, 即便是最强大的防御工事也会变得不堪一击."/>
+	<entry name="SkyOfFallingStarsCoalescent" value="坠星之穹(联合)"/>
+	<entry name="SkyOfFallingStarsCoalescentFlavor" value="闪耀着光辉的美丽宝珠从冰冷地深空中缓缓落下, 在靠近地过程中渐渐变成了咆哮着的灾难之星."/>
+	<entry name="SkyOfFallingStarsTranscendent" value="坠星之穹(卓越)"/>
+	<entry name="SkyOfFallingStarsTranscendentFlavor" value="<string name='Weapons/SkyOfFallingStarsCoalescentFlavor'/>"/>
+	<entry name="SkyhammerMissileLauncher" value="天锤导弹发射器"/>
+	<entry name="SkyhammerMissileFlavor" value="这些武器所发射出的弹道能够以毁灭性的力量消灭目标—非常时候用来将装甲载具变为一堆废铁."/>
+	<entry name="SkyspearMissileLauncher" value="天矛导弹发射器"/>
+	<entry name="SkyspearMissileLauncherFlavor" value="天矛导弹发射器能够发射威力强大的弹头, 每一个都是遗迹, 容纳着杰出战团成员的遗体. 奴工木乃伊化的大脑能够强化导弹的自动瞄准性能, 允许它能够通过机械之魂的邪恶排放再次预测敌人的方向. 在可怕的弹头和飞行员的顽强追求下, 坦克的伺服装载器能够保持稳定的射速, 敌人几乎没有逃跑的可能."/>
+	<entry name="SkystrikeMissile" value="天击导弹"/>
+	<entry name="SkystrikeMissileFlavor" value="<string name='Weapons/BlastFlavor'/>"/>
+	<entry name="Slugga" value="打击者"/>
+	<entry name="SluggaFlavor" value="这款粗犷而丑陋的手枪非常适合那些粗犷而丑陋的使用者. 他们既可以从远处直接射击, 也可以当作钝器对敌人进行殴打."/>
+	<entry name="Snazzgun" value="喷嚏炮"/>
+	<entry name="SnazzgunFlavor" value="喷嚏炮可以称得上是欧克兽人技艺的奇迹. 它们的拥有者将无数的宝贝附着在枪管和弹夹上, 上面还有各种小工具和机件. 这种组合式的武器以其能够发射火焰云弹药, 等离子爆炸物和火箭推进式手榴弹而闻名."/>
+	<entry name="SniperRifle" value="狙击步枪"/>
+	<entry name="SniperRifleFlavor" value="狙击步枪配备了强大的伸缩瞄准镜, 能够让射击者准确无误地瞄准远处敌人的弱点. 一些指挥官把狙击步枪视为不光彩的武器, 但这毕竟是少数. 大多数人都知道, 务实和死去的敌人远比荣誉来得重要."/>
+	<entry name="SoulBlaze" value="灵魂烈焰"/>
+	<entry name="SoulBlazeFlavor" value="这款灌注了灵能的武器能够让灵魂闪耀出火光, 不幸之人将永远消失在飘渺的烈焰中."/>
+	<entry name="SoulflayerTendrils" value="灵魂掠夺者卷须"/>
+	<entry name="SoulflayerTendrilsFlavor" value="<string name='Weapons/MeleeFlavor'/>"/>
+	<entry name="SpaceMarineShotgun" value="星际战士猎枪"/>
+	<entry name="SpaceMarineShotgunFlavor" value="<string name='Weapons/StubFlavor'/>"/>
+	<entry name="SpineBanks" value="脊刺"/>
+	<entry name="SpineBanksFlavor" value="一些刽子手甲壳中所嵌入的爆炸性脊刺同样能够在冲锋时射向敌人."/>
+	<entry name="SporeMineLauncher" value="孢子地雷发射器"/>
+	<entry name="StaffOfLight" value="光明之杖"/>
+	<entry name="StaffOfLightFlavor" value="它既是一把武器, 也是权威的象征. 法杖的手柄实际上是一个能量生成器, 而尖端则是经过了细致调整的聚焦装置, 允许使用者向敌人释放爆裂能量箭矢."/>
+	<entry name="Starcannon" value="星辰加农炮"/>
+	<entry name="StarcannonFlavor" value="人类制造的等离子武器经常对使用者造成伤害, 而这也证明了人类的愚蠢. 星辰加农炮和日光加农炮就没有这种缺陷, 它们的等离子核心能够产生恒星一般的热量, 但枪支本身又能够保持凉爽的触感."/>
+	<entry name="StingerSalvo" value="毒刺齐射"/>
+	<entry name="StingerSalvoFlavor" value="毒刺齐射是一种简单而高效的武器, 能够发射出长达数米如剃刀般的尖刺."/>
+	<entry name="Stikkbomb" value="黏液炸弹"/>
+	<entry name="StikkbombFlavor" value="<string name='Weapons/FragGrenadeFlavor'/>"/>
+	<entry name="Stomp" value="践踏"/>
+	<entry name="StormBolter" value="狂怒爆矢枪"/>
+	<entry name="StormBolterFlavor" value="<string name='Weapons/BoltFlavor'/>"/>
+	<entry name="StormstrikeMissile" value="风暴打击导弹"/>
+	<entry name="StormstrikeMissileFlavor" value="风暴打击导弹爆炸时将会发出雷鸣般的声响, 范围之内的敌人将会瞬间眩晕, 迷失方向."/>
+	<entry name="StranglethornCannon" value="荆棘加农炮"/>
+	<entry name="StranglethornCannonFlavor" value="这些武器所发射出的种荚能够在数秒内生长成熟, 同时向各个方向伸展出如钩子般的卷须."/>	
+	<entry name="SulphurBreath" value="硫磺之息"/>
+	<entry name="SulphurBreathFlavor" value="<string name='Weapons/FlamerFlavor'/>"/>
+	<entry name="Suncannon" value="日光加农炮"/>
+	<entry name="SuncannonFlavor" value="<string name='Weapons/StarcannonFlavor'/>"/>
+	<entry name="SupaLobba" value="超级迫击炮"/>
+	<entry name="SupaLobbaFlavor" value="绝大多数迫击炮都拥有庞大的体积和嘈杂的声响, 一般会被装备在战斗堡垒上."/>
+	<entry name="SupremacyRailgun" value="究极轨道炮"/>
+	<entry name="SupremacyRailgunFlavor" value="<string name='Weapons/RailFlavor'/>"/>
+	<entry name="SuperHeavyExplosion" value="超重型爆炸"/>
+	<entry name="TacticalSupportTurret" value="DS8战术支援炮塔"/>
+	<entry name="TacticalSupportTurretFlavor" value="全自动战术支援炮塔安装在飞行器两侧的支架上, 能够为火族打击小队提供支持. 这些装甲炮塔在战场上通常部署在固定位置, 以此来增加军队的战斗力. 如果炮塔的传感器记录到任何被篡改的可能性, 那么就将启动自毁程序. 这意味着钛帝国的高级武器将永远也不会被敌人击中."/>
+	<entry name="TankbustaBomb" value="坦克破坏者炸弹"/>
+	<entry name="TankbustaBombDescription" value="<string name='Weapons/MeltaBombDescription'/>"/>
+	<entry name="TankbustaBombFlavor" value="坦克破坏者炸弹能够在几秒的时间里将敌人的装甲烧穿."/>
+	<entry name="TaserGoad" value="泰瑟尖枪"/>
+	<entry name="TaserGoadFlavor" value="<string name='Weapons/TaserFlavor'/>"/>
+	<entry name="Tentaclids" value="尖牙飞弹"/>
+	<entry name="TentaclidsFlavor" value="这些活体导弹能够主动寻找空中猎物, 在释放大量生物电脉冲前它们会用带刺的尖牙死死咬住目标."/>	
+	<entry name="TeslaCarbine" value="特斯拉卡宾枪"/>
+	<entry name="TeslaCarbineFlavor" value="<string name='Weapons/TeslaFlavor'/>"/>
+	<entry name="TeslaSphere" value="特斯拉球"/>
+	<entry name="TeslaSphereFlavor" value="<string name='Weapons/TeslaFlavor'/>"/>
+	<entry name="TheArdentBladeMelee" value="炽热之刃 (近战)"/>
+	<entry name="TheArdentBladeMeleeFlavor" value="据说这把被火焰缠绕的战刃是帝皇怒火的象征. 圣赛勒斯汀在帕拉蒂尼远征期间, 从失落已久的圣凯瑟琳神殿中取回了它以及她的黄金动力盔甲."/>
+	<entry name="TheArdentBladeRanged" value="炽热之刃 (远程)"/>
+	<entry name="TheArdentBladeRangedFlavor" value="<string name='Weapons/TheArdentBladeMeleeFlavor'/>"/>
+	<entry name="TheEmperorsVengeance" value="<string name='Actions/SistersOfBattle/TheEmperorsVengeance'/>"/>
+	<entry name="TheEmperorsVengeanceFlavor" value="<string name='Actions/SistersOfBattle/TheEmperorsVengeanceFlavor'/>"/>
+	<entry name="ThresherScythe" value="长尾镰"/>
+	<entry name="ThresherScytheFlavor" value="<string name='Weapons/TailBiomorphFlavor'/>"/>
+	<entry name="ThunderHammer" value="雷霆之锤"/>
+	<entry name="ThunderHammerFlavor" value="雷霆之锤能够在攻击时释放出巨大的能量, 被击中的敌人将会陷入眩晕(如果他还活着的话). 除此之外再加上战锤本身的重量, 使得它成为一件极为致命的武器."/>
+	<entry name="ThunderfireCannon" value="雷霆之火加农炮"/>
+	<entry name="ThunderfireCannonFlavor" value="雷霆之火加农炮是一款巨型多管火炮. 由于体积过于庞大无法为单人所携带, 在战斗中需要使用轨道进行移动并配以一名技术军士炮手."/>
+	<entry name="ToxicMiasma" value="剧毒瘴气"/>
+	<entry name="ToxicMiasmaFlavor" value="一些生物能够散发剧毒物质来污染猎物所依赖着的空气."/>
+	<entry name="Toxinspike" value="剧毒尖刺"/>
+	<entry name="ToxinspikeFlavor" value="<string name='Weapons/TailBiomorphFlavor'/>"/>
+	<entry name="TraktorKannon" value="牵引加农炮"/>
+	<entry name="TraktorKannonFlavor" value="牵引加农炮能够向空中发射强大的力场射线. 地精小分队将胡乱地操纵这座武器并瞄准空中单位. 一旦命中, 倒霉的受害者最终会重重地摔到地上."/>
+	<entry name="TransdimensionalThunderboltCoalescent" value="跨纬度雷霆箭(联合)"/>
+	<entry name="TransdimensionalThunderboltCoalescentFlavor" value="星神碎片发射出的爆裂能量箭矢能够瞬间将敌人湮灭."/>
+	<entry name="TransdimensionalThunderboltTranscendent" value="跨纬度雷霆箭(卓越)"/>
+	<entry name="TransdimensionalThunderboltTranscendentFlavor" value="<string name='Weapons/TransdimensionalThunderboltCoalescentFlavor'/>"/>
+	<entry name="TransuranicArquebus" value="超铀燧发枪"/>
+	<entry name="TransuranicArquebusFlavor" value="这些长管重型武器体现了护教军的精准和极高的效率. 燧发枪所射出的超铀弹药能够轻松击穿整个坦克, 而由此产生的压力波也会将躲藏在内的生命体瞬间粉碎."/>
+	<entry name="TwinLinkedAirburstingFragmentationProjector" value="双联喷气碎片投射仪"/>
+	<entry name="TwinLinkedAirburstingFragmentationProjectorFlavor" value="这种实验性的武器能够将碎片炸弹散布到很广的区域内, 其投射高度将由AI进行计算以最大化伤害."/>
+	<entry name="TwinLinkedAutocannon" value="双联自动加农炮"/>
+	<entry name="TwinLinkedAutocannonFlavor" value="<string name='Weapons/AutoFlavor'/>"/>
+	<entry name="TwinLinkedAssaultCannon" value="双联攻击加农炮"/>
+	<entry name="TwinLinkedAssaultCannonFlavor" value="<string name='Weapons/AutoFlavor'/>"/>
+	<entry name="TwinLinkedBigShoota" value="双联大机枪"/>
+	<entry name="TwinLinkedBigShootaFlavor" value="<string name='Weapons/ShootaFlavor'/>"/>
+	<entry name="TwinLinkedBoltgun" value="双联爆矢枪"/>
+	<entry name="TwinLinkedBoltgunFlavor" value="<string name='Weapons/BoltFlavor'/>"/>
+	<entry name="TwinLinkedBurstCannon" value="双联爆燃加农炮"/>
+	<entry name="TwinLinkedBurstCannonFlavor" value="<string name='Weapons/BurstFlavor'/>"/>
+	<entry name="TwinLinkedCognisAutocannon" value="双联认知自动加农炮"/>
+	<entry name="TwinLinkedCognisAutocannonFlavor" value="<string name='Weapons/CognisFlavor'/>"/>
+	<entry name="TwinLinkedCognisHeavyStubber" value="双联认知重型伐木枪"/>
+	<entry name="TwinLinkedCognisHeavyStubberFlavor" value="<string name='Weapons/CognisFlavor'/>"/>
+	<entry name="TwinLinkedCognisLascannon" value="双联认知激光加农炮"/>
+	<entry name="TwinLinkedCognisLascannonFlavor" value="<string name='Weapons/CognisFlavor'/>"/>
+	<entry name="TwinLinkedDakkagun" value="双联大枪"/>
+	<entry name="TwinLinkedDakkagunFlavor" value="这是一种大型料斗式机枪, 能够让粗糙的子弹喷薄而出."/>
+	<entry name="TwinLinkedFusionBlaster" value="双联聚变爆破枪"/>
+	<entry name="TwinLinkedFusionBlasterFlavor" value="<string name='Weapons/FusionFlavor'/>"/>
+	<entry name="TwinLinkedGaussBlaster" value="双联高斯爆破枪"/> 
+	<entry name="TwinLinkedGaussBlasterFlavor" value="<string name='Weapons/GaussFlavor'/>"/>
+	<entry name="TwinLinkedHeavyBolter" value="双联重型爆矢枪"/>
+	<entry name="TwinLinkedHeavyBolterFlavor" value="<string name='Weapons/BoltFlavor'/>"/>
+	<entry name="TwinLinkedHeavyFlamer" value="双联重型火焰喷射器"/>
+	<entry name="TwinLinkedHeavyFlamerFlavor" value="<string name='Weapons/FlamerFlavor'/>"/>
+	<entry name="TwinLinkedHeavyPhosphorBlaster" value="双联重型磷光爆矢枪"/>
+	<entry name="TwinLinkedHeavyPhosphorBlasterFlavor" value="<string name='Weapons/PhosphorFlavor'/>"/>
+	<entry name="TwinLinkedHeavyRailRifle" value="双联重型轨道来复枪"/>
+	<entry name="TwinLinkedHeavyRailRifleFlavor" value="<string name='Weapons/RailFlavor'/>"/>
+	<entry name="TwinLinkedHydraAutocannon" value="双联九头蛇自动加农炮"/>
+	<entry name="TwinLinkedHydraAutocannonFlavor" value="从本质上来说, 九头蛇自动加农炮是具有防空能力的长管式巨型自动加农炮. 它通过可预测逻辑进行引导, 能够让天空充满致命地火焰锯线."/>
+	<entry name="TwinLinkedIcarusAutocannon" value="双联伊卡洛斯自动加农炮"/>
+	<entry name="TwinLinkedIcarusAutocannonFlavor" value="<string name='Weapons/IcarusArrayFlavor'/>"/>
+	<entry name="TwinLinkedIonCannonOvercharged" value="双联离子炮 (过载)"/>
+	<entry name="TwinLinkedIonCannonOverchargedFlavor" value="<string name='Weapons/IonFlavor'/>"/>
+	<entry name="TwinLinkedIonCannonStandard" value="双联离子炮 (标准)"/>
+	<entry name="TwinLinkedIonCannonStandardFlavor" value="<string name='Weapons/IonFlavor'/>"/>
+	<entry name="TwinLinkedIonRifleOvercharged" value="双联离子来复枪 (过载)"/>
+	<entry name="TwinLinkedIonRifleOverchargedFlavor" value="<string name='Weapons/IonFlavor'/>"/>
+	<entry name="TwinLinkedIonRifleStandard" value="双联离子来复枪 (标准)"/>
+	<entry name="TwinLinkedIonRifleStandardFlavor" value="<string name='Weapons/IonFlavor'/>"/>
+	<entry name="TwinLinkedLascannon" value="双联激光加农炮"/>
+	<entry name="TwinLinkedLascannonFlavor" value="<string name='Weapons/LasFlavor'/>"/>
+	<entry name="TwinLinkedMissilePod" value="双联导弹舱"/>
+	<entry name="TwinLinkedMissilePodFlavor" value="<string name='Weapons/MissilePodFlavor'/>"/>
+	<entry name="TwinLinkedMultiMelta" value="双联多重热熔"/>
+	<entry name="TwinLinkedMultiMeltaFlavor" value="<string name='Weapons/MeltaFlavor'/>"/>
+	<entry name="TwinLinkedParticleBeamer" value="双联粒子射线发生器"/>
+	<entry name="TwinLinkedParticleBeamerFlavor" value="<string name='Weapons/ParticleFlavor'/>"/>
+	<entry name="TwinLinkedPlasmaRifle" value="双联等离子体来复枪"/>
+	<entry name="TwinLinkedPlasmaRifleFlavor" value="<string name='Weapons/PlasmaRifleFlavor'/>"/>
+	<entry name="TwinLinkedPulsar" value="双联脉冲炮"/>
+	<entry name="TwinLinkedPulsarFlavor" value="<string name='Weapons/LaserFlavor'/>"/>
+	<entry name="TwinLinkedPulseCarbine" value="双联脉冲卡宾枪"/>
+	<entry name="TwinLinkedPulseCarbineFlavor" value="<string name='Weapons/PulseFlavor'/>"/>
+	<entry name="TwinLinkedShoota" value="双联机枪"/>
+	<entry name="TwinLinkedShootaFlavor" value="<string name='Weapons/ShootaFlavor'/>"/>
+	<entry name="TwinLinkedShurikenCannon" value="双联星镖加农炮"/>
+	<entry name="TwinLinkedShurikenCannonFlavor" value="<string name='Weapons/ShurikenFlavor'/>"/>
+	<entry name="TwinLinkedShurikenCatapult" value="双联星镖射枪"/>
+	<entry name="TwinLinkedShurikenCatapultFlavor" value="<string name='Weapons/ShurikenFlavor'/>"/>
+	<entry name="TwinLinkedSmartMissileSystem" value="双联智能导弹系统"/>
+	<entry name="TwinLinkedSmartMissileSystemFlavor" value="智能导弹系统可以利用无人机自动发射弹道, 甚至能够发现躲藏在掩体后面的目标."/>
+	<entry name="TwinLinkedSupaShoota" value="双联超级机枪"/>
+	<entry name="TwinLinkedSupaShootaFlavor" value="<string name='Weapons/ShootaFlavor'/>"/>
+	<entry name="TwinLinkedTeslaDestructor" value="双联特斯拉毁灭者"/>
+	<entry name="TwinLinkedTeslaDestructorFlavor" value="<string name='Weapons/TeslaFlavor'/>"/>
+	<entry name="TyranidCity" value="<string name='Traits/Tyranids/CityDamage'/>"/>
+	<entry name="TyranidCityFlavor" value="<string name='Traits/Tyranids/CityDamageFlavor'/>"/>
+	<entry name="UrtySyringe" value="毒物注射器"/>
+	<entry name="UrtySyringeFlavor" value="剧痛小子以凝结泥浆作为原料的药剂对非兽人拥有着致命伤害. 真菌生长将会使受害者动脉阻塞, 肺部也会被孢子所布满, 并最终口吐白沫而死."/>
+	<entry name="Voidblade" value="虚空之刃"/>
+	<entry name="VoidbladeFlavor" value="虚空之刃的黑色刀锋所闪耀出的光芒时隐时现, 它能够使任何接触到的物质发生分子崩解."/>
+	<entry name="VolkiteBlaster" value="爆燃火枪"/>
+	<entry name="VolkiteBlasterFlavor" value="在大远征期间, 当人类的爆矢枪退出历史舞台之前, 爆燃武器逐渐受到青睐. 它散发出如此之多的热力能量, 以至于命中的目标将在瞬间燃烧. 这些罹难之人将在喷涌的爆炸中化为灰烬, 而幸存者也只能将他们就地掩埋."/>
+	<entry name="WailingDoomMelee" value="哀嚎厄运 (近战)"/>
+	<entry name="WailingDoomMeleeFlavor" value="哀嚎厄运是一把长达数英尺的恐怖之刃, 它将伴随化身投入战场, 能够在近距离残忍地收割战利品."/>
+	<entry name="WailingDoomRanged" value="哀嚎厄运 (远程)"/>
+	<entry name="WailingDoomRangedFlavor" value="<string name='Weapons/WailingDoomMeleeFlavor'/>"/>
+	<entry name="WarpBlastBurst" value="亚空间爆炸喷射"/>
+	<entry name="WarpBlastLance" value="亚空间爆炸穿刺"/>
+	<entry name="Warscythe" value="战争之镰"/>
+	<entry name="WarscytheFlavor" value="战争之镰是一柄以能量作为刀刃的法杖, 几千年来它一直都是太空死灵领主及其守卫所青睐的武器. 弱小的生物手握笨重的战争之镰并不会构成什么威胁, 但如果是拥有机械肌肉的太空死灵, 这把武器将会散发出恐怖的力量."/>
+	<entry name="WeirdboyStaff" value="怪异小子法杖"/>
+	<entry name="WeirdboyStaffFlavor" value="闪耀着的符咒, 以叮当作响的小球作为装饰的怪男孩法杖从外观上掩盖了它所能够带来的巨大伤害. 核心铜杆能够让持有者将恐怖的哇! 能量引向大地, 每次撞击都能够引发爆裂般的绿色爆炸."/>
+	<entry name="WhipCoils" value="鞭状线圈"/>
+	<entry name="WhipCoilsFlavor" value="一些墓穴冥灵配备了扭动的机械卷须, 这些高速挥动的肢体能够在眨眼之间将猎物大卸八块."/>
+	<entry name="WingMissiles" value="飞翼导弹"/> <!-- Megatrakk Scrapjet -->
+	<entry name="WingMissilesFlavor" value="似乎去掉大枪攻击机的机翼会大大增加机身完好无损的几率. 尽管剩下的东西对飞行毫无用处, 但却可以用来安装更多的'大枪'—非常适合布置反装甲导弹."/>
+	<entry name="WireWeed" value="<string name='Features/WireWeed'/>"/>
+	<entry name="WireWeedFlavor" value="<string name='Features/WireWeedFlavor'/>"/>
+	<entry name="WitchStaff" value="女巫法杖"/>
+	<entry name="WitchStaffFlavor" value="那些受到女巫法杖灵能之力打击的受害者, 即便是躯体保持完整, 但灵魂也已经支离破碎."/>
+	<entry name="Witchblade" value="女巫之刃"/>
+	<entry name="WitchbladeFlavor" value="女巫之刃是艾达灵族的神秘武器, 能够增强其使用者的思维能力. 它们颇具先知和战争领主的青睐."/>
+	<entry name="ZzapGun" value="吱吱炮"/>
+	<entry name="ZzapGunFlavor" value="吱吱炮能够射出不稳定的闪电箭. 这把武器虽然能够破坏最为厚重的敌方载具, 但却有一定几率导致过载, 使操作者受到电击伤害."/>
+</language>

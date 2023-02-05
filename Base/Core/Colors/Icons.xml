@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colors>
+	<!-- <color name="Buildings/AstraMilitarum/Food" value="0.25 0.75 0.25"/>
+	<color name="Buildings/AstraMilitarum/Energy" value="0.75 0.75 0.25"/>
+	<color name="Buildings/AstraMilitarum/Ore" value="0 0.75 0.75"/>
+	<color name="Buildings/AstraMilitarum/Research" value="0 0.5 1"/>
+	<color name="Buildings/AstraMilitarum/Housing" value="0.75 0.25 0.25"/>
+	<color name="Buildings/AstraMilitarum/Loyalty" value="0.75 0.25 0.75"/> -->
+	<!-- <color name="Buildings/AstraMilitarum/Vehicles" value="1 0.5 0"/>
+	<color name="Buildings/AstraMilitarum/Psykers" value="1 0.5 0"/>
+	<color name="Buildings/AstraMilitarum/Aircraft" value="1 0.5 0"/>
+	<color name="Buildings/AstraMilitarum/Heroes" value="1 0.5 0"/>
+	<color name="Buildings/AstraMilitarum/Upgrades" value="1 0.5 0"/>
+	<color name="Buildings/AstraMilitarum/Infantry" value="1 0.5 0"/>
+	<color name="Buildings/AstraMilitarum/Construction" value="1 0.5 0"/> -->
+	
+	<color name="Attributes/Biomass" value="0.5 0.75 0.25"/>
+	<color name="Attributes/Energy" value="0.75 0.75 0.25"/>
+	<color name="Attributes/Food" value="0.5 0.75 0.25"/>
+	<color name="Attributes/Growth" value="1.0 1.0 1.0"/>
+	<color name="Attributes/Loyalty" value="0.75 0.25 0.25"/>
+	<color name="Attributes/Influence" value="0.75 0.25 0.75"/>
+	<color name="Attributes/Ore" value="0 0.75 0.75"/>
+	<color name="Attributes/PopulationLimit" value="1.0 1.0 1.0"/>
+	<color name="Attributes/Production" value="0.75 0.5 0.25"/>
+	<color name="Attributes/Requisitions" value="0.0 0.75 0.75"/>
+	<color name="Attributes/Research" value="0.3 0.6 0.9"/>
+	
+	<color name="Attributes/BiomassCost" value="Icons/Attributes/Biomass"/>
+	<color name="Attributes/EnergyCost" value="Icons/Attributes/Energy"/>
+	<color name="Attributes/FoodCost" value="Icons/Attributes/Food"/>
+	<color name="Attributes/InfluenceCost" value="Icons/Attributes/Influence"/>
+	<color name="Attributes/OreCost" value="Icons/Attributes/Ore"/>
+	<color name="Attributes/ProductionCost" value="Icons/Attributes/Production"/>
+	<color name="Attributes/RequisitionsCost" value="Icons/Attributes/Requisitions"/>
+	<color name="Attributes/ResearchCost" value="Icons/Attributes/Research"/>
+</colors>

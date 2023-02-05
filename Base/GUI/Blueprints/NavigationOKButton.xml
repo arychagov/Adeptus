@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<button extends="Button"
+		name="okButton"
+		unpressedTexture="GUI/ShadowedEmphasizedButton"
+		preferredSize="240 32" 
+		pressedTexture="GUI/ShadowedEmphasizedButton"
+		control="Controls/OK"
+		label.caption="<string name='GUI/OK'/>"
+		label.style="<style name='MenuHeading'/>"/>

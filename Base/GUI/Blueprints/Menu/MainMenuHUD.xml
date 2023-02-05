@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu:mainMenuHUD extends="HUD" layout="Flow" layout.alignment="TopCenter" layout.gap="0 0" layout.direction="TopToBottom" showEffect="FadeInLeft" hideEffect="FadeOutLeft" preferredSize="1240 720">
+	<component preferredSize="FillParent 30"/>
+	<label caption="<style name='MainMenuTitle'/><string name='GUI/MainMenu'/>"/>
+	<image texture="GUI/HeadlineBar" color="GUI/HeadlineBar"/>
+	<component preferredSize="FillParent 30"/>
+	<container layout.alignment="TopCenter" layout.gap="20 20" preferredSize="FillParent 540">
+		<list name="navigationList" content.margin="0 0" minItemHeight="48" preferredSize="260 WrapContent">
+			<labeledListItem label.alignment="MiddleCenter" label.style="<style name='MainMenuNavigation'/>" name="continue" label.caption="<string name='GUI/Continue'/>"/>
+			<labeledListItem label.alignment="MiddleCenter" label.style="<style name='MainMenuNavigation'/>" name="introductionGame" label.caption="<string name='GUI/IntroductionGame'/>" hint="<string name='GUI/IntroductionGameHint'/>"/>
+			<labeledListItem label.alignment="MiddleCenter" label.style="<style name='MainMenuNavigation'/>" name="newGame" label.caption="<string name='GUI/NewGame'/>" hint="<string name='GUI/NewGameHint'/>"/>
+			<labeledListItem label.alignment="MiddleCenter" label.style="<style name='MainMenuNavigation'/>" name="loadGame" label.caption="<string name='GUI/LoadGame'/>"/>
+			<labeledListItem label.alignment="MiddleCenter" label.style="<style name='MainMenuNavigation'/>" name="multiplayer" label.caption="<string name='GUI/Multiplayer'/>"/>
+			<labeledListItem label.alignment="MiddleCenter" label.style="<style name='MainMenuNavigation'/>" name="settings" label.caption="<string name='GUI/Settings'/>"/>
+			<labeledListItem label.alignment="MiddleCenter" label.style="<style name='MainMenuNavigation'/>" name="patchNotes" label.caption="<string name='GUI/PatchNotes'/>"/>
+			<labeledListItem label.alignment="MiddleCenter" label.style="<style name='MainMenuNavigation'/>" name="extra" label.caption="<string name='GUI/Extra'/>"/>
+			<labeledListItem label.alignment="MiddleCenter" label.style="<style name='MainMenuNavigation'/>" name="quit" label.caption="<string name='GUI/Quit'/>"/>
+		</list>
+	</container>
+</menu:mainMenuHUD>

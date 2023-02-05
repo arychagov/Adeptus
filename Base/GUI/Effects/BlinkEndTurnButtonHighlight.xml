@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<effect duration="2" loops="0">
+	<affectors>
+		<colorAffector>
+			<colors>
+				<color value="1 1 1 1.0" progress="0.0"/>
+				<color value="1 1 1 0.0" progress="0.5"/>
+				<color value="1 1 1 1.0" progress="1.0"/>
+			</colors>
+		</colorAffector>
+	</affectors>
+</effect>

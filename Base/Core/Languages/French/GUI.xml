@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="(Turn)" value="(%1% tour)"/>
+	<entry name="(Turns)" value="(%1% tours)"/>
+	<entry name="AI" value="[IA]"/>
+	<entry name="AITurn" value="Tour des ennemis"/>
+	<entry name="AchievementsDisabled" value="Succès désactivés"/>
+	<entry name="Actions" value="Actions"/>
+	<entry name="AddPlayerHint" value="Ajouter un joueur."/>
+	<entry name="AdditionalContentAvailable" value="Contenu additionel disponible"/>
+	<entry name="Advanced" value="Avancé"/>
+	<entry name="AdeptusMechanicusPlayerPowers" value="Gloire du Dieu-Machine"/>
+	<entry name="Agree" value="Accepter"/>
+	<entry name="AgreeTermsAndConditionsHint" value="J'ai lu et accepté les termes et conditions."/>
+	<entry name="All" value="Tous"/>
+	<entry name="Artefact" value="Artefact"/>
+	<entry name="AttackEstimate" value="Estimation de dégâts"/>
+	<entry name="Attributes" value="Attributs"/>
+	<entry name="AvailableNow" value="Disponible maintenant"/>
+	<entry name="Back" value="Retour"/>
+	<entry name="Basic" value="Basique"/>
+	<entry name="Battle" value="Combat"/>
+	<entry name="BindingHint" value="[Clic gauche] pour changer un raccourci.<br/><style color='GUI/Yellow'/>[Molette] pour ajouter un raccourci.<br/><style color='GUI/Red'/>[Clic droit] pour supprimer un raccourci."/>
+	<entry name="Buildings" value="Bâtiments"/>
+	<entry name="BuildingsConstructed" value="Bâtiments Construits"/>
+	<entry name="CannotDisembarkThisTurn" value="Ne peut pas désembarquer ce tour."/>
+	<entry name="Cancel" value="Annuler"/>
+	<entry name="Cargo" value="Cargo"/>
+	<entry name="Charges" value="Charges"/>
+	<entry name="Charging" value="En charge"/>
+	<entry name="Chat" value="Chat"/>
+	<entry name="ChooseResearch" value="Choisissez une recherche"/>
+	<entry name="ChooseResearchHint" value="Choisissez quelle recherche suivre[<control name='Controls/NextTask'/>]."/>
+	<entry name="CityResources" value="Resources de la ville"/>
+	<entry name="ClaimItemOnlyWithHero" value="Sélectionnez un héros avant de prendre un objet."/>
+	<entry name="ClearNotifications" value="Supprimez les notifications"/>
+	<entry name="ClearNotificationsHint" value="Supprimez les notifications [<control name='Controls/NextTask'/>]."/>
+	<entry name="Community" value="Communauté"/>
+	<entry name="Compendium" value="Compendium"/>
+	<entry name="CompendiumFlavor" value="Le Compendium dispose d'une collection d'information utile pour le jeu. Ici vous pouvez vous documenter sur une faction, un bâtiment, une unité, re-lire les astuces et plus."/>
+	<entry name="Connect" value="Connecter"/>
+	<entry name="ConnectEpicAccount" value="Lier un compte Epic"/>
+	<entry name="ConsumesAction" value="<icon height='20' texture='Icons/Attributes/Actions'/> <style color='GUI/Yellow'/>Consomme une action<style color='Default'/>"/>
+	<entry name="ConsumesMovement" value="<icon height='20' texture='Icons/Attributes/Movement'/> <style color='GUI/Yellow'/>Consomme tout le mouvementt<style color='Default'/>"/>
+	<entry name="Continue" value="Continuer"/>
+	<entry name="Cooldown" value="Recharge"/>
+	<entry name="Copy" value="Copier"/>
+	<entry name="Cost" value="Coût"/>
+	<entry name="Create" value="Créer"/>
+	<entry name="Credits" value="Crédits"/>
+	<entry name="DLC" value="DLC"/>
+	<entry name="DLCNotEnabled" value="<style color='GUI/Red'/>%1% n'est pas activé pour ce jeu. Activez-le dans les paramètres avancés du salon de jeu avant de commencer un nouveau jeu."/>
+	<entry name="DLCNotInstalled" value="<style color='GUI/Red'/>%1% n'est pas installé"/>
+	<entry name="DamageDealt" value="Dégâts infligés"/>
+	<entry name="DamageTaken" value="Dégâts subis"/>
+	<entry name="Debug" value="Debug"/>
+	<entry name="Default" value="Défaut"/>
+	<entry name="Defeated" value="Vaincu"/>
+	<entry name="Delete" value="Supprimer"/>
+	<entry name="Details" value="Détails"/>
+	<entry name="DirectConnect" value="Connexion directe"/>
+	<entry name="DisableBuildingHint" value="Désactive un bâtiment de ce type, libérant la population allouée pour d'autres bâtiments."/>
+    <entry name="DisableSimultaneousTurns" value="Désactiver les tours simultanés"/>
+	<entry name="DisableTips" value="Désactive les astuces"/>
+	<entry name="DisableTipsHint" value="Arrête d'afficher les astuces avec une pop-up. Vous pouvez les réactiver dans les paramètres."/>
+	<entry name="DisconnectEpicAccount" value="Délier un compte Epic"/>
+	<entry name="Disconnected" value="Déconnecté"/>
+	<entry name="DismissReports" value="Supprimez les (%1%) rapports"/>
+	<entry name="DragToChangeLoadOrder" value="Faites glisser pour changer l'ordre de priorité au chargement."/>
+	<entry name="Economy" value="Economie"/>
+	<entry name="Edicts" value="Décrets"/>
+	<entry name="EldarCityPowers" value="La voie des Asuryanis"/>
+ 	<entry name="EldarPlayerPowers" value="Contrôle de la Toile"/>
+	<entry name="Elite" value="Elite"/>
+	<entry name="EnableBuildingHint" value="Active un bâtiment de ce type, lui allouant de la population."/>
+	<entry name="EnableMod" value="Active le mod."/>
+	<entry name="EnableSimultaneousTurns" value="Active les tours simultanés"/>
+	<entry name="EndTurn" value="Finir le tour"/>
+	<entry name="EndTurnHint" value="Finis votre tour [<control name='Controls/NextTask'/>]."/>
+	<entry name="Enter" value="Entrer"/>
+	<entry name="EstimatedCasualties" value="Perte de %1%/%2% membres estimée"/>
+	<entry name="Events" value="Evénements"/>
+	<entry name="ExecuteQueuedOrders" value="Exécuter liste d'attente(%1%)"/>
+	<entry name="ExecuteQueuedOrdersHint" value="Exécute les ordres mis en attente le tour précédent [<control name='Controls/NextTask'/>]."/>
+	<entry name="Extra" value="Extra"/>
+	<entry name="ForceEndTurnHint" value="Finis votre tour [<control name='Controls/ForceEndTurn'/>]."/>
+	<entry name="ExitCity" value="Quitter la ville"/>
+	<entry name="ExitCityHint" value="Ferme l'écran de la ville[<control name='Controls/NextTask'/>]."/>
+	<entry name="ExitToMainMenu" value="Menu principal"/>
+	<entry name="ExitToDesktop" value="Revenir au bureau"/>
+	<entry name="Explored" value="Exploré"/>
+	<entry name="Factions" value="Factions"/>
+	<entry name="Features" value="Caractéristiques du terrain"/>
+	<entry name="FreeAction" value="<icon height='20' texture='Icons/Attributes/Actions'/> Action gratuite"/>
+	<entry name="Full" value="Plein"/>
+	<entry name="GameBrowser" value="Navigateur du jeu"/>
+	<entry name="GameLobby" value="Salon de jeu"/>
+	<entry name="Games" value="Parties"/>
+	<entry name="Hint" value="<style name='Title'/>%1%%2%<style name='Default'/><br/>%3%%4%%5%%6%%7%%8%<style name='Italic'/>%9%"/>
+	<entry name="HoldKeyForMeleeAttack" value="Maintenez Ctrl pour maximiser les dégâts"/>
+	<entry name="HoldKeyToKeepVisible" value="Maintenez Shift pour garder la pop-up visible"/>
+	<entry name="HoldKeyToShowOpponentAttack" value="Maintenez Alt pour voir les dégâts de l'adversaire"/>
+	<entry name="HotseatNotAvailable" value="<style color='GUI/Red'/>Désactivez les tours simultanés dans les paramètres avancés pour permettre le hotseat."/>
+	<entry name="Host" value="Hôte"/>
+	<entry name="Inaccessible" value="Inaccessible"/>
+	<entry name="IncompatibleVersion" value="Version incompatible"/>
+	<entry name="InfoFormat" value="%3%%4%<style name='Italic'/>%5%<style name='Default'/>%9%%6%%7%%8%"/>
+	<entry name="Installed" value="Installé"/>
+	<entry name="IntroductionGame" value="Introduction"/>
+	<entry name="IntroductionGameHint" value="Jouer une partie d'introduction avec les Space Marines avec la difficulté la plus basse."/>
+	<entry name="InvalidName" value="Nom invalide"/>
+	<entry name="InviteEpicFriend" value="Inviter un ami sur Epic"/>
+	<entry name="InviteSteamFriend" value="Inviter un ami sur Steam"/>
+	<entry name="InviteSteamFriendHint" value="<style color='GUI/Yellow'/>Steam n'est capable d'envoyer des invitations à vos amis que si les paramètres de confidentialité de votre profil ne sont pas réglés sur privé."/>
+	<entry name="InviteSteamFriendDisabledHint" value="L'hôte ne joue pas à la version Steam, ou le matchmaking Steam n'est pas disponible."/>
+	<entry name="Invulnerable" value="Invulnérable"/>
+	<entry name="ItemShop" value="Magasin d'objets"/>
+	<entry name="Items" value="Objets"/>
+	<entry name="Join" value="Rejoindre"/>
+	<entry name="JustOneMoreTurn" value="Attendez! Juste… un… tour… de… plus…"/>
+	<entry name="LevelHint" value="<icon texture='GUI/Bullet'/>%1%/%2% expérience<br/><icon texture='GUI/Bullet'/>%3% expérience donnée en cas de mort"/>
+	<entry name="LimitReached" value="Limite atteinte."/>
+	<entry name="Load" value="Charger"/>
+	<entry name="LoadGame" value="Charger une partie"/>
+	<entry name="MainMenu" value="Menu principal"/>
+	<entry name="MarkTileHint" value="<style name='Heading'/>Marquer une case [<control name='Controls/MarkTile'/>]<br/><style name='Default'/>Place une marque pour les alliés. Les IA alliées auront tendance à bouger leurs unités vers ces marques."/>
+	<entry name="MarksOfChaos" value="Marques du Chaos"/>
+	<entry name="Max" value="max"/>
+	<entry name="Menu" value="Menu"/>
+	<entry name="Military" value="Militaire"/>
+	<entry name="Min" value="min"/>
+	<entry name="Minimap" value="Minimap"/>
+	<entry name="Missing" value="?"/>
+	<entry name="Mixer" value="Mixer"/>
+	<entry name="ModDetailsHint" value="Affiche les détails du mod."/>
+	<entry name="ModFolderHint" value="Ouvre le dossier du mod."/>
+	<entry name="Mods" value="Mods"/>
+	<entry name="More" value="Plus"/>
+	<entry name="Multiplayer" value="Multijoueur"/>
+	<entry name="Name" value="Nom"/>
+	<entry name="New" value="Nouveau"/>
+	<entry name="NewGame" value="Nouvelle partie"/>
+	<entry name="NewGameHint" value="Choisissez votre faction et customisez les paramètres de la carte."/>
+	<entry name="NewSavedGame" value="Nouvelle sauvegarde"/>
+	<entry name="Newsletter" value="Newsletter"/>
+	<entry name="NoChargesRemaining" value="Plus de charges."/>
+	<entry name="NoFreeItemSlots" value="Pas d'emplacement d'objets libre"/>
+	<entry name="NoResearchSelected" value="Aucune recherche sélectionnée"/>
+	<entry name="NoValidTargets" value="Pas de cible valide"/>
+	<entry name="NotEnoughResources" value="Pas assez de ressource"/>
+	<entry name="NotReady" value="Pas prêt"/>
+	<entry name="NotUsable" value="Non utilisable."/>	
+    <entry name="Objectives" value="Objectifs"/>
+	<entry name="ObjectivesCompleted" value="Objectifs complets"/>
+	<entry name="OK" value="OK"/>
+	<entry name="OnCooldown" value="En charge."/>
+	<entry name="OpenStore" value="Cliquez pour ouvrir le magasin."/>
+	<entry name="Operations" value="Opérations et tactiques"/>
+	<entry name="Or" value="ou"/>
+	<entry name="OrderCity" value="Gérez vos villes (%1%)"/>
+	<entry name="OrderCityHint" value="Sélectionne la prochaine ville inactive[<control name='Controls/NextTask'/>]."/>
+	<entry name="OrderUnits" value="Gérez vos unités (%1%)"/>
+	<entry name="OrderUnitsHint" value="Sélectionne la prochaine unité inactive[<control name='Controls/NextTask'/>]."/>
+	<entry name="Overwrite" value="Ecraser"/>
+	<entry name="PauseTurnTimer" value="Pause le chronomètre"/>
+	<entry name="Parameters" value="Paramètres"/>
+	<entry name="Passive" value="Passif"/>
+	<entry name="PassiveAction" value="Action passive"/>
+	<entry name="Paste" value="Coller"/>
+	<entry name="PatchNotes" value="Patch Notes"/>
+	<entry name="Ping" value="Ping"/>
+	<entry name="Play" value="Jouer"/>
+	<entry name="Player" value="Joueur"/>
+	<entry name="PlayerXTurn" value="Tour de %1%"/>
+	<entry name="Players" value="Joueurs"/>
+	<entry name="PleaseWait" value="Attendez …"/>
+	<entry name="PleaseWaitHint" value="Attendez les autres joueurs."/>
+	<entry name="Quests" value="Quêtes"/>
+	<entry name="RadiusTile" value="<icon height='20' texture='Icons/Attributes/Radius'/> Rayon: %1% case"/>
+	<entry name="RadiusTiles" value="<icon height='20' texture='Icons/Attributes/Radius'/> Rayon: %1% cases"/>
+	<entry name="Random" value="Aléatoire"/>
+	<entry name="Randomize" value="Randomiser"/>
+	<entry name="RangeSelf" value="<icon height='20' texture='Icons/Attributes/Range'/> Portée : soi-même"/>
+	<entry name="RangeTilesMax" value="<icon height='20' texture='Icons/Attributes/Range'/> Portée: %1% cases"/>
+	<entry name="RangeTilesMinMax" value="<icon height='20' texture='Icons/Attributes/Range'/> Portée: %1%—%2% cases"/>
+	<entry name="Ready" value="Prêt"/>
+	<entry name="Refresh" value="Rafraîchir"/>
+	<entry name="RemovePlayerHint" value="Enlève un joueur."/>
+	<entry name="RenameHint" value="Renommer."/>
+	<entry name="(Required)" value="(%1% requis)"/>
+	<entry name="RequiredLevel" value="Niveau requis: %1%"/>
+	<entry name="Requires" value="Requiert"/>
+	<entry name="RequiresAction" value="<icon height='20' texture='Icons/Attributes/Actions'/> <style color='GUI/Yellow'/>Requiert une action<style color='Default'/>"/>
+	<entry name="RequiresMovement" value="<icon height='20' texture='Icons/Attributes/Movement'/> <style color='GUI/Yellow'/>Requiert un mouvement<style color='Default'/>"/>
+	<entry name="Research" value="Recherche"/>
+	<entry name="Resource" value="<icon texture='GUI/Bullet'/>%1%"/>
+	<entry name="ResourceAccumulated" value="<icon texture='GUI/Bullet'/>%1% accumulé"/>
+	<entry name="ResourceFromAdjacentBuildings" value="    <icon texture='GUI/Bullet'/>%1% par les bâtiments adjacents"/>
+	<entry name="ResourceFromBuildings" value="    <icon texture='GUI/Bullet'/>%1% par les bâtiments"/>
+	<entry name="ResourceFromCities" value="    <icon texture='GUI/Bullet'/>%1% dû au nombre de villes"/>
+	<entry name="ResourceFromDestruction" value="    <icon texture='GUI/Bullet'/>%1% à cause de la destruction"/>
+	<entry name="ResourceFromDifficulty" value="    <icon texture='GUI/Bullet'/>%1% à cause de la difficulté"/>
+	<entry name="ResourceFromFeatures" value="    <icon texture='GUI/Bullet'/>%1% par les caractéristiques"/>
+	<entry name="ResourceFromLoyalty" value="    <icon texture='GUI/Bullet'/>%1% à cause de la loyauté"/>
+	<entry name="ResourceFromPopulation" value="    <icon texture='GUI/Bullet'/>%1% à cause de la population"/>
+	<entry name="ResourceFromShortage" value="    <icon texture='GUI/Bullet'/>%1% dû à un manque de ressource"/>
+	<entry name="ResourceFromTiles" value="    <icon texture='GUI/Bullet'/>%1% à cause des cases"/>
+	<entry name="ResourceFromUnits" value="    <icon texture='GUI/Bullet'/>%1% à cause des unités"/>
+	<entry name="ResourceFromUtopia" value="    <icon texture='GUI/Bullet'/>%1% à cause d'Utopie"/>
+	<entry name="ResourceLimit" value="<icon texture='GUI/Bullet'/>%1% limite"/>
+	<entry name="ResourcePerTurn" value="<icon texture='GUI/Bullet'/>%1% par tour"/>
+	<entry name="ResourceShortageTitle" value="Manque de ressources"/>
+	<entry name="ResourceShortage" value="<icon texture='GUI/Bullet'/><style color='GUI/Red'/>%1%%%<style color='Default'/> manque de %2%"/>
+	<entry name="ResourceTotal" value="<icon texture='GUI/Bullet'/>%1% total"/>
+	<entry name="ResourcesAccumulated" value="Ressources accumulées"/>
+	<entry name="Restart" value="Recommencer"/>
+	<entry name="RestartScenario" value="Recommencer le scénario"/>
+	<entry name="RestoreDefaults" value="Valeurs par défaut"/>
+	<entry name="Rewards" value="Récompenses"/>
+	<entry name="RewardsReceived" value="Récompenses reçues"/>
+	<entry name="QuickSelectFactionHint" value="Choix rapide de faction"/>
+	<entry name="Quit" value="Quitter"/>
+	<entry name="Quests" value="Quêtes"/>
+	<entry name="SacredRites" value="Rites sacrés"/>
+	<entry name="Save" value="Sauvegarder"/>
+	<entry name="SaveGame" value="Sauvegarder"/>
+	<entry name="Scenarios" value="Scénarios"/>
+	<entry name="Scores" value="Scores"/>
+	<entry name="SelectCityHint" value="Sélectionne une ville."/>
+	<entry name="SelectColorHint" value="Sélectionne une couleur."/>
+	<entry name="SelectDifficultyHint" value="Sélectionne une difficulté."/>
+	<entry name="SelectFaction" value="Sélectionner une faction."/>
+	<entry name="SelectFactionHint" value="Sélectionne une faction."/>
+	<entry name="SelectNextCityHint" value="Sélectionne la prochaine ville."/>
+	<entry name="SelectPreviousCityHint" value="Sélectionne la ville précédente."/>
+	<entry name="SelectTeamHint" value="Sélectionne une équipe"/>
+	<entry name="SelectUnitHint" value="Sélectionne une unité"/>
+	<entry name="Settings" value="Paramètres"/>
+	<entry name="SinglePlayer" value="Joueur solo"/>
+	<entry name="SkipCity" value="Passer la ville (1/%1%)"/>
+	<entry name="SkipCityHint" value="Passe cette ville [<control name='Controls/NextTask'/>].<br/>[<control name='Controls/SelectNext'/>]: choisis la ville inactive suivante.<br/>[<control name='Controls/SelectPrevious'/>]: choisis la ville inactive précédente."/>
+	<entry name="SkipUnit" value="Passer l'unité (1/%1%)"/>
+	<entry name="SkipUnitHint" value="Passe l'unité [<control name='Controls/NextTask'/>].<br/>[<control name='Controls/SelectNext'/>]: choisis l'unité inactive suivante.<br/>[<control name='Controls/SelectPrevious'/>]: choisis l'unité inactive précédente."/>
+	<entry name="Social" value="Social"/>
+	<entry name="Spectating" value="Observe"/>
+	<entry name="Start" value="Commencer"/>
+	<entry name="Stats" value="Stats"/>
+	<entry name="SteamWorkshop" value="Workshop Steam"/>
+	<entry name="Subscribe" value="S'inscrire"/>
+	<entry name="Surrender" value="Abandonner"/>
+	<entry name="TauPowers" value="Progrès et Unité"/>
+	<entry name="Team" value="Equipe"/>
+	<entry name="Team0" value="Pas d'équipe"/>
+	<entry name="Team0Hint" value="Pas d'équipe : joue seul; ne fait pas partie d'une alliance."/>
+	<entry name="Team1" value="Equipe A"/>
+	<entry name="Team2" value="Equipe B"/>
+	<entry name="Team3" value="Equipe C"/>
+	<entry name="Team4" value="Equipe D"/>
+	<entry name="Team5" value="Equipe E"/>
+	<entry name="Team6" value="Equipe F"/>
+	<entry name="Team7" value="Equipe G"/>
+	<entry name="Team8" value="Equipe H"/>
+	<entry name="Technology" value="Technologie"/>
+	<entry name="Tier" value="Rang"/>
+	<entry name="Tip" value="Astuce"/>
+	<entry name="Tips" value="Astuces"/>
+	<entry name="ToggleHotseatHint" value="Active/désactive le Hotseat"/>
+	<entry name="Total" value="Total"/>
+	<entry name="Traits" value="Traits"/>
+	<entry name="Turn" value="Tour"/>
+	<entry name="UnclaimedItems" value="Objets non-équipés"/>
+	<entry name="Unexplored" value="Inexploré"/>
+	<entry name="UnholyRites" value="Rituels impies"/>
+	<entry name="Units" value="Unités"/>
+	<entry name="UnitsCreated" value="Unités créées"/>
+	<entry name="UnitsLost" value="Unités perdues"/>
+	<entry name="UnitsKilled" value="Unités tuées"/>
+	<entry name="UnitsKilledByPlayer" value="Vous avez tué: %2%"/>
+	<entry name="UnitsKilledOnGladius" value="%2% %1% tués sur Gladius"/> <!-- E.g. "142 Tyranids killed on Gladius" -->
+	<entry name="UnpauseTurnTimer" value="Relancer le chronomètre"/>
+	<entry name="Unready" value="Ne plus être prêt"/>
+	<entry name="Upgrades" value="Améliorations"/>
+	<entry name="Upkeep" value="Maintenance"/>
+	<entry name="UploadModHint" value="Uploader le mod."/>
+	<entry name="UserData" value="Données utilisateur"/>
+	<entry name="VS" value="VS"/>
+	<entry name="Version" value="Version"/>
+	<entry name="VersionRevisionsDiffer" value="La version est différente (local = %1%, serveur = %2%)."/>
+	<entry name="Victorious" value="Victorieux"/>
+	<entry name="WaaaghLevelHint" value="<style name='Title'/>Niveau de Waaagh! : <style name='Default'/><br/>Chaque niveau de Waaagh! augmente ou diminue les attaques des unités Orks et la loyauté des bâtiments orks par 2%% (jusqu'à +/-20%%). Le niveau de Waaagh! est dépendant de l'influence accumulée et des coûts de maintenance en influence des unités, et se rafraîchit au début du tour.<br/><br/><icon texture='GUI/Bullet'/>%1%/%2% (%3%%% attaques et loyauté)<br/><br/><style name='Italic'/><string name='Traits/WaaaghFlavor'/>"/>
+	<entry name="Weapons" value="Armes"/>
+	<entry name="WorldDataChecksumsDiffer" value="Les données du monde sont différentes (local = %1%, serveur = %2%)."/>
+	<entry name="WorldSeedHint" value="Graine du monde, cliquez pour copier"/>
+	<entry name="XTurns" value="%1% tours"/>
+	<entry name="You" value="Vous"/>
+	<entry name="YourName" value="Votre nom"/>
+</language>

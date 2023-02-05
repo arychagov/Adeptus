@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:battlePanel extends="Panel" titleLabel.caption="<string name='GUI/AttackEstimate'/>" content.layout.direction="TopToBottom" content.layout.alignment="TopCenter" content.layout.collapseInvisible="1" showEffect="FadeInLeft" hideEffect="FadeOutLeft">
+	<container layout.alignment="TopCenter" layout.direction="TopToBottom" preferredSize="WrapContent WrapContent" weights="1 FillAll">
+		<label name="defenderNameLabel" style="<style name='Heading'/>" preferredSize="WrapContent WrapContent" alignment="MiddleCenter"/>
+		<image name="defenderImage" preferredSize="40 40"/>
+		<container name="defenderTraitsContainer" preferredSize="200 WrapContent" layout="Flow" layout.alignment="TopCenter" layout.gap="4 0"/>
+		<progressBar name="defenderHealthBar" preferredSize="200 24" label.style="<style name='Shadowed'/>"/>
+		<label name="defenderCasualtiesLabel"/>
+		<label name="attackerWeaponsLabel" alignment="MiddleCenter"/>
+	</container>
+	<component/>
+	<label name="holdKeyForMeleeAttackLabel" preferredSize="WrapContent WrapContent" style="<style name='Small' size='10'/>" caption="<string name='GUI/HoldKeyForMeleeAttack'/>" alignment="MiddleCenter"/>
+	<label name="holdKeyToShowOpponentAttack" preferredSize="WrapContent WrapContent" style="<style name='Small' size='10'/>" caption="<string name='GUI/HoldKeyToShowOpponentAttack'/>" alignment="MiddleCenter"/>
+	<label name="holdKeyToKeepVisible" preferredSize="WrapContent WrapContent" style="<style name='Small' size='10'/>" caption="<string name='GUI/HoldKeyToKeepVisible'/>" alignment="MiddleCenter"/>
+</world:battlePanel>

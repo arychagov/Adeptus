@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<labeledListItem extends="ListItem">
+	<label name="label"
+			preferredSize="FillParent WrapContent"
+			weights="1 FillAll"
+			alignment="MiddleLeft"
+			interactive="0"
+			wordCut="1"/>
+</labeledListItem>

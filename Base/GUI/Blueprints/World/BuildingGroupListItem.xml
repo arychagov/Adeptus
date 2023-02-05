@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:buildingGroupListItem extends="ListItem" content.layout.gap="8 8">
+	<image name="image" preferredSize="40 40"/>
+	<container layout.collapseInvisible="1" layout.gap="4 4" layout.direction="TopToBottom" preferredSize="FillParent WrapContent" weights="1 FillAll">
+		<container layout.alignment="TopLeft" layout.collapseInvisible="1" layout.direction="LeftToRight" preferredSize="FillParent WrapContent">
+			<label name="label" alignment="TopLeft" margin="0 -4; 0 0" preferredSize="FillParent WrapContent" weights="1 FillAll"/>
+			<imageButton name="disableButton" preferredSize="20 20" image.texture="Icons/DisableBuilding" hint="<string name='GUI/DisableBuildingHint'/>"/>
+			<imageButton name="enableButton" preferredSize="20 20" image.texture="Icons/EnableBuilding" hint="<string name='GUI/EnableBuildingHint'/>"/>
+		</container>
+		<container name="actionsField" preferredSize="FillParent WrapContent" layout.collapseInvisible="1"/>
+		<image name="orderRowSeperator" texture="GUI/ColoredSurface" color="0.25 0.25 0.25 0.75" preferredSize="FillParent 1" weights="FillAll FillAll"/>
+		<container name="orderRow" preferredSize="FillParent WrapContent" clipMode="Clipped" layout.collapseInvisible="1">
+			<world:actionButton name="sideActionButton"/>
+			<container name="orderQueueField" preferredSize="FillParent WrapContent" weights="1 FillAll"/>
+		</container>
+	</container>
+</world:buildingGroupListItem>

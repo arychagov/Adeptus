@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building disablable="0">
+	<modifiers>
+		<modifier>
+			<effects>
+				<production add="6"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<actions>
+		<produceUnit unit="Eldar/Autarch" requiredUpgrade="Eldar/Autarch"/>
+		<produceUnit unit="Eldar/Spiritseer" requiredUpgrade="Eldar/Spiritseer"/>
+		<produceUnit unit="Eldar/FarseerSkyrunner" requiredUpgrade="Eldar/FarseerSkyrunner"/>
+		<produceUnit unit="Eldar/AvatarOfKhaine" requiredUpgrade="Eldar/AvatarOfKhaine"/>
+	</actions>
+</building>

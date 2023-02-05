@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gui>
+	<menu:menuScreen name="menuScreen"/>
+	<menu:cinematicScreen name="cinematicScreen"/>
+	<world:worldScreen name="worldScreen"/>
+	<container layout.alignment="TopCenter" layout.direction="TopToBottom" preferredSize="FillParent FillParent" stayOnTop="1">
+		<component preferredSize="FillParent 31" interactive="0"/>
+		<tipPanel name="tipPanel"/>
+	</container>
+	<container layout.alignment="MiddleCenter" preferredSize="FillParent FillParent" stayOnTop="1">
+		<statusPanel name="statusPanel"/>
+	</container>
+</gui>

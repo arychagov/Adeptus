@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<imageButton layout="Absolute"
+		preferredSize="28 28" 
+		unpressedTexture="GUI/Button"
+		pressedSound="Interface/Press"
+		pressedTexture="GUI/Button"
+		handleSelf="1"
+		addToContent="0">
+	<surface name="surface" 
+			padding="7 7"
+			delta="2 2"
+			interactive="0"
+			preferredSize="FillParent FillParent"/>
+	<container name="content"
+			clipMode="Clipped"
+			margin="4 2"
+			interactive="0"
+			preferredSize="FillParent FillParent">
+		<image name="image"
+				preferredSize="WrapContent WrapContent"
+				texture="GUI/Cross"
+				visible="0"/>
+		<label name="label" 
+				alignment="MiddleCenter" 
+				preferredSize="FillParent FillParent"/>
+	</container>
+</imageButton>

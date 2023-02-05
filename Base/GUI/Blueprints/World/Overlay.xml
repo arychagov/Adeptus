@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:overlay layout="None">
+	<world:overlayContainer name="regionOverlayContainer" layout="None" preferredSize="FillParent FillParent"/>
+	<world:overlayContainer name="cityOverlayContainer" layout="None" preferredSize="FillParent FillParent"/>
+	<world:overlayContainer name="buildingOverlayContainer" layout="None" preferredSize="FillParent FillParent"/>
+	<world:overlayContainer name="constructionOverlayContainer" layout="None" preferredSize="FillParent FillParent"/>
+	<world:overlayContainer name="unitOverlayContainer" layout="None" preferredSize="FillParent FillParent"/>
+	<world:overlayContainer name="yieldOverlayContainer" layout="None" preferredSize="FillParent FillParent"/>
+	<world:overlayContainer name="tileFloatingOverlayContainer" layout="None" preferredSize="FillParent FillParent"/>
+	<world:overlayContainer name="unitFloatingOverlayContainer" layout="None" preferredSize="FillParent FillParent"/>
+</world:overlay>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:itemsPanel extends="Panel" titleLabel.caption="<string name='GUI/Items'/>" showEffect="FadeInBottom" hideEffect="FadeOutBottom"/>

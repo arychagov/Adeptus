@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpleParticleSystem
+		material="Effects/Snow"
+		variationCount="1 1">
+	<updateQueues>
+		<updateQueue name="Parallel1"/>
+	</updateQueues>
+	<renderQueues>
+		<renderQueue name="SimpleParticleSystems"/>
+	</renderQueues>
+	<affectors>
+		<snowAffector/>
+	</affectors>
+</simpleParticleSystem>

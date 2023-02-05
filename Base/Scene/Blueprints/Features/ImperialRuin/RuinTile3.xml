@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene version="1.0">
+	<model mesh="Ruin2" position="25.4337 -4.16656 0.0" rotation="0.0 0.0 0.5 0.866025" scale="1.01833 1.01833 1.01833"/>
+	<model mesh="Ruin8" position="-33.3786 -12.7922 0.0" rotation="0.0 0.0 -0.707107 0.707107" scale="1.01833 1.01833 1.01833"/>
+	<model mesh="Ruin13" position="-21.6181 -3.07506 -6.70733" rotation="0.0 0.0 -0.130526 0.991445" scale="1.0 1.0 1.0"/>
+	<model mesh="Ruin13" position="26.0717 -18.9136 0.0" rotation="0.0 0.0 -0.906308 0.422618" scale="1.0 1.0 1.0"/>
+</scene>

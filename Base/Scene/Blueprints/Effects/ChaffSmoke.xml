@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpleParticleSystem material="Effects/Smoke"
+		variationCount="2 2">
+	<updateQueues>
+		<updateQueue name="Parallel3"/>
+	</updateQueues>
+	<renderQueues>
+		<renderQueue name="SimpleParticleSystems"/>
+	</renderQueues>	
+	<emitters>
+		<sphereEmitter emissionVolumeMin="-142 10 0.1"
+				emissionVolumeMax="-138 30 1"
+				particleLifeTimeMin="2.0"
+				particleLifeTimeMax="2.5"
+				particleSizeMin="20 20"
+				particleSizeMax="30 30"
+				particleSizeSquared="0"
+				particleVelocityMin="30"
+				particleVelocityMax="40"
+				randomSpawnTimes="0"
+				shots="10"
+				spawns="2"
+				interval="0.2"/>	
+		<sphereEmitter emissionVolumeMin="138 10 0.1"
+				emissionVolumeMax="142 30 1"
+				particleLifeTimeMin="2.0"
+				particleLifeTimeMax="2.5"
+				particleSizeMin="20 20"
+				particleSizeMax="30 30"
+				particleSizeSquared="0"
+				particleVelocityMin="30"
+				particleVelocityMax="40"
+				randomSpawnTimes="0"
+				shots="10"
+				spawns="2"
+				interval="0.2"/>	
+	</emitters>
+	<affectors>
+		<colorAffector>
+			<colors>
+				<color value="1 1 1 0" progress="0.0"/>
+				<color value="1 1 1 1" progress="0.2"/>
+				<color value="1 1 1 0" progress="1.0"/>
+			</colors>
+		</colorAffector>
+		<scaleAffector>
+		 	<scales>
+			 	<scale value="0.5 0.5" progress="0.0"/>
+			 	<scale value="2.0 2.0" progress="1.0"/>
+		 	</scales>
+		</scaleAffector>
+	</affectors>
+</simpleParticleSystem>

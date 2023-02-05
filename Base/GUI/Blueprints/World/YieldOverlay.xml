@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:yieldOverlay layout.alignment="BottomCenter" layout.direction="TopToBottom"
+		showEffect="FadeIn" hideEffect="FadeOut">
+	<contentContainer surface.texture="GUI/ShadowedSurface" content.margin="4 2" preferredSize="WrapContent WrapContent">
+		<label name="outputLabel" maxSize="120 0" alignment="BottomCenter"/>
+	</contentContainer>
+</world:yieldOverlay>

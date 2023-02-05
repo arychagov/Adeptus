@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<statusPanel extends="Panel" content.layout.alignment="TopCenter" content.layout.collapseInvisible="1" content.layout.gap="8 8" modal="1" forceHandle="1">
+	<image name="spinnerImage" texture="GUI/Spinner"/>
+	<scrollableContainer name="infoContainer" preferredSize="FillParent WrapContent" maxSize="0 620">
+		<label name="infoLabel" alignment="TopCenter" preferredSize="FillParent WrapContent" wordCut="0"/>
+	</scrollableContainer>
+	<container name="buttonContainer" layout.alignment="BottomCenter" layout.collapseInvisible="1" preferredSize="FillParent WrapContent">
+		<okButton/>
+		<cancelButton/>
+	</container>
+</statusPanel>

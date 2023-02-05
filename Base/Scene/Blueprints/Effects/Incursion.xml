@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpleParticleSystem material="Effects/Incursion"
+		particleOrientation="Self"
+		variationCount="1 1"
+		rotation="0 1 0 -90">
+	<updateQueues>
+		<updateQueue name="Parallel3"/>
+	</updateQueues>
+	<renderQueues>
+		<renderQueue name="GlowingSimpleParticleSystems"/>
+	</renderQueues>
+	<emitters>
+		<sphereEmitter emissionVolumeMin="0 0 0.1"
+				emissionVolumeMax="0 0 1"
+				particleLifeTimeMin="2.0"
+				particleLifeTimeMax="2.0"
+				particleSizeMin="512 512"
+				particleSizeMax="640 640"
+				particleVelocityMin="0"
+				particleVelocityMax="0"
+				shots="8"
+				spawns="1"
+				interval="0.25"/>
+	</emitters>
+	<affectors>
+		<colorAffector>
+			<colors>
+				<color value="1 1 1 0" progress="0.0"/>
+				<color value="1 1 1 1" progress="0.5"/>
+				<color value="1 1 1 0" progress="1.0"/>
+			</colors>
+		</colorAffector>
+		<scaleAffector>
+		 	<scales>
+			 	<scale value="1 1" progress="0.0"/>
+			 	<scale value="0.01 0.01" progress="1.0"/>
+		 	</scales>
+		</scaleAffector>
+		<rotationAffector>
+		 	<rotations>
+			 	<rotation value="0 0 1 0" progress="0.0"/>
+			 	<rotation value="0 0 1 -90" progress="0.1"/>
+			 	<rotation value="0 0 1 -90" progress="0.9"/>
+			 	<rotation value="0 0 1 0" progress="1.0"/>
+		 	</rotations>
+		</rotationAffector>		
+	</affectors>
+</simpleParticleSystem>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene version="1.0">
+	<model mesh="ImperialFlag" position="0.0 122.43 17.6275" rotation="0.0 0.0 0.707107 0.707107" scale="1.0 1.0 1.0"/>
+	<model mesh="ImperialFlag" position="-105.295 -60.8806 17.6275" rotation="0.0 0.0 -0.965926 0.258819" scale="1.0 1.0 1.0"/>
+	<model mesh="ImperialFlag" position="106.217 -61.2646 17.6275" rotation="0.0 0.0 -0.258819 0.965926" scale="1.0 1.0 1.0"/>
+	<model mesh="ImperialFlag" position="0.123764 -122.305 17.6275" rotation="0.0 0.0 -0.707107 0.707107" scale="1.0 1.0 1.0"/>
+	<model mesh="ImperialFlag" position="106.099 61.5286 17.6275" rotation="0.0 0.0 0.258819 0.965926" scale="1.0 1.0 1.0"/>
+	<model mesh="ImperialFlag" position="-105.3 61.0613 17.6275" rotation="0.0 0.0 -0.965926 -0.258819" scale="1.0 1.0 1.0"/>
+</scene>

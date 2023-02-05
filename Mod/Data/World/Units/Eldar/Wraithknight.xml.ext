@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement7">
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=4 -->
+				<productionCost base="60.0"/> <!-- %productionCost base tier=10 factor=1 -->
+				<oreCost base="80.0"/> <!-- %oreCost base tier=10 factor=0.5 -->
+				<oreUpkeep base="8.0"/> <!-- %oreUpkeep base tier=10 factor=1 -->
+				<energyCost base="80.0"/> <!-- %energyCost base tier=10 factor=0.5 -->
+			</effects>
+		</modifier>
+	</modifiers>
+</unit>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building disablable="0">
+	<modifiers>
+		<modifier>
+			<effects>
+				<production add="6"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseHeroesProductionScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<rapidRise name="Necrons/RapidRise"
+				interfaceSound="Interface/RapidRise">
+			<modifiers>
+				<modifier requiredUpgrade="Necrons/RapidRiseBonus">
+					<effects>
+						<influenceCost mul="-0.33"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</rapidRise>
+		<produceUnit unit="Necrons/Lord" requiredUpgrade="Necrons/Lord"/>
+		<produceUnit unit="Necrons/Cryptek" requiredUpgrade="Necrons/Cryptek"/>
+		<produceUnit unit="Necrons/DestroyerLord" requiredUpgrade="Necrons/DestroyerLord"/>
+	</actions>
+</building>

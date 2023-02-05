@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<button extends="ContentContainer"
+		preferredSize="200 28" 
+		unpressedTexture="GUI/Button"
+		pressedSound="Interface/Press"
+		pressedTexture="GUI/Button"
+		content.layout="Absolute"
+		content.clipMode="Clipped"
+		content.margin="4 2"
+		content.interactive="0">
+	<label name="label" 
+			alignment="MiddleCenter"
+			preferredSize="FillParent FillParent"
+			stayOnTop="1"/>
+</button>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene version="1.0">
+	<model mesh="Generator" position="30.270536 5.261620 -0.983312" rotation="-0.000000 -0.000000 -0.946653 0.322254" scale="1.000000 1.000000 1.000000"/>
+	<model mesh="Generator" position="-9.355469 12.992413 -0.983312" rotation="0.000000 0.000000 0.322253 0.946653" scale="1.000000 1.000000 1.000000"/>
+	<model mesh="Pipes2" position="-35.943005 12.992423 0.000000" rotation="0.000000 0.000000 -0.258819 0.965926" scale="1.000000 1.000000 1.000000"/>
+</scene>

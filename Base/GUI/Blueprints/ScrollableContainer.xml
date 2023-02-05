@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scrollableContainer layout="Absolute"
+		handleSelf="1"
+		addToContent="0">
+	<surface name="surface"
+			preferredSize="FillParent FillParent"
+			texture=""
+			interactive="0"/>
+	<container name="content"
+			layout.gap="8 8"
+			layout.collapseInvisible="1"
+			preferredSize="FillParent FillParent">
+		<contentContainer name="visibleContentContainer"
+				preferredSize="FillParent FillParent"
+				content.layout="Absolute"
+				content.clipMode="Clipped"
+				content.margin="8 8"
+				handleSelf="0">
+			<container name="scrollableContent"
+					preferredSize="FillParent WrapContent"
+					layout.direction="TopToBottom"/>
+		</contentContainer>
+		<scrollBar name="verticalScrollBar"
+				preferredSize="12 FillParent"
+				scrollingAxis="Vertical"
+				margin="0 2"/>
+		<scrollBar name="horizontalScrollBar"
+				preferredSize="FillParent 12"
+				scrollingAxis="Horizontal"
+				margin="2 0"/>
+	</container>
+</scrollableContainer>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<productionCost base="36"/>
+				<requisitionsCost base="50"/>
+				<influenceUpkeep add="-2"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<effects>
+				<energy add="-1"/>
+				<requisitions add="-1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</building>

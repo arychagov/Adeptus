@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene version="1.0">
+	<model mesh="Pipes0" position="20.971296 13.580201 0.000000" rotation="-0.000000 -0.707107 0.707107 0.000000" scale="1.000000 1.000000 1.000000"/>
+	<model mesh="Silo0" position="-18.069801 3.353645 0.068020" rotation="0.000000 0.000000 0.000000 1.000000" scale="1.000000 1.000000 1.000000"/>
+</scene>

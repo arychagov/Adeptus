@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadGameHUD extends="HUD" layout="Flow" layout.alignment="MiddleCenter" layout.gap="0 0" layout.direction="TopToBottom" preferredSize="1240 720" showEffect="FadeInRight" hideEffect="FadeOutLeft">
+	<label caption="<style name='ShadowedMenuTitle'/><string name='GUI/LoadGame'/>"/>
+	<image texture="GUI/HeadlineBar" color="GUI/HeadlineBar"/>
+	<component preferredSize="FillParent 30"/>
+	<container preferredSize="FillParent 540" layout.gap="20 20">
+		<list surface.texture="GUI/ShadowedSurface" name="navigationList" minItemHeight="32" preferredSize="FillParent WrapContent" maxSize="0 540" weights="1 FillAll">
+			<labeledListItem name="singlePlayer" label.caption="<string name='GUI/SinglePlayer'/>"/>
+			<labeledListItem name="multiplayer" label.caption="<string name='GUI/Multiplayer'/>"/>
+			<!-- <labeledListItem name="scenarios" label.caption="<string name='GUI/Scenarios'/>"/> -->
+		</list>
+		<list surface.texture="GUI/ShadowedSurface" name="fileList" minItemHeight="32" preferredSize="FillParent WrapContent" maxSize="0 540" weights="3 FillAll"/>
+	</container>
+	<component preferredSize="FillParent 30"/>
+	<container layout.alignment="TopCenter" layout.gap="40 40" preferredSize="FillParent WrapContent">
+		<navigationButton name="cancelButton" label.caption="<string name='GUI/Back'/>" control="Controls/Cancel"/>
+		<navigationButton name="deleteButton" label.caption="<string name='GUI/Delete'/>"/>
+		<navigationOKButton name="enterButton" control=""/>
+	</container>
+</loadGameHUD>

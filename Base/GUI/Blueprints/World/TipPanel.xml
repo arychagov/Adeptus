@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tipPanel extends="Panel" titleLabel.caption="<string name='GUI/Tip'/>" content.layout.direction="TopToBottom" content.layout.gap="8 8" showEffect="FadeInTop" hideEffect="FadeOutTop" preferredSize="420 WrapContent" stayOnTop="1">
+	<label name="label" preferredSize="FillParent WrapContent" weights="FillAll 1"/>
+	<container preferredSize="FillParent WrapContent" weights="FillAll FillAll">
+		<okButton/>
+		<button name="disableTipsButton" label.caption="<string name='GUI/DisableTips'/>" hint="<string name='GUI/DisableTipsHint'/>"/>
+	</container>
+</tipPanel>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu:extraHUD extends="HUD" layout="Flow" layout.alignment="TopCenter" layout.gap="0 0" layout.direction="TopToBottom" showEffect="FadeInLeft" hideEffect="FadeOutLeft" preferredSize="1240 720">
+	<component preferredSize="FillParent 30"/>
+	<label caption="<style name='MainMenuTitle'/><string name='GUI/Extra'/>"/>
+	<image texture="GUI/HeadlineBar" color="GUI/HeadlineBar"/>
+	<component preferredSize="FillParent 30"/>
+	<container layout.alignment="TopCenter" layout.gap="20 20" preferredSize="FillParent 540">
+		<list name="navigationList" content.margin="0 0" minItemHeight="48" preferredSize="260 WrapContent">
+			<labeledListItem label.alignment="MiddleCenter" label.style="<style name='MainMenuNavigation'/>" name="community" label.caption="<string name='GUI/Community'/>"/>
+			<labeledListItem label.alignment="MiddleCenter" label.style="<style name='MainMenuNavigation'/>" name="social" label.caption="<string name='GUI/Social'/>"/>
+			<labeledListItem label.alignment="MiddleCenter" label.style="<style name='MainMenuNavigation'/>" name="mods" label.caption="<string name='GUI/Mods'/>"/>
+			<labeledListItem label.alignment="MiddleCenter" label.style="<style name='MainMenuNavigation'/>" name="userData" label.caption="<string name='GUI/UserData'/>"/>
+			<labeledListItem label.alignment="MiddleCenter" label.style="<style name='MainMenuNavigation'/>" name="credits" label.caption="<string name='GUI/Credits'/>"/>
+			<labeledListItem label.alignment="MiddleCenter" label.style="<style name='MainMenuNavigation'/>" name="more" label.caption="<string name='GUI/More'/>"/>
+			<labeledListItem label.alignment="MiddleCenter" label.style="<style name='MainMenuNavigation'/>" name="back" label.caption="<string name='GUI/Back'/>"/>
+		</list>
+	</container>
+</menu:extraHUD>

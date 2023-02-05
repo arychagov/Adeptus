@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene version="1.0">
+	<model mesh="Rock1" position="-26.3952 5.99331 0.0" rotation="0.0 0.0 0.0 1.0" scale="1.0 1.0 0.841288"/>
+	<model mesh="Rock5" position="21.0686 24.784 0.0" rotation="0.0 0.0 -0.130526 0.991445" scale="1.0 1.0 0.841288"/>
+</scene>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:cargoItem extends="ContentContainer" surface.texture="GUI/ShadowedSurface" preferredSize="52 44" content.margin="2 2" pressedSound="Interface/Press" content.layout.alignment="MiddleRight" content.layout.gap="-1 -1">
+	<container layout="Relative" layout.alignment="MiddleCenter" preferredSize="FillParent FillParent" weights="1 FillAll" interactive="0">
+		<image name="icon" preferredSize="40 40"/>
+	</container>
+	<container preferredSize="WrapContent FillParent" layout.gap="-1 -1" layout.collapseInvisible="1" interactive="0">
+		<progressBar name="healthBar" preferredSize="6 FillParent" background.color="0 0 0 0" direction="BottomToTop"/>
+		<progressBar name="moraleBar" preferredSize="4 FillParent" background.color="0 0 0 0" direction="BottomToTop"/>
+	</container>
+</world:cargoItem>

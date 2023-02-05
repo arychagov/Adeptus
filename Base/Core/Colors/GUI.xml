@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colors>
+	<color name="Black" value="0.0 0.0 0.0"/>
+	<color name="Blue" value="0.0 0.5 1.0"/>
+	<color name="DarkGray" value="0.3 0.3 0.3"/>
+	<color name="Gray" value="0.5 0.5 0.5"/>
+	<color name="Green" value="0.25 0.75 0.25"/>
+	<color name="Orange" value="0.75 0.5 0.0"/>
+	<color name="Purple" value="0.75 0.0 0.75"/>
+	<color name="Red" value="0.75 0.25 0.25"/>
+	<color name="Turquoise" value="0.0 0.75 0.75"/>
+	<color name="Yellow" value="0.75 0.75 0.0"/>
+	<color name="White" value="1.0 1.0 1.0"/>
+	
+	<color name="Broken" value="GUI/Red"/>
+	<color name="Buff" value="GUI/Green"/>
+	<color name="Debuff" value="GUI/Red"/>
+	<color name="Disabled" value="GUI/Gray"/>
+	<color name="Elite" value="GUI/Purple"/>
+	<color name="HeadlineBar" value="0.6 0.05 0.05"/>
+	<color name="LevelableAction" value="0.75 0.25 0.75"/>
+	<color name="Morale" value="GUI/Turquoise"/>
+	<color name="Rare" value="GUI/Purple"/>
+	<color name="Shaken" value="GUI/Yellow"/>
+	<color name="Text" value="0.9 0.9 0.9"/>
+	<color name="Uncommon" value="GUI/Turquoise"/>
+	<color name="Upgrade" value="0.3 0.6 0.9"/>
+</colors>

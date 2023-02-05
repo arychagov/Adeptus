@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu:selectFactionHUD extends="HUD" layout="Flow" layout.alignment="MiddleCenter" layout.gap="0 0" layout.direction="TopToBottom" preferredSize="1240 720" showEffect="FadeInRight" hideEffect="FadeOutRight">
+	<label caption="<style name='ShadowedMenuTitle'/><string name='GUI/SelectFaction'/>"/>
+	<image texture="GUI/HeadlineBar" color="GUI/HeadlineBar"/>
+	<component preferredSize="FillParent 30"/>
+	<container layout.alignment="TopCenter" layout.gap="20 20" preferredSize="FillParent 540">
+		<list surface.texture="GUI/ShadowedSurface" name="navigationList" minItemHeight="32" preferredSize="300 WrapContent" maxSize="0 540"/>
+		<container preferredSize="FillParent FillParent" weights="1 FillAll">
+			<container layout.gap="20 20" preferredSize="FillParent FillParent">
+				<contentContainer preferredSize="270 FillParent">
+					<image name="factionImage" preferredSize="FillParent FillParent"/>
+				</contentContainer>
+				<scrollableContainer name="factionInfoContainer" surface.texture="GUI/ShadowedSurface" preferredSize="FillParent WrapContent" maxSize="0 540" weights="1 FillAll">
+					<label name="factionLabel" preferredSize="FillParent WrapContent"/>
+				</scrollableContainer>
+			</container>
+		</container>
+	</container>
+	<component preferredSize="FillParent 30"/>
+	<container layout.alignment="TopCenter" layout.gap="40 40" preferredSize="FillParent WrapContent">
+		<navigationOKButton/>
+	</container>
+</menu:selectFactionHUD>

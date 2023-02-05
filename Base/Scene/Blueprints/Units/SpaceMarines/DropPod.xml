@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animatedModel mesh="Units/SpaceMarines/DropPod"
+		material="Units/SpaceMarines/DropPod"
+		scale="0.75 0.75 0.75">
+	<renderQueues>
+		<renderQueue name="Units"/>
+		<renderQueue name="AnimatedModelOccluders" proxy="AnimatedModelOccluder"/>
+	</renderQueues>
+	<updateQueues>
+		<updateQueue name="Parallel1"/>
+	</updateQueues>
+</animatedModel>

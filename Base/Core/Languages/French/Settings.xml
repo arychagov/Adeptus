@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="Audio" value="Audio"/>
+	<entry name="Audio/AmbientVolume" value="Volume ambiant"/>
+	<entry name="Audio/AmbientVolumeHint" value="Règle le volume ambiant."/>
+	<entry name="Audio/CinematicVolume" value="Volume des cinématiques"/>
+	<entry name="Audio/CinematicVolumeHint" value="Règle le volume des cinématiques."/>
+	<entry name="Audio/EffectVolume" value="Volume des effets"/>
+	<entry name="Audio/EffectVolumeHint" value="Règle le volume des effets."/>
+	<entry name="Audio/EnvironmentalProcessing" value="Prise en compte de l'environnement"/>
+	<entry name="Audio/EnvironmentalProcessingHint" value="Applique les effets environnementaux tels que la réverbération, les réflexions et l'occlusion ou l'obstruction des sons par des objets. Sans ces effets environnementaux, l'auditeur peut déterminer la direction vers la source de chaque son, mais a plus de difficulté à déterminer exactement à quelle distance ces sources sont. De plus, l'auditeur n'a aucune idée de l'environnement dans lequel les sources se trouvent.<br/><br/><style color='GUI/Yellow'/>Peut ralentir le jeu sur certaines machines."/>
+	<entry name="Audio/HRTF" value="HRTF"/>
+	<entry name="Audio/HRTFHint" value="Modifie le son en utilisant une fonction de transfert relative à la tête ou HRTF<br/><br/>L'HRTF peut fournir une meilleur acuité spatiale lorsque vous utilisez des écouteurs en utilisant des filtres spéciaux conçus pour reproduire l'effet de la forme de la tête de l'auditeur sur les sons selon la direction d'où ils proviennent.<br/><br/>Utiliser l'HRTF peut forcer l'AL à reconfigurer votre appareil pour un mode spécifique de sortie, et restreindre les fréquences utilisables.<br/><br/><style color='GUI/Yellow'/>Attention : Bien que l'HRTF peut être très bien avec des écouteurs, cela peut résulter en une augmentation de l'utilisation des ressources, et ne pas produire un bon son avec des enceintes ordinaires, particulièrement si l'utilisateur a une sortie audio surround."/>
+	<entry name="Audio/InterfaceVolume" value="Volume de l'interface"/>
+	<entry name="Audio/InterfaceVolumeHint" value="Règle le volume de l'interface."/>
+	<entry name="Audio/MasterVolume" value="Volume principal"/>
+	<entry name="Audio/MasterVolumeHint" value="Règle le volume principal."/>
+	<entry name="Audio/MusicVolume" value="Volume de la musique"/>
+	<entry name="Audio/MusicVolumeHint" value="Règle le volume de la musique."/>
+	<entry name="Audio/OutputDevice" value="Périphérique de sortie"/>
+	<entry name="Audio/OutputDeviceHint" value=""/>
+	<entry name="Audio/VoiceVolume" value="Volume des voix"/>
+	<entry name="Audio/VoiceVolumeHint" value="Règle le volume des voix."/>
+	<entry name="Controls" value="Raccourcis"/>
+	<entry name="Controls/Cancel" value="Annuler"/>
+	<entry name="Controls/Cargo0" value="Cargo 1"/>
+	<entry name="Controls/Cargo1" value="Cargo 2"/>
+	<entry name="Controls/Cargo2" value="Cargo 3"/>
+	<entry name="Controls/Cargo3" value="Cargo 4"/>
+	<entry name="Controls/Cargo4" value="Cargo 5"/>
+	<entry name="Controls/Cargo5" value="Cargo 6"/>
+	<entry name="Controls/Cargo6" value="Cargo 7"/>
+	<entry name="Controls/Cargo7" value="Cargo 8"/>
+	<entry name="Controls/Cargo8" value="Cargo 9"/>
+	<entry name="Controls/Cargo9" value="Cargo 10"/>
+	<entry name="Controls/Chat" value="Chat"/>
+	<entry name="Controls/ForceEndTurn" value="Forcer la fin du tour"/>
+	<entry name="Controls/MarkTile" value="Marquer une case"/>
+	<entry name="Controls/NextMusicTrack" value="Piste de musique suivante"/>
+	<entry name="Controls/NextTask" value="Tâche suivante"/>
+	<entry name="Controls/OK" value="OK"/>
+	<entry name="Controls/OpenCompendiumScreen" value="Ouvrir le Compendium"/>
+	<entry name="Controls/OpenQuestsScreen" value="Ouvrir les quêtes"/>
+	<entry name="Controls/OpenResearchScreen" value="Ouvrir les recherches"/>
+	<entry name="Controls/PlayerAction0" value="Action 1 du joueur"/>
+	<entry name="Controls/PlayerAction1" value="Action 2 du joueur"/>
+	<entry name="Controls/PlayerAction2" value="Action 3 du joueur"/>
+	<entry name="Controls/PlayerAction3" value="Action 4 du joueur"/>
+	<entry name="Controls/PlayerAction4" value="Action 5 du joueur"/>
+	<entry name="Controls/PlayerAction5" value="Action 6 du joueur"/>
+	<entry name="Controls/PlayerAction6" value="Action 7 du joueur"/>
+	<entry name="Controls/PlayerAction7" value="Action 8 du joueur"/>
+	<entry name="Controls/PlayerAction8" value="Action 9 du joueur"/>
+	<entry name="Controls/PlayerAction9" value="Action 10 du joueur"/>
+	<entry name="Controls/QuickLoad" value="Chargement rapide"/>
+	<entry name="Controls/QuickSave" value="Sauvegarde rapide"/>
+	<entry name="Controls/ReloadModifiedResources" value="Recharger les ressources modifiées"/>
+	<entry name="Controls/SaveJPGScreenShot" value="Sauvegarder la capture d'écran en JPG"/>
+	<entry name="Controls/SaveJPGScreenShotWithoutHUD" value="Sauvegarder la capture d'écran en JPG sans l'HUD"/>
+	<entry name="Controls/SavePNGScreenShot" value="Sauvegarder la capture d'écran en PNG"/>
+	<entry name="Controls/SavePNGScreenShotWithoutHUD" value="Sauvegarder la capture d'écran en PNG sans l'HUD"/>
+	<entry name="Controls/ScrollDown" value="Défilement vers le bas"/>
+	<entry name="Controls/ScrollLeft" value="Défilement vers la gauche"/>
+	<entry name="Controls/ScrollRight" value="Défilement vers la droite"/>
+	<entry name="Controls/ScrollUp" value="Défilement vers le haut"/>
+	<entry name="Controls/SelectNext" value="Choisir suivant"/>
+	<entry name="Controls/SelectPrevious" value="Choisir précédent"/>
+	<entry name="Controls/ToggleDebugPanel" value="Activer/Désactiver le panneau de Debug"/>
+	<entry name="Controls/ToggleDisplayMode" value="Activer/Désactiver le mode d'affichage"/>
+	<entry name="Controls/ToggleFPSDisplay" value="Activer/Désactiver l'affichage des FPS"/>
+	<entry name="Controls/ToggleHUD" value="Activer/Désactiver l'HUD"/>
+	<entry name="Controls/ToggleLoadScreen" value="Activer/Désactiver l'écran de chargement"/>
+	<entry name="Controls/ToggleMixerPanel" value="Activer/Désactiver le panneau de mélange"/>
+	<entry name="Controls/ToggleSaveScreen" value="Activer/Désactiver l'écran de sauvegarde"/>
+	<entry name="Controls/ToggleSettingsScreen" value="Activer/Désactiver l'écran de paramètres"/>
+	<entry name="Controls/ToggleStatsPanel" value="Activer/Désactiver le panneau de statistiques"/>
+	<entry name="Controls/ToggleUnitOverlay" value="Activer/Désactiver l'overlay des unités"/>
+	<entry name="Controls/ToggleYieldOverlay" value="Activer/Désactiver l'overlay des ressources"/>
+	<entry name="Controls/UnitAction0" value="Action 1 de l'unité"/>
+	<entry name="Controls/UnitAction1" value="Action 2 de l'unité"/>
+	<entry name="Controls/UnitAction2" value="Action 3 de l'unité"/>
+	<entry name="Controls/UnitAction3" value="Action 4 de l'unité"/>
+	<entry name="Controls/UnitAction4" value="Action 5 de l'unité"/>
+	<entry name="Controls/UnitAction5" value="Action 6 de l'unité"/>
+	<entry name="Controls/UnitAction6" value="Action 7 de l'unité"/>
+	<entry name="Controls/UnitAction7" value="Action 8 de l'unité"/>
+	<entry name="Controls/UnitAction8" value="Action 9 de l'unité"/>
+	<entry name="Controls/UnitAction9" value="Action 10 de l'unité"/>
+	<entry name="Controls/UnitAction10" value="Action 11 de l'unité"/>
+	<entry name="Controls/UnitAction11" value="Action 12 de l'unité"/>
+	<entry name="Controls/UnitAction12" value="Action 13 de l'unité"/>
+	<entry name="Controls/UnitAction13" value="Action 14 de l'unité"/>
+	<entry name="Controls/UnitAction14" value="Action 15 de l'unité"/>
+	<entry name="Controls/UnitItem0" value="Objet 1 de l'unité"/>
+	<entry name="Controls/UnitItem1" value="Objet 2 de l'unité"/>
+	<entry name="Controls/UnitItem2" value="Objet 3 de l'unité"/>
+	<entry name="Controls/UnitItem3" value="Objet 4 de l'unité"/>
+	<entry name="Controls/UnitItem4" value="Objet 5 de l'unité"/>
+	<entry name="Controls/UnitItem5" value="Objet 6 de l'unité"/>
+	<entry name="Controls/UnitItem6" value="Objet 7 de l'unité"/>
+	<entry name="Controls/UnitItem7" value="Objet 8 de l'unité"/>
+	<entry name="Controls/UnitItem8" value="Objet 9 de l'unité"/>
+	<entry name="Controls/UnitItem9" value="Objet 10 de l'unité"/>
+	<entry name="General" value="Général"/>
+	<entry name="General/AnimationSpeed" value="Vitesse d'animation"/>
+	<entry name="General/AnimationSpeedHint" value=""/>
+	<entry name="General/AutoCycleUnits" value="Cycle automatique des unités"/>
+	<entry name="General/AutoCycleUnitsHint" value="Passe automatiquement à l'unité inactive suivante"/>
+	<entry name="General/AutoSendReports" value="Envoyer les statistiques d'utilisation et les rapports de crash"/>
+	<entry name="General/AutoSendReportsHint" value="Envoie automatiquement les statistiques d'utilisation et les rapports de crash à Proxy Studios pour aider à améliorer les fonctionnalités du jeu, sa stabilité et les performances.<br/><br/><style color='GUI/Yellow'/>Laisser votre vie privée est important pour nous. Nous nous efforçons de ne collecter que ce dont nous avons besoin pour améliorer le jeu pour tout le monde. Les données collectées incluent des interactiopns anonymisées avec le jeu (par exemple le nombre de tentatives et d'échecs de connexion au multi-joueur, le type de parties lancées, les fonctionnalités utilisées, les boutons cliqués et le temps de jeu) ainsi que des informations techniques anonymisées (telles que la version du jeu, la langue, le système d'exploitation, la configuration du hardware et des informations basiques à propos des crashs et erreurs). Ces données sont traitées dans l'intérêt légitime de fournir un produit fiable et de haute qualité; elles sont stockées jusqu'à un an et ne sont jamais partagées avec des parties tierces."/>
+	<entry name="General/Language" value="Langue"/>
+	<entry name="General/LanguageHint" value="Spécifie la langue utilisée pour les textes.<br/><br/><style color='GUI/Red'/>Changer ce paramètre requiert de relancer le jeu pour qu'il prenne effet."/>
+	<entry name="General/ResetTips" value="Remettre à zéro les astuces"/>
+	<entry name="General/ResetTipsHint" value="Remet à zéro les astuces pour qu'elles soient de nouveau affichées."/>
+	<entry name="General/ScrollAcceleration" value="Accélération du défilement"/>
+	<entry name="General/ScrollAccelerationHint" value=""/>
+	<entry name="General/ScrollSpeed" value="Vitesse de défilement"/>
+	<entry name="General/ScrollSpeedHint" value=""/>
+	<entry name="General/ScrollToAction" value="Défilement automatique vers l'action"/>
+	<entry name="General/ScrollToActionHint" value="La caméra se déplace automatiquement vers les actions en cours durant le tour des IA."/>
+	<entry name="General/ShowBarks" value="Montrer les cris"/>
+	<entry name="General/ShowBarksHint" value="Affiche les cris des unités"/>
+	<entry name="General/ShowCinematics" value="Montrer les cinématiques"/>
+	<entry name="General/ShowCinematicsHint" value="Afficher les cinématiques"/>
+	<entry name="General/ShowPerformance" value="Montrer les performances"/>
+	<entry name="General/ShowPerformanceHint" value="Afficher les informations sur les performances."/>
+	<entry name="General/ShowSubtitles" value="Montrer les sous-titres"/>
+	<entry name="General/ShowSubtitlesHint" value="Affiche les sous-titres en bas des cinématiques qui traduisent ou transcrivent le dialogue et la narration."/>
+	<entry name="General/ShowTips" value="Montrer les astuces"/>
+	<entry name="General/ShowTipsHint" value="Afficher des astuces utiles pour le jeu."/>
+	<entry name="Network" value="Réseau"/>
+	<entry name="Network/ListenPort" value="Port d'écoute"/>
+	<entry name="Network/ListenPortHint" value=""/>
+	<entry name="Network/RemoteAddress" value="Adresse distante"/>
+	<entry name="Network/RemotePort" value="Port distant"/>
+	<entry name="Video" value="Vidéo"/>
+	<entry name="Video/AnisotropicFiltering" value="Filtrage Anisotrope"/>
+	<entry name="Video/AnisotropicFilteringHint" value=""/>
+	<entry name="Video/Brightness" value="Luminosité"/>
+	<entry name="Video/BrightnessHint" value=""/>
+	<entry name="Video/CloudShadows" value="Ombres des nuages"/>
+	<entry name="Video/CloudShadowsHint" value=""/>
+	<entry name="Video/Contrast" value="Contraste"/>
+	<entry name="Video/ContrastHint" value=""/>
+	<entry name="Video/DepthFog" value="Profondeur du brouillard"/>
+	<entry name="Video/DepthFogHint" value=""/>
+	<entry name="Video/DepthOfField" value="Profondeur de champ"/>
+	<entry name="Video/DepthOfFieldHint" value=""/>
+	<entry name="Video/Device" value="Carte graphique"/>
+	<entry name="Video/DeviceHint" value=""/>
+	<entry name="Video/DisplayMode" value="Mode d'affichage"/>
+	<entry name="Video/DisplayMode0" value="Plein écran"/>
+	<entry name="Video/DisplayMode1" value="Fenêtré"/>
+	<entry name="Video/DisplayMode2" value="Fenêtré non-décoré"/>
+	<entry name="Video/DisplayModeHint" value="Vous permet de changer le mode d'affichage du jeu. Les modes fenêtrés peuvent cause une perte de performance.<br/><br/><style color='GUI/Yellow'/>Le mode fenêtré peut mieux marcher pour enregistrer en résolution native."/>
+	<entry name="Video/FixedTimeOfDay" value="Heure fixée"/>
+	<entry name="Video/FixedTimeOfDayHint" value=""/>
+	<entry name="Video/FixedTimeOfDayAt" value="Heure fixée à"/>
+	<entry name="Video/FixedTimeOfDayAtHint" value=""/>
+	<entry name="Video/FXAA" value="Anti-Crénelage"/>
+	<entry name="Video/FXAAHint" value="Reduit le crénelage en arrondissant les angles avec FXAA, mais peut réduire les performances. Se repose sur la puissance de votre carte graphique."/>
+	<entry name="Video/Gamma" value="Gamma"/>
+	<entry name="Video/GammaHint" value=""/>
+	<entry name="Video/GUIScale" value="Echelle de l'interface"/>
+	<entry name="Video/GUIScaleCustom" value="Personnalisée: %1%%%"/>
+	<entry name="Video/GUIScaleHint" value="Change l'échelle de l'interface graphique."/>
+	<entry name="Video/MaxFocusedTickrate" value="FPS maximaux si la fenêtre a le focus"/>
+	<entry name="Video/MaxFocusedTickrateHint" value=""/>
+	<entry name="Video/MaxMinimizedTickrate" value="FPS maximaux si la fenêtre est minimisé"/>
+	<entry name="Video/MaxMinimizedTickrateHint" value=""/>
+	<entry name="Video/MaxUnfocusedTickrate" value="FPS maximaux si la fenêtre n'a pas le focus"/>
+	<entry name="Video/MaxUnfocusedTickrateHint" value=""/>
+	<entry name="Video/Monitor" value="Ecran"/>
+	<entry name="Video/MonitorHint" value=""/>
+	<entry name="Video/MultiThreadedRendering" value="Rendu en multi-thread"/>
+	<entry name="Video/MultiThreadedRenderingHint" value="Utilise plusieurs coeurs du processeurs pour produire les images ce qui peut améliorer les performances. Désactiver ce paramètre peut potentiellement éliminer des artefacts visuels."/>
+	<entry name="Video/Resolution" value="Résolution"/>
+	<entry name="Video/ResolutionHint" value="Permet de changer la résolution d'affichage du jeu. Une plus grande résolution donnera une plus grande clarté, mais affectera grandement les performances."/>
+	<entry name="Video/ShadowQuality" value="Qualité des ombres"/>
+	<entry name="Video/ShadowQuality0" value="Basse"/>
+	<entry name="Video/ShadowQuality1" value="Moyenne"/>
+	<entry name="Video/ShadowQuality2" value="Haute"/>
+	<entry name="Video/ShadowQualityHint" value="Détermine la taille de la carte d'ombre pour dessiner les ombres. Une plus grande qualité d'ombre donnera des ombres plus détaillées mais nécessitera une carte graphique plus puissante."/>
+	<entry name="Video/ShowCliffHighlights" value="Mettre en avant les falaises"/>
+	<entry name="Video/ShowCliffHighlightsHint" value="Affiche des lignes en pointillé pour mettre en avant les falaises."/>
+	<entry name="Video/ShowGrid" value="Afficher la grille"/>
+	<entry name="Video/ShowGridHint" value="Affiche la grille au sol."/>
+	<entry name="Video/TextureQuality" value="Qualité des textures"/>
+	<entry name="Video/TextureQuality0" value="Basse"/>
+	<entry name="Video/TextureQuality1" value="Moyenne"/>
+	<entry name="Video/TextureQuality2" value="Haute"/>
+	<entry name="Video/TextureQualityHint" value="Déteminer la taille des textures utilisées dans le jeu. Une plus gande qualité des textures donnera un terrain et des unités plus détaillés, mais nécessitera davantage de mémoire vidéo (VRAM).<br/><br/>Basse: 1 GB<br/>Moyenne: 2 GB<br/>Haute: 3 GB"/>
+	<entry name="Video/VerticalSynchronization" value="Synchronization Verticale"/>
+	<entry name="Video/VerticalSynchronization-1" value="Adaptative"/> <!-- TODO: Hints -->
+	<entry name="Video/VerticalSynchronization0" value="Aucune"/>
+	<entry name="Video/VerticalSynchronization1" value="Normal"/>
+	<entry name="Video/VerticalSynchronizationHint" value="Synchronize votre frame rate au rythme de rafraîchissement de votre écran."/>
+	<entry name="World" value="Monde"/>
+</language>

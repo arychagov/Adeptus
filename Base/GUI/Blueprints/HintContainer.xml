@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hintContainer extends="ContentContainer"
+		name="HintContainer"
+		surface.texture="GUI/ShadowedSurface"
+		content.margin="8 6"
+		displacement="10 24"
+		showEffect="FadeIn"
+		hideEffect="FadeOut"
+		stayOnTop="1"
+		restrictedToParent="1"
+		progressive="1"
+		visible="0"
+		preferredSize="WrapContent WrapContent"
+		maxSize="400 0"
+		content.layout="Absolute"
+		restrictRearrangeToSelf="1"/>

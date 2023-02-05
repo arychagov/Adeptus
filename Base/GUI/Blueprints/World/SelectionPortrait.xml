@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:selectionPortrait layout="Relative" layout.alignment="TopCenter">
+	<container preferredSize="FillParent FillParent" layout.collapseInvisible="1" layout.gap="0 0">
+		<image name="image" texture="Portrait" preferredSize="FillParent FillParent" weights="FillAll 1"/>
+	</container>
+	<container layout.alignment="BottomRight" preferredSize="FillParent FillParent">
+		<imageButton name="orderButton" 
+				unpressedTexture="GUI/EmphasizedButton"
+				pressedTexture="GUI/EmphasizedButton"/>
+	</container>
+</world:selectionPortrait>

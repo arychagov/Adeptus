@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu:lobbyHUD extends="HUD" layout="Flow" layout.alignment="MiddleCenter" layout.gap="0 0" layout.direction="TopToBottom" preferredSize="1240 720">
+	<label caption="<style name='ShadowedMenuTitle'/><string name='GUI/GameLobby'/>"/>
+	<image texture="GUI/HeadlineBar" color="GUI/HeadlineBar"/>
+	<component preferredSize="FillParent 30"/>
+	<container layout.alignment="TopLeft" layout.gap="20 20" preferredSize="FillParent 540" weights="FillAll 1">
+		<container preferredSize="FillParent FillParent" weights="1 FillAll">
+			<container name="playersContainer" layout.gap="10 10" preferredSize="FillParent FillParent">
+				<container preferredSize="270 FillParent">
+					<menu:playerContainer name="controllerContainer" preferredSize="FillParent FillParent"/>
+				</container>
+				<scrollableContainer name="playersField" scrollableContent.layout.collapseInvisible="1" scrollableContent.layout.gap="10 10" scrollableContent.layout.direction="LeftToRight" visibleContentContainer.content.margin="0 0" preferredSize="FillParent FillParent" weights="1 FillAll">
+					<image hint="<string name='GUI/AddPlayerHint'/>" name="addPlayerImage" preferredSize="180 265" texture="Images/AddPlayer" color="1 1 1 0.75" pressedSound="Interface/Press"/>
+				</scrollableContainer>
+			</container>
+		</container>
+		<container preferredSize="356 FillParent">
+			<!-- <label style="<style name='ShadowedMenuHeading'/>" caption="<string name='GUI/Parameters'/>" preferredSize="FillParent WrapContent"/> -->
+			<container preferredSize="FillParent WrapContent" layout.collapseInvisible="1"> 
+				<button name="basicParametersButton" label.caption="<string name='GUI/Basic'/>" preferredSize="FillParent 28" weights="1 FillAll"/>
+				<button name="advancedParametersButton" label.caption="<string name='GUI/Advanced'/>" preferredSize="FillParent 28" weights="1 FillAll"/>
+				<button name="chatButton" label.caption="<string name='GUI/Chat'/>" preferredSize="FillParent 28" weights="1 FillAll"/> 
+			</container>
+			<contentContainer content.margin="0 0" content.layout="Relative" layout.collapseInvisible="1" name="categoryContainer" preferredSize="FillParent FillParent" weights="FillAll 1">
+				<chatContainer content.margin="2 0; 8 0" name="chatContainer" preferredSize="FillParent FillParent" visible="0"/>
+				<scrollableContainer visibleContentContainer.content.margin="2 0; 8 0" name="basicParametersContainer" preferredSize="FillParent FillParent" scrollableContent.layout.collapseInvisible="1" visible="0">
+					<container name="gameVisibilityContainer" preferredSize="FillParent WrapContent">
+						<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/GameVisibility'/>" preferredSize="FillParent WrapContent"/>
+						<dropList name="gameVisibilityDropList" preferredSize="FillParent 28"/>
+						<component preferredSize="FillParent 0"/>
+					</container>
+					<container name="inviteButtonsContainer" preferredSize="FillParent WrapContent">
+						<container preferredSize="FillParent WrapContent">
+							<button name="steamInviteButton" label.caption="<string name='GUI/InviteSteamFriend'/>" preferredSize="FillParent 28" weights="1 FillAll"/>
+							<button name="epicInviteButton" label.caption="<string name='GUI/InviteEpicFriend'/>" preferredSize="FillParent 28" weights="1 FillAll"/>
+						</container>
+						<component preferredSize="FillParent 0"/>
+					</container>
+					<container name="gameNameContainer" preferredSize="FillParent WrapContent">
+						<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/GameName'/>" preferredSize="FillParent WrapContent"/>
+						<textBox maxLength="50" name="gameNameTextBox" preferredSize="FillParent 28"/>
+						<component preferredSize="FillParent 0"/>
+					</container>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/Difficulty'/>" hint="<string name='WorldParameters/DifficultyHint'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="difficultyDropList" preferredSize="FillParent 28" hint="<string name='WorldParameters/DifficultyHint'/>"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/WorldSize'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="worldSizeDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/LandMass'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="landMassDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/GameSpeed'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="paceDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<container preferredSize="FillParent WrapContent" layout.alignment="TopRight">
+						<button name="restoreDefaultsButton" label.caption="<string name='GUI/RestoreDefaults'/>"/>
+					</container>
+				</scrollableContainer>
+				<scrollableContainer visibleContentContainer.content.margin="2 0; 8 0" name="advancedParametersContainer" preferredSize="FillParent FillParent" scrollableContent.layout.collapseInvisible="1" visible="0">
+					<container name="supplement10Container" preferredSize="FillParent WrapContent">
+						<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/Supplement10'/>" preferredSize="FillParent WrapContent"/>
+						<checkBox name="supplement10CheckBox"/>
+						<component preferredSize="FillParent 0"/>
+					</container>
+					<container name="supplement8Container" preferredSize="FillParent WrapContent">
+						<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/Supplement8'/>" preferredSize="FillParent WrapContent"/>
+						<checkBox name="supplement8CheckBox"/>
+						<component preferredSize="FillParent 0"/>
+					</container>
+					<container name="supplement6Container" preferredSize="FillParent WrapContent">
+						<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/Supplement6'/>" preferredSize="FillParent WrapContent"/>
+						<checkBox name="supplement6CheckBox"/>
+						<component preferredSize="FillParent 0"/>
+					</container>
+					<container name="supplement4Container" preferredSize="FillParent WrapContent">
+						<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/Supplement4'/>" preferredSize="FillParent WrapContent"/>
+						<checkBox name="supplement4CheckBox"/>
+						<component preferredSize="FillParent 0"/>
+					</container>
+					<container name="supplement1Container" preferredSize="FillParent WrapContent">
+						<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/Supplement1'/>" preferredSize="FillParent WrapContent"/>
+						<checkBox name="supplement1CheckBox"/>
+						<component preferredSize="FillParent 0"/>
+					</container>
+					<container name="lordOfSkullsContainer" preferredSize="FillParent WrapContent">
+						<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/LordOfSkulls'/>" preferredSize="FillParent WrapContent"/>
+						<checkBox name="lordOfSkullsCheckBox"/>
+						<component preferredSize="FillParent 0"/>
+					</container>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/Quests'/>" preferredSize="FillParent WrapContent"/>
+					<checkBox name="questsCheckBox"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/AvoidDuplicateRandomFactions'/>" hint="<string name='WorldParameters/AvoidDuplicateRandomFactionsHint'/>" preferredSize="FillParent WrapContent"/>
+					<checkBox name="avoidDuplicateRandomFactionsCheckBox" hint="<string name='WorldParameters/AvoidDuplicateRandomFactionsHint'/>"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/SimultaneousTurns'/>" preferredSize="FillParent WrapContent"/>
+					<checkBox name="simultaneousTurnsCheckBox"/>
+					<component preferredSize="FillParent 0"/>
+					<container name="aiControlDisconnectedPlayersContainer" preferredSize="FillParent WrapContent">
+						<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/AIControlDisconnectedPlayers'/>" preferredSize="FillParent WrapContent"/>
+						<checkBox name="aiControlDisconnectedPlayersCheckBox"/>
+						<component preferredSize="FillParent 0"/>
+					</container>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/TurnTimer'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="turnTimerDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/AdaptiveTurnTimer'/>" preferredSize="FillParent WrapContent"/>
+					<checkBox name="adaptiveTurnTimerCheckBox"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/StartingResource'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="startingResourceDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/ResourceCost'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="resourceCostDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/ResourceUpkeep'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="resourceUpkeepDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/ResearchCost'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="researchCostDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/WildlifeDensity'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="wildlifeDensityDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/ArtefactDensity'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="artefactDensityDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/SpecialResourceDensity'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="specialResourceDensityDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/RuinsOfVaulDensity'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="ruinsOfVaulDensityDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/JokaeroTraderEncampmentDensity'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="jokaeroTraderEncampmentDensityDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/NecronTombDensity'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="necronTombDensityDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/WebwayGateDensity'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="webwayGateDensityDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/HolySiteDensity'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="holySiteDensityDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/WireWeedDensity'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="wireWeedDensityDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/OrkoidFungusDensity'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="orkoidFungusDensityDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/ImperialRuinsDensity'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="imperialRuinsDensityDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/ForestDensity'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="forestDensityDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/RiverDensity'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="riverDensityDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/RegionSize'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="regionSizeDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/RegionDensity'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="regionDensityDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/ArcticRegionDensity'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="arcticRegionDensityDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/DesertRegionDensity'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="desertRegionDensityDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/TropicalRegionDensity'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="tropicalRegionDensityDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/VolcanicRegionDensity'/>" preferredSize="FillParent WrapContent"/>
+					<dropList name="volcanicRegionDensityDropList" preferredSize="FillParent 28"/>
+					<component preferredSize="FillParent 0"/>
+					<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/WorldSeed'/>" preferredSize="FillParent WrapContent"/>
+					<textBox name="worldSeedTextBox" preferredSize="FillParent 28"/>
+					<container preferredSize="FillParent 28">
+						<button name="worldSeedRandomizeButton" label.caption="<string name='GUI/Randomize'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<button name="worldSeedCopyButton" label.caption="<string name='GUI/Copy'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<button name="worldSeedPasteButton" label.caption="<string name='GUI/Paste'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<component preferredSize="FillParent 0"/>
+					<container name="mapEditorContainer" preferredSize="FillParent WrapContent">
+						<label style="<style name='ShadowedHeading'/>" caption="<string name='WorldParameters/MapEditor'/>" preferredSize="FillParent WrapContent"/>
+						<checkBox name="mapEditorCheckBox"/>
+					</container>
+				</scrollableContainer>
+			</contentContainer>
+		</container>
+	</container>
+	<component preferredSize="FillParent 30"/>
+	<container layout.alignment="TopCenter" layout.collapseInvisible="1" layout.gap="40 40" preferredSize="FillParent WrapContent">
+		<navigationButton name="cancelButton" label.caption="<string name='GUI/Back'/>"/>
+		<navigationButton name="loadButton" label.caption="<string name='GUI/Load'/>"/>
+		<navigationOKButton name="okButton" control="" label.caption="<string name='GUI/Start'/>"/>
+	</container>
+</menu:lobbyHUD>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="AdeptusMechanicus0" value="Staubschreiter"/>
+	<entry name="AdeptusMechanicus1" value="Dyzonisatoren"/>
+	<entry name="AdeptusMechanicus2" value="Das Gothic-Manipel"/>
+	<entry name="AdeptusMechanicus3" value="Oud-Oudianer"/>
+	<entry name="AdeptusMechanicus4" value="Zaibatsun"/>
+	<entry name="AdeptusMechanicus5" value="Terrawatt-Bruderschaft"/>
+	<entry name="AdeptusMechanicus6" value="Jünger des Stahls"/>
+	<entry name="AdeptusMechanicus7" value="Marsianische Dragoner"/>
+	<entry name="AdeptusMechanicus8" value="Landbrecher"/>
+	<entry name="AdeptusMechanicus9" value="Gulden-Scriptoria"/>
+	<entry name="AdeptusMechanicus10" value="Questor-Peltasten"/>
+	<entry name="AdeptusMechanicus11" value="Cyberiaden"/>
+	<entry name="AdeptusMechanicus12" value="Belisarianer"/>
+	<entry name="AdeptusMechanicusCount" value="13"/>
+	<entry name="AstraMilitarum0" value="Veteranen von Miral"/>
+	<entry name="AstraMilitarum1" value="Freikorps von Kathur"/>
+	<entry name="AstraMilitarum2" value="Garde des Wüstenplaneten Nurth"/>
+	<entry name="AstraMilitarum3" value="Eisenfaust von Stygia"/>
+	<entry name="AstraMilitarum4" value="Steinlegion von Praedis-Zeta"/>
+	<entry name="AstraMilitarum5" value="Highlander von Hammans Welt"/>
+	<entry name="AstraMilitarum6" value="Gelehrter von Perlia"/>
+	<entry name="AstraMilitarum7" value="Rächer von Cadia"/>
+	<entry name="AstraMilitarum8" value="Memorator von Tanith"/>
+	<entry name="AstraMilitarum9" value="Leibgarde von Ioline"/>
+	<entry name="AstraMilitarum10" value="Belagerer von Lelithar"/>
+	<entry name="AstraMilitarum11" value="Männer von Tourmalid"/>
+	<entry name="AstraMilitarumCount" value="12"/>
+	<entry name="ChaosSpaceMarines0" value="Kinder des Mahlstroms"/>
+	<entry name="ChaosSpaceMarines1" value="Die Söhne des Tyrannen"/>
+	<entry name="ChaosSpaceMarines2" value="Untergang des Leichenimperators"/>
+	<entry name="ChaosSpaceMarines3" value="Ishas Qualen"/>
+	<entry name="ChaosSpaceMarines4" value="Die Gleißenden Albtraumzungen"/>
+	<entry name="ChaosSpaceMarines5" value="Traum der Tzaangors"/>
+	<entry name="ChaosSpaceMarines6" value="Bluthunde"/>
+	<entry name="ChaosSpaceMarines7" value="Die Gewandelten Wege"/>
+	<entry name="ChaosSpaceMarines8" value="Die Verweser"/>
+	<entry name="ChaosSpaceMarines9" value="Krallen des Horus"/>
+	<entry name="ChaosSpaceMarines10" value="Die Süßen Peiniger"/>
+	<entry name="ChaosSpaceMarines11" value="Die Besitzlosen"/>
+	<entry name="ChaosSpaceMarinesCount" value="12"/>
+	<entry name="Eldar0" value="Wilde Reiter"/>
+	<entry name="Eldar1" value="Die Geisterschnitter"/>
+	<entry name="Eldar2" value="Kristallräuber"/>
+	<entry name="Eldar3" value="Ishas Tränen"/>
+	<entry name="Eldar4" value="Hämmer des Vaul"/>
+	<entry name="Eldar5" value="Exoditenritter"/>
+	<entry name="Eldar6" value="Runenklingen der Alten"/>
+	<entry name="Eldar7" value="Der Ruf des Eldanesh"/>
+	<entry name="Eldar8" value="Der Brennende Sturm"/>
+	<entry name="Eldar9" value="Die Schatten der Stille"/>
+	<entry name="Eldar10" value="Die Seelenjäger"/>
+	<entry name="Eldar11" value="Beschützer der Jungfrau"/>
+	<entry name="EldarCount" value="12"/>
+	<entry name="Necrons0" value="Uralte Weltenwanderer"/>
+	<entry name="Necrons1" value="Goldene Harpyien"/>
+	<entry name="Necrons2" value="Hohe Garde"/>
+	<entry name="Necrons3" value="Die Auserwählten des Overlords"/>
+	<entry name="Necrons4" value="Die Anatomen"/>
+	<entry name="Necrons5" value="Iota aus dem Endlosen Schwarm"/>
+	<entry name="Necrons6" value="Zungen des Gauklers"/>
+	<entry name="Necrons7" value="Nemesis des Albtraums"/>
+	<entry name="Necrons8" value="Glut des Brennenden"/>
+	<entry name="Necrons9" value="Schatten des Eremiten"/>
+	<entry name="Necrons10" value="Dämmerung des Nachtbringers"/>
+	<entry name="NecronsCount" value="11"/>
+	<entry name="Orks0" value="Da Weird Mob"/>
+	<entry name="Orks1" value="Morks Madboyz"/>
+	<entry name="Orks2" value="Gewieftä Gitz"/>
+	<entry name="Orks3" value="Die Groß'n Jungz"/>
+	<entry name="Orks4" value="Da Vernichta"/>
+	<entry name="Orks5" value="Gorkige Jungz"/>
+	<entry name="Orks6" value="Goffwachä"/>
+	<entry name="Orks7" value="Blood Axe Gorkas"/>
+	<entry name="Orks8" value="Deathskull Graftas"/>
+	<entry name="Orks9" value="Bad Moon Flashmob"/>
+	<entry name="Orks10" value="Snakebite Wurmkillaz"/>
+	<entry name="Orks11" value="Evil Sunz Heizaz"/>
+	<entry name="OrksCount" value="12"/>
+	<entry name="SistersOfBattle0" value="Bittstellerinnen von Terra"/>
+	<entry name="SistersOfBattle1" value="Delenda Esta"/>
+	<entry name="SistersOfBattle2" value="Semper Veritas"/>
+	<entry name="SistersOfBattle3" value="Aliena Iactera"/>
+	<entry name="SistersOfBattle4" value="Digitabulum Matris"/>
+	<entry name="SistersOfBattle5" value="Ordo Familiaris"/>
+	<entry name="SistersOfBattle6" value="Goldsynode"/>
+	<entry name="SistersOfBattle7" value="Wächterinnen der Unterwelt"/>
+	<entry name="SistersOfBattle8" value="Dienerinnen der Güte"/>
+	<entry name="SistersOfBattle9" value="Celtines Memorialisten"/>
+	<entry name="SistersOfBattle10" value="Raguels Fluch"/>
+	<entry name="SistersOfBattle11" value="Die Lichtvollen"/>
+	<entry name="SistersOfBattleCount" value="12"/>
+	<entry name="SpaceMarines0" value="Unbezwingbare Garde"/>
+	<entry name="SpaceMarines1" value="Hochwürdige Taktiker"/>
+	<entry name="SpaceMarines2" value="Ehrwürdige Veteranen"/>
+	<entry name="SpaceMarines3" value="Ehrverpflichtete Hüter"/>
+	<entry name="SpaceMarines4" value="Verteidiger von Gladius"/>
+	<entry name="SpaceMarines5" value="Die Unsterblichen"/>
+	<entry name="SpaceMarines6" value="Crux Terminatus"/>
+	<entry name="SpaceMarines7" value="Imperiales Ehrenlaub"/>
+	<entry name="SpaceMarines8" value="Honoris Ballistica"/>
+	<entry name="SpaceMarines9" value="Helix Primus"/>
+	<entry name="SpaceMarines10" value="Reinheitssiegel"/>
+	<entry name="SpaceMarines11" value="Opus Machina"/>
+	<entry name="SpaceMarinesCount" value="12"/>
+	<entry name="Tau0" value="Geduldige Jäger"/>
+	<entry name="Tau1" value="Einfacher Schlag"/>
+	<entry name="Tau2" value="Die Einzelgänger"/>
+	<entry name="Tau3" value="Auf Unbekannten Pfaden"/>
+	<entry name="Tau4" value="Wegestreicher"/>
+	<entry name="Tau5" value="Die Wohlgesonnenen"/>
+	<entry name="Tau6" value="Gezeichnet für Großes"/>
+	<entry name="Tau7" value="Letzte Erlösung"/>
+	<entry name="Tau8" value="Eine Bessere Lösung"/>
+	<entry name="Tau9" value="In Stärke Geeint"/>
+	<entry name="Tau10" value="Feuerschatten"/>
+	<entry name="Tau11" value="Die Hinfortziehenden"/>
+	<entry name="TauCount" value="12"/>
+	<entry name="Tyranids0" value="Die Reinlinigen"/>
+	<entry name="Tyranids1" value="Augen des Schwarms"/>
+	<entry name="Tyranids2" value="Znidozystenbrut"/>
+	<entry name="Tyranids3" value="Autophage Schnitter"/>
+	<entry name="Tyranids4" value="Akrosomische Rotte"/>
+	<entry name="Tyranids5" value="Lysosomischer Schwarm"/>
+	<entry name="Tyranids6" value="Schrecken der Flagelloiden"/>
+	<entry name="Tyranids7" value="Unersättliche Piloiden"/>
+	<entry name="Tyranids8" value="Thylakoiden-Müßiger"/>
+	<entry name="Tyranids9" value="Absorbersymbionten"/>
+	<entry name="Tyranids10" value="Hagere Jäger"/>
+	<entry name="Tyranids11" value="Beseelte Myriade"/>
+	<entry name="TyranidsCount" value="12"/>
+</language>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<container preferredSize="FillParent WrapContent">
+	<label name="label" alignment="MiddleLeft" preferredSize="FillParent 30" weights="1 FillAll"/>
+	<container name="bindingButtonsContainer" layout.gap="-1 -1" preferredSize="FillParent WrapContent" weights="1 FillAll"/>
+</container>

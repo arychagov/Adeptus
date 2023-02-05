@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpleParticleSystem material="Effects/OrbitalBombardment"
+		particleAlignment="MiddleRight"
+		particleOrientation="AxisBillboarded"
+		variationCount="1 1">
+	<updateQueues>
+		<updateQueue name="Parallel3"/>
+	</updateQueues>
+	<renderQueues>
+		<renderQueue name="GlowingSimpleParticleSystems"/>
+	</renderQueues>	
+	<emitters>
+		<sphereEmitter particleSizeSquared="0"
+				emissionVolumeMin="-180 -90 0"
+				emissionVolumeMax="180 90 96"
+				flow="Directional"
+				particleLifeTimeMin="1.0"
+				particleLifeTimeMax="1.0"
+				particleSizeMin="240 30"
+				particleSizeMax="320 40"
+				particleVelocityMin="1024"
+				particleVelocityMax="1024"
+				rotation="0 1 0 90"
+				shots="10"
+				spawns="1"
+				interval="0.2"/>
+	</emitters>	
+	<affectors>
+		<colorAffector>
+			<colors>
+				<color value="1 1 1 0" progress="0.0"/>
+				<color value="1 1 1 1" progress="0.1"/>
+				<color value="1 1 1 1" progress="0.9"/>
+				<color value="1 1 1 0" progress="1.0"/>
+			</colors>
+		</colorAffector>
+		<gravityAffector>
+			<force value="0 0 -1024"/>
+		</gravityAffector>
+	</affectors>
+</simpleParticleSystem>

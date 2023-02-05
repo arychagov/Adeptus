@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu:lobbyHUD extends="HUD" layout="Flow" layout.alignment="MiddleCenter" layout.gap="0 0" layout.direction="TopToBottom" preferredSize="1240 720">
+	<label caption="<style name='ShadowedMenuTitle'/><string name='GUI/Multiplayer'/>"/>
+	<image texture="GUI/HeadlineBar" color="GUI/HeadlineBar"/>
+	<component preferredSize="FillParent 30"/>
+	<container layout.alignment="TopCenter" layout.gap="20 20" preferredSize="FillParent 540" weights="FillAll 1">
+		<container preferredSize="500 FillParent" weights="1 FillAll">
+			<label style="<style name='ShadowedHeading'/>" caption="<string name='GUI/Games'/>" preferredSize="FillParent WrapContent"/>
+			<list name="serverList" surface.texture="GUI/ShadowedSurface" minItemHeight="32" preferredSize="FillParent WrapContent" maxSize="0 530"/>
+		</container>
+		<container preferredSize="300 FillParent" layout.alignment="TopRight">
+			<label style="<style name='ShadowedHeading'/>" caption="<string name='GUI/YourName'/>" preferredSize="FillParent WrapContent"/>
+			<textBox maxLength="50" name="nameTextBox" preferredSize="FillParent 28"/>
+			<button name="epicButton"/>
+		</container>
+	</container>
+	<component preferredSize="FillParent 30"/>
+	<container layout.alignment="TopCenter" layout.gap="10 40" preferredSize="FillParent WrapContent">
+		<navigationButton name="cancelButton" label.caption="<string name='GUI/Back'/>" control="Controls/Cancel"/>
+		<navigationButton name="directConnectButton" label.caption="<string name='GUI/DirectConnect'/>"/>
+		<navigationButton name="newButton" label.caption="<string name='GUI/Create'/>"/>
+		<navigationButton name="joinButton" label.caption="<string name='GUI/Join'/>"/>
+		<navigationButton name="refreshButton" label.caption="<string name='GUI/Refresh'/>"/>
+	</container>
+</menu:mainMenuHUD>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<button extends="Button"
+		unpressedTexture="GUI/ShadowedEmphasizedButton"
+		pressedTexture="GUI/ShadowedEmphasizedButton"
+		control="Controls/NextTask"
+		label.style="<style name='Title'/>"/>

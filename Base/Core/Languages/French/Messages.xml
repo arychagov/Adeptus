@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ConfirmDelete" value="Êtes-vous sûrs de vouloir supprimer “%1%”?"/>
+	<entry name="ConfirmDisband" value="Êtes-vous sûr de vouloir dissoudre “%1%”?"/>
+	<entry name="ConfirmOverwrite" value="Êtes-vous sûr de vouloir écraser “%1%”?"/>
+	<entry name="ConfirmRemoveItem" value="Êtes-vous sûr de vouloir détruire “%1%”?"/>
+	<entry name="ConfirmRestoreDefaults" value="Êtes-vous sûr de vouloir restaure les valeurs par défaut de %1% ?"/>
+	<entry name="ConfirmSurrender" value="Êtes-vous sûr de vouloir vous rendre?"/>
+	<entry name="ConnectingToServer" value="Connexion au serveur …"/>
+	<entry name="ConnectionLost" value="Connection perdue."/>
+	<entry name="Error" value="Erreur"/>
+	<entry name="GameLoaded" value="Partie chargée"/>
+	<entry name="GameSaved" value="Partie sauvegardée"/>
+	<entry name="GraphicsDriverOutdated" value="Votre pilote graphique est trop vieux.<br/><br/>Pour améliorer la stabilité et les performances, mettez à jour votre pilote graphique en visitant le site du fabriquant de votre carte graphique."/>
+	<entry name="IncompatibleVersion" value="Version de jeu incompatible."/>
+	<entry name="Info" value="Info"/>
+	<entry name="Kicked" value="Vous avez été expulsé du serveur."/>
+	<entry name="MasterServerUnreachable" value="Impossible de se connecter au serveur maître."/>
+	<entry name="MissingDLC" value="DLC manquant."/>
+	<entry name="ModUploading" value="Envoi du mod …"/>
+	<entry name="ModUploadComplete" value="Mod envoyé."/>
+	<entry name="ModUploadFailed" value="L'envoi du mod a échoué."/>
+	<entry name="NoFreeSlots" value="Pas de places libres sur ce serveur."/>
+	<entry name="NoGames" value="Aucune partie publique n'est en cours<br/>Pourquoi ne pas en commencer une?"/>
+	<entry name="NoMods" value="Aucun mod n'est installé"/>
+	<entry name="NoValidTargets" value="<style color='GUI/Red'/>Pas de cibles valides."/>
+	<entry name="PlayerJoined" value="%1% a rejoint la partie"/>
+	<entry name="PlayerLeft" value="%1% est parti"/>
+	<entry name="PleaseEnterYourName" value="Entrez votre nom."/>
+	<entry name="PleaseWait" value="<style color='GUI/Red'/>Patientez"/>
+	<entry name="ReceivingInfo" value="Réception des informations…"/>
+	<entry name="RestartRequired" value="Vous devez relancer le jeu pour que les changements soient pris en compte."/>
+	<entry name="RetrievingServerList" value="Récupération de la liste des serveurs …"/>
+	<entry name="ScreenShotSaved" value="Capture d'écran sauvegardée."/>
+	<entry name="ScreenShotSaveError" value="Erreur lors de la sauvegarde de la capture d'écran"/>
+	<entry name="SetBinding" value="Appuyez sur une nouvelle combinaison de touches en tant que raccourci %1%."/>
+	<entry name="ServerUnreachable" value="Impossible de se connecter au serveur.<br/><br/>Pour améliorer la connectivité, assurez-vous d'avoir désactivé vos pare-feux et d'avoir autorisé UPnP sur votre routeur ou fais suivre le port TCP %1% à votre machine locale."/>
+	<entry name="SelectTarget" value="Sélectionnez une cible."/>
+	<entry name="SubscribeToNewsletter" value="Nous avons lancé la Newsletter Proxy, pour avoir une ligne directe avec vous! Laissez-nous votre adresse mail pour être les premiers à être au courant des offres spéciales, du nouveau contenu et des bêta-fermées exclusives! (contenu en anglais)<br/><br/><icon texture='Images/SubscribeToNewsletter'/>"/>
+	<entry name="TerminatedWithDisableMods" value="Les mods ont été désactivés à cause d'un crash. Visitez l'écran des mods pour les réautoriser."/>
+	<entry name="TermsAndConditions" value="Termes et Conditions"/>
+	<entry name="TurnTimerPaused" value="%1% a mis le chronomètre en pause."/>
+	<entry name="TurnTimerUnpaused" value="%1% a relancé le chronomètre."/>
+	<entry name="UnboundControl" value="Raccourci enlevé pour %1%."/>
+	<entry name="Warning" value="Attention"/>
+</language>

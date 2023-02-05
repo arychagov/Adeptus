@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chatContainer extends="ContentContainer" preferredSize="FillParent FillParent" content.layout.direction="TopToBottom">
+	<list name="outputList" preferredSize="FillParent FillParent" weights="FillAll 1" itemSpacing="3" scrollableContent.layout.alignment="BottomLeft"/>
+	<container preferredSize="FillParent 30">
+		<dropList name="destinationDropList" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		<textBox maxLength="500" name="inputTextBox" preferredSize="FillParent FillParent" weights="2 FillAll"/>
+	</container>
+</chatContainer>

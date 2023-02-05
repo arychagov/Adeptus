@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<playerStatusContainer layout.alignment="MiddleLeft" layout.collapseInvisible="1">
+	<image name="hostImage" preferredSize="WrapContent 20" texture="Icons/Host" hint="<string name='GUI/Host'/>"/>
+	<image name="readyImage" preferredSize="WrapContent 20"/>
+	<image name="latencyImage" preferredSize="WrapContent 20" texture="Icons/Latency"/>
+	<container layout.collapseInvisible="1" layout.gap="0 0" preferredSize="WrapContent WrapContent">
+		<imageButton name="toggleHotseatButton" hint="<string name='GUI/ToggleHotseatHint'/>" image.texture="Icons/Coldseat" image.preferredSize="20 20" preferredSize="28 28"/>
+		<imageButton name="kickButton" hint="<string name='GUI/RemovePlayerHint'/>" image.texture="GUI/Cross" image.preferredSize="20 20" preferredSize="28 28"/>
+	</container>
+</playerStatusContainer>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement2">
+	<group size="10" rowSize="4" memberDeltaX="90" memberDeltaY="50"/>
+<modifiers>
+		<modifier visible="0">
+			<effects>
+				<biomassUpkeep base="1.5"/> <!-- %biomassUpkeep base tier=4 factor=1 -->
+				<biomassCost base="30.0"/> <!-- %biomassCost base tier=4 factor=1 -->
+				<hitpointsMax base="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
+				<productionCost base="30.0"/> <!-- %productionCost base tier=4 factor=1 -->
+			</effects>
+		</modifier>
+	</modifiers>
+</unit>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settingsHUD extends="HUD" layout="Flow" layout.alignment="MiddleCenter" layout.gap="0 0" layout.direction="TopToBottom" showEffect="FadeInRight" hideEffect="FadeOutLeft" preferredSize="1240 720">
+	<label caption="<style name='ShadowedMenuTitle'/><string name='GUI/Settings'/>"/>
+	<image texture="GUI/HeadlineBar" color="GUI/HeadlineBar"/>
+	<component preferredSize="FillParent 30"/>
+	<container layout.alignment="TopCenter" layout.gap="20 20" preferredSize="FillParent 540" weights="FillAll 1">
+		<list name="categoryList" surface.texture="GUI/ShadowedSurface" minItemHeight="32" preferredSize="200 WrapContent" weights="1 FillAll">
+			<navigationListItem name="General" label.caption="<string name='Settings/General'/>"/>
+			<navigationListItem name="Video" label.caption="<string name='Settings/Video'/>"/>
+			<navigationListItem name="Audio" label.caption="<string name='Settings/Audio'/>"/>
+			<navigationListItem name="Controls" label.caption="<string name='Settings/Controls'/>"/>
+			<navigationListItem name="Network" label.caption="<string name='Settings/Network'/>"/>
+		</list>
+		<contentContainer content.layout="Relative" content.layout.collapseInvisible="1" name="categoryContainer" preferredSize="600 WrapContent" content.margin="0 0" surface.texture="GUI/ShadowedSurface" weights="1 FillAll">
+			<contentContainer name="audioSettings.container" preferredSize="FillParent WrapContent" content.margin="8 8" visible="0">
+				<scrollableContainer scrollableContent.layout.gap="8 8" visibleContentContainer.content.margin="0 0" scrollableContent.layout.collapseInvisible="1" scrollBarMargin="0 0" preferredSize="FillParent WrapContent" maxSize="0 490">
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Audio/OutputDevice'/>" hint="<string name='Settings/Audio/OutputDeviceHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<dropList name="audioSettings.outputDeviceDropList" hint="<string name='Settings/Audio/OutputDeviceHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Audio/MasterVolume'/>" hint="<string name='Settings/Audio/MasterVolumeHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<slider name="audioSettings.masterVolumeSlider" hint="<string name='Settings/Audio/MasterVolumeHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Audio/AmbientVolume'/>" hint="<string name='Settings/Audio/AmbientVolumeHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<slider name="audioSettings.ambientVolumeSlider" hint="<string name='Settings/Audio/AmbientVolumeHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Audio/CinematicVolume'/>" hint="<string name='Settings/Audio/CinematicVolumeHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<slider name="audioSettings.cinematicVolumeSlider" hint="<string name='Settings/Audio/CinematicVolumeHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Audio/EffectVolume'/>" hint="<string name='Settings/Audio/EffectVolumeHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<slider name="audioSettings.effectVolumeSlider" hint="<string name='Settings/Audio/EffectVolumeHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Audio/InterfaceVolume'/>" hint="<string name='Settings/Audio/InterfaceVolumeHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<slider name="audioSettings.interfaceVolumeSlider" hint="<string name='Settings/Audio/InterfaceVolumeHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Audio/MusicVolume'/>" hint="<string name='Settings/Audio/MusicVolumeHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<slider name="audioSettings.musicVolumeSlider" hint="<string name='Settings/Audio/MusicVolumeHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Audio/HRTF'/>" hint="<string name='Settings/Audio/HRTFHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<checkBox hint="<string name='Settings/Audio/HRTFHint'/>" name="audioSettings.hrtfCheckBox"/>
+					</container>
+				</scrollableContainer>
+				<container preferredSize="FillParent 30" layout.alignment="BottomRight">
+					<button name="audioSettings.restoreDefaultsButton" label.caption="<string name='GUI/RestoreDefaults'/>"/>
+				</container>
+			</contentContainer>
+			<contentContainer name="controlsSettings.container" preferredSize="FillParent WrapContent" content.margin="8 8" visible="0">
+				<scrollableContainer name="controlsSettings.scrollableContainer" scrollableContent.layout.gap="8 8" visibleContentContainer.content.margin="0 0" scrollableContent.layout.collapseInvisible="1" scrollBarMargin="0 0" preferredSize="FillParent WrapContent" maxSize="0 490"/>
+				<container preferredSize="FillParent 30" layout.alignment="BottomRight">
+					<button name="controlsSettings.restoreDefaultsButton" label.caption="<string name='GUI/RestoreDefaults'/>"/>
+				</container>
+			</contentContainer>
+			<contentContainer name="generalSettings.container" preferredSize="FillParent WrapContent" content.margin="8 8" visible="0">
+				<scrollableContainer scrollableContent.layout.gap="8 8" visibleContentContainer.content.margin="0 0" scrollableContent.layout.collapseInvisible="1" scrollBarMargin="0 0" preferredSize="FillParent WrapContent" maxSize="0 490">
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/General/ScrollToAction'/>" hint="<string name='Settings/General/ScrollToActionHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<checkBox hint="<string name='Settings/General/ScrollToActionHint'/>" name="generalSettings.scrollToActionCheckBox"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/General/AutoCycleUnits'/>" hint="<string name='Settings/General/AutoCycleUnitsHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<checkBox hint="<string name='Settings/General/AutoCycleUnitsHint'/>" name="generalSettings.autoCycleUnitsCheckBox"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/General/Language'/>" hint="<string name='Settings/General/LanguageHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<dropList name="generalSettings.languageDropList" hint="<string name='Settings/General/LanguageHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/General/ScrollSpeed'/>" hint="<string name='Settings/General/ScrollSpeedHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<slider name="generalSettings.scrollSpeedSlider" hint="<string name='Settings/General/ScrollSpeedHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/General/ScrollAcceleration'/>" hint="<string name='Settings/General/ScrollAccelerationHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<slider name="generalSettings.scrollAccelerationSlider" hint="<string name='Settings/General/ScrollAccelerationHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/General/AnimationSpeed'/>" hint="<string name='Settings/General/AnimationSpeedHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<slider name="generalSettings.animationSpeedSlider" hint="<string name='Settings/General/AnimationSpeedHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/General/ShowBarks'/>" hint="<string name='Settings/General/ShowBarksHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<checkBox hint="<string name='Settings/General/ShowBarksHint'/>" name="generalSettings.showBarksCheckBox"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/General/ShowCinematics'/>" hint="<string name='Settings/General/ShowCinematicsHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<checkBox hint="<string name='Settings/General/ShowCinematicsHint'/>" name="generalSettings.showCinematicsCheckBox"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/General/ShowSubtitles'/>" hint="<string name='Settings/General/ShowSubtitlesHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<checkBox hint="<string name='Settings/General/ShowSubtitlesHint'/>" name="generalSettings.showSubtitlesCheckBox"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/General/ShowPerformance'/>" hint="<string name='Settings/General/ShowPerformanceHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<checkBox hint="<string name='Settings/General/ShowPerformanceHint'/>" name="generalSettings.showPerformanceCheckBox"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/General/ShowTips'/>" hint="<string name='Settings/General/ShowTipsHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<checkBox hint="<string name='Settings/General/ShowTipsHint'/>" name="generalSettings.showTipsCheckBox"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<button label.caption="<string name='Settings/General/ResetTips'/>" hint="<string name='Settings/General/ResetTipsHint'/>" name="generalSettings.resetTipsButton" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/General/AutoSendReports'/>" hint="<string name='Settings/General/AutoSendReportsHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<checkBox hint="<string name='Settings/General/AutoSendReportsHint'/>" name="generalSettings.autoSendReportsCheckBox"/>
+					</container>
+				</scrollableContainer>
+				<container preferredSize="FillParent 30" layout.alignment="BottomRight">
+					<button name="generalSettings.restoreDefaultsButton" label.caption="<string name='GUI/RestoreDefaults'/>"/>
+				</container>
+			</contentContainer>
+			<contentContainer name="videoSettings.container" preferredSize="FillParent WrapContent" content.margin="8 8" visible="0">
+				<scrollableContainer scrollableContent.layout.gap="8 8" visibleContentContainer.content.margin="0 0" scrollableContent.layout.collapseInvisible="1" scrollBarMargin="0 0" preferredSize="FillParent WrapContent" maxSize="0 490">
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/Device'/>" hint="<string name='Settings/Video/DeviceHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<dropList name="videoSettings.deviceDropList" hint="<string name='Settings/Video/DeviceHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/Monitor'/>" hint="<string name='Settings/Video/MonitorHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<dropList name="videoSettings.monitorDropList" hint="<string name='Settings/Video/MonitorHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/DisplayMode'/>" hint="<string name='Settings/Video/DisplayModeHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<dropList name="videoSettings.displayModeDropList" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/Resolution'/>" hint="<string name='Settings/Video/ResolutionHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<dropList name="videoSettings.resolutionDropList" hint="<string name='Settings/Video/ResolutionHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/VerticalSynchronization'/>" hint="<string name='Settings/Video/VerticalSynchronizationHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<dropList name="videoSettings.verticalSynchronizationDropList" hint="<string name='Settings/Video/VerticalSynchronizationHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/TextureQuality'/>" hint="<string name='Settings/Video/TextureQualityHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<dropList name="videoSettings.textureQualityDropList" hint="<string name='Settings/Video/TextureQualityHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/ShadowQuality'/>" hint="<string name='Settings/Video/ShadowQualityHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<dropList name="videoSettings.shadowQualityDropList" hint="<string name='Settings/Video/ShadowQualityHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/AnisotropicFiltering'/>" hint="<string name='Settings/Video/AnisotropicFilteringHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<dropList name="videoSettings.anisotropicFilteringDropList" hint="<string name='Settings/Video/AnisotropicFilteringHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/GUIScale'/>" hint="<string name='Settings/Video/GUIScaleHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<dropList name="videoSettings.guiScaleDropList" hint="<string name='Settings/Video/GUIScaleHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll">
+							<labeledListItem name="0.5" label.caption="50%"/>
+							<labeledListItem name="0.75" label.caption="75%"/>
+							<labeledListItem name="1" label.caption="100%"/>
+							<labeledListItem name="1.25" label.caption="125%"/>
+							<labeledListItem name="1.5" label.caption="150%"/>
+							<labeledListItem name="1.75" label.caption="175%"/>
+							<labeledListItem name="2" label.caption="200%"/>
+							<labeledListItem name="2.25" label.caption="220%"/>
+							<labeledListItem name="2" label.caption="250%"/>
+							<labeledListItem name="2.75" label.caption="275%"/>
+							<labeledListItem name="3" label.caption="300%"/>
+						</dropList>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/Gamma'/>" hint="<string name='Settings/Video/GammaHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<slider name="videoSettings.gammaSlider" hint="<string name='Settings/Video/GammaHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/Brightness'/>" hint="<string name='Settings/Video/BrightnessHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<slider name="videoSettings.brightnessSlider" hint="<string name='Settings/Video/BrightnessHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/Contrast'/>" hint="<string name='Settings/Video/ContrastHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<slider name="videoSettings.contrastSlider" hint="<string name='Settings/Video/ContrastHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/MaxFocusedTickrate'/>" hint="<string name='Settings/Video/MaxFocusedTickrateHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<slider name="videoSettings.maxFocusedTickrateSlider" valueAffix="" valueFactor="360" hint="<string name='Settings/Video/MaxFocusedTickrateHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/MaxUnfocusedTickrate'/>" hint="<string name='Settings/Video/MaxUnfocusedTickrateHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<slider name="videoSettings.maxUnfocusedTickrateSlider" valueAffix="" valueFactor="360" hint="<string name='Settings/Video/MaxUnfocusedTickrateHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/MaxMinimizedTickrate'/>" hint="<string name='Settings/Video/MaxMinimizedTickrateHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<slider name="videoSettings.maxMinimizedTickrateSlider" valueAffix="" valueFactor="360" hint="<string name='Settings/Video/MaxMinimizedTickrateHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/MultiThreadedRendering'/>" hint="<string name='Settings/Video/MultiThreadedRenderingHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<checkBox name="videoSettings.multiThreadedRenderingCheckBox" hint="<string name='Settings/Video/MultiThreadedRenderingHint'/>"/>
+					</container>			
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/CloudShadows'/>" hint="<string name='Settings/Video/CloudShadowsHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<checkBox hint="<string name='Settings/Video/CloudShadowsHint'/>" name="videoSettings.cloudShadowsCheckBox"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/DepthFog'/>" hint="<string name='Settings/Video/DepthFogHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<checkBox hint="<string name='Settings/Video/DepthFogHint'/>" name="videoSettings.depthFogCheckBox"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/DepthOfField'/>" hint="<string name='Settings/Video/DepthOfFieldHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<checkBox hint="<string name='Settings/Video/DepthOfFieldHint'/>" name="videoSettings.depthOfFieldCheckBox"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/FXAA'/>" hint="<string name='Settings/Video/FXAAHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<checkBox hint="<string name='Settings/Video/FXAAHint'/>" name="videoSettings.fxaaCheckBox"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/ShowGrid'/>" hint="<string name='Settings/Video/ShowGridHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<checkBox hint="<string name='Settings/Video/ShowGridHint'/>" name="videoSettings.showGridCheckBox"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/ShowCliffHighlights'/>" hint="<string name='Settings/Video/ShowCliffHighlightsHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<checkBox hint="<string name='Settings/Video/ShowCliffHighlightsHint'/>" name="videoSettings.showCliffHighlightsCheckBox"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/FixedTimeOfDay'/>" hint="<string name='Settings/Video/FixedTimeOfDayHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<checkBox hint="<string name='Settings/Video/FixedTimeOfDayHint'/>" name="videoSettings.fixedTimeOfDayCheckBox"/>
+					</container>
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Video/FixedTimeOfDayAt'/>" hint="<string name='Settings/Video/FixedTimeOfDayAtHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<slider name="videoSettings.fixedTimeOfDayAtSlider" hint="<string name='Settings/Video/FixedTimeOfDayAtHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+				</scrollableContainer>
+				<container preferredSize="FillParent 30" layout.alignment="BottomRight">
+					<button name="videoSettings.restoreDefaultsButton" label.caption="<string name='GUI/RestoreDefaults'/>"/>
+				</container>
+			</contentContainer>
+			<contentContainer name="networkSettings.container" preferredSize="FillParent WrapContent" content.margin="8 8" visible="0">
+				<scrollableContainer scrollableContent.layout.gap="8 8" visibleContentContainer.content.margin="0 0" scrollableContent.layout.collapseInvisible="1" scrollBarMargin="0 0" preferredSize="FillParent WrapContent" maxSize="0 490">
+					<container preferredSize="FillParent 30">
+						<label alignment="MiddleLeft" caption="<string name='Settings/Network/ListenPort'/>" hint="<string name='Settings/Network/ListenPortHint'/>" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+						<textBox name="networkSettings.listenPortTextBox" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+					</container>
+				</scrollableContainer>
+				<container preferredSize="FillParent 30" layout.alignment="BottomRight">
+					<button name="networkSettings.restoreDefaultsButton" label.caption="<string name='GUI/RestoreDefaults'/>"/>
+				</container>
+			</contentContainer>
+		</contentContainer>
+	</container>
+	<component preferredSize="FillParent 30"/>
+	<container layout.alignment="TopCenter" layout.gap="40 40" preferredSize="FillParent WrapContent">
+		<navigationOKButton/>
+	</container>
+</settingsHUD>

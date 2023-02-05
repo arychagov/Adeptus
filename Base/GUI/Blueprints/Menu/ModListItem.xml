@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:modListItem extends="ListItem" content.margin="8 8" hint="<string name='GUI/DragToChangeLoadOrder'/>" preferredSize="FillParent WrapContent">
+	<label interactive="0" name="label" preferredSize="FillParent WrapContent" style="<style name='Heading'/>" weights="1 FillAll"/>
+	<imageButton hint="<string name='GUI/UploadModHint'/>" name="uploadButton" preferredSize="24 24" image.texture="Icons/Upload"/>
+	<imageButton hint="<string name='GUI/ModFolderHint'/>" name="folderButton" preferredSize="24 24"/>
+	<imageButton hint="<string name='GUI/ModDetailsHint'/>" name="detailsButton" preferredSize="24 24" image.texture="Icons/Details"/>
+	<checkBox hint="<string name='GUI/EnableMod'/>" name="enabledCheckBox" preferredSize="24 24"/>
+</world:modListItem>

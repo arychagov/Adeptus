@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Actions/Necrons/DestructionProtocols" rankMax="2">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<faction name="Necrons"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<damageTaken mulMin="0.1" mulMax="0.3"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

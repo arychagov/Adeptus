@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<!-- %1% = subject, %2% = object -->
+	<entry name="CityGrownSummary" value="%1% auf %2% Einwohner angewachsen."/>
+	<entry name="FactionDefeated" value="Fraktion besiegt"/>
+	<entry name="FactionDiscovered" value="Fraktion entdeckt"/>
+	<entry name="FactionDiscoveredSummary" value="%1% entdeckt."/>
+	<entry name="FeatureExploredSummary" value="Aus %1% erlangt: %2%."/>
+	<entry name="FeatureTypeDiscoveredSummary" value="%1% entdeckt."/>
+	<entry name="LordOfSkullsAppearedSummary" value="%1% aufgetaucht."/>
+	<entry name="LordOfSkullsDisappearedSummary" value="%1% verschwunden."/>
+	<entry name="PlayerLost" value="Niederlage!"/>
+	<entry name="PlayerLostSummary" value="%1% · %2% %3% besiegt!"/>
+	<entry name="PlayerWon" value="Sieg!"/>
+	<entry name="PlayerWonSummary" value="%1% · %2% %3% siegreich!"/>
+	<entry name="PlayerWonElimination" value="<string name='Notifications/PlayerWon'/>"/>
+	<entry name="PlayerWonEliminationSummary" value="<string name='Notifications/PlayerWonSummary'/>"/>
+	<entry name="PlayerWonQuest" value="<string name='Notifications/PlayerWon'/>"/>
+	<entry name="PlayerWonQuestSummary" value="<string name='Notifications/PlayerWonSummary'/>"/>
+	<entry name="ProductionCompletedSummary" value="%2% von %1% produziert."/>
+	<entry name="QuestAdded" value="Quest hinzugefügt"/>
+	<entry name="QuestCompleted" value="Quest abgeschlossen"/>
+	<entry name="QuestUpdated" value="Quest aktualisiert"/>
+	<entry name="RegionDiscoveredSummary" value="%1% entdeckt."/>
+	<entry name="ResearchCompleted" value="Forschung abgeschlossen"/>
+	<entry name="TileAcquiredSummary" value="Hexfeld von %1% einverleibt."/>
+	<entry name="TileCapturedSummary" value="%2% von %1% eingenommen."/>
+	<entry name="TileClearedSummary" value="%2% von %1% entfernt."/>
+	<entry name="UnitAttackedSummary" value="%2% von<br/>%1% angegriffen."/>
+	<entry name="UnitCapturedSummary" value="%2% von<br/>%1% übernommen."/>
+	<entry name="UnitKilledSummary" value="%2% von<br/>%1% ausgeschaltet."/>
+	<entry name="UnitGainedTraitSummary" value="%1% hat Eigenschaft „%2%” erhalten."/>
+	<entry name="UnitTransformedSummary" value="%1% verwandelt in: %2%."/>
+	<entry name="UnitTypeDiscoveredSummary" value="%1% entdeckt."/>
+	<entry name="UnitUsedActionOnSummary" value="%2% von %1% angewendet auf: %3%."/>
+</language>

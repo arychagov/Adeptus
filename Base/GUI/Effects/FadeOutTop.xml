@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<effect duration="0.25">
+	<affectors>
+		<colorAffector>
+			<colors>
+				<color value="1 1 1 1" progress="0.0"/>
+				<color value="1 1 1 0" progress="1.0"/>
+			</colors>
+		</colorAffector>
+		<translationAffector>
+			<translations>
+				<translation value="0 0" progress="0.0"/>
+				<translation value="0 -20" progress="1.0"/>
+			</translations>
+		</translationAffector>
+	</affectors>
+</effect>

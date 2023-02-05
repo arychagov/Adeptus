@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building disablable="0">
+	<modifiers>
+		<modifier>
+			<effects>
+				<production add="6"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<actions>
+		<produceUnit unit="ChaosSpaceMarines/ChaosLord" requiredUpgrade="ChaosSpaceMarines/ChaosLord"/>
+		<produceUnit unit="ChaosSpaceMarines/Warpsmith" requiredUpgrade="ChaosSpaceMarines/Warpsmith"/>
+		<produceUnit unit="ChaosSpaceMarines/MasterOfPossession" requiredUpgrade="ChaosSpaceMarines/MasterOfPossession"/>
+		<produceUnit unit="ChaosSpaceMarines/DaemonPrince" requiredUpgrade="ChaosSpaceMarines/DaemonPrince"/>
+	</actions>
+</building>

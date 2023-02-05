@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:debugPanel extends="Panel" content.layout.direction="TopToBottom" titleLabel.caption="<string name='GUI/Debug'/>" showEffect="FadeInBottom" hideEffect="FadeOutBottom">
+	<scrollableContainer preferredSize="FillParent FillParent" scrollableContent.layout.collapseInvisible="1" visibleContentContainer.content.margin="2 2">
+		<container preferredSize="FillParent 30" weights="FillAll FillAll">
+			<button name="completeActionButton" label.caption="Complete Action" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+			<button name="completeObjectiveButton" label.caption="Complete Objective" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+			<button name="fogOfWarButton" label.caption="Fog of War" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		</container>
+		<container preferredSize="FillParent 30" weights="FillAll FillAll">
+			<button name="dieButton" label.caption="Die" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+			<button name="damageButton" label.caption="Dmg" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+			<button name="healButton" label.caption="Heal" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+			<button name="levelButton" label.caption="Level" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+			<button name="movementButton" label.caption="Move" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+			<button name="cooldownButton" label.caption="Cd" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		</container>
+		<container preferredSize="FillParent 30" weights="FillAll FillAll">
+			<dropList name="playerDropList" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+			<button name="toggleAIButton" label.caption="Toggle AI" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		</container>
+		<container preferredSize="FillParent 30" weights="FillAll FillAll">
+			<dropList name="unitDropList" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+			<button name="addUnitButton" label.caption="Add Unit" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		</container>
+		<container preferredSize="FillParent 30" weights="FillAll FillAll">
+			<dropList name="buildingDropList" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+			<button name="addBuildingButton" label.caption="Add Building" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		</container>
+		<container preferredSize="FillParent 30" weights="FillAll FillAll">
+			<dropList name="upgradeDropList" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+			<button name="addUpgradeButton" label.caption="Add Upgrade" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		</container>
+		<container preferredSize="FillParent 30" weights="FillAll FillAll">
+			<container preferredSize="FillParent FillParent" weights="1 FillAll">
+				<dropList name="resourceDropList" preferredSize="FillParent FillParent" weights="1 FillAll">
+					<labeledListItem name="all" label.caption="All"/>
+					<labeledListItem name="biomass" label.caption="<icon height='20' texture='Icons/Attributes/Biomass'/>"/>
+					<labeledListItem name="food" label.caption="<icon height='20' texture='Icons/Attributes/Food'/>"/>
+					<labeledListItem name="ore" label.caption="<icon height='20' texture='Icons/Attributes/Ore'/>"/>
+					<labeledListItem name="energy" label.caption="<icon height='20' texture='Icons/Attributes/Energy'/>"/>
+					<labeledListItem name="influence" label.caption="<icon height='20' texture='Icons/Attributes/Influence'/>"/>
+					<labeledListItem name="requisitions" label.caption="<icon height='20' texture='Icons/Attributes/Requisitions'/>"/>
+					<!-- <labeledListItem name="research" label.caption="<icon height='20' texture='Icons/Attributes/Research'/>"/> -->
+				</dropList>
+				<textBox name="resourceAmountTextBox" caption="9999" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+			</container>
+			<button name="addResourceButton" label.caption="Add Resource" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		</container>
+		<container preferredSize="FillParent 30" weights="FillAll FillAll">
+			<dropList name="questDropList" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+			<button name="startQuestButton" label.caption="Start Quest" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		</container>
+		<container preferredSize="FillParent 30" weights="FillAll FillAll">
+			<dropList name="itemDropList" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+			<button name="addItemButton" label.caption="Add Item" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		</container>
+		<container preferredSize="FillParent 30" weights="FillAll FillAll" visible="0">
+			<dropList name="factionDropList" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+			<button name="setFactionButton" label.caption="Set Faction" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		</container>
+		<container preferredSize="FillParent 30" weights="FillAll FillAll">
+			<dropList name="featureDropList" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+			<button name="addFeatureButton" label.caption="Add Feature" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+			<button name="removeFeatureButton" label.caption="Remove Feature" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		</container>
+		<container preferredSize="FillParent 30" weights="FillAll FillAll">
+			<button name="raiseGroundButton" label.caption="Raise Ground" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+			<button name="lowerGroundButton" label.caption="Lower Ground" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+			<button name="buildGroundButton" label.caption="Build Ground" preferredSize="FillParent FillParent" weights="1 FillAll"/>
+		</container>
+	</scrollableContainer>
+</world:debugPanel>

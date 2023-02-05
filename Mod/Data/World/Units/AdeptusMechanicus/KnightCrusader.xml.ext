@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement9">
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<movementMax base="2"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</unit>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene version="1.0">
+	<model mesh="TyranidFlag" position="1.72771 -139.652 0.0" rotation="0.0 0.0 -0.707107 0.707107" scale="0.837872 0.837872 0.837872"/>
+	<model mesh="TyranidFlag" position="122.241 -68.36 0.0" rotation="0.0 0.0 -0.258819 0.965926" scale="0.837872 0.837872 0.837872"/>
+	<model mesh="TyranidFlag" position="-119.633 -70.3793 0.0" rotation="0.0 0.0 -0.965926 0.258819" scale="0.837872 0.837872 0.837872"/>
+	<model mesh="TyranidFlag" position="-120.958 68.8072 0.0" rotation="0.0 0.0 -0.965926 -0.258819" scale="0.837872 0.837872 0.837872"/>
+	<model mesh="TyranidFlag" position="0.0365601 139.62 0.0" rotation="0.0 0.0 0.707107 0.707107" scale="0.837872 0.837872 0.837872"/>
+	<model mesh="TyranidFlag" position="120.741 70.1699 0.0" rotation="0.0 0.0 0.258819 0.965926" scale="0.837872 0.837872 0.837872"/>
+</scene>

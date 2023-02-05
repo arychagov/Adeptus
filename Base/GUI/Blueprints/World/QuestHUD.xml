@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:questHUD extends="HUD" layout="Flow" layout.alignment="MiddleCenter" layout.direction="TopToBottom" minSize="0 768">
+	<contentContainer surface.texture="GUI/TopBar" name="topContainer" showEffect="FadeInTop" hideEffect="FadeOutTop" content.layout.alignment="BottomCenter" content.layout.gap="0 0" content.layout.direction="TopToBottom" preferredSize="FillParent FillParent" weights="FillAll 1" content.margin="16 0; 16 16">
+		<label caption="<style name='MenuTitle'/><string name='GUI/Quests'/>" preferredSize="WrapContent 38"/>
+		<image texture="GUI/HeadlineBar" color="GUI/HeadlineBar"/>
+	</contentContainer>
+	<contentContainer name="contentContainer" showEffect="FadeInLeft" hideEffect="FadeOutRight" content.layout.gap="20 20" content.margin="16 16" preferredSize="1250 WrapContent">
+		<list surface.texture="GUI/ShadowedSurface" name="questList" preferredSize="FillParent WrapContent" weights="1 FillAll" maxSize="0 540"/>
+		<contentContainer content.layout.alignment="MiddleCenter" surface.texture="GUI/ShadowedSurface" preferredSize="FillParent WrapContent" weights="2 1">
+			<label name="questTitleLabel" style="<style name='Title'/>"/>
+			<scrollableContainer name="questInfoContainer" scrollableContent.layout.alignment="MiddleCenter" scrollableContent.layout.gap="8 8" preferredSize="FillParent WrapContent" maxSize="0 508" scrollableContent.layout.collapseInvisible="1">
+				<label alignment="TopCenter" name="questInfoLabel" preferredSize="FillParent WrapContent"/>
+			</scrollableContainer>
+		</container>
+		<image name="questImage" preferredSize="270 540"/>
+	</contentContainer>
+	<contentContainer surface.texture="GUI/BottomBar" name="bottomContainer" showEffect="FadeInBottom" hideEffect="FadeOutBottom" content.layout.alignment="TopCenter" preferredSize="FillParent FillParent" weights="FillAll 1" content.margin="16 22; 16 0">
+		<navigationOKButton/>
+	</contentContainer>
+</world:questHUD>

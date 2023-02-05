@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpleParticleSystem material="Effects/TechAdept"
+		particleOrientation="Self"
+		variationCount="1 1">
+	<updateQueues>
+		<updateQueue name="Parallel3"/>
+	</updateQueues>
+	<renderQueues>
+		<renderQueue name="GlowingSimpleParticleSystems"/>
+	</renderQueues>
+	<affectors>
+		<colorAffector>
+			<colors>
+				<color value="1 1 1 0" progress="0.0"/>
+				<color value="1 1 1 1" progress="0.33"/>
+				<color value="1 1 1 1" progress="0.67"/>
+				<color value="1 1 1 0" progress="1.0"/>
+			</colors>
+		</colorAffector>
+		<scaleAffector>
+		 	<scales>
+			 	<scale value="2 2" progress="0.0"/>
+			 	<scale value="1 1" progress="0.33"/>
+			 	<scale value="1 1" progress="0.67"/>
+			 	<scale value="2 2" progress="1.0"/>
+		 	</scales>
+		</scaleAffector>
+		<rotationAffector>
+		 	<rotations>
+			 	<rotation value="0 0 1 0" progress="0.0"/>
+			 	<rotation value="0 0 1 -180" progress="0.1"/>
+			 	<rotation value="0 0 1 -180" progress="0.9"/>
+			 	<rotation value="0 0 1 0" progress="1.0"/>
+		 	</rotations>
+		</rotationAffector>		
+	</affectors>
+</simpleParticleSystem>

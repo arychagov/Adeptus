@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list extends="ScrollableContainer"
+		content.layout.gap="0 0"
+		scrollableContent.layout.gap="0 0"
+		scrollableContent.layout.collapseInvisible="1"
+		visibleContentContainer.content.margin="2 2"
+		itemSpacing="6"/>

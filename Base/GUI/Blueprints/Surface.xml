@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<surface texture="GUI/Surface"
+		padding="7 7"
+		delta="2 2"/>

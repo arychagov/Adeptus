@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<imageButton extends="Button"
+		preferredSize="44 44"
+		content.margin="2 2">
+	<image name="image"
+			preferredSize="FillParent FillParent"/>
+</imageButton>

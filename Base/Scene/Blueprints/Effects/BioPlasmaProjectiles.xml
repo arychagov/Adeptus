@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpleParticleSystem material="Effects/BioPlasmaProjectile"
+		particleOrientation="AxisBillboarded"
+		position="0 0 0"
+		variationCount="2 2">
+	<updateQueues>
+		<updateQueue name="Parallel3"/>
+	</updateQueues>
+	<renderQueues>
+		<renderQueue name="GlowingSimpleParticleSystems"/>
+	</renderQueues>	
+	<affectors>
+		<colorAffector>
+			<colors>
+				<color value="1 1 1 0" progress="0.0"/>
+				<color value="1 1 1 1" progress="0.1"/>
+				<color value="1 1 1 1" progress="0.9"/>
+				<color value="1 1 1 0" progress="1.0"/>
+			</colors>
+		</colorAffector>
+		<scaleAffector>
+			<scales>
+				<scale value="32 2" progress="0.0"/>
+				<scale value="32 2" progress="1.0"/>
+			</scales>
+		</scaleAffector>	
+	</affectors>
+</simpleParticleSystem>

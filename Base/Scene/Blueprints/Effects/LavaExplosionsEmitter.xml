@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sphereEmitter particleSizeSquared="0"
+		emissionVolumeMin="-180 0 0.1"
+		emissionVolumeMax="180 0 128"
+		particleLifeTimeMin="1.25"
+		particleLifeTimeMax="1.75"
+		particleSizeMin="32 64"
+		particleSizeMax="48 96"
+		particleVelocityMin="0"
+		particleVelocityMax="0"
+		shots="8"
+		spawns="8"
+		interval="0.25"/>

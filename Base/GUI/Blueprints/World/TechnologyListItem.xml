@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world:technologyListItem extends="ListItem" content.margin="8 8" content.layout.alignment="MiddleLeft" content.layout.gap="8 8" preferredSize="320 68">
+	<image name="image" preferredSize="40 40"/>
+	<container preferredSize="FillParent FillParent" weights="1 FillAll" layout.direction="TopToBottom" layout.gap="2 2" layout.alignment="MiddleCenter" layout.collapseInvisible="1">
+		<label name="nameLabel" style="<style name='Heading'/>" preferredSize="FillParent WrapContent" wordCut="1" wordWrap="0"/>
+		<label name="costLabel" preferredSize="FillParent WrapContent" wordCut="1" wordWrap="0"/>
+	</container>
+</world:technologyListItem>
