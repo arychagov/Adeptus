@@ -13,4 +13,7 @@
 		<produceUnit unit="ChaosSpaceMarines/MasterOfPossession" requiredUpgrade="ChaosSpaceMarines/MasterOfPossession"/>
 		<produceUnit unit="ChaosSpaceMarines/DaemonPrince" requiredUpgrade="ChaosSpaceMarines/DaemonPrince"/>
 	</actions>
+	<traits>
+		<trait name="ChaosSpaceMarines/Prosperity" requiredUpgrade="ChaosSpaceMarines/Construction"/>
+	</traits>
 </building>

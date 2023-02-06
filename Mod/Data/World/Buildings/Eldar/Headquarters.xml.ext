@@ -13,4 +13,7 @@
 		<produceUnit unit="Eldar/FarseerSkyrunner" requiredUpgrade="Eldar/FarseerSkyrunner"/>
 		<produceUnit unit="Eldar/AvatarOfKhaine" requiredUpgrade="Eldar/AvatarOfKhaine"/>
 	</actions>
+	<traits>
+		<trait name="Eldar/Prosperity" requiredUpgrade="Eldar/Construction"/>
+	</traits>
 </building>

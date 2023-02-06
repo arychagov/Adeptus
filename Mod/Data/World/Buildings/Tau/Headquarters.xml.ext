@@ -12,4 +12,7 @@
 		<produceUnit unit="Tau/Ethereal" requiredUpgrade="Tau/Ethereal"/>
 		<produceUnit unit="Tau/Commander" requiredUpgrade="Tau/Commander"/>
 	</actions>
+	<traits>
+		<trait name="Tau/Prosperity" requiredUpgrade="Tau/Construction"/>
+	</traits>
 </building>

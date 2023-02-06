@@ -33,4 +33,7 @@
 		<produceUnit unit="Tyranids/Tervigon" requiredUpgrade="Tyranids/Tervigon"/>
 		<produceUnit unit="Tyranids/HiveTyrant" requiredUpgrade="Tyranids/HiveTyrant"/>
 	</actions>
+	<traits>
+		<trait name="Tyranids/Prosperity" requiredUpgrade="Tyranids/Construction"/>
+	</traits>
 </building>

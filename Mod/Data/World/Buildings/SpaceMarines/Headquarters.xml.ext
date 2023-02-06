@@ -13,4 +13,7 @@
 		<produceUnit unit="SpaceMarines/Librarian" requiredUpgrade="SpaceMarines/Librarian"/>
 		<produceUnit unit="SpaceMarines/Chaplain" requiredUpgrade="SpaceMarines/Chaplain"/>
 	</actions>
+	<traits>
+		<trait name="SpaceMarines/Prosperity" requiredUpgrade="SpaceMarines/Construction"/>
+	</traits>
 </building>

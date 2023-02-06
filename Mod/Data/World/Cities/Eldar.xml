@@ -18,7 +18,7 @@
 						<influenceCost base="20"/>
 					</effects>
 				</modifier>
-				<modifier requiredUpgrade="Eldar/AsuryaniArrivalsBonus">
+				<modifier requiredUpgrade="Eldar/Construction">
 					<effects>
 						<influenceCost mul="-0.5"/>
 					</effects>

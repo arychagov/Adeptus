@@ -29,4 +29,7 @@
 		<produceUnit unit="Necrons/Cryptek" requiredUpgrade="Necrons/Cryptek"/>
 		<produceUnit unit="Necrons/DestroyerLord" requiredUpgrade="Necrons/DestroyerLord"/>
 	</actions>
+	<traits>
+		<trait name="Necrons/Prosperity" requiredUpgrade="Necrons/Construction"/>
+	</traits>
 </building>

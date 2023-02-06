@@ -12,4 +12,7 @@
 		<produceUnit unit="Orks/Weirdboy" requiredUpgrade="Orks/Weirdboy"/>
 		<produceUnit unit="Orks/Painboy" requiredUpgrade="Orks/Painboy"/>
 	</actions>
+	<traits>
+		<trait name="Orks/Prosperity" requiredUpgrade="Orks/Construction"/>
+	</traits>
 </building>

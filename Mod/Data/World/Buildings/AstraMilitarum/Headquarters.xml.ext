@@ -12,4 +12,7 @@
 		<produceUnit unit="AstraMilitarum/TankCommander" requiredUpgrade="AstraMilitarum/TankCommander"/>
 		<produceUnit unit="AstraMilitarum/PrimarisPsyker" requiredUpgrade="AstraMilitarum/PrimarisPsyker"/>
 	</actions>
+	<traits>
+		<trait name="AstraMilitarum/Prosperity" requiredUpgrade="AstraMilitarum/Construction"/>
+	</traits>
 </building>

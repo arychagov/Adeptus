@@ -7,4 +7,27 @@
     <entry name="SpaceMarines/TacticalPrecisionDescription" value="Removes penalty from firing heavy weapons after movement and treats shooting with rapid fire weapons as if in half range."/>
     <entry name="SpaceMarines/TacticalPrecisionFlavor" value="Precisely!"/>
 
+    <!-- Start of Prosperity -->
+    <entry name="AdeptusMechanicus/Prosperity" value="Prosperity"/>
+    <entry name="AdeptusMechanicus/ProsperityDescription" value="Increases city growth"/>
+    <entry name="AstraMilitarum/Prosperity" value="Prosperity"/>
+    <entry name="AstraMilitarum/ProsperityDescription" value="Increases city growth"/>
+    <entry name="ChaosSpaceMarines/Prosperity" value="Prosperity"/>
+    <entry name="ChaosSpaceMarines/ProsperityDescription" value="Increases city growth"/>
+    <entry name="Eldar/Prosperity" value="Prosperity"/>
+    <entry name="Eldar/ProsperityDescription" value="Increases city growth"/>
+    <entry name="Necrons/Prosperity" value="Prosperity"/>
+    <entry name="Necrons/ProsperityDescription" value="Increases city growth"/>
+    <entry name="Orks/Prosperity" value="Prosperity"/>
+    <entry name="Orks/ProsperityDescription" value="Increases city growth"/>
+    <entry name="SistersOfBattle/Prosperity" value="Prosperity"/>
+    <entry name="SistersOfBattle/ProsperityDescription" value="Increases city growth"/>
+    <entry name="SpaceMarines/Prosperity" value="Prosperity"/>
+    <entry name="SpaceMarines/ProsperityDescription" value="Increases city growth"/>
+    <entry name="Tau/Prosperity" value="Prosperity"/>
+    <entry name="Tau/ProsperityDescription" value="Increases city growth"/>
+    <entry name="Tyranids/Prosperity" value="Prosperity"/>
+    <entry name="Tyranids/ProsperityDescription" value="Increases city growth"/>
+    <!-- End of Prosperity -->
+
 </language>
