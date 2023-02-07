@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<world:notificationListItem extends="ListItem" content.layout.alignment="MiddleRight" content.layout.gap="8 8" showEffect="FadeInRight" hideEffect="FadeOutRight">
-	<label name="label" alignment="MiddleRight" preferredSize="FillParent WrapContent" weights="1 FillAll" style="<style name='Shadowed'/>" showEffect="FadeInRight" hideEffect="FadeOutRight"/>
-	<image name="image" preferredSize="40 40" glowColor="GUI/Black"/>
-</world:notificationListItem>

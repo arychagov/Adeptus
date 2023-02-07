@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>		
-<button extends="Button"
-		name="okButton"
-		unpressedTexture="GUI/ShadowedButton"
-		preferredSize="240 32" 
-		pressedTexture="GUI/ShadowedButton"
-		label.style="<style name='MenuHeading'/>"/>

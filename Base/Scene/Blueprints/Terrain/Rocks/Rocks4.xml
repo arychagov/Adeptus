@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<scene version="1.0">
-	<model mesh="Rock2" position="36.4896 4.31045 0.0" rotation="0.0 0.0 0.0 1.0" scale="1.0 1.0 0.841288"/>
-	<model mesh="Rock4" position="-23.4194 21.714 0.0" rotation="0.0 0.0 -0.0871557 0.996195" scale="1.0 1.0 0.841288"/>
-	<model mesh="Rock17" position="4.93701 -13.3059 0.0" rotation="0.0 0.0 0.0 1.0" scale="1.0 1.0 0.841288"/>
-</scene>

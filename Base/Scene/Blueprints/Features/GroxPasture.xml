@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<scene version="1.0">
-	<model mesh="Grox" position="-55.4346 -26.1119 0.0" rotation="0.0 0.0 0.5373 0.843391" scale="0.831134 0.831134 0.831134"/>
-	<model mesh="Grox" position="-57.1431 33.6599 0.0" rotation="0.0 0.0 0.173648 0.984808" scale="0.664084 0.664084 0.664084"/>
-	<model mesh="Grox" position="4.43758 -84.5714 0.0" rotation="0.0 0.0 0.258819 0.965926" scale="0.605867 0.605867 0.605867"/>
-	<model mesh="Grox" position="54.8739 -21.1021 0.0" rotation="0.0 0.0 -0.996195 -0.0871557" scale="0.769996 0.769996 0.769996"/>
-	<model mesh="Grox" position="34.333 68.2099 0.0" rotation="0.0 0.0 -0.382683 0.92388" scale="0.811859 0.811859 0.811859"/>
-</scene>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<world:cityNameContainer extends="ContentContainer" surface.texture="GUI/ShadowedBorderlessSurface" showEffect="FadeInLeft" hideEffect="FadeOutLeft">
-	<imageButton name="previousButton" preferredSize="30 30" image.texture="GUI/Arrow" image.rotation="-90" image.preferredSize="WrapContent WrapContent" hint="<string name='GUI/SelectPreviousCityHint'/>"/>
-	<textBox maxLength="50" name="nameTextBox" content.layout.alignment="MiddleCenter" label.style="<style name='Title'/>" preferredSize="FillParent 30" weights="1 FillAll" hint="<string name='GUI/RenameHint'/>"/>
-	<imageButton name="nextButton" preferredSize="30 30" image.texture="GUI/Arrow" image.rotation="90" image.preferredSize="WrapContent WrapContent" hint="<string name='GUI/SelectNextCityHint'/>"/>
-</world:cityNameContainer>

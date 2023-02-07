@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<world:researchingTechnologyContainer extends="ContentContainer" content.layout.alignment="MiddleRight" content.layout.collapseInvisible="1" content.layout.gap="8 8" content.margin="8 8">
-	<label name="label" preferredSize="FillParent WrapContent" weights="1 FillAll" alignment="MiddleRight"/>
-	<image name="image" preferredSize="40 40" glowColor="GUI/Black"/>
-</world:researchingTechnologyContainer>

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<world:cityActionsPanel extends="Panel" content.layout.direction="TopToBottom" showEffect="FadeInBottom" hideEffect="FadeOutBottom">
-	<container name="contentContainer" preferredSize="FillParent WrapContent"/>
-</world:cityActionsPanel>

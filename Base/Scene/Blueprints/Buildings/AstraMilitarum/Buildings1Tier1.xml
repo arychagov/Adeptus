@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<scene version="1.0">
-	<model mesh="Building25ImperialGuard" position="-21.8326 6.78018 0.0" rotation="0.0 0.0 -1.0 0.0" scale="1.01833 1.01833 1.01833"/>
-	<model mesh="Building21ImperialGuard" position="27.7741 7.63344 0.0" rotation="0.0 0.0 0.866025 0.5" scale="1.01833 1.01833 1.01833"/>
-</scene>

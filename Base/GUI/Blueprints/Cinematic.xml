@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cinematic layout="Absolute"
-		preferredSize="WrapContent WrapContent"
-		progressive="1">
-	<label name="label" 
-			preferredSize="FillParent WrapContent"
-			alignment="BottomCenter"
-			style="<style name='CinematicSubtitle'/>"/>
-</cinematic>

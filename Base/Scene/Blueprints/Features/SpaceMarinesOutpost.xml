@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<scene version="1.0">
-	<model mesh="SpaceMarineFlag" position="102.943 -59.6947 0.0" rotation="0.0 0.0 -0.258819 0.965926" scale="1.0 1.0 1.0"/>
-	<model mesh="SpaceMarineFlag" position="-104.383 -59.6947 0.0" rotation="0.0 0.0 -0.965926 0.258819" scale="1.0 1.0 1.0"/>
-	<model mesh="SpaceMarineFlag" position="-1.05325 120.889 0.0" rotation="0.0 0.0 0.707107 0.707107" scale="1.0 1.0 1.0"/>
-	<model mesh="SpaceMarineFlag" position="-1.07423 -119.468 0.0" rotation="0.0 0.0 -0.707107 0.707107" scale="1.0 1.0 1.0"/>
-	<model mesh="SpaceMarineFlag" position="-104.737 60.0809 0.0" rotation="0.0 0.0 -0.965926 -0.258819" scale="1.0 1.0 1.0"/>
-	<model mesh="SpaceMarineFlag" position="103.318 60.8869 0.0" rotation="0.0 0.0 0.258819 0.965926" scale="1.0 1.0 1.0"/>
-</scene>

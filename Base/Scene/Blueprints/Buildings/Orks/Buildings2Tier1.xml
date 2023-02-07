@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<scene version="1.0">
-	<model mesh="Building08Ork" position="39.0572 -14.5512 0.0" rotation="0.0 0.0 -0.991445 -0.130526" scale="1.0 1.0 1.0"/>
-	<model mesh="Building18Ork" position="-15.006 -20.0047 0.0" rotation="0.0 0.0 -0.608761 0.793353" scale="1.0 1.0 1.0"/>
-</scene>

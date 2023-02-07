@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<listItem extends="ContentContainer"
-		preferredSize="FillParent WrapContent"
-		content.margin="6 0"
-		pressedSound="Interface/Press"/>

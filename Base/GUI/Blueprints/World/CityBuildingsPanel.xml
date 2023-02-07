@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<world:cityBuildingsPanel extends="Panel" titleLabel.caption="<string name='GUI/Buildings'/>" showEffect="FadeInLeft" hideEffect="FadeOutLeft">
-	<list name="list" preferredSize="FillParent FillParent"/>
-</world:cityBuildingsPanel>

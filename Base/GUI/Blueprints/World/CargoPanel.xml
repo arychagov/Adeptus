@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<world:cargoPanel extends="Panel" titleLabel.caption="<string name='GUI/Cargo'/>" showEffect="FadeInBottom" hideEffect="FadeOutBottom"/>

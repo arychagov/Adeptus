@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<scene version="1.0">
-	<model mesh="SisterBuilding0" position="2.643204 -18.547577 0.153160" rotation="0.000000 0.000000 -0.499901 0.866083" scale="1.000000 1.000000 1.000000"/>
-	<model mesh="SisterBuilding1" position="22.929451 12.722221 0.217495" rotation="0.000000 0.000000 0.000000 1.000000" scale="1.000000 1.000000 1.000000"/>
-	<model mesh="SisterBuilding7" position="-27.714989 6.301476 0.103516" rotation="0.000000 0.000000 -0.258819 0.965926" scale="1.000000 1.000000 1.000000"/>
-</scene>

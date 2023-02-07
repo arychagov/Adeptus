@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<world:researchTierContainer extends="ContentContainer" surface.texture="GUI/Surface" content.margin="8 8" content.layout.alignment="TopCenter" content.layout.gap="8 8" content.layout.direction="TopToBottom" preferredSize="WrapContent WrapContent">
-	<label name="titleLabel" style="<style name='Title'/>"/>
-	<container name="contentContainer" layout.gap="8 8" layout.direction="TopToBottom" preferredSize="WrapContent WrapContent"/>
-</world:researchTierContainer>
