@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Version 1.0 Compiled by Kurziel 1/29/23 -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="gameData">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="model">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:choice maxOccurs="unbounded">
+								<xs:element name="flamerWeapon" />
+								<xs:element name="powerWeapon">
+									<xs:complexType>
+										<xs:attribute name="effectBlueprint" type="xs:string" use="required" />
+										<xs:attribute name="effectEmitterBlueprint" type="xs:string" use="required" />
+										<xs:attribute name="fireSound" type="xs:string" use="required" />
+										<xs:attribute name="fireSoundCount" type="xs:string" use="required" />
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="projectileWeapon">
+									<xs:complexType>
+										<xs:attribute name="fireInterval" type="xs:string" use="required" />
+										<xs:attribute name="fireSound" type="xs:string" use="required" />
+										<xs:attribute name="fireSoundCount" type="xs:string" use="required" />
+										<xs:attribute name="muzzleFlashesBlueprint" type="xs:string" use="required" />
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="grenadeWeapon">
+									<xs:complexType>
+										<xs:attribute name="fireSound" type="xs:string" use="required" />
+										<xs:attribute name="fireSoundCount" type="xs:string" use="required" />
+										<xs:attribute name="effectScale" type="xs:string" use="optional" />
+										<xs:attribute name="explosionSound" type="xs:string" use="optional" />
+										<xs:attribute name="explosionSoundCount" type="xs:string" use="optional" />
+										<xs:attribute name="explosionsBlueprint" type="xs:string" use="optional" />
+										<xs:attribute name="explosionsEmitterBlueprint" type="xs:string" use="optional" />
+										<xs:attribute name="displaceExplosions" type="xs:string" use="optional" />
+										<xs:attribute name="grenadeBlueprint" type="xs:string" use="optional" />
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="beamWeapon">
+									<xs:complexType>
+										<xs:attribute name="fireSound" type="xs:string" use="required" />
+										<xs:attribute name="fireSoundCount" type="xs:string" use="required" />
+										<xs:attribute name="beamsBlueprint" type="xs:string" use="optional" />
+										<xs:attribute name="beamsEmitterBlueprint" type="xs:string" use="optional" />
+										<xs:attribute name="muzzleFlashesBlueprint" type="xs:string" use="optional" />
+										<xs:attribute name="effectFaceWeight" type="xs:string" use="optional" />
+										<xs:attribute name="fireInterval" type="xs:string" use="optional" />
+										<xs:attribute name="muzzleFlashesEmitterBlueprint" type="xs:string" use="optional" />
+										<xs:attribute name="effectScale" type="xs:string" use="optional" />
+										<xs:attribute name="explosionsBlueprint" type="xs:string" use="optional" />
+										<xs:attribute name="explosionsEmitterBlueprint" type="xs:string" use="optional" />
+										<xs:attribute name="displaceExplosions" type="xs:string" use="optional" />
+										<xs:attribute name="emitterShots" type="xs:string" use="optional" />
+										<xs:attribute name="muzzleCount" type="xs:string" use="optional" />
+										<xs:attribute name="cycleMuzzles" type="xs:string" use="optional" />
+									</xs:complexType>
+								</xs:element>
+								<xs:element maxOccurs="unbounded" name="weapon">
+									<xs:complexType>
+										<xs:attribute name="fireSound" type="xs:string" use="optional" />
+										<xs:attribute name="fireSoundCount" type="xs:string" use="optional" />
+										<xs:attribute name="explosionSound" type="xs:string" use="optional" />
+										<xs:attribute name="explosionSoundCount" type="xs:string" use="optional" />
+										<xs:attribute name="explosionsBlueprint" type="xs:string" use="optional" />
+										<xs:attribute name="explosionsEmitterBlueprint" type="xs:string" use="optional" />
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="missileWeapon">
+									<xs:complexType>
+										<xs:attribute name="fireSound" type="xs:string" use="required" />
+										<xs:attribute name="fireSoundCount" type="xs:string" use="required" />
+										<xs:attribute name="fireInterval" type="xs:string" use="optional" />
+										<xs:attribute name="effectScale" type="xs:string" use="optional" />
+										<xs:attribute name="missileBlueprint" type="xs:string" use="optional" />
+										<xs:attribute name="exhaustBlueprint" type="xs:string" use="optional" />
+										<xs:attribute name="smokeBlueprint" type="xs:string" use="optional" />
+										<xs:attribute name="smokeEmitterBlueprint" type="xs:string" use="optional" />
+										<xs:attribute name="effectFaceWeight" type="xs:string" use="optional" />
+										<xs:attribute name="explosionsBlueprint" type="xs:string" use="optional" />
+										<xs:attribute name="explosionsEmitterBlueprint" type="xs:string" use="optional" />
+										<xs:attribute name="muzzleCount" type="xs:string" use="optional" />
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="explosiveWeapon">
+									<xs:complexType>
+										<xs:attribute name="explosionsBlueprint" type="xs:string" use="required" />
+										<xs:attribute name="explosionsEmitterBlueprint" type="xs:string" use="required" />
+										<xs:attribute name="effectScale" type="xs:string" use="required" />
+										<xs:attribute name="fireSound" type="xs:string" use="required" />
+										<xs:attribute name="fireSoundCount" type="xs:string" use="required" />
+									</xs:complexType>
+								</xs:element>
+							</xs:choice>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="modifiers">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="modifier">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element minOccurs="0" name="conditions">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="encounter">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="opponent">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="trait">
+																				<xs:complexType>
+																					<xs:attribute name="name" type="xs:string" use="required" />
+																				</xs:complexType>
+																			</xs:element>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="effects">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:choice maxOccurs="unbounded">
+														<xs:element name="attacks">
+															<xs:complexType>
+																<xs:attribute name="add" type="xs:string" use="optional" />
+																<xs:attribute name="base" type="xs:string" use="optional" />
+																<xs:attribute name="mul" type="xs:string" use="optional" />
+															</xs:complexType>
+														</xs:element>
+														<xs:element name="rangedAccuracy">
+															<xs:complexType>
+																<xs:attribute name="min" type="xs:string" use="optional" />
+																<xs:attribute name="max" type="xs:string" use="optional" />
+																<xs:attribute name="base" type="xs:string" use="optional" />
+																<xs:attribute name="add" type="xs:string" use="optional" />
+															</xs:complexType>
+														</xs:element>
+														<xs:element name="rangedArmorPenetration">
+															<xs:complexType>
+																<xs:attribute name="add" type="xs:string" use="required" />
+															</xs:complexType>
+														</xs:element>
+														<xs:element name="rangedDamage">
+															<xs:complexType>
+																<xs:attribute name="add" type="xs:string" use="optional" />
+																<xs:attribute name="mul" type="xs:string" use="optional" />
+															</xs:complexType>
+														</xs:element>
+														<xs:element name="meleeAccuracy">
+															<xs:complexType>
+																<xs:attribute name="base" type="xs:string" use="optional" />
+																<xs:attribute name="min" type="xs:string" use="optional" />
+																<xs:attribute name="max" type="xs:string" use="optional" />
+															</xs:complexType>
+														</xs:element>
+														<xs:element name="meleeArmorPenetration">
+															<xs:complexType>
+																<xs:attribute name="add" type="xs:string" use="optional" />
+																<xs:attribute name="base" type="xs:string" use="optional" />
+															</xs:complexType>
+														</xs:element>
+														<xs:element name="meleeAttacks">
+															<xs:complexType>
+																<xs:attribute name="base" type="xs:string" use="optional" />
+																<xs:attribute name="max" type="xs:string" use="optional" />
+																<xs:attribute name="add" type="xs:string" use="optional" />
+															</xs:complexType>
+														</xs:element>
+														<xs:element name="meleeDamage">
+															<xs:complexType>
+																<xs:attribute name="add" type="xs:string" use="optional" />
+																<xs:attribute name="base" type="xs:string" use="optional" />
+															</xs:complexType>
+														</xs:element>
+														<xs:element name="strengthDamage">
+															<xs:complexType>
+																<xs:attribute name="base" type="xs:string" use="optional" />
+																<xs:attribute name="mul" type="xs:string" use="optional" />
+																<xs:attribute name="add" type="xs:string" use="optional" />
+															</xs:complexType>
+														</xs:element>
+														<xs:element name="accuracy">
+															<xs:complexType>
+																<xs:attribute name="min" type="xs:string" use="required" />
+																<xs:attribute name="max" type="xs:string" use="required" />
+															</xs:complexType>
+														</xs:element>
+														<xs:element name="damageSelfFactor">
+															<xs:complexType>
+																<xs:attribute name="add" type="xs:string" use="required" />
+															</xs:complexType>
+														</xs:element>
+														<xs:element name="rangedAttacks">
+															<xs:complexType>
+																<xs:attribute name="add" type="xs:string" use="required" />
+															</xs:complexType>
+														</xs:element>
+													</xs:choice>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="visible" type="xs:string" use="optional" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="traits">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="trait">
+								<xs:complexType>
+									<xs:attribute name="name" type="xs:string" use="required" />
+									<xs:attribute name="requiredUpgrade" type="xs:string" use="optional" />
+									<xs:attribute name="rank" type="xs:string" use="optional" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="target">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="conditions">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="unit">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element minOccurs="0" maxOccurs="unbounded" name="trait">
+														<xs:complexType>
+															<xs:attribute name="name" type="xs:string" use="required" />
+														</xs:complexType>
+													</xs:element>
+													<xs:element minOccurs="0" maxOccurs="unbounded" name="noTrait">
+														<xs:complexType>
+															<xs:attribute name="name" type="xs:string" use="required" />
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="match" type="xs:string" use="optional" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="rangeMax" type="xs:string" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

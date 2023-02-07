@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Version 1.0 Compiled by Kurziel 1/29/23 -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="gameData">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="model">
+					<xs:complexType>
+						<xs:attribute name="mesh" type="xs:string" use="required" />
+						<xs:attribute name="position" type="xs:string" use="required" />
+						<xs:attribute name="rotation" type="xs:string" use="required" />
+						<xs:attribute name="scale" type="xs:string" use="required" />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="updateQueues">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="updateQueue">
+								<xs:complexType>
+									<xs:attribute name="name" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="renderQueues">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="renderQueue">
+								<xs:complexType>
+									<xs:attribute name="name" type="xs:string" use="required" />
+									<xs:attribute name="proxy" type="xs:string" use="optional" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="affectors">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:choice maxOccurs="unbounded">
+								<xs:element maxOccurs="unbounded" name="colorAffector">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="colors">
+												<xs:complexType mixed="true">
+													<xs:sequence minOccurs="0">
+														<xs:element name="color">
+															<xs:complexType>
+																<xs:attribute name="value" type="xs:string" use="required" />
+																<xs:attribute name="progress" type="xs:string" use="required" />
+															</xs:complexType>
+														</xs:element>
+													</xs:sequence>
+												</xs:complexType>
+											</xs:element>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="scaleAffector">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="scales">
+												<xs:complexType>
+													<xs:sequence>
+														<xs:element maxOccurs="unbounded" name="scale">
+															<xs:complexType>
+																<xs:attribute name="value" type="xs:string" use="required" />
+																<xs:attribute name="progress" type="xs:string" use="required" />
+															</xs:complexType>
+														</xs:element>
+													</xs:sequence>
+												</xs:complexType>
+											</xs:element>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="rotationAffector">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="rotations">
+												<xs:complexType>
+													<xs:sequence>
+														<xs:element maxOccurs="unbounded" name="rotation">
+															<xs:complexType>
+																<xs:attribute name="value" type="xs:string" use="required" />
+																<xs:attribute name="progress" type="xs:string" use="required" />
+															</xs:complexType>
+														</xs:element>
+													</xs:sequence>
+												</xs:complexType>
+											</xs:element>
+										</xs:sequence>
+										<xs:attribute name="particleOrigin" type="xs:string" use="optional" />
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="gravityAffector">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="force">
+												<xs:complexType>
+													<xs:attribute name="value" type="xs:string" use="required" />
+												</xs:complexType>
+											</xs:element>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="attractionAffector">
+									<xs:complexType>
+										<xs:attribute name="speed" type="xs:string" use="required" />
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="snowAffector" />
+							</xs:choice>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="emitters">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:choice maxOccurs="unbounded">
+								<xs:element maxOccurs="unbounded" name="sphereEmitter">
+									<xs:complexType>
+										<xs:attribute name="particleSizeSquared" type="xs:string" use="optional" />
+										<xs:attribute name="particleLifeTimeMin" type="xs:string" use="required" />
+										<xs:attribute name="particleLifeTimeMax" type="xs:string" use="required" />
+										<xs:attribute name="particleSizeMin" type="xs:string" use="required" />
+										<xs:attribute name="particleSizeMax" type="xs:string" use="required" />
+										<xs:attribute name="particleVelocityMin" type="xs:string" use="required" />
+										<xs:attribute name="particleVelocityMax" type="xs:string" use="required" />
+										<xs:attribute name="shots" type="xs:string" use="optional" />
+										<xs:attribute name="spawns" type="xs:string" use="required" />
+										<xs:attribute name="interval" type="xs:string" use="required" />
+										<xs:attribute name="emissionVolumeMin" type="xs:string" use="optional" />
+										<xs:attribute name="emissionVolumeMax" type="xs:string" use="optional" />
+										<xs:attribute name="rotation" type="xs:string" use="optional" />
+										<xs:attribute name="randomSpawnTimes" type="xs:string" use="optional" />
+										<xs:attribute name="flow" type="xs:string" use="optional" />
+										<xs:attribute name="flowDirection" type="xs:string" use="optional" />
+									</xs:complexType>
+								</xs:element>
+								<xs:element maxOccurs="unbounded" name="boxEmitter">
+									<xs:complexType>
+										<xs:attribute name="emissionVolumeMin" type="xs:string" use="optional" />
+										<xs:attribute name="emissionVolumeMax" type="xs:string" use="optional" />
+										<xs:attribute name="particleSizeSquared" type="xs:string" use="required" />
+										<xs:attribute name="particleLifeTimeMin" type="xs:string" use="required" />
+										<xs:attribute name="particleLifeTimeMax" type="xs:string" use="required" />
+										<xs:attribute name="particleSizeMin" type="xs:string" use="required" />
+										<xs:attribute name="particleSizeMax" type="xs:string" use="required" />
+										<xs:attribute name="particleVelocityMin" type="xs:string" use="required" />
+										<xs:attribute name="particleVelocityMax" type="xs:string" use="required" />
+										<xs:attribute name="randomSpawnTimes" type="xs:string" use="optional" />
+										<xs:attribute name="spawns" type="xs:string" use="required" />
+										<xs:attribute name="interval" type="xs:string" use="required" />
+										<xs:attribute name="shots" type="xs:string" use="optional" />
+										<xs:attribute name="flowDirection" type="xs:string" use="optional" />
+									</xs:complexType>
+								</xs:element>
+							</xs:choice>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="arctic">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="depthFog">
+								<xs:complexType>
+									<xs:attribute name="color" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="light">
+								<xs:complexType>
+									<xs:attribute name="ambientColor" type="xs:string" use="required" />
+									<xs:attribute name="diffuseColor" type="xs:string" use="required" />
+									<xs:attribute name="specularColor" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="desert">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="depthFog">
+								<xs:complexType>
+									<xs:attribute name="color" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="light">
+								<xs:complexType>
+									<xs:attribute name="ambientColor" type="xs:string" use="required" />
+									<xs:attribute name="diffuseColor" type="xs:string" use="required" />
+									<xs:attribute name="specularColor" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="morning">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="depthFog">
+								<xs:complexType>
+									<xs:attribute name="color" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="light">
+								<xs:complexType>
+									<xs:attribute name="ambientColor" type="xs:string" use="required" />
+									<xs:attribute name="diffuseColor" type="xs:string" use="required" />
+									<xs:attribute name="specularColor" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="midday">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="depthFog">
+								<xs:complexType>
+									<xs:attribute name="color" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="light">
+								<xs:complexType>
+									<xs:attribute name="ambientColor" type="xs:string" use="required" />
+									<xs:attribute name="diffuseColor" type="xs:string" use="required" />
+									<xs:attribute name="specularColor" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="evening">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="depthFog">
+								<xs:complexType>
+									<xs:attribute name="color" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="light">
+								<xs:complexType>
+									<xs:attribute name="ambientColor" type="xs:string" use="required" />
+									<xs:attribute name="diffuseColor" type="xs:string" use="required" />
+									<xs:attribute name="specularColor" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="midnight">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="depthFog">
+								<xs:complexType>
+									<xs:attribute name="color" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="light">
+								<xs:complexType>
+									<xs:attribute name="ambientColor" type="xs:string" use="required" />
+									<xs:attribute name="diffuseColor" type="xs:string" use="required" />
+									<xs:attribute name="specularColor" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="temperate">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="depthFog">
+								<xs:complexType>
+									<xs:attribute name="color" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="light">
+								<xs:complexType>
+									<xs:attribute name="ambientColor" type="xs:string" use="required" />
+									<xs:attribute name="diffuseColor" type="xs:string" use="required" />
+									<xs:attribute name="specularColor" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="tropical">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="depthFog">
+								<xs:complexType>
+									<xs:attribute name="color" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="light">
+								<xs:complexType>
+									<xs:attribute name="ambientColor" type="xs:string" use="required" />
+									<xs:attribute name="diffuseColor" type="xs:string" use="required" />
+									<xs:attribute name="specularColor" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="volcanic">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="depthFog">
+								<xs:complexType>
+									<xs:attribute name="color" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="light">
+								<xs:complexType>
+									<xs:attribute name="ambientColor" type="xs:string" use="required" />
+									<xs:attribute name="diffuseColor" type="xs:string" use="required" />
+									<xs:attribute name="specularColor" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

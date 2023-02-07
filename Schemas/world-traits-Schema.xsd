@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Version 1.0 Compiled by Kurziel 1/29/23 -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="gameData">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="modifiers">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="modifier">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="conditions">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="building">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="research">
+																	<xs:complexType>
+																		<xs:attribute name="greater" type="xs:string" use="required" />
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="effects">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="researchFromAdjacentBuildings">
+														<xs:complexType>
+															<xs:attribute name="add" type="xs:string" use="required" />
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="perTurnModifiers">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="endure" type="xs:string" use="required" />
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="onEnemyKilledSelfModifiers" type="xs:string" />
+				<xs:element name="onTraitAddedModifiers" type="xs:string" />
+				<xs:element name="onCombatSelfModifiers" type="xs:string" />
+				<xs:element name="onTraitRemovedModifiers" type="xs:string" />
+				<xs:element name="onEnemyKilledOpponentTileModifiers" type="xs:string" />
+				<xs:element name="onEnemyKilledSelf">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="area">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="modifiers" type="xs:string" />
+									</xs:sequence>
+									<xs:attribute name="affects" type="xs:string" use="required" />
+									<xs:attribute name="radius" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="onCombatOpponentModifiers" type="xs:string" />
+				<xs:element name="onUnitDisappeared">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="area">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="modifiers" type="xs:string" />
+									</xs:sequence>
+									<xs:attribute name="affects" type="xs:string" use="required" />
+									<xs:attribute name="radius" type="xs:string" use="optional" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="areas">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="area">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="modifiers" type="xs:string" />
+									</xs:sequence>
+									<xs:attribute name="affects" type="xs:string" use="required" />
+									<xs:attribute name="radius" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="onUnitDisappearedModifiers" type="xs:string" />
+				<xs:element name="onTransportEmbarked">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="area">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="modifiers" type="xs:string" />
+									</xs:sequence>
+									<xs:attribute name="affects" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="onTransportDisembarked">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="area">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="modifiers" type="xs:string" />
+									</xs:sequence>
+									<xs:attribute name="affects" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="targetConditions">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="unit">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element minOccurs="0" name="noTrait">
+											<xs:complexType>
+												<xs:attribute name="name" type="xs:string" use="required" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element minOccurs="0" name="trait">
+											<xs:complexType>
+												<xs:attribute name="name" type="xs:string" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="onTileEnteredModifiers" type="xs:string" />
+				<xs:element name="opponentModifiers" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Version 1.0 Compiled by Kurziel 1/29/23 -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="gameData">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element name="label">
+						<xs:complexType>
+							<xs:attribute name="name" type="xs:string" use="required" />
+							<xs:attribute name="alignment" type="xs:string" use="required" />
+							<xs:attribute name="preferredSize" type="xs:string" use="required" />
+							<xs:attribute name="stayOnTop" type="xs:string" use="required" />
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="container">
+						<xs:complexType>
+							<xs:sequence minOccurs="0">
+								<xs:element minOccurs="0" name="okButton" />
+								<xs:element minOccurs="0" name="cancelButton" />
+								<xs:element minOccurs="0" name="contentContainer">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="container">
+												<xs:complexType>
+													<xs:attribute name="name" type="xs:string" use="required" />
+													<xs:attribute name="preferredSize" type="xs:string" use="required" />
+													<xs:attribute name="layout.direction" type="xs:string" use="required" />
+												</xs:complexType>
+											</xs:element>
+										</xs:sequence>
+										<xs:attribute name="name" type="xs:string" use="required" />
+										<xs:attribute name="preferredSize" type="xs:string" use="required" />
+										<xs:attribute name="content.layout" type="xs:string" use="required" />
+										<xs:attribute name="content.clipMode" type="xs:string" use="required" />
+										<xs:attribute name="content.margin" type="xs:string" use="required" />
+										<xs:attribute name="handleSelf" type="xs:string" use="required" />
+									</xs:complexType>
+								</xs:element>
+								<xs:element minOccurs="0" maxOccurs="unbounded" name="scrollBar">
+									<xs:complexType>
+										<xs:attribute name="name" type="xs:string" use="required" />
+										<xs:attribute name="preferredSize" type="xs:string" use="required" />
+										<xs:attribute name="scrollingAxis" type="xs:string" use="required" />
+										<xs:attribute name="margin" type="xs:string" use="required" />
+									</xs:complexType>
+								</xs:element>
+								<xs:element minOccurs="0" name="image">
+									<xs:complexType>
+										<xs:attribute name="name" type="xs:string" use="required" />
+										<xs:attribute name="preferredSize" type="xs:string" use="required" />
+										<xs:attribute name="texture" type="xs:string" use="required" />
+										<xs:attribute name="visible" type="xs:string" use="required" />
+									</xs:complexType>
+								</xs:element>
+								<xs:element minOccurs="0" name="label">
+									<xs:complexType>
+										<xs:attribute name="name" type="xs:string" use="required" />
+										<xs:attribute name="alignment" type="xs:string" use="required" />
+										<xs:attribute name="preferredSize" type="xs:string" use="required" />
+									</xs:complexType>
+								</xs:element>
+								<xs:element minOccurs="0" name="dropList">
+									<xs:complexType>
+										<xs:attribute name="name" type="xs:string" use="required" />
+										<xs:attribute name="preferredSize" type="xs:string" use="required" />
+										<xs:attribute name="weights" type="xs:string" use="required" />
+									</xs:complexType>
+								</xs:element>
+								<xs:element minOccurs="0" name="textBox">
+									<xs:complexType>
+										<xs:attribute name="maxLength" type="xs:string" use="required" />
+										<xs:attribute name="name" type="xs:string" use="required" />
+										<xs:attribute name="preferredSize" type="xs:string" use="required" />
+										<xs:attribute name="weights" type="xs:string" use="required" />
+									</xs:complexType>
+								</xs:element>
+							</xs:sequence>
+							<xs:attribute name="preferredSize" type="xs:string" use="required" />
+							<xs:attribute name="name" type="xs:string" use="optional" />
+							<xs:attribute name="clipMode" type="xs:string" use="optional" />
+							<xs:attribute name="margin" type="xs:string" use="optional" />
+							<xs:attribute name="interactive" type="xs:string" use="optional" />
+							<xs:attribute name="layout.gap" type="xs:string" use="optional" />
+							<xs:attribute name="weights" type="xs:string" use="optional" />
+							<xs:attribute name="layout.collapseInvisible" type="xs:string" use="optional" />
+							<xs:attribute name="layout.alignment" type="xs:string" use="optional" />
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="surface">
+						<xs:complexType>
+							<xs:attribute name="name" type="xs:string" use="required" />
+							<xs:attribute name="padding" type="xs:string" use="optional" />
+							<xs:attribute name="delta" type="xs:string" use="optional" />
+							<xs:attribute name="interactive" type="xs:string" use="required" />
+							<xs:attribute name="preferredSize" type="xs:string" use="optional" />
+							<xs:attribute name="texture" type="xs:string" use="optional" />
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="contentContainer">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="label">
+									<xs:complexType>
+										<xs:attribute name="name" type="xs:string" use="required" />
+										<xs:attribute name="preferredSize" type="xs:string" use="required" />
+										<xs:attribute name="wordCut" type="xs:string" use="required" />
+										<xs:attribute name="interactive" type="xs:string" use="required" />
+										<xs:attribute name="visible" type="xs:string" use="required" />
+									</xs:complexType>
+								</xs:element>
+							</xs:sequence>
+							<xs:attribute name="name" type="xs:string" use="required" />
+							<xs:attribute name="preferredSize" type="xs:string" use="required" />
+							<xs:attribute name="content.margin" type="xs:string" use="required" />
+							<xs:attribute name="content.clipMode" type="xs:string" use="required" />
+							<xs:attribute name="surface.texture" type="xs:string" use="required" />
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="image">
+						<xs:complexType>
+							<xs:attribute name="name" type="xs:string" use="required" />
+							<xs:attribute name="preferredSize" type="xs:string" use="optional" />
+							<xs:attribute name="texture" type="xs:string" use="required" />
+							<xs:attribute name="rotation" type="xs:string" use="optional" />
+							<xs:attribute name="interactive" type="xs:string" use="optional" />
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="button">
+						<xs:complexType>
+							<xs:attribute name="name" type="xs:string" use="required" />
+							<xs:attribute name="restrictRearrangeToSelf" type="xs:string" use="required" />
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="imageButton">
+						<xs:complexType>
+							<xs:attribute name="name" type="xs:string" use="required" />
+							<xs:attribute name="preferredSize" type="xs:string" use="required" />
+							<xs:attribute name="image.texture" type="xs:string" use="required" />
+							<xs:attribute name="image.preferredSize" type="xs:string" use="required" />
+							<xs:attribute name="image.rotation" type="xs:string" use="required" />
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="progressBar">
+						<xs:complexType>
+							<xs:attribute name="name" type="xs:string" use="required" />
+							<xs:attribute name="preferredSize" type="xs:string" use="required" />
+							<xs:attribute name="weights" type="xs:string" use="required" />
+							<xs:attribute name="startColor" type="xs:string" use="required" />
+							<xs:attribute name="endColor" type="xs:string" use="required" />
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="scrollableContainer">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="label">
+									<xs:complexType>
+										<xs:attribute name="name" type="xs:string" use="required" />
+										<xs:attribute name="alignment" type="xs:string" use="required" />
+										<xs:attribute name="preferredSize" type="xs:string" use="required" />
+										<xs:attribute name="wordCut" type="xs:string" use="required" />
+									</xs:complexType>
+								</xs:element>
+							</xs:sequence>
+							<xs:attribute name="name" type="xs:string" use="required" />
+							<xs:attribute name="preferredSize" type="xs:string" use="required" />
+							<xs:attribute name="maxSize" type="xs:string" use="required" />
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
