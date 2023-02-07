@@ -227,6 +227,8 @@
 						<unit>
 							<enemy/>
 							<noTrait name="Eldar/Doom"/>
+							<noTrait name="Headquarters"/>
+							<noTrait name="Fortification"/>
 						</unit>
 					</conditions>
 					<areas>
