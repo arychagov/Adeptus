@@ -6,4 +6,15 @@
     <entry name="SpaceMarines/TacticalPrecision" value="Tactical Precision"/>
     <entry name="SpaceMarines/TacticalPrecisionDescription" value="Removes penalty from firing heavy weapons after movement and treats shooting with rapid fire weapons as if in half range."/>
     <entry name="SpaceMarines/TacticalPrecisionFlavor" value="Precisely!"/>
+    <entry name="SpaceMarines/EmpireWithin" value="Empire Within"/>
+    <entry name="SpaceMarines/EmpireWithinDescription" value="Levels up non-hero friendly unit."/>
+    <entry name="SpaceMarines/EmpireWithinFlavor" value="I will share my wisdom, afraid not."/>
+    <entry name="SpaceMarines/MightOfHeroes" value="Might Of Heroes"/>
+    <entry name="SpaceMarines/MightOfHeroesDescription" value="Temporary increases hit points, the accuracy and the damage of friendly unit."/>
+    <entry name="SpaceMarines/MightOfHeroesFlavor" value="Forward without hesitation."/>
+	<entry name="SpaceMarines/NullZone" value="<string name='Traits/NullZone'/>"/>
+	<entry name="SpaceMarines/NullZoneDescription" value="<string name='Traits/NullZoneDescription'/>"/>
+	<entry name="SpaceMarines/NullZoneFlavor" value="<string name='Traits/NullZoneFlavor'/>"/>
+    <entry name="SpaceMarines/SpectralBlade" value="Spectral Blade"/>
+	<entry name="SpaceMarines/SpectralBladeDescription" value="Increases Librarian's melee attacks."/>
 </language>

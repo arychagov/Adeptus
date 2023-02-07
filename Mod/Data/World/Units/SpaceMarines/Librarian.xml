@@ -127,11 +127,13 @@
 						beginFire="0.9"/>
 			</model>
 		</throwGrenade>
-		<!-- <armoriumCherub consumedActionPoints="0" consumedMovement="0"
-				cooldown="10">
-			<model>
-				<action sound="Actions/Reload"/>
-			</model>
+		<genericUnitAbility cooldown="3"
+				icon="Actions/PowerStrike"
+				name="SpaceMarines/SpectralBlade"
+				consumedMovement="0"
+				consumedActionPoints="0"
+				rank="-1"
+				rankMax="2">
 			<beginTargets>
 				<selfTarget>
 					<areas>
@@ -139,7 +141,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="ArmoriumCherub" duration="1"/>
+										<addTrait duration="1" name="SpaceMarines/SpectralBlade"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -147,53 +149,12 @@
 					</areas>
 				</selfTarget>
 			</beginTargets>
-		</armoriumCherub> -->
-		<objurationMechanicum cooldown="2"
-				levelUpPriority="0.1"
-				rank="-1"
-				rankMax="2">
-			<model>
-				<action animation="Units/SpaceMarines/LibrarianObjurationMechanicum"
-						sound="Actions/PsychicDebuff"/>
-			</model>
-			<beginTargets>
-				<target rangeMax="2">
-					<conditions>
-						<unit>
-							<enemy/>
-						</unit>
-					</conditions>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<conditions>
-										<unit match="Any">
-											<trait name="Fortification"/>
-											<trait name="Vehicle"/>
-										</unit>
-									</conditions>
-									<effects>
-										<hitpoints add="-6" addMax="-18"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait duration="3" name="GetsHot"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</target>
-			</beginTargets>
-		</objurationMechanicum>
-		<shockwave cooldown="2"
+		</genericUnitAbility>
+		<genericUnitAbility cooldownMin="10" cooldownMax="3"
+				icon="Traits/MeleeDamage"
+				name="SpaceMarines/MightOfHeroes"
 				levelUpPriority="0.2"
+				consumedMovement="0"
 				rank="-1"
 				rankMax="2">
 			<model>
@@ -202,52 +163,66 @@
 						beginFire="0.67"
 						sound="Actions/Shockwave"/>
 			</model>
-			<modifiers>
-				<modifier>
-					<effects>
-						<damage mulMin="0.33" mulMax="1.0"/>
-					</effects>
-				</modifier>
-			</modifiers>
 			<beginTargets>
-				<selfTarget>
+				<target rangeMax="2">
+					<conditions>
+						<unit>
+							<allied/>
+							<faction name="SpaceMarines"/>
+							<noTrait name="Hero"/>
+						</unit>
+					</conditions>
 					<areas>
-						<area affects="Unit" radius="1" excludeRadius="0">
+						<area affects="Unit">
 							<modifiers>
 								<modifier>
-									<conditions>
-										<unit>
-											<enemy/>
-										</unit>
-									</conditions>
 									<effects>
-										<weaponDamage weapon="Shockwave"/>
+										<addTrait duration="3" name="SpaceMarines/MightOfHeroes"/>
 									</effects>
 								</modifier>
 							</modifiers>
 						</area>
 					</areas>
-				</selfTarget>
+				</target>
 			</beginTargets>
-		</shockwave>
-		<levitate cooldownMin="3"
-				cooldownMax="1"
+		</genericUnitAbility>
+		<genericUnitAbility
+				icon="Items/FaolchusWing"
+				name="SpaceMarines/EmpireWithin"
+				cooldownMin="7" cooldownMax="3"
+				consumedMovement="0"
 				rank="-1"
 				rankMax="2">
 			<model>
 				<action animation="Units/SpaceMarines/LibrarianLevitate"
 						sound="Actions/Levitate"/> 
 			</model>
-			<modifiers>
-				<modifier>
-					<effects>
-						<movement add="1"/>
-						<movementMax add="1"/>
-					</effects>
-				</modifier>
-			</modifiers>
-		</levitate>
-		<telekineDome cooldown="5"
+			<beginTargets>
+				<target rangeMax="3">
+					<conditions>
+						<unit>
+							<allied/>
+							<faction name="SpaceMarines"/>
+							<noTrait name="Hero"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<level add="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</genericUnitAbility>
+		<genericUnitAbility cooldown="5"
+				icon="Actions/TelekineDome"
+				name="SpaceMarines/NullZone"
 				elite="1"
 				levelUpPriority="0.3"
 				rank="-1"
@@ -263,7 +238,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait duration="3" name="TelekineDome"/>
+										<addTrait duration="1" name="NullZone"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -272,7 +247,7 @@
 							<modifiers>
 								<modifier visible="0">
 									<effects>
-										<addFeature duration="3" name="TelekineDome"/>
+										<addFeature duration="1" name="NullZone"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -280,7 +255,7 @@
 					</areas>
 				</selfTarget>
 			</beginTargets>
-		</telekineDome>
+		</genericUnitAbility>
 		<orbitalDeployment requiredUpgrade="SpaceMarines/OrbitalDeployment">
 			<model>
 				<action sound="Actions/DropPod"/>
@@ -298,11 +273,11 @@
 	</actions>
 	<traits>
 		<trait name="AndTheyShallKnowNoFear"/>
-		<!-- <trait name="Bulky"/> -->
 		<trait name="ExtraInfantryArmour" requiredUpgrade="SpaceMarines/ExtraInfantryArmour"/>
 		<trait name="Hero"/>
 		<trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand"/>
 		<trait name="PsychicHood"/>
 		<trait name="Psyker"/>
+		<trait name="TerminatorArmour"/>
 	</traits>
 </unit>

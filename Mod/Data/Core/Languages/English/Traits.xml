@@ -6,6 +6,9 @@
     <entry name="SpaceMarines/TacticalPrecision" value="Tactical Precision"/>
     <entry name="SpaceMarines/TacticalPrecisionDescription" value="Removes penalty from firing heavy weapons after movement and treats shooting with rapid fire weapons as if in half range."/>
     <entry name="SpaceMarines/TacticalPrecisionFlavor" value="Precisely!"/>
+    <entry name="SpaceMarines/MightOfHeroes" value="Might Of Heroes"/>
+    <entry name="SpaceMarines/MightOfHeroesDescription" value="Temporary increases hit points, the accuracy and the damage of friendly unit."/>
+    <entry name="SpaceMarines/MightOfHeroesFlavor" value="Forward without hesitation."/>
 
     <!-- Start of Prosperity -->
     <entry name="AdeptusMechanicus/Prosperity" value="Prosperity"/>
@@ -34,4 +37,9 @@
 	<entry name="VehicleDamagedDescription" value="Reduces the accuracy."/>
 	<entry name="VehicleHeavilyDamaged" value="Missing 66% hit points"/>
 	<entry name="VehicleHeavilyDamagedDescription" value="Reduces the accuracy and movement."/>
+    <entry name="NullZone" value="Null Zone"/>
+    <entry name="NullZoneDescription" value="Removes invulnerable, witchfire and feel no pain damage reduction."/>
+    <entry name="NullZoneFlavor" value="No one is save beside angered Librarian."/>
+    <entry name="SpaceMarines/SpectralBlade" value="Spectral Blade"/>
+	<entry name="SpaceMarines/SpectralBladeDescription" value="Increases Librarian's melee attacks."/>
 </language>
