@@ -130,7 +130,9 @@
 		<genericUnitAbility cooldownMin="5" cooldownMax="1"
 				icon="Actions/Signum"
 				name="SpaceMarines/TacticalPrecision"
-				consumedActionPoints="0" consumedMovement="0"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="0"
 				rank="-1"
 				rankMax="2">
 			<beginTargets>
