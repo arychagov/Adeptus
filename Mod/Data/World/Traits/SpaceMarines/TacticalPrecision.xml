@@ -13,6 +13,7 @@
 				<weapon>
 					<trait name="RapidFire"/>
 				</weapon>
+				<encounterRange greater="1"/>
             </conditions>
 			<effects>
 				<rangedAttacks mul="1"/>
