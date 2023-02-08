@@ -4,6 +4,7 @@
 		<modifier>
 			<effects>
 				<production add="6"/>
+				<populationLimit add="2"/>
 			</effects>
 		</modifier>
 	</modifiers>
