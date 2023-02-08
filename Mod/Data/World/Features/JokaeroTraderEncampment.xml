@@ -57,6 +57,16 @@
 				<energy add="1"/>
 			</effects>
 		</modifier>
+		<modifier>
+			<conditions>
+				<player>
+					<faction name="SpaceMarines"/>
+				</player>
+			</conditions>
+			<effects>
+				<loyalty mul="0.1"/>
+			</effects>
+		</modifier>
 	</modifiers>
 	<traits>
 		<trait name="Shop"/>
