@@ -169,16 +169,9 @@
 			<beginTargets>
 				<selfTarget>
 					<areas>
-						<area affects="Tile" radius="1">
+						<area affects="Tile" excludeRadius="0" radius="1">
 							<modifiers>
 								<modifier>
-									<conditions>
-										<unit>
-											<allied/>
-											<faction name="SpaceMarines"/>
-											<noType name="SpaceMarines/Captain"/>
-										</unit>
-									</conditions>
 									<effects>
 										<addTrait name="SpaceMarines/CaptainsShield"/>
 									</effects>

@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-    <entry name="SpaceMarines/CaptainsShield" value="Captain's Shield"/>
-    <entry name="SpaceMarines/CaptainsShieldDescription" value="Increases the ranged damage reduction of nearby troops."/>
-    <entry name="SpaceMarines/CaptainsShieldFlavor" value="Be saved."/>
-    <entry name="SpaceMarines/TacticalPrecision" value="Tactical Precision"/>
-    <entry name="SpaceMarines/TacticalPrecisionDescription" value="Removes penalty from firing heavy weapons after movement and treats shooting with rapid fire weapons as if in half range."/>
-    <entry name="SpaceMarines/TacticalPrecisionFlavor" value="Precisely!"/>
-    <entry name="SpaceMarines/EmpireWithin" value="Empire Within"/>
-    <entry name="SpaceMarines/EmpireWithinDescription" value="Levels up non-hero friendly unit."/>
-    <entry name="SpaceMarines/EmpireWithinFlavor" value="I will share my wisdom, afraid not."/>
-    <entry name="SpaceMarines/MightOfHeroes" value="Might Of Heroes"/>
-    <entry name="SpaceMarines/MightOfHeroesDescription" value="Temporary increases hit points, the accuracy and the damage of friendly unit."/>
-    <entry name="SpaceMarines/MightOfHeroesFlavor" value="Forward without hesitation."/>
-	<entry name="SpaceMarines/NullZone" value="<string name='Traits/NullZone'/>"/>
-	<entry name="SpaceMarines/NullZoneDescription" value="<string name='Traits/NullZoneDescription'/>"/>
-	<entry name="SpaceMarines/NullZoneFlavor" value="<string name='Traits/NullZoneFlavor'/>"/>
-    <entry name="SpaceMarines/SpectralBlade" value="Spectral Blade"/>
-	<entry name="SpaceMarines/SpectralBladeDescription" value="Increases Librarian's melee attacks."/>
+    <entry name="SpaceMarines/CaptainsShield" value="<string name='Traits/SpaceMarines/CaptainsShield'/>"/>
+    <entry name="SpaceMarines/CaptainsShieldDescription" value="<string name='Traits/SpaceMarines/CaptainsShieldDescription'/>"/>
+    <entry name="SpaceMarines/CaptainsShieldFlavor" value="<string name='Traits/SpaceMarines/CaptainsFlavor'/>"/>
+    <entry name="SpaceMarines/TacticalPrecision" value="<string name='Traits/SpaceMarines/TacticalPrecision'/>"/>
+    <entry name="SpaceMarines/TacticalPrecisionDescription" value="<string name='Traits/SpaceMarines/TacticalPrecisionDescription'/>"/>
+    <entry name="SpaceMarines/TacticalPrecisionFlavor" value="<string name='Traits/SpaceMarines/TacticalPrecisionFlavor'/>"/>
+    <entry name="SpaceMarines/MightOfHeroes" value="<string name='Traits/SpaceMarines/MightOfHeroes'/>"/>
+    <entry name="SpaceMarines/MightOfHeroesDescription" value="<string name='Traits/SpaceMarines/MightOfHeroesDescription'/>"/>
+    <entry name="SpaceMarines/MightOfHeroesFlavor" value="<string name='Traits/SpaceMarines/MightOfHeroesFlavor'/>"/>
+    <entry name="SpaceMarines/SpectralBlade" value="<string name='Traits/SpaceMarines/SpectralBlade'/>"/>
+    <entry name="SpaceMarines/SpectralBladeDescription" value="<string name='Traits/SpaceMarines/SpectralBladeDescription'/>"/>
+    <entry name="SpaceMarines/LitanyOfZeal" value="<string name='Traits/SpaceMarines/LitanyOfZeal'/>"/>
+    <entry name="SpaceMarines/LitanyOfZealDescription" value="<string name='Traits/SpaceMarines/LitanyOfZealDescription'/>"/>
+    <entry name="SpaceMarines/LitanyOfZealFlavor" value="<string name='Traits/SpaceMarines/LitanyOfZealFlavor'/>"/>
+    <entry name="SpaceMarines/Righteousness" value="<string name='Traits/SpaceMarines/Righteousness'/>"/>
+    <entry name="SpaceMarines/RighteousnessDescription" value="<string name='Traits/SpaceMarines/RighteousnessDescription'/>"/>
+    <entry name="SpaceMarines/RighteousnessFlavor" value="<string name='Traits/SpaceMarines/RighteousnessFlavor'/>"/>
+    <entry name="SpaceMarines/TemplarsCharge" value="<string name='Traits/SpaceMarines/TemplarsCharge'/>"/>
+    <entry name="SpaceMarines/TemplarsChargeDescription" value="<string name='Traits/SpaceMarines/TemplarsChargeDescription'/>"/>
+    <entry name="SpaceMarines/TemplarsChargeFlavor" value="<string name='Traits/SpaceMarines/TemplarsChargeFlavor'/>"/>
+    <entry name="SpaceMarines/NullZone" value="<string name='Traits/NullZone'/>"/>
+    <entry name="SpaceMarines/NullZoneDescription" value="<string name='Traits/NullZoneDescription'/>"/>
+    <entry name="SpaceMarines/NullZoneFlavor" value="<string name='Traits/NullZoneFlavor'/>"/>
 </language>

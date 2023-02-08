@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
     <entry name="SpaceMarines/CaptainsShield" value="Captain's Shield"/>
-    <entry name="SpaceMarines/CaptainsShieldDescription" value="Increases the ranged damage reduction."/>
+    <entry name="SpaceMarines/CaptainsShieldDescription" value="Increases the ranged damage reduction of nearby troops."/>
     <entry name="SpaceMarines/CaptainsShieldFlavor" value="Be saved."/>
     <entry name="SpaceMarines/TacticalPrecision" value="Tactical Precision"/>
     <entry name="SpaceMarines/TacticalPrecisionDescription" value="Removes penalty from firing heavy weapons after movement and treats shooting with rapid fire weapons as if in half range."/>
     <entry name="SpaceMarines/TacticalPrecisionFlavor" value="Precisely!"/>
+    <entry name="SpaceMarines/EmpireWithin" value="Empire Within"/>
+    <entry name="SpaceMarines/EmpireWithinDescription" value="Levels up non-hero friendly unit."/>
+    <entry name="SpaceMarines/EmpireWithinFlavor" value="I will share my wisdom, afraid not."/>
     <entry name="SpaceMarines/MightOfHeroes" value="Might Of Heroes"/>
     <entry name="SpaceMarines/MightOfHeroesDescription" value="Temporary increases hit points, the accuracy and the damage of friendly unit."/>
     <entry name="SpaceMarines/MightOfHeroesFlavor" value="Forward without hesitation."/>
-
+    <entry name="SpaceMarines/SpectralBlade" value="Spectral Blade"/>
+    <entry name="SpaceMarines/SpectralBladeDescription" value="Increases Librarian's melee attacks."/>
+    <entry name="SpaceMarines/LitanyOfZeal" value="Litany Of Zeal"/>
+    <entry name="SpaceMarines/LitanyOfZealDescription" value="Increases movement of target unit and prevents the unit from being targeted by overwatch attacks. The unit also ignores enemy zone of control."/>
+    <entry name="SpaceMarines/LitanyOfZealFlavor" value="Bellowing his hatred of the foe, the Chaplain leads his brothers in the wholesale destruction of the enemy."/>
+    <entry name="SpaceMarines/Righteousness" value="Righteousness"/>
+    <entry name="SpaceMarines/RighteousnessDescription" value="Increases adjacent allied units melee attacks."/>
+    <entry name="SpaceMarines/RighteousnessFlavor" value="Rejoice! Let the glory of battle envelop us! Let our enemies fear us, for we are the Emperor's wrath!"/>
+    <entry name="SpaceMarines/TemplarsCharge" value="Templar's Charge!"/>
+    <entry name="SpaceMarines/TemplarsChargeDescription" value="Temporary increases nearby allied units melee attacks and damage."/>
+    <entry name="SpaceMarines/TemplarsChargeFlavor" value="We fight to protect the spiritual and physical heart of our Chapter. That, surely, is worth shedding blood."/>
     <!-- Start of Prosperity -->
     <entry name="AdeptusMechanicus/Prosperity" value="Prosperity"/>
     <entry name="AdeptusMechanicus/ProsperityDescription" value="Increases city growth"/>
@@ -34,12 +47,10 @@
     <!-- End of Prosperity -->
     <entry name="VehicleDescription" value="Negates the penalty for heavy and ordnance weapons. Increases the movement penalty in forests and imperial ruins. Missing hit points reduces accuracy and movement."/>
     <entry name="VehicleDamaged" value="Missing 33% hit points"/>
-	<entry name="VehicleDamagedDescription" value="Reduces the accuracy."/>
-	<entry name="VehicleHeavilyDamaged" value="Missing 66% hit points"/>
-	<entry name="VehicleHeavilyDamagedDescription" value="Reduces the accuracy and movement."/>
+    <entry name="VehicleDamagedDescription" value="Reduces the accuracy."/>
+    <entry name="VehicleHeavilyDamaged" value="Missing 66% hit points"/>
+    <entry name="VehicleHeavilyDamagedDescription" value="Reduces the accuracy and movement."/>
     <entry name="NullZone" value="Null Zone"/>
     <entry name="NullZoneDescription" value="Removes invulnerable, witchfire and feel no pain damage reduction."/>
     <entry name="NullZoneFlavor" value="No one is save beside angered Librarian."/>
-    <entry name="SpaceMarines/SpectralBlade" value="Spectral Blade"/>
-	<entry name="SpaceMarines/SpectralBladeDescription" value="Increases Librarian's melee attacks."/>
 </language>
