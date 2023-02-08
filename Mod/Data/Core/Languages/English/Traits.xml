@@ -62,4 +62,7 @@
     <entry name="NullZone" value="Null Zone"/>
     <entry name="NullZoneDescription" value="Removes invulnerable, witchfire and feel no pain damage reduction."/>
     <entry name="NullZoneFlavor" value="No one is save beside angered Librarian."/>
+    <entry name="Bodyguard" value="Bodyguard"/>
+    <entry name="BodyguardDescription" value="Increases adjacent heroes hero damage reduction"/>
+	<entry name="HeroDescription" value="Increases the damage reduction of infantry units. Each adjacent infantry unit increases damage reduction by additional 5% (10% for Bodyguard units)"/>
 </language>

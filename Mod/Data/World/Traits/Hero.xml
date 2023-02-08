@@ -1,22 +1,232 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait alwaysVisible="1">
-	<modifiers>
-		<modifier>
-			<conditions>
-				<unit>
-					<noTrait name="Flyer"/>
-					<noTrait name="MonstrousCreature"/>
-					<noTrait name="Vehicle"/>
-				</unit>
-			</conditions>
-			<effects>
-				<heroDamageReduction add="0.5"/>
-			</effects>
-		</modifier>
-		<modifier>
-			<effects>
-				<duplicateTypeCost mul="2.0"/>
-			</effects>
-		</modifier>
-	</modifiers>
+    <modifiers>
+        <modifier>
+            <conditions>
+                <unit>
+                    <noTrait name="Flyer"/>
+                    <noTrait name="MonstrousCreature"/>
+                    <noTrait name="Vehicle"/>
+                </unit>
+            </conditions>
+            <effects>
+                <heroDamageReduction add="0.2" max="0.5"/>
+            </effects>
+        </modifier>
+        <modifier>
+            <effects>
+                <duplicateTypeCost mul="2.0"/>
+            </effects>
+        </modifier>
+
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="1" range="1">
+                        <allied/>
+                        <noTrait name="Vehicle"/>
+                        <noTrait name="Fortification"/>
+                        <noTrait name="Flyer"/>
+                    </unitsInRange>
+                    <noTrait name="Flyer"/>
+                    <noTrait name="MonstrousCreature"/>
+                    <noTrait name="Vehicle"/>
+                </unit>
+            </conditions>
+            <effects>
+                <heroDamageReduction add="0.05"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="1" range="1">
+                        <allied/>
+                        <trait name="Bodyguard"/>
+                    </unitsInRange>
+                    <noTrait name="Flyer"/>
+                    <noTrait name="MonstrousCreature"/>
+                    <noTrait name="Vehicle"/>
+                </unit>
+            </conditions>
+            <effects>
+                <heroDamageReduction add="0.05"/>
+            </effects>
+        </modifier>
+        
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="2" range="1">
+                        <allied/>
+                        <noTrait name="Vehicle"/>
+                        <noTrait name="Fortification"/>
+                        <noTrait name="Flyer"/>
+                    </unitsInRange>
+                    <noTrait name="Flyer"/>
+                    <noTrait name="MonstrousCreature"/>
+                    <noTrait name="Vehicle"/>
+                </unit>
+            </conditions>
+            <effects>
+                <heroDamageReduction add="0.05"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="2" range="1">
+                        <allied/>
+                        <trait name="Bodyguard"/>
+                    </unitsInRange>
+                    <noTrait name="Flyer"/>
+                    <noTrait name="MonstrousCreature"/>
+                    <noTrait name="Vehicle"/>
+                </unit>
+            </conditions>
+            <effects>
+                <heroDamageReduction add="0.05"/>
+            </effects>
+        </modifier>
+        
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="3" range="1">
+                        <allied/>
+                        <noTrait name="Vehicle"/>
+                        <noTrait name="Fortification"/>
+                        <noTrait name="Flyer"/>
+                    </unitsInRange>
+                    <noTrait name="Flyer"/>
+                    <noTrait name="MonstrousCreature"/>
+                    <noTrait name="Vehicle"/>
+                </unit>
+            </conditions>
+            <effects>
+                <heroDamageReduction add="0.05"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="3" range="1">
+                        <allied/>
+                        <trait name="Bodyguard"/>
+                    </unitsInRange>
+                    <noTrait name="Flyer"/>
+                    <noTrait name="MonstrousCreature"/>
+                    <noTrait name="Vehicle"/>
+                </unit>
+            </conditions>
+            <effects>
+                <heroDamageReduction add="0.05"/>
+            </effects>
+        </modifier>
+        
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="4" range="1">
+                        <allied/>
+                        <noTrait name="Vehicle"/>
+                        <noTrait name="Fortification"/>
+                        <noTrait name="Flyer"/>
+                    </unitsInRange>
+                    <noTrait name="Flyer"/>
+                    <noTrait name="MonstrousCreature"/>
+                    <noTrait name="Vehicle"/>
+                </unit>
+            </conditions>
+            <effects>
+                <heroDamageReduction add="0.05"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="4" range="1">
+                        <allied/>
+                        <trait name="Bodyguard"/>
+                    </unitsInRange>
+                    <noTrait name="Flyer"/>
+                    <noTrait name="MonstrousCreature"/>
+                    <noTrait name="Vehicle"/>
+                </unit>
+            </conditions>
+            <effects>
+                <heroDamageReduction add="0.05"/>
+            </effects>
+        </modifier>
+        
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="5" range="1">
+                        <allied/>
+                        <noTrait name="Vehicle"/>
+                        <noTrait name="Fortification"/>
+                        <noTrait name="Flyer"/>
+                    </unitsInRange>
+                    <noTrait name="Flyer"/>
+                    <noTrait name="MonstrousCreature"/>
+                    <noTrait name="Vehicle"/>
+                </unit>
+            </conditions>
+            <effects>
+                <heroDamageReduction add="0.05"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="5" range="1">
+                        <allied/>
+                        <trait name="Bodyguard"/>
+                    </unitsInRange>
+                    <noTrait name="Flyer"/>
+                    <noTrait name="MonstrousCreature"/>
+                    <noTrait name="Vehicle"/>
+                </unit>
+            </conditions>
+            <effects>
+                <heroDamageReduction add="0.05"/>
+            </effects>
+        </modifier>
+        
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="6" range="1">
+                        <allied/>
+                        <noTrait name="Vehicle"/>
+                        <noTrait name="Fortification"/>
+                        <noTrait name="Flyer"/>
+                    </unitsInRange>
+                    <noTrait name="Flyer"/>
+                    <noTrait name="MonstrousCreature"/>
+                    <noTrait name="Vehicle"/>
+                </unit>
+            </conditions>
+            <effects>
+                <heroDamageReduction add="0.05"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="6" range="1">
+                        <allied/>
+                        <trait name="Bodyguard"/>
+                    </unitsInRange>
+                    <noTrait name="Flyer"/>
+                    <noTrait name="MonstrousCreature"/>
+                    <noTrait name="Vehicle"/>
+                </unit>
+            </conditions>
+            <effects>
+                <heroDamageReduction add="0.05"/>
+            </effects>
+        </modifier>
+    </modifiers>
 </trait>
