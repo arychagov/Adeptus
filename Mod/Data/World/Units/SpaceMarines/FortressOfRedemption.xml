@@ -15,7 +15,7 @@
 				uvAnimated="0"/>
 	</model>
 	<weapons>
-		<weapon name="TwinLinkedLascannon">
+		<weapon name="TwinLinkedLascannon" requiredUpgrade="SpaceMarines/PredatorLascannon">
 			<model>
 				<beamWeapon mesh="Weapons/SpaceMarines/FortressOfRedemptionTurret"
 						material="Weapons/SpaceMarines/FortressOfRedemptionTurret"
@@ -33,7 +33,7 @@
 						missileScale="0.6"/>
 			</model>
 		</weapon>
-		<weapon name="HeavyBolter" count="2" requiredUpgrade="SpaceMarines/PredatorLascannon">
+		<weapon name="HeavyBolter" count="2">
 			<model>
 				<projectileWeapon mesh="Weapons/SpaceMarines/FortressOfRedemptionHeavyBolters"
 						material="Weapons/SpaceMarines/FortressOfRedemptionTurret"
