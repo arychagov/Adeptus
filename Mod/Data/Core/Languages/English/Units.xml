@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+    <entry name="SpaceMarines/Techmarine" value="Techmarine"/>
+	<entry name="SpaceMarines/TechmarineDescription" value="Technician and engineer as well as a full Astartes battle-brother."/>
+	<entry name="SpaceMarines/TechmarineFlavor" value="They learn how to divine the runes of engineering and study the liturgy of maintenance. This great body of lore must be committed to memory and understood by the novice Techmarine."/>
+</language>

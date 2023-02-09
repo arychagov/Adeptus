@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building>
+	<actions>
+		<produceUnit unit="SpaceMarines/Techmarine" requiredUpgrade="SpaceMarines/Techmarine"/>
+	</actions>
+</building>

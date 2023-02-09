@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+    <entry name="SpaceMarines/Techmarine" value="<string name='Units/SpaceMarines/Techmarine'/>"/>
+    <entry name="SpaceMarines/TechmarineDescription" value="<string name='Units/SpaceMarines/TechmarineDescription'/>"/>
+    <entry name="SpaceMarines/TechmarineFlavor" value="<string name='Units/SpaceMarines/TechmarineFlavor'/>"/>
+    <entry name="SpaceMarines/AwakenTheMachine" value="<string name='Actions/AwakenTheMachine'/>"/>
+    <entry name="SpaceMarines/AwakenTheMachineDescription" value="Grants Techmarine the ability to boost the damage of vehicles."/>
+    <entry name="SpaceMarines/AwakenTheMachineFlavor" value="<string name='Actions/AwakenTheMachineFlavor'/>"/>
+</language>
