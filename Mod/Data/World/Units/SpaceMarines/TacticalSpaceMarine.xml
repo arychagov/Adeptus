@@ -31,11 +31,6 @@
 				<grenadeWeapon muzzleBone="LeftHand"/>
 			</model>		
 		</weapon>
-		<weapon name="MeltaBomb" slotName="MeltaBomb" enabled="0">
-			<model>
-				<grenadeWeapon muzzleBone="LeftHand"/>
-			</model>		
-		</weapon>
 	</weapons>
 	<modifiers>
 		<modifier visible="0">
@@ -102,13 +97,6 @@
 		</throwGrenade>
 		<throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
 				requiredUpgrade="SpaceMarines/KrakGrenade">
-			<model>
-				<action animation="Units/SpaceMarines/TacticalSpaceMarineGrenade"
-						beginFire="0.666666666667"/>
-			</model>				
-		</throwGrenade>
-		<throwGrenade weaponSlotName="MeltaBomb" cooldown="10"
-				requiredUpgrade="SpaceMarines/MeltaBomb">
 			<model>
 				<action animation="Units/SpaceMarines/TacticalSpaceMarineGrenade"
 						beginFire="0.666666666667"/>
