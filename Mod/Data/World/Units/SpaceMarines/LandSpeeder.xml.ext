@@ -3,12 +3,11 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<energyUpkeep base="3.0"/>
-				<requisitionsUpkeep base="0.0"/> <!-- %requisitionsUpkeep base tier=7 factor=1 -->
+				<energyUpkeep base="1.5"/>
+				<energyCost base="30.0"/>
+				<requisitionsCost base="30.0"/>
+				<requisitionsUpkeep base="1.5"/>
 			</effects>
 		</modifier>
 	</modifiers>
-	<traits>
-		<trait name="OpenTopped"/>
-	</traits>
 </unit>
