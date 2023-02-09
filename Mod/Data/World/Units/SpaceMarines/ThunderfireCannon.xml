@@ -56,7 +56,8 @@
 				<productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
 				<rangedAccuracy base="10"/> <!-- %rangedAccuracy base ballisticSkill=5 -->
 				<requisitionsCost base="30.0"/> <!-- %requisitionsCost base tier=7 factor=0.5 -->
-				<requisitionsUpkeep base="3.0"/> <!-- %requisitionsUpkeep base tier=7 factor=1 -->
+				<requisitionsUpkeep base="1.5"/> <!-- %requisitionsUpkeep base tier=7 factor=1 -->
+				<energyUpkeep base="1.5"/>
 			</effects>
 		</modifier>
 	</modifiers>
@@ -110,58 +111,6 @@
 						beginFire="0.9"/>
 			</model>				
 		</throwGrenade>
-		<clearTileUnitAbility cooldown="1"
-				icon="Actions/ClearTile"
-				name="ClearTile">
-			<model>
-				<action/>
-			</model>
-			<beginTargets>
-				<target rangeMax="1">
-					<conditions/>
-					<areas/>
-				</target>
-			</beginTargets>
-			<modifiers>
-				<modifier visible="0">
-					<effects>
-						<influenceCost base="5"/>
-						<requisitionsCost base="5"/>
-					</effects>
-				</modifier>
-			</modifiers>			
-		</clearTileUnitAbility>		
-		<blessingsOfTheOmnissiah cooldown="1">
-			<model>
-				<action sound="Actions/Heal"/>
-			</model>
-			<beginTargets>
-				<target rangeMax="1">
-					<conditions>
-						<unit>
-							<allied/>
-							<faction name="SpaceMarines"/>
-							<damaged/>
-						</unit>
-						<unit match="Any">
-							<trait name="Fortification"/>
-							<trait name="Vehicle"/>
-						</unit>
-					</conditions>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<hitpoints add="8"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</target>
-			</beginTargets>
-		</blessingsOfTheOmnissiah>
 		<bolsterDefences cooldown="3"
 				requiredUpgrade="SpaceMarines/BolsterDefences">
 			<model>
@@ -183,6 +132,32 @@
 				</target>
 			</beginTargets>
 		</bolsterDefences>
+		<healingSurge cooldown="1" icon="Actions/ChaosSpaceMarines/SelfRepair">
+			<model>
+				<action animation=""
+						sound="Actions/MechanicalBuff"/>
+			</model>
+			<conditions>
+				<unit>
+					<damaged/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpoints add="6"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</healingSurge>
 		<orbitalDeployment requiredUpgrade="SpaceMarines/OrbitalDeployment">
 			<model>
 				<action sound="Actions/DropPod"/>
