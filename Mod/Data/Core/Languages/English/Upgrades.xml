@@ -6,9 +6,6 @@
     <entry name="SpaceMarines/SiegeManeuvers" value="Siege Maneuvers"/>
     <entry name="SpaceMarines/SiegeManeuversDescription" value="Grants Thunderfire Cannon ability to ignore penalty for firing heavy weapons after movement. Increases Thunderfire Cannon hit points."/>
     <entry name="SpaceMarines/SiegeManeuversFlavor" value="A measured advance allows Thunderfire Cannons to unleash a steady stream of fire."/>
-    <entry name="SpaceMarines/AwakenTheMachine" value="<string name='Actions/AwakenTheMachine'/>"/>
-    <entry name="SpaceMarines/AwakenTheMachineDescription" value="Grants Techmarine the ability to boost the damage of vehicles."/>
-    <entry name="SpaceMarines/AwakenTheMachineFlavor" value="<string name='Actions/AwakenTheMachineFlavor'/>"/>
     <entry name="SpaceMarines/DozerBladeDescription" value="Reduces the movement penalty for Hunters, Predators and Razorbacks in forests and imperial ruins. Increases Vindicators armor."/>
     <entry name="SpaceMarines/TeleportHomerDescription" value="Causes orbital deployment to not consume action points when deploying Terminators adjacent to Tactical Space Marines, Scout Bikers or Stormraven Gunships."/>
 	<entry name="SpaceMarines/HurricaneBolterDescription" value="Grants Stormraven Gunships a hurricane bolter. Grants city, Fortresses of Redemption, Razorbacks and Predators a heavy bolter."/>

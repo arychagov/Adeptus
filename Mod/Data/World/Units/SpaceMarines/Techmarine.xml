@@ -153,39 +153,6 @@
 				</target>
 			</beginTargets>
 		</blessingsOfTheOmnissiah>
-		<awakenTheMachine cooldown="1"
-				requiredUpgrade="SpaceMarines/AwakenTheMachine">
-			<model>
-				<action animation="Units/SpaceMarines/ApothecaryGrenade"
-						beginFire="0.85"
-						sound="Actions/MechanicalBuff"/>
-			</model>
-			<beginTargets>
-				<target rangeMax="1">
-					<conditions>
-						<unit>
-							<allied/>
-							<noTrait name="PowerOfTheMachineSpirit"/>
-						</unit>
-						<unit match="Any">
-							<trait name="Fortification"/>
-							<trait name="Vehicle"/>
-						</unit>
-					</conditions>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait duration="3" name="PowerOfTheMachineSpirit"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</target>
-			</beginTargets>
-		</awakenTheMachine>
 		<orbitalDeployment requiredUpgrade="SpaceMarines/OrbitalDeployment">
 			<model>
 				<action sound="Actions/DropPod"/>
