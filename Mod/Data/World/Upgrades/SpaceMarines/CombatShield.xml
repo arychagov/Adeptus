@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="7" icon="Weapons/MultiMelta">
+<upgrade position="7" icon="Traits/CombatShield">
 	<requiredUpgrades>
-		<upgrade name="SpaceMarines/LandRaider"/>
-		<upgrade name="SpaceMarines/LandSpeeder"/>
+		<upgrade name="SpaceMarines/AssaultSpaceMarine"/>
 	</requiredUpgrades>
 	<strategyModifiers>
 		<modifier>
 			<effects>
-				<increaseVehiclesScore base="1.0"/>
+				<increaseInfantryScore base="0.75"/>
 			</effects>
 		</modifier>
 	</strategyModifiers>
