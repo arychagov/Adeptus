@@ -3,4 +3,7 @@
     <entry name="SpaceMarines/Techmarine" value="Techmarine"/>
 	<entry name="SpaceMarines/TechmarineDescription" value="Technician and engineer as well as a full Astartes battle-brother."/>
 	<entry name="SpaceMarines/TechmarineFlavor" value="They learn how to divine the runes of engineering and study the liturgy of maintenance. This great body of lore must be committed to memory and understood by the novice Techmarine."/>
+    <entry name="SpaceMarines/KillTeamEliminators" value="Kill Team Eliminators"/>
+	<entry name="SpaceMarines/KillTeamEliminatorsDescription" value="Cloaked infantry unit equipped to bring down any target."/>
+	<entry name="SpaceMarines/KillTeamEliminatorsFlavor" value="Once marked, there is nowhere for an Eliminator's prey to hide, and no amount of protective armour that can stop the killing shot."/>
 </language>
