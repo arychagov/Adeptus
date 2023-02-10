@@ -43,6 +43,7 @@
 			</model>
 		</weapon>
 		<weapon name="HeavyBolter" count="1" requiredUpgrade="SpaceMarines/FortressOfRedemptionDamageReduction"/>
+		<weapon name="HeavyBolter" requiredUpgrade="SpaceMarines/HurricaneBolter"/>
 	</weapons>
 	<modifiers>
 		<modifier visible="0">

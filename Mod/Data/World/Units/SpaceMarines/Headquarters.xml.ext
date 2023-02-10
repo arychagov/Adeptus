@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
+	<weapons>
+		<weapon name="HeavyBolter" requiredUpgrade="SpaceMarines/HurricaneBolter">
+		</weapon>
+	</weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
