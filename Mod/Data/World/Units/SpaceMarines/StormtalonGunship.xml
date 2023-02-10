@@ -121,7 +121,7 @@
 	</actions>
 	<traits>
 		<trait name="AndTheyShallKnowNoFear"/>
-		<trait name="CeramitePlating" requiredUpgrade="SpaceMarines/CeramitePlating"/>
+		<trait name="CeramitePlating" requiredUpgrade="SpaceMarines/ExtraVehicleArmour"/>
 		<trait name="ExtraVehicleArmour" requiredUpgrade="SpaceMarines/ExtraVehicleArmour"/>
 		<trait name="Flyer"/>
 		<!-- <trait name="Hover"/> -->

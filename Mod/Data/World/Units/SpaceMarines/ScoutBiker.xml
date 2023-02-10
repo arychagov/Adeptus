@@ -254,7 +254,7 @@
 		<trait name="ExtraVehicleArmour" requiredUpgrade="SpaceMarines/ExtraVehicleArmour"/>
 		<trait name="Infiltrate"/>
 		<trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand"/>
-		<trait name="LocatorBeacon" requiredUpgrade="SpaceMarines/LocatorBeacon"/>
+		<trait name="LocatorBeacon" requiredUpgrade="SpaceMarines/TeleportHomer"/>
 		<trait name="Relentless"/>
 	</traits>
 </unit>

@@ -6,4 +6,6 @@
     <entry name="SpaceMarines/AwakenTheMachine" value="<string name='Actions/AwakenTheMachine'/>"/>
     <entry name="SpaceMarines/AwakenTheMachineDescription" value="Grants Techmarine the ability to boost the damage of vehicles."/>
     <entry name="SpaceMarines/AwakenTheMachineFlavor" value="<string name='Actions/AwakenTheMachineFlavor'/>"/>
+    <entry name="SpaceMarines/DozerBladeDescription" value="Reduces the movement penalty for Hunters, Predators and Razorbacks in forests and imperial ruins. Increases Vindicators armor."/>
+    <entry name="SpaceMarines/TeleportHomerDescription" value="Causes orbital deployment to not consume action points when deploying Terminators adjacent to Tactical Space Marines, Scout Bikers or Stormraven Gunships."/>
 </language>
