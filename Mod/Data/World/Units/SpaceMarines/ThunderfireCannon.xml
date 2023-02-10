@@ -118,7 +118,7 @@
 			</model>				
 		</throwGrenade>
 		<bolsterDefences cooldown="3"
-				requiredUpgrade="SpaceMarines/BolsterDefences">
+				requiredUpgrade="SpaceMarines/CityTier4">
 			<model>
 				<action sound="Actions/ArmourUp"/>
 			</model>

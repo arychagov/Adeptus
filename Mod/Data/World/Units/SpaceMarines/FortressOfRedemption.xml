@@ -77,6 +77,27 @@
 						soundCount="3"/>
 			</model>
 		</die>
+		<bolsterDefences cooldown="3"
+				requiredUpgrade="SpaceMarines/CityTier4">
+			<model>
+				<action sound="Actions/ArmourUp"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="2">
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature duration="3" name="BolsterDefences"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</bolsterDefences>
 	</actions>
 	<traits>
 		<trait name="AndTheyShallKnowNoFear"/>
