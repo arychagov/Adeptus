@@ -33,5 +33,6 @@
     <entry name="Necrons/TriarchPraetorianJumpPack" value="<string name='Actions/JumpPack'/>"/>
     <entry name="Necrons/TriarchPraetorianJumpPackDescription" value="Flies across obstacles to the target tile. Reduces the movement of adjacent enemy units in destination."/>
     <entry name="Necrons/TriarchPraetorianJumpPackFlavor" value="<string name='Actions/JumpPackFlavor'/>"/>
+	<entry name="Necrons/BloodyCrusadeDescription" value="Increases the attacks of Destroyer Lord and the melee attacks of nearby allied units."/>
 
 </language>

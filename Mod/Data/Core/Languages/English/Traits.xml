@@ -116,5 +116,7 @@
     <entry name="Necrons/JudgementOfTheTriarch" value="Judgement Of The Triarch"/>
     <entry name="Necrons/JudgementOfTheTriarchDescription" value="Decreases melee attacks."/>
     <entry name="Necrons/JudgementOfTheTriarchFlavor" value="Those who defy the will of the Final Triarch are subject to swift and merciless retribution."/>
+    <entry name="Necrons/BloodyCrusadeUnit" value="Bloody Crusade (Aura)"/>
+	<entry name="Necrons/BloodyCrusadeUnitDescription" value="Increases melee attacks."/>
 
 </language>
