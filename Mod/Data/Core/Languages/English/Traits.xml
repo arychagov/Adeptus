@@ -119,5 +119,7 @@
     <entry name="Necrons/BloodyCrusadeUnit" value="Bloody Crusade (Aura)"/>
 	<entry name="Necrons/BloodyCrusadeUnitDescription" value="Increases melee attacks."/>
 	<entry name="Necrons/HousingBuildingBonusDescription" value="Increases the population limit. Increases damage reduction of units in cities."/>
-
+    <entry name="Necrons/MethodicalDestruction" value="Methodical Destruction"/>
+    <entry name="Necrons/MethodicalDestructionDescription" value="Increases the accuracy."/>
+    <entry name="Necrons/MethodicalDestructionFlavor" value="The Dynasty excel in systematic killing, marking each target then concentrating their fury upon it until it is completely obliterated."/>
 </language>
