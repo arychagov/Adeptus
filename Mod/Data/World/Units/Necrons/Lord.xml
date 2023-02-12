@@ -49,6 +49,7 @@
 				<oreUpkeep base="2.0"/> <!-- %oreUpkeep base tier=6 factor=1 -->
 				<productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
 				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+
 			</effects>
 		</modifier>
 	</modifiers>
@@ -293,5 +294,6 @@
 		<trait name="ExtraInfantryArmour" requiredUpgrade="Necrons/ExtraInfantryArmour"/>
 		<trait name="Hero"/>
 		<trait name="Necrons/ReanimationProtocols"/>
+		<trait name="Necrons/PhaseShiftGenerator"/>
 	</traits>
 </unit>

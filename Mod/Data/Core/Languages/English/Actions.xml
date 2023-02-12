@@ -23,5 +23,7 @@
     <entry name="SpaceMarines/NullZone" value="<string name='Traits/NullZone'/>"/>
     <entry name="SpaceMarines/NullZoneDescription" value="<string name='Traits/NullZoneDescription'/>"/>
     <entry name="SpaceMarines/NullZoneFlavor" value="<string name='Traits/NullZoneFlavor'/>"/>
-	<entry name="DevastatorDoctrineDescription" value="Chapter tactic that increases the accuracy of Kill Team Eliminators and Devastator Centurions."/>
+    <entry name="DevastatorDoctrineDescription" value="Chapter tactic that increases the accuracy of Kill Team Eliminators and Devastator Centurions."/>
+
+    <entry name="Necrons/DynastyDescription" value="Increases the loyalty of your cities."/>
 </language>
