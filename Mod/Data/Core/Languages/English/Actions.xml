@@ -26,5 +26,12 @@
     <entry name="DevastatorDoctrineDescription" value="Chapter tactic that increases the accuracy of Kill Team Eliminators and Devastator Centurions."/>
 
     <entry name="Necrons/DynastyDescription" value="Increases the loyalty of your cities."/>
-	<entry name="Necrons/QuantumShieldingDescription" value="Increases the invulnerable damage reduction."/>
+    <entry name="Necrons/QuantumShieldingDescription" value="Increases the invulnerable damage reduction."/>
+    <entry name="Necrons/JudgementOfTheTriarch" value="<string name='Traits/Necrons/JudgementOfTheTriarch'/>"/>
+    <entry name="Necrons/JudgementOfTheTriarchDescription" value="Decreases melee attacks of nearby enemies."/>
+    <entry name="Necrons/JudgementOfTheTriarchFlavor" value="<string name='Traits/Necrons/JudgementOfTheTriarchFlavor'/>"/>
+    <entry name="Necrons/TriarchPraetorianJumpPack" value="<string name='Actions/JumpPack'/>"/>
+    <entry name="Necrons/TriarchPraetorianJumpPackDescription" value="Flies across obstacles to the target tile. Reduces the movement of adjacent enemy units in destination."/>
+    <entry name="Necrons/TriarchPraetorianJumpPackFlavor" value="<string name='Actions/JumpPackFlavor'/>"/>
+
 </language>

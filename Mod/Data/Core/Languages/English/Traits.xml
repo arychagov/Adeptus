@@ -113,5 +113,8 @@
     <entry name="Necrons/LivingMetalTesseractVaultFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
     <entry name="Necrons/LivingMetalTombBladesFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
     <entry name="Necrons/LivingMetalTriarchStalkerFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/JudgementOfTheTriarch" value="Judgement Of The Triarch"/>
+    <entry name="Necrons/JudgementOfTheTriarchDescription" value="Decreases melee attacks."/>
+    <entry name="Necrons/JudgementOfTheTriarchFlavor" value="Those who defy the will of the Final Triarch are subject to swift and merciless retribution."/>
 
 </language>
