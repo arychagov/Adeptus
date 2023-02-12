@@ -6,7 +6,7 @@
 				idleAnimation="Units/Necrons/TranscendentCtanIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"
-				scale="1 1 1"
+				scale="1.2 1.2 1.2"
 				bloodBone="BloodBone"
 				transparent="1"/>
 	</model>
