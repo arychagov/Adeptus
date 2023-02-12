@@ -11,5 +11,18 @@
 				<accuracy mul="-0.33"/>				
 			</effects>
 		</modifier>
+		<modifier>
+			<conditions>
+				<unit>
+					<faction name="Orks"/>
+					<noTrait name="Fortification"/>
+					<noTrait name="Vehicle"/>
+					<noTrait name="MonstrousCreature"/>
+				</unit>
+			</conditions>
+			<effects>
+				<damageTaken mul="0.33"/>
+			</effects>
+		</modifier>
 	</modifiers>
 </trait>
