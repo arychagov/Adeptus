@@ -2,6 +2,14 @@
 <trait category="Buff" icon="Actions/Necrons/DefensiveProtocols">
 	<modifiers>
 		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<faction name="Necrons"/>
+					<noTrait name="Fortification"/>
+					<noTrait name="Vehicle"/>
+				</unit>
+			</conditions>
 			<effects>
 				<armor add="1"/>
 			</effects>

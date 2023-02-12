@@ -192,13 +192,11 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <defensiveProtocols cooldown="3"
+        <defensiveProtocols passive="1"
                             levelUpPriority="0.15"
                             name="Necrons/DefensiveProtocols"
                             rank="-1"
-                            rankMax="2"
-                            requiredActionPoints="0"
-                            consumedActionPoints="0" consumedMovement="0">
+                            rankMax="2">
             <model>
                 <action animation="Units/Necrons/LordAbility"
                         sound="Actions/ArmourUp"/>
@@ -213,9 +211,6 @@
                                         <unit>
                                             <allied/>
                                             <faction name="Necrons"/>
-                                            <!-- <noTrait name="Fortification"/>
-                                            <noTrait name="MonstrousCreature"/>
-                                            <noTrait name="Vehicle"/> -->
                                         </unit>
                                     </conditions>
                                     <effects>

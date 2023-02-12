@@ -7,7 +7,6 @@
 					<allied/>
 					<faction name="Necrons"/>
 					<noTrait name="Fortification"/>
-					<noTrait name="MonstrousCreature"/>
 					<noTrait name="Vehicle"/>
 				</unit>
 			</conditions>
