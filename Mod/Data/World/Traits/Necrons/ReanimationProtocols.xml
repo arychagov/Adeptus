@@ -16,7 +16,7 @@
                 <hitpoints add="1"/>
             </effects>
         </modifier>
-        <modifier requiredUpgrade="Necrons/ReanimationProtocols2">
+        <modifier requiredUpgrade="Necrons/LivingMetal2">
             <effects>
                 <hitpoints add="1"/>
             </effects>
