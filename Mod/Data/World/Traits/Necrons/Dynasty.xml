@@ -3,7 +3,7 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<loyalty addMin="4" addMax="12"/>
+				<influence addMin="4" addMax="12"/>
 			</effects>
 		</modifier>
 	</modifiers>
