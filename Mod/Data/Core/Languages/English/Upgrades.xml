@@ -22,4 +22,7 @@
 	<entry name="Necrons/StormOfFlensingBladesDescription" value="Grants Flayed Ones ability to pin units with melee attacks and ignore zone of control."/>
 	<entry name="Necrons/StormOfFlensingBladesFlavor" value="Driven into a grotesque frenzy by the hot gore sluicing through their innards, the Flayed Ones lay about themselves wildly with their vicious talons."/>
 	<entry name="Necrons/NebuloscopeDescription" value="Allows Tomb Blades to ignore ranged damage reduction and increases Tomb Blades armor."/>
+    <entry name="Necrons/DimensionalCorridor2" value="Dimensional Stability"/>
+	<entry name="Necrons/DimensionalCorridor2Description" value="Reduces the influence cost, the action and movement cost of Dimensional Corridor."/>
+	<entry name="Necrons/DimensionalCorridor2Flavor" value="Drawing upon the power of the Old One's abandoned technology has allowed the Necrons to stabilise their recall technology, greatly reducing the cost of warriors phasing out to Eternity Gates."/>
 </language>

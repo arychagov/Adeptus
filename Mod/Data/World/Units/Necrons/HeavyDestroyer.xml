@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit dlc="Supplement1">
+<unit>
 	<model>
-		<unit mesh="Units/Necrons/Immortal"
-				material="Units/Necrons/Immortal"
-				idleAnimation="Units/Necrons/ImmortalIdle"
+		<unit mesh="Units/Necrons/HeavyDestroyer"
+				material="Units/Necrons/HeavyDestroyer"
+				idleAnimation="Units/Necrons/HeavyDestroyerIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"
 				normalWeight="0.1"
-				scale="1.1 1.1 1.1"
+				scale="0.8 0.8 0.8"
 				explosionsBone="BloodBone"
 				walker="1"/>
 	</model>
-	<group size="5" rowSize="3" memberDeltaX="64" memberDeltaY="64"/>
+	<group size="2" rowSize="2" memberDeltaX="64" memberDeltaY="80"/>
 	<weapons>
-		<weapon name="GaussFlayer">
+		<weapon name="HeavyGaussCannon">
 			<model>
-				<beamWeapon muzzleBone=".Muzzle"
-						fireInterval="0.2"/>
+				<beamWeapon muzzleBone=".Muzzle0"
+						fireInterval="0.833333333333"/>
 			</model>
 		</weapon>
 	</weapons>
@@ -25,7 +25,7 @@
 			<effects>
 				<armor base="8"/> <!-- %armor base armor=3+ -->
 				<energyCost base="40.0"/> <!-- %energyCost base tier=6 factor=1 -->
-				<hitpointsMax base="3.0"/> <!-- %hitpointsMax base toughness=4 wounds=1 -->
+				<hitpointsMax base="8.0"/> <!-- %hitpointsMax base toughness=5 wounds=2 -->
 				<meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
 				<meleeAttacks base="1"/>
 				<strengthDamage base="1.5"/> <!-- %strengthDamage base strength=4 -->
@@ -48,18 +48,18 @@
 	<actions>
 		<attack>
 			<model>
-				<action	animation="Units/Necrons/ImmortalAttack"
-						beginFire="1.2"
-						endFire="2.0"/>
+				<action	animation="Units/Necrons/HeavyDestroyerAttack"
+						beginFire="1.25"
+						endFire="2.5"/>
 			</model>
 		</attack>
 		<die>
 			<model>
-				<action animation="Units/Necrons/ImmortalDie"
+				<action animation="Units/Necrons/HeavyDestroyerDie"
 						animationCount="2"
 						sound="Units/MediumArmoredDie"
 						soundCount="4"
-						soundDelay="0.6"
+						soundDelay="1.0"
 						voiceSound="Units/Necrons/Die"
 						voiceSoundCount="7"/>
 			</model>		
@@ -71,9 +71,9 @@
 		</idle>
 		<move>
 			<model>
-				<action animation="Units/Necrons/ImmortalMove"
-						sound="Units/Necrons/InfantryMove"
-						soundCount="4"/>
+				<action animation="Units/Necrons/HeavyDestroyerMove"
+						sound="Units/Necrons/DestroyerMove"
+						soundCount="3"/>
 			</model>
 		</move>
 		<necrodermisRepair consumedActionPoints="0" consumedMovement="0"
@@ -150,7 +150,9 @@
 	<traits>
 		<trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus"/>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="Necrons/ExtraInfantryArmour"/>
+		<trait name="JetPack"/>
+		<trait name="PreferredEnemy"/>
+		<trait name="Relentless"/>
 		<trait name="Necrons/ReanimationProtocols"/>
-		<trait name="Necrons/PitilessHunters"/>
 	</traits>
 </unit>

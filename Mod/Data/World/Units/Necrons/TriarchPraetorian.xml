@@ -156,7 +156,7 @@
                         <influenceCost mul="-0.33"/>
                     </effects>
                 </modifier>
-                <modifier requiredUpgrade="Necrons/DimensionalCorridor3">
+                <modifier requiredUpgrade="Necrons/DimensionalCorridor2">
                     <effects>
                         <consumedActionPoints max="0"/>
                         <consumedMovement max="0"/>
