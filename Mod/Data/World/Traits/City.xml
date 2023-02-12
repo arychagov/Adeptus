@@ -22,7 +22,7 @@
 				<movementCost max="1"/>
 			</effects>
 		</modifier>
-		<modifier requiredUpgrade="Necrons/CityDefenseBonus">
+		<modifier requiredUpgrade="Necrons/HousingBuildingBonus">
 			<conditions>
 				<unit>
 					<allied/>
