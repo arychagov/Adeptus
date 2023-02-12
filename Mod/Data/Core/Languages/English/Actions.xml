@@ -26,4 +26,5 @@
     <entry name="DevastatorDoctrineDescription" value="Chapter tactic that increases the accuracy of Kill Team Eliminators and Devastator Centurions."/>
 
     <entry name="Necrons/DynastyDescription" value="Increases the loyalty of your cities."/>
+	<entry name="Necrons/QuantumShieldingDescription" value="Increases the invulnerable damage reduction."/>
 </language>

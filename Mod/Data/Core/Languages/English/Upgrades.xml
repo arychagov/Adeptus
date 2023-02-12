@@ -17,4 +17,5 @@
     <entry name="Necrons/LivingMetal2" value="Undying Revenants"/>
 	<entry name="Necrons/LivingMetal2Description" value="Increases the healing of Reanimation Protocols and Living Metal."/>
 	<entry name="Necrons/LivingMetal2Flavor" value="These Necrons rise again and again despite the most grievous wounding, resolutely refusing to succumb to their wounds. Augmented with advanced matter-replication capabilities, these Canoptek constructs can swiftly repair themselves in battle."/>
+	<entry name="Necrons/QuantumShieldingDescription" value="Grants vehicles and aircrafts the invulnerable damage reduction."/>
 </language>
