@@ -6,6 +6,16 @@
 				<hitpoints add="2"/>
 			</effects>
 		</modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <type name="Necrons/TombBlade"/>
+                </unit>
+            </conditions>
+            <effects>
+                <hitpoints add="1"/>
+            </effects>
+        </modifier>
 		<modifier requiredUpgrade="Necrons/LivingMetal2">
 			<effects>
 				<hitpoints add="1"/>
