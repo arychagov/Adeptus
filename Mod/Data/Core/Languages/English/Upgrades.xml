@@ -21,4 +21,5 @@
     <entry name="Necrons/StormOfFlensingBlades" value="Storm Of Flensing Blades"/>
 	<entry name="Necrons/StormOfFlensingBladesDescription" value="Grants Flayed Ones ability to pin units with melee attacks and ignore zone of control."/>
 	<entry name="Necrons/StormOfFlensingBladesFlavor" value="Driven into a grotesque frenzy by the hot gore sluicing through their innards, the Flayed Ones lay about themselves wildly with their vicious talons."/>
+	<entry name="Necrons/NebuloscopeDescription" value="Allows Tomb Blades to ignore ranged damage reduction and increases Tomb Blades armor."/>
 </language>
