@@ -304,6 +304,10 @@
 						</player>
 						<unit>
 							<type name="Eldar/WebwayGate"/>
+							<unitsInRange count="1" range="3">
+								<allied/>
+								<faction name="Eldar"/>
+							</unitsInRange>
 						</unit>
 					</conditions>
 					<areas>
