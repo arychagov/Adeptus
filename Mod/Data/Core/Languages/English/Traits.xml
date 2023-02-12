@@ -67,4 +67,7 @@
     <entry name="BodyguardDescription" value="Increases adjacent heroes hero damage reduction"/>
 	<entry name="HeroDescription" value="Increases the damage reduction of infantry units. Each adjacent infantry unit increases damage reduction by additional 5% (10% for Bodyguard units)"/>
 	<entry name="KillshotDescription" value="Increases the damage against monstrous creatures, vehicles, heroes and fortifications."/>
+    <entry name="Necrons/PitilessHunters" value="Pitiless Hunters"/>
+    <entry name="Necrons/PitilessHuntersDescription" value="Treats shooting with rapid fire weapons as if in half range."/>
+    <entry name="Necrons/PitilessHuntersFlavor" value="This dynasty have long viewed their enemies as little better than vermin, and seek to scour them from the battlefield with overwhelming weight of fire."/>
 </language>
