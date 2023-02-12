@@ -27,7 +27,7 @@
 			<effects>
 				<armor base="7"/> <!-- %armor base armor=11/11/11 -->
 				<energyCost base="60.0"/> <!-- %energyCost base tier=7 factor=1 -->
-				<hitpointsMax base="24.0"/> <!-- %hitpointsMax base armor=11/11/11 wounds=3 -->
+				<hitpointsMax base="32.0"/> <!-- %hitpointsMax base armor=11/11/11 wounds=3 -->
 				<meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
 				<meleeAttacks base="3"/>
 				<!-- <meleeInitiative base="2"/> -->
