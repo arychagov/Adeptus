@@ -1,36 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit dlc="Supplement8">
+<unit>
 	<model>
-		<unit mesh="Units/Necrons/CanoptekWraith"
-				material="Units/Necrons/CanoptekWraith"
-				idleAnimation="Units/Necrons/CanoptekWraithIdle"
-				idleAnimationCount="3"
+		<unit mesh="Units/Necrons/CanoptekScarabs"
+				material="Units/Necrons/CanoptekScarabs"
+				idleAnimation="Units/Necrons/CanoptekScarabsIdle"
+				idleAnimationCount="4"
 				idleContinuously="1"
-				scale="1 1 1"
-				explosionsBone="SpineCore"/>
+				scale="0.6 0.6 0.6"
+				explosionsBone="Bone164"
+				walker="1"/>
 	</model>
-	<group size="2" rowSize="2" memberDeltaX="70" memberDeltaY="80"/>
+	<group size="4" rowSize="2" memberDeltaX="80" memberDeltaY="80"/>
 	<weapons>
-		<weapon name="WhipCoils">
+		<weapon name="CloseCombatWeapon">
 			<model>
-				<weapon fireInterval="10"/>
+				<weapon fireInterval="1.0"
+						fireSoundCount="0"/>
 			</model>
 		</weapon>
 	</weapons>
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="8"/> <!-- %armor base armor=3+ -->
-				<energyCost base="60.0"/> <!-- %energyCost base tier=7 factor=1 -->
-				<hitpointsMax base="8.0"/> <!-- %hitpointsMax base toughness=5 wounds=2 -->
-				<meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
+				<armor base="2"/> <!-- %armor base armor=6+ -->
+				<energyCost base="20.0"/> <!-- %energyCost base tier=4 factor=1 -->
+				<hitpointsMax base="6.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
+				<meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
 				<meleeAttacks base="3"/>
-				<strengthDamage base="2"/> <!-- %strengthDamage base strength=6 -->
+				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
+				<!-- <meleeInitiative base="2"/> -->
 				<moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->
 				<movementMax base="5"/>
-				<oreUpkeep base="3.0"/> <!-- %oreUpkeep base tier=7 factor=1 -->
-				<productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
-				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+				<oreUpkeep base="1.0"/> <!-- %oreUpkeep base tier=4 factor=1 -->
+				<productionCost base="24.0"/> <!-- %productionCost base tier=4 factor=1 -->
+				<rangedAccuracy base="4"/> <!-- %rangedAccuracy base ballisticSkill=2 -->
 			</effects>
 		</modifier>
 	</modifiers>
@@ -44,19 +47,27 @@
 	<actions>
 		<attack>
 			<model>
-				<action	chargeAnimation="Units/Necrons/CanoptekWraithCharge"
-						meleeAnimation="Units/Necrons/CanoptekWraithMelee"
-						meleeBeginSwing="0.2"
-						meleeEndSwing="0.3"/>
-			</model>		
+				<action	chargeAnimation="Units/Necrons/CanoptekScarabsCharge"
+						chargeBeginFire="0.25"
+						chargeEndFire="1.1"
+						chargeDefenseAnimation="Units/Necrons/CanoptekScarabsChargeDefense"
+						chargeDefenseBeginFire="0.25"
+						chargeDefenseEndFire="1.5"
+						meleeAnimation="Units/Necrons/CanoptekScarabsMelee"
+						meleeDefenseAnimation="Units/Necrons/CanoptekScarabsMeleeDefense"
+						meleeBeginSwing="0.5"
+						meleeEndSwing="1.0"
+						meleeSound="Units/Necrons/CanoptekScarabAttack"
+						meleeSoundCount="2"/>
+			</model>
 		</attack>
 		<die>
 			<model>
-				<action animation="Units/Necrons/CanoptekWraithDie"
+				<action animation="Units/Necrons/CanoptekScarabsDie"
 						animationCount="2"
-						sound="Units/MediumVehicleDie"
-						soundCount="3"
-						soundDelay="0.3"/>
+						soundDelay="0"
+						sound="Units/Necrons/CanoptekScarabDie"
+						soundCount="2"/>
 			</model>		
 		</die>
 		<idle>
@@ -66,8 +77,8 @@
 		</idle>
 		<move>
 			<model>
-				<action animation="Units/Necrons/CanoptekWraithMove"
-						sound="Units/Necrons/CanoptekSpyderMove"
+				<action animation="Units/Necrons/CanoptekScarabsMove"
+						sound="Units/Necrons/CanoptekScarabMove"
 						soundCount="3"/>
 			</model>
 		</move>
@@ -119,13 +130,12 @@
 	</actions>
 	<traits>
 		<trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus"/>
+		<trait name="Necrons/EntropicStrike"/>
 		<trait name="ExtraVehicleArmour" requiredUpgrade="Necrons/ExtraVehicleArmour"/>
 		<trait name="Fearless"/>
 		<trait name="Fleet"/>
-		<trait name="Necrons/LivingMetalCanoptekWraith"/>
+		<trait name="Necrons/LivingMetalCanoptekScarab"/>
 		<trait name="MoveThroughCover"/>
-		<trait name="Rending"/>
-		<trait name="Necrons/WraithForm"/>
-		<trait name="Necrons/Wraithflight"/>
+		<trait name="Swarms"/>
 	</traits>
 </unit>

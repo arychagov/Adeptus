@@ -164,7 +164,7 @@
 		<trait name="ExtraVehicleArmour" requiredUpgrade="Necrons/ExtraVehicleArmour"/>
 		<trait name="Flyer"/>
 		<trait name="Necrons/InvasionBeams"/>
-		<trait name="Necrons/LivingMetal"/>
+		<trait name="Necrons/LivingMetalNightScythe"/>
 		<trait name="Transport"/>
 		<trait name="Vehicle"/>
 		<trait name="Necrons/QuantumShielding" requiredUpgrade="Necrons/QuantumShielding"/>

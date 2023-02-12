@@ -25,15 +25,15 @@
     <entry name="SpaceMarines/TemplarsChargeFlavor" value="We fight to protect the spiritual and physical heart of our Chapter. That, surely, is worth shedding blood."/>
     <entry name="SpaceMarines/CityTier2Description" value="Increases the tile acquisition radius and the invulnerable damage reduction of Fortresses of Redemption."/>
     <entry name="SpaceMarines/CityTier4Description" value="Increases the tile acquisition radius and gives Thunderfire Cannons and Fortresses of Redemption ability to increase the ranged damage reduction of the target tile."/>
-	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction1" value="Stronghold Shielding 1"/>
-	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction1Description" value="Increases the invulnerable damage reduction."/>
-	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction1Flavor" value="Gladius Prime is already proving far more hostile than the Adeptus Administratum's worst forecasts. With the Fortress' physical defenses under almost constant assault, the Techmarines approve installation of a void shield. Once constructed, this shimmering dome of power is sufficient to warp away the firepower of entire battalions (or even a rogue Imperial Knight) before collapsing."/>
-	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction2" value="Stronghold Shielding 2"/>
-	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction2Description" value="Increases the invulnerable damage reduction."/>
-	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction2Flavor" value="Gladius Prime is already proving far more hostile than the Adeptus Administratum's worst forecasts. With the Fortress' physical defenses under almost constant assault, the Techmarines approve installation of a void shield. Once constructed, this shimmering dome of power is sufficient to warp away the firepower of entire battalions (or even a rogue Imperial Knight) before collapsing."/>
-	<entry name="SpaceMarines/PredatorLascannonDescription" value="Grants Fortresses of Redemption Twin-Linked Lascannon. Grants Predators and Aquila Macro-Cannons extra Heavy Bolters."/>
+    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction1" value="Stronghold Shielding 1"/>
+    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction1Description" value="Increases the invulnerable damage reduction."/>
+    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction1Flavor" value="Gladius Prime is already proving far more hostile than the Adeptus Administratum's worst forecasts. With the Fortress' physical defenses under almost constant assault, the Techmarines approve installation of a void shield. Once constructed, this shimmering dome of power is sufficient to warp away the firepower of entire battalions (or even a rogue Imperial Knight) before collapsing."/>
+    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction2" value="Stronghold Shielding 2"/>
+    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction2Description" value="Increases the invulnerable damage reduction."/>
+    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction2Flavor" value="Gladius Prime is already proving far more hostile than the Adeptus Administratum's worst forecasts. With the Fortress' physical defenses under almost constant assault, the Techmarines approve installation of a void shield. Once constructed, this shimmering dome of power is sufficient to warp away the firepower of entire battalions (or even a rogue Imperial Knight) before collapsing."/>
+    <entry name="SpaceMarines/PredatorLascannonDescription" value="Grants Fortresses of Redemption Twin-Linked Lascannon. Grants Predators and Aquila Macro-Cannons extra Heavy Bolters."/>
     <entry name="SpaceMarines/FortressOfRedemptionDamageReductionDescription" value="Grants Fortresses of Redemption additional Heavy Bolter weapon and armour."/>
-	 <!-- Start of Prosperity -->
+    <!-- Start of Prosperity -->
     <entry name="AdeptusMechanicus/Prosperity" value="Prosperity"/>
     <entry name="AdeptusMechanicus/ProsperityDescription" value="Increases city growth"/>
     <entry name="AstraMilitarum/Prosperity" value="Prosperity"/>
@@ -65,9 +65,53 @@
     <entry name="NullZoneFlavor" value="No one is save beside angered Librarian."/>
     <entry name="Bodyguard" value="Bodyguard"/>
     <entry name="BodyguardDescription" value="Increases adjacent heroes hero damage reduction"/>
-	<entry name="HeroDescription" value="Increases the damage reduction of infantry units. Each adjacent infantry unit increases damage reduction by additional 5% (10% for Bodyguard units)"/>
-	<entry name="KillshotDescription" value="Increases the damage against monstrous creatures, vehicles, heroes and fortifications."/>
+    <entry name="HeroDescription" value="Increases the damage reduction of infantry units. Each adjacent infantry unit increases damage reduction by additional 5% (10% for Bodyguard units)"/>
+    <entry name="KillshotDescription" value="Increases the damage against monstrous creatures, vehicles, heroes and fortifications."/>
     <entry name="Necrons/PitilessHunters" value="Pitiless Hunters"/>
     <entry name="Necrons/PitilessHuntersDescription" value="Treats shooting with rapid fire weapons as if in half range."/>
     <entry name="Necrons/PitilessHuntersFlavor" value="This dynasty have long viewed their enemies as little better than vermin, and seek to scour them from the battlefield with overwhelming weight of fire."/>
+
+    <entry name="Necrons/LivingMetalAnnihilationBarge" value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalCanoptekScarab" value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalCanoptekSpyder" value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalCanoptekWraith" value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalDoomScythe" value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalDoomsdayArk" value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalGaussPylon" value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalGhostArk" value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalMonolith" value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalNightScythe" value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalObelisk" value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalTesseractVault" value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalTombBlades" value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalTriarchStalker" value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalAnnihilationBargeDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalCanoptekScarabDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalCanoptekSpyderDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalCanoptekWraithDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalDoomScytheDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalDoomsdayArkDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalGaussPylonDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalGhostArkDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalMonolithDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalNightScytheDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalObeliskDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalTesseractVaultDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalTombBladesDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalTriarchStalkerDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalAnnihilationBargeFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalCanoptekScarabFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalCanoptekSpyderFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalCanoptekWraithFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalDoomScytheFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalDoomsdayArkFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalGaussPylonFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalGhostArkFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalMonolithFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalNightScytheFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalObeliskFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalTesseractVaultFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalTombBladesFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalTriarchStalkerFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+
 </language>

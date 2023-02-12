@@ -314,7 +314,7 @@
 		<trait name="Fearless"/>
 		<trait name="MonstrousCreature"/>
 		<trait name="MoveThroughCover"/>
-		<trait name="Necrons/LivingMetal"/>
+		<trait name="Necrons/LivingMetalCanoptekSpyder"/>
 		<trait name="Relentless"/>
 		<trait name="Smash"/>
 	</traits>

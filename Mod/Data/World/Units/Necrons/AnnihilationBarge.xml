@@ -147,7 +147,7 @@
 	<traits>
 		<trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus"/>
 		<trait name="ExtraVehicleArmour" requiredUpgrade="Necrons/ExtraVehicleArmour"/>
-		<trait name="Necrons/LivingMetal"/>
+		<trait name="Necrons/LivingMetalAnnihilationBarge"/>
 		<trait name="OpenTopped"/>
 		<trait name="Skimmer"/>
 		<trait name="Vehicle"/>

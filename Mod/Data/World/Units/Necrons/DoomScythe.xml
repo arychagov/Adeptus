@@ -170,7 +170,7 @@
 		<trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus"/>
 		<trait name="ExtraVehicleArmour" requiredUpgrade="Necrons/ExtraVehicleArmour"/>
 		<trait name="Flyer"/>
-		<trait name="Necrons/LivingMetal"/>
+		<trait name="Necrons/LivingMetalDoomScythe"/>
 		<trait name="Vehicle"/>
 		<trait name="Necrons/QuantumShielding" requiredUpgrade="Necrons/QuantumShielding"/>
 	</traits>

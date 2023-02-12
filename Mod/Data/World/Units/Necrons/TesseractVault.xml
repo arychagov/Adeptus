@@ -1,33 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
 	<model>
-		<unit mesh="Units/Necrons/Obelisk"
-				material="Units/Necrons/Obelisk"
-				idleAnimation="Units/Necrons/ObeliskIdle"
-				idleAnimationCount="1"
+		<unit mesh="Units/Necrons/TesseractVault"
+				material="Units/Necrons/TesseractVault"
+				idleAnimation="Units/Necrons/TesseractVaultIdle"
+				idleAnimationCount="3"
 				idleContinuously="1"
 				scale="1 1 1"
-				explosionsBone="Hull"/>
+				bloodBone="BloodBone"
+				explosionsBone="BloodBone"/>
 	</model>
 	<weapons>
 		<weapon name="TeslaSphere" count="4">
 			<model>
 				<beamWeapon muzzleBone=".Muzzle"
-						muzzleCount="3"
+						muzzleCount="4"
 						fireInterval="0.2"/>			
 			</model>
 		</weapon>
+		<weapon name="TransdimensionalThunderboltCoalescent" slotName="TransdimensionalThunderboltCoalescent" enabled="0">
+			<model>
+				<beamWeapon muzzleBone="Bone134(mirrored)"/>
+			</model>
+		</weapon>
+		<weapon name="SkyOfFallingStarsCoalescent" slotName="SkyOfFallingStarsCoalescent" enabled="0"/>
+		<weapon name="SeismicAssaultCoalescent" slotName="SeismicAssaultCoalescent" enabled="0"/>
 	</weapons>
 	<modifiers>
 		<modifier visible="0">
 			<effects>
 				<armor base="10"/> <!-- %armor base armor=14/14/14 -->
-				<energyCost base="240.0"/> <!-- %energyCost base tier=11 factor=1 -->
-				<hitpointsMax base="96.0"/> <!-- %hitpointsMax base armor=14/14/14 wounds=6 -->
+				<energyCost base="320.0"/> <!-- %energyCost base tier=12 factor=1 -->
+				<hitpointsMax base="144.0"/> <!-- %hitpointsMax base armor=14/14/14 wounds=9 -->
 				<moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->
 				<movementMax base="3"/>
-				<oreUpkeep base="12.0"/> <!-- %oreUpkeep base tier=11 factor=1 -->
-				<productionCost base="66.0"/> <!-- %productionCost base tier=11 factor=1 -->
+				<oreUpkeep base="16.0"/> <!-- %oreUpkeep base tier=12 factor=1 -->
+				<productionCost base="72.0"/> <!-- %productionCost base tier=12 factor=1 -->
 				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
 			</effects>
 		</modifier>
@@ -42,17 +50,19 @@
 	<actions>
 		<attack>
 			<model>
-				<action	animation="Units/Necrons/ObeliskAttack"
-						beginFire="0.25"
-						endFire="3.0"/>
+				<action	animation="Units/Necrons/TesseractVaultAttack"
+						beginFire="0.5"
+						endFire="2.0"/>
 			</model>		
 		</attack>
 		<die>
 			<model>
-				<action animation="Units/Necrons/ObeliskDie"
+				<action animation="Units/Necrons/TesseractVaultDie"
 						sound="Units/LargeVehicleDie"
 						soundCount="3"
-						soundDelay="0.3"/>
+						soundDelay="0.5"
+						voiceSound="Units/Necrons/TranscendentCtanDie"
+						voiceSoundCount="2"/>
 			</model>		
 		</die>
 		<idle>
@@ -62,8 +72,8 @@
 		</idle>
 		<move>
 			<model>
-				<action sound="Units/Necrons/ObeliskMove"
-						soundCount="2"/>
+				<action sound="Units/Necrons/TesseractVaultMove"
+						soundCount="3"/>
 			</model>
 		</move>
 		<auraOfFear passive="1">
@@ -128,52 +138,38 @@
 				</selfTarget>
 			</beginTargets>
 		</necrodermisRepair>
-		<genericUnitAbility name="Necrons/GravityPulse"
-				passive="1">
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Tile" radius="3" excludeRadius="0">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait name="Necrons/GravityPulse"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</genericUnitAbility>
-		<genericUnitAbility name="Necrons/SleepingSentry"
-				passive="1"
-				enabled="0"
-				disableable="1">
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait name="Necrons/SleepingSentry"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</genericUnitAbility>
+		<transdimensionalThunderbolt weaponSlotName="TransdimensionalThunderboltCoalescent"
+				cooldown="3">
+			<model>
+				<action animation="Units/Necrons/TesseractVaultAbility0"
+						beginFire="0.8"
+						endFire="2.5"/>
+			</model>
+		</transdimensionalThunderbolt>
+		<skyOfFallingStars weaponSlotName="SkyOfFallingStarsCoalescent"
+				cooldown="3">
+			<model>
+				<action animation="Units/Necrons/TesseractVaultAbility1"
+						sound="Actions/SkyOfFallingStars"/>
+			</model>		
+		</skyOfFallingStars>
+		<seismicAssault weaponSlotName="SeismicAssaultCoalescent"
+				cooldown="3"
+				requiredUpgrade="Necrons/SeismicAssault">
+			<model>
+				<action animation="Units/Necrons/TesseractVaultAbility1"
+						sound="Actions/SeismicAssault"/>
+			</model>
+		</seismicAssault>
 	</actions>
 	<traits>
 		<trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus"/>
 		<trait name="ExtraVehicleArmour" requiredUpgrade="Necrons/ExtraVehicleArmour"/>
+		<trait name="Necrons/LivingMetal"/>
 		<trait name="MoveThroughCover"/>
-		<trait name="Necrons/LivingMetalObelisk"/>
 		<trait name="Skimmer"/>
 		<trait name="SuperHeavy"/>
 		<trait name="Vehicle"/>
+		<trait name="Necrons/VengeanceOfTheEnchained"/>
 	</traits>
 </unit>

@@ -133,7 +133,7 @@
 		<trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus"/>
 		<trait name="Necrons/EternityGate"/>
 		<trait name="ExtraVehicleArmour" requiredUpgrade="Necrons/ExtraVehicleArmour"/>
-		<trait name="Necrons/LivingMetal"/>
+		<trait name="Necrons/LivingMetalMonolith"/>
 		<trait name="Skimmer"/>
 		<trait name="Tank"/>
 		<trait name="Vehicle"/>
