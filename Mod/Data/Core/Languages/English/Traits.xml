@@ -122,4 +122,7 @@
     <entry name="Necrons/MethodicalDestruction" value="Methodical Destruction"/>
     <entry name="Necrons/MethodicalDestructionDescription" value="Increases the accuracy."/>
     <entry name="Necrons/MethodicalDestructionFlavor" value="The Dynasty excel in systematic killing, marking each target then concentrating their fury upon it until it is completely obliterated."/>
+	<entry name="Fright" value="Fright"/>
+	<entry name="FrightDescription" value="Reduces the morale each turn."/>
+	<entry name="FrightFlavor" value="<string name='Actions/AuraOfFearFlavor'/>"/>
 </language>

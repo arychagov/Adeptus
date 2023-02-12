@@ -29,11 +29,11 @@
 		<modifier visible="0">
 			<effects>
 				<armor base="10"/> <!-- %armor base armor=14/14/14 -->
-				<energyCost base="160.0"/> <!-- %energyCost base tier=10 factor=1 -->
-				<hitpointsMax base="64.0"/> <!-- %hitpointsMax base armor=14/14/14 wounds=4 -->
+				<energyCost base="120.0"/> <!-- %energyCost base tier=10 factor=1 -->
+				<hitpointsMax base="52.0"/> <!-- %hitpointsMax base armor=14/14/14 wounds=4 -->
 				<moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->
 				<movementMax base="3"/>
-				<oreUpkeep base="8.0"/> <!-- %oreUpkeep base tier=10 factor=1 -->
+				<oreUpkeep base="6.0"/> <!-- %oreUpkeep base tier=10 factor=1 -->
 				<productionCost base="60.0"/> <!-- %productionCost base tier=10 factor=1 -->
 				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
 			</effects>

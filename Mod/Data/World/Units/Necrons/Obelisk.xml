@@ -70,11 +70,11 @@
 			<beginTargets>
 				<selfTarget>
 					<areas>
-						<area affects="Tile" excludeRadius="0" radius="1">
+						<area affects="Tile" excludeRadius="0" radius="3">
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="Fear"/>
+										<addTrait name="Fright"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -146,26 +146,6 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="Necrons/SleepingSentry"
-				passive="1"
-				enabled="0"
-				disableable="1">
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait name="Necrons/SleepingSentry"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</genericUnitAbility>
 	</actions>
 	<traits>
 		<trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus"/>
@@ -175,5 +155,6 @@
 		<trait name="Skimmer"/>
 		<trait name="SuperHeavy"/>
 		<trait name="Vehicle"/>
+		<trait name="Necrons/QuantumShielding" requiredUpgrade="Necrons/QuantumShielding"/>
 	</traits>
 </unit>
