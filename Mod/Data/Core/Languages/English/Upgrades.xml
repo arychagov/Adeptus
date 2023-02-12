@@ -27,4 +27,6 @@
 	<entry name="Necrons/DimensionalCorridor2Flavor" value="Drawing upon the power of the Old One's abandoned technology has allowed the Necrons to stabilise their recall technology, greatly reducing the cost of warriors phasing out to Eternity Gates."/>
 
 	<entry name="Eldar/HornetDescription" value="Fast reconnaissance skimmer unit that can clear tiles."/>
+
+	<entry name="AdeptusMechanicus/XenariteAcceptanceDescription" value="Increases the flat amount of research gained from outposts. Increases the building research output for each building in an adjacent tile."/>
 </language>
