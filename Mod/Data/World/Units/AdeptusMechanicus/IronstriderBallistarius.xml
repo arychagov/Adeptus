@@ -13,7 +13,7 @@
 				walker="1"/>
 	</model>
 	<weapons>
-		<weapon name="TwinLinkedCognisAutocannon">
+		<weapon name="Lascannon">
 			<model>
 				<projectileWeapon muzzleBone="Muzzle" muzzleCount="2"/>
 			</model>

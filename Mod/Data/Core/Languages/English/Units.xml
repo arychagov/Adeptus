@@ -8,4 +8,6 @@
 	<entry name="SpaceMarines/KillTeamEliminatorsFlavor" value="Once marked, there is nowhere for an Eliminator's prey to hide, and no amount of protective armour that can stop the killing shot."/>
 
 	<entry name="Eldar/HornetDescription" value="Fast reconnaissance skimmer unit that can clear tiles."/>
+
+	<entry name="AdeptusMechanicus/IronstriderBallistariusDescription" value="Doctrina Imperatives fast walker unit equipped with las-cannon."/>
 </language>
