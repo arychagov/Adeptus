@@ -160,46 +160,6 @@
 				</target>
 			</beginTargets>
 		</masterOfMachines>
-		<reprogramKastelanRobot cooldown="5"
-				name="AdeptusMechanicus/ReprogramKastelanRobot">
-			<model>
-				<action animation="Units/AdeptusMechanicus/CyberneticaDatasmithAbility"
-						sound="Actions/ReprogramKastelanRobot"/>
-			</model>
-			<modifiers>
-				<modifier visible="0">
-					<conditions>
-						<player>
-							<noFaction name="Neutral"/>
-						</player>
-					</conditions>
-					<effects>
-						<influenceCost base="40"/>
-					</effects>
-				</modifier>
-			</modifiers>
-			<beginTargets>
-				<target rangeMax="1">
-					<conditions>
-						<unit>
-							<enemy/>
-							<type name="Neutral/KastelanRobot"/>
-						</unit>
-					</conditions>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<changePlayer/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</target>
-			</beginTargets>
-		</reprogramKastelanRobot>
 	</actions>
 	<traits>
 		<trait name="AdeptusMechanicus/CanticlesOfTheOmnissiah"/>		
