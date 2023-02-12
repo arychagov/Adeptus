@@ -6,7 +6,7 @@
                 <loyalty add="1"/>
             </effects>
         </modifier>
-        <modifier visible="1">
+        <modifier visible="0">
             <conditions>
                 <player>
                     <faction name="SpaceMarines"/>
