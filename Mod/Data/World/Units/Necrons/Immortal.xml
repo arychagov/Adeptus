@@ -130,7 +130,7 @@
 			<modifiers>
 				<modifier visible="0">
 					<effects>
-						<influenceCost base="30"/>
+						<influenceCost base="20"/>
 					</effects>
 				</modifier>
 				<modifier requiredUpgrade="Necrons/DimensionalCorridor2">
