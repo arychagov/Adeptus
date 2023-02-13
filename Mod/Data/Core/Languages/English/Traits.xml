@@ -131,6 +131,18 @@
     <entry name="Necrons/AggressionOverrides" value="Aggression Overrides"/>
 	<entry name="Necrons/AggressionOverridesDescription" value="Increases Canoptek Spyder's hit points, armour penetration and damage."/>
 	<entry name="Necrons/AggressionOverridesFlavor" value="Canoptek Spyders are generally docile creatures, diligently maintaining their tomb complex. However, when roused to battle, their aggression engrams ensure they are truly formidable foes."/>
+    <entry name="Necrons/QuantumDeflection" value="Quantum Deflection"/>
+	<entry name="Necrons/QuantumDeflectionDescription" value="Increases the invulnerable damage reduction."/>
+    <entry name="Necrons/QuantumDeflectionFlavor" value="Necron quantum shielding is a true marvel of techno-arcana, phasing into existence at the moment of impact and capable of adaptive remodulation to diffuse and deflect even the most powerful enemy attacks."/>
+	<entry name="Necrons/QuantumDeflectionStrong" value="Quantum Deflection (Range 1)"/>
+	<entry name="Necrons/QuantumDeflectionStrongDescription" value="<string name='Traits/Necrons/QuantumDeflectionDescription'/>"/>
+    <entry name="Necrons/QuantumDeflectionStrongFlavor" value="<string name='Traits/Necrons/QuantumDeflectionFlavor'/>"/>
+	<entry name="Necrons/QuantumDeflectionWeak" value="Quantum Deflection (Range 2)"/>
+	<entry name="Necrons/QuantumDeflectionWeakDescription" value="<string name='Traits/Necrons/QuantumDeflectionDescription'/>"/>
+    <entry name="Necrons/QuantumDeflectionWeakFlavor" value="<string name='Traits/Necrons/QuantumDeflectionFlavor'/>"/>
+	<entry name="Necrons/AggressionOverridesDescription" value="Increases Canoptek Spyder's hit points, armour penetration and damage."/>
+	<entry name="Necrons/AggressionOverridesFlavor" value="Canoptek Spyders are generally docile creatures, diligently maintaining their tomb complex. However, when roused to battle, their aggression engrams ensure they are truly formidable foes."/>
+
     <entry name="Fright" value="Fright"/>
 	<entry name="FrightDescription" value="Reduces the morale each turn."/>
 	<entry name="FrightFlavor" value="<string name='Actions/AuraOfFearFlavor'/>"/>

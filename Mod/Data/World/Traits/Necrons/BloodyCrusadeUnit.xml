@@ -5,6 +5,7 @@
             <conditions>
                 <unit>
                     <allied/>
+					<noTrait name="Fortification"/>
                     <faction name="Necrons"/>
                 </unit>
             </conditions>
