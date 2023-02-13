@@ -30,4 +30,5 @@
 	<entry name="Eldar/HornetDescription" value="Fast reconnaissance skimmer unit that can clear tiles."/>
 
 	<entry name="AdeptusMechanicus/XenariteAcceptanceDescription" value="Increases the flat amount of research gained from outposts. Increases the building research output for each building in an adjacent tile."/>
+	<entry name="AdeptusMechanicus/CognisHeavyStubberDescription" value="Grants Onager Dunecrawlers and Ironstrider Ballistariuses a Cognis Heavy Stubber."/>
 </language>

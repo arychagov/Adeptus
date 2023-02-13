@@ -18,6 +18,7 @@
 				<projectileWeapon muzzleBone="Muzzle" muzzleCount="2"/>
 			</model>
 		</weapon>
+		<weapon name="CognisHeavyStubber" count="1" requiredUpgrade="AdeptusMechanicus/CognisHeavyStubber"/>
 		<weapon name="None" requiredUpgrade="AdeptusMechanicus/BroadSpectrumDataTether" enabled="0">
 			<model>
 				<weapon mesh="Weapons/AdeptusMechanicus/IronstriderBallistariusAntenna"
