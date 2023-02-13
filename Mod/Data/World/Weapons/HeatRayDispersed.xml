@@ -11,9 +11,9 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<attacks add="1"/>
+				<attacks add="1.5"/>
 				<rangedArmorPenetration add="2"/> <!-- %rangedArmorPenetration add armorPiercing=4 -->
-				<rangedDamage add="2"/> <!-- %rangedDamage add strength=5 -->
+				<rangedDamage add="2.2"/> <!-- %rangedDamage add strength=5 -->
 				<strengthDamage base="0"/>
 			</effects>
 		</modifier>
