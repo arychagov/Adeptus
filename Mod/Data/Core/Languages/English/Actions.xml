@@ -43,5 +43,8 @@
     <entry name="Necrons/CunningAdvisors" value="<string name='Traits/Necrons/CunningAdvisors'/>"/>
 	<entry name="Necrons/CunningAdvisorsDescription" value="<string name='Traits/Necrons/CunningAdvisorsDescription'/>"/>
 	<entry name="Necrons/CunningAdvisorsFlavor" value="<string name='Traits/Necrons/CunningAdvisorsFlavor'/>"/>
-	<entry name="Eldar/ActivateWebwayGateDescription" value="Activates and claims a neutral Webway Gate. Must be within 3 tiles of friendly Eldar unit."/>
+    <entry name="Necrons/AggressionOverrides" value="<string name='Traits/Necrons/AggressionOverrides'/>"/>
+	<entry name="Necrons/AggressionOverridesDescription" value="Permanently increases Canoptek Spyder's hit points, armour penetration and damage."/>
+	<entry name="Necrons/AggressionOverridesFlavor" value="<string name='Traits/Necrons/AggressionOverridesFlavor'/>"/>
+    <entry name="Eldar/ActivateWebwayGateDescription" value="Activates and claims a neutral Webway Gate. Must be within 3 tiles of friendly Eldar unit."/>
 </language>

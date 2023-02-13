@@ -128,6 +128,9 @@
     <entry name="Necrons/CunningAdvisors" value="Cunning Advisors"/>
 	<entry name="Necrons/CunningAdvisorsDescription" value="Greatly increases research output."/>
 	<entry name="Necrons/CunningAdvisorsFlavor" value="The greater a Necron nobles reputation, the more cunning and accomplished are the Crypteks who seek them out and offer them service."/>
+    <entry name="Necrons/AggressionOverrides" value="Aggression Overrides"/>
+	<entry name="Necrons/AggressionOverridesDescription" value="Increases Canoptek Spyder's hit points, armour penetration and damage."/>
+	<entry name="Necrons/AggressionOverridesFlavor" value="Canoptek Spyders are generally docile creatures, diligently maintaining their tomb complex. However, when roused to battle, their aggression engrams ensure they are truly formidable foes."/>
     <entry name="Fright" value="Fright"/>
 	<entry name="FrightDescription" value="Reduces the morale each turn."/>
 	<entry name="FrightFlavor" value="<string name='Actions/AuraOfFearFlavor'/>"/>

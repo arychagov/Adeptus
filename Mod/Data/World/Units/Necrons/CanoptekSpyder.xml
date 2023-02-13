@@ -272,7 +272,7 @@
 			<beginTargets>
 				<selfTarget>
 					<areas>
-						<area affects="Tile" radius="1">
+						<area affects="Unit">
 							<modifiers>
 								<modifier>
 									<effects>
@@ -284,6 +284,35 @@
 					</areas>
 				</selfTarget>
 			</beginTargets>
+		</genericUnitAbility>
+		<genericUnitAbility name="Necrons/AggressionOverrides"
+				icon="Actions/Necrons/AggressionOverrides"
+				charges="1"
+			    consumedActionPoints="0"
+				consumedMovement="0"
+				requiredUpgrade="Necrons/GloomPrism">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Necrons/AggressionOverrides"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="20"/>
+					</effects>
+				</modifier>
+			</modifiers>
 		</genericUnitAbility>
 		<hammerOfWrath consumedActionPoints="0" consumedMovement="0"
 				cooldown="3"
