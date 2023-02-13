@@ -28,6 +28,8 @@
 		<item type="TemporaryShield"/>
 		<item type="VolcanisShroud"/>
 		<item type="ZoatHideJerkin"/>
+		<item type="ScrollsOfMagnus"/>
+		<item type="TantalisingIcon"/>
 	</items>
 	<model>
 		<simpleModel mesh="Features/JokaeroTraderEncampment"
