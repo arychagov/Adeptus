@@ -55,6 +55,12 @@
 				<requisitionsCost base="60.0"/> <!-- %requisitionsCost base tier=6 factor=1 -->
 			</effects>
 		</modifier>
+		<!-- Raising prices 12.5 -->
+		<modifier visible="0">
+			<effects>
+				<duplicateTypeCost mul="0.125"/>
+			</effects>
+		</modifier>
 	</modifiers>
 	<strategyModifiers>
 		<modifier>
