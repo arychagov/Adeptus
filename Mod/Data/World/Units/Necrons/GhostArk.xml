@@ -79,7 +79,7 @@
 						<influenceCost base="60"/>
 					</effects>
 				</modifier>
-				<modifier requiredUpgrade="Necrons/NecrodermisRepair3">
+				<modifier requiredUpgrade="Necrons/NecrodermisRepair2">
 					<effects>
 						<cooldown max="0"/>
 					</effects>
