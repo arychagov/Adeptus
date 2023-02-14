@@ -3,10 +3,9 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<energyUpkeep base="1.5"/>
+				<energyUpkeep base="3"/>
 				<energyCost base="30.0"/>
 				<requisitionsCost base="30.0"/>
-				<requisitionsUpkeep base="1.5"/>
 			</effects>
 		</modifier>
 	</modifiers>
