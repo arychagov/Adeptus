@@ -50,4 +50,5 @@
     <entry name="Necrons/QuantumDeflectionDescription" value="<string name='Traits/Necrons/QuantumDeflectionDescription'/>"/>
     <entry name="Necrons/QuantumDeflectionFlavor" value="<string name='Traits/Necrons/QuantumDeflectionFlavor'/>"/>
     <entry name="Eldar/ActivateWebwayGateDescription" value="Activates and claims a neutral Webway Gate. Must be within 3 tiles of friendly Eldar unit."/>
+	<entry name="AdeptusMechanicus/EnrichedRoundsDescription" value="Increases the damage of nearby allied Adeptus Mechanicus infantry unit."/>
 </language>
