@@ -6,4 +6,8 @@
     <entry name="GaussReaperFlavor" value="Gauss weapon which trades range for increased hitting power."/>
     <entry name="DestroyerWarscythe" value="<string name='Weapons/Warscythe'/>"/>
     <entry name="DestroyerWarscytheFlavor" value="<string name='Weapons/WarscytheFlavor'/>"/>
+    <entry name="HeavyLascannon" value="Heavy Lascannon"/>
+	<entry name="HeavyLascannonFlavor" value="<string name='Weapons/LasFlavor'/>"/>
+    <entry name="EradicatorNovaCannon" value="Eradicator Nova Cannon"/>
+	<entry name="EradicatorNovaCannonFlavor" value="<string name='Weapons/BattleCannon'/>"/>
 </language>

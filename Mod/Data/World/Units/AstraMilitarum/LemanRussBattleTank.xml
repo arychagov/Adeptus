@@ -10,7 +10,7 @@
 				uvAnimated="1"/>
 	</model>
 	<weapons>
-		<weapon name="BattleCannon">
+		<weapon name="EradicatorNovaCannon">
 			<model>
 				<projectileWeapon mesh="Weapons/AstraMilitarum/LemanRussBattleTankBattleCannon"
 						material="Weapons/AstraMilitarum/LemanRussBattleTankBattleCannon"
@@ -19,7 +19,7 @@
 						fireInterval="1.0"/>
 			</model>
 		</weapon>
-		<weapon name="Lascannon">
+		<weapon name="HeavyLascannon">
 			<model>
 				<beamWeapon muzzleBone=".FrontTurretMuzzle0"
 						fireInterval="1.0"/>
