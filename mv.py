@@ -1,6 +1,6 @@
 import shutil
 
-MOD_DATA_PATH = u'C:\\Users\\anton\\OneDrive\\Documents\\Proxy Studios\\Gladius\\Mods\\DMWC\\Data'
+MOD_DATA_PATH = u'C:\\Users\\anton\\OneDrive\\Documents\\Proxy Studios\\Gladius\\Mods\\Adeptus\\Data'
 DEV_MOD_PATH = u'C:\\Users\\anton\\OneDrive\\Рабочий стол\\Data\\Mod\\Data'
 
 try:
