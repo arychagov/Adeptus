@@ -55,5 +55,11 @@
     <entry name="AstraMilitarum/LaurelsOfCommand" value="Laurels of Command"/>
 	<entry name="AstraMilitarum/LaurelsOfCommandDescription" value="Restores the morale of nearby allied units."/>
 	<entry name="AstraMilitarum/LaurelsOfCommandFlavor" value="The Laurels of Command are a callous and controversial means to ensure obedience. Concealed within their peerless artistry is a band of empathic-impulsion circuitry which allows the wearer limited control over the minds of indoctrinated individuals via subliminal suggestion. Under their effects even cowards fight to the last, while orders are executed in perfect synchronisation."/>
+    <entry name="AstraMilitarum/MentalShackles" value="Mental Shackles"/>
+	<entry name="AstraMilitarum/MentalShacklesDescription" value="Stuns target enemy infantry unit."/>
+	<entry name="AstraMilitarum/MentalShacklesFlavor" value="The psyker imposes forbidding psychic prohibitions on the foe, causing the victims’ limbs to feel like leaden weights and miring their minds in an illusory fug."/>
+    <entry name="AstraMilitarum/MasterTactician" value="Master Tactician"/>
+	<entry name="AstraMilitarum/MasterTacticianDescription" value="Restores allied infantry unit action points and increases movement."/>
+	<entry name="AstraMilitarum/MasterTacticianFlavor" value="Amongst the lauded strategists and tacticians of the Astra Militarum, this warlord is a renowned logistician, always knowing where best to position their forces."/>
 
 </language>
