@@ -108,32 +108,6 @@
 						beginFire="0.666666666667"/>
 			</model>				
 		</throwGrenade>
-		<mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
-			<model>
-				<action bone="ChestBone"
-						sound="Actions/Heal"/>
-			</model>
-			<conditions>
-				<unit>
-					<damaged/>
-				</unit>
-			</conditions>
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<hitpointsFactorFromMax add="0.5"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</mediPack>
 	</actions>
 	<traits>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
