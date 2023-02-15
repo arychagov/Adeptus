@@ -51,4 +51,9 @@
     <entry name="Necrons/QuantumDeflectionFlavor" value="<string name='Traits/Necrons/QuantumDeflectionFlavor'/>"/>
     <entry name="Eldar/ActivateWebwayGateDescription" value="Activates and claims a neutral Webway Gate. Must be within 3 tiles of friendly Eldar unit."/>
 	<entry name="AdeptusMechanicus/EnrichedRoundsDescription" value="Increases the damage of nearby allied Adeptus Mechanicus infantry unit."/>
+
+    <entry name="AstraMilitarum/LaurelsOfCommand" value="Laurels of Command"/>
+	<entry name="AstraMilitarum/LaurelsOfCommandDescription" value="Restores the morale of nearby allied units."/>
+	<entry name="AstraMilitarum/LaurelsOfCommandFlavor" value="The Laurels of Command are a callous and controversial means to ensure obedience. Concealed within their peerless artistry is a band of empathic-impulsion circuitry which allows the wearer limited control over the minds of indoctrinated individuals via subliminal suggestion. Under their effects even cowards fight to the last, while orders are executed in perfect synchronisation."/>
+
 </language>
