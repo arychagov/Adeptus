@@ -18,6 +18,7 @@
 	</modifiers>
 	<target rangeMax="3"/>
 	<traits>
+		<trait name="AstraMilitarum/BlastDamage" requiredUpgrade="AstraMilitarum/BlastDamage"/>
 		<trait name="Ordnance"/>
 	</traits>
 </weapon>
