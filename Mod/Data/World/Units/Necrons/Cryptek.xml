@@ -27,7 +27,7 @@
             <effects>
                 <armor base="6"/> <!-- %armor base armor=4+ -->
                 <energyCost base="40.0"/> <!-- %energyCost base tier=6 factor=1 -->
-                <hitpointsMax base="9.0"/> <!-- %hitpointsMax base toughness=4 wounds=3 -->
+                <hitpointsMax base="10.0"/> <!-- %hitpointsMax base toughness=4 wounds=3 -->
                 <influenceUpkeep base="4.0"/> <!-- %influenceUpkeep base tier=6 factor=2 -->
                 <influenceCost base="80.0"/> <!-- %influenceCost base tier=6 factor=2 -->
                 <itemSlots base="6"/>
