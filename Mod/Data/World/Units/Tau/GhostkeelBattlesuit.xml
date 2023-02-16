@@ -162,12 +162,12 @@
 				</target>
 			</beginTargets>
 		</holophotonCountermeasures>
-		<deployStealthDrone cooldown="10"
+		<deployShieldDrone cooldown="10"
 				name="Tau/DeployDrone"
 				requiredActionPoints="0"
 				consumedActionPoints="0"
 				consumedMovement="0"
-				unitType="Tau/StealthDrone">
+				unitType="Tau/ShieldDrone">
 			<model>
 				<action animation=""
 						sound="Actions/DeployDrone"/>
@@ -185,7 +185,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addUnit name="Tau/StealthDrone" consumedAction="0" consumedMovement="0"/>
+										<addUnit name="Tau/ShieldDrone" consumedAction="0" consumedMovement="0"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -202,7 +202,11 @@
 					</areas>
 				</target>
 			</beginTargets>
-		</deployStealthDrone>
+			<sharedCooldowns>
+				<action name="Tau/DeployDrone/Tau/GunDrone"/>
+				<action name="Tau/DeployDrone/Tau/MarkerDrone"/>
+			</sharedCooldowns>
+		</deployShieldDrone>
 		<hammerOfWrath consumedActionPoints="0" consumedMovement="0"
 				cooldown="3"
 				requiredUpgrade="Tau/HammerOfWrath">
