@@ -129,8 +129,7 @@
 				consumedMovement="0"
 				cooldown="3"
 				name="Eldar/WarShout"
-				requiredActionPoints="0"
-				requiredUpgrade="Eldar/WarShout">
+				requiredActionPoints="0">
 			<model>
 				<action animation="Units/Eldar/HowlingBansheeAbility"
 						sound="Actions/WarShout"

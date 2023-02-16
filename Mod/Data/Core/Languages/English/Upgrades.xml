@@ -33,6 +33,7 @@
 	<entry name="Eldar/AutarchDescription" value="Psyker hero unit that leads the Aeldari charge."/>
 	<entry name="Eldar/AutarchFlavor" value="Autarchs have a consummate understanding of the way of the warrior, and the future of the race has been shaped by their excellence in the arts of death. They follow the Path of Command, gaining a wider appreciation of battle than any other and directing the warhost on the most efficient path to victory. Theirs is a burning obsession to see war itself conquered and made subservient to their will."/>
 	<entry name="Eldar/HornetDescription" value="Fast reconnaissance skimmer unit that can clear tiles."/>
+	<entry name="Eldar/SpiritStonesDescription" value="Reduces the morale loss of Shining Spears, Fire Prisms, Hornets, War Walkers and Wave Serpents."/>
 
 	<entry name="AdeptusMechanicus/XenariteAcceptanceDescription" value="Increases the flat amount of research gained from outposts. Increases the building research output for each building in an adjacent tile."/>
 	<entry name="AdeptusMechanicus/CognisHeavyStubberDescription" value="Grants Onager Dunecrawlers and Ironstrider Ballistariuses a Cognis Heavy Stubber."/>

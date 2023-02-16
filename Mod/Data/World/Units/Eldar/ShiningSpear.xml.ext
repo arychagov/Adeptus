@@ -10,4 +10,7 @@
 			</effects>
 		</modifier>
 	</modifiers>
+	<traits>
+		<trait name="Eldar/SpiritStones" requiredUpgrade="Eldar/SpiritStones"/>
+	</traits>
 </unit>
