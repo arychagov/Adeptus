@@ -21,7 +21,7 @@
 		<modifier visible="0">
 			<effects>
 				<armor base="6"/> <!-- %armor base armor=10/10/10 -->
-				<hitpointsMax base="28.0"/> <!-- %hitpointsMax base armor=10/10/10 wounds=2 -->
+				<hitpointsMax base="14.0"/> <!-- %hitpointsMax base armor=10/10/10 wounds=2 -->
 				<moraleMax base="6"/> <!-- %moraleMax base leadership=6 --> 
 				<movementMax base="4"/>
 				<influenceUpkeep base="2"/> <!-- %influenceUpkeep base tier=5 factor=1 -->
