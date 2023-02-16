@@ -11,7 +11,7 @@
 				bloodBone="BloodBone"
 				walker="1"/>
 	</model>
-	<group size="5" rowSize="3" memberDeltaX="70" memberDeltaY="60"/>
+	<group size="6" rowSize="3" memberDeltaX="70" memberDeltaY="60"/>
 	<weapons>
 		<weapon name="PulseRifle">
 			<model>
@@ -127,9 +127,7 @@
 		</bondingKnifeRitual>
 		<markerlight cooldown="1"
 				name="Tau/Markerlight"
-				requiredActionPoints="0"
-				consumedActionPoints="0"
-				requiredMovement="1">
+				consumedActionPoints="1">
 			<model>
 				<action animation=""
 						sound="Actions/Markerlight"/>
@@ -157,144 +155,6 @@
 				</target>
 			</beginTargets>
 		</markerlight>
-		<deployGunDrone cooldown="10"
-				name="Tau/DeployDrone"
-				requiredActionPoints="0"
-				consumedActionPoints="0"
-				consumedMovement="0"
-				requiredUpgrade="Tau/GunDrone"
-				unitType="Tau/GunDrone">
-			<model>
-				<action animation=""
-						sound="Actions/DeployDrone"/>
-			</model>
-			<beginTargets>
-				<target rangeMax="1">
-					<conditions>
-						<tile>
-							<noUnit/>
-							<noFeature name="GravityWaves"/>
-						</tile>
-					</conditions>
-					<areas>
-						<area affects="Tile">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addUnit name="Tau/GunDrone" consumedAction="0" consumedMovement="0"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait duration="3" name="Summon"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</target>
-			</beginTargets>
-			<sharedCooldowns>
-				<action name="Tau/DeployDrone/Tau/ShieldDrone"/>
-				<action name="Tau/DeployDrone/Tau/MarkerDrone"/>
-			</sharedCooldowns>
-		</deployGunDrone>
-		<deployShieldDrone cooldown="10"
-				name="Tau/DeployDrone"
-				requiredActionPoints="0"
-				consumedActionPoints="0"
-				consumedMovement="0"
-				requiredUpgrade="Tau/ShieldDrone"
-				unitType="Tau/ShieldDrone">
-			<model>
-				<action animation=""
-						sound="Actions/DeployDrone"/>
-			</model>
-			<beginTargets>
-				<target rangeMax="1">
-					<conditions>
-						<tile>
-							<noUnit/>
-							<noFeature name="GravityWaves"/>
-						</tile>
-					</conditions>
-					<areas>
-						<area affects="Tile">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addUnit name="Tau/ShieldDrone" consumedAction="0" consumedMovement="0"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait duration="3" name="Summon"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</target>
-			</beginTargets>
-			<sharedCooldowns>
-				<action name="Tau/DeployDrone/Tau/GunDrone"/>
-				<action name="Tau/DeployDrone/Tau/MarkerDrone"/>
-			</sharedCooldowns>
-		</deployShieldDrone>
-		<deployMarkerDrone cooldown="10"
-				name="Tau/DeployDrone"
-				requiredActionPoints="0"
-				consumedActionPoints="0"
-				consumedMovement="0"
-				requiredUpgrade="Tau/MarkerDrone"
-				unitType="Tau/MarkerDrone">
-			<model>
-				<action animation=""
-						sound="Actions/DeployDrone"/>
-			</model>
-			<beginTargets>
-				<target rangeMax="1">
-					<conditions>
-						<tile>
-							<noUnit/>
-							<noFeature name="GravityWaves"/>
-						</tile>
-					</conditions>
-					<areas>
-						<area affects="Tile">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addUnit name="Tau/MarkerDrone" consumedAction="0" consumedMovement="0"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait duration="3" name="Summon"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</target>
-			</beginTargets>
-			<sharedCooldowns>
-				<action name="Tau/DeployDrone/Tau/GunDrone"/>
-				<action name="Tau/DeployDrone/Tau/ShieldDrone"/>
-			</sharedCooldowns>
-		</deployMarkerDrone>
 	</actions>
 	<traits>
 		<trait name="Tau/SupportingFire"/>
