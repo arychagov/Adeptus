@@ -46,7 +46,7 @@
 		<modifier visible="0">
 			<effects>
 				<armor base="9"/> <!-- %armor base armor=14/13/10 -->
-				<hitpointsMax base="48.0"/> <!-- %hitpointsMax base armor=14/13/10 wounds=3 -->
+				<hitpointsMax base="42.0"/> <!-- %hitpointsMax base armor=14/13/10 wounds=3 -->
 				<moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
 				<movementMax base="3"/>
 				<oreUpkeep base="4.0"/> <!-- %oreUpkeep base tier=8 factor=1 -->
