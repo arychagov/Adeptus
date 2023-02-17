@@ -99,32 +99,6 @@
 						beginFire="1"/>
 			</model>
 		</throwGrenade>
-		<bondingKnifeRitual cooldown="10"
-		 		consumedActionPoints="0"
-				consumedMovement="0"
-				requiredActionPoints="0"
-				name="Tau/BondingKnifeRitual" 
-				requiredUpgrade="Tau/BondingKnifeRitual">
-			<model>
-				<action bone="ChestBone"
-						sound="Actions/BondingKnifeRitual"/>
-			</model>
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<morale add="100"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</bondingKnifeRitual>
 		<markerlight cooldown="1"
 				name="Tau/Markerlight"
 				consumedActionPoints="1">
