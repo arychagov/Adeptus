@@ -61,5 +61,8 @@
     <entry name="AstraMilitarum/MasterTactician" value="Master Tactician"/>
 	<entry name="AstraMilitarum/MasterTacticianDescription" value="Restores allied infantry unit action points and increases movement."/>
 	<entry name="AstraMilitarum/MasterTacticianFlavor" value="Amongst the lauded strategists and tacticians of the Astra Militarum, this warlord is a renowned logistician, always knowing where best to position their forces."/>
+    <entry name="AstraMilitarum/WallOfMuscle" value="<string name='Traits/AstraMilitarum/WallOfMuscle'/>"/>
+	<entry name="AstraMilitarum/WallOfMuscleDescription" value="Reduces melee attacks of adjacent enemy units."/>
+	<entry name="AstraMilitarum/WallOfMuscleFlavor" value="<string name='Traits/AstraMilitarum/WallOfMuscleFlavor'/>"/>
 
 </language>
