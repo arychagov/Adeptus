@@ -107,52 +107,6 @@
 				</selfTarget>
 			</beginTargets>
 		</bondingKnifeRitual>
-		<deployGunDrone cooldown="10"
-				name="Tau/DeployDrone"
-				requiredActionPoints="0"
-				consumedActionPoints="0"
-				consumedMovement="0"
-				requiredUpgrade="Tau/GunDrone"
-				unitType="Tau/GunDrone">
-			<model>
-				<action animation=""
-						sound="Actions/DeployDrone"/>
-			</model>
-			<beginTargets>
-				<target rangeMax="1">
-					<conditions>
-						<tile>
-							<noUnit/>
-							<noFeature name="GravityWaves"/>
-						</tile>
-					</conditions>
-					<areas>
-						<area affects="Tile">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addUnit name="Tau/GunDrone" consumedAction="0" consumedMovement="0"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait duration="3" name="Summon"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</target>
-			</beginTargets>
-			<sharedCooldowns>
-				<action name="Tau/DeployDrone/Tau/ShieldDrone"/>
-				<action name="Tau/DeployDrone/Tau/MarkerDrone"/>
-			</sharedCooldowns>
-		</deployGunDrone>
 		<deployShieldDrone cooldown="10"
 				name="Tau/DeployDrone"
 				requiredActionPoints="0"
@@ -164,6 +118,13 @@
 				<action animation=""
 						sound="Actions/DeployDrone"/>
 			</model>
+			<modifiers>
+				<modifier visible="0" requiredUpgrade="Tau/DroneController">
+					<effects>
+						<cooldown add="-5"/>
+					</effects>
+				</modifier>
+			</modifiers>
 			<beginTargets>
 				<target rangeMax="1">
 					<conditions>
@@ -210,6 +171,13 @@
 				<action animation=""
 						sound="Actions/DeployDrone"/>
 			</model>
+			<modifiers>
+				<modifier visible="0" requiredUpgrade="Tau/DroneController">
+					<effects>
+						<cooldown add="-5"/>
+					</effects>
+				</modifier>
+			</modifiers>
 			<beginTargets>
 				<target rangeMax="1">
 					<conditions>

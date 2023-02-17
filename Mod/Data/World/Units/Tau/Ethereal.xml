@@ -1,33 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement5">
 	<model>
-		<unit mesh="Units/Tau/CadreFireblade"
-				material="Units/Tau/CadreFireblade"
-				idleAnimation="Units/Tau/CadreFirebladeIdle"
+		<unit mesh="Units/Tau/Ethereal"
+				material="Units/Tau/Ethereal"
+				idleAnimation="Units/Tau/EtherealIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"
 				normalWeight="0.1"
 				scale="0.8 0.8 0.8"
-				bloodBone="BloodBone"
+				bloodBone="bloodbone"
+				position="0 0 -8"
 				walker="1"/>
 	</model>
 	<weapons>
-		<weapon name="PulseRifle" slotName="PulseRifle">
+		<weapon name="HonourBlade">
 			<model>
-				<projectileWeapon muzzleBone=".Muzzle"/>
+				<weapon/>
 			</model>
-		</weapon>
-		<weapon name="PhotonGrenade" slotName="PhotonGrenade" enabled="0">
-			<model>
-				<grenadeWeapon muzzleBone=".Muzzle"/>
-			</model>		
 		</weapon>
 	</weapons>
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="6"/> <!-- %armor base armor=4+ -->
-				<foodUpkeep base="1.5"/> <!-- %foodUpkeep base tier=5 factor=1 -->
+				<armor base="0"/> <!-- %armor base armor=- -->
+				<energyUpkeep base="1.5"/> <!-- %energyUpkeep base tier=5 factor=1 -->
+				<energyCost base="15.0"/> <!-- %energyCost base tier=5 factor=0.5 -->
 				<foodCost base="15.0"/> <!-- %foodCost base tier=5 factor=0.5 -->
 				<hitpointsMax base="6.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
 				<influenceUpkeep base="3.0"/> <!-- %influenceUpkeep base tier=5 factor=2 -->
@@ -37,91 +34,48 @@
 				<meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
 				<meleeAttacks base="2"/>
 				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
-				<moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+				<moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
 				<movementMax base="3"/>
-				<oreCost base="15.0"/> <!-- %oreCost base tier=5 factor=0.5 -->
-				<productionCost base="30.0"/> <!-- %productionCost base tier=5 factor=1 -->
-				<rangedAccuracy base="10"/> <!-- %rangedAccuracy base ballisticSkill=5 -->
+				<productionCost base="30.0"/> <!-- %productionCost base tier=5 factor=1 --> 
+				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
 			</effects>
 		</modifier>
 	</modifiers>
 	<strategyModifiers>
 		<modifier>
 			<effects>
-				<increaseSupportScore base="1.0"/>
 				<increaseHeroesScore base="1.0"/>
+				<increaseSupportScore base="1.0"/>
 			</effects>
 		</modifier>
 	</strategyModifiers>
 	<actions>
 		<attack>
 			<model>
-				<action animation="Units/Tau/CadreFirebladeAttack"
-						beginFire="0.7"
-						endFire="2.0"/>
-			</model>
+				<action	chargeAnimation="Units/Tau/EtherealCharge"
+						meleeAnimation="Units/Tau/EtherealMelee"
+						meleeBeginSwing="0.15"
+						meleeEndSwing="0.5"/>
+			</model>				
 		</attack>
 		<die>
 			<model>
-				<action animation="Units/Tau/CadreFirebladeDie0"
+				<action animation="Units/Tau/EtherealDie0"
 						sound="Units/MediumUnarmoredDie"
 						soundCount="4"
 						soundDelay="1.0"
-						voiceSound="Units/Tau/CadreFirebladeDie"
-						voiceSoundCount="1"/>
+						voiceSound="Units/Tau/EtherealDie"
+						voiceSoundCount="1"
+						voiceSoundDelay="0.1"/>
 			</model>		
 		</die>
-		<idle>
-			<model>
-				<action animationSpeed="1.0"/>
-			</model>
-		</idle>
 		<move>
 			<model>
-				<action animation="Units/Tau/CadreFirebladeMove"
+				<action animation="Units/Tau/EtherealMove"
 						sound="Units/AstraMilitarum/InfantryMove"
 						soundCount="4"/>
-			</model>
+			</model>		
 		</move>
-		<throwGrenade weaponSlotName="PhotonGrenade" cooldown="10"
-				requiredUpgrade="Tau/PhotonGrenade">
-			<model>
-				<action animation=""
-						beginFire="0.9"/>
-			</model>				
-		</throwGrenade>
-		<markerlight cooldown="1"
-				name="Tau/Markerlight"
-				requiredActionPoints="0"
-				consumedActionPoints="0"
-				requiredMovement="1">
-			<model>
-				<action animation=""
-						sound="Actions/Markerlight"/>
-			</model>
-			<beginTargets>
-				<target rangeMax="2" lineOfSight="1">
-					<conditions>
-						<unit>
-							<enemy/>
-							<noTrait name="Tau/TargetAcquired"/>
-							<noTrait name="Fortification"/>
-						</unit>
-					</conditions>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait duration="1" name="Tau/TargetAcquired"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</target>
-			</beginTargets>
-		</markerlight>
 		<deployGunDrone cooldown="10"
 				name="Tau/DeployDrone"
 				requiredActionPoints="0"
@@ -281,39 +235,18 @@
 				<action name="Tau/DeployDrone/Tau/ShieldDrone"/>
 			</sharedCooldowns>
 		</deployMarkerDrone>
-		<genericUnitAbility passive="1"
-				levelUpPriority="0.1"
-				rank="-1"
-				rankMax="2"
-				name="Tau/VolleyFire">
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Tile" radius="1">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait name="Tau/VolleyFire"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</genericUnitAbility>
-		<breakComposure cooldown="3"
+		<senseOfStone cooldown="1"
 				levelUpPriority="0.1"
 				rank="-1"
 				rankMax="2"
 				requiredActionPoints="0"
 				consumedActionPoints="0"
 				consumedMovement="0"
-				name="Tau/BreakComposure">
+				name="Tau/SenseOfStone">
 			<model>
-				<action animation=""
+				<action animation="Units/Tau/EtherealAbility"
 						bone="ChestBone"
-						sound="Actions/ForTheGreaterGood"/>
+						sound="Actions/SenseOfStone"/>
 			</model>
 			<beginTargets>
 				<selfTarget>
@@ -326,12 +259,11 @@
 											<allied/>
 											<faction name="Tau"/>
 											<noTrait name="Fortification"/>
-											<noTrait name="MonstrousCreature"/>
 											<noTrait name="Vehicle"/>
 										</unit>
 									</conditions>
 									<effects>
-										<addTrait duration="1" name="Tau/BreakComposure"/>
+										<addTrait durationMin="1" durationMax="3" name="Tau/SenseOfStone"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -339,43 +271,111 @@
 					</areas>
 				</selfTarget>
 			</beginTargets>
-		</breakComposure>
-		<preciseShot cooldown="3"
-				icon="Actions/Tau/PreciseShot"
+			<sharedCooldowns>
+				<action name="Tau/StormOfFire"/>
+			</sharedCooldowns>
+		</senseOfStone>
+		<stormOfFire cooldown="1"
+				levelUpPriority="0.1"
 				rank="-1"
 				rankMax="2"
-				weaponSlotName="PulseRifle"
-				name="Tau/PreciseShot">
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				name="Tau/StormOfFire">
 			<model>
-				<action animation="Units/Tau/CadreFirebladeAttack"
-						beginFire="0.7"
-						endFire="2.0"
-						sound="Actions/PreciseShot"/>
+				<action animation="Units/Tau/EtherealAbility"
+						bone="ChestBone"
+						sound="Actions/StormOfFire"/>
 			</model>
-			<modifiers>
-				<modifier>
-					<effects>
-						<accuracy mulMin="0.5" mulMax="1.5"/>
-						<damage mulMin="0.5" mulMax="1.5"/>
-						<rangeMax mulMin="0.5" mulMax="1.5"/>
-					</effects>
-				</modifier>
-			</modifiers>
-		</preciseShot>
-		<genericUnitAbility passive="1"
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit" radius="1">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<faction name="Tau"/>
+											<noTrait name="Fortification"/>
+											<noTrait name="Vehicle"/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait durationMin="1" durationMax="3" name="Tau/StormOfFire"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+			<sharedCooldowns>
+				<action name="Tau/SenseOfStone"/>
+			</sharedCooldowns>
+		</stormOfFire>
+		<calmOfTides cooldown="3"
+				levelUpPriority="0.1"
+				rank="-1"
+				rankMax="2"
+				name="Tau/CalmOfTides">
+			<model>
+				<action animation="Units/Tau/EtherealAbility"
+						bone="ChestBone"
+						sound="Actions/CalmOfTides"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit" radius="1">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<faction name="Tau"/>
+											<noTrait name="Fortification"/>
+											<noTrait name="Vehicle"/>
+										</unit>
+									</conditions>
+									<effects>
+										<hitpoints addMin="4" addMax="12"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</calmOfTides>
+		<zephyrsGrace cooldown="10"
 				elite="1"
 				levelUpPriority="1"
 				rank="-1"
 				rankMax="0"
-				name="Tau/Unity">
+				name="Tau/ZephyrsGrace">
+			<model>
+				<action animation="Units/Tau/EtherealAbility"
+						bone="ChestBone"
+						sound="Actions/ZephyrsGrace"/>
+			</model>
 			<beginTargets>
 				<selfTarget>
 					<areas>
-						<area affects="Unit">
+						<area affects="Unit" radius="1">
 							<modifiers>
 								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<faction name="Tau"/>
+											<noTrait name="Fortification"/>
+											<noTrait name="Vehicle"/>
+										</unit>
+									</conditions>
 									<effects>
-										<addTrait name="Tau/Unity"/>
+										<addTrait duration="1" name="Tau/ZephyrsGrace"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -383,13 +383,14 @@
 					</areas>
 				</selfTarget>
 			</beginTargets>
-		</genericUnitAbility>
+		</zephyrsGrace>		
 		<levelUp/>
 		<shop/>
 	</actions>
 	<traits>
 		<trait name="Hero"/>
+		<trait name="Stubborn"/>
+		<trait name="Tau/BlacksunFilter" requiredUpgrade="Tau/BlacksunFilter"/>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="Tau/ExtraInfantryArmour"/>
-		<trait name="Tau/SupportingFire"/>
 	</traits>
 </unit>

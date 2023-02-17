@@ -152,6 +152,13 @@
 				<action animation=""
 						sound="Actions/DeployDrone"/>
 			</model>
+			<modifiers>
+				<modifier visible="0" requiredUpgrade="Tau/DroneController">
+					<effects>
+						<cooldown add="-5"/>
+					</effects>
+				</modifier>
+			</modifiers>
 			<beginTargets>
 				<target rangeMax="1">
 					<conditions>
@@ -187,51 +194,6 @@
 				<action name="Tau/DeployDrone/Tau/GravInhibitorDrone"/>
 			</sharedCooldowns>
 		</deployReconDrone>
-		<deployPulseAcceleratorDrone cooldown="10"
-				name="Tau/DeployDrone"
-				requiredActionPoints="0"
-				consumedActionPoints="0"
-				consumedMovement="0"
-				unitType="Tau/PulseAcceleratorDrone">
-			<model>
-				<action animation=""
-						sound="Actions/DeployDrone"/>
-			</model>
-			<beginTargets>
-				<target rangeMax="1">
-					<conditions>
-						<tile>
-							<noUnit/>
-							<noFeature name="GravityWaves"/>
-						</tile>
-					</conditions>
-					<areas>
-						<area affects="Tile">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addUnit name="Tau/PulseAcceleratorDrone" consumedAction="0" consumedMovement="0"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait duration="3" name="Summon"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</target>
-			</beginTargets>
-			<sharedCooldowns>
-				<action name="Tau/DeployDrone/Tau/ReconDrone"/>
-				<action name="Tau/DeployDrone/Tau/GravInhibitorDrone"/>
-			</sharedCooldowns>
-		</deployPulseAcceleratorDrone>
 		<deployGravInhibitorDrone cooldown="10"
 				name="Tau/DeployDrone"
 				requiredActionPoints="0"
@@ -242,6 +204,13 @@
 				<action animation=""
 						sound="Actions/DeployDrone"/>
 			</model>
+			<modifiers>
+				<modifier visible="0" requiredUpgrade="Tau/DroneController">
+					<effects>
+						<cooldown add="-5"/>
+					</effects>
+				</modifier>
+			</modifiers>
 			<beginTargets>
 				<target rangeMax="1">
 					<conditions>

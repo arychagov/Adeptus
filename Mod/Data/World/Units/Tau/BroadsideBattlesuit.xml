@@ -136,6 +136,13 @@
 				<action animation=""
 						sound="Actions/DeployDrone"/>
 			</model>
+			<modifiers>
+				<modifier visible="0" requiredUpgrade="Tau/DroneController">
+					<effects>
+						<cooldown add="-5"/>
+					</effects>
+				</modifier>
+			</modifiers>
 			<beginTargets>
 				<target rangeMax="1">
 					<conditions>
@@ -182,6 +189,13 @@
 				<action animation=""
 						sound="Actions/DeployDrone"/>
 			</model>
+			<modifiers>
+				<modifier visible="0" requiredUpgrade="Tau/DroneController">
+					<effects>
+						<cooldown add="-5"/>
+					</effects>
+				</modifier>
+			</modifiers>
 			<beginTargets>
 				<target rangeMax="1">
 					<conditions>
@@ -228,6 +242,13 @@
 				<action animation=""
 						sound="Actions/DeployDrone"/>
 			</model>
+			<modifiers>
+				<modifier visible="0" requiredUpgrade="Tau/DroneController">
+					<effects>
+						<cooldown add="-5"/>
+					</effects>
+				</modifier>
+			</modifiers>
 			<beginTargets>
 				<target rangeMax="1">
 					<conditions>
