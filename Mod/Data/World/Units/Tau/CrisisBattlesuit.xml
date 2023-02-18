@@ -218,5 +218,6 @@
 		<trait name="Tau/SupportingFire"/>
 		<trait name="Relentless"/>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="Tau/ExtraInfantryArmour"/>
+		<trait name="Tau/Battlesuit"/>
 	</traits>
 </unit>

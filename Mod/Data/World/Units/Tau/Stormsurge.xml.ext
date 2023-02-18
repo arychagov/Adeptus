@@ -10,4 +10,7 @@
 			</effects>
 		</modifier>
 	</modifiers>
+	<traits>
+		<trait name="Tau/Battlesuit"/>
+    </traits>
 </unit>

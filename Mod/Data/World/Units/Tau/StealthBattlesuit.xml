@@ -302,5 +302,6 @@
 		<trait name="Stealth"/>
 		<trait name="Relentless"/>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="Tau/ExtraInfantryArmour"/>
+		<trait name="Tau/Battlesuit"/>
 	</traits>
 </unit>

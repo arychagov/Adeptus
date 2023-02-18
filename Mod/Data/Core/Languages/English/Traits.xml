@@ -150,4 +150,8 @@
     <entry name="AstraMilitarum/WallOfMuscle" value="Wall Of Muscle"/>
     <entry name="AstraMilitarum/WallOfMuscleDescription" value="Reduces melee attacks."/>
     <entry name="AstraMilitarum/WallOfMuscleFlavor" value="“Brute force not work? It because you not use enough of it!“<br/>—Karg, Ogryn Bone'ead"/>
+
+    <entry name="Tau/ReactiveThrustSystem" value="Reactive Thrust System"/>
+    <entry name="Tau/ReactiveThrustSystemDescription" value="Increases the accuracy and the attacks."/>
+    <entry name="Tau/ReactiveThrustSystemFlavor" value="Angled micro-thrusters integrated into battlesuit plating allows their pilots to trigger a sudden burst of speed for interdiction assaults.>"/>
 </language>
