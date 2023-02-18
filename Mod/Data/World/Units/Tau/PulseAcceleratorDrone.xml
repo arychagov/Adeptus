@@ -99,5 +99,6 @@
 		<!-- <trait name="Bulky"/> -->
 		<trait name="JetPack"/>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="Tau/ExtraInfantryArmour"/>
+        <trait name="Tau/Drone"/>
 	</traits>
 </unit>

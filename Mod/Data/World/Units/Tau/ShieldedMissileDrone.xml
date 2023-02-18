@@ -79,5 +79,6 @@
 		<trait name="Shielded"/>
 		<trait name="Tau/SupportingFire"/>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="Tau/ExtraInfantryArmour"/>
+        <trait name="Tau/Drone"/>
 	</traits>
 </unit>
