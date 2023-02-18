@@ -12,7 +12,7 @@
 				uvAnimated="0"/>
 	</model>
 	<weapons>
-		<weapon name="BurstCannon">
+		<weapon name="BurstCannon" count="2">
 			<model>
 				<projectileWeapon muzzleBone=".Muzzle"/>
 			</model>
@@ -83,7 +83,7 @@
 						endFire="2.33"/>
 			</model>				
 		</useWeapon>
-		<deployGunDrone cooldown="10"
+		<deployGunDrone cooldown="5"
 				name="Tau/DeployDrone"
 				requiredActionPoints="0"
 				consumedActionPoints="0"
@@ -94,13 +94,6 @@
 				<action animation=""
 						sound="Actions/DeployDrone"/>
 			</model>
-			<modifiers>
-				<modifier visible="0" requiredUpgrade="Tau/DroneController">
-					<effects>
-						<cooldown add="-5"/>
-					</effects>
-				</modifier>
-			</modifiers>
 			<beginTargets>
 				<target rangeMax="1">
 					<conditions>
@@ -163,6 +156,7 @@
 		<trait name="Tank"/>
 		<trait name="Vehicle"/>
 		<trait name="Transport"/>
+		<trait name="MobileCommand"/>
 		<trait name="ExtraVehicleArmour" requiredUpgrade="Tau/ExtraVehicleArmour"/>
 		<trait name="Tau/AdvancedTargetingSystem" requiredUpgrade="Tau/AdvancedTargetingSystem"/>
 		<trait name="Tau/AutomatedRepairSystem" requiredUpgrade="Tau/AutomatedRepairSystem"/>
