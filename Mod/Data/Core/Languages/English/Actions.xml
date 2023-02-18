@@ -65,4 +65,8 @@
 	<entry name="AstraMilitarum/WallOfMuscleDescription" value="Reduces melee attacks of adjacent enemy units."/>
 	<entry name="AstraMilitarum/WallOfMuscleFlavor" value="<string name='Traits/AstraMilitarum/WallOfMuscleFlavor'/>"/>
 
+	<entry name="Tau/UnityDescription" value="Increases the influence output."/>
+	<entry name="Tau/StormOfFireDescription" value="Increases the invulnerable damage reduction of the Ethereal."/>
+	<entry name="Tau/SenseOfStoneDescription" value="Increases the damage reduction of the Ethereal and adjacent allied T'au infantry and monstrous creatures."/>
+	<entry name="Tau/CalmOfTidesDescription" value="Restores the hitpoints and the morale of the Ethereal and adjacent allied T'au infantry and monstrous creatures."/>
 </language>
