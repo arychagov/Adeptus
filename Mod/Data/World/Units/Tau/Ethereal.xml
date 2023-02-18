@@ -26,7 +26,7 @@
 				<energyUpkeep base="1.5"/> <!-- %energyUpkeep base tier=5 factor=1 -->
 				<energyCost base="15.0"/> <!-- %energyCost base tier=5 factor=0.5 -->
 				<foodCost base="15.0"/> <!-- %foodCost base tier=5 factor=0.5 -->
-				<hitpointsMax base="6.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
+				<hitpointsMax base="7.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
 				<influenceUpkeep base="3.0"/> <!-- %influenceUpkeep base tier=5 factor=2 -->
 				<influenceCost base="60.0"/> <!-- %influenceCost base tier=5 factor=2 -->
 				<itemSlots base="6"/>
@@ -278,7 +278,6 @@
 					 rankMax="2"
 					 requiredActionPoints="0"
 					 consumedActionPoints="0"
-					 consumedMovement="1"
 					 requiredMovement="1"
 					 icon="Actions/Tau/ShieldGenerator"
 					 name="Tau/StormOfFire">
