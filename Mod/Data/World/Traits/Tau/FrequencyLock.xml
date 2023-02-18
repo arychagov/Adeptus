@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" rankMax="2" icon="Actions/Tau/Markerlight">
+	<modifiers>
+		<modifier>
+			<effects>
+				<armor addMin="-1" addMax="-2"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
