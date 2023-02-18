@@ -33,8 +33,8 @@
 		</modifier>
 	</strategyModifiers>Razorback
 	<actions>
-		<produceUnit unit="SpaceMarines/Razorback" requiredUpgrade="SpaceMarines/Razorback"/>
-		<produceUnit unit="SpaceMarines/ScoutBiker"/>
+		<produceUnit unit="SpaceMarines/Razorback"/>
+		<produceUnit unit="SpaceMarines/ScoutBiker" requiredUpgrade="SpaceMarines/ScoutBiker"/>
 		<produceUnit unit="SpaceMarines/LandSpeeder" requiredUpgrade="SpaceMarines/LandSpeeder"/>
 		<produceUnit unit="SpaceMarines/Hunter" requiredUpgrade="SpaceMarines/Hunter"/>
 		<produceUnit unit="SpaceMarines/Predator" requiredUpgrade="SpaceMarines/Predator"/>

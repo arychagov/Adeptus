@@ -80,7 +80,7 @@
 		</move>
 		<createSmokeScreen cooldown="10"
 				icon="Traits/SmokeScreen"
-				requiredUpgrade="SpaceMarines/SmokeLauncher">
+				requiredUpgrade="SpaceMarines/ExtraVehicleArmour">
 			<model>
 				<action sound="Actions/SmokeScreen"/>
 			</model>

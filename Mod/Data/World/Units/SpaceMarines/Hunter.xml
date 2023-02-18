@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
 	<model>		
-		<unit mesh="Units/SpaceMarines/Vindicator"
-				material="Units/SpaceMarines/Vindicator"
-				idleAnimation=""
-				idleAnimationCount="0"
-				scale="1.2 1.2 1.2"
+		<unit mesh="Units/SpaceMarines/Hunter"
+				material="Units/SpaceMarines/Hunter"
+				idleAnimation="Units/SpaceMarines/HunterIdle"
+				idleAnimationCount="2"
+				scale="1.1 1.1 1.1"
 				explosionsBone="Hull"
 				uvAnimated="1"/>
 	</model>
 	<weapons>
-		<weapon name="DemolisherCannon">
+		<weapon name="SkyspearMissileLauncher">
 			<model>
-				<projectileWeapon muzzleBone=".DemolisherCannonMuzzle"
-						fireInterval="0.7"/>
-			</model>		
+				<missileWeapon muzzleBone=".Muzzle0"
+						fireInterval="0.75"/>
+			</model>
 		</weapon>
 		<weapon name="HunterKillerMissile" slotName="HunterKillerMissile"
 				enabled="0">
@@ -27,8 +27,8 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="8"/> <!-- %armor base armor=13/11/10 -->
-				<hitpointsMax base="36.0"/> <!-- %hitpointsMax base armor=13/11/10 wounds=3 -->
+				<armor base="8"/> <!-- %armor base armor=12/12/10 -->
+				<hitpointsMax base="36.0"/> <!-- %hitpointsMax base armor=12/12/10 wounds=3 -->
 				<moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
 				<movementMax base="4"/>
 				<productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
@@ -48,25 +48,26 @@
 	<actions>
 		<attack>
 			<model>
-				<action animation="Units/SpaceMarines/VindicatorAttack"
-						beginFire="0.6"
-						endFire="2.1"/>
+				<action
+						animation="Units/SpaceMarines/HunterAttack"
+						beginFire="0.7"
+						endFire="2.5"/>
 			</model>				
 		</attack>
 		<die>
 			<model>
-				<action animation="Units/SpaceMarines/VindicatorDie"
+				<action animation="Units/SpaceMarines/HunterDie"
 						sound="Units/MediumVehicleDie"
 						soundCount="3"
 						soundDelay="0"/>
-			</model>
+			</model>		
 		</die>
 		<move>
 			<model>
-				<action animation="Units/SpaceMarines/VindicatorMove"
+				<action animation="Units/SpaceMarines/HunterMove"
 						sound="Units/SpaceMarines/TankMove"
 						soundCount="3"/>
-			</model>
+			</model>		
 		</move>
 		<createSmokeScreen cooldown="10"
 				icon="Traits/SmokeScreen"
@@ -112,10 +113,10 @@
 	</actions>
 	<traits>
 		<trait name="AndTheyShallKnowNoFear"/>
+		<trait name="DozerBlade" requiredUpgrade="SpaceMarines/DozerBlade"/>
 		<trait name="ExtraVehicleArmour" requiredUpgrade="SpaceMarines/ExtraVehicleArmour"/>
 		<trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand"/>
-		<trait name="LinebreakerBombardment"/>
-		<trait name="SiegeShield" requiredUpgrade="SpaceMarines/DozerBlade"/>
+		<trait name="SavantInterlocution"/>
 		<trait name="Tank"/>
 		<trait name="Vehicle"/>
 	</traits>

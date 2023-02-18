@@ -184,8 +184,7 @@
 		</throwGrenade>
 		<clusterMines consumedMovement="0"
 				cooldown="5"
-				icon="Weapons/ClusterMines"
-				requiredUpgrade="SpaceMarines/ClusterMines">
+				icon="Weapons/ClusterMines">
 			<model>
 				<action sound="Actions/MechanicalBuff"/>
 			</model>
