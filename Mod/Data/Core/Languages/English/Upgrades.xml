@@ -39,4 +39,9 @@
 	<entry name="AdeptusMechanicus/CognisHeavyStubberDescription" value="Grants Onager Dunecrawlers and Ironstrider Ballistariuses a Cognis Heavy Stubber."/>
 
 	<entry name="Tau/DroneControllerDescription" value="Battlesuit support system that increases the accuracy of adjacent drones. Halves cooldown of drone deployment across most Tau units."/>
+	<entry name="Tau/GunDroneDescription" value="Grants Piranha, Devilfish, Stealth Battlesuits, Broadside Battlesuits, Cadre Fireblade, Ethereal and Commander the ability to deploy temporary basic combat drones."/>
+	<entry name="Tau/ShieldDroneDescription" value="Grants Crisis Battlesuits, Stealth Battlesuits, Broadside Battlesuits, Ghostkeel Battlesuits, Cadre Fireblade, Ethereal and Commander the ability to deploy temporary drones that shield allies."/>
+	<entry name="Tau/BondingKnifeRitualDescription" value="Grants Stealth Battlesuits, Broadside Battlesuits, Ghostkeel Battlesuits and Riptide Battlesuits the ability to restore their morale."/>
+	<entry name="Tau/HammerOfWrathDescription" value="Grants Ghostkeel Battlesuits, Riptide Battlesuits and Stormsurges the ability to perform more devastating attacks."/>
+	<entry name="Tau/SeekerMissileDescription" value="Grants vehicles and Broadside Battlesuits a missile weapon."/>
 </language>
