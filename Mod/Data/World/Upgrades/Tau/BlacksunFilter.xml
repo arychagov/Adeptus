@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="6" icon="Traits/Tau/BlacksunFilter">
+	<requiredUpgrades>
+		<upgrade name="Tau/Ethereal"/>
+		<upgrade name="Tau/Pathfinder"/>
+		<upgrade name="Tau/Vehicles"/>
+		<upgrade name="Tau/Aircraft"/>
+	</requiredUpgrades>
+</upgrade>
