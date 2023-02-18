@@ -65,6 +65,10 @@
 	<entry name="AstraMilitarum/WallOfMuscleDescription" value="Reduces melee attacks of adjacent enemy units."/>
 	<entry name="AstraMilitarum/WallOfMuscleFlavor" value="<string name='Traits/AstraMilitarum/WallOfMuscleFlavor'/>"/>
 
+	<entry name="AstraMilitarum/Nightshroud" value="Nightshroud"/>
+	<entry name="AstraMilitarum/NightshroudDescription" value="Restores hitpoints of target allied infantry unit."/>
+	<entry name="AstraMilitarum/NightshroudFlavor" value="Calling upon the power of the empyrean, the psyker cloaks their allies in a flowing curtain of shadow, concealing them from the enemy."/>
+
 	<entry name="Tau/UnityDescription" value="Increases the influence output."/>
 	<entry name="Tau/StormOfFireDescription" value="Increases the invulnerable damage reduction of the Ethereal."/>
 	<entry name="Tau/SenseOfStoneDescription" value="Increases the damage reduction of the Ethereal and adjacent allied T'au infantry and monstrous creatures."/>

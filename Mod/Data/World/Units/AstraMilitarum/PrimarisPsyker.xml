@@ -115,26 +115,45 @@
                         beginFire="0.55"/>
             </model>
         </throwGrenade>
-        <moltenBeam cooldown="2"
-                    levelUpPriority="0.15"
-                    psychicPower="1"
-                    rank="-1"
-                    rankMax="2"
-                    weaponSlotName="MoltenBeam">
+        <genericUnitAbility cooldown="1"
+                            levelUpPriority="0.15"
+                            psychicPower="1"
+                            consumedMovement="0"
+                            rank="-1"
+                            rankMax="2"
+                            icon="Actions/MediPack"
+                            name="AstraMilitarum/Nightshroud">
             <model>
                 <action animation="Units/AstraMilitarum/PrimarisPsykerMoltenBeam"
                         bone="RightHandBone0"
                         beginFire="0.8"
                         endFire="2.6"/>
             </model>
-            <modifiers>
-                <modifier>
-                    <effects>
-                        <damage mulMin="0.0" mulMax="1.0"/>
-                    </effects>
-                </modifier>
-            </modifiers>
-        </moltenBeam>
+            <beginTargets>
+                <target rangeMax="2">
+                    <conditions>
+                        <unit>
+                            <allied/>
+                            <faction name="AstraMilitarum"/>
+                            <noTrait name="Fortification"/>
+                            <noTrait name="MonstrousCreature"/>
+                            <noTrait name="Vehicle"/>
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+				                        <hitpoints addMin="4" addMax="12"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </genericUnitAbility>
         <sciersGaze cooldownMin="3"
                     cooldownMax="1"
                     psychicPower="1"
