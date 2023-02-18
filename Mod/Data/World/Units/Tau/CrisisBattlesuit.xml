@@ -156,7 +156,6 @@
 				</target>
 			</beginTargets>
 			<sharedCooldowns>
-				<action name="Tau/DeployDrone/Tau/GunDrone"/>
 				<action name="Tau/DeployDrone/Tau/MarkerDrone"/>
 			</sharedCooldowns>
 		</deployShieldDrone>
@@ -209,7 +208,6 @@
 				</target>
 			</beginTargets>
 			<sharedCooldowns>
-				<action name="Tau/DeployDrone/Tau/GunDrone"/>
 				<action name="Tau/DeployDrone/Tau/ShieldDrone"/>
 			</sharedCooldowns>
 		</deployMarkerDrone>

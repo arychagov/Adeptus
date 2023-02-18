@@ -190,7 +190,6 @@
 				</target>
 			</beginTargets>
 			<sharedCooldowns>
-				<action name="Tau/DeployDrone/Tau/PulseAcceleratorDrone"/>
 				<action name="Tau/DeployDrone/Tau/GravInhibitorDrone"/>
 			</sharedCooldowns>
 		</deployReconDrone>
@@ -242,7 +241,6 @@
 				</target>
 			</beginTargets>
 			<sharedCooldowns>
-				<action name="Tau/DeployDrone/Tau/PulseAcceleratorDrone"/>
 				<action name="Tau/DeployDrone/Tau/ReconDrone"/>
 			</sharedCooldowns>
 		</deployGravInhibitorDrone>

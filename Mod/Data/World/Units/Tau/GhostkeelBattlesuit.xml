@@ -209,10 +209,6 @@
 					</areas>
 				</target>
 			</beginTargets>
-			<sharedCooldowns>
-				<action name="Tau/DeployDrone/Tau/GunDrone"/>
-				<action name="Tau/DeployDrone/Tau/MarkerDrone"/>
-			</sharedCooldowns>
 		</deployShieldDrone>
 		<hammerOfWrath consumedActionPoints="0" consumedMovement="0"
 				cooldown="3"

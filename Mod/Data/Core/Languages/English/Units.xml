@@ -15,4 +15,6 @@
 	<entry name="Eldar/HornetDescription" value="Fast reconnaissance skimmer unit that can clear tiles."/>
 
 	<entry name="AdeptusMechanicus/IronstriderBallistariusDescription" value="Doctrina Imperatives fast walker unit equipped with las-cannon."/>
+
+	<entry name="Tau/GunDroneDescription" value="Basic combat drone unit that marks enemies for increased damage."/>
 </language>
