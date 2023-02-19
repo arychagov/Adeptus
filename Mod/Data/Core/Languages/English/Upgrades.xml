@@ -65,4 +65,7 @@
     <entry name="AstraMilitarum/BoltDamage" value="The Emperor's Benediction"/>
 	<entry name="AstraMilitarum/BoltDamageDescription" value="Increases the armour penetration of bolt weapons. Grants Leman Russ Battle Tanks, Imperial Bastions, cities, Basilisk and Devil Dogs additional Heavy Bolter."/>
 	<entry name="AstraMilitarum/BoltDamageFlavor" value="An Astartes-derived upgrade to the standard bolter, this kit allows a bolter to fire Kraken penetrator rounds, hard-tipped projectiles with a heavier explosive charge. These heavier rounds are much favoured by the Space Marine Deathwatch alien hunters."/>
+	<entry name="AstraMilitarum/TechpriestEnginseer" value="Tech-Priest Enginseers"/>
+	<entry name="AstraMilitarum/TechpriestEnginseerDescription" value="Infantry unit that supports vehicles, clears tiles and founds new cities."/>
+	<entry name="AstraMilitarum/TechpriestEnginseerFlavor" value="Tech-Priest Enginseers serve as custodians for the vehicles of the Imperial Guard. With binary prayers and mystic rites, the Enginseers soothe the machine spirits of their tracked congregation. Without the diligent maintenance of the Enginseers, the Imperial Guard would soon find themselves without the heavy armour vital to their very survival."/>
 </language>

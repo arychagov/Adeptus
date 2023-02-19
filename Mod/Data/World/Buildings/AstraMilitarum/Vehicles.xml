@@ -34,7 +34,7 @@
 	</strategyModifiers>
 	<actions>
 		<produceUnit unit="AstraMilitarum/ScoutSentinel"/>
-		<produceUnit unit="AstraMilitarum/TechpriestEnginseer"/>
+		<produceUnit unit="AstraMilitarum/TechpriestEnginseer" requiredUpgrade="AstraMilitarum/TechpriestEnginseer"/>
 		<produceUnit unit="AstraMilitarum/Chimera" requiredUpgrade="AstraMilitarum/Chimera"/>
 		<produceUnit unit="AstraMilitarum/Hydra" requiredUpgrade="AstraMilitarum/Hydra"/>
 		<produceUnit unit="AstraMilitarum/DevilDog" requiredUpgrade="AstraMilitarum/DevilDog"/>
