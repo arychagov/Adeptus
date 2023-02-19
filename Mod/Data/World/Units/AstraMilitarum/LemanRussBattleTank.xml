@@ -55,6 +55,11 @@
 				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
 			</effects>
 		</modifier>
+		<modifier visible="0" requiredUpgrade="AstraMilitarum/RelicPlating">
+			<effects>
+				<armor add="1"/>
+			</effects>
+		</modifier>
 	</modifiers>
 	<strategyModifiers>
 		<modifier>
