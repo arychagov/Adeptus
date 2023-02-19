@@ -57,5 +57,5 @@
 	<entry name="AstraMilitarum/CityTier3Description" value="Increases the tile acquisition radius. Increases Imperial Bastions' the city damage reduction."/>
 	<entry name="AstraMilitarum/DefenseEdictDescription" value="Edict that increases the armour of units in the city. Increases Imperial Bastions armor."/>
 	<entry name="AstraMilitarum/RelicPlatingDescription" value="Increases the witchfire damage reduction of ground vehicles. Increases Imperial Bastions' the city damage reduction. Increases Leman Russ Battle Tanks and Baneblades armour."/>
-	<entry name="AstraMilitarum/AdditionalHeavyBoltersDescription" value="Grants Imperial Bastions, Baneblades, Leman Russ Battle Tanks and Valkyries extra Heavy Bolters."/>
+	<entry name="AstraMilitarum/AdditionalHeavyBoltersDescription" value="Grants Scout Sentinels, Imperial Bastions, Baneblades, Leman Russ Battle Tanks and Valkyries extra Heavy Bolters."/>
 </language>
