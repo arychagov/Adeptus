@@ -8,7 +8,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<meleeAttacks mul="-0.25"/>
+				<rangedAttacks mul="-0.25"/>
 			</effects>
 		</modifier>
 	</modifiers>
