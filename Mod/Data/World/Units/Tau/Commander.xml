@@ -426,7 +426,7 @@
         <trait name="Tau/SupportSystems" rank="1"/>
         <trait name="Tau/SupportingFire"/>
         <trait name="ExtraInfantryArmour" requiredUpgrade="Tau/ExtraInfantryArmour"/>
-		<trait name="Tau/Battlesuit"/>
+        <trait name="Tau/Battlesuit"/>
         <trait name="Tau/PreciseShooter"/>
     </traits>
 </unit>

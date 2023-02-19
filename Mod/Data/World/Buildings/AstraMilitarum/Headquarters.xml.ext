@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <building disablable="0">
-	<modifiers>
-		<modifier>
-			<effects>
-				<production add="6"/>
-			</effects>
-		</modifier>
-	</modifiers>
-	<actions>
-		<produceUnit unit="AstraMilitarum/LordCommissar" requiredUpgrade="AstraMilitarum/LordCommissar"/>
-		<produceUnit unit="AstraMilitarum/TankCommander" requiredUpgrade="AstraMilitarum/TankCommander"/>
-		<produceUnit unit="AstraMilitarum/PrimarisPsyker" requiredUpgrade="AstraMilitarum/PrimarisPsyker"/>
-	</actions>
-	<traits>
-		<trait name="AstraMilitarum/Prosperity" requiredUpgrade="AstraMilitarum/Construction"/>
-	</traits>
+    <modifiers>
+        <modifier>
+            <effects>
+                <production add="6"/>
+            </effects>
+        </modifier>
+    </modifiers>
+    <actions>
+        <produceUnit unit="AstraMilitarum/LordCommissar" requiredUpgrade="AstraMilitarum/LordCommissar"/>
+        <produceUnit unit="AstraMilitarum/TankCommander" requiredUpgrade="AstraMilitarum/TankCommander"/>
+        <produceUnit unit="AstraMilitarum/PrimarisPsyker" requiredUpgrade="AstraMilitarum/PrimarisPsyker"/>
+    </actions>
+    <traits>
+        <trait name="AstraMilitarum/Prosperity" requiredUpgrade="AstraMilitarum/Construction"/>
+    </traits>
 </building>

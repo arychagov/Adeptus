@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade visible="0" position="5" icon="Traits/Tyranids/CityGrowth">
-	<strategyModifiers>
-		<modifier>
-			<effects>
-				<increasePopulationLimitScore base="1.0"/>
-			</effects>
-		</modifier>
-	</strategyModifiers>
+    <strategyModifiers>
+        <modifier>
+            <effects>
+                <increasePopulationLimitScore base="1.0"/>
+            </effects>
+        </modifier>
+    </strategyModifiers>
 </upgrade>

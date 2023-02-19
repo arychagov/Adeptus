@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <building disablable="0">
-	<traits>
-		<trait name="AdeptusMechanicus/Prosperity" requiredUpgrade="AdeptusMechanicus/Construction"/>
-	</traits>
+    <traits>
+        <trait name="AdeptusMechanicus/Prosperity" requiredUpgrade="AdeptusMechanicus/Construction"/>
+    </traits>
 </building>

@@ -69,10 +69,10 @@
             </model>
         </move>
         <markerlight cooldown="1"
-                       name="Tau/Markerlight"
-                       requiredActionPoints="0"
-                       consumedMovement="0"
-                       consumedActionPoints="0">
+                     name="Tau/Markerlight"
+                     requiredActionPoints="0"
+                     consumedMovement="0"
+                     consumedActionPoints="0">
             <beginTargets>
                 <target rangeMax="2" lineOfSight="1">
                     <conditions>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <building disablable="0">
-	<modifiers>
-		<modifier>
-			<effects>
-				<production add="6"/>
-			</effects>
-		</modifier>
-	</modifiers>
-	<actions>
-		<produceUnit unit="Orks/Warboss" requiredUpgrade="Orks/Warboss"/>
-		<produceUnit unit="Orks/Weirdboy" requiredUpgrade="Orks/Weirdboy"/>
-		<produceUnit unit="Orks/Painboy" requiredUpgrade="Orks/Painboy"/>
-	</actions>
-	<traits>
-		<trait name="Orks/Prosperity" requiredUpgrade="Orks/Construction"/>
-	</traits>
+    <modifiers>
+        <modifier>
+            <effects>
+                <production add="6"/>
+            </effects>
+        </modifier>
+    </modifiers>
+    <actions>
+        <produceUnit unit="Orks/Warboss" requiredUpgrade="Orks/Warboss"/>
+        <produceUnit unit="Orks/Weirdboy" requiredUpgrade="Orks/Weirdboy"/>
+        <produceUnit unit="Orks/Painboy" requiredUpgrade="Orks/Painboy"/>
+    </actions>
+    <traits>
+        <trait name="Orks/Prosperity" requiredUpgrade="Orks/Construction"/>
+    </traits>
 </building>

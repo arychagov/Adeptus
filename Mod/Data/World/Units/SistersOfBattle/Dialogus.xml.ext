@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement11">
-	<modifiers>
-		<modifier visible="0">
-			<effects>
-				<energyUpkeep base="2.0"/> <!-- %energyUpkeep base tier=5 factor=1 -->
-				<energyCost base="20.0"/> <!-- %energyCost base tier=5 factor=0.5 -->
-				<requisitionsCost base="20.0"/> <!-- %requisitionsCost base tier=5 factor=0.5 -->
-				<hitpointsMax base="6.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
-				<influenceUpkeep base="4.0"/> <!-- %influenceUpkeep base tier=4 factor=2 -->
-				<influenceCost base="80.0"/> <!-- %influenceCost base tier=4 factor=2 -->
-				<productionCost base="36.0"/> <!-- %productionCost base tier=5 factor=1 --> 
-			</effects>
-		</modifier>
-	</modifiers>
+    <modifiers>
+        <modifier visible="0">
+            <effects>
+                <energyUpkeep base="2.0"/> <!-- %energyUpkeep base tier=5 factor=1 -->
+                <energyCost base="20.0"/> <!-- %energyCost base tier=5 factor=0.5 -->
+                <requisitionsCost base="20.0"/> <!-- %requisitionsCost base tier=5 factor=0.5 -->
+                <hitpointsMax base="6.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
+                <influenceUpkeep base="4.0"/> <!-- %influenceUpkeep base tier=4 factor=2 -->
+                <influenceCost base="80.0"/> <!-- %influenceCost base tier=4 factor=2 -->
+                <productionCost base="36.0"/> <!-- %productionCost base tier=5 factor=1 -->
+            </effects>
+        </modifier>
+    </modifiers>
 </unit>

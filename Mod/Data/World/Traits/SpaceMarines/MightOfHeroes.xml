@@ -3,9 +3,9 @@
     <modifiers>
         <modifier>
             <effects>
-				<hitpointsMax mul="0.17"/>
-				<accuracy mul="0.17"/>
-				<damage mul="0.17"/>
+                <hitpointsMax mul="0.17"/>
+                <accuracy mul="0.17"/>
+                <damage mul="0.17"/>
                 <rangedAttacks mul="0.17"/>
                 <meleeAttacks mul="0.17"/>
             </effects>

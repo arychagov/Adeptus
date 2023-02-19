@@ -198,11 +198,11 @@
                         <area affects="Unit" radius="1">
                             <modifiers>
                                 <modifier>
-									<conditions>
-										<unit>
-											<enemy/>
-										</unit>
-									</conditions>
+                                    <conditions>
+                                        <unit>
+                                            <enemy/>
+                                        </unit>
+                                    </conditions>
                                     <effects>
                                         <addTrait duration="1" name="Necrons/WrithingWorldscape"/>
                                     </effects>

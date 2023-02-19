@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait alwaysVisible="1" category="Buff" icon="Actions/HammerOfWrath">
-	<modifiers>
-		<modifier>
-			<conditions>
-				<weapon>
-					
-				</weapon>
-			</conditions>
-			<effects>
-				<damage mul="0.25"/>
-			</effects>
-		</modifier>
-	</modifiers>
+    <modifiers>
+        <modifier>
+            <conditions>
+                <weapon>
+
+                </weapon>
+            </conditions>
+            <effects>
+                <damage mul="0.25"/>
+            </effects>
+        </modifier>
+    </modifiers>
 </trait>

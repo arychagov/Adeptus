@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade position="3" icon="Actions/HammerOfWrath">
-	<requiredUpgrades>
-		<upgrade name="AstraMilitarum/Bullgryn"/>
-		<upgrade name="AstraMilitarum/Vehicles"/>
-	</requiredUpgrades>
-	<strategyModifiers>
-		<modifier>
-			<effects>
-				<increaseInfantryScore base="1.0"/>
-				<increaseVehiclesScore base="1.0"/>
-			</effects>
-		</modifier>
-	</strategyModifiers>
+    <requiredUpgrades>
+        <upgrade name="AstraMilitarum/Bullgryn"/>
+        <upgrade name="AstraMilitarum/Vehicles"/>
+    </requiredUpgrades>
+    <strategyModifiers>
+        <modifier>
+            <effects>
+                <increaseInfantryScore base="1.0"/>
+                <increaseVehiclesScore base="1.0"/>
+            </effects>
+        </modifier>
+    </strategyModifiers>
 </upgrade>

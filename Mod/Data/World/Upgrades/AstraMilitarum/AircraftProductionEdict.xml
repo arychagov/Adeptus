@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade position="8" icon="Actions/AstraMilitarumAircraftProductionEdict">
-	<requiredUpgrades>
-		<upgrade name="AstraMilitarum/Aircraft"/>
-	</requiredUpgrades>
+    <requiredUpgrades>
+        <upgrade name="AstraMilitarum/Aircraft"/>
+    </requiredUpgrades>
 </upgrade>

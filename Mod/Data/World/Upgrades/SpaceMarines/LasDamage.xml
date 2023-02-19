@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade position="6" icon="Traits/LasDamage">
-	<strategyModifiers>
-		<modifier>
-			<effects>
-				<increaseInfantryScore base="1.0"/>
-				<increaseVehiclesScore base="1.0"/>
-			</effects>
-		</modifier>
-	</strategyModifiers>
+    <strategyModifiers>
+        <modifier>
+            <effects>
+                <increaseInfantryScore base="1.0"/>
+                <increaseVehiclesScore base="1.0"/>
+            </effects>
+        </modifier>
+    </strategyModifiers>
 </upgrade>

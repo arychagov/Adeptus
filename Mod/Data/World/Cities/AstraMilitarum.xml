@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <city>
-	<modifiers>
-		<modifier>
-			<effects>
-				<loyaltyPerCity base="-6"/>
-			</effects>
-		</modifier>
-	</modifiers>
-	<traits>
-		<trait name="ImperialSplendour" requiredUpgrade="AstraMilitarum/ImperialSplendour"/>
-	</traits>
+    <modifiers>
+        <modifier>
+            <effects>
+                <loyaltyPerCity base="-6"/>
+            </effects>
+        </modifier>
+    </modifiers>
+    <traits>
+        <trait name="ImperialSplendour" requiredUpgrade="AstraMilitarum/ImperialSplendour"/>
+    </traits>
 </city>

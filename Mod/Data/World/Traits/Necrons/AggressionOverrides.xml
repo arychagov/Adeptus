@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait category="Buff" icon="Actions/Necrons/AggressionOverrides">
-	<modifiers>
-		<modifier>
-			<effects>
-				<damage add="1"/>
-				<armorPenetration add="1"/>
-				<hitpointsMax add="4"/>
-			</effects>
-		</modifier>
-		<modifier visible="0">
-			<effects>
-				<hitpoints add="4"/>
-			</effects>
-		</modifier>
-	</modifiers>
+    <modifiers>
+        <modifier>
+            <effects>
+                <damage add="1"/>
+                <armorPenetration add="1"/>
+                <hitpointsMax add="4"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <effects>
+                <hitpoints add="4"/>
+            </effects>
+        </modifier>
+    </modifiers>
 </trait>

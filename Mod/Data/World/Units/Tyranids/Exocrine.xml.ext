@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement2">
-	<modifiers>
-		<modifier visible="0">
-			<effects>				
-				<biomassUpkeep base="5.0"/> <!-- %biomassUpkeep base tier=9 factor=1 -->
-				<biomassCost base="100.0"/> <!-- %biomassCost base tier=9 factor=1 -->
-				<productionCost base="51.0"/> <!-- %productionCost base tier=9 factor=1 -->
-			</effects>
-		</modifier>
-	</modifiers>
+    <modifiers>
+        <modifier visible="0">
+            <effects>
+                <biomassUpkeep base="5.0"/> <!-- %biomassUpkeep base tier=9 factor=1 -->
+                <biomassCost base="100.0"/> <!-- %biomassCost base tier=9 factor=1 -->
+                <productionCost base="51.0"/> <!-- %productionCost base tier=9 factor=1 -->
+            </effects>
+        </modifier>
+    </modifiers>
 </unit>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait category="Debuff" icon="Actions/Necrons/CountertemporalNanomines">
-	<modifiers>
-		<modifier>
+    <modifiers>
+        <modifier>
             <conditions>
                 <unit>
                     <enemy/>
-					<noTrait name="Fortification"/>
+                    <noTrait name="Fortification"/>
                 </unit>
             </conditions>
-			<effects>
-				<movementMax max="0.0"/>
-			</effects>
-		</modifier>
-	</modifiers>
+            <effects>
+                <movementMax max="0.0"/>
+            </effects>
+        </modifier>
+    </modifiers>
 </trait>

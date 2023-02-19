@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <building>
-	<modifiers>
-		<modifier visible="0">
-			<effects>
-				<productionCost base="36"/>
-				<oreCost base="50"/>
-				<energyUpkeep add="-1"/>
-			</effects>
-		</modifier>
-		<modifier>
-			<effects>
-				<populationLimit add="-1"/>
-			</effects>
-		</modifier>
-	</modifiers>
+    <modifiers>
+        <modifier visible="0">
+            <effects>
+                <productionCost base="36"/>
+                <oreCost base="50"/>
+                <energyUpkeep add="-1"/>
+            </effects>
+        </modifier>
+        <modifier>
+            <effects>
+                <populationLimit add="-1"/>
+            </effects>
+        </modifier>
+    </modifiers>
 </building>

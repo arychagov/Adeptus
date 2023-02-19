@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait category="Debuff" icon="Actions/TelekineDome">
-	<modifiers>
-		<modifier>
-			<effects>
-				<invulnerableDamageReduction max="0"/>
-				<rangedInvulnerableDamageReduction max="0"/>
-				<witchfireDamageReduction max="0"/>
-				<feelNoPainDamageReduction max="0"/>
-			</effects>
-		</modifier>
-	</modifiers>
+    <modifiers>
+        <modifier>
+            <effects>
+                <invulnerableDamageReduction max="0"/>
+                <rangedInvulnerableDamageReduction max="0"/>
+                <witchfireDamageReduction max="0"/>
+                <feelNoPainDamageReduction max="0"/>
+            </effects>
+        </modifier>
+    </modifiers>
 </trait>

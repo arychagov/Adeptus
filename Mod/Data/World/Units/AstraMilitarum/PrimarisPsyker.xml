@@ -145,7 +145,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-				                        <hitpoints addMin="4" addMax="12"/>
+                                        <hitpoints addMin="4" addMax="12"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -206,8 +206,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-				                        <actionPoints add="1"/>
-				                        <movement add="3"/>
+                                        <actionPoints add="1"/>
+                                        <movement add="3"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -230,9 +230,9 @@
                     <conditions>
                         <unit>
                             <enemy/>
-							<noTrait name="Fortification"/>
-							<noTrait name="Stunned"/>
-							<noTrait name="Vehicle"/>
+                            <noTrait name="Fortification"/>
+                            <noTrait name="Stunned"/>
+                            <noTrait name="Vehicle"/>
                         </unit>
                     </conditions>
                     <areas>

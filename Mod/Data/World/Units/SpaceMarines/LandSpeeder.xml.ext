@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
-	<modifiers>
-		<modifier visible="0">
-			<effects>
-				<energyUpkeep base="3"/>
-				<energyCost base="30.0"/>
-				<requisitionsCost base="30.0"/>
-			</effects>
-		</modifier>
-	</modifiers>
+    <modifiers>
+        <modifier visible="0">
+            <effects>
+                <energyUpkeep base="3"/>
+                <energyCost base="30.0"/>
+                <requisitionsCost base="30.0"/>
+            </effects>
+        </modifier>
+    </modifiers>
 </unit>

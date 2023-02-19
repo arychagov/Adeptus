@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait visibilityCategory="Building" icon="Buildings/Tyranids/Housing">
-	<modifiers>
-		<modifier>
-			<effects>
-				<growth mul="0.2"/>
-			</effects>
-		</modifier>
-	</modifiers>
+    <modifiers>
+        <modifier>
+            <effects>
+                <growth mul="0.2"/>
+            </effects>
+        </modifier>
+    </modifiers>
 </trait>

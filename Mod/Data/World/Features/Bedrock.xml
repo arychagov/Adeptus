@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feature ambientSound="Ambient/TyranidsCity"
-		ambientSoundLayer="1"
-		ambientSoundPriority="0"
-		category="Bedrock">
-	<model>
-		<bedrock material="Terrain/Bedrock"/>
-	</model>
-	<modifiers>
-		<modifier>
-			<effects>
-				<food mul="0.00001"/>
-				<biomassOnConsume max="0"/>
-			</effects>
-		</modifier>
-		<modifier>
-			<conditions>
-				<player>
-					<faction name="AdeptusMechanicus"/>
-				</player>
-			</conditions>
-			<effects>
-				<buildingSlots add="1"/>
-			</effects>
-		</modifier>
-	</modifiers>
+         ambientSoundLayer="1"
+         ambientSoundPriority="0"
+         category="Bedrock">
+    <model>
+        <bedrock material="Terrain/Bedrock"/>
+    </model>
+    <modifiers>
+        <modifier>
+            <effects>
+                <food mul="0.00001"/>
+                <biomassOnConsume max="0"/>
+            </effects>
+        </modifier>
+        <modifier>
+            <conditions>
+                <player>
+                    <faction name="AdeptusMechanicus"/>
+                </player>
+            </conditions>
+            <effects>
+                <buildingSlots add="1"/>
+            </effects>
+        </modifier>
+    </modifiers>
 </feature>

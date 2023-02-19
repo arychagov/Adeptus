@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait visible="0">
-	<modifiers>
-		<modifier>
-		<conditions>
-				<unit>
-				<allied/>
-				<faction name="Tau"/>
-				<trait name="Headquarters"/>
-				</unit>
-		</conditions>
-			<effects>
-				<energy add="40"/>
-			</effects>
-		</modifier>
-	</modifiers>
+    <modifiers>
+        <modifier>
+            <conditions>
+                <unit>
+                    <allied/>
+                    <faction name="Tau"/>
+                    <trait name="Headquarters"/>
+                </unit>
+            </conditions>
+            <effects>
+                <energy add="40"/>
+            </effects>
+        </modifier>
+    </modifiers>
 </trait>

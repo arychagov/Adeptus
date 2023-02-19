@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement5">
-	<modifiers>
-		<modifier visible="0">
-			<effects>
-				<armor base="8"/> <!-- %armor base armor=12/11/10 -->
-			</effects>
-		</modifier>
-	</modifiers>
+    <modifiers>
+        <modifier visible="0">
+            <effects>
+                <armor base="8"/> <!-- %armor base armor=12/11/10 -->
+            </effects>
+        </modifier>
+    </modifiers>
 </unit>

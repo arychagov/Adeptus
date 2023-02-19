@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement3">
-	<modifiers>
-		<modifier visible="0">
-			<effects>
-				<productionCost base="51.0"/> <!-- %productionCost base tier=9 factor=1 -->
-				<foodUpkeep base="5.0"/> <!-- %foodUpkeep base tier=9 factor=1 -->
-				<foodCost base="50.0"/> <!-- %foodCost base tier=9 factor=0.5 -->
-				<oreCost base="50.0"/> <!-- %oreCost base tier=9 factor=0.5 -->
-			</effects>
-		</modifier>
-	</modifiers>
+    <modifiers>
+        <modifier visible="0">
+            <effects>
+                <productionCost base="51.0"/> <!-- %productionCost base tier=9 factor=1 -->
+                <foodUpkeep base="5.0"/> <!-- %foodUpkeep base tier=9 factor=1 -->
+                <foodCost base="50.0"/> <!-- %foodCost base tier=9 factor=0.5 -->
+                <oreCost base="50.0"/> <!-- %oreCost base tier=9 factor=0.5 -->
+            </effects>
+        </modifier>
+    </modifiers>
 </unit>

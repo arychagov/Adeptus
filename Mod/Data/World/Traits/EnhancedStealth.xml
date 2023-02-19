@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait alwaysVisible="1" category="Buff" icon="Traits/Stealth">
-	<modifiers>
-		<modifier>
-			<conditions>
-				<tile>
-					<feature name="Forest"/>
-					<feature name="ImperialRuin"/>
-				</tile>
-			</conditions>
-			<effects>
-				<rangedDamageReduction add="0.17"/>
-			</effects>
-		</modifier>
-	</modifiers>
+    <modifiers>
+        <modifier>
+            <conditions>
+                <tile>
+                    <feature name="Forest"/>
+                    <feature name="ImperialRuin"/>
+                </tile>
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.17"/>
+            </effects>
+        </modifier>
+    </modifiers>
 </trait>

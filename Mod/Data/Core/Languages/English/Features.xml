@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<entry name="NullZone" value="<string name='Traits/NullZone'/>"/>
-	<entry name="NullZoneDescription" value="<string name='Traits/NullZoneDescription'/>"/>
-	<entry name="NullZoneFlavor" value="<string name='Traits/NullZoneFlavor'/>"/>
+    <entry name="NullZone" value="<string name='Traits/NullZone'/>"/>
+    <entry name="NullZoneDescription" value="<string name='Traits/NullZoneDescription'/>"/>
+    <entry name="NullZoneFlavor" value="<string name='Traits/NullZoneFlavor'/>"/>
 </language>
