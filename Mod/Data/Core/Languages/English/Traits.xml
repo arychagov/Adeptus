@@ -35,7 +35,6 @@
     <entry name="SpaceMarines/FortressOfRedemptionDamageReduction3" value="Stronghold Shielding 3"/>
     <entry name="SpaceMarines/FortressOfRedemptionDamageReduction3Description" value="Increases the city damage reduction."/>
     <entry name="SpaceMarines/FortressOfRedemptionDamageReduction3Flavor" value="Gladius Prime is already proving far more hostile than the Adeptus Administratum's worst forecasts. With the Fortress' physical defenses under almost constant assault, the Techmarines approve installation of a void shield. Once constructed, this shimmering dome of power is sufficient to warp away the firepower of entire battalions (or even a rogue Imperial Knight) before collapsing."/>
-    <entry name="SpaceMarines/PredatorLascannonDescription" value="Grants Fortresses of Redemption Twin-Linked Lascannon. Grants Predators and Aquila Macro-Cannons extra Heavy Bolters."/>
     <entry name="SpaceMarines/FortressOfRedemptionDamageReductionDescription" value="Grants Fortresses of Redemption additional Heavy Bolter weapon and armour."/>
     <!-- Start of Prosperity -->
     <entry name="AdeptusMechanicus/Prosperity" value="Prosperity"/>

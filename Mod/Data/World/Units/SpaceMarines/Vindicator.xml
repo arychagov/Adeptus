@@ -10,6 +10,7 @@
 				uvAnimated="1"/>
 	</model>
 	<weapons>
+		<weapon name="HeavyBolter" requiredUpgrade="SpaceMarines/PredatorLascannon"/>
 		<weapon name="DemolisherCannon">
 			<model>
 				<projectileWeapon muzzleBone=".DemolisherCannonMuzzle"
