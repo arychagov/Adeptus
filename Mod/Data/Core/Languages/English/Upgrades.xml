@@ -52,6 +52,9 @@
 	<entry name="Tau/BondingKnifeRitualDescription" value="Grants Stealth Battlesuits, Broadside Battlesuits, Ghostkeel Battlesuits and Riptide Battlesuits the ability to restore their morale."/>
 	<entry name="Tau/HammerOfWrathDescription" value="Grants Ghostkeel Battlesuits, Riptide Battlesuits and Stormsurges the ability to perform more devastating attacks."/>
 	<entry name="Tau/SeekerMissileDescription" value="Grants vehicles and Broadside Battlesuits a missile weapon."/>
+	<entry name="Tau/CadreFireblade" value="Cadre Fireblade"/>
+	<entry name="Tau/CadreFirebladeDescription" value="Hero unit that excels at empowering steady firing lines."/>
+	<entry name="Tau/CadreFirebladeFlavor" value="As the enemy surges closer, the Fireblade's courage steels his comrades, steadying the firing line and focussing the mind of every Fire Warrior present. Raising his pulse rifle and sighting down its length, the Cadre Fireblade calls out enemy weak spots and optimal firing solutions to his followers, watching the foe press closer with a practised eye. Only at the optimum moment does the Fireblade bark out the order to fire. At the Fireblade's command, the T'au gunline unleashes a storm of fire, an energised squall that tears the enemy to pieces with terrible efficiency."/>
 
 	<entry name="AstraMilitarum/CityTier2Description" value="Increases the tile acquisition radius. Increases Imperial Bastions' the city damage reduction."/>
 	<entry name="AstraMilitarum/CityTier3Description" value="Increases the tile acquisition radius. Increases Imperial Bastions' the city damage reduction."/>
