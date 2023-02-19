@@ -90,41 +90,6 @@
 						beginFire="0.9"/>
 			</model>				
 		</throwGrenade>
-		<markerlight cooldown="1"
-				rank="-1"
-				rankMax="2"
-				name="Tau/Markerlight"
-				requiredActionPoints="0"
-				consumedActionPoints="0"
-				requiredMovement="0">
-			<model>
-				<action animation=""
-						sound="Actions/Markerlight"/>
-			</model>
-			<beginTargets>
-				<target rangeMax="3" lineOfSight="1">
-					<conditions>
-						<unit>
-							<enemy/>
-							<noTrait name="Tau/TargetAcquired"/>
-							<noTrait name="Fortification"/>
-						</unit>
-					</conditions>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait duration="1" name="Tau/TargetAcquired"/>
-										<addTrait duration="1" name="Tau/FrequencyLock"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</target>
-			</beginTargets>
-		</markerlight>
 		<deployGunDrone cooldown="10"
 				name="Tau/DeployDrone"
 				requiredActionPoints="0"
@@ -284,26 +249,69 @@
 				<action name="Tau/DeployDrone/Tau/ShieldDrone"/>
 			</sharedCooldowns>
 		</deployMarkerDrone>
-		<genericUnitAbility passive="1"
-				levelUpPriority="0.1"
+		<markerlight cooldown="1"
 				rank="-1"
 				rankMax="2"
-				name="Tau/VolleyFire">
+				name="Tau/Markerlight"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				requiredMovement="0">
+			<model>
+				<action animation=""
+						sound="Actions/Markerlight"/>
+			</model>
 			<beginTargets>
-				<selfTarget>
+				<target rangeMax="3" lineOfSight="1">
+					<conditions>
+						<unit>
+							<enemy/>
+							<noTrait name="Tau/TargetAcquired"/>
+							<noTrait name="Fortification"/>
+						</unit>
+					</conditions>
 					<areas>
-						<area affects="Tile" radius="1">
+						<area affects="Unit">
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="Tau/VolleyFire"/>
+										<addTrait duration="1" name="Tau/TargetAcquired"/>
+										<addTrait duration="1" name="Tau/FrequencyLock"/>
 									</effects>
 								</modifier>
 							</modifiers>
 						</area>
 					</areas>
-				</selfTarget>
+				</target>
 			</beginTargets>
+		</markerlight>
+		<genericUnitAbility
+				cooldown="3"
+				requiredMovement="1"
+				rank="-1"
+				rankMax="2"
+				name="Tau/VolleyFire">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit" radiusMin="1" radiusMax="3">
+                            <modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<faction name="Tau"/>
+											<trait name="Tau/PreciseShooter"/>
+										</unit>
+									</conditions>
+                                    <effects>
+                                        <addTrait name="Tau/VolleyFire"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
 		</genericUnitAbility>
 		<preciseShot cooldown="3"
 				icon="Actions/Tau/PreciseShot"
@@ -332,22 +340,22 @@
 				levelUpPriority="1"
 				rank="-1"
 				rankMax="0"
-				name="Tau/Unity">
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait name="Tau/Unity"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
+				name="Tau/BreakComposure">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile" radius="2">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="Tau/BreakComposure"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
 		</genericUnitAbility>
 		<levelUp/>
 		<shop/>
@@ -356,5 +364,6 @@
 		<trait name="Hero"/>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="Tau/ExtraInfantryArmour"/>
 		<trait name="Tau/SupportingFire"/>
+        <trait name="Tau/PreciseShooter"/>
 	</traits>
 </unit>

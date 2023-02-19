@@ -7,4 +7,7 @@
 			</effects>
 		</modifier>
 	</modifiers>
+	<traits>
+        <trait name="Tau/PreciseShooter"/>
+	</traits>
 </unit>

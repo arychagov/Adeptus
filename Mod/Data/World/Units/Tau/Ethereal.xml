@@ -367,5 +367,6 @@
 		<trait name="Stubborn"/>
 		<trait name="Tau/BlacksunFilter" requiredUpgrade="Tau/BlacksunFilter"/>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="Tau/ExtraInfantryArmour"/>
+        <trait name="Tau/PreciseShooter"/>
 	</traits>
 </unit>

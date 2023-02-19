@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Actions/Tau/BreakComposure">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<trait name="Tau/PreciseShooter"/>
+				</unit>
+			</conditions>
+			<effects>
+				<rangedAttacks mul="0.15"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
