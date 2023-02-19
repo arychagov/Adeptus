@@ -1,70 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
-	<model>
-		<unit mesh="Units/AstraMilitarum/LemanRussBattleTank"
-				material="Units/AstraMilitarum/LemanRussBattleTank"
-				idleAnimation="Units/AstraMilitarum/LemanRussBattleTankIdle"
+	<model>		
+		<unit mesh="Units/AstraMilitarum/Basilisk"
+				material="Units/AstraMilitarum/Basilisk"
+				idleAnimation="Units/AstraMilitarum/BasiliskIdle"
 				idleAnimationCount="2"
-				scale="1.3 1.3 1.3"
-				explosionsBone="Hull"
+				scale="1.2 1.2 1.2"
+				explosionsBone="Hull001"
 				uvAnimated="1"/>
 	</model>
 	<weapons>
-		<weapon name="EradicatorNovaCannon">
+		<weapon name="EarthshakerCannon">
 			<model>
-				<projectileWeapon mesh="Weapons/AstraMilitarum/LemanRussBattleTankBattleCannon"
-						material="Weapons/AstraMilitarum/LemanRussBattleTankBattleCannon"
-						bone=".BarrelAttachment"
-						muzzleBone="BarrelMuzzle0"
-						fireInterval="1.0"/>
-			</model>
-		</weapon>
-		<weapon name="HeavyLascannon">
-			<model>
-				<beamWeapon muzzleBone=".FrontTurretMuzzle0"
-						fireInterval="1.0"/>
-			</model>
-		</weapon>
-		<weapon name="HeavyBolter" count="2"
-				requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
-			<model>
-				<projectileWeapon mesh="Weapons/AstraMilitarum/LemanRussBattleTankHeavyBolters"
-						material="Weapons/AstraMilitarum/LemanRussBattleTankHeavyBolters"
-						bone=".SideGunsAttachment"
-						muzzleBone="SideGunsMuzzle"
-						muzzleCount="2"/>
-			</model>
+				<projectileWeapon muzzleBone=".Muzzle0"
+						fireInterval="1.0"
+						effectFaceWeight="0"/>
+			</model>		
 		</weapon>
 		<weapon name="HeavyBolter" requiredUpgrade="AstraMilitarum/BoltDamage"/>
+		<weapon name="HeavyBolter">
+			<model>
+				<projectileWeapon mesh="Weapons/AstraMilitarum/HydraHeavyBolter"
+						material="Weapons/AstraMilitarum/HydraHeavyBolter"
+						bone=".Attachment0"
+						muzzleBone=".BolterMuzzle0"/>
+			</model>
+		</weapon>
 		<weapon name="HunterKillerMissile" slotName="HunterKillerMissile"
 				enabled="0">
 			<model>
-				<missileWeapon muzzleBone=".SmokeLaunchersAttachment"/>
-			</model>	
+				<missileWeapon muzzleBone=".Attachment0"/>
+			</model>
+		</weapon>
+		<weapon name="None" enabled="0">
+			<model>
+				<weapon mesh="Weapons/AstraMilitarum/BasiliskLid"
+						material="Weapons/AstraMilitarum/BasiliskLid"
+						bone=".Attachment1"/>
+			</model>
 		</weapon>
 	</weapons>
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="9"/> <!-- %armor base armor=14/13/10 -->
-				<hitpointsMax base="42.0"/> <!-- %hitpointsMax base armor=14/13/10 wounds=3 -->
+				<armor base="7"/> <!-- %armor base armor=12/10/10 -->
+				<hitpointsMax base="24.0"/> <!-- %hitpointsMax base armor=12/10/10 wounds=3 -->
+				<oreUpkeep base="3.0"/> <!-- %oreUpkeep base tier=7 factor=1 -->
+				<oreCost base="60.0"/> <!-- %oreCost base tier=7 factor=1 -->
 				<moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
-				<movementMax base="3"/>
-				<oreUpkeep base="4.0"/> <!-- %oreUpkeep base tier=8 factor=1 -->
-				<oreCost base="80.0"/> <!-- %oreCost base tier=8 factor=1 -->
-				<productionCost base="48.0"/> <!-- %productionCost base tier=8 factor=1 -->
+				<movementMax base="4"/>
+				<productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
 				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
-			</effects>
-		</modifier>
-		<modifier visible="0" requiredUpgrade="AstraMilitarum/RelicPlating">
-			<effects>
-				<armor add="1"/>
 			</effects>
 		</modifier>
 	</modifiers>
 	<strategyModifiers>
 		<modifier>
 			<effects>
+				<increaseSupportScore base="1.0"/>
 				<increaseVehiclesScore base="1.0"/>
 			</effects>
 		</modifier>
@@ -72,13 +65,14 @@
 	<actions>
 		<attack>
 			<model>
-				<action animation="Units/AstraMilitarum/LemanRussBattleTankAttack"
-						beginFire="0.15" endFire="2.6"/>
-			</model>				
+				<action	animation="Units/AstraMilitarum/BasiliskAttack"
+						beginFire="0.15"
+						endFire="2.4"/>
+			</model>
 		</attack>
 		<die>
 			<model>
-				<action animation="Units/AstraMilitarum/LemanRussBattleTankDie"
+				<action animation="Units/AstraMilitarum/BasiliskDie"
 						sound="Units/MediumVehicleDie"
 						soundCount="3"
 						soundDelay="0.2"/>
@@ -86,13 +80,14 @@
 		</die>
 		<move>
 			<model>
-				<action animation="Units/AstraMilitarum/LemanRussBattleTankMove"
+				<action animation="Units/AstraMilitarum/BasiliskMove"
 						sound="Units/AstraMilitarum/TankMove"
 						soundCount="3"/>
 			</model>
 		</move>
-		<createSmokeScreen cooldown="10"
+		<createSmokeScreen
 				icon="Traits/SmokeScreen"
+				cooldown="10"
 				requiredUpgrade="AstraMilitarum/SmokeLauncher">
 			<model>
 				<action sound="Actions/SmokeScreen"/>
@@ -127,6 +122,7 @@
 		<trait name="ExtraVehicleArmour" requiredUpgrade="AstraMilitarum/ExtraVehicleArmour"/>
 		<trait name="RecoveryGear" requiredUpgrade="AstraMilitarum/RecoveryGear"/>
 		<trait name="RelicPlating" requiredUpgrade="AstraMilitarum/RelicPlating"/>
+		<trait name="OpenTopped"/>
 		<trait name="Tank"/>
 		<trait name="Vehicle"/>
 	</traits>

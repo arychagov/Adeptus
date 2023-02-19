@@ -162,6 +162,9 @@
     <entry name="AstraMilitarum/ImperialStrongpointDamageReduction3" value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction2'/>"/>
     <entry name="AstraMilitarum/ImperialStrongpointDamageReduction3Description" value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction2Description'/>"/>
     <entry name="AstraMilitarum/ImperialStrongpointDamageReduction3Flavor" value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction2Flavor'/>"/>
+    <entry name="AstraMilitarum/BoltDamage" value="The Emperor's Benediction"/>
+	<entry name="AstraMilitarum/BoltDamageDescription" value="Increases the armour penetration."/>
+	<entry name="AstraMilitarum/BoltDamageFlavor" value="An Astartes-derived upgrade to the standard bolter, this kit allows a bolter to fire Kraken penetrator rounds, hard-tipped projectiles with a heavier explosive charge. These heavier rounds are much favoured by the Space Marine Deathwatch alien hunters."/>
 
     <entry name="Tau/ReactiveThrustSystem" value="Reactive Thrust System"/>
     <entry name="Tau/ReactiveThrustSystemDescription" value="Increases the accuracy and the attacks."/>

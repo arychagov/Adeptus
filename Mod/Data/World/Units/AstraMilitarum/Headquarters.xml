@@ -12,6 +12,7 @@
 				scale="1.0 1.0 1.0"/>
 	</model>
 	<weapons>
+		<weapon name="HeavyBolter" requiredUpgrade="AstraMilitarum/BoltDamage"/>
 		<weapon name="Lasgun" count="8">
 			<model>
 				<beamWeapon	mesh="Weapons/AstraMilitarum/HeadquartersLasguns"
