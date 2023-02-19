@@ -160,7 +160,7 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Unit" radiusMin="1" radiusMax="2">
+                        <area affects="Unit" radius="1">
                             <modifiers>
                                 <modifier>
                                     <conditions>
