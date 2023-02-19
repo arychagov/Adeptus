@@ -176,5 +176,6 @@
 	<entry name="Tau/VolleyFireFlavor" value="“I’m not going to teach you a special deathblow. I’m not going to give you a bigger gun. I’m not going to surround you with magic shield drones willing to die for you. But I am going to teach you to shoot straight, under fire, together. That immediately makes you better than every last Gue’la.”<br/>  — Tutor Sharptongue."/>
     <entry name="Tau/BreakComposureDescription" value="Increases ranged attacks."/>
 	<entry name="Tau/BreakComposureFlavor" value="Though not physically impressive, the T’au can inculcate fear in their enemies through subtler means—by harrying them so that they can’t focus, by surrounding them, by forcing them down tactical paths that only lead to repeated failure. Sometimes you don’t need to even touch an enemy to defeat them."/>
-
+	<entry name="EnhancedStealth" value="Enhanced Stealth"/>
+	<entry name="EnhancedStealthDescription" value="Increases the ranged damage reduction while in forest or imperial ruins."/>
 </language>
