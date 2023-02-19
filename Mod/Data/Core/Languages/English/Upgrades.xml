@@ -21,6 +21,7 @@
     <entry name="SpaceMarines/CityTier3Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption."/>
     <entry name="SpaceMarines/CityTier4Description" value="Increases the tile acquisition radius and gives Thunderfire Cannons and Fortresses of Redemption ability to increase the ranged damage reduction of the target tile. Increases the city damage reduction of Fortresses of Redemption."/>
     <entry name="SpaceMarines/PredatorLascannonDescription" value="Grants Fortresses of Redemption Twin-Linked Lascannon. Grants Predators, Vindicators and Aquila Macro-Cannons extra Heavy Bolters."/>
+	<entry name="SpaceMarines/OmniscopeDescription" value="Grants Kill Team Eliminators, Predators, Terminators and Devastator Centurions the ability to bypass ranged damaged reduction."/>
 
     <entry name="Necrons/LivingMetal2" value="Undying Revenants"/>
 	<entry name="Necrons/LivingMetal2Description" value="Increases the healing of Reanimation Protocols and Living Metal."/>
