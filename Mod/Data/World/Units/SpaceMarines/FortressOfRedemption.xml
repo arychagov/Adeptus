@@ -108,5 +108,6 @@
 		<trait name="Killshot" requiredUpgrade="SpaceMarines/PredatorLascannon"/>
 		<trait name="SpaceMarines/FortressOfRedemptionDamageReduction1" requiredUpgrade="SpaceMarines/CityTier2"/>
 		<trait name="SpaceMarines/FortressOfRedemptionDamageReduction2" requiredUpgrade="SpaceMarines/CityTier3"/>
+		<trait name="SpaceMarines/FortressOfRedemptionDamageReduction3" requiredUpgrade="SpaceMarines/CityTier4"/>
 	</traits>
 </unit>

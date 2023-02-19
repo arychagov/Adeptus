@@ -24,13 +24,17 @@
     <entry name="SpaceMarines/TemplarsChargeDescription" value="Temporary increases nearby allied units melee attacks and damage."/>
     <entry name="SpaceMarines/TemplarsChargeFlavor" value="We fight to protect the spiritual and physical heart of our Chapter. That, surely, is worth shedding blood."/>
     <entry name="SpaceMarines/CityTier2Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption."/>
-    <entry name="SpaceMarines/CityTier4Description" value="Increases the tile acquisition radius and gives Thunderfire Cannons and Fortresses of Redemption ability to increase the ranged damage reduction of the target tile."/>
+    <entry name="SpaceMarines/CityTier3Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption."/>
+    <entry name="SpaceMarines/CityTier4Description" value="Increases the tile acquisition radius and gives Thunderfire Cannons and Fortresses of Redemption ability to increase the ranged damage reduction of the target tile. Increases the city damage reduction of Fortresses of Redemption."/>
     <entry name="SpaceMarines/FortressOfRedemptionDamageReduction1" value="Stronghold Shielding 1"/>
     <entry name="SpaceMarines/FortressOfRedemptionDamageReduction1Description" value="Increases the city damage reduction."/>
     <entry name="SpaceMarines/FortressOfRedemptionDamageReduction1Flavor" value="Gladius Prime is already proving far more hostile than the Adeptus Administratum's worst forecasts. With the Fortress' physical defenses under almost constant assault, the Techmarines approve installation of a void shield. Once constructed, this shimmering dome of power is sufficient to warp away the firepower of entire battalions (or even a rogue Imperial Knight) before collapsing."/>
     <entry name="SpaceMarines/FortressOfRedemptionDamageReduction2" value="Stronghold Shielding 2"/>
     <entry name="SpaceMarines/FortressOfRedemptionDamageReduction2Description" value="Increases the city damage reduction."/>
     <entry name="SpaceMarines/FortressOfRedemptionDamageReduction2Flavor" value="Gladius Prime is already proving far more hostile than the Adeptus Administratum's worst forecasts. With the Fortress' physical defenses under almost constant assault, the Techmarines approve installation of a void shield. Once constructed, this shimmering dome of power is sufficient to warp away the firepower of entire battalions (or even a rogue Imperial Knight) before collapsing."/>
+    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction3" value="Stronghold Shielding 3"/>
+    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction3Description" value="Increases the city damage reduction."/>
+    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction3Flavor" value="Gladius Prime is already proving far more hostile than the Adeptus Administratum's worst forecasts. With the Fortress' physical defenses under almost constant assault, the Techmarines approve installation of a void shield. Once constructed, this shimmering dome of power is sufficient to warp away the firepower of entire battalions (or even a rogue Imperial Knight) before collapsing."/>
     <entry name="SpaceMarines/PredatorLascannonDescription" value="Grants Fortresses of Redemption Twin-Linked Lascannon. Grants Predators and Aquila Macro-Cannons extra Heavy Bolters."/>
     <entry name="SpaceMarines/FortressOfRedemptionDamageReductionDescription" value="Grants Fortresses of Redemption additional Heavy Bolter weapon and armour."/>
     <!-- Start of Prosperity -->

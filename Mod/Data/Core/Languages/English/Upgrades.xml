@@ -17,9 +17,9 @@
 	<entry name="SpaceMarines/ScoutBiker" value="<string name='Units/SpaceMarines/ScoutBiker'/>"/>
 	<entry name="SpaceMarines/ScoutBikerDescription" value="<string name='Units/SpaceMarines/ScoutBikerDescription'/>"/>
 	<entry name="SpaceMarines/ScoutBikerFlavor" value="<string name='Units/SpaceMarines/ScoutBikerFlavor'/>"/>
-	<entry name="SpaceMarines/CityTier2Description" value="Increases the tile acquisition radius of the city."/>
-	<entry name="SpaceMarines/CityTier3Description" value="Increases the tile acquisition radius of the city."/>
-	<entry name="SpaceMarines/CityTier4Description" value="Increases the tile acquisition radius of the city."/>
+	<entry name="SpaceMarines/CityTier2Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption."/>
+    <entry name="SpaceMarines/CityTier3Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption."/>
+    <entry name="SpaceMarines/CityTier4Description" value="Increases the tile acquisition radius and gives Thunderfire Cannons and Fortresses of Redemption ability to increase the ranged damage reduction of the target tile. Increases the city damage reduction of Fortresses of Redemption."/>
 
     <entry name="Necrons/LivingMetal2" value="Undying Revenants"/>
 	<entry name="Necrons/LivingMetal2Description" value="Increases the healing of Reanimation Protocols and Living Metal."/>
