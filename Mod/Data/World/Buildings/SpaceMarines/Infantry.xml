@@ -12,9 +12,8 @@
 		</modifier>
 		<modifier>
 			<effects>
-				<populationLimit add="1"/>
 				<production add="6"/>
-				<research add="2"/>
+				<research add="4"/>
 			</effects>
 		</modifier>
 	</modifiers>

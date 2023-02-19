@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
 	<weapons>
-		<weapon name="HeavyBolter" requiredUpgrade="SpaceMarines/HurricaneBolter">
-		</weapon>
+		<weapon name="TwinLinkedLascannon"/>
+		<weapon name="HeavyBolter" requiredUpgrade="SpaceMarines/HurricaneBolter"/>
 	</weapons>
     <modifiers>
         <modifier visible="0">
