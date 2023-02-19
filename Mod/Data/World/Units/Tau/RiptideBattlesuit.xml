@@ -293,7 +293,6 @@
 		<trait name="Tau/FireTeam"/>
 		<trait name="JetPack"/>
 		<trait name="MonstrousCreature"/>
-		<trait name="MoveThroughCover"/>
 		<trait name="Relentless"/>
 		<!-- <trait name="Smash"/> -->
 		<trait name="Tau/RiptideShieldGenerator"/>
