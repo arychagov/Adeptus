@@ -68,4 +68,8 @@
     <entry name="AstraMilitarum/TechpriestEnginseer" value="Tech-Priest Enginseers"/>
     <entry name="AstraMilitarum/TechpriestEnginseerDescription" value="Infantry unit that supports vehicles, clears tiles and founds new cities."/>
     <entry name="AstraMilitarum/TechpriestEnginseerFlavor" value="Tech-Priest Enginseers serve as custodians for the vehicles of the Imperial Guard. With binary prayers and mystic rites, the Enginseers soothe the machine spirits of their tracked congregation. Without the diligent maintenance of the Enginseers, the Imperial Guard would soon find themselves without the heavy armour vital to their very survival."/>
+
+	<entry name="Orks/BoltDamageDescription" value="Increases the armour penetration of bolt weapons."/>
+	<entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons."/>
+
 </language>
