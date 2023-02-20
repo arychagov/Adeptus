@@ -42,7 +42,8 @@
             <effects>
                 <armor base="8"/> <!-- %armor base armor=12/11/10 -->
                 <energyCost base="40.0"/> <!-- %energyCost base tier=8 factor=0.5 -->
-                <hitpointsMax base="36.0"/> <!-- %hitpointsMax base armor=12/11/10 wounds=3 -->
+                <hitpointsMax base="36.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=12/11/10 wounds=3 -->
                 <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
                 <movementMax base="4"/>
                 <oreCost base="40.0"/> <!-- %oreCost base tier=8 factor=0.5 -->

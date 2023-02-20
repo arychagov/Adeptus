@@ -25,7 +25,8 @@
             <effects>
                 <actionPointsMax max="0"/>
                 <armor base="6"/> <!-- %armor base armor=10/10/10 -->
-                <hitpointsMax base="24.0"/> <!-- %hitpointsMax base armor=14/14/14 wounds=1 -->
+                <hitpointsMax base="24.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=14/14/14 wounds=1 -->
                 <moraleMax base="0"/>
                 <movementMax max="0"/>
                 <productionCost base="24.0"/> <!-- %productionCost base tier=4 factor=1 -->

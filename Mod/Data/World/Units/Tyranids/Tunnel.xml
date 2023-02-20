@@ -16,7 +16,8 @@
                 <armor base="6"/> <!-- %armor base armor=10/10/10 -->
                 <biomassUpkeep base="1.0"/> <!-- %biomassUpkeep base tier=6 factor=0.5 -->
                 <biomassCost base="20.0"/> <!-- %biomassCost base tier=6 factor=0.5 -->
-                <hitpointsMax base="24.0"/> <!-- %hitpointsMax base armor=10/10/10 wounds=3 -->
+                <hitpointsMax base="24.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=10/10/10 wounds=3 -->
                 <influenceUpkeep base="1.0"/> <!-- %influenceUpkeep base tier=6 factor=0.5 -->
                 <influenceCost base="20.0"/> <!-- %influenceCost base tier=6 factor=0.5 -->
                 <moraleMax base="0"/>

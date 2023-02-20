@@ -24,7 +24,8 @@
             <effects>
                 <armor base="2"/> <!-- %armor base armor=6+ -->
                 <energyCost base="20.0"/> <!-- %energyCost base tier=4 factor=1 -->
-                <hitpointsMax base="6.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
+                <hitpointsMax base="6.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
                 <meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
                 <meleeAttacks base="3"/>
                 <strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->

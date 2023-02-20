@@ -45,7 +45,8 @@
             <effects>
                 <armor base="9"/> <!-- %armor base armor=13/13/12 -->
                 <cargoSlots base="2"/> <!-- %cargoSlots base capacity=6 -->
-                <hitpointsMax base="80.0"/> <!-- %hitpointsMax base armor=13/13/12 wounds=5 -->
+                <hitpointsMax base="80.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=13/13/12 wounds=5 -->
                 <influenceUpkeep base="8.0"/> <!-- %influenceUpkeep base tier=10 factor=1 -->
                 <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
                 <meleeAttacks base="1"/>

@@ -32,7 +32,8 @@
             <effects>
                 <armor base="10"/> <!-- %armor base armor=14/14/14 -->
                 <cargoSlots base="6"/> <!-- %cargoSlots base capacity=20 -->
-                <hitpointsMax base="32.0"/> <!-- %hitpointsMax base armor=14/14/14 wounds=2 -->
+                <hitpointsMax base="32.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=14/14/14 wounds=2 -->
                 <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
                 <movementMax max="0"/>
                 <oreUpkeep base="2.0"/> <!-- %oreUpkeep base tier=6 factor=1 -->

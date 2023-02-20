@@ -39,7 +39,8 @@
                 <armor base="8"/> <!-- %armor base armor=3+ -->
                 <biomassUpkeep base="6.0"/> <!-- %biomassUpkeep base tier=9 factor=1 -->
                 <biomassCost base="120.0"/> <!-- %biomassCost base tier=9 factor=1 -->
-                <hitpointsMax base="30.0"/> <!-- %hitpointsMax base toughness=6 wounds=5 -->
+                <hitpointsMax base="30.0"/>
+                <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=6 wounds=5 -->
                 <influenceUpkeep base="9.0"/> <!-- %influenceUpkeep base tier=9 factor=1.5 -->
                 <influenceCost base="180.0"/> <!-- %influenceCost base tier=9 factor=1.5 -->
                 <itemSlots base="6"/>

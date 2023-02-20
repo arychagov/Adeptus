@@ -32,7 +32,8 @@
                 <oreUpkeep base="1.5"/> <!-- %oreUpkeep base tier=5 factor=1 -->
                 <oreCost base="15.0"/> <!-- %oreCost base tier=5 factor=0.5 -->
                 <foodCost base="15.0"/> <!-- %foodCost base tier=5 factor=0.5 -->
-                <hitpointsMax base="3.0"/> <!-- %hitpointsMax base toughness=4 wounds=1 -->
+                <hitpointsMax base="3.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=4 wounds=1 -->
                 <influenceUpkeep base="1.5"/> <!-- %influenceUpkeep base tier=5 factor=1 -->
                 <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
                 <meleeAttacks base="2"/>

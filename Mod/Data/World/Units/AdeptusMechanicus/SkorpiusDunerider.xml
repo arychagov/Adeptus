@@ -35,7 +35,8 @@
             <effects>
                 <armor base="8"/> <!-- %armor base armor=3+ -->
                 <cargoSlots base="2"/> <!-- %cargoSlots base capacity=12 -->
-                <hitpointsMax base="18.0"/> <!-- %hitpointsMax base toughness=6 wounds=3 -->
+                <hitpointsMax base="18.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=6 wounds=3 -->
                 <meleeAccuracy base="2"/> <!-- %meleeAccuracy base weaponSkill=1 -->
                 <meleeAttacks base="2"/>
                 <oreUpkeep base="2.0"/> <!-- %oreUpkeep base tier=6 factor=1 -->

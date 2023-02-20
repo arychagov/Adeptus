@@ -33,7 +33,8 @@
                 <armor base="6"/> <!-- %armor base armor=10/10/10 -->
                 <energyUpkeep base="3.0"/> <!-- %energyUpkeep base tier=7 factor=1 -->
                 <energyCost base="30.0"/> <!-- %energyCost base tier=7 factor=0.5 -->
-                <hitpointsMax base="24.0"/> <!-- %hitpointsMax base armor=10/10/10 wounds=3 -->
+                <hitpointsMax base="24.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=10/10/10 wounds=3 -->
                 <influenceUpkeep base="3.0"/> <!-- %influenceUpkeep base tier=7 factor=1 -->
                 <moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
                 <movementMax base="6"/>

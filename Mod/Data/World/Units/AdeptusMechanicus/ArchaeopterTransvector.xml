@@ -40,7 +40,8 @@
                 <cargoSlots base="2"/> <!-- %cargoSlots base capacity=6 -->
                 <energyCost base="30.0"/> <!-- %energyCost base tier=7 factor=0.5 -->
                 <energyUpkeep base="3.0"/> <!-- %energyUpkeep base tier=7 factor=1 -->
-                <hitpointsMax base="24.0"/> <!-- %hitpointsMax base toughness=7 wounds=3 -->
+                <hitpointsMax base="24.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=7 wounds=3 -->
                 <meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
                 <meleeAttacks base="2"/>
                 <oreCost base="30.0"/> <!-- %oreCost base tier=7 factor=0.5 -->

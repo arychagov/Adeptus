@@ -71,7 +71,8 @@
                 <armor base="8"/> <!-- %armor base armor=12/12/10 -->
                 <energyUpkeep base="16.0"/> <!-- %energyUpkeep base tier=12 factor=1 -->
                 <energyCost base="160.0"/> <!-- %energyCost base tier=12 factor=0.5 -->
-                <hitpointsMax base="72.0"/> <!-- %hitpointsMax base armor=12/12/10 wounds=6 -->
+                <hitpointsMax base="72.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=12/12/10 wounds=6 -->
                 <cargoSlotsRequired base="0"/>
                 <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
                 <movementMax base="5"/>

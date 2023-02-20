@@ -34,7 +34,8 @@
         <modifier visible="0">
             <effects>
                 <armor base="8"/> <!-- %armor base armor=12/12/10 -->
-                <hitpointsMax base="36.0"/> <!-- %hitpointsMax base armor=12/12/10 wounds=3 -->
+                <hitpointsMax base="36.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=12/12/10 wounds=3 -->
                 <moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
                 <movementMax base="4"/>
                 <oreUpkeep base="3.0"/> <!-- %oreUpkeep base tier=7 factor=1 -->

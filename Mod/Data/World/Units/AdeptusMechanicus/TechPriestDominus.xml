@@ -36,7 +36,8 @@
                 <energyCost base="40.0"/> <!-- %energyCost base tier=8 factor=0.5 -->
                 <foodCost base="40.0"/> <!-- %foodCost base tier=8 factor=0.5 -->
                 <foodUpkeep base="4.0"/> <!-- %foodUpkeep base tier=8 factor=1 -->
-                <hitpointsMax base="6.0"/> <!-- %hitpointsMax base toughness=4 wounds=2 -->
+                <hitpointsMax base="6.0"/>
+                <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=4 wounds=2 -->
                 <influenceUpkeep base="8.0"/> <!-- %influenceUpkeep base tier=8 factor=2 -->
                 <influenceCost base="160.0"/> <!-- %influenceCost base tier=8 factor=2 -->
                 <itemSlots base="6"/>

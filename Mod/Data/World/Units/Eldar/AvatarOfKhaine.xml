@@ -33,7 +33,8 @@
                 <armor base="8"/> <!-- %armor base armor=3+ -->
                 <foodCost base="60.0"/> <!-- %foodCost base tier=9 factor=0.5 -->
                 <foodUpkeep base="6.0"/> <!-- %foodUpkeep base tier=9 factor=1 -->
-                <hitpointsMax base="30.0"/> <!-- %hitpointsMax base toughness=6 wounds=5 -->
+                <hitpointsMax base="30.0"/>
+                <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=6 wounds=5 -->
                 <influenceUpkeep base="9.0"/> <!-- %influenceUpkeep base tier=9 factor=1.5 -->
                 <influenceCost base="180.0"/> <!-- %influenceCost base tier=9 factor=1.5 -->
                 <itemSlots base="6"/>

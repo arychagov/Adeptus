@@ -28,7 +28,8 @@
         <modifier visible="0">
             <effects>
                 <armor base="7"/> <!-- %armor base armor=11/11/10 -->
-                <hitpointsMax base="16.0"/> <!-- %hitpointsMax base armor=11/11/10 wounds=2 -->
+                <hitpointsMax base="16.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=11/11/10 wounds=2 -->
                 <influenceUpkeep base="2.0"/> <!-- %influenceUpkeep base tier=6 factor=1 -->
                 <meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
                 <meleeAttacks base="1"/>

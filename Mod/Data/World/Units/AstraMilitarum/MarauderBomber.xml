@@ -47,7 +47,8 @@
                 <cargoSlotsRequired base="0"/>
                 <energyUpkeep base="8.0"/> <!-- %energyUpkeep base tier=10 factor=1 -->
                 <energyCost base="80.0"/> <!-- %energyCost base tier=10 factor=0.5 -->
-                <hitpointsMax base="72.0"/> <!-- %hitpointsMax base armor=11/11/10 wounds=9 -->
+                <hitpointsMax base="72.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=11/11/10 wounds=9 -->
                 <oreCost base="80.0"/> <!-- %oreCost base tier=10 factor=0.5 -->
                 <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
                 <movementMax base="5"/>

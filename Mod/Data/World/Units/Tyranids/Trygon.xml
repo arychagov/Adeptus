@@ -34,7 +34,8 @@
                 <armor base="8"/> <!-- %armor base armor=3+ -->
                 <biomassUpkeep base="6.0"/> <!-- %biomassUpkeep base tier=9 factor=1 -->
                 <biomassCost base="120.0"/> <!-- %biomassCost base tier=9 factor=1 -->
-                <hitpointsMax base="42.0"/> <!-- %hitpointsMax base toughness=6 wounds=7 -->
+                <hitpointsMax base="42.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=6 wounds=7 -->
                 <meleeAccuracy base="10"/> <!-- %meleeAccuracy base weaponSkill=5 -->
                 <meleeAttacks base="3"/>
                 <strengthDamage base="3"/> <!-- %strengthDamage base strength=6 -->

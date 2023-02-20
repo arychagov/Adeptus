@@ -32,7 +32,8 @@
         <modifier visible="0">
             <effects>
                 <armor base="8"/> <!-- %armor base armor=3+ -->
-                <hitpointsMax base="20.0"/> <!-- %hitpointsMax base toughness=5 wounds=5 -->
+                <hitpointsMax base="20.0"/>
+                <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=5 wounds=5 -->
                 <influenceUpkeep base="4.5"/> <!-- %influenceUpkeep base tier=7 factor=1.5 -->
                 <influenceCost base="90.0"/> <!-- %influenceCost base tier=7 factor=1.5 -->
                 <itemSlots base="6"/>

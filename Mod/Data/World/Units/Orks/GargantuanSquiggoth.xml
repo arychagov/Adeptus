@@ -40,7 +40,8 @@
                 <cargoSlots base="6"/> <!-- %cargoSlots base capacity=20 -->
                 <foodUpkeep base="12.0"/> <!-- %foodUpkeep base tier=11 factor=1 -->
                 <foodCost base="120.0"/> <!-- %foodCost base tier=11 factor=0.5 -->
-                <hitpointsMax base="96.0"/> <!-- %hitpointsMax base toughness=8 wounds=8 -->
+                <hitpointsMax base="96.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=8 wounds=8 -->
                 <influenceUpkeep base="12.0"/> <!-- %influenceUpkeep base tier=11 factor=1 -->
                 <meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
                 <meleeAttacks base="4"/>

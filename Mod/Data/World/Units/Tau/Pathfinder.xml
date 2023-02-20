@@ -45,7 +45,8 @@
                 <armor base="4"/> <!-- %armor base armor=5+ -->
                 <foodUpkeep base="3.0"/> <!-- %foodUpkeep base tier=7 factor=1 -->
                 <foodCost base="30.0"/> <!-- %foodCost base tier=7 factor=0.5 -->
-                <hitpointsMax base="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
+                <hitpointsMax base="2.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
                 <meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
                 <meleeAttacks base="1"/>
                 <oreCost base="30.0"/> <!-- %oreCost base tier=7 factor=0.5 -->

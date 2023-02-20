@@ -30,7 +30,8 @@
         <modifier visible="0">
             <effects>
                 <armor base="8"/> <!-- %armor base armor=12/12/10 -->
-                <hitpointsMax base="36.0"/> <!-- %hitpointsMax base armor=12/12/10 wounds=3 -->
+                <hitpointsMax base="36.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=12/12/10 wounds=3 -->
                 <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
                 <meleeAttacks base="2"/>
                 <strengthDamage base="3"/> <!-- %strengthDamage base strength=6 -->

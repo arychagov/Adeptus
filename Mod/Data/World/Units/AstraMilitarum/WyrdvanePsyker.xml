@@ -42,7 +42,8 @@
                 <energyUpkeep base="1.5"/> <!-- %energyUpkeep base tier=5 factor=1 -->
                 <energyCost base="15.0"/> <!-- %energyCost base tier=5 factor=0.5 -->
                 <foodCost base="15.0"/> <!-- %foodCost base tier=5 factor=0.5 -->
-                <hitpointsMax base="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
+                <hitpointsMax base="2.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
                 <meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
                 <meleeAttacks base="1"/>
                 <strengthDamage base="0.75"/> <!-- %strengthDamage base strength=2 -->

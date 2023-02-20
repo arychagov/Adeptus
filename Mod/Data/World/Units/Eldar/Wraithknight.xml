@@ -36,7 +36,8 @@
             <effects>
                 <armor base="8"/> <!-- %armor base armor=3+ -->
                 <energyCost base="80.0"/> <!-- %energyCost base tier=10 factor=0.5 -->
-                <hitpointsMax base="56.0"/> <!-- %hitpointsMax base toughness=7 wounds=7 -->
+                <hitpointsMax base="56.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=7 wounds=7 -->
                 <meleeAttacks base="2"/>
                 <oreCost base="80.0"/> <!-- %oreCost base tier=10 factor=0.5 -->
                 <oreUpkeep base="8.0"/> <!-- %oreUpkeep base tier=10 factor=1 -->
