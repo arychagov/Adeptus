@@ -58,7 +58,7 @@
     <entry name="Tyranids/Prosperity" value="Prosperity"/>
     <entry name="Tyranids/ProsperityDescription" value="Increases city growth"/>
     <!-- End of Prosperity -->
-    <entry name="VehicleDescription" value="Negates the penalty for heavy and ordnance weapons. Increases the movement penalty in forests and imperial ruins. Missing hit points reduces accuracy and movement."/>
+    <entry name="VehicleDescription" value="Negates the penalty for heavy and ordnance weapons. Increases the movement penalty in forests and imperial ruins. Missing hit points reduces accuracy and movement if has more than one model in group."/>
     <entry name="VehicleDamaged" value="Missing 33% hit points"/>
     <entry name="VehicleDamagedDescription" value="Reduces the accuracy."/>
     <entry name="VehicleHeavilyDamaged" value="Missing 66% hit points"/>

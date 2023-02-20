@@ -196,5 +196,6 @@
         <trait name="ExtraVehicleArmour" requiredUpgrade="SistersOfBattle/ExtraVehicleArmour"/>
         <trait name="Vehicle"/>
         <trait name="Walker"/>
+        <trait name="MultimodelVehicle"/>
     </traits>
 </unit>

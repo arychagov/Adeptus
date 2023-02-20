@@ -121,5 +121,6 @@
         <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand"/>
         <trait name="Skimmer"/>
         <trait name="Vehicle"/>
+        <trait name="MultimodelVehicle"/>
     </traits>
 </unit>

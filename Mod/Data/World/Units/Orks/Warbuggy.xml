@@ -82,5 +82,6 @@
         <trait name="OrkoidFungusBonusHealingRate" requiredUpgrade="Orks/OrkoidFungusBonusHealingRate"/>
         <trait name="Orks/Scavenger"/>
         <trait name="Vehicle"/>
+        <trait name="MultimodelVehicle"/>
     </traits>
 </unit>

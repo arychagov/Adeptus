@@ -164,6 +164,7 @@
         <trait name="OpenTopped"/>
         <trait name="TrainedSentinelPilots" requiredUpgrade="AstraMilitarum/TrainedSentinelPilots"/>
         <trait name="Vehicle"/>
+        <trait name="MultimodelVehicle"/>
         <trait name="Walker"/>
     </traits>
 </unit>
