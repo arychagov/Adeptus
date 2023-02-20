@@ -284,18 +284,6 @@
             <model>
                 <action sound="Actions/ActivateWebwayGate"/>
             </model>
-            <modifiers>
-                <modifier visible="0">
-                    <effects>
-                        <influenceCost base="10"/>
-                    </effects>
-                </modifier>
-                <modifier requiredUpgrade="Eldar/WebwayGateBonus">
-                    <effects>
-                        <influenceCost mul="-1.0"/>
-                    </effects>
-                </modifier>
-            </modifiers>
             <beginTargets>
                 <target rangeMax="-1">
                     <conditions>
