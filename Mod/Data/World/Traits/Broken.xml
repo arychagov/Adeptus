@@ -21,7 +21,7 @@
                 </unit>
             </conditions>
             <effects>
-                <damageTaken mul="0.33"/>
+                <damageTaken mul="0.25"/>
             </effects>
         </modifier>
     </modifiers>
