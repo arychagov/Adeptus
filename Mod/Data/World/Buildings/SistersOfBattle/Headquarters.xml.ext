@@ -3,4 +3,9 @@
     <traits>
         <trait name="SistersOfBattle/Prosperity" requiredUpgrade="SistersOfBattle/Construction"/>
     </traits>
+	<actions>
+		<produceUnit unit="SistersOfBattle/Canoness" requiredUpgrade="SistersOfBattle/Canoness"/>
+		<produceUnit unit="SistersOfBattle/Dialogus" requiredUpgrade="SistersOfBattle/Dialogus"/>
+		<produceUnit unit="SistersOfBattle/SaintCelestine" requiredUpgrade="SistersOfBattle/SaintCelestine"/>
+    </actions>
 </building>

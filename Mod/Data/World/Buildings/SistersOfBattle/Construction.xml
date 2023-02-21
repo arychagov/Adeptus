@@ -53,7 +53,6 @@
         <constructBuilding building="SistersOfBattle/Loyalty"/>
         <constructBuilding building="SistersOfBattle/Housing"/>
         <constructBuilding building="SistersOfBattle/Infantry"/>
-        <constructBuilding building="SistersOfBattle/Heroes" requiredUpgrade="SistersOfBattle/Heroes"/>
         <constructBuilding building="SistersOfBattle/Vehicles" requiredUpgrade="SistersOfBattle/Vehicles"/>
         <constructBuilding building="SistersOfBattle/Auxiliaries" requiredUpgrade="SistersOfBattle/Auxiliaries"/>
         <constructBuilding building="SistersOfBattle/Construction" requiredUpgrade="SistersOfBattle/Construction"/>

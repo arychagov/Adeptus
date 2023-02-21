@@ -81,4 +81,8 @@
     <entry name="ChaosSpaceMarines/ChaosLordFlavor" value="A Chaos Lord is a tyrannical warrior king who lives to bathe in the blood of worlds. He strives to bring whole star systems to their knees in the name of his patron deities. Typified by merciless ambition and fierce pride, many of these champions of disorder were once noble Chapter Masters and Captains of the Adeptus Astartes, but long years of unremitting war have twisted their souls beyond recovery."/>
 	<entry name="ChaosSpaceMarines/HavocLauncherDescription" value="Grants Chaos Rhinos, Maulerfiend, Forgefiend and Chaos Land Raiders a mid-range blast weapon."/>
 
+    <entry name="SistersOfBattle/Canoness" value="Canoness"/>
+	<entry name="SistersOfBattle/CanonessDescription" value="Witch-seeking powerful hero unit that leads infantry into battle."/>
+	<entry name="SistersOfBattle/CanonessFlavor" value="A Canoness is the overall commander of one of the Orders Militant, a shining example of purity and dedication of purpose. Each is a veteran warrior of many hundreds of battles who has risen to her position through a combination of strong leadership, shrewd tactical genius and sheer overarching faith in the Emperor. When the Ecclesiarchy sounds the call to arms, a Canoness boldly leads her warriors into the fray, refusing to take one step backwards whilst her enemies still draw breath."/>
+
 </language>
