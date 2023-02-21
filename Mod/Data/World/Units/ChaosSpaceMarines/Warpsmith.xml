@@ -128,25 +128,22 @@
                         beginFire="1"/>
             </model>
         </throwGrenade>
-        <masterOfMechanisms cooldown="1"
-                            name="ChaosSpaceMarines/MasterOfMechanisms"
-                            rank="-1"
-                            rankMax="2">
+        <boonOfMutation cooldownMin="4"
+                        cooldownMax="2"
+                        name="ChaosSpaceMarines/BoonOfMutation"
+                        rank="-1"
+                        rankMax="2">
             <model>
                 <action animation="Units/ChaosSpaceMarines/WarpsmithAbility"
-                        sound="Actions/Heal"/>
+                        sound="Actions/ChaosBuff"/>
             </model>
             <beginTargets>
-                <target rangeMin="1" rangeMax="1">
+                <target rangeMax="1">
                     <conditions>
                         <unit>
                             <allied/>
-                            <faction name="ChaosSpaceMarines"/>
-                            <damaged/>
-                        </unit>
-                        <unit match="Any">
-                            <trait name="Fortification"/>
-                            <trait name="Vehicle"/>
+                            <trait name="ChaosSpaceMarines/ChampionOfChaos"/>
+                            <missingBoonOfChaos/>
                         </unit>
                     </conditions>
                     <areas>
@@ -154,7 +151,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints addMin="8" addMax="24"/>
+                                        <addRandomBoonOfChaos/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -162,9 +159,10 @@
                     </areas>
                 </target>
             </beginTargets>
-        </masterOfMechanisms>
-        <shatterDefences cooldownMin="3"
-                         cooldownMax="1"
+        </boonOfMutation>
+        <shatterDefences cooldown="3"
+                         consumedActionPoints="0"
+                         consumedMovement="1"
                          name="ChaosSpaceMarines/ShatterDefences"
                          rank="-1"
                          rankMax="2">
@@ -174,12 +172,21 @@
             </model>
             <beginTargets>
                 <target rangeMax="2">
+                    <conditions>
+                        <unit>
+                            <enemy/>
+                        </unit>
+                        <unit match="Any">
+                            <trait name="Vehicle"/>
+                            <trait name="Fortification"/>
+                        </unit>
+                    </conditions>
                     <areas>
-                        <area affects="Tile">
+                        <area affects="Unit">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature name="ShatterDefences" duration="3"/>
+                                        <addTrait name="ChaosSpaceMarines/ShatterDefences"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
