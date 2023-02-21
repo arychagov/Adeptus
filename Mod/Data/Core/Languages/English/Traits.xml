@@ -179,9 +179,15 @@
     <entry name="EnhancedStealth" value="Enhanced Stealth"/>
     <entry name="EnhancedStealthDescription" value="Increases the ranged damage reduction while in forest or imperial ruins."/>
 
-    <entry name="Orks/BoltDamageDescription" value="<string name='Traits/AstraMilitarum/BoltDamageDescription'/>"/>
+    <entry name="Orks/BoltDamageDescription" value="Increases the armour penetration of bolt weapons."/>
 	<entry name="SpaceMarines/BoltDamage" value="Kraken Bolts"/>
 	<entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons."/>
 	<entry name="SpaceMarines/BoltDamageFlavor" value="<string name='Traits/AstraMilitarum/BoltDamageFlavor'/>"/>
 
+    <entry name="ChaosSpaceMarines/LordOfChaos" value="<string name='Actions/ChaosSpaceMarines/LordOfChaos'/>"/>
+    <entry name="ChaosSpaceMarines/LordOfChaosDescription" value="Increases the damage reduction and melee attacks."/>
+    <entry name="ChaosSpaceMarines/LordOfChaosFlavor" value="<string name='Actions/ChaosSpaceMarines/LordOfChaosFlavor'/>"/>
+    <entry name="ChaosSpaceMarines/DeathEcstasy" value="<string name='Actions/ChaosSpaceMarines/DeathEcstasy'/>"/>
+    <entry name="ChaosSpaceMarines/DeathEcstasyDescription" value="Increases damage output."/>
+    <entry name="ChaosSpaceMarines/DeathEcstasyFlavor" value="<string name='Actions/ChaosSpaceMarines/DeathEcstasyFlavor'/>"/>
 </language>

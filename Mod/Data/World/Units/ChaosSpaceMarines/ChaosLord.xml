@@ -136,37 +136,7 @@
                         beginFire="0.63"/>
             </model>
         </throwGrenade>
-        <ichorBlood cooldown="2"
-                    name="ChaosSpaceMarines/IchorBlood"
-                    rank="-1"
-                    rankMax="2"
-                    requiredActionPoints="0"
-                    consumedActionPoints="0"
-                    consumedMovement="0">
-            <model>
-                <action animation="Units/ChaosSpaceMarines/ChaosLordAbility"
-                        sound="Actions/ChaosBuff"/>
-            </model>
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="ChaosSpaceMarines/IchorBlood" duration="1"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-        </ichorBlood>
-        <genericUnitAbility name="ChaosSpaceMarines/WorthyOffering"
-                            passive="1"
-                            rank="-1"
-                            rankMax="2">
+        <genericUnitAbility name="ChaosSpaceMarines/WorthyOffering" passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -203,38 +173,97 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <exaltedStrike cooldown="3"
-                       elite="1"
-                       levelUpPriority="1"
-                       name="ChaosSpaceMarines/ExaltedStrike"
-                       rank="-1"
-                       rankMax="0"
-                       weaponSlotName="ThunderHammer">
-            <model>
-                <action chargeAnimation="Units/ChaosSpaceMarines/ChaosLordAbilityCharge"
-                        meleeAnimation="Units/ChaosSpaceMarines/ChaosLordAbilityMelee"
-                        meleeBeginSwing="0.5"
-                        meleeEndSwing="0.67"
-                        bone="Bone001"/>
-            </model>
-            <modifiers>
-                <modifier>
-                    <effects>
-                        <accuracy mul="1.5"/>
-                    </effects>
-                </modifier>
-            </modifiers>
+        <genericUnitAbility name="ChaosSpaceMarines/LordOfChaos"
+                            icon="Units/ChaosSpaceMarines/ChaosLord"
+                            passive="1"
+                            rank="-1"
+                            rankMax="2">
             <beginTargets>
-                <target>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile" radius="1" excludeRadius="0">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="ChaosSpaceMarines/LordOfChaos"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
+        <ichorBlood passive="1"
+                    name="ChaosSpaceMarines/IchorBlood"
+                    rank="-1"
+                    rankMax="2">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile" radius="1" excludeRadius="0">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="ChaosSpaceMarines/IchorBlood"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </ichorBlood>
+        <genericUnitAbility name="ChaosSpaceMarines/DeathEcstasy"
+                            icon="Actions/ChaosSpaceMarines/IconOfVengeance"
+                            elite="1"
+                            cooldown="10"
+                            rank="-1"
+                            rankMax="0">
+            <beginTargets>
+                <target rangeMax="1" excludeRadius="0">
                     <conditions>
                         <unit>
-                            <enemy/>
-                            <hitpointsFraction less="0.5"/>
+                            <allied/>
                         </unit>
                     </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <removeUnit/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
                 </target>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit" radius="2">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <morale add="99"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <hitpoints add="99"/>
+                                        <addTrait duration="3" name="ChaosSpaceMarines/DeathEcstasy"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
             </beginTargets>
-        </exaltedStrike>
+        </genericUnitAbility>
         <levelUp/>
         <shop/>
     </actions>

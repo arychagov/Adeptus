@@ -84,4 +84,12 @@
     <entry name="Tau/BreakComposureDescription" value="Increases ranged attacks of nearby heroes, cities, Fire Warriors, Pathfinders, Krootox Riders and drones."/>
     <entry name="Tau/BreakComposureFlavor" value="Though not physically impressive, the T’au can inculcate fear in their enemies through subtler means—by harrying them so that they can’t focus, by surrounding them, by forcing them down tactical paths that only lead to repeated failure. Sometimes you don’t need to even touch an enemy to defeat them."/>
 
+	<entry name="ChaosSpaceMarines/WorthyOfferingDescription" value="Increases the chance that nearby allied Champions of Chaos receive a Boon of Chaos."/>
+	<entry name="ChaosSpaceMarines/DarkGloryDescription" value=""/>
+    <entry name="ChaosSpaceMarines/LordOfChaos" value="Lord Of Chaos"/>
+    <entry name="ChaosSpaceMarines/LordOfChaosDescription" value="Increases the damage reduction and melee attacks of adjacent Khorne Berzerkers, Chaos Cultists, Warp Talons and Chaos Spawns."/>
+    <entry name="ChaosSpaceMarines/LordOfChaosFlavor" value="”I murdered thousands for the Emperor and He gave me nothing except His damning silence. Now His lapdogs yap for every life I take, while the gods promise me the galaxy.”<br/>  —  Renegade Wolf Lord Svane Vulfbad"/>
+    <entry name="ChaosSpaceMarines/DeathEcstasy" value="Death Ecstasy"/>
+    <entry name="ChaosSpaceMarines/DeathEcstasyDescription" value="Sacrifices adjacent unit to fully restore Lord's health and morale of nearby units. Temporary increases Lord's damage output."/>
+    <entry name="ChaosSpaceMarines/DeathEcstasyFlavor" value="Death is but another thrilling experience, and the Emperor’s Children are loathe to deny the enemy such vistas of ecstatic sensation."/>
 </language>
