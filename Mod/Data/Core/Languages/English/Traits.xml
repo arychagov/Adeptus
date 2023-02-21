@@ -195,4 +195,17 @@
 	<entry name="ChaosSpaceMarines/BloatedWithLifestealFlavor" value="Though Nurgle’s cursed diseases rot a man both physically and spiritually, they also imbue their subjects decaying flesh with inhuman resilience. To such bloated forms, spreading their pox can often bring with it minor blessings from the plague God."/>
 	<entry name="ChaosSpaceMarines/IconOfDespairDescription" value="Increases the melee damage reduction."/>
 	<entry name="ChaosSpaceMarines/ShatterDefencesDescription" value="Reduces armour and movement."/>
+    <entry name="ChaosSpaceMarines/NurgleCorruption" value="Nurgle Corruption"/>
+    <entry name="ChaosSpaceMarines/NurgleCorruptionDescription" value="Reduces armour."/>
+    <entry name="ChaosSpaceMarines/NurgleCorruptionFlavor" value="From the germ of an idea may grow the most perfect plagues."/>
+    <entry name="ChaosSpaceMarines/KhorneCorruption" value="Khorne Corruption"/>
+    <entry name="ChaosSpaceMarines/KhorneCorruptionDescription" value="Increases damage and attacks."/>
+    <entry name="ChaosSpaceMarines/KhorneCorruptionFlavor" value="The infernal armouries of Khorne’s daemon legions overflow with macabre artefacts of unbridled slaughter."/>
+    <entry name="ChaosSpaceMarines/TzeentchCorruption" value="Tzeentch Corruption"/>
+    <entry name="ChaosSpaceMarines/TzeentchCorruptionDescription" value="Gains research when the Daemon Prince gains experience from combat."/>
+    <entry name="ChaosSpaceMarines/TzeentchCorruptionFlavor" value="Arcane knowledge and mystical power have ever been the domain of Tzeentch and his minions."/>
+    <entry name="ChaosSpaceMarines/SlaaneshCorruption" value="Slaanesh Corruption"/>
+    <entry name="ChaosSpaceMarines/SlaaneshCorruptionDescription" value="Grants Daemon Prince flying ability, increases the movement, the accuracy and the invulnerable damage reduction."/>
+    <entry name="ChaosSpaceMarines/SlaaneshCorruptionFlavor" value="The greatest of Slaanesh’s daemons move with an idealised grace and agility rendered hideous by its sheer precision and impossibility."/>
+
 </language>

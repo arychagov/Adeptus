@@ -94,4 +94,17 @@
     <entry name="ChaosSpaceMarines/DeathEcstasyFlavor" value="Death is but another thrilling experience, and the Emperor’s Children are loathe to deny the enemy such vistas of ecstatic sensation."/>
 	<entry name="ChaosSpaceMarines/IconOfDespairDescription" value="Icon of Chaos that increases the melee damage reduction to a unit with Mark of Nurgle."/>
 	<entry name="ChaosSpaceMarines/ShatterDefencesDescription" value="Reduces movement and armour of target enemy vehicle or fortification."/>
+    <entry name="ChaosSpaceMarines/NurgleCorruption" value="Nurgle Corruption"/>
+    <entry name="ChaosSpaceMarines/NurgleCorruptionDescription" value="Increases hitpoints and reduces nearby enemy units armour."/>
+    <entry name="ChaosSpaceMarines/NurgleCorruptionFlavor" value="From the germ of an idea may grow the most perfect plagues."/>
+    <entry name="ChaosSpaceMarines/KhorneCorruption" value="Khorne Corruption"/>
+    <entry name="ChaosSpaceMarines/KhorneCorruptionDescription" value="Increases damage and attacks."/>
+    <entry name="ChaosSpaceMarines/KhorneCorruptionFlavor" value="The infernal armouries of Khorne’s daemon legions overflow with macabre artefacts of unbridled slaughter."/>
+    <entry name="ChaosSpaceMarines/TzeentchCorruption" value="Tzeentch Corruption"/>
+    <entry name="ChaosSpaceMarines/TzeentchCorruptionDescription" value="Gains research when the Daemon Prince gains experience from combat."/>
+    <entry name="ChaosSpaceMarines/TzeentchCorruptionFlavor" value="Arcane knowledge and mystical power have ever been the domain of Tzeentch and his minions."/>
+    <entry name="ChaosSpaceMarines/SlaaneshCorruption" value="Slaanesh Corruption"/>
+    <entry name="ChaosSpaceMarines/SlaaneshCorruptionDescription" value="Grants Daemon Prince flying ability, increases the movement, the accuracy and the invulnerable damage reduction."/>
+    <entry name="ChaosSpaceMarines/SlaaneshCorruptionFlavor" value="The greatest of Slaanesh’s daemons move with an idealised grace and agility rendered hideous by its sheer precision and impossibility."/>
+
 </language>
