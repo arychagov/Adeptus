@@ -130,6 +130,9 @@
                         <unit>
                             <allied/>
                             <faction name="AdeptusMechanicus"/>
+                            <noTrait name="Vehicle"/>
+                            <noTrait name="Fortification"/>
+                            <noTrait name="MonstrousCreature"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -189,6 +192,9 @@
                                         <unit>
                                             <allied/>
                                             <faction name="AdeptusMechanicus"/>
+                                            <noTrait name="Vehicle"/>
+                                            <noTrait name="Fortification"/>
+                                            <noTrait name="MonstrousCreature"/>
                                         </unit>
                                     </conditions>
                                     <effects>
