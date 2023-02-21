@@ -245,7 +245,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <morale add="99"/>
+                                        <morale add="100"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -254,7 +254,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints add="99"/>
+                                        <hitpointsFactorFromMax add="1.0"/>
                                         <addTrait duration="3" name="ChaosSpaceMarines/DeathEcstasy"/>
                                     </effects>
                                 </modifier>
