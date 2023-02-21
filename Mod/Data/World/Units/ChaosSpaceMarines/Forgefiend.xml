@@ -30,7 +30,7 @@
                 <!-- <meleeInitiative base="4"/> -->
                 <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
                 <movementMax base="3"/>
-                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <rangedAccuracy base="7"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
                 <productionCost base="51.0"/> <!-- %productionCost base tier=9 factor=1 -->
                 <oreUpkeep base="5.0"/> <!-- %oreUpkeep base tier=9 factor=1 -->
                 <oreCost base="100.0"/> <!-- %oreCost base tier=9 factor=1 -->

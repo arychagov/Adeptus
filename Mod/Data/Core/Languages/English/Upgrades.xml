@@ -22,7 +22,7 @@
     <entry name="SpaceMarines/CityTier4Description" value="Increases the tile acquisition radius and gives Thunderfire Cannons and Fortresses of Redemption ability to increase the ranged damage reduction of the target tile. Increases the city damage reduction of Fortresses of Redemption."/>
     <entry name="SpaceMarines/PredatorLascannonDescription" value="Grants Fortresses of Redemption Twin-Linked Lascannon. Grants Predators, Vindicators and Aquila Macro-Cannons extra Heavy Bolters."/>
     <entry name="SpaceMarines/OmniscopeDescription" value="Grants Kill Team Eliminators, Predators, Terminators and Devastator Centurions the ability to bypass ranged damaged reduction."/>
-	<entry name="SpaceMarines/FortressOfRedemptionDamageReductionDescription" value="Grants Fortresses of Redemption heavy bolter and additional armor."/>
+    <entry name="SpaceMarines/FortressOfRedemptionDamageReductionDescription" value="Grants Fortresses of Redemption heavy bolter and additional armor."/>
 
     <entry name="Necrons/LivingMetal2" value="Undying Revenants"/>
     <entry name="Necrons/LivingMetal2Description" value="Increases the healing of Reanimation Protocols and Living Metal."/>
@@ -70,7 +70,14 @@
     <entry name="AstraMilitarum/TechpriestEnginseerDescription" value="Infantry unit that supports vehicles, clears tiles and founds new cities."/>
     <entry name="AstraMilitarum/TechpriestEnginseerFlavor" value="Tech-Priest Enginseers serve as custodians for the vehicles of the Imperial Guard. With binary prayers and mystic rites, the Enginseers soothe the machine spirits of their tracked congregation. Without the diligent maintenance of the Enginseers, the Imperial Guard would soon find themselves without the heavy armour vital to their very survival."/>
 
-	<entry name="Orks/BoltDamageDescription" value="Increases the armour penetration of bolt weapons."/>
-	<entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons."/>
+    <entry name="Orks/BoltDamageDescription" value="Increases the armour penetration of bolt weapons."/>
+    <entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons."/>
+
+    <entry name="ChaosSpaceMarines/BloatedWithLifesteal" value="<string name='Traits/ChaosSpaceMarines/BloatedWithLifesteal'/>"/>
+    <entry name="ChaosSpaceMarines/BloatedWithLifestealDescription" value="Grants Champions of Chaos life steal."/>
+    <entry name="ChaosSpaceMarines/BloatedWithLifestealFlavor" value="<string name='Traits/ChaosSpaceMarines/BloatedWithLifestealFlavor'/>"/>
+    <entry name="ChaosSpaceMarines/ChaosLord" value="Chaos Lord"/>
+    <entry name="ChaosSpaceMarines/ChaosLordDescription" value="Hero unit that returns damage to attackers and slays units low on hitpoints."/>
+    <entry name="ChaosSpaceMarines/ChaosLordFlavor" value="A Chaos Lord is a tyrannical warrior king who lives to bathe in the blood of worlds. He strives to bring whole star systems to their knees in the name of his patron deities. Typified by merciless ambition and fierce pride, many of these champions of disorder were once noble Chapter Masters and Captains of the Adeptus Astartes, but long years of unremitting war have twisted their souls beyond recovery."/>
 
 </language>

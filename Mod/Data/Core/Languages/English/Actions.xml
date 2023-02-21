@@ -92,4 +92,5 @@
     <entry name="ChaosSpaceMarines/DeathEcstasy" value="Death Ecstasy"/>
     <entry name="ChaosSpaceMarines/DeathEcstasyDescription" value="Sacrifices adjacent unit to fully restore Lord's health and morale of nearby units. Temporary increases Lord's damage output."/>
     <entry name="ChaosSpaceMarines/DeathEcstasyFlavor" value="Death is but another thrilling experience, and the Emperor’s Children are loathe to deny the enemy such vistas of ecstatic sensation."/>
+	<entry name="ChaosSpaceMarines/IconOfDespairDescription" value="Icon of Chaos that increases the melee damage reduction to a unit with Mark of Nurgle."/>
 </language>

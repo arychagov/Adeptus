@@ -286,6 +286,7 @@
     </actions>
     <traits>
         <trait name="ChaosSpaceMarines/ChampionOfChaos"/>
+        <trait name="ChaosSpaceMarines/BloatedWithLifesteal" requiredUpgrade="ChaosSpaceMarines/BloatedWithLifesteal"/>
         <trait name="Daemon"/>
         <trait name="ExtraInfantryArmour" requiredUpgrade="ChaosSpaceMarines/ExtraInfantryArmour"/>
         <trait name="Hero"/>
