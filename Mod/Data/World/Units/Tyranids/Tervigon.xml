@@ -44,7 +44,7 @@
                 <meleeAttacks base="2"/>
                 <strengthDamage base="2"/> <!-- %strengthDamage base strength=5 -->
                 <moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
-                <movementMax base="3"/>
+                <movementMax base="2"/>
                 <productionCost base="48.0"/> <!-- %productionCost base tier=8 factor=1 -->
                 <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>
@@ -263,7 +263,7 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radiusMin="1" radiusMax="3">
+                        <area affects="Tile" radius="2">
                             <modifiers>
                                 <modifier>
                                     <effects>

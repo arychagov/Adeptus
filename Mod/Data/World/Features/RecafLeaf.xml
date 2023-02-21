@@ -18,13 +18,21 @@
     <modifiers>
         <modifier>
             <effects>
-                <biomass mul="0.1"/>
                 <biomass add="1"/>
                 <buildingSlots max="0"/>
-                <influence mul="0.1"/>
                 <influence add="1"/>
                 <food mul="0.1"/>
                 <food add="1"/>
+            </effects>
+        </modifier>
+        <modifier>
+            <conditions>
+                <player>
+                    <noFaction name="Tyranids"/>
+                </player>
+            </conditions>
+            <effects>
+                <influence mul="0.1"/>
             </effects>
         </modifier>
         <modifier>
