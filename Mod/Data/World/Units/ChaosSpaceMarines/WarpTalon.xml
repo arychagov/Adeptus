@@ -137,7 +137,7 @@
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait duration="1" name="Blind"/>
+                                        <addTrait duration="1" name="Concussion"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
