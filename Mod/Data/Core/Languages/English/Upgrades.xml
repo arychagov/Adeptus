@@ -11,7 +11,8 @@
     <entry name="SpaceMarines/SiegeManeuversFlavor" value="A measured advance allows Thunderfire Cannons to unleash a steady stream of fire."/>
     <entry name="SpaceMarines/DozerBladeDescription" value="Reduces the movement penalty for Hunters, Predators and Razorbacks in forests and imperial ruins. Increases Vindicators armor."/>
     <entry name="SpaceMarines/TeleportHomerDescription" value="Causes orbital deployment to not consume action points when deploying Terminators adjacent to Tactical Space Marines, Scout Bikers or Stormraven Gunships."/>
-    <entry name="SpaceMarines/HurricaneBolterDescription" value="Grants Stormraven Gunships a hurricane bolter. Grants city, Fortresses of Redemption, Razorbacks and Predators a heavy bolter."/>
+    <entry name="SpaceMarines/HurricaneBolter" value="Extra Bolters"/>
+    <entry name="SpaceMarines/HurricaneBolterDescription" value="Grants Stormraven Gunships a hurricane bolter. Grants city, Fortresses of Redemption and Predators a heavy bolter. Grants Razorbacks storm bolter."/>
     <entry name="SpaceMarines/DevastatorDoctrineDescription" value="Chapter tactic that increases the accuracy of Kill Team Eliminators and Devastator Centurions. Grants Kill Team Eliminators ability to cycle between sniper rifle and las cannon."/>
     <entry name="SpaceMarines/ExtraVehicleArmourDescription" value="Increases the armour of vehicles. Grants ground vehicles the ability to launch a smoke screen that increases the ranged damage reduction."/>
     <entry name="SpaceMarines/ScoutBiker" value="<string name='Units/SpaceMarines/ScoutBiker'/>"/>

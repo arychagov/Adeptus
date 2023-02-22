@@ -30,7 +30,7 @@
                                fireInterval="5.0"/>
             </model>
         </weapon>
-        <weapon name="HeavyBolter" requiredUpgrade="SpaceMarines/HurricaneBolter">
+        <weapon name="StormBolter" requiredUpgrade="SpaceMarines/HurricaneBolter">
         </weapon>
     </weapons>
     <modifiers>
