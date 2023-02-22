@@ -158,7 +158,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpointsMax addMin="2" addMax="6"/>
+                                        <addTrait name="ChaosSpaceMarines/NurgleCorruptionSelf"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
