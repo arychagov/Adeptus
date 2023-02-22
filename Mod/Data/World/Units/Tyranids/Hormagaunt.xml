@@ -11,7 +11,7 @@
               bloodBone="BloodBone"
               walker="1"/>
     </model>
-    <group size="10" rowSize="4" memberDeltaX="90" memberDeltaY="50"/>
+    <group size="8" rowSize="4" memberDeltaX="90" memberDeltaY="50"/>
     <weapons>
         <weapon name="ScythingTalons">
             <model>
