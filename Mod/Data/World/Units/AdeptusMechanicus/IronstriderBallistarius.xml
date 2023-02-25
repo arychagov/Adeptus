@@ -13,12 +13,12 @@
               walker="1"/>
     </model>
     <weapons>
-        <weapon name="TwinLinkedCognisAutocannon">
+        <weapon name="TwinLinkedCognisAutocannon" slotName="TwinLinkedCognisAutocannon">
             <model>
                 <projectileWeapon muzzleBone="Muzzle" muzzleCount="2"/>
             </model>
         </weapon>
-        <weapon name="Lascannon" enabled="0"/>
+        <weapon name="Lascannon" slotName="Lascannon" enabled="0"/>
         <weapon name="CognisHeavyStubber" count="1" requiredUpgrade="AdeptusMechanicus/CognisHeavyStubber"/>
         <weapon name="None" requiredUpgrade="AdeptusMechanicus/BroadSpectrumDataTether" enabled="0">
             <model>
