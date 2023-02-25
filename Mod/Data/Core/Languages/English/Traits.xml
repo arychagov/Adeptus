@@ -147,6 +147,9 @@
     <entry name="Necrons/QuantumDeflectionWeakFlavor" value="<string name='Traits/Necrons/QuantumDeflectionFlavor'/>" />
     <entry name="Necrons/AggressionOverridesDescription" value="Increases Canoptek Spyder's hit points, armour penetration and damage." />
     <entry name="Necrons/AggressionOverridesFlavor" value="Canoptek Spyders are generally docile creatures, diligently maintaining their tomb complex. However, when roused to battle, their aggression engrams ensure they are truly formidable foes." />
+    <entry name="Necrons/ReanimationProtocolsWarrior" value="Reanimation Protocols"/>
+    <entry name="Necrons/ReanimationProtocolsWarriorDescription" value="Restores hitpoints each turn."/>
+    <entry name="Necrons/ReanimationProtocolsWarriorFlavor" value="Necrons have sophisticated self-repair systems that return even critically damaged warriors to the fight."/>
 
     <entry name="Fright" value="Fright" />
     <entry name="FrightDescription" value="Reduces the morale each turn." />
