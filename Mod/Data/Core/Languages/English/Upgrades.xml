@@ -90,4 +90,19 @@
     <entry name="SistersOfBattle/CanonessDescription" value="Witch-seeking powerful hero unit that leads infantry into battle." />
     <entry name="SistersOfBattle/CanonessFlavor" value="A Canoness is the overall commander of one of the Orders Militant, a shining example of purity and dedication of purpose. Each is a veteran warrior of many hundreds of battles who has risen to her position through a combination of strong leadership, shrewd tactical genius and sheer overarching faith in the Emperor. When the Ecclesiarchy sounds the call to arms, a Canoness boldly leads her warriors into the fray, refusing to take one step backwards whilst her enemies still draw breath." />
 
+    <entry name="Eldar/CityTier2Description" value="Increases the tile acquisition radius." />
+    <entry name="Eldar/CityTier3Description" value="Increases the tile acquisition radius." />
+    <entry name="Tau/CityTier2Description" value="Increases the tile acquisition radius." />
+    <entry name="Tau/CityTier3Description" value="Increases the tile acquisition radius." />
+    <entry name="ChaosSpaceMarines/CityTier2Description" value="Increases the tile acquisition radius." />
+    <entry name="ChaosSpaceMarines/CityTier3Description" value="Increases the tile acquisition radius." />
+    <entry name="AdeptusMechanicus/CityTier2Description" value="Increases the tile acquisition radius." />
+    <entry name="AdeptusMechanicus/CityTier3Description" value="Increases the tile acquisition radius." />
+    <entry name="Tyranids/CityTier2Description" value="Increases the tile acquisition radius." />
+    <entry name="Tyranids/CityTier3Description" value="Increases the tile acquisition radius." />
+    <entry name="SistersOfBattle/CityTier2Description" value="Increases the tile acquisition radius." />
+    <entry name="SistersOfBattle/CityTier3Description" value="Increases the tile acquisition radius." />
+    <entry name="Necrons/CityTier2Description" value="Increases the tile acquisition radius." />
+    <entry name="Necrons/CityTier3Description" value="Increases the tile acquisition radius." />
+
 </language>
