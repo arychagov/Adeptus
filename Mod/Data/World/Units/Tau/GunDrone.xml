@@ -22,8 +22,11 @@
         <modifier visible="0">
             <effects>
                 <armor base="6"/> <!-- %armor base armor=4+ -->
-                <hitpointsMax base="2.0"/>
-                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
+                <energyCost base="10.0"/> <!-- %energyCost base tier=4 factor=0.5 -->
+                <oreUpkeep base="1.0"/> <!-- %oreUpkeep base tier=4 factor=1 -->
+                <oreCost base="10.0"/> <!-- %oreCost base tier=4 factor=0.5 -->
+                <productionCost base="24.0"/> <!-- %productionCost base tier=4 factor=1 -->
+                <hitpointsMax base="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
                 <meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
                 <meleeAttacks base="1"/>
                 <strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
