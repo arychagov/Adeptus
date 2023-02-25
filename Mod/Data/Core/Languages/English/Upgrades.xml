@@ -1,91 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-    <entry name="SpaceMarines/Techmarine" value="<string name='Units/SpaceMarines/Techmarine'/>"/>
-    <entry name="SpaceMarines/TechmarineDescription" value="<string name='Units/SpaceMarines/TechmarineDescription'/>"/>
-    <entry name="SpaceMarines/TechmarineFlavor" value="<string name='Units/SpaceMarines/TechmarineFlavor'/>"/>
-    <entry name="SpaceMarines/KillTeamEliminators" value="<string name='Units/SpaceMarines/KillTeamEliminators'/>"/>
-    <entry name="SpaceMarines/KillTeamEliminatorsDescription" value="<string name='Units/SpaceMarines/KillTeamEliminatorsDescription'/>"/>
-    <entry name="SpaceMarines/KillTeamEliminatorsFlavor" value="<string name='Units/SpaceMarines/KillTeamEliminatorsFlavor'/>"/>
-    <entry name="SpaceMarines/SiegeManeuvers" value="Siege Maneuvers"/>
-    <entry name="SpaceMarines/SiegeManeuversDescription" value="Grants Thunderfire Cannon ability to ignore penalty for firing heavy weapons after movement. Increases Thunderfire Cannon and Scout Bikers hit points. Increases Scout Bikers armour."/>
-    <entry name="SpaceMarines/SiegeManeuversFlavor" value="A measured advance allows Thunderfire Cannons to unleash a steady stream of fire."/>
-    <entry name="SpaceMarines/DozerBladeDescription" value="Reduces the movement penalty for Hunters, Predators and Razorbacks in forests and imperial ruins. Increases Vindicators armor."/>
-    <entry name="SpaceMarines/TeleportHomerDescription" value="Causes orbital deployment to not consume action points when deploying Terminators adjacent to Tactical Space Marines, Scout Bikers or Stormraven Gunships."/>
-    <entry name="SpaceMarines/HurricaneBolter" value="Extra Bolters"/>
-    <entry name="SpaceMarines/HurricaneBolterDescription" value="Grants Stormraven Gunships a hurricane bolter. Grants city, Fortresses of Redemption and Predators a heavy bolter. Grants Razorbacks storm bolter."/>
-    <entry name="SpaceMarines/DevastatorDoctrineDescription" value="Chapter tactic that increases the accuracy of Kill Team Eliminators and Devastator Centurions. Grants Kill Team Eliminators ability to cycle between sniper rifle and las cannon."/>
-    <entry name="SpaceMarines/ExtraVehicleArmourDescription" value="Increases the armour of vehicles. Grants ground vehicles the ability to launch a smoke screen that increases the ranged damage reduction."/>
-    <entry name="SpaceMarines/ScoutBiker" value="<string name='Units/SpaceMarines/ScoutBiker'/>"/>
-    <entry name="SpaceMarines/ScoutBikerDescription" value="<string name='Units/SpaceMarines/ScoutBikerDescription'/>"/>
-    <entry name="SpaceMarines/ScoutBikerFlavor" value="<string name='Units/SpaceMarines/ScoutBikerFlavor'/>"/>
-    <entry name="SpaceMarines/CityTier2Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption."/>
-    <entry name="SpaceMarines/CityTier3Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption."/>
-    <entry name="SpaceMarines/CityTier4Description" value="Increases the tile acquisition radius and gives Thunderfire Cannons and Fortresses of Redemption ability to increase the ranged damage reduction of the target tile. Increases the city damage reduction of Fortresses of Redemption."/>
-    <entry name="SpaceMarines/PredatorLascannonDescription" value="Grants Fortresses of Redemption Twin-Linked Lascannon. Grants Predators, Vindicators and Aquila Macro-Cannons extra Heavy Bolters."/>
-    <entry name="SpaceMarines/OmniscopeDescription" value="Grants Kill Team Eliminators, Predators, Terminators and Devastator Centurions the ability to bypass ranged damaged reduction."/>
-    <entry name="SpaceMarines/FortressOfRedemptionDamageReductionDescription" value="Grants Fortresses of Redemption heavy bolter and additional armor."/>
+    <entry name="SpaceMarines/Techmarine" value="<string name='Units/SpaceMarines/Techmarine'/>" />
+    <entry name="SpaceMarines/TechmarineDescription" value="<string name='Units/SpaceMarines/TechmarineDescription'/>" />
+    <entry name="SpaceMarines/TechmarineFlavor" value="<string name='Units/SpaceMarines/TechmarineFlavor'/>" />
+    <entry name="SpaceMarines/KillTeamEliminators" value="<string name='Units/SpaceMarines/KillTeamEliminators'/>" />
+    <entry name="SpaceMarines/KillTeamEliminatorsDescription" value="<string name='Units/SpaceMarines/KillTeamEliminatorsDescription'/>" />
+    <entry name="SpaceMarines/KillTeamEliminatorsFlavor" value="<string name='Units/SpaceMarines/KillTeamEliminatorsFlavor'/>" />
+    <entry name="SpaceMarines/SiegeManeuvers" value="Siege Maneuvers" />
+    <entry name="SpaceMarines/SiegeManeuversDescription" value="Grants Thunderfire Cannon ability to ignore penalty for firing heavy weapons after movement. Increases Thunderfire Cannon and Scout Bikers hit points. Increases Scout Bikers armour." />
+    <entry name="SpaceMarines/SiegeManeuversFlavor" value="A measured advance allows Thunderfire Cannons to unleash a steady stream of fire." />
+    <entry name="SpaceMarines/DozerBladeDescription" value="Reduces the movement penalty for Hunters, Predators and Razorbacks in forests and imperial ruins. Increases Vindicators armor." />
+    <entry name="SpaceMarines/TeleportHomerDescription" value="Causes orbital deployment to not consume action points when deploying Terminators adjacent to Tactical Space Marines, Scout Bikers or Stormraven Gunships." />
+    <entry name="SpaceMarines/HurricaneBolter" value="Extra Bolters" />
+    <entry name="SpaceMarines/HurricaneBolterDescription" value="Grants Stormraven Gunships a hurricane bolter. Grants city, Fortresses of Redemption and Predators a heavy bolter. Grants Razorbacks storm bolter." />
+    <entry name="SpaceMarines/DevastatorDoctrineDescription" value="Chapter tactic that increases the accuracy of Kill Team Eliminators and Devastator Centurions. Grants Kill Team Eliminators ability to cycle between sniper rifle and las cannon." />
+    <entry name="SpaceMarines/ExtraVehicleArmourDescription" value="Increases the armour of vehicles. Grants ground vehicles the ability to launch a smoke screen that increases the ranged damage reduction." />
+    <entry name="SpaceMarines/ScoutBiker" value="<string name='Units/SpaceMarines/ScoutBiker'/>" />
+    <entry name="SpaceMarines/ScoutBikerDescription" value="<string name='Units/SpaceMarines/ScoutBikerDescription'/>" />
+    <entry name="SpaceMarines/ScoutBikerFlavor" value="<string name='Units/SpaceMarines/ScoutBikerFlavor'/>" />
+    <entry name="SpaceMarines/CityTier2Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption." />
+    <entry name="SpaceMarines/CityTier3Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption." />
+    <entry name="SpaceMarines/CityTier4Description" value="Increases the tile acquisition radius and gives Thunderfire Cannons and Fortresses of Redemption ability to increase the ranged damage reduction of the target tile. Increases the city damage reduction of Fortresses of Redemption." />
+    <entry name="SpaceMarines/PredatorLascannonDescription" value="Grants Fortresses of Redemption Twin-Linked Lascannon. Grants Predators, Vindicators and Aquila Macro-Cannons extra Heavy Bolters." />
+    <entry name="SpaceMarines/OmniscopeDescription" value="Grants Kill Team Eliminators, Predators, Terminators and Devastator Centurions the ability to bypass ranged damaged reduction." />
+    <entry name="SpaceMarines/FortressOfRedemptionDamageReductionDescription" value="Grants Fortresses of Redemption heavy bolter and additional armor." />
 
-    <entry name="Necrons/LivingMetal2" value="Undying Revenants"/>
-    <entry name="Necrons/LivingMetal2Description" value="Increases the healing of Reanimation Protocols and Living Metal."/>
-    <entry name="Necrons/LivingMetal2Flavor" value="These Necrons rise again and again despite the most grievous wounding, resolutely refusing to succumb to their wounds. Augmented with advanced matter-replication capabilities, these Canoptek constructs can swiftly repair themselves in battle."/>
-    <entry name="Necrons/QuantumShieldingDescription" value="Grants vehicles and aircrafts the invulnerable damage reduction."/>
-    <entry name="Necrons/StormOfFlensingBlades" value="Storm Of Flensing Blades"/>
-    <entry name="Necrons/StormOfFlensingBladesDescription" value="Grants Flayed Ones ability to pin units with melee attacks and ignore zone of control."/>
-    <entry name="Necrons/StormOfFlensingBladesFlavor" value="Driven into a grotesque frenzy by the hot gore sluicing through their innards, the Flayed Ones lay about themselves wildly with their vicious talons."/>
-    <entry name="Necrons/NebuloscopeDescription" value="Allows Tomb Blades to ignore ranged damage reduction and increases Tomb Blades armor."/>
-    <entry name="Necrons/DimensionalCorridor2" value="Dimensional Stability"/>
-    <entry name="Necrons/DimensionalCorridor2Description" value="Reduces the influence cost, the action and movement cost of Dimensional Corridor."/>
-    <entry name="Necrons/DimensionalCorridor2Flavor" value="Drawing upon the power of the Old One's abandoned technology has allowed the Necrons to stabilise their recall technology, greatly reducing the cost of warriors phasing out to Eternity Gates."/>
-    <entry name="Necrons/GloomPrismDescription" value="Increases the witchfire damage reduction of Canoptek Spyders and adjacent allied units. Grants Canoptek Spyders ability to permanently increase hit points, armour penetration and damage."/>
-    <entry name="Necrons/HousingBuildingBonusDescription" value="Increases the population limit. Increases damage reduction of units in cities."/>
-    <entry name="Necrons/NecrodermisRepair2Description" value="Increases the hitpoint restoration from Necrodermis Repair. Removes the cooldown of Necrodermis Repair."/>
+    <entry name="Necrons/LivingMetal2" value="Undying Revenants" />
+    <entry name="Necrons/LivingMetal2Description" value="Increases the healing of Reanimation Protocols and Living Metal." />
+    <entry name="Necrons/LivingMetal2Flavor" value="These Necrons rise again and again despite the most grievous wounding, resolutely refusing to succumb to their wounds. Augmented with advanced matter-replication capabilities, these Canoptek constructs can swiftly repair themselves in battle." />
+    <entry name="Necrons/QuantumShieldingDescription" value="Grants vehicles and aircrafts the invulnerable damage reduction." />
+    <entry name="Necrons/StormOfFlensingBlades" value="Storm Of Flensing Blades" />
+    <entry name="Necrons/StormOfFlensingBladesDescription" value="Grants Flayed Ones ability to pin units with melee attacks and ignore zone of control." />
+    <entry name="Necrons/StormOfFlensingBladesFlavor" value="Driven into a grotesque frenzy by the hot gore sluicing through their innards, the Flayed Ones lay about themselves wildly with their vicious talons." />
+    <entry name="Necrons/NebuloscopeDescription" value="Allows Tomb Blades to ignore ranged damage reduction and increases Tomb Blades armor." />
+    <entry name="Necrons/DimensionalCorridor2" value="Dimensional Stability" />
+    <entry name="Necrons/DimensionalCorridor2Description" value="Reduces the influence cost, the action and movement cost of Dimensional Corridor." />
+    <entry name="Necrons/DimensionalCorridor2Flavor" value="Drawing upon the power of the Old One's abandoned technology has allowed the Necrons to stabilise their recall technology, greatly reducing the cost of warriors phasing out to Eternity Gates." />
+    <entry name="Necrons/GloomPrismDescription" value="Increases the witchfire damage reduction of Canoptek Spyders and adjacent allied units. Grants Canoptek Spyders ability to permanently increase hit points, armour penetration and damage." />
+    <entry name="Necrons/HousingBuildingBonusDescription" value="Increases the population limit. Increases damage reduction of units in cities." />
+    <entry name="Necrons/NecrodermisRepair2Description" value="Increases the hitpoint restoration from Necrodermis Repair. Removes the cooldown of Necrodermis Repair." />
 
-    <entry name="Eldar/Autarch" value="Autarch"/>
-    <entry name="Eldar/AutarchDescription" value="Psyker hero unit that leads the Aeldari charge."/>
-    <entry name="Eldar/AutarchFlavor" value="Autarchs have a consummate understanding of the way of the warrior, and the future of the race has been shaped by their excellence in the arts of death. They follow the Path of Command, gaining a wider appreciation of battle than any other and directing the warhost on the most efficient path to victory. Theirs is a burning obsession to see war itself conquered and made subservient to their will."/>
-    <entry name="Eldar/HornetDescription" value="Fast reconnaissance skimmer unit that can clear tiles."/>
-    <entry name="Eldar/SpiritStonesDescription" value="Reduces the morale loss of Shining Spears, Fire Prisms, Hornets, War Walkers and Wave Serpents."/>
+    <entry name="Eldar/Autarch" value="Autarch" />
+    <entry name="Eldar/AutarchDescription" value="Psyker hero unit that leads the Aeldari charge." />
+    <entry name="Eldar/AutarchFlavor" value="Autarchs have a consummate understanding of the way of the warrior, and the future of the race has been shaped by their excellence in the arts of death. They follow the Path of Command, gaining a wider appreciation of battle than any other and directing the warhost on the most efficient path to victory. Theirs is a burning obsession to see war itself conquered and made subservient to their will." />
+    <entry name="Eldar/HornetDescription" value="Fast reconnaissance skimmer unit that can clear tiles." />
+    <entry name="Eldar/SpiritStonesDescription" value="Reduces the morale loss of Shining Spears, Fire Prisms, Hornets, War Walkers and Wave Serpents." />
 
-    <entry name="AdeptusMechanicus/XenariteAcceptanceDescription" value="Increases the flat amount of research gained from outposts. Increases the building research output for each building in an adjacent tile."/>
-    <entry name="AdeptusMechanicus/CognisHeavyStubberDescription" value="Grants Onager Dunecrawlers and Ironstrider Ballistariuses a Cognis Heavy Stubber."/>
-    <entry name="AdeptusMechanicus/Dunestriders" value="Dunestriders"/>
-    <entry name="AdeptusMechanicus/DunestridersDescription" value="Grants Ironstrider Ballistariuses ability to cycle between auto cannon and las cannon. "/>
-    <entry name="AdeptusMechanicus/DunestridersFlavor" value="Overloading the movement protocols of a machine is a time honoured method of increasing any mechanised advance."/>
-    <entry name="Tau/DroneControllerDescription" value="Battlesuit support system that increases the accuracy of adjacent drones. Halves cooldown of drone deployment across most Tau units."/>
-    <entry name="Tau/GunDroneDescription" value="Grants Piranha, Devilfish, Stealth Battlesuits, Broadside Battlesuits, Cadre Fireblade, Ethereal and Commander the ability to deploy temporary basic combat drones."/>
-    <entry name="Tau/ShieldDroneDescription" value="Grants Crisis Battlesuits, Stealth Battlesuits, Broadside Battlesuits, Ghostkeel Battlesuits, Cadre Fireblade, Ethereal and Commander the ability to deploy temporary drones that shield allies."/>
-    <entry name="Tau/BondingKnifeRitualDescription" value="Grants Stealth Battlesuits, Broadside Battlesuits, Ghostkeel Battlesuits and Riptide Battlesuits the ability to restore their morale."/>
-    <entry name="Tau/HammerOfWrathDescription" value="Grants Ghostkeel Battlesuits, Riptide Battlesuits and Stormsurges the ability to perform more devastating attacks."/>
-    <entry name="Tau/SeekerMissileDescription" value="Grants vehicles and Broadside Battlesuits a missile weapon."/>
-    <entry name="Tau/CadreFireblade" value="Cadre Fireblade"/>
-    <entry name="Tau/CadreFirebladeDescription" value="Hero unit that excels at empowering steady firing lines."/>
-    <entry name="Tau/CadreFirebladeFlavor" value="As the enemy surges closer, the Fireblade's courage steels his comrades, steadying the firing line and focussing the mind of every Fire Warrior present. Raising his pulse rifle and sighting down its length, the Cadre Fireblade calls out enemy weak spots and optimal firing solutions to his followers, watching the foe press closer with a practised eye. Only at the optimum moment does the Fireblade bark out the order to fire. At the Fireblade's command, the T'au gunline unleashes a storm of fire, an energised squall that tears the enemy to pieces with terrible efficiency."/>
+    <entry name="AdeptusMechanicus/XenariteAcceptanceDescription" value="Increases the flat amount of research gained from outposts. Increases the building research output for each building in an adjacent tile." />
+    <entry name="AdeptusMechanicus/CognisHeavyStubberDescription" value="Grants Onager Dunecrawlers and Ironstrider Ballistariuses a Cognis Heavy Stubber." />
+    <entry name="AdeptusMechanicus/Dunestriders" value="Dunestriders" />
+    <entry name="AdeptusMechanicus/DunestridersDescription" value="Grants Ironstrider Ballistariuses ability to cycle between auto cannon and las cannon. " />
+    <entry name="AdeptusMechanicus/DunestridersFlavor" value="Overloading the movement protocols of a machine is a time honoured method of increasing any mechanised advance." />
 
-    <entry name="AstraMilitarum/CityTier2Description" value="Increases the tile acquisition radius. Increases Imperial Bastions' the city damage reduction."/>
-    <entry name="AstraMilitarum/CityTier3Description" value="Increases the tile acquisition radius. Increases Imperial Bastions' the city damage reduction."/>
-    <entry name="AstraMilitarum/DefenseEdictDescription" value="Edict that increases the armour of units in the city. Increases Imperial Bastions armor."/>
-    <entry name="AstraMilitarum/RelicPlatingDescription" value="Increases the witchfire damage reduction of ground vehicles. Increases Imperial Bastions' the city damage reduction. Increases Leman Russ Battle Tanks and Baneblades armour."/>
-    <entry name="AstraMilitarum/AdditionalHeavyBoltersDescription" value="Grants Scout Sentinels, Imperial Bastions, Baneblades, Leman Russ Battle Tanks and Valkyries extra Heavy Bolters."/>
-    <entry name="AstraMilitarum/BoltDamage" value="The Emperor's Benediction"/>
-    <entry name="AstraMilitarum/BoltDamageDescription" value="Increases the armour penetration of bolt weapons. Grants Leman Russ Battle Tanks, Imperial Bastions, cities, Basilisk and Devil Dogs additional Heavy Bolter."/>
-    <entry name="AstraMilitarum/BoltDamageFlavor" value="An Astartes-derived upgrade to the standard bolter, this kit allows a bolter to fire Kraken penetrator rounds, hard-tipped projectiles with a heavier explosive charge. These heavier rounds are much favoured by the Space Marine Deathwatch alien hunters."/>
-    <entry name="AstraMilitarum/TechpriestEnginseer" value="Tech-Priest Enginseers"/>
-    <entry name="AstraMilitarum/TechpriestEnginseerDescription" value="Infantry unit that supports vehicles, clears tiles and founds new cities."/>
-    <entry name="AstraMilitarum/TechpriestEnginseerFlavor" value="Tech-Priest Enginseers serve as custodians for the vehicles of the Imperial Guard. With binary prayers and mystic rites, the Enginseers soothe the machine spirits of their tracked congregation. Without the diligent maintenance of the Enginseers, the Imperial Guard would soon find themselves without the heavy armour vital to their very survival."/>
+    <entry name="Tau/DroneControllerDescription" value="Battlesuit support system that increases the accuracy of adjacent drones. Halves cooldown of drone deployment across most Tau units." />
+    <entry name="Tau/GunDroneDescription" value="Grants Piranha, Devilfish, Stealth Battlesuits, Broadside Battlesuits, Cadre Fireblade, Ethereal and Commander the ability to deploy temporary basic combat drones." />
+    <entry name="Tau/ShieldDroneDescription" value="Grants Crisis Battlesuits, Stealth Battlesuits, Broadside Battlesuits, Ghostkeel Battlesuits, Cadre Fireblade, Ethereal and Commander the ability to deploy temporary drones that shield allies." />
+    <entry name="Tau/BondingKnifeRitualDescription" value="Grants Stealth Battlesuits, Broadside Battlesuits, Ghostkeel Battlesuits and Riptide Battlesuits the ability to restore their morale." />
+    <entry name="Tau/HammerOfWrathDescription" value="Grants Ghostkeel Battlesuits, Riptide Battlesuits and Stormsurges the ability to perform more devastating attacks." />
+    <entry name="Tau/SeekerMissileDescription" value="Grants vehicles and Broadside Battlesuits a missile weapon." />
+    <entry name="Tau/CadreFireblade" value="Cadre Fireblade" />
+    <entry name="Tau/CadreFirebladeDescription" value="Hero unit that excels at empowering steady firing lines." />
+    <entry name="Tau/CadreFirebladeFlavor" value="As the enemy surges closer, the Fireblade's courage steels his comrades, steadying the firing line and focussing the mind of every Fire Warrior present. Raising his pulse rifle and sighting down its length, the Cadre Fireblade calls out enemy weak spots and optimal firing solutions to his followers, watching the foe press closer with a practised eye. Only at the optimum moment does the Fireblade bark out the order to fire. At the Fireblade's command, the T'au gunline unleashes a storm of fire, an energised squall that tears the enemy to pieces with terrible efficiency." />
+    <entry name="Tau/GunDroneDescription" value="Grants heroes, Devilfishes, Piranhas, Broadside Battlesuits and Stealth Battlesuits the ability to deploy temporary basic combat drones." />
 
-    <entry name="Orks/BoltDamageDescription" value="Increases the armour penetration of bolt weapons."/>
-    <entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons."/>
+    <entry name="AstraMilitarum/CityTier2Description" value="Increases the tile acquisition radius. Increases Imperial Bastions' the city damage reduction." />
+    <entry name="AstraMilitarum/CityTier3Description" value="Increases the tile acquisition radius. Increases Imperial Bastions' the city damage reduction." />
+    <entry name="AstraMilitarum/DefenseEdictDescription" value="Edict that increases the armour of units in the city. Increases Imperial Bastions armor." />
+    <entry name="AstraMilitarum/RelicPlatingDescription" value="Increases the witchfire damage reduction of ground vehicles. Increases Imperial Bastions' the city damage reduction. Increases Leman Russ Battle Tanks and Baneblades armour." />
+    <entry name="AstraMilitarum/AdditionalHeavyBoltersDescription" value="Grants Scout Sentinels, Imperial Bastions, Baneblades, Leman Russ Battle Tanks and Valkyries extra Heavy Bolters." />
+    <entry name="AstraMilitarum/BoltDamage" value="The Emperor's Benediction" />
+    <entry name="AstraMilitarum/BoltDamageDescription" value="Increases the armour penetration of bolt weapons. Grants Leman Russ Battle Tanks, Imperial Bastions, cities, Basilisk and Devil Dogs additional Heavy Bolter." />
+    <entry name="AstraMilitarum/BoltDamageFlavor" value="An Astartes-derived upgrade to the standard bolter, this kit allows a bolter to fire Kraken penetrator rounds, hard-tipped projectiles with a heavier explosive charge. These heavier rounds are much favoured by the Space Marine Deathwatch alien hunters." />
+    <entry name="AstraMilitarum/TechpriestEnginseer" value="Tech-Priest Enginseers" />
+    <entry name="AstraMilitarum/TechpriestEnginseerDescription" value="Infantry unit that supports vehicles, clears tiles and founds new cities." />
+    <entry name="AstraMilitarum/TechpriestEnginseerFlavor" value="Tech-Priest Enginseers serve as custodians for the vehicles of the Imperial Guard. With binary prayers and mystic rites, the Enginseers soothe the machine spirits of their tracked congregation. Without the diligent maintenance of the Enginseers, the Imperial Guard would soon find themselves without the heavy armour vital to their very survival." />
 
-    <entry name="ChaosSpaceMarines/BloatedWithLifesteal" value="<string name='Traits/ChaosSpaceMarines/BloatedWithLifesteal'/>"/>
-    <entry name="ChaosSpaceMarines/BloatedWithLifestealDescription" value="Grants Champions of Chaos life steal."/>
-    <entry name="ChaosSpaceMarines/BloatedWithLifestealFlavor" value="<string name='Traits/ChaosSpaceMarines/BloatedWithLifestealFlavor'/>"/>
-    <entry name="ChaosSpaceMarines/ChaosLord" value="Chaos Lord"/>
-    <entry name="ChaosSpaceMarines/ChaosLordDescription" value="Hero unit that returns damage to attackers and slays units low on hitpoints."/>
-    <entry name="ChaosSpaceMarines/ChaosLordFlavor" value="A Chaos Lord is a tyrannical warrior king who lives to bathe in the blood of worlds. He strives to bring whole star systems to their knees in the name of his patron deities. Typified by merciless ambition and fierce pride, many of these champions of disorder were once noble Chapter Masters and Captains of the Adeptus Astartes, but long years of unremitting war have twisted their souls beyond recovery."/>
-	<entry name="ChaosSpaceMarines/HavocLauncherDescription" value="Grants Chaos Rhinos, Maulerfiend, Forgefiend and Chaos Land Raiders a mid-range blast weapon."/>
+    <entry name="Orks/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
+    <entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
 
-    <entry name="SistersOfBattle/Canoness" value="Canoness"/>
-	<entry name="SistersOfBattle/CanonessDescription" value="Witch-seeking powerful hero unit that leads infantry into battle."/>
-	<entry name="SistersOfBattle/CanonessFlavor" value="A Canoness is the overall commander of one of the Orders Militant, a shining example of purity and dedication of purpose. Each is a veteran warrior of many hundreds of battles who has risen to her position through a combination of strong leadership, shrewd tactical genius and sheer overarching faith in the Emperor. When the Ecclesiarchy sounds the call to arms, a Canoness boldly leads her warriors into the fray, refusing to take one step backwards whilst her enemies still draw breath."/>
+    <entry name="ChaosSpaceMarines/BloatedWithLifesteal" value="<string name='Traits/ChaosSpaceMarines/BloatedWithLifesteal'/>" />
+    <entry name="ChaosSpaceMarines/BloatedWithLifestealDescription" value="Grants Champions of Chaos life steal." />
+    <entry name="ChaosSpaceMarines/BloatedWithLifestealFlavor" value="<string name='Traits/ChaosSpaceMarines/BloatedWithLifestealFlavor'/>" />
+    <entry name="ChaosSpaceMarines/ChaosLord" value="Chaos Lord" />
+    <entry name="ChaosSpaceMarines/ChaosLordDescription" value="Hero unit that returns damage to attackers and slays units low on hitpoints." />
+    <entry name="ChaosSpaceMarines/ChaosLordFlavor" value="A Chaos Lord is a tyrannical warrior king who lives to bathe in the blood of worlds. He strives to bring whole star systems to their knees in the name of his patron deities. Typified by merciless ambition and fierce pride, many of these champions of disorder were once noble Chapter Masters and Captains of the Adeptus Astartes, but long years of unremitting war have twisted their souls beyond recovery." />
+    <entry name="ChaosSpaceMarines/HavocLauncherDescription" value="Grants Chaos Rhinos, Maulerfiend, Forgefiend and Chaos Land Raiders a mid-range blast weapon." />
+
+    <entry name="SistersOfBattle/Canoness" value="Canoness" />
+    <entry name="SistersOfBattle/CanonessDescription" value="Witch-seeking powerful hero unit that leads infantry into battle." />
+    <entry name="SistersOfBattle/CanonessFlavor" value="A Canoness is the overall commander of one of the Orders Militant, a shining example of purity and dedication of purpose. Each is a veteran warrior of many hundreds of battles who has risen to her position through a combination of strong leadership, shrewd tactical genius and sheer overarching faith in the Emperor. When the Ecclesiarchy sounds the call to arms, a Canoness boldly leads her warriors into the fray, refusing to take one step backwards whilst her enemies still draw breath." />
 
 </language>
