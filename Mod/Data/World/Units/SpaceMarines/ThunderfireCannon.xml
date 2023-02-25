@@ -124,7 +124,7 @@
                 <action sound="Actions/ArmourUp"/>
             </model>
             <beginTargets>
-                <target rangeMax="2">
+                <target rangeMin="1" rangeMax="2">
                     <areas>
                         <area affects="Tile">
                             <modifiers>
