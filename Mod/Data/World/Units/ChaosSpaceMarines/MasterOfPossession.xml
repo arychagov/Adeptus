@@ -126,22 +126,22 @@
                         beginFire="0.67"/>
             </model>
         </throwGrenade>
-        <sacrifice cooldown="1"
-                   name="ChaosSpaceMarines/Sacrifice"
-                   rank="-1"
-                   rankMax="2">
+        <boonOfMutation cooldownMin="4"
+                        cooldownMax="2"
+                        name="ChaosSpaceMarines/BoonOfMutation"
+                        rank="-1"
+                        rankMax="2">
             <model>
-                <action animation="Units/ChaosSpaceMarines/MasterOfPossessionAbility"
-                        bone="Bone018"
+                <action animation="Units/ChaosSpaceMarines/DaemonPrinceAbility"
                         sound="Actions/ChaosBuff"/>
             </model>
             <beginTargets>
-                <target rangeMin="1" rangeMax="1">
+                <target rangeMax="1">
                     <conditions>
                         <unit>
                             <allied/>
-                            <faction name="ChaosSpaceMarines"/>
-                            <damaged/>
+                            <trait name="ChaosSpaceMarines/ChampionOfChaos"/>
+                            <missingBoonOfChaos/>
                         </unit>
                     </conditions>
                     <areas>
@@ -149,28 +149,15 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints addMin="6" addMax="18"/>
+                                        <addRandomBoonOfChaos/>
                                     </effects>
                                 </modifier>
                             </modifiers>
                         </area>
                     </areas>
                 </target>
-                <selfTarget>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <hitpoints add="-1"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
             </beginTargets>
-        </sacrifice>
+        </boonOfMutation>
         <infernalPower cooldown="3"
                        levelUpPriority="0.1"
                        name="ChaosSpaceMarines/InfernalPower"
