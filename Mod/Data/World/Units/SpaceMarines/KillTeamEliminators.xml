@@ -150,7 +150,7 @@
                 </modifier>
             </modifiers>
         </orbitalDeployment>
-        <cycleWeapon cooldown="1" interfaceSound="Interface/CycleWeapon"
+        <cycleWeapon cooldown="3" interfaceSound="Interface/CycleWeapon"
                      weaponSlotNames="BoltSniperRifle Lascannon" requiredUpgrade="SpaceMarines/DevastatorDoctrine"/>
         <signum cooldown="5"
                 consumedActionPoints="0" consumedMovement="0"

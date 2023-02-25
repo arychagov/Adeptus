@@ -13,11 +13,12 @@
               walker="1"/>
     </model>
     <weapons>
-        <weapon name="Lascannon">
+        <weapon name="TwinLinkedCognisAutocannon">
             <model>
                 <projectileWeapon muzzleBone="Muzzle" muzzleCount="2"/>
             </model>
         </weapon>
+        <weapon name="Lascannon" enabled="0"/>
         <weapon name="CognisHeavyStubber" count="1" requiredUpgrade="AdeptusMechanicus/CognisHeavyStubber"/>
         <weapon name="None" requiredUpgrade="AdeptusMechanicus/BroadSpectrumDataTether" enabled="0">
             <model>
@@ -95,6 +96,8 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
+        <cycleWeapon cooldown="3" interfaceSound="Interface/CycleWeapon"
+            weaponSlotNames="Lascannon TwinLinkedCognisAutocannon" requiredUpgrade="AdeptusMechanicus/Dunestriders"/>
         <hammerOfWrath consumedActionPoints="0"
                        consumedMovement="0"
                        cooldown="3"
