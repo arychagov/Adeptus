@@ -70,7 +70,7 @@
     <entry name="NullZoneFlavor" value="No one is save beside angered Librarian." />
     <entry name="Bodyguard" value="Bodyguard" />
     <entry name="BodyguardDescription" value="Increases adjacent heroes hero damage reduction" />
-    <entry name="HeroDescription" value="Increases the damage reduction of infantry units. Each adjacent infantry unit increases damage reduction by additional 5% (10% for Bodyguard units)" />
+    <entry name="HeroDescription" value="Increases the damage reduction of infantry units. Each adjacent infantry unit increases damage reduction by additional 7.5% (15% for Bodyguard units)" />
     <entry name="KillshotDescription" value="Increases the damage against monstrous creatures, vehicles, heroes and fortifications." />
 
     <entry name="Necrons/PitilessHunters" value="Pitiless Hunters" />
