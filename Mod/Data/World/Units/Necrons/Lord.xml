@@ -208,12 +208,6 @@
                         <area affects="Tile" radiusMin="1" radiusMax="3">
                             <modifiers>
                                 <modifier>
-                                    <conditions>
-                                        <unit>
-                                            <allied/>
-                                            <faction name="Necrons"/>
-                                        </unit>
-                                    </conditions>
                                     <effects>
                                         <addTrait name="Necrons/DefensiveProtocols"/>
                                     </effects>
