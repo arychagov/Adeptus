@@ -37,7 +37,6 @@
                 <movementMax base="5"/>
                 <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
                 <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
-                <requisitionsUpkeep base="3.0"/> <!-- %requisitionsUpkeep base tier=7 factor=1 -->
                 <energyUpkeep base="3"/>
                 <energyCost base="30.0"/>
                 <requisitionsCost base="30.0"/>
