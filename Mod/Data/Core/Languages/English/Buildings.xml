@@ -10,6 +10,7 @@
     <entry name="SpaceMarines/ConstructionDescription" value="Building that constructs new buildings, increases growth and generates influence." />
     <entry name="Tau/ConstructionDescription" value="Building that constructs new buildings as well as increases growth, generates ore, research and influence." />
     <entry name="Tyranids/ConstructionDescription" value="Building that constructs new buildings as well as increases growth, generates biomass and increases the population limit." />
+    <entry name="Tau/MonstrousCreaturesDescription" value="Building that produces monstrous creatures as well as generates research and influence."/>
 </language>
 
 
