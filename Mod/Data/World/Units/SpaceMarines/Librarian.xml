@@ -156,7 +156,6 @@
                             icon="Traits/MeleeDamage"
                             name="SpaceMarines/MightOfHeroes"
                             levelUpPriority="0.2"
-                            consumedMovement="0"
                             rank="-1"
                             rankMax="2">
             <model>
