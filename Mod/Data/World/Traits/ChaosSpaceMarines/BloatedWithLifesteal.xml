@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait category="Buff" icon="Traits/ChaosSpaceMarines/Bloated" >
-	<modifiers>
+	<onCombatSelfModifiers>
 		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<noAttacking/>
+					</opponent>
+				</encounter>
+			</conditions>
 			<effects>
-				<lifeStealFactor add="0.15"/>
+				<hitpointsFactorFromMax add="0.15"/>
 			</effects>
 		</modifier>
-	</modifiers>
+	</onCombatSelfModifiers>
 </trait>

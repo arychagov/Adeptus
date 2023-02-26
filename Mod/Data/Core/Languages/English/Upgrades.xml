@@ -79,7 +79,7 @@
     <entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
 
     <entry name="ChaosSpaceMarines/BloatedWithLifesteal" value="<string name='Traits/ChaosSpaceMarines/BloatedWithLifesteal'/>" />
-    <entry name="ChaosSpaceMarines/BloatedWithLifestealDescription" value="Grants Champions of Chaos life steal." />
+    <entry name="ChaosSpaceMarines/BloatedWithLifestealDescription" value="Grants Champions of Chaos ability to restore percentage of maximum health after attack." />
     <entry name="ChaosSpaceMarines/BloatedWithLifestealFlavor" value="<string name='Traits/ChaosSpaceMarines/BloatedWithLifestealFlavor'/>" />
     <entry name="ChaosSpaceMarines/ChaosLord" value="Chaos Lord" />
     <entry name="ChaosSpaceMarines/ChaosLordDescription" value="Hero unit that returns damage to attackers and slays units low on hitpoints." />
