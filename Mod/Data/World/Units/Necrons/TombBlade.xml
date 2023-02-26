@@ -195,7 +195,7 @@
         <trait name="ExtraVehicleArmour" requiredUpgrade="Necrons/ExtraVehicleArmour"/>
         <trait name="Jetbike"/>
         <trait name="Necrons/Nebuloscope" requiredUpgrade="Necrons/Nebuloscope"/>
-        <trait name="Necrons/LivingMetalTombBlade"/>
+        <trait name="Necrons/LivingMetalTombBlades"/>
         <trait name="Necrons/ShieldVane" requiredUpgrade="Necrons/Nebuloscope"/>
         <trait name="Necrons/QuantumShielding" requiredUpgrade="Necrons/QuantumShielding"/>
     </traits>
