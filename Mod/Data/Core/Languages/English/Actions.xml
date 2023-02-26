@@ -2,7 +2,7 @@
 <language>
     <entry name="SpaceMarines/DominusAegis" value="<string name='Traits/SpaceMarines/DominusAegis'/>" />
     <entry name="SpaceMarines/DominusAegisDescription" value="<string name='Traits/SpaceMarines/DominusAegisDescription'/>" />
-    <entry name="SpaceMarines/DominusAegisFlavor" value="<string name='Traits/SpaceMarines/CaptainsFlavor'/>" />
+    <entry name="SpaceMarines/DominusAegisFlavor" value="<string name='Traits/SpaceMarines/DominusAegisFlavor'/>" />
     <entry name="SpaceMarines/TacticalPrecision" value="<string name='Traits/SpaceMarines/TacticalPrecision'/>" />
     <entry name="SpaceMarines/TacticalPrecisionDescription" value="<string name='Traits/SpaceMarines/TacticalPrecisionDescription'/>" />
     <entry name="SpaceMarines/TacticalPrecisionFlavor" value="<string name='Traits/SpaceMarines/TacticalPrecisionFlavor'/>" />
@@ -11,6 +11,7 @@
     <entry name="SpaceMarines/MightOfHeroesFlavor" value="<string name='Traits/SpaceMarines/MightOfHeroesFlavor'/>" />
     <entry name="SpaceMarines/SpectralBlade" value="<string name='Traits/SpaceMarines/SpectralBlade'/>" />
     <entry name="SpaceMarines/SpectralBladeDescription" value="<string name='Traits/SpaceMarines/SpectralBladeDescription'/>" />
+    <entry name="SpaceMarines/SpectralBladeFlavor" value="<string name='Traits/SpaceMarines/SpectralBladeFlavor'/>" />
     <entry name="SpaceMarines/LitanyOfZeal" value="<string name='Traits/SpaceMarines/LitanyOfZeal'/>" />
     <entry name="SpaceMarines/LitanyOfZealDescription" value="<string name='Traits/SpaceMarines/LitanyOfZealDescription'/>" />
     <entry name="SpaceMarines/LitanyOfZealFlavor" value="<string name='Traits/SpaceMarines/LitanyOfZealFlavor'/>" />
@@ -21,9 +22,12 @@
     <entry name="SpaceMarines/TemplarsChargeDescription" value="<string name='Traits/SpaceMarines/TemplarsChargeDescription'/>" />
     <entry name="SpaceMarines/TemplarsChargeFlavor" value="<string name='Traits/SpaceMarines/TemplarsChargeFlavor'/>" />
     <entry name="SpaceMarines/NullZone" value="<string name='Traits/NullZone'/>" />
-    <entry name="SpaceMarines/NullZoneDescription" value="<string name='Traits/NullZoneDescription'/>" />
+    <entry name="SpaceMarines/NullZoneDescription" value="Removes invulnerable, witchfire and feel no pain damage reduction on units adjacent to Librarian." />
     <entry name="SpaceMarines/NullZoneFlavor" value="<string name='Traits/NullZoneFlavor'/>" />
     <entry name="DevastatorDoctrineDescription" value="Chapter tactic that increases the accuracy of Kill Team Eliminators and Devastator Centurions." />
+    <entry name="SpaceMarines/EmpireWithin" value="Empire Within" />
+    <entry name="SpaceMarines/EmpireWithinDescription" value="Levels up non-hero friendly unit." />
+    <entry name="SpaceMarines/EmpireWithinFlavor" value="”I can pulp your flesh and snap your bones in less than a second and without so much as lifting a finger. What is the power of technology compared to that?”<br/>  — Vel'Cona, Chief Librarian of the Salamanders" />
 
     <entry name="Necrons/DynastyDescription" value="Increases the loyalty of your cities." />
     <entry name="Necrons/QuantumShieldingDescription" value="Increases the invulnerable damage reduction." />

@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-    <entry name="SpaceMarines/DominusAegis" value="Captain's Shield" />
+    <entry name="SpaceMarines/DominusAegis" value="Dominus Aegis" />
     <entry name="SpaceMarines/DominusAegisDescription" value="Increases the ranged damage reduction of nearby troops." />
-    <entry name="SpaceMarines/DominusAegisFlavor" value="Be saved." />
+    <entry name="SpaceMarines/DominusAegisFlavor" value="This artefact takes the form of an ornate tower shield; from its sculpted edge, it projects a hemispherical force field that protects all those within its reach. Carried to war by those kill teams expected toplunge into the heart of the xenos hordes, it has saved countless lives, the bearer and his team fighting to victory as the dome-like force field keeps the worst of the alien scum at bay." />
     <entry name="SpaceMarines/TacticalPrecision" value="Tactical Precision" />
     <entry name="SpaceMarines/TacticalPrecisionDescription" value="Removes penalty from firing heavy weapons after movement and treats shooting with rapid fire weapons as if in half range." />
-    <entry name="SpaceMarines/TacticalPrecisionFlavor" value="Precisely!" />
-    <entry name="SpaceMarines/EmpireWithin" value="Empire Within" />
-    <entry name="SpaceMarines/EmpireWithinDescription" value="Levels up non-hero friendly unit." />
-    <entry name="SpaceMarines/EmpireWithinFlavor" value="I will share my wisdom, afraid not." />
+    <entry name="SpaceMarines/TacticalPrecisionFlavor" value="This warlord is a beacon of hope in a hateful galaxy. No matter the odds, friendly forces are inspired by his presence." />
     <entry name="SpaceMarines/MightOfHeroes" value="Might Of Heroes" />
     <entry name="SpaceMarines/MightOfHeroesDescription" value="Temporary increases hit points, the accuracy and the damage of friendly unit." />
     <entry name="SpaceMarines/MightOfHeroesFlavor" value="Forward without hesitation." />
     <entry name="SpaceMarines/SpectralBlade" value="Spectral Blade" />
     <entry name="SpaceMarines/SpectralBladeDescription" value="Increases Librarian's melee attacks." />
+    <entry name="SpaceMarines/SpectralBladeFlavor" value="The psyker implants his foe with the psychosomatic suggestion that his weapon is irresistibly sharp, striking them down with the psychic feedback of their own warped perceptions." />
     <entry name="SpaceMarines/LitanyOfZeal" value="Litany Of Zeal" />
     <entry name="SpaceMarines/LitanyOfZealDescription" value="Increases movement of target unit and prevents the unit from being targeted by overwatch attacks. The unit also ignores enemy zone of control." />
     <entry name="SpaceMarines/LitanyOfZealFlavor" value="Bellowing his hatred of the foe, the Chaplain leads his brothers in the wholesale destruction of the enemy." />

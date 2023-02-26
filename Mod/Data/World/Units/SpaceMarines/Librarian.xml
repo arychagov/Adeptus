@@ -133,6 +133,7 @@
                             name="SpaceMarines/SpectralBlade"
                             consumedMovement="0"
                             consumedActionPoints="0"
+                            requiredActionPoints="1"
                             rank="-1"
                             rankMax="2">
             <beginTargets>
@@ -235,7 +236,7 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1" excludeRadius="0">
+                        <area affects="Tile" radius="2" excludeRadius="0">
                             <modifiers>
                                 <modifier>
                                     <effects>
