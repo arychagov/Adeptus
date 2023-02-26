@@ -162,7 +162,7 @@
         </genericUnitAbility>
         <genericUnitAbility
                 passive="1"
-                name="SpaceMarines/CaptainsShield"
+                name="SpaceMarines/DominusAegis"
                 icon="Traits/Shrouded"
                 levelUpPriority="0.15"
                 rank="-1"
@@ -174,7 +174,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="SpaceMarines/CaptainsShield"/>
+                                        <addTrait name="SpaceMarines/DominusAegis"/>
                                     </effects>
                                 </modifier>
                             </modifiers>

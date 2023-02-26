@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-    <entry name="SpaceMarines/CaptainsShield" value="<string name='Traits/SpaceMarines/CaptainsShield'/>" />
-    <entry name="SpaceMarines/CaptainsShieldDescription" value="<string name='Traits/SpaceMarines/CaptainsShieldDescription'/>" />
-    <entry name="SpaceMarines/CaptainsShieldFlavor" value="<string name='Traits/SpaceMarines/CaptainsFlavor'/>" />
+    <entry name="SpaceMarines/DominusAegis" value="<string name='Traits/SpaceMarines/DominusAegis'/>" />
+    <entry name="SpaceMarines/DominusAegisDescription" value="<string name='Traits/SpaceMarines/DominusAegisDescription'/>" />
+    <entry name="SpaceMarines/DominusAegisFlavor" value="<string name='Traits/SpaceMarines/CaptainsFlavor'/>" />
     <entry name="SpaceMarines/TacticalPrecision" value="<string name='Traits/SpaceMarines/TacticalPrecision'/>" />
     <entry name="SpaceMarines/TacticalPrecisionDescription" value="<string name='Traits/SpaceMarines/TacticalPrecisionDescription'/>" />
     <entry name="SpaceMarines/TacticalPrecisionFlavor" value="<string name='Traits/SpaceMarines/TacticalPrecisionFlavor'/>" />
