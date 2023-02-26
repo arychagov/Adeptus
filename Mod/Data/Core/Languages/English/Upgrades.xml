@@ -39,6 +39,9 @@
     <entry name="Necrons/GloomPrismDescription" value="Increases the witchfire damage reduction of Canoptek Spyders and adjacent allied units. Grants Canoptek Spyders ability to permanently increase hit points, armour penetration and damage." />
     <entry name="Necrons/HousingBuildingBonusDescription" value="Increases the population limit. Increases damage reduction of units in cities." />
     <entry name="Necrons/NecrodermisRepair2Description" value="Increases the hitpoint restoration from Necrodermis Repair. Removes the cooldown of Necrodermis Repair." />
+    <entry name="Necrons/EndlessLegions" value="<string name='Traits/Necrons/EndlessLegions'/>"/>
+    <entry name="Necrons/EndlessLegionsDescription" value="Increases models count of Immortals, Flayed Ones and Necron Warriors."/>
+    <entry name="Necrons/EndlessLegionsFlavor" value="<string name='Traits/Necrons/EndlessLegionsFlavor'/>"/>
 
     <entry name="Eldar/Autarch" value="Autarch" />
     <entry name="Eldar/AutarchDescription" value="Psyker hero unit that leads the Aeldari charge." />

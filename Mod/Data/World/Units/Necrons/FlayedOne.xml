@@ -170,5 +170,6 @@
         <trait name="Necrons/ReanimationProtocols"/>
         <trait name="Infiltrate"/>
         <trait name="HitAndRun" requiredUpgrade="Necrons/StormOfFlensingBlades"/>
+        <trait name="Necrons/EndlessLegions" requiredUpgrade="Necrons/EndlessLegions"/>
     </traits>
 </unit>

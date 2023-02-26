@@ -148,6 +148,9 @@
     <entry name="Necrons/ReanimationProtocolsWarrior" value="Reanimation Protocols"/>
     <entry name="Necrons/ReanimationProtocolsWarriorDescription" value="Restores hitpoints each turn."/>
     <entry name="Necrons/ReanimationProtocolsWarriorFlavor" value="Necrons have sophisticated self-repair systems that return even critically damaged warriors to the fight."/>
+    <entry name="Necrons/EndlessLegions" value="Endless Legions"/>
+    <entry name="Necrons/EndlessLegionsDescription" value="Increases models count."/>
+    <entry name="Necrons/EndlessLegionsFlavor" value="As ever more systems awake upon this noble's tomb world, ever greater legions become theirs to command."/>
 
     <entry name="Fright" value="Fright" />
     <entry name="FrightDescription" value="Reduces the morale each turn." />
