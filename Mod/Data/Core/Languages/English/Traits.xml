@@ -13,7 +13,7 @@
     <entry name="SpaceMarines/SpectralBladeDescription" value="Increases Librarian's melee attacks." />
     <entry name="SpaceMarines/SpectralBladeFlavor" value="The psyker implants his foe with the psychosomatic suggestion that his weapon is irresistibly sharp, striking them down with the psychic feedback of their own warped perceptions." />
     <entry name="SpaceMarines/LitanyOfZeal" value="Litany Of Zeal" />
-    <entry name="SpaceMarines/LitanyOfZealDescription" value="Increases movement of target unit and prevents the unit from being targeted by overwatch attacks. The unit also ignores enemy zone of control." />
+    <entry name="SpaceMarines/LitanyOfZealDescription" value="Increases movement of target infantry unit that have not moved this turn and prevents that unit from being targeted by overwatch attacks. The unit also ignores enemy zone of control." />
     <entry name="SpaceMarines/LitanyOfZealFlavor" value="Bellowing his hatred of the foe, the Chaplain leads his brothers in the wholesale destruction of the enemy." />
     <entry name="SpaceMarines/Righteousness" value="Righteousness" />
     <entry name="SpaceMarines/RighteousnessDescription" value="Increases adjacent allied units melee attacks." />
