@@ -132,7 +132,7 @@
                         rank="-1"
                         rankMax="2">
             <model>
-                <action animation="Units/ChaosSpaceMarines/DaemonPrinceAbility"
+                <action animation="Units/ChaosSpaceMarines/MasterOfPossessionGrenade"
                         sound="Actions/ChaosBuff"/>
             </model>
             <beginTargets>
