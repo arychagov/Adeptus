@@ -24,7 +24,7 @@
     <entry name="SpaceMarines/PredatorLascannonDescription" value="Grants Fortresses of Redemption Twin-Linked Lascannon. Grants Predators, Vindicators and Aquila Macro-Cannons extra Heavy Bolters." />
     <entry name="SpaceMarines/OmniscopeDescription" value="Grants Kill Team Eliminators, Predators, Terminators and Devastator Centurions the ability to bypass ranged damaged reduction." />
     <entry name="SpaceMarines/FortressOfRedemptionDamageReductionDescription" value="Grants Fortresses of Redemption heavy bolter and additional armor." />
-    <entry name="SpaceMarines/SignumDescription" value="Grants Kill Team Eliminators the ability to negate the penalty for heavy, ordnance and salvo weapons."/>
+    <entry name="SpaceMarines/SignumDescription" value="Grants Kill Team Eliminators the ability to negate the penalty for heavy, ordnance and salvo weapons." />
 
     <entry name="Necrons/LivingMetal2" value="Undying Revenants" />
     <entry name="Necrons/LivingMetal2Description" value="Increases the healing of Reanimation Protocols and Living Metal." />
@@ -40,9 +40,9 @@
     <entry name="Necrons/GloomPrismDescription" value="Increases the witchfire damage reduction of Canoptek Spyders and adjacent allied units. Grants Canoptek Spyders ability to permanently increase hit points, armour penetration and damage." />
     <entry name="Necrons/HousingBuildingBonusDescription" value="Increases the population limit. Increases damage reduction of units in cities." />
     <entry name="Necrons/NecrodermisRepair2Description" value="Increases the hitpoint restoration from Necrodermis Repair. Removes the cooldown of Necrodermis Repair." />
-    <entry name="Necrons/EndlessLegions" value="<string name='Traits/Necrons/EndlessLegions'/>"/>
-    <entry name="Necrons/EndlessLegionsDescription" value="Increases models count of Immortals, Flayed Ones and Necron Warriors."/>
-    <entry name="Necrons/EndlessLegionsFlavor" value="<string name='Traits/Necrons/EndlessLegionsFlavor'/>"/>
+    <entry name="Necrons/EndlessLegions" value="<string name='Traits/Necrons/EndlessLegions'/>" />
+    <entry name="Necrons/EndlessLegionsDescription" value="Increases models count of Immortals, Flayed Ones and Necron Warriors." />
+    <entry name="Necrons/EndlessLegionsFlavor" value="<string name='Traits/Necrons/EndlessLegionsFlavor'/>" />
 
     <entry name="Eldar/Autarch" value="Autarch" />
     <entry name="Eldar/AutarchDescription" value="Psyker hero unit that leads the Aeldari charge." />
@@ -108,5 +108,9 @@
     <entry name="SistersOfBattle/CityTier3Description" value="Increases the tile acquisition radius." />
     <entry name="Necrons/CityTier2Description" value="Increases the tile acquisition radius." />
     <entry name="Necrons/CityTier3Description" value="Increases the tile acquisition radius." />
+
+    <entry name="Tyranids/TyranidPrime" value="Tyranid Prime" />
+    <entry name="Tyranids/TyranidPrimeDescription" value="Fearsome synapse hero unit that boosts allied Tyranid Warriors." />
+    <entry name="Tyranids/TyranidPrimeFlavor" value="Tyranid Primes are the apex of the Tyranid Warrior strain, faster, stronger and smarter than the other Warriors they lead to battle, who instinctively emulate their deadly skill." />
 
 </language>
