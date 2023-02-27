@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <cityDamageReduction add="0.17"/>
+                <invulnerableDamageReduction add="0.17"/>
             </effects>
         </modifier>
     </modifiers>
