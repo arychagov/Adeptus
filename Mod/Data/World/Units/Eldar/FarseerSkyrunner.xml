@@ -230,6 +230,7 @@
                             <noTrait name="Eldar/Doom"/>
                             <noTrait name="Headquarters"/>
                             <noTrait name="Fortification"/>
+                            <noTrait name="Hero"/>
                         </unit>
                     </conditions>
                     <areas>

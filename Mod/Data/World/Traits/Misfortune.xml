@@ -8,6 +8,10 @@
                         <faction name="AstraMilitarum"/>
                     </opponent>
                 </encounter>
+                <unit>
+                    <enemy/>
+                    <noTrait name="Hero"/>
+                </unit>
             </conditions>
             <effects>
                 <damageTaken mul="0.5"/>

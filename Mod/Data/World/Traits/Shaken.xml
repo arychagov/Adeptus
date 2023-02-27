@@ -18,6 +18,7 @@
                     <noTrait name="Fortification"/>
                     <noTrait name="Vehicle"/>
                     <noTrait name="MonstrousCreature"/>
+                    <noTrait name="Hero"/>
                 </unit>
             </conditions>
             <effects>
