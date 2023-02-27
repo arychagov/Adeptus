@@ -10,7 +10,7 @@
                 </unit>
             </conditions>
             <effects>
-                <heroDamageReduction add="0.2" max="0.5"/>
+                <heroDamageReduction add="0.2"/>
             </effects>
         </modifier>
         <modifier>
