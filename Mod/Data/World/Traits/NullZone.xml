@@ -2,6 +2,11 @@
 <trait category="Debuff" icon="Actions/TelekineDome">
     <modifiers>
         <modifier>
+            <conditions>
+                <unit>
+                    <noTrait name="Hero"/>
+                </unit>
+            </conditions>
             <effects>
                 <invulnerableDamageReduction max="0"/>
                 <rangedInvulnerableDamageReduction max="0"/>
