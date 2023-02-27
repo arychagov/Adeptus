@@ -22,7 +22,7 @@
     <entry name="SpaceMarines/TemplarsChargeDescription" value="<string name='Traits/SpaceMarines/TemplarsChargeDescription'/>" />
     <entry name="SpaceMarines/TemplarsChargeFlavor" value="<string name='Traits/SpaceMarines/TemplarsChargeFlavor'/>" />
     <entry name="SpaceMarines/NullZone" value="<string name='Traits/NullZone'/>" />
-    <entry name="SpaceMarines/NullZoneDescription" value="Removes invulnerable, witchfire and feel no pain damage reduction on units adjacent to Librarian." />
+    <entry name="SpaceMarines/NullZoneDescription" value="Removes invulnerable, witchfire and feel no pain damage reduction on non-hero units adjacent to Librarian." />
     <entry name="SpaceMarines/NullZoneFlavor" value="<string name='Traits/NullZoneFlavor'/>" />
     <entry name="DevastatorDoctrineDescription" value="Chapter tactic that increases the accuracy of Kill Team Eliminators and Devastator Centurions." />
     <entry name="SpaceMarines/EmpireWithin" value="Empire Within" />
@@ -99,7 +99,7 @@
     <entry name="ChaosSpaceMarines/IconOfDespairDescription" value="Icon of Chaos that increases the melee damage reduction to a unit with Mark of Nurgle." />
     <entry name="ChaosSpaceMarines/ShatterDefencesDescription" value="Reduces movement and armour of target enemy vehicle or fortification." />
     <entry name="ChaosSpaceMarines/NurgleCorruption" value="Nurgle Corruption" />
-    <entry name="ChaosSpaceMarines/NurgleCorruptionDescription" value="Increases hitpoints and reduces nearby enemy units armour." />
+    <entry name="ChaosSpaceMarines/NurgleCorruptionDescription" value="Increases hitpoints and reduces nearby non-hero enemy units armour." />
     <entry name="ChaosSpaceMarines/NurgleCorruptionFlavor" value="From the germ of an idea may grow the most perfect plagues." />
     <entry name="ChaosSpaceMarines/KhorneCorruption" value="Khorne Corruption" />
     <entry name="ChaosSpaceMarines/KhorneCorruptionDescription" value="Increases damage and attacks." />
@@ -110,5 +110,12 @@
     <entry name="ChaosSpaceMarines/SlaaneshCorruption" value="Slaanesh Corruption" />
     <entry name="ChaosSpaceMarines/SlaaneshCorruptionDescription" value="Grants Daemon Prince flying ability, increases the movement, the accuracy and the invulnerable damage reduction." />
     <entry name="ChaosSpaceMarines/SlaaneshCorruptionFlavor" value="The greatest of Slaanesh’s daemons move with an idealised grace and agility rendered hideous by its sheer precision and impossibility." />
+
+    <entry name="Necrons/DestructionProtocolsDescription" value="Increases the damage taken for adjacent non-hero enemy units."/>
+    <entry name="MisfortuneDescription" value="Increases the damage taken for the target non-hero enemy unit."/>
+    <entry name="ChaosSpaceMarines/ShatterDefencesDescription" value="Reduces the ranged damage reduction of the target non-hero vehicle or fortification."/>
+    <entry name="Eldar/DoomDescription" value="Increases the damage taken by target non-hero enemy unit."/>
+    <entry name="Eldar/ProtectJinxDescription" value="Increases the armour of target allied unit or decreases the armour of target non-hero enemy unit."/>
+    <entry name="Tyranids/ExploitWeaknessesDescription" value="The Tyranid Prime reduces the armour of the target non-hero enemy unit."/>
 
 </language>
