@@ -175,6 +175,7 @@
                     <conditions>
                         <unit>
                             <enemy/>
+                            <noTrait name="Hero"/>
                         </unit>
                         <unit match="Any">
                             <trait name="Vehicle"/>
