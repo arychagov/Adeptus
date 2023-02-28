@@ -256,6 +256,7 @@
     <traits>
         <trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
         <trait name="Hero"/>
+        <trait name="SupportHero"/>
         <trait name="Psyker"/>
         <trait name="RefractorField"/>
     </traits>

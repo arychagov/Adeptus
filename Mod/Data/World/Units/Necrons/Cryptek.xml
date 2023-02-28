@@ -278,6 +278,7 @@
         <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus"/>
         <trait name="ExtraInfantryArmour" requiredUpgrade="Necrons/ExtraInfantryArmour"/>
         <trait name="Hero"/>
+        <trait name="SupportHero"/>
         <trait name="Necrons/ReanimationProtocols"/>
         <trait name="Necrons/Technomancer"/>
     </traits>

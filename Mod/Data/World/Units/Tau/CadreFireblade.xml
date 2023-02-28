@@ -364,6 +364,7 @@
     </actions>
     <traits>
         <trait name="Hero"/>
+        <trait name="SupportHero"/>
         <trait name="ExtraInfantryArmour" requiredUpgrade="Tau/ExtraInfantryArmour"/>
         <trait name="Tau/SupportingFire"/>
         <trait name="Tau/PreciseShooter"/>

@@ -365,6 +365,7 @@
     </actions>
     <traits>
         <trait name="Hero"/>
+        <trait name="SupportHero"/>
         <trait name="Stubborn"/>
         <trait name="Tau/BlacksunFilter" requiredUpgrade="Tau/BlacksunFilter"/>
         <trait name="ExtraInfantryArmour" requiredUpgrade="Tau/ExtraInfantryArmour"/>

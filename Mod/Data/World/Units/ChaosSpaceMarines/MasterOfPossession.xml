@@ -277,6 +277,7 @@
         <trait name="Daemon"/>
         <trait name="ExtraInfantryArmour" requiredUpgrade="ChaosSpaceMarines/ExtraInfantryArmour"/>
         <trait name="Hero"/>
+        <trait name="SupportHero"/>
         <trait name="Psyker"/>
         <trait name="ChaosSpaceMarines/VeteransOfTheLongWar" requiredUpgrade="ChaosSpaceMarines/VeteransOfTheLongWar"/>
     </traits>

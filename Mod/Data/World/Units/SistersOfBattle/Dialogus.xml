@@ -323,6 +323,7 @@
         <trait name="SistersOfBattle/MartyrSpirit"/>
         <trait name="Rosarius"/>
         <trait name="Hero"/>
+        <trait name="SupportHero"/>
         <trait name="Stubborn"/>
         <trait name="ExtraInfantryArmour" requiredUpgrade="SistersOfBattle/ExtraInfantryArmour"/>
     </traits>

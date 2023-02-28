@@ -216,4 +216,6 @@
 
     <entry name="MonsterHunter" value="Monster Hunter"/>
     <entry name="MonsterHunterDescription" value="Increases the damage against monstrous creatures."/>
+    <entry name="SupportHero" value="Support"/>
+    <entry name="SupportHeroDescription" value="Increases the ranged damage reduction against attacks from range 2 or higher."/>
 </language>

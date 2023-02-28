@@ -299,6 +299,7 @@
         <trait name="ExtraInfantryArmour" requiredUpgrade="Eldar/ExtraInfantryArmour"/>
         <trait name="Fleet"/>
         <trait name="Hero"/>
+        <trait name="SupportHero"/>
         <trait name="Psyker"/>
         <trait name="Eldar/RuneArmour"/>
         <trait name="Eldar/SpiritPreservation"/>

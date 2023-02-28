@@ -204,6 +204,7 @@
         <trait name="ExtraInfantryArmour" requiredUpgrade="Orks/ExtraInfantryArmour"/>
         <trait name="FuriousCharge"/>
         <trait name="Hero"/>
+        <trait name="SupportHero"/>
         <trait name="Orks/MightMakesRight"/>
         <trait name="MobRule"/>
         <trait name="Orks/GreenTideHealing"/>

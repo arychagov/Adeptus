@@ -215,5 +215,6 @@
         <trait name="ExtraInfantryArmour" requiredUpgrade="AdeptusMechanicus/ExtraInfantryArmour"/>
         <trait name="FeelNoPain"/>
         <trait name="Hero"/>
+        <trait name="SupportHero"/>
     </traits>
 </unit>
