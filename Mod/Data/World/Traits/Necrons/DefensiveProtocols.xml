@@ -8,6 +8,7 @@
                     <faction name="Necrons"/>
                     <noTrait name="Fortification"/>
                     <noTrait name="Vehicle"/>
+                    <noTrait name="MonstrousCreature"/>
                 </unit>
             </conditions>
             <effects>
