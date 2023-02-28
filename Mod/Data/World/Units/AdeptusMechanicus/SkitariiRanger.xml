@@ -83,5 +83,6 @@
         <trait name="AdeptusMechanicus/EnhancedDataTether" requiredUpgrade="AdeptusMechanicus/EnhancedDataTether"/>
         <trait name="ExtraInfantryArmour" requiredUpgrade="AdeptusMechanicus/ExtraInfantryArmour"/>
         <trait name="AdeptusMechanicus/Omnispex" requiredUpgrade="AdeptusMechanicus/Omnispex"/>
+        <trait name="Relentless"/>
     </traits>
 </unit>
