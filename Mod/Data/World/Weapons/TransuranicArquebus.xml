@@ -25,6 +25,7 @@
         <trait name="Armourbane"/>
         <trait name="HeavyWeapon"/>
         <trait name="Haywire"/>
+        <trait name="MonsterHunter"/>
         <trait name="AdeptusMechanicus/HeavyWeaponBonus" requiredUpgrade="AdeptusMechanicus/HeavyWeaponBonus"/>
     </traits>
 </weapon>

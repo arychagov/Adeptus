@@ -214,4 +214,6 @@
     <entry name="ChaosSpaceMarines/SlaaneshCorruptionDescription" value="Grants Daemon Prince flying ability, increases the movement, the accuracy and the invulnerable damage reduction." />
     <entry name="ChaosSpaceMarines/SlaaneshCorruptionFlavor" value="The greatest of Slaanesh’s daemons move with an idealised grace and agility rendered hideous by its sheer precision and impossibility." />
 
+    <entry name="MonsterHunter" value="Monster Hunter"/>
+    <entry name="MonsterHunterDescription" value="Increases the damage against monstrous creatures."/>
 </language>
