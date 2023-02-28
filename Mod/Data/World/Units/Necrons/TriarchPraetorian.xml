@@ -239,5 +239,6 @@
         <trait name="ExtraInfantryArmour" requiredUpgrade="Necrons/ExtraInfantryArmour"/>
         <trait name="Fearless"/>
         <trait name="Necrons/ReanimationProtocols"/>
+        <trait name="Bodyguard"/>
     </traits>
 </unit>

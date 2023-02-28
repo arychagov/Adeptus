@@ -117,5 +117,6 @@
         <trait name="Zealot"/>
         <trait name="AdeptusMechanicus/SiphonVigour"/>
         <trait name="AdeptusMechanicus/VoltagheistField"/>
+        <trait name="Bodyguard"/>
     </traits>
 </unit>

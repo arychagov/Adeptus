@@ -134,5 +134,6 @@
         <trait name="FuriousCharge" requiredUpgrade="Tyranids/AdrenalGlands"/>
         <trait name="Tyranids/InfantryUpkeep" requiredUpgrade="Tyranids/InfantryUpkeep"/>
         <trait name="Tyranids/ToxinSacs" requiredUpgrade="Tyranids/ToxinSacs"/>
+        <trait name="Bodyguard"/>
     </traits>
 </unit>

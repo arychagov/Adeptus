@@ -117,5 +117,6 @@
         <trait name="FeelNoPain"/>
         <trait name="Infiltrate"/>
         <trait name="Stealth"/>
+        <trait name="Bodyguard"/>
     </traits>
 </unit>

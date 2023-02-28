@@ -184,5 +184,6 @@
         <trait name="ExtraInfantryArmour" requiredUpgrade="SpaceMarines/ExtraInfantryArmour"/>
         <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand"/>
         <trait name="SpaceMarines/AssaultDoctrine"/>
+        <trait name="Bodyguard"/>
     </traits>
 </unit>

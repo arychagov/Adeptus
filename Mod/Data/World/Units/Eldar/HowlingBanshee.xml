@@ -167,5 +167,6 @@
         <trait name="ExtraInfantryArmour" requiredUpgrade="Eldar/ExtraInfantryArmour"/>
         <trait name="Fleet"/>
         <trait name="Eldar/SpiritPreservation"/>
+        <trait name="Bodyguard"/>
     </traits>
 </unit>

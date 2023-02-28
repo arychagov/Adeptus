@@ -131,5 +131,6 @@
         <trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
         <trait name="MoveThroughCover"/>
         <trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
+        <trait name="Bodyguard"/>
     </traits>
 </unit>

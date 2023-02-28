@@ -95,5 +95,6 @@
         <trait name="MoveThroughCover"/>
         <trait name="ForestStealth"/>
         <trait name="Tau/PreciseShooter"/>
+        <trait name="Bodyguard"/>
     </traits>
 </unit>

@@ -102,5 +102,6 @@
         <trait name="Fearless"/>
         <trait name="Rage"/>
         <trait name="Eldar/SpiritPreservation"/>
+        <trait name="Bodyguard"/>
     </traits>
 </unit>

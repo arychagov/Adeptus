@@ -141,5 +141,6 @@
         <trait name="OrkoidFungusBonusHealingRate" requiredUpgrade="Orks/OrkoidFungusBonusHealingRate"/>
         <trait name="Orks/Scavenger"/>
         <trait name="SlowAndPurposeful"/>
+        <trait name="Bodyguard"/>
     </traits>
 </unit>

@@ -220,5 +220,6 @@
         <trait name="Relentless"/>
         <trait name="ExtraInfantryArmour" requiredUpgrade="Tau/ExtraInfantryArmour"/>
         <trait name="Tau/Battlesuit"/>
+        <trait name="Bodyguard"/>
     </traits>
 </unit>

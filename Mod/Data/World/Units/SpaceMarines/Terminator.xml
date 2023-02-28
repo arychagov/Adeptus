@@ -141,5 +141,6 @@
         <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand"/>
         <trait name="TerminatorArmour"/>
         <trait name="Relentless"/>
+        <trait name="Bodyguard"/>
     </traits>
 </unit>

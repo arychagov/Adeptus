@@ -147,5 +147,6 @@
         <trait name="BruteShield" requiredUpgrade="AstraMilitarum/BruteShield"/>
         <trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
         <trait name="Stubborn"/>
+        <trait name="Bodyguard"/>
     </traits>
 </unit>
