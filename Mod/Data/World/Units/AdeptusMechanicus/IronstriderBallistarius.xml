@@ -125,7 +125,6 @@
     <traits>
         <trait name="AdeptusMechanicus/Bionics"/>
         <trait name="AdeptusMechanicus/DoctrinaImperatives"/>
-        <trait name="AdeptusMechanicus/Dunestrider"/>
         <trait name="ExtraVehicleArmour" requiredUpgrade="AdeptusMechanicus/ExtraVehicleArmour"/>
         <trait name="OpenTopped"/>
         <trait name="Vehicle"/>
