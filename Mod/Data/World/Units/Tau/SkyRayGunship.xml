@@ -40,7 +40,7 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8"/> <!-- %armor base armor=12/11/10 -->
+                <armor base="7"/> <!-- %armor base armor=12/11/10 -->
                 <energyCost base="40.0"/> <!-- %energyCost base tier=8 factor=0.5 -->
                 <hitpointsMax base="36.0"/>
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=12/11/10 wounds=3 -->
