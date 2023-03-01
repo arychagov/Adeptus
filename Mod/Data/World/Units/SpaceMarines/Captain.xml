@@ -128,7 +128,7 @@
                         beginFire="1.16666666667"/>
             </model>
         </throwGrenade>
-        <genericUnitAbility cooldownMin="5" cooldownMax="1"
+        <genericUnitAbility cooldownMin="3" cooldownMax="1"
                             icon="Actions/Signum"
                             name="SpaceMarines/TacticalPrecision"
                             requiredActionPoints="0"
