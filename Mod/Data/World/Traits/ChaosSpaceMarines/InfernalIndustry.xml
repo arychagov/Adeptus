@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Actions/ChaosSpaceMarines/InfernalIndustry">
+	<modifiers>
+		<modifier>
+			<effects>
+				<energy add="9"/>
+				<ore add="9"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
