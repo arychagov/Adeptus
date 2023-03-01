@@ -205,7 +205,7 @@
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait duration="1" name="Necrons/WrithingWorldscape"/>
+                                        <addTrait duration="1" name="Necrons/AethericInterception"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
