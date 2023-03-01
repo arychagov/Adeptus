@@ -205,6 +205,15 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="Necrons/DefensiveProtocolsLord"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
                         <area affects="Tile" radiusMin="1" radiusMax="3">
                             <modifiers>
                                 <modifier>

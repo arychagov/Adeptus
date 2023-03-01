@@ -221,4 +221,9 @@
     <entry name="MonsterHunterDescription" value="Increases the damage against monstrous creatures."/>
     <entry name="SupportHero" value="Support"/>
     <entry name="SupportHeroDescription" value="Increases the ranged damage reduction against attacks from range 2 or higher."/>
+
+    <entry name="Necrons/DefensiveProtocolsDescription" value="Increases the regeneration."/>
+    <entry name="Necrons/DefensiveProtocolsLord" value="<string name='Actions/Necrons/DefensiveProtocols'/>"/>
+    <entry name="Necrons/DefensiveProtocolsLordDescription" value="Increases the armour."/>
+    <entry name="Necrons/DefensiveProtocolsLordFlavor" value="<string name='Actions/Necrons/DefensiveProtocolsFlavor'/>"/>
 </language>

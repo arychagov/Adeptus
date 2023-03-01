@@ -117,5 +117,6 @@
     <entry name="Eldar/DoomDescription" value="Increases the damage taken by target non-hero enemy unit."/>
     <entry name="Eldar/ProtectJinxDescription" value="Increases the armour of target allied unit or decreases the armour of target non-hero enemy unit."/>
     <entry name="Tyranids/ExploitWeaknessesDescription" value="The Tyranid Prime reduces the armour of the target non-hero enemy unit."/>
+    <entry name="Necrons/DefensiveProtocolsDescription" value="Increases the armour of the Lord. Increases regeneration of nearby allied Necron infantry units and monstrous creatures."/>
 
 </language>

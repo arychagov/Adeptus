@@ -8,7 +8,7 @@
         </modifier>
         <modifier requiredUpgrade="Necrons/LivingMetal2">
             <effects>
-                <hitpoints add="1"/>
+                <hitpoints add="2"/>
             </effects>
         </modifier>
     </perTurnModifiers>
