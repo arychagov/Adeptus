@@ -42,7 +42,7 @@
     <entry name="Necrons/MethodicalDestructionDescription" value="Increases the accuracy of the Lord and adjacent allied Necrons infantry." />
     <entry name="Necrons/MethodicalDestructionFlavor" value="<string name='Traits/Necrons/MethodicalDestructionFlavor'/>" />
     <entry name="Necrons/CountertemporalNanomines" value="<string name='Traits/Necrons/CountertemporalNanomines'/>" />
-    <entry name="Necrons/CountertemporalNanominesDescription" value="Immobilizes enemy unit." />
+    <entry name="Necrons/CountertemporalNanominesDescription" value="Immobilizes enemy non-hero unit." />
     <entry name="Necrons/CountertemporalNanominesFlavor" value="<string name='Traits/Necrons/CountertemporalNanominesFlavor'/>" />
     <entry name="Necrons/CunningAdvisors" value="<string name='Traits/Necrons/CunningAdvisors'/>" />
     <entry name="Necrons/CunningAdvisorsDescription" value="<string name='Traits/Necrons/CunningAdvisorsDescription'/>" />

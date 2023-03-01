@@ -232,6 +232,8 @@
                     <conditions>
                         <unit>
                             <enemy/>
+                            <noTrait name="Fortification"/>
+                            <noTrait name="Hero"/>
                         </unit>
                     </conditions>
                     <areas>

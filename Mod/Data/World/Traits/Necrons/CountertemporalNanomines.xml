@@ -2,12 +2,6 @@
 <trait category="Debuff" icon="Actions/Necrons/CountertemporalNanomines">
     <modifiers>
         <modifier>
-            <conditions>
-                <unit>
-                    <enemy/>
-                    <noTrait name="Fortification"/>
-                </unit>
-            </conditions>
             <effects>
                 <movementMax max="0.0"/>
             </effects>
