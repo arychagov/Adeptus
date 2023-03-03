@@ -118,5 +118,10 @@
     <entry name="Eldar/ProtectJinxDescription" value="Increases the armour of target allied unit or decreases the armour of target non-hero enemy unit."/>
     <entry name="Tyranids/ExploitWeaknessesDescription" value="The Tyranid Prime reduces the armour of the target non-hero enemy unit."/>
     <entry name="Necrons/DefensiveProtocolsDescription" value="Increases the armour of the Lord. Increases regeneration of nearby allied Necron infantry units and monstrous creatures."/>
+    <entry name="Tyranids/MassIncubation" value="Synaptic Channelling"/>
+    <entry name="Tyranids/MassIncubationDescription" value="Sets adjacent allied Termagant level to 5."/>
+    <entry name="Tyranids/EnhancedSynapseCreature" value="Enhanced Synapse Creature"/>
+    <entry name="Tyranids/EnhancedSynapseCreatureDescription" value="Grants this and nearby units immunity to morale, fear and instinctive behaviour effects."/>
+    <entry name="Tyranids/EnhancedSynapseCreatureFlavor" value="Some Tyranids serve as synaptic conduits or nodal relays through which a portion of the Hive Mind's iron will flows, overriding the natural instincts of the swarm."/>
 
 </language>
