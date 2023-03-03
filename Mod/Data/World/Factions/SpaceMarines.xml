@@ -428,21 +428,18 @@
                   durationInSeconds="0.1"
                   interfaceSound="Interface/Tactic"
                   name="TacticalDoctrine"
-                  rankMax="9"
-                  cooldownScalesWithPace="1"
-                  requiredUpgrade="SpaceMarines/TacticalDoctrine"
-                  scaleInfluenceCost="1">
+                  requiredUpgrade="SpaceMarines/TacticalDoctrine">
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="4"/>
+                        <influenceCost base="40"/>
                     </effects>
                 </modifier>
             </modifiers>
             <playerModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="TacticalDoctrine"/>
+                        <addTrait duration="3" name="TacticalDoctrine"/>
                     </effects>
                 </modifier>
             </playerModifiers>
@@ -460,21 +457,19 @@
                   durationInSeconds="0.1"
                   interfaceSound="Interface/Tactic"
                   name="AssaultDoctrine"
-                  rankMax="9"
                   cooldownScalesWithPace="1"
-                  requiredUpgrade="SpaceMarines/AssaultDoctrine"
-                  scaleInfluenceCost="1">
+                  requiredUpgrade="SpaceMarines/AssaultDoctrine">
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="4"/>
+                        <influenceCost base="40"/>
                     </effects>
                 </modifier>
             </modifiers>
             <playerModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="AssaultDoctrine"/>
+                        <addTrait duration="3" name="AssaultDoctrine"/>
                     </effects>
                 </modifier>
             </playerModifiers>
@@ -492,21 +487,19 @@
                   durationInSeconds="0.1"
                   interfaceSound="Interface/Tactic"
                   name="DevastatorDoctrine"
-                  rankMax="9"
                   cooldownScalesWithPace="1"
-                  requiredUpgrade="SpaceMarines/DevastatorDoctrine"
-                  scaleInfluenceCost="1">
+                  requiredUpgrade="SpaceMarines/DevastatorDoctrine">
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="4"/>
+                        <influenceCost base="40"/>
                     </effects>
                 </modifier>
             </modifiers>
             <playerModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="DevastatorDoctrine"/>
+                        <addTrait duration="3" name="DevastatorDoctrine"/>
                     </effects>
                 </modifier>
             </playerModifiers>
@@ -535,7 +528,7 @@
             <playerModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="BolterDrill"/>
+                        <addTrait duration="3" name="BolterDrill"/>
                     </effects>
                 </modifier>
             </playerModifiers>
@@ -555,7 +548,7 @@
             <playerModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="TheFleshIsWeak"/>
+                        <addTrait duration="3" name="TheFleshIsWeak"/>
                     </effects>
                 </modifier>
             </playerModifiers>
@@ -575,7 +568,7 @@
             <playerModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="MachineEmpathy"/>
+                        <addTrait duration="3" name="MachineEmpathy"/>
                     </effects>
                 </modifier>
             </playerModifiers>
@@ -595,7 +588,7 @@
             <playerModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="SiegeMasters"/>
+                        <addTrait duration="3" name="SiegeMasters"/>
                     </effects>
                 </modifier>
             </playerModifiers>
