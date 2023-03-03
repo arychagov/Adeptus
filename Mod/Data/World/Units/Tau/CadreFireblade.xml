@@ -12,7 +12,7 @@
               walker="1"/>
     </model>
     <weapons>
-        <weapon name="PulseRifle" slotName="PulseRifle">
+        <weapon name="CadrePulseRifle" slotName="CadrePulseRifle">
             <model>
                 <projectileWeapon muzzleBone=".Muzzle"/>
             </model>
@@ -319,7 +319,7 @@
                      icon="Actions/Tau/PreciseShot"
                      rank="-1"
                      rankMax="2"
-                     weaponSlotName="PulseRifle"
+                     weaponSlotName="CadrePulseRifle"
                      name="Tau/PreciseShot">
             <model>
                 <action animation="Units/Tau/CadreFirebladeAttack"
@@ -332,7 +332,6 @@
                     <effects>
                         <accuracy mulMin="0.5" mulMax="1.5"/>
                         <damage mulMin="0.5" mulMax="1.5"/>
-                        <rangeMax mulMin="0.5" mulMax="1.5"/>
                     </effects>
                 </modifier>
             </modifiers>
