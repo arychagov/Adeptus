@@ -14,6 +14,7 @@
     <weapons>
         <weapon name="TwinLinkedLascannon"/>
         <weapon name="HeavyBolter" requiredUpgrade="SpaceMarines/HurricaneBolter"/>
+        <weapon name="HeavyBolter" requiredUpgrade="SpaceMarines/FortressOfRedemptionDamageReduction"/>
         <weapon name="Boltgun" count="5">
             <model>
                 <projectileWeapon mesh="Weapons/SpaceMarines/HeadquartersBoltguns"
@@ -43,6 +44,12 @@
                 <moraleMax base="0"/> <!-- %moraleMax base leadership=8 -->
                 <movementMax max="0"/>
                 <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+            </effects>
+        </modifier>
+        <modifier visible="0" requiredUpgrade="SpaceMarines/FortressOfRedemptionDamageReduction">
+            <effects>
+                <armor add="3"/>
+                <hitpointsMax mul="0.2"/>
             </effects>
         </modifier>
     </modifiers>

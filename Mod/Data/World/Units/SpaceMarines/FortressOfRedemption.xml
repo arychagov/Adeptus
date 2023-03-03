@@ -63,6 +63,7 @@
         <modifier visible="0" requiredUpgrade="SpaceMarines/FortressOfRedemptionDamageReduction">
             <effects>
                 <armor add="1"/>
+                <hitpointsMax mul="0.2"/>
             </effects>
         </modifier>
     </modifiers>
