@@ -9,6 +9,7 @@
                         <trait name="Vehicle"/>
                     </opponent>
                 </encounter>
+                <encounterRange equal="1"/>
             </conditions>
             <effects>
                 <armorPenetration add="2"/>

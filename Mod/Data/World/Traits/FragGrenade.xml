@@ -9,6 +9,7 @@
                         <noTrait name="Vehicle"/>
                     </opponent>
                 </encounter>
+                <encounterRange equal="1"/>
             </conditions>
             <effects>
                 <additionalMembersHit add="0.35"/>
