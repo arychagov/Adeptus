@@ -49,7 +49,7 @@
                 </player>
             </conditions>
             <effects>
-                <loyalty mul="0.1"/>
+                <loyalty mul="0.075"/>
             </effects>
         </modifier>
     </modifiers>
