@@ -33,7 +33,7 @@
                 <cargoSlotsRequired base="0"/>
                 <energyUpkeep base="3.0"/> <!-- %energyUpkeep base tier=7 factor=1 -->
                 <energyCost base="30.0"/> <!-- %energyCost base tier=7 factor=0.5 -->
-                <hitpointsMax base="16.0"/>
+                <hitpointsMax base="18.0"/>
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=11/11/11 wounds=2 -->
                 <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
                 <movementMax base="6"/>
@@ -98,8 +98,8 @@
                 </selfTarget>
             </beginTargets>
         </jink>
-        <vectoredAfterburners consumedActionPoints="0" consumedMovement="0"
-                              cooldown="10">
+        <vectoredAfterburners consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0"
+                              cooldown="3">
             <model>
                 <action sound="Actions/ChargeUp"/>
             </model>

@@ -111,7 +111,7 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3">
+        <jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
             <model>
                 <action sound="Actions/ChargeUp"/>
             </model>
