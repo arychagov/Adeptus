@@ -105,7 +105,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="FragGrenade" />
+                                        <addTrait name="FragGrenade" duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -133,7 +133,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="KrakGrenade" />
+                                        <addTrait name="KrakGrenade" duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>

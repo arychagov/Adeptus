@@ -128,7 +128,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="FragGrenade" />
+                                        <addTrait name="FragGrenade" duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
