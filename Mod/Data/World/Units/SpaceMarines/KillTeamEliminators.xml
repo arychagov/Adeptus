@@ -95,20 +95,62 @@
                         soundCount="4"/>
             </model>
         </move>
-        <throwGrenade weaponSlotName="FragGrenade" cooldown="10"
-                      requiredUpgrade="SpaceMarines/FragGrenade">
+        <genericUnitAbility consumedActionPoints="0" consumedMovement="0" cooldown="10"
+            name="FragGrenade"
+            icon="Weapons/FragGrenade"
+            requiredUpgrade="SpaceMarines/FragGrenade">
             <model>
-                <action animation="Units/SpaceMarines/DevastatorSpaceMarineGrenade"
-                        beginFire="1"/>
+                <action sound="Actions/ChargeUp"/>
             </model>
-        </throwGrenade>
-        <throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
-                      requiredUpgrade="SpaceMarines/KrakGrenade">
+            <conditions>
+                <unit>
+                    <noTrait name="KrakGrenade"/>
+                </unit>
+            </conditions>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="FragGrenade" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
+        <genericUnitAbility consumedActionPoints="0" consumedMovement="0" cooldown="10"
+            name="KrakGrenade"
+            icon="Weapons/KrakGrenade"
+            requiredUpgrade="SpaceMarines/KrakGrenade">
             <model>
-                <action animation="Units/SpaceMarines/DevastatorSpaceMarineGrenade"
-                        beginFire="1"/>
+                <action sound="Actions/ChargeUp"/>
             </model>
-        </throwGrenade>
+            <conditions>
+                <unit>
+                    <noTrait name="FragGrenade"/>
+                </unit>
+            </conditions>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="KrakGrenade" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
         <throwGrenade weaponSlotName="MeltaBomb" cooldown="10"
                       requiredUpgrade="SpaceMarines/MeltaBomb">
             <model>

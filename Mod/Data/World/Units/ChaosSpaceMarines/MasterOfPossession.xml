@@ -112,20 +112,62 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <throwGrenade weaponSlotName="FragGrenade" cooldown="10"
-                      requiredUpgrade="ChaosSpaceMarines/FragGrenade">
+        <genericUnitAbility consumedActionPoints="0" consumedMovement="0" cooldown="10"
+            name="FragGrenade"
+            icon="Weapons/FragGrenade"
+            requiredUpgrade="ChaosSpaceMarines/FragGrenade">
             <model>
-                <action animation="Units/ChaosSpaceMarines/MasterOfPossessionGrenade"
-                        beginFire="0.67"/>
+                <action sound="Actions/ChargeUp"/>
             </model>
-        </throwGrenade>
-        <throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
-                      requiredUpgrade="ChaosSpaceMarines/KrakGrenade">
+            <conditions>
+                <unit>
+                    <noTrait name="KrakGrenade"/>
+                </unit>
+            </conditions>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="FragGrenade" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
+        <genericUnitAbility consumedActionPoints="0" consumedMovement="0" cooldown="10"
+            name="KrakGrenade"
+            icon="Weapons/KrakGrenade"
+            requiredUpgrade="ChaosSpaceMarines/KrakGrenade">
             <model>
-                <action animation="Units/ChaosSpaceMarines/MasterOfPossessionGrenade"
-                        beginFire="0.67"/>
+                <action sound="Actions/ChargeUp"/>
             </model>
-        </throwGrenade>
+            <conditions>
+                <unit>
+                    <noTrait name="FragGrenade"/>
+                </unit>
+            </conditions>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="KrakGrenade" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
         <boonOfMutation cooldownMin="4"
                         cooldownMax="2"
                         name="ChaosSpaceMarines/BoonOfMutation"

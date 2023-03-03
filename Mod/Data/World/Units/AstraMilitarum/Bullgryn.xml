@@ -92,14 +92,34 @@
                         soundCount="4"/>
             </model>
         </move>
-        <throwGrenade weaponSlotName="FragGrenade" cooldown="10"
-                      requiredUpgrade="AstraMilitarum/FragGrenade">
+        <genericUnitAbility consumedActionPoints="0" consumedMovement="0" cooldown="10"
+            name="FragGrenade"
+            icon="Weapons/FragGrenade"
+            requiredUpgrade="AstraMilitarum/FragGrenade">
             <model>
-                <action animation="Units/AstraMilitarum/BullgrynGrenade"
-                        beginFire="0.4"
-                        endFire="10.0"/>
+                <action sound="Actions/ChargeUp"/>
             </model>
-        </throwGrenade>
+            <conditions>
+                <unit>
+                    <noTrait name="KrakGrenade"/>
+                </unit>
+            </conditions>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="FragGrenade" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
         <hammerOfWrath consumedActionPoints="0"
                        consumedMovement="0"
                        cooldown="3"

@@ -231,7 +231,12 @@
     <entry name="Necrons/DefensiveProtocolsLord" value="<string name='Actions/Necrons/DefensiveProtocols'/>"/>
     <entry name="Necrons/DefensiveProtocolsLordDescription" value="Increases the armour."/>
     <entry name="Necrons/DefensiveProtocolsLordFlavor" value="<string name='Actions/Necrons/DefensiveProtocolsFlavor'/>"/>
-
     <entry name="UnbreakableVehicle" value="Unbreakable"/>
     <entry name="UnbreakableVehicleDescription" value="Does not suffer accuracy loss on hit points loss"/>
+    <entry name="FragGrenade" value="Frag Grenade"/>
+    <entry name="FragGrenadeDescription" value="Hits multiple group members of the target unit"/>
+    <entry name="FragGrenadeFlavor" value="The lethal storm of shrapnel from these grenades drives opponents further under the cover for a few precious moments, allowing attackers more time to close in and, hopefully, get the first blow in against a disoriented foe."/>
+    <entry name="KrakGrenade" value="Krak Grenade"/>
+    <entry name="KrakGrenadeDescription" value="Increases armour penetration against vehicles and fortifications."/>
+    <entry name="KrakGrenadeFlavor" value="Krak grenades are implosive charges designed to crack vehicle armour."/>
 </language>

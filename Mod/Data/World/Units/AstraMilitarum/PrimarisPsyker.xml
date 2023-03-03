@@ -109,13 +109,34 @@
                         soundCount="4"/>
             </model>
         </move>
-        <throwGrenade cooldown="10" weaponSlotName="FragGrenade"
-                      requiredUpgrade="AstraMilitarum/FragGrenade">
+        <genericUnitAbility consumedActionPoints="0" consumedMovement="0" cooldown="10"
+            name="FragGrenade"
+            icon="Weapons/FragGrenade"
+            requiredUpgrade="AstraMilitarum/FragGrenade">
             <model>
-                <action animation="Units/AstraMilitarum/PrimarisPsykerGrenade"
-                        beginFire="0.55"/>
+                <action sound="Actions/ChargeUp"/>
             </model>
-        </throwGrenade>
+            <conditions>
+                <unit>
+                    <noTrait name="KrakGrenade"/>
+                </unit>
+            </conditions>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="FragGrenade" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
         <genericUnitAbility cooldown="1"
                             levelUpPriority="0.15"
                             psychicPower="1"
