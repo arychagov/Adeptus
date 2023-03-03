@@ -247,5 +247,6 @@
         <trait name="Rosarius"/>
         <trait name="TerminatorArmour"/>
         <trait name="Zealot"/>
+        <trait name="SpaceMarines/SonOfTheAbyss"/>
     </traits>
 </unit>
