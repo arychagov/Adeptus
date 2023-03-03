@@ -25,6 +25,7 @@
     <entry name="SpaceMarines/OmniscopeDescription" value="Grants Kill Team Eliminators, Predators, Terminators and Devastator Centurions the ability to bypass ranged damaged reduction." />
     <entry name="SpaceMarines/FortressOfRedemptionDamageReductionDescription" value="Grants city and Fortresses of Redemption heavy bolter, additional armour and hitpoints." />
     <entry name="SpaceMarines/SignumDescription" value="Grants Kill Team Eliminators the ability to negate the penalty for heavy, ordnance and salvo weapons." />
+    <entry name="SpaceMarines/MeltaBombDescription" value="Grants Assault Space Marines, Kill Team Eliminators and Scout Bikers the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications."/>
 
     <entry name="Necrons/LivingMetal2" value="Undying Revenants" />
     <entry name="Necrons/LivingMetal2Description" value="Increases the healing of Reanimation Protocols and Living Metal." />
