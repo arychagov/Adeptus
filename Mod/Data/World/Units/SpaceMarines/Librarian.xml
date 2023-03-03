@@ -280,5 +280,6 @@
         <trait name="PsychicHood"/>
         <trait name="Psyker"/>
         <trait name="TerminatorArmour"/>
+        <trait name="Infiltrate"/>
     </traits>
 </unit>
