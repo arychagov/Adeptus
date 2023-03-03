@@ -128,6 +128,58 @@
                         beginFire="0.9"/>
             </model>
         </throwGrenade>
+        <genericUnitAbility
+            icon="Items/FaolchusWing"
+            name="SpaceMarines/EmpireWithin"
+            cooldownMin="4"
+            consumedMovement="0">
+            <model>
+                <action animation="Units/SpaceMarines/LibrarianLevitate"
+                    sound="Actions/Levitate"/>
+            </model>
+            <beginTargets>
+                <target rangeMax="3">
+                    <conditions>
+                        <unit>
+                            <allied/>
+                            <faction name="SpaceMarines"/>
+                            <noTrait name="Hero"/>
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <level add="1"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </genericUnitAbility>
+        <genericUnitAbility name="SpaceMarines/VeilOfTime"
+            passive="1"
+            rank="-1"
+            rankMax="2">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="SpaceMarines/VeilOfTime"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
         <genericUnitAbility cooldown="3"
                             icon="Actions/PowerStrike"
                             name="SpaceMarines/SpectralBlade"
@@ -179,40 +231,6 @@
                                 <modifier>
                                     <effects>
                                         <addTrait duration="3" name="SpaceMarines/MightOfHeroes"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </target>
-            </beginTargets>
-        </genericUnitAbility>
-        <genericUnitAbility
-                icon="Items/FaolchusWing"
-                name="SpaceMarines/EmpireWithin"
-                cooldownMin="7" cooldownMax="3"
-                consumedMovement="0"
-                rank="-1"
-                rankMax="2">
-            <model>
-                <action animation="Units/SpaceMarines/LibrarianLevitate"
-                        sound="Actions/Levitate"/>
-            </model>
-            <beginTargets>
-                <target rangeMax="3">
-                    <conditions>
-                        <unit>
-                            <allied/>
-                            <faction name="SpaceMarines"/>
-                            <noTrait name="Hero"/>
-                        </unit>
-                    </conditions>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <level add="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>

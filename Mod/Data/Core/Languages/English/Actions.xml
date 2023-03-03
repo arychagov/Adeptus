@@ -28,6 +28,9 @@
     <entry name="SpaceMarines/EmpireWithin" value="Empire Within" />
     <entry name="SpaceMarines/EmpireWithinDescription" value="Levels up non-hero friendly unit." />
     <entry name="SpaceMarines/EmpireWithinFlavor" value="”I can pulp your flesh and snap your bones in less than a second and without so much as lifting a finger. What is the power of technology compared to that?”<br/>  — Vel'Cona, Chief Librarian of the Salamanders" />
+    <entry name="SpaceMarines/VeilOfTime" value="Veil Of Time" />
+    <entry name="SpaceMarines/VeilOfTimeDescription" value="Increases the research output of the empire." />
+    <entry name="SpaceMarines/VeilOfTimeFlavor" value="The psyker projects his will beyond the regular passage of time, altering the temporal flow to sway the tide of battle." />
 
     <entry name="Necrons/DynastyDescription" value="Increases the loyalty of your cities." />
     <entry name="Necrons/QuantumShieldingDescription" value="Increases the invulnerable damage reduction." />
@@ -111,17 +114,17 @@
     <entry name="ChaosSpaceMarines/SlaaneshCorruptionDescription" value="Grants Daemon Prince flying ability, increases the movement, the accuracy and the invulnerable damage reduction." />
     <entry name="ChaosSpaceMarines/SlaaneshCorruptionFlavor" value="The greatest of Slaanesh’s daemons move with an idealised grace and agility rendered hideous by its sheer precision and impossibility." />
 
-    <entry name="Necrons/DestructionProtocolsDescription" value="Increases the damage taken for adjacent non-hero enemy units."/>
-    <entry name="MisfortuneDescription" value="Increases the damage taken for the target non-hero enemy unit."/>
-    <entry name="ChaosSpaceMarines/ShatterDefencesDescription" value="Reduces the ranged damage reduction of the target non-hero vehicle or fortification."/>
-    <entry name="Eldar/DoomDescription" value="Increases the damage taken by target non-hero enemy unit."/>
-    <entry name="Eldar/ProtectJinxDescription" value="Increases the armour of target allied unit or decreases the armour of target non-hero enemy unit."/>
-    <entry name="Tyranids/ExploitWeaknessesDescription" value="The Tyranid Prime reduces the armour of the target non-hero enemy unit."/>
-    <entry name="Necrons/DefensiveProtocolsDescription" value="Increases the armour of the Lord. Increases regeneration of nearby allied Necron infantry units and monstrous creatures."/>
-    <entry name="Tyranids/MassIncubation" value="Synaptic Channelling"/>
-    <entry name="Tyranids/MassIncubationDescription" value="Sets adjacent allied Termagant level to 5."/>
-    <entry name="Tyranids/EnhancedSynapseCreature" value="Enhanced Synapse Creature"/>
-    <entry name="Tyranids/EnhancedSynapseCreatureDescription" value="Grants this and nearby units immunity to morale, fear and instinctive behaviour effects."/>
-    <entry name="Tyranids/EnhancedSynapseCreatureFlavor" value="Some Tyranids serve as synaptic conduits or nodal relays through which a portion of the Hive Mind's iron will flows, overriding the natural instincts of the swarm."/>
+    <entry name="Necrons/DestructionProtocolsDescription" value="Increases the damage taken for adjacent non-hero enemy units." />
+    <entry name="MisfortuneDescription" value="Increases the damage taken for the target non-hero enemy unit." />
+    <entry name="ChaosSpaceMarines/ShatterDefencesDescription" value="Reduces the ranged damage reduction of the target non-hero vehicle or fortification." />
+    <entry name="Eldar/DoomDescription" value="Increases the damage taken by target non-hero enemy unit." />
+    <entry name="Eldar/ProtectJinxDescription" value="Increases the armour of target allied unit or decreases the armour of target non-hero enemy unit." />
+    <entry name="Tyranids/ExploitWeaknessesDescription" value="The Tyranid Prime reduces the armour of the target non-hero enemy unit." />
+    <entry name="Necrons/DefensiveProtocolsDescription" value="Increases the armour of the Lord. Increases regeneration of nearby allied Necron infantry units and monstrous creatures." />
+    <entry name="Tyranids/MassIncubation" value="Synaptic Channelling" />
+    <entry name="Tyranids/MassIncubationDescription" value="Sets adjacent allied Termagant level to 5." />
+    <entry name="Tyranids/EnhancedSynapseCreature" value="Enhanced Synapse Creature" />
+    <entry name="Tyranids/EnhancedSynapseCreatureDescription" value="Grants this and nearby units immunity to morale, fear and instinctive behaviour effects." />
+    <entry name="Tyranids/EnhancedSynapseCreatureFlavor" value="Some Tyranids serve as synaptic conduits or nodal relays through which a portion of the Hive Mind's iron will flows, overriding the natural instincts of the swarm." />
 
 </language>

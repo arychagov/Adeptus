@@ -36,6 +36,9 @@
     <entry name="SpaceMarines/FortressOfRedemptionDamageReductionDescription" value="Grants Fortresses of Redemption additional Heavy Bolter weapon and armour." />
     <entry name="SpaceMarines/SonOfTheAbyss" value="Son Of The Abyss"/>
     <entry name="SpaceMarines/SonOfTheAbyssDescription" value="Grants Librarian witchfire damage immunity. Reduces the morale of adjacent enemy psyker units each turn."/>
+    <entry name="SpaceMarines/VeilOfTime" value="Veil Of Time" />
+    <entry name="SpaceMarines/VeilOfTimeDescription" value="Increases the research output of the empire." />
+    <entry name="SpaceMarines/VeilOfTimeFlavor" value="The psyker projects his will beyond the regular passage of time, altering the temporal flow to sway the tide of battle." />
 
     <!-- Start of Prosperity -->
     <entry name="AdeptusMechanicus/Prosperity" value="Prosperity" />
