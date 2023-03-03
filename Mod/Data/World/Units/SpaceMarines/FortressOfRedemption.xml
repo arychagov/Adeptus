@@ -52,7 +52,7 @@
                 <cargoSlots base="6"/> <!-- %cargoSlots base capacity=20 -->
                 <hitpointsMax base="32.0"/>
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=14/14/14 wounds=2 -->
-                <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+                <moraleMax base="0"/> <!-- %moraleMax base leadership=8 -->
                 <movementMax max="0"/>
                 <influenceUpkeep base="2.0"/> <!-- %influenceUpkeep base tier=6 factor=1 -->
                 <influenceCost base="40.0"/> <!-- %influenceCost base tier=6 factor=1 -->

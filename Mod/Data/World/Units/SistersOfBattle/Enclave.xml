@@ -45,7 +45,7 @@
             <effects>
                 <armor base="6"/> <!-- %armor base armor=10/10/10 -->
                 <cargoSlots base="6"/> <!-- %cargoSlots base capacity=20 -->
-                <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+                <moraleMax base="0"/> <!-- %moraleMax base leadership=8 -->
                 <movementMax max="0"/>
                 <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
