@@ -5,6 +5,7 @@
             <conditions>
                 <unit>
                     <noTrait name="MultimodelVehicle"/>
+                    <noTrait name="UnbreakableVehicle"/>
                     <hitpointsFraction greater="0.33" less="0.66"/>
                 </unit>
             </conditions>
@@ -16,6 +17,7 @@
             <conditions>
                 <unit>
                     <noTrait name="MultimodelVehicle"/>
+                    <noTrait name="UnbreakableVehicle"/>
                     <hitpointsFraction less="0.33"/>
                 </unit>
             </conditions>

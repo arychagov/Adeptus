@@ -24,13 +24,6 @@
                                fireInterval="1.74"/>
             </model>
         </weapon>
-        <weapon name="CognisHeavyStubber" count="3">
-            <model>
-                <projectileWeapon muzzleBone="HeavyStubberMuzzle"
-                                  muzzleCount="3"
-                                  effectFaceWeight="0"/>
-            </model>
-        </weapon>
         <weapon name="None" requiredUpgrade="AdeptusMechanicus/BroadSpectrumDataTether" enabled="0">
             <model>
                 <weapon mesh="Weapons/AdeptusMechanicus/SkorpiusDisintegratorAntennas"
@@ -50,7 +43,7 @@
                 <oreUpkeep base="6.0"/> <!-- %oreUpkeep base tier=9 factor=1 -->
                 <oreCost base="120.0"/> <!-- %oreCost base tier=9 factor=1 -->
                 <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
-                <movementMax base="4"/>
+                <movementMax base="3"/>
                 <productionCost base="54.0"/> <!-- %productionCost base tier=9 factor=1 -->
                 <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
@@ -112,5 +105,6 @@
         <trait name="Skimmer"/>
         <trait name="Tank"/>
         <trait name="Vehicle"/>
+        <trait name="UnbreakableVehicle"/>
     </traits>
 </unit>
