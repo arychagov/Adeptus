@@ -120,5 +120,6 @@
         <trait name="MoveThroughCover"/>
         <trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
         <trait name="Bodyguard"/>
+        <trait name="AstraMilitarum/ImperiumOfMan" requiredUpgrade="AstraMilitarum/ImperiumOfMan"/>
     </traits>
 </unit>
