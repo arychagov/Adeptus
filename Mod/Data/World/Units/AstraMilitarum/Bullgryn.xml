@@ -92,34 +92,7 @@
                         soundCount="4"/>
             </model>
         </move>
-        <genericUnitAbility consumedActionPoints="0" consumedMovement="0" cooldown="10"
-            name="FragGrenade"
-            icon="Weapons/FragGrenade"
-            requiredUpgrade="AstraMilitarum/FragGrenade">
-            <model>
-                <action sound="Actions/ChargeUp"/>
-            </model>
-            <conditions>
-                <unit>
-                    <noTrait name="KrakGrenade"/>
-                </unit>
-            </conditions>
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="FragGrenade" duration="1"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-        </genericUnitAbility>
+
         <hammerOfWrath consumedActionPoints="0"
                        consumedMovement="0"
                        cooldown="3"

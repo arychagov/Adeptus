@@ -115,62 +115,8 @@
                 </selfTarget>
             </beginTargets>
         </scout>
-        <genericUnitAbility consumedActionPoints="0" consumedMovement="0" cooldown="10"
-            name="FragGrenade"
-            icon="Weapons/FragGrenade"
-            requiredUpgrade="SistersOfBattle/FragGrenade">
-            <model>
-                <action sound="Actions/ChargeUp"/>
-            </model>
-            <conditions>
-                <unit>
-                    <noTrait name="KrakGrenade"/>
-                </unit>
-            </conditions>
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="FragGrenade" duration="1"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-        </genericUnitAbility>
-        <genericUnitAbility consumedActionPoints="0" consumedMovement="0" cooldown="10"
-            name="KrakGrenade"
-            icon="Weapons/KrakGrenade"
-            requiredUpgrade="SistersOfBattle/KrakGrenade">
-            <model>
-                <action sound="Actions/ChargeUp"/>
-            </model>
-            <conditions>
-                <unit>
-                    <noTrait name="FragGrenade"/>
-                </unit>
-            </conditions>
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="KrakGrenade" duration="1"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-        </genericUnitAbility>
+
+
         <throwGrenade weaponSlotName="MeltaBomb" cooldown="10"
                       requiredUpgrade="SistersOfBattle/MeltaBomb">
             <model>

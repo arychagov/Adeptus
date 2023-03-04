@@ -82,62 +82,7 @@
                         soundCount="3"/>
             </model>
         </move>
-        <genericUnitAbility consumedActionPoints="0" consumedMovement="0" cooldown="10"
-            name="FragGrenade"
-            icon="Weapons/FragGrenade"
-            requiredUpgrade="SpaceMarines/FragGrenade">
-            <model>
-                <action sound="Actions/ChargeUp"/>
-            </model>
-            <conditions>
-                <unit>
-                    <noTrait name="KrakGrenade"/>
-                </unit>
-            </conditions>
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="FragGrenade" duration="1"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-        </genericUnitAbility>
-        <genericUnitAbility consumedActionPoints="0" consumedMovement="0" cooldown="10"
-            name="KrakGrenade"
-            icon="Weapons/KrakGrenade"
-            requiredUpgrade="SpaceMarines/KrakGrenade">
-            <model>
-                <action sound="Actions/ChargeUp"/>
-            </model>
-            <conditions>
-                <unit>
-                    <noTrait name="FragGrenade"/>
-                </unit>
-            </conditions>
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="KrakGrenade" duration="1"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-        </genericUnitAbility>
+
         <clearTileUnitAbility cooldown="1"
                               icon="Actions/ClearTile"
                               name="ClearTile">
