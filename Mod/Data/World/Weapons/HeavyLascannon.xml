@@ -20,7 +20,7 @@
         <trait name="HeavyWeapon"/>
         <trait name="AstraMilitarum/LasDamage" requiredUpgrade="AstraMilitarum/LasDamage"/>
         <trait name="ChaosSpaceMarines/LasDamage" requiredUpgrade="ChaosSpaceMarines/LasDamage"/>
-        <trait name="SpaceMarines/LasDamage" requiredUpgrade="SpaceMarines/LasDamage"/>
+        <trait name="SpaceMarines/LasDamage" requiredUpgrade="SpaceMarines/BlastDamage"/>
         <trait name="SistersOfBattle/HeavyWeaponBonus" requiredUpgrade="SistersOfBattle/HeavyWeaponBonus"/>
         <trait name="TwinLinked"/>
     </traits>

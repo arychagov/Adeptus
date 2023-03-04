@@ -86,6 +86,7 @@
 
     <entry name="Orks/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
     <entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
+    <entry name="SpaceMarines/BlastDamageDescription" value="Increases the armour penetration of grenade, missile, las and blast weapons."/>
 
     <entry name="ChaosSpaceMarines/BloatedWithLifesteal" value="<string name='Traits/ChaosSpaceMarines/BloatedWithLifesteal'/>" />
     <entry name="ChaosSpaceMarines/BloatedWithLifestealDescription" value="Grants Champions of Chaos ability to restore percentage of maximum health after attack." />
