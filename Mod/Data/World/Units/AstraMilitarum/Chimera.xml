@@ -114,7 +114,7 @@
     <traits>
         <trait name="Amphibious"/>
         <trait name="CamoNetting" requiredUpgrade="AstraMilitarum/CamoNetting"/>
-        <trait name="DozerBlade" requiredUpgrade="AstraMilitarum/DozerBlade"/>
+        <trait name="DozerBlade" requiredUpgrade="AstraMilitarum/SmokeLauncher"/>
         <trait name="ExtraVehicleArmour" requiredUpgrade="AstraMilitarum/ExtraVehicleArmour"/>
         <trait name="MobileCommand"/>
         <trait name="RecoveryGear" requiredUpgrade="AstraMilitarum/RecoveryGear"/>
