@@ -126,8 +126,7 @@
         </createSmokeScreen>
         <hammerOfWrath consumedActionPoints="0"
                        consumedMovement="0"
-                       cooldown="3"
-                       requiredUpgrade="AstraMilitarum/HammerOfWrath">
+                       cooldown="3">
             <model>
                 <action sound="Actions/PsychicBuff"/>
             </model>
