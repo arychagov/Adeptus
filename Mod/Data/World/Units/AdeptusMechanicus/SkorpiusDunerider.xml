@@ -110,5 +110,6 @@
         <trait name="Skimmer"/>
         <trait name="Transport"/>
         <trait name="Vehicle"/>
+        <trait name="UnbreakableVehicle"/>
     </traits>
 </unit>
