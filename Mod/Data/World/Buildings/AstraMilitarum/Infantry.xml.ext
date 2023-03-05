@@ -9,6 +9,7 @@
         </modifier>
     </modifiers>
     <actions>
-        <produceUnit unit="AstraMilitarum/WyrdvanePsyker" requiredUpgrade="AstraMilitarum/Psykers"/>
+         <produceUnit unit="AstraMilitarum/TechpriestEnginseer" requiredUpgrade="AstraMilitarum/TechpriestEnginseer"/>
+         <produceUnit unit="AstraMilitarum/WyrdvanePsyker" requiredUpgrade="AstraMilitarum/Psykers"/>
     </actions>
 </building>
