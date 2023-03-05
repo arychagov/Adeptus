@@ -424,11 +424,11 @@
                 </target>
             </beginTargets>
         </orbitalBombardment>
-        <doctrina cooldown="10"
-                  durationInSeconds="0.1"
-                  interfaceSound="Interface/Tactic"
-                  name="TacticalDoctrine"
-                  requiredUpgrade="SpaceMarines/TacticalDoctrine">
+        <tactic cooldown="10"
+            durationInSeconds="0.1"
+            interfaceSound="Interface/Tactic"
+            name="TacticalDoctrine"
+            requiredUpgrade="SpaceMarines/TacticalDoctrine">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -443,22 +443,12 @@
                     </effects>
                 </modifier>
             </playerModifiers>
-            <unitModifiers>
-                <modifier>
-                    <conditions>
-                        <unit>
-                            <trait name="SpaceMarines/TacticalDoctrine"/>
-                        </unit>
-                    </conditions>
-                </modifier>
-            </unitModifiers>
-        </doctrina>
-        <doctrina cooldown="10"
-                  durationInSeconds="0.1"
-                  interfaceSound="Interface/Tactic"
-                  name="AssaultDoctrine"
-                  cooldownScalesWithPace="1"
-                  requiredUpgrade="SpaceMarines/AssaultDoctrine">
+        </tactic>
+        <tactic cooldown="10"
+            durationInSeconds="0.1"
+            interfaceSound="Interface/Tactic"
+            name="AssaultDoctrine"
+            requiredUpgrade="SpaceMarines/AssaultDoctrine">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -473,22 +463,12 @@
                     </effects>
                 </modifier>
             </playerModifiers>
-            <unitModifiers>
-                <modifier>
-                    <conditions>
-                        <unit>
-                            <trait name="SpaceMarines/AssaultDoctrine"/>
-                        </unit>
-                    </conditions>
-                </modifier>
-            </unitModifiers>
-        </doctrina>
-        <doctrina cooldown="10"
-                  durationInSeconds="0.1"
-                  interfaceSound="Interface/Tactic"
-                  name="DevastatorDoctrine"
-                  cooldownScalesWithPace="1"
-                  requiredUpgrade="SpaceMarines/DevastatorDoctrine">
+        </tactic>
+        <tactic cooldown="10"
+            durationInSeconds="0.1"
+            interfaceSound="Interface/Tactic"
+            name="DevastatorDoctrine"
+            requiredUpgrade="SpaceMarines/DevastatorDoctrine">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -503,16 +483,7 @@
                     </effects>
                 </modifier>
             </playerModifiers>
-            <unitModifiers>
-                <modifier>
-                    <conditions>
-                        <unit>
-                            <trait name="SpaceMarines/DevastatorDoctrine"/>
-                        </unit>
-                    </conditions>
-                </modifier>
-            </unitModifiers>
-        </doctrina>
+        </tactic>
         <tactic cooldown="10"
                 durationInSeconds="0.1"
                 interfaceSound="Interface/Tactic"

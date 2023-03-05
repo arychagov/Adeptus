@@ -13,15 +13,7 @@
     </model>
     <group size="5" rowSize="3" memberDeltaX="80" memberDeltaY="64"/>
     <weapons>
-        <weapon name="AstartesChainsword">
-            <model>
-                <projectileWeapon mesh="Weapons/SpaceMarines/BoltPistol"
-                                  material="Weapons/SpaceMarines/BoltPistol"
-                                  bone="RightHand"
-                                  muzzleBone=".Muzzle0"
-                                  fireInterval="0.2"/>
-            </model>
-        </weapon>
+        <weapon name="AstartesChainsword"/>
         <weapon name="Chainsword">
             <model>
                 <weapon mesh="Weapons/SpaceMarines/Chainsword"
