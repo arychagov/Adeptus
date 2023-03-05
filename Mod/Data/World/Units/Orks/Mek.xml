@@ -176,13 +176,6 @@
                 </target>
             </beginTargets>
         </meksTools>
-        <throwGrenade weaponSlotName="Stikkbomb" cooldown="10"
-                      requiredUpgrade="Orks/Stikkbomb">
-            <model>
-                <action animation="Units/Orks/MekGrenade"
-                        beginFire="1.26666666667"/>
-            </model>
-        </throwGrenade>
     </actions>
     <traits>
         <trait name="Orks/CreateOrkoidFungusOnDeath"/>

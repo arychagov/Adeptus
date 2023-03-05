@@ -121,13 +121,6 @@
                 </selfTarget>
             </beginTargets>
         </ereWeGo>
-        <throwGrenade weaponSlotName="Stikkbomb" cooldown="10"
-                      requiredUpgrade="Orks/Stikkbomb">
-            <model>
-                <action animation="Units/Orks/MeganobGrenade"
-                        beginFire="0.933333333333"/>
-            </model>
-        </throwGrenade>
     </actions>
     <traits>
         <trait name="Bosspole" requiredUpgrade="Orks/Bosspole"/>

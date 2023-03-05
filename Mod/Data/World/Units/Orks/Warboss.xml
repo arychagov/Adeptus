@@ -131,13 +131,6 @@
                 </selfTarget>
             </beginTargets>
         </ereWeGo>
-        <throwGrenade weaponSlotName="Stikkbomb" cooldown="10"
-                      requiredUpgrade="Orks/Stikkbomb">
-            <model>
-                <action animation="Units/Orks/WarbossGrenade"
-                        beginFire="0.7"/>
-            </model>
-        </throwGrenade>
         <attackSquig levelUpPriority="0.1"
                      rank="-1"
                      rankMax="2"
