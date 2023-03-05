@@ -56,7 +56,9 @@
     <entry name="AdeptusMechanicus/Dunestriders" value="Dunestriders" />
     <entry name="AdeptusMechanicus/DunestridersDescription" value="Grants Ironstrider Ballistariuses ability to cycle between auto cannon and las cannon. " />
     <entry name="AdeptusMechanicus/DunestridersFlavor" value="Overloading the movement protocols of a machine is a time honoured method of increasing any mechanised advance." />
-
+    <entry name="AdeptusMechanicus/MachineSpiritResurgent" value="Machine Spirit Resurgent" />
+    <entry name="AdeptusMechanicus/MachineSpiritResurgentDescription" value="Grants Onager Dunecrawlers, Ironstrider Ballistariuses and Knight Crusaders ability to not suffer accuracy loss on hit points loss." />
+    <entry name="AdeptusMechanicus/MachineSpiritResurgentFlavor" value="To invigorate the failing machine spirit of a damaged vehicle is a sacred task, greatly aided by certain broadcast datahymns played in the correct sequence."/>
     <entry name="Tau/DroneControllerDescription" value="Battlesuit support system that increases the accuracy of adjacent drones. Halves cooldown of drone deployment across most Tau units." />
     <entry name="Tau/GunDroneDescription" value="Grants Piranha, Devilfish, Stealth Battlesuits, Broadside Battlesuits, Cadre Fireblade, Ethereal and Commander the ability to deploy temporary basic combat drones." />
     <entry name="Tau/ShieldDroneDescription" value="Grants Crisis Battlesuits, Stealth Battlesuits, Broadside Battlesuits, Ghostkeel Battlesuits, Cadre Fireblade, Ethereal and Commander the ability to deploy temporary drones that shield allies." />

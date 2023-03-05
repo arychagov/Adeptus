@@ -129,5 +129,6 @@
         <trait name="OpenTopped"/>
         <trait name="Vehicle"/>
         <trait name="Walker"/>
+        <trait name="UnbreakableVehicle" requiredUpgrade="AdeptusMechanicus/MachineSpiritResurgent"/>
     </traits>
 </unit>

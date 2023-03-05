@@ -149,5 +149,6 @@
         <trait name="MoveThroughCover"/>
         <trait name="Vehicle"/>
         <trait name="Walker"/>
+        <trait name="UnbreakableVehicle" requiredUpgrade="AdeptusMechanicus/MachineSpiritResurgent"/>
     </traits>
 </unit>
