@@ -492,7 +492,7 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="80"/>
+                        <influenceCost base="60"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -512,7 +512,7 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="80"/>
+                        <influenceCost base="60"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -532,7 +532,7 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="80"/>
+                        <influenceCost base="60"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -552,7 +552,7 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="80"/>
+                        <influenceCost base="60"/>
                     </effects>
                 </modifier>
             </modifiers>
