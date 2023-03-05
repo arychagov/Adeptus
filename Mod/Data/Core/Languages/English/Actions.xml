@@ -3,6 +3,7 @@
     <entry name="AdeptusMechanicus/AggressorImperativeDescription" value="Increases the movement, but decreases the accuracy of Doctrina Imperatives units. Cost scales with the amount of affected units (up to 10)." />
     <entry name="AdeptusMechanicus/CommandUplinkDescription" value="Adeptus Mechanicus infantry units cannot be shaken or broken."/>
     <entry name="AdeptusMechanicus/EnrichedRoundsDescription" value="Increases the damage of nearby allied Adeptus Mechanicus infantry units." />
+    <entry name="AdeptusMechanicus/ProtectorImperativeDescription" value="Increases the ranged accuracy, but decreases the armour of Doctrina Imperatives units. Cost scales with the amount of affected units (up to 10)."/>
 
     <entry name="AstraMilitarum/LaurelsOfCommand" value="Laurels of Command" />
     <entry name="AstraMilitarum/LaurelsOfCommandDescription" value="Restores the morale of nearby allied units." />

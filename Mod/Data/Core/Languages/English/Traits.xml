@@ -4,6 +4,7 @@
     <entry name="AdeptusMechanicus/CommandUplinkDescription" value="The unit cannot be shaken or broken."/>
     <entry name="AdeptusMechanicus/Prosperity" value="Prosperity" />
     <entry name="AdeptusMechanicus/ProsperityDescription" value="Increases city growth" />
+    <entry name="AdeptusMechanicus/ProtectorImperativeDescription" value="Increases the ranged accuracy, but decreases the armour."/>
 
     <entry name="AstraMilitarum/BoltDamage" value="The Emperor's Benediction" />
     <entry name="AstraMilitarum/BoltDamageDescription" value="Increases the armour penetration." />
