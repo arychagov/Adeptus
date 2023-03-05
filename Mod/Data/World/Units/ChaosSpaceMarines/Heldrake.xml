@@ -13,13 +13,18 @@
               uvAnimated="0"/>
     </model>
     <weapons>
-        <weapon name="Baleflamer">
+        <weapon name="HadesAutocannon" count="2">
+            <model>
+                <projectileWeapon muzzleBone="Muzzle" muzzleCount="2"/>
+            </model>
+        </weapon>
+        <weapon enabled="0" name="Baleflamer">
             <model>
                 <flamerWeapon muzzleBone=".Muzzle"
                               effectFaceWeight="0"/>
             </model>
         </weapon>
-        <weapon name="MeteoricDescent" slotName="MeteoricDescent">
+        <weapon enabled="0" name="MeteoricDescent" slotName="MeteoricDescent">
             <model>
                 <weapon fireInterval="1.0"/>
             </model>
