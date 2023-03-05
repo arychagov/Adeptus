@@ -65,5 +65,6 @@
         <trait name="Fortification"/>
         <trait name="Headquarters"/>
         <trait name="Transport"/>
+        <trait name="AdeptusMechanicus/ControlEdict" requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
     </traits>
 </unit>

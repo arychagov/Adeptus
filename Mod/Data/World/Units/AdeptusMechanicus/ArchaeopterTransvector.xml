@@ -114,5 +114,6 @@
         <trait name="Flyer"/>
         <trait name="Transport"/>
         <trait name="Vehicle"/>
+        <trait name="AdeptusMechanicus/ControlEdict" requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
     </traits>
 </unit>

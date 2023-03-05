@@ -118,5 +118,6 @@
         <trait name="ExtraVehicleArmour" requiredUpgrade="AdeptusMechanicus/ExtraVehicleArmour"/>
         <trait name="Flyer"/>
         <trait name="Vehicle"/>
+        <trait name="AdeptusMechanicus/ControlEdict" requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
     </traits>
 </unit>

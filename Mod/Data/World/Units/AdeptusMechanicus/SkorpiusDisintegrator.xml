@@ -106,5 +106,6 @@
         <trait name="Tank"/>
         <trait name="Vehicle"/>
         <trait name="UnbreakableVehicle"/>
+        <trait name="AdeptusMechanicus/ControlEdict" requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
     </traits>
 </unit>

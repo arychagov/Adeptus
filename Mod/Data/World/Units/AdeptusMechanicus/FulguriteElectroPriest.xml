@@ -119,5 +119,6 @@
         <trait name="AdeptusMechanicus/SiphonVigour"/>
         <trait name="AdeptusMechanicus/VoltagheistField"/>
         <trait name="Bodyguard"/>
+        <trait name="AdeptusMechanicus/ControlEdict" requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
     </traits>
 </unit>

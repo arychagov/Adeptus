@@ -167,5 +167,6 @@
         <trait name="RefractorField"/>
         <trait name="ExtraInfantryArmour" requiredUpgrade="AdeptusMechanicus/ExtraInfantryArmour"/>
         <trait name="AdeptusMechanicus/CommandUplink" requiredUpgrade="AdeptusMechanicus/CommandUplink"/>
+        <trait name="AdeptusMechanicus/ControlEdict" requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
     </traits>
 </unit>

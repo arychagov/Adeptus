@@ -276,5 +276,6 @@
         <trait name="Hero"/>
         <trait name="RefractorField"/>
         <trait name="Relentless"/>
+        <trait name="AdeptusMechanicus/ControlEdict" requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
     </traits>
 </unit>

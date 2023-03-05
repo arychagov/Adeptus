@@ -217,5 +217,6 @@
         <trait name="FeelNoPain"/>
         <trait name="Hero"/>
         <trait name="SupportHero"/>
+        <trait name="AdeptusMechanicus/ControlEdict" requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
     </traits>
 </unit>

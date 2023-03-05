@@ -85,5 +85,6 @@
         <trait name="AdeptusMechanicus/CommandUplink" requiredUpgrade="AdeptusMechanicus/CommandUplink"/>
         <trait name="AdeptusMechanicus/Omnispex" requiredUpgrade="AdeptusMechanicus/Omnispex"/>
         <trait name="Relentless"/>
+        <trait name="AdeptusMechanicus/ControlEdict" requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
     </traits>
 </unit>

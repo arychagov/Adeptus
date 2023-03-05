@@ -155,5 +155,6 @@
         <trait name="Vehicle"/>
         <trait name="Walker"/>
         <trait name="UnbreakableVehicle" requiredUpgrade="AdeptusMechanicus/MachineSpiritResurgent"/>
+        <trait name="AdeptusMechanicus/ControlEdict" requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
     </traits>
 </unit>

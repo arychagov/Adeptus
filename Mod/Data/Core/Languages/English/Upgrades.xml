@@ -59,6 +59,10 @@
     <entry name="AdeptusMechanicus/MachineSpiritResurgent" value="Machine Spirit Resurgent" />
     <entry name="AdeptusMechanicus/MachineSpiritResurgentDescription" value="Grants Onager Dunecrawlers, Ironstrider Ballistariuses and Knight Crusaders ability to not suffer accuracy loss on hit points loss." />
     <entry name="AdeptusMechanicus/MachineSpiritResurgentFlavor" value="To invigorate the failing machine spirit of a damaged vehicle is a sacred task, greatly aided by certain broadcast datahymns played in the correct sequence."/>
+    <entry name="AdeptusMechanicus/ControlEdict" value="Control Edict"/>
+    <entry name="AdeptusMechanicus/ControlEdictDescription" value="Removes Doctrina Imperatives malus."/>
+    <entry name="AdeptusMechanicus/ControlEdictFlavor" value="A Doctrina Imperative is hardly a subtle tool, disabling a soldier just as much as it enables them elsewhere. Yet, the attentions of an experienced Marshal can aid in overcoming the Imperative’s cruder commands, enabling the soldier to perform far above their nominal norms."/>
+
     <entry name="Tau/DroneControllerDescription" value="Battlesuit support system that increases the accuracy of adjacent drones. Halves cooldown of drone deployment across most Tau units." />
     <entry name="Tau/GunDroneDescription" value="Grants Piranha, Devilfish, Stealth Battlesuits, Broadside Battlesuits, Cadre Fireblade, Ethereal and Commander the ability to deploy temporary basic combat drones." />
     <entry name="Tau/ShieldDroneDescription" value="Grants Crisis Battlesuits, Stealth Battlesuits, Broadside Battlesuits, Ghostkeel Battlesuits, Cadre Fireblade, Ethereal and Commander the ability to deploy temporary drones that shield allies." />
