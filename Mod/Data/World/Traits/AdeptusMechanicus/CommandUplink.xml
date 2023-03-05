@@ -3,7 +3,7 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<moraleMax base="0"/>
+				<moraleMax max="0"/>
 			</effects>
 		</modifier>
 	</modifiers>
