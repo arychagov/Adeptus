@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="2" icon="Units/AdeptusMechanicus/TechPriestManipulus">
-	<requiredUpgrades>
-		<upgrade name="AdeptusMechanicus/Heroes"/>
-	</requiredUpgrades>
+<upgrade icon="Units/AdeptusMechanicus/TechPriestManipulus" position="2">
+    <requiredUpgrades>
+        <upgrade name="AdeptusMechanicus/Heroes" />
+    </requiredUpgrades>
 </upgrade>
