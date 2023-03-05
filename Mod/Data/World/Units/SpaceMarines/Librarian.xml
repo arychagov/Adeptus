@@ -118,7 +118,7 @@
         <genericUnitAbility
             icon="Items/FaolchusWing"
             name="SpaceMarines/EmpireWithin"
-            cooldownMin="4"
+            cooldown="4"
             consumedMovement="0">
             <model>
                 <action animation="Units/SpaceMarines/LibrarianLevitate"
