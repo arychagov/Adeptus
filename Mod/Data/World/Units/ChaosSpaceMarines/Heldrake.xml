@@ -13,11 +13,7 @@
               uvAnimated="0"/>
     </model>
     <weapons>
-        <weapon name="HadesAutocannon" count="2">
-            <model>
-                <projectileWeapon muzzleBone="Muzzle" muzzleCount="2"/>
-            </model>
-        </weapon>
+        <weapon name="HadesAutocannon" count="2"/>
         <weapon enabled="0" name="Baleflamer">
             <model>
                 <flamerWeapon muzzleBone=".Muzzle"
