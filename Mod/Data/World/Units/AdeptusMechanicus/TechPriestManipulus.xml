@@ -271,6 +271,7 @@
     <traits>
         <trait name="AdeptusMechanicus/CanticlesOfTheOmnissiah"/>
         <trait name="ExtraInfantryArmour" requiredUpgrade="AdeptusMechanicus/ExtraInfantryArmour"/>
+        <trait name="AdeptusMechanicus/CommandUplink" requiredUpgrade="AdeptusMechanicus/CommandUplink"/>
         <trait name="FeelNoPain"/>
         <trait name="Hero"/>
         <trait name="RefractorField"/>

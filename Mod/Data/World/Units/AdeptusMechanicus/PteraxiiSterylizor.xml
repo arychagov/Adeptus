@@ -120,6 +120,7 @@
         <trait name="AdeptusMechanicus/DoctrinaImperatives"/>
         <!-- <trait name="Bulky"/> -->
         <trait name="ExtraInfantryArmour" requiredUpgrade="AdeptusMechanicus/ExtraInfantryArmour"/>
+        <trait name="AdeptusMechanicus/CommandUplink" requiredUpgrade="AdeptusMechanicus/CommandUplink"/>
         <trait name="FeelNoPain"/>
         <trait name="MoveThroughCover"/>
     </traits>

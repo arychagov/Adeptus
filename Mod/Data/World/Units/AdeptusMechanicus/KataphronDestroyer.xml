@@ -87,6 +87,7 @@
         <trait name="AdeptusMechanicus/CanticlesOfTheOmnissiah"/>
         <trait name="AdeptusMechanicus/Bionics"/>
         <trait name="ExtraInfantryArmour" requiredUpgrade="AdeptusMechanicus/ExtraInfantryArmour"/>
+        <trait name="AdeptusMechanicus/CommandUplink" requiredUpgrade="AdeptusMechanicus/CommandUplink"/>
         <trait name="Relentless"/>
         <trait name="MoveThroughCover"/>
         <!-- <trait name="VeryBulky"/> -->

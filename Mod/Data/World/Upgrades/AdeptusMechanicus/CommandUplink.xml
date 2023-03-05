@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Weapons/CommandUplink" position="9">
-    <requiredUpgrades>
-        <upgrade name="AdeptusMechanicus/Aircraft" />
-    </requiredUpgrades>
-</upgrade>
+<upgrade icon="Weapons/CommandUplink" position="9"/>

@@ -166,5 +166,6 @@
         <trait name="AdeptusMechanicus/CanticlesOfTheOmnissiah"/>
         <trait name="RefractorField"/>
         <trait name="ExtraInfantryArmour" requiredUpgrade="AdeptusMechanicus/ExtraInfantryArmour"/>
+        <trait name="AdeptusMechanicus/CommandUplink" requiredUpgrade="AdeptusMechanicus/CommandUplink"/>
     </traits>
 </unit>

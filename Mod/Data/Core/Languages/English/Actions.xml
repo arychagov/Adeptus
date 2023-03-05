@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
     <entry name="AdeptusMechanicus/AggressorImperativeDescription" value="Increases the movement, but decreases the accuracy of Doctrina Imperatives units. Cost scales with the amount of affected units (up to 10)." />
+    <entry name="AdeptusMechanicus/CommandUplinkDescription" value="Adeptus Mechanicus infantry units cannot be shaken or broken."/>
     <entry name="AdeptusMechanicus/EnrichedRoundsDescription" value="Increases the damage of nearby allied Adeptus Mechanicus infantry units." />
 
     <entry name="AstraMilitarum/LaurelsOfCommand" value="Laurels of Command" />

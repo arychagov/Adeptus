@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
     <entry name="AdeptusMechanicus/AggressorImperativeDescription" value="Increases the movement, but decreases the armour." />
+    <entry name="AdeptusMechanicus/CommandUplinkDescription" value="The unit cannot be shaken or broken."/>
     <entry name="AdeptusMechanicus/Prosperity" value="Prosperity" />
     <entry name="AdeptusMechanicus/ProsperityDescription" value="Increases city growth" />
 

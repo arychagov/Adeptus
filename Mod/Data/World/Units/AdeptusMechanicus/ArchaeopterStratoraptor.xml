@@ -112,25 +112,6 @@
                 </selfTarget>
             </beginTargets>
         </jink>
-        <genericUnitAbility name="AdeptusMechanicus/CommandUplink"
-                            passive="1"
-                            requiredUpgrade="AdeptusMechanicus/CommandUplink">
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Tile" radius="1">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="AdeptusMechanicus/CommandUplink"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-        </genericUnitAbility>
     </actions>
     <traits>
         <trait name="AdeptusMechanicus/DoctrinaImperatives"/>

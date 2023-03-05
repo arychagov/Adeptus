@@ -116,6 +116,7 @@
     <traits>
         <trait name="AdeptusMechanicus/DoctrinaImperatives"/>
         <trait name="ExtraInfantryArmour" requiredUpgrade="AdeptusMechanicus/ExtraInfantryArmour"/>
+        <trait name="AdeptusMechanicus/CommandUplink" requiredUpgrade="AdeptusMechanicus/CommandUplink"/>
         <trait name="FeelNoPain"/>
     </traits>
 </unit>
