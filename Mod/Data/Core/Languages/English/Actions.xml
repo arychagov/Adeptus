@@ -133,4 +133,7 @@
 
     <entry name="DevastatorDoctrineDescription" value="Chapter tactic that increases the accuracy of Kill Team Eliminators and Devastator Centurions." />
     <entry name="MisfortuneDescription" value="Increases the damage taken for the target non-hero enemy unit." />
+    <entry name="Luminagen" value="Luminagen"/>
+    <entry name="LuminagenDescription" value="Temporarily decreases the ranged damage reduction of the attacked unit."/>
+
 </language>

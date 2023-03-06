@@ -40,7 +40,7 @@
                 <cargoSlots base="2"/> <!-- %cargoSlots base capacity=6 -->
                 <energyCost base="30.0"/> <!-- %energyCost base tier=7 factor=0.5 -->
                 <energyUpkeep base="3.0"/> <!-- %energyUpkeep base tier=7 factor=1 -->
-                <hitpointsMax base="24.0"/>
+                <hitpointsMax base="18.0"/>
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=7 wounds=3 -->
                 <meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
                 <meleeAttacks base="2"/>
@@ -107,6 +107,43 @@
                 </selfTarget>
             </beginTargets>
         </jink>
+        <genericUnitAbility name="Luminagen" icon="Traits/Luminagen" consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait duration="1" name="Luminagen"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
+        <scout consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0">
+            <model>
+                <action sound="Actions/Scan"/>
+            </model>
+            <beginTargets>
+                <target rangeMax="5" sighted="0">
+                    <areas>
+                        <area affects="Tile" radius="1">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <reveal/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </scout>
     </actions>
     <traits>
         <trait name="AdeptusMechanicus/DoctrinaImperatives"/>
