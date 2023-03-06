@@ -145,7 +145,6 @@
         <trait name="Orks/GreenTideHealing"/>
         <trait name="Orks/GrotGunner"/>
         <trait name="Orks/MightMakesRight"/>
-        <trait name="RedPaintJob" requiredUpgrade="Orks/RedPaintJob"/>
         <trait name="Orks/Scavenger"/>
         <trait name="Vehicle"/>
     </traits>

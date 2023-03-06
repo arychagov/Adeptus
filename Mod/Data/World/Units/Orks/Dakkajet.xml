@@ -134,7 +134,6 @@
         <trait name="Flyer"/>
         <trait name="Orks/GreenTideHealing"/>
         <trait name="Orks/MightMakesRight"/>
-        <trait name="RedPaintJob" requiredUpgrade="Orks/RedPaintJob"/>
         <trait name="Orks/Scavenger"/>
         <trait name="StrafingRun"/>
         <trait name="Vehicle"/>

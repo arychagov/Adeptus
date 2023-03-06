@@ -96,6 +96,8 @@
     <entry name="AstraMilitarum/SmokeLauncherDescription" value="Grants ground vehicles the ability to launch a smoke screen that increases the ranged damage reduction. Reduces the movement penalty for tanks in forests and imperial ruins."/>
 
     <entry name="Orks/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
+    <entry name="Orks/RedPaintJobDescription" value="Increases the damage of Warbuggies, Megatrakk Scrapjets and Battlewagons."/>
+
     <entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
     <entry name="SpaceMarines/BlastDamageDescription" value="Increases the armour penetration of grenade, missile, las and blast weapons."/>
 
