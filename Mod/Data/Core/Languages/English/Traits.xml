@@ -5,6 +5,12 @@
     <entry name="AdeptusMechanicus/Prosperity" value="Prosperity" />
     <entry name="AdeptusMechanicus/ProsperityDescription" value="Increases city growth" />
     <entry name="AdeptusMechanicus/ProtectorImperativeDescription" value="Increases the ranged accuracy, but decreases the armour."/>
+    <entry name="AdeptusMechanicus/BlessedArms" value="Blessed Arms"/>
+    <entry name="AdeptusMechanicus/BlessedArmsDescription" value="Temporary decreases the armour of target."/>
+    <entry name="AdeptusMechanicus/BlessedArmsFlavor" value="This household reverently maintains the masterwork weapons of former ages, their power undimmed."/>
+    <entry name="AdeptusMechanicus/BlessedArmsDebuff" value="Blessed Arms"/>
+    <entry name="AdeptusMechanicus/BlessedArmsDebuffDescription" value="Decreases the armour."/>
+    <entry name="AdeptusMechanicus/BlessedArmsDebuffFlavor" value="This household reverently maintains the masterwork weapons of former ages, their power undimmed."/>
 
     <entry name="AstraMilitarum/BoltDamage" value="The Emperor's Benediction" />
     <entry name="AstraMilitarum/BoltDamageDescription" value="Increases the armour penetration." />

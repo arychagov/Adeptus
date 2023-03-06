@@ -12,27 +12,12 @@
               walker="1"/>
     </model>
     <weapons>
-        <weapon name="AvengerGatlingCannon">
-            <model>
-                <projectileWeapon muzzleBone="GatlingMuzzle"/>
-            </model>
-        </weapon>
         <weapon name="RapidFireBattleCannon">
             <model>
                 <projectileWeapon muzzleBone="CannonMuzzle" fireInterval="0.73"/>
             </model>
         </weapon>
-        <weapon name="HeavyStubber" count="2">
-            <model>
-                <projectileWeapon muzzleBone="StubberMuzzle" muzzleCount="2"/>
-            </model>
-        </weapon>
-        <weapon name="HeavyFlamer">
-            <model>
-                <flamerWeapon muzzleBone="FlamerMuzzle"/>
-            </model>
-        </weapon>
-        <weapon name="TwinLinkedIcarusAutocannon"
+        <weapon enabled="0" name="TwinLinkedIcarusAutocannon" count="2" slotName="TwinLinkedIcarusAutocannon"
                 requiredUpgrade="AdeptusMechanicus/TwinLinkedIcarusAutocannon">
             <model>
                 <projectileWeapon mesh="Weapons/AdeptusMechanicus/KnightCrusaderGun"
@@ -53,11 +38,11 @@
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=13/12/12 wounds=6 -->
                 <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
                 <meleeAttacks base="2"/>
-                <oreUpkeep base="12.0"/> <!-- %oreUpkeep base tier=11 factor=1 -->
-                <oreCost base="240.0"/> <!-- %oreCost base tier=11 factor=1 -->
+                <oreUpkeep base="10.0"/> <!-- %oreUpkeep base tier=11 factor=1 -->
+                <oreCost base="200.0"/> <!-- %oreCost base tier=11 factor=1 -->
                 <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
-                <movementMax base="2"/>
-                <productionCost base="66.0"/> <!-- %productionCost base tier=11 factor=1 -->
+                <movementMax base="3"/>
+                <productionCost base="60.0"/> <!-- %productionCost base tier=11 factor=1 -->
                 <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
                 <strengthDamage base="12"/> <!-- %strengthDamage base strength=10 -->
             </effects>
@@ -140,14 +125,37 @@
                 </selfTarget>
             </beginTargets>
         </hammerOfWrath>
-        <stomp consumedActionPoints="0"
-               cooldown="1"
-               requiredActionPoints="0"
-               weaponSlotName="Stomp"/>
+        <genericUnitAbility name="AdeptusMechanicus/IonShield" icon="Traits/AdeptusMechanicus/IonShield" passive="1">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile" radius="2">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AdeptusMechanicus/IonShield" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
+        <useWeapon cooldown="1"
+            requiredActionPoints="0"
+            consumedActionPoints="0"
+            weaponSlotName="TwinLinkedIcarusAutocannon"
+            requiredUpgrade="AdeptusMechanicus/TwinLinkedIcarusAutocannon">
+            <model>
+                <action
+                    animation="Units/AdeptusMechanicus/KnightCrusaderAttack"
+                    beginFire="0.86" endFire="2.0"/>
+            </model>
+        </useWeapon>
     </actions>
     <traits>
         <trait name="ExtraVehicleArmour" requiredUpgrade="AdeptusMechanicus/ExtraVehicleArmour"/>
-        <trait name="AdeptusMechanicus/IonShield"/>
         <trait name="MoveThroughCover"/>
         <trait name="Smash"/>
         <trait name="Strikedown"/>
@@ -156,5 +164,6 @@
         <trait name="Walker"/>
         <trait name="UnbreakableVehicle" requiredUpgrade="AdeptusMechanicus/MachineSpiritResurgent"/>
         <trait name="AdeptusMechanicus/ControlEdict" requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
+        <trait name="AdeptusMechanicus/BlessedArms"/>
     </traits>
 </unit>
