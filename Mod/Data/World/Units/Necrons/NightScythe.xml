@@ -22,7 +22,7 @@
         <modifier visible="0">
             <effects>
                 <armor base="7"/> <!-- %armor base armor=11/11/11 -->
-                <cargoSlots base="5"/> <!-- %cargoSlots base capacity=15 -->
+                <cargoSlots base="2"/> <!-- %cargoSlots base capacity=15 -->
                 <energyCost base="60.0"/> <!-- %energyCost base tier=7 factor=1 -->
                 <hitpointsMax base="24.0"/>
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=11/11/11 wounds=3 -->
