@@ -146,7 +146,6 @@
         </grabbinKlaw>
     </actions>
     <traits>
-        <trait name="AssaultVehicle"/>
         <trait name="Orks/CreateOrkoidFungusOnDeath"/>
         <trait name="ExtraVehicleArmour" requiredUpgrade="Orks/ExtraVehicleArmour"/>
         <trait name="GrotRiggers" requiredUpgrade="Orks/GrotRiggers"/>
