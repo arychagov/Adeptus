@@ -12,6 +12,17 @@
     <entry name="AdeptusMechanicus/BlessedArmsDebuffDescription" value="Decreases the armour."/>
     <entry name="AdeptusMechanicus/BlessedArmsDebuffFlavor" value="This household reverently maintains the masterwork weapons of former ages, their power undimmed."/>
     <entry name="AdeptusMechanicus/SiphonVigourDescription" value="Increases the invulnerable damage reduction."/>
+    <entry name="AdeptusMechanicus/GalvanicFieldDescription" value="Increases the armour penetration and accuracy."/>
+    <entry name="AdeptusMechanicus/TechAdept" value="Tech-Adept"/> <!-- Tech-Priest Manipulus ability -->
+    <entry name="AdeptusMechanicus/TechAdeptDescription" value="Increases healing rate."/>
+    <entry name="AdeptusMechanicus/TechAdeptFlavor" value="Repairing war engines damaged in the crusade is a holy task."/>
+    <entry name="AdeptusMechanicus/MasterOfMachines" value="Master of Machines"/>
+    <entry name="AdeptusMechanicus/MasterOfMachinesDescription" value="Increases the armour."/>
+    <entry name="AdeptusMechanicus/MasterOfMachinesFlavor" value="“Our enemies may rest but rust never sleeps.”<br/>—Tech-Priest Jung, Forge World Gehenna"/>
+    <entry name="AdeptusMechanicus/ReprogramKastelanRobot" value="Reprogrammed Kastelan Robot"/>
+    <entry name="AdeptusMechanicus/ReprogramKastelanRobotDescription" value="Increases Repulsor Grid effect and hit points."/>
+    <entry name="AdeptusMechanicus/ReprogramKastelanRobotFlavor" value="Since the aftermath of Warmaster Horus’ rebellion the Legio Cybernetica’s robots have been controlled completely by their masters – not by the bio-plastic cerebra and nerve-like tendril webs of Mechanicum constructs, but by sanctified doctrina wafers. No bigger than the cards of the Emperor’s Tarot, these slivers of wetware are entrusted to the Cybernetica Datasmiths that accompany the robot maniples to war. Inserted into the dataslot hidden behind each robot’s chestplate, the wafer’s command protocol will dictate every iota of the host’s behaviour, usually optimising its ability to destroy its foes in a spectacular fashion."/>
+    <entry name="AdeptusMechanicus/DataBlessedAutosermonDescription" value="Kastelan Robot does not suffer accuracy loss on hit points loss, increases accuracy. Increases attacks of Fulgurite Electro Priests."/>
 
     <entry name="AstraMilitarum/BoltDamage" value="The Emperor's Benediction" />
     <entry name="AstraMilitarum/BoltDamageDescription" value="Increases the armour penetration." />

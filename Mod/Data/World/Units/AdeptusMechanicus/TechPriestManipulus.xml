@@ -94,7 +94,24 @@
                         soundCount="1"/>
             </model>
         </move>
-        <masterOfMachines cooldown="1"
+        <techAdept passive="1" name="AdeptusMechanicus/TechAdept">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile" radius="2">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AdeptusMechanicus/TechAdept"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </techAdept>
+        <masterOfMachines cooldown="1" rank="-1" rankMax="2"
                           name="AdeptusMechanicus/MasterOfMachines">
             <model>
                 <action animation="Units/AdeptusMechanicus/TechPriestManipulusAbility"
@@ -106,7 +123,6 @@
                         <unit>
                             <allied/>
                             <faction name="AdeptusMechanicus"/>
-                            <damaged/>
                         </unit>
                         <unit match="Any">
                             <faction name="AdeptusMechanicus"/>
@@ -119,7 +135,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints add="6"/>
+                                        <hitpoints addMin="10" addMax="18"/>
+                                        <addTrait duration="1" name="AdeptusMechanicus/MasterOfMachines"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -128,26 +145,19 @@
                 </target>
             </beginTargets>
         </masterOfMachines>
-        <techAdept cooldown="1"
-                   name="AdeptusMechanicus/TechAdept"
-                   rank="-1"
-                   rankMax="2">
+        <genericUnitAbility cooldownMin="7" cooldownMax="3" rank="-1" rankMax="2"
+            icon="Actions/AdeptusMechanicus/ReprogramKastelanRobot"
+            name="AdeptusMechanicus/ReprogramKastelanRobot">
             <model>
                 <action animation="Units/AdeptusMechanicus/TechPriestManipulusAbility"
-                        sound="Actions/TechAdept"/>
+                    sound="Actions/GalvanicField"/>
             </model>
             <beginTargets>
-                <target rangeMin="1" rangeMax="1">
+                <target rangeMax="1">
                     <conditions>
                         <unit>
                             <allied/>
-                            <faction name="AdeptusMechanicus"/>
-                            <damaged/>
-                        </unit>
-                        <unit match="Any">
-                            <faction name="AdeptusMechanicus"/>
-                            <trait name="Fortification"/>
-                            <trait name="Vehicle"/>
+                            <type name="Neutral/KastelanRobot"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -155,7 +165,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints addMin="12" addMax="24"/>
+                                        <addTrait name="AdeptusMechanicus/ReprogramKastelanRobot"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -163,7 +173,7 @@
                     </areas>
                 </target>
             </beginTargets>
-        </techAdept>
+        </genericUnitAbility>
         <galvanicField cooldown="3"
                        name="AdeptusMechanicus/GalvanicField"
                        rank="-1"
@@ -173,11 +183,16 @@
                         sound="Actions/GalvanicField"/>
             </model>
             <beginTargets>
-                <target rangeMax="1">
+                <target rangeMax="2">
                     <conditions>
                         <unit>
                             <allied/>
                             <faction name="AdeptusMechanicus"/>
+                        </unit>
+                        <unit match="Any">
+                            <type name="AdeptusMechanicus/ArchaeopterTransvector"/>
+                            <type name="AdeptusMechanicus/ArchaeopterStratoraptor"/>
+                            <trait name="AdeptusMechanicus/CanticlesOfTheOmnissiah"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -185,7 +200,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="2" name="AdeptusMechanicus/GalvanicField"/>
+                                        <addTrait duration="1" name="AdeptusMechanicus/GalvanicField"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -194,69 +209,20 @@
                 </target>
             </beginTargets>
         </galvanicField>
-        <electroShocked cooldownMax="3"
-                        cooldownMin="5"
-                        consumedActionPoints="0"
-                        consumedMovement="0"
-                        name="AdeptusMechanicus/ElectroShocked"
-                        rank="-1"
-                        rankMax="2"
-                        requiredActionPoints="0">
-            <model>
-                <action animation="Units/AdeptusMechanicus/TechPriestManipulusAbility"
-                        sound="Actions/ElectroShocked"/>
-            </model>
-            <beginTargets>
-                <target rangeMax="1">
-                    <conditions>
-                        <unit>
-                            <enemy/>
-                            <noTrait name="Fortification"/>
-                            <noTrait name="Vehicle"/>
-                        </unit>
-                    </conditions>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait duration="1" name="Stunned"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </target>
-            </beginTargets>
-        </electroShocked>
-        <dataBlessedAutosermon cooldown="5"
-                               consumedActionPoints="0"
-                               consumedMovement="0"
+        <dataBlessedAutosermon passive="1"
                                elite="1"
                                levelUpPriority="1"
                                name="AdeptusMechanicus/DataBlessedAutosermon"
                                rank="-1"
-                               rankMax="0"
-                               requiredActionPoints="0">
-            <model>
-                <action animation="Units/AdeptusMechanicus/TechPriestManipulusAbility"
-                        sound="Actions/DataBlessedAutosermon"/>
-            </model>
+                               rankMax="0">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Unit" radius="3">
+                        <area affects="Tile" radius="3">
                             <modifiers>
                                 <modifier>
-                                    <conditions>
-                                        <unit>
-                                            <allied/>
-                                            <faction name="AdeptusMechanicus"/>
-                                            <trait name="AdeptusMechanicus/CanticlesOfTheOmnissiah"/>
-                                        </unit>
-                                    </conditions>
                                     <effects>
-                                        <addTrait duration="1" name="AdeptusMechanicus/DataBlessedAutosermon"/>
+                                        <addTrait name="AdeptusMechanicus/DataBlessedAutosermon"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
