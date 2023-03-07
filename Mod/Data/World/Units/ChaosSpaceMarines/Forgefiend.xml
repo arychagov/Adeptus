@@ -12,7 +12,6 @@
               walker="1"/>
     </model>
     <weapons>
-        <weapon name="HavocLauncher" requiredUpgrade="ChaosSpaceMarines/HavocLauncher"/>
         <weapon name="HadesAutocannon" count="2">
             <model>
                 <projectileWeapon muzzleBone="Muzzle" muzzleCount="2"/>

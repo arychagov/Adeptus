@@ -107,7 +107,7 @@
     <entry name="ChaosSpaceMarines/ChaosLord" value="Chaos Lord" />
     <entry name="ChaosSpaceMarines/ChaosLordDescription" value="Hero unit that returns damage to attackers and slays units low on hitpoints." />
     <entry name="ChaosSpaceMarines/ChaosLordFlavor" value="A Chaos Lord is a tyrannical warrior king who lives to bathe in the blood of worlds. He strives to bring whole star systems to their knees in the name of his patron deities. Typified by merciless ambition and fierce pride, many of these champions of disorder were once noble Chapter Masters and Captains of the Adeptus Astartes, but long years of unremitting war have twisted their souls beyond recovery." />
-    <entry name="ChaosSpaceMarines/HavocLauncherDescription" value="Grants Chaos Rhinos, Maulerfiend, Forgefiend and Chaos Land Raiders a mid-range blast weapon." />
+    <entry name="ChaosSpaceMarines/HavocLauncherDescription" value="Grants Chaos Rhinos, Helbrutes and Chaos Land Raiders a mid-range blast weapon." />
 
     <entry name="SistersOfBattle/Canoness" value="Canoness" />
     <entry name="SistersOfBattle/CanonessDescription" value="Witch-seeking powerful hero unit that leads infantry into battle." />

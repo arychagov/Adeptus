@@ -13,11 +13,8 @@
               walker="1"/>
     </model>
     <weapons>
-        <weapon name="PowerScourge">
-            <model>
-                <weapon fireInterval="0.6"/>
-            </model>
-        </weapon>
+        <weapon name="HavocLauncher" requiredUpgrade="ChaosSpaceMarines/HavocLauncher"/>
+        <weapon name="ReaperAutocannon"/>
         <weapon name="ReaperAutocannon">
             <model>
                 <projectileWeapon muzzleBone=".Muzzle"
@@ -113,7 +110,6 @@
         </hammerOfWrath>
     </actions>
     <traits>
-        <trait name="ChaosSpaceMarines/Crazed"/>
         <trait name="Flail"/>
         <trait name="ExtraVehicleArmour" requiredUpgrade="ChaosSpaceMarines/ExtraVehicleArmour"/>
         <trait name="Vehicle"/>

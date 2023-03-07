@@ -13,7 +13,6 @@
               walker="1"/>
     </model>
     <weapons>
-        <weapon name="HavocLauncher" requiredUpgrade="ChaosSpaceMarines/HavocLauncher"/>
         <weapon name="PowerFist" count="2">
             <model>
                 <weapon fireInterval="0.5"/>
