@@ -11,6 +11,7 @@
     <entry name="AdeptusMechanicus/BlessedArmsDebuff" value="Blessed Arms"/>
     <entry name="AdeptusMechanicus/BlessedArmsDebuffDescription" value="Decreases the armour."/>
     <entry name="AdeptusMechanicus/BlessedArmsDebuffFlavor" value="This household reverently maintains the masterwork weapons of former ages, their power undimmed."/>
+    <entry name="AdeptusMechanicus/SiphonVigourDescription" value="Increases the invulnerable damage reduction."/>
 
     <entry name="AstraMilitarum/BoltDamage" value="The Emperor's Benediction" />
     <entry name="AstraMilitarum/BoltDamageDescription" value="Increases the armour penetration." />
