@@ -17,11 +17,6 @@
                 <beamWeapon muzzleBone="Muzzle" fireInterval="0.43"/>
             </model>
         </weapon>
-        <weapon name="Dataspike">
-            <model>
-                <weapon fireInterval="10"/>
-            </model>
-        </weapon>
         <weapon name="PowerFist">
             <model>
                 <weapon fireInterval="10"/>
@@ -31,7 +26,7 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="10"/> <!-- %armor base armor=3+ -->
+                <armor base="9"/> <!-- %armor base armor=3+ -->
                 <energyUpkeep base="2.0"/> <!-- %energyUpkeep base tier=7 factor=1.0 -->
                 <foodCost base="20.0"/> <!-- %foodCost base tier=6 factor=0.5 -->
                 <hitpointsMax base="6.0"/>
