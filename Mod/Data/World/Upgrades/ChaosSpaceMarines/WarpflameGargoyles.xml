@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="10" icon="Traits/SoulBlaze">
-	<requiredUpgrades>
-		<upgrade name="ChaosSpaceMarines/Vehicles"/>
-	</requiredUpgrades>
+<upgrade icon="Traits/SoulBlaze" position="9">
+    <requiredUpgrades>
+        <upgrade name="ChaosSpaceMarines/Vehicles" />
+    </requiredUpgrades>
 </upgrade>

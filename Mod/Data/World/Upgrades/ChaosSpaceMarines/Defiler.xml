@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="10" icon="Units/ChaosSpaceMarines/Defiler">
-	<requiredUpgrades>
-		<upgrade name="ChaosSpaceMarines/Vehicles"/>
-	</requiredUpgrades>
+<upgrade icon="Units/ChaosSpaceMarines/Defiler" position="10">
+    <requiredUpgrades>
+        <upgrade name="ChaosSpaceMarines/Vehicles" />
+    </requiredUpgrades>
 </upgrade>
