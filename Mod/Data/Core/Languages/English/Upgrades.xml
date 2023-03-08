@@ -126,12 +126,12 @@
     <entry name="Tau/CadreFirebladeFlavor" value="As the enemy surges closer, the Fireblade's courage steels his comrades, steadying the firing line and focussing the mind of every Fire Warrior present. Raising his pulse rifle and sighting down its length, the Cadre Fireblade calls out enemy weak spots and optimal firing solutions to his followers, watching the foe press closer with a practised eye. Only at the optimum moment does the Fireblade bark out the order to fire. At the Fireblade's command, the T'au gunline unleashes a storm of fire, an energised squall that tears the enemy to pieces with terrible efficiency." />
     <entry name="Tau/CityTier2Description" value="Increases the tile acquisition radius." />
     <entry name="Tau/CityTier3Description" value="Increases the tile acquisition radius." />
-    <entry name="Tau/DroneControllerDescription" value="Battlesuit support system that increases the accuracy of adjacent drones. Halves cooldown of drone deployment across most Tau units." />
+    <entry name="Tau/DroneControllerDescription" value="Battlesuit support system that increases the accuracy of adjacent drones. Halves cooldown of drone deployment across most Tau units. Grants Cadre's Gun Drone additional Twin-Linked Pulse Carbine." />
     <entry name="Tau/GunDroneDescription" value="Grants Piranha, Devilfish, Stealth Battlesuits, Broadside Battlesuits, Cadre Fireblade, Ethereal and Commander the ability to deploy temporary basic combat drones." />
     <entry name="Tau/GunDroneDescription" value="Grants heroes, Devilfishes, Piranhas, Broadside Battlesuits and Stealth Battlesuits the ability to deploy temporary basic combat drones." />
     <entry name="Tau/HammerOfWrathDescription" value="Grants Ghostkeel Battlesuits, Riptide Battlesuits and Stormsurges the ability to perform more devastating attacks." />
     <entry name="Tau/SeekerMissileDescription" value="Grants vehicles and Broadside Battlesuits a missile weapon." />
-    <entry name="Tau/ShieldDroneDescription" value="Grants Crisis Battlesuits, Stealth Battlesuits, Broadside Battlesuits, Ghostkeel Battlesuits, Cadre Fireblade, Ethereal and Commander the ability to deploy temporary drones that shield allies." />
+    <entry name="Tau/ShieldDroneDescription" value="Grants Crisis Battlesuits, Stealth Battlesuits, Broadside Battlesuits, Ghostkeel Battlesuits, Cadre Fireblade, Ethereal and Commander the ability to deploy temporary drones that shield allies. Grants Cadre's Gun Drone the same ability." />
 
     <entry name="Tyranids/CityTier2Description" value="Increases the tile acquisition radius." />
     <entry name="Tyranids/CityTier3Description" value="Increases the tile acquisition radius." />

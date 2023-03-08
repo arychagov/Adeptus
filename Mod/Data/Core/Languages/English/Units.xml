@@ -31,6 +31,9 @@
     <entry name="Tau/CrisisBattlesuit" value="Crisis Battlesuits" />
     <entry name="Tau/Devilfish" value="Devilfish" />
     <entry name="Tau/GunDrone" value="Gun Drones" />
+    <entry name="Tau/TacticalDrone" value="Tactical Drones" />
+    <entry name="Tau/TacticalDroneDescription" value="<string name='Units/Tau/GunDroneDescription'/>" />
+    <entry name="Tau/TacticalDroneFlavor" value="<string name='Units/Tau/GunDroneFlavor'/>" />
     <entry name="Tau/HammerheadGunship" value="Hammerhead Gunship" />
     <entry name="Tau/Piranha" value="Piranha" />
     <entry name="Tau/MarkerDrone" value="Marker Drones" />

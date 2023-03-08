@@ -286,33 +286,54 @@
                 </target>
             </beginTargets>
         </markerlight>
-        <genericUnitAbility
-                cooldown="3"
-                requiredMovement="1"
-                rank="-1"
-                rankMax="2"
-                name="Tau/VolleyFire">
+        <genericUnitAbility cooldown="10"
+            name="Tau/DeployTacticalDrone"
+            icon="Units/Tau/TacticalDrone"
+            rank="-1"
+            rankMax="2"
+            requiredActionPoints="0"
+            consumedActionPoints="0"
+            consumedMovement="0">
+            <model>
+                <action animation=""
+                    sound="Actions/DeployDrone"/>
+            </model>
+            <modifiers>
+                <modifier visible="0" requiredUpgrade="Tau/DroneController">
+                    <effects>
+                        <cooldown add="-5"/>
+                    </effects>
+                </modifier>
+            </modifiers>
             <beginTargets>
-                <selfTarget>
+                <target rangeMax="1">
+                    <conditions>
+                        <tile>
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
+                        </tile>
+                    </conditions>
                     <areas>
-                        <area affects="Unit" radiusMin="1" radiusMax="3">
+                        <area affects="Tile">
                             <modifiers>
                                 <modifier>
-                                    <conditions>
-                                        <unit>
-                                            <allied/>
-                                            <faction name="Tau"/>
-                                            <trait name="Tau/PreciseShooter"/>
-                                        </unit>
-                                    </conditions>
                                     <effects>
-                                        <addTrait name="Tau/VolleyFire"/>
+                                        <addUnit name="Tau/TacticalDrone" consumedAction="0" consumedMovement="0"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait durationMin="3" durationMax="5" name="Summon"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
                         </area>
                     </areas>
-                </selfTarget>
+                </target>
             </beginTargets>
         </genericUnitAbility>
         <preciseShot cooldown="3"

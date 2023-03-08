@@ -243,6 +243,9 @@
     <entry name="Tyranids/Prosperity" value="Prosperity" />
     <entry name="Tyranids/ProsperityDescription" value="Increases city growth" />
 
+    <entry name="IonShielded" value="Ion Shielded"/>
+    <entry name="IonShieldedDescription" value="Increases the damage reduction."/>
+    <entry name="IonShieldedFlavor" value="Some warriors are protected by more than mere physical armour. They may be shielded by force fields, enveloped in mystical energies or have a constitution that can shrug off hits that would put holes in a battle tank."/>
     <entry name="Bodyguard" value="Bodyguard" />
     <entry name="BodyguardDescription" value="Increases adjacent heroes hero damage reduction." />
     <entry name="Dimmed" value="Dimmed" />

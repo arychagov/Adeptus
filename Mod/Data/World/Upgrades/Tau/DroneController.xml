@@ -2,6 +2,7 @@
 <upgrade position="8" icon="Actions/Tau/DroneController">
     <requiredUpgrades>
         <upgrade name="Tau/Commander"/>
+        <upgrade name="Tau/CadreFireblade"/>
         <upgrade name="Tau/CrisisBattlesuit"/>
         <upgrade name="Tau/MonstrousCreatures"/>
         <upgrade name="Tau/StealthBattlesuit"/>

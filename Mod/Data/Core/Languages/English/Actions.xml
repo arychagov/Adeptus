@@ -135,6 +135,8 @@
     <entry name="Tau/CommanderJumpPack" value="<string name='Actions/JumpPack'/>" />
     <entry name="Tau/CommanderJumpPackDescription" value="Flies across obstacles to the target tile, ignoring enemy overwatch attacks. Briefly increases the accuracy and the attacks." />
     <entry name="Tau/CommanderJumpPackFlavor" value="<string name='Actions/JumpPackFlavor'/>" />
+    <entry name="Tau/DeployTacticalDrone" value="Deploy Tactical Drones"/>
+    <entry name="Tau/DeployTacticalDroneDescription" value="Deploys temporary Tactical Drones."/>
     <entry name="Tau/KauyonDescription" value="Metastrategy that increases the ranged damage reduction of allied T'au battlesuit units in the area. Shares cooldown with other metastrategies." />
     <entry name="Tau/RinyonDescription" value="Metastrategy that increases the accuracy of allied T'au battlesuit units in the area against enemy units adjacent to other allied units. Shares cooldown with other metastrategies." />
     <entry name="Tau/SenseOfStoneDescription" value="Increases the damage reduction of the Ethereal and adjacent allied T'au infantry and monstrous creatures." />
