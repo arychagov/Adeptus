@@ -114,7 +114,10 @@
                 </selfTarget>
             </beginTargets>
         </jink>
-        <powerOfTheMachineSpirit consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="5">
+        <powerOfTheMachineSpirit
+            icon="Actions/PowerOfTheMachineSpirit"
+            name="SpaceMarines/PowerOfTheMachineSpiritStormraven"
+            consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="5">
             <model>
                 <action sound="Actions/MechanicalBuff"/>
             </model>
@@ -124,6 +127,21 @@
                         <area affects="Unit">
                             <modifiers>
                                 <modifier>
+                                    <effects>
+                                        <addTrait duration="1" name="PowerOfTheMachineSpirit"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                        <area affects="Unit" radius="2">
+                            <modifiers>
+                                <modifier>
+                                    <conditions>
+                                        <unit>
+                                            <allied/>
+                                            <type name="SpaceMarines/StormtalonGunship"/>
+                                        </unit>
+                                    </conditions>
                                     <effects>
                                         <addTrait duration="1" name="PowerOfTheMachineSpirit"/>
                                     </effects>

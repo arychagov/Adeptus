@@ -131,6 +131,9 @@
     <entry name="SpaceMarines/VeilOfTime" value="Veil Of Time" />
     <entry name="SpaceMarines/VeilOfTimeDescription" value="Increases the research output of the empire." />
     <entry name="SpaceMarines/VeilOfTimeFlavor" value="The psyker projects his will beyond the regular passage of time, altering the temporal flow to sway the tide of battle." />
+    <entry name="SpaceMarines/PowerOfTheMachineSpiritStormraven" value="Power of the Machine Spirit"/>
+    <entry name="SpaceMarines/PowerOfTheMachineSpiritStormravenDescription" value="Increases the ranged accuracy of this unit and nearby Stormtalon Gunships."/>
+    <entry name="SpaceMarines/PowerOfTheMachineSpiritStormravenFlavor" value="The interface between this vehicle's advanced machine spirit and its fire control mechanisms allows the crew to target foes with incredible accuracy."/>
 
     <entry name="Tau/BreakComposureDescription" value="Increases ranged attacks of nearby heroes, cities, Fire Warriors, Pathfinders, Krootox Riders and drones." />
     <entry name="Tau/BreakComposureFlavor" value="Though not physically impressive, the T’au can inculcate fear in their enemies through subtler means—by harrying them so that they can’t focus, by surrounding them, by forcing them down tactical paths that only lead to repeated failure. Sometimes you don’t need to even touch an enemy to defeat them." />
