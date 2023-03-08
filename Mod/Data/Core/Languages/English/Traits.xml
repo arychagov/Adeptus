@@ -70,6 +70,9 @@
     <entry name="ChaosSpaceMarines/TzeentchCorruption" value="Tzeentch Corruption" />
     <entry name="ChaosSpaceMarines/TzeentchCorruptionDescription" value="Gains research when the Daemon Prince gains experience from combat." />
     <entry name="ChaosSpaceMarines/TzeentchCorruptionFlavor" value="Arcane knowledge and mystical power have ever been the domain of Tzeentch and his minions." />
+    <entry name="ChaosSpaceMarines/IconOfVengeance" value="Icon of Vengeance"/>
+    <entry name="ChaosSpaceMarines/IconOfVengeanceDescription" value="Returns damage back to the attacker."/>
+    <entry name="ChaosSpaceMarines/IconOfVengeanceFlavor" value="These icons shine brightly in the Warp, gathering the malefic energies of Chaos to those who bear them and spurring them on to acts of suicidal brabery in their quest to seize victory from the minions of the Corpse-god."/>
 
     <entry name="Eldar/Prosperity" value="Prosperity" />
     <entry name="Eldar/ProsperityDescription" value="Increases city growth" />
