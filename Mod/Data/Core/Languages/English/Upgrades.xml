@@ -50,10 +50,11 @@
     <entry name="ChaosSpaceMarines/BlessedChampionsDescription" value="Grants heroes ability to immediately come back to life after dying."/>
     <entry name="ChaosSpaceMarines/BlessedChampionsFlavor" value="While many warbands of Heretic Astartes have grown to rival entire Chapters of loyalist Space Marines in size, most began as a core of ruthless followers led by their powerful champion. Such individuals draw more and more warriors to their service as their influence expands, their dread reputation for destruction becoming more storied as their warband grows in notoriety and power."/>
     <entry name="ChaosSpaceMarines/StimulatedByPain" value="Stimulated By Pain"/>
-    <entry name="ChaosSpaceMarines/StimulatedByPainDescription" value="Increases armour, hit points and Bloated healing rate of heroes."/>
+    <entry name="ChaosSpaceMarines/StimulatedByPainDescription" value="Increases armour, hit points of heroes. Increases Bloated healing rate."/>
     <entry name="ChaosSpaceMarines/StimulatedByPainFlavor" value="The warlords of the Emperor’s Children thrive on pain. The more grievous their injuries, the deadlier they become."/>
     <entry name="ChaosSpaceMarines/SmokeLauncher" value="Hammer Of Wrath / Smoke Launcher"/>
     <entry name="ChaosSpaceMarines/SmokeLauncherDescription" value="Grants Daemon Princes, Defilers, Forgefiends, Helbrutes, Maulerfiends, Venomcrawlers and Warp Talons the ability to perform more devastating attacks. Grants Chaos Rhinos, Defilers and Chaos Land Raiders the ability to launch a smoke screen that increases the ranged damage reduction. Increases allied Chaos Space Marine vehicles regeneration."/>
+    <entry name="ChaosSpaceMarines/WarpflameGargoylesDescription" value="Grants damage over time to Chaos Rhino, Defiler and Chaos Land Raider weapons and the accuracy debuff from attacks."/>
 
     <entry name="Eldar/Autarch" value="Autarch" />
     <entry name="Eldar/AutarchDescription" value="Psyker hero unit that leads the Aeldari charge." />

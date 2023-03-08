@@ -20,9 +20,6 @@
 						<noAttacking/>
 					</opponent>
 				</encounter>
-				<unit>
-					<trait name="Hero"/>
-				</unit>
 			</conditions>
 			<effects>
 				<hitpointsFactorFromMax add="0.10"/>

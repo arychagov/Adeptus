@@ -8,7 +8,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<meleeAttacks mulMin="-0.17" addMax="-0.33"/>
+				<meleeAttacks mulMin="-0.17" mulMax="-0.33"/>
 			</effects>
 		</modifier>
 	</modifiers>
