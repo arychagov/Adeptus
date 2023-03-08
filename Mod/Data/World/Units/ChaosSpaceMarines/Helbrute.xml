@@ -114,5 +114,6 @@
         <trait name="ExtraVehicleArmour" requiredUpgrade="ChaosSpaceMarines/ExtraVehicleArmour"/>
         <trait name="Vehicle"/>
         <trait name="Walker"/>
+        <trait name="ChaosSpaceMarines/SmokeLauncher" requiredUpgrade="ChaosSpaceMarines/SmokeLauncher"/>
     </traits>
 </unit>

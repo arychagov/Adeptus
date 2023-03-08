@@ -79,6 +79,8 @@
     <entry name="ChaosSpaceMarines/BlessedChampion" value="Blessed Champion"/>
     <entry name="ChaosSpaceMarines/BlessedChampionDescription" value="Immediately comes back to life after dying."/>
     <entry name="ChaosSpaceMarines/BlessedChampionFlavor" value="While many warbands of Heretic Astartes have grown to rival entire Chapters of loyalist Space Marines in size, most began as a core of ruthless followers led by their powerful champion. Such individuals draw more and more warriors to their service as their influence expands, their dread reputation for destruction becoming more storied as their warband grows in notoriety and power."/>
+    <entry name="ChaosSpaceMarines/SmokeLauncher" value="Smoke Launcher"/>
+    <entry name="ChaosSpaceMarines/SmokeLauncherDescription" value="Increases regeneration."/>
 
     <entry name="Eldar/Prosperity" value="Prosperity" />
     <entry name="Eldar/ProsperityDescription" value="Increases city growth" />

@@ -177,5 +177,6 @@
         <trait name="Fleet"/>
         <trait name="Vehicle"/>
         <trait name="Walker"/>
+        <trait name="ChaosSpaceMarines/SmokeLauncher" requiredUpgrade="ChaosSpaceMarines/SmokeLauncher"/>
     </traits>
 </unit>
