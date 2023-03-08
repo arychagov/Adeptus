@@ -163,6 +163,7 @@
     <traits>
         <trait name="ExtraVehicleArmour" requiredUpgrade="ChaosSpaceMarines/ExtraVehicleArmour"/>
         <trait name="SoulBlaze" requiredUpgrade="ChaosSpaceMarines/WarpflameGargoyles"/>
+        <trait name="Dimmer" requiredUpgrade="ChaosSpaceMarines/WarpflameGargoyles"/>
         <trait name="Tank"/>
         <trait name="Transport"/>
         <trait name="Vehicle"/>

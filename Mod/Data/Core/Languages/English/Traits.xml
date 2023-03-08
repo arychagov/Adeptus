@@ -244,7 +244,11 @@
     <entry name="Tyranids/ProsperityDescription" value="Increases city growth" />
 
     <entry name="Bodyguard" value="Bodyguard" />
-    <entry name="BodyguardDescription" value="Increases adjacent heroes hero damage reduction" />
+    <entry name="BodyguardDescription" value="Increases adjacent heroes hero damage reduction." />
+    <entry name="Dimmed" value="Dimmed" />
+    <entry name="DimmedDescription" value="Reduces accuracy." />
+    <entry name="Dimmer" value="Dimmer" />
+    <entry name="DimmerDescription" value="Reduces the accuracy of the target attacked enemy." />
     <entry name="EnhancedStealth" value="Enhanced Stealth" />
     <entry name="EnhancedStealthDescription" value="Increases the ranged damage reduction while in forest or imperial ruins." />
     <entry name="Fright" value="Fright" />
