@@ -39,8 +39,8 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8"/> <!-- %armor base armor=12/12/10 -->
-                <hitpointsMax base="48.0"/>
+                <armor base="10"/> <!-- %armor base armor=12/12/10 -->
+                <hitpointsMax base="60.0"/>
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=12/12/10 wounds=4 -->
                 <meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
                 <meleeAttacks base="2"/>
@@ -109,6 +109,44 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
+        <genericUnitAbility name="ChaosSpaceMarines/NurgleCorruption"
+            icon="Actions/ChaosSpaceMarines/MarkOfNurgle"
+            passive="1">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile" radiusMin="1" radiusMax="2">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="ChaosSpaceMarines/NurgleCorruption"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
+        <genericUnitAbility cooldown="3" consumedActionPoints="1" consumedMovement="1"
+            name="ChaosSpaceMarines/Defiler"
+            icon="Units/ChaosSpaceMarines/Defiler">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile" excludeRadius="0" radius="2">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait duration="1" name="ChaosSpaceMarines/Defiler"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
         <hammerOfWrath consumedActionPoints="0"
                        consumedMovement="0"
                        cooldown="3"

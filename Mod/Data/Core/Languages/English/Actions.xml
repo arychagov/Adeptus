@@ -67,6 +67,8 @@
     <entry name="ChaosSpaceMarines/BlessedChampionsDescription" value="Grants heroes ability to immediately come back to life after dying."/>
     <entry name="ChaosSpaceMarines/BlessedChampionsFlavor" value="While many warbands of Heretic Astartes have grown to rival entire Chapters of loyalist Space Marines in size, most began as a core of ruthless followers led by their powerful champion. Such individuals draw more and more warriors to their service as their influence expands, their dread reputation for destruction becoming more storied as their warband grows in notoriety and power."/>
     <entry name="ChaosSpaceMarines/IchorBloodDescription" value="Reduces melee attacks of adjacent enemies."/>
+    <entry name="ChaosSpaceMarines/Defiler" value="Defiler"/>
+    <entry name="ChaosSpaceMarines/DefilerDescription" value="Applies damage over time debuff to all units around Defiler."/>
 
     <entry name="Eldar/ActivateWebwayGateDescription" value="Activates and claims a neutral Webway Gate. Must be within 3 tiles of friendly Eldar unit." />
     <entry name="Eldar/DoomDescription" value="Increases the damage taken by target non-hero enemy unit." />
