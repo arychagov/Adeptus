@@ -46,6 +46,21 @@
                 <oreCost base="10.0"/> <!-- %oreCost base tier=4 factor=0.5 -->
             </effects>
         </modifier>
+        <modifier requiredUpgrade="ChaosSpaceMarines/DarkDisciple" visible="0">
+            <effects>
+                <foodCost add="5" />
+                <oreCost add="5" />
+                <foodUpkeep add="0.5" />
+            </effects>
+        </modifier>
+        <modifier requiredUpgrade="ChaosSpaceMarines/BelieversOfTheTrueFaith" visible="0">
+            <effects>
+                <foodCost max="0" />
+                <oreCost max="0" />
+                <foodUpkeep max="0" />
+                <meleeAttacks mul="0.17"/>
+            </effects>
+        </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
@@ -215,6 +230,24 @@
                 </target>
             </beginTargets>
         </constructNoctilithCrown>
+        <genericUnitAbility name="ChaosSpaceMarines/DeferredAbsolution" requiredUpgrade="ChaosSpaceMarines/DarkDisciple"
+            passive="1">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile" radius="1" excludeRadius="0">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="ChaosSpaceMarines/DeferredAbsolution"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
     </actions>
     <traits>
         <trait name="ChaosSpaceMarines/ChampionOfChaos"/>

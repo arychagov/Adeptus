@@ -55,6 +55,10 @@
     <entry name="ChaosSpaceMarines/SmokeLauncher" value="Hammer Of Wrath / Smoke Launcher"/>
     <entry name="ChaosSpaceMarines/SmokeLauncherDescription" value="Grants Daemon Princes, Defilers, Forgefiends, Helbrutes, Maulerfiends, Venomcrawlers and Warp Talons the ability to perform more devastating attacks. Grants Chaos Rhinos, Defilers and Chaos Land Raiders the ability to launch a smoke screen that increases the ranged damage reduction. Increases allied Chaos Space Marine vehicles regeneration."/>
     <entry name="ChaosSpaceMarines/WarpflameGargoylesDescription" value="Grants damage over time to Chaos Rhino, Defiler and Chaos Land Raider weapons and the accuracy debuff from attacks."/>
+    <entry name="ChaosSpaceMarines/BelieversOfTheTrueFaith" value="Believers Of The True Faith"/>
+    <entry name="ChaosSpaceMarines/BelieversOfTheTrueFaithDescription" value="Increases Chaos Cultists attacks and hit points. Chaos Cultists are free to build and have no upkeep."/>
+    <entry name="ChaosSpaceMarines/BelieversOfTheTrueFaithFlavor" value="Though each selfishly sees faith as an easy route to power in on uncaring galaxy, these mortals are zealous worshippers brimming with hate."/>
+    <entry name="ChaosSpaceMarines/DarkDiscipleDescription" value="Increases resource cost of Chaos Cultists and grants ability to increase the invulnerable damage reduction of adjacent allied Chaos units."/>
 
     <entry name="Eldar/Autarch" value="Autarch" />
     <entry name="Eldar/AutarchDescription" value="Psyker hero unit that leads the Aeldari charge." />
