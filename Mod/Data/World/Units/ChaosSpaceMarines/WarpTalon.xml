@@ -113,7 +113,7 @@
                     <areas>
                         <area affects="Unit">
                             <modifiers>
-                                <modifier requiredUpgrade="ChaosSpaceMarines/HammerOfWrath">
+                                <modifier requiredUpgrade="ChaosSpaceMarines/SmokeLauncher">
                                     <effects>
                                         <addTrait duration="1" name="HammerOfWrath"/>
                                     </effects>

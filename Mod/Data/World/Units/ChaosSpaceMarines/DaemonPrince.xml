@@ -111,7 +111,7 @@
                        consumedMovement="0"
                        cooldown="3"
                        requiredActionPoints="0"
-                       requiredUpgrade="ChaosSpaceMarines/HammerOfWrath">
+                       requiredUpgrade="ChaosSpaceMarines/SmokeLauncher">
             <model>
                 <action sound="Actions/PsychicBuff"/>
             </model>

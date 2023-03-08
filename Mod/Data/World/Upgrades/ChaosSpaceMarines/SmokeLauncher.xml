@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Traits/SmokeScreen" position="8">
+<upgrade icon="Upgrades/ChaosSpaceMarines/SmokeScreenAndHammerOfWrath" position="7">
     <requiredUpgrades>
         <upgrade name="ChaosSpaceMarines/Vehicles" />
     </requiredUpgrades>
