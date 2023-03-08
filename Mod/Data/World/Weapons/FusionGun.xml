@@ -13,8 +13,8 @@
 		<modifier>
 			<effects>
 				<attacks add="1"/>
-				<rangedArmorPenetration add="8"/> <!-- %rangedArmorPenetration add armorPiercing=1 -->
-				<rangedDamage add="6"/> <!-- %rangedDamage add strength=8 -->
+				<rangedArmorPenetration add="3"/> <!-- %rangedArmorPenetration add armorPiercing=1 -->
+				<rangedDamage add="3"/> <!-- %rangedDamage add strength=8 -->
 				<strengthDamage base="0"/>
 			</effects>
 		</modifier>
@@ -23,6 +23,7 @@
 	<traits>
 		<trait name="Assault"/>
 		<trait name="Eldar/AssaultWeaponBonus" requiredUpgrade="Eldar/AssaultWeaponBonus"/>
+		<trait name="Haywire"/>
 		<trait name="Melta"/>
 	</traits>
 </weapon>
