@@ -292,6 +292,13 @@
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosSpaceMarines/AscensionToDaemonhood">
+					<effects>
+						<cooldown max="0" />
+					</effects>
+				</modifier>
+			</modifiers>
 			<beginTargets>
 				<target rangeMax="-1">
 					<conditions>
@@ -326,6 +333,13 @@
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosSpaceMarines/AscensionToDaemonhood">
+					<effects>
+						<cooldown max="0" />
+					</effects>
+				</modifier>
+			</modifiers>
 			<beginTargets>
 				<target rangeMax="-1">
 					<conditions>
@@ -361,6 +375,13 @@
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosSpaceMarines/AscensionToDaemonhood">
+					<effects>
+						<cooldown max="0" />
+					</effects>
+				</modifier>
+			</modifiers>
 			<beginTargets>
 				<target rangeMax="-1">
 					<conditions>
@@ -395,6 +416,13 @@
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosSpaceMarines/AscensionToDaemonhood">
+					<effects>
+						<cooldown max="0" />
+					</effects>
+				</modifier>
+			</modifiers>
 			<beginTargets>
 				<target rangeMax="-1">
 					<conditions>
@@ -429,6 +457,13 @@
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosSpaceMarines/AscensionToDaemonhood">
+					<effects>
+						<cooldown max="0" />
+					</effects>
+				</modifier>
+			</modifiers>
 			<beginTargets>
 				<target rangeMax="-1">
 					<conditions>
@@ -463,6 +498,13 @@
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosSpaceMarines/AscensionToDaemonhood">
+					<effects>
+						<cooldown max="0" />
+					</effects>
+				</modifier>
+			</modifiers>
 			<beginTargets>
 				<target rangeMax="-1">
 					<conditions>
@@ -492,6 +534,13 @@
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosSpaceMarines/AscensionToDaemonhood">
+					<effects>
+						<cooldown max="0" />
+					</effects>
+				</modifier>
+			</modifiers>
 			<beginTargets>
 				<target rangeMax="-1">
 					<conditions>
@@ -521,6 +570,13 @@
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosSpaceMarines/AscensionToDaemonhood">
+					<effects>
+						<cooldown max="0" />
+					</effects>
+				</modifier>
+			</modifiers>
 			<beginTargets>
 				<target rangeMax="-1">
 					<conditions>
@@ -550,6 +606,13 @@
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosSpaceMarines/AscensionToDaemonhood">
+					<effects>
+						<cooldown max="0" />
+					</effects>
+				</modifier>
+			</modifiers>
 			<beginTargets>
 				<target rangeMax="-1">
 					<conditions>

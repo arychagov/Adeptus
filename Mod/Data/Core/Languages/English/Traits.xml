@@ -73,6 +73,12 @@
     <entry name="ChaosSpaceMarines/IconOfVengeance" value="Icon of Vengeance"/>
     <entry name="ChaosSpaceMarines/IconOfVengeanceDescription" value="Returns damage back to the attacker."/>
     <entry name="ChaosSpaceMarines/IconOfVengeanceFlavor" value="These icons shine brightly in the Warp, gathering the malefic energies of Chaos to those who bear them and spurring them on to acts of suicidal brabery in their quest to seize victory from the minions of the Corpse-god."/>
+    <entry name="ChaosSpaceMarines/StimulatedByPain" value="Stimulated By Pain"/>
+    <entry name="ChaosSpaceMarines/StimulatedByPainDescription" value="Increases armour, hit points and Bloated healing rate of heroes."/>
+    <entry name="ChaosSpaceMarines/StimulatedByPainFlavor" value="The warlords of the Emperor’s Children thrive on pain. The more grievous their injuries, the deadlier they become."/>
+    <entry name="ChaosSpaceMarines/BlessedChampion" value="Blessed Champion"/>
+    <entry name="ChaosSpaceMarines/BlessedChampionDescription" value="Immediately comes back to life after dying."/>
+    <entry name="ChaosSpaceMarines/BlessedChampionFlavor" value="While many warbands of Heretic Astartes have grown to rival entire Chapters of loyalist Space Marines in size, most began as a core of ruthless followers led by their powerful champion. Such individuals draw more and more warriors to their service as their influence expands, their dread reputation for destruction becoming more storied as their warband grows in notoriety and power."/>
 
     <entry name="Eldar/Prosperity" value="Prosperity" />
     <entry name="Eldar/ProsperityDescription" value="Increases city growth" />

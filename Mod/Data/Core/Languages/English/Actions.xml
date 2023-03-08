@@ -63,6 +63,9 @@
     <entry name="ChaosSpaceMarines/IconOfVengeance" value="Icon of Vengeance"/>
     <entry name="ChaosSpaceMarines/IconOfVengeanceDescription" value="Icon of Chaos that grants damage return to a unit with any Mark of Chaos."/>
     <entry name="ChaosSpaceMarines/IconOfVengeanceFlavor" value="These icons shine brightly in the Warp, gathering the malefic energies of Chaos to those who bear them and spurring them on to acts of suicidal brabery in their quest to seize victory from the minions of the Corpse-god."/>
+    <entry name="ChaosSpaceMarines/BlessedChampions" value="Blessed Champions"/>
+    <entry name="ChaosSpaceMarines/BlessedChampionsDescription" value="Grants heroes ability to immediately come back to life after dying."/>
+    <entry name="ChaosSpaceMarines/BlessedChampionsFlavor" value="While many warbands of Heretic Astartes have grown to rival entire Chapters of loyalist Space Marines in size, most began as a core of ruthless followers led by their powerful champion. Such individuals draw more and more warriors to their service as their influence expands, their dread reputation for destruction becoming more storied as their warband grows in notoriety and power."/>
 
     <entry name="Eldar/ActivateWebwayGateDescription" value="Activates and claims a neutral Webway Gate. Must be within 3 tiles of friendly Eldar unit." />
     <entry name="Eldar/DoomDescription" value="Increases the damage taken by target non-hero enemy unit." />

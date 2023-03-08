@@ -252,6 +252,43 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
+        <genericUnitAbility beginOnDisappear="1"
+            cooldown="10"
+            name="ChaosSpaceMarines/BlessedChampions"
+            requiredUpgrade="ChaosSpaceMarines/BlessedChampions"
+            icon="Buildings/ChaosSpaceMarines/Heroes"
+            passive="1">
+            <model>
+                <action sound="Actions/ChaosBuff"/>
+            </model>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="ChaosSpaceMarines/BlessedChampion"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                            <modifiers>
+                                <modifier>
+                                    <conditions>
+                                        <unit>
+                                            <destroyed/>
+                                        </unit>
+                                    </conditions>
+                                    <effects>
+                                        <hitpointsFactorFromMax add="1.0"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
         <levelUp/>
         <shop/>
     </actions>
@@ -262,5 +299,6 @@
         <trait name="Fearless"/>
         <trait name="Hero"/>
         <trait name="ChaosSpaceMarines/VeteransOfTheLongWar" requiredUpgrade="ChaosSpaceMarines/VeteransOfTheLongWar"/>
+        <trait name="ChaosSpaceMarines/StimulatedByPain" requiredUpgrade="ChaosSpaceMarines/StimulatedByPain"/>
     </traits>
 </unit>
