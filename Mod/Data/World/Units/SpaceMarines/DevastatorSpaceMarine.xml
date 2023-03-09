@@ -166,5 +166,7 @@
         <trait name="ExtraInfantryArmour" requiredUpgrade="SpaceMarines/ExtraInfantryArmour"/>
         <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand"/>
         <trait name="SpaceMarines/DevastatorDoctrine"/>
+        <trait name="MoveThroughCover"/>
+        <trait name="Stealth"/>
     </traits>
 </unit>
