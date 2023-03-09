@@ -196,7 +196,7 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <scarabHive cooldown="5"
+        <scarabHive cooldown="10"
                     icon="Units/Necrons/CanoptekScarab"
                     name="Necrons/ScarabHive"
                     requiredUpgrade="Necrons/ScarabHive">
