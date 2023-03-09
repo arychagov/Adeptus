@@ -241,6 +241,7 @@
         <trait name="Hero"/>
         <trait name="IronHalo"/>
         <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand"/>
+        <trait name="SpaceMarines/AssaultDoctrine"/>
         <trait name="Fearless"/>
     </traits>
 </unit>

@@ -286,5 +286,6 @@
         <trait name="Psyker"/>
         <trait name="TerminatorArmour"/>
         <trait name="Infiltrate"/>
+        <trait name="SpaceMarines/AssaultDoctrine"/>
     </traits>
 </unit>

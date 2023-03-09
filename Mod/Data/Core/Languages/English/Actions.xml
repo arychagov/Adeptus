@@ -158,6 +158,7 @@
     <entry name="Tyranids/MassIncubation" value="Synaptic Channelling" />
     <entry name="Tyranids/MassIncubationDescription" value="Sets adjacent allied Termagant level to 5." />
 
+    <entry name="AssaultDoctrineDescription" value="Chapter tactic that increases the melee accuracy of Assault Space Marines, Terminators and heroes."/>
     <entry name="DevastatorDoctrineDescription" value="Chapter tactic that increases the accuracy of Devastator Space Marines, Scouts and Devastator Centurions." />
     <entry name="MisfortuneDescription" value="Increases the damage taken for the target non-hero enemy unit." />
     <entry name="Luminagen" value="Luminagen"/>

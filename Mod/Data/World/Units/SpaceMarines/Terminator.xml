@@ -142,5 +142,6 @@
         <trait name="TerminatorArmour"/>
         <trait name="Relentless"/>
         <trait name="Bodyguard"/>
+        <trait name="SpaceMarines/AssaultDoctrine"/>
     </traits>
 </unit>
