@@ -124,6 +124,29 @@
                 </modifier>
             </modifiers>
         </orbitalDeployment>
+        <signum cooldown="5"
+            consumedActionPoints="0" consumedMovement="0"
+            name="SpaceMarines/Omniscope"
+            requiredUpgrade="SpaceMarines/Omniscope">
+            <model>
+                <action sound="Actions/Omniscope"/>
+            </model>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait duration="1" name="SpaceMarines/Omniscope"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </signum>
     </actions>
     <traits>
         <trait name="AndTheyShallKnowNoFear"/>
@@ -132,5 +155,6 @@
         <trait name="ExtraInfantryArmour" requiredUpgrade="SpaceMarines/ExtraInfantryArmour"/>
         <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand"/>
         <trait name="TeleportHomer" requiredUpgrade="SpaceMarines/TeleportHomer"/>
+        <trait name="SpaceMarines/DevastatorDoctrine"/>
     </traits>
 </unit>

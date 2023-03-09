@@ -112,7 +112,7 @@
     <entry name="SpaceMarines/KillTeamEliminatorsDescription" value="<string name='Units/SpaceMarines/KillTeamEliminatorsDescription'/>" />
     <entry name="SpaceMarines/KillTeamEliminatorsFlavor" value="<string name='Units/SpaceMarines/KillTeamEliminatorsFlavor'/>" />
     <entry name="SpaceMarines/MeltaBombDescription" value="Grants Assault Space Marines, Kill Team Eliminators and Scout Bikers the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications." />
-    <entry name="SpaceMarines/OmniscopeDescription" value="Grants Kill Team Eliminators, Predators, Terminators and Devastator Centurions the ability to bypass ranged damaged reduction." />
+    <entry name="SpaceMarines/OmniscopeDescription" value="Grants Scouts, Devastator Space Marines, Predators, Terminators and Devastator Centurions the ability to bypass ranged damaged reduction." />
     <entry name="SpaceMarines/PredatorLascannonDescription" value="Grants Fortresses of Redemption Twin-Linked Lascannon. Grants Predators, Vindicators and Aquila Macro-Cannons extra Heavy Bolters." />
     <entry name="SpaceMarines/ScoutBiker" value="<string name='Units/SpaceMarines/ScoutBiker'/>" />
     <entry name="SpaceMarines/ScoutBikerDescription" value="<string name='Units/SpaceMarines/ScoutBikerDescription'/>" />
@@ -120,7 +120,7 @@
     <entry name="SpaceMarines/SiegeManeuvers" value="Siege Maneuvers" />
     <entry name="SpaceMarines/SiegeManeuversDescription" value="Grants Thunderfire Cannon ability to ignore penalty for firing heavy weapons after movement. Increases Thunderfire Cannon and Scout Bikers hit points. Increases Scout Bikers armour." />
     <entry name="SpaceMarines/SiegeManeuversFlavor" value="A measured advance allows Thunderfire Cannons to unleash a steady stream of fire." />
-    <entry name="SpaceMarines/SignumDescription" value="Grants Kill Team Eliminators the ability to negate the penalty for heavy, ordnance and salvo weapons." />
+    <entry name="SpaceMarines/SignumDescription" value="Grants Scouts and Devastator Space Marines the ability to negate the penalty for heavy, ordnance and salvo weapons." />
     <entry name="SpaceMarines/Techmarine" value="<string name='Units/SpaceMarines/Techmarine'/>" />
     <entry name="SpaceMarines/TechmarineDescription" value="<string name='Units/SpaceMarines/TechmarineDescription'/>" />
     <entry name="SpaceMarines/TechmarineFlavor" value="<string name='Units/SpaceMarines/TechmarineFlavor'/>" />
