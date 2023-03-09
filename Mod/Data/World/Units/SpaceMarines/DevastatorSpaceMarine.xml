@@ -160,6 +160,28 @@
                 </selfTarget>
             </beginTargets>
         </signum>
+        <genericUnitAbility cooldown="3" consumedMovement="999" requiredActionPoints="1" consumedActionPoints="0"
+            icon="Traits/ExtraInfantryArmour"
+            name="SpaceMarines/DefensiveFocus">
+            <model>
+                <action sound="Actions/Reload"/>
+            </model>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait duration="1" name="SpaceMarines/DefensiveFocus"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
     </actions>
     <traits>
         <trait name="AndTheyShallKnowNoFear"/>

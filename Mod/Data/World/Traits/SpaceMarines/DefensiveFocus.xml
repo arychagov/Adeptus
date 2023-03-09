@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Traits/ExtraInfantryArmour">
+    <modifiers>
+        <modifier>
+            <effects>
+                <actionPointsMax add="2" />
+                <accuracy add="-999" />
+            </effects>
+        </modifier>
+        <modifier>
+            <conditions>
+                <unit>
+                    <overwatching />
+                </unit>
+            </conditions>
+            <effects>
+                <accuracy add="999" />
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>
