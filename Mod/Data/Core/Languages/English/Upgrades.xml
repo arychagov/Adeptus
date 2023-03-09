@@ -104,7 +104,7 @@
     <entry name="SpaceMarines/CityTier4Description" value="Increases the tile acquisition radius and gives Thunderfire Cannons and Fortresses of Redemption ability to increase the ranged damage reduction of the target tile. Increases the city damage reduction of Fortresses of Redemption." />
     <entry name="SpaceMarines/DevastatorDoctrineDescription" value="Chapter tactic that increases the accuracy of Kill Team Eliminators and Devastator Centurions. Grants Kill Team Eliminators ability to cycle between sniper rifle and las cannon." />
     <entry name="SpaceMarines/DozerBladeDescription" value="Reduces the movement penalty for Hunters, Predators and Razorbacks in forests and imperial ruins. Increases Vindicators armor." />
-    <entry name="SpaceMarines/ExtraVehicleArmourDescription" value="Increases the armour of vehicles. Grants ground vehicles the ability to launch a smoke screen that increases the ranged damage reduction." />
+    <entry name="SpaceMarines/ExtraVehicleArmourDescription" value="Increases the armour of vehicles." />
     <entry name="SpaceMarines/FortressOfRedemptionDamageReductionDescription" value="Grants city and Fortresses of Redemption heavy bolter, additional armour and hitpoints." />
     <entry name="SpaceMarines/HurricaneBolter" value="Extra Bolters" />
     <entry name="SpaceMarines/HurricaneBolterDescription" value="Grants Stormraven Gunships a hurricane bolter. Grants city, Fortresses of Redemption and Predators a heavy bolter. Grants Razorbacks storm bolter." />
@@ -125,6 +125,8 @@
     <entry name="SpaceMarines/TechmarineDescription" value="<string name='Units/SpaceMarines/TechmarineDescription'/>" />
     <entry name="SpaceMarines/TechmarineFlavor" value="<string name='Units/SpaceMarines/TechmarineFlavor'/>" />
     <entry name="SpaceMarines/TeleportHomerDescription" value="Causes orbital deployment to not consume action points when deploying Terminators adjacent to Tactical Space Marines, Scout Bikers or Stormraven Gunships." />
+    <entry name="SpaceMarines/SmokeLauncher" value="Smoke Launcher / Dozer Blade" />
+    <entry name="SpaceMarines/SmokeLauncherDescription" value="Grants ground vehicles the ability to launch a smoke screen that increases the ranged damage reduction. Reduces the movement penalty for tanks in forests and imperial ruins." />
 
     <entry name="Tau/BondingKnifeRitualDescription" value="Grants Stealth Battlesuits, Broadside Battlesuits, Ghostkeel Battlesuits and Riptide Battlesuits the ability to restore their morale." />
     <entry name="Tau/CadreFireblade" value="Cadre Fireblade" />

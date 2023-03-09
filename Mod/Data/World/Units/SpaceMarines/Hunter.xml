@@ -72,7 +72,7 @@
         </move>
         <createSmokeScreen cooldown="10"
                            icon="Traits/SmokeScreen"
-                           requiredUpgrade="SpaceMarines/ExtraVehicleArmour">
+                           requiredUpgrade="SpaceMarines/SmokeLauncher">
             <model>
                 <action sound="Actions/SmokeScreen"/>
             </model>
@@ -114,7 +114,7 @@
     </actions>
     <traits>
         <trait name="AndTheyShallKnowNoFear"/>
-        <trait name="DozerBlade" requiredUpgrade="SpaceMarines/DozerBlade"/>
+        <trait name="DozerBlade" requiredUpgrade="SpaceMarines/SmokeLauncher"/>
         <trait name="ExtraVehicleArmour" requiredUpgrade="SpaceMarines/ExtraVehicleArmour"/>
         <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand"/>
         <trait name="SavantInterlocution"/>

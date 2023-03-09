@@ -36,7 +36,7 @@
                 <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
                 <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
                 <requisitionsUpkeep base="3.0"/> <!-- %requisitionsUpkeep base tier=7 factor=1 -->
-                <requisitionsCost base="60.0"/> <!-- %requisitionsCost base tier=7 factor=1 -->
+                <requisitionsCost base="80.0"/> <!-- %requisitionsCost base tier=7 factor=1 -->
             </effects>
         </modifier>
     </modifiers>
@@ -72,7 +72,7 @@
         </move>
         <createSmokeScreen cooldown="10"
                            icon="Traits/SmokeScreen"
-                           requiredUpgrade="SpaceMarines/ExtraVehicleArmour">
+                           requiredUpgrade="SpaceMarines/SmokeLauncher">
             <model>
                 <action sound="Actions/SmokeScreen"/>
             </model>
@@ -117,7 +117,7 @@
         <trait name="ExtraVehicleArmour" requiredUpgrade="SpaceMarines/ExtraVehicleArmour"/>
         <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand"/>
         <trait name="LinebreakerBombardment"/>
-        <trait name="SiegeShield" requiredUpgrade="SpaceMarines/DozerBlade"/>
+        <trait name="SiegeShield"/>
         <trait name="Tank"/>
         <trait name="Vehicle"/>
     </traits>

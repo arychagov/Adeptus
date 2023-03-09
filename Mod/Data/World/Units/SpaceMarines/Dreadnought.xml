@@ -125,7 +125,7 @@
         <createSmokeScreen
                 icon="Traits/SmokeScreen"
                 cooldown="10"
-                requiredUpgrade="SpaceMarines/ExtraVehicleArmour">
+                requiredUpgrade="SpaceMarines/SmokeLauncher">
             <model>
                 <action sound="Actions/SmokeScreen"/>
             </model>
