@@ -86,7 +86,7 @@
     <entry name="Necrons/CunningAdvisorsFlavor" value="<string name='Traits/Necrons/CunningAdvisorsFlavor'/>" />
     <entry name="Necrons/DefensiveProtocolsDescription" value="Increases the armour of the Lord. Increases regeneration of nearby allied Necron infantry units and monstrous creatures." />
     <entry name="Necrons/DestructionProtocolsDescription" value="Increases the damage taken for adjacent non-hero enemy units." />
-    <entry name="Necrons/DynastyDescription" value="Increases the loyalty of your cities." />
+    <entry name="Necrons/DynastyDescription" value="Increases the influence output of your empire." />
     <entry name="Necrons/JudgementOfTheTriarch" value="<string name='Traits/Necrons/JudgementOfTheTriarch'/>" />
     <entry name="Necrons/JudgementOfTheTriarchDescription" value="Decreases melee attacks of nearby enemies." />
     <entry name="Necrons/JudgementOfTheTriarchFlavor" value="<string name='Traits/Necrons/JudgementOfTheTriarchFlavor'/>" />
