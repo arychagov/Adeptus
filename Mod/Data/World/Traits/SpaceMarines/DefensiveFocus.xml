@@ -4,17 +4,21 @@
         <modifier>
             <effects>
                 <actionPointsMax add="2" />
-                <accuracy add="-999" />
             </effects>
         </modifier>
-        <modifier>
+        <modifier visible="0">
+            <effects>
+                <rangedDamage add="-999" />
+            </effects>
+        </modifier>
+        <modifier visible="0">
             <conditions>
                 <unit>
                     <overwatching />
                 </unit>
             </conditions>
             <effects>
-                <accuracy add="999" />
+                <rangedDamage add="999" />
             </effects>
         </modifier>
     </modifiers>
