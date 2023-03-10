@@ -24,7 +24,7 @@
 	<target rangeMax="3"/>
 	<traits>
 		<trait name="Necrons/BlastDamage" requiredUpgrade="Necrons/BlastDamage"/>
-		<trait name="LargeBlast"/>
+		<trait name="Blast"/>
 		<trait name="PrimaryWeapon"/>
 	</traits>
 </weapon>
