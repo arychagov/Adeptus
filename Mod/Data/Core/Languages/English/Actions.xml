@@ -166,5 +166,6 @@
     <entry name="MisfortuneDescription" value="Increases the damage taken for the target non-hero enemy unit." />
     <entry name="Luminagen" value="Luminagen"/>
     <entry name="LuminagenDescription" value="Temporarily decreases the ranged damage reduction of the attacked unit."/>
-
+    <entry name="VoidShield" value="Void Shield"/>
+    <entry name="VoidShieldDescription" value="Increases the ranged damage reduction."/>
 </language>

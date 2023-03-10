@@ -111,7 +111,9 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+        <genericUnitAbility consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3"
+            name="VoidShield"
+            icon="Traits/VoidShield">
             <model>
                 <action sound="Actions/ChargeUp"/>
             </model>
@@ -130,7 +132,7 @@
                     </areas>
                 </selfTarget>
             </beginTargets>
-        </jink>
+        </genericUnitAbility>
     </actions>
     <traits>
         <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus"/>
