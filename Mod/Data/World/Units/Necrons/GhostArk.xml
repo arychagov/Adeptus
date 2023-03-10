@@ -21,7 +21,7 @@
         <modifier visible="0">
             <effects>
                 <armor base="7"/> <!-- %armor base armor=11/11/11 -->
-                <cargoSlots base="3"/> <!-- %cargoSlots base capacity=10 -->
+                <cargoSlots base="2"/> <!-- %cargoSlots base capacity=10 -->
                 <hitpointsMax base="32.0"/>
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=11/11/11 wounds=4 -->
                 <moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->
