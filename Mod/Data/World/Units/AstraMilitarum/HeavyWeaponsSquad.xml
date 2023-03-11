@@ -93,10 +93,6 @@
                         soundCount="4"/>
             </model>
         </move>
-        <cycleWeapon interfaceSound="Interface/CycleWeapon"
-                     weaponSlotNames="KrakMissileLauncher FragMissileLauncher"/>
-
-
     </actions>
     <traits>
         <trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
