@@ -40,6 +40,7 @@
                 <oreCost base="30.0"/> <!-- %oreCost base tier=7 factor=0.5 -->
                 <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
                 <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=11/10/10 wounds=3 -->
             </effects>
         </modifier>
     </modifiers>
