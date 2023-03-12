@@ -39,7 +39,7 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8"/> <!-- %armor base armor=4+ -->
+                <armor base="6"/> <!-- %armor base armor=4+ -->
                 <foodUpkeep base="3.0"/> <!-- %foodUpkeep base tier=7 factor=1 -->
                 <foodCost base="30.0"/> <!-- %foodCost base tier=7 factor=0.5 -->
                 <hitpointsMax base="12.0"/>
