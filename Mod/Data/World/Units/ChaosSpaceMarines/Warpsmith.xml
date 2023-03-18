@@ -114,24 +114,24 @@
                         soundCount="4"/>
             </model>
         </move>
-
-
-        <boonOfMutation cooldownMin="4"
-                        cooldownMax="2"
-                        name="ChaosSpaceMarines/BoonOfMutation"
-                        rank="-1"
-                        rankMax="2">
+        <masterOfMechanisms cooldown="1"
+            name="ChaosSpaceMarines/MasterOfMechanisms"
+            rank="-1"
+            rankMax="2">
             <model>
                 <action animation="Units/ChaosSpaceMarines/WarpsmithAbility"
-                        sound="Actions/ChaosBuff"/>
+                    sound="Actions/Heal"/>
             </model>
             <beginTargets>
-                <target rangeMax="1">
+                <target rangeMin="1" rangeMax="1">
                     <conditions>
                         <unit>
                             <allied/>
-                            <trait name="ChaosSpaceMarines/ChampionOfChaos"/>
-                            <missingBoonOfChaos/>
+                            <damaged/>
+                        </unit>
+                        <unit match="Any">
+                            <trait name="Fortification"/>
+                            <trait name="Vehicle"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -139,7 +139,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addRandomBoonOfChaos/>
+                                        <hitpoints addMin="8" addMax="24"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -147,7 +147,7 @@
                     </areas>
                 </target>
             </beginTargets>
-        </boonOfMutation>
+        </masterOfMechanisms>
         <shatterDefences cooldown="3"
                          consumedActionPoints="0"
                          consumedMovement="1"
