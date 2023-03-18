@@ -60,7 +60,7 @@
                 <cargoSlots base="4"/> <!-- %cargoSlots base capacity=12 -->
                 <energyUpkeep base="3.0"/> <!-- %energyUpkeep base tier=7 factor=1 -->
                 <energyCost base="30.0"/> <!-- %energyCost base tier=7 factor=0.5 -->
-                <hitpointsMax base="36.0"/>
+                <hitpointsMax base="24.0"/>
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=12/12/10 wounds=3 -->
                 <oreCost base="30.0"/> <!-- %oreCost base tier=7 factor=0.5 -->
                 <moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
