@@ -175,7 +175,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="ChaosSpaceMarines/ShatterDefences"/>
+                                        <addTrait duration="1" name="ChaosSpaceMarines/ShatterDefences"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
