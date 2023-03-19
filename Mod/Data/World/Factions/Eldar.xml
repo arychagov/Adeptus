@@ -319,8 +319,8 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40"/>
-                        <oreCost base="40"/>
+                        <influenceCost base="60"/>
+                        <oreCost base="60"/>
                     </effects>
                 </modifier>
             </modifiers>
