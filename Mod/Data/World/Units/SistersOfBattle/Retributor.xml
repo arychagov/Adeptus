@@ -11,7 +11,7 @@
               bloodBone="Chest"
               walker="1"/>
     </model>
-    <group size="5" rowSize="3" memberDeltaX="80" memberDeltaY="80"/>
+    <group size="3" rowSize="3" memberDeltaX="80" memberDeltaY="80"/>
     <weapons>
         <weapon name="MultiMelta">
             <model>
@@ -38,7 +38,7 @@
         <modifier visible="0">
             <effects>
                 <armor base="8"/> <!-- %armor base armor=3+ -->
-                <hitpointsMax base="2.0"/>
+                <hitpointsMax base="4.0"/>
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
                 <meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
                 <meleeAttacks base="1"/>
@@ -50,6 +50,7 @@
                 <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
                 <requisitionsUpkeep base="3.0"/> <!-- %requisitionsUpkeep base tier=7 factor=1 -->
                 <requisitionsCost base="60.0"/> <!-- %requisitionsCost base tier=7 factor=1 -->
+                <damage mul="0.66"/>
             </effects>
         </modifier>
     </modifiers>
