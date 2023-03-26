@@ -109,7 +109,7 @@
                 </selfTarget>
             </beginTargets>
         </hammerOfWrath>
-        <genericUnitAbility cooldown="3" consumedActionPoints="0"
+        <genericUnitAbility cooldown="3" consumedActionPoints="0" requiredActionPoints="0"
             name="AdeptusMechanicus/SiphonVigour" consumedMovement="0" icon="Traits/AdeptusMechanicus/SiphonedVigour">
             <model>
                 <action sound="Actions/PsychicBuff"/>
