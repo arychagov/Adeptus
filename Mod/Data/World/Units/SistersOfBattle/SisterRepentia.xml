@@ -89,15 +89,6 @@
                         soundCount="3"/>
             </model>
         </move>
-
-
-        <throwGrenade weaponSlotName="MeltaBomb" cooldown="10"
-                      requiredUpgrade="SistersOfBattle/MeltaBomb">
-            <model>
-                <action animation="Units/SistersOfBattle/SisterRepentiaGrenade"
-                        beginFire="1.93"/>
-            </model>
-        </throwGrenade>
         <solaceInAnguish consumedActionPoints="0"
                          consumedMovement="0"
                          cooldown="10"
