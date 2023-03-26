@@ -90,15 +90,6 @@
                         soundCount="3"/>
             </model>
         </move>
-
-
-        <throwGrenade weaponSlotName="MeltaBomb" cooldown="10"
-                      requiredUpgrade="SistersOfBattle/MeltaBomb">
-            <model>
-                <action animation="Units/SistersOfBattle/BattleSisterGrenade"
-                        beginFire="1.6"/>
-            </model>
-        </throwGrenade>
         <lightOfTheEmperor consumedActionPoints="0"
                            consumedMovement="0"
                            cooldown="10"
