@@ -114,6 +114,25 @@
                         soundCount="4"/>
             </model>
         </move>
+        <genericUnitAbility name="ChaosSpaceMarines/EnrageMachineSpirits"
+            icon="Units/ChaosSpaceMarines/Warpsmith"
+            passive="1">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile" radius="1" excludeRadius="0">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="ChaosSpaceMarines/EnrageMachineSpirits"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
         <masterOfMechanisms cooldown="1"
             name="ChaosSpaceMarines/MasterOfMechanisms"
             rank="-1"
