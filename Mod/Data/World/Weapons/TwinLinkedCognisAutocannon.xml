@@ -8,15 +8,17 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<attacks add="2"/>
-				<rangedArmorPenetration add="2"/> <!-- %rangedArmorPenetration add armorPiercing=4 -->
-				<rangedDamage add="4"/> <!-- %rangedDamage add strength=7 -->
+				<attacks add="1.5"/>
+				<rangedArmorPenetration add="1"/> <!-- %rangedArmorPenetration add armorPiercing=4 -->
+				<rangedDamage add="3"/> <!-- %rangedDamage add strength=7 -->
 				<strengthDamage base="0"/>
+				<accuracy add="-1"/>
 			</effects>
 		</modifier>
 	</modifiers>
 	<target rangeMax="3"/>
 	<traits>
+		<trait name="Blast"/>
 		<trait name="Assault"/>
 		<trait name="AdeptusMechanicus/Cognis"/>
 		<trait name="TwinLinked"/>
