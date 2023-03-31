@@ -119,6 +119,8 @@
             icon="Items/FaolchusWing"
             name="SpaceMarines/EmpireWithin"
             cooldown="4"
+            consumedActionPoints="0"
+            requiredActionPoints="0"
             consumedMovement="0">
             <model>
                 <action animation="Units/SpaceMarines/LibrarianLevitate"
