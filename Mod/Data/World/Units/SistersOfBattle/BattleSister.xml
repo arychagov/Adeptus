@@ -138,5 +138,6 @@
         <trait name="SistersOfBattle/OathOfFaith"/>
         <trait name="ExtraInfantryArmour" requiredUpgrade="SistersOfBattle/ExtraInfantryArmour"/>
         <trait name="SistersOfBattle/SisterSuperior" requiredUpgrade="SistersOfBattle/SisterSuperior"/>
+        <trait name="SistersOfBattle/BolterDrill"/>
     </traits>
 </unit>

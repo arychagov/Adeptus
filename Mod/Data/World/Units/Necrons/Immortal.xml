@@ -152,7 +152,7 @@
         <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus"/>
         <trait name="ExtraInfantryArmour" requiredUpgrade="Necrons/ExtraInfantryArmour"/>
         <trait name="Necrons/ReanimationProtocols"/>
-        <trait name="Necrons/PitilessHunters"/>
+        <trait name="Rapid"/>
         <trait name="Necrons/EndlessLegions" requiredUpgrade="Necrons/EndlessLegions"/>
     </traits>
 </unit>

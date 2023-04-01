@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff" icon="Units/Necrons/Immortal">
+<trait alwaysVisible="1" category="Buff" icon="Traits/RapidFire">
     <modifiers>
         <modifier>
             <conditions>
+                <unit>
+                    <notMovedThisTurn/>
+                </unit>
                 <weapon>
                     <trait name="RapidFire"/>
                 </weapon>
                 <encounterRange greater="1"/>
             </conditions>
             <effects>
-                <rangedAttacks mul="1"/>
+                <rangedAccuracy add="2"/>
             </effects>
         </modifier>
     </modifiers>

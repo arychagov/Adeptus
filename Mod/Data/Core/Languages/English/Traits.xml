@@ -162,9 +162,6 @@
     <entry name="Necrons/MethodicalDestruction" value="Methodical Destruction" />
     <entry name="Necrons/MethodicalDestructionDescription" value="Increases the accuracy." />
     <entry name="Necrons/MethodicalDestructionFlavor" value="The Dynasty excel in systematic killing, marking each target then concentrating their fury upon it until it is completely obliterated." />
-    <entry name="Necrons/PitilessHunters" value="Pitiless Hunters" />
-    <entry name="Necrons/PitilessHuntersDescription" value="Treats shooting with rapid fire weapons as if in half range." />
-    <entry name="Necrons/PitilessHuntersFlavor" value="This dynasty have long viewed their enemies as little better than vermin, and seek to scour them from the battlefield with overwhelming weight of fire." />
     <entry name="Necrons/Prosperity" value="Prosperity" />
     <entry name="Necrons/ProsperityDescription" value="Increases city growth" />
     <entry name="Necrons/QuantumDeflection" value="Quantum Deflection" />
@@ -186,6 +183,9 @@
 
     <entry name="SistersOfBattle/Prosperity" value="Prosperity" />
     <entry name="SistersOfBattle/ProsperityDescription" value="Increases city growth" />
+    <entry name="SistersOfBattle/BolterDrill" value="Bolter Drill"/>
+    <entry name="SistersOfBattle/BolterDrillDescription" value="Increases the accuracy when firing weapons from range greater than 1."/>
+    <entry name="SistersOfBattle/BolterDrillFlavor" value="<string name='Actions/BolterDrillFlavor'/>"/>
 
     <entry name="SpaceMarines/BoltDamage" value="Kraken Bolts" />
     <entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
@@ -272,6 +272,8 @@
     <entry name="NullZone" value="Null Zone" />
     <entry name="NullZoneDescription" value="Removes invulnerable, witchfire and feel no pain damage reduction." />
     <entry name="NullZoneFlavor" value="No one is save beside angered Librarian." />
+    <entry name="Rapid" value="Rapid" />
+    <entry name="RapidDescription" value="Treats shooting with rapid fire weapons as if in half range." />
     <entry name="SupportHero" value="Support" />
     <entry name="SupportHeroDescription" value="Increases the ranged damage reduction against attacks from range 2 or higher." />
     <entry name="UnbreakableVehicle" value="Unbreakable" />
