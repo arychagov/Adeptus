@@ -96,6 +96,7 @@
     <entry name="Orks/MegaWaaagh" value="Megawaaagh!"/>
     <entry name="Orks/MegaWaaaghDescription" value="Increases Waaagh! effect."/>
     <entry name="Orks/CreatePermanentOrkoidFungusOnDeathDescription" value="Causes units to create permanent orkoid fungus when they die. Grants feel no pain damage reduction to Ork units on orkoid fungus."/>
+    <entry name="Orks/BonusBeastsProductionDescription" value="Increases the production output of Runtherd Groundz. Increases cities the food and the ore output."/>
 
     <entry name="SistersOfBattle/Canoness" value="Canoness" />
     <entry name="SistersOfBattle/CanonessDescription" value="Witch-seeking powerful hero unit that leads infantry into battle." />
