@@ -25,8 +25,7 @@
                 <weapon fireInterval="10"/>
             </model>
         </weapon>
-        <weapon name="None" enabled="0"
-                requiredUpgrade="SistersOfBattle/AnchoriteSarcophagus">
+        <weapon name="None" enabled="0">
             <model>
                 <weapon mesh="Weapons/SistersOfBattle/MortifierCasket"
                         material="Weapons/SistersOfBattle/MortifierCasket"
@@ -127,7 +126,7 @@
         <trait name="Walker"/>
         <trait name="SistersOfBattle/AnguishOfTheUnredeemed"/>
         <trait name="SistersOfBattle/BerserkKillingMachine"/>
-        <trait name="SistersOfBattle/AnchoriteSarcophagus" requiredUpgrade="SistersOfBattle/AnchoriteSarcophagus"/>
+        <trait name="SistersOfBattle/AnchoriteSarcophagus"/>
         <trait name="ExtraVehicleArmour" requiredUpgrade="SistersOfBattle/ExtraVehicleArmour"/>
     </traits>
 </unit>
