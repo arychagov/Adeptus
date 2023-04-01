@@ -32,6 +32,26 @@
                 <cityDamageReduction add="0.08"/>
             </effects>
         </modifier>
+        <modifier requiredUpgrade="SistersOfBattle/ValourOfSaints">
+            <conditions>
+                <unit>
+                    <allied/>
+                </unit>
+            </conditions>
+            <effects>
+                <moraleMax max="0"/>
+            </effects>
+        </modifier>
+        <modifier requiredUpgrade="SistersOfBattle/ValourOfSaints">
+            <conditions>
+                <unit>
+                    <enemy/>
+                </unit>
+            </conditions>
+            <effects>
+                <morale max="0"/>
+            </effects>
+        </modifier>
         <modifier>
             <conditions>
                 <unit>
