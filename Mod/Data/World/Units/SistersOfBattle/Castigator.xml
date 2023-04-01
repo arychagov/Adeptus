@@ -50,7 +50,7 @@
             </model>
         </weapon>
         <weapon name="None" enabled="0"
-                requiredUpgrade="SistersOfBattle/SmokeLauncher">
+                requiredUpgrade="SistersOfBattle/DozerBlade">
             <model>
                 <weapon mesh="Weapons/SistersOfBattle/CastigatorSmokeLaunchers"
                         material="Weapons/SistersOfBattle/CastigatorUpgrades"
@@ -106,7 +106,7 @@
                      weaponSlotNames="CastigatorBattleCannonSanctifiedShell CastigatorBattleCannonPyreShell"/>
         <createSmokeScreen cooldown="10"
                            icon="Traits/SmokeScreen"
-                           requiredUpgrade="SistersOfBattle/SmokeLauncher">
+                           requiredUpgrade="SistersOfBattle/DozerBlade">
             <model>
                 <action sound="Actions/SmokeScreen"/>
             </model>
