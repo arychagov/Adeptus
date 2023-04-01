@@ -133,6 +133,11 @@
                         <cooldown mul="-0.5"/>
                     </effects>
                 </modifier>
+                <modifier requiredUpgrade="SistersOfBattle/FaithAndFury">
+                    <effects>
+                        <cooldown mul="-0.66"/>
+                    </effects>
+                </modifier>
             </modifiers>
             <conditions>
                 <unit>

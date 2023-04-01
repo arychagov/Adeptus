@@ -188,6 +188,9 @@
     <entry name="SistersOfBattle/BolterDrill" value="Bolter Drill"/>
     <entry name="SistersOfBattle/BolterDrillDescription" value="Increases the accuracy when firing weapons from range greater than 1."/>
     <entry name="SistersOfBattle/BolterDrillFlavor" value="<string name='Actions/BolterDrillFlavor'/>"/>
+    <entry name="SistersOfBattle/FaithAndFury" value="Faith And Fury"/>
+    <entry name="SistersOfBattle/FaithAndFuryDescription" value="Reduces the cooldown of Acts of Faith."/>
+    <entry name="SistersOfBattle/FaithAndFuryFlavor" value="With the Emperor watching over them, the righteous zeal of the Sisters of Battle burns ever brighter, fuelling their attacks."/>
 
     <entry name="SpaceMarines/BoltDamage" value="Kraken Bolts" />
     <entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
