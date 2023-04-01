@@ -209,6 +209,7 @@
         <trait name="MobRule"/>
         <trait name="Orks/GreenTideHealing"/>
         <trait name="OrkoidFungusBonusHealingRate" requiredUpgrade="Orks/OrkoidFungusBonusHealingRate"/>
+        <trait name="OrkoidFungusBonusFeelNoPainDamageReduction" requiredUpgrade="Orks/CreatePermanentOrkoidFungusOnDeath"/>
         <trait name="Orks/Scavenger"/>
         <trait name="Psyker"/>
     </traits>

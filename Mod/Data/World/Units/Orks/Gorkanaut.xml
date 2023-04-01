@@ -135,6 +135,7 @@
         <trait name="Orks/GreenTideHealing"/>
         <trait name="Orks/MightMakesRight"/>
         <trait name="OrkoidFungusBonusHealingRate" requiredUpgrade="Orks/OrkoidFungusBonusHealingRate"/>
+        <trait name="OrkoidFungusBonusFeelNoPainDamageReduction" requiredUpgrade="Orks/CreatePermanentOrkoidFungusOnDeath"/>
         <trait name="Rampage"/>
         <trait name="Orks/Scavenger"/>
         <trait name="Transport"/>

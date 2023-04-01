@@ -272,6 +272,8 @@
     <entry name="NullZone" value="Null Zone" />
     <entry name="NullZoneDescription" value="Removes invulnerable, witchfire and feel no pain damage reduction." />
     <entry name="NullZoneFlavor" value="No one is save beside angered Librarian." />
+    <entry name="OrkoidFungusBonusFeelNoPainDamageReduction" value="Fungal Haze"/>
+    <entry name="OrkoidFungusBonusFeelNoPainDamageReductionDescription" value="Increases damage reduction."/>
     <entry name="Rapid" value="Rapid" />
     <entry name="RapidDescription" value="Treats shooting with rapid fire weapons as if in half range." />
     <entry name="SupportHero" value="Support" />

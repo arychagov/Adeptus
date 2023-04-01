@@ -129,6 +129,7 @@
         <trait name="Vehicle"/>
         <trait name="ExtraVehicleArmour" requiredUpgrade="Orks/ExtraVehicleArmour"/>
         <trait name="OrkoidFungusBonusHealingRate" requiredUpgrade="Orks/OrkoidFungusBonusHealingRate"/>
+        <trait name="OrkoidFungusBonusFeelNoPainDamageReduction" requiredUpgrade="Orks/CreatePermanentOrkoidFungusOnDeath"/>
         <trait name="RedPaintJob" requiredUpgrade="Orks/RedPaintJob"/>
     </traits>
 </unit>
