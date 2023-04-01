@@ -107,6 +107,8 @@
     <entry name="SistersOfBattle/DozerBlade" value="Dozer Blade / Smoke Launcher"/>
     <entry name="SistersOfBattle/DozerBladeDescription" value="Reduces the movement penalty for Immolators, Exorcists and Castigators in forests and imperial ruins. Grants ground vehicles the ability to launch a smoke screen that increases the ranged damage reduction."/>
     <entry name="SistersOfBattle/DozerBladeFlavor" value="<string name='Traits/DozerBladeFlavor'/>"/>
+    <entry name="SistersOfBattle/MinistorumIndoctrination" value="Ministorum Indoctrination / Universal Catechism"/>
+    <entry name="SistersOfBattle/MinistorumIndoctrinationDescription" value="Grants Martyr Spirit to Lightning Fighters, Avengers Strike Fighters and Cerastus Knight-Lancers. Grants Shield Of Faith to Lightning Fighters, Avengers Strike Fighters and Cerastus Knight-Lancers."/>
 
     <entry name="SpaceMarines/BlastDamageDescription" value="Increases the armour penetration of grenade, missile, las and blast weapons." />
     <entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />

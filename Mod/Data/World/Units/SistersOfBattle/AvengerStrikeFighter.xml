@@ -156,7 +156,7 @@
     </actions>
     <traits>
         <trait name="ExtraVehicleArmour" requiredUpgrade="SistersOfBattle/ExtraVehicleArmour"/>
-        <trait name="SistersOfBattle/ShieldOfFaith" requiredUpgrade="SistersOfBattle/UniversalCatechism"/>
+        <trait name="SistersOfBattle/ShieldOfFaith" requiredUpgrade="SistersOfBattle/MinistorumIndoctrination"/>
         <trait name="SistersOfBattle/MartyrSpirit" requiredUpgrade="SistersOfBattle/MinistorumIndoctrination"/>
         <trait name="StrafingRun"/>
         <trait name="Vehicle"/>
