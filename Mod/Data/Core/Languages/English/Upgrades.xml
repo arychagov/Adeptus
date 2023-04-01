@@ -115,6 +115,7 @@
     <entry name="SistersOfBattle/DesperateForRedemption" value="Desperate For Redemption"/>
     <entry name="SistersOfBattle/DesperateForRedemptionDescription" value="Adepta Sororitas infantry units resurrect on death with 1 hit point remaining."/>
     <entry name="SistersOfBattle/DesperateForRedemptionFlavor" value="Even the most grievous wound cannot stop a Sister Repentia in her quest to earn redemption in the eyes of the Emperor."/>
+    <entry name="SistersOfBattle/VowOfTheMilitantOrderDescription" value="Units keep their Shield Of Faith if they are broken. Increases damage reduction of Shield Of Faith."/>
 
     <entry name="SpaceMarines/BlastDamageDescription" value="Increases the armour penetration of grenade, missile, las and blast weapons." />
     <entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
