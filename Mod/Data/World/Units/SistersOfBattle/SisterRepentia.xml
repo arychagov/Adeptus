@@ -89,8 +89,8 @@
                         soundCount="3"/>
             </model>
         </move>
-
-        <miraculousIntervention name="SistersOfBattle/MiraculousIntervention"
+        <genericUnitAbility name="SistersOfBattle/DesperateForRedemption"
+            icon="Actions/SistersOfBattle/MiraculousIntervention"
             beginOnDisappear="1" cooldown="10" passive="1"
             requiredUpgrade="SistersOfBattle/DesperateForRedemption">
             <model>
@@ -118,7 +118,7 @@
                     </areas>
                 </selfTarget>
             </beginTargets>
-        </miraculousIntervention>
+        </genericUnitAbility>
         <solaceInAnguish consumedActionPoints="0"
                          consumedMovement="0"
                          cooldown="10"

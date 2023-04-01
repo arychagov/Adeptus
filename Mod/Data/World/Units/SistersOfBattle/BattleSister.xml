@@ -90,9 +90,10 @@
                         soundCount="3"/>
             </model>
         </move>
-        <miraculousIntervention name="SistersOfBattle/MiraculousIntervention"
-                                beginOnDisappear="1" cooldown="10" passive="1"
-                                requiredUpgrade="SistersOfBattle/DesperateForRedemption">
+        <genericUnitAbility name="SistersOfBattle/DesperateForRedemption"
+                            icon="Actions/SistersOfBattle/MiraculousIntervention"
+                            beginOnDisappear="1" cooldown="10" passive="1"
+                            requiredUpgrade="SistersOfBattle/DesperateForRedemption">
             <model>
                 <action sound="Actions/MiraculousIntervention" />
             </model>
@@ -118,7 +119,7 @@
                     </areas>
                 </selfTarget>
             </beginTargets>
-        </miraculousIntervention>
+        </genericUnitAbility>
         <lightOfTheEmperor consumedActionPoints="0"
                            consumedMovement="0"
                            cooldown="10"

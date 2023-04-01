@@ -102,7 +102,8 @@
                 </modifier>
             </modifiers>
         </foundCity>
-        <miraculousIntervention name="SistersOfBattle/MiraculousIntervention"
+        <genericUnitAbility name="SistersOfBattle/DesperateForRedemption"
+            icon="Actions/SistersOfBattle/MiraculousIntervention"
             beginOnDisappear="1" cooldown="10" passive="1"
             requiredUpgrade="SistersOfBattle/DesperateForRedemption">
             <model>
@@ -130,7 +131,7 @@
                     </areas>
                 </selfTarget>
             </beginTargets>
-        </miraculousIntervention>
+        </genericUnitAbility>
         <clearTileUnitAbility cooldown="1"
                               icon="Actions/ClearTile"
                               name="ClearTile">

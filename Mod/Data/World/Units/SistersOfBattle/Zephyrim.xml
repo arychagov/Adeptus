@@ -106,8 +106,8 @@
                         soundCount="3"/>
             </model>
         </move>
-
-        <miraculousIntervention name="SistersOfBattle/MiraculousIntervention"
+        <genericUnitAbility name="SistersOfBattle/DesperateForRedemption"
+            icon="Actions/SistersOfBattle/MiraculousIntervention"
             beginOnDisappear="1" cooldown="10" passive="1"
             requiredUpgrade="SistersOfBattle/DesperateForRedemption">
             <model>
@@ -135,7 +135,7 @@
                     </areas>
                 </selfTarget>
             </beginTargets>
-        </miraculousIntervention>
+        </genericUnitAbility>
         <jumpPack cooldown="3">
             <model>
                 <action animation="Units/SistersOfBattle/ZephyrimJumpMove"
