@@ -19,7 +19,6 @@
     </modifiers>
     <target rangeMax="3"/>
     <traits>
-        <trait name="GetsHot"/>
         <trait name="Blast"/>
         <trait name="Tau/BlastDamage" requiredUpgrade="Tau/BlastDamage"/>
     </traits>
