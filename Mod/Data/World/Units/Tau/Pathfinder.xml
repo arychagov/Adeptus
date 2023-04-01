@@ -11,7 +11,7 @@
               bloodBone="BloodBone"
               walker="1"/>
     </model>
-    <group size="4" rowSize="3" memberDeltaX="70" memberDeltaY="70"/>
+    <group size="3" rowSize="3" memberDeltaX="70" memberDeltaY="70"/>
     <weapons>
         <weapon name="IonRifleStandard"
                 slotName="IonRifleStandard">
@@ -45,7 +45,7 @@
                 <armor base="4"/> <!-- %armor base armor=5+ -->
                 <foodUpkeep base="3.0"/> <!-- %foodUpkeep base tier=7 factor=1 -->
                 <foodCost base="30.0"/> <!-- %foodCost base tier=7 factor=0.5 -->
-                <hitpointsMax base="2.0"/>
+                <hitpointsMax base="3.0"/>
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
                 <meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
                 <meleeAttacks base="1"/>
