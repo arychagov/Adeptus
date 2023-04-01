@@ -90,6 +90,9 @@
 
     <entry name="Orks/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
     <entry name="Orks/RedPaintJobDescription" value="Increases the damage of Warbuggies, Megatrakk Scrapjets and Battlewagons." />
+    <entry name="Orks/GrotRiggers" value="Grot Riggers / Hammer Of Wrath"/>
+    <entry name="Orks/GrotRiggersDescription" value="Grants Warbuggies, Killa Kans, Battlewagons, Gorkanauts and Kill Burstas passive hitpoint regeneration. Grants Deffkoptas, Gargantuan Squiggoths, Gorkanauts, Killa Kans and Warbikers the ability to perform more devastating attacks."/>
+    <entry name="Orks/GrotRiggersFlavor" value="<string name='Traits/GrotRiggersFlavor'/>"/>
 
     <entry name="SistersOfBattle/Canoness" value="Canoness" />
     <entry name="SistersOfBattle/CanonessDescription" value="Witch-seeking powerful hero unit that leads infantry into battle." />

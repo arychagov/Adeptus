@@ -190,7 +190,7 @@
         </scout>
         <hammerOfWrath consumedActionPoints="0" consumedMovement="0"
                        cooldown="3"
-                       requiredUpgrade="Orks/HammerOfWrath">
+                       requiredUpgrade="Orks/GrotRiggers">
             <model>
                 <action sound="Actions/PsychicBuff"/>
             </model>
