@@ -40,5 +40,6 @@
         <produceUnit unit="ChaosSpaceMarines/Venomcrawler" requiredUpgrade="ChaosSpaceMarines/Venomcrawler" />
         <produceUnit unit="ChaosSpaceMarines/ChaosLandRaider" requiredUpgrade="ChaosSpaceMarines/ChaosLandRaider" />
         <produceUnit unit="ChaosSpaceMarines/Defiler" requiredUpgrade="ChaosSpaceMarines/Defiler" />
+        <produceUnit unit="ChaosSpaceMarines/GreaterBrassScorpionOfKhorne" requiredUpgrade="ChaosSpaceMarines/GreaterBrassScorpionOfKhorne" />
     </actions>
 </building>
