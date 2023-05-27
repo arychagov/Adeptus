@@ -16,10 +16,10 @@
                 </player>
             </conditions>
             <effects>
-                <food mul="0.1" />
+                <food mul="0.2" />
             </effects>
         </modifier>
-        <modifier requiredUpgrade="Orks/OrkoidFungusBonusHealingRate">
+        <modifier requiredUpgrade="Orks/OrkoidFungusFood">
             <conditions>
                 <player>
                     <faction name="Orks" />
@@ -31,7 +31,7 @@
         </modifier>
         <modifier>
             <effects>
-                <biomassOnConsume add="0" />
+                <biomassOnConsume add="5" />
             </effects>
         </modifier>
     </modifiers>
