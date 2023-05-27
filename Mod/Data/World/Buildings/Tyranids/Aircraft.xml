@@ -4,8 +4,8 @@
         <modifier visible="0">
             <effects>
                 <influenceUpkeep add="2" />
-                <biomassCost base="50"/>
-                <productionCost base="36"/>>
+                <biomassCost base="50" />
+                <productionCost base="36" />>
                 <populationRequired base="1" />
                 <slotsRequired base="1" />
             </effects>

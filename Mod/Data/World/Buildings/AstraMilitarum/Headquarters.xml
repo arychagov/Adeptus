@@ -18,19 +18,19 @@
                 <ore add="6" />
                 <populationLimit add="6" />
                 <research add="6" />
-                <production add="6"/>
+                <production add="6" />
             </effects>
         </modifier>
     </modifiers>
     <actions>
-        <produceUnit unit="AstraMilitarum/LordCommissar" requiredUpgrade="AstraMilitarum/LordCommissar"/>
-        <produceUnit unit="AstraMilitarum/TankCommander" requiredUpgrade="AstraMilitarum/TankCommander"/>
-        <produceUnit unit="AstraMilitarum/PrimarisPsyker" requiredUpgrade="AstraMilitarum/PrimarisPsyker"/>
+        <produceUnit unit="AstraMilitarum/LordCommissar" requiredUpgrade="AstraMilitarum/LordCommissar" />
+        <produceUnit unit="AstraMilitarum/TankCommander" requiredUpgrade="AstraMilitarum/TankCommander" />
+        <produceUnit unit="AstraMilitarum/PrimarisPsyker" requiredUpgrade="AstraMilitarum/PrimarisPsyker" />
     </actions>
     <traits>
         <trait name="AstraMilitarum/CityTier2" requiredUpgrade="AstraMilitarum/CityTier2" />
         <trait name="AstraMilitarum/CityTier3" requiredUpgrade="AstraMilitarum/CityTier3" />
         <trait name="Headquarters" />
-        <trait name="AstraMilitarum/Prosperity" requiredUpgrade="AstraMilitarum/Construction"/>
+        <trait name="AstraMilitarum/Prosperity" requiredUpgrade="AstraMilitarum/Construction" />
     </traits>
 </building>

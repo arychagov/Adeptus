@@ -13,7 +13,7 @@
         <modifier>
             <effects>
                 <influence add="1" />
-                <research add="2"/>
+                <research add="2" />
                 <ore add="1" />
                 <production add="6" />
             </effects>

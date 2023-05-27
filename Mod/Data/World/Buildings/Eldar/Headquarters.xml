@@ -18,20 +18,20 @@
                 <ore add="6" />
                 <populationLimit add="6" />
                 <research add="6" />
-                <production add="6"/>
+                <production add="6" />
             </effects>
         </modifier>
     </modifiers>
     <actions>
-        <produceUnit unit="Eldar/Autarch" requiredUpgrade="Eldar/Autarch"/>
-        <produceUnit unit="Eldar/Spiritseer" requiredUpgrade="Eldar/Spiritseer"/>
-        <produceUnit unit="Eldar/FarseerSkyrunner" requiredUpgrade="Eldar/FarseerSkyrunner"/>
-        <produceUnit unit="Eldar/AvatarOfKhaine" requiredUpgrade="Eldar/AvatarOfKhaine"/>
+        <produceUnit unit="Eldar/Autarch" requiredUpgrade="Eldar/Autarch" />
+        <produceUnit unit="Eldar/Spiritseer" requiredUpgrade="Eldar/Spiritseer" />
+        <produceUnit unit="Eldar/FarseerSkyrunner" requiredUpgrade="Eldar/FarseerSkyrunner" />
+        <produceUnit unit="Eldar/AvatarOfKhaine" requiredUpgrade="Eldar/AvatarOfKhaine" />
     </actions>
     <traits>
         <trait name="Eldar/CityTier2" requiredUpgrade="Eldar/CityTier2" />
         <trait name="Eldar/CityTier3" requiredUpgrade="Eldar/CityTier3" />
         <trait name="Headquarters" />
-        <trait name="Eldar/Prosperity" requiredUpgrade="Eldar/Construction"/>
+        <trait name="Eldar/Prosperity" requiredUpgrade="Eldar/Construction" />
     </traits>
 </building>

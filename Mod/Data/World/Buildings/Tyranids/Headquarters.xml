@@ -16,7 +16,7 @@
                 <loyalty add="6" />
                 <populationLimit add="6" />
                 <research add="6" />
-                <production add="6"/>
+                <production add="6" />
             </effects>
         </modifier>
     </modifiers>

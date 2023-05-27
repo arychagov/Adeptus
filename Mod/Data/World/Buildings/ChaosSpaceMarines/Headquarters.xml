@@ -18,20 +18,20 @@
                 <ore add="6" />
                 <populationLimit add="6" />
                 <research add="6" />
-                <production add="6"/>
+                <production add="6" />
             </effects>
         </modifier>
     </modifiers>
     <actions>
-        <produceUnit unit="ChaosSpaceMarines/ChaosLord" requiredUpgrade="ChaosSpaceMarines/ChaosLord"/>
-        <produceUnit unit="ChaosSpaceMarines/Warpsmith" requiredUpgrade="ChaosSpaceMarines/Warpsmith"/>
-        <produceUnit unit="ChaosSpaceMarines/MasterOfPossession" requiredUpgrade="ChaosSpaceMarines/MasterOfPossession"/>
-        <produceUnit unit="ChaosSpaceMarines/DaemonPrince" requiredUpgrade="ChaosSpaceMarines/DaemonPrince"/>
+        <produceUnit unit="ChaosSpaceMarines/ChaosLord" requiredUpgrade="ChaosSpaceMarines/ChaosLord" />
+        <produceUnit unit="ChaosSpaceMarines/Warpsmith" requiredUpgrade="ChaosSpaceMarines/Warpsmith" />
+        <produceUnit unit="ChaosSpaceMarines/MasterOfPossession" requiredUpgrade="ChaosSpaceMarines/MasterOfPossession" />
+        <produceUnit unit="ChaosSpaceMarines/DaemonPrince" requiredUpgrade="ChaosSpaceMarines/DaemonPrince" />
     </actions>
     <traits>
         <trait name="ChaosSpaceMarines/CityTier2" requiredUpgrade="ChaosSpaceMarines/CityTier2" />
         <trait name="ChaosSpaceMarines/CityTier3" requiredUpgrade="ChaosSpaceMarines/CityTier3" />
         <trait name="Headquarters" />
-        <trait name="ChaosSpaceMarines/Prosperity" requiredUpgrade="ChaosSpaceMarines/Construction"/>
+        <trait name="ChaosSpaceMarines/Prosperity" requiredUpgrade="ChaosSpaceMarines/Construction" />
     </traits>
 </building>

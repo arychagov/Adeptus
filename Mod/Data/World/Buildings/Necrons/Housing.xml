@@ -3,8 +3,8 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="24"/>
-                <energyCost base="30"/>
+                <productionCost base="24" />
+                <energyCost base="30" />
                 <oreUpkeep add="1" />
                 <populationRequired base="0" />
                 <slotsRequired base="1" />

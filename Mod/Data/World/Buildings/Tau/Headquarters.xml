@@ -20,20 +20,20 @@
                 <ore add="6" />
                 <populationLimit add="6" />
                 <research add="6" />
-                <production add="6"/>
+                <production add="6" />
             </effects>
         </modifier>
     </modifiers>
     <actions>
-        <produceUnit unit="Tau/CadreFireblade" requiredUpgrade="Tau/CadreFireblade"/>
-        <produceUnit unit="Tau/Ethereal" requiredUpgrade="Tau/Ethereal"/>
-        <produceUnit unit="Tau/Commander" requiredUpgrade="Tau/Commander"/>
+        <produceUnit unit="Tau/CadreFireblade" requiredUpgrade="Tau/CadreFireblade" />
+        <produceUnit unit="Tau/Ethereal" requiredUpgrade="Tau/Ethereal" />
+        <produceUnit unit="Tau/Commander" requiredUpgrade="Tau/Commander" />
     </actions>
     <traits>
         <trait name="Tau/UtopiaBonus" requiredUpgrade="Tau/UtopiaBonus" />
         <trait name="Tau/CityTier2" requiredUpgrade="Tau/CityTier2" />
         <trait name="Tau/CityTier3" requiredUpgrade="Tau/CityTier3" />
         <trait name="Headquarters" />
-        <trait name="Tau/Prosperity" requiredUpgrade="Tau/Construction"/>
+        <trait name="Tau/Prosperity" requiredUpgrade="Tau/Construction" />
     </traits>
 </building>
