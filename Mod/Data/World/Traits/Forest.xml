@@ -4,15 +4,15 @@
         <modifier>
             <conditions>
                 <unit>
-                    <noTrait name="City"/>
-                    <noTrait name="Flyer"/>
-                    <noTrait name="Fortification"/>
-                    <noTrait name="MonstrousCreature"/>
-                    <noTrait name="Vehicle"/>
+                    <noTrait name="City" />
+                    <noTrait name="Flyer" />
+                    <noTrait name="Fortification" />
+                    <noTrait name="MonstrousCreature" />
+                    <noTrait name="Vehicle" />
                 </unit>
             </conditions>
             <effects>
-                <rangedDamageReduction add="0.25"/>
+                <rangedDamageReduction add="0.25" />
             </effects>
         </modifier>
     </modifiers>

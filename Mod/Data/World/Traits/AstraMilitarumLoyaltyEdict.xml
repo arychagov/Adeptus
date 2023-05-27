@@ -4,11 +4,11 @@
         <modifier>
             <conditions>
                 <building>
-                    <type name="AstraMilitarum/Loyalty"/>
+                    <type name="AstraMilitarum/Loyalty" />
                 </building>
             </conditions>
             <effects>
-                <loyalty mul="0.25"/>
+                <loyalty mul="0.25" />
             </effects>
         </modifier>
     </modifiers>

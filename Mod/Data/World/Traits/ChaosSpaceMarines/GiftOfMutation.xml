@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait>
-	<perTurnModifiers endure="0">
-		<modifier>
-			<effects>
-				<addRandomBoonOfChaos/>
-			</effects>
-		</modifier>
-	</perTurnModifiers>
+    <perTurnModifiers endure="0">
+        <modifier>
+            <effects>
+                <addRandomBoonOfChaos />
+            </effects>
+        </modifier>
+    </perTurnModifiers>
 </trait>

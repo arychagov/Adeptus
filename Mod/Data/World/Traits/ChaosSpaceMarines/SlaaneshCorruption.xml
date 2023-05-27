@@ -3,9 +3,9 @@
     <modifiers>
         <modifier>
             <effects>
-                <movementMax add="1"/>
-                <accuracy mul="0.17"/>
-                <feelNoPainDamageReduction add="0.17"/>
+                <movementMax add="1" />
+                <accuracy mul="0.17" />
+                <feelNoPainDamageReduction add="0.17" />
             </effects>
         </modifier>
     </modifiers>

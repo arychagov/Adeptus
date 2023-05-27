@@ -4,11 +4,11 @@
         <modifier>
             <conditions>
                 <building>
-                    <type name="AstraMilitarum/Energy"/>
+                    <type name="AstraMilitarum/Energy" />
                 </building>
             </conditions>
             <effects>
-                <energy mul="0.25"/>
+                <energy mul="0.25" />
             </effects>
         </modifier>
     </modifiers>

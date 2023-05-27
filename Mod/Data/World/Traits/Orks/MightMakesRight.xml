@@ -3,12 +3,12 @@
     <modifiers>
         <modifier>
             <effects>
-                <influencePerCombatFromUpkeepFactor add="2"/>
+                <influencePerCombatFromUpkeepFactor add="2" />
             </effects>
         </modifier>
         <modifier requiredUpgrade="Orks/MightMakesRight2">
             <effects>
-                <influencePerCombatFromUpkeepFactor mul="0.33"/>
+                <influencePerCombatFromUpkeepFactor mul="0.33" />
             </effects>
         </modifier>
     </modifiers>

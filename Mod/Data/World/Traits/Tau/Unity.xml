@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <influence add="18"/>
+                <influence add="18" />
             </effects>
         </modifier>
     </modifiers>

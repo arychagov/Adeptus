@@ -4,15 +4,15 @@
         <modifier>
             <conditions>
                 <unit>
-                    <notMovedThisTurn/>
+                    <notMovedThisTurn />
                 </unit>
                 <weapon>
-                    <trait name="RapidFire"/>
+                    <trait name="RapidFire" />
                 </weapon>
-                <encounterRange greater="1"/>
+                <encounterRange greater="1" />
             </conditions>
             <effects>
-                <rangedAccuracy add="2"/>
+                <rangedAccuracy add="2" />
             </effects>
         </modifier>
     </modifiers>

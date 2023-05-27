@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait category="Buff" icon="Buildings/ChaosSpaceMarines/Heroes">
-	<modifiers>
-		<modifier>
-			<effects>
-				<armor add="1"/>
-				<hitpointsMax add="3"/>
-			</effects>
-		</modifier>
-	</modifiers>
+    <modifiers>
+        <modifier>
+            <effects>
+                <armor add="1" />
+                <hitpointsMax add="3" />
+            </effects>
+        </modifier>
+    </modifiers>
 </trait>

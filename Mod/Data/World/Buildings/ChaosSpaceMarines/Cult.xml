@@ -3,17 +3,17 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36"/>
-                <oreCost base="50"/>
-                <populationRequired base="1"/>
-                <slotsRequired base="1"/>
-                <energyUpkeep add="2"/>
+                <productionCost base="36" />
+                <oreCost base="50" />
+                <populationRequired base="1" />
+                <slotsRequired base="1" />
+                <energyUpkeep add="2" />
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <loyalty add="2"/>
-                <production add="6"/>
+                <loyalty add="2" />
+                <production add="6" />
             </effects>
         </modifier>
     </modifiers>
@@ -27,12 +27,12 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseColonizersProductionScore base="1.0"/>
+                <increaseColonizersProductionScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="ChaosSpaceMarines/ChaosCultist"/>
-        <produceUnit unit="ChaosSpaceMarines/ChaosSpawn" requiredUpgrade="ChaosSpaceMarines/ChaosSpawn"/>
+        <produceUnit unit="ChaosSpaceMarines/ChaosCultist" />
+        <produceUnit unit="ChaosSpaceMarines/ChaosSpawn" requiredUpgrade="ChaosSpaceMarines/ChaosSpawn" />
     </actions>
 </building>

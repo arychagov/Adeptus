@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff"
-       icon="Actions/Eldar/Doom"
-       rankMax="2">
+<trait category="Debuff" icon="Actions/Eldar/Doom" rankMax="2">
     <modifiers>
         <modifier>
             <conditions>
                 <encounter>
                     <opponent>
-                        <faction name="Eldar"/>
+                        <faction name="Eldar" />
                     </opponent>
                 </encounter>
                 <unit>
-                    <enemy/>
-                    <noTrait name="Hero"/>
+                    <enemy />
+                    <noTrait name="Hero" />
                 </unit>
             </conditions>
             <effects>
-                <damageTaken mulMin="0.25" mulMax="0.75"/>
+                <damageTaken mulMin="0.25" mulMax="0.75" />
             </effects>
         </modifier>
     </modifiers>

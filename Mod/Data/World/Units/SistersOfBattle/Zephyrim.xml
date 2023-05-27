@@ -1,115 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement11">
     <model>
-        <unit mesh="Units/SistersOfBattle/Zephyrim"
-              material="Units/SistersOfBattle/Zephyrim"
-              idleAnimation="Units/SistersOfBattle/ZephyrimIdle"
-              idleAnimationCount="3"
-              idleContinuously="1"
-              normalWeight="0.1"
-              portraitZoomModifier="1.1"
-              scale="0.8 0.8 0.8"
-              bloodBone="Chest"
-              walker="1"/>
+        <unit mesh="Units/SistersOfBattle/Zephyrim" material="Units/SistersOfBattle/Zephyrim" idleAnimation="Units/SistersOfBattle/ZephyrimIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" portraitZoomModifier="1.1" scale="0.8 0.8 0.8" bloodBone="Chest" walker="1" />
     </model>
-    <group size="5" rowSize="3" memberDeltaX="70" memberDeltaY="70"/>
+    <group size="5" rowSize="3" memberDeltaX="70" memberDeltaY="70" />
     <weapons>
         <weapon name="BoltPistol">
             <model>
-                <projectileWeapon muzzleBone="Muzzle"
-                                  fireInterval="0.4"/>
+                <projectileWeapon muzzleBone="Muzzle" fireInterval="0.4" />
             </model>
         </weapon>
         <weapon name="PowerSword">
             <model>
-                <powerWeapon effectBoundingVolume="Blade"
-                             effectBone="Effect"
-                             fireInterval="10"/>
+                <powerWeapon effectBoundingVolume="Blade" effectBone="Effect" fireInterval="10" />
             </model>
         </weapon>
         <weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
             <model>
-                <grenadeWeapon muzzleBone="Hand_L"/>
+                <grenadeWeapon muzzleBone="Hand_L" />
             </model>
         </weapon>
         <weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
             <model>
-                <grenadeWeapon muzzleBone="Hand_L"/>
+                <grenadeWeapon muzzleBone="Hand_L" />
             </model>
         </weapon>
         <weapon name="MeltaBomb" slotName="MeltaBomb" enabled="0">
             <model>
-                <grenadeWeapon muzzleBone="Hand_L"/>
+                <grenadeWeapon muzzleBone="Hand_L" />
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8"/> <!-- %armor base armor=3+ -->
-                <hitpointsMax base="2.0"/>
-                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
-                <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
-                <meleeAttacks base="1"/>
-                <strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
+                <armor base="8" /> <!-- %armor base armor=3+ -->
+                <hitpointsMax base="2.0" />
+                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=3 wounds=1 -->
+                <meleeAccuracy base="8" /> <!-- %meleeAccuracy base weaponSkill=4 -->
+                <meleeAttacks base="1" />
+                <strengthDamage base="1" /> <!-- %strengthDamage base strength=3 -->
                 <!-- <meleeInitiative base="3"/> -->
-                <moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
-                <movementMax base="3"/>
-                <productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
-                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
-                <requisitionsUpkeep base="2.0"/> <!-- %requisitionsUpkeep base tier=6 factor=1 -->
-                <requisitionsCost base="40.0"/> <!-- %requisitionsCost base tier=6 factor=1 -->
+                <moraleMax base="8" /> <!-- %moraleMax base leadership=7 -->
+                <movementMax base="3" />
+                <productionCost base="36.0" /> <!-- %productionCost base tier=6 factor=1 -->
+                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <requisitionsUpkeep base="2.0" /> <!-- %requisitionsUpkeep base tier=6 factor=1 -->
+                <requisitionsCost base="40.0" /> <!-- %requisitionsCost base tier=6 factor=1 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0"/>
+                <increaseInfantryScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/SistersOfBattle/ZephyrimAttack"
-                        beginFire="0.87"
-                        endFire="1.73"
-                        chargeAnimation="Units/SistersOfBattle/ZephyrimCharge"
-                        chargeBeginFire="0.433"
-                        chargeEndFire="1.17"
-                        meleeAnimation="Units/SistersOfBattle/ZephyrimMelee"
-                        meleeBeginSwing="0.5"
-                        meleeEndSwing="0.6"/>
+                <action animation="Units/SistersOfBattle/ZephyrimAttack" beginFire="0.87" endFire="1.73" chargeAnimation="Units/SistersOfBattle/ZephyrimCharge" chargeBeginFire="0.433" chargeEndFire="1.17" meleeAnimation="Units/SistersOfBattle/ZephyrimMelee" meleeBeginSwing="0.5" meleeEndSwing="0.6" />
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/SistersOfBattle/ZephyrimDie"
-                        animationCount="2"
-                        sound="Units/MediumArmoredDie"
-                        soundCount="4"
-                        soundDelay="0.5"
-                        voiceSound="Units/SistersOfBattle/InfantryDie"
-                        voiceSoundCount="5"/>
+                <action animation="Units/SistersOfBattle/ZephyrimDie" animationCount="2" sound="Units/MediumArmoredDie" soundCount="4" soundDelay="0.5" voiceSound="Units/SistersOfBattle/InfantryDie" voiceSoundCount="5" />
             </model>
         </die>
         <idle>
             <model>
-                <action/>
+                <action />
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/SistersOfBattle/ZephyrimMove"
-                        sound="Units/SistersOfBattle/InfantryMove"
-                        soundCount="3"/>
+                <action animation="Units/SistersOfBattle/ZephyrimMove" sound="Units/SistersOfBattle/InfantryMove" soundCount="3" />
             </model>
         </move>
-        <genericUnitAbility name="SistersOfBattle/DesperateForRedemption"
-            icon="Actions/SistersOfBattle/MiraculousIntervention"
-            beginOnDisappear="1" cooldown="10" passive="1"
-            requiredUpgrade="SistersOfBattle/DesperateForRedemption">
+        <genericUnitAbility name="SistersOfBattle/DesperateForRedemption" icon="Actions/SistersOfBattle/MiraculousIntervention" beginOnDisappear="1" cooldown="10" passive="1" requiredUpgrade="SistersOfBattle/DesperateForRedemption">
             <model>
                 <action sound="Actions/MiraculousIntervention" />
             </model>
@@ -138,14 +107,13 @@
         </genericUnitAbility>
         <jumpPack cooldown="3">
             <model>
-                <action animation="Units/SistersOfBattle/ZephyrimJumpMove"
-                        sound="Actions/JumpPack"/>
+                <action animation="Units/SistersOfBattle/ZephyrimJumpMove" sound="Actions/JumpPack" />
             </model>
             <modifiers>
                 <modifier>
                     <effects>
-                        <movement add="1"/>
-                        <movementMax add="1"/>
+                        <movement add="1" />
+                        <movementMax add="1" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -156,7 +124,7 @@
                             <modifiers>
                                 <modifier requiredUpgrade="SistersOfBattle/HammerOfWrath">
                                     <effects>
-                                        <addTrait duration="1" name="HammerOfWrath"/>
+                                        <addTrait duration="1" name="HammerOfWrath" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -167,40 +135,34 @@
         </jumpPack>
 
 
-        <throwGrenade weaponSlotName="MeltaBomb" cooldown="10"
-                      requiredUpgrade="SistersOfBattle/MeltaBomb">
+        <throwGrenade weaponSlotName="MeltaBomb" cooldown="10" requiredUpgrade="SistersOfBattle/MeltaBomb">
             <model>
-                <action animation="Units/SistersOfBattle/ZephyrimGrenade"
-                        beginFire="1.63"/>
+                <action animation="Units/SistersOfBattle/ZephyrimGrenade" beginFire="1.63" />
             </model>
         </throwGrenade>
-        <divineGuidance consumedActionPoints="0"
-                        consumedMovement="0"
-                        cooldown="10"
-                        name="SistersOfBattle/DivineGuidance"
-                        requiredActionPoints="0">
+        <divineGuidance consumedActionPoints="0" consumedMovement="0" cooldown="10" name="SistersOfBattle/DivineGuidance" requiredActionPoints="0">
             <model>
-                <action sound="Actions/DivineGuidance"/>
+                <action sound="Actions/DivineGuidance" />
             </model>
             <modifiers>
                 <modifier requiredUpgrade="SistersOfBattle/SimulacrumImperialis">
                     <effects>
-                        <cooldown mul="-0.5"/>
+                        <cooldown mul="-0.5" />
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="SistersOfBattle/FaithAndFury">
                     <effects>
-                        <cooldown mul="-0.66"/>
+                        <cooldown mul="-0.66" />
                     </effects>
                 </modifier>
             </modifiers>
             <conditions>
                 <unit>
-                    <noTrait name="Broken"/>
+                    <noTrait name="Broken" />
                 </unit>
                 <unit match="Any">
-                    <noTrait name="Shaken"/>
-                    <trait name="SistersOfBattle/LaudHailer"/>
+                    <noTrait name="Shaken" />
+                    <trait name="SistersOfBattle/LaudHailer" />
                 </unit>
             </conditions>
             <beginTargets>
@@ -210,8 +172,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Rending"/>
-                                        <addTrait duration="1" name="SistersOfBattle/UsedActOfFaith"/>
+                                        <addTrait duration="1" name="Rending" />
+                                        <addTrait duration="1" name="SistersOfBattle/UsedActOfFaith" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -222,12 +184,12 @@
         </divineGuidance>
     </actions>
     <traits>
-        <trait name="HitAndRun"/>
-        <trait name="SistersOfBattle/AngelicVisage"/>
-        <trait name="SistersOfBattle/MartyrSpirit"/>
-        <trait name="SistersOfBattle/OathOfFaith"/>
-        <trait name="ExtraInfantryArmour" requiredUpgrade="SistersOfBattle/ExtraInfantryArmour"/>
-        <trait name="SistersOfBattle/SisterSuperior" requiredUpgrade="SistersOfBattle/SisterSuperior"/>
-        <trait name="Bodyguard"/>
+        <trait name="HitAndRun" />
+        <trait name="SistersOfBattle/AngelicVisage" />
+        <trait name="SistersOfBattle/MartyrSpirit" />
+        <trait name="SistersOfBattle/OathOfFaith" />
+        <trait name="ExtraInfantryArmour" requiredUpgrade="SistersOfBattle/ExtraInfantryArmour" />
+        <trait name="SistersOfBattle/SisterSuperior" requiredUpgrade="SistersOfBattle/SisterSuperior" />
+        <trait name="Bodyguard" />
     </traits>
 </unit>

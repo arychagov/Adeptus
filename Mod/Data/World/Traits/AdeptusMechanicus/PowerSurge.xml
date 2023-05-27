@@ -4,33 +4,33 @@
         <modifier>
             <conditions>
                 <building>
-                    <noTrait name="Headquarters"/>
+                    <noTrait name="Headquarters" />
                 </building>
             </conditions>
             <effects>
-                <production mul="0.125"/>
-                <food mul="0.125"/>
-                <ore mul="0.125"/>
-                <energy mul="0.125"/>
-                <research mul="0.125"/>
-                <influence mul="0.125"/>
-                <loyalty mul="0.125"/>
+                <production mul="0.125" />
+                <food mul="0.125" />
+                <ore mul="0.125" />
+                <energy mul="0.125" />
+                <research mul="0.125" />
+                <influence mul="0.125" />
+                <loyalty mul="0.125" />
             </effects>
         </modifier>
         <modifier requiredUpgrade="AdeptusMechanicus/ThermoExchangeEfficiency">
             <conditions>
                 <building>
-                    <noTrait name="Headquarters"/>
+                    <noTrait name="Headquarters" />
                 </building>
             </conditions>
             <effects>
-                <production mul="0.125"/>
-                <food mul="0.125"/>
-                <ore mul="0.125"/>
-                <energy mul="0.125"/>
-                <research mul="0.125"/>
-                <influence mul="0.125"/>
-                <loyalty mul="0.125"/>
+                <production mul="0.125" />
+                <food mul="0.125" />
+                <ore mul="0.125" />
+                <energy mul="0.125" />
+                <research mul="0.125" />
+                <influence mul="0.125" />
+                <loyalty mul="0.125" />
             </effects>
         </modifier>
     </modifiers>

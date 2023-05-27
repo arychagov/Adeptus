@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
-	<model>
-		<projectileWeapon muzzleFlashesBlueprint="Effects/CannonMuzzleFlashes"
-				fireSound="Weapons/Autocannon"
-				fireSoundCount="5"
-				fireInterval="0.2"/>
-	</model>
-	<modifiers>
-		<modifier>
-			<effects>
-				<attacks add="6"/>
-				<rangedArmorPenetration add="0"/> <!-- %rangedArmorPenetration add armorPiercing=3 -->
-				<rangedDamage add="5"/> <!-- %rangedDamage add strength=8 -->
-				<strengthDamage base="0"/>
-			</effects>
-		</modifier>
-	</modifiers>
-	<target rangeMax="2"/>
-	<traits>
-		<trait name="ApocalypticMegaBlast"/>
-		<trait name="Ordnance"/>
-		<trait name="AdeptusMechanicus/HeavyWeaponBonus" requiredUpgrade="AdeptusMechanicus/HeavyWeaponBonus"/>
-	</traits>
+    <model>
+        <projectileWeapon muzzleFlashesBlueprint="Effects/CannonMuzzleFlashes" fireSound="Weapons/Autocannon" fireSoundCount="5" fireInterval="0.2" />
+    </model>
+    <modifiers>
+        <modifier>
+            <effects>
+                <attacks add="6" />
+                <rangedArmorPenetration add="0" /> <!-- %rangedArmorPenetration add armorPiercing=3 -->
+                <rangedDamage add="5" /> <!-- %rangedDamage add strength=8 -->
+                <strengthDamage base="0" />
+            </effects>
+        </modifier>
+    </modifiers>
+    <target rangeMax="2" />
+    <traits>
+        <trait name="ApocalypticMegaBlast" />
+        <trait name="Ordnance" />
+        <trait name="AdeptusMechanicus/HeavyWeaponBonus" requiredUpgrade="AdeptusMechanicus/HeavyWeaponBonus" />
+    </traits>
 </weapon>

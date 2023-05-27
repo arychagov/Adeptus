@@ -4,16 +4,16 @@
         <modifier>
             <conditions>
                 <unit>
-                    <allied/>
-                    <faction name="Necrons"/>
-                    <noTrait name="Fortification"/>
-                    <noTrait name="Vehicle"/>
-                    <noTrait name="Hero"/>
+                    <allied />
+                    <faction name="Necrons" />
+                    <noTrait name="Fortification" />
+                    <noTrait name="Vehicle" />
+                    <noTrait name="Hero" />
                 </unit>
             </conditions>
             <effects>
-                <hitpoints add="2"/>
-                <moraleLossFactor add="-0.33"/>
+                <hitpoints add="2" />
+                <moraleLossFactor add="-0.33" />
             </effects>
         </modifier>
     </perTurnModifiers>

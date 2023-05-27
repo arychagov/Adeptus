@@ -3,25 +3,25 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="48"/>
-                <requisitionsCost base="80"/>
-                <populationRequired base="1"/>
-                <slotsRequired base="1"/>
-                <energyUpkeep add="3"/>
+                <productionCost base="48" />
+                <requisitionsCost base="80" />
+                <populationRequired base="1" />
+                <slotsRequired base="1" />
+                <energyUpkeep add="3" />
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <influence add="6"/>
-                <requisitions add="2"/>
-                <production add="6"/>
+                <influence add="6" />
+                <requisitions add="2" />
+                <production add="6" />
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseConstructionScore base="1.0"/>
+                <increaseConstructionScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>
@@ -30,9 +30,9 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost add="5"/>
-                        <requisitionsCost add="5"/>
-                        <productionCost add="12"/>
+                        <influenceCost add="5" />
+                        <requisitionsCost add="5" />
+                        <productionCost add="12" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -41,22 +41,22 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <productionCost add="12"/>
+                        <productionCost add="12" />
                     </effects>
                 </modifier>
             </modifiers>
         </clearTile>
-        <constructBuilding building="SpaceMarines/Requisitions"/>
-        <constructBuilding building="SpaceMarines/Energy"/>
-        <constructBuilding building="SpaceMarines/Research"/>
-        <constructBuilding building="SpaceMarines/Influence"/>
-        <constructBuilding building="SpaceMarines/Loyalty"/>
-        <constructBuilding building="SpaceMarines/Housing"/>
-        <constructBuilding building="SpaceMarines/Infantry"/>
-        <constructBuilding building="SpaceMarines/Vehicles" requiredUpgrade="SpaceMarines/Vehicles"/>
-        <constructBuilding building="SpaceMarines/Aircraft" requiredUpgrade="SpaceMarines/Aircraft"/>
-        <constructBuilding building="SpaceMarines/Construction" requiredUpgrade="SpaceMarines/Construction"/>
-        <constructBuilding building="SpaceMarines/GeneseedBunker" requiredUpgrade="SpaceMarines/GeneseedBunker"/>
+        <constructBuilding building="SpaceMarines/Requisitions" />
+        <constructBuilding building="SpaceMarines/Energy" />
+        <constructBuilding building="SpaceMarines/Research" />
+        <constructBuilding building="SpaceMarines/Influence" />
+        <constructBuilding building="SpaceMarines/Loyalty" />
+        <constructBuilding building="SpaceMarines/Housing" />
+        <constructBuilding building="SpaceMarines/Infantry" />
+        <constructBuilding building="SpaceMarines/Vehicles" requiredUpgrade="SpaceMarines/Vehicles" />
+        <constructBuilding building="SpaceMarines/Aircraft" requiredUpgrade="SpaceMarines/Aircraft" />
+        <constructBuilding building="SpaceMarines/Construction" requiredUpgrade="SpaceMarines/Construction" />
+        <constructBuilding building="SpaceMarines/GeneseedBunker" requiredUpgrade="SpaceMarines/GeneseedBunker" />
         <!-- <constructPlayerAction action="DeployUnit/SpaceMarines/FortressOfRedemption">
             <modifiers>
                 <modifier>

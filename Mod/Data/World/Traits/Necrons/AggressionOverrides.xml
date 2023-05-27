@@ -3,14 +3,14 @@
     <modifiers>
         <modifier>
             <effects>
-                <damage add="1"/>
-                <armorPenetration add="1"/>
-                <hitpointsMax add="4"/>
+                <damage add="1" />
+                <armorPenetration add="1" />
+                <hitpointsMax add="4" />
             </effects>
         </modifier>
         <modifier visible="0">
             <effects>
-                <hitpoints add="4"/>
+                <hitpoints add="4" />
             </effects>
         </modifier>
     </modifiers>

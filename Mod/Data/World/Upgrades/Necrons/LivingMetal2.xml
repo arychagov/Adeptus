@@ -3,8 +3,8 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0"/>
-                <increaseVehiclesScore base="1.0"/>
+                <increaseInfantryScore base="1.0" />
+                <increaseVehiclesScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>

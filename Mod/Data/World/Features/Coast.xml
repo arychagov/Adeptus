@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feature ambientSound="Ambient/Coast"
-         ambientSoundLayer="0"
-         ambientSoundPriority="0"
-         audioEffectSystem="Plains"
-         category="Ground">
+<feature ambientSound="Ambient/Coast" ambientSoundLayer="0" ambientSoundPriority="0" audioEffectSystem="Plains" category="Ground">
     <!-- 	<areas>
            <area affects="Tile" radius="1">
                <modifiers>

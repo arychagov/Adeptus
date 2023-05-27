@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade position="3" icon="Traits/Eldar/SpiritStones">
     <requiredUpgrades>
-        <upgrade name="Eldar/Vehicle"/>
+        <upgrade name="Eldar/Vehicle" />
     </requiredUpgrades>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="1.0"/>
+                <increaseVehiclesScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>

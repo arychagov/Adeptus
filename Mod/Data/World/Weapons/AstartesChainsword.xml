@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
-	<modifiers>
-		<modifier>
-			<effects>
-				<meleeArmorPenetration add="1"/> <!-- %rangedArmorPenetration add armorPiercing=5 -->
-				<meleeDamage add="1.5"/> <!-- %rangedDamage add strength=4 -->
-				<strengthDamage base="0"/>
-			</effects>
-		</modifier>
-	</modifiers>
-	<target rangeMax="1"/>
-	<traits>
-		<trait name="Melee"/>
-		<trait name="SpaceMarines/MeleeDamage" requiredUpgrade="SpaceMarines/MeleeDamage"/>
-	</traits>
+    <modifiers>
+        <modifier>
+            <effects>
+                <meleeArmorPenetration add="1" /> <!-- %rangedArmorPenetration add armorPiercing=5 -->
+                <meleeDamage add="1.5" /> <!-- %rangedDamage add strength=4 -->
+                <strengthDamage base="0" />
+            </effects>
+        </modifier>
+    </modifiers>
+    <target rangeMax="1" />
+    <traits>
+        <trait name="Melee" />
+        <trait name="SpaceMarines/MeleeDamage" requiredUpgrade="SpaceMarines/MeleeDamage" />
+    </traits>
 </weapon>

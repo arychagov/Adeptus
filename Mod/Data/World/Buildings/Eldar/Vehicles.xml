@@ -3,19 +3,19 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36"/>
-                <oreCost base="50"/>
-                <populationRequired base="1"/>
-                <slotsRequired base="1"/>
-                <energyUpkeep add="2"/>
+                <productionCost base="36" />
+                <oreCost base="50" />
+                <populationRequired base="1" />
+                <slotsRequired base="1" />
+                <energyUpkeep add="2" />
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <ore add="2"/>
-                <production add="6"/>
-                <research add="1"/>
-                <influence add="1"/>
+                <ore add="2" />
+                <production add="6" />
+                <research add="1" />
+                <influence add="1" />
             </effects>
         </modifier>
     </modifiers>
@@ -29,20 +29,20 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesProductionScore base="1.0"/>
+                <increaseVehiclesProductionScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="Eldar/ShiningSpear"/>
-        <produceUnit unit="Eldar/Hornet" requiredUpgrade="Eldar/Hornet"/>
-        <produceUnit unit="Eldar/VaulsWrathSupportBattery" requiredUpgrade="Eldar/VaulsWrathSupportBattery"/>
-        <produceUnit unit="Eldar/WaveSerpent" requiredUpgrade="Eldar/WaveSerpent"/>
-        <produceUnit unit="Eldar/FirePrism" requiredUpgrade="Eldar/FirePrism"/>
-        <produceUnit unit="Eldar/WarWalker" requiredUpgrade="Eldar/WarWalker"/>
-        <produceUnit unit="Eldar/Scorpion" requiredUpgrade="Eldar/Scorpion"/>
+        <produceUnit unit="Eldar/ShiningSpear" />
+        <produceUnit unit="Eldar/Hornet" requiredUpgrade="Eldar/Hornet" />
+        <produceUnit unit="Eldar/VaulsWrathSupportBattery" requiredUpgrade="Eldar/VaulsWrathSupportBattery" />
+        <produceUnit unit="Eldar/WaveSerpent" requiredUpgrade="Eldar/WaveSerpent" />
+        <produceUnit unit="Eldar/FirePrism" requiredUpgrade="Eldar/FirePrism" />
+        <produceUnit unit="Eldar/WarWalker" requiredUpgrade="Eldar/WarWalker" />
+        <produceUnit unit="Eldar/Scorpion" requiredUpgrade="Eldar/Scorpion" />
     </actions>
     <traits>
-        <trait name="Eldar/VehicleBuildingBonus" requiredUpgrade="Eldar/VehicleBuildingBonus"/>
+        <trait name="Eldar/VehicleBuildingBonus" requiredUpgrade="Eldar/VehicleBuildingBonus" />
     </traits>
 </building>

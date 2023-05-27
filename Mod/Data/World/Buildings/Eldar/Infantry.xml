@@ -3,19 +3,19 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36"/>
-                <oreCost base="50"/>
-                <populationRequired base="1"/>
-                <slotsRequired base="1"/>
-                <energyUpkeep add="2"/>
+                <productionCost base="36" />
+                <oreCost base="50" />
+                <populationRequired base="1" />
+                <slotsRequired base="1" />
+                <energyUpkeep add="2" />
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <loyalty add="1"/>
-                <production add="6"/>
-                <food add="1"/>
-                <research add="1"/>
+                <loyalty add="1" />
+                <production add="6" />
+                <food add="1" />
+                <research add="1" />
             </effects>
         </modifier>
     </modifiers>
@@ -29,20 +29,20 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryProductionScore base="1.0"/>
+                <increaseInfantryProductionScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="Eldar/Guardian"/>
-        <produceUnit unit="Eldar/Ranger" requiredUpgrade="Eldar/Ranger"/>
-        <produceUnit unit="Eldar/HowlingBanshee" requiredUpgrade="Eldar/HowlingBanshee"/>
-        <produceUnit unit="Eldar/FireDragon" requiredUpgrade="Eldar/FireDragon"/>
-        <produceUnit unit="Eldar/Warlock" requiredUpgrade="Eldar/Warlock"/>
-        <produceUnit unit="Eldar/Wraithblade" requiredUpgrade="Eldar/Wraithblade"/>
-        <produceUnit unit="Eldar/Wraithknight" requiredUpgrade="Eldar/Wraithknight"/>
+        <produceUnit unit="Eldar/Guardian" />
+        <produceUnit unit="Eldar/Ranger" requiredUpgrade="Eldar/Ranger" />
+        <produceUnit unit="Eldar/HowlingBanshee" requiredUpgrade="Eldar/HowlingBanshee" />
+        <produceUnit unit="Eldar/FireDragon" requiredUpgrade="Eldar/FireDragon" />
+        <produceUnit unit="Eldar/Warlock" requiredUpgrade="Eldar/Warlock" />
+        <produceUnit unit="Eldar/Wraithblade" requiredUpgrade="Eldar/Wraithblade" />
+        <produceUnit unit="Eldar/Wraithknight" requiredUpgrade="Eldar/Wraithknight" />
     </actions>
     <traits>
-        <trait name="Eldar/InfantryBuildingBonus" requiredUpgrade="Eldar/InfantryBuildingBonus"/>
+        <trait name="Eldar/InfantryBuildingBonus" requiredUpgrade="Eldar/InfantryBuildingBonus" />
     </traits>
 </building>

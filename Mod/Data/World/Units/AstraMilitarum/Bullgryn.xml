@@ -1,103 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/AstraMilitarum/Bullgryn"
-              material="Units/AstraMilitarum/Bullgryn"
-              scale="1.5 1.5 1.5"
-              idleAnimation="Units/AstraMilitarum/BullgrynIdle"
-              idleAnimationCount="3"
-              idleContinuously="1"
-              normalWeight="0.1"
-              bloodBone="ChestBone"
-              walker="1"/>
+        <unit mesh="Units/AstraMilitarum/Bullgryn" material="Units/AstraMilitarum/Bullgryn" scale="1.5 1.5 1.5" idleAnimation="Units/AstraMilitarum/BullgrynIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" bloodBone="ChestBone" walker="1" />
     </model>
-    <group size="3" rowSize="3" memberDeltaX="64" memberDeltaY="64"/>
+    <group size="3" rowSize="3" memberDeltaX="64" memberDeltaY="64" />
     <weapons>
         <weapon name="PowerMaul">
             <model>
-                <powerWeapon effectBoundingVolume="Blade"
-                             mesh="Weapons/AstraMilitarum/BullgrynPowerMaul"
-                             material="Weapons/AstraMilitarum/BullgrynMeleeWeapons"
-                             bone="RightHandBone"
-                             fireInterval="0.4"/>
+                <powerWeapon effectBoundingVolume="Blade" mesh="Weapons/AstraMilitarum/BullgrynPowerMaul" material="Weapons/AstraMilitarum/BullgrynMeleeWeapons" bone="RightHandBone" fireInterval="0.4" />
             </model>
         </weapon>
-        <weapon name="None" enabled="0"
-                requiredUpgrade="AstraMilitarum/BruteShield">
+        <weapon name="None" enabled="0" requiredUpgrade="AstraMilitarum/BruteShield">
             <model>
-                <weapon mesh="Weapons/AstraMilitarum/BullgrynBruteShield"
-                        material="Weapons/AstraMilitarum/BullgrynMeleeWeapons"
-                        bone="LeftArmBone1"/>
+                <weapon mesh="Weapons/AstraMilitarum/BullgrynBruteShield" material="Weapons/AstraMilitarum/BullgrynMeleeWeapons" bone="LeftArmBone1" />
             </model>
         </weapon>
         <weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
             <model>
-                <grenadeWeapon muzzleBone="RightHandBone"/>
+                <grenadeWeapon muzzleBone="RightHandBone" />
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="6"/> <!-- %armor base armor=4+ -->
-                <foodUpkeep base="3.0"/> <!-- %foodUpkeep base tier=7 factor=1 -->
-                <foodCost base="30.0"/> <!-- %foodCost base tier=7 factor=0.5 -->
-                <hitpointsMax base="12.0"/>
-                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=5 wounds=3 -->
-                <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
-                <meleeAttacks base="2"/>
-                <strengthDamage base="2"/> <!-- %strengthDamage base strength=5 -->
+                <armor base="6" /> <!-- %armor base armor=4+ -->
+                <foodUpkeep base="3.0" /> <!-- %foodUpkeep base tier=7 factor=1 -->
+                <foodCost base="30.0" /> <!-- %foodCost base tier=7 factor=0.5 -->
+                <hitpointsMax base="12.0" />
+                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=5 wounds=3 -->
+                <meleeAccuracy base="8" /> <!-- %meleeAccuracy base weaponSkill=4 -->
+                <meleeAttacks base="2" />
+                <strengthDamage base="2" /> <!-- %strengthDamage base strength=5 -->
                 <!-- <meleeInitiative base="2"/> -->
-                <oreCost base="30.0"/> <!-- %oreCost base tier=7 factor=0.5 -->
-                <moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
-                <movementMax base="3"/>
-                <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
-                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <oreCost base="30.0" /> <!-- %oreCost base tier=7 factor=0.5 -->
+                <moraleMax base="8" /> <!-- %moraleMax base leadership=7 -->
+                <movementMax base="3" />
+                <productionCost base="42.0" /> <!-- %productionCost base tier=7 factor=1 -->
+                <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0"/>
+                <increaseInfantryScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action chargeAnimation="Units/AstraMilitarum/BullgrynCharge"
-                        meleeAnimation="Units/AstraMilitarum/BullgrynMelee"
-                        meleeBeginSwing="0.45"
-                        meleeEndSwing="0.95"
-                        meleeDefenseAnimation="Units/AstraMilitarum/BullgrynMelee"
-                        meleeDefenseBeginSwing="0.45"
-                        meleeDefenseEndSwing="0.95"/>
+                <action chargeAnimation="Units/AstraMilitarum/BullgrynCharge" meleeAnimation="Units/AstraMilitarum/BullgrynMelee" meleeBeginSwing="0.45" meleeEndSwing="0.95" meleeDefenseAnimation="Units/AstraMilitarum/BullgrynMelee" meleeDefenseBeginSwing="0.45" meleeDefenseEndSwing="0.95" />
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/AstraMilitarum/BullgrynDie"
-                        sound="Units/LargeUnarmoredDie"
-                        soundCount="4"
-                        soundDelay="0.4"
-                        voiceSound="Units/Orks/InfantryDie"
-                        voiceSoundCount="5"/>
+                <action animation="Units/AstraMilitarum/BullgrynDie" sound="Units/LargeUnarmoredDie" soundCount="4" soundDelay="0.4" voiceSound="Units/Orks/InfantryDie" voiceSoundCount="5" />
             </model>
         </die>
         <move>
             <model>
-                <action animation="Units/AstraMilitarum/BullgrynMove"
-                        sound="Units/AstraMilitarum/BullgrynMove"
-                        soundCount="4"/>
+                <action animation="Units/AstraMilitarum/BullgrynMove" sound="Units/AstraMilitarum/BullgrynMove" soundCount="4" />
             </model>
         </move>
 
-        <hammerOfWrath consumedActionPoints="0"
-                       consumedMovement="0"
-                       cooldown="3">
+        <hammerOfWrath consumedActionPoints="0" consumedMovement="0" cooldown="3">
             <model>
-                <action sound="Actions/PsychicBuff"/>
+                <action sound="Actions/PsychicBuff" />
             </model>
             <beginTargets>
                 <selfTarget>
@@ -106,7 +76,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="HammerOfWrath" duration="1"/>
+                                        <addTrait name="HammerOfWrath" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -115,9 +85,7 @@
                 </selfTarget>
             </beginTargets>
         </hammerOfWrath>
-        <genericUnitAbility passive="1"
-                            icon="Units/AstraMilitarum/Bullgryn"
-                            name="AstraMilitarum/WallOfMuscle">
+        <genericUnitAbility passive="1" icon="Units/AstraMilitarum/Bullgryn" name="AstraMilitarum/WallOfMuscle">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -125,7 +93,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="AstraMilitarum/WallOfMuscle"/>
+                                        <addTrait name="AstraMilitarum/WallOfMuscle" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -136,9 +104,9 @@
         </genericUnitAbility>
     </actions>
     <traits>
-        <trait name="BruteShield" requiredUpgrade="AstraMilitarum/BruteShield"/>
-        <trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
-        <trait name="Stubborn"/>
-        <trait name="Bodyguard"/>
+        <trait name="BruteShield" requiredUpgrade="AstraMilitarum/BruteShield" />
+        <trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour" />
+        <trait name="Stubborn" />
+        <trait name="Bodyguard" />
     </traits>
 </unit>

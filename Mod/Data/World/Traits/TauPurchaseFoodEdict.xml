@@ -4,13 +4,13 @@
         <modifier>
             <conditions>
                 <unit>
-                    <allied/>
-                    <faction name="Tau"/>
-                    <trait name="Headquarters"/>
+                    <allied />
+                    <faction name="Tau" />
+                    <trait name="Headquarters" />
                 </unit>
             </conditions>
             <effects>
-                <food add="40"/>
+                <food add="40" />
             </effects>
         </modifier>
     </modifiers>

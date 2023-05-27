@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
     <entry name="AdeptusMechanicus/AggressorImperativeDescription" value="Increases the movement, but decreases the armour." />
-    <entry name="AdeptusMechanicus/CommandUplinkDescription" value="The unit cannot be shaken or broken."/>
+    <entry name="AdeptusMechanicus/CommandUplinkDescription" value="The unit cannot be shaken or broken." />
     <entry name="AdeptusMechanicus/Prosperity" value="Prosperity" />
     <entry name="AdeptusMechanicus/ProsperityDescription" value="Increases city growth" />
-    <entry name="AdeptusMechanicus/ProtectorImperativeDescription" value="Increases the ranged accuracy, but decreases the armour."/>
-    <entry name="AdeptusMechanicus/BlessedArms" value="Blessed Arms"/>
-    <entry name="AdeptusMechanicus/BlessedArmsDescription" value="Temporary decreases the armour of target."/>
-    <entry name="AdeptusMechanicus/BlessedArmsFlavor" value="This household reverently maintains the masterwork weapons of former ages, their power undimmed."/>
-    <entry name="AdeptusMechanicus/BlessedArmsDebuff" value="Blessed Arms"/>
-    <entry name="AdeptusMechanicus/BlessedArmsDebuffDescription" value="Decreases the armour."/>
-    <entry name="AdeptusMechanicus/BlessedArmsDebuffFlavor" value="This household reverently maintains the masterwork weapons of former ages, their power undimmed."/>
-    <entry name="AdeptusMechanicus/SiphonVigourDescription" value="Increases the invulnerable damage reduction."/>
-    <entry name="AdeptusMechanicus/GalvanicFieldDescription" value="Increases the armour penetration and accuracy."/>
-    <entry name="AdeptusMechanicus/TechAdept" value="Tech-Adept"/> <!-- Tech-Priest Manipulus ability -->
-    <entry name="AdeptusMechanicus/TechAdeptDescription" value="Increases healing rate."/>
-    <entry name="AdeptusMechanicus/TechAdeptFlavor" value="Repairing war engines damaged in the crusade is a holy task."/>
-    <entry name="AdeptusMechanicus/MasterOfMachines" value="Master of Machines"/>
-    <entry name="AdeptusMechanicus/MasterOfMachinesDescription" value="Increases the armour."/>
-    <entry name="AdeptusMechanicus/MasterOfMachinesFlavor" value="“Our enemies may rest but rust never sleeps.”<br/>—Tech-Priest Jung, Forge World Gehenna"/>
-    <entry name="AdeptusMechanicus/ReprogramKastelanRobot" value="Reprogrammed Kastelan Robot"/>
-    <entry name="AdeptusMechanicus/ReprogramKastelanRobotDescription" value="Increases Repulsor Grid effect and hit points."/>
-    <entry name="AdeptusMechanicus/ReprogramKastelanRobotFlavor" value="Since the aftermath of Warmaster Horus’ rebellion the Legio Cybernetica’s robots have been controlled completely by their masters – not by the bio-plastic cerebra and nerve-like tendril webs of Mechanicum constructs, but by sanctified doctrina wafers. No bigger than the cards of the Emperor’s Tarot, these slivers of wetware are entrusted to the Cybernetica Datasmiths that accompany the robot maniples to war. Inserted into the dataslot hidden behind each robot’s chestplate, the wafer’s command protocol will dictate every iota of the host’s behaviour, usually optimising its ability to destroy its foes in a spectacular fashion."/>
-    <entry name="AdeptusMechanicus/DataBlessedAutosermonDescription" value="Kastelan Robot does not suffer accuracy loss on hit points loss, increases accuracy. Increases attacks of Fulgurite Electro Priests."/>
+    <entry name="AdeptusMechanicus/ProtectorImperativeDescription" value="Increases the ranged accuracy, but decreases the armour." />
+    <entry name="AdeptusMechanicus/BlessedArms" value="Blessed Arms" />
+    <entry name="AdeptusMechanicus/BlessedArmsDescription" value="Temporary decreases the armour of target." />
+    <entry name="AdeptusMechanicus/BlessedArmsFlavor" value="This household reverently maintains the masterwork weapons of former ages, their power undimmed." />
+    <entry name="AdeptusMechanicus/BlessedArmsDebuff" value="Blessed Arms" />
+    <entry name="AdeptusMechanicus/BlessedArmsDebuffDescription" value="Decreases the armour." />
+    <entry name="AdeptusMechanicus/BlessedArmsDebuffFlavor" value="This household reverently maintains the masterwork weapons of former ages, their power undimmed." />
+    <entry name="AdeptusMechanicus/SiphonVigourDescription" value="Increases the invulnerable damage reduction." />
+    <entry name="AdeptusMechanicus/GalvanicFieldDescription" value="Increases the armour penetration and accuracy." />
+    <entry name="AdeptusMechanicus/TechAdept" value="Tech-Adept" /> <!-- Tech-Priest Manipulus ability -->
+    <entry name="AdeptusMechanicus/TechAdeptDescription" value="Increases healing rate." />
+    <entry name="AdeptusMechanicus/TechAdeptFlavor" value="Repairing war engines damaged in the crusade is a holy task." />
+    <entry name="AdeptusMechanicus/MasterOfMachines" value="Master of Machines" />
+    <entry name="AdeptusMechanicus/MasterOfMachinesDescription" value="Increases the armour." />
+    <entry name="AdeptusMechanicus/MasterOfMachinesFlavor" value="“Our enemies may rest but rust never sleeps.”<br/>—Tech-Priest Jung, Forge World Gehenna" />
+    <entry name="AdeptusMechanicus/ReprogramKastelanRobot" value="Reprogrammed Kastelan Robot" />
+    <entry name="AdeptusMechanicus/ReprogramKastelanRobotDescription" value="Increases Repulsor Grid effect and hit points." />
+    <entry name="AdeptusMechanicus/ReprogramKastelanRobotFlavor" value="Since the aftermath of Warmaster Horus’ rebellion the Legio Cybernetica’s robots have been controlled completely by their masters – not by the bio-plastic cerebra and nerve-like tendril webs of Mechanicum constructs, but by sanctified doctrina wafers. No bigger than the cards of the Emperor’s Tarot, these slivers of wetware are entrusted to the Cybernetica Datasmiths that accompany the robot maniples to war. Inserted into the dataslot hidden behind each robot’s chestplate, the wafer’s command protocol will dictate every iota of the host’s behaviour, usually optimising its ability to destroy its foes in a spectacular fashion." />
+    <entry name="AdeptusMechanicus/DataBlessedAutosermonDescription" value="Kastelan Robot does not suffer accuracy loss on hit points loss, increases accuracy. Increases attacks of Fulgurite Electro Priests." />
 
     <entry name="AstraMilitarum/BoltDamage" value="The Emperor's Benediction" />
     <entry name="AstraMilitarum/BoltDamageDescription" value="Increases the armour penetration." />
@@ -70,22 +70,22 @@
     <entry name="ChaosSpaceMarines/TzeentchCorruption" value="Tzeentch Corruption" />
     <entry name="ChaosSpaceMarines/TzeentchCorruptionDescription" value="Gains research when the Daemon Prince gains experience from combat." />
     <entry name="ChaosSpaceMarines/TzeentchCorruptionFlavor" value="Arcane knowledge and mystical power have ever been the domain of Tzeentch and his minions." />
-    <entry name="ChaosSpaceMarines/IconOfVengeance" value="Icon of Vengeance"/>
-    <entry name="ChaosSpaceMarines/IconOfVengeanceDescription" value="Returns damage back to the attacker."/>
-    <entry name="ChaosSpaceMarines/IconOfVengeanceFlavor" value="These icons shine brightly in the Warp, gathering the malefic energies of Chaos to those who bear them and spurring them on to acts of suicidal brabery in their quest to seize victory from the minions of the Corpse-god."/>
-    <entry name="ChaosSpaceMarines/StimulatedByPain" value="Stimulated By Pain"/>
-    <entry name="ChaosSpaceMarines/StimulatedByPainDescription" value="Increases armour, hit points and Bloated healing rate of heroes."/>
-    <entry name="ChaosSpaceMarines/StimulatedByPainFlavor" value="The warlords of the Emperor’s Children thrive on pain. The more grievous their injuries, the deadlier they become."/>
-    <entry name="ChaosSpaceMarines/BlessedChampion" value="Blessed Champion"/>
-    <entry name="ChaosSpaceMarines/BlessedChampionDescription" value="Immediately comes back to life after dying."/>
-    <entry name="ChaosSpaceMarines/BlessedChampionFlavor" value="While many warbands of Heretic Astartes have grown to rival entire Chapters of loyalist Space Marines in size, most began as a core of ruthless followers led by their powerful champion. Such individuals draw more and more warriors to their service as their influence expands, their dread reputation for destruction becoming more storied as their warband grows in notoriety and power."/>
-    <entry name="ChaosSpaceMarines/SmokeLauncher" value="Smoke Launcher"/>
-    <entry name="ChaosSpaceMarines/SmokeLauncherDescription" value="Increases regeneration."/>
-    <entry name="ChaosSpaceMarines/Defiler" value="Defiler"/>
-    <entry name="ChaosSpaceMarines/DefilerDescription" value="Takes damage over time."/>
-    <entry name="ChaosSpaceMarines/EnrageMachineSpirits" value="Enrage Machine Spirits"/>
-    <entry name="ChaosSpaceMarines/EnrageMachineSpiritsDescription" value="Increases the accuracy."/>
-    <entry name="ChaosSpaceMarines/EnrageMachineSpiritsFlavor" value="No armour is safe from the guns of the IV Legion, and once an enemy war engine is marked for destruction, its doomed is sealed."/>
+    <entry name="ChaosSpaceMarines/IconOfVengeance" value="Icon of Vengeance" />
+    <entry name="ChaosSpaceMarines/IconOfVengeanceDescription" value="Returns damage back to the attacker." />
+    <entry name="ChaosSpaceMarines/IconOfVengeanceFlavor" value="These icons shine brightly in the Warp, gathering the malefic energies of Chaos to those who bear them and spurring them on to acts of suicidal brabery in their quest to seize victory from the minions of the Corpse-god." />
+    <entry name="ChaosSpaceMarines/StimulatedByPain" value="Stimulated By Pain" />
+    <entry name="ChaosSpaceMarines/StimulatedByPainDescription" value="Increases armour, hit points and Bloated healing rate of heroes." />
+    <entry name="ChaosSpaceMarines/StimulatedByPainFlavor" value="The warlords of the Emperor’s Children thrive on pain. The more grievous their injuries, the deadlier they become." />
+    <entry name="ChaosSpaceMarines/BlessedChampion" value="Blessed Champion" />
+    <entry name="ChaosSpaceMarines/BlessedChampionDescription" value="Immediately comes back to life after dying." />
+    <entry name="ChaosSpaceMarines/BlessedChampionFlavor" value="While many warbands of Heretic Astartes have grown to rival entire Chapters of loyalist Space Marines in size, most began as a core of ruthless followers led by their powerful champion. Such individuals draw more and more warriors to their service as their influence expands, their dread reputation for destruction becoming more storied as their warband grows in notoriety and power." />
+    <entry name="ChaosSpaceMarines/SmokeLauncher" value="Smoke Launcher" />
+    <entry name="ChaosSpaceMarines/SmokeLauncherDescription" value="Increases regeneration." />
+    <entry name="ChaosSpaceMarines/Defiler" value="Defiler" />
+    <entry name="ChaosSpaceMarines/DefilerDescription" value="Takes damage over time." />
+    <entry name="ChaosSpaceMarines/EnrageMachineSpirits" value="Enrage Machine Spirits" />
+    <entry name="ChaosSpaceMarines/EnrageMachineSpiritsDescription" value="Increases the accuracy." />
+    <entry name="ChaosSpaceMarines/EnrageMachineSpiritsFlavor" value="No armour is safe from the guns of the IV Legion, and once an enemy war engine is marked for destruction, its doomed is sealed." />
 
     <entry name="Eldar/Prosperity" value="Prosperity" />
     <entry name="Eldar/ProsperityDescription" value="Increases city growth" />
@@ -180,17 +180,17 @@
     <entry name="Orks/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
     <entry name="Orks/Prosperity" value="Prosperity" />
     <entry name="Orks/ProsperityDescription" value="Increases city growth" />
-    <entry name="Orks/CityFoodAndOre" value="Funga / Digga"/>
-    <entry name="Orks/CityFoodAndOreDescription" value="Increases the food and the ore output."/>
+    <entry name="Orks/CityFoodAndOre" value="Funga / Digga" />
+    <entry name="Orks/CityFoodAndOreDescription" value="Increases the food and the ore output." />
 
     <entry name="SistersOfBattle/Prosperity" value="Prosperity" />
     <entry name="SistersOfBattle/ProsperityDescription" value="Increases city growth" />
-    <entry name="SistersOfBattle/BolterDrill" value="Bolter Drill"/>
-    <entry name="SistersOfBattle/BolterDrillDescription" value="Increases the accuracy when firing weapons from range greater than 1."/>
-    <entry name="SistersOfBattle/BolterDrillFlavor" value="<string name='Actions/BolterDrillFlavor'/>"/>
-    <entry name="SistersOfBattle/FaithAndFury" value="Faith And Fury"/>
-    <entry name="SistersOfBattle/FaithAndFuryDescription" value="Reduces the cooldown of Acts of Faith."/>
-    <entry name="SistersOfBattle/FaithAndFuryFlavor" value="With the Emperor watching over them, the righteous zeal of the Sisters of Battle burns ever brighter, fuelling their attacks."/>
+    <entry name="SistersOfBattle/BolterDrill" value="Bolter Drill" />
+    <entry name="SistersOfBattle/BolterDrillDescription" value="Increases the accuracy when firing weapons from range greater than 1." />
+    <entry name="SistersOfBattle/BolterDrillFlavor" value="<string name='Actions/BolterDrillFlavor'/>" />
+    <entry name="SistersOfBattle/FaithAndFury" value="Faith And Fury" />
+    <entry name="SistersOfBattle/FaithAndFuryDescription" value="Reduces the cooldown of Acts of Faith." />
+    <entry name="SistersOfBattle/FaithAndFuryFlavor" value="With the Emperor watching over them, the righteous zeal of the Sisters of Battle burns ever brighter, fuelling their attacks." />
 
     <entry name="SpaceMarines/BoltDamage" value="Kraken Bolts" />
     <entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
@@ -236,9 +236,9 @@
     <entry name="SpaceMarines/VeilOfTime" value="Veil Of Time" />
     <entry name="SpaceMarines/VeilOfTimeDescription" value="Increases the research output of the empire." />
     <entry name="SpaceMarines/VeilOfTimeFlavor" value="The psyker projects his will beyond the regular passage of time, altering the temporal flow to sway the tide of battle." />
-    <entry name="SpaceMarines/DefensiveFocus" value="<string name='Actions/SpaceMarines/DefensiveFocus'/>"/>
-    <entry name="SpaceMarines/DefensiveFocusDescription" value="<string name='Actions/SpaceMarines/DefensiveFocusDescription'/>"/>
-    <entry name="SpaceMarines/DefensiveFocus" value="<string name='Actions/SpaceMarines/DefensiveFocusFlavor'/>"/>
+    <entry name="SpaceMarines/DefensiveFocus" value="<string name='Actions/SpaceMarines/DefensiveFocus'/>" />
+    <entry name="SpaceMarines/DefensiveFocusDescription" value="<string name='Actions/SpaceMarines/DefensiveFocusDescription'/>" />
+    <entry name="SpaceMarines/DefensiveFocus" value="<string name='Actions/SpaceMarines/DefensiveFocusFlavor'/>" />
 
     <entry name="Tau/BreakComposureDescription" value="Increases ranged attacks." />
     <entry name="Tau/BreakComposureFlavor" value="Though not physically impressive, the T’au can inculcate fear in their enemies through subtler means—by harrying them so that they can’t focus, by surrounding them, by forcing them down tactical paths that only lead to repeated failure. Sometimes you don’t need to even touch an enemy to defeat them." />
@@ -256,9 +256,9 @@
     <entry name="Tyranids/Prosperity" value="Prosperity" />
     <entry name="Tyranids/ProsperityDescription" value="Increases city growth" />
 
-    <entry name="IonShielded" value="Ion Shielded"/>
-    <entry name="IonShieldedDescription" value="Increases the damage reduction."/>
-    <entry name="IonShieldedFlavor" value="Some warriors are protected by more than mere physical armour. They may be shielded by force fields, enveloped in mystical energies or have a constitution that can shrug off hits that would put holes in a battle tank."/>
+    <entry name="IonShielded" value="Ion Shielded" />
+    <entry name="IonShieldedDescription" value="Increases the damage reduction." />
+    <entry name="IonShieldedFlavor" value="Some warriors are protected by more than mere physical armour. They may be shielded by force fields, enveloped in mystical energies or have a constitution that can shrug off hits that would put holes in a battle tank." />
     <entry name="Bodyguard" value="Bodyguard" />
     <entry name="BodyguardDescription" value="Increases adjacent heroes hero damage reduction." />
     <entry name="Dimmed" value="Dimmed" />
@@ -277,8 +277,8 @@
     <entry name="NullZone" value="Null Zone" />
     <entry name="NullZoneDescription" value="Removes invulnerable, witchfire and feel no pain damage reduction." />
     <entry name="NullZoneFlavor" value="No one is save beside angered Librarian." />
-    <entry name="OrkoidFungusBonusFeelNoPainDamageReduction" value="Fungal Haze"/>
-    <entry name="OrkoidFungusBonusFeelNoPainDamageReductionDescription" value="Increases damage reduction."/>
+    <entry name="OrkoidFungusBonusFeelNoPainDamageReduction" value="Fungal Haze" />
+    <entry name="OrkoidFungusBonusFeelNoPainDamageReductionDescription" value="Increases damage reduction." />
     <entry name="Rapid" value="Rapid" />
     <entry name="RapidDescription" value="Treats shooting with rapid fire weapons as if in half range." />
     <entry name="SupportHero" value="Support" />

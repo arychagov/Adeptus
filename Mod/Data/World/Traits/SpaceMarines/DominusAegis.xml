@@ -4,15 +4,15 @@
         <modifier>
             <conditions>
                 <unit>
-                    <allied/>
-                    <faction name="SpaceMarines"/>
-                    <noTrait name="Fortification"/>
-                    <noTrait name="MonstrousCreature"/>
-                    <noTrait name="Vehicle"/>
+                    <allied />
+                    <faction name="SpaceMarines" />
+                    <noTrait name="Fortification" />
+                    <noTrait name="MonstrousCreature" />
+                    <noTrait name="Vehicle" />
                 </unit>
             </conditions>
             <effects>
-                <rangedDamageReduction minMin="0.07" minMax="0.17"/>
+                <rangedDamageReduction minMin="0.07" minMax="0.17" />
             </effects>
         </modifier>
     </modifiers>

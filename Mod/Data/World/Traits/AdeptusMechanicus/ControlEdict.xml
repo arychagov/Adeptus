@@ -4,15 +4,14 @@
         <modifier>
             <conditions>
                 <unit>
-                    <allied/>
-                    <faction name="AdeptusMechanicus"/>
-                    <noTrait name="Vehicle"/>
-                    <noTrait name="Fortification"/>
-                    <noTrait name="MonstrousCreature"/>
+                    <allied />
+                    <faction name="AdeptusMechanicus" />
+                    <noTrait name="Vehicle" />
+                    <noTrait name="Fortification" />
+                    <noTrait name="MonstrousCreature" />
                 </unit>
             </conditions>
-            <effects>
-            </effects>
+            <effects></effects>
         </modifier>
     </modifiers>
 </trait>

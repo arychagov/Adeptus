@@ -3,7 +3,7 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseFoodScore base="1.0"/>
+                <increaseFoodScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>

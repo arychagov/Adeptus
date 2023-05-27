@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade position="6" icon="Weapons/ThresherScythe">
     <requiredUpgrades>
-        <upgrade name="Tyranids/Exocrine"/>
-        <upgrade name="Tyranids/Haruspex"/>
+        <upgrade name="Tyranids/Exocrine" />
+        <upgrade name="Tyranids/Haruspex" />
     </requiredUpgrades>
 </upgrade>

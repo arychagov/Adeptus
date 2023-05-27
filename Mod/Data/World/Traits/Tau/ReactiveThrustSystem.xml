@@ -3,8 +3,8 @@
     <modifiers>
         <modifier>
             <effects>
-                <accuracy mul="0.17"/>
-                <attacks mul="0.17"/>
+                <accuracy mul="0.17" />
+                <attacks mul="0.17" />
             </effects>
         </modifier>
     </modifiers>

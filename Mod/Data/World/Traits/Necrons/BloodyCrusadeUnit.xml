@@ -4,13 +4,13 @@
         <modifier>
             <conditions>
                 <unit>
-                    <allied/>
-                    <noTrait name="Fortification"/>
-                    <faction name="Necrons"/>
+                    <allied />
+                    <noTrait name="Fortification" />
+                    <faction name="Necrons" />
                 </unit>
             </conditions>
             <effects>
-                <attacks mulMin="0.07" mulMax="0.17"/>
+                <attacks mulMin="0.07" mulMax="0.17" />
             </effects>
         </modifier>
     </modifiers>

@@ -4,19 +4,19 @@
         <modifier visible="0">
             <conditions>
                 <unit>
-                    <allied/>
-                    <faction name="SpaceMarines"/>
-                    <noTrait name="Fortification"/>
-                    <noTrait name="MonstrousCreature"/>
-                    <noTrait name="Vehicle"/>
+                    <allied />
+                    <faction name="SpaceMarines" />
+                    <noTrait name="Fortification" />
+                    <noTrait name="MonstrousCreature" />
+                    <noTrait name="Vehicle" />
                 </unit>
                 <weapon>
-                    <trait name="RapidFire"/>
+                    <trait name="RapidFire" />
                 </weapon>
-                <encounterRange greater="1"/>
+                <encounterRange greater="1" />
             </conditions>
             <effects>
-                <rangedAttacks mul="1"/>
+                <rangedAttacks mul="1" />
             </effects>
         </modifier>
     </modifiers>

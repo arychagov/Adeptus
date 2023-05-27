@@ -10,8 +10,8 @@
     <entry name="HeavyLascannonFlavor" value="<string name='Weapons/LasFlavor'/>" />
     <entry name="EradicatorNovaCannon" value="Eradicator Nova Cannon" />
     <entry name="EradicatorNovaCannonFlavor" value="<string name='Weapons/BattleCannon'/>" />
-    <entry name="CadrePulseRifle" value="Cadre's Pulse Rifle"/>
-    <entry name="CadrePulseRifleFlavor" value="<string name='Weapons/PulseRifleFlavor'/>"/>
-    <entry name="AstartesChainsword" value="Astartes Chainsword"/>
-    <entry name="AstartesChainswordFlavor" value="A chainsword is a high-powered chainsaw fitted with hilt, pommel and guard to make it less unwieldy. It is a common weapon across the Imperium, with a quite horrifying reputation for the damage it can inflict on unarmoured flesh."/>
+    <entry name="CadrePulseRifle" value="Cadre's Pulse Rifle" />
+    <entry name="CadrePulseRifleFlavor" value="<string name='Weapons/PulseRifleFlavor'/>" />
+    <entry name="AstartesChainsword" value="Astartes Chainsword" />
+    <entry name="AstartesChainswordFlavor" value="A chainsword is a high-powered chainsaw fitted with hilt, pommel and guard to make it less unwieldy. It is a common weapon across the Imperium, with a quite horrifying reputation for the damage it can inflict on unarmoured flesh." />
 </language>

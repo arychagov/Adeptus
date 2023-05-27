@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <armor addMin="-1" addMax="-2"/>
+                <armor addMin="-1" addMax="-2" />
             </effects>
         </modifier>
     </modifiers>

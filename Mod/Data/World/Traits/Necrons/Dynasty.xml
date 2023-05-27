@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <influence addMin="3" addMax="9"/>
+                <influence addMin="3" addMax="9" />
             </effects>
         </modifier>
     </modifiers>

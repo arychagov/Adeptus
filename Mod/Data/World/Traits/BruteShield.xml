@@ -3,8 +3,8 @@
     <modifiers>
         <modifier>
             <effects>
-                <damage mul="0.1"/>
-                <invulnerableDamageReduction min="0.33"/>
+                <damage mul="0.1" />
+                <invulnerableDamageReduction min="0.33" />
             </effects>
         </modifier>
     </modifiers>

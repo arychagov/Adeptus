@@ -43,22 +43,22 @@
     <entry name="ChaosSpaceMarines/CityTier2Description" value="Increases the tile acquisition radius." />
     <entry name="ChaosSpaceMarines/CityTier3Description" value="Increases the tile acquisition radius." />
     <entry name="ChaosSpaceMarines/HavocLauncherDescription" value="Grants Chaos Rhinos, Helbrutes and Chaos Land Raiders a mid-range blast weapon." />
-    <entry name="ChaosSpaceMarines/AscensionToDaemonhood" value="Ascension To Daemonhood"/>
-    <entry name="ChaosSpaceMarines/AscensionToDaemonhoodDescription" value="Removes cooldown of Icons and Marks of Chaos."/>
-    <entry name="ChaosSpaceMarines/AscensionToDaemonhoodFlavor" value="The ultimate prize for mortal warriors is to ascend into the immortal ranks of a Chaos Gods daemonic legions. Yet for all this power, such beings are more a pawn of their god than ever, irrevocably enslaved to the will of their master."/>
-    <entry name="ChaosSpaceMarines/BlessedChampions" value="Blessed Champions"/>
-    <entry name="ChaosSpaceMarines/BlessedChampionsDescription" value="Grants heroes ability to immediately come back to life after dying."/>
-    <entry name="ChaosSpaceMarines/BlessedChampionsFlavor" value="While many warbands of Heretic Astartes have grown to rival entire Chapters of loyalist Space Marines in size, most began as a core of ruthless followers led by their powerful champion. Such individuals draw more and more warriors to their service as their influence expands, their dread reputation for destruction becoming more storied as their warband grows in notoriety and power."/>
-    <entry name="ChaosSpaceMarines/StimulatedByPain" value="Stimulated By Pain"/>
-    <entry name="ChaosSpaceMarines/StimulatedByPainDescription" value="Increases armour, hit points of heroes. Increases Bloated healing rate."/>
-    <entry name="ChaosSpaceMarines/StimulatedByPainFlavor" value="The warlords of the Emperor’s Children thrive on pain. The more grievous their injuries, the deadlier they become."/>
-    <entry name="ChaosSpaceMarines/SmokeLauncher" value="Hammer Of Wrath / Smoke Launcher"/>
-    <entry name="ChaosSpaceMarines/SmokeLauncherDescription" value="Grants Daemon Princes, Defilers, Forgefiends, Helbrutes, Maulerfiends, Venomcrawlers and Warp Talons the ability to perform more devastating attacks. Grants Chaos Rhinos, Defilers and Chaos Land Raiders the ability to launch a smoke screen that increases the ranged damage reduction. Increases allied Chaos Space Marine vehicles regeneration."/>
-    <entry name="ChaosSpaceMarines/WarpflameGargoylesDescription" value="Grants damage over time to Chaos Rhino, Venomcrawler, Defiler and Chaos Land Raider weapons and the accuracy debuff from attacks."/>
-    <entry name="ChaosSpaceMarines/BelieversOfTheTrueFaith" value="Believers Of The True Faith"/>
-    <entry name="ChaosSpaceMarines/BelieversOfTheTrueFaithDescription" value="Increases Chaos Cultists attacks and hit points. Chaos Cultists are free to build and have no upkeep."/>
-    <entry name="ChaosSpaceMarines/BelieversOfTheTrueFaithFlavor" value="Though each selfishly sees faith as an easy route to power in on uncaring galaxy, these mortals are zealous worshippers brimming with hate."/>
-    <entry name="ChaosSpaceMarines/DarkDiscipleDescription" value="Increases resource cost of Chaos Cultists and grants ability to increase the invulnerable damage reduction of adjacent allied Chaos units."/>
+    <entry name="ChaosSpaceMarines/AscensionToDaemonhood" value="Ascension To Daemonhood" />
+    <entry name="ChaosSpaceMarines/AscensionToDaemonhoodDescription" value="Removes cooldown of Icons and Marks of Chaos." />
+    <entry name="ChaosSpaceMarines/AscensionToDaemonhoodFlavor" value="The ultimate prize for mortal warriors is to ascend into the immortal ranks of a Chaos Gods daemonic legions. Yet for all this power, such beings are more a pawn of their god than ever, irrevocably enslaved to the will of their master." />
+    <entry name="ChaosSpaceMarines/BlessedChampions" value="Blessed Champions" />
+    <entry name="ChaosSpaceMarines/BlessedChampionsDescription" value="Grants heroes ability to immediately come back to life after dying." />
+    <entry name="ChaosSpaceMarines/BlessedChampionsFlavor" value="While many warbands of Heretic Astartes have grown to rival entire Chapters of loyalist Space Marines in size, most began as a core of ruthless followers led by their powerful champion. Such individuals draw more and more warriors to their service as their influence expands, their dread reputation for destruction becoming more storied as their warband grows in notoriety and power." />
+    <entry name="ChaosSpaceMarines/StimulatedByPain" value="Stimulated By Pain" />
+    <entry name="ChaosSpaceMarines/StimulatedByPainDescription" value="Increases armour, hit points of heroes. Increases Bloated healing rate." />
+    <entry name="ChaosSpaceMarines/StimulatedByPainFlavor" value="The warlords of the Emperor’s Children thrive on pain. The more grievous their injuries, the deadlier they become." />
+    <entry name="ChaosSpaceMarines/SmokeLauncher" value="Hammer Of Wrath / Smoke Launcher" />
+    <entry name="ChaosSpaceMarines/SmokeLauncherDescription" value="Grants Daemon Princes, Defilers, Forgefiends, Helbrutes, Maulerfiends, Venomcrawlers and Warp Talons the ability to perform more devastating attacks. Grants Chaos Rhinos, Defilers and Chaos Land Raiders the ability to launch a smoke screen that increases the ranged damage reduction. Increases allied Chaos Space Marine vehicles regeneration." />
+    <entry name="ChaosSpaceMarines/WarpflameGargoylesDescription" value="Grants damage over time to Chaos Rhino, Venomcrawler, Defiler and Chaos Land Raider weapons and the accuracy debuff from attacks." />
+    <entry name="ChaosSpaceMarines/BelieversOfTheTrueFaith" value="Believers Of The True Faith" />
+    <entry name="ChaosSpaceMarines/BelieversOfTheTrueFaithDescription" value="Increases Chaos Cultists attacks and hit points. Chaos Cultists are free to build and have no upkeep." />
+    <entry name="ChaosSpaceMarines/BelieversOfTheTrueFaithFlavor" value="Though each selfishly sees faith as an easy route to power in on uncaring galaxy, these mortals are zealous worshippers brimming with hate." />
+    <entry name="ChaosSpaceMarines/DarkDiscipleDescription" value="Increases resource cost of Chaos Cultists and grants ability to increase the invulnerable damage reduction of adjacent allied Chaos units." />
 
     <entry name="Eldar/Autarch" value="Autarch" />
     <entry name="Eldar/AutarchDescription" value="Psyker hero unit that leads the Aeldari charge." />
@@ -90,35 +90,35 @@
 
     <entry name="Orks/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
     <entry name="Orks/RedPaintJobDescription" value="Increases the damage of Warbuggies, Megatrakk Scrapjets and Battlewagons." />
-    <entry name="Orks/GrotRiggers" value="Grot Riggers / Hammer Of Wrath"/>
-    <entry name="Orks/GrotRiggersDescription" value="Grants Warbuggies, Killa Kans, Battlewagons, Gorkanauts and Kill Burstas passive hitpoint regeneration. Grants Deffkoptas, Gargantuan Squiggoths, Gorkanauts, Killa Kans and Warbikers the ability to perform more devastating attacks."/>
-    <entry name="Orks/GrotRiggersFlavor" value="<string name='Traits/GrotRiggersFlavor'/>"/>
-    <entry name="Orks/MegaWaaagh" value="Megawaaagh!"/>
-    <entry name="Orks/MegaWaaaghDescription" value="Increases Waaagh! effect."/>
-    <entry name="Orks/CreatePermanentOrkoidFungusOnDeathDescription" value="Causes units to create permanent orkoid fungus when they die. Grants feel no pain damage reduction to Ork units on orkoid fungus."/>
-    <entry name="Orks/BonusBeastsProductionDescription" value="Increases the production output of Runtherd Groundz. Increases cities the food and the ore output."/>
+    <entry name="Orks/GrotRiggers" value="Grot Riggers / Hammer Of Wrath" />
+    <entry name="Orks/GrotRiggersDescription" value="Grants Warbuggies, Killa Kans, Battlewagons, Gorkanauts and Kill Burstas passive hitpoint regeneration. Grants Deffkoptas, Gargantuan Squiggoths, Gorkanauts, Killa Kans and Warbikers the ability to perform more devastating attacks." />
+    <entry name="Orks/GrotRiggersFlavor" value="<string name='Traits/GrotRiggersFlavor'/>" />
+    <entry name="Orks/MegaWaaagh" value="Megawaaagh!" />
+    <entry name="Orks/MegaWaaaghDescription" value="Increases Waaagh! effect." />
+    <entry name="Orks/CreatePermanentOrkoidFungusOnDeathDescription" value="Causes units to create permanent orkoid fungus when they die. Grants feel no pain damage reduction to Ork units on orkoid fungus." />
+    <entry name="Orks/BonusBeastsProductionDescription" value="Increases the production output of Runtherd Groundz. Increases cities the food and the ore output." />
 
     <entry name="SistersOfBattle/Canoness" value="Canoness" />
     <entry name="SistersOfBattle/CanonessDescription" value="Witch-seeking powerful hero unit that leads infantry into battle." />
     <entry name="SistersOfBattle/CanonessFlavor" value="A Canoness is the overall commander of one of the Orders Militant, a shining example of purity and dedication of purpose. Each is a veteran warrior of many hundreds of battles who has risen to her position through a combination of strong leadership, shrewd tactical genius and sheer overarching faith in the Emperor. When the Ecclesiarchy sounds the call to arms, a Canoness boldly leads her warriors into the fray, refusing to take one step backwards whilst her enemies still draw breath." />
     <entry name="SistersOfBattle/CityTier2Description" value="Increases the tile acquisition radius." />
     <entry name="SistersOfBattle/CityTier3Description" value="Increases the tile acquisition radius." />
-    <entry name="SistersOfBattle/MeltaBombDescription" value="Grants Canonesses, Dialogus, Dominions, Retributors and Zephyrims the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications."/>
-    <entry name="SistersOfBattle/DozerBlade" value="Dozer Blade / Smoke Launcher"/>
-    <entry name="SistersOfBattle/DozerBladeDescription" value="Reduces the movement penalty for Immolators, Exorcists and Castigators in forests and imperial ruins. Grants ground vehicles the ability to launch a smoke screen that increases the ranged damage reduction."/>
-    <entry name="SistersOfBattle/DozerBladeFlavor" value="<string name='Traits/DozerBladeFlavor'/>"/>
-    <entry name="SistersOfBattle/MinistorumIndoctrination" value="Ministorum Indoctrination / Universal Catechism"/>
-    <entry name="SistersOfBattle/MinistorumIndoctrinationDescription" value="Grants Martyr Spirit to Lightning Fighters, Avengers Strike Fighters and Cerastus Knight-Lancers. Grants Shield Of Faith to Lightning Fighters, Avengers Strike Fighters and Cerastus Knight-Lancers."/>
-    <entry name="SistersOfBattle/ValourOfSaints" value="Valour of Saints"/>
-    <entry name="SistersOfBattle/ValourOfSaintsDescription" value="Adepta Sororitas units cannot be shaken or broken in cities. Enemy units are broken in Adepta Sororitas cities."/>
-    <entry name="SistersOfBattle/ValourOfSaintsFlavor" value="Those who stand unflinching against the horrors of the galaxy inspire their comrades to feats of divine heroism."/>
-    <entry name="SistersOfBattle/DesperateForRedemption" value="Desperate For Redemption"/>
-    <entry name="SistersOfBattle/DesperateForRedemptionDescription" value="Adepta Sororitas infantry units resurrect on death with 1 hit point remaining."/>
-    <entry name="SistersOfBattle/DesperateForRedemptionFlavor" value="Even the most grievous wound cannot stop a Sister Repentia in her quest to earn redemption in the eyes of the Emperor."/>
-    <entry name="SistersOfBattle/VowOfTheMilitantOrderDescription" value="Units keep their Shield Of Faith if they are broken. Increases damage reduction of Shield Of Faith."/>
-    <entry name="SistersOfBattle/FaithAndFury" value="<string name='Traits/SistersOfBattle/FaithAndFury'/>"/>
-    <entry name="SistersOfBattle/FaithAndFuryDescription" value="<string name='Traits/SistersOfBattle/FaithAndFuryDescription'/>"/>
-    <entry name="SistersOfBattle/FaithAndFuryFlavor" value="<string name='Traits/SistersOfBattle/FaithAndFuryFlavor'/>"/>
+    <entry name="SistersOfBattle/MeltaBombDescription" value="Grants Canonesses, Dialogus, Dominions, Retributors and Zephyrims the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications." />
+    <entry name="SistersOfBattle/DozerBlade" value="Dozer Blade / Smoke Launcher" />
+    <entry name="SistersOfBattle/DozerBladeDescription" value="Reduces the movement penalty for Immolators, Exorcists and Castigators in forests and imperial ruins. Grants ground vehicles the ability to launch a smoke screen that increases the ranged damage reduction." />
+    <entry name="SistersOfBattle/DozerBladeFlavor" value="<string name='Traits/DozerBladeFlavor'/>" />
+    <entry name="SistersOfBattle/MinistorumIndoctrination" value="Ministorum Indoctrination / Universal Catechism" />
+    <entry name="SistersOfBattle/MinistorumIndoctrinationDescription" value="Grants Martyr Spirit to Lightning Fighters, Avengers Strike Fighters and Cerastus Knight-Lancers. Grants Shield Of Faith to Lightning Fighters, Avengers Strike Fighters and Cerastus Knight-Lancers." />
+    <entry name="SistersOfBattle/ValourOfSaints" value="Valour of Saints" />
+    <entry name="SistersOfBattle/ValourOfSaintsDescription" value="Adepta Sororitas units cannot be shaken or broken in cities. Enemy units are broken in Adepta Sororitas cities." />
+    <entry name="SistersOfBattle/ValourOfSaintsFlavor" value="Those who stand unflinching against the horrors of the galaxy inspire their comrades to feats of divine heroism." />
+    <entry name="SistersOfBattle/DesperateForRedemption" value="Desperate For Redemption" />
+    <entry name="SistersOfBattle/DesperateForRedemptionDescription" value="Adepta Sororitas infantry units resurrect on death with 1 hit point remaining." />
+    <entry name="SistersOfBattle/DesperateForRedemptionFlavor" value="Even the most grievous wound cannot stop a Sister Repentia in her quest to earn redemption in the eyes of the Emperor." />
+    <entry name="SistersOfBattle/VowOfTheMilitantOrderDescription" value="Units keep their Shield Of Faith if they are broken. Increases damage reduction of Shield Of Faith." />
+    <entry name="SistersOfBattle/FaithAndFury" value="<string name='Traits/SistersOfBattle/FaithAndFury'/>" />
+    <entry name="SistersOfBattle/FaithAndFuryDescription" value="<string name='Traits/SistersOfBattle/FaithAndFuryDescription'/>" />
+    <entry name="SistersOfBattle/FaithAndFuryFlavor" value="<string name='Traits/SistersOfBattle/FaithAndFuryFlavor'/>" />
 
     <entry name="SpaceMarines/BlastDamageDescription" value="Increases the armour penetration of grenade, missile, las and blast weapons." />
     <entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />

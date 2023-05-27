@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <item>
     <actions>
-        <laurelsOfCommand cooldown="5"
-                          consumedActionPoints="0"
-                          consumedMovement="0"
-                          icon="Items/LaurelsOfCommand"
-                          requiredActionPoints="0">
+        <laurelsOfCommand cooldown="5" consumedActionPoints="0" consumedMovement="0" icon="Items/LaurelsOfCommand" requiredActionPoints="0">
             <model>
-                <action sound="Actions/MysticBuff"/>
+                <action sound="Actions/MysticBuff" />
             </model>
             <beginTargets>
                 <selfTarget>
@@ -16,7 +12,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <morale add="3"/>
+                                        <morale add="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -29,11 +25,11 @@
     <modifiers>
         <modifier>
             <effects>
-                <influenceCost base="80"/>
+                <influenceCost base="80" />
             </effects>
         </modifier>
     </modifiers>
     <traits>
-        <trait name="Uncommon"/>
+        <trait name="Uncommon" />
     </traits>
 </item>

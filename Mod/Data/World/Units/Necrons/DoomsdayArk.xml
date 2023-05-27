@@ -1,105 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/Necrons/DoomsdayArk"
-              material="Units/Necrons/DoomsdayArk"
-              idleAnimation="Units/Necrons/DoomsdayArkIdle"
-              idleAnimationCount="3"
-              idleContinuously="1"
-              scale="0.8 0.8 0.8"
-              explosionsBone="Hull"/>
+        <unit mesh="Units/Necrons/DoomsdayArk" material="Units/Necrons/DoomsdayArk" idleAnimation="Units/Necrons/DoomsdayArkIdle" idleAnimationCount="3" idleContinuously="1" scale="0.8 0.8 0.8" explosionsBone="Hull" />
     </model>
     <weapons>
         <weapon name="DoomsdayCannonHighPower">
             <model>
-                <projectileWeapon muzzleBone=".DoomsdayCannonMuzzle"/>
+                <projectileWeapon muzzleBone=".DoomsdayCannonMuzzle" />
             </model>
         </weapon>
         <weapon name="DoomsdayCannonLowPower">
             <model>
-                <projectileWeapon muzzleBone=".DoomsdayCannonMuzzle"/>
+                <projectileWeapon muzzleBone=".DoomsdayCannonMuzzle" />
             </model>
         </weapon>
         <weapon name="GaussFlayerArray" slotName="GaussFlayerArray" count="2" enabled="0">
             <model>
-                <projectileWeapon muzzleBone=".GaussFlayerArrayMuzzle"
-                    muzzleCount="10"
-                    effectFaceWeight="0"/>
+                <projectileWeapon muzzleBone=".GaussFlayerArrayMuzzle" muzzleCount="10" effectFaceWeight="0" />
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="7"/> <!-- %armor base armor=11/11/11 -->
-                <energyCost base="80.0"/> <!-- %energyCost base tier=8 factor=1 -->
-                <hitpointsMax base="36.0"/>
-                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=11/11/11 wounds=4 -->
-                <moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->
-                <movementMax base="4"/>
-                <oreUpkeep base="4.0"/> <!-- %oreUpkeep base tier=8 factor=1 -->
-                <productionCost base="48.0"/> <!-- %productionCost base tier=8 factor=1 -->
-                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
-                <cargoSlots base="2"/> <!-- %cargoSlots base capacity=6 -->
+                <armor base="7" /> <!-- %armor base armor=11/11/11 -->
+                <energyCost base="80.0" /> <!-- %energyCost base tier=8 factor=1 -->
+                <hitpointsMax base="36.0" />
+                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base armor=11/11/11 wounds=4 -->
+                <moraleMax base="12" /> <!-- %moraleMax base leadership=10 -->
+                <movementMax base="4" />
+                <oreUpkeep base="4.0" /> <!-- %oreUpkeep base tier=8 factor=1 -->
+                <productionCost base="48.0" /> <!-- %productionCost base tier=8 factor=1 -->
+                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <cargoSlots base="2" /> <!-- %cargoSlots base capacity=6 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="1.0"/>
+                <increaseVehiclesScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/Necrons/DoomsdayArkAttack"
-                        beginFire="1.0"
-                        endFire="2.25"/>
+                <action animation="Units/Necrons/DoomsdayArkAttack" beginFire="1.0" endFire="2.25" />
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Necrons/DoomsdayArkDie"
-                        sound="Units/LargeVehicleDie"
-                        soundCount="3"
-                        soundDelay="0"/>
+                <action animation="Units/Necrons/DoomsdayArkDie" sound="Units/LargeVehicleDie" soundCount="3" soundDelay="0" />
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0"/>
+                <action animationSpeed="1.0" />
             </model>
         </idle>
         <move>
             <model>
-                <action sound="Units/Necrons/DoomsdayArkMove"
-                        soundCount="2"/>
+                <action sound="Units/Necrons/DoomsdayArkMove" soundCount="2" />
             </model>
         </move>
-        <necrodermisRepair consumedActionPoints="0" consumedMovement="0"
-                           cooldown="1"
-                           name="Necrons/NecrodermisRepair"
-                           requiredActionPoints="0">
+        <necrodermisRepair consumedActionPoints="0" consumedMovement="0" cooldown="1" name="Necrons/NecrodermisRepair" requiredActionPoints="0">
             <model>
-                <action sound="Actions/Heal"/>
+                <action sound="Actions/Heal" />
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="60"/>
+                        <influenceCost base="60" />
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Necrons/NecrodermisRepair2">
                     <effects>
-                        <cooldown max="0"/>
+                        <cooldown max="0" />
                     </effects>
                 </modifier>
             </modifiers>
             <conditions>
                 <unit>
-                    <damaged/>
+                    <damaged />
                 </unit>
             </conditions>
             <beginTargets>
@@ -109,12 +92,12 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints add="6"/>
+                                        <hitpoints add="6" />
                                     </effects>
                                 </modifier>
                                 <modifier requiredUpgrade="Necrons/NecrodermisRepair2">
                                     <effects>
-                                        <hitpoints add="2"/>
+                                        <hitpoints add="2" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -123,23 +106,18 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <useWeapon cooldown="1"
-            requiredActionPoints="0"
-            consumedActionPoints="0"
-            weaponSlotName="GaussFlayerArray">
+        <useWeapon cooldown="1" requiredActionPoints="0" consumedActionPoints="0" weaponSlotName="GaussFlayerArray">
             <model>
-                <action	animation="Units/Necrons/DoomsdayArkAttack2"
-                    beginFire="1.0"
-                    endFire="2.33"/>
+                <action animation="Units/Necrons/DoomsdayArkAttack2" beginFire="1.0" endFire="2.33" />
             </model>
         </useWeapon>
         <jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
             <model>
-                <action sound="Actions/ChargeUp"/>
+                <action sound="Actions/ChargeUp" />
             </model>
             <conditions>
                 <unit>
-                    <notAttackedThisTurn/>
+                    <notAttackedThisTurn />
                 </unit>
             </conditions>
             <beginTargets>
@@ -149,7 +127,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Jink"/>
+                                        <addTrait duration="1" name="Jink" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -160,13 +138,13 @@
         </jink>
     </actions>
     <traits>
-        <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus"/>
-        <trait name="ExtraVehicleArmour" requiredUpgrade="Necrons/ExtraVehicleArmour"/>
-        <trait name="Necrons/LivingMetalDoomsdayArk"/>
-        <trait name="OpenTopped"/>
-        <trait name="Skimmer"/>
-        <trait name="Vehicle"/>
-        <trait name="Necrons/QuantumShielding" requiredUpgrade="Necrons/QuantumShielding"/>
-        <trait name="Transport"/>
+        <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
+        <trait name="ExtraVehicleArmour" requiredUpgrade="Necrons/ExtraVehicleArmour" />
+        <trait name="Necrons/LivingMetalDoomsdayArk" />
+        <trait name="OpenTopped" />
+        <trait name="Skimmer" />
+        <trait name="Vehicle" />
+        <trait name="Necrons/QuantumShielding" requiredUpgrade="Necrons/QuantumShielding" />
+        <trait name="Transport" />
     </traits>
 </unit>

@@ -4,15 +4,15 @@
         <modifier>
             <conditions>
                 <unit>
-                    <allied/>
-                    <faction name="SpaceMarines"/>
-                    <noTrait name="Fortification"/>
-                    <noTrait name="MonstrousCreature"/>
-                    <noTrait name="Vehicle"/>
+                    <allied />
+                    <faction name="SpaceMarines" />
+                    <noTrait name="Fortification" />
+                    <noTrait name="MonstrousCreature" />
+                    <noTrait name="Vehicle" />
                 </unit>
             </conditions>
             <effects>
-                <meleeAttacks mulMin="0.1" mulMax="0.3"/>
+                <meleeAttacks mulMin="0.1" mulMax="0.3" />
             </effects>
         </modifier>
     </modifiers>

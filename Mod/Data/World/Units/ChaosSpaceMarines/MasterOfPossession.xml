@@ -1,98 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement3">
     <model>
-        <unit mesh="Units/ChaosSpaceMarines/MasterOfPossession"
-              material="Units/ChaosSpaceMarines/MasterOfPossession"
-              idleAnimation="Units/ChaosSpaceMarines/MasterOfPossessionIdle"
-              idleAnimationCount="3"
-              idleContinuously="1"
-              normalWeight="0.1"
-              scale="0.7 0.7 0.7"
-              bloodBone="Bone001"
-              walker="1"/>
+        <unit mesh="Units/ChaosSpaceMarines/MasterOfPossession" material="Units/ChaosSpaceMarines/MasterOfPossession" idleAnimation="Units/ChaosSpaceMarines/MasterOfPossessionIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.7 0.7 0.7" bloodBone="Bone001" walker="1" />
     </model>
     <weapons>
         <weapon name="ForceStave">
             <model>
-                <powerWeapon effectBlueprint="Effects/ChaosForceWeapon"
-                             effectBoundingVolume="Staff"
-                             mesh="Weapons/ChaosSpaceMarines/MasterOfPossessionStick"
-                             material="Units/ChaosSpaceMarines/MasterOfPossession"
-                             bone="Bone003(mirrored)"
-                             fireInterval="1"/>
+                <powerWeapon effectBlueprint="Effects/ChaosForceWeapon" effectBoundingVolume="Staff" mesh="Weapons/ChaosSpaceMarines/MasterOfPossessionStick" material="Units/ChaosSpaceMarines/MasterOfPossession" bone="Bone003(mirrored)" fireInterval="1" />
             </model>
         </weapon>
         <weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
             <model>
-                <grenadeWeapon muzzleBone="Bone003(mirrored)"/>
+                <grenadeWeapon muzzleBone="Bone003(mirrored)" />
             </model>
         </weapon>
         <weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
             <model>
-                <grenadeWeapon muzzleBone="Bone003(mirrored)"/>
+                <grenadeWeapon muzzleBone="Bone003(mirrored)" />
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8"/> <!-- %armor base armor=3+ -->
-                <hitpointsMax base="9.0"/>
-                <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=4 wounds=3 -->
-                <influenceUpkeep base="6.0"/> <!-- %influenceUpkeep base tier=7 factor=2 -->
-                <influenceCost base="120.0"/> <!-- %influenceCost base tier=7 factor=2 -->
-                <itemSlots base="6"/>
-                <levelMax base="9"/>
-                <meleeAccuracy base="10"/> <!-- %meleeAccuracy base weaponSkill=5 -->
-                <meleeAttacks base="2"/>
-                <strengthDamage base="1.5"/> <!-- %strengthDamage base strength=4 -->
+                <armor base="8" /> <!-- %armor base armor=3+ -->
+                <hitpointsMax base="9.0" />
+                <duplicateTypeCost mul="2.0" /> <!-- %hitpointsMax base toughness=4 wounds=3 -->
+                <influenceUpkeep base="6.0" /> <!-- %influenceUpkeep base tier=7 factor=2 -->
+                <influenceCost base="120.0" /> <!-- %influenceCost base tier=7 factor=2 -->
+                <itemSlots base="6" />
+                <levelMax base="9" />
+                <meleeAccuracy base="10" /> <!-- %meleeAccuracy base weaponSkill=5 -->
+                <meleeAttacks base="2" />
+                <strengthDamage base="1.5" /> <!-- %strengthDamage base strength=4 -->
                 <!-- <meleeInitiative base="5"/> -->
-                <moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
-                <movementMax base="3"/>
-                <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
-                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
-                <energyUpkeep base="3.0"/> <!-- %energyUpkeep base tier=7 factor=1 -->
-                <energyCost base="30.0"/> <!-- %energyCost base tier=7 factor=0.5 -->
-                <foodCost base="30.0"/> <!-- %foodCost base tier=7 factor=0.5 -->
+                <moraleMax base="12" /> <!-- %moraleMax base leadership=9 -->
+                <movementMax base="3" />
+                <productionCost base="42.0" /> <!-- %productionCost base tier=7 factor=1 -->
+                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <energyUpkeep base="3.0" /> <!-- %energyUpkeep base tier=7 factor=1 -->
+                <energyCost base="30.0" /> <!-- %energyCost base tier=7 factor=0.5 -->
+                <foodCost base="30.0" /> <!-- %foodCost base tier=7 factor=0.5 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseHeroesScore base="1.0"/>
+                <increaseHeroesScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action chargeAnimation="Units/ChaosSpaceMarines/MasterOfPossessionCharge"
-                        meleeAnimation="Units/ChaosSpaceMarines/MasterOfPossessionMelee"
-                        meleeBeginSwing="0.17"
-                        meleeEndSwing="0.33"/>
+                <action chargeAnimation="Units/ChaosSpaceMarines/MasterOfPossessionCharge" meleeAnimation="Units/ChaosSpaceMarines/MasterOfPossessionMelee" meleeBeginSwing="0.17" meleeEndSwing="0.33" />
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/ChaosSpaceMarines/MasterOfPossessionDie"
-                        sound="Units/MediumArmoredDie"
-                        soundCount="4"
-                        soundDelay="0.2"
-                        voiceSound="Units/ChaosSpaceMarines/MasterOfPossessionDie"
-                        voiceSoundCount="1"/>
+                <action animation="Units/ChaosSpaceMarines/MasterOfPossessionDie" sound="Units/MediumArmoredDie" soundCount="4" soundDelay="0.2" voiceSound="Units/ChaosSpaceMarines/MasterOfPossessionDie" voiceSoundCount="1" />
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0"/>
+                <action animationSpeed="1.0" />
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/ChaosSpaceMarines/MasterOfPossessionMove"
-                        sound="Units/SpaceMarines/InfantryMove"
-                        soundCount="4"/>
+                <action animation="Units/ChaosSpaceMarines/MasterOfPossessionMove" sound="Units/SpaceMarines/InfantryMove" soundCount="4" />
             </model>
         </move>
         <auraOfFear passive="1">
@@ -103,7 +80,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Fear"/>
+                                        <addTrait name="Fear" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -114,22 +91,17 @@
         </auraOfFear>
 
 
-        <boonOfMutation cooldownMin="4"
-                        cooldownMax="2"
-                        name="ChaosSpaceMarines/BoonOfMutation"
-                        rank="-1"
-                        rankMax="2">
+        <boonOfMutation cooldownMin="4" cooldownMax="2" name="ChaosSpaceMarines/BoonOfMutation" rank="-1" rankMax="2">
             <model>
-                <action animation="Units/ChaosSpaceMarines/MasterOfPossessionGrenade"
-                        sound="Actions/ChaosBuff"/>
+                <action animation="Units/ChaosSpaceMarines/MasterOfPossessionGrenade" sound="Actions/ChaosBuff" />
             </model>
             <beginTargets>
                 <target rangeMax="1">
                     <conditions>
                         <unit>
-                            <allied/>
-                            <trait name="ChaosSpaceMarines/ChampionOfChaos"/>
-                            <missingBoonOfChaos/>
+                            <allied />
+                            <trait name="ChaosSpaceMarines/ChampionOfChaos" />
+                            <missingBoonOfChaos />
                         </unit>
                     </conditions>
                     <areas>
@@ -137,7 +109,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addRandomBoonOfChaos/>
+                                        <addRandomBoonOfChaos />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -146,17 +118,9 @@
                 </target>
             </beginTargets>
         </boonOfMutation>
-        <infernalPower cooldown="3"
-                       levelUpPriority="0.1"
-                       name="ChaosSpaceMarines/InfernalPower"
-                       rank="-1"
-                       rankMax="2"
-                       requiredActionPoints="0"
-                       consumedActionPoints="0"
-                       consumedMovement="0">
+        <infernalPower cooldown="3" levelUpPriority="0.1" name="ChaosSpaceMarines/InfernalPower" rank="-1" rankMax="2" requiredActionPoints="0" consumedActionPoints="0" consumedMovement="0">
             <model>
-                <action animation="Units/ChaosSpaceMarines/MasterOfPossessionAbility"
-                        sound="Actions/ChaosEliteBuff"/>
+                <action animation="Units/ChaosSpaceMarines/MasterOfPossessionAbility" sound="Actions/ChaosEliteBuff" />
             </model>
             <beginTargets>
                 <selfTarget>
@@ -166,11 +130,11 @@
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <allied/>
+                                            <allied />
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait duration="1" name="ChaosSpaceMarines/InfernalPower"/>
+                                        <addTrait duration="1" name="ChaosSpaceMarines/InfernalPower" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -179,12 +143,7 @@
                 </selfTarget>
             </beginTargets>
         </infernalPower>
-        <genericUnitAbility cooldownMin="5" cooldownMax="3"
-                            disableable="1"
-                            name="ChaosSpaceMarines/Possession"
-                            passive="1"
-                            rank="-1"
-                            rankMax="2">
+        <genericUnitAbility cooldownMin="5" cooldownMax="3" disableable="1" name="ChaosSpaceMarines/Possession" passive="1" rank="-1" rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -192,7 +151,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="ChaosSpaceMarines/Possession"/>
+                                        <addTrait name="ChaosSpaceMarines/Possession" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -201,25 +160,19 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <incursion cooldown="5"
-                   elite="1"
-                   levelUpPriority="1"
-                   name="ChaosSpaceMarines/Incursion"
-                   rank="-1"
-                   rankMax="0">
+        <incursion cooldown="5" elite="1" levelUpPriority="1" name="ChaosSpaceMarines/Incursion" rank="-1" rankMax="0">
             <model>
-                <action animation="Units/ChaosSpaceMarines/MasterOfPossessionAbility"
-                        sound="Actions/ChaosEliteDebuff"/>
+                <action animation="Units/ChaosSpaceMarines/MasterOfPossessionAbility" sound="Actions/ChaosEliteDebuff" />
             </model>
             <modifiers>
                 <modifier visible="0">
                     <conditions>
                         <unit>
-                            <trait name="ChaosSpaceMarines/ReservoirOfDaemonicEnergy"/>
+                            <trait name="ChaosSpaceMarines/ReservoirOfDaemonicEnergy" />
                         </unit>
                     </conditions>
                     <effects>
-                        <cooldown add="-2"/>
+                        <cooldown add="-2" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -227,9 +180,9 @@
                 <target rangeMax="1">
                     <conditions>
                         <tile>
-                            <land/>
-                            <noUnit/>
-                            <noFeature name="GravityWaves"/>
+                            <land />
+                            <noUnit />
+                            <noFeature name="GravityWaves" />
                         </tile>
                     </conditions>
                     <areas>
@@ -237,8 +190,8 @@
                             <modifiers>
                                 <modifier>
                                     <randomEffects count="1">
-                                        <addUnit name="ChaosSpaceMarines/Maulerfiend" consumedAction="0" consumedMovement="0"/>
-                                        <addUnit name="ChaosSpaceMarines/WarpTalon" consumedAction="0" consumedMovement="0"/>
+                                        <addUnit name="ChaosSpaceMarines/Maulerfiend" consumedAction="0" consumedMovement="0" />
+                                        <addUnit name="ChaosSpaceMarines/WarpTalon" consumedAction="0" consumedMovement="0" />
                                     </randomEffects>
                                 </modifier>
                             </modifiers>
@@ -247,7 +200,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="3" name="Summon"/>
+                                        <addTrait duration="3" name="Summon" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -256,14 +209,9 @@
                 </target>
             </beginTargets>
         </incursion>
-        <genericUnitAbility beginOnDisappear="1"
-            cooldown="10"
-            name="ChaosSpaceMarines/BlessedChampions"
-            requiredUpgrade="ChaosSpaceMarines/BlessedChampions"
-            icon="Buildings/ChaosSpaceMarines/Heroes"
-            passive="1">
+        <genericUnitAbility beginOnDisappear="1" cooldown="10" name="ChaosSpaceMarines/BlessedChampions" requiredUpgrade="ChaosSpaceMarines/BlessedChampions" icon="Buildings/ChaosSpaceMarines/Heroes" passive="1">
             <model>
-                <action sound="Actions/ChaosBuff"/>
+                <action sound="Actions/ChaosBuff" />
             </model>
             <beginTargets>
                 <selfTarget>
@@ -272,7 +220,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="ChaosSpaceMarines/BlessedChampion"/>
+                                        <addTrait name="ChaosSpaceMarines/BlessedChampion" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -280,11 +228,11 @@
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <destroyed/>
+                                            <destroyed />
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <hitpointsFactorFromMax add="1.0"/>
+                                        <hitpointsFactorFromMax add="1.0" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -293,18 +241,18 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <levelUp/>
-        <shop/>
+        <levelUp />
+        <shop />
     </actions>
     <traits>
-        <trait name="ChaosSpaceMarines/ChampionOfChaos"/>
-        <trait name="ChaosSpaceMarines/BloatedWithLifesteal" requiredUpgrade="ChaosSpaceMarines/BloatedWithLifesteal"/>
-        <trait name="Daemon"/>
-        <trait name="ExtraInfantryArmour" requiredUpgrade="ChaosSpaceMarines/ExtraInfantryArmour"/>
-        <trait name="Hero"/>
-        <trait name="SupportHero"/>
-        <trait name="Psyker"/>
-        <trait name="ChaosSpaceMarines/VeteransOfTheLongWar" requiredUpgrade="ChaosSpaceMarines/VeteransOfTheLongWar"/>
-        <trait name="ChaosSpaceMarines/StimulatedByPain" requiredUpgrade="ChaosSpaceMarines/StimulatedByPain"/>
+        <trait name="ChaosSpaceMarines/ChampionOfChaos" />
+        <trait name="ChaosSpaceMarines/BloatedWithLifesteal" requiredUpgrade="ChaosSpaceMarines/BloatedWithLifesteal" />
+        <trait name="Daemon" />
+        <trait name="ExtraInfantryArmour" requiredUpgrade="ChaosSpaceMarines/ExtraInfantryArmour" />
+        <trait name="Hero" />
+        <trait name="SupportHero" />
+        <trait name="Psyker" />
+        <trait name="ChaosSpaceMarines/VeteransOfTheLongWar" requiredUpgrade="ChaosSpaceMarines/VeteransOfTheLongWar" />
+        <trait name="ChaosSpaceMarines/StimulatedByPain" requiredUpgrade="ChaosSpaceMarines/StimulatedByPain" />
     </traits>
 </unit>

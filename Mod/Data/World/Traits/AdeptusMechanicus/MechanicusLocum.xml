@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" 
-		category="Buff" 
-		icon="Actions/AdeptusMechanicus/MechanicusLocum" 
-		rankMax="2">
-	<modifiers>
-		<modifier>
-			<effects>
-				<influence add="9"/>
-				<research add="9"/>
-			</effects>
-		</modifier>
-	</modifiers>
+<trait alwaysVisible="1" category="Buff" icon="Actions/AdeptusMechanicus/MechanicusLocum" rankMax="2">
+    <modifiers>
+        <modifier>
+            <effects>
+                <influence add="9" />
+                <research add="9" />
+            </effects>
+        </modifier>
+    </modifiers>
 </trait>

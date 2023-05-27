@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <armorPenetration addMin="1" addMax="3"/>
+                <armorPenetration addMin="1" addMax="3" />
             </effects>
         </modifier>
     </modifiers>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait visibilityCategory="Building">
-	<modifiers>
-		<modifier>
-			<conditions>
-				<building>
-					<ore greater="0"/>
-				</building>
-			</conditions>
-			<effects>
-				<ore mul="0.17"/>
-			</effects>
-		</modifier>
-		<modifier>
-			<conditions>
-				<building>
-					<food greater="0"/>
-				</building>
-			</conditions>
-			<effects>
-				<food mul="0.17"/>
-			</effects>
-		</modifier>
-	</modifiers>
+    <modifiers>
+        <modifier>
+            <conditions>
+                <building>
+                    <ore greater="0" />
+                </building>
+            </conditions>
+            <effects>
+                <ore mul="0.17" />
+            </effects>
+        </modifier>
+        <modifier>
+            <conditions>
+                <building>
+                    <food greater="0" />
+                </building>
+            </conditions>
+            <effects>
+                <food mul="0.17" />
+            </effects>
+        </modifier>
+    </modifiers>
 </trait>

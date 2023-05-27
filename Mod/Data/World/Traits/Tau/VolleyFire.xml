@@ -4,11 +4,11 @@
         <modifier>
             <conditions>
                 <unit>
-                    <overwatching/>
+                    <overwatching />
                 </unit>
             </conditions>
             <effects>
-                <rangedAttacks mulMin="0.15" mulMax="0.45"/>
+                <rangedAttacks mulMin="0.15" mulMax="0.45" />
             </effects>
         </modifier>
     </modifiers>

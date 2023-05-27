@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade position="9" visible="0">
     <requiredUpgrades>
-        <upgrade name="Necrons/DimensionalCorridor"/>
+        <upgrade name="Necrons/DimensionalCorridor" />
     </requiredUpgrades>
 </upgrade>

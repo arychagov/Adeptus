@@ -4,11 +4,11 @@
         <modifier>
             <conditions>
                 <unit>
-                    <enemy/>
+                    <enemy />
                 </unit>
             </conditions>
             <effects>
-                <rangedAttacks mul="-0.17"/>
+                <rangedAttacks mul="-0.17" />
             </effects>
         </modifier>
     </modifiers>

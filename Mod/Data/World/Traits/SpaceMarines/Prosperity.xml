@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <growth mul="0.2"/>
+                <growth mul="0.2" />
             </effects>
         </modifier>
     </modifiers>

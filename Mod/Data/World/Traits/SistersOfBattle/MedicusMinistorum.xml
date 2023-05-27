@@ -4,14 +4,14 @@
         <modifier>
             <conditions>
                 <unit>
-                    <allied/>
-                    <noTrait name="Vehicle"/>
-                    <faction name="SistersOfBattle"/>
+                    <allied />
+                    <noTrait name="Vehicle" />
+                    <faction name="SistersOfBattle" />
 
                 </unit>
             </conditions>
             <effects>
-                <feelNoPainDamageReduction add="0.17"/>
+                <feelNoPainDamageReduction add="0.17" />
             </effects>
         </modifier>
     </modifiers>

@@ -3,7 +3,7 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseLoyaltyScore base="1.0"/>
+                <increaseLoyaltyScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>

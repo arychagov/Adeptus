@@ -4,12 +4,12 @@
         <modifier>
             <conditions>
                 <unit match="Any">
-                    <type name="SpaceMarines/KillTeamEliminators"/>
-                    <type name="SpaceMarines/DevastatorCenturion"/>
+                    <type name="SpaceMarines/KillTeamEliminators" />
+                    <type name="SpaceMarines/DevastatorCenturion" />
                 </unit>
             </conditions>
             <effects>
-                <accuracy add="2"/>
+                <accuracy add="2" />
             </effects>
         </modifier>
     </modifiers>

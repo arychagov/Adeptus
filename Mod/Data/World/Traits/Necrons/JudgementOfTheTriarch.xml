@@ -4,11 +4,11 @@
         <modifier>
             <conditions>
                 <unit>
-                    <enemy/>
+                    <enemy />
                 </unit>
             </conditions>
             <effects>
-                <meleeAttacks mul="-0.25"/>
+                <meleeAttacks mul="-0.25" />
             </effects>
         </modifier>
     </modifiers>

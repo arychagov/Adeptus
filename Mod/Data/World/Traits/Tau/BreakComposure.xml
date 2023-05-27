@@ -4,12 +4,12 @@
         <modifier>
             <conditions>
                 <unit>
-                    <allied/>
-                    <trait name="Tau/PreciseShooter"/>
+                    <allied />
+                    <trait name="Tau/PreciseShooter" />
                 </unit>
             </conditions>
             <effects>
-                <rangedAttacks mul="0.15"/>
+                <rangedAttacks mul="0.15" />
             </effects>
         </modifier>
     </modifiers>

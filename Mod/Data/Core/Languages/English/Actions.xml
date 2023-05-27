@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
     <entry name="AdeptusMechanicus/AggressorImperativeDescription" value="Increases the movement, but decreases the accuracy of Doctrina Imperatives units. Cost scales with the amount of affected units (up to 10)." />
-    <entry name="AdeptusMechanicus/CommandUplinkDescription" value="Adeptus Mechanicus infantry units cannot be shaken or broken."/>
+    <entry name="AdeptusMechanicus/CommandUplinkDescription" value="Adeptus Mechanicus infantry units cannot be shaken or broken." />
     <entry name="AdeptusMechanicus/EnrichedRoundsDescription" value="Increases the damage of nearby allied Adeptus Mechanicus infantry units." />
-    <entry name="AdeptusMechanicus/ProtectorImperativeDescription" value="Increases the ranged accuracy, but decreases the armour of Doctrina Imperatives units. Cost scales with the amount of affected units (up to 10)."/>
-    <entry name="AdeptusMechanicus/IonShield" value="<string name='Traits/AdeptusMechanicus/IonShield'/>"/>
-    <entry name="AdeptusMechanicus/IonShieldDescription" value="Increases the damage reduction of nearby allied vehicles."/>
-    <entry name="AdeptusMechanicus/IonShieldFlavor" value="<string name='Traits/AdeptusMechanicus/IonShieldFlavor'/>"/>
-    <entry name="AdeptusMechanicus/SiphonVigour" value="Siphon Vigour"/>
-    <entry name="AdeptusMechanicus/SiphonVigourDescription" value="Increases the invulnerable damage reduction."/>
-    <entry name="AdeptusMechanicus/SiphonVigourFlavor" value="<string name='Traits/AdeptusMechanicus/SiphonedVigourFlavor'/>"/>
-    <entry name="AdeptusMechanicus/GalvanicFieldDescription" value="Increases the armour penetration and accuracy of target allied Canticles of the Omnissiah or flyer unit."/>
-    <entry name="AdeptusMechanicus/TechAdept" value="Tech-Adept"/> <!-- Tech-Priest Manipulus ability -->
-    <entry name="AdeptusMechanicus/TechAdeptDescription" value="Increases healing rate of nearby allied vehicles and fortifications."/>
-    <entry name="AdeptusMechanicus/TechAdeptFlavor" value="Repairing war engines damaged in the crusade is a holy task."/>
-    <entry name="AdeptusMechanicus/ReprogramKastelanRobot" value="Reprogram Kastelan Robot"/>
-    <entry name="AdeptusMechanicus/ReprogramKastelanRobotDescription" value="Increases Repulsor Grid effect and hit points of target allied Kastelan Robot."/>
-    <entry name="AdeptusMechanicus/ReprogramKastelanRobotFlavor" value="Since the aftermath of Warmaster Horus’ rebellion the Legio Cybernetica’s robots have been controlled completely by their masters – not by the bio-plastic cerebra and nerve-like tendril webs of Mechanicum constructs, but by sanctified doctrina wafers. No bigger than the cards of the Emperor’s Tarot, these slivers of wetware are entrusted to the Cybernetica Datasmiths that accompany the robot maniples to war. Inserted into the dataslot hidden behind each robot’s chestplate, the wafer’s command protocol will dictate every iota of the host’s behaviour, usually optimising its ability to destroy its foes in a spectacular fashion."/>
-    <entry name="AdeptusMechanicus/DataBlessedAutosermon" value="Data-Blessed Autosermon"/> <!-- Tech-Priest Manipulus elite -->
-    <entry name="AdeptusMechanicus/DataBlessedAutosermonDescription" value="Grants nearby allied Kastelan Robots ability to not suffer accuracy loss on hit points loss, increases their accuracy. Increases nearby allied Fulgurite Electro Priests attacks."/>
-    <entry name="AdeptusMechanicus/DataBlessedAutosermonFlavor" value="Struck with an infoload of revelation, truly blessed Tech-Priests will override the sacred canticles to deliver the Machine God’s adaptive wisdom."/>
+    <entry name="AdeptusMechanicus/ProtectorImperativeDescription" value="Increases the ranged accuracy, but decreases the armour of Doctrina Imperatives units. Cost scales with the amount of affected units (up to 10)." />
+    <entry name="AdeptusMechanicus/IonShield" value="<string name='Traits/AdeptusMechanicus/IonShield'/>" />
+    <entry name="AdeptusMechanicus/IonShieldDescription" value="Increases the damage reduction of nearby allied vehicles." />
+    <entry name="AdeptusMechanicus/IonShieldFlavor" value="<string name='Traits/AdeptusMechanicus/IonShieldFlavor'/>" />
+    <entry name="AdeptusMechanicus/SiphonVigour" value="Siphon Vigour" />
+    <entry name="AdeptusMechanicus/SiphonVigourDescription" value="Increases the invulnerable damage reduction." />
+    <entry name="AdeptusMechanicus/SiphonVigourFlavor" value="<string name='Traits/AdeptusMechanicus/SiphonedVigourFlavor'/>" />
+    <entry name="AdeptusMechanicus/GalvanicFieldDescription" value="Increases the armour penetration and accuracy of target allied Canticles of the Omnissiah or flyer unit." />
+    <entry name="AdeptusMechanicus/TechAdept" value="Tech-Adept" /> <!-- Tech-Priest Manipulus ability -->
+    <entry name="AdeptusMechanicus/TechAdeptDescription" value="Increases healing rate of nearby allied vehicles and fortifications." />
+    <entry name="AdeptusMechanicus/TechAdeptFlavor" value="Repairing war engines damaged in the crusade is a holy task." />
+    <entry name="AdeptusMechanicus/ReprogramKastelanRobot" value="Reprogram Kastelan Robot" />
+    <entry name="AdeptusMechanicus/ReprogramKastelanRobotDescription" value="Increases Repulsor Grid effect and hit points of target allied Kastelan Robot." />
+    <entry name="AdeptusMechanicus/ReprogramKastelanRobotFlavor" value="Since the aftermath of Warmaster Horus’ rebellion the Legio Cybernetica’s robots have been controlled completely by their masters – not by the bio-plastic cerebra and nerve-like tendril webs of Mechanicum constructs, but by sanctified doctrina wafers. No bigger than the cards of the Emperor’s Tarot, these slivers of wetware are entrusted to the Cybernetica Datasmiths that accompany the robot maniples to war. Inserted into the dataslot hidden behind each robot’s chestplate, the wafer’s command protocol will dictate every iota of the host’s behaviour, usually optimising its ability to destroy its foes in a spectacular fashion." />
+    <entry name="AdeptusMechanicus/DataBlessedAutosermon" value="Data-Blessed Autosermon" /> <!-- Tech-Priest Manipulus elite -->
+    <entry name="AdeptusMechanicus/DataBlessedAutosermonDescription" value="Grants nearby allied Kastelan Robots ability to not suffer accuracy loss on hit points loss, increases their accuracy. Increases nearby allied Fulgurite Electro Priests attacks." />
+    <entry name="AdeptusMechanicus/DataBlessedAutosermonFlavor" value="Struck with an infoload of revelation, truly blessed Tech-Priests will override the sacred canticles to deliver the Machine God’s adaptive wisdom." />
 
     <entry name="AstraMilitarum/LaurelsOfCommand" value="Laurels of Command" />
     <entry name="AstraMilitarum/LaurelsOfCommandDescription" value="Restores the morale of nearby allied units." />
@@ -60,18 +60,18 @@
     <entry name="ChaosSpaceMarines/TzeentchCorruptionDescription" value="Gains research when the Daemon Prince gains experience from combat." />
     <entry name="ChaosSpaceMarines/TzeentchCorruptionFlavor" value="Arcane knowledge and mystical power have ever been the domain of Tzeentch and his minions." />
     <entry name="ChaosSpaceMarines/WorthyOfferingDescription" value="Increases the chance that nearby allied Champions of Chaos receive a Boon of Chaos." />
-    <entry name="ChaosSpaceMarines/IconOfVengeance" value="Icon of Vengeance"/>
-    <entry name="ChaosSpaceMarines/IconOfVengeanceDescription" value="Icon of Chaos that grants damage return to a unit with any Mark of Chaos."/>
-    <entry name="ChaosSpaceMarines/IconOfVengeanceFlavor" value="These icons shine brightly in the Warp, gathering the malefic energies of Chaos to those who bear them and spurring them on to acts of suicidal brabery in their quest to seize victory from the minions of the Corpse-god."/>
-    <entry name="ChaosSpaceMarines/BlessedChampions" value="Blessed Champions"/>
-    <entry name="ChaosSpaceMarines/BlessedChampionsDescription" value="Grants heroes ability to immediately come back to life after dying."/>
-    <entry name="ChaosSpaceMarines/BlessedChampionsFlavor" value="While many warbands of Heretic Astartes have grown to rival entire Chapters of loyalist Space Marines in size, most began as a core of ruthless followers led by their powerful champion. Such individuals draw more and more warriors to their service as their influence expands, their dread reputation for destruction becoming more storied as their warband grows in notoriety and power."/>
-    <entry name="ChaosSpaceMarines/IchorBloodDescription" value="Reduces melee attacks of adjacent enemies."/>
-    <entry name="ChaosSpaceMarines/Defiler" value="Defiler"/>
-    <entry name="ChaosSpaceMarines/DefilerDescription" value="Applies damage over time debuff to all units around Defiler."/>
-    <entry name="ChaosSpaceMarines/EnrageMachineSpirits" value="Enrage Machine Spirits"/>
-    <entry name="ChaosSpaceMarines/EnrageMachineSpiritsDescription" value="Increases the accuracy of adjacent allied Heldrakes, Forgefiends and Maulerfiends."/>
-    <entry name="ChaosSpaceMarines/EnrageMachineSpiritsFlavor" value="No armour is safe from the guns of the IV Legion, and once an enemy war engine is marked for destruction, its doomed is sealed."/>
+    <entry name="ChaosSpaceMarines/IconOfVengeance" value="Icon of Vengeance" />
+    <entry name="ChaosSpaceMarines/IconOfVengeanceDescription" value="Icon of Chaos that grants damage return to a unit with any Mark of Chaos." />
+    <entry name="ChaosSpaceMarines/IconOfVengeanceFlavor" value="These icons shine brightly in the Warp, gathering the malefic energies of Chaos to those who bear them and spurring them on to acts of suicidal brabery in their quest to seize victory from the minions of the Corpse-god." />
+    <entry name="ChaosSpaceMarines/BlessedChampions" value="Blessed Champions" />
+    <entry name="ChaosSpaceMarines/BlessedChampionsDescription" value="Grants heroes ability to immediately come back to life after dying." />
+    <entry name="ChaosSpaceMarines/BlessedChampionsFlavor" value="While many warbands of Heretic Astartes have grown to rival entire Chapters of loyalist Space Marines in size, most began as a core of ruthless followers led by their powerful champion. Such individuals draw more and more warriors to their service as their influence expands, their dread reputation for destruction becoming more storied as their warband grows in notoriety and power." />
+    <entry name="ChaosSpaceMarines/IchorBloodDescription" value="Reduces melee attacks of adjacent enemies." />
+    <entry name="ChaosSpaceMarines/Defiler" value="Defiler" />
+    <entry name="ChaosSpaceMarines/DefilerDescription" value="Applies damage over time debuff to all units around Defiler." />
+    <entry name="ChaosSpaceMarines/EnrageMachineSpirits" value="Enrage Machine Spirits" />
+    <entry name="ChaosSpaceMarines/EnrageMachineSpiritsDescription" value="Increases the accuracy of adjacent allied Heldrakes, Forgefiends and Maulerfiends." />
+    <entry name="ChaosSpaceMarines/EnrageMachineSpiritsFlavor" value="No armour is safe from the guns of the IV Legion, and once an enemy war engine is marked for destruction, its doomed is sealed." />
 
     <entry name="Eldar/ActivateWebwayGateDescription" value="Activates and claims a neutral Webway Gate. Must be within 3 tiles of friendly Eldar unit." />
     <entry name="Eldar/DoomDescription" value="Increases the damage taken by target non-hero enemy unit." />
@@ -104,9 +104,9 @@
     <entry name="Necrons/TriarchPraetorianJumpPackDescription" value="Flies across obstacles to the target tile. Reduces the movement of adjacent enemy units in destination." />
     <entry name="Necrons/TriarchPraetorianJumpPackFlavor" value="<string name='Actions/JumpPackFlavor'/>" />
 
-    <entry name="SistersOfBattle/DesperateForRedemption" value="Desperate For Redemption"/>
-    <entry name="SistersOfBattle/DesperateForRedemptionDescription" value="After dying, immediately comes back to life with 1 hit points remaining."/>
-    <entry name="SistersOfBattle/DesperateForRedemptionFlavor" value="Not even death can stop the Emperor’s chosen servants, and through his benevolence they rise again to serve the Master of Mankind’s will."/>
+    <entry name="SistersOfBattle/DesperateForRedemption" value="Desperate For Redemption" />
+    <entry name="SistersOfBattle/DesperateForRedemptionDescription" value="After dying, immediately comes back to life with 1 hit points remaining." />
+    <entry name="SistersOfBattle/DesperateForRedemptionFlavor" value="Not even death can stop the Emperor’s chosen servants, and through his benevolence they rise again to serve the Master of Mankind’s will." />
 
     <entry name="SpaceMarines/DominusAegis" value="<string name='Traits/SpaceMarines/DominusAegis'/>" />
     <entry name="SpaceMarines/DominusAegisDescription" value="<string name='Traits/SpaceMarines/DominusAegisDescription'/>" />
@@ -138,12 +138,12 @@
     <entry name="SpaceMarines/VeilOfTime" value="Veil Of Time" />
     <entry name="SpaceMarines/VeilOfTimeDescription" value="Increases the research output of the empire." />
     <entry name="SpaceMarines/VeilOfTimeFlavor" value="The psyker projects his will beyond the regular passage of time, altering the temporal flow to sway the tide of battle." />
-    <entry name="SpaceMarines/PowerOfTheMachineSpiritStormraven" value="Power of the Machine Spirit"/>
-    <entry name="SpaceMarines/PowerOfTheMachineSpiritStormravenDescription" value="Increases the ranged accuracy of this unit and nearby Stormtalon Gunships."/>
-    <entry name="SpaceMarines/PowerOfTheMachineSpiritStormravenFlavor" value="The interface between this vehicle's advanced machine spirit and its fire control mechanisms allows the crew to target foes with incredible accuracy."/>
-    <entry name="SpaceMarines/DefensiveFocus" value="Defensive Focus"/>
-    <entry name="SpaceMarines/DefensiveFocusDescription" value="Increases count of overwatch attacks but deals no damage when shooting this turn."/>
-    <entry name="SpaceMarines/DefensiveFocus" value="As the Codex Astartes dictates, when the foe presses hard at one section of the Ultramarines’ battle line they are swift to concentrate their defensive fire to drive the threat back."/>
+    <entry name="SpaceMarines/PowerOfTheMachineSpiritStormraven" value="Power of the Machine Spirit" />
+    <entry name="SpaceMarines/PowerOfTheMachineSpiritStormravenDescription" value="Increases the ranged accuracy of this unit and nearby Stormtalon Gunships." />
+    <entry name="SpaceMarines/PowerOfTheMachineSpiritStormravenFlavor" value="The interface between this vehicle's advanced machine spirit and its fire control mechanisms allows the crew to target foes with incredible accuracy." />
+    <entry name="SpaceMarines/DefensiveFocus" value="Defensive Focus" />
+    <entry name="SpaceMarines/DefensiveFocusDescription" value="Increases count of overwatch attacks but deals no damage when shooting this turn." />
+    <entry name="SpaceMarines/DefensiveFocus" value="As the Codex Astartes dictates, when the foe presses hard at one section of the Ultramarines’ battle line they are swift to concentrate their defensive fire to drive the threat back." />
 
     <entry name="Tau/BreakComposureDescription" value="Increases ranged attacks of nearby heroes, cities, Fire Warriors, Pathfinders, Krootox Riders and drones." />
     <entry name="Tau/BreakComposureFlavor" value="Though not physically impressive, the T’au can inculcate fear in their enemies through subtler means—by harrying them so that they can’t focus, by surrounding them, by forcing them down tactical paths that only lead to repeated failure. Sometimes you don’t need to even touch an enemy to defeat them." />
@@ -151,8 +151,8 @@
     <entry name="Tau/CommanderJumpPack" value="<string name='Actions/JumpPack'/>" />
     <entry name="Tau/CommanderJumpPackDescription" value="Flies across obstacles to the target tile, ignoring enemy overwatch attacks. Briefly increases the accuracy and the attacks." />
     <entry name="Tau/CommanderJumpPackFlavor" value="<string name='Actions/JumpPackFlavor'/>" />
-    <entry name="Tau/DeployTacticalDrone" value="Deploy Tactical Drones"/>
-    <entry name="Tau/DeployTacticalDroneDescription" value="Deploys temporary Tactical Drones."/>
+    <entry name="Tau/DeployTacticalDrone" value="Deploy Tactical Drones" />
+    <entry name="Tau/DeployTacticalDroneDescription" value="Deploys temporary Tactical Drones." />
     <entry name="Tau/KauyonDescription" value="Metastrategy that increases the ranged damage reduction of allied T'au battlesuit units in the area. Shares cooldown with other metastrategies." />
     <entry name="Tau/RinyonDescription" value="Metastrategy that increases the accuracy of allied T'au battlesuit units in the area against enemy units adjacent to other allied units. Shares cooldown with other metastrategies." />
     <entry name="Tau/SenseOfStoneDescription" value="Increases the damage reduction of the Ethereal and adjacent allied T'au infantry and monstrous creatures." />
@@ -168,11 +168,11 @@
     <entry name="Tyranids/MassIncubation" value="Synaptic Channelling" />
     <entry name="Tyranids/MassIncubationDescription" value="Sets adjacent allied Termagant level to 5." />
 
-    <entry name="AssaultDoctrineDescription" value="Chapter tactic that increases the melee accuracy of Assault Space Marines, Terminators and heroes."/>
+    <entry name="AssaultDoctrineDescription" value="Chapter tactic that increases the melee accuracy of Assault Space Marines, Terminators and heroes." />
     <entry name="DevastatorDoctrineDescription" value="Chapter tactic that increases the accuracy of Devastator Space Marines, Scouts and Devastator Centurions." />
     <entry name="MisfortuneDescription" value="Increases the damage taken for the target non-hero enemy unit." />
-    <entry name="Luminagen" value="Luminagen"/>
-    <entry name="LuminagenDescription" value="Temporarily decreases the ranged damage reduction of the attacked unit."/>
-    <entry name="VoidShield" value="Void Shield"/>
-    <entry name="VoidShieldDescription" value="Increases the ranged damage reduction."/>
+    <entry name="Luminagen" value="Luminagen" />
+    <entry name="LuminagenDescription" value="Temporarily decreases the ranged damage reduction of the attacked unit." />
+    <entry name="VoidShield" value="Void Shield" />
+    <entry name="VoidShieldDescription" value="Increases the ranged damage reduction." />
 </language>

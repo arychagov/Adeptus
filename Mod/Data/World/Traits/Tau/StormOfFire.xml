@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <invulnerableDamageReduction minMin="0.17" minMax="0.5"/>
+                <invulnerableDamageReduction minMin="0.17" minMax="0.5" />
             </effects>
         </modifier>
     </modifiers>

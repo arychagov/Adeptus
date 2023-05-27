@@ -1,111 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement11" productionWeight="0.01">
     <model>
-        <unit mesh="Units/SistersOfBattle/Hospitaller"
-              material="Units/SistersOfBattle/Hospitaller"
-              idleAnimation="Units/SistersOfBattle/HospitallerIdle"
-              idleAnimationCount="3"
-              idleContinuously="1"
-              normalWeight="0.1"
-              portraitZoomModifier="1.5"
-              scale="0.7 0.7 0.7"
-              bloodBone="Chest"
-              walker="1"/>
+        <unit mesh="Units/SistersOfBattle/Hospitaller" material="Units/SistersOfBattle/Hospitaller" idleAnimation="Units/SistersOfBattle/HospitallerIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" portraitZoomModifier="1.5" scale="0.7 0.7 0.7" bloodBone="Chest" walker="1" />
     </model>
-    <group size="3" rowSize="3" memberDeltaX="80" memberDeltaY="80"/>
+    <group size="3" rowSize="3" memberDeltaX="80" memberDeltaY="80" />
     <weapons>
         <weapon name="BoltPistol">
             <model>
-                <projectileWeapon muzzleBone="Muzzle"
-                                  fireInterval="0.35"/>
+                <projectileWeapon muzzleBone="Muzzle" fireInterval="0.35" />
             </model>
         </weapon>
         <weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
             <model>
-                <grenadeWeapon muzzleBone="Hand_R"/>
+                <grenadeWeapon muzzleBone="Hand_R" />
             </model>
         </weapon>
         <weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
             <model>
-                <grenadeWeapon muzzleBone="Hand_R"/>
+                <grenadeWeapon muzzleBone="Hand_R" />
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8"/> <!-- %armor base armor=3+ -->
-                <energyCost base="15.0"/> <!-- %energyCost base tier=5 factor=0.5 -->
-                <hitpointsMax base="2.0"/>
-                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
-                <meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
-                <meleeAttacks base="1"/>
-                <strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
+                <armor base="8" /> <!-- %armor base armor=3+ -->
+                <energyCost base="15.0" /> <!-- %energyCost base tier=5 factor=0.5 -->
+                <hitpointsMax base="2.0" />
+                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=3 wounds=1 -->
+                <meleeAccuracy base="6" /> <!-- %meleeAccuracy base weaponSkill=3 -->
+                <meleeAttacks base="1" />
+                <strengthDamage base="1" /> <!-- %strengthDamage base strength=3 -->
                 <!-- <meleeInitiative base="3"/> -->
-                <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
-                <movementMax base="3"/>
-                <productionCost base="30.0"/> <!-- %productionCost base tier=5 factor=1 -->
-                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
-                <requisitionsCost base="15.0"/> <!-- %requisitionsCost base tier=5 factor=0.5 -->
-                <requisitionsUpkeep base="1.5"/> <!-- %requisitionsUpkeep base tier=5 factor=1 -->
+                <moraleMax base="10" /> <!-- %moraleMax base leadership=8 -->
+                <movementMax base="3" />
+                <productionCost base="30.0" /> <!-- %productionCost base tier=5 factor=1 -->
+                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <requisitionsCost base="15.0" /> <!-- %requisitionsCost base tier=5 factor=0.5 -->
+                <requisitionsUpkeep base="1.5" /> <!-- %requisitionsUpkeep base tier=5 factor=1 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseColonizersScore base="1.0"/>
-                <increaseSupportScore base="1.0"/>
+                <increaseColonizersScore base="1.0" />
+                <increaseSupportScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/SistersOfBattle/HospitallerAttack"
-                        beginFire="0.8" endFire="1.6"/>
+                <action animation="Units/SistersOfBattle/HospitallerAttack" beginFire="0.8" endFire="1.6" />
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/SistersOfBattle/HospitallerDie"
-                        animationCount="2"
-                        sound="Units/MediumArmoredDie"
-                        soundCount="4"
-                        soundDelay="0.4"
-                        voiceSound="Units/SistersOfBattle/InfantryDie"
-                        voiceSoundCount="5"/>
+                <action animation="Units/SistersOfBattle/HospitallerDie" animationCount="2" sound="Units/MediumArmoredDie" soundCount="4" soundDelay="0.4" voiceSound="Units/SistersOfBattle/InfantryDie" voiceSoundCount="5" />
             </model>
         </die>
         <idle>
             <model>
-                <action/>
+                <action />
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/SistersOfBattle/HospitallerMove"
-                        sound="Units/SistersOfBattle/InfantryMove"
-                        soundCount="3"/>
+                <action animation="Units/SistersOfBattle/HospitallerMove" sound="Units/SistersOfBattle/InfantryMove" soundCount="3" />
             </model>
         </move>
         <foundCity>
             <model>
-                <action animation="Units/SistersOfBattle/HospitallerAbility"/>
+                <action animation="Units/SistersOfBattle/HospitallerAbility" />
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40"/>
-                        <requisitionsCost base="40"/>
+                        <influenceCost base="40" />
+                        <requisitionsCost base="40" />
                     </effects>
                 </modifier>
             </modifiers>
         </foundCity>
-        <genericUnitAbility name="SistersOfBattle/DesperateForRedemption"
-            icon="Actions/SistersOfBattle/MiraculousIntervention"
-            beginOnDisappear="1" cooldown="10" passive="1"
-            requiredUpgrade="SistersOfBattle/DesperateForRedemption">
+        <genericUnitAbility name="SistersOfBattle/DesperateForRedemption" icon="Actions/SistersOfBattle/MiraculousIntervention" beginOnDisappear="1" cooldown="10" passive="1" requiredUpgrade="SistersOfBattle/DesperateForRedemption">
             <model>
                 <action sound="Actions/MiraculousIntervention" />
             </model>
@@ -132,55 +110,48 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <clearTileUnitAbility cooldown="1"
-                              icon="Actions/ClearTile"
-                              name="ClearTile">
+        <clearTileUnitAbility cooldown="1" icon="Actions/ClearTile" name="ClearTile">
             <model>
-                <action animation="Units/SistersOfBattle/HospitallerAbility"/>
+                <action animation="Units/SistersOfBattle/HospitallerAbility" />
             </model>
             <beginTargets>
                 <target rangeMax="1">
-                    <conditions/>
-                    <areas/>
+                    <conditions />
+                    <areas />
                 </target>
             </beginTargets>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="5"/>
-                        <requisitionsCost base="5"/>
+                        <influenceCost base="5" />
+                        <requisitionsCost base="5" />
                     </effects>
                 </modifier>
             </modifiers>
         </clearTileUnitAbility>
-        <endlessCrusade consumedActionPoints="0"
-                        consumedMovement="0"
-                        cooldown="10"
-                        name="SistersOfBattle/EndlessCrusade"
-                        requiredActionPoints="0">
+        <endlessCrusade consumedActionPoints="0" consumedMovement="0" cooldown="10" name="SistersOfBattle/EndlessCrusade" requiredActionPoints="0">
             <model>
-                <action animation="Units/SistersOfBattle/HospitallerAbility"
-                        sound="Actions/EndlessCrusade"/>
+                <action animation="Units/SistersOfBattle/HospitallerAbility" sound="Actions/EndlessCrusade" />
             </model>
             <modifiers>
                 <modifier requiredUpgrade="SistersOfBattle/SimulacrumImperialis">
                     <effects>
-                        <cooldown mul="-0.5"/>
+                        <cooldown mul="-0.5" />
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="SistersOfBattle/FaithAndFury">
                     <effects>
-                        <cooldown mul="-0.66"/>
+                        <cooldown mul="-0.66" />
                     </effects>
                 </modifier>
             </modifiers>
             <conditions>
                 <unit>
-                    <noTrait name="Broken"/>
+                    <noTrait name="Broken" />
                 </unit>
                 <unit match="Any">
-                    <noTrait name="Shaken"/>
-                    <trait name="SistersOfBattle/LaudHailer"/>
+                    <noTrait name="Shaken" />
+                    <trait name="SistersOfBattle/LaudHailer" />
                 </unit>
             </conditions>
             <beginTargets>
@@ -190,9 +161,9 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Fleet"/>
-                                        <addTrait duration="1" name="MoveThroughCover"/>
-                                        <addTrait duration="1" name="SistersOfBattle/UsedActOfFaith"/>
+                                        <addTrait duration="1" name="Fleet" />
+                                        <addTrait duration="1" name="MoveThroughCover" />
+                                        <addTrait duration="1" name="SistersOfBattle/UsedActOfFaith" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -201,21 +172,19 @@
                 </selfTarget>
             </beginTargets>
         </endlessCrusade>
-        <sacredHealing cooldown="1"
-                       name="SistersOfBattle/SacredHealing">
+        <sacredHealing cooldown="1" name="SistersOfBattle/SacredHealing">
             <model>
-                <action animation="Units/SistersOfBattle/HospitallerAbility"
-                        sound="Actions/MysticBuff"/>
+                <action animation="Units/SistersOfBattle/HospitallerAbility" sound="Actions/MysticBuff" />
             </model>
             <beginTargets>
                 <target rangeMax="1">
                     <conditions>
                         <unit>
-                            <allied/>
-                            <damaged/>
-                            <faction name="SistersOfBattle"/>
-                            <noTrait name="Fortification"/>
-                            <noTrait name="Vehicle"/>
+                            <allied />
+                            <damaged />
+                            <faction name="SistersOfBattle" />
+                            <noTrait name="Fortification" />
+                            <noTrait name="Vehicle" />
                         </unit>
                     </conditions>
                     <areas>
@@ -223,7 +192,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints add="6"/>
+                                        <hitpoints add="6" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -232,9 +201,7 @@
                 </target>
             </beginTargets>
         </sacredHealing>
-        <genericUnitAbility passive="1"
-                            name="SistersOfBattle/MedicusMinistorum"
-                            requiredUpgrade="SistersOfBattle/MedicusMinistorum">
+        <genericUnitAbility passive="1" name="SistersOfBattle/MedicusMinistorum" requiredUpgrade="SistersOfBattle/MedicusMinistorum">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -243,12 +210,12 @@
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <allied/>
-                                            <faction name="SistersOfBattle"/>
+                                            <allied />
+                                            <faction name="SistersOfBattle" />
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait duration="1" name="SistersOfBattle/MedicusMinistorum"/>
+                                        <addTrait duration="1" name="SistersOfBattle/MedicusMinistorum" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -261,11 +228,11 @@
 
     </actions>
     <traits>
-        <trait name="SistersOfBattle/ShieldOfFaith"/>
-        <trait name="SistersOfBattle/MartyrSpirit"/>
-        <trait name="FeelNoPain"/>
-        <trait name="SistersOfBattle/OathOfFaith"/>
-        <trait name="ExtraInfantryArmour" requiredUpgrade="SistersOfBattle/ExtraInfantryArmour"/>
-        <trait name="SistersOfBattle/SisterSuperior" requiredUpgrade="SistersOfBattle/SisterSuperior"/>
+        <trait name="SistersOfBattle/ShieldOfFaith" />
+        <trait name="SistersOfBattle/MartyrSpirit" />
+        <trait name="FeelNoPain" />
+        <trait name="SistersOfBattle/OathOfFaith" />
+        <trait name="ExtraInfantryArmour" requiredUpgrade="SistersOfBattle/ExtraInfantryArmour" />
+        <trait name="SistersOfBattle/SisterSuperior" requiredUpgrade="SistersOfBattle/SisterSuperior" />
     </traits>
 </unit>

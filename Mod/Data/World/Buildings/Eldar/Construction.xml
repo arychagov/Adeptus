@@ -3,19 +3,19 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="48"/>
-                <oreCost base="80"/>
-                <populationRequired base="1"/>
-                <slotsRequired base="1"/>
-                <energyUpkeep add="3"/>
+                <productionCost base="48" />
+                <oreCost base="80" />
+                <populationRequired base="1" />
+                <slotsRequired base="1" />
+                <energyUpkeep add="3" />
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <growth add="1"/>
-                <ore add="4"/>
-                <production add="6"/>
-                <research add="2"/>
+                <growth add="1" />
+                <ore add="4" />
+                <production add="6" />
+                <research add="2" />
             </effects>
         </modifier>
     </modifiers>
@@ -29,7 +29,7 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseConstructionScore base="1.0"/>
+                <increaseConstructionScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>
@@ -38,9 +38,9 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost add="5"/>
-                        <oreCost add="5"/>
-                        <productionCost add="12"/>
+                        <influenceCost add="5" />
+                        <oreCost add="5" />
+                        <productionCost add="12" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -49,24 +49,24 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <productionCost add="12"/>
+                        <productionCost add="12" />
                     </effects>
                 </modifier>
             </modifiers>
         </clearTile>
-        <constructBuilding building="Eldar/Food"/>
-        <constructBuilding building="Eldar/Ore"/>
-        <constructBuilding building="Eldar/Energy"/>
-        <constructBuilding building="Eldar/Research"/>
-        <constructBuilding building="Eldar/Influence"/>
-        <constructBuilding building="Eldar/Loyalty"/>
-        <constructBuilding building="Eldar/Housing"/>
-        <constructBuilding building="Eldar/Infantry"/>
-        <constructBuilding building="Eldar/Vehicles" requiredUpgrade="Eldar/Vehicles"/>
-        <constructBuilding building="Eldar/Aircraft" requiredUpgrade="Eldar/Aircraft"/>
-        <constructBuilding building="Eldar/Construction" requiredUpgrade="Eldar/Construction"/>
+        <constructBuilding building="Eldar/Food" />
+        <constructBuilding building="Eldar/Ore" />
+        <constructBuilding building="Eldar/Energy" />
+        <constructBuilding building="Eldar/Research" />
+        <constructBuilding building="Eldar/Influence" />
+        <constructBuilding building="Eldar/Loyalty" />
+        <constructBuilding building="Eldar/Housing" />
+        <constructBuilding building="Eldar/Infantry" />
+        <constructBuilding building="Eldar/Vehicles" requiredUpgrade="Eldar/Vehicles" />
+        <constructBuilding building="Eldar/Aircraft" requiredUpgrade="Eldar/Aircraft" />
+        <constructBuilding building="Eldar/Construction" requiredUpgrade="Eldar/Construction" />
     </actions>
     <traits>
-        <trait name="Eldar/ConstructionBuildingBonus" requiredUpgrade="Eldar/ConstructionBuildingBonus"/>
+        <trait name="Eldar/ConstructionBuildingBonus" requiredUpgrade="Eldar/ConstructionBuildingBonus" />
     </traits>
 </building>

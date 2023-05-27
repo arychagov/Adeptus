@@ -4,11 +4,11 @@
         <modifier>
             <conditions>
                 <building>
-                    <type name="AstraMilitarum/Ore"/>
+                    <type name="AstraMilitarum/Ore" />
                 </building>
             </conditions>
             <effects>
-                <ore mul="0.25"/>
+                <ore mul="0.25" />
             </effects>
         </modifier>
     </modifiers>

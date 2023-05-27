@@ -1,105 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement2">
     <model>
-        <unit mesh="Units/Tyranids/HiveTyrant"
-              material="Units/Tyranids/HiveTyrant"
-              idleAnimation="Units/Tyranids/HiveTyrantIdle"
-              idleAnimationCount="3"
-              idleContinuously="1"
-              normalWeight="1.0"
-              scale="1 1 1"
-              position="0 0 64"
-              bloodBone="BloodBone"/>
+        <unit mesh="Units/Tyranids/HiveTyrant" material="Units/Tyranids/HiveTyrant" idleAnimation="Units/Tyranids/HiveTyrantIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="1.0" scale="1 1 1" position="0 0 64" bloodBone="BloodBone" />
     </model>
     <weapons>
         <weapon name="DesiccatorLarvae" requiredUpgrade="Tyranids/DesiccatorLarvae">
             <model>
-                <flamerWeapon muzzleBone="BloodBone"/>
+                <flamerWeapon muzzleBone="BloodBone" />
             </model>
         </weapon>
         <weapon name="HeavyVenomCannon">
             <model>
-                <projectileWeapon muzzleBone=".Muzzle" fireInterval="0.566666666667"/>
+                <projectileWeapon muzzleBone=".Muzzle" fireInterval="0.566666666667" />
             </model>
         </weapon>
         <weapon name="PrehensilePincer">
             <model>
-                <weapon fireInterval="10.0"/>
+                <weapon fireInterval="10.0" />
             </model>
         </weapon>
         <weapon name="RendingClaws">
             <model>
-                <weapon fireInterval="10.0"/>
+                <weapon fireInterval="10.0" />
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8"/> <!-- %armor base armor=3+ -->
-                <biomassUpkeep base="6.0"/> <!-- %biomassUpkeep base tier=9 factor=1 -->
-                <biomassCost base="120.0"/> <!-- %biomassCost base tier=9 factor=1 -->
-                <hitpointsMax base="30.0"/>
-                <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=6 wounds=5 -->
-                <influenceUpkeep base="9.0"/> <!-- %influenceUpkeep base tier=9 factor=1.5 -->
-                <influenceCost base="180.0"/> <!-- %influenceCost base tier=9 factor=1.5 -->
-                <itemSlots base="6"/>
-                <levelMax base="9"/>
-                <meleeAccuracy base="12"/> <!-- %meleeAccuracy base weaponSkill=8 -->
-                <meleeAttacks base="1"/>
-                <strengthDamage base="3"/> <!-- %strengthDamage base strength=6 -->
-                <moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->
-                <movementMax base="6"/>
-                <productionCost base="54.0"/> <!-- %productionCost base tier=9 factor=1 -->
-                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <armor base="8" /> <!-- %armor base armor=3+ -->
+                <biomassUpkeep base="6.0" /> <!-- %biomassUpkeep base tier=9 factor=1 -->
+                <biomassCost base="120.0" /> <!-- %biomassCost base tier=9 factor=1 -->
+                <hitpointsMax base="30.0" />
+                <duplicateTypeCost mul="2.0" /> <!-- %hitpointsMax base toughness=6 wounds=5 -->
+                <influenceUpkeep base="9.0" /> <!-- %influenceUpkeep base tier=9 factor=1.5 -->
+                <influenceCost base="180.0" /> <!-- %influenceCost base tier=9 factor=1.5 -->
+                <itemSlots base="6" />
+                <levelMax base="9" />
+                <meleeAccuracy base="12" /> <!-- %meleeAccuracy base weaponSkill=8 -->
+                <meleeAttacks base="1" />
+                <strengthDamage base="3" /> <!-- %strengthDamage base strength=6 -->
+                <moraleMax base="12" /> <!-- %moraleMax base leadership=10 -->
+                <movementMax base="6" />
+                <productionCost base="54.0" /> <!-- %productionCost base tier=9 factor=1 -->
+                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseHeroesScore base="1.0"/>
+                <increaseHeroesScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/Tyranids/HiveTyrantAttack"
-                        beginFire="0.666666666667"
-                        endFire="2.66666666667"
-                        chargeAnimation="Units/Tyranids/HiveTyrantCharge"
-                        chargeBeginFire="0.4"
-                        chargeEndFire="1.33333333333"
-                        meleeAnimation="Units/Tyranids/HiveTyrantMelee"
-                        meleeBeginSwing="0.0"
-                        meleeEndSwing="1.0"/>
+                <action animation="Units/Tyranids/HiveTyrantAttack" beginFire="0.666666666667" endFire="2.66666666667" chargeAnimation="Units/Tyranids/HiveTyrantCharge" chargeBeginFire="0.4" chargeEndFire="1.33333333333" meleeAnimation="Units/Tyranids/HiveTyrantMelee" meleeBeginSwing="0.0" meleeEndSwing="1.0" />
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Tyranids/HiveTyrantDie"
-                        sound="Units/LargeUnarmoredDie"
-                        soundCount="4"
-                        soundDelay="1.0"
-                        voiceSound="Units/Tyranids/LargeDie"
-                        voiceSoundCount="4"/>
+                <action animation="Units/Tyranids/HiveTyrantDie" sound="Units/LargeUnarmoredDie" soundCount="4" soundDelay="1.0" voiceSound="Units/Tyranids/LargeDie" voiceSoundCount="4" />
             </model>
         </die>
         <idle>
             <model>
-                <action/>
+                <action />
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/Tyranids/HiveTyrantMove"
-                        sound="Units/Tyranids/HiveTyrantMove"
-                        soundCount="2"/>
+                <action animation="Units/Tyranids/HiveTyrantMove" sound="Units/Tyranids/HiveTyrantMove" soundCount="2" />
             </model>
         </move>
-        <genericUnitAbility name="Tyranids/SynapseCreature"
-                            passive="1">
+        <genericUnitAbility name="Tyranids/SynapseCreature" passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -107,7 +83,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Tyranids/SynapseLink"/>
+                                        <addTrait name="Tyranids/SynapseLink" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -124,7 +100,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Tyranids/ShadowInTheWarp"/>
+                                        <addTrait name="Tyranids/ShadowInTheWarp" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -133,8 +109,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility name="Tyranids/IndescribableHorror"
-                            passive="1">
+        <genericUnitAbility name="Tyranids/IndescribableHorror" passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -142,7 +117,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Tyranids/IndescribableHorror"/>
+                                        <addTrait name="Tyranids/IndescribableHorror" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -159,7 +134,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Fear"/>
+                                        <addTrait name="Fear" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -170,13 +145,13 @@
         </auraOfFear>
         <jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
             <model>
-                <action sound="Actions/ChargeUp"/>
+                <action sound="Actions/ChargeUp" />
             </model>
             <beginTargets>
                 <selfTarget>
                     <conditions>
                         <unit>
-                            <notAttackedThisTurn/>
+                            <notAttackedThisTurn />
                         </unit>
                     </conditions>
                     <areas>
@@ -184,7 +159,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Jink"/>
+                                        <addTrait duration="1" name="Jink" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -193,13 +168,9 @@
                 </selfTarget>
             </beginTargets>
         </jink>
-        <hammerOfWrath consumedActionPoints="0"
-                       consumedMovement="0"
-                       cooldown="3"
-                       requiredActionPoints="0"
-                       requiredUpgrade="Tyranids/HammerOfWrath">
+        <hammerOfWrath consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0" requiredUpgrade="Tyranids/HammerOfWrath">
             <model>
-                <action sound="Actions/PsychicBuff"/>
+                <action sound="Actions/PsychicBuff" />
             </model>
             <beginTargets>
                 <selfTarget>
@@ -208,7 +179,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="HammerOfWrath" duration="1"/>
+                                        <addTrait name="HammerOfWrath" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -217,23 +188,15 @@
                 </selfTarget>
             </beginTargets>
         </hammerOfWrath>
-        <subterraneanAssault name="Tyranids/SubterraneanAssault"/>
-        <psychicScream cooldown="2"
-                       name="Tyranids/PsychicScream"
-                       rank="-1"
-                       rankMax="2">
+        <subterraneanAssault name="Tyranids/SubterraneanAssault" />
+        <psychicScream cooldown="2" name="Tyranids/PsychicScream" rank="-1" rankMax="2">
             <model>
-                <action animation="Units/Tyranids/HiveTyrantAbility"
-                        bone="BloodBone"
-                        beginFire="0.67"
-                        sound="Weapons/PsychicScream"
-                        soundCount="3"
-                        soundDelay="0.67"/>
+                <action animation="Units/Tyranids/HiveTyrantAbility" bone="BloodBone" beginFire="0.67" sound="Weapons/PsychicScream" soundCount="3" soundDelay="0.67" />
             </model>
             <modifiers>
                 <modifier>
                     <effects>
-                        <damage mulMin="0.0" mulMax="1.0"/>
+                        <damage mulMin="0.0" mulMax="1.0" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -245,11 +208,11 @@
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <enemy/>
+                                            <enemy />
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <weaponDamage weapon="PsychicScream"/>
+                                        <weaponDamage weapon="PsychicScream" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -258,16 +221,9 @@
                 </selfTarget>
             </beginTargets>
         </psychicScream>
-        <onslaught consumedActionPoints="0"
-                   consumedMovement="0"
-                   cooldown="3"
-                   name="Tyranids/Onslaught"
-                   rank="-1"
-                   rankMax="2"
-                   requiredActionPoints="0">
+        <onslaught consumedActionPoints="0" consumedMovement="0" cooldown="3" name="Tyranids/Onslaught" rank="-1" rankMax="2" requiredActionPoints="0">
             <model>
-                <action animation="Units/Tyranids/HiveTyrantAbility"
-                        sound="Actions/HiveMindBuff"/>
+                <action animation="Units/Tyranids/HiveTyrantAbility" sound="Actions/HiveMindBuff" />
             </model>
             <beginTargets>
                 <selfTarget>
@@ -277,13 +233,13 @@
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <allied/>
-                                            <faction name="Tyranids"/>
-                                            <movement greater="0"/>
+                                            <allied />
+                                            <faction name="Tyranids" />
+                                            <movement greater="0" />
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait name="Tyranids/Onslaught" duration="1"/>
+                                        <addTrait name="Tyranids/Onslaught" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -292,10 +248,7 @@
                 </selfTarget>
             </beginTargets>
         </onslaught>
-        <genericUnitAbility name="Tyranids/Dominion"
-                            passive="1"
-                            rank="-1"
-                            rankMax="2">
+        <genericUnitAbility name="Tyranids/Dominion" passive="1" rank="-1" rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -303,7 +256,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Tyranids/SynapseLink"/>
+                                        <addTrait name="Tyranids/SynapseLink" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -312,7 +265,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Tyranids/Dominion"/>
+                                        <addTrait name="Tyranids/Dominion" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -321,17 +274,9 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <hiveCommander consumedActionPoints="0"
-                       consumedMovement="0"
-                       cooldown="10"
-                       elite="1"
-                       name="Tyranids/HiveCommander"
-                       rank="-1"
-                       rankMax="0"
-                       requiredActionPoints="0">
+        <hiveCommander consumedActionPoints="0" consumedMovement="0" cooldown="10" elite="1" name="Tyranids/HiveCommander" rank="-1" rankMax="0" requiredActionPoints="0">
             <model>
-                <action animation="Units/Tyranids/HiveTyrantAbility"
-                        sound="Actions/HiveMindEliteBuff"/>
+                <action animation="Units/Tyranids/HiveTyrantAbility" sound="Actions/HiveMindEliteBuff" />
             </model>
             <beginTargets>
                 <selfTarget>
@@ -341,12 +286,12 @@
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <allied/>
-                                            <faction name="Tyranids"/>
+                                            <allied />
+                                            <faction name="Tyranids" />
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait name="Tyranids/HiveCommander" duration="3"/>
+                                        <addTrait name="Tyranids/HiveCommander" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -355,24 +300,24 @@
                 </selfTarget>
             </beginTargets>
         </hiveCommander>
-        <levelUp/>
-        <shop/>
+        <levelUp />
+        <shop />
     </actions>
     <traits>
-        <trait name="Tyranids/AcidBlood" requiredUpgrade="Tyranids/AcidBlood"/>
-        <trait name="ExtraMonstrousCreatureArmour" requiredUpgrade="Tyranids/ExtraMonstrousCreatureArmour"/>
-        <trait name="Fleet" requiredUpgrade="Tyranids/AdrenalGlands"/>
-        <trait name="Flyer"/>
-        <trait name="FuriousCharge" requiredUpgrade="Tyranids/AdrenalGlands"/>
+        <trait name="Tyranids/AcidBlood" requiredUpgrade="Tyranids/AcidBlood" />
+        <trait name="ExtraMonstrousCreatureArmour" requiredUpgrade="Tyranids/ExtraMonstrousCreatureArmour" />
+        <trait name="Fleet" requiredUpgrade="Tyranids/AdrenalGlands" />
+        <trait name="Flyer" />
+        <trait name="FuriousCharge" requiredUpgrade="Tyranids/AdrenalGlands" />
         <!-- <trait name="MoveThroughCover"/> -->
-        <trait name="Hero"/>
-        <trait name="MonstrousCreature"/>
-        <trait name="Psyker"/>
-        <trait name="Regeneration" requiredUpgrade="Tyranids/Regeneration"/>
-        <trait name="Relentless"/>
-        <trait name="Smash"/>
-        <trait name="Tyranids/ToxinSacs" requiredUpgrade="Tyranids/ToxinSacs"/>
-        <trait name="Psyker"/>
-        <trait name="Tyranids/VehiclesUpkeep" requiredUpgrade="Tyranids/VehiclesUpkeep"/>
+        <trait name="Hero" />
+        <trait name="MonstrousCreature" />
+        <trait name="Psyker" />
+        <trait name="Regeneration" requiredUpgrade="Tyranids/Regeneration" />
+        <trait name="Relentless" />
+        <trait name="Smash" />
+        <trait name="Tyranids/ToxinSacs" requiredUpgrade="Tyranids/ToxinSacs" />
+        <trait name="Psyker" />
+        <trait name="Tyranids/VehiclesUpkeep" requiredUpgrade="Tyranids/VehiclesUpkeep" />
     </traits>
 </unit>

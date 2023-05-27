@@ -1,104 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement1">
     <model>
-        <unit mesh="Units/Necrons/Immortal"
-              material="Units/Necrons/Immortal"
-              idleAnimation="Units/Necrons/ImmortalIdle"
-              idleAnimationCount="3"
-              idleContinuously="1"
-              normalWeight="0.1"
-              scale="1.1 1.1 1.1"
-              explosionsBone="BloodBone"
-              walker="1"/>
+        <unit mesh="Units/Necrons/Immortal" material="Units/Necrons/Immortal" idleAnimation="Units/Necrons/ImmortalIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1.1 1.1 1.1" explosionsBone="BloodBone" walker="1" />
     </model>
-    <group size="5" rowSize="3" memberDeltaX="64" memberDeltaY="64"/>
+    <group size="5" rowSize="3" memberDeltaX="64" memberDeltaY="64" />
     <weapons>
         <weapon name="GaussFlayer">
             <model>
-                <beamWeapon muzzleBone=".Muzzle"
-                            fireInterval="0.2"/>
+                <beamWeapon muzzleBone=".Muzzle" fireInterval="0.2" />
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8"/> <!-- %armor base armor=3+ -->
-                <energyCost base="40.0"/> <!-- %energyCost base tier=6 factor=1 -->
-                <hitpointsMax base="3.0"/>
-                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=4 wounds=1 -->
-                <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
-                <meleeAttacks base="1"/>
-                <strengthDamage base="1.5"/> <!-- %strengthDamage base strength=4 -->
+                <armor base="8" /> <!-- %armor base armor=3+ -->
+                <energyCost base="40.0" /> <!-- %energyCost base tier=6 factor=1 -->
+                <hitpointsMax base="3.0" />
+                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=4 wounds=1 -->
+                <meleeAccuracy base="8" /> <!-- %meleeAccuracy base weaponSkill=4 -->
+                <meleeAttacks base="1" />
+                <strengthDamage base="1.5" /> <!-- %strengthDamage base strength=4 -->
                 <!-- <meleeInitiative base="2"/> -->
-                <moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->
-                <movementMax base="3"/>
-                <oreUpkeep base="2.0"/> <!-- %oreUpkeep base tier=6 factor=1 -->
-                <productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
-                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <moraleMax base="12" /> <!-- %moraleMax base leadership=10 -->
+                <movementMax base="3" />
+                <oreUpkeep base="2.0" /> <!-- %oreUpkeep base tier=6 factor=1 -->
+                <productionCost base="36.0" /> <!-- %productionCost base tier=6 factor=1 -->
+                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0"/>
+                <increaseInfantryScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/Necrons/ImmortalAttack"
-                        beginFire="1.2"
-                        endFire="2.0"/>
+                <action animation="Units/Necrons/ImmortalAttack" beginFire="1.2" endFire="2.0" />
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Necrons/ImmortalDie"
-                        animationCount="2"
-                        sound="Units/MediumArmoredDie"
-                        soundCount="4"
-                        soundDelay="0.6"
-                        voiceSound="Units/Necrons/Die"
-                        voiceSoundCount="7"/>
+                <action animation="Units/Necrons/ImmortalDie" animationCount="2" sound="Units/MediumArmoredDie" soundCount="4" soundDelay="0.6" voiceSound="Units/Necrons/Die" voiceSoundCount="7" />
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0"/>
+                <action animationSpeed="1.0" />
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/Necrons/ImmortalMove"
-                        sound="Units/Necrons/InfantryMove"
-                        soundCount="4"/>
+                <action animation="Units/Necrons/ImmortalMove" sound="Units/Necrons/InfantryMove" soundCount="4" />
             </model>
         </move>
-        <necrodermisRepair consumedActionPoints="0" consumedMovement="0"
-                           cooldown="1"
-                           name="Necrons/NecrodermisRepair"
-                           requiredActionPoints="0">
+        <necrodermisRepair consumedActionPoints="0" consumedMovement="0" cooldown="1" name="Necrons/NecrodermisRepair" requiredActionPoints="0">
             <model>
-                <action sound="Actions/Heal"/>
+                <action sound="Actions/Heal" />
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="60"/>
+                        <influenceCost base="60" />
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Necrons/NecrodermisRepair2">
                     <effects>
-                        <cooldown max="0"/>
+                        <cooldown max="0" />
                     </effects>
                 </modifier>
             </modifiers>
             <conditions>
                 <unit>
-                    <damaged/>
+                    <damaged />
                 </unit>
             </conditions>
             <beginTargets>
@@ -108,12 +86,12 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints add="6"/>
+                                        <hitpoints add="6" />
                                     </effects>
                                 </modifier>
                                 <modifier requiredUpgrade="Necrons/NecrodermisRepair2">
                                     <effects>
-                                        <hitpoints add="2"/>
+                                        <hitpoints add="2" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -122,37 +100,35 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <dimensionalCorridor cooldown="3"
-                             name="Necrons/DimensionalCorridor"
-                             requiredUpgrade="Necrons/DimensionalCorridor">
+        <dimensionalCorridor cooldown="3" name="Necrons/DimensionalCorridor" requiredUpgrade="Necrons/DimensionalCorridor">
             <model>
-                <action sound="Actions/Teleport"/>
+                <action sound="Actions/Teleport" />
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="20"/>
+                        <influenceCost base="20" />
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Necrons/DimensionalCorridor2">
                     <effects>
-                        <influenceCost mul="-0.33"/>
+                        <influenceCost mul="-0.33" />
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Necrons/DimensionalCorridor2">
                     <effects>
-                        <consumedActionPoints max="0"/>
-                        <consumedMovement max="0"/>
+                        <consumedActionPoints max="0" />
+                        <consumedMovement max="0" />
                     </effects>
                 </modifier>
             </modifiers>
         </dimensionalCorridor>
     </actions>
     <traits>
-        <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus"/>
-        <trait name="ExtraInfantryArmour" requiredUpgrade="Necrons/ExtraInfantryArmour"/>
-        <trait name="Necrons/ReanimationProtocols"/>
-        <trait name="Rapid"/>
-        <trait name="Necrons/EndlessLegions" requiredUpgrade="Necrons/EndlessLegions"/>
+        <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
+        <trait name="ExtraInfantryArmour" requiredUpgrade="Necrons/ExtraInfantryArmour" />
+        <trait name="Necrons/ReanimationProtocols" />
+        <trait name="Rapid" />
+        <trait name="Necrons/EndlessLegions" requiredUpgrade="Necrons/EndlessLegions" />
     </traits>
 </unit>

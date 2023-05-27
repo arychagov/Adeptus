@@ -3,7 +3,7 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="1.0"/>
+                <increaseVehiclesScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>

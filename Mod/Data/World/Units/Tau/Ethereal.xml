@@ -1,97 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement5">
     <model>
-        <unit mesh="Units/Tau/Ethereal"
-              material="Units/Tau/Ethereal"
-              idleAnimation="Units/Tau/EtherealIdle"
-              idleAnimationCount="3"
-              idleContinuously="1"
-              normalWeight="0.1"
-              scale="0.8 0.8 0.8"
-              bloodBone="bloodbone"
-              position="0 0 -8"
-              walker="1"/>
+        <unit mesh="Units/Tau/Ethereal" material="Units/Tau/Ethereal" idleAnimation="Units/Tau/EtherealIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.8 0.8 0.8" bloodBone="bloodbone" position="0 0 -8" walker="1" />
     </model>
     <weapons>
         <weapon name="HonourBlade">
             <model>
-                <weapon/>
+                <weapon />
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="0"/> <!-- %armor base armor=- -->
-                <energyUpkeep base="1.5"/> <!-- %energyUpkeep base tier=5 factor=1 -->
-                <energyCost base="15.0"/> <!-- %energyCost base tier=5 factor=0.5 -->
-                <foodCost base="15.0"/> <!-- %foodCost base tier=5 factor=0.5 -->
-                <hitpointsMax base="7.0"/>
-                <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
-                <influenceUpkeep base="3.0"/> <!-- %influenceUpkeep base tier=5 factor=2 -->
-                <influenceCost base="60.0"/> <!-- %influenceCost base tier=5 factor=2 -->
-                <itemSlots base="6"/>
-                <levelMax base="9"/>
-                <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
-                <meleeAttacks base="2"/>
-                <strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
-                <moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
-                <movementMax base="3"/>
-                <productionCost base="30.0"/> <!-- %productionCost base tier=5 factor=1 -->
-                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <armor base="0" /> <!-- %armor base armor=- -->
+                <energyUpkeep base="1.5" /> <!-- %energyUpkeep base tier=5 factor=1 -->
+                <energyCost base="15.0" /> <!-- %energyCost base tier=5 factor=0.5 -->
+                <foodCost base="15.0" /> <!-- %foodCost base tier=5 factor=0.5 -->
+                <hitpointsMax base="7.0" />
+                <duplicateTypeCost mul="2.0" /> <!-- %hitpointsMax base toughness=3 wounds=3 -->
+                <influenceUpkeep base="3.0" /> <!-- %influenceUpkeep base tier=5 factor=2 -->
+                <influenceCost base="60.0" /> <!-- %influenceCost base tier=5 factor=2 -->
+                <itemSlots base="6" />
+                <levelMax base="9" />
+                <meleeAccuracy base="8" /> <!-- %meleeAccuracy base weaponSkill=4 -->
+                <meleeAttacks base="2" />
+                <strengthDamage base="1" /> <!-- %strengthDamage base strength=3 -->
+                <moraleMax base="12" /> <!-- %moraleMax base leadership=9 -->
+                <movementMax base="3" />
+                <productionCost base="30.0" /> <!-- %productionCost base tier=5 factor=1 -->
+                <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseHeroesScore base="1.0"/>
-                <increaseSupportScore base="1.0"/>
+                <increaseHeroesScore base="1.0" />
+                <increaseSupportScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action chargeAnimation="Units/Tau/EtherealCharge"
-                        meleeAnimation="Units/Tau/EtherealMelee"
-                        meleeBeginSwing="0.15"
-                        meleeEndSwing="0.5"/>
+                <action chargeAnimation="Units/Tau/EtherealCharge" meleeAnimation="Units/Tau/EtherealMelee" meleeBeginSwing="0.15" meleeEndSwing="0.5" />
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Tau/EtherealDie0"
-                        sound="Units/MediumUnarmoredDie"
-                        soundCount="4"
-                        soundDelay="1.0"
-                        voiceSound="Units/Tau/EtherealDie"
-                        voiceSoundCount="1"
-                        voiceSoundDelay="0.1"/>
+                <action animation="Units/Tau/EtherealDie0" sound="Units/MediumUnarmoredDie" soundCount="4" soundDelay="1.0" voiceSound="Units/Tau/EtherealDie" voiceSoundCount="1" voiceSoundDelay="0.1" />
             </model>
         </die>
         <move>
             <model>
-                <action animation="Units/Tau/EtherealMove"
-                        sound="Units/AstraMilitarum/InfantryMove"
-                        soundCount="4"/>
+                <action animation="Units/Tau/EtherealMove" sound="Units/AstraMilitarum/InfantryMove" soundCount="4" />
             </model>
         </move>
-        <deployGunDrone cooldown="10"
-                        name="Tau/DeployDrone"
-                        requiredActionPoints="0"
-                        consumedActionPoints="0"
-                        consumedMovement="0"
-                        requiredUpgrade="Tau/GunDrone"
-                        unitType="Tau/GunDrone">
+        <deployGunDrone cooldown="10" name="Tau/DeployDrone" requiredActionPoints="0" consumedActionPoints="0" consumedMovement="0" requiredUpgrade="Tau/GunDrone" unitType="Tau/GunDrone">
             <model>
-                <action animation=""
-                        sound="Actions/DeployDrone"/>
+                <action animation="" sound="Actions/DeployDrone" />
             </model>
             <modifiers>
                 <modifier visible="0" requiredUpgrade="Tau/DroneController">
                     <effects>
-                        <cooldown add="-5"/>
+                        <cooldown add="-5" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -99,8 +72,8 @@
                 <target rangeMax="1">
                     <conditions>
                         <tile>
-                            <noUnit/>
-                            <noFeature name="GravityWaves"/>
+                            <noUnit />
+                            <noFeature name="GravityWaves" />
                         </tile>
                     </conditions>
                     <areas>
@@ -108,7 +81,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="Tau/GunDrone" consumedAction="0" consumedMovement="0"/>
+                                        <addUnit name="Tau/GunDrone" consumedAction="0" consumedMovement="0" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -117,7 +90,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="3" name="Summon"/>
+                                        <addTrait duration="3" name="Summon" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -126,25 +99,18 @@
                 </target>
             </beginTargets>
             <sharedCooldowns>
-                <action name="Tau/DeployDrone/Tau/ShieldDrone"/>
-                <action name="Tau/DeployDrone/Tau/MarkerDrone"/>
+                <action name="Tau/DeployDrone/Tau/ShieldDrone" />
+                <action name="Tau/DeployDrone/Tau/MarkerDrone" />
             </sharedCooldowns>
         </deployGunDrone>
-        <deployShieldDrone cooldown="10"
-                           name="Tau/DeployDrone"
-                           requiredActionPoints="0"
-                           consumedActionPoints="0"
-                           consumedMovement="0"
-                           requiredUpgrade="Tau/ShieldDrone"
-                           unitType="Tau/ShieldDrone">
+        <deployShieldDrone cooldown="10" name="Tau/DeployDrone" requiredActionPoints="0" consumedActionPoints="0" consumedMovement="0" requiredUpgrade="Tau/ShieldDrone" unitType="Tau/ShieldDrone">
             <model>
-                <action animation=""
-                        sound="Actions/DeployDrone"/>
+                <action animation="" sound="Actions/DeployDrone" />
             </model>
             <modifiers>
                 <modifier visible="0" requiredUpgrade="Tau/DroneController">
                     <effects>
-                        <cooldown add="-5"/>
+                        <cooldown add="-5" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -152,8 +118,8 @@
                 <target rangeMax="1">
                     <conditions>
                         <tile>
-                            <noUnit/>
-                            <noFeature name="GravityWaves"/>
+                            <noUnit />
+                            <noFeature name="GravityWaves" />
                         </tile>
                     </conditions>
                     <areas>
@@ -161,7 +127,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="Tau/ShieldDrone" consumedAction="0" consumedMovement="0"/>
+                                        <addUnit name="Tau/ShieldDrone" consumedAction="0" consumedMovement="0" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -170,7 +136,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="3" name="Summon"/>
+                                        <addTrait duration="3" name="Summon" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -179,25 +145,18 @@
                 </target>
             </beginTargets>
             <sharedCooldowns>
-                <action name="Tau/DeployDrone/Tau/GunDrone"/>
-                <action name="Tau/DeployDrone/Tau/MarkerDrone"/>
+                <action name="Tau/DeployDrone/Tau/GunDrone" />
+                <action name="Tau/DeployDrone/Tau/MarkerDrone" />
             </sharedCooldowns>
         </deployShieldDrone>
-        <deployMarkerDrone cooldown="10"
-                           name="Tau/DeployDrone"
-                           requiredActionPoints="0"
-                           consumedActionPoints="0"
-                           consumedMovement="0"
-                           requiredUpgrade="Tau/MarkerDrone"
-                           unitType="Tau/MarkerDrone">
+        <deployMarkerDrone cooldown="10" name="Tau/DeployDrone" requiredActionPoints="0" consumedActionPoints="0" consumedMovement="0" requiredUpgrade="Tau/MarkerDrone" unitType="Tau/MarkerDrone">
             <model>
-                <action animation=""
-                        sound="Actions/DeployDrone"/>
+                <action animation="" sound="Actions/DeployDrone" />
             </model>
             <modifiers>
                 <modifier visible="0" requiredUpgrade="Tau/DroneController">
                     <effects>
-                        <cooldown add="-5"/>
+                        <cooldown add="-5" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -205,8 +164,8 @@
                 <target rangeMax="1">
                     <conditions>
                         <tile>
-                            <noUnit/>
-                            <noFeature name="GravityWaves"/>
+                            <noUnit />
+                            <noFeature name="GravityWaves" />
                         </tile>
                     </conditions>
                     <areas>
@@ -214,7 +173,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="Tau/MarkerDrone" consumedAction="0" consumedMovement="0"/>
+                                        <addUnit name="Tau/MarkerDrone" consumedAction="0" consumedMovement="0" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -223,7 +182,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="3" name="Summon"/>
+                                        <addTrait duration="3" name="Summon" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -232,22 +191,13 @@
                 </target>
             </beginTargets>
             <sharedCooldowns>
-                <action name="Tau/DeployDrone/Tau/GunDrone"/>
-                <action name="Tau/DeployDrone/Tau/ShieldDrone"/>
+                <action name="Tau/DeployDrone/Tau/GunDrone" />
+                <action name="Tau/DeployDrone/Tau/ShieldDrone" />
             </sharedCooldowns>
         </deployMarkerDrone>
-        <senseOfStone cooldown="3"
-                      levelUpPriority="0.1"
-                      rank="-1"
-                      rankMax="2"
-                      requiredActionPoints="1"
-                      consumedActionPoints="0"
-                      consumedMovement="0"
-                      name="Tau/SenseOfStone">
+        <senseOfStone cooldown="3" levelUpPriority="0.1" rank="-1" rankMax="2" requiredActionPoints="1" consumedActionPoints="0" consumedMovement="0" name="Tau/SenseOfStone">
             <model>
-                <action animation="Units/Tau/EtherealAbility"
-                        bone="ChestBone"
-                        sound="Actions/SenseOfStone"/>
+                <action animation="Units/Tau/EtherealAbility" bone="ChestBone" sound="Actions/SenseOfStone" />
             </model>
             <beginTargets>
                 <selfTarget>
@@ -257,14 +207,14 @@
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <allied/>
-                                            <faction name="Tau"/>
-                                            <noTrait name="Fortification"/>
-                                            <noTrait name="Vehicle"/>
+                                            <allied />
+                                            <faction name="Tau" />
+                                            <noTrait name="Fortification" />
+                                            <noTrait name="Vehicle" />
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait durationMin="1" durationMax="3" name="Tau/SenseOfStone"/>
+                                        <addTrait durationMin="1" durationMax="3" name="Tau/SenseOfStone" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -273,19 +223,9 @@
                 </selfTarget>
             </beginTargets>
         </senseOfStone>
-        <stormOfFire cooldown="1"
-                     levelUpPriority="0.1"
-                     rank="-1"
-                     rankMax="2"
-                     requiredActionPoints="0"
-                     consumedActionPoints="0"
-                     requiredMovement="1"
-                     icon="Actions/Tau/ShieldGenerator"
-                     name="Tau/StormOfFire">
+        <stormOfFire cooldown="1" levelUpPriority="0.1" rank="-1" rankMax="2" requiredActionPoints="0" consumedActionPoints="0" requiredMovement="1" icon="Actions/Tau/ShieldGenerator" name="Tau/StormOfFire">
             <model>
-                <action animation="Units/Tau/EtherealAbility"
-                        bone="ChestBone"
-                        sound="Actions/StormOfFire"/>
+                <action animation="Units/Tau/EtherealAbility" bone="ChestBone" sound="Actions/StormOfFire" />
             </model>
             <beginTargets>
                 <selfTarget>
@@ -294,7 +234,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Tau/StormOfFire"/>
+                                        <addTrait duration="1" name="Tau/StormOfFire" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -303,15 +243,9 @@
                 </selfTarget>
             </beginTargets>
         </stormOfFire>
-        <calmOfTides cooldown="3"
-                     levelUpPriority="0.1"
-                     rank="-1"
-                     rankMax="2"
-                     name="Tau/CalmOfTides">
+        <calmOfTides cooldown="3" levelUpPriority="0.1" rank="-1" rankMax="2" name="Tau/CalmOfTides">
             <model>
-                <action animation="Units/Tau/EtherealAbility"
-                        bone="ChestBone"
-                        sound="Actions/CalmOfTides"/>
+                <action animation="Units/Tau/EtherealAbility" bone="ChestBone" sound="Actions/CalmOfTides" />
             </model>
             <beginTargets>
                 <selfTarget>
@@ -321,15 +255,15 @@
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <allied/>
-                                            <faction name="Tau"/>
-                                            <noTrait name="Fortification"/>
-                                            <noTrait name="Vehicle"/>
+                                            <allied />
+                                            <faction name="Tau" />
+                                            <noTrait name="Fortification" />
+                                            <noTrait name="Vehicle" />
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <hitpoints addMin="4" addMax="12"/>
-                                        <morale addMin="1" addMax="3"/>
+                                        <hitpoints addMin="4" addMax="12" />
+                                        <morale addMin="1" addMax="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -338,12 +272,7 @@
                 </selfTarget>
             </beginTargets>
         </calmOfTides>
-        <genericUnitAbility passive="1"
-                            elite="1"
-                            levelUpPriority="1"
-                            rank="-1"
-                            rankMax="0"
-                            name="Tau/Unity">
+        <genericUnitAbility passive="1" elite="1" levelUpPriority="1" rank="-1" rankMax="0" name="Tau/Unity">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -351,7 +280,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Tau/Unity"/>
+                                        <addTrait name="Tau/Unity" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -360,15 +289,15 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <levelUp/>
-        <shop/>
+        <levelUp />
+        <shop />
     </actions>
     <traits>
-        <trait name="Hero"/>
-        <trait name="SupportHero"/>
-        <trait name="Stubborn"/>
-        <trait name="Tau/BlacksunFilter" requiredUpgrade="Tau/BlacksunFilter"/>
-        <trait name="ExtraInfantryArmour" requiredUpgrade="Tau/ExtraInfantryArmour"/>
-        <trait name="Tau/PreciseShooter"/>
+        <trait name="Hero" />
+        <trait name="SupportHero" />
+        <trait name="Stubborn" />
+        <trait name="Tau/BlacksunFilter" requiredUpgrade="Tau/BlacksunFilter" />
+        <trait name="ExtraInfantryArmour" requiredUpgrade="Tau/ExtraInfantryArmour" />
+        <trait name="Tau/PreciseShooter" />
     </traits>
 </unit>

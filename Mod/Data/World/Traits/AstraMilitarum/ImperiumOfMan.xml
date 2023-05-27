@@ -4,12 +4,12 @@
         <modifier>
             <conditions>
                 <weapon>
-                    <trait name="RapidFire"/>
+                    <trait name="RapidFire" />
                 </weapon>
-                <encounterRange greater="1"/>
+                <encounterRange greater="1" />
             </conditions>
             <effects>
-                <rangedAttacks mul="1"/>
+                <rangedAttacks mul="1" />
             </effects>
         </modifier>
     </modifiers>

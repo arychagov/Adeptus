@@ -5,25 +5,25 @@
             <conditions>
                 <encounter>
                     <opponent>
-                        <trait name="Flyer"/>
+                        <trait name="Flyer" />
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <rangedAccuracy mul="0.33"/>
+                <rangedAccuracy mul="0.33" />
             </effects>
         </modifier>
         <modifier>
             <conditions>
                 <encounter>
                     <opponent>
-                        <noTrait name="Flyer"/>
-                        <noTrait name="Skimmer"/>
+                        <noTrait name="Flyer" />
+                        <noTrait name="Skimmer" />
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <rangedAccuracy mul="-0.33"/>
+                <rangedAccuracy mul="-0.33" />
             </effects>
         </modifier>
     </modifiers>

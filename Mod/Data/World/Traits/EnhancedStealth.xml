@@ -4,12 +4,12 @@
         <modifier>
             <conditions>
                 <tile>
-                    <feature name="Forest"/>
-                    <feature name="ImperialRuin"/>
+                    <feature name="Forest" />
+                    <feature name="ImperialRuin" />
                 </tile>
             </conditions>
             <effects>
-                <rangedDamageReduction add="0.17"/>
+                <rangedDamageReduction add="0.17" />
             </effects>
         </modifier>
     </modifiers>

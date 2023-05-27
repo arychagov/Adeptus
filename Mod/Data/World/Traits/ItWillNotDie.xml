@@ -3,7 +3,7 @@
     <perTurnModifiers endure="0">
         <modifier>
             <effects>
-                <hitpoints add="2"/>
+                <hitpoints add="2" />
             </effects>
         </modifier>
     </perTurnModifiers>

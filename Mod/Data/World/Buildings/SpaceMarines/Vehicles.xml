@@ -3,18 +3,18 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36"/>
-                <requisitionsCost base="50"/>
-                <populationRequired base="1"/>
-                <slotsRequired base="1"/>
-                <energyUpkeep add="2"/>
+                <productionCost base="36" />
+                <requisitionsCost base="50" />
+                <populationRequired base="1" />
+                <slotsRequired base="1" />
+                <energyUpkeep add="2" />
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <research add="2"/>
-                <production add="6"/>
-                <influence add="2"/>
+                <research add="2" />
+                <production add="6" />
+                <influence add="2" />
             </effects>
         </modifier>
     </modifiers>
@@ -28,19 +28,19 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesProductionScore base="1.0"/>
+                <increaseVehiclesProductionScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>
     Razorback
     <actions>
-        <produceUnit unit="SpaceMarines/Razorback"/>
-        <produceUnit unit="SpaceMarines/ScoutBiker" requiredUpgrade="SpaceMarines/ScoutBiker"/>
-        <produceUnit unit="SpaceMarines/LandSpeeder" requiredUpgrade="SpaceMarines/LandSpeeder"/>
-        <produceUnit unit="SpaceMarines/Hunter" requiredUpgrade="SpaceMarines/Hunter"/>
-        <produceUnit unit="SpaceMarines/Predator" requiredUpgrade="SpaceMarines/Predator"/>
-        <produceUnit unit="SpaceMarines/Dreadnought" requiredUpgrade="SpaceMarines/Dreadnought"/>
-        <produceUnit unit="SpaceMarines/Vindicator" requiredUpgrade="SpaceMarines/Vindicator"/>
-        <produceUnit unit="SpaceMarines/LandRaider" requiredUpgrade="SpaceMarines/LandRaider"/>
+        <produceUnit unit="SpaceMarines/Razorback" />
+        <produceUnit unit="SpaceMarines/ScoutBiker" requiredUpgrade="SpaceMarines/ScoutBiker" />
+        <produceUnit unit="SpaceMarines/LandSpeeder" requiredUpgrade="SpaceMarines/LandSpeeder" />
+        <produceUnit unit="SpaceMarines/Hunter" requiredUpgrade="SpaceMarines/Hunter" />
+        <produceUnit unit="SpaceMarines/Predator" requiredUpgrade="SpaceMarines/Predator" />
+        <produceUnit unit="SpaceMarines/Dreadnought" requiredUpgrade="SpaceMarines/Dreadnought" />
+        <produceUnit unit="SpaceMarines/Vindicator" requiredUpgrade="SpaceMarines/Vindicator" />
+        <produceUnit unit="SpaceMarines/LandRaider" requiredUpgrade="SpaceMarines/LandRaider" />
     </actions>
 </building>

@@ -4,16 +4,16 @@
         <modifier>
             <conditions>
                 <unit>
-                    <allied/>
-                    <faction name="Orks"/>
-                    <noTrait name="Fortification"/>
-                    <noTrait name="Vehicle"/>
+                    <allied />
+                    <faction name="Orks" />
+                    <noTrait name="Fortification" />
+                    <noTrait name="Vehicle" />
                 </unit>
             </conditions>
             <effects>
-                <energyUpkeep mulMin="-0.25" mulMax="-0.75"/>
-                <foodUpkeep mulMin="-0.25" mulMax="-0.75"/>
-                <oreUpkeep mulMin="-0.25" mulMax="-0.75"/>
+                <energyUpkeep mulMin="-0.25" mulMax="-0.75" />
+                <foodUpkeep mulMin="-0.25" mulMax="-0.75" />
+                <oreUpkeep mulMin="-0.25" mulMax="-0.75" />
             </effects>
         </modifier>
     </modifiers>

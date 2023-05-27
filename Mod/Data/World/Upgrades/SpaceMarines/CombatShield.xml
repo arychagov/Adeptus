@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade position="4" icon="Traits/CombatShield">
     <requiredUpgrades>
-        <upgrade name="SpaceMarines/AssaultSpaceMarine"/>
+        <upgrade name="SpaceMarines/AssaultSpaceMarine" />
     </requiredUpgrades>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="0.75"/>
+                <increaseInfantryScore base="0.75" />
             </effects>
         </modifier>
     </strategyModifiers>

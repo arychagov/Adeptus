@@ -4,11 +4,11 @@
         <modifier>
             <conditions>
                 <building>
-                    <type name="AstraMilitarum/Vehicles"/>
+                    <type name="AstraMilitarum/Vehicles" />
                 </building>
             </conditions>
             <effects>
-                <production mul="0.25"/>
+                <production mul="0.25" />
             </effects>
         </modifier>
     </modifiers>

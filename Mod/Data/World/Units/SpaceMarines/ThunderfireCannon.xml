@@ -1,114 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/SpaceMarines/ThunderfireCannon"
-              material="Units/SpaceMarines/ThunderfireCannon"
-              idleAnimation="Units/SpaceMarines/ThunderfireCannonIdle"
-              idleAnimationCount="3"
-              idleContinuously="1"
-              normalWeight="0.1"
-              scale="0.75 0.75 0.75"
-              bloodBone="BloodBone"
-              walker="1"/>
+        <unit mesh="Units/SpaceMarines/ThunderfireCannon" material="Units/SpaceMarines/ThunderfireCannon" idleAnimation="Units/SpaceMarines/ThunderfireCannonIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.75 0.75 0.75" bloodBone="BloodBone" walker="1" />
     </model>
     <weapons>
         <weapon name="ThunderfireCannon">
             <model>
-                <projectileWeapon muzzleBone=".ThunderFire"
-                                  fireInterval="0.1"
-                                  effectScale="1.5"/>
+                <projectileWeapon muzzleBone=".ThunderFire" fireInterval="0.1" effectScale="1.5" />
             </model>
         </weapon>
         <weapon name="PlasmaCutter">
             <model>
-                <beamWeapon muzzleBone=".PlasmaCutter0"/>
+                <beamWeapon muzzleBone=".PlasmaCutter0" />
             </model>
         </weapon>
         <weapon name="Flamer">
             <model>
-                <flamerWeapon muzzleBone=".FlamerMuzzle0"
-                              fireInterval="10"/>
+                <flamerWeapon muzzleBone=".FlamerMuzzle0" fireInterval="10" />
             </model>
         </weapon>
         <weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
             <model>
-                <grenadeWeapon muzzleBone="Bone009(mirrored)"/>
+                <grenadeWeapon muzzleBone="Bone009(mirrored)" />
             </model>
         </weapon>
         <weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
             <model>
-                <grenadeWeapon muzzleBone="Bone009(mirrored)"/>
+                <grenadeWeapon muzzleBone="Bone009(mirrored)" />
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8"/> <!-- %armor base armor=3+ -->
-                <energyCost base="30.0"/> <!-- %energyCost base tier=7 factor=0.5 -->
-                <hitpointsMax base="12.0"/>
-                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=6 wounds=2 -->
-                <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
-                <meleeAttacks base="2"/>
-                <strengthDamage base="1.5"/> <!-- %strengthDamage base strength=4 -->
+                <armor base="8" /> <!-- %armor base armor=3+ -->
+                <energyCost base="30.0" /> <!-- %energyCost base tier=7 factor=0.5 -->
+                <hitpointsMax base="12.0" />
+                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=6 wounds=2 -->
+                <meleeAccuracy base="8" /> <!-- %meleeAccuracy base weaponSkill=4 -->
+                <meleeAttacks base="2" />
+                <strengthDamage base="1.5" /> <!-- %strengthDamage base strength=4 -->
                 <!-- <meleeInitiative base="4"/> -->
-                <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
-                <movementMax base="3"/>
-                <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
-                <rangedAccuracy base="10"/> <!-- %rangedAccuracy base ballisticSkill=5 -->
-                <requisitionsCost base="30.0"/> <!-- %requisitionsCost base tier=7 factor=0.5 -->
-                <requisitionsUpkeep base="1.5"/> <!-- %requisitionsUpkeep base tier=7 factor=1 -->
-                <energyUpkeep base="1.5"/>
+                <moraleMax base="10" /> <!-- %moraleMax base leadership=8 -->
+                <movementMax base="3" />
+                <productionCost base="42.0" /> <!-- %productionCost base tier=7 factor=1 -->
+                <rangedAccuracy base="10" /> <!-- %rangedAccuracy base ballisticSkill=5 -->
+                <requisitionsCost base="30.0" /> <!-- %requisitionsCost base tier=7 factor=0.5 -->
+                <requisitionsUpkeep base="1.5" /> <!-- %requisitionsUpkeep base tier=7 factor=1 -->
+                <energyUpkeep base="1.5" />
             </effects>
         </modifier>
         <modifier requiredUpgrade="SpaceMarines/SiegeManeuvers">
             <effects>
-                <hitpointsMax add="4.0"/>
-                <hitpoints add="4.0"/>
+                <hitpointsMax add="4.0" />
+                <hitpoints add="4.0" />
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseSupportScore base="1.0"/>
+                <increaseSupportScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/SpaceMarines/ThunderfireCannonAttack"
-                        beginFire="0.35" endFire="2.5"/>
+                <action animation="Units/SpaceMarines/ThunderfireCannonAttack" beginFire="0.35" endFire="2.5" />
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/SpaceMarines/ThunderfireCannonDie"
-                        sound="Units/SmallVehicleDie"
-                        soundCount="3"
-                        soundDelay="0"
-                        voiceSound="Units/SpaceMarines/InfantryDie"
-                        voiceSoundCount="5"/>
+                <action animation="Units/SpaceMarines/ThunderfireCannonDie" sound="Units/SmallVehicleDie" soundCount="3" soundDelay="0" voiceSound="Units/SpaceMarines/InfantryDie" voiceSoundCount="5" />
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0"/>
+                <action animationSpeed="1.0" />
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/SpaceMarines/ThunderfireCannonMove"
-                        sound="Units/SpaceMarines/ThunderfireCannonMove"
-                        soundCount="3"/>
+                <action animation="Units/SpaceMarines/ThunderfireCannonMove" sound="Units/SpaceMarines/ThunderfireCannonMove" soundCount="3" />
             </model>
         </move>
 
-        <bolsterDefences cooldown="3"
-                         requiredUpgrade="SpaceMarines/CityTier4">
+        <bolsterDefences cooldown="3" requiredUpgrade="SpaceMarines/CityTier4">
             <model>
-                <action sound="Actions/ArmourUp"/>
+                <action sound="Actions/ArmourUp" />
             </model>
             <beginTargets>
                 <target rangeMin="1" rangeMax="2">
@@ -117,7 +97,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature duration="3" name="BolsterDefences"/>
+                                        <addFeature duration="3" name="BolsterDefences" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -128,12 +108,11 @@
         </bolsterDefences>
         <healingSurge cooldown="1" icon="Actions/ChaosSpaceMarines/SelfRepair">
             <model>
-                <action animation=""
-                        sound="Actions/MechanicalBuff"/>
+                <action animation="" sound="Actions/MechanicalBuff" />
             </model>
             <conditions>
                 <unit>
-                    <damaged/>
+                    <damaged />
                 </unit>
             </conditions>
             <beginTargets>
@@ -143,7 +122,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints add="6"/>
+                                        <hitpoints add="6" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -154,22 +133,22 @@
         </healingSurge>
         <orbitalDeployment requiredUpgrade="SpaceMarines/OrbitalDeployment">
             <model>
-                <action sound="Actions/DropPod"/>
+                <action sound="Actions/DropPod" />
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40"/>
+                        <influenceCost base="40" />
                     </effects>
                 </modifier>
             </modifiers>
         </orbitalDeployment>
     </actions>
     <traits>
-        <trait name="AndTheyShallKnowNoFear"/>
-        <trait name="ConvergentTargeting"/>
-        <trait name="ExtraInfantryArmour" requiredUpgrade="SpaceMarines/ExtraInfantryArmour"/>
-        <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand"/>
-        <trait name="Relentless" requiredUpgrade="SpaceMarines/SiegeManeuvers"/>
+        <trait name="AndTheyShallKnowNoFear" />
+        <trait name="ConvergentTargeting" />
+        <trait name="ExtraInfantryArmour" requiredUpgrade="SpaceMarines/ExtraInfantryArmour" />
+        <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand" />
+        <trait name="Relentless" requiredUpgrade="SpaceMarines/SiegeManeuvers" />
     </traits>
 </unit>

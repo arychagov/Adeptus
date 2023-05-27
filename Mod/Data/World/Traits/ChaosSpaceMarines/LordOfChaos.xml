@@ -4,18 +4,18 @@
         <modifier>
             <conditions>
                 <unit match="Any">
-                    <type name="ChaosSpaceMarines/KhorneBerzerker"/>
-                    <type name="ChaosSpaceMarines/ChaosCultist"/>
-                    <type name="ChaosSpaceMarines/WarpTalon"/>
-                    <type name="ChaosSpaceMarines/ChaosSpawn"/>
+                    <type name="ChaosSpaceMarines/KhorneBerzerker" />
+                    <type name="ChaosSpaceMarines/ChaosCultist" />
+                    <type name="ChaosSpaceMarines/WarpTalon" />
+                    <type name="ChaosSpaceMarines/ChaosSpawn" />
                 </unit>
                 <unit>
-                    <allied/>
+                    <allied />
                 </unit>
             </conditions>
             <effects>
-                <invulnerableDamageReduction minMin="0.05" minMax="0.15"/>
-                <meleeAttacks mulMin="0.05" mulMax="0.15"/>
+                <invulnerableDamageReduction minMin="0.05" minMax="0.15" />
+                <meleeAttacks mulMin="0.05" mulMax="0.15" />
             </effects>
         </modifier>
     </modifiers>

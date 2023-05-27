@@ -5,13 +5,13 @@
             <conditions>
                 <unit>
                     <unitsInRange count="1" range="1">
-                        <allied/>
-                        <type name="SpaceMarines/Hunter"/>
+                        <allied />
+                        <type name="SpaceMarines/Hunter" />
                     </unitsInRange>
                 </unit>
             </conditions>
             <effects>
-                <rangedAccuracy add="4"/>
+                <rangedAccuracy add="4" />
             </effects>
         </modifier>
     </modifiers>

@@ -4,11 +4,11 @@
         <modifier>
             <conditions>
                 <building>
-                    <type name="AstraMilitarum/Research"/>
+                    <type name="AstraMilitarum/Research" />
                 </building>
             </conditions>
             <effects>
-                <research mul="0.25"/>
+                <research mul="0.25" />
             </effects>
         </modifier>
     </modifiers>

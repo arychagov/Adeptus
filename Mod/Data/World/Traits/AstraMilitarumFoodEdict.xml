@@ -4,11 +4,11 @@
         <modifier>
             <conditions>
                 <building>
-                    <type name="AstraMilitarum/Food"/>
+                    <type name="AstraMilitarum/Food" />
                 </building>
             </conditions>
             <effects>
-                <food mul="0.25"/>
+                <food mul="0.25" />
             </effects>
         </modifier>
     </modifiers>

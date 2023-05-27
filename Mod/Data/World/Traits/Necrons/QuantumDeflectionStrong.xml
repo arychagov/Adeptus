@@ -4,16 +4,16 @@
         <modifier>
             <conditions>
                 <unit>
-                    <allied/>
-                    <noTrait name="Hero"/>
-                    <noTrait name="Fortification"/>
-                    <noTrait name="MonstrousCreature"/>
-                    <noType name="Necrons/Obelisk"/>
-                    <faction name="Necrons"/>
+                    <allied />
+                    <noTrait name="Hero" />
+                    <noTrait name="Fortification" />
+                    <noTrait name="MonstrousCreature" />
+                    <noType name="Necrons/Obelisk" />
+                    <faction name="Necrons" />
                 </unit>
             </conditions>
             <effects>
-                <invulnerableDamageReduction min="0.33"/>
+                <invulnerableDamageReduction min="0.33" />
             </effects>
         </modifier>
     </modifiers>
