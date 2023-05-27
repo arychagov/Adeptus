@@ -33,8 +33,8 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="SpaceMarines/TacticalSpaceMarine" />
-        <produceUnit unit="SpaceMarines/AssaultSpaceMarine" requiredUpgrade="SpaceMarines/AssaultSpaceMarine" />
         <produceUnit unit="SpaceMarines/Scout" requiredUpgrade="SpaceMarines/Scout" />
+        <produceUnit unit="SpaceMarines/AssaultSpaceMarine" requiredUpgrade="SpaceMarines/AssaultSpaceMarine" />
         <produceUnit unit="SpaceMarines/DevastatorSpaceMarine" requiredUpgrade="SpaceMarines/DevastatorSpaceMarine" />
         <produceUnit unit="SpaceMarines/ThunderfireCannon" requiredUpgrade="SpaceMarines/ThunderfireCannon" />
         <produceUnit unit="SpaceMarines/Apothecary" requiredUpgrade="SpaceMarines/Apothecary" />

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<building>
+<trait>
     <modifiers>
         <modifier>
             <effects>
-                <loyalty add="1"/>
+                <lifeStealFactor add="1.0" />
             </effects>
         </modifier>
     </modifiers>
-</building>
+</trait>

@@ -32,11 +32,11 @@
             </effects>
         </modifier>
     </strategyModifiers>
-    Razorback
     <actions>
         <produceUnit unit="SpaceMarines/Razorback" />
         <produceUnit unit="SpaceMarines/ScoutBiker" requiredUpgrade="SpaceMarines/ScoutBiker" />
         <produceUnit unit="SpaceMarines/LandSpeeder" requiredUpgrade="SpaceMarines/LandSpeeder" />
+        <produceUnit unit="SpaceMarines/Whirlwind" requiredUpgrade="SpaceMarines/Whirlwind" />
         <produceUnit unit="SpaceMarines/Hunter" requiredUpgrade="SpaceMarines/Hunter" />
         <produceUnit unit="SpaceMarines/Predator" requiredUpgrade="SpaceMarines/Predator" />
         <produceUnit unit="SpaceMarines/Dreadnought" requiredUpgrade="SpaceMarines/Dreadnought" />
