@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<building>
-    <modifiers>
+<trait category="Buff">
+    <onTraitRemovedModifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36"/>
-                <oreCost base="50"/>
-                <energyUpkeep add="-1"/>
+                <movement min="999" />
             </effects>
         </modifier>
+    </onTraitRemovedModifiers>
+    <modifiers>
         <modifier>
             <effects>
-                <energy add="-1"/>
-                <research add="-1"/>
+                <movementMax max="1" />
+                <rangedAttacks mul="1.0" />
             </effects>
         </modifier>
     </modifiers>
-</building>
+</trait>

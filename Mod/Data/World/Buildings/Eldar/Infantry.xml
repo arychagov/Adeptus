@@ -37,6 +37,7 @@
         <produceUnit unit="Eldar/Guardian" />
         <produceUnit unit="Eldar/Ranger" requiredUpgrade="Eldar/Ranger" />
         <produceUnit unit="Eldar/HowlingBanshee" requiredUpgrade="Eldar/HowlingBanshee" />
+        <produceUnit unit="Eldar/DarkReaper" requiredUpgrade="Eldar/DarkReaper" />
         <produceUnit unit="Eldar/FireDragon" requiredUpgrade="Eldar/FireDragon" />
         <produceUnit unit="Eldar/Warlock" requiredUpgrade="Eldar/Warlock" />
         <produceUnit unit="Eldar/Wraithblade" requiredUpgrade="Eldar/Wraithblade" />
