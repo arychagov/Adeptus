@@ -3,15 +3,15 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36"/>
-                <oreCost base="50"/>
-                <energyUpkeep add="-1"/>
+                <productionCost base="48" />
+                <requisitionsCost base="80" />
+                <slotsRequired base="1" />
+                <energyUpkeep add="3" />
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <ore add="-1"/>
-                <influence add="-1"/>
+                <influence add="6" />
             </effects>
         </modifier>
     </modifiers>

@@ -12,9 +12,9 @@
         </modifier>
         <modifier>
             <effects>
-                <research add="2" />
                 <ore add="6" />
                 <production add="6" />
+                <research add="2" />
             </effects>
         </modifier>
     </modifiers>
