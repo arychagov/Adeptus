@@ -17,6 +17,8 @@
         <track name="Music/NecronsTheme" />
         <track name="Music/OrksBGM" />
         <track name="Music/OrksTheme" />
+        <track name="Music/SistersOfBattleBGM" dlc="Supplement11" />
+        <track name="Music/SistersOfBattleTheme" dlc="Supplement11" />
         <track name="Music/SpaceMarinesBGM" />
         <track name="Music/SpaceMarinesTheme" />
         <track name="Music/TauBGM" dlc="Supplement5" />

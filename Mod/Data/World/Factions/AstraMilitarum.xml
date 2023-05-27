@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <faction constructSound="Actions/Construct" energy="1" energyPooling="0.25" food="1" foodPooling="0.25" influence="1" loyalty="1" ore="1" playable="1" production="1" research="1" startingEnergy="25" startingFood="25" startingInfluence="25" startingOre="50" startingRequisitions="0">
     <music>
+        <track name="Music/AdeptusMechanicusBGM" dlc="Supplement9" />
+        <track name="Music/AdeptusMechanicusTheme" dlc="Supplement9" />
         <mainTrack name="Music/AstraMilitarumBGM" />
         <track name="Music/AstraMilitarumTheme" />
         <track name="Music/BGM0" />
         <track name="Music/BGM1" />
         <track name="Music/ChaosSpaceMarinesBGM" dlc="Supplement3" />
         <track name="Music/ChaosSpaceMarinesTheme" dlc="Supplement3" />
-        <track name="Music/EldarBGM" dlc="Supplement6" />
-        <track name="Music/EldarTheme" dlc="Supplement6" />
+        <track name="Music/EldarBGM" dlc="Supplement7" />
+        <track name="Music/EldarTheme" dlc="Supplement7" />
         <track name="Music/MainBGM" />
         <track name="Music/MainTheme" />
         <track name="Music/NecronsBGM" />
         <track name="Music/NecronsTheme" />
         <track name="Music/OrksBGM" />
         <track name="Music/OrksTheme" />
+        <track name="Music/SistersOfBattleBGM" dlc="Supplement11" />
+        <track name="Music/SistersOfBattleTheme" dlc="Supplement11" />
         <track name="Music/SpaceMarinesBGM" />
         <track name="Music/SpaceMarinesTheme" />
         <track name="Music/TauBGM" dlc="Supplement5" />
