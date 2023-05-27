@@ -12,8 +12,8 @@
         </modifier>
         <modifier>
             <effects>
-                <influence add="2" />
                 <biomass add="2" />
+                <loyalty add="1" />
                 <production add="6" />
             </effects>
         </modifier>
@@ -21,7 +21,7 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesProductionScore base="1.0" />
+                <increaseHeroesProductionScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>
@@ -45,13 +45,9 @@
                 </modifier>
             </modifiers>
         </reclaimUnit>
-        <produceUnit unit="Tyranids/Tyrannocyte" />
-        <produceUnit unit="Tyranids/Carnifex" requiredUpgrade="Tyranids/Carnifex" />
-        <produceUnit unit="Tyranids/Exocrine" requiredUpgrade="Tyranids/Exocrine" />
-        <produceUnit unit="Tyranids/Haruspex" requiredUpgrade="Tyranids/Haruspex" />
-        <produceUnit unit="Tyranids/Trygon" requiredUpgrade="Tyranids/Trygon" />
-        <produceUnit unit="Tyranids/Tyrannofex" requiredUpgrade="Tyranids/Tyrannofex" />
-        <produceUnit unit="Tyranids/ScythedHierodule" requiredUpgrade="Tyranids/ScythedHierodule" />
+        <produceUnit unit="Tyranids/TyranidPrime" />
+        <produceUnit unit="Tyranids/Tervigon" requiredUpgrade="Tyranids/Tervigon" />
+        <produceUnit unit="Tyranids/HiveTyrant" requiredUpgrade="Tyranids/HiveTyrant" />
     </actions>
     <traits>
         <trait name="Tyranids/ProductionBuildingUpkeep" requiredUpgrade="Tyranids/ProductionBuildingUpkeep" />
