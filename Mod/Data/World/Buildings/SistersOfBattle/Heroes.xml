@@ -12,9 +12,9 @@
         </modifier>
         <modifier>
             <effects>
-                <populationLimit add="1" />
+                <loyalty add="1" />
+                <influence add="2" />
                 <production add="6" />
-                <requisitions add="2" />
             </effects>
         </modifier>
     </modifiers>
@@ -28,18 +28,16 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryProductionScore base="1.0" />
+                <increaseColonizersProductionScore base="1.0" />
+                <increaseHeroesProductionScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="SistersOfBattle/BattleSister" />
-        <produceUnit unit="SistersOfBattle/Hospitaller" requiredUpgrade="SistersOfBattle/Hospitaller" />
+        <produceUnit unit="SistersOfBattle/Canoness" />
+        <produceUnit unit="SistersOfBattle/Dialogus" requiredUpgrade="SistersOfBattle/Dialogus" />
         <produceUnit unit="SistersOfBattle/Imagifier" requiredUpgrade="SistersOfBattle/Imagifier" />
-        <produceUnit unit="SistersOfBattle/Zephyrim" requiredUpgrade="SistersOfBattle/Zephyrim" />
-        <produceUnit unit="SistersOfBattle/SisterRepentia" requiredUpgrade="SistersOfBattle/SisterRepentia" />
-        <produceUnit unit="SistersOfBattle/Dominion" requiredUpgrade="SistersOfBattle/Dominion" />
-        <produceUnit unit="SistersOfBattle/Retributor" requiredUpgrade="SistersOfBattle/Retributor" />
-        <produceUnit unit="SistersOfBattle/CelestianSacresant" requiredUpgrade="SistersOfBattle/CelestianSacresant" />
+        <produceUnit unit="SistersOfBattle/Hospitaller" requiredUpgrade="SistersOfBattle/Hospitaller" />
+        <produceUnit unit="SistersOfBattle/SaintCelestine" requiredUpgrade="SistersOfBattle/SaintCelestine" />
     </actions>
 </building>
