@@ -12,8 +12,8 @@
         </modifier>
         <modifier>
             <effects>
+                <food add="2" />
                 <influence add="2" />
-                <research add="2" />
                 <production add="6" />
             </effects>
         </modifier>
@@ -28,16 +28,13 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseSupportProductionScore base="1.0" />
-                <increaseVehiclesProductionScore base="1.0" />
+                <increaseHeroesProductionScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="Tau/GhostkeelBattlesuit" />
-        <produceUnit unit="Tau/BroadsideBattlesuit" requiredUpgrade="Tau/BroadsideBattlesuit" />
-        <produceUnit unit="Tau/RiptideBattlesuit" requiredUpgrade="Tau/RiptideBattlesuit" />
-        <produceUnit unit="Tau/RVarnaBattlesuit" requiredUpgrade="Tau/RVarnaBattlesuit" />
-        <produceUnit unit="Tau/Stormsurge" requiredUpgrade="Tau/Stormsurge" />
+        <produceUnit unit="Tau/CadreFireblade" />
+        <produceUnit unit="Tau/Ethereal" requiredUpgrade="Tau/Ethereal" />
+        <produceUnit unit="Tau/Commander" requiredUpgrade="Tau/Commander" />
     </actions>
 </building>

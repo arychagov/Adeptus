@@ -3,8 +3,8 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36" />
-                <oreCost base="50" />
+                <productionCost base="36"/>
+                <oreCost base="50"/>
                 <populationRequired base="1" />
                 <slotsRequired base="1" />
                 <energyUpkeep add="2" />
@@ -12,8 +12,8 @@
         </modifier>
         <modifier>
             <effects>
+                <populationLimit add="1" />
                 <influence add="2" />
-                <research add="2" />
                 <production add="6" />
             </effects>
         </modifier>
@@ -28,16 +28,13 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseSupportProductionScore base="1.0" />
-                <increaseVehiclesProductionScore base="1.0" />
+                <increaseAircraftProductionScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="Tau/GhostkeelBattlesuit" />
-        <produceUnit unit="Tau/BroadsideBattlesuit" requiredUpgrade="Tau/BroadsideBattlesuit" />
-        <produceUnit unit="Tau/RiptideBattlesuit" requiredUpgrade="Tau/RiptideBattlesuit" />
-        <produceUnit unit="Tau/RVarnaBattlesuit" requiredUpgrade="Tau/RVarnaBattlesuit" />
-        <produceUnit unit="Tau/Stormsurge" requiredUpgrade="Tau/Stormsurge" />
+        <produceUnit unit="Tau/RazorsharkStrikeFighter" />
+        <produceUnit unit="Tau/SunSharkBomber" requiredUpgrade="Tau/SunSharkBomber" />
+        <produceUnit unit="Tau/TigerShark" requiredUpgrade="Tau/TigerShark" />
     </actions>
 </building>
