@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1">
+    <modifiers>
+        <modifier>
+            <conditions>
+                <encounter>
+                    <opponent>
+                        <trait name="Jink" />
+                    </opponent>
+                </encounter>
+            </conditions>
+            <effects>
+                <rangedDamageReductionBypass add="0.33" />
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>
