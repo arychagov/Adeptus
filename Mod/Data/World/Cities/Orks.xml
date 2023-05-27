@@ -6,7 +6,6 @@
         <trait name="Orks/CityLoyalty" requiredUpgrade="Orks/CityLoyalty" />
         <trait name="Orks/CityPopulationLimit" requiredUpgrade="Orks/CityPopulationLimit" />
         <trait name="Orks/CityResearch" requiredUpgrade="Orks/CityResearch" />
-        <trait name="Orks/CityResearch" requiredUpgrade="Orks/CityResearch" />
         <trait name="Orks/CityFoodAndOre" requiredUpgrade="Orks/BonusBeastsProduction" />
     </traits>
 </city>
