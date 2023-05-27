@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<building>
+<trait icon="Traits/WeaponBonus">
     <modifiers>
         <modifier>
             <effects>
-                <loyalty add="-1"/>
-                <research add="2"/>
+                <armorPenetration add="1" />
             </effects>
         </modifier>
     </modifiers>
-</building>
+</trait>
