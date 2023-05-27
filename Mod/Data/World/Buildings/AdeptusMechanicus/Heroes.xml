@@ -38,6 +38,7 @@
         <produceUnit unit="AdeptusMechanicus/TechPriestManipulus" requiredUpgrade="AdeptusMechanicus/TechPriestManipulus" />
         <produceUnit unit="AdeptusMechanicus/TechPriestDominus" requiredUpgrade="AdeptusMechanicus/TechPriestDominus" />
         <produceUnit unit="AdeptusMechanicus/FulguriteElectroPriest" requiredUpgrade="AdeptusMechanicus/FulguriteElectroPriest" />
+        <produceUnit unit="AdeptusMechanicus/KataphronBreacher" requiredUpgrade="AdeptusMechanicus/KataphronBreacher" />
         <produceUnit unit="AdeptusMechanicus/KataphronDestroyer" requiredUpgrade="AdeptusMechanicus/KataphronDestroyer" />
     </actions>
 </building>
