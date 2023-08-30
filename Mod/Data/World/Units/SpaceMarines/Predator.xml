@@ -111,7 +111,7 @@
             </beginTargets>
         </genericUnitAbility>
 
-        <genericUnitAbility name="SpaceMarines/ImprovedLascannon" charges="1" icon="Weapons/TwinLinkedLascannon" requiredUpgrade="SpaceMarines/PredatorLascannon">
+        <genericUnitAbility name="SpaceMarines/ImprovedLascannon" charges="1" icon="Actions/SpaceMarines/ImprovedLascannon" requiredUpgrade="SpaceMarines/PredatorLascannon">
             <conditions>
                 <unit>
                     <noTrait name="SpaceMarines/AdditionalHeavyBolters" />
