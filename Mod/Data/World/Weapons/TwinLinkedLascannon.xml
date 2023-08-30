@@ -21,5 +21,6 @@
         <trait name="SpaceMarines/LasDamage" requiredUpgrade="SpaceMarines/BlastDamage" />
         <trait name="SistersOfBattle/HeavyWeaponBonus" requiredUpgrade="SistersOfBattle/HeavyWeaponBonus" />
         <trait name="TwinLinked" />
+        <trait name="SpaceMarines/ChadLascannon"/>
     </traits>
 </weapon>

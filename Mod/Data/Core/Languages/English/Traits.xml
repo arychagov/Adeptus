@@ -192,12 +192,19 @@
     <entry name="SistersOfBattle/FaithAndFuryDescription" value="Reduces the cooldown of Acts of Faith." />
     <entry name="SistersOfBattle/FaithAndFuryFlavor" value="With the Emperor watching over them, the righteous zeal of the Sisters of Battle burns ever brighter, fuelling their attacks." />
 
+    <entry name="SpaceMarines/AdditionalHeavyBolters" value="Additional Heavy Bolters" />
+    <entry name="SpaceMarines/AdditionalHeavyBoltersDescription" value="Grants additional Heavy Bolters." />
     <entry name="SpaceMarines/BoltDamage" value="Kraken Bolts" />
     <entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
     <entry name="SpaceMarines/BoltDamageFlavor" value="<string name='Traits/AstraMilitarum/BoltDamageFlavor'/>" />
     <entry name="SpaceMarines/CityTier2Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption." />
     <entry name="SpaceMarines/CityTier3Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption." />
     <entry name="SpaceMarines/CityTier4Description" value="Increases the tile acquisition radius and gives Thunderfire Cannons and Fortresses of Redemption ability to increase the ranged damage reduction of the target tile. Increases the city damage reduction of Fortresses of Redemption." />
+    <entry name="SpaceMarines/ChadLascannon" value="Improved Lascannon" />
+    <entry name="SpaceMarines/ChadLascannonDescription" value="Improves Predator's lascannon damage, armour penetration and accuracy." />
+    <entry name="SpaceMarines/DefensiveFocus" value="<string name='Actions/SpaceMarines/DefensiveFocus'/>" />
+    <entry name="SpaceMarines/DefensiveFocusDescription" value="<string name='Actions/SpaceMarines/DefensiveFocusDescription'/>" />
+    <entry name="SpaceMarines/DefensiveFocus" value="<string name='Actions/SpaceMarines/DefensiveFocusFlavor'/>" />
     <entry name="SpaceMarines/DominusAegis" value="Dominus Aegis" />
     <entry name="SpaceMarines/DominusAegisDescription" value="Increases the ranged damage reduction of nearby troops." />
     <entry name="SpaceMarines/DominusAegisFlavor" value="This artefact takes the form of an ornate tower shield; from its sculpted edge, it projects a hemispherical force field that protects all those within its reach. Carried to war by those kill teams expected toplunge into the heart of the xenos hordes, it has saved countless lives, the bearer and his team fighting to victory as the dome-like force field keeps the worst of the alien scum at bay." />
@@ -211,6 +218,8 @@
     <entry name="SpaceMarines/FortressOfRedemptionDamageReduction3Description" value="Increases the city damage reduction." />
     <entry name="SpaceMarines/FortressOfRedemptionDamageReduction3Flavor" value="Gladius Prime is already proving far more hostile than the Adeptus Administratum's worst forecasts. With the Fortress' physical defenses under almost constant assault, the Techmarines approve installation of a void shield. Once constructed, this shimmering dome of power is sufficient to warp away the firepower of entire battalions (or even a rogue Imperial Knight) before collapsing." />
     <entry name="SpaceMarines/FortressOfRedemptionDamageReductionDescription" value="Grants Fortresses of Redemption additional Heavy Bolter weapon and armour." />
+    <entry name="SpaceMarines/ImprovedLascannon" value="Improved Lascannon" />
+    <entry name="SpaceMarines/ImprovedLascannonDescription" value="Improves lascannon damage, armour penetration and accuracy." />
     <entry name="SpaceMarines/LitanyOfZeal" value="Litany Of Zeal" />
     <entry name="SpaceMarines/LitanyOfZealDescription" value="Increases movement of target infantry unit that have not moved this turn and prevents that unit from being targeted by overwatch attacks. The unit also ignores enemy zone of control." />
     <entry name="SpaceMarines/LitanyOfZealFlavor" value="Bellowing his hatred of the foe, the Chaplain leads his brothers in the wholesale destruction of the enemy." />
@@ -236,9 +245,6 @@
     <entry name="SpaceMarines/VeilOfTime" value="Veil Of Time" />
     <entry name="SpaceMarines/VeilOfTimeDescription" value="Increases the research output of the empire." />
     <entry name="SpaceMarines/VeilOfTimeFlavor" value="The psyker projects his will beyond the regular passage of time, altering the temporal flow to sway the tide of battle." />
-    <entry name="SpaceMarines/DefensiveFocus" value="<string name='Actions/SpaceMarines/DefensiveFocus'/>" />
-    <entry name="SpaceMarines/DefensiveFocusDescription" value="<string name='Actions/SpaceMarines/DefensiveFocusDescription'/>" />
-    <entry name="SpaceMarines/DefensiveFocus" value="<string name='Actions/SpaceMarines/DefensiveFocusFlavor'/>" />
 
     <entry name="Tau/BreakComposureDescription" value="Increases ranged attacks." />
     <entry name="Tau/BreakComposureFlavor" value="Though not physically impressive, the T’au can inculcate fear in their enemies through subtler means—by harrying them so that they can’t focus, by surrounding them, by forcing them down tactical paths that only lead to repeated failure. Sometimes you don’t need to even touch an enemy to defeat them." />

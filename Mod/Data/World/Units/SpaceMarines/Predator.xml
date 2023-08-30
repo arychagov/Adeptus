@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/SpaceMarines/Predator" material="Units/SpaceMarines/Predator" idleAnimation="Units/SpaceMarines/PredatorIdle" idleAnimationCount="2" scale="1.1 1.1 1.1" explosionsBone="Hull" uvAnimated="1" />
+        <unit explosionsBone="Hull" idleAnimation="Units/SpaceMarines/PredatorIdle" idleAnimationCount="2" material="Units/SpaceMarines/Predator" mesh="Units/SpaceMarines/Predator" scale="1.1 1.1 1.1" uvAnimated="1" />
     </model>
     <weapons>
         <weapon name="TwinLinkedLascannon">
             <model>
-                <beamWeapon mesh="Weapons/SpaceMarines/PredatorLasTurret" material="Weapons/SpaceMarines/PredatorTwinLinkedLascannon" bone=".BarrelAttachment" muzzleBone=".BarrelMuzzle" />
+                <beamWeapon bone=".BarrelAttachment" material="Weapons/SpaceMarines/PredatorTwinLinkedLascannon" mesh="Weapons/SpaceMarines/PredatorLasTurret" muzzleBone=".BarrelMuzzle" />
             </model>
         </weapon>
-        <weapon name="HeavyBolter" count="2" requiredUpgrade="SpaceMarines/PredatorLascannon">
+        <weapon name="HunterKillerMissile" enabled="0" slotName="HunterKillerMissile">
             <model>
-                <projectileWeapon bone="Hull" mesh="Weapons/SpaceMarines/PredatorHeavyBolters" material="Weapons/SpaceMarines/PredatorHeavyBolters" muzzleBone=".Muzzle" muzzleCount="2" />
+                <missileWeapon fireInterval="5.0" muzzleBone="Hull" />
             </model>
         </weapon>
-        <weapon name="HunterKillerMissile" slotName="HunterKillerMissile" enabled="0">
+        <weapon name="HeavyBolter" requiredUpgrade="SpaceMarines/HurricaneBolter" />
+        <weapon name="HeavyBolter" count="2" enabled="0" requiredUpgrade="SpaceMarines/PredatorLascannon" slotName="HeavyBolterUpgrade">
             <model>
-                <missileWeapon muzzleBone="Hull" fireInterval="5.0" />
+                <projectileWeapon bone="Hull" material="Weapons/SpaceMarines/PredatorHeavyBolters" mesh="Weapons/SpaceMarines/PredatorHeavyBolters" muzzleBone=".Muzzle" muzzleCount="2" />
             </model>
         </weapon>
-        <weapon name="HeavyBolter" requiredUpgrade="SpaceMarines/HurricaneBolter"></weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
@@ -70,7 +70,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature duration="3" name="SmokeScreen" />
+                                        <addFeature name="SmokeScreen" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -79,7 +79,80 @@
                 </selfTarget>
             </beginTargets>
         </createSmokeScreen>
-        <useWeapon weaponSlotName="HunterKillerMissile" cooldown="10" requiredUpgrade="SpaceMarines/HunterKillerMissile">
+
+        <genericUnitAbility name="SpaceMarines/AdditionalHeavyBolters" charges="1" icon="Actions/SpaceMarines/AdditionalHeavyBolters" requiredUpgrade="SpaceMarines/PredatorLascannon">
+            <conditions>
+                <unit>
+                    <noTrait name="SpaceMarines/AdditionalHeavyBolters" />
+                    <noTrait name="SpaceMarines/ImprovedLascannon" />
+                </unit>
+            </conditions>
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="40" />
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="SpaceMarines/AdditionalHeavyBolters" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
+
+        <genericUnitAbility name="SpaceMarines/ImprovedLascannon" charges="1" icon="Weapons/TwinLinkedLascannon" requiredUpgrade="SpaceMarines/PredatorLascannon">
+            <conditions>
+                <unit>
+                    <noTrait name="SpaceMarines/AdditionalHeavyBolters" />
+                    <noTrait name="SpaceMarines/ImprovedLascannon" />
+                </unit>
+            </conditions>
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="40" />
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="SpaceMarines/ImprovedLascannon" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
+
+        <useWeapon cooldown="10" requiredUpgrade="SpaceMarines/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
+            <model>
+                <action beginFire="0.1" endFire="1.0" />
+            </model>
+        </useWeapon>
+        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0" requiredUpgrade="SpaceMarines/PredatorLascannon" weaponSlotName="HeavyBolterUpgrade">
+            <conditions>
+                <unit>
+                    <trait name="SpaceMarines/AdditionalHeavyBolters" />
+                </unit>
+            </conditions>
             <model>
                 <action beginFire="0.1" endFire="1.0" />
             </model>

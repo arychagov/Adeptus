@@ -4,7 +4,6 @@
         <unit mesh="Units/SpaceMarines/Vindicator" material="Units/SpaceMarines/Vindicator" idleAnimation="" idleAnimationCount="0" scale="1.2 1.2 1.2" explosionsBone="Hull" uvAnimated="1" />
     </model>
     <weapons>
-        <weapon name="HeavyBolter" requiredUpgrade="SpaceMarines/PredatorLascannon" />
         <weapon name="DemolisherCannon">
             <model>
                 <projectileWeapon muzzleBone=".DemolisherCannonMuzzle" fireInterval="0.7" />

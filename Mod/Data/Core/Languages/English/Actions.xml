@@ -108,12 +108,16 @@
     <entry name="SistersOfBattle/DesperateForRedemptionDescription" value="After dying, immediately comes back to life with 1 hit points remaining." />
     <entry name="SistersOfBattle/DesperateForRedemptionFlavor" value="Not even death can stop the Emperor’s chosen servants, and through his benevolence they rise again to serve the Master of Mankind’s will." />
 
+    <entry name="SpaceMarines/AdditionalHeavyBolters" value="Additional Heavy Bolters" />
+    <entry name="SpaceMarines/AdditionalHeavyBoltersDescription" value="Grants two additional Heavy Bolters. Only this or <string name='Actions/SpaceMarines/ImprovedLascannon'/> can be set up for a unit." />
     <entry name="SpaceMarines/DominusAegis" value="<string name='Traits/SpaceMarines/DominusAegis'/>" />
     <entry name="SpaceMarines/DominusAegisDescription" value="<string name='Traits/SpaceMarines/DominusAegisDescription'/>" />
     <entry name="SpaceMarines/DominusAegisFlavor" value="<string name='Traits/SpaceMarines/DominusAegisFlavor'/>" />
     <entry name="SpaceMarines/EmpireWithin" value="Empire Within" />
     <entry name="SpaceMarines/EmpireWithinDescription" value="Levels up non-hero friendly unit." />
     <entry name="SpaceMarines/EmpireWithinFlavor" value="”I can pulp your flesh and snap your bones in less than a second and without so much as lifting a finger. What is the power of technology compared to that?”<br/>  — Vel'Cona, Chief Librarian of the Salamanders" />
+    <entry name="SpaceMarines/ImprovedLascannon" value="Improved Lascannon" />
+    <entry name="SpaceMarines/ImprovedLascannonDescription" value="Permanently improves lascannon damage, armour penetration and accuracy. Only this or <string name='Actions/SpaceMarines/AdditionalHeavyBolters'/> can be set up for a unit." />
     <entry name="SpaceMarines/LitanyOfZeal" value="<string name='Traits/SpaceMarines/LitanyOfZeal'/>" />
     <entry name="SpaceMarines/LitanyOfZealDescription" value="<string name='Traits/SpaceMarines/LitanyOfZealDescription'/>" />
     <entry name="SpaceMarines/LitanyOfZealFlavor" value="<string name='Traits/SpaceMarines/LitanyOfZealFlavor'/>" />
