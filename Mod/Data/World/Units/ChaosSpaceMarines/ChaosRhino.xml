@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement3">
     <model>
-        <unit mesh="Units/ChaosSpaceMarines/ChaosRhino" material="Units/ChaosSpaceMarines/ChaosRhino" idleAnimation="Units/ChaosSpaceMarines/ChaosRhinoIdle" idleAnimationCount="3" idleContinuously="1" scale="0.9 0.9 0.9" explosionsBone="Bone001" uvAnimated="1" />
+        <unit explosionsBone="Bone001" idleAnimation="Units/ChaosSpaceMarines/ChaosRhinoIdle" idleAnimationCount="3" idleContinuously="1" material="Units/ChaosSpaceMarines/ChaosRhino" mesh="Units/ChaosSpaceMarines/ChaosRhino" scale="0.9 0.9 0.9" uvAnimated="1" />
     </model>
-    <group size="1" rowSize="2" memberDeltaX="100" memberDeltaY="110" />
+    <group memberDeltaX="100" memberDeltaY="110" rowSize="2" size="1" />
     <weapons>
         <weapon name="CombiBolter">
             <model>
-                <projectileWeapon muzzleBone=".Muzzle" muzzleCount="2" effectFaceWeight="0" />
+                <projectileWeapon effectFaceWeight="0" muzzleBone=".Muzzle" muzzleCount="2" />
             </model>
         </weapon>
         <weapon name="HavocLauncher" requiredUpgrade="ChaosSpaceMarines/HavocLauncher">
             <model>
-                <missileWeapon bone="Bone001" muzzleBone=".Muzzle" muzzleCount="6" missileScale="0.5" mesh="Weapons/ChaosSpaceMarines/ChaosRhinoHavocLauncher" material="Units/ChaosSpaceMarines/ChaosRhino" />
+                <missileWeapon bone="Bone001" material="Units/ChaosSpaceMarines/ChaosRhino" mesh="Weapons/ChaosSpaceMarines/ChaosRhinoHavocLauncher" missileScale="0.5" muzzleBone=".Muzzle" muzzleCount="6" />
             </model>
         </weapon>
         <weapon name="DestroyerBlades" slotName="DestroyerBlades">
             <model>
-                <weapon bone="Bone001" mesh="Weapons/ChaosSpaceMarines/ChaosRhinoDestroyerBlades" material="Units/ChaosSpaceMarines/ChaosRhino" />
+                <weapon bone="Bone001" material="Units/ChaosSpaceMarines/ChaosRhino" mesh="Weapons/ChaosSpaceMarines/ChaosRhinoDestroyerBlades" />
             </model>
         </weapon>
     </weapons>
@@ -46,7 +46,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/ChaosSpaceMarines/ChaosRhinoAttack" beginFire="0.75" endFire="2.67" chargeBeginFire="0.1" chargeEndFire="1.5" />
+                <action animation="Units/ChaosSpaceMarines/ChaosRhinoAttack" beginFire="0.75" chargeBeginFire="0.1" chargeEndFire="1.5" endFire="2.67" />
             </model>
         </attack>
         <die>
@@ -76,7 +76,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <healingSurge cooldown="1" name="ChaosSpaceMarines/SelfRepair">
+        <healingSurge name="ChaosSpaceMarines/SelfRepair" cooldown="1">
             <model>
                 <action animation="" sound="Actions/MechanicalBuff" />
             </model>
@@ -101,7 +101,7 @@
                 </selfTarget>
             </beginTargets>
         </healingSurge>
-        <destroyerBlades cooldown="1" weaponSlotName="DestroyerBlades" visible="0">
+        <destroyerBlades cooldown="1" visible="0" weaponSlotName="DestroyerBlades">
             <model></model>
         </destroyerBlades>
         <createSmokeScreen cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="ChaosSpaceMarines/SmokeLauncher">
@@ -115,7 +115,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature duration="3" name="SmokeScreen" />
+                                        <addFeature name="SmokeScreen" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>

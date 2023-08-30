@@ -34,7 +34,7 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="ChaosSpaceMarines/ChaosLord" />
-        <produceUnit unit="ChaosSpaceMarines/Warpsmith" requiredUpgrade="ChaosSpaceMarines/Warpsmith" />
-        <produceUnit unit="ChaosSpaceMarines/MasterOfPossession" requiredUpgrade="ChaosSpaceMarines/MasterOfPossession" />
+        <produceUnit requiredUpgrade="ChaosSpaceMarines/Warpsmith" unit="ChaosSpaceMarines/Warpsmith" />
+        <produceUnit requiredUpgrade="ChaosSpaceMarines/MasterOfPossession" unit="ChaosSpaceMarines/MasterOfPossession" />
     </actions>
 </building>

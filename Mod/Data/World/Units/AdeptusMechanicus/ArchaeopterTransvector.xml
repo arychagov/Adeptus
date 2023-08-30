@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement9">
     <model>
-        <unit mesh="Units/AdeptusMechanicus/ArchaeopterTransvector" material="Units/AdeptusMechanicus/ArchaeopterTransvector" position="0 0 32" idleAnimation="Units/AdeptusMechanicus/ArchaeopterTransvectorIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="1" scale="1.2 1.2 1.2" explosionsBone="Hull_Shake" />
+        <unit explosionsBone="Hull_Shake" idleAnimation="Units/AdeptusMechanicus/ArchaeopterTransvectorIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AdeptusMechanicus/ArchaeopterTransvector" mesh="Units/AdeptusMechanicus/ArchaeopterTransvector" normalWeight="1" position="0 0 32" scale="1.2 1.2 1.2" />
     </model>
     <weapons>
         <weapon name="TwinLinkedCognisHeavyStubber">
             <model>
-                <projectileWeapon muzzleBone="RearMuzzle" muzzleCount="2" effectFaceWeight="0" />
+                <projectileWeapon effectFaceWeight="0" muzzleBone="RearMuzzle" muzzleCount="2" />
             </model>
         </weapon>
         <weapon name="CognisHeavyStubber" count="2">
@@ -14,9 +14,9 @@
                 <projectileWeapon muzzleBone="Muzzle" muzzleCount="2" />
             </model>
         </weapon>
-        <weapon name="None" requiredUpgrade="AdeptusMechanicus/BroadSpectrumDataTether" enabled="0">
+        <weapon name="None" enabled="0" requiredUpgrade="AdeptusMechanicus/BroadSpectrumDataTether">
             <model>
-                <weapon mesh="Weapons/AdeptusMechanicus/ArchaeopterStratoraptorAntenna" material="Units/AdeptusMechanicus/ArchaeopterStratoraptor" bone="Hull_Shake" />
+                <weapon bone="Hull_Shake" material="Units/AdeptusMechanicus/ArchaeopterStratoraptor" mesh="Weapons/AdeptusMechanicus/ArchaeopterStratoraptorAntenna" />
             </model>
         </weapon>
     </weapons>
@@ -63,7 +63,7 @@
                 <action animation="Units/AdeptusMechanicus/ArchaeopterTransvectorMove" sound="Units/AdeptusMechanicus/FlyerMove" soundCount="1" />
             </model>
         </move>
-        <jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
@@ -79,7 +79,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Jink" />
+                                        <addTrait name="Jink" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -88,7 +88,7 @@
                 </selfTarget>
             </beginTargets>
         </jink>
-        <genericUnitAbility name="Luminagen" icon="Traits/Luminagen" consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
+        <genericUnitAbility name="Luminagen" consumedActionPoints="0" consumedMovement="0" cooldown="3" icon="Traits/Luminagen" requiredActionPoints="0">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -96,7 +96,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Luminagen" />
+                                        <addTrait name="Luminagen" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

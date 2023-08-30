@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feature ambientSound="Ambient/SkullAltar" ambientSoundLayer="1" ambientSoundPriority="2" audioEffectSystem="Ruin" category="Resource" explorable="1" exploreCooldown="10">
     <model>
-        <simpleModel mesh="Features/SkullAltar" material="Features/SkullAltar" groundMaterial="Features/SkullAltarGround" scale="1 1 1" explorationEffectBlueprint="Effects/SkullAltar" />
+        <simpleModel explorationEffectBlueprint="Effects/SkullAltar" groundMaterial="Features/SkullAltarGround" material="Features/SkullAltar" mesh="Features/SkullAltar" scale="1 1 1" />
     </model>
     <areas>
         <area affects="Tile" radius="1">

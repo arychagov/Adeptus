@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <flamerWeapon fireSound="Weapons/DesiccatorLarvae" fireSoundCount="3" flamesBlueprint="Effects/Larvae" fireInterval="0.35" effectFaceWeight="1" />
+        <flamerWeapon effectFaceWeight="1" fireInterval="0.35" fireSound="Weapons/DesiccatorLarvae" fireSoundCount="3" flamesBlueprint="Effects/Larvae" />
     </model>
     <modifiers>
         <modifier>

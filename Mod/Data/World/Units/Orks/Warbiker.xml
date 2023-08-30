@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement6">
     <model>
-        <unit mesh="Units/Orks/Warbiker" material="Units/Orks/Warbiker" idleAnimation="Units/Orks/WarbikerIdle" idleAnimationCount="3" idleContinuously="1" scale="1 1 1" explosionsBone="BloodBone" />
+        <unit explosionsBone="BloodBone" idleAnimation="Units/Orks/WarbikerIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Orks/Warbiker" mesh="Units/Orks/Warbiker" scale="1 1 1" />
     </model>
-    <group size="3" rowSize="3" memberDeltaX="80" memberDeltaY="80" />
+    <group memberDeltaX="80" memberDeltaY="80" rowSize="3" size="3" />
     <weapons>
         <weapon name="TwinLinkedDakkagun">
             <model>
@@ -45,7 +45,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/Orks/WarbikerAttack" beginFire="1" endFire="2.33" chargeAnimation="Units/Orks/WarbikerCharge" chargeBeginFire="0.5" chargeEndFire="1.17" meleeAnimation="Units/Orks/WarbikerMelee" meleeBeginSwing="0.16" meleeEndSwing="1.5" />
+                <action animation="Units/Orks/WarbikerAttack" beginFire="1" chargeAnimation="Units/Orks/WarbikerCharge" chargeBeginFire="0.5" chargeEndFire="1.17" endFire="2.33" meleeAnimation="Units/Orks/WarbikerMelee" meleeBeginSwing="0.16" meleeEndSwing="1.5" />
             </model>
         </attack>
         <die>
@@ -74,7 +74,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="EreWeGo" />
+                                        <addTrait name="EreWeGo" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -94,7 +94,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Orks/WarbikeTurboBoost" />
+                                        <addTrait name="Orks/WarbikeTurboBoost" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -103,7 +103,7 @@
                 </selfTarget>
             </beginTargets>
         </turboBoost>
-        <jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
@@ -119,7 +119,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Jink" />
+                                        <addTrait name="Jink" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

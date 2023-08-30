@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement7">
     <model>
-        <unit mesh="Units/Eldar/CrimsonHunter" material="Units/Eldar/CrimsonHunter" idleAnimation="Units/Eldar/CrimsonHunterIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="1.0" position="0 0 64" scale="1.2 1.2 1.2" explosionsBone="BloodBone" />
+        <unit explosionsBone="BloodBone" idleAnimation="Units/Eldar/CrimsonHunterIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Eldar/CrimsonHunter" mesh="Units/Eldar/CrimsonHunter" normalWeight="1.0" position="0 0 64" scale="1.2 1.2 1.2" />
     </model>
     <weapons>
         <weapon name="BrightLance" count="2">
             <model>
-                <beamWeapon muzzleBone="BrightLanceMuzzle" muzzleCount="2" cycleMuzzles="0" />
+                <beamWeapon cycleMuzzles="0" muzzleBone="BrightLanceMuzzle" muzzleCount="2" />
             </model>
         </weapon>
         <weapon name="PulseLaser">
@@ -76,7 +76,7 @@
                 </modifier>
             </modifiers>
         </webwayTravel>
-        <jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
@@ -92,7 +92,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Jink" />
+                                        <addTrait name="Jink" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -101,7 +101,7 @@
                 </selfTarget>
             </beginTargets>
         </jink>
-        <vectorDancer consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0" name="Eldar/VectorDancer">
+        <vectorDancer name="Eldar/VectorDancer" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0">
             <model>
                 <action sound="Actions/VectorDancer" />
             </model>
@@ -112,7 +112,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Eldar/VectorDancer" />
+                                        <addTrait name="Eldar/VectorDancer" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

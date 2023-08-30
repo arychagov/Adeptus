@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement2">
     <model>
-        <unit mesh="Units/Tyranids/Ravener" material="Units/Tyranids/Ravener" idleAnimation="Units/Tyranids/RavenerIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.8 0.8 0.8" position="0 0 -2" bloodBone="BloodBone" walker="1" />
+        <unit bloodBone="BloodBone" idleAnimation="Units/Tyranids/RavenerIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tyranids/Ravener" mesh="Units/Tyranids/Ravener" normalWeight="0.1" position="0 0 -2" scale="0.8 0.8 0.8" walker="1" />
     </model>
-    <group size="3" rowSize="3" memberDeltaX="70" memberDeltaY="70" />
+    <group memberDeltaX="70" memberDeltaY="70" rowSize="3" size="3" />
     <weapons>
         <weapon name="Deathspitter" requiredUpgrade="Tyranids/Deathspitter">
             <model>
-                <projectileWeapon fireInterval="0.733333333333" effectFaceWeight="1.0" muzzleBone="Bone024" />
+                <projectileWeapon effectFaceWeight="1.0" fireInterval="0.733333333333" muzzleBone="Bone024" />
             </model>
         </weapon>
         <weapon name="RendingClaws">
@@ -49,7 +49,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/Tyranids/RavenerAttack" beginFire="0.666666666667" endFire="2.4" chargeAnimation="Units/Tyranids/RavenerCharge" chargeBeginFire="0.333333333333" chargeEndFire="1.23333333333" meleeAnimation="Units/Tyranids/RavenerMelee" meleeBeginSwing="0" meleeEndSwing="0.666666666667" />
+                <action animation="Units/Tyranids/RavenerAttack" beginFire="0.666666666667" chargeAnimation="Units/Tyranids/RavenerCharge" chargeBeginFire="0.333333333333" chargeEndFire="1.23333333333" endFire="2.4" meleeAnimation="Units/Tyranids/RavenerMelee" meleeBeginSwing="0" meleeEndSwing="0.666666666667" />
             </model>
         </attack>
         <die>
@@ -67,7 +67,7 @@
                 <action animation="Units/Tyranids/RavenerMove" sound="Units/Tyranids/RavenerMove" soundCount="2" />
             </model>
         </move>
-        <instinctiveBehaviourOverride consumedActionPoints="0" consumedMovement="0" cooldown="3" name="Tyranids/InstinctiveBehaviourOverride" requiredActionPoints="0">
+        <instinctiveBehaviourOverride name="Tyranids/InstinctiveBehaviourOverride" consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/HiveMindBuff" />
             </model>

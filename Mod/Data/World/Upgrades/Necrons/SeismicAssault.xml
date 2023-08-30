@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="9" icon="Weapons/SeismicAssault">
+<upgrade icon="Weapons/SeismicAssault" position="9">
     <requiredUpgrades>
         <upgrade name="Necrons/TranscendentCtan" />
     </requiredUpgrades>

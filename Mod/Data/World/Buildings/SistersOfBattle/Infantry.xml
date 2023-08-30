@@ -34,12 +34,12 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="SistersOfBattle/BattleSister" />
-        <produceUnit unit="SistersOfBattle/Hospitaller" requiredUpgrade="SistersOfBattle/Hospitaller" />
-        <produceUnit unit="SistersOfBattle/Imagifier" requiredUpgrade="SistersOfBattle/Imagifier" />
-        <produceUnit unit="SistersOfBattle/Zephyrim" requiredUpgrade="SistersOfBattle/Zephyrim" />
-        <produceUnit unit="SistersOfBattle/SisterRepentia" requiredUpgrade="SistersOfBattle/SisterRepentia" />
-        <produceUnit unit="SistersOfBattle/Dominion" requiredUpgrade="SistersOfBattle/Dominion" />
-        <produceUnit unit="SistersOfBattle/Retributor" requiredUpgrade="SistersOfBattle/Retributor" />
-        <produceUnit unit="SistersOfBattle/CelestianSacresant" requiredUpgrade="SistersOfBattle/CelestianSacresant" />
+        <produceUnit requiredUpgrade="SistersOfBattle/Hospitaller" unit="SistersOfBattle/Hospitaller" />
+        <produceUnit requiredUpgrade="SistersOfBattle/Imagifier" unit="SistersOfBattle/Imagifier" />
+        <produceUnit requiredUpgrade="SistersOfBattle/Zephyrim" unit="SistersOfBattle/Zephyrim" />
+        <produceUnit requiredUpgrade="SistersOfBattle/SisterRepentia" unit="SistersOfBattle/SisterRepentia" />
+        <produceUnit requiredUpgrade="SistersOfBattle/Dominion" unit="SistersOfBattle/Dominion" />
+        <produceUnit requiredUpgrade="SistersOfBattle/Retributor" unit="SistersOfBattle/Retributor" />
+        <produceUnit requiredUpgrade="SistersOfBattle/CelestianSacresant" unit="SistersOfBattle/CelestianSacresant" />
     </actions>
 </building>

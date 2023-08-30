@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="5" icon="Traits/Eldar/CrackShot">
+<upgrade icon="Traits/Eldar/CrackShot" position="5">
     <requiredUpgrades>
         <upgrade name="Eldar/FireDragon" />
     </requiredUpgrades>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement2">
     <model>
-        <unit mesh="Units/Tyranids/Tyrannocyte" material="Units/Tyranids/Tyrannocyte" scale="1.3 1.3 1.3" idleAnimation="Units/Tyranids/TyrannocyteIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" bloodBone="Core" />
+        <unit bloodBone="Core" idleAnimation="Units/Tyranids/TyrannocyteIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tyranids/Tyrannocyte" mesh="Units/Tyranids/Tyrannocyte" normalWeight="0.1" scale="1.3 1.3 1.3" />
     </model>
     <weapons>
         <weapon name="BarbedStrangler" count="5">
             <model>
-                <weapon muzzleBone="Muzzle" muzzleCount="3" fireInterval="0.4" />
+                <weapon fireInterval="0.4" muzzleBone="Muzzle" muzzleCount="3" />
             </model>
         </weapon>
     </weapons>

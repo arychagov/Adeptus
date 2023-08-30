@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement2">
     <model>
-        <unit mesh="Units/Tyranids/Gargoyle" material="Units/Tyranids/Gargoyle" scale="1.2 1.2 1.2" idleAnimation="Units/Tyranids/GargoyleIdle" idleAnimationCount="3" idleContinuously="1" position="0 0 48" normalWeight="1.0" bloodBone="BloodBone" />
+        <unit bloodBone="BloodBone" idleAnimation="Units/Tyranids/GargoyleIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tyranids/Gargoyle" mesh="Units/Tyranids/Gargoyle" normalWeight="1.0" position="0 0 48" scale="1.2 1.2 1.2" />
     </model>
-    <group size="10" rowSize="4" memberDeltaX="80" memberDeltaY="60" />
+    <group memberDeltaX="80" memberDeltaY="60" rowSize="4" size="10" />
     <weapons>
         <weapon name="BlindingVenom">
             <model>
@@ -12,7 +12,7 @@
         </weapon>
         <weapon name="Fleshborer">
             <model>
-                <projectileWeapon mesh="Weapons/Tyranids/GargoyleGun" material="Units/Tyranids/Gargoyle" bone="Bone014(mirrored)" muzzleBone=".Muzzle" fireInterval="0.3" />
+                <projectileWeapon bone="Bone014(mirrored)" fireInterval="0.3" material="Units/Tyranids/Gargoyle" mesh="Weapons/Tyranids/GargoyleGun" muzzleBone=".Muzzle" />
             </model>
         </weapon>
     </weapons>
@@ -44,7 +44,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/Tyranids/GargoyleAttack" beginFire="0.5" endFire="2.0" chargeAnimation="Units/Tyranids/GargoyleCharge" chargeBeginFire="0.333333333333" chargeEndFire="1.33333333333" meleeAnimation="Units/Tyranids/GargoyleMelee" meleeBeginSwing="0.5" meleeEndSwing="0.833333333333" />
+                <action animation="Units/Tyranids/GargoyleAttack" beginFire="0.5" chargeAnimation="Units/Tyranids/GargoyleCharge" chargeBeginFire="0.333333333333" chargeEndFire="1.33333333333" endFire="2.0" meleeAnimation="Units/Tyranids/GargoyleMelee" meleeBeginSwing="0.5" meleeEndSwing="0.833333333333" />
             </model>
         </attack>
         <die>
@@ -76,7 +76,7 @@
                             <modifiers>
                                 <modifier requiredUpgrade="Tyranids/HammerOfWrath">
                                     <effects>
-                                        <addTrait duration="1" name="HammerOfWrath" />
+                                        <addTrait name="HammerOfWrath" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -85,7 +85,7 @@
                 </target>
             </beginTargets>
         </jumpPack>
-        <instinctiveBehaviourOverride consumedActionPoints="0" consumedMovement="0" cooldown="3" name="Tyranids/InstinctiveBehaviourOverride" requiredActionPoints="0">
+        <instinctiveBehaviourOverride name="Tyranids/InstinctiveBehaviourOverride" consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/HiveMindBuff" />
             </model>

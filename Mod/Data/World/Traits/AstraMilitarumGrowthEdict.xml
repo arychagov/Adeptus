@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait visibilityCategory="Building" icon="Actions/AstraMilitarumGrowthEdict">
+<trait icon="Actions/AstraMilitarumGrowthEdict" visibilityCategory="Building">
     <modifiers>
         <modifier>
             <effects>

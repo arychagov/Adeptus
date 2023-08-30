@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement7">
     <model>
-        <unit mesh="Units/Eldar/VaulsWrathSupportBattery" material="Units/Eldar/VaulsWrathSupportBattery" idleAnimation="Units/Eldar/VaulsWrathSupportBatteryIdle" idleAnimationCount="3" idleContinuously="1" scale="0.9 0.9 0.9" bloodBone="VaulsWrath_Spotter_Chest" explosionsBone="VaulsWrath_Platform" />
+        <unit bloodBone="VaulsWrath_Spotter_Chest" explosionsBone="VaulsWrath_Platform" idleAnimation="Units/Eldar/VaulsWrathSupportBatteryIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Eldar/VaulsWrathSupportBattery" mesh="Units/Eldar/VaulsWrathSupportBattery" scale="0.9 0.9 0.9" />
     </model>
-    <group size="2" rowSize="2" memberDeltaX="100" memberDeltaY="100" />
+    <group memberDeltaX="100" memberDeltaY="100" rowSize="2" size="2" />
     <weapons>
         <weapon name="ShadowWeaver">
             <model>
-                <beamWeapon muzzleBone="VaulsWrath_CannonMuzzle" fireInterval="10.0" />
+                <beamWeapon fireInterval="10.0" muzzleBone="VaulsWrath_CannonMuzzle" />
             </model>
         </weapon>
     </weapons>
@@ -76,7 +76,7 @@
                 </modifier>
             </modifiers>
         </webwayTravel>
-        <clearTileUnitAbility cooldown="1" icon="Actions/ClearTile" name="ClearTile">
+        <clearTileUnitAbility name="ClearTile" cooldown="1" icon="Actions/ClearTile">
             <beginTargets>
                 <target rangeMax="1">
                     <conditions />

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement3">
     <model>
-        <unit mesh="Units/ChaosSpaceMarines/Defiler" material="Units/ChaosSpaceMarines/Defiler" idleAnimation="Units/ChaosSpaceMarines/DefilerIdle" idleAnimationCount="3" idleContinuously="1" scale="1.1 1.1 1.1" explosionsBone="Bone014" walker="1" />
+        <unit explosionsBone="Bone014" idleAnimation="Units/ChaosSpaceMarines/DefilerIdle" idleAnimationCount="3" idleContinuously="1" material="Units/ChaosSpaceMarines/Defiler" mesh="Units/ChaosSpaceMarines/Defiler" scale="1.1 1.1 1.1" walker="1" />
     </model>
     <weapons>
         <weapon name="BattleCannon">
             <model>
-                <projectileWeapon muzzleBone=".BattleCannonMuzzle" fireInterval="1.37" />
+                <projectileWeapon fireInterval="1.37" muzzleBone=".BattleCannonMuzzle" />
             </model>
         </weapon>
         <weapon name="HavocLauncher">
             <model>
-                <missileWeapon muzzleBone=".HavocMuzzle" muzzleCount="6" missileScale="0.8" />
+                <missileWeapon missileScale="0.8" muzzleBone=".HavocMuzzle" muzzleCount="6" />
             </model>
         </weapon>
         <weapon name="PowerFist" count="2">
@@ -53,7 +53,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/ChaosSpaceMarines/DefilerAttack" beginFire="0.67" endFire="2.5" chargeAnimation="Units/ChaosSpaceMarines/DefilerCharge" chargeBeginFire="0.17" chargeEndFire="1.33" meleeAnimation="Units/ChaosSpaceMarines/DefilerMelee" meleeBeginSwing="0.33" meleeEndSwing="0.83" />
+                <action animation="Units/ChaosSpaceMarines/DefilerAttack" beginFire="0.67" chargeAnimation="Units/ChaosSpaceMarines/DefilerCharge" chargeBeginFire="0.17" chargeEndFire="1.33" endFire="2.5" meleeAnimation="Units/ChaosSpaceMarines/DefilerMelee" meleeBeginSwing="0.33" meleeEndSwing="0.83" />
             </model>
         </attack>
         <die>
@@ -87,7 +87,7 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radiusMin="1" radiusMax="2">
+                        <area affects="Tile" radiusMax="2" radiusMin="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
@@ -100,7 +100,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility cooldown="3" consumedActionPoints="1" consumedMovement="1" name="ChaosSpaceMarines/Defiler" icon="Units/ChaosSpaceMarines/Defiler">
+        <genericUnitAbility name="ChaosSpaceMarines/Defiler" consumedActionPoints="1" consumedMovement="1" cooldown="3" icon="Units/ChaosSpaceMarines/Defiler">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -108,7 +108,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="ChaosSpaceMarines/Defiler" />
+                                        <addTrait name="ChaosSpaceMarines/Defiler" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -154,7 +154,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <daemonforge consumedActionPoints="0" consumedMovement="0" cooldown="3" name="ChaosSpaceMarines/Daemonforge">
+        <daemonforge name="ChaosSpaceMarines/Daemonforge" consumedActionPoints="0" consumedMovement="0" cooldown="3">
             <model>
                 <action sound="Actions/ChaosBuff" />
             </model>
@@ -186,7 +186,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature duration="3" name="SmokeScreen" />
+                                        <addFeature name="SmokeScreen" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>

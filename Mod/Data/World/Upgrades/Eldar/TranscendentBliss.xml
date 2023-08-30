@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="2" icon="Actions/Eldar/TranscendentBliss">
+<upgrade icon="Actions/Eldar/TranscendentBliss" position="2">
     <strategyModifiers>
         <modifier>
             <effects>

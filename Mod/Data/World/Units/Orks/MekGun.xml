@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/Orks/MekGun" material="Units/Orks/MekGun" idleAnimation="Units/Orks/MekGunIdle" idleAnimationCount="2" idleContinuously="1" scale="0.7 0.7 0.7" explosionsBone="Head" />
+        <unit explosionsBone="Head" idleAnimation="Units/Orks/MekGunIdle" idleAnimationCount="2" idleContinuously="1" material="Units/Orks/MekGun" mesh="Units/Orks/MekGun" scale="0.7 0.7 0.7" />
     </model>
-    <group size="3" rowSize="3" memberDeltaX="64" memberDeltaY="80" />
+    <group memberDeltaX="64" memberDeltaY="80" rowSize="3" size="3" />
     <weapons>
         <weapon name="TraktorKannon">
             <model>
-                <beamWeapon muzzleBone=".Barrel" fireInterval="0.2" />
+                <beamWeapon fireInterval="0.2" muzzleBone=".Barrel" />
             </model>
         </weapon>
     </weapons>
@@ -58,7 +58,7 @@
                 <action animation="Units/Orks/MekGunMove" sound="Units/Orks/MekGunMove" soundCount="2" />
             </model>
         </move>
-        <ammoRunt requiredUpgrade="Orks/AmmoRunt" consumedActionPoints="0" consumedMovement="0" cooldown="5">
+        <ammoRunt consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredUpgrade="Orks/AmmoRunt">
             <model>
                 <action sound="Actions/Reload" />
             </model>

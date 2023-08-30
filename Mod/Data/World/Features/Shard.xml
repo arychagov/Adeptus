@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feature ambientSound="Ambient/RuinOfVaul" ambientSoundLayer="1" ambientSoundPriority="2" audioEffectSystem="Ruin" category="Resource">
     <model>
-        <simpleModel mesh="Features/Shard" material="Features/Shard" groundMaterial="Features/ShardGround" />
+        <simpleModel groundMaterial="Features/ShardGround" material="Features/Shard" mesh="Features/Shard" />
     </model>
     <areas>
         <area affects="Tile" radius="1">

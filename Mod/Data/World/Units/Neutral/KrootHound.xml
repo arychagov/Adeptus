@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit faction="Tau" spawnDistanceMin="6">
     <model>
-        <unit mesh="Units/Neutral/KrootHound" material="Units/Neutral/KrootHound" scale="1.0 1.0 1.0" idleAnimation="Units/Neutral/KrootHoundIdle" idleAnimationCount="4" idleContinuously="1" normalWeight="0.1" bloodBone="ChestBone" walker="1" />
+        <unit bloodBone="ChestBone" idleAnimation="Units/Neutral/KrootHoundIdle" idleAnimationCount="4" idleContinuously="1" material="Units/Neutral/KrootHound" mesh="Units/Neutral/KrootHound" normalWeight="0.1" scale="1.0 1.0 1.0" walker="1" />
     </model>
-    <group size="7" rowSize="4" memberDeltaX="90" memberDeltaY="50" />
+    <group memberDeltaX="90" memberDeltaY="50" rowSize="4" size="7" />
     <weapons>
         <weapon name="CloseCombatWeapon">
             <model>
@@ -31,7 +31,7 @@
     <actions>
         <attack>
             <model>
-                <action chargeAnimation="Units/Neutral/KrootHoundCharge" meleeAnimation="Units/Neutral/KrootHoundMelee" meleeBeginSwing="0.5" meleeEndSwing="1.0" meleeDefenseAnimation="Units/Neutral/KrootHoundMelee" meleeDefenseBeginSwing="0.5" meleeDefenseEndSwing="1.0" meleeSound="Units/Neutral/KrootHoundAttack" meleeSoundCount="2" />
+                <action chargeAnimation="Units/Neutral/KrootHoundCharge" meleeAnimation="Units/Neutral/KrootHoundMelee" meleeBeginSwing="0.5" meleeDefenseAnimation="Units/Neutral/KrootHoundMelee" meleeDefenseBeginSwing="0.5" meleeDefenseEndSwing="1.0" meleeEndSwing="1.0" meleeSound="Units/Neutral/KrootHoundAttack" meleeSoundCount="2" />
             </model>
         </attack>
         <die>

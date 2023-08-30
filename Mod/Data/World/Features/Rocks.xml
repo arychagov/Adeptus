@@ -22,5 +22,5 @@
             </effects>
         </modifier>
     </modifiers>
-    <rocks clusterSizeMin="1" clusterSizeMax="1" scaleMin="0.75" scaleMax="1.25" />
+    <rocks clusterSizeMax="1" clusterSizeMin="1" scaleMax="1.25" scaleMin="0.75" />
 </feature>

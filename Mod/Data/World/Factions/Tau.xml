@@ -27,7 +27,7 @@
         <track name="Music/TyranidsTheme" dlc="Supplement2" />
     </music>
     <quests>
-        <quest name="Tau/Story0" icon="Quests/Tau/Chapter0" firstTurn="2" lastTurn="2">
+        <quest name="Tau/Story0" firstTurn="2" icon="Quests/Tau/Chapter0" lastTurn="2">
             <stages>
                 <stage>
                     <objectives>
@@ -49,7 +49,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="Tau/Story1" icon="Quests/Tau/Chapter1" firstTurn="20" lastTurn="30">
+        <quest name="Tau/Story1" firstTurn="20" icon="Quests/Tau/Chapter1" lastTurn="30">
             <conditions>
                 <quests>
                     <completed name="Tau/Story0" />
@@ -69,7 +69,7 @@
                     <objectives>
                         <researchUpgrade upgrade="Tau/Ethereal" />
                         <produceUnit unitType="Tau/Ethereal" />
-                        <visitTile unitType="Tau/Ethereal" featureType="Ruin" count="2" />
+                        <visitTile count="2" featureType="Ruin" unitType="Tau/Ethereal" />
                     </objectives>
                     <rewards>
                         <research amount="100" />
@@ -89,7 +89,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="Tau/Story2" icon="Quests/Tau/Chapter2" firstTurn="40" lastTurn="50">
+        <quest name="Tau/Story2" firstTurn="40" icon="Quests/Tau/Chapter2" lastTurn="50">
             <conditions>
                 <quests>
                     <completed name="Tau/Story1" />
@@ -108,7 +108,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="Tau/Story3" icon="Quests/Tau/Chapter3" firstTurn="60" lastTurn="70">
+        <quest name="Tau/Story3" firstTurn="60" icon="Quests/Tau/Chapter3" lastTurn="70">
             <conditions>
                 <quests>
                     <completed name="Tau/Story2" />
@@ -117,14 +117,14 @@
             <stages>
                 <stage>
                     <objectives>
-                        <killCamp strength="4" relativeStrength="0.5" faction="ChaosSpaceMarines">
-                            <boss type="ChaosSpaceMarines/Headquarters" name="Units/Tyranids/ChaosQuestCamp" />
+                        <killCamp faction="ChaosSpaceMarines" relativeStrength="0.5" strength="4">
+                            <boss name="Units/Tyranids/ChaosQuestCamp" type="ChaosSpaceMarines/Headquarters" />
                             <defenders>
-                                <unit type="ChaosSpaceMarines/ChaosCultist" count="2" rankMin="3" rankMax="5" />
-                                <unit type="ChaosSpaceMarines/ChaosSpaceMarine" count="1" rankMin="3" rankMax="5" />
-                                <unit type="ChaosSpaceMarines/Havoc" count="1" rankMin="3" rankMax="5" />
-                                <unit type="ChaosSpaceMarines/Helbrute" count="1" rankMin="3" rankMax="5" />
-                                <unit type="ChaosSpaceMarines/Maulerfiend" count="1" rankMin="3" rankMax="5" />
+                                <unit count="2" rankMax="5" rankMin="3" type="ChaosSpaceMarines/ChaosCultist" />
+                                <unit count="1" rankMax="5" rankMin="3" type="ChaosSpaceMarines/ChaosSpaceMarine" />
+                                <unit count="1" rankMax="5" rankMin="3" type="ChaosSpaceMarines/Havoc" />
+                                <unit count="1" rankMax="5" rankMin="3" type="ChaosSpaceMarines/Helbrute" />
+                                <unit count="1" rankMax="5" rankMin="3" type="ChaosSpaceMarines/Maulerfiend" />
                             </defenders>
                         </killCamp>
                     </objectives>
@@ -134,21 +134,21 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <surviveInvasion waves="4" waveInterval="2" strength="8" relativeStrength="0.5">
+                        <surviveInvasion relativeStrength="0.5" strength="8" waveInterval="2" waves="4">
                             <attackers>
-                                <unit type="SpaceMarines/TacticalSpaceMarine" rankMin="3" rankMax="5" />
-                                <unit type="SpaceMarines/AssaultSpaceMarine" rankMin="3" rankMax="5" />
-                                <unit type="SpaceMarines/DevastatorSpaceMarine" rankMin="3" rankMax="5" />
-                                <unit type="SpaceMarines/ScoutBiker" rankMin="3" rankMax="5" />
-                                <unit type="SpaceMarines/LandSpeeder" rankMin="3" rankMax="5" />
-                                <unit type="SpaceMarines/Hunter" rankMin="3" rankMax="5" />
-                                <unit type="SpaceMarines/Predator" rankMin="3" rankMax="5" />
-                                <unit type="AstraMilitarum/Guardsman" count="2" rankMin="3" rankMax="5" />
-                                <unit type="AstraMilitarum/HeavyWeaponsSquad" rankMin="3" rankMax="5" />
-                                <unit type="AstraMilitarum/TempestusScion" rankMin="3" rankMax="5" />
-                                <unit type="AstraMilitarum/ScoutSentinel" rankMin="3" rankMax="5" />
-                                <unit type="AstraMilitarum/Hydra" rankMin="3" rankMax="5" />
-                                <unit type="AstraMilitarum/Basilisk" rankMin="3" rankMax="5" />
+                                <unit rankMax="5" rankMin="3" type="SpaceMarines/TacticalSpaceMarine" />
+                                <unit rankMax="5" rankMin="3" type="SpaceMarines/AssaultSpaceMarine" />
+                                <unit rankMax="5" rankMin="3" type="SpaceMarines/DevastatorSpaceMarine" />
+                                <unit rankMax="5" rankMin="3" type="SpaceMarines/ScoutBiker" />
+                                <unit rankMax="5" rankMin="3" type="SpaceMarines/LandSpeeder" />
+                                <unit rankMax="5" rankMin="3" type="SpaceMarines/Hunter" />
+                                <unit rankMax="5" rankMin="3" type="SpaceMarines/Predator" />
+                                <unit count="2" rankMax="5" rankMin="3" type="AstraMilitarum/Guardsman" />
+                                <unit rankMax="5" rankMin="3" type="AstraMilitarum/HeavyWeaponsSquad" />
+                                <unit rankMax="5" rankMin="3" type="AstraMilitarum/TempestusScion" />
+                                <unit rankMax="5" rankMin="3" type="AstraMilitarum/ScoutSentinel" />
+                                <unit rankMax="5" rankMin="3" type="AstraMilitarum/Hydra" />
+                                <unit rankMax="5" rankMin="3" type="AstraMilitarum/Basilisk" />
                             </attackers>
                         </surviveInvasion>
                     </objectives>
@@ -158,7 +158,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="Tau/Story4" icon="Quests/Tau/Chapter4" firstTurn="80" lastTurn="90">
+        <quest name="Tau/Story4" firstTurn="80" icon="Quests/Tau/Chapter4" lastTurn="90">
             <conditions>
                 <quests>
                     <completed name="Tau/Story3" />
@@ -176,7 +176,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="Tau/Story5" icon="Quests/Tau/Chapter5" firstTurn="100" lastTurn="110">
+        <quest name="Tau/Story5" firstTurn="100" icon="Quests/Tau/Chapter5" lastTurn="110">
             <conditions>
                 <quests>
                     <completed name="Tau/Story4" />
@@ -185,15 +185,15 @@
             <stages>
                 <stage>
                     <objectives>
-                        <killCamp strength="8" relativeStrength="0.5" faction="Tau">
-                            <boss type="Tau/Headquarters" name="Units/Tau/RebelCamp" />
+                        <killCamp faction="Tau" relativeStrength="0.5" strength="8">
+                            <boss name="Units/Tau/RebelCamp" type="Tau/Headquarters" />
                             <defenders>
-                                <unit type="Tau/FireWarrior" rankMin="5" rankMax="7" />
-                                <unit type="Tau/Pathfinder" rankMin="5" rankMax="7" />
-                                <unit type="Tau/CrisisBattlesuit" rankMin="5" rankMax="7" />
-                                <unit type="Tau/Piranha" rankMin="5" rankMax="7" />
-                                <unit type="Tau/HammerheadGunship" rankMin="5" rankMax="7" />
-                                <unit type="Tau/GhostkeelBattlesuit" rankMin="5" rankMax="7" />
+                                <unit rankMax="7" rankMin="5" type="Tau/FireWarrior" />
+                                <unit rankMax="7" rankMin="5" type="Tau/Pathfinder" />
+                                <unit rankMax="7" rankMin="5" type="Tau/CrisisBattlesuit" />
+                                <unit rankMax="7" rankMin="5" type="Tau/Piranha" />
+                                <unit rankMax="7" rankMin="5" type="Tau/HammerheadGunship" />
+                                <unit rankMax="7" rankMin="5" type="Tau/GhostkeelBattlesuit" />
                             </defenders>
                         </killCamp>
                     </objectives>
@@ -203,21 +203,21 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <surviveInvasion bossWave="6" relativeStrength="2.5" strength="40" waves="10" waveInterval="2">
-                            <boss type="Tau/Commander" rankMin="9" rankMax="9" name="Units/Tau/EliteCommander" />
+                        <surviveInvasion bossWave="6" relativeStrength="2.5" strength="40" waveInterval="2" waves="10">
+                            <boss name="Units/Tau/EliteCommander" rankMax="9" rankMin="9" type="Tau/Commander" />
                             <attackers>
-                                <unit type="Tau/FireWarrior" count="2" rankMin="5" rankMax="7" />
-                                <unit type="Tau/Pathfinder" rankMin="5" rankMax="7" />
-                                <unit type="Tau/BroadsideBattlesuit" rankMin="5" rankMax="7" />
-                                <unit type="Tau/CrisisBattlesuit" rankMin="5" rankMax="7" />
-                                <unit type="Tau/StealthBattlesuit" rankMin="5" rankMax="7" />
-                                <unit type="Tau/GhostkeelBattlesuit" rankMin="5" rankMax="7" />
-                                <unit type="Tau/RiptideBattlesuit" rankMin="5" rankMax="7" />
-                                <unit type="Tau/Stormsurge" rankMin="5" rankMax="7" />
-                                <unit type="Tau/RazorsharkStrikeFighter" rankMin="5" rankMax="7" />
-                                <unit type="Tau/SunSharkBomber" rankMin="5" rankMax="7" />
-                                <unit type="AstraMilitarum/TempestusScion" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/TacticalSpaceMarine" count="1" rankMin="5" rankMax="7" />
+                                <unit count="2" rankMax="7" rankMin="5" type="Tau/FireWarrior" />
+                                <unit rankMax="7" rankMin="5" type="Tau/Pathfinder" />
+                                <unit rankMax="7" rankMin="5" type="Tau/BroadsideBattlesuit" />
+                                <unit rankMax="7" rankMin="5" type="Tau/CrisisBattlesuit" />
+                                <unit rankMax="7" rankMin="5" type="Tau/StealthBattlesuit" />
+                                <unit rankMax="7" rankMin="5" type="Tau/GhostkeelBattlesuit" />
+                                <unit rankMax="7" rankMin="5" type="Tau/RiptideBattlesuit" />
+                                <unit rankMax="7" rankMin="5" type="Tau/Stormsurge" />
+                                <unit rankMax="7" rankMin="5" type="Tau/RazorsharkStrikeFighter" />
+                                <unit rankMax="7" rankMin="5" type="Tau/SunSharkBomber" />
+                                <unit count="1" rankMax="7" rankMin="5" type="AstraMilitarum/TempestusScion" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/TacticalSpaceMarine" />
                             </attackers>
                         </surviveInvasion>
                     </objectives>
@@ -241,7 +241,7 @@
         </quest>
     </quests>
     <actions>
-        <convertWildlife cooldown="5" name="Tau/ConvertWildlife">
+        <convertWildlife name="Tau/ConvertWildlife" cooldown="5">
             <model>
                 <action sound="Actions/ConvertWildlife" />
             </model>
@@ -271,7 +271,7 @@
                 </target>
             </beginTargets>
         </convertWildlife>
-        <forTheGreaterGood cooldown="1" name="Tau/ForTheGreaterGood">
+        <forTheGreaterGood name="Tau/ForTheGreaterGood" cooldown="1">
             <model>
                 <action sound="Actions/ForTheGreaterGood" />
             </model>
@@ -304,7 +304,7 @@
                 </target>
             </beginTargets>
         </forTheGreaterGood>
-        <subvertCity cooldown="10" name="Tau/SubvertCity">
+        <subvertCity name="Tau/SubvertCity" cooldown="10">
             <model>
                 <action sound="Actions/SubvertCity" />
             </model>
@@ -330,7 +330,7 @@
                 </target>
             </beginTargets>
         </subvertCity>
-        <purchaseResearch cooldown="1" costScalesWithPace="0" durationInSeconds="0.1" interfaceSound="Interface/TradeGoods" name="Tau/PurchaseResearch" requiredUpgrade="Tau/PurchaseResearch">
+        <purchaseResearch name="Tau/PurchaseResearch" cooldown="1" costScalesWithPace="0" durationInSeconds="0.1" interfaceSound="Interface/TradeGoods" requiredUpgrade="Tau/PurchaseResearch">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -346,7 +346,7 @@
                 </modifier>
             </playerModifiers>
         </purchaseResearch>
-        <purchasePopulation cooldown="1" costScalesWithPace="1" name="Tau/PurchaseOre" requiredUpgrade="Tau/PurchaseOre">
+        <purchasePopulation name="Tau/PurchaseOre" cooldown="1" costScalesWithPace="1" requiredUpgrade="Tau/PurchaseOre">
             <model>
                 <action sound="Actions/Proselytise" />
             </model>
@@ -374,7 +374,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="TauPurchaseOreEdict" />
+                                        <addTrait name="TauPurchaseOreEdict" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -383,7 +383,7 @@
                 </target>
             </beginTargets>
         </purchasePopulation>
-        <purchasePopulation cooldown="1" costScalesWithPace="1" name="Tau/PurchaseFood" requiredUpgrade="Tau/PurchaseFood">
+        <purchasePopulation name="Tau/PurchaseFood" cooldown="1" costScalesWithPace="1" requiredUpgrade="Tau/PurchaseFood">
             <model>
                 <action sound="Actions/Proselytise" />
             </model>
@@ -411,7 +411,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="TauPurchaseFoodEdict" />
+                                        <addTrait name="TauPurchaseFoodEdict" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -420,7 +420,7 @@
                 </target>
             </beginTargets>
         </purchasePopulation>
-        <purchasePopulation cooldown="1" costScalesWithPace="1" name="Tau/PurchasePopulation" requiredUpgrade="Tau/PurchasePopulation">
+        <purchasePopulation name="Tau/PurchasePopulation" cooldown="1" costScalesWithPace="1" requiredUpgrade="Tau/PurchasePopulation">
             <model>
                 <action sound="Actions/Proselytise" />
             </model>
@@ -454,7 +454,7 @@
                 </target>
             </beginTargets>
         </purchasePopulation>
-        <purchasePopulation cooldown="1" costScalesWithPace="1" name="Tau/PurchaseEnergy" requiredUpgrade="Tau/PurchaseEnergy">
+        <purchasePopulation name="Tau/PurchaseEnergy" cooldown="1" costScalesWithPace="1" requiredUpgrade="Tau/PurchaseEnergy">
             <model>
                 <action sound="Actions/Proselytise" />
             </model>
@@ -482,7 +482,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="TauPurchaseEnergyEdict" />
+                                        <addTrait name="TauPurchaseEnergyEdict" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -491,7 +491,7 @@
                 </target>
             </beginTargets>
         </purchasePopulation>
-        <installSupportSystem cooldown="1" name="Tau/DroneController" requiredUpgrade="Tau/DroneController">
+        <installSupportSystem name="Tau/DroneController" cooldown="1" requiredUpgrade="Tau/DroneController">
             <model>
                 <action sound="Actions/InstallSupportSystem" />
             </model>
@@ -519,7 +519,7 @@
                 </target>
             </beginTargets>
         </installSupportSystem>
-        <installSupportSystem cooldown="1" name="Tau/CounterfireDefenceSystem" requiredUpgrade="Tau/CounterfireDefenceSystem">
+        <installSupportSystem name="Tau/CounterfireDefenceSystem" cooldown="1" requiredUpgrade="Tau/CounterfireDefenceSystem">
             <model>
                 <action sound="Actions/InstallSupportSystem" />
             </model>
@@ -546,7 +546,7 @@
                 </target>
             </beginTargets>
         </installSupportSystem>
-        <installSupportSystem cooldown="1" name="Tau/VectoredRetroThrusters" requiredUpgrade="Tau/VectoredRetroThrusters">
+        <installSupportSystem name="Tau/VectoredRetroThrusters" cooldown="1" requiredUpgrade="Tau/VectoredRetroThrusters">
             <model>
                 <action sound="Actions/InstallSupportSystem" />
             </model>
@@ -573,7 +573,7 @@
                 </target>
             </beginTargets>
         </installSupportSystem>
-        <installSupportSystem cooldown="1" name="Tau/StimulantInjector" requiredUpgrade="Tau/StimulantInjector">
+        <installSupportSystem name="Tau/StimulantInjector" cooldown="1" requiredUpgrade="Tau/StimulantInjector">
             <model>
                 <action sound="Actions/InstallSupportSystem" />
             </model>
@@ -600,7 +600,7 @@
                 </target>
             </beginTargets>
         </installSupportSystem>
-        <installSupportSystem cooldown="1" name="Tau/VelocityTracker" requiredUpgrade="Tau/VelocityTracker">
+        <installSupportSystem name="Tau/VelocityTracker" cooldown="1" requiredUpgrade="Tau/VelocityTracker">
             <model>
                 <action sound="Actions/InstallSupportSystem" />
             </model>
@@ -627,7 +627,7 @@
                 </target>
             </beginTargets>
         </installSupportSystem>
-        <installSupportSystem cooldown="1" name="Tau/AdvancedTargetingSystem" requiredUpgrade="Tau/AdvancedTargetingSystem">
+        <installSupportSystem name="Tau/AdvancedTargetingSystem" cooldown="1" requiredUpgrade="Tau/AdvancedTargetingSystem">
             <model>
                 <action sound="Actions/InstallSupportSystem" />
             </model>
@@ -654,7 +654,7 @@
                 </target>
             </beginTargets>
         </installSupportSystem>
-        <installSupportSystem cooldown="1" name="Tau/ShieldGenerator" requiredUpgrade="Tau/ShieldGenerator">
+        <installSupportSystem name="Tau/ShieldGenerator" cooldown="1" requiredUpgrade="Tau/ShieldGenerator">
             <model>
                 <action sound="Actions/InstallSupportSystem" />
             </model>
@@ -684,7 +684,7 @@
         </installSupportSystem>
     </actions>
     <startingUnits>
-        <unit type="Tau/BuilderDrone" count="1" />
-        <unit type="Tau/FireWarrior" count="2" />
+        <unit count="1" type="Tau/BuilderDrone" />
+        <unit count="2" type="Tau/FireWarrior" />
     </startingUnits>
 </faction>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement3">
     <model>
-        <unit mesh="Units/ChaosSpaceMarines/Obliterator" material="Units/ChaosSpaceMarines/Obliterator" idleAnimation="Units/ChaosSpaceMarines/ObliteratorIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.8 0.8 0.8" bloodBone="Bone001" walker="1" />
+        <unit bloodBone="Bone001" idleAnimation="Units/ChaosSpaceMarines/ObliteratorIdle" idleAnimationCount="3" idleContinuously="1" material="Units/ChaosSpaceMarines/Obliterator" mesh="Units/ChaosSpaceMarines/Obliterator" normalWeight="0.1" scale="0.8 0.8 0.8" walker="1" />
     </model>
-    <group size="3" rowSize="3" memberDeltaX="80" memberDeltaY="80" />
+    <group memberDeltaX="80" memberDeltaY="80" rowSize="3" size="3" />
     <weapons>
         <weapon name="PowerFist">
             <model>
@@ -15,7 +15,7 @@
                 <projectileWeapon muzzleBone=".Muzzle0" />
             </model>
         </weapon>
-        <weapon name="HeavyFlamer" slotName="HeavyFlamer" enabled="0">
+        <weapon name="HeavyFlamer" enabled="0" slotName="HeavyFlamer">
             <model>
                 <flamerWeapon muzzleBone=".Muzzle1" />
             </model>
@@ -51,7 +51,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/ChaosSpaceMarines/ObliteratorAttack" beginFire="0.83" endFire="2.0" chargeAnimation="Units/ChaosSpaceMarines/ObliteratorCharge" chargeBeginFire="0.8" chargeEndFire="1.33" meleeAnimation="Units/ChaosSpaceMarines/ObliteratorMelee" meleeBeginSwing="0.5" meleeEndSwing="1.0" />
+                <action animation="Units/ChaosSpaceMarines/ObliteratorAttack" beginFire="0.83" chargeAnimation="Units/ChaosSpaceMarines/ObliteratorCharge" chargeBeginFire="0.8" chargeEndFire="1.33" endFire="2.0" meleeAnimation="Units/ChaosSpaceMarines/ObliteratorMelee" meleeBeginSwing="0.5" meleeEndSwing="1.0" />
             </model>
         </attack>
         <die>
@@ -86,7 +86,7 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <cycleWeaponOnUse weaponSlotNames="AssaultCannon HeavyFlamer" enabled="0" visible="0" />
+        <cycleWeaponOnUse enabled="0" visible="0" weaponSlotNames="AssaultCannon HeavyFlamer" />
         <cycleWeapon interfaceSound="Interface/CycleWeapon" weaponSlotNames="AssaultCannon HeavyFlamer" />
     </actions>
     <traits>

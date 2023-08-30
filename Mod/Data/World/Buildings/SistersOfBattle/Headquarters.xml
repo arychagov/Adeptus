@@ -29,8 +29,8 @@
         <trait name="Headquarters" />
     </traits>
     <actions>
-        <produceUnit unit="SistersOfBattle/Canoness" requiredUpgrade="SistersOfBattle/Canoness" />
-        <produceUnit unit="SistersOfBattle/Dialogus" requiredUpgrade="SistersOfBattle/Dialogus" />
-        <produceUnit unit="SistersOfBattle/SaintCelestine" requiredUpgrade="SistersOfBattle/SaintCelestine" />
+        <produceUnit requiredUpgrade="SistersOfBattle/Canoness" unit="SistersOfBattle/Canoness" />
+        <produceUnit requiredUpgrade="SistersOfBattle/Dialogus" unit="SistersOfBattle/Dialogus" />
+        <produceUnit requiredUpgrade="SistersOfBattle/SaintCelestine" unit="SistersOfBattle/SaintCelestine" />
     </actions>
 </building>

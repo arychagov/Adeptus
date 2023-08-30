@@ -3,7 +3,7 @@
     <onEnemyKilledSelfModifiers>
         <modifier>
             <effects>
-                <addTrait duration="10" name="AdeptusMechanicus/SiphonedVigour" />
+                <addTrait name="AdeptusMechanicus/SiphonedVigour" duration="10" />
             </effects>
         </modifier>
     </onEnemyKilledSelfModifiers>

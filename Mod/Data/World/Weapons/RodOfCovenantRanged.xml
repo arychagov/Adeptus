@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon icon="Weapons/RodOfCovenant">
     <model>
-        <beamWeapon fireSound="Weapons/RodOfCovenantRanged" fireSoundCount="3" beamsBlueprint="Effects/MoltenBeam" muzzleFlashesBlueprint="Effects/LightMuzzleFlashes" />
+        <beamWeapon beamsBlueprint="Effects/MoltenBeam" fireSound="Weapons/RodOfCovenantRanged" fireSoundCount="3" muzzleFlashesBlueprint="Effects/LightMuzzleFlashes" />
     </model>
     <modifiers>
         <modifier>

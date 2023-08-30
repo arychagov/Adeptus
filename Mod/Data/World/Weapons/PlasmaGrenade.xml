@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <grenadeWeapon fireSound="Weapons/GrenadeThrow" fireSoundCount="6" explosionSound="Explosions/PlasmaGrenade" explosionSoundCount="1" explosionsBlueprint="Effects/PlasmaExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" grenadeBlueprint="Weapons/Eldar/PlasmaGrenade" effectScale="1.25" />
+        <grenadeWeapon effectScale="1.25" explosionSound="Explosions/PlasmaGrenade" explosionSoundCount="1" explosionsBlueprint="Effects/PlasmaExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" fireSound="Weapons/GrenadeThrow" fireSoundCount="6" grenadeBlueprint="Weapons/Eldar/PlasmaGrenade" />
     </model>
     <modifiers>
         <modifier>

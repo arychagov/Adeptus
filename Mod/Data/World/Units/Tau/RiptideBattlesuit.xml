@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement5">
     <model>
-        <unit mesh="Units/Tau/RiptideBattlesuit" material="Units/Tau/RiptideBattlesuit" idleAnimation="Units/Tau/RiptideBattlesuitIdle" idleAnimationCount="3" idleContinuously="1" scale="1 1 1" explosionsBone="BloodBone" walker="1" />
+        <unit explosionsBone="BloodBone" idleAnimation="Units/Tau/RiptideBattlesuitIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tau/RiptideBattlesuit" mesh="Units/Tau/RiptideBattlesuit" scale="1 1 1" walker="1" />
     </model>
     <weapons>
         <weapon name="IonAcceleratorStandard" slotName="IonAcceleratorStandard">
             <model>
-                <beamWeapon muzzleBone=".IonAcceleratorMuzzle" muzzleCount="2" fireInterval="0.33" cycleMuzzles="0" />
+                <beamWeapon cycleMuzzles="0" fireInterval="0.33" muzzleBone=".IonAcceleratorMuzzle" muzzleCount="2" />
             </model>
         </weapon>
-        <weapon name="IonAcceleratorOvercharged" slotName="IonAcceleratorOvercharged" enabled="0">
+        <weapon name="IonAcceleratorOvercharged" enabled="0" slotName="IonAcceleratorOvercharged">
             <model>
-                <beamWeapon muzzleBone=".IonAcceleratorMuzzle" muzzleCount="2" fireInterval="0.33" cycleMuzzles="0" />
+                <beamWeapon cycleMuzzles="0" fireInterval="0.33" muzzleBone=".IonAcceleratorMuzzle" muzzleCount="2" />
             </model>
         </weapon>
         <weapon name="TwinLinkedPlasmaRifle">
             <model>
-                <projectileWeapon muzzleBone=".PlasmaRifleMuzzle" muzzleCount="2" cycleMuzzles="1" fireInterval="0.17" />
+                <projectileWeapon cycleMuzzles="1" fireInterval="0.17" muzzleBone=".PlasmaRifleMuzzle" muzzleCount="2" />
             </model>
         </weapon>
     </weapons>
@@ -86,7 +86,7 @@
             </beginTargets>
         </auraOfFear>
         <cycleWeapon interfaceSound="Interface/CycleWeapon" weaponSlotNames="IonAcceleratorStandard IonAcceleratorOvercharged" />
-        <bondingKnifeRitual cooldown="5" consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" name="Tau/BondingKnifeRitual" requiredUpgrade="Tau/BondingKnifeRitual">
+        <bondingKnifeRitual name="Tau/BondingKnifeRitual" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0" requiredUpgrade="Tau/BondingKnifeRitual">
             <model>
                 <action bone="ChestBone" sound="Actions/BondingKnifeRitual" />
             </model>
@@ -106,7 +106,7 @@
                 </selfTarget>
             </beginTargets>
         </bondingKnifeRitual>
-        <novaShield consumedActionPoints="0" consumedMovement="0" cooldown="2" name="Tau/NovaShield">
+        <novaShield name="Tau/NovaShield" consumedActionPoints="0" consumedMovement="0" cooldown="2">
             <model>
                 <action sound="Actions/NovaShield" />
             </model>
@@ -131,7 +131,7 @@
                 <action name="Tau/NovaFire" />
             </sharedCooldowns>
         </novaShield>
-        <novaBoost consumedActionPoints="0" consumedMovement="0" cooldown="2" name="Tau/NovaBoost">
+        <novaBoost name="Tau/NovaBoost" consumedActionPoints="0" consumedMovement="0" cooldown="2">
             <model>
                 <action sound="Actions/NovaBoost" />
             </model>
@@ -156,7 +156,7 @@
                 <action name="Tau/NovaShield" />
             </sharedCooldowns>
         </novaBoost>
-        <novaFire consumedActionPoints="0" consumedMovement="0" cooldown="2" name="Tau/NovaFire">
+        <novaFire name="Tau/NovaFire" consumedActionPoints="0" consumedMovement="0" cooldown="2">
             <model>
                 <action sound="Actions/NovaFire" />
             </model>
@@ -181,12 +181,12 @@
                 <action name="Tau/NovaShield" />
             </sharedCooldowns>
         </novaFire>
-        <deployShieldedMissileDrone cooldown="10" name="Tau/DeployDrone" requiredActionPoints="0" consumedActionPoints="0" consumedMovement="0" unitType="Tau/ShieldedMissileDrone">
+        <deployShieldedMissileDrone name="Tau/DeployDrone" consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0" unitType="Tau/ShieldedMissileDrone">
             <model>
                 <action animation="" sound="Actions/DeployDrone" />
             </model>
             <modifiers>
-                <modifier visible="0" requiredUpgrade="Tau/DroneController">
+                <modifier requiredUpgrade="Tau/DroneController" visible="0">
                     <effects>
                         <cooldown add="-5" />
                     </effects>
@@ -214,7 +214,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="3" name="Summon" />
+                                        <addTrait name="Summon" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>

@@ -17,7 +17,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="2" name="Slowed" />
+                                        <addTrait name="Slowed" duration="2" />
                                     </effects>
                                 </modifier>
                             </modifiers>

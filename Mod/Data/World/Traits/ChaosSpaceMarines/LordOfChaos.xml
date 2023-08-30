@@ -14,8 +14,8 @@
                 </unit>
             </conditions>
             <effects>
-                <invulnerableDamageReduction minMin="0.05" minMax="0.15" />
-                <meleeAttacks mulMin="0.05" mulMax="0.15" />
+                <invulnerableDamageReduction minMax="0.15" minMin="0.05" />
+                <meleeAttacks mulMax="0.15" mulMin="0.05" />
             </effects>
         </modifier>
     </modifiers>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<simpleModel mesh="Sphere" material="Effects/TelekineDome" scale="684 684 512">
+<simpleModel material="Effects/TelekineDome" mesh="Sphere" scale="684 684 512">
     <renderQueues>
         <renderQueue name="GlowingCustomEffects" />
     </renderQueues>

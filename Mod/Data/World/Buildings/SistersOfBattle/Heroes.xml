@@ -35,9 +35,9 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="SistersOfBattle/Canoness" />
-        <produceUnit unit="SistersOfBattle/Dialogus" requiredUpgrade="SistersOfBattle/Dialogus" />
-        <produceUnit unit="SistersOfBattle/Imagifier" requiredUpgrade="SistersOfBattle/Imagifier" />
-        <produceUnit unit="SistersOfBattle/Hospitaller" requiredUpgrade="SistersOfBattle/Hospitaller" />
-        <produceUnit unit="SistersOfBattle/SaintCelestine" requiredUpgrade="SistersOfBattle/SaintCelestine" />
+        <produceUnit requiredUpgrade="SistersOfBattle/Dialogus" unit="SistersOfBattle/Dialogus" />
+        <produceUnit requiredUpgrade="SistersOfBattle/Imagifier" unit="SistersOfBattle/Imagifier" />
+        <produceUnit requiredUpgrade="SistersOfBattle/Hospitaller" unit="SistersOfBattle/Hospitaller" />
+        <produceUnit requiredUpgrade="SistersOfBattle/SaintCelestine" unit="SistersOfBattle/SaintCelestine" />
     </actions>
 </building>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon fireSound="Weapons/CondemnorBoltgun" fireSoundCount="1" muzzleFlashesBlueprint="" directionalMuzzleFlashesBlueprint="" projectilesBlueprint="Effects/CondemnorProjectiles" projectilesEmitterBlueprint="Effects/StranglethornProjectilesEmitter" smokeBlueprint="" explosionsBlueprint="Effects/DustExplosions" />
+        <projectileWeapon directionalMuzzleFlashesBlueprint="" explosionsBlueprint="Effects/DustExplosions" fireSound="Weapons/CondemnorBoltgun" fireSoundCount="1" muzzleFlashesBlueprint="" projectilesBlueprint="Effects/CondemnorProjectiles" projectilesEmitterBlueprint="Effects/StranglethornProjectilesEmitter" smokeBlueprint="" />
     </model>
     <modifiers>
         <modifier>

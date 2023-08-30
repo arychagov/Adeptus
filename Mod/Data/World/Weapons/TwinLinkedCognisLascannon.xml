@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon fireSound="Weapons/CognisLascannon" fireSoundCount="1" fireInterval="1" muzzleCount="2" cycleMuzzles="0" />
+        <beamWeapon cycleMuzzles="0" fireInterval="1" fireSound="Weapons/CognisLascannon" fireSoundCount="1" muzzleCount="2" />
     </model>
     <modifiers>
         <modifier>

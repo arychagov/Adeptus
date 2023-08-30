@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement12">
     <model>
-        <unit mesh="Units/Eldar/DarkReaper" material="Units/Eldar/DarkReaper" idleAnimation="Units/Eldar/DarkReaperIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.9 0.9 0.9" bloodBone="Chest" walker="1" />
+        <unit bloodBone="Chest" idleAnimation="Units/Eldar/DarkReaperIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Eldar/DarkReaper" mesh="Units/Eldar/DarkReaper" normalWeight="0.1" scale="0.9 0.9 0.9" walker="1" />
     </model>
-    <group size="3" rowSize="3" memberDeltaX="70" memberDeltaY="70" />
+    <group memberDeltaX="70" memberDeltaY="70" rowSize="3" size="3" />
     <weapons>
         <weapon name="ReaperLauncherStarshotMissile" slotName="ReaperLauncherStarshotMissile">
             <model>
                 <missileWeapon muzzleBone="Muzzle" />
             </model>
         </weapon>
-        <weapon name="ReaperLauncherStarswarmMissile" slotName="ReaperLauncherStarswarmMissile" enabled="0">
+        <weapon name="ReaperLauncherStarswarmMissile" enabled="0" slotName="ReaperLauncherStarswarmMissile">
             <model>
                 <missileWeapon muzzleBone="Muzzle" />
             </model>

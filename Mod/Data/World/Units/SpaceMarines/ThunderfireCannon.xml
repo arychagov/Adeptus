@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/SpaceMarines/ThunderfireCannon" material="Units/SpaceMarines/ThunderfireCannon" idleAnimation="Units/SpaceMarines/ThunderfireCannonIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.75 0.75 0.75" bloodBone="BloodBone" walker="1" />
+        <unit bloodBone="BloodBone" idleAnimation="Units/SpaceMarines/ThunderfireCannonIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SpaceMarines/ThunderfireCannon" mesh="Units/SpaceMarines/ThunderfireCannon" normalWeight="0.1" scale="0.75 0.75 0.75" walker="1" />
     </model>
     <weapons>
         <weapon name="ThunderfireCannon">
             <model>
-                <projectileWeapon muzzleBone=".ThunderFire" fireInterval="0.1" effectScale="1.5" />
+                <projectileWeapon effectScale="1.5" fireInterval="0.1" muzzleBone=".ThunderFire" />
             </model>
         </weapon>
         <weapon name="PlasmaCutter">
@@ -16,15 +16,15 @@
         </weapon>
         <weapon name="Flamer">
             <model>
-                <flamerWeapon muzzleBone=".FlamerMuzzle0" fireInterval="10" />
+                <flamerWeapon fireInterval="10" muzzleBone=".FlamerMuzzle0" />
             </model>
         </weapon>
-        <weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
             <model>
                 <grenadeWeapon muzzleBone="Bone009(mirrored)" />
             </model>
         </weapon>
-        <weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
+        <weapon name="KrakGrenade" enabled="0" slotName="KrakGrenade">
             <model>
                 <grenadeWeapon muzzleBone="Bone009(mirrored)" />
             </model>
@@ -91,13 +91,13 @@
                 <action sound="Actions/ArmourUp" />
             </model>
             <beginTargets>
-                <target rangeMin="1" rangeMax="2">
+                <target rangeMax="2" rangeMin="1">
                     <areas>
                         <area affects="Tile">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature duration="3" name="BolsterDefences" />
+                                        <addFeature name="BolsterDefences" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait visibilityCategory="Building" icon="Actions/AstraMilitarumVehicleProductionEdict">
+<trait icon="Actions/AstraMilitarumVehicleProductionEdict" visibilityCategory="Building">
     <modifiers>
         <modifier>
             <conditions>

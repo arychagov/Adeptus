@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff" rankMax="2" icon="Actions/Tau/Markerlight">
+<trait category="Debuff" icon="Actions/Tau/Markerlight" rankMax="2">
     <modifiers>
         <modifier>
             <effects>
-                <armor addMin="-1" addMax="-2" />
+                <armor addMax="-2" addMin="-1" />
             </effects>
         </modifier>
     </modifiers>

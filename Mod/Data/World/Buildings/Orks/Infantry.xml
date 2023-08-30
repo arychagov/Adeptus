@@ -35,12 +35,12 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="Orks/Boy" />
-        <produceUnit unit="Orks/Tankbusta" requiredUpgrade="Orks/Tankbusta" />
-        <produceUnit unit="Orks/FlashGitz" requiredUpgrade="Orks/FlashGitz" />
-        <produceUnit unit="Orks/KillaKan" requiredUpgrade="Orks/KillaKan" />
-        <produceUnit unit="Orks/DeffDread" requiredUpgrade="Orks/DeffDread" />
-        <produceUnit unit="Orks/Meganob" requiredUpgrade="Orks/Meganob" />
-        <produceUnit unit="Orks/Gorkanaut" requiredUpgrade="Orks/Gorkanaut" />
+        <produceUnit requiredUpgrade="Orks/Tankbusta" unit="Orks/Tankbusta" />
+        <produceUnit requiredUpgrade="Orks/FlashGitz" unit="Orks/FlashGitz" />
+        <produceUnit requiredUpgrade="Orks/KillaKan" unit="Orks/KillaKan" />
+        <produceUnit requiredUpgrade="Orks/DeffDread" unit="Orks/DeffDread" />
+        <produceUnit requiredUpgrade="Orks/Meganob" unit="Orks/Meganob" />
+        <produceUnit requiredUpgrade="Orks/Gorkanaut" unit="Orks/Gorkanaut" />
     </actions>
     <traits>
         <trait name="Orks/BonusInfantryProduction" requiredUpgrade="Orks/BonusInfantryProduction" />

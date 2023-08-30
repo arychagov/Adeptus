@@ -35,7 +35,7 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="Eldar/CrimsonHunter" />
-        <produceUnit unit="Eldar/HemlockWraithfighter" requiredUpgrade="Eldar/HemlockWraithfighter" />
+        <produceUnit requiredUpgrade="Eldar/HemlockWraithfighter" unit="Eldar/HemlockWraithfighter" />
     </actions>
     <traits>
         <trait name="Eldar/AircraftBuildingBonus" requiredUpgrade="Eldar/AircraftBuildingBonus" />

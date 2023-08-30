@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait visibilityCategory="Weapon" category="Buff" icon="Items/DuskBlade">
+<trait category="Buff" icon="Items/DuskBlade" visibilityCategory="Weapon">
     <modifiers>
         <modifier>
             <conditions>

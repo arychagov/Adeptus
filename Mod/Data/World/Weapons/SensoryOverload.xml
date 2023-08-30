@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon fireSound="Weapons/PsychicScream" fireSoundCount="3" fireInterval="10.0" beamsBlueprint="Effects/SensoryOverload" beamsEmitterBlueprint="Effects/SensoryOverloadEmitter" muzzleFlashesBlueprint="Effects/SensoryOverloadMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/SensoryOverloadMuzzleFlashesEmitter" effectFaceWeight="1.0" effectScale="1.0" />
+        <beamWeapon beamsBlueprint="Effects/SensoryOverload" beamsEmitterBlueprint="Effects/SensoryOverloadEmitter" effectFaceWeight="1.0" effectScale="1.0" fireInterval="10.0" fireSound="Weapons/PsychicScream" fireSoundCount="3" muzzleFlashesBlueprint="Effects/SensoryOverloadMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/SensoryOverloadMuzzleFlashesEmitter" />
     </model>
     <modifiers>
         <modifier>

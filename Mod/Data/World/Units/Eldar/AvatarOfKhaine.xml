@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement7">
     <model>
-        <unit mesh="Units/Eldar/AvatarOfKhaine" material="Units/Eldar/AvatarOfKhaine" idleAnimation="Units/Eldar/AvatarOfKhaineIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.9 0.9 0.9" bloodBone="Chest" walker="1" />
+        <unit bloodBone="Chest" idleAnimation="Units/Eldar/AvatarOfKhaineIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Eldar/AvatarOfKhaine" mesh="Units/Eldar/AvatarOfKhaine" normalWeight="0.1" scale="0.9 0.9 0.9" walker="1" />
     </model>
     <weapons>
         <weapon name="WailingDoomMelee">
             <model>
-                <powerWeapon effectBoundingVolume="Sword" effectBone="Muzzle" fireInterval="0.5" />
+                <powerWeapon effectBone="Muzzle" effectBoundingVolume="Sword" fireInterval="0.5" />
             </model>
         </weapon>
         <weapon name="WailingDoomRanged">
             <model>
-                <beamWeapon muzzleBone="Muzzle" fireInterval="0.4" effectFaceWeight="0.0" />
+                <beamWeapon effectFaceWeight="0.0" fireInterval="0.4" muzzleBone="Muzzle" />
             </model>
         </weapon>
     </weapons>
@@ -48,7 +48,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/Eldar/AvatarOfKhaineAttack" beginFire="1.0" endFire="1.85" chargeAnimation="Units/Eldar/AvatarOfKhaineCharge" chargeBeginFire="0.35" chargeEndFire="0.85" meleeAnimation="Units/Eldar/AvatarOfKhaineMelee" meleeBeginSwing="0.1" meleeEndSwing="0.7" />
+                <action animation="Units/Eldar/AvatarOfKhaineAttack" beginFire="1.0" chargeAnimation="Units/Eldar/AvatarOfKhaineCharge" chargeBeginFire="0.35" chargeEndFire="0.85" endFire="1.85" meleeAnimation="Units/Eldar/AvatarOfKhaineMelee" meleeBeginSwing="0.1" meleeEndSwing="0.7" />
             </model>
         </attack>
         <die>

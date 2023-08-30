@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/Orks/BigMek" material="Units/Orks/BigMek" idleAnimation="Units/Orks/BigMekIdle0" idleAnimationCount="1" idleContinuously="1" normalWeight="0.1" scale="1.0 1.0 1.0" bloodBone="BloodBone" walker="1">
+        <unit bloodBone="BloodBone" idleAnimation="Units/Orks/BigMekIdle0" idleAnimationCount="1" idleContinuously="1" material="Units/Orks/BigMek" mesh="Units/Orks/BigMek" normalWeight="0.1" scale="1.0 1.0 1.0" walker="1">
             <effects>
-                <effect blueprint="Effects/ForceField" position="-3 7 107" bone="BloodBone" />
+                <effect blueprint="Effects/ForceField" bone="BloodBone" position="-3 7 107" />
             </effects>
         </unit>
     </model>
     <weapons>
         <weapon name="KustomMegaBlasta">
             <model>
-                <projectileWeapon muzzleBone=".Muzzle" fireInterval="1" />
+                <projectileWeapon fireInterval="1" muzzleBone=".Muzzle" />
             </model>
         </weapon>
         <weapon name="PowerKlaw">
             <model></model>
         </weapon>
-        <weapon name="Stikkbomb" slotName="Stikkbomb" enabled="0">
+        <weapon name="Stikkbomb" enabled="0" slotName="Stikkbomb">
             <model>
                 <grenadeWeapon muzzleBone="BloodBone.004.L" />
             </model>
@@ -53,7 +53,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/Orks/BigMekAttack" beginFire="0.7" endFire="1.9" chargeAnimation="Units/Orks/BigMekCharge" chargeBeginFire="0.5" chargeEndFire="0.7" meleeAnimation="Units/Orks/BigMekMelee" meleeBeginSwing="0.33" meleeEndSwing="1.0" />
+                <action animation="Units/Orks/BigMekAttack" beginFire="0.7" chargeAnimation="Units/Orks/BigMekCharge" chargeBeginFire="0.5" chargeEndFire="0.7" endFire="1.9" meleeAnimation="Units/Orks/BigMekMelee" meleeBeginSwing="0.33" meleeEndSwing="1.0" />
             </model>
         </attack>
         <die>
@@ -99,7 +99,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="EreWeGo" />
+                                        <addTrait name="EreWeGo" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -110,7 +110,7 @@
         </ereWeGo>
         <meksTools cooldown="1">
             <model>
-                <action sound="Actions/MechanicalBuff" animation="Units/Orks/BigMekRepair" />
+                <action animation="Units/Orks/BigMekRepair" sound="Actions/MechanicalBuff" />
             </model>
             <beginTargets>
                 <target rangeMax="1">
@@ -139,7 +139,7 @@
                 </target>
             </beginTargets>
         </meksTools>
-        <ammoRunt requiredUpgrade="Orks/AmmoRunt" consumedActionPoints="0" consumedMovement="0" cooldown="5">
+        <ammoRunt consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredUpgrade="Orks/AmmoRunt">
             <model>
                 <action sound="Actions/Reload" />
             </model>

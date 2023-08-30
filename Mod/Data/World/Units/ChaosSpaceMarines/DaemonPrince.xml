@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement3">
     <model>
-        <unit mesh="Units/ChaosSpaceMarines/DaemonPrince" material="Units/ChaosSpaceMarines/DaemonPrince" idleAnimation="Units/ChaosSpaceMarines/DaemonPrinceIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1 1 1" bloodBone="Bone001" walker="1" />
+        <unit bloodBone="Bone001" idleAnimation="Units/ChaosSpaceMarines/DaemonPrinceIdle" idleAnimationCount="3" idleContinuously="1" material="Units/ChaosSpaceMarines/DaemonPrince" mesh="Units/ChaosSpaceMarines/DaemonPrince" normalWeight="0.1" scale="1 1 1" walker="1" />
     </model>
     <weapons>
         <weapon name="CloseCombatWeapon">
@@ -9,12 +9,12 @@
                 <weapon fireInterval="0.5" />
             </model>
         </weapon>
-        <weapon name="SensoryOverload" slotName="SensoryOverload" enabled="0">
+        <weapon name="SensoryOverload" enabled="0" slotName="SensoryOverload">
             <model>
                 <beamWeapon muzzleBone="Bone014" />
             </model>
         </weapon>
-        <weapon name="BreathOfChaos" slotName="BreathOfChaos" enabled="0">
+        <weapon name="BreathOfChaos" enabled="0" slotName="BreathOfChaos">
             <model>
                 <flamerWeapon muzzleBone=".Mouth" />
             </model>
@@ -126,7 +126,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility name="ChaosSpaceMarines/NurgleCorruption" icon="Actions/ChaosSpaceMarines/MarkOfNurgle" passive="1" rankMax="2" rank="-1">
+        <genericUnitAbility name="ChaosSpaceMarines/NurgleCorruption" icon="Actions/ChaosSpaceMarines/MarkOfNurgle" passive="1" rank="-1" rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -139,7 +139,7 @@
                                 </modifier>
                             </modifiers>
                         </area>
-                        <area affects="Tile" radiusMin="1" radiusMax="3">
+                        <area affects="Tile" radiusMax="3" radiusMin="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
@@ -152,7 +152,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility name="ChaosSpaceMarines/KhorneCorruption" icon="Actions/ChaosSpaceMarines/MarkOfKhorne" passive="1" rankMax="2" rank="-1">
+        <genericUnitAbility name="ChaosSpaceMarines/KhorneCorruption" icon="Actions/ChaosSpaceMarines/MarkOfKhorne" passive="1" rank="-1" rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -169,7 +169,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility name="ChaosSpaceMarines/TzeentchCorruption" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch" passive="1" rankMax="2" rank="-1">
+        <genericUnitAbility name="ChaosSpaceMarines/TzeentchCorruption" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch" passive="1" rank="-1" rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -186,7 +186,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility name="ChaosSpaceMarines/SlaaneshCorruption" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" elite="1" passive="1" rankMax="0" rank="-1">
+        <genericUnitAbility name="ChaosSpaceMarines/SlaaneshCorruption" elite="1" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" passive="1" rank="-1" rankMax="0">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -204,7 +204,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility beginOnDisappear="1" cooldown="10" name="ChaosSpaceMarines/BlessedChampions" requiredUpgrade="ChaosSpaceMarines/BlessedChampions" icon="Buildings/ChaosSpaceMarines/Heroes" passive="1">
+        <genericUnitAbility name="ChaosSpaceMarines/BlessedChampions" beginOnDisappear="1" cooldown="10" icon="Buildings/ChaosSpaceMarines/Heroes" passive="1" requiredUpgrade="ChaosSpaceMarines/BlessedChampions">
             <model>
                 <action sound="Actions/ChaosBuff" />
             </model>

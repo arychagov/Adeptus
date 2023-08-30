@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon fireSound="Weapons/ShadowWeaver" fireSoundCount="3" muzzleFlashesBlueprint="Effects/ShadowWeaverMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/ShurikenMuzzleFlashesEmitter" directionalMuzzleFlashesBlueprint="" projectilesBlueprint="Effects/ShadowWeaverProjectiles" projectilesEmitterBlueprint="Effects/ShadowWeaverProjectilesEmitter" explosionsBlueprint="" smokeBlueprint="" />
+        <projectileWeapon directionalMuzzleFlashesBlueprint="" explosionsBlueprint="" fireSound="Weapons/ShadowWeaver" fireSoundCount="3" muzzleFlashesBlueprint="Effects/ShadowWeaverMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/ShurikenMuzzleFlashesEmitter" projectilesBlueprint="Effects/ShadowWeaverProjectiles" projectilesEmitterBlueprint="Effects/ShadowWeaverProjectilesEmitter" smokeBlueprint="" />
     </model>
     <modifiers>
         <modifier>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/Necrons/TesseractVault" material="Units/Necrons/TesseractVault" idleAnimation="Units/Necrons/TesseractVaultIdle" idleAnimationCount="3" idleContinuously="1" scale="1 1 1" bloodBone="BloodBone" explosionsBone="BloodBone" />
+        <unit bloodBone="BloodBone" explosionsBone="BloodBone" idleAnimation="Units/Necrons/TesseractVaultIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Necrons/TesseractVault" mesh="Units/Necrons/TesseractVault" scale="1 1 1" />
     </model>
     <weapons>
         <weapon name="TeslaSphere" count="4">
             <model>
-                <beamWeapon muzzleBone=".Muzzle" muzzleCount="4" fireInterval="0.2" />
+                <beamWeapon fireInterval="0.2" muzzleBone=".Muzzle" muzzleCount="4" />
             </model>
         </weapon>
-        <weapon name="TransdimensionalThunderboltCoalescent" slotName="TransdimensionalThunderboltCoalescent" enabled="0">
+        <weapon name="TransdimensionalThunderboltCoalescent" enabled="0" slotName="TransdimensionalThunderboltCoalescent">
             <model>
                 <beamWeapon muzzleBone="Bone134(mirrored)" />
             </model>
         </weapon>
-        <weapon name="SkyOfFallingStarsCoalescent" slotName="SkyOfFallingStarsCoalescent" enabled="0" />
-        <weapon name="SeismicAssaultCoalescent" slotName="SeismicAssaultCoalescent" enabled="0" />
+        <weapon name="SkyOfFallingStarsCoalescent" enabled="0" slotName="SkyOfFallingStarsCoalescent" />
+        <weapon name="SeismicAssaultCoalescent" enabled="0" slotName="SeismicAssaultCoalescent" />
     </weapons>
     <modifiers>
         <modifier visible="0">
@@ -77,7 +77,7 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <necrodermisRepair consumedActionPoints="0" consumedMovement="0" cooldown="1" name="Necrons/NecrodermisRepair" requiredActionPoints="0">
+        <necrodermisRepair name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
             <model>
                 <action sound="Actions/Heal" />
             </model>
@@ -119,17 +119,17 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <transdimensionalThunderbolt weaponSlotName="TransdimensionalThunderboltCoalescent" cooldown="3">
+        <transdimensionalThunderbolt cooldown="3" weaponSlotName="TransdimensionalThunderboltCoalescent">
             <model>
                 <action animation="Units/Necrons/TesseractVaultAbility0" beginFire="0.8" endFire="2.5" />
             </model>
         </transdimensionalThunderbolt>
-        <skyOfFallingStars weaponSlotName="SkyOfFallingStarsCoalescent" cooldown="3">
+        <skyOfFallingStars cooldown="3" weaponSlotName="SkyOfFallingStarsCoalescent">
             <model>
                 <action animation="Units/Necrons/TesseractVaultAbility1" sound="Actions/SkyOfFallingStars" />
             </model>
         </skyOfFallingStars>
-        <seismicAssault weaponSlotName="SeismicAssaultCoalescent" cooldown="3" requiredUpgrade="Necrons/SeismicAssault">
+        <seismicAssault cooldown="3" requiredUpgrade="Necrons/SeismicAssault" weaponSlotName="SeismicAssaultCoalescent">
             <model>
                 <action animation="Units/Necrons/TesseractVaultAbility1" sound="Actions/SeismicAssault" />
             </model>

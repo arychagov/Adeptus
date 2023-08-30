@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/SpaceMarines/Vindicator" material="Units/SpaceMarines/Vindicator" idleAnimation="" idleAnimationCount="0" scale="1.2 1.2 1.2" explosionsBone="Hull" uvAnimated="1" />
+        <unit explosionsBone="Hull" idleAnimation="" idleAnimationCount="0" material="Units/SpaceMarines/Vindicator" mesh="Units/SpaceMarines/Vindicator" scale="1.2 1.2 1.2" uvAnimated="1" />
     </model>
     <weapons>
         <weapon name="DemolisherCannon">
             <model>
-                <projectileWeapon muzzleBone=".DemolisherCannonMuzzle" fireInterval="0.7" />
+                <projectileWeapon fireInterval="0.7" muzzleBone=".DemolisherCannonMuzzle" />
             </model>
         </weapon>
-        <weapon name="HunterKillerMissile" slotName="HunterKillerMissile" enabled="0">
+        <weapon name="HunterKillerMissile" enabled="0" slotName="HunterKillerMissile">
             <model>
-                <missileWeapon muzzleBone="Hull" fireInterval="5.0" />
+                <missileWeapon fireInterval="5.0" muzzleBone="Hull" />
             </model>
         </weapon>
     </weapons>
@@ -64,7 +64,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature duration="3" name="SmokeScreen" />
+                                        <addFeature name="SmokeScreen" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -73,7 +73,7 @@
                 </selfTarget>
             </beginTargets>
         </createSmokeScreen>
-        <useWeapon weaponSlotName="HunterKillerMissile" cooldown="10" requiredUpgrade="SpaceMarines/HunterKillerMissile">
+        <useWeapon cooldown="10" requiredUpgrade="SpaceMarines/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
             <model>
                 <action beginFire="0.1" endFire="1.0" />
             </model>

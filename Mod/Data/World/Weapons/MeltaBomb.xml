@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <grenadeWeapon fireSound="Weapons/GrenadeThrow" fireSoundCount="6" explosionSound="Explosions/MeltaBomb" explosionSoundCount="3" />
+        <grenadeWeapon explosionSound="Explosions/MeltaBomb" explosionSoundCount="3" fireSound="Weapons/GrenadeThrow" fireSoundCount="6" />
     </model>
     <modifiers>
         <modifier>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon fireSound="Weapons/SerpentShield" fireSoundCount="1" fireInterval="10.0" beamsBlueprint="Effects/SerpentShield" beamsEmitterBlueprint="Effects/WarpBlastBurstEmitter" muzzleFlashesBlueprint="Effects/SerpentShieldMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/WarpBlastMuzzleFlashesEmitter" effectFaceWeight="1.0" effectScale="1.0" />
+        <beamWeapon beamsBlueprint="Effects/SerpentShield" beamsEmitterBlueprint="Effects/WarpBlastBurstEmitter" effectFaceWeight="1.0" effectScale="1.0" fireInterval="10.0" fireSound="Weapons/SerpentShield" fireSoundCount="1" muzzleFlashesBlueprint="Effects/SerpentShieldMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/WarpBlastMuzzleFlashesEmitter" />
     </model>
     <modifiers>
         <modifier>

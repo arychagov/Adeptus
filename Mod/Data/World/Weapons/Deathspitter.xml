@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon fireSound="Weapons/Deathspitter" fireSoundCount="3" muzzleFlashesBlueprint="Effects/StranglethornMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/StranglethornMuzzleFlashesEmitter" directionalMuzzleFlashesBlueprint="Effects/StranglethornDirectionalMuzzleFlashes" directionalMuzzleFlashesEmitterBlueprint="Effects/StranglethornDirectionalMuzzleFlashesEmitter" projectilesBlueprint="Effects/DroolProjectiles" projectilesEmitterBlueprint="Effects/StranglethornProjectilesEmitter" explosionsBlueprint="Effects/AcidExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" />
+        <projectileWeapon directionalMuzzleFlashesBlueprint="Effects/StranglethornDirectionalMuzzleFlashes" directionalMuzzleFlashesEmitterBlueprint="Effects/StranglethornDirectionalMuzzleFlashesEmitter" explosionsBlueprint="Effects/AcidExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" fireSound="Weapons/Deathspitter" fireSoundCount="3" muzzleFlashesBlueprint="Effects/StranglethornMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/StranglethornMuzzleFlashesEmitter" projectilesBlueprint="Effects/DroolProjectiles" projectilesEmitterBlueprint="Effects/StranglethornProjectilesEmitter" />
     </model>
     <modifiers>
         <modifier>

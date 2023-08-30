@@ -10,12 +10,12 @@
                 </weapon>
             </conditions>
             <effects>
-                <damageReturnFactor addMin="0.08" addMax="0.18" />
+                <damageReturnFactor addMax="0.18" addMin="0.08" />
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <hitpointsMax addMin="2" addMax="4" />
+                <hitpointsMax addMax="4" addMin="2" />
             </effects>
         </modifier>
     </modifiers>

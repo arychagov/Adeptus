@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <influencePerExperience addMin="2" addMax="6" />
+                <influencePerExperience addMax="6" addMin="2" />
             </effects>
         </modifier>
     </modifiers>

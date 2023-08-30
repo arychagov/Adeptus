@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement12">
     <model>
-        <unit mesh="Units/AstraMilitarum/RogalDornBattleTank" material="Units/AstraMilitarum/RogalDornBattleTank" idleAnimation="Units/AstraMilitarum/RogalDornBattleTankIdle" idleAnimationCount="3" idleContinuously="1" scale="1.1 1.1 1.1" explosionsBone="Hull_Shake" uvAnimated="1" />
+        <unit explosionsBone="Hull_Shake" idleAnimation="Units/AstraMilitarum/RogalDornBattleTankIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AstraMilitarum/RogalDornBattleTank" mesh="Units/AstraMilitarum/RogalDornBattleTank" scale="1.1 1.1 1.1" uvAnimated="1" />
     </model>
     <weapons>
         <weapon name="OppressorCannon">
             <model>
-                <projectileWeapon muzzleBone="Muzzle1" fireDelay="1.19" />
+                <projectileWeapon fireDelay="1.19" muzzleBone="Muzzle1" />
             </model>
         </weapon>
         <weapon name="Autocannon">
@@ -21,27 +21,27 @@
         </weapon>
         <weapon name="HeavyBolter" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
             <model>
-                <projectileWeapon mesh="Weapons/AstraMilitarum/RogalDornBattleTankBolterL" material="Units/AstraMilitarum/RogalDornBattleTank" bone="Bolter_L" muzzleBone="Muzzle3" />
+                <projectileWeapon bone="Bolter_L" material="Units/AstraMilitarum/RogalDornBattleTank" mesh="Weapons/AstraMilitarum/RogalDornBattleTankBolterL" muzzleBone="Muzzle3" />
             </model>
         </weapon>
         <weapon name="HeavyBolter" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
             <model>
-                <projectileWeapon mesh="Weapons/AstraMilitarum/RogalDornBattleTankBolterR" material="Units/AstraMilitarum/RogalDornBattleTank" bone="Bolter_R" muzzleBone="Muzzle4" />
+                <projectileWeapon bone="Bolter_R" material="Units/AstraMilitarum/RogalDornBattleTank" mesh="Weapons/AstraMilitarum/RogalDornBattleTankBolterR" muzzleBone="Muzzle4" />
             </model>
         </weapon>
-        <weapon name="HunterKillerMissile" slotName="HunterKillerMissile" enabled="0">
+        <weapon name="HunterKillerMissile" enabled="0" slotName="HunterKillerMissile">
             <model>
                 <missileWeapon muzzleBone="Hull_Shake" />
             </model>
         </weapon>
         <weapon name="None" enabled="0" requiredUpgrade="AstraMilitarum/SmokeLauncher">
             <model>
-                <weapon mesh="Weapons/AstraMilitarum/RogalDornBattleTankSmokeLauncherL" material="Units/AstraMilitarum/RogalDornBattleTank" bone="Flare_L" />
+                <weapon bone="Flare_L" material="Units/AstraMilitarum/RogalDornBattleTank" mesh="Weapons/AstraMilitarum/RogalDornBattleTankSmokeLauncherL" />
             </model>
         </weapon>
         <weapon name="None" enabled="0" requiredUpgrade="AstraMilitarum/SmokeLauncher">
             <model>
-                <weapon mesh="Weapons/AstraMilitarum/RogalDornBattleTankSmokeLauncherR" material="Units/AstraMilitarum/RogalDornBattleTank" bone="Flare_R" />
+                <weapon bone="Flare_R" material="Units/AstraMilitarum/RogalDornBattleTank" mesh="Weapons/AstraMilitarum/RogalDornBattleTankSmokeLauncherR" />
             </model>
         </weapon>
     </weapons>
@@ -94,7 +94,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature duration="3" name="SmokeScreen" />
+                                        <addFeature name="SmokeScreen" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -103,7 +103,7 @@
                 </selfTarget>
             </beginTargets>
         </createSmokeScreen>
-        <useWeapon weaponSlotName="HunterKillerMissile" cooldown="10" requiredUpgrade="AstraMilitarum/HunterKillerMissile">
+        <useWeapon cooldown="10" requiredUpgrade="AstraMilitarum/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
             <model>
                 <action beginFire="0.1" endFire="1.0" />
             </model>

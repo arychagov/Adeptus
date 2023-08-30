@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon fireSound="Weapons/ShurikenPistol" fireSoundCount="3" fireInterval="0.1" muzzleFlashesBlueprint="Effects/ShurikenMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/ShurikenMuzzleFlashesEmitter" directionalMuzzleFlashesBlueprint="" projectilesBlueprint="Effects/ShurikenProjectiles" projectilesEmitterBlueprint="Effects/ShurikenProjectilesEmitter" explosionsBlueprint="Effects/DustExplosions" smokeBlueprint="" />
+        <projectileWeapon directionalMuzzleFlashesBlueprint="" explosionsBlueprint="Effects/DustExplosions" fireInterval="0.1" fireSound="Weapons/ShurikenPistol" fireSoundCount="3" muzzleFlashesBlueprint="Effects/ShurikenMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/ShurikenMuzzleFlashesEmitter" projectilesBlueprint="Effects/ShurikenProjectiles" projectilesEmitterBlueprint="Effects/ShurikenProjectilesEmitter" smokeBlueprint="" />
     </model>
     <modifiers>
         <modifier>

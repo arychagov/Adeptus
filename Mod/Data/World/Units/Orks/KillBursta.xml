@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement8">
     <model>
-        <unit mesh="Units/Orks/KillBursta" material="Units/Orks/KillBursta" idleAnimation="Units/Orks/KillBurstaIdle" idleAnimationCount="3" idleContinuously="1" scale="1.3 1.3 1.3" explosionsBone="Hull" uvAnimated="1" />
+        <unit explosionsBone="Hull" idleAnimation="Units/Orks/KillBurstaIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Orks/KillBursta" mesh="Units/Orks/KillBursta" scale="1.3 1.3 1.3" uvAnimated="1" />
     </model>
     <weapons>
         <weapon name="BurstaKannon">
             <model>
-                <projectileWeapon muzzleBone="CannonMuzzle" fireInterval="0.56" />
+                <projectileWeapon fireInterval="0.56" muzzleBone="CannonMuzzle" />
             </model>
         </weapon>
         <weapon name="TwinLinkedBigShoota" count="2">
             <model>
-                <projectileWeapon muzzleBone="SidegunMuzzle" muzzleCount="2" fireInterval="0.1" effectFaceWeight="0" />
+                <projectileWeapon effectFaceWeight="0" fireInterval="0.1" muzzleBone="SidegunMuzzle" muzzleCount="2" />
             </model>
         </weapon>
     </weapons>

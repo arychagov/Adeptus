@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon beamsBlueprint="Effects/MoltenBeam" beamsEmitterBlueprint="Effects/MoltenBeamEmitter" fireInterval="10" fireSound="Weapons/MoltenBeam" fireSoundCount="3" effectFaceWeight="1" muzzleFlashesBlueprint="" />
+        <beamWeapon beamsBlueprint="Effects/MoltenBeam" beamsEmitterBlueprint="Effects/MoltenBeamEmitter" effectFaceWeight="1" fireInterval="10" fireSound="Weapons/MoltenBeam" fireSoundCount="3" muzzleFlashesBlueprint="" />
     </model>
     <modifiers>
         <modifier>

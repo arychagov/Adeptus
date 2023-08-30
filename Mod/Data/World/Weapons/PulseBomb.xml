@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <weapon fireSound="Weapons/PulseBomb" fireSoundCount="1" explosionSound="Explosions/PulseBomb" explosionSoundCount="1" explosionsBlueprint="Effects/PlasmaExplosions" explosionsEmitterBlueprint="Effects/PulseBombExplosionsEmitter" />
+        <weapon explosionSound="Explosions/PulseBomb" explosionSoundCount="1" explosionsBlueprint="Effects/PlasmaExplosions" explosionsEmitterBlueprint="Effects/PulseBombExplosionsEmitter" fireSound="Weapons/PulseBomb" fireSoundCount="1" />
     </model>
     <modifiers>
         <modifier>

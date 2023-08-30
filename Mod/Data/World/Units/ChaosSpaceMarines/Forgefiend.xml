@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement10">
     <model>
-        <unit mesh="Units/ChaosSpaceMarines/Forgefiend" material="Units/ChaosSpaceMarines/Forgefiend" idleAnimation="Units/ChaosSpaceMarines/ForgefiendIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.9 0.9 0.9" explosionsBone="Spine2" walker="1" />
+        <unit explosionsBone="Spine2" idleAnimation="Units/ChaosSpaceMarines/ForgefiendIdle" idleAnimationCount="3" idleContinuously="1" material="Units/ChaosSpaceMarines/Forgefiend" mesh="Units/ChaosSpaceMarines/Forgefiend" normalWeight="0.1" scale="0.9 0.9 0.9" walker="1" />
     </model>
     <weapons>
         <weapon name="HadesAutocannon" count="2">
@@ -94,7 +94,7 @@
                 </selfTarget>
             </beginTargets>
         </hammerOfWrath>
-        <daemonforge consumedActionPoints="0" consumedMovement="0" cooldown="3" name="ChaosSpaceMarines/Daemonforge">
+        <daemonforge name="ChaosSpaceMarines/Daemonforge" consumedActionPoints="0" consumedMovement="0" cooldown="3">
             <model>
                 <action sound="Actions/ChaosBuff" />
             </model>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff" rankMax="2" icon="Actions/Tau/SenseOfStone">
+<trait alwaysVisible="1" category="Buff" icon="Actions/Tau/SenseOfStone" rankMax="2">
     <modifiers>
         <modifier>
             <effects>

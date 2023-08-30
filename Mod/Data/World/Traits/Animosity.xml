@@ -3,12 +3,12 @@
     <modifiers>
         <modifier>
             <effects>
-                <attacks mulMin="-0.02" mulMax="-0.20" />
+                <attacks mulMax="-0.20" mulMin="-0.02" />
             </effects>
         </modifier>
         <modifier visible="0">
             <effects>
-                <loyalty mulMin="-0.02" mulMax="-0.20" />
+                <loyalty mulMax="-0.20" mulMin="-0.02" />
             </effects>
         </modifier>
     </modifiers>

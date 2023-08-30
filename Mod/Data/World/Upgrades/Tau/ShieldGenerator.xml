@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="10" icon="Actions/Tau/ShieldGenerator">
+<upgrade icon="Actions/Tau/ShieldGenerator" position="10">
     <requiredUpgrades>
         <upgrade name="Tau/Commander" />
         <upgrade name="Tau/CrisisBattlesuit" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="7" icon="Actions/Eldar/CrystalTargetingMatrix">
+<upgrade icon="Actions/Eldar/CrystalTargetingMatrix" position="7">
     <requiredUpgrades>
         <upgrade name="Eldar/FirePrism" />
         <upgrade name="Eldar/Hornet" />

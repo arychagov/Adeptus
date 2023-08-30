@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement6">
     <model>
-        <unit mesh="Units/SpaceMarines/Razorback" material="Units/SpaceMarines/Razorback" idleContinuously="1" idleAnimation="Units/SpaceMarines/RazorbackIdle" idleAnimationCount="3" scale="0.9 0.9 0.9" explosionsBone="Hull" uvAnimated="1" />
+        <unit explosionsBone="Hull" idleAnimation="Units/SpaceMarines/RazorbackIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SpaceMarines/Razorback" mesh="Units/SpaceMarines/Razorback" scale="0.9 0.9 0.9" uvAnimated="1" />
     </model>
     <weapons>
         <weapon name="TwinLinkedHeavyBolter">
@@ -14,12 +14,12 @@
                 <projectileWeapon muzzleBone=".StormbolterMuzzle" muzzleCount="2" />
             </model>
         </weapon>
-        <weapon name="HunterKillerMissile" slotName="HunterKillerMissile" enabled="0">
+        <weapon name="HunterKillerMissile" enabled="0" slotName="HunterKillerMissile">
             <model>
-                <missileWeapon muzzleBone="Hull" fireInterval="5.0" />
+                <missileWeapon fireInterval="5.0" muzzleBone="Hull" />
             </model>
         </weapon>
-        <weapon name="StormBolter" requiredUpgrade="SpaceMarines/HurricaneBolter"></weapon>
+        <weapon name="StormBolter" requiredUpgrade="SpaceMarines/HurricaneBolter" />
     </weapons>
     <modifiers>
         <modifier visible="0">
@@ -70,7 +70,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature duration="3" name="SmokeScreen" />
+                                        <addFeature name="SmokeScreen" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -79,7 +79,7 @@
                 </selfTarget>
             </beginTargets>
         </createSmokeScreen>
-        <useWeapon weaponSlotName="HunterKillerMissile" cooldown="10" requiredUpgrade="SpaceMarines/HunterKillerMissile">
+        <useWeapon cooldown="10" requiredUpgrade="SpaceMarines/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
             <model>
                 <action beginFire="0.1" endFire="1.0" />
             </model>

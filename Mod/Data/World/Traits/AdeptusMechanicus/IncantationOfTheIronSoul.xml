@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <moraleLossFactor mulMin="-0.05" mulMax="-0.5" />
+                <moraleLossFactor mulMax="-0.5" mulMin="-0.05" />
             </effects>
         </modifier>
     </modifiers>

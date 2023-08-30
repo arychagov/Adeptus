@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <weapon fireSound="Weapons/HeavyBombCluster" fireSoundCount="3" explosionsBlueprint="Effects/MissileExplosions" explosionsEmitterBlueprint="Effects/HeavyBombClusterExplosionsEmitter" />
+        <weapon explosionsBlueprint="Effects/MissileExplosions" explosionsEmitterBlueprint="Effects/HeavyBombClusterExplosionsEmitter" fireSound="Weapons/HeavyBombCluster" fireSoundCount="3" />
     </model>
     <modifiers>
         <modifier>

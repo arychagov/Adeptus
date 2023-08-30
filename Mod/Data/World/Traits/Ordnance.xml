@@ -14,7 +14,7 @@
                 </unit>
             </conditions>
             <effects>
-                <rangedAccuracy min="-999" max="-999" />
+                <rangedAccuracy max="-999" min="-999" />
             </effects>
         </modifier>
         <modifier>

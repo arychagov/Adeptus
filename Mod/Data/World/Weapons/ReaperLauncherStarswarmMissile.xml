@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <missileWeapon fireSound="Weapons/ReaperLauncherStarswarmMissile" fireSoundCount="3" fireInterval="0.5" />
+        <missileWeapon fireInterval="0.5" fireSound="Weapons/ReaperLauncherStarswarmMissile" fireSoundCount="3" />
     </model>
     <modifiers>
         <modifier>

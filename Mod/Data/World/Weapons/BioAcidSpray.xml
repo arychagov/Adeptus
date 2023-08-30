@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <flamerWeapon fireSound="Weapons/DesiccatorLarvae" fireSoundCount="3" flamesBlueprint="Effects/BioAcidSpray" flamesEmitterBlueprint="Effects/BioAcidSprayEmitter" effectFaceWeight="0" />
+        <flamerWeapon effectFaceWeight="0" fireSound="Weapons/DesiccatorLarvae" fireSoundCount="3" flamesBlueprint="Effects/BioAcidSpray" flamesEmitterBlueprint="Effects/BioAcidSprayEmitter" />
     </model>
     <modifiers>
         <modifier>

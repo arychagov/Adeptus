@@ -22,9 +22,9 @@
         </modifier>
     </modifiers>
     <actions>
-        <produceUnit unit="SpaceMarines/Captain" requiredUpgrade="SpaceMarines/Captain" />
-        <produceUnit unit="SpaceMarines/Librarian" requiredUpgrade="SpaceMarines/Librarian" />
-        <produceUnit unit="SpaceMarines/Chaplain" requiredUpgrade="SpaceMarines/Chaplain" />
+        <produceUnit requiredUpgrade="SpaceMarines/Captain" unit="SpaceMarines/Captain" />
+        <produceUnit requiredUpgrade="SpaceMarines/Librarian" unit="SpaceMarines/Librarian" />
+        <produceUnit requiredUpgrade="SpaceMarines/Chaplain" unit="SpaceMarines/Chaplain" />
     </actions>
     <traits>
         <trait name="ChapterUnity" requiredUpgrade="SpaceMarines/ChapterUnity" />

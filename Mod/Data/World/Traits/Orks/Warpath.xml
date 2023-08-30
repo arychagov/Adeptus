@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <meleeAttacks mulMin="0.15" mulMax="0.45" />
+                <meleeAttacks mulMax="0.45" mulMin="0.15" />
             </effects>
         </modifier>
     </modifiers>

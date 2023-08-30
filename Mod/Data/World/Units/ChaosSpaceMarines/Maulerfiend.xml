@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement3">
     <model>
-        <unit mesh="Units/ChaosSpaceMarines/Maulerfiend" material="Units/ChaosSpaceMarines/Maulerfiend" idleAnimation="Units/ChaosSpaceMarines/MaulerfiendIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.8 0.8 0.8" syncMovementSounds="1" explosionsBone="Bone001" walker="1" />
+        <unit explosionsBone="Bone001" idleAnimation="Units/ChaosSpaceMarines/MaulerfiendIdle" idleAnimationCount="3" idleContinuously="1" material="Units/ChaosSpaceMarines/Maulerfiend" mesh="Units/ChaosSpaceMarines/Maulerfiend" normalWeight="0.1" scale="0.8 0.8 0.8" syncMovementSounds="1" walker="1" />
     </model>
     <weapons>
         <weapon name="PowerFist" count="2">
@@ -111,7 +111,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <daemonforge consumedActionPoints="0" consumedMovement="0" cooldown="3" name="ChaosSpaceMarines/Daemonforge">
+        <daemonforge name="ChaosSpaceMarines/Daemonforge" consumedActionPoints="0" consumedMovement="0" cooldown="3">
             <model>
                 <action sound="Actions/ChaosBuff" />
             </model>

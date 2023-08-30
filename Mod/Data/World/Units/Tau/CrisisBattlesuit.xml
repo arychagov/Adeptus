@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement5">
     <model>
-        <unit mesh="Units/Tau/CrisisBattlesuit" material="Units/Tau/CrisisBattlesuit" idleAnimation="Units/Tau/CrisisBattlesuitIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1 1 1" explosionsBone="BloodBone" walker="1" />
+        <unit explosionsBone="BloodBone" idleAnimation="Units/Tau/CrisisBattlesuitIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tau/CrisisBattlesuit" mesh="Units/Tau/CrisisBattlesuit" normalWeight="0.1" scale="1 1 1" walker="1" />
     </model>
-    <group size="3" rowSize="3" memberDeltaX="80" memberDeltaY="80" />
+    <group memberDeltaX="80" memberDeltaY="80" rowSize="3" size="3" />
     <weapons>
         <weapon name="Flamer">
             <model>
@@ -12,7 +12,7 @@
         </weapon>
         <weapon name="MissilePod">
             <model>
-                <missileWeapon muzzleBone=".Missile" muzzleCount="3" missileScale="0.5" />
+                <missileWeapon missileScale="0.5" muzzleBone=".Missile" muzzleCount="3" />
             </model>
         </weapon>
     </weapons>
@@ -63,7 +63,7 @@
                 <action animation="Units/Tau/CrisisBattlesuitMove" sound="Units/Tau/JetPackMove" soundCount="1" />
             </model>
         </move>
-        <bondingKnifeRitual cooldown="5" consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" name="Tau/BondingKnifeRitual" requiredUpgrade="Tau/BondingKnifeRitual">
+        <bondingKnifeRitual name="Tau/BondingKnifeRitual" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0" requiredUpgrade="Tau/BondingKnifeRitual">
             <model>
                 <action bone="ChestBone" sound="Actions/BondingKnifeRitual" />
             </model>
@@ -83,12 +83,12 @@
                 </selfTarget>
             </beginTargets>
         </bondingKnifeRitual>
-        <deployShieldDrone cooldown="10" name="Tau/DeployDrone" requiredActionPoints="0" consumedActionPoints="0" consumedMovement="0" requiredUpgrade="Tau/ShieldDrone" unitType="Tau/ShieldDrone">
+        <deployShieldDrone name="Tau/DeployDrone" consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0" requiredUpgrade="Tau/ShieldDrone" unitType="Tau/ShieldDrone">
             <model>
                 <action animation="" sound="Actions/DeployDrone" />
             </model>
             <modifiers>
-                <modifier visible="0" requiredUpgrade="Tau/DroneController">
+                <modifier requiredUpgrade="Tau/DroneController" visible="0">
                     <effects>
                         <cooldown add="-5" />
                     </effects>
@@ -116,7 +116,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="3" name="Summon" />
+                                        <addTrait name="Summon" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -128,12 +128,12 @@
                 <action name="Tau/DeployDrone/Tau/MarkerDrone" />
             </sharedCooldowns>
         </deployShieldDrone>
-        <deployMarkerDrone cooldown="10" name="Tau/DeployDrone" requiredActionPoints="0" consumedActionPoints="0" consumedMovement="0" requiredUpgrade="Tau/MarkerDrone" unitType="Tau/MarkerDrone">
+        <deployMarkerDrone name="Tau/DeployDrone" consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0" requiredUpgrade="Tau/MarkerDrone" unitType="Tau/MarkerDrone">
             <model>
                 <action animation="" sound="Actions/DeployDrone" />
             </model>
             <modifiers>
-                <modifier visible="0" requiredUpgrade="Tau/DroneController">
+                <modifier requiredUpgrade="Tau/DroneController" visible="0">
                     <effects>
                         <cooldown add="-5" />
                     </effects>
@@ -161,7 +161,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="3" name="Summon" />
+                                        <addTrait name="Summon" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>

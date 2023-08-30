@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="3" icon="Actions/Tau/PurchaseOre"></upgrade>
+<upgrade icon="Actions/Tau/PurchaseOre" position="3"></upgrade>

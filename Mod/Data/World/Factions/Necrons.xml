@@ -27,12 +27,12 @@
         <track name="Music/TyranidsTheme" dlc="Supplement2" />
     </music>
     <quests>
-        <quest name="Necrons/Story0" icon="Quests/Necrons/Chapter0" firstTurn="2" lastTurn="2">
+        <quest name="Necrons/Story0" firstTurn="2" icon="Quests/Necrons/Chapter0" lastTurn="2">
             <stages>
                 <stage>
                     <objectives>
                         <constructBuilding buildingType="Necrons/Infantry" />
-                        <produceUnit unitType="Necrons/Warrior" count="1" ignoreExisting="1" />
+                        <produceUnit count="1" ignoreExisting="1" unitType="Necrons/Warrior" />
                         <invokeRapidRiseOnWarrior />
                     </objectives>
                     <rewards>
@@ -41,7 +41,7 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <killSpawnedUnits unitType="AstraMilitarum/Guardsman" count="3" />
+                        <killSpawnedUnits count="3" unitType="AstraMilitarum/Guardsman" />
                     </objectives>
                     <rewards>
                         <influence amount="50" />
@@ -49,7 +49,7 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <visitTile clearEnemies="1" featureType="NecronTomb" count="1" />
+                        <visitTile clearEnemies="1" count="1" featureType="NecronTomb" />
                     </objectives>
                     <rewards>
                         <research amount="50" />
@@ -57,7 +57,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="Necrons/Story1" icon="Quests/Necrons/Chapter1" firstTurn="20" lastTurn="30">
+        <quest name="Necrons/Story1" firstTurn="20" icon="Quests/Necrons/Chapter1" lastTurn="30">
             <conditions>
                 <quests>
                     <completed name="Necrons/Story0" />
@@ -86,7 +86,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="Necrons/Story2" icon="Quests/Necrons/Chapter2" firstTurn="40" lastTurn="50">
+        <quest name="Necrons/Story2" firstTurn="40" icon="Quests/Necrons/Chapter2" lastTurn="50">
             <conditions>
                 <quests>
                     <completed name="Necrons/Story1" />
@@ -96,13 +96,13 @@
                 <stage>
                     <objectives>
                         <killCampWithRebelNecronArmy bossKillCompletes="0" relativeStrength="0.5" strength="4">
-                            <boss type="Necrons/DestroyerLord" rankMin="4" rankMax="4" name="Units/Necrons/RebelLord" />
+                            <boss name="Units/Necrons/RebelLord" rankMax="4" rankMin="4" type="Necrons/DestroyerLord" />
                             <defenders>
-                                <unit type="Necrons/HeavyDestroyer" count="2" rankMin="2" rankMax="4" />
-                                <unit type="Necrons/Immortal" count="1" rankMin="2" rankMax="4" />
-                                <unit type="Necrons/TriarchStalker" count="1" rankMin="2" rankMax="4" />
-                                <unit type="Necrons/TombBlade" count="1" rankMin="2" rankMax="4" />
-                                <unit type="Necrons/Warrior" count="1" rankMin="2" rankMax="4" />
+                                <unit count="2" rankMax="4" rankMin="2" type="Necrons/HeavyDestroyer" />
+                                <unit count="1" rankMax="4" rankMin="2" type="Necrons/Immortal" />
+                                <unit count="1" rankMax="4" rankMin="2" type="Necrons/TriarchStalker" />
+                                <unit count="1" rankMax="4" rankMin="2" type="Necrons/TombBlade" />
+                                <unit count="1" rankMax="4" rankMin="2" type="Necrons/Warrior" />
                             </defenders>
                         </killCampWithRebelNecronArmy>
                     </objectives>
@@ -114,7 +114,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="Necrons/Story3" icon="Quests/Necrons/Chapter3" firstTurn="60" lastTurn="70">
+        <quest name="Necrons/Story3" firstTurn="60" icon="Quests/Necrons/Chapter3" lastTurn="70">
             <conditions>
                 <quests>
                     <completed name="Necrons/Story2" />
@@ -132,7 +132,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="Necrons/Story4" icon="Quests/Necrons/Chapter4" firstTurn="80" lastTurn="90">
+        <quest name="Necrons/Story4" firstTurn="80" icon="Quests/Necrons/Chapter4" lastTurn="90">
             <conditions>
                 <quests>
                     <completed name="Necrons/Story3" />
@@ -141,9 +141,9 @@
             <stages>
                 <stage>
                     <objectives>
-                        <visitTile clearEnemies="1" featureType="Ruin" unitType="Necrons/Cryptek" count="1">
+                        <visitTile clearEnemies="1" count="1" featureType="Ruin" unitType="Necrons/Cryptek">
                             <defenders>
-                                <unit type="Neutral/Psychneuein" count="6" rankMin="4" rankMax="6" />
+                                <unit count="6" rankMax="6" rankMin="4" type="Neutral/Psychneuein" />
                             </defenders>
                         </visitTile>
                     </objectives>
@@ -161,7 +161,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="Necrons/Story5" icon="Quests/Necrons/Chapter5" firstTurn="100" lastTurn="110">
+        <quest name="Necrons/Story5" firstTurn="100" icon="Quests/Necrons/Chapter5" lastTurn="110">
             <conditions>
                 <quests>
                     <completed name="Necrons/Story4" />
@@ -171,14 +171,14 @@
                 <stage>
                     <objectives>
                         <killCampWithRebelNecronArmy bossKillCompletes="0" relativeStrength="1.0" strength="8">
-                            <boss type="Neutral/Artefacts/VaulControlDevice" capturable="1" token="VaulControlDevice" name="Units/Neutral/Artefacts/VaulControlDevice" />
+                            <boss name="Units/Neutral/Artefacts/VaulControlDevice" capturable="1" token="VaulControlDevice" type="Neutral/Artefacts/VaulControlDevice" />
                             <defenders>
-                                <unit type="Necrons/Cryptek" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/HeavyDestroyer" count="2" rankMin="2" rankMax="4" />
-                                <unit type="Necrons/Lord" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/Obelisk" count="1" rankMin="0" rankMax="2" />
-                                <unit type="Necrons/TriarchStalker" count="1" rankMin="2" rankMax="4" />
-                                <unit type="Necrons/TriarchPraetorian" count="1" rankMin="2" rankMax="4" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/Cryptek" />
+                                <unit count="2" rankMax="4" rankMin="2" type="Necrons/HeavyDestroyer" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/Lord" />
+                                <unit count="1" rankMax="2" rankMin="0" type="Necrons/Obelisk" />
+                                <unit count="1" rankMax="4" rankMin="2" type="Necrons/TriarchStalker" />
+                                <unit count="1" rankMax="4" rankMin="2" type="Necrons/TriarchPraetorian" />
                             </defenders>
                         </killCampWithRebelNecronArmy>
                         <captureUnit token="VaulControlDevice" />
@@ -200,17 +200,17 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <surviveInvasion bossWave="6" relativeStrength="2.0" strength="32" waves="10" waveInterval="2">
-                            <boss type="Necrons/TesseractVault" rankMin="9" rankMax="9" name="Units/Necrons/EliteTesseractVault" />
+                        <surviveInvasion bossWave="6" relativeStrength="2.0" strength="32" waveInterval="2" waves="10">
+                            <boss name="Units/Necrons/EliteTesseractVault" rankMax="9" rankMin="9" type="Necrons/TesseractVault" />
                             <attackers>
-                                <unit type="Necrons/AnnihilationBarge" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/CanoptekScarab" count="2" rankMin="9" rankMax="9" />
-                                <unit type="Necrons/DoomScythe" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/DoomsdayArk" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/HeavyDestroyer" count="2" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/Monolith" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/Obelisk" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/TriarchPraetorian" count="3" rankMin="5" rankMax="7" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/AnnihilationBarge" />
+                                <unit count="2" rankMax="9" rankMin="9" type="Necrons/CanoptekScarab" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/DoomScythe" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/DoomsdayArk" />
+                                <unit count="2" rankMax="7" rankMin="5" type="Necrons/HeavyDestroyer" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/Monolith" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/Obelisk" />
+                                <unit count="3" rankMax="7" rankMin="5" type="Necrons/TriarchPraetorian" />
                             </attackers>
                         </surviveInvasion>
                         <controlUnit token="VaulControlDevice" />
@@ -236,6 +236,6 @@
     </quests>
     <startingUnits>
         <unit type="Necrons/CanoptekSpyder" />
-        <unit type="Necrons/Warrior" count="2" />
+        <unit count="2" type="Necrons/Warrior" />
     </startingUnits>
 </faction>

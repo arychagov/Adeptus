@@ -9,7 +9,7 @@
                 </unit>
             </conditions>
             <effects>
-                <accuracy mulMin="0.1" mulMax="0.3" />
+                <accuracy mulMax="0.3" mulMin="0.1" />
             </effects>
         </modifier>
     </modifiers>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" rankMax="2" icon="Actions/SistersOfBattle/DivineDeliverance">
+<trait category="Buff" icon="Actions/SistersOfBattle/DivineDeliverance" rankMax="2">
     <modifiers>
         <modifier>
             <conditions>
@@ -24,7 +24,7 @@
                 </encounter>
             </conditions>
             <effects>
-                <morale addMin="-1" addMax="-3" />
+                <morale addMax="-3" addMin="-1" />
             </effects>
         </modifier>
     </onCombatOpponentModifiers>

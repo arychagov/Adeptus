@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement9">
     <model>
-        <unit mesh="Units/AdeptusMechanicus/SkitariiMarshal" material="Units/AdeptusMechanicus/SkitariiMarshal" idleAnimation="Units/AdeptusMechanicus/SkitariiMarshalIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1 1 1" bloodBone="Chest" walker="1" />
+        <unit bloodBone="Chest" idleAnimation="Units/AdeptusMechanicus/SkitariiMarshalIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AdeptusMechanicus/SkitariiMarshal" mesh="Units/AdeptusMechanicus/SkitariiMarshal" normalWeight="0.1" scale="1 1 1" walker="1" />
     </model>
     <weapons>
         <weapon name="RadiumSerpenta">
             <model>
-                <projectileWeapon muzzleBone="GunMuzzle" fireInterval="0.4" />
+                <projectileWeapon fireInterval="0.4" muzzleBone="GunMuzzle" />
             </model>
         </weapon>
         <weapon name="ControlStave">
@@ -48,7 +48,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/AdeptusMechanicus/SkitariiMarshalAttack" beginFire="1.1" endFire="2.0" chargeAnimation="Units/AdeptusMechanicus/SkitariiMarshalCharge" chargeBeginFire="0.43" chargeEndFire="1.0" meleeAnimation="Units/AdeptusMechanicus/SkitariiMarshalMelee" meleeBeginSwing="0.15" meleeEndSwing="0.5" />
+                <action animation="Units/AdeptusMechanicus/SkitariiMarshalAttack" beginFire="1.1" chargeAnimation="Units/AdeptusMechanicus/SkitariiMarshalCharge" chargeBeginFire="0.43" chargeEndFire="1.0" endFire="2.0" meleeAnimation="Units/AdeptusMechanicus/SkitariiMarshalMelee" meleeBeginSwing="0.15" meleeEndSwing="0.5" />
             </model>
         </attack>
         <die>
@@ -66,14 +66,14 @@
                 <action animation="Units/AdeptusMechanicus/SkitariiMarshalMove" sound="Units/AdeptusMechanicus/InfantryMove" soundCount="3" />
             </model>
         </move>
-        <controlEdict passive="1" name="AdeptusMechanicus/ControlEdict" rank="-1" rankMax="2">
+        <controlEdict name="AdeptusMechanicus/ControlEdict" passive="1" rank="-1" rankMax="2">
             <model>
                 <action animation="Units/AdeptusMechanicus/SkitariiMarshalAbility" sound="Actions/ControlEdict" />
             </model>
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radiusMin="1" radiusMax="3">
+                        <area affects="Tile" radiusMax="3" radiusMin="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
@@ -86,7 +86,7 @@
                 </selfTarget>
             </beginTargets>
         </controlEdict>
-        <aggressionOverride cooldown="2" consumedActionPoints="0" consumedMovement="0" name="AdeptusMechanicus/AggressionOverride" rank="-1" rankMax="2" requiredActionPoints="0">
+        <aggressionOverride name="AdeptusMechanicus/AggressionOverride" consumedActionPoints="0" consumedMovement="0" cooldown="2" rank="-1" rankMax="2" requiredActionPoints="0">
             <model>
                 <action animation="Units/AdeptusMechanicus/SkitariiMarshalAbility" sound="Actions/AggressionOverride" />
             </model>
@@ -106,7 +106,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="AdeptusMechanicus/AggressionOverride" />
+                                        <addTrait name="AdeptusMechanicus/AggressionOverride" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -119,7 +119,7 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radiusMin="1" radiusMax="3">
+                        <area affects="Tile" radiusMax="3" radiusMin="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
@@ -132,7 +132,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <enrichedRounds cooldown="3" consumedActionPoints="0" consumedMovement="0" elite="1" levelUpPriority="1" name="AdeptusMechanicus/EnrichedRounds" rank="-1" rankMax="0" requiredActionPoints="0">
+        <enrichedRounds name="AdeptusMechanicus/EnrichedRounds" consumedActionPoints="0" consumedMovement="0" cooldown="3" elite="1" levelUpPriority="1" rank="-1" rankMax="0" requiredActionPoints="0">
             <model>
                 <action animation="Units/AdeptusMechanicus/SkitariiMarshalAbility" sound="Actions/EnrichedRounds" />
             </model>
@@ -152,7 +152,7 @@
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait duration="1" name="AdeptusMechanicus/EnrichedRounds" />
+                                        <addTrait name="AdeptusMechanicus/EnrichedRounds" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

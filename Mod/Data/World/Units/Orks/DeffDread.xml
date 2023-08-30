@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement12">
     <model>
-        <unit mesh="Units/Orks/DeffDread" material="Units/Orks/DeffDread" idleAnimation="Units/Orks/DeffDreadIdle" idleAnimationCount="2" idleContinuously="1" normalWeight="0.1" scale="0.95 0.95 0.95" explosionsBone="Body_Stretch" walker="1" />
+        <unit explosionsBone="Body_Stretch" idleAnimation="Units/Orks/DeffDreadIdle" idleAnimationCount="2" idleContinuously="1" material="Units/Orks/DeffDread" mesh="Units/Orks/DeffDread" normalWeight="0.1" scale="0.95 0.95 0.95" walker="1" />
     </model>
     <weapons>
         <weapon name="RokkitLauncha" count="2">
             <model>
-                <missileWeapon fireInterval="0.67" muzzleBone="Muzzle" muzzleCount="4" missileScale="0.7" />
+                <missileWeapon fireInterval="0.67" missileScale="0.7" muzzleBone="Muzzle" muzzleCount="4" />
             </model>
         </weapon>
         <weapon name="PowerKlaw" count="2">
@@ -45,7 +45,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/Orks/DeffDreadAttack" beginFire="1.16" endFire="1.83" chargeAnimation="Units/Orks/DeffDreadCharge" chargeBeginFire="0.4" chargeEndFire="1.07" meleeAnimation="Units/Orks/DeffDreadMelee" meleeBeginSwing="0.5" meleeEndSwing="1.0" />
+                <action animation="Units/Orks/DeffDreadAttack" beginFire="1.16" chargeAnimation="Units/Orks/DeffDreadCharge" chargeBeginFire="0.4" chargeEndFire="1.07" endFire="1.83" meleeAnimation="Units/Orks/DeffDreadMelee" meleeBeginSwing="0.5" meleeEndSwing="1.0" />
             </model>
         </attack>
         <die>

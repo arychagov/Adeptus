@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feature category="Resource">
     <model>
-        <simpleModel mesh="Features/FermentationPool" material="Features/FermentationPool" groundMaterial="Features/FermentationPoolGround" flow="1" />
+        <simpleModel flow="1" groundMaterial="Features/FermentationPoolGround" material="Features/FermentationPool" mesh="Features/FermentationPool" />
     </model>
     <areas>
         <area affects="Tile" radius="1">

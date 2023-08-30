@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="2" icon="Units/SistersOfBattle/Imagifier" dlc="Supplement12"></upgrade>
+<upgrade dlc="Supplement12" icon="Units/SistersOfBattle/Imagifier" position="2"></upgrade>

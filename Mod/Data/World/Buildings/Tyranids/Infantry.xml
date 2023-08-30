@@ -27,7 +27,7 @@
         </modifier>
     </strategyModifiers>
     <actions>
-        <reclaimUnit cooldown="1" name="Tyranids/ReclaimUnit" interfaceSound="Interface/ReclaimUnit">
+        <reclaimUnit name="Tyranids/ReclaimUnit" cooldown="1" interfaceSound="Interface/ReclaimUnit">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -47,13 +47,13 @@
             </modifiers>
         </reclaimUnit>
         <produceUnit unit="Tyranids/Termagant" />
-        <produceUnit unit="Tyranids/Hormagaunt" requiredUpgrade="Tyranids/Hormagaunt" />
-        <produceUnit unit="Tyranids/Gargoyle" requiredUpgrade="Tyranids/Gargoyle" />
-        <produceUnit unit="Tyranids/Warrior" requiredUpgrade="Tyranids/Warrior" />
-        <produceUnit unit="Tyranids/HiveGuard" requiredUpgrade="Tyranids/HiveGuard" />
-        <produceUnit unit="Tyranids/Ravener" requiredUpgrade="Tyranids/Ravener" />
-        <produceUnit unit="Tyranids/Biovore" requiredUpgrade="Tyranids/Biovore" />
-        <produceUnit unit="Tyranids/Lictor" requiredUpgrade="Tyranids/Lictor" />
+        <produceUnit requiredUpgrade="Tyranids/Hormagaunt" unit="Tyranids/Hormagaunt" />
+        <produceUnit requiredUpgrade="Tyranids/Gargoyle" unit="Tyranids/Gargoyle" />
+        <produceUnit requiredUpgrade="Tyranids/Warrior" unit="Tyranids/Warrior" />
+        <produceUnit requiredUpgrade="Tyranids/HiveGuard" unit="Tyranids/HiveGuard" />
+        <produceUnit requiredUpgrade="Tyranids/Ravener" unit="Tyranids/Ravener" />
+        <produceUnit requiredUpgrade="Tyranids/Biovore" unit="Tyranids/Biovore" />
+        <produceUnit requiredUpgrade="Tyranids/Lictor" unit="Tyranids/Lictor" />
     </actions>
     <traits>
         <trait name="Tyranids/ProductionBuildingUpkeep" requiredUpgrade="Tyranids/ProductionBuildingUpkeep" />

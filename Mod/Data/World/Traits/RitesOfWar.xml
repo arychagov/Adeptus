@@ -9,7 +9,7 @@
                 </unit>
             </conditions>
             <effects>
-                <damage mulMin="0.1" mulMax="0.3" />
+                <damage mulMax="0.3" mulMin="0.1" />
             </effects>
         </modifier>
     </modifiers>

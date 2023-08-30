@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement1">
     <model>
-        <unit mesh="Units/Necrons/Immortal" material="Units/Necrons/Immortal" idleAnimation="Units/Necrons/ImmortalIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1.1 1.1 1.1" explosionsBone="BloodBone" walker="1" />
+        <unit explosionsBone="BloodBone" idleAnimation="Units/Necrons/ImmortalIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Necrons/Immortal" mesh="Units/Necrons/Immortal" normalWeight="0.1" scale="1.1 1.1 1.1" walker="1" />
     </model>
-    <group size="5" rowSize="3" memberDeltaX="64" memberDeltaY="64" />
+    <group memberDeltaX="64" memberDeltaY="64" rowSize="3" size="5" />
     <weapons>
         <weapon name="GaussFlayer">
             <model>
-                <beamWeapon muzzleBone=".Muzzle" fireInterval="0.2" />
+                <beamWeapon fireInterval="0.2" muzzleBone=".Muzzle" />
             </model>
         </weapon>
     </weapons>
@@ -58,7 +58,7 @@
                 <action animation="Units/Necrons/ImmortalMove" sound="Units/Necrons/InfantryMove" soundCount="4" />
             </model>
         </move>
-        <necrodermisRepair consumedActionPoints="0" consumedMovement="0" cooldown="1" name="Necrons/NecrodermisRepair" requiredActionPoints="0">
+        <necrodermisRepair name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
             <model>
                 <action sound="Actions/Heal" />
             </model>
@@ -100,7 +100,7 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <dimensionalCorridor cooldown="3" name="Necrons/DimensionalCorridor" requiredUpgrade="Necrons/DimensionalCorridor">
+        <dimensionalCorridor name="Necrons/DimensionalCorridor" cooldown="3" requiredUpgrade="Necrons/DimensionalCorridor">
             <model>
                 <action sound="Actions/Teleport" />
             </model>

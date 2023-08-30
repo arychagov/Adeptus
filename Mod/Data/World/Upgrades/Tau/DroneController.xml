@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="8" icon="Actions/Tau/DroneController">
+<upgrade icon="Actions/Tau/DroneController" position="8">
     <requiredUpgrades>
         <upgrade name="Tau/Commander" />
         <upgrade name="Tau/CadreFireblade" />

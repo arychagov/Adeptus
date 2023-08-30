@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <item>
     <actions>
-        <faolchusWing cooldown="1" consumedMovement="0">
+        <faolchusWing consumedMovement="0" cooldown="1">
             <model>
                 <action sound="Actions/MysticBuff" />
             </model>

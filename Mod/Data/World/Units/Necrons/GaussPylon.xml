@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement4" spawnCountMax="1">
     <model>
-        <structureUnit mesh="Units/Necrons/GaussPylon" material="Units/Necrons/GaussPylon" groundMaterial="Units/Necrons/GaussPylonGround" idleAnimationCount="0" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" scale="1.0 1.0 1.0" explosionsBone="Hull" portraitZoomModifier="0.6" portraitFocusHeightModifier="64" />
+        <structureUnit explosionsBone="Hull" groundMaterial="Units/Necrons/GaussPylonGround" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" idleAnimationCount="0" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" material="Units/Necrons/GaussPylon" mesh="Units/Necrons/GaussPylon" portraitFocusHeightModifier="64" portraitZoomModifier="0.6" scale="1.0 1.0 1.0" />
     </model>
     <weapons>
         <weapon name="GaussAnnihilator">
             <model>
-                <beamWeapon mesh="Weapons/Necrons/GaussPylonTurret" material="Units/Necrons/GaussPylon" bone="Turret" muzzleBone=".Muzzle" effectFaceWeight="0.9" />
+                <beamWeapon bone="Turret" effectFaceWeight="0.9" material="Units/Necrons/GaussPylon" mesh="Weapons/Necrons/GaussPylonTurret" muzzleBone=".Muzzle" />
             </model>
         </weapon>
     </weapons>

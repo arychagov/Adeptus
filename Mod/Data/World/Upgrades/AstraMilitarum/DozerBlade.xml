@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="7" icon="Traits/DozerBlade" visible="0">
+<upgrade icon="Traits/DozerBlade" position="7" visible="0">
     <requiredUpgrades>
         <upgrade name="AstraMilitarum/Basilisk" />
         <upgrade name="AstraMilitarum/Chimera" />

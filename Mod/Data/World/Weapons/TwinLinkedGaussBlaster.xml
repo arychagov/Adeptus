@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon fireSound="Weapons/GaussBlaster" fireSoundCount="3" beamsBlueprint="Effects/GaussBeams" muzzleFlashesBlueprint="Effects/GaussMuzzleFlashes" muzzleCount="2" />
+        <beamWeapon beamsBlueprint="Effects/GaussBeams" fireSound="Weapons/GaussBlaster" fireSoundCount="3" muzzleCount="2" muzzleFlashesBlueprint="Effects/GaussMuzzleFlashes" />
     </model>
     <modifiers>
         <modifier>

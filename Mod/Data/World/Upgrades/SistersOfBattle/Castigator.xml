@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="5" icon="Units/SistersOfBattle/Castigator">
+<upgrade icon="Units/SistersOfBattle/Castigator" position="5">
     <requiredUpgrades>
         <upgrade name="SistersOfBattle/Vehicles" />
     </requiredUpgrades>

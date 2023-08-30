@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon fireSound="Weapons/TraktorKannon" fireSoundCount="3" beamsBlueprint="Effects/Frazzle" muzzleFlashesBlueprint="Effects/ZzapMuzzleFlashes" />
+        <beamWeapon beamsBlueprint="Effects/Frazzle" fireSound="Weapons/TraktorKannon" fireSoundCount="3" muzzleFlashesBlueprint="Effects/ZzapMuzzleFlashes" />
     </model>
     <modifiers>
         <modifier>

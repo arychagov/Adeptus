@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon fireInterval="3.0" fireSound="Weapons/DeathRay" fireSoundCount="3" beamsBlueprint="Effects/DeathRay" beamsEmitterBlueprint="Effects/DeathRayEmitter" muzzleFlashesBlueprint="" emitterShots="10" />
+        <beamWeapon beamsBlueprint="Effects/DeathRay" beamsEmitterBlueprint="Effects/DeathRayEmitter" emitterShots="10" fireInterval="3.0" fireSound="Weapons/DeathRay" fireSoundCount="3" muzzleFlashesBlueprint="" />
     </model>
     <modifiers>
         <modifier>

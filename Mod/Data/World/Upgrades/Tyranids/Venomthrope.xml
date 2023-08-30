@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade dlc="Supplement8" position="3" icon="Units/Tyranids/Venomthrope">
+<upgrade dlc="Supplement8" icon="Units/Tyranids/Venomthrope" position="3">
     <requiredUpgrades>
         <upgrade name="Tyranids/Thropes" />
     </requiredUpgrades>

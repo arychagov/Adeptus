@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit icon="Buildings/SpaceMarines/Headquarters">
     <model>
-        <structureUnit mesh="Units/SpaceMarines/Headquarters" material="Buildings/SpaceMarines/Buildings" idleAnimationCount="0" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" scale="1.0 1.0 1.0" explosionsBone="HQBone" />
+        <structureUnit explosionsBone="HQBone" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" idleAnimationCount="0" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" material="Buildings/SpaceMarines/Buildings" mesh="Units/SpaceMarines/Headquarters" scale="1.0 1.0 1.0" />
     </model>
     <weapons>
         <weapon name="TwinLinkedLascannon" />
@@ -9,12 +9,12 @@
         <weapon name="HeavyBolter" requiredUpgrade="SpaceMarines/FortressOfRedemptionDamageReduction" />
         <weapon name="Boltgun" count="5">
             <model>
-                <projectileWeapon mesh="Weapons/SpaceMarines/HeadquartersBoltguns" material="Buildings/SpaceMarines/Buildings" bone="HQBone" fireInterval="0.1" muzzleBone=".Muzzle" muzzleCount="5" />
+                <projectileWeapon bone="HQBone" fireInterval="0.1" material="Buildings/SpaceMarines/Buildings" mesh="Weapons/SpaceMarines/HeadquartersBoltguns" muzzleBone=".Muzzle" muzzleCount="5" />
             </model>
         </weapon>
         <weapon name="TwinLinkedLascannon" count="1">
             <model>
-                <beamWeapon mesh="Weapons/SpaceMarines/HeadquartersLascannon" material="Buildings/SpaceMarines/Buildings" bone="HQBone" fireInterval="1.0" muzzleBone=".Muzzle0" muzzleCount="1" />
+                <beamWeapon bone="HQBone" fireInterval="1.0" material="Buildings/SpaceMarines/Buildings" mesh="Weapons/SpaceMarines/HeadquartersLascannon" muzzleBone=".Muzzle0" muzzleCount="1" />
             </model>
         </weapon>
     </weapons>
@@ -28,7 +28,7 @@
                 <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
         </modifier>
-        <modifier visible="0" requiredUpgrade="SpaceMarines/FortressOfRedemptionDamageReduction">
+        <modifier requiredUpgrade="SpaceMarines/FortressOfRedemptionDamageReduction" visible="0">
             <effects>
                 <armor add="3" />
                 <hitpointsMax mul="0.2" />

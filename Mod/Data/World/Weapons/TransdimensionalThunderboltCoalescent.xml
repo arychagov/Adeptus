@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon icon="Weapons/TransdimensionalThunderbolt">
     <model>
-        <beamWeapon beamsBlueprint="Effects/Frazzle" beamsEmitterBlueprint="Effects/FrazzleEmitter" muzzleFlashesBlueprint="Effects/ZzapMuzzleFlashes" fireInterval="0.15" effectFaceWeight="1" fireSound="Weapons/TeslaSphere" fireSoundCount="3" />
+        <beamWeapon beamsBlueprint="Effects/Frazzle" beamsEmitterBlueprint="Effects/FrazzleEmitter" effectFaceWeight="1" fireInterval="0.15" fireSound="Weapons/TeslaSphere" fireSoundCount="3" muzzleFlashesBlueprint="Effects/ZzapMuzzleFlashes" />
     </model>
     <modifiers>
         <modifier>

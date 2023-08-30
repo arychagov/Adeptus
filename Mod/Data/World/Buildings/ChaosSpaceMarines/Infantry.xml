@@ -34,9 +34,9 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="ChaosSpaceMarines/ChaosSpaceMarine" />
-        <produceUnit unit="ChaosSpaceMarines/KhorneBerzerker" requiredUpgrade="ChaosSpaceMarines/KhorneBerzerker" />
-        <produceUnit unit="ChaosSpaceMarines/Havoc" requiredUpgrade="ChaosSpaceMarines/Havoc" />
-        <produceUnit unit="ChaosSpaceMarines/WarpTalon" requiredUpgrade="ChaosSpaceMarines/WarpTalon" />
-        <produceUnit unit="ChaosSpaceMarines/Obliterator" requiredUpgrade="ChaosSpaceMarines/Obliterator" />
+        <produceUnit requiredUpgrade="ChaosSpaceMarines/KhorneBerzerker" unit="ChaosSpaceMarines/KhorneBerzerker" />
+        <produceUnit requiredUpgrade="ChaosSpaceMarines/Havoc" unit="ChaosSpaceMarines/Havoc" />
+        <produceUnit requiredUpgrade="ChaosSpaceMarines/WarpTalon" unit="ChaosSpaceMarines/WarpTalon" />
+        <produceUnit requiredUpgrade="ChaosSpaceMarines/Obliterator" unit="ChaosSpaceMarines/Obliterator" />
     </actions>
 </building>

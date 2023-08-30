@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon fireSound="Weapons/RangerLongRifle" fireSoundCount="3" fireInterval="0.5" beamsBlueprint="Effects/LaserBeams" beamsEmitterBlueprint="Effects/RangerLongRifleBeamsEmitter" muzzleFlashesBlueprint="Effects/LaserMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/RangerLongRifleMuzzleFlashesEmitter" />
+        <beamWeapon beamsBlueprint="Effects/LaserBeams" beamsEmitterBlueprint="Effects/RangerLongRifleBeamsEmitter" fireInterval="0.5" fireSound="Weapons/RangerLongRifle" fireSoundCount="3" muzzleFlashesBlueprint="Effects/LaserMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/RangerLongRifleMuzzleFlashesEmitter" />
     </model>
     <modifiers>
         <modifier>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/AstraMilitarum/PrimarisPsyker" material="Units/AstraMilitarum/PrimarisPsyker" idleAnimation="Units/AstraMilitarum/PrimarisPsykerIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1 1 1" bloodBone="ChestBone" walker="1" />
+        <unit bloodBone="ChestBone" idleAnimation="Units/AstraMilitarum/PrimarisPsykerIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AstraMilitarum/PrimarisPsyker" mesh="Units/AstraMilitarum/PrimarisPsyker" normalWeight="0.1" scale="1 1 1" walker="1" />
     </model>
     <weapons>
         <weapon name="Laspistol">
             <model>
-                <beamWeapon mesh="Weapons/AstraMilitarum/PrimarisPsykerLaspistol" material="Weapons/AstraMilitarum/WyrdvanePsykerLaspistol" bone="RightHandBone0" muzzleBone="Muzzle0" fireInterval="0.4" />
+                <beamWeapon bone="RightHandBone0" fireInterval="0.4" material="Weapons/AstraMilitarum/WyrdvanePsykerLaspistol" mesh="Weapons/AstraMilitarum/PrimarisPsykerLaspistol" muzzleBone="Muzzle0" />
             </model>
         </weapon>
         <weapon name="ForceStave">
@@ -14,18 +14,18 @@
                 <powerWeapon effectBone="StaffBone" effectBoundingVolume="Blade" fireInterval="1.0" />
             </model>
         </weapon>
-        <weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
             <model>
                 <grenadeWeapon muzzleBone="RightHandBone0" />
             </model>
         </weapon>
-        <weapon name="MoltenBeam" slotName="MoltenBeam" enabled="0">
+        <weapon name="MoltenBeam" enabled="0" slotName="MoltenBeam">
             <model>
                 <beamWeapon muzzleBone="RightHandBone0" />
             </model>
         </weapon>
-        <weapon name="LifeLeech" slotName="LifeLeech" enabled="0" />
-        <weapon name="PsychicMaelstrom" slotName="PsychicMaelstrom" enabled="0" />
+        <weapon name="LifeLeech" enabled="0" slotName="LifeLeech" />
+        <weapon name="PsychicMaelstrom" enabled="0" slotName="PsychicMaelstrom" />
     </weapons>
     <modifiers>
         <modifier visible="0">
@@ -61,7 +61,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/AstraMilitarum/PrimarisPsykerAttack" beginFire="0.4" endFire="2.53" chargeAnimation="Units/AstraMilitarum/PrimarisPsykerCharge" chargeBeginFire="0.3" chargeEndFire="0.8" chargeDefenseAnimation="Units/AstraMilitarum/PrimarisPsykerChargeDefense" chargeDefenseBeginFire="0.3" chargeDefenseEndFire="1.2" meleeAnimation="Units/AstraMilitarum/PrimarisPsykerMelee" meleeBeginSwing="0.15" meleeEndSwing="0.5" meleeDefenseAnimation="Units/AstraMilitarum/PrimarisPsykerMeleeDefense" meleeDefenseBeginSwing="0.15" meleeDefenseEndSwing="0.5" />
+                <action animation="Units/AstraMilitarum/PrimarisPsykerAttack" beginFire="0.4" chargeAnimation="Units/AstraMilitarum/PrimarisPsykerCharge" chargeBeginFire="0.3" chargeDefenseAnimation="Units/AstraMilitarum/PrimarisPsykerChargeDefense" chargeDefenseBeginFire="0.3" chargeDefenseEndFire="1.2" chargeEndFire="0.8" endFire="2.53" meleeAnimation="Units/AstraMilitarum/PrimarisPsykerMelee" meleeBeginSwing="0.15" meleeDefenseAnimation="Units/AstraMilitarum/PrimarisPsykerMeleeDefense" meleeDefenseBeginSwing="0.15" meleeDefenseEndSwing="0.5" meleeEndSwing="0.5" />
             </model>
         </attack>
         <die>
@@ -75,9 +75,9 @@
             </model>
         </move>
 
-        <genericUnitAbility cooldown="1" levelUpPriority="0.15" psychicPower="1" consumedMovement="0" rank="-1" rankMax="2" icon="Actions/MediPack" name="AstraMilitarum/Nightshroud">
+        <genericUnitAbility name="AstraMilitarum/Nightshroud" consumedMovement="0" cooldown="1" icon="Actions/MediPack" levelUpPriority="0.15" psychicPower="1" rank="-1" rankMax="2">
             <model>
-                <action animation="Units/AstraMilitarum/PrimarisPsykerMoltenBeam" bone="RightHandBone0" beginFire="0.8" endFire="2.6" />
+                <action animation="Units/AstraMilitarum/PrimarisPsykerMoltenBeam" beginFire="0.8" bone="RightHandBone0" endFire="2.6" />
             </model>
             <beginTargets>
                 <target rangeMax="2">
@@ -95,7 +95,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints addMin="4" addMax="12" />
+                                        <hitpoints addMax="12" addMin="4" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -104,7 +104,7 @@
                 </target>
             </beginTargets>
         </genericUnitAbility>
-        <sciersGaze cooldownMin="3" cooldownMax="1" psychicPower="1" rank="-1" rankMax="2">
+        <sciersGaze cooldownMax="1" cooldownMin="3" psychicPower="1" rank="-1" rankMax="2">
             <model>
                 <action animation="Units/AstraMilitarum/PrimarisPsykerSciersGaze" sound="Actions/PsychicBuff" />
             </model>
@@ -124,7 +124,7 @@
                 </target>
             </beginTargets>
         </sciersGaze>
-        <genericUnitAbility cooldownMin="10" cooldownMax="3" consumedMovement="0" name="AstraMilitarum/MasterTactician" icon="Units/AstraMilitarum/PrimarisPsyker" rank="-1" rankMax="2">
+        <genericUnitAbility name="AstraMilitarum/MasterTactician" consumedMovement="0" cooldownMax="3" cooldownMin="10" icon="Units/AstraMilitarum/PrimarisPsyker" rank="-1" rankMax="2">
             <model>
                 <action animation="Units/AstraMilitarum/PrimarisPsykerSciersGaze" sound="Actions/PsychicBuff" />
             </model>
@@ -155,7 +155,7 @@
                 </target>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility cooldown="5" name="AstraMilitarum/MentalShackles" icon="Weapons/PsychicMaelstrom" elite="1" levelUpPriority="1" psychicPower="1" rank="-1" rankMax="0">
+        <genericUnitAbility name="AstraMilitarum/MentalShackles" cooldown="5" elite="1" icon="Weapons/PsychicMaelstrom" levelUpPriority="1" psychicPower="1" rank="-1" rankMax="0">
             <beginTargets>
                 <target rangeMax="2">
                     <conditions>
@@ -171,7 +171,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Stunned" />
+                                        <addTrait name="Stunned" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement10">
     <model>
-        <unit mesh="Units/AstraMilitarum/DevilDog" material="Units/AstraMilitarum/DevilDog" idleAnimation="Units/AstraMilitarum/DevilDogIdle" idleAnimationCount="3" idleContinuously="1" scale="1.1 1.1 1.1" explosionsBone="Hull" uvAnimated="1" />
+        <unit explosionsBone="Hull" idleAnimation="Units/AstraMilitarum/DevilDogIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AstraMilitarum/DevilDog" mesh="Units/AstraMilitarum/DevilDog" scale="1.1 1.1 1.1" uvAnimated="1" />
     </model>
     <weapons>
         <weapon name="HeavyBolter" requiredUpgrade="AstraMilitarum/BoltDamage" />
         <weapon name="MeltaCannon">
             <model>
-                <beamWeapon muzzleBone="Cannon_Muzzle" muzzleCount="1" fireInterval="0.2" />
+                <beamWeapon fireInterval="0.2" muzzleBone="Cannon_Muzzle" muzzleCount="1" />
             </model>
         </weapon>
         <weapon name="HeavyBolter">
@@ -15,7 +15,7 @@
                 <projectileWeapon muzzleBone="Machinegun_Muzzle" />
             </model>
         </weapon>
-        <weapon name="HunterKillerMissile" slotName="HunterKillerMissile" enabled="0">
+        <weapon name="HunterKillerMissile" enabled="0" slotName="HunterKillerMissile">
             <model>
                 <missileWeapon muzzleBone="Hull" />
             </model>
@@ -70,7 +70,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature duration="3" name="SmokeScreen" />
+                                        <addFeature name="SmokeScreen" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -79,7 +79,7 @@
                 </selfTarget>
             </beginTargets>
         </createSmokeScreen>
-        <useWeapon weaponSlotName="HunterKillerMissile" cooldown="10" requiredUpgrade="AstraMilitarum/HunterKillerMissile">
+        <useWeapon cooldown="10" requiredUpgrade="AstraMilitarum/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
             <model>
                 <action beginFire="0.1" endFire="1.0" />
             </model>

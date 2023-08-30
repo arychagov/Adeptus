@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="9" icon="Traits/Regeneration">
+<upgrade icon="Traits/Regeneration" position="9">
     <requiredUpgrades>
         <upgrade name="Tyranids/Aircraft" />
         <upgrade name="Tyranids/Heroes" />

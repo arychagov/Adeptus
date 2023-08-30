@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/Necrons/AnnihilationBarge" material="Units/Necrons/AnnihilationBarge" idleAnimation="Units/Necrons/AnnihilationBargeIdle" idleAnimationCount="3" idleContinuously="1" scale="0.9 0.9 0.9" explosionsBone="BloodBone" />
+        <unit explosionsBone="BloodBone" idleAnimation="Units/Necrons/AnnihilationBargeIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Necrons/AnnihilationBarge" mesh="Units/Necrons/AnnihilationBarge" scale="0.9 0.9 0.9" />
     </model>
     <weapons>
         <weapon name="GaussCannon">
             <model>
-                <beamWeapon muzzleBone=".PlasmaMuzzle" fireInterval="0.666666666667" />
+                <beamWeapon fireInterval="0.666666666667" muzzleBone=".PlasmaMuzzle" />
 
             </model>
         </weapon>
@@ -59,7 +59,7 @@
                 <action animation="Units/Necrons/AnnihilationBargeMove" sound="Units/Necrons/AnnihilationBargeMove" soundCount="3" />
             </model>
         </move>
-        <necrodermisRepair consumedActionPoints="0" consumedMovement="0" cooldown="1" name="Necrons/NecrodermisRepair" requiredActionPoints="0">
+        <necrodermisRepair name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
             <model>
                 <action sound="Actions/Heal" />
             </model>
@@ -101,7 +101,7 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
@@ -117,7 +117,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Jink" />
+                                        <addTrait name="Jink" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

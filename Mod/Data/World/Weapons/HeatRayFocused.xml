@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon icon="Weapons/HeatRay">
     <model>
-        <beamWeapon beamsBlueprint="Effects/DeathRay" beamsEmitterBlueprint="Effects/HeatRayFocusedEmitter" muzzleFlashesBlueprint="Effects/GaussMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/DeathRayMuzzleFlashesEmitter" fireSound="Weapons/HeatRayFocused" fireSoundCount="3" />
+        <beamWeapon beamsBlueprint="Effects/DeathRay" beamsEmitterBlueprint="Effects/HeatRayFocusedEmitter" fireSound="Weapons/HeatRayFocused" fireSoundCount="3" muzzleFlashesBlueprint="Effects/GaussMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/DeathRayMuzzleFlashesEmitter" />
     </model>
     <modifiers>
         <modifier>

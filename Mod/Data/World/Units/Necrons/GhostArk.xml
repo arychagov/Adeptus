@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement10">
     <model>
-        <unit mesh="Units/Necrons/GhostArk" material="Units/Necrons/GhostArk" idleAnimation="Units/Necrons/GhostArkIdle" idleAnimationCount="3" idleContinuously="1" scale="1.2 1.2 1.2" explosionsBone="Hull" />
+        <unit explosionsBone="Hull" idleAnimation="Units/Necrons/GhostArkIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Necrons/GhostArk" mesh="Units/Necrons/GhostArk" scale="1.2 1.2 1.2" />
     </model>
     <weapons>
-        <weapon name="GaussFlayerArray" slotName="GaussFlayerArray" count="2">
+        <weapon name="GaussFlayerArray" count="2" slotName="GaussFlayerArray">
             <model>
-                <beamWeapon muzzleBone="LeftMuzzle" muzzleCount="5" effectFaceWeight="0" />
+                <beamWeapon effectFaceWeight="0" muzzleBone="LeftMuzzle" muzzleCount="5" />
             </model>
         </weapon>
     </weapons>
@@ -54,7 +54,7 @@
                 <action animation="Units/Necrons/GhostArkMove" sound="Units/Necrons/DoomsdayArkMove" soundCount="2" />
             </model>
         </move>
-        <necrodermisRepair consumedActionPoints="0" consumedMovement="0" cooldown="1" name="Necrons/NecrodermisRepair" requiredActionPoints="0">
+        <necrodermisRepair name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
             <model>
                 <action sound="Actions/Heal" />
             </model>
@@ -96,7 +96,7 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <blessingsOfTheOmnissiah cooldown="1" name="Necrons/RepairBarge">
+        <blessingsOfTheOmnissiah name="Necrons/RepairBarge" cooldown="1">
             <model>
                 <action animation="Units/Necrons/GhostArkAbility" sound="Actions/RepairBarge" />
             </model>
@@ -125,7 +125,7 @@
                 </target>
             </beginTargets>
         </blessingsOfTheOmnissiah>
-        <jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
@@ -141,7 +141,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Jink" />
+                                        <addTrait name="Jink" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

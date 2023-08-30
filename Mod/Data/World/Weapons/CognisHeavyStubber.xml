@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon fireSound="Weapons/CognisHeavyStubber" fireSoundCount="3" fireInterval="0.2" />
+        <projectileWeapon fireInterval="0.2" fireSound="Weapons/CognisHeavyStubber" fireSoundCount="3" />
     </model>
     <modifiers>
         <modifier>

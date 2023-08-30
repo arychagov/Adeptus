@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/AstraMilitarum/Thunderbolt" material="Units/AstraMilitarum/Thunderbolt" position="0 0 64" idleAnimation="Units/AstraMilitarum/ThunderboltIdle" idleAnimationCount="2" idleContinuously="1" normalWeight="1.0" scale="1.8 1.8 1.8" explosionsBone="Hull" />
+        <unit explosionsBone="Hull" idleAnimation="Units/AstraMilitarum/ThunderboltIdle" idleAnimationCount="2" idleContinuously="1" material="Units/AstraMilitarum/Thunderbolt" mesh="Units/AstraMilitarum/Thunderbolt" normalWeight="1.0" position="0 0 64" scale="1.8 1.8 1.8" />
     </model>
     <weapons>
         <weapon name="TwinLinkedLascannon">
             <model>
-                <beamWeapon mesh="Weapons/AstraMilitarum/ThunderboltTwinLinkedLascannon" material="Units/AstraMilitarum/Thunderbolt" bone="Hull" muzzleBone=".TwinLinkedLascannonMuzzle" />
+                <beamWeapon bone="Hull" material="Units/AstraMilitarum/Thunderbolt" mesh="Weapons/AstraMilitarum/ThunderboltTwinLinkedLascannon" muzzleBone=".TwinLinkedLascannonMuzzle" />
             </model>
         </weapon>
         <weapon name="TwinLinkedAutocannon" count="2">
             <model>
-                <projectileWeapon mesh="Weapons/AstraMilitarum/ThunderboltTwinLinkedAutocannons" material="Units/AstraMilitarum/Thunderbolt" bone="Hull" muzzleBone=".TwinLinkedAutocannonMuzzle" muzzleCount="4" />
+                <projectileWeapon bone="Hull" material="Units/AstraMilitarum/Thunderbolt" mesh="Weapons/AstraMilitarum/ThunderboltTwinLinkedAutocannons" muzzleBone=".TwinLinkedAutocannonMuzzle" muzzleCount="4" />
             </model>
         </weapon>
         <weapon name="SkystrikeMissile" count="2" requiredUpgrade="AstraMilitarum/SkystrikeMissile">
             <model>
-                <missileWeapon muzzleBone="Hull" fireInterval="0.8" />
+                <missileWeapon fireInterval="0.8" muzzleBone="Hull" />
             </model>
         </weapon>
     </weapons>
@@ -71,7 +71,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Supersonic" />
+                                        <addTrait name="Supersonic" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -80,7 +80,7 @@
                 </selfTarget>
             </beginTargets>
         </supersonic>
-        <jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
@@ -96,7 +96,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Jink" />
+                                        <addTrait name="Jink" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -105,7 +105,7 @@
                 </selfTarget>
             </beginTargets>
         </jink>
-        <dispenseChaff consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="5" requiredUpgrade="AstraMilitarum/ChaffLauncher">
+        <dispenseChaff consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/ChaffLauncher">
             <model>
                 <action sound="Actions/SmokeScreen" />
             </model>
@@ -116,7 +116,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Chaff" />
+                                        <addTrait name="Chaff" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

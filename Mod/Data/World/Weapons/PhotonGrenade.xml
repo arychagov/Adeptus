@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <grenadeWeapon effectScale="0.75" fireSound="Weapons/GrenadeThrow" fireSoundCount="6" explosionSound="Explosions/PhotonGrenade" explosionSoundCount="1" explosionsBlueprint="Effects/PhotonExplosions" explosionsEmitterBlueprint="Effects/PhotonExplosionsEmitter" displaceExplosions="0" />
+        <grenadeWeapon displaceExplosions="0" effectScale="0.75" explosionSound="Explosions/PhotonGrenade" explosionSoundCount="1" explosionsBlueprint="Effects/PhotonExplosions" explosionsEmitterBlueprint="Effects/PhotonExplosionsEmitter" fireSound="Weapons/GrenadeThrow" fireSoundCount="6" />
     </model>
     <modifiers>
         <modifier>

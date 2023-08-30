@@ -11,9 +11,9 @@
                 </unit>
             </conditions>
             <effects>
-                <energyUpkeep mulMin="-0.25" mulMax="-0.75" />
-                <foodUpkeep mulMin="-0.25" mulMax="-0.75" />
-                <oreUpkeep mulMin="-0.25" mulMax="-0.75" />
+                <energyUpkeep mulMax="-0.75" mulMin="-0.25" />
+                <foodUpkeep mulMax="-0.75" mulMin="-0.25" />
+                <oreUpkeep mulMax="-0.75" mulMin="-0.25" />
             </effects>
         </modifier>
     </modifiers>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement9" icon="Buildings/AdeptusMechanicus/Headquarters">
     <model>
-        <structureUnit mesh="Units/AdeptusMechanicus/Headquarters" material="Units/AdeptusMechanicus/Headquarters" idleAnimationCount="0" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" explosionsBone="HQBone" scale="1.0 1.0 1.0" />
+        <structureUnit explosionsBone="HQBone" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" idleAnimationCount="0" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" material="Units/AdeptusMechanicus/Headquarters" mesh="Units/AdeptusMechanicus/Headquarters" scale="1.0 1.0 1.0" />
     </model>
     <weapons>
         <weapon name="CognisHeavyStubber" count="2">
             <model>
-                <projectileWeapon mesh="Weapons/AdeptusMechanicus/HeadquartersGuns" material="Buildings/AstraMilitarum/Buildings" bone="HQBone" fireInterval="0.2" muzzleBone="LightMuzzle" muzzleCount="2" />
+                <projectileWeapon bone="HQBone" fireInterval="0.2" material="Buildings/AstraMilitarum/Buildings" mesh="Weapons/AdeptusMechanicus/HeadquartersGuns" muzzleBone="LightMuzzle" muzzleCount="2" />
             </model>
         </weapon>
         <weapon name="GatlingRocketLauncher" count="2">
             <model>
-                <missileWeapon mesh="Weapons/AdeptusMechanicus/HeadquartersGuns" material="Buildings/AstraMilitarum/Buildings" bone="HQBone" fireInterval="0.5" muzzleBone="HeavyMuzzle" muzzleCount="2" missileScale="0.6" />
+                <missileWeapon bone="HQBone" fireInterval="0.5" material="Buildings/AstraMilitarum/Buildings" mesh="Weapons/AdeptusMechanicus/HeadquartersGuns" missileScale="0.6" muzzleBone="HeavyMuzzle" muzzleCount="2" />
             </model>
         </weapon>
     </weapons>

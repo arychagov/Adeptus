@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="8" icon="Units/AstraMilitarum/Thunderbolt">
+<upgrade icon="Units/AstraMilitarum/Thunderbolt" position="8">
     <requiredUpgrades>
         <upgrade name="AstraMilitarum/Aircraft" />
     </requiredUpgrades>

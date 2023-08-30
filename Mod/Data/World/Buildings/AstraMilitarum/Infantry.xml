@@ -34,11 +34,11 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="AstraMilitarum/Guardsman" />
-        <produceUnit unit="AstraMilitarum/Ratling" requiredUpgrade="AstraMilitarum/Ratling" />
-        <produceUnit unit="AstraMilitarum/HeavyWeaponsSquad" requiredUpgrade="AstraMilitarum/HeavyWeaponsSquad" />
-        <produceUnit unit="AstraMilitarum/TempestusScion" requiredUpgrade="AstraMilitarum/TempestusScion" />
-        <produceUnit unit="AstraMilitarum/Bullgryn" requiredUpgrade="AstraMilitarum/Bullgryn" />
-        <produceUnit unit="AstraMilitarum/TechpriestEnginseer" requiredUpgrade="AstraMilitarum/TechpriestEnginseer" />
-        <produceUnit unit="AstraMilitarum/WyrdvanePsyker" requiredUpgrade="AstraMilitarum/Psykers" />
+        <produceUnit requiredUpgrade="AstraMilitarum/Ratling" unit="AstraMilitarum/Ratling" />
+        <produceUnit requiredUpgrade="AstraMilitarum/HeavyWeaponsSquad" unit="AstraMilitarum/HeavyWeaponsSquad" />
+        <produceUnit requiredUpgrade="AstraMilitarum/TempestusScion" unit="AstraMilitarum/TempestusScion" />
+        <produceUnit requiredUpgrade="AstraMilitarum/Bullgryn" unit="AstraMilitarum/Bullgryn" />
+        <produceUnit requiredUpgrade="AstraMilitarum/TechpriestEnginseer" unit="AstraMilitarum/TechpriestEnginseer" />
+        <produceUnit requiredUpgrade="AstraMilitarum/Psykers" unit="AstraMilitarum/WyrdvanePsyker" />
     </actions>
 </building>

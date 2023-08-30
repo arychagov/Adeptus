@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon muzzleFlashesBlueprint="Effects/CannonMuzzleFlashes" fireSound="Weapons/Autocannon" fireSoundCount="5" fireInterval="0.2" />
+        <projectileWeapon fireInterval="0.2" fireSound="Weapons/Autocannon" fireSoundCount="5" muzzleFlashesBlueprint="Effects/CannonMuzzleFlashes" />
     </model>
     <modifiers>
         <modifier>

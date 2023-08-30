@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="2" icon="Weapons/KrakGrenade" visible="0">
+<upgrade icon="Weapons/KrakGrenade" position="2" visible="0">
     <strategyModifiers>
         <modifier>
             <effects>

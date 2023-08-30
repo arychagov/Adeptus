@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feature ambientSound="Ambient/Forest" ambientSoundLayer="1" ambientSoundPriority="0" audioEffectSystem="Forest" category="Forest" blockingSight="1" icon="Traits/Forest">
+<feature ambientSound="Ambient/Forest" ambientSoundLayer="1" ambientSoundPriority="0" audioEffectSystem="Forest" blockingSight="1" category="Forest" icon="Traits/Forest">
     <model>
-        <vegetation material="Terrain/Vegetation" depthMaterial="Terrain/VegetationDepth" />
+        <vegetation depthMaterial="Terrain/VegetationDepth" material="Terrain/Vegetation" />
     </model>
     <modifiers>
         <modifier>
@@ -74,7 +74,7 @@
         <trait name="Forest" />
     </traits>
     <vegetation>
-        <bushes clusterSizeMin="10" clusterSizeMax="20" scaleMin="0.5" scaleMax="1.5" />
-        <trees clusterSizeMin="25" clusterSizeMax="50" scaleMin="0.75" scaleMax="1.25" />
+        <bushes clusterSizeMax="20" clusterSizeMin="10" scaleMax="1.5" scaleMin="0.5" />
+        <trees clusterSizeMax="50" clusterSizeMin="25" scaleMax="1.25" scaleMin="0.75" />
     </vegetation>
 </feature>

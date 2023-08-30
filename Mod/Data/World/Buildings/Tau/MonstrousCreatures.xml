@@ -35,9 +35,9 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="Tau/GhostkeelBattlesuit" />
-        <produceUnit unit="Tau/BroadsideBattlesuit" requiredUpgrade="Tau/BroadsideBattlesuit" />
-        <produceUnit unit="Tau/RiptideBattlesuit" requiredUpgrade="Tau/RiptideBattlesuit" />
-        <produceUnit unit="Tau/RVarnaBattlesuit" requiredUpgrade="Tau/RVarnaBattlesuit" />
-        <produceUnit unit="Tau/Stormsurge" requiredUpgrade="Tau/Stormsurge" />
+        <produceUnit requiredUpgrade="Tau/BroadsideBattlesuit" unit="Tau/BroadsideBattlesuit" />
+        <produceUnit requiredUpgrade="Tau/RiptideBattlesuit" unit="Tau/RiptideBattlesuit" />
+        <produceUnit requiredUpgrade="Tau/RVarnaBattlesuit" unit="Tau/RVarnaBattlesuit" />
+        <produceUnit requiredUpgrade="Tau/Stormsurge" unit="Tau/Stormsurge" />
     </actions>
 </building>

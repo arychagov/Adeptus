@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon fireSound="Weapons/HeavyArcRifle" fireSoundCount="3" beamsBlueprint="Effects/HeavyArcBeams" beamsEmitterBlueprint="Effects/FrazzleEmitter" muzzleFlashesBlueprint="Effects/PlasmaMuzzleFlashes" />
+        <beamWeapon beamsBlueprint="Effects/HeavyArcBeams" beamsEmitterBlueprint="Effects/FrazzleEmitter" fireSound="Weapons/HeavyArcRifle" fireSoundCount="3" muzzleFlashesBlueprint="Effects/PlasmaMuzzleFlashes" />
     </model>
     <modifiers>
         <modifier>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" visibilityCategory="Building" icon="Actions/ChaosSpaceMarines/RiteOfPestilence">
+<trait category="Buff" icon="Actions/ChaosSpaceMarines/RiteOfPestilence" visibilityCategory="Building">
     <modifiers>
         <modifier>
             <conditions>

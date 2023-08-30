@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/Orks/Painboy" material="Units/Orks/Painboy" idleAnimation="Units/Orks/PainboyIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1 1 1" bloodBone="Torso" walker="1" />
+        <unit bloodBone="Torso" idleAnimation="Units/Orks/PainboyIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Orks/Painboy" mesh="Units/Orks/Painboy" normalWeight="0.1" scale="1 1 1" walker="1" />
     </model>
     <weapons>
         <weapon name="UrtySyringe">
@@ -45,7 +45,7 @@
     <actions>
         <attack>
             <model>
-                <action chargeAnimation="Units/Orks/PainboyCharge" chargeDefenseAnimation="Units/Orks/PainboyChargeDefense" meleeAnimation="Units/Orks/PainboyMelee" meleeDefenseAnimation="Units/Orks/PainboyMeleeDefense" meleeBeginSwing="0.5" meleeEndSwing="1.0" />
+                <action chargeAnimation="Units/Orks/PainboyCharge" chargeDefenseAnimation="Units/Orks/PainboyChargeDefense" meleeAnimation="Units/Orks/PainboyMelee" meleeBeginSwing="0.5" meleeDefenseAnimation="Units/Orks/PainboyMeleeDefense" meleeEndSwing="1.0" />
             </model>
         </attack>
         <die>
@@ -74,7 +74,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="EreWeGo" />
+                                        <addTrait name="EreWeGo" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -83,7 +83,7 @@
                 </selfTarget>
             </beginTargets>
         </ereWeGo>
-        <doksTools cooldown="1" levelUpPriority="0.1" name="Orks/DoksTools" rank="-1" rankMax="2">
+        <doksTools name="Orks/DoksTools" cooldown="1" levelUpPriority="0.1" rank="-1" rankMax="2">
             <model>
                 <action animation="Units/Orks/PainboyAbility" sound="Actions/Heal" />
             </model>
@@ -103,7 +103,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints addMin="6" addMax="18" />
+                                        <hitpoints addMax="18" addMin="6" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -129,7 +129,7 @@
                 </selfTarget>
             </beginTargets>
         </extraBitz>
-        <cyborkImplants cooldown="3" levelUpPriority="0.1" name="Orks/CyborkImplants" rank="-1" rankMax="2">
+        <cyborkImplants name="Orks/CyborkImplants" cooldown="3" levelUpPriority="0.1" rank="-1" rankMax="2">
             <model>
                 <action animation="Units/Orks/PainboyAbility" sound="Actions/Injection" />
             </model>
@@ -158,7 +158,7 @@
                 </target>
             </beginTargets>
         </cyborkImplants>
-        <experimentalProcedure cooldown="5" elite="1" levelUpPriority="1" name="Orks/ExperimentalProcedure" rank="-1" rankMax="0">
+        <experimentalProcedure name="Orks/ExperimentalProcedure" cooldown="5" elite="1" levelUpPriority="1" rank="-1" rankMax="0">
             <model>
                 <action animation="Units/Orks/PainboyAbility" sound="Actions/PsychicBuff" />
             </model>
@@ -178,7 +178,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="3" name="Orks/ExperimentalProcedure" />
+                                        <addTrait name="Orks/ExperimentalProcedure" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>

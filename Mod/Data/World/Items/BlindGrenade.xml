@@ -19,7 +19,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="2" name="Blind" />
+                                        <addTrait name="Blind" duration="2" />
                                     </effects>
                                 </modifier>
                             </modifiers>

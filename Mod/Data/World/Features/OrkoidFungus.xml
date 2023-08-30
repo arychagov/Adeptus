@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feature category="OrkoidFungus" icon="Traits/OrkoidFungus">
     <model>
-        <vegetation material="Features/BloodshadeFungus" depthMaterial="Features/BloodshadeFungusDepth" />
+        <vegetation depthMaterial="Features/BloodshadeFungusDepth" material="Features/BloodshadeFungus" />
     </model>
     <modifiers>
         <modifier visible="0">
@@ -39,7 +39,7 @@
         <trait name="OrkoidFungus" />
     </traits>
     <vegetation>
-        <trees clusterSizeMin="15" clusterSizeMax="30" scaleMin="0.5" scaleMax="1.0">
+        <trees clusterSizeMax="30" clusterSizeMin="15" scaleMax="1.0" scaleMin="0.5">
             <meshes>
                 <mesh name="Terrain/Vegetation/BloodshadeFungus0" />
                 <mesh name="Terrain/Vegetation/BloodshadeFungus1" />

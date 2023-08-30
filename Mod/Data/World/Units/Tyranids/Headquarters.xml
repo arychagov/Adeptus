@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement2" icon="Buildings/Tyranids/Headquarters">
     <model>
-        <structureUnit mesh="Units/Tyranids/Headquarters" material="Buildings/Tyranids/Buildings" idleAnimationCount="0" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" scale="1.0 1.0 1.0" explosionsBone="HQBone" />
+        <structureUnit explosionsBone="HQBone" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" idleAnimationCount="0" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" material="Buildings/Tyranids/Buildings" mesh="Units/Tyranids/Headquarters" scale="1.0 1.0 1.0" />
     </model>
     <weapons>
         <weapon name="Devourer" count="5">
             <model>
-                <projectileWeapon mesh="Weapons/Tyranids/HeadquartersDevourers" material="Buildings/Tyranids/Buildings" bone="HQBone" fireInterval="0.25" muzzleBone=".Muzzle" muzzleCount="5" />
+                <projectileWeapon bone="HQBone" fireInterval="0.25" material="Buildings/Tyranids/Buildings" mesh="Weapons/Tyranids/HeadquartersDevourers" muzzleBone=".Muzzle" muzzleCount="5" />
             </model>
         </weapon>
         <weapon name="HeavyVenomCannon" count="2">
             <model>
-                <missileWeapon mesh="Weapons/Tyranids/HeadquartersHeavyVenomCannon" material="Buildings/Tyranids/Buildings" bone="HQBone" fireInterval="0.5" muzzleBone=".Muzzle" />
+                <missileWeapon bone="HQBone" fireInterval="0.5" material="Buildings/Tyranids/Buildings" mesh="Weapons/Tyranids/HeadquartersHeavyVenomCannon" muzzleBone=".Muzzle" />
             </model>
         </weapon>
     </weapons>

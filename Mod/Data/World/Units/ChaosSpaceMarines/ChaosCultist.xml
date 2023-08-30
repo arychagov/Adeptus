@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit spawnDistanceMin="6">
     <model>
-        <unit mesh="Units/ChaosSpaceMarines/ChaosCultist" material="Units/ChaosSpaceMarines/ChaosCultist" idleAnimation="Units/ChaosSpaceMarines/ChaosCultistIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.8 0.8 0.8" bloodBone="Bone001" walker="1" />
+        <unit bloodBone="Bone001" idleAnimation="Units/ChaosSpaceMarines/ChaosCultistIdle" idleAnimationCount="3" idleContinuously="1" material="Units/ChaosSpaceMarines/ChaosCultist" mesh="Units/ChaosSpaceMarines/ChaosCultist" normalWeight="0.1" scale="0.8 0.8 0.8" walker="1" />
     </model>
-    <group size="10" rowSize="5" memberDeltaX="70" memberDeltaY="50" />
+    <group memberDeltaX="70" memberDeltaY="50" rowSize="5" size="10" />
     <weapons>
         <weapon name="Autopistol">
             <model>
-                <projectileWeapon mesh="Weapons/ChaosSpaceMarines/Autopistol" material="Units/ChaosSpaceMarines/ChaosCultist" bone="Bone006" muzzleBone=".Muzzle" fireInterval="0.25" />
+                <projectileWeapon bone="Bone006" fireInterval="0.25" material="Units/ChaosSpaceMarines/ChaosCultist" mesh="Weapons/ChaosSpaceMarines/Autopistol" muzzleBone=".Muzzle" />
             </model>
         </weapon>
         <weapon name="CloseCombatWeapon">
@@ -61,7 +61,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/ChaosSpaceMarines/ChaosCultistAttack" beginFire="0.7" endFire="1.8" chargeAnimation="Units/ChaosSpaceMarines/ChaosCultistCharge" chargeBeginFire="0.7" chargeEndFire="1.2" meleeAnimation="Units/ChaosSpaceMarines/ChaosCultistMelee" meleeBeginSwing="0.2" meleeEndSwing="0.9" />
+                <action animation="Units/ChaosSpaceMarines/ChaosCultistAttack" beginFire="0.7" chargeAnimation="Units/ChaosSpaceMarines/ChaosCultistCharge" chargeBeginFire="0.7" chargeEndFire="1.2" endFire="1.8" meleeAnimation="Units/ChaosSpaceMarines/ChaosCultistMelee" meleeBeginSwing="0.2" meleeEndSwing="0.9" />
             </model>
         </attack>
         <die>
@@ -98,7 +98,7 @@
                 </modifier>
             </modifiers>
         </foundCity>
-        <clearTileUnitAbility cooldown="1" icon="Actions/ClearTile" name="ClearTile">
+        <clearTileUnitAbility name="ClearTile" cooldown="1" icon="Actions/ClearTile">
             <model>
                 <action animation="Units/ChaosSpaceMarines/ChaosCultistWork" />
             </model>
@@ -158,7 +158,7 @@
                 </selfTarget>
             </endTargets>
         </cultistSacrifice>
-        <constructNoctilithCrown icon="Units/ChaosSpaceMarines/NoctilithCrown" requiredUpgrade="ChaosSpaceMarines/NoctilithCrown" cooldown="10">
+        <constructNoctilithCrown cooldown="10" icon="Units/ChaosSpaceMarines/NoctilithCrown" requiredUpgrade="ChaosSpaceMarines/NoctilithCrown">
             <model>
                 <action animation="Units/ChaosSpaceMarines/ChaosCultistWork" sound="Actions/Construct" />
             </model>
@@ -196,11 +196,11 @@
                 </target>
             </beginTargets>
         </constructNoctilithCrown>
-        <genericUnitAbility name="ChaosSpaceMarines/DeferredAbsolution" requiredUpgrade="ChaosSpaceMarines/DarkDisciple" passive="1">
+        <genericUnitAbility name="ChaosSpaceMarines/DeferredAbsolution" passive="1" requiredUpgrade="ChaosSpaceMarines/DarkDisciple">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1" excludeRadius="0">
+                        <area affects="Tile" excludeRadius="0" radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>

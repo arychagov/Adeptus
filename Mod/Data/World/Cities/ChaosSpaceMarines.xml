@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <city actionsTitle="GUI/UnholyRites">
     <actions>
-        <riteOfChange cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/UnholyRite" name="ChaosSpaceMarines/RiteOfChange" requiredUpgrade="ChaosSpaceMarines/RiteOfChange">
+        <riteOfChange name="ChaosSpaceMarines/RiteOfChange" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/UnholyRite" requiredUpgrade="ChaosSpaceMarines/RiteOfChange">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -12,12 +12,12 @@
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="ChaosSpaceMarines/RiteOfChange" />
+                        <addTrait name="ChaosSpaceMarines/RiteOfChange" duration="10" />
                     </effects>
                 </modifier>
             </actorModifiers>
         </riteOfChange>
-        <riteOfPestilence cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/UnholyRite" name="ChaosSpaceMarines/RiteOfPestilence" requiredUpgrade="ChaosSpaceMarines/RiteOfPestilence">
+        <riteOfPestilence name="ChaosSpaceMarines/RiteOfPestilence" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/UnholyRite" requiredUpgrade="ChaosSpaceMarines/RiteOfPestilence">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -28,12 +28,12 @@
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="ChaosSpaceMarines/RiteOfPestilence" />
+                        <addTrait name="ChaosSpaceMarines/RiteOfPestilence" duration="10" />
                     </effects>
                 </modifier>
             </actorModifiers>
         </riteOfPestilence>
-        <riteOfBlood cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/UnholyRite" name="ChaosSpaceMarines/RiteOfBlood" requiredUpgrade="ChaosSpaceMarines/RiteOfBlood">
+        <riteOfBlood name="ChaosSpaceMarines/RiteOfBlood" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/UnholyRite" requiredUpgrade="ChaosSpaceMarines/RiteOfBlood">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -44,12 +44,12 @@
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="ChaosSpaceMarines/RiteOfBlood" />
+                        <addTrait name="ChaosSpaceMarines/RiteOfBlood" duration="10" />
                     </effects>
                 </modifier>
             </actorModifiers>
         </riteOfBlood>
-        <riteOfUnholyPleasure cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/UnholyRite" name="ChaosSpaceMarines/RiteOfUnholyPleasure" requiredUpgrade="ChaosSpaceMarines/RiteOfUnholyPleasure">
+        <riteOfUnholyPleasure name="ChaosSpaceMarines/RiteOfUnholyPleasure" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/UnholyRite" requiredUpgrade="ChaosSpaceMarines/RiteOfUnholyPleasure">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -60,7 +60,7 @@
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="ChaosSpaceMarines/RiteOfUnholyPleasure" />
+                        <addTrait name="ChaosSpaceMarines/RiteOfUnholyPleasure" duration="10" />
                     </effects>
                 </modifier>
             </actorModifiers>

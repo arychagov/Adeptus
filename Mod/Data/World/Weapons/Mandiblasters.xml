@@ -7,7 +7,7 @@
         <modifier>
             <effects>
                 <meleeAttacks base="1" />
-                <meleeAccuracy min="6" max="6" />
+                <meleeAccuracy max="6" min="6" />
                 <meleeArmorPenetration add="8" /> <!-- %meleeArmorPenetration add armorPiercing=1 -->
                 <strengthDamage base="3" /> <!-- %strengthDamage base strength=6 -->
             </effects>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="9" icon="Traits/RelicPlating">
+<upgrade icon="Traits/RelicPlating" position="9">
     <requiredUpgrades>
         <upgrade name="AstraMilitarum/ImperialStrongpoint" />
         <upgrade name="AstraMilitarum/Vehicles" />

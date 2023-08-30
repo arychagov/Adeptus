@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement5">
     <model>
-        <unit mesh="Units/Tau/Stormsurge" material="Units/Tau/Stormsurge" idleAnimation="Units/Tau/StormsurgeIdle" idleAnimationCount="3" idleContinuously="1" scale="1.2 1.2 1.2" explosionsBone="BloodBone" walker="1" />
+        <unit explosionsBone="BloodBone" idleAnimation="Units/Tau/StormsurgeIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tau/Stormsurge" mesh="Units/Tau/Stormsurge" scale="1.2 1.2 1.2" walker="1" />
     </model>
     <weapons>
         <weapon name="PulseDriverCannon">
             <model>
-                <projectileWeapon muzzleBone=".PulseDriverCannonMuzzle" fireInterval="0.5" />
+                <projectileWeapon fireInterval="0.5" muzzleBone=".PulseDriverCannonMuzzle" />
             </model>
         </weapon>
         <weapon name="TwinLinkedSmartMissileSystem">
             <model>
-                <missileWeapon muzzleBone=".SmartMissileMuzzle" muzzleCount="2" missileScale="0.5" fireInterval="0.55" />
+                <missileWeapon fireInterval="0.55" missileScale="0.5" muzzleBone=".SmartMissileMuzzle" muzzleCount="2" />
             </model>
         </weapon>
         <weapon name="ClusterRocketSystem">
             <model>
-                <missileWeapon muzzleBone=".ClusterRocket" muzzleCount="16" missileScale="0.3" fireInterval="1.1" />
+                <missileWeapon fireInterval="1.1" missileScale="0.3" muzzleBone=".ClusterRocket" muzzleCount="16" />
             </model>
         </weapon>
         <weapon name="TwinLinkedAirburstingFragmentationProjector">
@@ -24,12 +24,12 @@
                 <projectileWeapon muzzleBone=".AirburstMuzzle" muzzleCount="4" />
             </model>
         </weapon>
-        <weapon name="DestroyerMissile" count="4" slotName="DestroyerMissile" enabled="0">
+        <weapon name="DestroyerMissile" count="4" enabled="0" slotName="DestroyerMissile">
             <model>
-                <missileWeapon muzzleBone=".DestroyerMissile" muzzleCount="4" missileScale="0.7" fireInterval="1" />
+                <missileWeapon fireInterval="1" missileScale="0.7" muzzleBone=".DestroyerMissile" muzzleCount="4" />
             </model>
         </weapon>
-        <weapon name="Stomp" slotName="Stomp" enabled="0" />
+        <weapon name="Stomp" enabled="0" slotName="Stomp" />
     </weapons>
     <modifiers>
         <modifier visible="0">
@@ -116,7 +116,7 @@
                 </selfTarget>
             </beginTargets>
         </hammerOfWrath>
-        <useWeapon cooldown="5" consumedActionPoints="0" requiredActionPoints="0" weaponSlotName="DestroyerMissile">
+        <useWeapon consumedActionPoints="0" cooldown="5" requiredActionPoints="0" weaponSlotName="DestroyerMissile">
             <model>
                 <action beginFire="1" endFire="2" />
             </model>

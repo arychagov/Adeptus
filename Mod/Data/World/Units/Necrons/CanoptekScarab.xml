@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/Necrons/CanoptekScarabs" material="Units/Necrons/CanoptekScarabs" idleAnimation="Units/Necrons/CanoptekScarabsIdle" idleAnimationCount="4" idleContinuously="1" scale="0.6 0.6 0.6" explosionsBone="Bone164" walker="1" />
+        <unit explosionsBone="Bone164" idleAnimation="Units/Necrons/CanoptekScarabsIdle" idleAnimationCount="4" idleContinuously="1" material="Units/Necrons/CanoptekScarabs" mesh="Units/Necrons/CanoptekScarabs" scale="0.6 0.6 0.6" walker="1" />
     </model>
-    <group size="4" rowSize="2" memberDeltaX="80" memberDeltaY="80" />
+    <group memberDeltaX="80" memberDeltaY="80" rowSize="2" size="4" />
     <weapons>
         <weapon name="CloseCombatWeapon">
             <model>
@@ -40,12 +40,12 @@
     <actions>
         <attack>
             <model>
-                <action chargeAnimation="Units/Necrons/CanoptekScarabsCharge" chargeBeginFire="0.25" chargeEndFire="1.1" chargeDefenseAnimation="Units/Necrons/CanoptekScarabsChargeDefense" chargeDefenseBeginFire="0.25" chargeDefenseEndFire="1.5" meleeAnimation="Units/Necrons/CanoptekScarabsMelee" meleeDefenseAnimation="Units/Necrons/CanoptekScarabsMeleeDefense" meleeBeginSwing="0.5" meleeEndSwing="1.0" meleeSound="Units/Necrons/CanoptekScarabAttack" meleeSoundCount="2" />
+                <action chargeAnimation="Units/Necrons/CanoptekScarabsCharge" chargeBeginFire="0.25" chargeDefenseAnimation="Units/Necrons/CanoptekScarabsChargeDefense" chargeDefenseBeginFire="0.25" chargeDefenseEndFire="1.5" chargeEndFire="1.1" meleeAnimation="Units/Necrons/CanoptekScarabsMelee" meleeBeginSwing="0.5" meleeDefenseAnimation="Units/Necrons/CanoptekScarabsMeleeDefense" meleeEndSwing="1.0" meleeSound="Units/Necrons/CanoptekScarabAttack" meleeSoundCount="2" />
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Necrons/CanoptekScarabsDie" animationCount="2" soundDelay="0" sound="Units/Necrons/CanoptekScarabDie" soundCount="2" />
+                <action animation="Units/Necrons/CanoptekScarabsDie" animationCount="2" sound="Units/Necrons/CanoptekScarabDie" soundCount="2" soundDelay="0" />
             </model>
         </die>
         <idle>
@@ -58,7 +58,7 @@
                 <action animation="Units/Necrons/CanoptekScarabsMove" sound="Units/Necrons/CanoptekScarabMove" soundCount="3" />
             </model>
         </move>
-        <necrodermisRepair consumedActionPoints="0" consumedMovement="0" cooldown="1" name="Necrons/NecrodermisRepair" requiredActionPoints="0">
+        <necrodermisRepair name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
             <model>
                 <action sound="Actions/Heal" />
             </model>

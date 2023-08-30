@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon fireSound="Weapons/FleshHooks" fireSoundCount="3" muzzleFlashesBlueprint="" directionalMuzzleFlashesBlueprint="" projectilesBlueprint="Effects/FleshHookProjectiles" projectilesEmitterBlueprint="Effects/FleshHookProjectilesEmitter" smokeBlueprint="" explosionsBlueprint="" effectFaceWeight="1.0" />
+        <projectileWeapon directionalMuzzleFlashesBlueprint="" effectFaceWeight="1.0" explosionsBlueprint="" fireSound="Weapons/FleshHooks" fireSoundCount="3" muzzleFlashesBlueprint="" projectilesBlueprint="Effects/FleshHookProjectiles" projectilesEmitterBlueprint="Effects/FleshHookProjectilesEmitter" smokeBlueprint="" />
     </model>
     <modifiers>
         <modifier>

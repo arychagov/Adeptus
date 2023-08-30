@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/Necrons/TriarchStalker" material="Units/Necrons/TriarchStalker" idleAnimation="Units/Necrons/TriarchStalkerIdle" idleAnimationCount="3" idleContinuously="1" scale="0.8 0.8 0.8" explosionsBone="BloodBone" walker="1" />
+        <unit explosionsBone="BloodBone" idleAnimation="Units/Necrons/TriarchStalkerIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Necrons/TriarchStalker" mesh="Units/Necrons/TriarchStalker" scale="0.8 0.8 0.8" walker="1" />
     </model>
     <weapons>
         <weapon name="HeatRayFocused" slotName="HeatRayFocused">
             <model>
-                <beamWeapon muzzleBone="Bone110" fireInterval="0.25" />
+                <beamWeapon fireInterval="0.25" muzzleBone="Bone110" />
             </model>
         </weapon>
-        <weapon name="HeatRayDispersed" slotName="HeatRayDispersed" enabled="0">
+        <weapon name="HeatRayDispersed" enabled="0" slotName="HeatRayDispersed">
             <model>
-                <beamWeapon muzzleBone="Bone110" fireInterval="0.25" />
+                <beamWeapon fireInterval="0.25" muzzleBone="Bone110" />
             </model>
         </weapon>
     </weapons>
@@ -61,7 +61,7 @@
                 <action animation="Units/Necrons/TriarchStalkerMove" sound="Units/Necrons/TriarchStalkerMove" soundCount="1" />
             </model>
         </move>
-        <necrodermisRepair consumedActionPoints="0" consumedMovement="0" cooldown="1" name="Necrons/NecrodermisRepair" requiredActionPoints="0">
+        <necrodermisRepair name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
             <model>
                 <action sound="Actions/Heal" />
             </model>
@@ -103,7 +103,7 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <genericUnitAbility name="Necrons/TargetingRelay" passive="1" enabled="0" visible="0">
+        <genericUnitAbility name="Necrons/TargetingRelay" enabled="0" passive="1" visible="0">
             <beginTargets>
                 <selfTarget>
                     <areas />

@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/AstraMilitarum/HeavyWeaponsSquad" material="Units/AstraMilitarum/HeavyWeaponsSquad" idleAnimation="Units/AstraMilitarum/HeavyWeaponsSquadIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1 1 1" bloodBone="ChestBone" walker="1" />
+        <unit bloodBone="ChestBone" idleAnimation="Units/AstraMilitarum/HeavyWeaponsSquadIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AstraMilitarum/HeavyWeaponsSquad" mesh="Units/AstraMilitarum/HeavyWeaponsSquad" normalWeight="0.1" scale="1 1 1" walker="1" />
     </model>
-    <group size="4" rowSize="2" memberDeltaX="90" memberDeltaY="100" />
+    <group memberDeltaX="90" memberDeltaY="100" rowSize="2" size="4" />
     <weapons>
-        <weapon name="FragMissileLauncher" slotName="FragMissileLauncher" enabled="0">
+        <weapon name="FragMissileLauncher" enabled="0" slotName="FragMissileLauncher">
             <model>
-                <missileWeapon muzzleBone="Muzzle0" fireInterval="0.83" />
+                <missileWeapon fireInterval="0.83" muzzleBone="Muzzle0" />
             </model>
         </weapon>
         <weapon name="KrakMissileLauncher" slotName="KrakMissileLauncher">
             <model>
-                <missileWeapon muzzleBone="Muzzle0" fireInterval="0.83" />
+                <missileWeapon fireInterval="0.83" muzzleBone="Muzzle0" />
             </model>
         </weapon>
-        <weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
             <model>
                 <grenadeWeapon muzzleBone="RightHandBone1" />
             </model>
         </weapon>
-        <weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
+        <weapon name="KrakGrenade" enabled="0" slotName="KrakGrenade">
             <model>
                 <grenadeWeapon muzzleBone="RightHandBone1" />
             </model>

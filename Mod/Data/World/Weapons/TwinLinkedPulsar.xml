@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon fireSound="Weapons/MultiMelta" fireSoundCount="4" fireInterval="0.5" beamsBlueprint="Effects/LaserBeams" beamsEmitterBlueprint="Effects/MeltaBeamsEmitter" muzzleFlashesBlueprint="Effects/LaserMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/MeltaMuzzleFlashesEmitter" effectScale="10" />
+        <beamWeapon beamsBlueprint="Effects/LaserBeams" beamsEmitterBlueprint="Effects/MeltaBeamsEmitter" effectScale="10" fireInterval="0.5" fireSound="Weapons/MultiMelta" fireSoundCount="4" muzzleFlashesBlueprint="Effects/LaserMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/MeltaMuzzleFlashesEmitter" />
     </model>
     <modifiers>
         <modifier>

@@ -27,7 +27,7 @@
         <track name="Music/TyranidsTheme" dlc="Supplement2" />
     </music>
     <quests>
-        <quest name="SpaceMarines/Story0" icon="Quests/SpaceMarines/Chapter0" firstTurn="2" lastTurn="2">
+        <quest name="SpaceMarines/Story0" firstTurn="2" icon="Quests/SpaceMarines/Chapter0" lastTurn="2">
             <stages>
                 <stage>
                     <objectives>
@@ -47,7 +47,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="SpaceMarines/Story1" icon="Quests/SpaceMarines/Chapter1" firstTurn="20" lastTurn="30">
+        <quest name="SpaceMarines/Story1" firstTurn="20" icon="Quests/SpaceMarines/Chapter1" lastTurn="30">
             <conditions>
                 <quests>
                     <completed name="SpaceMarines/Story0" />
@@ -59,7 +59,7 @@
                         <researchUpgrade upgrade="SpaceMarines/Heroes" />
                         <constructBuilding buildingType="SpaceMarines/Heroes" count="1" />
                         <researchUpgrade upgrade="SpaceMarines/Librarian" />
-                        <produceUnit unitType="SpaceMarines/Librarian" count="1" />
+                        <produceUnit count="1" unitType="SpaceMarines/Librarian" />
                     </objectives>
                     <rewards>
                         <item type="ArmaplasBracers" />
@@ -69,9 +69,9 @@
                     <objectives>
                         <killCamp>
                             <defenders>
-                                <unit type="AstraMilitarum/Guardsman" count="4" rankMin="1" rankMax="3" />
-                                <unit type="AstraMilitarum/HeavyWeaponsSquad" count="2" rankMin="1" rankMax="3" />
-                                <unit type="AstraMilitarum/ScoutSentinel" count="2" rankMin="1" rankMax="3" />
+                                <unit count="4" rankMax="3" rankMin="1" type="AstraMilitarum/Guardsman" />
+                                <unit count="2" rankMax="3" rankMin="1" type="AstraMilitarum/HeavyWeaponsSquad" />
+                                <unit count="2" rankMax="3" rankMin="1" type="AstraMilitarum/ScoutSentinel" />
                             </defenders>
                         </killCamp>
                     </objectives>
@@ -81,7 +81,7 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <visitTileExodite unitType="SpaceMarines/Librarian" featureType="Ruin" count="3" />
+                        <visitTileExodite count="3" featureType="Ruin" unitType="SpaceMarines/Librarian" />
                     </objectives>
                     <rewards>
                         <item type="ForbiddenKnowledge" />
@@ -89,7 +89,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="SpaceMarines/Story2" icon="Quests/SpaceMarines/Chapter2" firstTurn="40" lastTurn="50">
+        <quest name="SpaceMarines/Story2" firstTurn="40" icon="Quests/SpaceMarines/Chapter2" lastTurn="50">
             <conditions>
                 <quests>
                     <completed name="SpaceMarines/Story1" />
@@ -105,8 +105,8 @@
                                 <unit type="Necrons/Warrior" />
                             </attackers>
                             <explorers>
-                                <unit type="SpaceMarines/AssaultSpaceMarine" count="1" rankMin="2" rankMax="4" />
-                                <unit type="SpaceMarines/TacticalSpaceMarine" count="1" rankMin="2" rankMax="4" />
+                                <unit count="1" rankMax="4" rankMin="2" type="SpaceMarines/AssaultSpaceMarine" />
+                                <unit count="1" rankMax="4" rankMin="2" type="SpaceMarines/TacticalSpaceMarine" />
                             </explorers>
                         </exploreDepths>
                     </objectives>
@@ -117,7 +117,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="SpaceMarines/Story3" icon="Quests/SpaceMarines/Chapter3" firstTurn="60" lastTurn="70">
+        <quest name="SpaceMarines/Story3" firstTurn="60" icon="Quests/SpaceMarines/Chapter3" lastTurn="70">
             <conditions>
                 <quests>
                     <completed name="SpaceMarines/Story2" />
@@ -144,13 +144,13 @@
                 <stage>
                     <objectives>
                         <killCampWithFortressOfRedemption reveal="1">
-                            <boss type="SpaceMarines/FortressOfRedemption" rankMin="7" rankMax="7" name="Units/SpaceMarines/RebelFortressOfRedemption" />
+                            <boss name="Units/SpaceMarines/RebelFortressOfRedemption" rankMax="7" rankMin="7" type="SpaceMarines/FortressOfRedemption" />
                             <defenders>
-                                <unit type="Neutral/Artefacts/AncientExterminatusDevice" token="AncientExterminatusDevice" count="1" capturable="1" name="Units/Neutral/Artefacts/AncientExterminatusDevice" />
-                                <unit type="AstraMilitarum/Guardsman" count="2" rankMin="3" rankMax="5" />
-                                <unit type="AstraMilitarum/HeavyWeaponsSquad" count="2" rankMin="3" rankMax="5" />
-                                <unit type="AstraMilitarum/Bullgryn" count="1" rankMin="3" rankMax="5" />
-                                <unit type="AstraMilitarum/LemanRussBattleTank" count="1" rankMin="3" rankMax="5" />
+                                <unit name="Units/Neutral/Artefacts/AncientExterminatusDevice" capturable="1" count="1" token="AncientExterminatusDevice" type="Neutral/Artefacts/AncientExterminatusDevice" />
+                                <unit count="2" rankMax="5" rankMin="3" type="AstraMilitarum/Guardsman" />
+                                <unit count="2" rankMax="5" rankMin="3" type="AstraMilitarum/HeavyWeaponsSquad" />
+                                <unit count="1" rankMax="5" rankMin="3" type="AstraMilitarum/Bullgryn" />
+                                <unit count="1" rankMax="5" rankMin="3" type="AstraMilitarum/LemanRussBattleTank" />
                             </defenders>
                         </killCampWithFortressOfRedemption>
                     </objectives>
@@ -168,7 +168,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="SpaceMarines/Story4" icon="Quests/SpaceMarines/Chapter4" firstTurn="80" lastTurn="90">
+        <quest name="SpaceMarines/Story4" firstTurn="80" icon="Quests/SpaceMarines/Chapter4" lastTurn="90">
             <conditions>
                 <quests>
                     <completed name="SpaceMarines/Story3" />
@@ -188,7 +188,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="SpaceMarines/Story5" icon="Quests/SpaceMarines/Chapter5" firstTurn="100" lastTurn="110">
+        <quest name="SpaceMarines/Story5" firstTurn="100" icon="Quests/SpaceMarines/Chapter5" lastTurn="110">
             <conditions>
                 <quests>
                     <completed name="SpaceMarines/Story4" />
@@ -208,16 +208,16 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <surviveInvasion relativeStrength="1.0" strength="16" turnCounterModifier="10" turns="10" waves="4" waveInterval="2">
+                        <surviveInvasion relativeStrength="1.0" strength="16" turnCounterModifier="10" turns="10" waveInterval="2" waves="4">
                             <attackers>
-                                <unit type="Necrons/AnnihilationBarge" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/CanoptekScarab" count="3" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/CanoptekSpyder" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/HeavyDestroyer" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/Monolith" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/TombBlade" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/TriarchStalker" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/Warrior" count="3" rankMin="5" rankMax="7" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/AnnihilationBarge" />
+                                <unit count="3" rankMax="7" rankMin="5" type="Necrons/CanoptekScarab" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/CanoptekSpyder" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/HeavyDestroyer" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/Monolith" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/TombBlade" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/TriarchStalker" />
+                                <unit count="3" rankMax="7" rankMin="5" type="Necrons/Warrior" />
                             </attackers>
                         </surviveInvasion>
                         <controlUnit token="AncientExterminatusDevice" />
@@ -228,21 +228,21 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <surviveInvasion relativeStrength="1.0" strength="16" turns="10" waves="4" waveInterval="2">
+                        <surviveInvasion relativeStrength="1.0" strength="16" turns="10" waveInterval="2" waves="4">
                             <attackers>
-                                <unit type="Necrons/AnnihilationBarge" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/CanoptekScarab" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/CanoptekSpyder" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/DoomScythe" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/DoomsdayArk" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/HeavyDestroyer" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/Immortal" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/Monolith" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/Obelisk" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/TranscendentCtan" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/TriarchPraetorian" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/TriarchStalker" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/Warrior" count="1" rankMin="5" rankMax="7" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/AnnihilationBarge" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/CanoptekScarab" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/CanoptekSpyder" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/DoomScythe" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/DoomsdayArk" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/HeavyDestroyer" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/Immortal" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/Monolith" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/Obelisk" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/TranscendentCtan" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/TriarchPraetorian" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/TriarchStalker" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/Warrior" />
                             </attackers>
                         </surviveInvasion>
                         <controlUnit token="AncientExterminatusDevice" />
@@ -297,7 +297,7 @@
                 </target>
             </beginTargets>
         </deployFortress>
-        <deployAquilaMacroCannon cooldown="1" icon="Actions/DeployAquilaMacroCannon" name="DeployUnit" unit="SpaceMarines/AquilaMacroCannon" requiredUpgrade="SpaceMarines/AquilaMacroCannon">
+        <deployAquilaMacroCannon name="DeployUnit" cooldown="1" icon="Actions/DeployAquilaMacroCannon" requiredUpgrade="SpaceMarines/AquilaMacroCannon" unit="SpaceMarines/AquilaMacroCannon">
             <model>
                 <action sound="Actions/DropPod" />
             </model>
@@ -381,7 +381,7 @@
                 </target>
             </beginTargets>
         </orbitalBombardment>
-        <tactic cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" name="TacticalDoctrine" requiredUpgrade="SpaceMarines/TacticalDoctrine">
+        <tactic name="TacticalDoctrine" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/TacticalDoctrine">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -392,12 +392,12 @@
             <playerModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="3" name="TacticalDoctrine" />
+                        <addTrait name="TacticalDoctrine" duration="3" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" name="AssaultDoctrine" requiredUpgrade="SpaceMarines/AssaultDoctrine">
+        <tactic name="AssaultDoctrine" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/AssaultDoctrine">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -408,12 +408,12 @@
             <playerModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="3" name="AssaultDoctrine" />
+                        <addTrait name="AssaultDoctrine" duration="3" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" name="DevastatorDoctrine" requiredUpgrade="SpaceMarines/DevastatorDoctrine">
+        <tactic name="DevastatorDoctrine" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/DevastatorDoctrine">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -424,12 +424,12 @@
             <playerModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="3" name="DevastatorDoctrine" />
+                        <addTrait name="DevastatorDoctrine" duration="3" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" name="BolterDrill" requiredUpgrade="SpaceMarines/BolterDrill">
+        <tactic name="BolterDrill" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/BolterDrill">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -440,12 +440,12 @@
             <playerModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="3" name="BolterDrill" />
+                        <addTrait name="BolterDrill" duration="3" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" name="TheFleshIsWeak" requiredUpgrade="SpaceMarines/TheFleshIsWeak">
+        <tactic name="TheFleshIsWeak" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/TheFleshIsWeak">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -456,12 +456,12 @@
             <playerModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="3" name="TheFleshIsWeak" />
+                        <addTrait name="TheFleshIsWeak" duration="3" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" name="MachineEmpathy" requiredUpgrade="SpaceMarines/MachineEmpathy">
+        <tactic name="MachineEmpathy" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/MachineEmpathy">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -472,12 +472,12 @@
             <playerModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="3" name="MachineEmpathy" />
+                        <addTrait name="MachineEmpathy" duration="3" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" name="SiegeMasters" requiredUpgrade="SpaceMarines/SiegeMasters">
+        <tactic name="SiegeMasters" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/SiegeMasters">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -488,13 +488,13 @@
             <playerModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="3" name="SiegeMasters" />
+                        <addTrait name="SiegeMasters" duration="3" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
     </actions>
     <startingUnits>
-        <unit type="SpaceMarines/TacticalSpaceMarine" count="2" />
+        <unit count="2" type="SpaceMarines/TacticalSpaceMarine" />
     </startingUnits>
 </faction>

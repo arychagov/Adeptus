@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement11" icon="Buildings/SistersOfBattle/Enclave">
     <model>
-        <structureUnit mesh="Units/SistersOfBattle/Enclave" material="Units/SistersOfBattle/Headquarters" idleAnimationCount="0" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" scale="1.0 1.0 1.0" explosionsBone="HQ" />
+        <structureUnit explosionsBone="HQ" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" idleAnimationCount="0" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" material="Units/SistersOfBattle/Headquarters" mesh="Units/SistersOfBattle/Enclave" scale="1.0 1.0 1.0" />
     </model>
     <weapons>
         <weapon name="TwinLinkedBoltgun" count="5">
             <model>
-                <projectileWeapon mesh="Weapons/SistersOfBattle/HeadquartersGuns" material="Buildings/SistersOfBattle/Buildings" bone="Guns" muzzleBone="Boltgun" muzzleCount="3" />
+                <projectileWeapon bone="Guns" material="Buildings/SistersOfBattle/Buildings" mesh="Weapons/SistersOfBattle/HeadquartersGuns" muzzleBone="Boltgun" muzzleCount="3" />
             </model>
         </weapon>
         <weapon name="TwinLinkedMultiMelta" count="1">
             <model>
-                <beamWeapon mesh="Weapons/SistersOfBattle/HeadquartersGuns" material="Buildings/SistersOfBattle/Buildings" bone="Guns" muzzleBone="Melta" muzzleCount="1" />
+                <beamWeapon bone="Guns" material="Buildings/SistersOfBattle/Buildings" mesh="Weapons/SistersOfBattle/HeadquartersGuns" muzzleBone="Melta" muzzleCount="1" />
             </model>
         </weapon>
         <weapon name="TwinLinkedHeavyFlamer" count="1">
             <model>
-                <flamerWeapon mesh="Weapons/SistersOfBattle/HeadquartersGuns" material="Buildings/SistersOfBattle/Buildings" bone="Guns" muzzleBone="Flamer" muzzleCount="1" />
+                <flamerWeapon bone="Guns" material="Buildings/SistersOfBattle/Buildings" mesh="Weapons/SistersOfBattle/HeadquartersGuns" muzzleBone="Flamer" muzzleCount="1" />
             </model>
         </weapon>
     </weapons>

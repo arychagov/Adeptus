@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon fireSound="Weapons/PrismCannonDispersed" fireSoundCount="1" beamsBlueprint="Effects/PrismCannon" beamsEmitterBlueprint="Effects/PrismCannonDispersedEmitter" muzzleFlashesBlueprint="Effects/LasMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/MeltaMuzzleFlashesEmitter" explosionsBlueprint="" />
+        <beamWeapon beamsBlueprint="Effects/PrismCannon" beamsEmitterBlueprint="Effects/PrismCannonDispersedEmitter" explosionsBlueprint="" fireSound="Weapons/PrismCannonDispersed" fireSoundCount="1" muzzleFlashesBlueprint="Effects/LasMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/MeltaMuzzleFlashesEmitter" />
     </model>
     <modifiers>
         <modifier>

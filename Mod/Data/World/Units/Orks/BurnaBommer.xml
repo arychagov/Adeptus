@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/Orks/BurnaBommer" material="Units/Orks/BurnaBommer" position="0 0 64" idleAnimation="Units/Orks/BurnaBommerIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="1.0" scale="0.8 0.8 0.8" explosionsBone="Hull" />
+        <unit explosionsBone="Hull" idleAnimation="Units/Orks/BurnaBommerIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Orks/BurnaBommer" mesh="Units/Orks/BurnaBommer" normalWeight="1.0" position="0 0 64" scale="0.8 0.8 0.8" />
     </model>
     <weapons>
         <weapon name="TwinLinkedSupaShoota">
@@ -14,10 +14,10 @@
                 <projectileWeapon muzzleBone=".BigShootaMuzzle" />
             </model>
         </weapon>
-        <weapon name="BurnaBomb" count="2" slotName="BurnaBomb" enabled="0" />
-        <weapon name="SkorchaMissile" count="2" slotName="SkorchaMissile" requiredUpgrade="Orks/SkorchaMissile">
+        <weapon name="BurnaBomb" count="2" enabled="0" slotName="BurnaBomb" />
+        <weapon name="SkorchaMissile" count="2" requiredUpgrade="Orks/SkorchaMissile" slotName="SkorchaMissile">
             <model>
-                <missileWeapon muzzleBone=".SkorchaMissile" muzzleCount="6" fireInterval="1.5" />
+                <missileWeapon fireInterval="1.5" muzzleBone=".SkorchaMissile" muzzleCount="6" />
             </model>
         </weapon>
     </weapons>
@@ -77,7 +77,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Supersonic" />
+                                        <addTrait name="Supersonic" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -86,7 +86,7 @@
                 </selfTarget>
             </beginTargets>
         </supersonic>
-        <jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
@@ -102,7 +102,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Jink" />
+                                        <addTrait name="Jink" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -111,7 +111,7 @@
                 </selfTarget>
             </beginTargets>
         </jink>
-        <burnaBomb consumedActionPoints="0" requiredActionPoints="0" weaponSlotName="BurnaBomb" cooldown="3">
+        <burnaBomb consumedActionPoints="0" cooldown="3" requiredActionPoints="0" weaponSlotName="BurnaBomb">
             <model>
                 <action beginFire="1.4" endFire="1.9" />
             </model>

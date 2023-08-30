@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade dlc="Supplement10" position="3" icon="Units/Eldar/Hornet">
+<upgrade dlc="Supplement10" icon="Units/Eldar/Hornet" position="3">
     <requiredUpgrades>
         <upgrade name="Eldar/Vehicles" />
     </requiredUpgrades>

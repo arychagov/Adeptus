@@ -26,7 +26,7 @@
         </modifier>
     </strategyModifiers>
     <actions>
-        <reclaimUnit cooldown="1" name="Tyranids/ReclaimUnit" interfaceSound="Interface/ReclaimUnit">
+        <reclaimUnit name="Tyranids/ReclaimUnit" cooldown="1" interfaceSound="Interface/ReclaimUnit">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -46,8 +46,8 @@
             </modifiers>
         </reclaimUnit>
         <produceUnit unit="Tyranids/Malanthrope" />
-        <produceUnit unit="Tyranids/Venomthrope" requiredUpgrade="Tyranids/Venomthrope" />
-        <produceUnit unit="Tyranids/Zoanthrope" requiredUpgrade="Tyranids/Zoanthrope" />
+        <produceUnit requiredUpgrade="Tyranids/Venomthrope" unit="Tyranids/Venomthrope" />
+        <produceUnit requiredUpgrade="Tyranids/Zoanthrope" unit="Tyranids/Zoanthrope" />
     </actions>
     <traits>
         <trait name="Tyranids/ProductionBuildingUpkeep" requiredUpgrade="Tyranids/ProductionBuildingUpkeep" />

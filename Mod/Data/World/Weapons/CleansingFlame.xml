@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon icon="Actions/CleansingFlame">
     <model>
-        <beamWeapon fireSound="Weapons/CleansingFlame" fireSoundCount="1" fireInterval="10.0" beamsBlueprint="Effects/CleansingFlame" beamsEmitterBlueprint="Effects/CleansingFlameEmitter" muzzleFlashesBlueprint="Effects/CleansingFlameMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/CleansingFlameMuzzleFlashesEmitter" effectFaceWeight="1.0" effectScale="1.0" />
+        <beamWeapon beamsBlueprint="Effects/CleansingFlame" beamsEmitterBlueprint="Effects/CleansingFlameEmitter" effectFaceWeight="1.0" effectScale="1.0" fireInterval="10.0" fireSound="Weapons/CleansingFlame" fireSoundCount="1" muzzleFlashesBlueprint="Effects/CleansingFlameMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/CleansingFlameMuzzleFlashesEmitter" />
     </model>
     <modifiers>
         <modifier>

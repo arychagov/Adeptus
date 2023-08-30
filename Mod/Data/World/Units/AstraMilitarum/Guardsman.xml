@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/AstraMilitarum/Guardsman" material="Units/AstraMilitarum/Guardsman" idleAnimation="Units/AstraMilitarum/GuardsmanIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1 1 1" bloodBone="ChestBone" walker="1" />
+        <unit bloodBone="ChestBone" idleAnimation="Units/AstraMilitarum/GuardsmanIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AstraMilitarum/Guardsman" mesh="Units/AstraMilitarum/Guardsman" normalWeight="0.1" scale="1 1 1" walker="1" />
     </model>
-    <group size="8" rowSize="4" memberDeltaX="70" memberDeltaY="50" />
+    <group memberDeltaX="70" memberDeltaY="50" rowSize="4" size="8" />
     <weapons>
         <weapon name="Lasgun">
             <model>
-                <beamWeapon mesh="Weapons/AstraMilitarum/GuardsmanLasgun" material="Weapons/AstraMilitarum/GuardsmanLasgun" bone="RightHandBone" muzzleBone="GuardsmanLasgunMuzzle0" fireInterval="0.5" />
+                <beamWeapon bone="RightHandBone" fireInterval="0.5" material="Weapons/AstraMilitarum/GuardsmanLasgun" mesh="Weapons/AstraMilitarum/GuardsmanLasgun" muzzleBone="GuardsmanLasgunMuzzle0" />
             </model>
         </weapon>
-        <weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
             <model>
                 <grenadeWeapon muzzleBone="LeftHandBone" />
             </model>
         </weapon>
-        <weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
+        <weapon name="KrakGrenade" enabled="0" slotName="KrakGrenade">
             <model>
                 <grenadeWeapon muzzleBone="LeftHandBone" />
             </model>

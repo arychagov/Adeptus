@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="10" visible="0" icon="Traits/LocatorBeacon">
+<upgrade icon="Traits/LocatorBeacon" position="10" visible="0">
     <requiredUpgrades>
         <upgrade name="SpaceMarines/OrbitalDeployment" />
     </requiredUpgrades>

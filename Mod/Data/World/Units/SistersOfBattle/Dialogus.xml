@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement11">
     <model>
-        <unit mesh="Units/SistersOfBattle/Dialogus" material="Units/SistersOfBattle/Dialogus" idleAnimation="Units/SistersOfBattle/DialogusIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" portraitZoomModifier="1.1" scale="0.8 0.8 0.8" bloodBone="Chest" position="0 0 0" walker="1" />
+        <unit bloodBone="Chest" idleAnimation="Units/SistersOfBattle/DialogusIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SistersOfBattle/Dialogus" mesh="Units/SistersOfBattle/Dialogus" normalWeight="0.1" portraitZoomModifier="1.1" position="0 0 0" scale="0.8 0.8 0.8" walker="1" />
     </model>
     <weapons>
         <weapon name="DialogusStaff">
@@ -9,17 +9,17 @@
                 <weapon />
             </model>
         </weapon>
-        <weapon name="MeltaBomb" slotName="MeltaBomb" enabled="0">
+        <weapon name="MeltaBomb" enabled="0" slotName="MeltaBomb">
             <model>
                 <grenadeWeapon />
             </model>
         </weapon>
-        <weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
             <model>
                 <grenadeWeapon />
             </model>
         </weapon>
-        <weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
+        <weapon name="KrakGrenade" enabled="0" slotName="KrakGrenade">
             <model>
                 <grenadeWeapon />
             </model>
@@ -74,12 +74,12 @@
         </move>
 
 
-        <throwGrenade weaponSlotName="MeltaBomb" cooldown="10" requiredUpgrade="SistersOfBattle/MeltaBomb">
+        <throwGrenade cooldown="10" requiredUpgrade="SistersOfBattle/MeltaBomb" weaponSlotName="MeltaBomb">
             <model>
                 <action animation="Units/SistersOfBattle/DialogusGrenade" />
             </model>
         </throwGrenade>
-        <genericUnitAbility passive="1" name="SistersOfBattle/LaudHailer">
+        <genericUnitAbility name="SistersOfBattle/LaudHailer" passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -96,7 +96,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <endlessCrusade consumedActionPoints="0" consumedMovement="0" cooldown="10" name="SistersOfBattle/EndlessCrusade" requiredActionPoints="0">
+        <endlessCrusade name="SistersOfBattle/EndlessCrusade" consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0">
             <model>
                 <action animation="Units/SistersOfBattle/DialogusAbility" sound="Actions/EndlessCrusade" />
             </model>
@@ -128,9 +128,9 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Fleet" />
-                                        <addTrait duration="1" name="MoveThroughCover" />
-                                        <addTrait duration="1" name="SistersOfBattle/UsedActOfFaith" />
+                                        <addTrait name="Fleet" duration="1" />
+                                        <addTrait name="MoveThroughCover" duration="1" />
+                                        <addTrait name="SistersOfBattle/UsedActOfFaith" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -139,7 +139,7 @@
                 </selfTarget>
             </beginTargets>
         </endlessCrusade>
-        <verseOfHolyPiety cooldown="1" consumedActionPoints="0" consumedMovement="0" name="SistersOfBattle/VerseOfHolyPiety" requiredActionPoints="0" rank="-1" rankMax="2">
+        <verseOfHolyPiety name="SistersOfBattle/VerseOfHolyPiety" consumedActionPoints="0" consumedMovement="0" cooldown="1" rank="-1" rankMax="2" requiredActionPoints="0">
             <model>
                 <action animation="Units/SistersOfBattle/DialogusAbility" sound="Actions/VerseOfHolyPiety" />
             </model>
@@ -173,7 +173,7 @@
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <cooldown addMin="-3" addMax="-9" />
+                                        <cooldown addMax="-9" addMin="-3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -182,7 +182,7 @@
                 </target>
             </beginTargets>
         </verseOfHolyPiety>
-        <catechismOfRepugnance cooldown="1" consumedActionPoints="1" consumedMovement="0" name="SistersOfBattle/CatechismOfRepugnance" requiredActionPoints="1" rank="-1" rankMax="2">
+        <catechismOfRepugnance name="SistersOfBattle/CatechismOfRepugnance" consumedActionPoints="1" consumedMovement="0" cooldown="1" rank="-1" rankMax="2" requiredActionPoints="1">
             <model>
                 <action animation="Units/SistersOfBattle/DialogusAbility" sound="Actions/CatechismOfRepugnance" />
             </model>
@@ -199,7 +199,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="SistersOfBattle/CatechismOfRepugnance" />
+                                        <addTrait name="SistersOfBattle/CatechismOfRepugnance" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -208,7 +208,7 @@
                 </target>
             </beginTargets>
         </catechismOfRepugnance>
-        <genericUnitAbility passive="1" name="SistersOfBattle/StirringRhetoric" rank="-1" rankMax="2">
+        <genericUnitAbility name="SistersOfBattle/StirringRhetoric" passive="1" rank="-1" rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -225,7 +225,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <warHymn cooldown="3" elite="1" name="SistersOfBattle/WarHymn" consumedMovement="0" consumedActionPoints="1" requiredActionPoints="1" levelUpPriority="1" rank="-1" rankMax="0">
+        <warHymn name="SistersOfBattle/WarHymn" consumedActionPoints="1" consumedMovement="0" cooldown="3" elite="1" levelUpPriority="1" rank="-1" rankMax="0" requiredActionPoints="1">
             <model>
                 <action animation="Units/SistersOfBattle/DialogusAbility" sound="Actions/WarHymn" />
             </model>
@@ -246,7 +246,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="2" name="SistersOfBattle/WarHymn" />
+                                        <addTrait name="SistersOfBattle/WarHymn" duration="2" />
                                     </effects>
                                 </modifier>
                             </modifiers>

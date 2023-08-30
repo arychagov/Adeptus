@@ -6,7 +6,7 @@
                 <action sound="Actions/Heal" />
             </model>
             <beginTargets>
-                <target rangeMax="1" lineOfSight="1">
+                <target lineOfSight="1" rangeMax="1">
                     <conditions>
                         <unit>
                             <allied />

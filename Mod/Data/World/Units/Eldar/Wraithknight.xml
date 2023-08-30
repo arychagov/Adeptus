@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement7">
     <model>
-        <unit mesh="Units/Eldar/Wraithknight" material="Units/Eldar/Wraithknight" idleAnimation="Units/Eldar/WraithknightIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1 1 1" explosionsBone="WraithKnight_Chest" walker="1" />
+        <unit explosionsBone="WraithKnight_Chest" idleAnimation="Units/Eldar/WraithknightIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Eldar/Wraithknight" mesh="Units/Eldar/Wraithknight" normalWeight="0.1" scale="1 1 1" walker="1" />
     </model>
     <weapons>
         <weapon name="Suncannon">
             <model>
-                <projectileWeapon muzzleBone="SuncannonMuzzle" effectScale="1.5" />
+                <projectileWeapon effectScale="1.5" muzzleBone="SuncannonMuzzle" />
             </model>
         </weapon>
         <weapon name="Starcannon" count="2" requiredUpgrade="Eldar/WraithknightStarcannon">
             <model>
-                <projectileWeapon mesh="Weapons/Eldar/WraithknightStarcannons" material="Units/Eldar/Wraithknight" bone="WraithKnight_Chest" muzzleBone="Muzzle" muzzleCount="2" cycleMuzzles="0" />
+                <projectileWeapon bone="WraithKnight_Chest" cycleMuzzles="0" material="Units/Eldar/Wraithknight" mesh="Weapons/Eldar/WraithknightStarcannons" muzzleBone="Muzzle" muzzleCount="2" />
             </model>
         </weapon>
-        <weapon name="Stomp" slotName="Stomp" enabled="0" />
+        <weapon name="Stomp" enabled="0" slotName="Stomp" />
     </weapons>
     <modifiers>
         <modifier visible="0">
@@ -116,7 +116,7 @@
                             <modifiers>
                                 <modifier requiredUpgrade="SpaceMarines/HammerOfWrath">
                                     <effects>
-                                        <addTrait duration="1" name="HammerOfWrath" />
+                                        <addTrait name="HammerOfWrath" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

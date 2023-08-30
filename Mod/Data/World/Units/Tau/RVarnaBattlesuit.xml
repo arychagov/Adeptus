@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement12">
     <model>
-        <unit mesh="Units/Tau/RVarnaBattlesuit" material="Units/Tau/RVarnaBattlesuit" idleAnimation="Units/Tau/RVarnaBattlesuitIdle" idleAnimationCount="3" idleContinuously="1" scale="1.5 1.5 1.5" explosionsBone="Body" walker="1" />
+        <unit explosionsBone="Body" idleAnimation="Units/Tau/RVarnaBattlesuitIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tau/RVarnaBattlesuit" mesh="Units/Tau/RVarnaBattlesuit" scale="1.5 1.5 1.5" walker="1" />
     </model>
     <weapons>
         <weapon name="PulseSubmunitionsCannon" count="2">
             <model>
-                <projectileWeapon muzzleBone="Muzzle" muzzleCount="2" fireInterval="10" cycleMuzzles="0" effectScale="3.0" />
+                <projectileWeapon cycleMuzzles="0" effectScale="3.0" fireInterval="10" muzzleBone="Muzzle" muzzleCount="2" />
             </model>
         </weapon>
     </weapons>
@@ -75,7 +75,7 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <novaShield consumedActionPoints="0" consumedMovement="0" cooldown="2" name="Tau/NovaShield">
+        <novaShield name="Tau/NovaShield" consumedActionPoints="0" consumedMovement="0" cooldown="2">
             <model>
                 <action sound="Actions/NovaShield" />
             </model>
@@ -101,7 +101,7 @@
                 <action name="Tau/NovaElectromagneticShockwave" />
             </sharedCooldowns>
         </novaShield>
-        <novaBoost consumedActionPoints="0" consumedMovement="0" cooldown="2" name="Tau/NovaBoost">
+        <novaBoost name="Tau/NovaBoost" consumedActionPoints="0" consumedMovement="0" cooldown="2">
             <model>
                 <action sound="Actions/NovaBoost" />
             </model>
@@ -127,7 +127,7 @@
                 <action name="Tau/NovaElectromagneticShockwave" />
             </sharedCooldowns>
         </novaBoost>
-        <novaFire consumedActionPoints="0" consumedMovement="0" cooldown="2" name="Tau/NovaFire">
+        <novaFire name="Tau/NovaFire" consumedActionPoints="0" consumedMovement="0" cooldown="2">
             <model>
                 <action sound="Actions/NovaFire" />
             </model>
@@ -153,7 +153,7 @@
                 <action name="Tau/NovaElectromagneticShockwave" />
             </sharedCooldowns>
         </novaFire>
-        <novaElectromagneticShockwave consumedActionPoints="0" consumedMovement="0" cooldown="2" name="Tau/NovaElectromagneticShockwave">
+        <novaElectromagneticShockwave name="Tau/NovaElectromagneticShockwave" consumedActionPoints="0" consumedMovement="0" cooldown="2">
             <model>
                 <action sound="Actions/NovaElectromagneticShockwave" />
             </model>
@@ -179,7 +179,7 @@
                 <action name="Tau/NovaShield" />
             </sharedCooldowns>
         </novaElectromagneticShockwave>
-        <deployShieldedMissileDrone cooldown="10" name="Tau/DeployDrone" requiredActionPoints="0" consumedActionPoints="0" consumedMovement="0" unitType="Tau/ShieldedMissileDrone">
+        <deployShieldedMissileDrone name="Tau/DeployDrone" consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0" unitType="Tau/ShieldedMissileDrone">
             <model>
                 <action animation="" sound="Actions/DeployDrone" />
             </model>
@@ -205,7 +205,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="3" name="Summon" />
+                                        <addTrait name="Summon" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>

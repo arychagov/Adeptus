@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/Neutral/Umbra" material="Units/Neutral/Umbra" scale="0.7 0.7 0.7" idleAnimation="Units/Neutral/UmbraIdle" idleAnimationCount="2" idleContinuously="1" normalWeight="0.1" position="0 0 48" bloodBone="BloodBone" portraitZoomModifier="0.5">
+        <unit bloodBone="BloodBone" idleAnimation="Units/Neutral/UmbraIdle" idleAnimationCount="2" idleContinuously="1" material="Units/Neutral/Umbra" mesh="Units/Neutral/Umbra" normalWeight="0.1" portraitZoomModifier="0.5" position="0 0 48" scale="0.7 0.7 0.7">
             <effects>
-                <effect blueprint="Effects/UmbraShadows" portraitRenderQueue="PortraitSimpleParticleSystems" position="0 0 42.9" renderQueue="SimpleParticleSystems" bone="BloodBone" />
+                <effect blueprint="Effects/UmbraShadows" bone="BloodBone" portraitRenderQueue="PortraitSimpleParticleSystems" position="0 0 42.9" renderQueue="SimpleParticleSystems" />
             </effects>
         </unit>
     </model>
     <weapons>
         <weapon name="Shadowlimbs">
             <model>
-                <beamWeapon muzzleBone="Muzzle" fireInterval="0.3" />
+                <beamWeapon fireInterval="0.3" muzzleBone="Muzzle" />
             </model>
         </weapon>
     </weapons>

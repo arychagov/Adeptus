@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement5" productionWeight="0.01">
     <model>
-        <unit mesh="Units/Tau/BuilderDrone" material="Units/Tau/BuilderDrone" idleAnimation="Units/Tau/BuilderDroneIdle" idleAnimationCount="3" idleContinuously="1" position="0 0 16" scale="1.0 1.0 1.0" explosionsBone="BloodBone" />
+        <unit explosionsBone="BloodBone" idleAnimation="Units/Tau/BuilderDroneIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tau/BuilderDrone" mesh="Units/Tau/BuilderDrone" position="0 0 16" scale="1.0 1.0 1.0" />
     </model>
-    <group size="3" rowSize="3" memberDeltaX="80" memberDeltaY="60" />
+    <group memberDeltaX="80" memberDeltaY="60" rowSize="3" size="3" />
     <weapons></weapons>
     <modifiers>
         <modifier visible="0">
@@ -40,7 +40,7 @@
         </attack>
         <die>
             <model>
-                <action animation="Units/Tau/BuilderDroneDie" animationCount="2" soundDelay="0" sound="Units/Tau/DroneDie" soundCount="1" />
+                <action animation="Units/Tau/BuilderDroneDie" animationCount="2" sound="Units/Tau/DroneDie" soundCount="1" soundDelay="0" />
             </model>
         </die>
         <idle>
@@ -66,7 +66,7 @@
                 </modifier>
             </modifiers>
         </foundCity>
-        <clearTileUnitAbility cooldown="1" icon="Actions/ClearTile" name="ClearTile">
+        <clearTileUnitAbility name="ClearTile" cooldown="1" icon="Actions/ClearTile">
             <model>
                 <action animation="" />
             </model>

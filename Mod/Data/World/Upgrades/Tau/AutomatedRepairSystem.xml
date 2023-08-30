@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="6" icon="Traits/Tau/AutomatedRepairSystem">
+<upgrade icon="Traits/Tau/AutomatedRepairSystem" position="6">
     <requiredUpgrades>
         <upgrade name="Tau/Vehicles" />
         <upgrade name="Tau/Aircraft" />

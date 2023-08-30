@@ -34,8 +34,8 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="Orks/Mek" />
-        <produceUnit unit="Orks/MekGun" requiredUpgrade="Orks/MekGun" />
-        <produceUnit unit="Orks/BigMek" requiredUpgrade="Orks/BigMek" />
+        <produceUnit requiredUpgrade="Orks/MekGun" unit="Orks/MekGun" />
+        <produceUnit requiredUpgrade="Orks/BigMek" unit="Orks/BigMek" />
     </actions>
     <traits>
         <trait name="Orks/BonusColonizersProduction" requiredUpgrade="Orks/BonusColonizersProduction" />

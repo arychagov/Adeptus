@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <explosiveWeapon explosionsBlueprint="Effects/BioPlasmaExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" effectScale="1.5" fireSound="Weapons/FloatingDeath" fireSoundCount="3" />
+        <explosiveWeapon effectScale="1.5" explosionsBlueprint="Effects/BioPlasmaExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" fireSound="Weapons/FloatingDeath" fireSoundCount="3" />
     </model>
     <modifiers>
         <modifier>

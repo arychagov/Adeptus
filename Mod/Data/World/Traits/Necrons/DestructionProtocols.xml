@@ -14,7 +14,7 @@
                 </unit>
             </conditions>
             <effects>
-                <damageTaken mulMin="0.1" mulMax="0.3" />
+                <damageTaken mulMax="0.3" mulMin="0.1" />
             </effects>
         </modifier>
     </modifiers>

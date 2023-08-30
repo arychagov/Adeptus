@@ -34,9 +34,9 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="Tau/FireWarrior" />
-        <produceUnit unit="Tau/Pathfinder" requiredUpgrade="Tau/Pathfinder" />
-        <produceUnit unit="Tau/KrootoxRider" requiredUpgrade="Tau/KrootoxRider" />
-        <produceUnit unit="Tau/CrisisBattlesuit" requiredUpgrade="Tau/CrisisBattlesuit" />
-        <produceUnit unit="Tau/StealthBattlesuit" requiredUpgrade="Tau/StealthBattlesuit" />
+        <produceUnit requiredUpgrade="Tau/Pathfinder" unit="Tau/Pathfinder" />
+        <produceUnit requiredUpgrade="Tau/KrootoxRider" unit="Tau/KrootoxRider" />
+        <produceUnit requiredUpgrade="Tau/CrisisBattlesuit" unit="Tau/CrisisBattlesuit" />
+        <produceUnit requiredUpgrade="Tau/StealthBattlesuit" unit="Tau/StealthBattlesuit" />
     </actions>
 </building>

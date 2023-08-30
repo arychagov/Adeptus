@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="9" visible="0" icon="Traits/CeramitePlating">
+<upgrade icon="Traits/CeramitePlating" position="9" visible="0">
     <requiredUpgrades>
         <upgrade name="SpaceMarines/Aircraft" />
     </requiredUpgrades>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement9">
     <model>
-        <unit mesh="Units/AdeptusMechanicus/SkorpiusDisintegrator" material="Units/AdeptusMechanicus/SkorpiusDisintegrator" idleAnimation="Units/AdeptusMechanicus/SkorpiusDisintegratorIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1.3 1.3 1.3" explosionsBone="Hull_Vibrate" />
+        <unit explosionsBone="Hull_Vibrate" idleAnimation="Units/AdeptusMechanicus/SkorpiusDisintegratorIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AdeptusMechanicus/SkorpiusDisintegrator" mesh="Units/AdeptusMechanicus/SkorpiusDisintegrator" normalWeight="0.1" scale="1.3 1.3 1.3" />
     </model>
     <weapons>
         <weapon name="FerrumiteCannon">
             <model>
-                <projectileWeapon muzzleBone="CannonMuzzle" fireInterval="0.4" />
+                <projectileWeapon fireInterval="0.4" muzzleBone="CannonMuzzle" />
             </model>
         </weapon>
         <weapon name="DisruptorMissileLauncher">
             <model>
-                <missileWeapon muzzleBone="Missile" muzzleCount="6" missileScale="0.4" fireInterval="1.74" />
+                <missileWeapon fireInterval="1.74" missileScale="0.4" muzzleBone="Missile" muzzleCount="6" />
             </model>
         </weapon>
-        <weapon name="None" requiredUpgrade="AdeptusMechanicus/BroadSpectrumDataTether" enabled="0">
+        <weapon name="None" enabled="0" requiredUpgrade="AdeptusMechanicus/BroadSpectrumDataTether">
             <model>
-                <weapon mesh="Weapons/AdeptusMechanicus/SkorpiusDisintegratorAntennas" material="Units/AdeptusMechanicus/SkorpiusDisintegrator" bone="Hull_Vibrate" />
+                <weapon bone="Hull_Vibrate" material="Units/AdeptusMechanicus/SkorpiusDisintegrator" mesh="Weapons/AdeptusMechanicus/SkorpiusDisintegratorAntennas" />
             </model>
         </weapon>
     </weapons>

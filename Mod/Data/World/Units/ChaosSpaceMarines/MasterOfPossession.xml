@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement3">
     <model>
-        <unit mesh="Units/ChaosSpaceMarines/MasterOfPossession" material="Units/ChaosSpaceMarines/MasterOfPossession" idleAnimation="Units/ChaosSpaceMarines/MasterOfPossessionIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.7 0.7 0.7" bloodBone="Bone001" walker="1" />
+        <unit bloodBone="Bone001" idleAnimation="Units/ChaosSpaceMarines/MasterOfPossessionIdle" idleAnimationCount="3" idleContinuously="1" material="Units/ChaosSpaceMarines/MasterOfPossession" mesh="Units/ChaosSpaceMarines/MasterOfPossession" normalWeight="0.1" scale="0.7 0.7 0.7" walker="1" />
     </model>
     <weapons>
         <weapon name="ForceStave">
             <model>
-                <powerWeapon effectBlueprint="Effects/ChaosForceWeapon" effectBoundingVolume="Staff" mesh="Weapons/ChaosSpaceMarines/MasterOfPossessionStick" material="Units/ChaosSpaceMarines/MasterOfPossession" bone="Bone003(mirrored)" fireInterval="1" />
+                <powerWeapon bone="Bone003(mirrored)" effectBlueprint="Effects/ChaosForceWeapon" effectBoundingVolume="Staff" fireInterval="1" material="Units/ChaosSpaceMarines/MasterOfPossession" mesh="Weapons/ChaosSpaceMarines/MasterOfPossessionStick" />
             </model>
         </weapon>
-        <weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
             <model>
                 <grenadeWeapon muzzleBone="Bone003(mirrored)" />
             </model>
         </weapon>
-        <weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
+        <weapon name="KrakGrenade" enabled="0" slotName="KrakGrenade">
             <model>
                 <grenadeWeapon muzzleBone="Bone003(mirrored)" />
             </model>
@@ -91,7 +91,7 @@
         </auraOfFear>
 
 
-        <boonOfMutation cooldownMin="4" cooldownMax="2" name="ChaosSpaceMarines/BoonOfMutation" rank="-1" rankMax="2">
+        <boonOfMutation name="ChaosSpaceMarines/BoonOfMutation" cooldownMax="2" cooldownMin="4" rank="-1" rankMax="2">
             <model>
                 <action animation="Units/ChaosSpaceMarines/MasterOfPossessionGrenade" sound="Actions/ChaosBuff" />
             </model>
@@ -118,7 +118,7 @@
                 </target>
             </beginTargets>
         </boonOfMutation>
-        <infernalPower cooldown="3" levelUpPriority="0.1" name="ChaosSpaceMarines/InfernalPower" rank="-1" rankMax="2" requiredActionPoints="0" consumedActionPoints="0" consumedMovement="0">
+        <infernalPower name="ChaosSpaceMarines/InfernalPower" consumedActionPoints="0" consumedMovement="0" cooldown="3" levelUpPriority="0.1" rank="-1" rankMax="2" requiredActionPoints="0">
             <model>
                 <action animation="Units/ChaosSpaceMarines/MasterOfPossessionAbility" sound="Actions/ChaosEliteBuff" />
             </model>
@@ -134,7 +134,7 @@
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait duration="1" name="ChaosSpaceMarines/InfernalPower" />
+                                        <addTrait name="ChaosSpaceMarines/InfernalPower" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -143,7 +143,7 @@
                 </selfTarget>
             </beginTargets>
         </infernalPower>
-        <genericUnitAbility cooldownMin="5" cooldownMax="3" disableable="1" name="ChaosSpaceMarines/Possession" passive="1" rank="-1" rankMax="2">
+        <genericUnitAbility name="ChaosSpaceMarines/Possession" cooldownMax="3" cooldownMin="5" disableable="1" passive="1" rank="-1" rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -160,7 +160,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <incursion cooldown="5" elite="1" levelUpPriority="1" name="ChaosSpaceMarines/Incursion" rank="-1" rankMax="0">
+        <incursion name="ChaosSpaceMarines/Incursion" cooldown="5" elite="1" levelUpPriority="1" rank="-1" rankMax="0">
             <model>
                 <action animation="Units/ChaosSpaceMarines/MasterOfPossessionAbility" sound="Actions/ChaosEliteDebuff" />
             </model>
@@ -200,7 +200,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="3" name="Summon" />
+                                        <addTrait name="Summon" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -209,7 +209,7 @@
                 </target>
             </beginTargets>
         </incursion>
-        <genericUnitAbility beginOnDisappear="1" cooldown="10" name="ChaosSpaceMarines/BlessedChampions" requiredUpgrade="ChaosSpaceMarines/BlessedChampions" icon="Buildings/ChaosSpaceMarines/Heroes" passive="1">
+        <genericUnitAbility name="ChaosSpaceMarines/BlessedChampions" beginOnDisappear="1" cooldown="10" icon="Buildings/ChaosSpaceMarines/Heroes" passive="1" requiredUpgrade="ChaosSpaceMarines/BlessedChampions">
             <model>
                 <action sound="Actions/ChaosBuff" />
             </model>

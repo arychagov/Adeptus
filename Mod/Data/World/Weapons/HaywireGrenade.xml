@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <grenadeWeapon fireSound="Weapons/GrenadeThrow" fireSoundCount="6" explosionSound="Explosions/HaywireGrenade" explosionSoundCount="1" explosionsBlueprint="Effects/EMPExplosions" explosionsEmitterBlueprint="Effects/EMPExplosionsEmitter" grenadeBlueprint="Weapons/Eldar/HaywireGrenade" effectScale="0.75" displaceExplosions="0" />
+        <grenadeWeapon displaceExplosions="0" effectScale="0.75" explosionSound="Explosions/HaywireGrenade" explosionSoundCount="1" explosionsBlueprint="Effects/EMPExplosions" explosionsEmitterBlueprint="Effects/EMPExplosionsEmitter" fireSound="Weapons/GrenadeThrow" fireSoundCount="6" grenadeBlueprint="Weapons/Eldar/HaywireGrenade" />
     </model>
     <modifiers>
         <modifier>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/SpaceMarines/StormtalonGunship" material="Units/SpaceMarines/StormtalonGunship" idleAnimation="Units/SpaceMarines/StormtalonGunshipIdle" idleAnimationCount="2" idleContinuously="1" position="0 0 64" scale="1.1 1.1 1.1" normalWeight="1.0" explosionsBone="Hull" uvAnimated="0" />
+        <unit explosionsBone="Hull" idleAnimation="Units/SpaceMarines/StormtalonGunshipIdle" idleAnimationCount="2" idleContinuously="1" material="Units/SpaceMarines/StormtalonGunship" mesh="Units/SpaceMarines/StormtalonGunship" normalWeight="1.0" position="0 0 64" scale="1.1 1.1 1.1" uvAnimated="0" />
     </model>
     <weapons>
         <weapon name="TwinLinkedAssaultCannon">
@@ -11,7 +11,7 @@
         </weapon>
         <weapon name="SkyhammerMissileLauncher">
             <model>
-                <missileWeapon muzzleBone=".SkyhammerMissileLauncher" muzzleCount="2" fireInterval="0.5" />
+                <missileWeapon fireInterval="0.5" muzzleBone=".SkyhammerMissileLauncher" muzzleCount="2" />
             </model>
         </weapon>
     </weapons>
@@ -55,7 +55,7 @@
                 <action sound="Units/SpaceMarines/StormtalonGunshipMove" soundCount="3" />
             </model>
         </move>
-        <jink consumedActionPoints="1" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+        <jink consumedActionPoints="1" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
@@ -71,7 +71,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Jink" />
+                                        <addTrait name="Jink" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -80,7 +80,7 @@
                 </selfTarget>
             </beginTargets>
         </jink>
-        <vectoredAfterburners consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+        <vectoredAfterburners consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
@@ -91,7 +91,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="VectoredAfterburners" />
+                                        <addTrait name="VectoredAfterburners" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

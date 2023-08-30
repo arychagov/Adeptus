@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement3">
     <model>
-        <unit mesh="Units/ChaosSpaceMarines/Venomcrawler" material="Units/ChaosSpaceMarines/Venomcrawler" idleAnimation="Units/ChaosSpaceMarines/VenomcrawlerIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1.2 1.2 1.2" explosionsBone="Bone001" walker="1" />
+        <unit explosionsBone="Bone001" idleAnimation="Units/ChaosSpaceMarines/VenomcrawlerIdle" idleAnimationCount="3" idleContinuously="1" material="Units/ChaosSpaceMarines/Venomcrawler" mesh="Units/ChaosSpaceMarines/Venomcrawler" normalWeight="0.1" scale="1.2 1.2 1.2" walker="1" />
     </model>
     <weapons>
         <weapon name="ExcruciatorCannon" count="2">
             <model>
-                <projectileWeapon muzzleBone=".Muzzle" muzzleCount="2" fireInterval="0.43" />
+                <projectileWeapon fireInterval="0.43" muzzleBone=".Muzzle" muzzleCount="2" />
             </model>
         </weapon>
         <weapon name="SoulflayerTendrils">
@@ -49,7 +49,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/ChaosSpaceMarines/VenomcrawlerAttack" beginFire="0.9" endFire="2.4" chargeAnimation="Units/ChaosSpaceMarines/VenomcrawlerCharge" chargeBeginFire="0.33" chargeEndFire="1.33" meleeAnimation="Units/ChaosSpaceMarines/VenomcrawlerMelee" meleeBeginSwing="0.56" meleeEndSwing="1" />
+                <action animation="Units/ChaosSpaceMarines/VenomcrawlerAttack" beginFire="0.9" chargeAnimation="Units/ChaosSpaceMarines/VenomcrawlerCharge" chargeBeginFire="0.33" chargeEndFire="1.33" endFire="2.4" meleeAnimation="Units/ChaosSpaceMarines/VenomcrawlerMelee" meleeBeginSwing="0.56" meleeEndSwing="1" />
             </model>
         </attack>
         <die>
@@ -116,7 +116,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <daemonforge consumedActionPoints="0" consumedMovement="0" cooldown="3" name="ChaosSpaceMarines/Daemonforge">
+        <daemonforge name="ChaosSpaceMarines/Daemonforge" consumedActionPoints="0" consumedMovement="0" cooldown="3">
             <model>
                 <action sound="Actions/ChaosBuff" />
             </model>

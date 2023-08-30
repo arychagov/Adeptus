@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement2">
     <model>
-        <unit mesh="Units/Tyranids/Trygon" material="Units/Tyranids/Trygon" idleAnimation="Units/Tyranids/TrygonIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1.2 1.2 1.2" bloodBone="BloodBone" walker="1" />
+        <unit bloodBone="BloodBone" idleAnimation="Units/Tyranids/TrygonIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tyranids/Trygon" mesh="Units/Tyranids/Trygon" normalWeight="0.1" scale="1.2 1.2 1.2" walker="1" />
     </model>
     <weapons>
         <weapon name="BioElectricPulse">
             <model>
-                <beamWeapon muzzleBone="BloodBone" fireInterval="0.2" />
+                <beamWeapon fireInterval="0.2" muzzleBone="BloodBone" />
             </model>
         </weapon>
         <weapon name="ScythingTalons" count="2">
@@ -48,7 +48,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/Tyranids/TrygonAttack" beginFire="0.35" endFire="2.5" chargeAnimation="Units/Tyranids/TrygonCharge" chargeBeginFire="0.333" chargeEndFire="1.167" meleeAnimation="Units/Tyranids/TrygonMelee" meleeBeginSwing="0.333" meleeEndSwing="0.666" />
+                <action animation="Units/Tyranids/TrygonAttack" beginFire="0.35" chargeAnimation="Units/Tyranids/TrygonCharge" chargeBeginFire="0.333" chargeEndFire="1.167" endFire="2.5" meleeAnimation="Units/Tyranids/TrygonMelee" meleeBeginSwing="0.333" meleeEndSwing="0.666" />
             </model>
         </attack>
         <die>
@@ -103,7 +103,7 @@
                 </selfTarget>
             </beginTargets>
         </hammerOfWrath>
-        <constructImperialStrongpoint cooldown="5" icon="Units/Tyranids/Tunnel" name="Tyranids/ConstructTunnel">
+        <constructImperialStrongpoint name="Tyranids/ConstructTunnel" cooldown="5" icon="Units/Tyranids/Tunnel">
             <model>
                 <action sound="Actions/TyranidsFoundCity" />
             </model>
@@ -141,7 +141,7 @@
                 </target>
             </beginTargets>
         </constructImperialStrongpoint>
-        <instinctiveBehaviourOverride consumedActionPoints="0" consumedMovement="0" cooldown="3" name="Tyranids/InstinctiveBehaviourOverride" requiredActionPoints="0">
+        <instinctiveBehaviourOverride name="Tyranids/InstinctiveBehaviourOverride" consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/HiveMindBuff" />
             </model>

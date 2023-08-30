@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <accuracy min="12" max="12" />
+                <accuracy max="12" min="12" />
                 <attacks add="1" />
                 <rangedArmorPenetration add="2" /> <!-- %rangedArmorPenetration add armorPiercing=4 -->
                 <rangedDamage add="2" /> <!-- %rangedDamage add strength=5 -->

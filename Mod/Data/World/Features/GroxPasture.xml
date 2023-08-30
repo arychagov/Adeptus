@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feature category="Resource">
     <model>
-        <animals blueprint="Features/GroxPasture" mesh="Features/Grox" material="Features/Grox" groundMaterial="Features/GroxPastureGround" />
+        <animals blueprint="Features/GroxPasture" groundMaterial="Features/GroxPastureGround" material="Features/Grox" mesh="Features/Grox" />
     </model>
     <areas>
         <area affects="Tile" radius="1">

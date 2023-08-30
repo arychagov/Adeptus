@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement6">
     <model>
-        <unit mesh="Units/ChaosSpaceMarines/ChaosLandRaider" material="Units/ChaosSpaceMarines/ChaosLandRaider" idleAnimation="Units/ChaosSpaceMarines/ChaosLandRaiderIdle" idleAnimationCount="3" idleContinuously="1" scale="1.7 1.7 1.7" explosionsBone="Hull" uvAnimated="1" />
+        <unit explosionsBone="Hull" idleAnimation="Units/ChaosSpaceMarines/ChaosLandRaiderIdle" idleAnimationCount="3" idleContinuously="1" material="Units/ChaosSpaceMarines/ChaosLandRaider" mesh="Units/ChaosSpaceMarines/ChaosLandRaider" scale="1.7 1.7 1.7" uvAnimated="1" />
     </model>
-    <group size="1" rowSize="2" memberDeltaX="100" memberDeltaY="110" />
+    <group memberDeltaX="100" memberDeltaY="110" rowSize="2" size="1" />
     <weapons>
         <weapon name="TwinLinkedLascannon" count="2">
             <model>
-                <beamWeapon muzzleBone=".LascannonMuzzle" muzzleCount="4" cycleMuzzles="0" fireInterval="0.4" effectFaceWeight="0" />
+                <beamWeapon cycleMuzzles="0" effectFaceWeight="0" fireInterval="0.4" muzzleBone=".LascannonMuzzle" muzzleCount="4" />
             </model>
         </weapon>
         <weapon name="TwinLinkedHeavyBolter">
             <model>
-                <projectileWeapon muzzleBone=".HeavyBolterMuzzle" muzzleCount="2" effectFaceWeight="0" />
+                <projectileWeapon effectFaceWeight="0" muzzleBone=".HeavyBolterMuzzle" muzzleCount="2" />
             </model>
         </weapon>
         <weapon name="HavocLauncher" requiredUpgrade="ChaosSpaceMarines/HavocLauncher">
             <model>
-                <missileWeapon bone="Hull" muzzleBone=".Muzzle" muzzleCount="6" missileScale="0.5" mesh="Weapons/ChaosSpaceMarines/ChaosLandRaiderHavocLauncher" material="Units/ChaosSpaceMarines/ChaosLandRaider" />
+                <missileWeapon bone="Hull" material="Units/ChaosSpaceMarines/ChaosLandRaider" mesh="Weapons/ChaosSpaceMarines/ChaosLandRaiderHavocLauncher" missileScale="0.5" muzzleBone=".Muzzle" muzzleCount="6" />
             </model>
         </weapon>
         <weapon name="DestroyerBlades">
@@ -52,7 +52,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/ChaosSpaceMarines/ChaosLandRaiderAttack" beginFire="0.9" endFire="2.08" chargeBeginFire="0.1" chargeEndFire="1.5" />
+                <action animation="Units/ChaosSpaceMarines/ChaosLandRaiderAttack" beginFire="0.9" chargeBeginFire="0.1" chargeEndFire="1.5" endFire="2.08" />
             </model>
         </attack>
         <die>
@@ -93,7 +93,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature duration="3" name="SmokeScreen" />
+                                        <addFeature name="SmokeScreen" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>

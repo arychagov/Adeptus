@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon fireSound="Weapons/SporeMineLauncher" fireSoundCount="3" muzzleFlashesBlueprint="Effects/SporeMineLauncherMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/SporeMineLauncherMuzzleFlashesEmitter" directionalMuzzleFlashesBlueprint="Effects/SporeMineLauncherDirectionalMuzzleFlashes" directionalMuzzleFlashesEmitterBlueprint="Effects/SporeMineLauncherDirectionalMuzzleFlashesEmitter" projectilesBlueprint="Effects/SporeMineLauncherProjectiles" projectilesEmitterBlueprint="Effects/SporeMineLauncherProjectilesEmitter" explosionsBlueprint="Effects/BioPlasmaExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" effectScale="1.5" />
+        <projectileWeapon directionalMuzzleFlashesBlueprint="Effects/SporeMineLauncherDirectionalMuzzleFlashes" directionalMuzzleFlashesEmitterBlueprint="Effects/SporeMineLauncherDirectionalMuzzleFlashesEmitter" effectScale="1.5" explosionsBlueprint="Effects/BioPlasmaExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" fireSound="Weapons/SporeMineLauncher" fireSoundCount="3" muzzleFlashesBlueprint="Effects/SporeMineLauncherMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/SporeMineLauncherMuzzleFlashesEmitter" projectilesBlueprint="Effects/SporeMineLauncherProjectiles" projectilesEmitterBlueprint="Effects/SporeMineLauncherProjectilesEmitter" />
     </model>
     <modifiers>
         <modifier>

@@ -36,7 +36,7 @@
             </modifiers>
         </rapidRise>
         <produceUnit unit="Necrons/NightScythe" />
-        <produceUnit unit="Necrons/DoomScythe" requiredUpgrade="Necrons/DoomScythe" />
+        <produceUnit requiredUpgrade="Necrons/DoomScythe" unit="Necrons/DoomScythe" />
     </actions>
     <traits>
         <trait name="Necrons/AircraftBuildingBonus" requiredUpgrade="Necrons/AircraftBuildingBonus" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="7" icon="Traits/Orks/CityPopulationLimit">
+<upgrade icon="Traits/Orks/CityPopulationLimit" position="7">
     <strategyModifiers>
         <modifier>
             <effects>

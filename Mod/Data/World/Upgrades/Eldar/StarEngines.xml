@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="10" icon="Traits/Eldar/StarEngines">
+<upgrade icon="Traits/Eldar/StarEngines" position="10">
     <requiredUpgrades>
         <upgrade name="Eldar/FirePrism" />
         <upgrade name="Eldar/Hornet" />

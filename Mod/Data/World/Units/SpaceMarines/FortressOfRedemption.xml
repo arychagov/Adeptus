@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <structureUnit mesh="Units/SpaceMarines/FortressOfRedemption" material="Units/SpaceMarines/FortressOfRedemption" groundMaterial="Units/SpaceMarines/FortressOfRedemptionGround" idleAnimation="" idleAnimationCount="0" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" scale="1.4 1.4 1.4" explosionsBone="Fortress" uvAnimated="0" />
+        <structureUnit explosionsBone="Fortress" groundMaterial="Units/SpaceMarines/FortressOfRedemptionGround" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" idleAnimation="" idleAnimationCount="0" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" material="Units/SpaceMarines/FortressOfRedemption" mesh="Units/SpaceMarines/FortressOfRedemption" scale="1.4 1.4 1.4" uvAnimated="0" />
     </model>
     <weapons>
         <weapon name="TwinLinkedLascannon" requiredUpgrade="SpaceMarines/PredatorLascannon">
             <model>
-                <beamWeapon mesh="Weapons/SpaceMarines/FortressOfRedemptionTurret" material="Weapons/SpaceMarines/FortressOfRedemptionTurret" bone="TurretAttachment" muzzleBone=".Muzzle" />
+                <beamWeapon bone="TurretAttachment" material="Weapons/SpaceMarines/FortressOfRedemptionTurret" mesh="Weapons/SpaceMarines/FortressOfRedemptionTurret" muzzleBone=".Muzzle" />
             </model>
         </weapon>
         <weapon name="KrakstormMissileSilo" requiredUpgrade="SpaceMarines/FortressOfRedemptionMissileSilo">
             <model>
-                <missileWeapon mesh="Weapons/SpaceMarines/FortressOfRedemptionSilo" material="Weapons/SpaceMarines/FortressOfRedemptionTurret" bone="SiloAttachment" muzzleBone=".Muzzle" fireInterval="0.75" missileScale="0.6" />
+                <missileWeapon bone="SiloAttachment" fireInterval="0.75" material="Weapons/SpaceMarines/FortressOfRedemptionTurret" mesh="Weapons/SpaceMarines/FortressOfRedemptionSilo" missileScale="0.6" muzzleBone=".Muzzle" />
             </model>
         </weapon>
         <weapon name="HeavyBolter" count="2">
             <model>
-                <projectileWeapon mesh="Weapons/SpaceMarines/FortressOfRedemptionHeavyBolters" material="Weapons/SpaceMarines/FortressOfRedemptionTurret" bone="BolterAttachment" muzzleBone=".Muzzle" muzzleCount="2" />
+                <projectileWeapon bone="BolterAttachment" material="Weapons/SpaceMarines/FortressOfRedemptionTurret" mesh="Weapons/SpaceMarines/FortressOfRedemptionHeavyBolters" muzzleBone=".Muzzle" muzzleCount="2" />
             </model>
         </weapon>
         <weapon name="HeavyBolter" count="1" requiredUpgrade="SpaceMarines/FortressOfRedemptionDamageReduction" />
@@ -37,7 +37,7 @@
                 <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
         </modifier>
-        <modifier visible="0" requiredUpgrade="SpaceMarines/FortressOfRedemptionDamageReduction">
+        <modifier requiredUpgrade="SpaceMarines/FortressOfRedemptionDamageReduction" visible="0">
             <effects>
                 <armor add="1" />
                 <hitpointsMax mul="0.2" />
@@ -60,7 +60,7 @@
                 <action sound="Actions/ArmourUp" />
             </model>
             <beginTargets>
-                <target rangeMin="1" rangeMax="2">
+                <target rangeMax="2" rangeMin="1">
                     <conditions>
                         <tile>
                             <noFeature name="FortressOfRedemption" />
@@ -71,7 +71,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature duration="3" name="BolsterDefences" />
+                                        <addFeature name="BolsterDefences" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>

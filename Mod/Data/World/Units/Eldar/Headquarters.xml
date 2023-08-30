@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement7" icon="Buildings/Eldar/Headquarters">
     <model>
-        <structureUnit mesh="Units/Eldar/Headquarters" material="Buildings/Eldar/Buildings" idleAnimationCount="0" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" explosionsBone="Portal" scale="1.2 1.2 1.2">
+        <structureUnit explosionsBone="Portal" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" idleAnimationCount="0" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" material="Buildings/Eldar/Buildings" mesh="Units/Eldar/Headquarters" scale="1.2 1.2 1.2">
             <effects>
-                <effect blueprint="Effects/WebwayGate" position="0.000000 0.000000 53.300999" rotation="0 0 1 -55" bone="Portal" />
+                <effect blueprint="Effects/WebwayGate" bone="Portal" position="0.000000 0.000000 53.300999" rotation="0 0 1 -55" />
             </effects>
         </structureUnit>
     </model>
     <weapons>
         <weapon name="DCannon" count="1">
             <model>
-                <projectileWeapon mesh="Weapons/Eldar/HeadquartersWeapons" material="Buildings/Eldar/Buildings" bone="Bone" muzzleBone="HeavyMuzzle" />
+                <projectileWeapon bone="Bone" material="Buildings/Eldar/Buildings" mesh="Weapons/Eldar/HeadquartersWeapons" muzzleBone="HeavyMuzzle" />
             </model>
         </weapon>
     </weapons>

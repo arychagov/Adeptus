@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <movementMax addMin="1" addMax="3" />
+                <movementMax addMax="3" addMin="1" />
             </effects>
         </modifier>
     </modifiers>

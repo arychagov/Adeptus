@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon explosionsBlueprint="Effects/LightExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" muzzleFlashesBlueprint="Effects/PhosphorMuzzleFlashes" directionalMuzzleFlashesBlueprint="" projectilesBlueprint="Effects/PhosphorProjectiles" projectilesEmitterBlueprint="Effects/PhosphorProjectilesEmitter" fireSound="Weapons/HeavyPhosphorBlaster" fireSoundCount="3" muzzleCount="2" />
+        <projectileWeapon directionalMuzzleFlashesBlueprint="" explosionsBlueprint="Effects/LightExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" fireSound="Weapons/HeavyPhosphorBlaster" fireSoundCount="3" muzzleCount="2" muzzleFlashesBlueprint="Effects/PhosphorMuzzleFlashes" projectilesBlueprint="Effects/PhosphorProjectiles" projectilesEmitterBlueprint="Effects/PhosphorProjectilesEmitter" />
     </model>
     <modifiers>
         <modifier>

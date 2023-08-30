@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feature category="Resource">
     <model>
-        <vegetation material="Features/RecafLeaf" depthMaterial="Features/RecafLeafDepth" />
+        <vegetation depthMaterial="Features/RecafLeafDepth" material="Features/RecafLeaf" />
     </model>
     <areas>
         <area affects="Tile" radius="1">
@@ -79,7 +79,7 @@
         </modifier>
     </modifiers>
     <vegetation>
-        <trees clusterSizeMin="10" clusterSizeMax="20" scaleMin="0.5" scaleMax="2.0">
+        <trees clusterSizeMax="20" clusterSizeMin="10" scaleMax="2.0" scaleMin="0.5">
             <meshes>
                 <mesh name="Terrain/Vegetation/RecafPlant0" />
                 <mesh name="Terrain/Vegetation/RecafPlant1" />

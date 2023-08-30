@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <missileWeapon fireSound="Weapons/Tentaclids" fireSoundCount="3" missileBlueprint="Weapons/Tentaclid" exhaustBlueprint="Effects/MissileSlimeExhaust" smokeBlueprint="Effects/MissileSlime" smokeEmitterBlueprint="Effects/MissileSlimeEmitter" effectFaceWeight="1" explosionsBlueprint="Effects/BioPlasmaExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" />
+        <missileWeapon effectFaceWeight="1" exhaustBlueprint="Effects/MissileSlimeExhaust" explosionsBlueprint="Effects/BioPlasmaExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" fireSound="Weapons/Tentaclids" fireSoundCount="3" missileBlueprint="Weapons/Tentaclid" smokeBlueprint="Effects/MissileSlime" smokeEmitterBlueprint="Effects/MissileSlimeEmitter" />
     </model>
     <modifiers>
         <modifier>

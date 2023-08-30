@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/Orks/Warboss" material="Units/Orks/Warboss" idleAnimation="Units/Orks/WarbossIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1 1 1" bloodBone="Torso" walker="1" />
+        <unit bloodBone="Torso" idleAnimation="Units/Orks/WarbossIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Orks/Warboss" mesh="Units/Orks/Warboss" normalWeight="0.1" scale="1 1 1" walker="1" />
     </model>
     <weapons>
         <weapon name="RokkitLauncha">
             <model>
-                <missileWeapon mesh="Weapons/Orks/WarbossKombiRokkitLauncha" material="Weapons/Orks/WarbossKombiRokkitLauncha" missileScale="0.8" muzzleBone=".Muzzle1" muzzleCount="1" bone="RightHand" fireInterval="0.4" />
+                <missileWeapon bone="RightHand" fireInterval="0.4" material="Weapons/Orks/WarbossKombiRokkitLauncha" mesh="Weapons/Orks/WarbossKombiRokkitLauncha" missileScale="0.8" muzzleBone=".Muzzle1" muzzleCount="1" />
             </model>
         </weapon>
         <weapon name="PowerKlaw" />
-        <weapon name="AttackSquig" slotName="AttackSquig" enabled="0">
+        <weapon name="AttackSquig" enabled="0" slotName="AttackSquig">
             <model>
-                <weapon mesh="Weapons/Orks/WarbossSquig" material="Weapons/Orks/WarbossSquig" animationSuffix="Squig" />
+                <weapon animationSuffix="Squig" material="Weapons/Orks/WarbossSquig" mesh="Weapons/Orks/WarbossSquig" />
             </model>
         </weapon>
-        <weapon name="Stikkbomb" slotName="Stikkbomb" enabled="0">
+        <weapon name="Stikkbomb" enabled="0" slotName="Stikkbomb">
             <model>
                 <grenadeWeapon muzzleBone="RightHand" />
             </model>
@@ -55,7 +55,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/Orks/WarbossAttack" beginFire="0.8" endFire="1.8" chargeAnimation="Units/Orks/WarbossCharge" chargeBeginFire="0.1" chargeEndFire="1.4" chargeDefenseAnimation="Units/Orks/WarbossChargeDefense" meleeAnimation="Units/Orks/WarbossMelee" meleeDefenseAnimation="Units/Orks/WarbossMeleeDefense" meleeBeginSwing="0.5" meleeEndSwing="1.0" />
+                <action animation="Units/Orks/WarbossAttack" beginFire="0.8" chargeAnimation="Units/Orks/WarbossCharge" chargeBeginFire="0.1" chargeDefenseAnimation="Units/Orks/WarbossChargeDefense" chargeEndFire="1.4" endFire="1.8" meleeAnimation="Units/Orks/WarbossMelee" meleeBeginSwing="0.5" meleeDefenseAnimation="Units/Orks/WarbossMeleeDefense" meleeEndSwing="1.0" />
             </model>
         </attack>
         <die>
@@ -84,7 +84,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="EreWeGo" />
+                                        <addTrait name="EreWeGo" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -97,12 +97,12 @@
             <modifiers>
                 <modifier>
                     <effects>
-                        <damage mulMin="-0.5" mulMax="0.5" />
+                        <damage mulMax="0.5" mulMin="-0.5" />
                     </effects>
                 </modifier>
             </modifiers>
         </attackSquig>
-        <bigBoss name="Orks/BigBoss" passive="1" rank="-1" rankMax="2" levelUpPriority="0.1">
+        <bigBoss name="Orks/BigBoss" levelUpPriority="0.1" passive="1" rank="-1" rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -119,7 +119,7 @@
                 </selfTarget>
             </beginTargets>
         </bigBoss>
-        <bustHeads cooldown="5" name="Orks/BustHeads" rank="-1" rankMax="2" requiredActionPoints="0" consumedActionPoints="0" consumedMovement="0">
+        <bustHeads name="Orks/BustHeads" consumedActionPoints="0" consumedMovement="0" cooldown="5" rank="-1" rankMax="2" requiredActionPoints="0">
             <model>
                 <action animation="Units/Orks/WarbossMelee" sound="Actions/OrksBuff" />
             </model>
@@ -136,7 +136,7 @@
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait duration="3" name="Orks/BustHeads" />
+                                        <addTrait name="Orks/BustHeads" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -145,7 +145,7 @@
                 </selfTarget>
             </beginTargets>
         </bustHeads>
-        <prophetOfTheWaaagh cooldown="10" elite="1" levelUpPriority="1" name="Orks/ProphetOfTheWaaagh" rank="-1" rankMax="0" requiredActionPoints="0" consumedActionPoints="0" consumedMovement="0"> <!-- growing waaagh icon (like skull debuff) -->
+        <prophetOfTheWaaagh name="Orks/ProphetOfTheWaaagh" consumedActionPoints="0" consumedMovement="0" cooldown="10" elite="1" levelUpPriority="1" rank="-1" rankMax="0" requiredActionPoints="0"> <!-- growing waaagh icon (like skull debuff) -->
             <model>
                 <action animation="Units/Orks/WarbossMelee" sound="Actions/OrksBuff" />
             </model>
@@ -162,7 +162,7 @@
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait duration="5" name="Orks/ProphetOfTheWaaagh" />
+                                        <addTrait name="Orks/ProphetOfTheWaaagh" duration="5" />
                                     </effects>
                                 </modifier>
                             </modifiers>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon fireInterval="0.33" fireSound="Weapons/QuadIonTurretOvercharged" fireSoundCount="3" muzzleFlashesBlueprint="Effects/IonMuzzleFlashes" beamsBlueprint="Effects/IonBeams" />
+        <beamWeapon beamsBlueprint="Effects/IonBeams" fireInterval="0.33" fireSound="Weapons/QuadIonTurretOvercharged" fireSoundCount="3" muzzleFlashesBlueprint="Effects/IonMuzzleFlashes" />
     </model>
     <modifiers>
         <modifier>

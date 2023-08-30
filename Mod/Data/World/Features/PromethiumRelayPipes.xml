@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feature category="Resource">
     <model>
-        <simpleModel mesh="Features/PromethiumRelayPipes" material="Features/PromethiumRelayPipes" groundFlow="1" groundMaterial="Features/PromethiumRelayPipesGround" />
+        <simpleModel groundFlow="1" groundMaterial="Features/PromethiumRelayPipesGround" material="Features/PromethiumRelayPipes" mesh="Features/PromethiumRelayPipes" />
     </model>
     <areas>
         <area affects="Tile" radius="1">

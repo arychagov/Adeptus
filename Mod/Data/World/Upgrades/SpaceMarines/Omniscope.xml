@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade dlc="Supplement8" position="9" icon="Actions/SpaceMarines/Omniscope">
+<upgrade dlc="Supplement8" icon="Actions/SpaceMarines/Omniscope" position="9">
     <strategyModifiers>
         <modifier>
             <effects>

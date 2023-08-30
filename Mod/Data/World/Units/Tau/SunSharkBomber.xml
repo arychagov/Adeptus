@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement5">
     <model>
-        <unit mesh="Units/Tau/SunSharkBomber" material="Units/Tau/SunSharkBomber" position="0 0 96" idleAnimation="Units/Tau/SunSharkBomberIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="1.0" scale="1.2 1.2 1.2" explosionsBone="Hull" />
+        <unit explosionsBone="Hull" idleAnimation="Units/Tau/SunSharkBomberIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tau/SunSharkBomber" mesh="Units/Tau/SunSharkBomber" normalWeight="1.0" position="0 0 96" scale="1.2 1.2 1.2" />
     </model>
     <weapons>
         <weapon name="TwinLinkedMissilePod">
             <model>
-                <missileWeapon muzzleBone=".Muzzle" fireInterval="0.7" missileScale="0.4" />
+                <missileWeapon fireInterval="0.7" missileScale="0.4" muzzleBone=".Muzzle" />
             </model>
         </weapon>
         <weapon name="SeekerMissile" count="2" enabled="0" slotName="SeekerMissile">
             <model>
-                <missileWeapon muzzleBone="SeekerMissileMuzzle" muzzleCount="2" missileScale="0.8" fireInterval="1.4" />
+                <missileWeapon fireInterval="1.4" missileScale="0.8" muzzleBone="SeekerMissileMuzzle" muzzleCount="2" />
             </model>
         </weapon>
-        <weapon name="PulseBomb" slotName="PulseBomb" enabled="0"></weapon>
+        <weapon name="PulseBomb" enabled="0" slotName="PulseBomb"></weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
@@ -56,7 +56,7 @@
                 <action sound="Units/Tau/FlyerMove" soundCount="1" />
             </model>
         </move>
-        <jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
@@ -72,7 +72,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Jink" />
+                                        <addTrait name="Jink" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -81,17 +81,17 @@
                 </selfTarget>
             </beginTargets>
         </jink>
-        <useWeapon cooldown="5" consumedActionPoints="0" requiredActionPoints="0" weaponSlotName="SeekerMissile">
+        <useWeapon consumedActionPoints="0" cooldown="5" requiredActionPoints="0" weaponSlotName="SeekerMissile">
             <model>
                 <action beginFire="1" endFire="2.2" />
             </model>
         </useWeapon>
-        <heavyBombClusters consumedActionPoints="0" requiredActionPoints="0" weaponSlotName="PulseBomb" cooldown="3">
+        <heavyBombClusters consumedActionPoints="0" cooldown="3" requiredActionPoints="0" weaponSlotName="PulseBomb">
             <model>
                 <action beginFire="1.4" endFire="1.9" />
             </model>
         </heavyBombClusters>
-        <deployInterceptorDrone cooldown="5" name="Tau/DeployDrone" requiredActionPoints="0" consumedActionPoints="0" consumedMovement="0" unitType="Tau/InterceptorDrone">
+        <deployInterceptorDrone name="Tau/DeployDrone" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0" unitType="Tau/InterceptorDrone">
             <model>
                 <action animation="" sound="Actions/DeployDrone" />
             </model>
@@ -117,7 +117,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="3" name="Summon" />
+                                        <addTrait name="Summon" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>

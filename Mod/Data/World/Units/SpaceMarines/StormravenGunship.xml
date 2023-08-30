@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/SpaceMarines/StormravenGunship" material="Units/SpaceMarines/StormravenGunship" idleAnimation="Units/SpaceMarines/StormravenGunshipIdle" idleAnimationCount="2" idleContinuously="1" position="0 0 64" scale="1.0 1.0 1.0" normalWeight="1.0" explosionsBone="Hull" uvAnimated="0" />
+        <unit explosionsBone="Hull" idleAnimation="Units/SpaceMarines/StormravenGunshipIdle" idleAnimationCount="2" idleContinuously="1" material="Units/SpaceMarines/StormravenGunship" mesh="Units/SpaceMarines/StormravenGunship" normalWeight="1.0" position="0 0 64" scale="1.0 1.0 1.0" uvAnimated="0" />
     </model>
     <weapons>
         <weapon name="TwinLinkedAssaultCannon">
@@ -16,12 +16,12 @@
         </weapon>
         <weapon name="TwinLinkedBoltgun" count="6" requiredUpgrade="SpaceMarines/HurricaneBolter">
             <model>
-                <projectileWeapon mesh="Weapons/SpaceMarines/StormravenGunshipHurricaneBolter" material="Weapons/SpaceMarines/StormravenGunshipHurricaneBolter" bone="Hull" muzzleBone=".BoltgunMuzzle" muzzleCount="12" />
+                <projectileWeapon bone="Hull" material="Weapons/SpaceMarines/StormravenGunshipHurricaneBolter" mesh="Weapons/SpaceMarines/StormravenGunshipHurricaneBolter" muzzleBone=".BoltgunMuzzle" muzzleCount="12" />
             </model>
         </weapon>
         <weapon name="StormstrikeMissile" slotName="StormstrikeMissile">
             <model>
-                <missileWeapon muzzleBone=".StormstrikeMissiles" muzzleCount="4" fireInterval="1.2" />
+                <missileWeapon fireInterval="1.2" muzzleBone=".StormstrikeMissiles" muzzleCount="4" />
             </model>
         </weapon>
     </weapons>
@@ -65,7 +65,7 @@
                 <action sound="Units/SpaceMarines/StormravenGunshipMove" soundCount="3" />
             </model>
         </move>
-        <jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
@@ -81,7 +81,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Jink" />
+                                        <addTrait name="Jink" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -90,7 +90,7 @@
                 </selfTarget>
             </beginTargets>
         </jink>
-        <powerOfTheMachineSpirit icon="Actions/PowerOfTheMachineSpirit" name="SpaceMarines/PowerOfTheMachineSpiritStormraven" consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="5">
+        <powerOfTheMachineSpirit name="SpaceMarines/PowerOfTheMachineSpiritStormraven" consumedActionPoints="0" consumedMovement="0" cooldown="5" icon="Actions/PowerOfTheMachineSpirit" requiredActionPoints="0">
             <model>
                 <action sound="Actions/MechanicalBuff" />
             </model>
@@ -101,7 +101,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="PowerOfTheMachineSpirit" />
+                                        <addTrait name="PowerOfTheMachineSpirit" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -116,7 +116,7 @@
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait duration="1" name="PowerOfTheMachineSpirit" />
+                                        <addTrait name="PowerOfTheMachineSpirit" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feature category="Brush">
     <model>
-        <vegetation material="Terrain/Vegetation" depthMaterial="Terrain/VegetationDepth" />
+        <vegetation depthMaterial="Terrain/VegetationDepth" material="Terrain/Vegetation" />
     </model>
     <modifiers>
         <modifier>
@@ -12,6 +12,6 @@
         </modifier>
     </modifiers>
     <vegetation>
-        <bushes clusterSizeMin="10" clusterSizeMax="20" scaleMin="0.5" scaleMax="1.5" />
+        <bushes clusterSizeMax="20" clusterSizeMin="10" scaleMax="1.5" scaleMin="0.5" />
     </vegetation>
 </feature>

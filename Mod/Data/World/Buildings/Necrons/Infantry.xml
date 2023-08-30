@@ -37,14 +37,14 @@
             </modifiers>
         </rapidRise>
         <produceUnit unit="Necrons/Warrior" />
-        <produceUnit unit="Necrons/FlayedOne" requiredUpgrade="Necrons/FlayedOne" />
-        <produceUnit unit="Necrons/Deathmark" requiredUpgrade="Necrons/Deathmark" />
-        <produceUnit unit="Necrons/Immortal" requiredUpgrade="Necrons/Immortal" />
-        <produceUnit unit="Necrons/CanoptekSpyder" requiredUpgrade="Necrons/CanoptekSpyder" />
-        <produceUnit unit="Necrons/CanoptekWraith" requiredUpgrade="Necrons/CanoptekWraith" />
-        <produceUnit unit="Necrons/HeavyDestroyer" requiredUpgrade="Necrons/HeavyDestroyer" />
-        <produceUnit unit="Necrons/TriarchPraetorian" requiredUpgrade="Necrons/TriarchPraetorian" />
-        <produceUnit unit="Necrons/TranscendentCtan" requiredUpgrade="Necrons/TranscendentCtan" />
+        <produceUnit requiredUpgrade="Necrons/FlayedOne" unit="Necrons/FlayedOne" />
+        <produceUnit requiredUpgrade="Necrons/Deathmark" unit="Necrons/Deathmark" />
+        <produceUnit requiredUpgrade="Necrons/Immortal" unit="Necrons/Immortal" />
+        <produceUnit requiredUpgrade="Necrons/CanoptekSpyder" unit="Necrons/CanoptekSpyder" />
+        <produceUnit requiredUpgrade="Necrons/CanoptekWraith" unit="Necrons/CanoptekWraith" />
+        <produceUnit requiredUpgrade="Necrons/HeavyDestroyer" unit="Necrons/HeavyDestroyer" />
+        <produceUnit requiredUpgrade="Necrons/TriarchPraetorian" unit="Necrons/TriarchPraetorian" />
+        <produceUnit requiredUpgrade="Necrons/TranscendentCtan" unit="Necrons/TranscendentCtan" />
     </actions>
     <traits>
         <trait name="Necrons/InfantryBuildingBonus" requiredUpgrade="Necrons/InfantryBuildingBonus" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="2" icon="Weapons/FragGrenade" visible="0">
+<upgrade icon="Weapons/FragGrenade" position="2" visible="0">
     <requiredUpgrades>
         <upgrade name="ChaosSpaceMarines/Heroes" />
         <upgrade name="ChaosSpaceMarines/Infantry" />

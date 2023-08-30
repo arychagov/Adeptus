@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="5" icon="Units/Necrons/TriarchStalker">
+<upgrade icon="Units/Necrons/TriarchStalker" position="5">
     <requiredUpgrades>
         <upgrade name="Necrons/Vehicles" />
     </requiredUpgrades>

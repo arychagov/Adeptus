@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement6">
     <model>
-        <unit mesh="Units/Tyranids/ScythedHierodule" material="Units/Tyranids/ScythedHierodule" scale="1.6 1.6 1.6" idleAnimation="Units/Tyranids/ScythedHieroduleIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" bloodBone="BloodBone" walker="1" />
+        <unit bloodBone="BloodBone" idleAnimation="Units/Tyranids/ScythedHieroduleIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tyranids/ScythedHierodule" mesh="Units/Tyranids/ScythedHierodule" normalWeight="0.1" scale="1.6 1.6 1.6" walker="1" />
     </model>
     <weapons>
         <weapon name="ScythingTalons" count="2">
@@ -14,7 +14,7 @@
                 <flamerWeapon muzzleBone="Muzzle" />
             </model>
         </weapon>
-        <weapon name="Stomp" slotName="Stomp" enabled="0" />
+        <weapon name="Stomp" enabled="0" slotName="Stomp" />
     </weapons>
     <modifiers>
         <modifier visible="0">
@@ -44,7 +44,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/Tyranids/ScythedHieroduleAttack" beginFire="1.2" endFire="1.67" chargeAnimation="Units/Tyranids/ScythedHieroduleCharge" chargeBeginFire="0.1" chargeEndFire="1.0" meleeAnimation="Units/Tyranids/ScythedHieroduleMelee" meleeBeginSwing="0.67" meleeEndSwing="1.5" />
+                <action animation="Units/Tyranids/ScythedHieroduleAttack" beginFire="1.2" chargeAnimation="Units/Tyranids/ScythedHieroduleCharge" chargeBeginFire="0.1" chargeEndFire="1.0" endFire="1.67" meleeAnimation="Units/Tyranids/ScythedHieroduleMelee" meleeBeginSwing="0.67" meleeEndSwing="1.5" />
             </model>
         </attack>
         <die>
@@ -74,7 +74,7 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <turboBoost name="Agile" consumedMovement="0" cooldown="3" consumedActionPoints="0" requiredActionPoints="1">
+        <turboBoost name="Agile" consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="1">
             <model>
                 <action sound="Actions/HiveMindBuff" />
             </model>
@@ -85,7 +85,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Agile" />
+                                        <addTrait name="Agile" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -115,7 +115,7 @@
                 </selfTarget>
             </beginTargets>
         </hammerOfWrath>
-        <instinctiveBehaviourOverride consumedActionPoints="0" consumedMovement="0" cooldown="3" name="Tyranids/InstinctiveBehaviourOverride" requiredActionPoints="0">
+        <instinctiveBehaviourOverride name="Tyranids/InstinctiveBehaviourOverride" consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/HiveMindBuff" />
             </model>

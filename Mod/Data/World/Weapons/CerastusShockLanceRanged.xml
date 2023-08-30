@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon fireSound="Weapons/CerastusShockLanceRanged" fireSoundCount="1" beamsBlueprint="Effects/MoltenBeam" muzzleFlashesBlueprint="Effects/LightMuzzleFlashes" />
+        <beamWeapon beamsBlueprint="Effects/MoltenBeam" fireSound="Weapons/CerastusShockLanceRanged" fireSoundCount="1" muzzleFlashesBlueprint="Effects/LightMuzzleFlashes" />
     </model>
     <modifiers>
         <modifier>

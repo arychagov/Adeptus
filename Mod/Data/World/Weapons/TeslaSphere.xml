@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon fireSound="Weapons/TeslaSphere" fireSoundCount="3" beamsBlueprint="Effects/TeslaArc" muzzleFlashesBlueprint="Effects/GaussMuzzleFlashes" />
+        <beamWeapon beamsBlueprint="Effects/TeslaArc" fireSound="Weapons/TeslaSphere" fireSoundCount="3" muzzleFlashesBlueprint="Effects/GaussMuzzleFlashes" />
     </model>
     <modifiers>
         <modifier>

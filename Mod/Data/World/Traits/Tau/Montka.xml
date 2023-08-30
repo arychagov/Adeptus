@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff" rankMax="2" icon="Actions/Tau/Montka">
+<trait alwaysVisible="1" category="Buff" icon="Actions/Tau/Montka" rankMax="2">
     <modifiers>
         <modifier>
             <conditions>
@@ -11,7 +11,7 @@
                 </encounter>
             </conditions>
             <effects>
-                <damage mulMin="0.25" mulMax="0.75" />
+                <damage mulMax="0.75" mulMin="0.25" />
             </effects>
         </modifier>
     </modifiers>

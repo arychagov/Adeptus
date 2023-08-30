@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement3">
     <model>
-        <unit mesh="Units/ChaosSpaceMarines/ChaosLord" material="Units/ChaosSpaceMarines/ChaosLord" idleAnimation="Units/ChaosSpaceMarines/ChaosLordIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.8 0.8 0.8" bloodBone="Bone001" walker="1" />
+        <unit bloodBone="Bone001" idleAnimation="Units/ChaosSpaceMarines/ChaosLordIdle" idleAnimationCount="3" idleContinuously="1" material="Units/ChaosSpaceMarines/ChaosLord" mesh="Units/ChaosSpaceMarines/ChaosLord" normalWeight="0.1" scale="0.8 0.8 0.8" walker="1" />
     </model>
     <weapons>
         <weapon name="ThunderHammer" slotName="ThunderHammer">
             <model>
-                <powerWeapon mesh="Weapons/ChaosSpaceMarines/ChaosLordHammer" material="Units/ChaosSpaceMarines/ChaosLord" bone="Bone007" fireInterval="1" effectBlueprint="Effects/ChaosPowerWeapon" effectBoundingVolume="Blade" effectBone="Bone018" />
+                <powerWeapon bone="Bone007" effectBlueprint="Effects/ChaosPowerWeapon" effectBone="Bone018" effectBoundingVolume="Blade" fireInterval="1" material="Units/ChaosSpaceMarines/ChaosLord" mesh="Weapons/ChaosSpaceMarines/ChaosLordHammer" />
             </model>
         </weapon>
         <weapon name="PlasmaPistol">
             <model>
-                <projectileWeapon mesh="Weapons/ChaosSpaceMarines/ChaosLordGun" material="Units/ChaosSpaceMarines/ChaosLord" bone="Bone007(mirrored)" muzzleBone=".Muzzle" fireInterval="0.35" />
+                <projectileWeapon bone="Bone007(mirrored)" fireInterval="0.35" material="Units/ChaosSpaceMarines/ChaosLord" mesh="Weapons/ChaosSpaceMarines/ChaosLordGun" muzzleBone=".Muzzle" />
             </model>
         </weapon>
-        <weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
             <model>
                 <grenadeWeapon muzzleBone="Bone007(mirrored)" />
             </model>
         </weapon>
-        <weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
+        <weapon name="KrakGrenade" enabled="0" slotName="KrakGrenade">
             <model>
                 <grenadeWeapon muzzleBone="Bone007(mirrored)" />
             </model>
         </weapon>
-        <weapon name="MeltaBomb" slotName="MeltaBomb" enabled="0">
+        <weapon name="MeltaBomb" enabled="0" slotName="MeltaBomb">
             <model>
                 <grenadeWeapon muzzleBone="Bone007(mirrored)" />
             </model>
@@ -64,7 +64,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/ChaosSpaceMarines/ChaosLordAttack" beginFire="1.3" endFire="2.2" chargeAnimation="Units/ChaosSpaceMarines/ChaosLordCharge" chargeBeginFire="0.33" chargeEndFire="1.33" meleeAnimation="Units/ChaosSpaceMarines/ChaosLordMelee" meleeBeginSwing="0.5" meleeEndSwing="0.67" />
+                <action animation="Units/ChaosSpaceMarines/ChaosLordAttack" beginFire="1.3" chargeAnimation="Units/ChaosSpaceMarines/ChaosLordCharge" chargeBeginFire="0.33" chargeEndFire="1.33" endFire="2.2" meleeAnimation="Units/ChaosSpaceMarines/ChaosLordMelee" meleeBeginSwing="0.5" meleeEndSwing="0.67" />
             </model>
         </attack>
         <die>
@@ -84,7 +84,7 @@
         </move>
 
 
-        <throwGrenade weaponSlotName="MeltaBomb" cooldown="10" requiredUpgrade="ChaosSpaceMarines/MeltaBomb">
+        <throwGrenade cooldown="10" requiredUpgrade="ChaosSpaceMarines/MeltaBomb" weaponSlotName="MeltaBomb">
             <model>
                 <action animation="Units/ChaosSpaceMarines/ChaosLordGrenade" beginFire="0.63" />
             </model>
@@ -127,7 +127,7 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1" excludeRadius="0">
+                        <area affects="Tile" excludeRadius="0" radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
@@ -140,11 +140,11 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <ichorBlood passive="1" name="ChaosSpaceMarines/IchorBlood" rank="-1" rankMax="2">
+        <ichorBlood name="ChaosSpaceMarines/IchorBlood" passive="1" rank="-1" rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1" excludeRadius="0">
+                        <area affects="Tile" excludeRadius="0" radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
@@ -157,9 +157,9 @@
                 </selfTarget>
             </beginTargets>
         </ichorBlood>
-        <genericUnitAbility name="ChaosSpaceMarines/DeathEcstasy" icon="Actions/ChaosSpaceMarines/IconOfVengeance" elite="1" cooldown="10" rank="-1" rankMax="0">
+        <genericUnitAbility name="ChaosSpaceMarines/DeathEcstasy" cooldown="10" elite="1" icon="Actions/ChaosSpaceMarines/IconOfVengeance" rank="-1" rankMax="0">
             <beginTargets>
-                <target rangeMax="1" excludeRadius="0">
+                <target excludeRadius="0" rangeMax="1">
                     <conditions>
                         <unit>
                             <allied />
@@ -193,7 +193,7 @@
                                 <modifier>
                                     <effects>
                                         <hitpointsFactorFromMax add="1.0" />
-                                        <addTrait duration="3" name="ChaosSpaceMarines/DeathEcstasy" />
+                                        <addTrait name="ChaosSpaceMarines/DeathEcstasy" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -202,7 +202,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility beginOnDisappear="1" cooldown="10" name="ChaosSpaceMarines/BlessedChampions" requiredUpgrade="ChaosSpaceMarines/BlessedChampions" icon="Buildings/ChaosSpaceMarines/Heroes" passive="1">
+        <genericUnitAbility name="ChaosSpaceMarines/BlessedChampions" beginOnDisappear="1" cooldown="10" icon="Buildings/ChaosSpaceMarines/Heroes" passive="1" requiredUpgrade="ChaosSpaceMarines/BlessedChampions">
             <model>
                 <action sound="Actions/ChaosBuff" />
             </model>

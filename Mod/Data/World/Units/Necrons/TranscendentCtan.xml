@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/Necrons/TranscendentCtan" material="Units/Necrons/TranscendentCtan" idleAnimation="Units/Necrons/TranscendentCtanIdle" idleAnimationCount="3" idleContinuously="1" scale="1.2 1.2 1.2" bloodBone="BloodBone" transparent="1" />
+        <unit bloodBone="BloodBone" idleAnimation="Units/Necrons/TranscendentCtanIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Necrons/TranscendentCtan" mesh="Units/Necrons/TranscendentCtan" scale="1.2 1.2 1.2" transparent="1" />
     </model>
     <weapons>
         <weapon name="CloseCombatWeapon">
@@ -9,13 +9,13 @@
                 <weapon fireInterval="1.0" fireSoundCount="0" />
             </model>
         </weapon>
-        <weapon name="TransdimensionalThunderboltTranscendent" slotName="TransdimensionalThunderboltTranscendent" enabled="0">
+        <weapon name="TransdimensionalThunderboltTranscendent" enabled="0" slotName="TransdimensionalThunderboltTranscendent">
             <model>
                 <beamWeapon muzzleBone="Bone121(mirrored)" />
             </model>
         </weapon>
-        <weapon name="SkyOfFallingStarsTranscendent" slotName="SkyOfFallingStarsTranscendent" enabled="0" />
-        <weapon name="SeismicAssaultTranscendent" slotName="SeismicAssaultTranscendent" enabled="0" />
+        <weapon name="SkyOfFallingStarsTranscendent" enabled="0" slotName="SkyOfFallingStarsTranscendent" />
+        <weapon name="SeismicAssaultTranscendent" enabled="0" slotName="SeismicAssaultTranscendent" />
     </weapons>
     <modifiers>
         <modifier visible="0">
@@ -46,12 +46,12 @@
     <actions>
         <attack>
             <model>
-                <action chargeAnimation="Units/Necrons/TranscendentCtanCharge" chargeDefenseAnimation="Units/Necrons/TranscendentCtanChargeDefense" meleeAnimation="Units/Necrons/TranscendentCtanMelee" meleeDefenseAnimation="Units/Necrons/TranscendentCtanMeleeDefense" meleeBeginSwing="0.5" meleeEndSwing="1.0" meleeSound="Units/Necrons/TranscendentCtanAttack" meleeSoundCount="2" />
+                <action chargeAnimation="Units/Necrons/TranscendentCtanCharge" chargeDefenseAnimation="Units/Necrons/TranscendentCtanChargeDefense" meleeAnimation="Units/Necrons/TranscendentCtanMelee" meleeBeginSwing="0.5" meleeDefenseAnimation="Units/Necrons/TranscendentCtanMeleeDefense" meleeEndSwing="1.0" meleeSound="Units/Necrons/TranscendentCtanAttack" meleeSoundCount="2" />
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Necrons/TranscendentCtanDie" voiceSound="Units/Necrons/TranscendentCtanDie" voiceSoundCount="2" soundDelay="0.7" />
+                <action animation="Units/Necrons/TranscendentCtanDie" soundDelay="0.7" voiceSound="Units/Necrons/TranscendentCtanDie" voiceSoundCount="2" />
             </model>
         </die>
         <idle>
@@ -64,7 +64,7 @@
                 <action sound="Units/Necrons/TranscendentCtanMove" soundCount="3" />
             </model>
         </move>
-        <necrodermisRepair consumedActionPoints="0" consumedMovement="0" cooldown="1" name="Necrons/NecrodermisRepair" requiredActionPoints="0">
+        <necrodermisRepair name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
             <model>
                 <action sound="Actions/Heal" />
             </model>
@@ -127,7 +127,7 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1" excludeRadius="0">
+                        <area affects="Tile" excludeRadius="0" radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
@@ -160,17 +160,17 @@
                 </selfTarget>
             </beginTargets>
         </hammerOfWrath>
-        <transdimensionalThunderbolt weaponSlotName="TransdimensionalThunderboltTranscendent" cooldown="3">
+        <transdimensionalThunderbolt cooldown="3" weaponSlotName="TransdimensionalThunderboltTranscendent">
             <model>
                 <action animation="Units/Necrons/TranscendentCtanAbility0" beginFire="0.5" endFire="2.7" />
             </model>
         </transdimensionalThunderbolt>
-        <skyOfFallingStars weaponSlotName="SkyOfFallingStarsTranscendent" cooldown="3">
+        <skyOfFallingStars cooldown="3" weaponSlotName="SkyOfFallingStarsTranscendent">
             <model>
                 <action animation="Units/Necrons/TranscendentCtanAbility1" sound="Actions/SkyOfFallingStars" />
             </model>
         </skyOfFallingStars>
-        <seismicAssault weaponSlotName="SeismicAssaultTranscendent" cooldown="3" requiredUpgrade="Necrons/SeismicAssault">
+        <seismicAssault cooldown="3" requiredUpgrade="Necrons/SeismicAssault" weaponSlotName="SeismicAssaultTranscendent">
             <model>
                 <action animation="Units/Necrons/TranscendentCtanAbility1" sound="Actions/SeismicAssault" />
             </model>

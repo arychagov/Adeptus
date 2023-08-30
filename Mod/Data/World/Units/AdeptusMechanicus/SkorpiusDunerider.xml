@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement9">
     <model>
-        <unit mesh="Units/AdeptusMechanicus/SkorpiusDunerider" material="Units/AdeptusMechanicus/SkorpiusDunerider" idleAnimation="Units/AdeptusMechanicus/SkorpiusDuneriderIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1.0 1.0 1.0" explosionsBone="Hull_Vibrate" />
+        <unit explosionsBone="Hull_Vibrate" idleAnimation="Units/AdeptusMechanicus/SkorpiusDuneriderIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AdeptusMechanicus/SkorpiusDunerider" mesh="Units/AdeptusMechanicus/SkorpiusDunerider" normalWeight="0.1" scale="1.0 1.0 1.0" />
     </model>
-    <group size="1" rowSize="2" memberDeltaX="64" memberDeltaY="110" />
+    <group memberDeltaX="64" memberDeltaY="110" rowSize="2" size="1" />
     <weapons>
         <weapon name="TwinLinkedCognisHeavyStubber">
             <model>
@@ -12,12 +12,12 @@
         </weapon>
         <weapon name="CognisHeavyStubber" count="2">
             <model>
-                <projectileWeapon muzzleBone="StubberMuzzle" muzzleCount="2" effectFaceWeight="0" />
+                <projectileWeapon effectFaceWeight="0" muzzleBone="StubberMuzzle" muzzleCount="2" />
             </model>
         </weapon>
-        <weapon name="None" requiredUpgrade="AdeptusMechanicus/BroadSpectrumDataTether" enabled="0">
+        <weapon name="None" enabled="0" requiredUpgrade="AdeptusMechanicus/BroadSpectrumDataTether">
             <model>
-                <weapon mesh="Weapons/AdeptusMechanicus/SkorpiusDuneriderAntennas" material="Units/AdeptusMechanicus/SkorpiusDunerider" bone="Hull_Vibrate" />
+                <weapon bone="Hull_Vibrate" material="Units/AdeptusMechanicus/SkorpiusDunerider" mesh="Weapons/AdeptusMechanicus/SkorpiusDuneriderAntennas" />
             </model>
         </weapon>
     </weapons>

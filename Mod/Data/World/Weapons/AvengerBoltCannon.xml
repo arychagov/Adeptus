@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon fireSound="Weapons/AvengerBoltCannon" fireSoundCount="3" fireInterval="0.1" effectScale="1.5" />
+        <projectileWeapon effectScale="1.5" fireInterval="0.1" fireSound="Weapons/AvengerBoltCannon" fireSoundCount="3" />
     </model>
     <modifiers>
         <modifier>

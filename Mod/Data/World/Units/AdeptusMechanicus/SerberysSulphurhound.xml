@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement9">
     <model>
-        <unit mesh="Units/AdeptusMechanicus/SerberysSulphurhound" material="Units/AdeptusMechanicus/SerberysSulphurhound" idleAnimation="Units/AdeptusMechanicus/SerberysSulphurhoundIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.9 0.9 0.9" explosionsBone="Chest" walker="1" />
+        <unit explosionsBone="Chest" idleAnimation="Units/AdeptusMechanicus/SerberysSulphurhoundIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AdeptusMechanicus/SerberysSulphurhound" mesh="Units/AdeptusMechanicus/SerberysSulphurhound" normalWeight="0.1" scale="0.9 0.9 0.9" walker="1" />
     </model>
-    <group size="2" rowSize="2" memberDeltaX="80" memberDeltaY="80" />
+    <group memberDeltaX="80" memberDeltaY="80" rowSize="2" size="2" />
     <weapons>
         <weapon name="ClawedLimbs">
             <model>
@@ -12,7 +12,7 @@
         </weapon>
         <weapon name="PhosphorPistol" count="2">
             <model>
-                <projectileWeapon muzzleBone="Muzzle" muzzleCount="2" fireInterval="0.4" />
+                <projectileWeapon fireInterval="0.4" muzzleBone="Muzzle" muzzleCount="2" />
             </model>
         </weapon>
         <weapon name="SulphurBreath">
@@ -50,7 +50,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/AdeptusMechanicus/SerberysSulphurhoundAttack" beginFire="1.0" endFire="1.9" chargeAnimation="Units/AdeptusMechanicus/SerberysSulphurhoundCharge" chargeBeginFire="0.6" chargeEndFire="1.3" meleeAnimation="Units/AdeptusMechanicus/SerberysSulphurhoundMelee" meleeBeginSwing="0.3" meleeEndSwing="0.6" />
+                <action animation="Units/AdeptusMechanicus/SerberysSulphurhoundAttack" beginFire="1.0" chargeAnimation="Units/AdeptusMechanicus/SerberysSulphurhoundCharge" chargeBeginFire="0.6" chargeEndFire="1.3" endFire="1.9" meleeAnimation="Units/AdeptusMechanicus/SerberysSulphurhoundMelee" meleeBeginSwing="0.3" meleeEndSwing="0.6" />
             </model>
         </attack>
         <die>

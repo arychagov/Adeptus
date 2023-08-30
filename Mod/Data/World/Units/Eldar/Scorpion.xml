@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement7">
     <model>
-        <unit mesh="Units/Eldar/Scorpion" material="Units/Eldar/Scorpion" idleAnimation="Units/Eldar/ScorpionIdle" idleAnimationCount="3" idleContinuously="1" position="0 0 30" scale="1.2 1.2 1.2" explosionsBone="BloodBone" />
+        <unit explosionsBone="BloodBone" idleAnimation="Units/Eldar/ScorpionIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Eldar/Scorpion" mesh="Units/Eldar/Scorpion" position="0 0 30" scale="1.2 1.2 1.2" />
     </model>
     <weapons>
         <weapon name="TwinLinkedPulsar">
             <model>
-                <beamWeapon muzzleBone="Muzzle" muzzleCount="2" fireInterval="0.5" />
+                <beamWeapon fireInterval="0.5" muzzleBone="Muzzle" muzzleCount="2" />
             </model>
         </weapon>
         <weapon name="ShurikenCannon">
@@ -92,7 +92,7 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <vectoredEngines consumedActionPoints="0" consumedMovement="0" cooldown="5" name="Eldar/VectoredEngines" requiredActionPoints="0" requiredUpgrade="Eldar/VectoredEngines">
+        <vectoredEngines name="Eldar/VectoredEngines" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0" requiredUpgrade="Eldar/VectoredEngines">
             <model>
                 <action sound="Actions/VectoredEngines" />
             </model>
@@ -103,7 +103,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Eldar/VectoredEngines" />
+                                        <addTrait name="Eldar/VectoredEngines" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

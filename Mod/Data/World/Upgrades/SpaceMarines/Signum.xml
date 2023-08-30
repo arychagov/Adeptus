@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="4" icon="Actions/Signum" visible="0">
+<upgrade icon="Actions/Signum" position="4" visible="0">
     <requiredUpgrades>
         <upgrade name="SpaceMarines/KillTeamEliminators" />
     </requiredUpgrades>

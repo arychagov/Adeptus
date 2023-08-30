@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff" rankMax="2" icon="Actions/Tau/Rinyon">
+<trait alwaysVisible="1" category="Buff" icon="Actions/Tau/Rinyon" rankMax="2">
     <modifiers>
         <modifier>
             <conditions>
                 <supportingFire />
             </conditions>
             <effects>
-                <accuracy mulMin="0.1" mulMax="0.3" />
+                <accuracy mulMax="0.3" mulMin="0.1" />
             </effects>
         </modifier>
     </modifiers>

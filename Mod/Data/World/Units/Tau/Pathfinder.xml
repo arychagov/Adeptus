@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement5">
     <model>
-        <unit mesh="Units/Tau/Pathfinder" material="Units/Tau/Pathfinder" idleAnimation="Units/Tau/PathfinderIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1 1 1" bloodBone="BloodBone" walker="1" />
+        <unit bloodBone="BloodBone" idleAnimation="Units/Tau/PathfinderIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tau/Pathfinder" mesh="Units/Tau/Pathfinder" normalWeight="0.1" scale="1 1 1" walker="1" />
     </model>
-    <group size="3" rowSize="3" memberDeltaX="70" memberDeltaY="70" />
+    <group memberDeltaX="70" memberDeltaY="70" rowSize="3" size="3" />
     <weapons>
         <weapon name="IonRifleStandard" slotName="IonRifleStandard">
             <model>
-                <beamWeapon muzzleBone=".Muzzle" fireInterval="0.5" />
+                <beamWeapon fireInterval="0.5" muzzleBone=".Muzzle" />
             </model>
         </weapon>
-        <weapon name="IonRifleOvercharged" slotName="IonRifleOvercharged" enabled="0">
+        <weapon name="IonRifleOvercharged" enabled="0" slotName="IonRifleOvercharged">
             <model>
-                <beamWeapon muzzleBone=".Muzzle" fireInterval="0.5" />
+                <beamWeapon fireInterval="0.5" muzzleBone=".Muzzle" />
             </model>
         </weapon>
-        <weapon name="PhotonGrenade" slotName="PhotonGrenade" enabled="0">
+        <weapon name="PhotonGrenade" enabled="0" slotName="PhotonGrenade">
             <model>
                 <grenadeWeapon muzzleBone="Bone.004.R" />
             </model>
         </weapon>
-        <weapon name="EMPGrenade" slotName="EMPGrenade" enabled="0">
+        <weapon name="EMPGrenade" enabled="0" slotName="EMPGrenade">
             <model>
                 <grenadeWeapon muzzleBone="Bone.004.R" />
             </model>
@@ -74,22 +74,22 @@
             </model>
         </move>
         <cycleWeapon interfaceSound="Interface/CycleWeapon" weaponSlotNames="IonRifleStandard IonRifleOvercharged" />
-        <throwGrenade weaponSlotName="PhotonGrenade" cooldown="10" requiredUpgrade="Tau/PhotonGrenade">
+        <throwGrenade cooldown="10" requiredUpgrade="Tau/PhotonGrenade" weaponSlotName="PhotonGrenade">
             <model>
                 <action animation="Units/Tau/PathfinderGrenade" beginFire="1.8" />
             </model>
         </throwGrenade>
-        <throwGrenade weaponSlotName="EMPGrenade" cooldown="10" requiredUpgrade="Tau/EMPGrenade">
+        <throwGrenade cooldown="10" requiredUpgrade="Tau/EMPGrenade" weaponSlotName="EMPGrenade">
             <model>
                 <action animation="Units/Tau/PathfinderGrenade" beginFire="1.8" />
             </model>
         </throwGrenade>
-        <markerlight cooldown="1" name="Tau/Markerlight" requiredActionPoints="0" consumedActionPoints="0" requiredMovement="1">
+        <markerlight name="Tau/Markerlight" consumedActionPoints="0" cooldown="1" requiredActionPoints="0" requiredMovement="1">
             <model>
                 <action animation="" sound="Actions/Markerlight" />
             </model>
             <beginTargets>
-                <target rangeMax="2" lineOfSight="1">
+                <target lineOfSight="1" rangeMax="2">
                     <conditions>
                         <unit>
                             <enemy />
@@ -102,7 +102,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Tau/TargetAcquired" />
+                                        <addTrait name="Tau/TargetAcquired" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -111,12 +111,12 @@
                 </target>
             </beginTargets>
         </markerlight>
-        <deployReconDrone cooldown="10" name="Tau/DeployDrone" requiredActionPoints="0" consumedActionPoints="0" consumedMovement="0" unitType="Tau/ReconDrone">
+        <deployReconDrone name="Tau/DeployDrone" consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0" unitType="Tau/ReconDrone">
             <model>
                 <action animation="" sound="Actions/DeployDrone" />
             </model>
             <modifiers>
-                <modifier visible="0" requiredUpgrade="Tau/DroneController">
+                <modifier requiredUpgrade="Tau/DroneController" visible="0">
                     <effects>
                         <cooldown add="-5" />
                     </effects>
@@ -144,7 +144,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="3" name="Summon" />
+                                        <addTrait name="Summon" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -156,12 +156,12 @@
                 <action name="Tau/DeployDrone/Tau/GravInhibitorDrone" />
             </sharedCooldowns>
         </deployReconDrone>
-        <deployGravInhibitorDrone cooldown="10" name="Tau/DeployDrone" requiredActionPoints="0" consumedActionPoints="0" consumedMovement="0" unitType="Tau/GravInhibitorDrone">
+        <deployGravInhibitorDrone name="Tau/DeployDrone" consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0" unitType="Tau/GravInhibitorDrone">
             <model>
                 <action animation="" sound="Actions/DeployDrone" />
             </model>
             <modifiers>
-                <modifier visible="0" requiredUpgrade="Tau/DroneController">
+                <modifier requiredUpgrade="Tau/DroneController" visible="0">
                     <effects>
                         <cooldown add="-5" />
                     </effects>
@@ -189,7 +189,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="3" name="Summon" />
+                                        <addTrait name="Summon" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>

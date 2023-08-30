@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="4" icon="Weapons/TankbustaBomb">
+<upgrade icon="Weapons/TankbustaBomb" position="4">
     <requiredUpgrades>
         <upgrade name="Orks/Tankbusta" />
     </requiredUpgrades>

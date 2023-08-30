@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade dlc="Supplement8" visible="0" position="1" icon="Actions/CleansingFlame">
+<upgrade dlc="Supplement8" icon="Actions/CleansingFlame" position="1" visible="0">
     <requiredUpgrades>
         <upgrade name="Eldar/Warlock" />
     </requiredUpgrades>

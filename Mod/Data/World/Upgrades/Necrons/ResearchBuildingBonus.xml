@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="2" icon="Traits/Necrons/ResearchBuildingBonus">
+<upgrade icon="Traits/Necrons/ResearchBuildingBonus" position="2">
     <strategyModifiers>
         <modifier>
             <effects>

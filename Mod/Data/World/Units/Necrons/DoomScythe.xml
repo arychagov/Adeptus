@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/Necrons/Scythe" material="Units/Necrons/Scythe" idleAnimation="Units/Necrons/ScytheIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="1.0" position="0 0 64" scale="1 1 1" explosionsBone="Hull" />
+        <unit explosionsBone="Hull" idleAnimation="Units/Necrons/ScytheIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Necrons/Scythe" mesh="Units/Necrons/Scythe" normalWeight="1.0" position="0 0 64" scale="1 1 1" />
     </model>
     <weapons>
         <weapon name="DeathRay">
             <model>
-                <beamWeapon mesh="Weapons/Necrons/DoomScytheGun" material="Weapons/Necrons/DoomScytheGun" bone="Hull" muzzleBone=".Muzzle" />
+                <beamWeapon bone="Hull" material="Weapons/Necrons/DoomScytheGun" mesh="Weapons/Necrons/DoomScytheGun" muzzleBone=".Muzzle" />
             </model>
         </weapon>
         <weapon name="TwinLinkedTeslaDestructor">
@@ -58,7 +58,7 @@
                 <action sound="Units/Necrons/ScytheMove" soundCount="3" />
             </model>
         </move>
-        <necrodermisRepair consumedActionPoints="0" consumedMovement="0" cooldown="1" name="Necrons/NecrodermisRepair" requiredActionPoints="0">
+        <necrodermisRepair name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
             <model>
                 <action sound="Actions/Heal" />
             </model>
@@ -100,7 +100,7 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
@@ -116,7 +116,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Jink" />
+                                        <addTrait name="Jink" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -136,7 +136,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Supersonic" />
+                                        <addTrait name="Supersonic" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <hitpointsMax mulMin="0.2" mulMax="0.6" />
+                <hitpointsMax mulMax="0.6" mulMin="0.2" />
             </effects>
         </modifier>
     </modifiers>

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement12">
     <model>
-        <unit mesh="Units/SpaceMarines/Whirlwind" material="Units/SpaceMarines/Whirlwind" idleAnimation="Units/SpaceMarines/WhirlwindIdle" idleAnimationCount="3" idleContinuously="1" scale="1 1 1" explosionsBone="Hull_Shake" uvAnimated="1" />
+        <unit explosionsBone="Hull_Shake" idleAnimation="Units/SpaceMarines/WhirlwindIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SpaceMarines/Whirlwind" mesh="Units/SpaceMarines/Whirlwind" scale="1 1 1" uvAnimated="1" />
     </model>
     <weapons>
         <weapon name="WhirlwindMultipleMissileLauncherVengeance" slotName="WhirlwindMultipleMissileLauncherVengeance">
             <model>
-                <missileWeapon muzzleBone="Missile" muzzleCount="4" fireInterval="1.14" />
+                <missileWeapon fireInterval="1.14" muzzleBone="Missile" muzzleCount="4" />
             </model>
         </weapon>
-        <weapon name="WhirlwindMultipleMissileLauncherIncendiaryCastellan" slotName="WhirlwindMultipleMissileLauncherIncendiaryCastellan" enabled="0">
+        <weapon name="WhirlwindMultipleMissileLauncherIncendiaryCastellan" enabled="0" slotName="WhirlwindMultipleMissileLauncherIncendiaryCastellan">
             <model>
-                <missileWeapon muzzleBone="Missile" muzzleCount="4" fireInterval="1.14" />
+                <missileWeapon fireInterval="1.14" muzzleBone="Missile" muzzleCount="4" />
             </model>
         </weapon>
-        <weapon name="HunterKillerMissile" slotName="HunterKillerMissile" enabled="0">
+        <weapon name="HunterKillerMissile" enabled="0" slotName="HunterKillerMissile">
             <model>
-                <missileWeapon muzzleBone="Hull_Shake" fireInterval="5.0" />
+                <missileWeapon fireInterval="5.0" muzzleBone="Hull_Shake" />
             </model>
         </weapon>
         <weapon name="None" enabled="0" requiredUpgrade="SpaceMarines/SmokeLauncher">
             <model>
-                <weapon mesh="Weapons/SpaceMarines/WhirlwindSmokeLauncher" material="Units/SpaceMarines/Whirlwind" bone="Hull_Shake" />
+                <weapon bone="Hull_Shake" material="Units/SpaceMarines/Whirlwind" mesh="Weapons/SpaceMarines/WhirlwindSmokeLauncher" />
             </model>
         </weapon>
     </weapons>
@@ -75,7 +75,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature duration="3" name="SmokeScreen" />
+                                        <addFeature name="SmokeScreen" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -84,7 +84,7 @@
                 </selfTarget>
             </beginTargets>
         </createSmokeScreen>
-        <useWeapon weaponSlotName="HunterKillerMissile" cooldown="10" requiredUpgrade="SpaceMarines/HunterKillerMissile">
+        <useWeapon cooldown="10" requiredUpgrade="SpaceMarines/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
             <model>
                 <action beginFire="0.1" endFire="1.0" />
             </model>

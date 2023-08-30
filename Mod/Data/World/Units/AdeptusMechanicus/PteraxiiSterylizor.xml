@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement9">
     <model>
-        <unit mesh="Units/AdeptusMechanicus/PteraxiiSterylizor" material="Units/AdeptusMechanicus/PteraxiiSterylizor" idleAnimation="Units/AdeptusMechanicus/PteraxiiSterylizorIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1 1 1" bloodBone="Chest" walker="1" />
+        <unit bloodBone="Chest" idleAnimation="Units/AdeptusMechanicus/PteraxiiSterylizorIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AdeptusMechanicus/PteraxiiSterylizor" mesh="Units/AdeptusMechanicus/PteraxiiSterylizor" normalWeight="0.1" scale="1 1 1" walker="1" />
     </model>
-    <group size="4" rowSize="2" memberDeltaX="110" memberDeltaY="110" />
+    <group memberDeltaX="110" memberDeltaY="110" rowSize="2" size="4" />
     <weapons>
         <weapon name="PteraxiiTalons">
             <model>
@@ -45,7 +45,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/AdeptusMechanicus/PteraxiiSterylizorAttack" beginFire="1.0" endFire="2.3" chargeAnimation="Units/AdeptusMechanicus/PteraxiiSterylizorCharge" chargeBeginFire="0.3" chargeEndFire="1.3" meleeAnimation="Units/AdeptusMechanicus/PteraxiiSterylizorMelee" meleeBeginSwing="0.4" meleeEndSwing="0.6" />
+                <action animation="Units/AdeptusMechanicus/PteraxiiSterylizorAttack" beginFire="1.0" chargeAnimation="Units/AdeptusMechanicus/PteraxiiSterylizorCharge" chargeBeginFire="0.3" chargeEndFire="1.3" endFire="2.3" meleeAnimation="Units/AdeptusMechanicus/PteraxiiSterylizorMelee" meleeBeginSwing="0.4" meleeEndSwing="0.6" />
             </model>
         </attack>
         <die>
@@ -82,7 +82,7 @@
                             <modifiers>
                                 <modifier requiredUpgrade="AdeptusMechanicus/HammerOfWrath">
                                     <effects>
-                                        <addTrait duration="1" name="HammerOfWrath" />
+                                        <addTrait name="HammerOfWrath" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

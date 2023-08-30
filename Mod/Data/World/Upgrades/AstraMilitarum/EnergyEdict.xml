@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="8" icon="Actions/AstraMilitarumEnergyEdict">
+<upgrade icon="Actions/AstraMilitarumEnergyEdict" position="8">
     <strategyModifiers>
         <modifier>
             <effects>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon icon="Actions/SistersOfBattle/TheEmperorsVengeance" attributesModifiedByUnit="0">
+<weapon attributesModifiedByUnit="0" icon="Actions/SistersOfBattle/TheEmperorsVengeance">
     <model>
         <weapon explosionsBlueprint="Effects/LightExplosions" explosionsEmitterBlueprint="Effects/LightExplosionsEmitter" />
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <accuracy min="8" max="8" />
+                <accuracy max="8" min="8" />
                 <attacks add="1" />
                 <rangedArmorPenetration add="4" /> <!-- %rangedArmorPenetration add armorPiercing=3 -->
                 <rangedDamage add="6" /> <!-- %rangedDamage add strength=8 -->

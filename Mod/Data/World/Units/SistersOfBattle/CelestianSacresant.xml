@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement11">
     <model>
-        <unit mesh="Units/SistersOfBattle/CelestianSacresant" material="Units/SistersOfBattle/CelestianSacresant" idleAnimation="Units/SistersOfBattle/CelestianSacresantIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" portraitFocusHeightModifier="-10" portraitZoomModifier="1.5" scale="0.9 0.9 0.9" bloodBone="Chest" walker="1" />
+        <unit bloodBone="Chest" idleAnimation="Units/SistersOfBattle/CelestianSacresantIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SistersOfBattle/CelestianSacresant" mesh="Units/SistersOfBattle/CelestianSacresant" normalWeight="0.1" portraitFocusHeightModifier="-10" portraitZoomModifier="1.5" scale="0.9 0.9 0.9" walker="1" />
     </model>
-    <group size="5" rowSize="3" memberDeltaX="70" memberDeltaY="70" />
+    <group memberDeltaX="70" memberDeltaY="70" rowSize="3" size="5" />
     <weapons>
         <weapon name="AnointedHalberd">
             <model>
-                <powerWeapon effectBoundingVolume="Empty" effectBone="HalberdEffect" fireInterval="10" />
+                <powerWeapon effectBone="HalberdEffect" effectBoundingVolume="Empty" fireInterval="10" />
             </model>
         </weapon>
         <weapon name="BoltPistol">
@@ -15,12 +15,12 @@
                 <projectileWeapon muzzleBone="Muzzle" />
             </model>
         </weapon>
-        <weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
             <model>
                 <grenadeWeapon muzzleBone="Hand_R" />
             </model>
         </weapon>
-        <weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
+        <weapon name="KrakGrenade" enabled="0" slotName="KrakGrenade">
             <model>
                 <grenadeWeapon muzzleBone="Hand_R" />
             </model>
@@ -55,7 +55,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/SistersOfBattle/CelestianSacresantAttack" beginFire="1.13" endFire="1.93" chargeAnimation="Units/SistersOfBattle/CelestianSacresantCharge" chargeDefenseAnimation="Units/SistersOfBattle/CelestianSacresantChargeDefense" chargeBeginFire="0.47" chargeEndFire="1.4" meleeAnimation="Units/SistersOfBattle/CelestianSacresantMelee" meleeDefenseAnimation="Units/SistersOfBattle/CelestianSacresantMeleeDefense" meleeBeginSwing="0.53" meleeEndSwing="0.63" />
+                <action animation="Units/SistersOfBattle/CelestianSacresantAttack" beginFire="1.13" chargeAnimation="Units/SistersOfBattle/CelestianSacresantCharge" chargeBeginFire="0.47" chargeDefenseAnimation="Units/SistersOfBattle/CelestianSacresantChargeDefense" chargeEndFire="1.4" endFire="1.93" meleeAnimation="Units/SistersOfBattle/CelestianSacresantMelee" meleeBeginSwing="0.53" meleeDefenseAnimation="Units/SistersOfBattle/CelestianSacresantMeleeDefense" meleeEndSwing="0.63" />
             </model>
         </attack>
         <die>
@@ -73,7 +73,7 @@
                 <action animation="Units/SistersOfBattle/CelestianSacresantMove" sound="Units/SistersOfBattle/InfantryMove" soundCount="3" />
             </model>
         </move>
-        <genericUnitAbility name="SistersOfBattle/DesperateForRedemption" icon="Actions/SistersOfBattle/MiraculousIntervention" beginOnDisappear="1" cooldown="10" passive="1" requiredUpgrade="SistersOfBattle/DesperateForRedemption">
+        <genericUnitAbility name="SistersOfBattle/DesperateForRedemption" beginOnDisappear="1" cooldown="10" icon="Actions/SistersOfBattle/MiraculousIntervention" passive="1" requiredUpgrade="SistersOfBattle/DesperateForRedemption">
             <model>
                 <action sound="Actions/MiraculousIntervention" />
             </model>
@@ -100,7 +100,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility passive="1" name="SistersOfBattle/Bodyguard">
+        <genericUnitAbility name="SistersOfBattle/Bodyguard" passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -117,7 +117,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility disableable="1" passive="1" name="SistersOfBattle/KeepersOfTheFaith">
+        <genericUnitAbility name="SistersOfBattle/KeepersOfTheFaith" disableable="1" passive="1">
             <conditions>
                 <unit>
                     <actionPoints greater="0" />

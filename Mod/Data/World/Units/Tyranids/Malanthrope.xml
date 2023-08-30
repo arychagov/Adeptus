@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement2" productionWeight="0.5">
     <model>
-        <unit mesh="Units/Tyranids/Malanthrope" material="Units/Tyranids/Malanthrope" scale="1.2 1.2 1.2" idleAnimation="Units/Tyranids/MalanthropeIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" bloodBone="BloodBone" walker="1" />
+        <unit bloodBone="BloodBone" idleAnimation="Units/Tyranids/MalanthropeIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tyranids/Malanthrope" mesh="Units/Tyranids/Malanthrope" normalWeight="0.1" scale="1.2 1.2 1.2" walker="1" />
     </model>
     <weapons>
         <weapon name="CloseCombatWeapon">
@@ -9,9 +9,9 @@
                 <weapon fireInterval="0.466666666667" fireSoundCount="0" />
             </model>
         </weapon>
-        <weapon name="ToxicMiasma" slotName="ToxicMiasma" enabled="0">
+        <weapon name="ToxicMiasma" enabled="0" slotName="ToxicMiasma">
             <model>
-                <flamerWeapon muzzleBone="Bone004" effectFaceWeight="1" />
+                <flamerWeapon effectFaceWeight="1" muzzleBone="Bone004" />
             </model>
         </weapon>
     </weapons>
@@ -59,7 +59,7 @@
         </move>
         <foundCity>
             <model>
-                <action sound="Actions/TyranidsFoundCity" animation="" />
+                <action animation="" sound="Actions/TyranidsFoundCity" />
             </model>
             <modifiers>
                 <modifier visible="0">
@@ -76,7 +76,7 @@
                 </modifier>
             </modifiers>
         </foundCity>
-        <clearTileUnitAbility cooldown="1" icon="Actions/ClearTile" name="Tyranids/ClearTile">
+        <clearTileUnitAbility name="Tyranids/ClearTile" cooldown="1" icon="Actions/ClearTile">
             <model>
                 <action animation="" />
             </model>
@@ -94,7 +94,7 @@
                 </modifier>
             </modifiers>
         </clearTileUnitAbility>
-        <consumeTile icon="Features/Bedrock" name="Tyranids/ConsumeTile" costScalesWithPace="0">
+        <consumeTile name="Tyranids/ConsumeTile" costScalesWithPace="0" icon="Features/Bedrock">
             <model>
                 <action animation="" />
             </model>
@@ -145,7 +145,7 @@
                 <action animation="Units/Tyranids/MalanthropeToxicMiasma" beginFire="0.5" endFire="3" />
             </model>
         </useWeapon>
-        <graspingTail cooldown="3" name="Tyranids/GraspingTail">
+        <graspingTail name="Tyranids/GraspingTail" cooldown="3">
             <model>
                 <action animation="Units/Tyranids/MalanthropeGraspingTail" sound="Actions/HiveMindDebuff" />
             </model>
@@ -187,7 +187,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility name="Tyranids/SporeCloud" passive="1" enabled="1" visible="1">
+        <genericUnitAbility name="Tyranids/SporeCloud" enabled="1" passive="1" visible="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -208,7 +208,7 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1" excludeRadius="0">
+                        <area affects="Tile" excludeRadius="0" radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>

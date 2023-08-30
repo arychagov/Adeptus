@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon fireInterval="0.5" fireSound="Weapons/ParticleBeamer" fireSoundCount="3" muzzleCount="2" beamsBlueprint="Effects/ParticleBeams" beamsEmitterBlueprint="Effects/ParticleBeamsEmitter" muzzleFlashesBlueprint="Effects/GaussMuzzleFlashes" explosionsBlueprint="Effects/NecronExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" />
+        <beamWeapon beamsBlueprint="Effects/ParticleBeams" beamsEmitterBlueprint="Effects/ParticleBeamsEmitter" explosionsBlueprint="Effects/NecronExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" fireInterval="0.5" fireSound="Weapons/ParticleBeamer" fireSoundCount="3" muzzleCount="2" muzzleFlashesBlueprint="Effects/GaussMuzzleFlashes" />
     </model>
     <modifiers>
         <modifier>

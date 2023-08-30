@@ -6,7 +6,7 @@
                 <action sound="Weapons/StaffOfLight" soundCount="3" />
             </model>
             <beginTargets>
-                <target rangeMax="1" lineOfSight="1">
+                <target lineOfSight="1" rangeMax="1">
                     <conditions>
                         <unit>
                             <enemy />

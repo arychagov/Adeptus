@@ -27,7 +27,7 @@
         <track name="Music/TyranidsTheme" dlc="Supplement2" />
     </music>
     <quests>
-        <quest name="SistersOfBattle/Story0" icon="Quests/SistersOfBattle/Chapter0" firstTurn="2" lastTurn="2">
+        <quest name="SistersOfBattle/Story0" firstTurn="2" icon="Quests/SistersOfBattle/Chapter0" lastTurn="2">
             <stages>
                 <stage>
                     <objectives>
@@ -40,14 +40,14 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <surviveInvasion waves="2" waveInterval="2" strength="1" relativeStrength="0.125" targetDistance="4">
+                        <surviveInvasion relativeStrength="0.125" strength="1" targetDistance="4" waveInterval="2" waves="2">
                             <attackers>
-                                <unit type="Orks/Boy" count="2" rankMin="0" rankMax="2" />
+                                <unit count="2" rankMax="2" rankMin="0" type="Orks/Boy" />
                             </attackers>
                         </surviveInvasion>
                         <researchUpgrade upgrade="SistersOfBattle/Heroes" />
                         <constructBuilding buildingType="SistersOfBattle/Heroes" count="1" />
-                        <produceUnit unitType="SistersOfBattle/Canoness" count="1" />
+                        <produceUnit count="1" unitType="SistersOfBattle/Canoness" />
                     </objectives>
                     <rewards>
                         <item type="ArmaplasBracers" />
@@ -55,7 +55,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="SistersOfBattle/Story1" icon="Quests/SistersOfBattle/Chapter1" firstTurn="20" lastTurn="30">
+        <quest name="SistersOfBattle/Story1" firstTurn="20" icon="Quests/SistersOfBattle/Chapter1" lastTurn="30">
             <conditions>
                 <quests>
                     <completed name="SistersOfBattle/Story0" />
@@ -64,12 +64,12 @@
             <stages>
                 <stage>
                     <objectives>
-                        <killCamp strength="2" relativeStrength="0.25" faction="AstraMilitarum">
+                        <killCamp faction="AstraMilitarum" relativeStrength="0.25" strength="2">
                             <defenders>
-                                <unit type="AstraMilitarum/Guardsman" count="1" rankMin="1" rankMax="3" />
-                                <unit type="AstraMilitarum/HeavyWeaponsSquad" count="1" rankMin="1" rankMax="3" />
-                                <unit type="AstraMilitarum/ScoutSentinel" count="1" rankMin="1" rankMax="3" />
-                                <unit type="AstraMilitarum/Hydra" count="1" rankMin="1" rankMax="3" />
+                                <unit count="1" rankMax="3" rankMin="1" type="AstraMilitarum/Guardsman" />
+                                <unit count="1" rankMax="3" rankMin="1" type="AstraMilitarum/HeavyWeaponsSquad" />
+                                <unit count="1" rankMax="3" rankMin="1" type="AstraMilitarum/ScoutSentinel" />
+                                <unit count="1" rankMax="3" rankMin="1" type="AstraMilitarum/Hydra" />
                             </defenders>
                         </killCamp>
                     </objectives>
@@ -79,12 +79,12 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <surviveInvasion waves="2" waveInterval="2" strength="1.25" relativeStrength="0.15625" bossWave="1">
-                            <boss type="Neutral/KastelanRobot" rankMin="1" rankMax="3" />
+                        <surviveInvasion bossWave="1" relativeStrength="0.15625" strength="1.25" waveInterval="2" waves="2">
+                            <boss rankMax="3" rankMin="1" type="Neutral/KastelanRobot" />
                             <attackers>
-                                <unit type="AdeptusMechanicus/SkitariiVanguard" count="1" rankMin="1" rankMax="3" />
-                                <unit type="AdeptusMechanicus/SkitariiRanger" count="1" rankMin="1" rankMax="3" />
-                                <unit type="AdeptusMechanicus/SerberysSulphurhound" count="1" rankMin="1" rankMax="3" />
+                                <unit count="1" rankMax="3" rankMin="1" type="AdeptusMechanicus/SkitariiVanguard" />
+                                <unit count="1" rankMax="3" rankMin="1" type="AdeptusMechanicus/SkitariiRanger" />
+                                <unit count="1" rankMax="3" rankMin="1" type="AdeptusMechanicus/SerberysSulphurhound" />
                             </attackers>
                         </surviveInvasion>
                     </objectives>
@@ -102,14 +102,14 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <killCamp strength="2" relativeStrength="0.25" faction="SpaceMarines">
+                        <killCamp faction="SpaceMarines" relativeStrength="0.25" strength="2">
                             <defenders>
-                                <unit type="SpaceMarines/AssaultSpaceMarine" count="1" rankMin="1" rankMax="3" />
-                                <unit type="SpaceMarines/LandSpeeder" count="1" rankMin="1" rankMax="3" />
-                                <unit type="SpaceMarines/Scout" count="1" rankMin="1" rankMax="3" />
-                                <unit type="SpaceMarines/ScoutBiker" count="1" rankMin="1" rankMax="3" />
-                                <unit type="SpaceMarines/TacticalSpaceMarine" count="1" rankMin="1" rankMax="3" />
-                                <unit type="SpaceMarines/DevastatorSpaceMarine" count="1" rankMin="1" rankMax="3" />
+                                <unit count="1" rankMax="3" rankMin="1" type="SpaceMarines/AssaultSpaceMarine" />
+                                <unit count="1" rankMax="3" rankMin="1" type="SpaceMarines/LandSpeeder" />
+                                <unit count="1" rankMax="3" rankMin="1" type="SpaceMarines/Scout" />
+                                <unit count="1" rankMax="3" rankMin="1" type="SpaceMarines/ScoutBiker" />
+                                <unit count="1" rankMax="3" rankMin="1" type="SpaceMarines/TacticalSpaceMarine" />
+                                <unit count="1" rankMax="3" rankMin="1" type="SpaceMarines/DevastatorSpaceMarine" />
                             </defenders>
                         </killCamp>
                     </objectives>
@@ -119,7 +119,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="SistersOfBattle/Story2" icon="Quests/SistersOfBattle/Chapter2" firstTurn="40" lastTurn="50">
+        <quest name="SistersOfBattle/Story2" firstTurn="40" icon="Quests/SistersOfBattle/Chapter2" lastTurn="50">
             <conditions>
                 <quests>
                     <completed name="SistersOfBattle/Story1" />
@@ -128,15 +128,15 @@
             <stages>
                 <stage>
                     <objectives>
-                        <surviveInvasion waves="2" waveInterval="1" strength="4" relativeStrength="0.5">
+                        <surviveInvasion relativeStrength="0.5" strength="4" waveInterval="1" waves="2">
                             <attackers>
-                                <unit type="ChaosSpaceMarines/ChaosSpaceMarine" count="1" rankMin="2" rankMax="4" />
-                                <unit type="ChaosSpaceMarines/Havoc" count="1" rankMin="1" rankMax="4" />
-                                <unit type="ChaosSpaceMarines/KhorneBerzerker" count="1" rankMin="2" rankMax="4" />
+                                <unit count="1" rankMax="4" rankMin="2" type="ChaosSpaceMarines/ChaosSpaceMarine" />
+                                <unit count="1" rankMax="4" rankMin="1" type="ChaosSpaceMarines/Havoc" />
+                                <unit count="1" rankMax="4" rankMin="2" type="ChaosSpaceMarines/KhorneBerzerker" />
                             </attackers>
                         </surviveInvasion>
                         <researchUpgrade upgrade="SistersOfBattle/SaintCelestine" />
-                        <produceUnit unitType="SistersOfBattle/SaintCelestine" count="1" />
+                        <produceUnit count="1" unitType="SistersOfBattle/SaintCelestine" />
                     </objectives>
                     <rewards>
                         <unit type="SistersOfBattle/Zephyrim" />
@@ -144,16 +144,16 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <killCamp relativeStrength="0.5" strength="4" bossKillCompletes="0">
-                            <boss type="ChaosSpaceMarines/ChaosLord" rankMin="4" rankMax="6" />
+                        <killCamp bossKillCompletes="0" relativeStrength="0.5" strength="4">
+                            <boss rankMax="6" rankMin="4" type="ChaosSpaceMarines/ChaosLord" />
                             <defenders>
-                                <unit type="ChaosSpaceMarines/ChaosSpaceMarine" count="1" rankMin="2" rankMax="4" />
-                                <unit type="ChaosSpaceMarines/ChaosCultist" count="1" rankMin="2" rankMax="4" />
-                                <unit type="ChaosSpaceMarines/DarkDisciple" count="1" rankMin="2" rankMax="4" />
-                                <unit type="ChaosSpaceMarines/Havoc" count="1" rankMin="2" rankMax="4" />
-                                <unit type="ChaosSpaceMarines/Helbrute" count="1" rankMin="2" rankMax="4" />
-                                <unit type="ChaosSpaceMarines/KhorneBerzerker" count="1" rankMin="2" rankMax="4" />
-                                <unit type="ChaosSpaceMarines/Maulerfiend" count="1" rankMin="2" rankMax="4" />
+                                <unit count="1" rankMax="4" rankMin="2" type="ChaosSpaceMarines/ChaosSpaceMarine" />
+                                <unit count="1" rankMax="4" rankMin="2" type="ChaosSpaceMarines/ChaosCultist" />
+                                <unit count="1" rankMax="4" rankMin="2" type="ChaosSpaceMarines/DarkDisciple" />
+                                <unit count="1" rankMax="4" rankMin="2" type="ChaosSpaceMarines/Havoc" />
+                                <unit count="1" rankMax="4" rankMin="2" type="ChaosSpaceMarines/Helbrute" />
+                                <unit count="1" rankMax="4" rankMin="2" type="ChaosSpaceMarines/KhorneBerzerker" />
+                                <unit count="1" rankMax="4" rankMin="2" type="ChaosSpaceMarines/Maulerfiend" />
                             </defenders>
                         </killCamp>
                     </objectives>
@@ -179,7 +179,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="SistersOfBattle/Story3" icon="Quests/SistersOfBattle/Chapter3" firstTurn="60" lastTurn="70">
+        <quest name="SistersOfBattle/Story3" firstTurn="60" icon="Quests/SistersOfBattle/Chapter3" lastTurn="70">
             <conditions>
                 <quests>
                     <completed name="SistersOfBattle/Story2" />
@@ -191,30 +191,30 @@
                         <researchUpgrade upgrade="SistersOfBattle/Vehicles" />
                         <researchUpgrade upgrade="SistersOfBattle/Exorcist" />
                         <constructBuilding buildingType="SistersOfBattle/Vehicles" count="1" />
-                        <produceUnit unitType="SistersOfBattle/Exorcist" count="1" />
+                        <produceUnit count="1" unitType="SistersOfBattle/Exorcist" />
                         <reachLevel level="6" unitType="SistersOfBattle/SaintCelestine" />
                     </objectives>
                 </stage>
                 <stage>
                     <objectives>
-                        <visitTile unitType="SistersOfBattle/SaintCelestine" clearEnemies="1" featureType="Ruin" count="1">
+                        <visitTile clearEnemies="1" count="1" featureType="Ruin" unitType="SistersOfBattle/SaintCelestine">
                             <defenders>
-                                <unit type="Tyranids/Biovore" count="1" rankMin="3" rankMax="5" />
-                                <unit type="Tyranids/Exocrine" count="1" rankMin="3" rankMax="5" />
-                                <unit type="Tyranids/HiveGuard" count="1" rankMin="3" rankMax="5" />
-                                <unit type="Tyranids/Venomthrope" count="1" rankMin="3" rankMax="5" />
+                                <unit count="1" rankMax="5" rankMin="3" type="Tyranids/Biovore" />
+                                <unit count="1" rankMax="5" rankMin="3" type="Tyranids/Exocrine" />
+                                <unit count="1" rankMax="5" rankMin="3" type="Tyranids/HiveGuard" />
+                                <unit count="1" rankMax="5" rankMin="3" type="Tyranids/Venomthrope" />
                             </defenders>
                         </visitTile>
-                        <visitTile unitType="SistersOfBattle/SaintCelestine" clearEnemies="1" featureType="Ruin" count="1">
+                        <visitTile clearEnemies="1" count="1" featureType="Ruin" unitType="SistersOfBattle/SaintCelestine">
                             <defenders>
-                                <unit type="Neutral/Umbra" count="3" rankMin="3" rankMax="5" />
+                                <unit count="3" rankMax="5" rankMin="3" type="Neutral/Umbra" />
                             </defenders>
                         </visitTile>
                     </objectives>
                 </stage>
             </stages>
         </quest>
-        <quest name="SistersOfBattle/Story4" icon="Quests/SistersOfBattle/Chapter4" firstTurn="80" lastTurn="90">
+        <quest name="SistersOfBattle/Story4" firstTurn="80" icon="Quests/SistersOfBattle/Chapter4" lastTurn="90">
             <conditions>
                 <quests>
                     <completed name="SistersOfBattle/Story3" />
@@ -223,14 +223,14 @@
             <stages>
                 <stage>
                     <objectives>
-                        <surviveInvasion waves="3" waveInterval="2" strength="8" relativeStrength="1" targetDistance="4">
-                            <boss type="Necrons/Monolith" rankMin="4" rankMax="6" />
+                        <surviveInvasion relativeStrength="1" strength="8" targetDistance="4" waveInterval="2" waves="3">
+                            <boss rankMax="6" rankMin="4" type="Necrons/Monolith" />
                             <attackers>
-                                <unit type="Necrons/CanoptekScarab" count="1" rankMin="4" rankMax="6" />
-                                <unit type="Necrons/FlayedOne" count="1" rankMin="4" rankMax="6" />
-                                <unit type="Necrons/HeavyDestroyer" count="1" rankMin="4" rankMax="6" />
-                                <unit type="Necrons/TriarchPraetorian" count="1" rankMin="4" rankMax="6" />
-                                <unit type="Necrons/AnnihilationBarge" count="1" rankMin="4" rankMax="6" />
+                                <unit count="1" rankMax="6" rankMin="4" type="Necrons/CanoptekScarab" />
+                                <unit count="1" rankMax="6" rankMin="4" type="Necrons/FlayedOne" />
+                                <unit count="1" rankMax="6" rankMin="4" type="Necrons/HeavyDestroyer" />
+                                <unit count="1" rankMax="6" rankMin="4" type="Necrons/TriarchPraetorian" />
+                                <unit count="1" rankMax="6" rankMin="4" type="Necrons/AnnihilationBarge" />
                             </attackers>
                         </surviveInvasion>
                     </objectives>
@@ -241,15 +241,15 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <killCamp strength="8" relativeStrength="1" bossKillCompletes="0">
-                            <boss type="Necrons/Cryptek" rankMin="4" rankMax="6" />
+                        <killCamp bossKillCompletes="0" relativeStrength="1" strength="8">
+                            <boss rankMax="6" rankMin="4" type="Necrons/Cryptek" />
                             <defenders>
-                                <unit type="Necrons/CanoptekSpyder" count="1" rankMin="4" rankMax="6" />
-                                <unit type="Necrons/DoomsdayArk" count="1" rankMin="4" rankMax="6" />
-                                <unit type="Necrons/DoomScythe" count="1" rankMin="4" rankMax="6" />
-                                <unit type="Necrons/Obelisk" count="1" rankMin="4" rankMax="6" />
-                                <unit type="Necrons/TriarchPraetorian" count="4" rankMin="4" rankMax="6" />
-                                <unit type="Necrons/TriarchStalker" count="1" rankMin="4" rankMax="6" />
+                                <unit count="1" rankMax="6" rankMin="4" type="Necrons/CanoptekSpyder" />
+                                <unit count="1" rankMax="6" rankMin="4" type="Necrons/DoomsdayArk" />
+                                <unit count="1" rankMax="6" rankMin="4" type="Necrons/DoomScythe" />
+                                <unit count="1" rankMax="6" rankMin="4" type="Necrons/Obelisk" />
+                                <unit count="4" rankMax="6" rankMin="4" type="Necrons/TriarchPraetorian" />
+                                <unit count="1" rankMax="6" rankMin="4" type="Necrons/TriarchStalker" />
                             </defenders>
                         </killCamp>
                     </objectives>
@@ -259,7 +259,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="SistersOfBattle/Story5" icon="Quests/SistersOfBattle/Chapter5" firstTurn="100" lastTurn="110">
+        <quest name="SistersOfBattle/Story5" firstTurn="100" icon="Quests/SistersOfBattle/Chapter5" lastTurn="110">
             <conditions>
                 <quests>
                     <completed name="SistersOfBattle/Story4" />
@@ -268,16 +268,16 @@
             <stages>
                 <stage>
                     <objectives>
-                        <killCampWithWebwayGate strength="8" relativeStrength="1.0" bossKillCompletes="0">
-                            <boss type="Eldar/WebwayGate" rankMin="9" rankMax="9" token="Gate" />
+                        <killCampWithWebwayGate bossKillCompletes="0" relativeStrength="1.0" strength="8">
+                            <boss rankMax="9" rankMin="9" token="Gate" type="Eldar/WebwayGate" />
                             <defenders>
-                                <unit type="Eldar/AvatarOfKhaine" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Eldar/CrimsonHunter" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Eldar/HemlockWraithfighter" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Eldar/Wraithblade" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Eldar/Wraithknight" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Eldar/WarWalker" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Eldar/Scorpion" count="1" rankMin="5" rankMax="7" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Eldar/AvatarOfKhaine" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Eldar/CrimsonHunter" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Eldar/HemlockWraithfighter" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Eldar/Wraithblade" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Eldar/Wraithknight" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Eldar/WarWalker" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Eldar/Scorpion" />
                             </defenders>
                         </killCampWithWebwayGate>
                         <claimWebwayGateWithCelestine />
@@ -288,17 +288,17 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <surviveInvasion bossWave="4" strength="64" relativeStrength="2" requiringCompletion="0" visible="0" waves="10" waveInterval="1">
-                            <boss type="Neutral/LordOfSkulls" rankMin="10" rankMax="10" />
+                        <surviveInvasion bossWave="4" relativeStrength="2" requiringCompletion="0" strength="64" visible="0" waveInterval="1" waves="10">
+                            <boss rankMax="10" rankMin="10" type="Neutral/LordOfSkulls" />
                             <attackers>
-                                <unit type="ChaosSpaceMarines/ChaosLandRaider" count="1" rankMin="5" rankMax="7" />
-                                <unit type="ChaosSpaceMarines/WarpTalon" count="1" rankMin="5" rankMax="7" />
-                                <unit type="ChaosSpaceMarines/Heldrake" count="1" rankMin="5" rankMax="7" />
-                                <unit type="ChaosSpaceMarines/Forgefiend" count="1" rankMin="5" rankMax="7" />
-                                <unit type="ChaosSpaceMarines/Maulerfiend" count="1" rankMin="5" rankMax="7" />
-                                <unit type="ChaosSpaceMarines/Obliterator" count="1" rankMin="5" rankMax="7" />
-                                <unit type="ChaosSpaceMarines/Defiler" count="1" rankMin="5" rankMax="7" />
-                                <unit type="ChaosSpaceMarines/Venomcrawler" count="1" rankMin="5" rankMax="7" />
+                                <unit count="1" rankMax="7" rankMin="5" type="ChaosSpaceMarines/ChaosLandRaider" />
+                                <unit count="1" rankMax="7" rankMin="5" type="ChaosSpaceMarines/WarpTalon" />
+                                <unit count="1" rankMax="7" rankMin="5" type="ChaosSpaceMarines/Heldrake" />
+                                <unit count="1" rankMax="7" rankMin="5" type="ChaosSpaceMarines/Forgefiend" />
+                                <unit count="1" rankMax="7" rankMin="5" type="ChaosSpaceMarines/Maulerfiend" />
+                                <unit count="1" rankMax="7" rankMin="5" type="ChaosSpaceMarines/Obliterator" />
+                                <unit count="1" rankMax="7" rankMin="5" type="ChaosSpaceMarines/Defiler" />
+                                <unit count="1" rankMax="7" rankMin="5" type="ChaosSpaceMarines/Venomcrawler" />
                             </attackers>
                         </surviveInvasion>
                         <accumulateKillExperience experience="200" />
@@ -324,7 +324,7 @@
         </quest>
     </quests>
     <actions>
-        <tactic cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/ConvictionOfFaith" icon="Actions/SistersOfBattle/ConvictionOfFaith" name="SistersOfBattle/ConvictionOfFaith" requiredUpgrade="SistersOfBattle/ConvictionOfFaith">
+        <tactic name="SistersOfBattle/ConvictionOfFaith" cooldown="1" durationInSeconds="0.1" icon="Actions/SistersOfBattle/ConvictionOfFaith" interfaceSound="Interface/ConvictionOfFaith" requiredUpgrade="SistersOfBattle/ConvictionOfFaith">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -367,17 +367,17 @@
                         </player>
                     </conditions>
                     <effects>
-                        <addTrait duration="1" name="SistersOfBattle/UsedSacredRite2" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="1" />
                     </effects>
                 </modifier>
                 <modifier>
                     <effects>
-                        <addTrait duration="1" name="SistersOfBattle/UsedSacredRite" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="1" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/EternalCrusade" name="SistersOfBattle/EternalCrusade" requiredUpgrade="SistersOfBattle/EternalCrusade">
+        <tactic name="SistersOfBattle/EternalCrusade" cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/EternalCrusade" requiredUpgrade="SistersOfBattle/EternalCrusade">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -408,18 +408,18 @@
                         </player>
                     </conditions>
                     <effects>
-                        <addTrait duration="1" name="SistersOfBattle/UsedSacredRite2" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="1" />
                     </effects>
                 </modifier>
                 <modifier>
                     <effects>
-                        <addTrait duration="1" name="SistersOfBattle/EternalCrusade" />
-                        <addTrait duration="1" name="SistersOfBattle/UsedSacredRite" />
+                        <addTrait name="SistersOfBattle/EternalCrusade" duration="1" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="1" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/WarmachinesWrath" name="SistersOfBattle/WarmachinesWrath" requiredUpgrade="SistersOfBattle/WarmachinesWrath">
+        <tactic name="SistersOfBattle/WarmachinesWrath" cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/WarmachinesWrath" requiredUpgrade="SistersOfBattle/WarmachinesWrath">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -450,18 +450,18 @@
                         </player>
                     </conditions>
                     <effects>
-                        <addTrait duration="1" name="SistersOfBattle/UsedSacredRite2" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="1" />
                     </effects>
                 </modifier>
                 <modifier>
                     <effects>
-                        <addTrait duration="1" name="SistersOfBattle/WarmachinesWrath" />
-                        <addTrait duration="1" name="SistersOfBattle/UsedSacredRite" />
+                        <addTrait name="SistersOfBattle/WarmachinesWrath" duration="1" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="1" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/RagingFervour" name="SistersOfBattle/RagingFervour" requiredUpgrade="SistersOfBattle/RagingFervour">
+        <tactic name="SistersOfBattle/RagingFervour" cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/RagingFervour" requiredUpgrade="SistersOfBattle/RagingFervour">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -492,18 +492,18 @@
                         </player>
                     </conditions>
                     <effects>
-                        <addTrait duration="1" name="SistersOfBattle/UsedSacredRite2" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="1" />
                     </effects>
                 </modifier>
                 <modifier>
                     <effects>
-                        <addTrait duration="1" name="SistersOfBattle/RagingFervour" />
-                        <addTrait duration="1" name="SistersOfBattle/UsedSacredRite" />
+                        <addTrait name="SistersOfBattle/RagingFervour" duration="1" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="1" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/SacralVigor" icon="Actions/SistersOfBattle/SacralVigor" name="SistersOfBattle/SacralVigor" requiredUpgrade="SistersOfBattle/SacralVigor">
+        <tactic name="SistersOfBattle/SacralVigor" cooldown="1" durationInSeconds="0.1" icon="Actions/SistersOfBattle/SacralVigor" interfaceSound="Interface/SacralVigor" requiredUpgrade="SistersOfBattle/SacralVigor">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -547,17 +547,17 @@
                         </player>
                     </conditions>
                     <effects>
-                        <addTrait duration="1" name="SistersOfBattle/UsedSacredRite2" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="1" />
                     </effects>
                 </modifier>
                 <modifier>
                     <effects>
-                        <addTrait duration="1" name="SistersOfBattle/UsedSacredRite" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="1" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/ChaseTheProfane" name="SistersOfBattle/ChaseTheProfane" requiredUpgrade="SistersOfBattle/ChaseTheProfane">
+        <tactic name="SistersOfBattle/ChaseTheProfane" cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/ChaseTheProfane" requiredUpgrade="SistersOfBattle/ChaseTheProfane">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -589,7 +589,7 @@
                         </unit>
                     </conditions>
                     <effects>
-                        <addTrait duration="1" name="MoveThroughCover" />
+                        <addTrait name="MoveThroughCover" duration="1" />
                     </effects>
                 </modifier>
             </unitModifiers>
@@ -601,17 +601,17 @@
                         </player>
                     </conditions>
                     <effects>
-                        <addTrait duration="1" name="SistersOfBattle/UsedSacredRite2" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="1" />
                     </effects>
                 </modifier>
                 <modifier>
                     <effects>
-                        <addTrait duration="1" name="SistersOfBattle/UsedSacredRite" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="1" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/PurifyingRecitations" name="SistersOfBattle/PurifyingRecitations" requiredUpgrade="SistersOfBattle/PurifyingRecitations">
+        <tactic name="SistersOfBattle/PurifyingRecitations" cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/PurifyingRecitations" requiredUpgrade="SistersOfBattle/PurifyingRecitations">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -642,18 +642,18 @@
                         </player>
                     </conditions>
                     <effects>
-                        <addTrait duration="1" name="SistersOfBattle/UsedSacredRite2" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="1" />
                     </effects>
                 </modifier>
                 <modifier>
                     <effects>
-                        <addTrait duration="1" name="SistersOfBattle/PurifyingRecitations" />
-                        <addTrait duration="1" name="SistersOfBattle/UsedSacredRite" />
+                        <addTrait name="SistersOfBattle/PurifyingRecitations" duration="1" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="1" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/NonMilitantMobilisation" name="SistersOfBattle/NonMilitantMobilisation" requiredUpgrade="SistersOfBattle/NonMilitantMobilisation">
+        <tactic name="SistersOfBattle/NonMilitantMobilisation" cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/NonMilitantMobilisation" requiredUpgrade="SistersOfBattle/NonMilitantMobilisation">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -684,24 +684,24 @@
                         </player>
                     </conditions>
                     <effects>
-                        <addTrait duration="1" name="SistersOfBattle/UsedSacredRite2" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="1" />
                     </effects>
                 </modifier>
                 <modifier>
                     <effects>
-                        <addTrait duration="1" name="SistersOfBattle/UsedSacredRite" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="1" />
                     </effects>
                 </modifier>
             </playerModifiers>
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="1" name="SistersOfBattle/NonMilitantMobilisation" />
+                        <addTrait name="SistersOfBattle/NonMilitantMobilisation" duration="1" />
                     </effects>
                 </modifier>
             </actorModifiers>
         </tactic>
-        <tactic cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/VengefulSpirit" name="SistersOfBattle/VengefulSpirit" requiredUpgrade="SistersOfBattle/VengefulSpirit">
+        <tactic name="SistersOfBattle/VengefulSpirit" cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/VengefulSpirit" requiredUpgrade="SistersOfBattle/VengefulSpirit">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -732,20 +732,20 @@
                         </player>
                     </conditions>
                     <effects>
-                        <addTrait duration="1" name="SistersOfBattle/UsedSacredRite2" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="1" />
                     </effects>
                 </modifier>
                 <modifier>
                     <effects>
-                        <addTrait duration="1" name="SistersOfBattle/VengefulSpirit" />
-                        <addTrait duration="1" name="SistersOfBattle/UsedSacredRite" />
+                        <addTrait name="SistersOfBattle/VengefulSpirit" duration="1" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="1" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
     </actions>
     <startingUnits>
-        <unit type="SistersOfBattle/Hospitaller" count="1" />
-        <unit type="SistersOfBattle/BattleSister" count="2" />
+        <unit count="1" type="SistersOfBattle/Hospitaller" />
+        <unit count="2" type="SistersOfBattle/BattleSister" />
     </startingUnits>
 </faction>

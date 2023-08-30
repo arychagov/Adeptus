@@ -34,9 +34,9 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="Tau/Piranha" />
-        <produceUnit unit="Tau/Devilfish" requiredUpgrade="Tau/Devilfish" />
-        <produceUnit unit="Tau/TidewallGunrig" visible="0" enabled="0" />
-        <produceUnit unit="Tau/HammerheadGunship" requiredUpgrade="Tau/HammerheadGunship" />
-        <produceUnit unit="Tau/SkyRayGunship" requiredUpgrade="Tau/SkyRayGunship" />
+        <produceUnit requiredUpgrade="Tau/Devilfish" unit="Tau/Devilfish" />
+        <produceUnit enabled="0" unit="Tau/TidewallGunrig" visible="0" />
+        <produceUnit requiredUpgrade="Tau/HammerheadGunship" unit="Tau/HammerheadGunship" />
+        <produceUnit requiredUpgrade="Tau/SkyRayGunship" unit="Tau/SkyRayGunship" />
     </actions>
 </building>

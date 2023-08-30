@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait visibilityCategory="Unit" category="Buff" icon="Units/Neutral/Artefacts/Loyalty" stacking="1">
+<trait category="Buff" icon="Units/Neutral/Artefacts/Loyalty" stacking="1" visibilityCategory="Unit">
     <modifiers>
         <modifier>
             <effects>

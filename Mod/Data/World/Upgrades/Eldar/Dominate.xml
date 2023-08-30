@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="10" icon="Actions/Dominate">
+<upgrade icon="Actions/Dominate" position="10">
     <requiredUpgrades>
         <upgrade name="Eldar/HemlockWraithfighter" />
     </requiredUpgrades>

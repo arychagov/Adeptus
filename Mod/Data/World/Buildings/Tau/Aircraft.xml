@@ -34,7 +34,7 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="Tau/RazorsharkStrikeFighter" />
-        <produceUnit unit="Tau/SunSharkBomber" requiredUpgrade="Tau/SunSharkBomber" />
-        <produceUnit unit="Tau/TigerShark" requiredUpgrade="Tau/TigerShark" />
+        <produceUnit requiredUpgrade="Tau/SunSharkBomber" unit="Tau/SunSharkBomber" />
+        <produceUnit requiredUpgrade="Tau/TigerShark" unit="Tau/TigerShark" />
     </actions>
 </building>

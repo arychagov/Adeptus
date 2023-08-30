@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="7" icon="Weapons/MultiMelta">
+<upgrade icon="Weapons/MultiMelta" position="7">
     <requiredUpgrades>
         <upgrade name="SpaceMarines/LandRaider" />
         <upgrade name="SpaceMarines/LandSpeeder" />

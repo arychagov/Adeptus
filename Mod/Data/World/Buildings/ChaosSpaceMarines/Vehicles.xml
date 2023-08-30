@@ -34,12 +34,12 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="ChaosSpaceMarines/ChaosRhino" />
-        <produceUnit unit="ChaosSpaceMarines/Helbrute" requiredUpgrade="ChaosSpaceMarines/Helbrute" />
-        <produceUnit unit="ChaosSpaceMarines/Maulerfiend" requiredUpgrade="ChaosSpaceMarines/Maulerfiend" />
-        <produceUnit unit="ChaosSpaceMarines/Forgefiend" requiredUpgrade="ChaosSpaceMarines/Forgefiend" />
-        <produceUnit unit="ChaosSpaceMarines/Venomcrawler" requiredUpgrade="ChaosSpaceMarines/Venomcrawler" />
-        <produceUnit unit="ChaosSpaceMarines/ChaosLandRaider" requiredUpgrade="ChaosSpaceMarines/ChaosLandRaider" />
-        <produceUnit unit="ChaosSpaceMarines/Defiler" requiredUpgrade="ChaosSpaceMarines/Defiler" />
-        <produceUnit unit="ChaosSpaceMarines/GreaterBrassScorpionOfKhorne" requiredUpgrade="ChaosSpaceMarines/GreaterBrassScorpionOfKhorne" />
+        <produceUnit requiredUpgrade="ChaosSpaceMarines/Helbrute" unit="ChaosSpaceMarines/Helbrute" />
+        <produceUnit requiredUpgrade="ChaosSpaceMarines/Maulerfiend" unit="ChaosSpaceMarines/Maulerfiend" />
+        <produceUnit requiredUpgrade="ChaosSpaceMarines/Forgefiend" unit="ChaosSpaceMarines/Forgefiend" />
+        <produceUnit requiredUpgrade="ChaosSpaceMarines/Venomcrawler" unit="ChaosSpaceMarines/Venomcrawler" />
+        <produceUnit requiredUpgrade="ChaosSpaceMarines/ChaosLandRaider" unit="ChaosSpaceMarines/ChaosLandRaider" />
+        <produceUnit requiredUpgrade="ChaosSpaceMarines/Defiler" unit="ChaosSpaceMarines/Defiler" />
+        <produceUnit requiredUpgrade="ChaosSpaceMarines/GreaterBrassScorpionOfKhorne" unit="ChaosSpaceMarines/GreaterBrassScorpionOfKhorne" />
     </actions>
 </building>

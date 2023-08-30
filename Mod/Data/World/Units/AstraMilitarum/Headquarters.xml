@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit icon="Buildings/AstraMilitarum/Headquarters">
     <model>
-        <structureUnit mesh="Units/AstraMilitarum/Headquarters" material="Buildings/AstraMilitarum/Buildings" idleAnimationCount="0" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" explosionsBone="HQBone" scale="1.0 1.0 1.0" />
+        <structureUnit explosionsBone="HQBone" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" idleAnimationCount="0" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" material="Buildings/AstraMilitarum/Buildings" mesh="Units/AstraMilitarum/Headquarters" scale="1.0 1.0 1.0" />
     </model>
     <weapons>
         <weapon name="HeavyBolter" requiredUpgrade="AstraMilitarum/BoltDamage" />
         <weapon name="Lasgun" count="8">
             <model>
-                <beamWeapon mesh="Weapons/AstraMilitarum/HeadquartersLasguns" material="Buildings/AstraMilitarum/Buildings" bone="HQBone" fireInterval="0.375" muzzleBone=".Muzzle" muzzleCount="6" />
+                <beamWeapon bone="HQBone" fireInterval="0.375" material="Buildings/AstraMilitarum/Buildings" mesh="Weapons/AstraMilitarum/HeadquartersLasguns" muzzleBone=".Muzzle" muzzleCount="6" />
             </model>
         </weapon>
-        <weapon name="KrakMissileLauncher" slotName="KrakMissileLauncher" count="4">
+        <weapon name="KrakMissileLauncher" count="4" slotName="KrakMissileLauncher">
             <model>
-                <missileWeapon mesh="Weapons/AstraMilitarum/HeadquartersKrakMissileLaunchers" material="Buildings/AstraMilitarum/Buildings" bone="HQBone" fireInterval="0.67" muzzleBone=".Muzzle" muzzleCount="2" missileScale="0.7" />
+                <missileWeapon bone="HQBone" fireInterval="0.67" material="Buildings/AstraMilitarum/Buildings" mesh="Weapons/AstraMilitarum/HeadquartersKrakMissileLaunchers" missileScale="0.7" muzzleBone=".Muzzle" muzzleCount="2" />
             </model>
         </weapon>
-        <weapon name="FragMissileLauncher" slotName="FragMissileLauncher" count="4" enabled="0">
+        <weapon name="FragMissileLauncher" count="4" enabled="0" slotName="FragMissileLauncher">
             <model>
-                <missileWeapon mesh="Weapons/AstraMilitarum/HeadquartersKrakMissileLaunchers" material="Buildings/AstraMilitarum/Buildings" bone="HQBone" fireInterval="0.67" muzzleBone=".Muzzle" muzzleCount="2" missileScale="0.7" />
+                <missileWeapon bone="HQBone" fireInterval="0.67" material="Buildings/AstraMilitarum/Buildings" mesh="Weapons/AstraMilitarum/HeadquartersKrakMissileLaunchers" missileScale="0.7" muzzleBone=".Muzzle" muzzleCount="2" />
             </model>
         </weapon>
     </weapons>

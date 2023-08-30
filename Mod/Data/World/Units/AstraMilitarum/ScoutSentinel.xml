@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/AstraMilitarum/ScoutSentinel" material="Units/AstraMilitarum/ScoutSentinel" idleAnimation="Units/AstraMilitarum/ScoutSentinelIdle" idleAnimationCount="2" normalWeight="0.1" scale="1.0 1.0 1.0" syncMovementSounds="1" explosionsBone="HullBone" walker="1" />
+        <unit explosionsBone="HullBone" idleAnimation="Units/AstraMilitarum/ScoutSentinelIdle" idleAnimationCount="2" material="Units/AstraMilitarum/ScoutSentinel" mesh="Units/AstraMilitarum/ScoutSentinel" normalWeight="0.1" scale="1.0 1.0 1.0" syncMovementSounds="1" walker="1" />
     </model>
-    <group size="2" rowSize="2" memberDeltaX="64" memberDeltaY="110" />
+    <group memberDeltaX="64" memberDeltaY="110" rowSize="2" size="2" />
     <weapons>
         <weapon name="HeavyBolter" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters" />
         <weapon name="MultiLaser">
@@ -11,7 +11,7 @@
                 <beamWeapon muzzleBone=".MuzzleBone0" />
             </model>
         </weapon>
-        <weapon name="HunterKillerMissile" slotName="HunterKillerMissile" enabled="0">
+        <weapon name="HunterKillerMissile" enabled="0" slotName="HunterKillerMissile">
             <model>
                 <missileWeapon muzzleBone="MissileAttachment" />
             </model>
@@ -82,7 +82,7 @@
                 </selfTarget>
             </beginTargets>
         </scout>
-        <createSmokeScreen icon="Traits/SmokeScreen" cooldown="10" requiredUpgrade="AstraMilitarum/SmokeLauncher">
+        <createSmokeScreen cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="AstraMilitarum/SmokeLauncher">
             <model>
                 <action sound="Actions/SmokeScreen" />
             </model>
@@ -93,7 +93,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature duration="3" name="SmokeScreen" />
+                                        <addFeature name="SmokeScreen" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -122,7 +122,7 @@
                 </selfTarget>
             </beginTargets>
         </hammerOfWrath>
-        <useWeapon weaponSlotName="HunterKillerMissile" cooldown="10" requiredUpgrade="AstraMilitarum/HunterKillerMissile">
+        <useWeapon cooldown="10" requiredUpgrade="AstraMilitarum/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
             <model>
                 <action beginFire="0.1" endFire="1.0" />
             </model>

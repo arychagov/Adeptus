@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement3" icon="Buildings/ChaosSpaceMarines/Headquarters">
     <model>
-        <structureUnit mesh="Units/ChaosSpaceMarines/Headquarters" material="Buildings/ChaosSpaceMarines/Buildings" idleAnimationCount="0" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" explosionsBone="HQBone" scale="0.7 0.7 0.7" />
+        <structureUnit explosionsBone="HQBone" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" idleAnimationCount="0" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" material="Buildings/ChaosSpaceMarines/Buildings" mesh="Units/ChaosSpaceMarines/Headquarters" scale="0.7 0.7 0.7" />
     </model>
     <weapons>
         <weapon name="CombiBolter" count="5">
             <model>
-                <projectileWeapon mesh="Weapons/AstraMilitarum/HeadquartersLasguns" material="Buildings/ChaosSpaceMarines/Buildings" bone="HQBone" fireInterval="0.1" muzzleBone=".Muzzle" muzzleCount="5" />
+                <projectileWeapon bone="HQBone" fireInterval="0.1" material="Buildings/ChaosSpaceMarines/Buildings" mesh="Weapons/AstraMilitarum/HeadquartersLasguns" muzzleBone=".Muzzle" muzzleCount="5" />
             </model>
         </weapon>
         <weapon name="BattleCannon" count="1">
             <model>
-                <projectileWeapon mesh="Weapons/AstraMilitarum/HeadquartersKrakMissileLaunchers" material="Buildings/ChaosSpaceMarines/Buildings" bone="HQBone" fireInterval="1.0" muzzleBone=".Muzzle0" />
+                <projectileWeapon bone="HQBone" fireInterval="1.0" material="Buildings/ChaosSpaceMarines/Buildings" mesh="Weapons/AstraMilitarum/HeadquartersKrakMissileLaunchers" muzzleBone=".Muzzle0" />
             </model>
         </weapon>
     </weapons>

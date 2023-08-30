@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/SpaceMarines/Chaplain" material="Units/SpaceMarines/Chaplain" idleAnimation="Units/SpaceMarines/ChaplainIdle" idleAnimationCount="5" idleContinuously="1" normalWeight="0.1" scale="1 1 1" bloodBone="Chest002" walker="1" />
+        <unit bloodBone="Chest002" idleAnimation="Units/SpaceMarines/ChaplainIdle" idleAnimationCount="5" idleContinuously="1" material="Units/SpaceMarines/Chaplain" mesh="Units/SpaceMarines/Chaplain" normalWeight="0.1" scale="1 1 1" walker="1" />
     </model>
     <weapons>
         <weapon name="Flamer" slotName="Flamer">
             <model>
-                <flamerWeapon mesh="Weapons/SpaceMarines/CombiFlamer" material="Weapons/SpaceMarines/CombiFlamer" bone="RightHand002" muzzleBone="Muzzle0" fireInterval="10" />
+                <flamerWeapon bone="RightHand002" fireInterval="10" material="Weapons/SpaceMarines/CombiFlamer" mesh="Weapons/SpaceMarines/CombiFlamer" muzzleBone="Muzzle0" />
             </model>
         </weapon>
         <weapon name="CroziusArcanum">
             <model>
-                <powerWeapon effectBoundingVolume="Blade" mesh="Weapons/SpaceMarines/CroziusArcanum" material="Units/SpaceMarines/Chaplain" bone="LeftHand002" fireInterval="0.5" />
+                <powerWeapon bone="LeftHand002" effectBoundingVolume="Blade" fireInterval="0.5" material="Units/SpaceMarines/Chaplain" mesh="Weapons/SpaceMarines/CroziusArcanum" />
             </model>
         </weapon>
     </weapons>
@@ -49,7 +49,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/SpaceMarines/ChaplainAttack" beginFire="0.33" endFire="2.6" chargeAnimation="Units/SpaceMarines/ChaplainCharge" chargeBeginFire="0.333" chargeEndFire="1.167" chargeDefenseAnimation="Units/SpaceMarines/ChaplainChargeDefense" chargeDefenseBeginFire="0.333" chargeDefenseEndFire="1.167" meleeAnimation="Units/SpaceMarines/ChaplainMelee" meleeBeginSwing="0.15" meleeEndSwing="0.8" meleeDefenseAnimation="Units/SpaceMarines/ChaplainMeleeDefense" meleeDefenseBeginSwing="0.15" meleeDefenseEndSwing="0.8" />
+                <action animation="Units/SpaceMarines/ChaplainAttack" beginFire="0.33" chargeAnimation="Units/SpaceMarines/ChaplainCharge" chargeBeginFire="0.333" chargeDefenseAnimation="Units/SpaceMarines/ChaplainChargeDefense" chargeDefenseBeginFire="0.333" chargeDefenseEndFire="1.167" chargeEndFire="1.167" endFire="2.6" meleeAnimation="Units/SpaceMarines/ChaplainMelee" meleeBeginSwing="0.15" meleeDefenseAnimation="Units/SpaceMarines/ChaplainMeleeDefense" meleeDefenseBeginSwing="0.15" meleeDefenseEndSwing="0.8" meleeEndSwing="0.8" />
             </model>
         </attack>
         <die>
@@ -67,7 +67,7 @@
                 <action animation="Units/SpaceMarines/ChaplainMove" sound="Units/SpaceMarines/TerminatorMove" soundCount="1" />
             </model>
         </move>
-        <genericUnitAbility passive="1" name="SpaceMarines/Righteousness" icon="Actions/RitesOfWar" levelUpPriority="0.15" rank="-1" rankMax="2">
+        <genericUnitAbility name="SpaceMarines/Righteousness" icon="Actions/RitesOfWar" levelUpPriority="0.15" passive="1" rank="-1" rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -84,7 +84,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility cooldownMin="5" cooldownMax="3" requiredActionPoints="0" consumedActionPoints="0" consumedMovement="0" name="SpaceMarines/LitanyOfZeal" icon="Actions/BolsterDefences" rank="-1" rankMax="2">
+        <genericUnitAbility name="SpaceMarines/LitanyOfZeal" consumedActionPoints="0" consumedMovement="0" cooldownMax="3" cooldownMin="5" icon="Actions/BolsterDefences" rank="-1" rankMax="2" requiredActionPoints="0">
             <model>
                 <action animation="Units/SpaceMarines/ChaplainCanticlesOfWrath" sound="Actions/MysticBuff" />
             </model>
@@ -106,7 +106,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="SpaceMarines/LitanyOfZeal" />
+                                        <addTrait name="SpaceMarines/LitanyOfZeal" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -115,7 +115,7 @@
                 </target>
             </beginTargets>
         </genericUnitAbility>
-        <dogmaAstrates passive="1" levelUpPriority="0.5" rank="-1" rankMax="2">
+        <dogmaAstrates levelUpPriority="0.5" passive="1" rank="-1" rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -132,7 +132,7 @@
                 </selfTarget>
             </beginTargets>
         </dogmaAstrates>
-        <genericUnitAbility cooldown="5" elite="1" levelUpPriority="1" name="SpaceMarines/TemplarsCharge" icon="Traits/Rending" requiredActionPoints="0" consumedActionPoints="0" consumedMovement="0" rank="-1" rankMax="0">
+        <genericUnitAbility name="SpaceMarines/TemplarsCharge" consumedActionPoints="0" consumedMovement="0" cooldown="5" elite="1" icon="Traits/Rending" levelUpPriority="1" rank="-1" rankMax="0" requiredActionPoints="0">
             <model>
                 <action animation="Units/SpaceMarines/ChaplainOrationOfRestoration" sound="Actions/MysticBuff" />
             </model>
@@ -151,7 +151,7 @@
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait duration="1" name="SpaceMarines/TemplarsCharge" />
+                                        <addTrait name="SpaceMarines/TemplarsCharge" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement2">
     <model>
-        <unit mesh="Units/Tyranids/TyranidPrime" material="Units/Tyranids/TyranidPrime" idleAnimation="Units/Tyranids/TyranidPrimeIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1.2 1.2 1.2" bloodBone="BloodBone" walker="1" />
+        <unit bloodBone="BloodBone" idleAnimation="Units/Tyranids/TyranidPrimeIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tyranids/TyranidPrime" mesh="Units/Tyranids/TyranidPrime" normalWeight="0.1" scale="1.2 1.2 1.2" walker="1" />
     </model>
     <weapons>
         <weapon name="Deathspitter">
             <model>
-                <projectileWeapon mesh="Weapons/Tyranids/TyranidPrimeGun" material="Units/Tyranids/TyranidPrime" fireInterval="0.533333333333" bone="WeaponBone" muzzleBone=".Muzzle" />
+                <projectileWeapon bone="WeaponBone" fireInterval="0.533333333333" material="Units/Tyranids/TyranidPrime" mesh="Weapons/Tyranids/TyranidPrimeGun" muzzleBone=".Muzzle" />
             </model>
         </weapon>
         <weapon name="FleshHooks" requiredUpgrade="Tyranids/FleshHooks">
             <model>
-                <projectileWeapon muzzleBone="BloodBone" fireInterval="10.0" effectFaceWeight="1.0" />
+                <projectileWeapon effectFaceWeight="1.0" fireInterval="10.0" muzzleBone="BloodBone" />
             </model>
         </weapon>
         <weapon name="Boneswords">
@@ -52,7 +52,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/Tyranids/TyranidPrimeAttack" beginFire="0.733333333333" endFire="2" chargeAnimation="Units/Tyranids/TyranidPrimeCharge" chargeBeginFire="0.3" chargeEndFire="1.36666666667" meleeAnimation="Units/Tyranids/TyranidPrimeMelee" meleeBeginSwing="0.133333333333" meleeEndSwing="0.666" />
+                <action animation="Units/Tyranids/TyranidPrimeAttack" beginFire="0.733333333333" chargeAnimation="Units/Tyranids/TyranidPrimeCharge" chargeBeginFire="0.3" chargeEndFire="1.36666666667" endFire="2" meleeAnimation="Units/Tyranids/TyranidPrimeMelee" meleeBeginSwing="0.133333333333" meleeEndSwing="0.666" />
             </model>
         </attack>
         <die>
@@ -91,7 +91,7 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1" excludeRadius="0">
+                        <area affects="Tile" excludeRadius="0" radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
@@ -105,7 +105,7 @@
             </beginTargets>
         </genericUnitAbility>
         <subterraneanAssault name="Tyranids/SubterraneanAssault" />
-        <scourgeOfTheBrood consumedActionPoints="0" consumedMovement="0" cooldown="3" name="Tyranids/ScourgeOfTheBrood" rank="-1" rankMax="2" requiredActionPoints="0">
+        <scourgeOfTheBrood name="Tyranids/ScourgeOfTheBrood" consumedActionPoints="0" consumedMovement="0" cooldown="3" rank="-1" rankMax="2" requiredActionPoints="0">
             <model>
                 <action animation="Units/Tyranids/TyranidPrimeAbility" sound="Actions/HiveMindBuff" />
             </model>
@@ -146,7 +146,7 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radiusMin="1" radiusMax="3">
+                        <area affects="Tile" radiusMax="3" radiusMin="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
@@ -159,7 +159,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <exploitWeaknesses consumedActionPoints="0" consumedMovement="0" cooldown="3" elite="1" name="Tyranids/ExploitWeaknesses" rank="-1" rankMax="0" requiredActionPoints="0">
+        <exploitWeaknesses name="Tyranids/ExploitWeaknesses" consumedActionPoints="0" consumedMovement="0" cooldown="3" elite="1" rank="-1" rankMax="0" requiredActionPoints="0">
             <model>
                 <action animation="Units/Tyranids/TyranidPrimeAbility" sound="Actions/HiveMindEliteDebuff" />
             </model>

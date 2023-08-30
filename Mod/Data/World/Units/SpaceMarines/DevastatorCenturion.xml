@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement8">
     <model>
-        <unit mesh="Units/SpaceMarines/DevastatorCenturion" material="Units/SpaceMarines/DevastatorCenturion" idleAnimation="Units/SpaceMarines/DevastatorCenturionIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1.1 1.1 1.1" bloodBone="Chest" walker="1" />
+        <unit bloodBone="Chest" idleAnimation="Units/SpaceMarines/DevastatorCenturionIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SpaceMarines/DevastatorCenturion" mesh="Units/SpaceMarines/DevastatorCenturion" normalWeight="0.1" scale="1.1 1.1 1.1" walker="1" />
     </model>
-    <group size="3" rowSize="3" memberDeltaX="80" memberDeltaY="90" />
+    <group memberDeltaX="80" memberDeltaY="90" rowSize="3" size="3" />
     <weapons>
         <weapon name="TwinLinkedLascannon">
             <model>
-                <beamWeapon muzzleBone="LasMuzzle" muzzleCount="2" fireInterval="0.43" cycleMuzzles="0" />
+                <beamWeapon cycleMuzzles="0" fireInterval="0.43" muzzleBone="LasMuzzle" muzzleCount="2" />
             </model>
         </weapon>
         <weapon name="KrakMissileLauncher" slotName="KrakMissileLauncher">
             <model>
-                <missileWeapon muzzleBone="MissileMuzzle" muzzleCount="6" fireInterval="0.6" missileScale="0.4" />
+                <missileWeapon fireInterval="0.6" missileScale="0.4" muzzleBone="MissileMuzzle" muzzleCount="6" />
             </model>
         </weapon>
-        <weapon name="FragMissileLauncher" slotName="FragMissileLauncher" enabled="0">
+        <weapon name="FragMissileLauncher" enabled="0" slotName="FragMissileLauncher">
             <model>
-                <missileWeapon muzzleBone="MissileMuzzle" muzzleCount="6" fireInterval="0.6" missileScale="0.4" />
+                <missileWeapon fireInterval="0.6" missileScale="0.4" muzzleBone="MissileMuzzle" muzzleCount="6" />
             </model>
         </weapon>
         <weapon name="None" enabled="0" requiredUpgrade="SpaceMarines/Omniscope">
             <model>
-                <weapon mesh="Weapons/SpaceMarines/DevastatorCenturionCrest" material="Units/SpaceMarines/DevastatorCenturion" bone="Chest" />
+                <weapon bone="Chest" material="Units/SpaceMarines/DevastatorCenturion" mesh="Weapons/SpaceMarines/DevastatorCenturionCrest" />
             </model>
         </weapon>
     </weapons>
@@ -72,7 +72,7 @@
                 <action animation="Units/SpaceMarines/DevastatorCenturionMove" sound="Units/ChaosSpaceMarines/MaulerfiendMove" soundCount="1" />
             </model>
         </move>
-        <signum cooldown="5" consumedActionPoints="0" consumedMovement="0" name="SpaceMarines/Omniscope" requiredUpgrade="SpaceMarines/Omniscope">
+        <signum name="SpaceMarines/Omniscope" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredUpgrade="SpaceMarines/Omniscope">
             <model>
                 <action sound="Actions/Omniscope" />
             </model>
@@ -83,7 +83,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="SpaceMarines/Omniscope" />
+                                        <addTrait name="SpaceMarines/Omniscope" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

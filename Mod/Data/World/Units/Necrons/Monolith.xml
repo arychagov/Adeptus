@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/Necrons/Monolith" material="Units/Necrons/Monolith" idleAnimation="Units/Necrons/MonolithIdle" idleAnimationCount="1" idleContinuously="1" scale="0.8 0.8 0.8" explosionsBone="Hull" />
+        <unit explosionsBone="Hull" idleAnimation="Units/Necrons/MonolithIdle" idleAnimationCount="1" idleContinuously="1" material="Units/Necrons/Monolith" mesh="Units/Necrons/Monolith" scale="0.8 0.8 0.8" />
     </model>
     <weapons>
         <weapon name="ParticleWhip">
             <model>
-                <projectileWeapon muzzleBone="MuzzleParticleWhip0" fireInterval="0.4" />
+                <projectileWeapon fireInterval="0.4" muzzleBone="MuzzleParticleWhip0" />
             </model>
         </weapon>
-        <weapon name="GaussFluxArc" slotName="GaussFluxArc" count="4" enabled="0">
+        <weapon name="GaussFluxArc" count="4" enabled="0" slotName="GaussFluxArc">
             <model>
-                <projectileWeapon muzzleBone=".Muzzle" muzzleCount="12" fireInterval="0.3" effectFaceWeight="0" />
+                <projectileWeapon effectFaceWeight="0" fireInterval="0.3" muzzleBone=".Muzzle" muzzleCount="12" />
             </model>
         </weapon>
     </weapons>
@@ -58,7 +58,7 @@
                 <action sound="Units/Necrons/MonolithMove" soundCount="2" />
             </model>
         </move>
-        <necrodermisRepair consumedActionPoints="0" consumedMovement="0" cooldown="1" name="Necrons/NecrodermisRepair" requiredActionPoints="0">
+        <necrodermisRepair name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
             <model>
                 <action sound="Actions/Heal" />
             </model>
@@ -100,7 +100,7 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <useWeapon cooldown="1" requiredActionPoints="0" consumedActionPoints="0" weaponSlotName="GaussFluxArc">
+        <useWeapon consumedActionPoints="0" cooldown="1" requiredActionPoints="0" weaponSlotName="GaussFluxArc">
             <model>
                 <action animation="Units/Necrons/MonolithGaussFluxArc" beginFire="0.5" endFire="2.0" />
             </model>

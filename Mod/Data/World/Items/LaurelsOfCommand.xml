@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <item>
     <actions>
-        <laurelsOfCommand cooldown="5" consumedActionPoints="0" consumedMovement="0" icon="Items/LaurelsOfCommand" requiredActionPoints="0">
+        <laurelsOfCommand consumedActionPoints="0" consumedMovement="0" cooldown="5" icon="Items/LaurelsOfCommand" requiredActionPoints="0">
             <model>
                 <action sound="Actions/MysticBuff" />
             </model>

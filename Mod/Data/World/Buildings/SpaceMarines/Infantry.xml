@@ -33,13 +33,13 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="SpaceMarines/TacticalSpaceMarine" />
-        <produceUnit unit="SpaceMarines/Scout" requiredUpgrade="SpaceMarines/Scout" />
-        <produceUnit unit="SpaceMarines/AssaultSpaceMarine" requiredUpgrade="SpaceMarines/AssaultSpaceMarine" />
-        <produceUnit unit="SpaceMarines/DevastatorSpaceMarine" requiredUpgrade="SpaceMarines/DevastatorSpaceMarine" />
-        <produceUnit unit="SpaceMarines/ThunderfireCannon" requiredUpgrade="SpaceMarines/ThunderfireCannon" />
-        <produceUnit unit="SpaceMarines/Apothecary" requiredUpgrade="SpaceMarines/Apothecary" />
-        <produceUnit unit="SpaceMarines/Terminator" requiredUpgrade="SpaceMarines/Terminator" />
-        <produceUnit unit="SpaceMarines/DevastatorCenturion" requiredUpgrade="SpaceMarines/DevastatorCenturion" />
-        <produceUnit unit="SpaceMarines/Techmarine" requiredUpgrade="SpaceMarines/Techmarine" />
+        <produceUnit requiredUpgrade="SpaceMarines/Scout" unit="SpaceMarines/Scout" />
+        <produceUnit requiredUpgrade="SpaceMarines/AssaultSpaceMarine" unit="SpaceMarines/AssaultSpaceMarine" />
+        <produceUnit requiredUpgrade="SpaceMarines/DevastatorSpaceMarine" unit="SpaceMarines/DevastatorSpaceMarine" />
+        <produceUnit requiredUpgrade="SpaceMarines/ThunderfireCannon" unit="SpaceMarines/ThunderfireCannon" />
+        <produceUnit requiredUpgrade="SpaceMarines/Apothecary" unit="SpaceMarines/Apothecary" />
+        <produceUnit requiredUpgrade="SpaceMarines/Terminator" unit="SpaceMarines/Terminator" />
+        <produceUnit requiredUpgrade="SpaceMarines/DevastatorCenturion" unit="SpaceMarines/DevastatorCenturion" />
+        <produceUnit requiredUpgrade="SpaceMarines/Techmarine" unit="SpaceMarines/Techmarine" />
     </actions>
 </building>

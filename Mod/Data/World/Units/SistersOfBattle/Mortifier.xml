@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement11">
     <model>
-        <unit mesh="Units/SistersOfBattle/Mortifier" material="Units/SistersOfBattle/Mortifier" idleAnimation="Units/SistersOfBattle/MortifierIdle" idleAnimationCount="2" idleContinuously="1" normalWeight="0.1" scale="0.9 0.9 0.9" bloodBone="Hull" explosionsBone="Hull" walker="1" />
+        <unit bloodBone="Hull" explosionsBone="Hull" idleAnimation="Units/SistersOfBattle/MortifierIdle" idleAnimationCount="2" idleContinuously="1" material="Units/SistersOfBattle/Mortifier" mesh="Units/SistersOfBattle/Mortifier" normalWeight="0.1" scale="0.9 0.9 0.9" walker="1" />
     </model>
-    <group size="1" rowSize="1" memberDeltaX="64" memberDeltaY="120" />
+    <group memberDeltaX="64" memberDeltaY="120" rowSize="1" size="1" />
     <weapons>
         <weapon name="HeavyFlamer" count="2">
             <model>
@@ -17,7 +17,7 @@
         </weapon>
         <weapon name="None" enabled="0">
             <model>
-                <weapon mesh="Weapons/SistersOfBattle/MortifierCasket" material="Weapons/SistersOfBattle/MortifierCasket" bone="Lid" />
+                <weapon bone="Lid" material="Weapons/SistersOfBattle/MortifierCasket" mesh="Weapons/SistersOfBattle/MortifierCasket" />
             </model>
         </weapon>
     </weapons>
@@ -50,7 +50,7 @@
     <actions>count="2"
         <attack>
             <model>
-                <action animation="Units/SistersOfBattle/MortifierAttack" beginFire="1.0" endFire="2.0" chargeAnimation="Units/SistersOfBattle/MortifierCharge" chargeBeginFire="0.3" chargeEndFire="1.2" meleeAnimation="Units/SistersOfBattle/MortifierMelee" meleeBeginSwing="0.33" meleeEndSwing="0.43" />
+                <action animation="Units/SistersOfBattle/MortifierAttack" beginFire="1.0" chargeAnimation="Units/SistersOfBattle/MortifierCharge" chargeBeginFire="0.3" chargeEndFire="1.2" endFire="2.0" meleeAnimation="Units/SistersOfBattle/MortifierMelee" meleeBeginSwing="0.33" meleeEndSwing="0.43" />
             </model>
         </attack>
         <die>

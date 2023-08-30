@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement2">
     <model>
-        <unit mesh="Units/Tyranids/HiveTyrant" material="Units/Tyranids/HiveTyrant" idleAnimation="Units/Tyranids/HiveTyrantIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="1.0" scale="1 1 1" position="0 0 64" bloodBone="BloodBone" />
+        <unit bloodBone="BloodBone" idleAnimation="Units/Tyranids/HiveTyrantIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tyranids/HiveTyrant" mesh="Units/Tyranids/HiveTyrant" normalWeight="1.0" position="0 0 64" scale="1 1 1" />
     </model>
     <weapons>
         <weapon name="DesiccatorLarvae" requiredUpgrade="Tyranids/DesiccatorLarvae">
@@ -11,7 +11,7 @@
         </weapon>
         <weapon name="HeavyVenomCannon">
             <model>
-                <projectileWeapon muzzleBone=".Muzzle" fireInterval="0.566666666667" />
+                <projectileWeapon fireInterval="0.566666666667" muzzleBone=".Muzzle" />
             </model>
         </weapon>
         <weapon name="PrehensilePincer">
@@ -57,7 +57,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/Tyranids/HiveTyrantAttack" beginFire="0.666666666667" endFire="2.66666666667" chargeAnimation="Units/Tyranids/HiveTyrantCharge" chargeBeginFire="0.4" chargeEndFire="1.33333333333" meleeAnimation="Units/Tyranids/HiveTyrantMelee" meleeBeginSwing="0.0" meleeEndSwing="1.0" />
+                <action animation="Units/Tyranids/HiveTyrantAttack" beginFire="0.666666666667" chargeAnimation="Units/Tyranids/HiveTyrantCharge" chargeBeginFire="0.4" chargeEndFire="1.33333333333" endFire="2.66666666667" meleeAnimation="Units/Tyranids/HiveTyrantMelee" meleeBeginSwing="0.0" meleeEndSwing="1.0" />
             </model>
         </attack>
         <die>
@@ -96,7 +96,7 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1" excludeRadius="0">
+                        <area affects="Tile" excludeRadius="0" radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
@@ -143,7 +143,7 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
@@ -159,7 +159,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Jink" />
+                                        <addTrait name="Jink" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -189,21 +189,21 @@
             </beginTargets>
         </hammerOfWrath>
         <subterraneanAssault name="Tyranids/SubterraneanAssault" />
-        <psychicScream cooldown="2" name="Tyranids/PsychicScream" rank="-1" rankMax="2">
+        <psychicScream name="Tyranids/PsychicScream" cooldown="2" rank="-1" rankMax="2">
             <model>
-                <action animation="Units/Tyranids/HiveTyrantAbility" bone="BloodBone" beginFire="0.67" sound="Weapons/PsychicScream" soundCount="3" soundDelay="0.67" />
+                <action animation="Units/Tyranids/HiveTyrantAbility" beginFire="0.67" bone="BloodBone" sound="Weapons/PsychicScream" soundCount="3" soundDelay="0.67" />
             </model>
             <modifiers>
                 <modifier>
                     <effects>
-                        <damage mulMin="0.0" mulMax="1.0" />
+                        <damage mulMax="1.0" mulMin="0.0" />
                     </effects>
                 </modifier>
             </modifiers>
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Unit" radius="1" excludeRadius="0">
+                        <area affects="Unit" excludeRadius="0" radius="1">
                             <modifiers>
                                 <modifier>
                                     <conditions>
@@ -221,7 +221,7 @@
                 </selfTarget>
             </beginTargets>
         </psychicScream>
-        <onslaught consumedActionPoints="0" consumedMovement="0" cooldown="3" name="Tyranids/Onslaught" rank="-1" rankMax="2" requiredActionPoints="0">
+        <onslaught name="Tyranids/Onslaught" consumedActionPoints="0" consumedMovement="0" cooldown="3" rank="-1" rankMax="2" requiredActionPoints="0">
             <model>
                 <action animation="Units/Tyranids/HiveTyrantAbility" sound="Actions/HiveMindBuff" />
             </model>
@@ -252,7 +252,7 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radiusMin="2" radiusMax="4">
+                        <area affects="Tile" radiusMax="4" radiusMin="2">
                             <modifiers>
                                 <modifier>
                                     <effects>
@@ -274,7 +274,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <hiveCommander consumedActionPoints="0" consumedMovement="0" cooldown="10" elite="1" name="Tyranids/HiveCommander" rank="-1" rankMax="0" requiredActionPoints="0">
+        <hiveCommander name="Tyranids/HiveCommander" consumedActionPoints="0" consumedMovement="0" cooldown="10" elite="1" rank="-1" rankMax="0" requiredActionPoints="0">
             <model>
                 <action animation="Units/Tyranids/HiveTyrantAbility" sound="Actions/HiveMindEliteBuff" />
             </model>

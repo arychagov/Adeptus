@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon fireSound="Weapons/BioElectricPulse" fireSoundCount="3" beamsBlueprint="Effects/BioElectricity" beamsEmitterBlueprint="Effects/BioElectricityEmitter" muzzleFlashesBlueprint="Effects/BioElectricityMuzzleFlashes" effectFaceWeight="1" />
+        <beamWeapon beamsBlueprint="Effects/BioElectricity" beamsEmitterBlueprint="Effects/BioElectricityEmitter" effectFaceWeight="1" fireSound="Weapons/BioElectricPulse" fireSoundCount="3" muzzleFlashesBlueprint="Effects/BioElectricityMuzzleFlashes" />
     </model>
     <modifiers>
         <modifier>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon fireSound="Weapons/Autocannon" fireSoundCount="5" fireInterval="0.2" muzzleCount="2" />
+        <projectileWeapon fireInterval="0.2" fireSound="Weapons/Autocannon" fireSoundCount="5" muzzleCount="2" />
     </model>
     <modifiers>
         <modifier>

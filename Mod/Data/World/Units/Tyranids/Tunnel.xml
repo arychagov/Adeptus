@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement2">
     <model>
-        <structureUnit mesh="Units/Tyranids/Tunnel" material="Buildings/Tyranids/Buildings" groundMaterial="Units/Neutral/CatachanDevilLairGround" idleAnimationCount="0" kineticImpactSoundCount="5" scale="1 1 1" explosionsBone="Bone025" position="0 0 0" />
+        <structureUnit explosionsBone="Bone025" groundMaterial="Units/Neutral/CatachanDevilLairGround" idleAnimationCount="0" kineticImpactSoundCount="5" material="Buildings/Tyranids/Buildings" mesh="Units/Tyranids/Tunnel" position="0 0 0" scale="1 1 1" />
     </model>
     <modifiers>
         <modifier visible="0">

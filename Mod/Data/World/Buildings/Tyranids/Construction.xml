@@ -26,7 +26,7 @@
         </modifier>
     </strategyModifiers>
     <actions>
-        <acquireTile icon="Actions/AcquireTile" name="Tyranids/AcquireTile">
+        <acquireTile name="Tyranids/AcquireTile" icon="Actions/AcquireTile">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -37,7 +37,7 @@
                 </modifier>
             </modifiers>
         </acquireTile>
-        <clearTile icon="Actions/ClearTile" name="Tyranids/ClearTile">
+        <clearTile name="Tyranids/ClearTile" icon="Actions/ClearTile">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -46,7 +46,7 @@
                 </modifier>
             </modifiers>
         </clearTile>
-        <reclaimUnit cooldown="1" name="Tyranids/ReclaimUnit" interfaceSound="Interface/ReclaimUnit">
+        <reclaimUnit name="Tyranids/ReclaimUnit" cooldown="1" interfaceSound="Interface/ReclaimUnit">
             <modifiers>
                 <modifier visible="0">
                     <effects>

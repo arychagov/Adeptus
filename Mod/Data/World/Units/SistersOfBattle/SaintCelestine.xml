@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/SistersOfBattle/SaintCelestine" material="Units/SistersOfBattle/SaintCelestine" idleAnimation="Units/SistersOfBattle/SaintCelestineIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" portraitFocusHeightModifier="80" portraitZoomModifier="2" scale="0.7 0.7 0.7" bloodBone="Chest" walker="1" />
+        <unit bloodBone="Chest" idleAnimation="Units/SistersOfBattle/SaintCelestineIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SistersOfBattle/SaintCelestine" mesh="Units/SistersOfBattle/SaintCelestine" normalWeight="0.1" portraitFocusHeightModifier="80" portraitZoomModifier="2" scale="0.7 0.7 0.7" walker="1" />
     </model>
     <weapons>
         <weapon name="TheArdentBladeMelee">
             <model>
-                <powerWeapon effectBoundingVolume="Blade" effectBone="Effect" fireInterval="10.0" />
+                <powerWeapon effectBone="Effect" effectBoundingVolume="Blade" fireInterval="10.0" />
             </model>
         </weapon>
         <weapon name="TheArdentBladeRanged">
             <model>
-                <beamWeapon muzzleBone="Effect" fireInterval="0.1" />
+                <beamWeapon fireInterval="0.1" muzzleBone="Effect" />
             </model>
         </weapon>
-        <weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
             <model>
                 <grenadeWeapon muzzleBone="Hand_L" />
             </model>
         </weapon>
-        <weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
+        <weapon name="KrakGrenade" enabled="0" slotName="KrakGrenade">
             <model>
                 <grenadeWeapon muzzleBone="Hand_L" />
             </model>
@@ -58,7 +58,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/SistersOfBattle/SaintCelestineAttack" beginFire="1.5" endFire="1.9" chargeAnimation="Units/SistersOfBattle/SaintCelestineCharge" chargeBeginFire="0.4" chargeEndFire="0.8" meleeAnimation="Units/SistersOfBattle/SaintCelestineMelee" meleeBeginSwing="0.43" meleeEndSwing="0.53" />
+                <action animation="Units/SistersOfBattle/SaintCelestineAttack" beginFire="1.5" chargeAnimation="Units/SistersOfBattle/SaintCelestineCharge" chargeBeginFire="0.4" chargeEndFire="0.8" endFire="1.9" meleeAnimation="Units/SistersOfBattle/SaintCelestineMelee" meleeBeginSwing="0.43" meleeEndSwing="0.53" />
             </model>
         </attack>
         <die>
@@ -97,7 +97,7 @@
                             <modifiers>
                                 <modifier requiredUpgrade="SistersOfBattle/HammerOfWrath">
                                     <effects>
-                                        <addTrait duration="1" name="HammerOfWrath" />
+                                        <addTrait name="HammerOfWrath" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -106,7 +106,7 @@
                 </target>
             </beginTargets>
         </jumpPack>
-        <miraculousIntervention beginOnDisappear="1" cooldown="10" name="SistersOfBattle/MiraculousIntervention" passive="1">
+        <miraculousIntervention name="SistersOfBattle/MiraculousIntervention" beginOnDisappear="1" cooldown="10" passive="1">
             <model>
                 <action sound="Actions/MiraculousIntervention" />
             </model>
@@ -143,7 +143,7 @@
                 </selfTarget>
             </beginTargets>
         </miraculousIntervention>
-        <beaconOfFaith cooldown="5" consumedActionPoints="0" consumedMovement="0" name="SistersOfBattle/BeaconOfFaith" rank="-1" rankMax="2" requiredActionPoints="0">
+        <beaconOfFaith name="SistersOfBattle/BeaconOfFaith" consumedActionPoints="0" consumedMovement="0" cooldown="5" rank="-1" rankMax="2" requiredActionPoints="0">
             <model>
                 <action animation="Units/SistersOfBattle/SaintCelestineAbility" sound="Actions/Command" />
             </model>
@@ -160,7 +160,7 @@
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <morale addMin="2" addMax="6" />
+                                        <morale addMax="6" addMin="2" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -169,7 +169,7 @@
                 </selfTarget>
             </beginTargets>
         </beaconOfFaith>
-        <healingTears cooldown="3" consumedActionPoints="1" consumedMovement="0" name="SistersOfBattle/HealingTears" requiredActionPoints="1" rank="-1" rankMax="2">
+        <healingTears name="SistersOfBattle/HealingTears" consumedActionPoints="1" consumedMovement="0" cooldown="3" rank="-1" rankMax="2" requiredActionPoints="1">
             <model>
                 <action animation="Units/SistersOfBattle/SaintCelestineAbility" sound="Actions/HealingTears" />
             </model>
@@ -185,7 +185,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpointsFactorFromMax addMin="0.1" addMax="0.3" />
+                                        <hitpointsFactorFromMax addMax="0.3" addMin="0.1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -194,7 +194,7 @@
                 </selfTarget>
             </beginTargets>
         </healingTears>
-        <genericUnitAbility passive="1" name="SistersOfBattle/SaintlyBlessings" rank="-1" rankMax="2">
+        <genericUnitAbility name="SistersOfBattle/SaintlyBlessings" passive="1" rank="-1" rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -211,7 +211,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <theEmperorsVengeance cooldown="5" consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" elite="1" levelUpPriority="1" rank="-1" rankMax="0" name="SistersOfBattle/TheEmperorsVengeance">
+        <theEmperorsVengeance name="SistersOfBattle/TheEmperorsVengeance" consumedActionPoints="0" consumedMovement="0" cooldown="5" elite="1" levelUpPriority="1" rank="-1" rankMax="0" requiredActionPoints="0">
             <model>
                 <action animation="Units/SistersOfBattle/SaintCelestineAbility" sound="Actions/TheEmperorsVengeance" />
             </model>

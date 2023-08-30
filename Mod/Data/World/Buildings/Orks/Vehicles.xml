@@ -36,13 +36,13 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="Orks/Warbuggy" />
-        <produceUnit unit="Orks/Warbiker" requiredUpgrade="Orks/Warbiker" />
-        <produceUnit unit="Orks/MegatrakkScrapjet" requiredUpgrade="Orks/MegatrakkScrapjet" />
-        <produceUnit unit="Orks/Battlewagon" requiredUpgrade="Orks/Battlewagon" />
-        <produceUnit unit="Orks/Deffkopta" requiredUpgrade="Orks/Deffkopta" />
-        <produceUnit unit="Orks/Dakkajet" requiredUpgrade="Orks/Dakkajet" />
-        <produceUnit unit="Orks/BurnaBommer" requiredUpgrade="Orks/BurnaBommer" />
-        <produceUnit unit="Orks/KillBursta" requiredUpgrade="Orks/KillBursta" />
+        <produceUnit requiredUpgrade="Orks/Warbiker" unit="Orks/Warbiker" />
+        <produceUnit requiredUpgrade="Orks/MegatrakkScrapjet" unit="Orks/MegatrakkScrapjet" />
+        <produceUnit requiredUpgrade="Orks/Battlewagon" unit="Orks/Battlewagon" />
+        <produceUnit requiredUpgrade="Orks/Deffkopta" unit="Orks/Deffkopta" />
+        <produceUnit requiredUpgrade="Orks/Dakkajet" unit="Orks/Dakkajet" />
+        <produceUnit requiredUpgrade="Orks/BurnaBommer" unit="Orks/BurnaBommer" />
+        <produceUnit requiredUpgrade="Orks/KillBursta" unit="Orks/KillBursta" />
     </actions>
     <traits>
         <trait name="Orks/BonusVehiclesProduction" requiredUpgrade="Orks/BonusVehiclesProduction" />

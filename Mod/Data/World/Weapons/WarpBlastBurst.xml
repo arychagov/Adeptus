@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon fireSound="Weapons/WarpBlastBurst" fireSoundCount="3" fireInterval="10.0" beamsBlueprint="Effects/WarpBlastBurst" beamsEmitterBlueprint="Effects/WarpBlastBurstEmitter" muzzleFlashesBlueprint="Effects/WarpBlastMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/WarpBlastMuzzleFlashesEmitter" effectFaceWeight="1.0" effectScale="1.0" />
+        <beamWeapon beamsBlueprint="Effects/WarpBlastBurst" beamsEmitterBlueprint="Effects/WarpBlastBurstEmitter" effectFaceWeight="1.0" effectScale="1.0" fireInterval="10.0" fireSound="Weapons/WarpBlastBurst" fireSoundCount="3" muzzleFlashesBlueprint="Effects/WarpBlastMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/WarpBlastMuzzleFlashesEmitter" />
     </model>
     <modifiers>
         <modifier>

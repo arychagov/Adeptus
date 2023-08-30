@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="1" icon="Traits/Orks/BonusInfantryProduction">
+<upgrade icon="Traits/Orks/BonusInfantryProduction" position="1">
     <strategyModifiers>
         <modifier>
             <effects>

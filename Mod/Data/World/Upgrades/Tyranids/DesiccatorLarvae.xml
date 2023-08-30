@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="7" icon="Weapons/DesiccatorLarvae">
+<upgrade icon="Weapons/DesiccatorLarvae" position="7">
     <requiredUpgrades>
         <upgrade name="Tyranids/HiveTyrant" />
         <upgrade name="Tyranids/Tervigon" />

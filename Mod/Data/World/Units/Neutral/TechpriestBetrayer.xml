@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit visible="0">
     <model>
-        <unit mesh="Units/AstraMilitarum/TechpriestEnginseer" material="Units/AstraMilitarum/TechpriestEnginseer" idleAnimation="Units/AstraMilitarum/TechpriestEnginseerIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1.25 1.25 1.25" bloodBone="ChestBone" walker="1" />
+        <unit bloodBone="ChestBone" idleAnimation="Units/AstraMilitarum/TechpriestEnginseerIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AstraMilitarum/TechpriestEnginseer" mesh="Units/AstraMilitarum/TechpriestEnginseer" normalWeight="0.1" scale="1.25 1.25 1.25" walker="1" />
     </model>
     <weapons>
         <weapon name="PowerAxe">
             <model>
-                <powerWeapon effectBoundingVolume="Blade" mesh="Weapons/AstraMilitarum/TechpriestEnginseerPowerAxe" material="Units/AstraMilitarum/TechpriestEnginseer" bone="Axe" fireInterval="1.0" />
+                <powerWeapon bone="Axe" effectBoundingVolume="Blade" fireInterval="1.0" material="Units/AstraMilitarum/TechpriestEnginseer" mesh="Weapons/AstraMilitarum/TechpriestEnginseerPowerAxe" />
             </model>
         </weapon>
-        <weapon name="ServoArm" slotName="ServoArm" enabled="0">
+        <weapon name="ServoArm" enabled="0" slotName="ServoArm">
             <model>
                 <weapon fireInterval="1.0" />
             </model>
@@ -110,7 +110,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="3" name="PowerOfTheMachineSpirit" />
+                                        <addTrait name="PowerOfTheMachineSpirit" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>

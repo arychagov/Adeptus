@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/Neutral/Artefact" material="Units/Neutral/Artefact" scale="0.75 0.75 0.75" idleAnimation="Units/Neutral/ArtefactIdle" idleAnimationCount="1" idleContinuously="1" explosionsBone="Top" />
+        <unit explosionsBone="Top" idleAnimation="Units/Neutral/ArtefactIdle" idleAnimationCount="1" idleContinuously="1" material="Units/Neutral/Artefact" mesh="Units/Neutral/Artefact" scale="0.75 0.75 0.75" />
     </model>
     <group size="1" />
     <modifiers>
@@ -16,7 +16,7 @@
         </modifier>
     </modifiers>
     <actions>
-        <genericUnitAbility icon="Units/Neutral/Artefacts/Loyalty" name="Artefacts/Loyalty" passive="1">
+        <genericUnitAbility name="Artefacts/Loyalty" icon="Units/Neutral/Artefacts/Loyalty" passive="1">
             <model>
                 <action sound="Actions/PowerUpArtefact" />
             </model>

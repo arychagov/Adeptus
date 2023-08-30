@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="6" icon="Units/Eldar/FirePrism">
+<upgrade icon="Units/Eldar/FirePrism" position="6">
     <requiredUpgrades>
         <upgrade name="Eldar/Vehicles" />
     </requiredUpgrades>

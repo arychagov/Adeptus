@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement11">
     <model>
-        <unit mesh="Units/SistersOfBattle/Exorcist" material="Units/SistersOfBattle/Exorcist" idleAnimation="Units/SistersOfBattle/ExorcistIdle" idleAnimationCount="3" idleContinuously="1" portraitFocusHeightModifier="-10" scale="1.1 1.1 1.1" explosionsBone="Hull_Shake" uvAnimated="1" />
+        <unit explosionsBone="Hull_Shake" idleAnimation="Units/SistersOfBattle/ExorcistIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SistersOfBattle/Exorcist" mesh="Units/SistersOfBattle/Exorcist" portraitFocusHeightModifier="-10" scale="1.1 1.1 1.1" uvAnimated="1" />
     </model>
     <weapons>
         <weapon name="ExorcistMissileLauncher">
             <model>
-                <missileWeapon muzzleBone="MissileMuzzle" muzzleCount="3" fireInterval="0.75" />
+                <missileWeapon fireInterval="0.75" muzzleBone="MissileMuzzle" muzzleCount="3" />
             </model>
         </weapon>
         <weapon name="HeavyBolter" requiredUpgrade="SistersOfBattle/AdditionalHeavyBolter">
             <model>
-                <projectileWeapon mesh="Weapons/SistersOfBattle/ExorcistHeavyBolter" material="Weapons/SistersOfBattle/ExorcistUpgrades" bone="Front_Gun" muzzleBone="BolterMuzzle" />
+                <projectileWeapon bone="Front_Gun" material="Weapons/SistersOfBattle/ExorcistUpgrades" mesh="Weapons/SistersOfBattle/ExorcistHeavyBolter" muzzleBone="BolterMuzzle" />
             </model>
         </weapon>
-        <weapon name="HunterKillerMissile" slotName="HunterKillerMissile" enabled="0" requiredUpgrade="SistersOfBattle/HunterKillerMissile">
+        <weapon name="HunterKillerMissile" enabled="0" requiredUpgrade="SistersOfBattle/HunterKillerMissile" slotName="HunterKillerMissile">
             <model>
-                <missileWeapon mesh="Weapons/SistersOfBattle/ExorcistHunterKiller" material="Weapons/SistersOfBattle/ExorcistUpgrades" bone="Hull_Shake" muzzleBone="SeekerMuzzle" fireInterval="5.0" />
-            </model>
-        </weapon>
-        <weapon name="None" enabled="0" requiredUpgrade="SistersOfBattle/DozerBlade">
-            <model>
-                <weapon mesh="Weapons/SistersOfBattle/ExorcistSmokeLaunchers" material="Weapons/SistersOfBattle/ExorcistUpgrades" bone="Hull_Shake" />
+                <missileWeapon bone="Hull_Shake" fireInterval="5.0" material="Weapons/SistersOfBattle/ExorcistUpgrades" mesh="Weapons/SistersOfBattle/ExorcistHunterKiller" muzzleBone="SeekerMuzzle" />
             </model>
         </weapon>
         <weapon name="None" enabled="0" requiredUpgrade="SistersOfBattle/DozerBlade">
             <model>
-                <weapon mesh="Weapons/SistersOfBattle/ExorcistDozerBlade" material="Weapons/SistersOfBattle/ExorcistUpgrades" bone="Front_Grate" />
+                <weapon bone="Hull_Shake" material="Weapons/SistersOfBattle/ExorcistUpgrades" mesh="Weapons/SistersOfBattle/ExorcistSmokeLaunchers" />
+            </model>
+        </weapon>
+        <weapon name="None" enabled="0" requiredUpgrade="SistersOfBattle/DozerBlade">
+            <model>
+                <weapon bone="Front_Grate" material="Weapons/SistersOfBattle/ExorcistUpgrades" mesh="Weapons/SistersOfBattle/ExorcistDozerBlade" />
             </model>
         </weapon>
     </weapons>
@@ -79,7 +79,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature duration="3" name="SmokeScreen" />
+                                        <addFeature name="SmokeScreen" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -88,7 +88,7 @@
                 </selfTarget>
             </beginTargets>
         </createSmokeScreen>
-        <genericUnitAbility passive="1" name="SistersOfBattle/LaudHailer" requiredUpgrade="SistersOfBattle/LaudHailer">
+        <genericUnitAbility name="SistersOfBattle/LaudHailer" passive="1" requiredUpgrade="SistersOfBattle/LaudHailer">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -105,7 +105,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <useWeapon weaponSlotName="HunterKillerMissile" cooldown="10" requiredUpgrade="SistersOfBattle/HunterKillerMissile">
+        <useWeapon cooldown="10" requiredUpgrade="SistersOfBattle/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
             <model>
                 <action beginFire="0.1" endFire="1.0" />
             </model>

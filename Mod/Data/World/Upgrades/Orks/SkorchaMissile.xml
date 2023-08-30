@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="9" icon="Weapons/SkorchaMissile">
+<upgrade icon="Weapons/SkorchaMissile" position="9">
     <requiredUpgrades>
         <upgrade name="Orks/BurnaBommer" />
     </requiredUpgrades>

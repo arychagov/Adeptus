@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon fireSound="Weapons/HeavyVenomCannon" fireSoundCount="3" muzzleFlashesBlueprint="Effects/ShardMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/ShardMuzzleFlashesEmitter" directionalMuzzleFlashesBlueprint="" projectilesBlueprint="Effects/ShardProjectiles" projectilesEmitterBlueprint="Effects/ShardProjectilesEmitter" explosionsBlueprint="Effects/ShardExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" />
+        <projectileWeapon directionalMuzzleFlashesBlueprint="" explosionsBlueprint="Effects/ShardExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" fireSound="Weapons/HeavyVenomCannon" fireSoundCount="3" muzzleFlashesBlueprint="Effects/ShardMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/ShardMuzzleFlashesEmitter" projectilesBlueprint="Effects/ShardProjectiles" projectilesEmitterBlueprint="Effects/ShardProjectilesEmitter" />
     </model>
     <modifiers>
         <modifier>

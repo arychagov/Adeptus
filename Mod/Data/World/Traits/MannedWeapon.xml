@@ -8,7 +8,7 @@
                 </unit>
             </conditions>
             <effects>
-                <accuracy min="-999" max="-999" />
+                <accuracy max="-999" min="-999" />
             </effects>
         </modifier>
     </modifiers>

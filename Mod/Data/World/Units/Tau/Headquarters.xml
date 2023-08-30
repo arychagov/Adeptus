@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement5" icon="Buildings/Tau/Headquarters">
     <model>
-        <structureUnit mesh="Units/Tau/Headquarters" material="Buildings/Tau/Buildings" idleAnimationCount="0" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" explosionsBone="Bone" scale="1.0 1.0 1.0" />
+        <structureUnit explosionsBone="Bone" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" idleAnimationCount="0" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" material="Buildings/Tau/Buildings" mesh="Units/Tau/Headquarters" scale="1.0 1.0 1.0" />
     </model>
     <weapons>
         <weapon name="PulseRifle" count="3">
             <model>
-                <projectileWeapon mesh="Weapons/Tau/HeadquartersWeapons" material="Buildings/Tau/Buildings" bone="Bone" fireInterval="0.17" muzzleBone="Muzzle" muzzleCount="5" />
+                <projectileWeapon bone="Bone" fireInterval="0.17" material="Buildings/Tau/Buildings" mesh="Weapons/Tau/HeadquartersWeapons" muzzleBone="Muzzle" muzzleCount="5" />
             </model>
         </weapon>
         <weapon name="IonAcceleratorStandard" count="1" slotName="IonAcceleratorStandard">
             <model>
-                <beamWeapon mesh="Weapons/Tau/HeadquartersWeapons" material="Buildings/Tau/Buildings" bone="Bone" fireInterval="0.33" muzzleBone="HeavyMuzzle" muzzleCount="1" />
+                <beamWeapon bone="Bone" fireInterval="0.33" material="Buildings/Tau/Buildings" mesh="Weapons/Tau/HeadquartersWeapons" muzzleBone="HeavyMuzzle" muzzleCount="1" />
             </model>
         </weapon>
-        <weapon name="IonAcceleratorOvercharged" count="1" slotName="IonAcceleratorOvercharged" enabled="0">
+        <weapon name="IonAcceleratorOvercharged" count="1" enabled="0" slotName="IonAcceleratorOvercharged">
             <model>
-                <beamWeapon mesh="Weapons/Tau/HeadquartersWeapons" material="Buildings/Tau/Buildings" bone="Bone" muzzleBone="HeavyMuzzle" muzzleCount="1" />
+                <beamWeapon bone="Bone" material="Buildings/Tau/Buildings" mesh="Weapons/Tau/HeadquartersWeapons" muzzleBone="HeavyMuzzle" muzzleCount="1" />
             </model>
         </weapon>
     </weapons>

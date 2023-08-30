@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement4">
     <model>
-        <structureUnit mesh="Units/AstraMilitarum/VoidShieldGenerator" material="Units/AstraMilitarum/VoidShieldGenerator" groundMaterial="Units/AstraMilitarum/VoidShieldGeneratorGround" idleAnimation="" idleAnimationCount="0" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" scale="1 1 1" explosionsBone="Hull">
+        <structureUnit explosionsBone="Hull" groundMaterial="Units/AstraMilitarum/VoidShieldGeneratorGround" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" idleAnimation="" idleAnimationCount="0" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" material="Units/AstraMilitarum/VoidShieldGenerator" mesh="Units/AstraMilitarum/VoidShieldGenerator" scale="1 1 1">
             <effects>
-                <effect blueprint="Effects/VoidShieldSparks" position="7.846479 31.787687 139.958389" bone="Hull" />
-                <effect blueprint="Effects/VoidShieldSparks" position="-31.616924 9.067568 139.958389" bone="Hull" />
-                <effect blueprint="Effects/VoidShieldSparks" position="31.430038 -8.655769 139.958389" bone="Hull" />
-                <effect blueprint="Effects/VoidShieldSparks" position="-8.033364 -31.375889 139.958389" bone="Hull" />
+                <effect blueprint="Effects/VoidShieldSparks" bone="Hull" position="7.846479 31.787687 139.958389" />
+                <effect blueprint="Effects/VoidShieldSparks" bone="Hull" position="-31.616924 9.067568 139.958389" />
+                <effect blueprint="Effects/VoidShieldSparks" bone="Hull" position="31.430038 -8.655769 139.958389" />
+                <effect blueprint="Effects/VoidShieldSparks" bone="Hull" position="-8.033364 -31.375889 139.958389" />
             </effects>
         </structureUnit>
     </model>
@@ -31,7 +31,7 @@
                 <action sound="Units/HeavyBuildingDie" soundCount="3" />
             </model>
         </die>
-        <genericUnitAbility icon="Traits/VoidShield" cooldownRemaining="1" name="AstraMilitarum/ProjectedVoidShield" passive="1">
+        <genericUnitAbility name="AstraMilitarum/ProjectedVoidShield" cooldownRemaining="1" icon="Traits/VoidShield" passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon fireSound="Weapons/HeavyGravCannon" fireSoundCount="1" muzzleFlashesBlueprint="Effects/IonMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/DScytheMuzzleFlashesEmitter" beamsBlueprint="Effects/IonBeams" beamsEmitterBlueprint="Effects/DScytheBeamsEmitter" explosionsBlueprint="Effects/DScytheExplosions" explosionsEmitterBlueprint="Effects/DScytheExplosionsEmitter" displaceExplosions="0" fireInterval="10.0" />
+        <beamWeapon beamsBlueprint="Effects/IonBeams" beamsEmitterBlueprint="Effects/DScytheBeamsEmitter" displaceExplosions="0" explosionsBlueprint="Effects/DScytheExplosions" explosionsEmitterBlueprint="Effects/DScytheExplosionsEmitter" fireInterval="10.0" fireSound="Weapons/HeavyGravCannon" fireSoundCount="1" muzzleFlashesBlueprint="Effects/IonMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/DScytheMuzzleFlashesEmitter" />
     </model>
     <modifiers>
         <modifier>

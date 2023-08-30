@@ -34,13 +34,13 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="SpaceMarines/Razorback" />
-        <produceUnit unit="SpaceMarines/ScoutBiker" requiredUpgrade="SpaceMarines/ScoutBiker" />
-        <produceUnit unit="SpaceMarines/LandSpeeder" requiredUpgrade="SpaceMarines/LandSpeeder" />
-        <produceUnit unit="SpaceMarines/Whirlwind" requiredUpgrade="SpaceMarines/Whirlwind" />
-        <produceUnit unit="SpaceMarines/Hunter" requiredUpgrade="SpaceMarines/Hunter" />
-        <produceUnit unit="SpaceMarines/Predator" requiredUpgrade="SpaceMarines/Predator" />
-        <produceUnit unit="SpaceMarines/Dreadnought" requiredUpgrade="SpaceMarines/Dreadnought" />
-        <produceUnit unit="SpaceMarines/Vindicator" requiredUpgrade="SpaceMarines/Vindicator" />
-        <produceUnit unit="SpaceMarines/LandRaider" requiredUpgrade="SpaceMarines/LandRaider" />
+        <produceUnit requiredUpgrade="SpaceMarines/ScoutBiker" unit="SpaceMarines/ScoutBiker" />
+        <produceUnit requiredUpgrade="SpaceMarines/LandSpeeder" unit="SpaceMarines/LandSpeeder" />
+        <produceUnit requiredUpgrade="SpaceMarines/Whirlwind" unit="SpaceMarines/Whirlwind" />
+        <produceUnit requiredUpgrade="SpaceMarines/Hunter" unit="SpaceMarines/Hunter" />
+        <produceUnit requiredUpgrade="SpaceMarines/Predator" unit="SpaceMarines/Predator" />
+        <produceUnit requiredUpgrade="SpaceMarines/Dreadnought" unit="SpaceMarines/Dreadnought" />
+        <produceUnit requiredUpgrade="SpaceMarines/Vindicator" unit="SpaceMarines/Vindicator" />
+        <produceUnit requiredUpgrade="SpaceMarines/LandRaider" unit="SpaceMarines/LandRaider" />
     </actions>
 </building>

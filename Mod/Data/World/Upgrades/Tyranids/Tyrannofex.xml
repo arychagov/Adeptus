@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="9" icon="Units/Tyranids/Tyrannofex">
+<upgrade icon="Units/Tyranids/Tyrannofex" position="9">
     <requiredUpgrades>
         <upgrade name="Tyranids/Vehicles" />
     </requiredUpgrades>

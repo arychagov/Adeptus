@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/AstraMilitarum/Baneblade" material="Units/AstraMilitarum/Baneblade" idleAnimation="Units/AstraMilitarum/BanebladeIdle" idleAnimationCount="3" scale="1.3 1.3 1.3" explosionsBone="Hull" uvAnimated="1" />
+        <unit explosionsBone="Hull" idleAnimation="Units/AstraMilitarum/BanebladeIdle" idleAnimationCount="3" material="Units/AstraMilitarum/Baneblade" mesh="Units/AstraMilitarum/Baneblade" scale="1.3 1.3 1.3" uvAnimated="1" />
     </model>
     <weapons>
         <weapon name="None" enabled="0">
             <model>
-                <weapon bone="Hull" mesh="Weapons/AstraMilitarum/BanebladeSideTurrets" material="Weapons/AstraMilitarum/BanebladeSideTurrets" />
+                <weapon bone="Hull" material="Weapons/AstraMilitarum/BanebladeSideTurrets" mesh="Weapons/AstraMilitarum/BanebladeSideTurrets" />
             </model>
         </weapon>
         <weapon name="Autocannon">
@@ -16,12 +16,12 @@
         </weapon>
         <weapon name="BanebladeCannon">
             <model>
-                <projectileWeapon muzzleBone=".BanebladeCannonMuzzle0" fireInterval="1.0" />
+                <projectileWeapon fireInterval="1.0" muzzleBone=".BanebladeCannonMuzzle0" />
             </model>
         </weapon>
-        <weapon name="DemolisherCannon" slotName="DemolisherCannon" enabled="0">
+        <weapon name="DemolisherCannon" enabled="0" slotName="DemolisherCannon">
             <model>
-                <projectileWeapon muzzleBone=".DemolisherCannonMuzzle0" fireInterval="1.0" />
+                <projectileWeapon fireInterval="1.0" muzzleBone=".DemolisherCannonMuzzle0" />
             </model>
         </weapon>
         <weapon name="TwinLinkedHeavyBolter">
@@ -31,17 +31,17 @@
         </weapon>
         <weapon name="TwinLinkedHeavyBolter" count="2" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
             <model>
-                <projectileWeapon bone="Hull" mesh="Weapons/AstraMilitarum/BanebladeTwinLinkedHeavyBolters" material="Units/AstraMilitarum/Baneblade" muzzleBone=".Muzzle" muzzleCount="4" />
+                <projectileWeapon bone="Hull" material="Units/AstraMilitarum/Baneblade" mesh="Weapons/AstraMilitarum/BanebladeTwinLinkedHeavyBolters" muzzleBone=".Muzzle" muzzleCount="4" />
             </model>
         </weapon>
-        <weapon name="Lascannon" slotName="Lascannon" count="2" enabled="0" requiredUpgrade="AstraMilitarum/BanebladeLascannon">
+        <weapon name="Lascannon" count="2" enabled="0" requiredUpgrade="AstraMilitarum/BanebladeLascannon" slotName="Lascannon">
             <model>
-                <beamWeapon bone="Hull" mesh="Weapons/AstraMilitarum/BanebladeLascannons" material="Weapons/AstraMilitarum/BanebladeLascannons" muzzleBone=".Muzzle" muzzleCount="2" fireInterval="1.0" cycleMuzzles="0" />
+                <beamWeapon bone="Hull" cycleMuzzles="0" fireInterval="1.0" material="Weapons/AstraMilitarum/BanebladeLascannons" mesh="Weapons/AstraMilitarum/BanebladeLascannons" muzzleBone=".Muzzle" muzzleCount="2" />
             </model>
         </weapon>
-        <weapon name="HunterKillerMissile" slotName="HunterKillerMissile" enabled="0">
+        <weapon name="HunterKillerMissile" enabled="0" slotName="HunterKillerMissile">
             <model>
-                <missileWeapon muzzleBone=".AutoCannonMuzzle0" fireInterval="5.0" />
+                <missileWeapon fireInterval="5.0" muzzleBone=".AutoCannonMuzzle0" />
             </model>
         </weapon>
     </weapons>
@@ -59,7 +59,7 @@
                 <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>
         </modifier>
-        <modifier visible="0" requiredUpgrade="AstraMilitarum/RelicPlating">
+        <modifier requiredUpgrade="AstraMilitarum/RelicPlating" visible="0">
             <effects>
                 <armor add="1" />
             </effects>
@@ -105,17 +105,17 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <useWeapon cooldown="1" requiredActionPoints="0" consumedActionPoints="0" weaponSlotName="DemolisherCannon">
+        <useWeapon consumedActionPoints="0" cooldown="1" requiredActionPoints="0" weaponSlotName="DemolisherCannon">
             <model>
                 <action animation="Units/AstraMilitarum/BanebladeAttack" beginFire="0.2" endFire="2.7" />
             </model>
         </useWeapon>
-        <useWeapon cooldown="1" requiredActionPoints="0" consumedActionPoints="0" weaponSlotName="Lascannon">
+        <useWeapon consumedActionPoints="0" cooldown="1" requiredActionPoints="0" weaponSlotName="Lascannon">
             <model>
                 <action animation="Units/AstraMilitarum/BanebladeAttack" beginFire="0.2" endFire="2.7" />
             </model>
         </useWeapon>
-        <createSmokeScreen icon="Traits/SmokeScreen" cooldown="10" requiredUpgrade="AstraMilitarum/SmokeLauncher">
+        <createSmokeScreen cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="AstraMilitarum/SmokeLauncher">
             <model>
                 <action sound="Actions/SmokeScreen" />
             </model>
@@ -126,7 +126,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature duration="3" name="SmokeScreen" />
+                                        <addFeature name="SmokeScreen" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -135,7 +135,7 @@
                 </selfTarget>
             </beginTargets>
         </createSmokeScreen>
-        <useWeapon weaponSlotName="HunterKillerMissile" requiredActionPoints="0" consumedActionPoints="0" cooldown="10" requiredUpgrade="AstraMilitarum/HunterKillerMissile">
+        <useWeapon consumedActionPoints="0" cooldown="10" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
             <model>
                 <action beginFire="0.1" endFire="1.0" />
             </model>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" rankMax="2" icon="Actions/PowerStrike">
+<trait category="Buff" icon="Actions/PowerStrike" rankMax="2">
     <modifiers>
         <modifier>
             <effects>
-                <meleeAttacks addMin="3" addMax="9" />
+                <meleeAttacks addMax="9" addMin="3" />
             </effects>
         </modifier>
     </modifiers>

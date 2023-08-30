@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon fireSound="Weapons/MagnarailLance" fireSoundCount="1" muzzleFlashesBlueprint="Effects/IonMuzzleFlashes" beamsBlueprint="Effects/IonBeams" />
+        <beamWeapon beamsBlueprint="Effects/IonBeams" fireSound="Weapons/MagnarailLance" fireSoundCount="1" muzzleFlashesBlueprint="Effects/IonMuzzleFlashes" />
     </model>
     <modifiers>
         <modifier>

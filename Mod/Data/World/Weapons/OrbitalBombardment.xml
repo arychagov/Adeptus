@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon icon="Actions/OrbitalBombardment" attributesModifiedByUnit="0">
+<weapon attributesModifiedByUnit="0" icon="Actions/OrbitalBombardment">
     <model>
         <weapon explosionsBlueprint="Effects/MissileExplosions" explosionsEmitterBlueprint="Effects/BombardmentExplosionsEmitter" />
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <accuracy min="8" max="8" />
+                <accuracy max="8" min="8" />
                 <attacks add="1" />
                 <rangedArmorPenetration add="8" /> <!-- %rangedArmorPenetration add armorPiercing=1 -->
                 <rangedDamage add="12" /> <!-- %rangedDamage add strength=10 -->

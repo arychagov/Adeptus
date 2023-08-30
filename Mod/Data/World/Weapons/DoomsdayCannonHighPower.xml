@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon icon="Weapons/DoomsdayCannon">
     <model>
-        <projectileWeapon explosionsBlueprint="Effects/NecronExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" fireInterval="1.0" fireSound="Weapons/DoomsdayCannonHighPower" fireSoundCount="3" muzzleFlashesBlueprint="Effects/GaussMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/LasMuzzleFlashesEmitter" directionalMuzzleFlashesBlueprint="" projectilesBlueprint="Effects/DoomsdayCannonProjectiles" />
+        <projectileWeapon directionalMuzzleFlashesBlueprint="" explosionsBlueprint="Effects/NecronExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" fireInterval="1.0" fireSound="Weapons/DoomsdayCannonHighPower" fireSoundCount="3" muzzleFlashesBlueprint="Effects/GaussMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/LasMuzzleFlashesEmitter" projectilesBlueprint="Effects/DoomsdayCannonProjectiles" />
     </model>
     <modifiers>
         <modifier>

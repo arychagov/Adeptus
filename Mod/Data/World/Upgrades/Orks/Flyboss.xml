@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="9" icon="Traits/Orks/Flyboss">
+<upgrade icon="Traits/Orks/Flyboss" position="9">
     <requiredUpgrades>
         <upgrade name="Orks/Dakkajet" />
     </requiredUpgrades>

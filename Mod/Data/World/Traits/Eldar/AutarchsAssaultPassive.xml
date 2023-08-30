@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait visible="0" category="Buff" icon="Actions/Eldar/AutarchsAssault" rankMax="2">
+<trait category="Buff" icon="Actions/Eldar/AutarchsAssault" rankMax="2" visible="0">
     <onEnemyKilledSelf>
         <area affects="Unit" radius="3">
             <modifiers>
@@ -11,7 +11,7 @@
                         </unit>
                     </conditions>
                     <effects>
-                        <addTrait duration="1" name="Eldar/AutarchsAssault" />
+                        <addTrait name="Eldar/AutarchsAssault" duration="1" />
                     </effects>
                 </modifier>
             </modifiers>

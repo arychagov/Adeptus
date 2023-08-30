@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement9">
     <model>
-        <unit mesh="Units/AdeptusMechanicus/KataphronDestroyer" material="Units/AdeptusMechanicus/KataphronDestroyer" idleAnimation="Units/AdeptusMechanicus/KataphronDestroyerIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.8 0.8 0.8" explosionsBone="Chest" uvAnimated="1" />
+        <unit explosionsBone="Chest" idleAnimation="Units/AdeptusMechanicus/KataphronDestroyerIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AdeptusMechanicus/KataphronDestroyer" mesh="Units/AdeptusMechanicus/KataphronDestroyer" normalWeight="0.1" scale="0.8 0.8 0.8" uvAnimated="1" />
     </model>
-    <group size="3" rowSize="3" memberDeltaX="80" memberDeltaY="80" />
+    <group memberDeltaX="80" memberDeltaY="80" rowSize="3" size="3" />
     <weapons>
         <weapon name="HeavyGravCannon">
             <model>
@@ -12,7 +12,7 @@
         </weapon>
         <weapon name="PhosphorBlaster">
             <model>
-                <projectileWeapon muzzleBone="Muzzle" fireInterval="0.3" />
+                <projectileWeapon fireInterval="0.3" muzzleBone="Muzzle" />
             </model>
         </weapon>
     </weapons>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="7" icon="Traits/ExtraVehicleArmour">
+<upgrade icon="Traits/ExtraVehicleArmour" position="7">
     <requiredUpgrades>
         <upgrade name="Orks/KillaKan" />
         <upgrade name="Orks/Vehicles" />

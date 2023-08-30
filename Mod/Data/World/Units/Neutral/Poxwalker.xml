@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit spawnDistanceMin="6" dlc="Supplement12">
+<unit dlc="Supplement12" spawnDistanceMin="6">
     <model>
-        <unit mesh="Units/Neutral/Poxwalker" material="Units/Neutral/Poxwalker" idleAnimation="Units/Neutral/PoxwalkerIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.9 0.9 0.9" bloodBone="Chest" walker="1" />
+        <unit bloodBone="Chest" idleAnimation="Units/Neutral/PoxwalkerIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Neutral/Poxwalker" mesh="Units/Neutral/Poxwalker" normalWeight="0.1" scale="0.9 0.9 0.9" walker="1" />
     </model>
-    <group size="10" rowSize="5" memberDeltaX="70" memberDeltaY="50" />
+    <group memberDeltaX="70" memberDeltaY="50" rowSize="5" size="10" />
     <weapons>
         <weapon name="CloseCombatWeapon">
             <model>

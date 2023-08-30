@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/Orks/Warbuggy" material="Units/Orks/Warbuggy" idleAnimation="Units/Orks/WarbuggyIdle" idleAnimationCount="3" idleContinuously="1" scale="1.1 1.1 1.1" explosionsBone="Hull_Warbuggy" />
+        <unit explosionsBone="Hull_Warbuggy" idleAnimation="Units/Orks/WarbuggyIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Orks/Warbuggy" mesh="Units/Orks/Warbuggy" scale="1.1 1.1 1.1" />
     </model>
-    <group size="2" rowSize="2" memberDeltaX="64" memberDeltaY="100" />
+    <group memberDeltaX="64" memberDeltaY="100" rowSize="2" size="2" />
     <weapons>
         <weapon name="TwinLinkedBigShoota">
             <model>

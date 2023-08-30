@@ -34,7 +34,7 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="SistersOfBattle/LightningFighter" />
-        <produceUnit unit="SistersOfBattle/AvengerStrikeFighter" requiredUpgrade="SistersOfBattle/AvengerStrikeFighter" />
-        <produceUnit unit="SistersOfBattle/CerastusKnightLancer" requiredUpgrade="SistersOfBattle/CerastusKnightLancer" />
+        <produceUnit requiredUpgrade="SistersOfBattle/AvengerStrikeFighter" unit="SistersOfBattle/AvengerStrikeFighter" />
+        <produceUnit requiredUpgrade="SistersOfBattle/CerastusKnightLancer" unit="SistersOfBattle/CerastusKnightLancer" />
     </actions>
 </building>

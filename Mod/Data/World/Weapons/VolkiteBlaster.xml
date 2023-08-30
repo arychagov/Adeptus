@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon fireSound="Weapons/VolkiteBlaster" fireSoundCount="3" beamsBlueprint="Effects/FusionBeams" beamsEmitterBlueprint="Effects/MeltaBeamsEmitter" muzzleFlashesBlueprint="Effects/FusionMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/MeltaMuzzleFlashesEmitter" fireInterval="0.5" />
+        <beamWeapon beamsBlueprint="Effects/FusionBeams" beamsEmitterBlueprint="Effects/MeltaBeamsEmitter" fireInterval="0.5" fireSound="Weapons/VolkiteBlaster" fireSoundCount="3" muzzleFlashesBlueprint="Effects/FusionMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/MeltaMuzzleFlashesEmitter" />
     </model>
     <modifiers>
         <modifier>

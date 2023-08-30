@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement9">
     <model>
-        <unit mesh="Units/AdeptusMechanicus/KnightCrusader" material="Units/AdeptusMechanicus/KnightCrusader" idleAnimation="Units/AdeptusMechanicus/KnightCrusaderIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1.0 1.0 1.0" explosionsBone="Chest" walker="1" />
+        <unit explosionsBone="Chest" idleAnimation="Units/AdeptusMechanicus/KnightCrusaderIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AdeptusMechanicus/KnightCrusader" mesh="Units/AdeptusMechanicus/KnightCrusader" normalWeight="0.1" scale="1.0 1.0 1.0" walker="1" />
     </model>
     <weapons>
         <weapon name="RapidFireBattleCannon">
             <model>
-                <projectileWeapon muzzleBone="CannonMuzzle" fireInterval="0.73" />
+                <projectileWeapon fireInterval="0.73" muzzleBone="CannonMuzzle" />
             </model>
         </weapon>
-        <weapon enabled="0" name="TwinLinkedIcarusAutocannon" count="2" slotName="TwinLinkedIcarusAutocannon" requiredUpgrade="AdeptusMechanicus/TwinLinkedIcarusAutocannon">
+        <weapon name="TwinLinkedIcarusAutocannon" count="2" enabled="0" requiredUpgrade="AdeptusMechanicus/TwinLinkedIcarusAutocannon" slotName="TwinLinkedIcarusAutocannon">
             <model>
-                <projectileWeapon mesh="Weapons/AdeptusMechanicus/KnightCrusaderGun" material="Units/AdeptusMechanicus/KnightCrusader" bone="Turret" muzzleBone="IcarusMuzzle" muzzleCount="2" effectFaceWeight="0" />
+                <projectileWeapon bone="Turret" effectFaceWeight="0" material="Units/AdeptusMechanicus/KnightCrusader" mesh="Weapons/AdeptusMechanicus/KnightCrusaderGun" muzzleBone="IcarusMuzzle" muzzleCount="2" />
             </model>
         </weapon>
-        <weapon name="Stomp" slotName="Stomp" enabled="0" />
+        <weapon name="Stomp" enabled="0" slotName="Stomp" />
     </weapons>
     <modifiers>
         <modifier visible="0">
@@ -116,7 +116,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <useWeapon cooldown="1" requiredActionPoints="0" consumedActionPoints="0" weaponSlotName="TwinLinkedIcarusAutocannon" requiredUpgrade="AdeptusMechanicus/TwinLinkedIcarusAutocannon">
+        <useWeapon consumedActionPoints="0" cooldown="1" requiredActionPoints="0" requiredUpgrade="AdeptusMechanicus/TwinLinkedIcarusAutocannon" weaponSlotName="TwinLinkedIcarusAutocannon">
             <model>
                 <action animation="Units/AdeptusMechanicus/KnightCrusaderAttack" beginFire="0.86" endFire="2.0" />
             </model>

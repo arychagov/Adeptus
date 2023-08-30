@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/AstraMilitarum/Hydra" material="Units/AstraMilitarum/Hydra" idleAnimation="Units/AstraMilitarum/HydraIdle" idleAnimationCount="2" scale="1.2 1.2 1.2" explosionsBone="Hull" uvAnimated="1" />
+        <unit explosionsBone="Hull" idleAnimation="Units/AstraMilitarum/HydraIdle" idleAnimationCount="2" material="Units/AstraMilitarum/Hydra" mesh="Units/AstraMilitarum/Hydra" scale="1.2 1.2 1.2" uvAnimated="1" />
     </model>
     <weapons>
         <weapon name="TwinLinkedHydraAutocannon" count="2">
             <model>
-                <projectileWeapon muzzleBone=".Muzzle" muzzleCount="4" effectFaceWeight="0" />
+                <projectileWeapon effectFaceWeight="0" muzzleBone=".Muzzle" muzzleCount="4" />
             </model>
         </weapon>
         <weapon name="HeavyBolter">
             <model>
-                <projectileWeapon mesh="Weapons/AstraMilitarum/HydraHeavyBolter" material="Weapons/AstraMilitarum/HydraHeavyBolter" bone=".Attachment1" muzzleBone=".BolterMuzzle0" />
+                <projectileWeapon bone=".Attachment1" material="Weapons/AstraMilitarum/HydraHeavyBolter" mesh="Weapons/AstraMilitarum/HydraHeavyBolter" muzzleBone=".BolterMuzzle0" />
             </model>
         </weapon>
-        <weapon name="HunterKillerMissile" slotName="HunterKillerMissile" enabled="0">
+        <weapon name="HunterKillerMissile" enabled="0" slotName="HunterKillerMissile">
             <model>
                 <missileWeapon muzzleBone="Hull" />
             </model>
@@ -58,7 +58,7 @@
                 <action animation="Units/AstraMilitarum/HydraMove" sound="Units/AstraMilitarum/TankMove" soundCount="3" />
             </model>
         </move>
-        <createSmokeScreen icon="Traits/SmokeScreen" cooldown="10" requiredUpgrade="AstraMilitarum/SmokeLauncher">
+        <createSmokeScreen cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="AstraMilitarum/SmokeLauncher">
             <model>
                 <action sound="Actions/SmokeScreen" />
             </model>
@@ -69,7 +69,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature duration="3" name="SmokeScreen" />
+                                        <addFeature name="SmokeScreen" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -78,7 +78,7 @@
                 </selfTarget>
             </beginTargets>
         </createSmokeScreen>
-        <useWeapon weaponSlotName="HunterKillerMissile" cooldown="10" requiredUpgrade="AstraMilitarum/HunterKillerMissile">
+        <useWeapon cooldown="10" requiredUpgrade="AstraMilitarum/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
             <model>
                 <action beginFire="0.1" endFire="1.0" />
             </model>

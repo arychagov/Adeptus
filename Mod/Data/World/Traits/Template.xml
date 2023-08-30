@@ -13,7 +13,7 @@
                 </weapon>
             </conditions>
             <effects>
-                <rangedAccuracy min="12" max="12" /> <!-- Don't roll to hit. -->
+                <rangedAccuracy max="12" min="12" /> <!-- Don't roll to hit. -->
             </effects>
         </modifier>
         <modifier>
@@ -23,7 +23,7 @@
                 </weapon>
             </conditions>
             <effects>
-                <rangedAccuracy min="14" max="14" /> <!-- Don't roll to hit. -->
+                <rangedAccuracy max="14" min="14" /> <!-- Don't roll to hit. -->
             </effects>
         </modifier>
     </modifiers>

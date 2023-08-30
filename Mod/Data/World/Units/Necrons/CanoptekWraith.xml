@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement8">
     <model>
-        <unit mesh="Units/Necrons/CanoptekWraith" material="Units/Necrons/CanoptekWraith" idleAnimation="Units/Necrons/CanoptekWraithIdle" idleAnimationCount="3" idleContinuously="1" scale="1 1 1" explosionsBone="SpineCore" />
+        <unit explosionsBone="SpineCore" idleAnimation="Units/Necrons/CanoptekWraithIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Necrons/CanoptekWraith" mesh="Units/Necrons/CanoptekWraith" scale="1 1 1" />
     </model>
-    <group size="2" rowSize="2" memberDeltaX="70" memberDeltaY="80" />
+    <group memberDeltaX="70" memberDeltaY="80" rowSize="2" size="2" />
     <weapons>
         <weapon name="WhipCoils">
             <model>
@@ -57,7 +57,7 @@
                 <action animation="Units/Necrons/CanoptekWraithMove" sound="Units/Necrons/CanoptekSpyderMove" soundCount="3" />
             </model>
         </move>
-        <necrodermisRepair consumedActionPoints="0" consumedMovement="0" cooldown="1" name="Necrons/NecrodermisRepair" requiredActionPoints="0">
+        <necrodermisRepair name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
             <model>
                 <action sound="Actions/Heal" />
             </model>

@@ -19,7 +19,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="2" name="Blighted" />
+                                        <addTrait name="Blighted" duration="2" />
                                     </effects>
                                 </modifier>
                             </modifiers>

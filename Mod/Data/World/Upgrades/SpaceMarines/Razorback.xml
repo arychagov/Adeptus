@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade visible="0" position="1" icon="Units/SpaceMarines/Razorback" dlc="Supplement6" />
+<upgrade dlc="Supplement6" icon="Units/SpaceMarines/Razorback" position="1" visible="0" />

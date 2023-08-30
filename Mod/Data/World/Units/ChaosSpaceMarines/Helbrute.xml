@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement3">
     <model>
-        <unit mesh="Units/ChaosSpaceMarines/Helbrute" material="Units/ChaosSpaceMarines/Helbrute" idleAnimation="Units/ChaosSpaceMarines/HelbruteIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.9 0.9 0.9" syncMovementSounds="1" explosionsBone="Bone001" walker="1" />
+        <unit explosionsBone="Bone001" idleAnimation="Units/ChaosSpaceMarines/HelbruteIdle" idleAnimationCount="3" idleContinuously="1" material="Units/ChaosSpaceMarines/Helbrute" mesh="Units/ChaosSpaceMarines/Helbrute" normalWeight="0.1" scale="0.9 0.9 0.9" syncMovementSounds="1" walker="1" />
     </model>
     <weapons>
         <weapon name="HavocLauncher" requiredUpgrade="ChaosSpaceMarines/HavocLauncher" />
         <weapon name="ReaperAutocannon" />
         <weapon name="ReaperAutocannon">
             <model>
-                <projectileWeapon muzzleBone=".Muzzle" effectScale="1.0" muzzleCount="2" />
+                <projectileWeapon effectScale="1.0" muzzleBone=".Muzzle" muzzleCount="2" />
             </model>
         </weapon>
     </weapons>
@@ -41,7 +41,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/ChaosSpaceMarines/HelbruteAttack" beginFire="1" endFire="2" chargeAnimation="Units/ChaosSpaceMarines/HelbruteCharge" chargeBeginFire="0.33" chargeEndFire="1.1" meleeAnimation="Units/ChaosSpaceMarines/HelbruteMelee" meleeBeginSwing="0.17" meleeEndSwing="1" />
+                <action animation="Units/ChaosSpaceMarines/HelbruteAttack" beginFire="1" chargeAnimation="Units/ChaosSpaceMarines/HelbruteCharge" chargeBeginFire="0.33" chargeEndFire="1.1" endFire="2" meleeAnimation="Units/ChaosSpaceMarines/HelbruteMelee" meleeBeginSwing="0.17" meleeEndSwing="1" />
             </model>
         </attack>
         <die>

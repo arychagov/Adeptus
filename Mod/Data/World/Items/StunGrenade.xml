@@ -20,7 +20,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Stunned" />
+                                        <addTrait name="Stunned" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

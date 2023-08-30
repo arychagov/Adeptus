@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon fireSound="Weapons/PlasmaCutter" fireSoundCount="4" beamsBlueprint="Effects/IonBeams" beamsEmitterBlueprint="Effects/MeltaBeamsEmitter" muzzleFlashesBlueprint="Effects/IonMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/MeltaMuzzleFlashesEmitter" fireInterval="0.5" />
+        <beamWeapon beamsBlueprint="Effects/IonBeams" beamsEmitterBlueprint="Effects/MeltaBeamsEmitter" fireInterval="0.5" fireSound="Weapons/PlasmaCutter" fireSoundCount="4" muzzleFlashesBlueprint="Effects/IonMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/MeltaMuzzleFlashesEmitter" />
     </model>
     <modifiers>
         <modifier>

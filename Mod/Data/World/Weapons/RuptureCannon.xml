@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon fireSound="Weapons/RuptureCannon" fireSoundCount="3" muzzleFlashesBlueprint="Effects/BioPlasmaMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/StranglethornMuzzleFlashesEmitter" directionalMuzzleFlashesBlueprint="Effects/BioPlasmaDirectionalMuzzleFlashes" directionalMuzzleFlashesEmitterBlueprint="Effects/StranglethornDirectionalMuzzleFlashesEmitter" projectilesBlueprint="Effects/FleshborerProjectiles" projectilesEmitterBlueprint="Effects/StranglethornProjectilesEmitter" explosionsBlueprint="Effects/BioPlasmaExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" />
+        <projectileWeapon directionalMuzzleFlashesBlueprint="Effects/BioPlasmaDirectionalMuzzleFlashes" directionalMuzzleFlashesEmitterBlueprint="Effects/StranglethornDirectionalMuzzleFlashesEmitter" explosionsBlueprint="Effects/BioPlasmaExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" fireSound="Weapons/RuptureCannon" fireSoundCount="3" muzzleFlashesBlueprint="Effects/BioPlasmaMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/StranglethornMuzzleFlashesEmitter" projectilesBlueprint="Effects/FleshborerProjectiles" projectilesEmitterBlueprint="Effects/StranglethornProjectilesEmitter" />
     </model>
     <modifiers>
         <modifier>

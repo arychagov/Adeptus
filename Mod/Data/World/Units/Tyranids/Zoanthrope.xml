@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement2">
     <model>
-        <unit mesh="Units/Tyranids/Zoanthrope" material="Units/Tyranids/Zoanthrope" idleAnimation="Units/Tyranids/ZoanthropeIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1 1 1" bloodBone="BloodBone" walker="1" />
+        <unit bloodBone="BloodBone" idleAnimation="Units/Tyranids/ZoanthropeIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tyranids/Zoanthrope" mesh="Units/Tyranids/Zoanthrope" normalWeight="0.1" scale="1 1 1" walker="1" />
     </model>
-    <group size="2" rowSize="2" memberDeltaX="80" memberDeltaY="80" />
+    <group memberDeltaX="80" memberDeltaY="80" rowSize="2" size="2" />
     <weapons>
         <weapon name="CloseCombatWeapon">
             <model>
                 <weapon fireInterval="1.0" />
             </model>
         </weapon>
-        <weapon name="WarpBlastBurst" slotName="WarpBlastBurst" enabled="0">>
+        <weapon name="WarpBlastBurst" enabled="0" slotName="WarpBlastBurst">>
             <model>
                 <beamWeapon muzzleBone="BloodBone" />
             </model>
         </weapon>
-        <weapon name="WarpBlastLance" slotName="WarpBlastLance" enabled="0">
+        <weapon name="WarpBlastLance" enabled="0" slotName="WarpBlastLance">
             <model>
                 <beamWeapon muzzleBone="BloodBone" />
             </model>
@@ -88,7 +88,7 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1" excludeRadius="0">
+                        <area affects="Tile" excludeRadius="0" radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
@@ -118,7 +118,7 @@
                 <action name="UseWeapon/WarpBlastBurst" />
             </sharedCooldowns>
         </useWeapon>
-        <theHorror cooldown="1" name="Tyranids/TheHorror" psychicPower="1">
+        <theHorror name="Tyranids/TheHorror" cooldown="1" psychicPower="1">
             <model>
                 <action animation="Units/Tyranids/ZoanthropeCast" sound="Actions/HiveMindDebuff" />
             </model>
@@ -142,7 +142,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="2" name="Pinned" />
+                                        <addTrait name="Pinned" duration="2" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -151,7 +151,7 @@
                 </target>
             </beginTargets>
         </theHorror>
-        <paroxysm cooldown="1" name="Tyranids/Paroxysm" psychicPower="1" requiredUpgrade="Tyranids/Paroxysm">
+        <paroxysm name="Tyranids/Paroxysm" cooldown="1" psychicPower="1" requiredUpgrade="Tyranids/Paroxysm">
             <model>
                 <action animation="Units/Tyranids/ZoanthropeCast" sound="Actions/HiveMindDebuff" />
             </model>
@@ -167,7 +167,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="2" name="Tyranids/Paroxysm" />
+                                        <addTrait name="Tyranids/Paroxysm" duration="2" />
                                     </effects>
                                 </modifier>
                             </modifiers>

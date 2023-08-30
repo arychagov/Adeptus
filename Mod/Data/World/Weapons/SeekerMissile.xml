@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <missileWeapon fireSound="Weapons/HunterKillerMissile" fireSoundCount="3" fireInterval="5.0" />
+        <missileWeapon fireInterval="5.0" fireSound="Weapons/HunterKillerMissile" fireSoundCount="3" />
     </model>
     <modifiers>
         <modifier>

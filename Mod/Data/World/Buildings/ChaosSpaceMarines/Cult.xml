@@ -33,6 +33,6 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="ChaosSpaceMarines/ChaosCultist" />
-        <produceUnit unit="ChaosSpaceMarines/ChaosSpawn" requiredUpgrade="ChaosSpaceMarines/ChaosSpawn" />
+        <produceUnit requiredUpgrade="ChaosSpaceMarines/ChaosSpawn" unit="ChaosSpaceMarines/ChaosSpawn" />
     </actions>
 </building>

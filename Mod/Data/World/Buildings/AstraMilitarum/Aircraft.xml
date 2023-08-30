@@ -34,7 +34,7 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="AstraMilitarum/Valkyrie" />
-        <produceUnit unit="AstraMilitarum/Thunderbolt" requiredUpgrade="AstraMilitarum/Thunderbolt" />
-        <produceUnit unit="AstraMilitarum/MarauderBomber" requiredUpgrade="AstraMilitarum/MarauderBomber" />
+        <produceUnit requiredUpgrade="AstraMilitarum/Thunderbolt" unit="AstraMilitarum/Thunderbolt" />
+        <produceUnit requiredUpgrade="AstraMilitarum/MarauderBomber" unit="AstraMilitarum/MarauderBomber" />
     </actions>
 </building>

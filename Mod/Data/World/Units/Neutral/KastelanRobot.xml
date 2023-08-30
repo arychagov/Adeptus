@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit faction="AdeptusMechanicus">
     <model>
-        <unit mesh="Units/Neutral/KastelanRobot" material="Units/Neutral/KastelanRobot" idleAnimation="Units/Neutral/KastelanRobotIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.75 0.75 0.75" explosionsBone="BloodBone" walker="1" />
+        <unit explosionsBone="BloodBone" idleAnimation="Units/Neutral/KastelanRobotIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Neutral/KastelanRobot" mesh="Units/Neutral/KastelanRobot" normalWeight="0.1" scale="0.75 0.75 0.75" walker="1" />
     </model>
     <weapons>
         <weapon name="TwinLinkedHeavyPhosphorBlaster">
@@ -11,7 +11,7 @@
         </weapon>
         <weapon name="IncendineCombustor">
             <model>
-                <flamerWeapon muzzleBone=".IncendineCombustorMuzzle" fireInterval="0.35" />
+                <flamerWeapon fireInterval="0.35" muzzleBone=".IncendineCombustorMuzzle" />
             </model>
         </weapon>
     </weapons>
@@ -56,7 +56,7 @@
                 <action animation="Units/Neutral/KastelanRobotMove" sound="Units/Tau/MonstrousWalkerMove" soundCount="1" />
             </model>
         </move>
-        <auraOfFear passive="1" enabled="0" visible="0">
+        <auraOfFear enabled="0" passive="1" visible="0">
             <beginTargets>
                 <selfTarget>
                     <areas>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement9">
     <model>
-        <unit mesh="Units/AdeptusMechanicus/OnagerDunecrawler" material="Units/AdeptusMechanicus/OnagerDunecrawler" idleAnimation="Units/AdeptusMechanicus/OnagerDunecrawlerIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1.2 1.2 1.2" syncMovementSounds="1" explosionsBone="Head" walker="1" />
+        <unit explosionsBone="Head" idleAnimation="Units/AdeptusMechanicus/OnagerDunecrawlerIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AdeptusMechanicus/OnagerDunecrawler" mesh="Units/AdeptusMechanicus/OnagerDunecrawler" normalWeight="0.1" scale="1.2 1.2 1.2" syncMovementSounds="1" walker="1" />
     </model>
     <weapons>
         <weapon name="TwinLinkedIcarusAutocannon">
@@ -11,22 +11,22 @@
         </weapon>
         <weapon name="DaedalusMissileLauncher">
             <model>
-                <missileWeapon muzzleBone="MissileMuzzle0" missileScale="0.5" />
+                <missileWeapon missileScale="0.5" muzzleBone="MissileMuzzle0" />
             </model>
         </weapon>
         <weapon name="GatlingRocketLauncher">
             <model>
-                <missileWeapon muzzleBone="MissileMuzzle1" missileScale="0.5" />
+                <missileWeapon missileScale="0.5" muzzleBone="MissileMuzzle1" />
             </model>
         </weapon>
         <weapon name="CognisHeavyStubber" requiredUpgrade="AdeptusMechanicus/CognisHeavyStubber">
             <model>
-                <projectileWeapon mesh="Weapons/AdeptusMechanicus/OnagerDunecrawlerGun" material="Units/AdeptusMechanicus/OnagerDunecrawler" bone="Machinegun" muzzleBone="StubberMuzzle" />
+                <projectileWeapon bone="Machinegun" material="Units/AdeptusMechanicus/OnagerDunecrawler" mesh="Weapons/AdeptusMechanicus/OnagerDunecrawlerGun" muzzleBone="StubberMuzzle" />
             </model>
         </weapon>
-        <weapon name="None" requiredUpgrade="AdeptusMechanicus/BroadSpectrumDataTether" enabled="0">
+        <weapon name="None" enabled="0" requiredUpgrade="AdeptusMechanicus/BroadSpectrumDataTether">
             <model>
-                <weapon mesh="Weapons/AdeptusMechanicus/OnagerDunecrawlerAntenna" material="Units/AdeptusMechanicus/OnagerDunecrawler" bone="Antenna" />
+                <weapon bone="Antenna" material="Units/AdeptusMechanicus/OnagerDunecrawler" mesh="Weapons/AdeptusMechanicus/OnagerDunecrawlerAntenna" />
             </model>
         </weapon>
     </weapons>

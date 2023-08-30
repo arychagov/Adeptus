@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon fireSound="Weapons/AvengerGatlingCannon" fireSoundCount="1" fireInterval="0.1" effectScale="1.5" />
+        <projectileWeapon effectScale="1.5" fireInterval="0.1" fireSound="Weapons/AvengerGatlingCannon" fireSoundCount="1" />
     </model>
     <modifiers>
         <modifier>

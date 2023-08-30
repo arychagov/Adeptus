@@ -34,7 +34,7 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="Tau/CadreFireblade" />
-        <produceUnit unit="Tau/Ethereal" requiredUpgrade="Tau/Ethereal" />
-        <produceUnit unit="Tau/Commander" requiredUpgrade="Tau/Commander" />
+        <produceUnit requiredUpgrade="Tau/Ethereal" unit="Tau/Ethereal" />
+        <produceUnit requiredUpgrade="Tau/Commander" unit="Tau/Commander" />
     </actions>
 </building>

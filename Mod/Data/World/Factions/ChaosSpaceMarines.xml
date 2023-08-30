@@ -27,12 +27,12 @@
         <track name="Music/TyranidsTheme" dlc="Supplement2" />
     </music>
     <quests>
-        <quest name="ChaosSpaceMarines/Story0" icon="Quests/ChaosSpaceMarines/Chapter0" firstTurn="2" lastTurn="2">
+        <quest name="ChaosSpaceMarines/Story0" firstTurn="2" icon="Quests/ChaosSpaceMarines/Chapter0" lastTurn="2">
             <stages>
                 <stage>
                     <objectives>
                         <constructBuilding buildingType="ChaosSpaceMarines/Cult" />
-                        <produceUnit unitType="ChaosSpaceMarines/ChaosCultist" ignoreExisting="1" />
+                        <produceUnit ignoreExisting="1" unitType="ChaosSpaceMarines/ChaosCultist" />
                         <researchUpgrade upgrade="ChaosSpaceMarines/Bloated" />
                     </objectives>
                     <rewards>
@@ -41,9 +41,9 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <surviveInvasion waves="3" waveInterval="2" strength="1" relativeStrength="0.125">
+                        <surviveInvasion relativeStrength="0.125" strength="1" waveInterval="2" waves="3">
                             <attackers>
-                                <unit type="AstraMilitarum/Guardsman" rankMin="0" rankMax="2" />
+                                <unit rankMax="2" rankMin="0" type="AstraMilitarum/Guardsman" />
                             </attackers>
                         </surviveInvasion>
                     </objectives>
@@ -53,7 +53,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="ChaosSpaceMarines/Story1" icon="Quests/ChaosSpaceMarines/Chapter1" firstTurn="20" lastTurn="30">
+        <quest name="ChaosSpaceMarines/Story1" firstTurn="20" icon="Quests/ChaosSpaceMarines/Chapter1" lastTurn="30">
             <conditions>
                 <quests>
                     <completed name="ChaosSpaceMarines/Story0" />
@@ -79,7 +79,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="ChaosSpaceMarines/Story2" icon="Quests/ChaosSpaceMarines/Chapter2" firstTurn="40" lastTurn="50">
+        <quest name="ChaosSpaceMarines/Story2" firstTurn="40" icon="Quests/ChaosSpaceMarines/Chapter2" lastTurn="50">
             <conditions>
                 <quests>
                     <completed name="ChaosSpaceMarines/Story1" />
@@ -90,21 +90,21 @@
                     <objectives>
                         <researchUpgrade upgrade="ChaosSpaceMarines/MarkOfNurgle" />
                         <executePlayerOrder name="ChaosSpaceMarines/MarkOfNurgle" description="UseMarkDescription" />
-                        <accumulatePopulation count="16" checkTotal="1" />
+                        <accumulatePopulation checkTotal="1" count="16" />
                     </objectives>
                     <rewards>
-                        <item type="BlightGrenade" amount="2" />
+                        <item amount="2" type="BlightGrenade" />
                     </rewards>
                 </stage>
                 <stage>
                     <objectives>
-                        <killCamp strength="4" relativeStrength="0.5" faction="Tyranids">
-                            <boss type="Tyranids/Headquarters" name="Units/Tyranids/ChaosQuestCamp" />
+                        <killCamp faction="Tyranids" relativeStrength="0.5" strength="4">
+                            <boss name="Units/Tyranids/ChaosQuestCamp" type="Tyranids/Headquarters" />
                             <defenders>
-                                <unit type="Tyranids/Termagant" count="1" rankMin="2" rankMax="4" />
-                                <unit type="Tyranids/Hormagaunt" count="1" rankMin="2" rankMax="4" />
-                                <unit type="Tyranids/Ravener" count="1" rankMin="2" rankMax="4" />
-                                <unit type="Tyranids/Warrior" count="1" rankMin="2" rankMax="4" />
+                                <unit count="1" rankMax="4" rankMin="2" type="Tyranids/Termagant" />
+                                <unit count="1" rankMax="4" rankMin="2" type="Tyranids/Hormagaunt" />
+                                <unit count="1" rankMax="4" rankMin="2" type="Tyranids/Ravener" />
+                                <unit count="1" rankMax="4" rankMin="2" type="Tyranids/Warrior" />
                             </defenders>
                         </killCamp>
                     </objectives>
@@ -114,7 +114,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="ChaosSpaceMarines/Story3" icon="Quests/ChaosSpaceMarines/Chapter3" firstTurn="60" lastTurn="70">
+        <quest name="ChaosSpaceMarines/Story3" firstTurn="60" icon="Quests/ChaosSpaceMarines/Chapter3" lastTurn="70">
             <conditions>
                 <quests>
                     <completed name="ChaosSpaceMarines/Story2" />
@@ -132,7 +132,7 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <produceUnit traitType="Daemon" count="4" />
+                        <produceUnit count="4" traitType="Daemon" />
                     </objectives>
                     <rewards>
                         <energy amount="50" />
@@ -140,15 +140,15 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <killCamp strength="4" relativeStrength="0.5" faction="Orks">
-                            <boss type="Orks/Headquarters" name="Units/Orks/ChaosQuestCamp" />
+                        <killCamp faction="Orks" relativeStrength="0.5" strength="4">
+                            <boss name="Units/Orks/ChaosQuestCamp" type="Orks/Headquarters" />
                             <defenders>
-                                <unit type="Orks/Boy" count="1" rankMin="3" rankMax="5" />
-                                <unit type="Orks/FlashGitz" count="1" rankMin="3" rankMax="5" />
-                                <unit type="Orks/Tankbusta" count="1" rankMin="3" rankMax="5" />
-                                <unit type="Orks/Warbuggy" count="1" rankMin="3" rankMax="5" />
-                                <unit type="Orks/KillaKan" count="1" rankMin="3" rankMax="5" />
-                                <unit type="Orks/Battlewagon" count="1" rankMin="3" rankMax="5" />
+                                <unit count="1" rankMax="5" rankMin="3" type="Orks/Boy" />
+                                <unit count="1" rankMax="5" rankMin="3" type="Orks/FlashGitz" />
+                                <unit count="1" rankMax="5" rankMin="3" type="Orks/Tankbusta" />
+                                <unit count="1" rankMax="5" rankMin="3" type="Orks/Warbuggy" />
+                                <unit count="1" rankMax="5" rankMin="3" type="Orks/KillaKan" />
+                                <unit count="1" rankMax="5" rankMin="3" type="Orks/Battlewagon" />
                             </defenders>
                         </killCamp>
                     </objectives>
@@ -158,7 +158,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="ChaosSpaceMarines/Story4" icon="Quests/ChaosSpaceMarines/Chapter4" firstTurn="80" lastTurn="90">
+        <quest name="ChaosSpaceMarines/Story4" firstTurn="80" icon="Quests/ChaosSpaceMarines/Chapter4" lastTurn="90">
             <conditions>
                 <quests>
                     <completed name="ChaosSpaceMarines/Story3" />
@@ -176,15 +176,15 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <killCamp strength="8" relativeStrength="1" faction="Necrons">
-                            <boss type="Necrons/Headquarters" name="Units/Necrons/ChaosQuestCamp" />
+                        <killCamp faction="Necrons" relativeStrength="1" strength="8">
+                            <boss name="Units/Necrons/ChaosQuestCamp" type="Necrons/Headquarters" />
                             <defenders>
-                                <unit type="Necrons/Warrior" count="1" rankMin="4" rankMax="6" />
-                                <unit type="Necrons/HeavyDestroyer" count="1" rankMin="4" rankMax="6" />
-                                <unit type="Necrons/TriarchPraetorian" count="1" rankMin="4" rankMax="6" />
-                                <unit type="Necrons/TombBlade" count="1" rankMin="4" rankMax="6" />
-                                <unit type="Necrons/AnnihilationBarge" count="1" rankMin="4" rankMax="6" />
-                                <unit type="Necrons/DoomsdayArk" count="1" rankMin="4" rankMax="6" />
+                                <unit count="1" rankMax="6" rankMin="4" type="Necrons/Warrior" />
+                                <unit count="1" rankMax="6" rankMin="4" type="Necrons/HeavyDestroyer" />
+                                <unit count="1" rankMax="6" rankMin="4" type="Necrons/TriarchPraetorian" />
+                                <unit count="1" rankMax="6" rankMin="4" type="Necrons/TombBlade" />
+                                <unit count="1" rankMax="6" rankMin="4" type="Necrons/AnnihilationBarge" />
+                                <unit count="1" rankMax="6" rankMin="4" type="Necrons/DoomsdayArk" />
                             </defenders>
                         </killCamp>
                     </objectives>
@@ -194,7 +194,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="ChaosSpaceMarines/Story5" icon="Quests/ChaosSpaceMarines/Chapter5" firstTurn="100" lastTurn="110">
+        <quest name="ChaosSpaceMarines/Story5" firstTurn="100" icon="Quests/ChaosSpaceMarines/Chapter5" lastTurn="110">
             <conditions>
                 <quests>
                     <completed name="ChaosSpaceMarines/Story4" />
@@ -211,24 +211,24 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <visitTileChaosCultist unitType="ChaosSpaceMarines/ChaosCultist" count="3" turns="20" />
-                        <surviveInvasion relativeStrength="1.0" strength="16" waves="9" waveInterval="2">
+                        <visitTileChaosCultist count="3" turns="20" unitType="ChaosSpaceMarines/ChaosCultist" />
+                        <surviveInvasion relativeStrength="1.0" strength="16" waveInterval="2" waves="9">
                             <attackers>
-                                <unit type="SpaceMarines/Apothecary" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/AssaultSpaceMarine" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/DevastatorSpaceMarine" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/Dreadnought" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/Hunter" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/LandRaider" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/LandSpeeder" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/Predator" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/ScoutBiker" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/StormravenGunship" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/StormtalonGunship" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/TacticalSpaceMarine" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/Terminator" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/ThunderfireCannon" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/Vindicator" count="1" rankMin="5" rankMax="7" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/Apothecary" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/AssaultSpaceMarine" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/DevastatorSpaceMarine" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/Dreadnought" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/Hunter" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/LandRaider" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/LandSpeeder" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/Predator" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/ScoutBiker" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/StormravenGunship" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/StormtalonGunship" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/TacticalSpaceMarine" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/Terminator" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/ThunderfireCannon" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/Vindicator" />
                             </attackers>
                         </surviveInvasion>
                         <keepUnitAlive token="DaemonPrince" />
@@ -253,7 +253,7 @@
         </quest>
     </quests>
     <actions>
-        <markOfNurgle cooldown="1" name="ChaosSpaceMarines/MarkOfNurgle" requiredUpgrade="ChaosSpaceMarines/MarkOfNurgle">
+        <markOfNurgle name="ChaosSpaceMarines/MarkOfNurgle" cooldown="1" requiredUpgrade="ChaosSpaceMarines/MarkOfNurgle">
             <model>
                 <action sound="Interface/MarkOfChaos" />
             </model>
@@ -292,7 +292,7 @@
                 </target>
             </beginTargets>
         </markOfNurgle>
-        <markOfKhorne cooldown="1" name="ChaosSpaceMarines/MarkOfKhorne" requiredUpgrade="ChaosSpaceMarines/MarkOfKhorne">
+        <markOfKhorne name="ChaosSpaceMarines/MarkOfKhorne" cooldown="1" requiredUpgrade="ChaosSpaceMarines/MarkOfKhorne">
             <model>
                 <action sound="Interface/MarkOfChaos" />
             </model>
@@ -332,7 +332,7 @@
                 </target>
             </beginTargets>
         </markOfKhorne>
-        <markOfSlaanesh cooldown="1" name="ChaosSpaceMarines/MarkOfSlaanesh" requiredUpgrade="ChaosSpaceMarines/MarkOfSlaanesh">
+        <markOfSlaanesh name="ChaosSpaceMarines/MarkOfSlaanesh" cooldown="1" requiredUpgrade="ChaosSpaceMarines/MarkOfSlaanesh">
             <model>
                 <action sound="Interface/MarkOfChaos" />
             </model>
@@ -371,7 +371,7 @@
                 </target>
             </beginTargets>
         </markOfSlaanesh>
-        <markOfTzeentch cooldown="1" name="ChaosSpaceMarines/MarkOfTzeentch" requiredUpgrade="ChaosSpaceMarines/MarkOfTzeentch">
+        <markOfTzeentch name="ChaosSpaceMarines/MarkOfTzeentch" cooldown="1" requiredUpgrade="ChaosSpaceMarines/MarkOfTzeentch">
             <model>
                 <action sound="Interface/MarkOfChaos" />
             </model>
@@ -410,7 +410,7 @@
                 </target>
             </beginTargets>
         </markOfTzeentch>
-        <iconOfVengeance cooldown="1" name="ChaosSpaceMarines/IconOfVengeance" requiredUpgrade="ChaosSpaceMarines/IconOfVengeance">
+        <iconOfVengeance name="ChaosSpaceMarines/IconOfVengeance" cooldown="1" requiredUpgrade="ChaosSpaceMarines/IconOfVengeance">
             <model>
                 <action sound="Interface/MarkOfChaos" />
             </model>
@@ -449,7 +449,7 @@
                 </target>
             </beginTargets>
         </iconOfVengeance>
-        <iconOfWrath cooldown="1" name="ChaosSpaceMarines/IconOfWrath" requiredUpgrade="ChaosSpaceMarines/IconOfWrath">
+        <iconOfWrath name="ChaosSpaceMarines/IconOfWrath" cooldown="1" requiredUpgrade="ChaosSpaceMarines/IconOfWrath">
             <model>
                 <action sound="Interface/MarkOfChaos" />
             </model>
@@ -483,7 +483,7 @@
                 </target>
             </beginTargets>
         </iconOfWrath>
-        <iconOfDespair cooldown="1" name="ChaosSpaceMarines/IconOfDespair" requiredUpgrade="ChaosSpaceMarines/IconOfDespair">
+        <iconOfDespair name="ChaosSpaceMarines/IconOfDespair" cooldown="1" requiredUpgrade="ChaosSpaceMarines/IconOfDespair">
             <model>
                 <action sound="Interface/MarkOfChaos" />
             </model>
@@ -517,7 +517,7 @@
                 </target>
             </beginTargets>
         </iconOfDespair>
-        <iconOfExcess cooldown="1" name="ChaosSpaceMarines/IconOfExcess" requiredUpgrade="ChaosSpaceMarines/IconOfExcess">
+        <iconOfExcess name="ChaosSpaceMarines/IconOfExcess" cooldown="1" requiredUpgrade="ChaosSpaceMarines/IconOfExcess">
             <model>
                 <action sound="Interface/MarkOfChaos" />
             </model>
@@ -551,7 +551,7 @@
                 </target>
             </beginTargets>
         </iconOfExcess>
-        <iconOfFlame cooldown="1" name="ChaosSpaceMarines/IconOfFlame" requiredUpgrade="ChaosSpaceMarines/IconOfFlame">
+        <iconOfFlame name="ChaosSpaceMarines/IconOfFlame" cooldown="1" requiredUpgrade="ChaosSpaceMarines/IconOfFlame">
             <model>
                 <action sound="Interface/MarkOfChaos" />
             </model>
@@ -587,7 +587,7 @@
         </iconOfFlame>
     </actions>
     <startingUnits>
-        <unit type="ChaosSpaceMarines/ChaosSpaceMarine" count="1" />
-        <unit type="ChaosSpaceMarines/ChaosCultist" count="2" />
+        <unit count="1" type="ChaosSpaceMarines/ChaosSpaceMarine" />
+        <unit count="2" type="ChaosSpaceMarines/ChaosCultist" />
     </startingUnits>
 </faction>

@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/Orks/Battlewagon" material="Units/Orks/Battlewagon" idleAnimation="Units/Orks/BattlewagonIdle" idleAnimationCount="3" idleContinuously="1" scale="0.4 0.4 0.4" explosionsBone="Hull" />
+        <unit explosionsBone="Hull" idleAnimation="Units/Orks/BattlewagonIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Orks/Battlewagon" mesh="Units/Orks/Battlewagon" scale="0.4 0.4 0.4" />
     </model>
     <weapons>
         <weapon name="BigShoota">
             <model>
-                <projectileWeapon mesh="Weapons/Orks/BattlewagonBigShoota0" material="Weapons/Orks/BattlewagonWeapons" bone="Hull" unavailableMesh="Weapons/Orks/BattlewagonBigShoota0Lid" unavailableMaterial="Units/Orks/Battlewagon" muzzleBone=".TurretMuzzle0" animationSuffix="BigShoota0" />
+                <projectileWeapon animationSuffix="BigShoota0" bone="Hull" material="Weapons/Orks/BattlewagonWeapons" mesh="Weapons/Orks/BattlewagonBigShoota0" muzzleBone=".TurretMuzzle0" unavailableMaterial="Units/Orks/Battlewagon" unavailableMesh="Weapons/Orks/BattlewagonBigShoota0Lid" />
             </model>
         </weapon>
         <weapon name="BigShoota">
             <model>
-                <projectileWeapon mesh="Weapons/Orks/BattlewagonBigShoota1" material="Weapons/Orks/BattlewagonWeapons" bone="LargeTurret" unavailableMesh="Weapons/Orks/BattlewagonBigShoota1Lid" unavailableMaterial="Units/Orks/Battlewagon" muzzleBone=".SmallTurretMuzzle0" animationSuffix="BigShoota1" />
+                <projectileWeapon animationSuffix="BigShoota1" bone="LargeTurret" material="Weapons/Orks/BattlewagonWeapons" mesh="Weapons/Orks/BattlewagonBigShoota1" muzzleBone=".SmallTurretMuzzle0" unavailableMaterial="Units/Orks/Battlewagon" unavailableMesh="Weapons/Orks/BattlewagonBigShoota1Lid" />
             </model>
         </weapon>
-        <weapon name="None" requiredUpgrade="Orks/GrabbinKlaw" enabled="0">
+        <weapon name="None" enabled="0" requiredUpgrade="Orks/GrabbinKlaw">
             <model>
-                <weapon mesh="Weapons/Orks/BattlewagonGrabbinKlaw" material="Weapons/Orks/BattlewagonWeapons" bone="Hull" unavailableMesh="Weapons/Orks/BattlewagonGrabbinKlawLid" unavailableMaterial="Units/Orks/Battlewagon" animationSuffix="GrabbinKlaw" />
+                <weapon animationSuffix="GrabbinKlaw" bone="Hull" material="Weapons/Orks/BattlewagonWeapons" mesh="Weapons/Orks/BattlewagonGrabbinKlaw" unavailableMaterial="Units/Orks/Battlewagon" unavailableMesh="Weapons/Orks/BattlewagonGrabbinKlawLid" />
             </model>
         </weapon>
         <weapon name="RokkitLauncha" count="2" requiredUpgrade="Orks/BattlewagonRokkitLaunchas">
             <model>
-                <missileWeapon mesh="Weapons/Orks/BattlewagonRokkitLauncha" material="Weapons/Orks/BattlewagonWeapons" bone="Hull" muzzleBone="Muzzle" muzzleCount="2" fireInterval="0.35" animationSuffix="RokkitLauncha" />
+                <missileWeapon animationSuffix="RokkitLauncha" bone="Hull" fireInterval="0.35" material="Weapons/Orks/BattlewagonWeapons" mesh="Weapons/Orks/BattlewagonRokkitLauncha" muzzleBone="Muzzle" muzzleCount="2" />
             </model>
         </weapon>
         <weapon name="ZzapGun" slotName="ZzapGun">
             <model>
-                <beamWeapon muzzleBone=".LargeTurretMuzzle" fireInterval="0.2" />
+                <beamWeapon fireInterval="0.2" muzzleBone=".LargeTurretMuzzle" />
             </model>
         </weapon>
     </weapons>

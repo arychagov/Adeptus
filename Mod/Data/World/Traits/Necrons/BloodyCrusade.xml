@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <attacks mulMin="0.1" mulMax="0.3" />
+                <attacks mulMax="0.3" mulMin="0.1" />
             </effects>
         </modifier>
     </modifiers>

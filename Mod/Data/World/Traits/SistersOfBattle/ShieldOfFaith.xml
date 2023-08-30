@@ -12,7 +12,7 @@
                 <witchfireDamageReduction min="0.17" />
             </effects>
         </modifier>
-        <modifier visible="0" requiredUpgrade="SistersOfBattle/VowOfTheMilitantOrder">
+        <modifier requiredUpgrade="SistersOfBattle/VowOfTheMilitantOrder" visible="0">
             <effects>
                 <invulnerableDamageReduction min="0.25" />
                 <witchfireDamageReduction min="0.25" />

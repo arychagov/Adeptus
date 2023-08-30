@@ -25,9 +25,9 @@
         </modifier>
     </modifiers>
     <actions>
-        <produceUnit unit="Tau/CadreFireblade" requiredUpgrade="Tau/CadreFireblade" />
-        <produceUnit unit="Tau/Ethereal" requiredUpgrade="Tau/Ethereal" />
-        <produceUnit unit="Tau/Commander" requiredUpgrade="Tau/Commander" />
+        <produceUnit requiredUpgrade="Tau/CadreFireblade" unit="Tau/CadreFireblade" />
+        <produceUnit requiredUpgrade="Tau/Ethereal" unit="Tau/Ethereal" />
+        <produceUnit requiredUpgrade="Tau/Commander" unit="Tau/Commander" />
     </actions>
     <traits>
         <trait name="Tau/UtopiaBonus" requiredUpgrade="Tau/UtopiaBonus" />

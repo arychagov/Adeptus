@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/Necrons/DestroyerLord" material="Units/Necrons/DestroyerLord" idleAnimation="Units/Necrons/DestroyerLordIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.9 0.9 0.9" explosionsBone="BloodBone" walker="1" />
+        <unit explosionsBone="BloodBone" idleAnimation="Units/Necrons/DestroyerLordIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Necrons/DestroyerLord" mesh="Units/Necrons/DestroyerLord" normalWeight="0.1" scale="0.9 0.9 0.9" walker="1" />
     </model>
     <weapons>
         <weapon name="DestroyerWarscythe">
             <model>
-                <weapon mesh="Weapons/Necrons/Warscythe" material="Units/Necrons/DestroyerLord" muzzleBone=".Muzzle" bone="Bone037" fireInterval="0.5" />
+                <weapon bone="Bone037" fireInterval="0.5" material="Units/Necrons/DestroyerLord" mesh="Weapons/Necrons/Warscythe" muzzleBone=".Muzzle" />
             </model>
         </weapon>
     </weapons>
@@ -43,7 +43,7 @@
     <actions>
         <attack>
             <model>
-                <action chargeAnimation="Units/Necrons/DestroyerLordCharge" chargeBeginFire="0.25" chargeEndFire="1.1" chargeDefenseAnimation="Units/Necrons/DestroyerLordChargeDefense" chargeDefenseBeginFire="0.25" chargeDefenseEndFire="1.5" meleeAnimation="Units/Necrons/DestroyerLordMelee" meleeDefenseAnimation="Units/Necrons/DestroyerLordMeleeDefense" meleeBeginSwing="0.2" meleeEndSwing="0.9" />
+                <action chargeAnimation="Units/Necrons/DestroyerLordCharge" chargeBeginFire="0.25" chargeDefenseAnimation="Units/Necrons/DestroyerLordChargeDefense" chargeDefenseBeginFire="0.25" chargeDefenseEndFire="1.5" chargeEndFire="1.1" meleeAnimation="Units/Necrons/DestroyerLordMelee" meleeBeginSwing="0.2" meleeDefenseAnimation="Units/Necrons/DestroyerLordMeleeDefense" meleeEndSwing="0.9" />
             </model>
         </attack>
         <die>
@@ -61,7 +61,7 @@
                 <action animation="Units/Necrons/DestroyerLordMove" sound="Units/Necrons/DestroyerMove" soundCount="3" />
             </model>
         </move>
-        <necrodermisRepair consumedActionPoints="0" consumedMovement="0" cooldown="1" name="Necrons/NecrodermisRepair" requiredActionPoints="0">
+        <necrodermisRepair name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
             <model>
                 <action sound="Actions/Heal" />
             </model>
@@ -103,7 +103,7 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <dimensionalCorridor cooldown="3" name="Necrons/DimensionalCorridor" requiredUpgrade="Necrons/DimensionalCorridor">
+        <dimensionalCorridor name="Necrons/DimensionalCorridor" cooldown="3" requiredUpgrade="Necrons/DimensionalCorridor">
             <model>
                 <action sound="Actions/Teleport" />
             </model>
@@ -126,7 +126,7 @@
                 </modifier>
             </modifiers>
         </dimensionalCorridor>
-        <jetCharge cooldown="3" name="Necrons/JetCharge" rank="-1" rankMax="2"> <!-- little shield ram effect in front -->
+        <jetCharge name="Necrons/JetCharge" cooldown="3" rank="-1" rankMax="2"> <!-- little shield ram effect in front -->
             <model>
                 <action sound="Actions/JumpPack" />
             </model>
@@ -145,12 +145,12 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Necrons/JetCharge" />
+                                        <addTrait name="Necrons/JetCharge" duration="1" />
                                     </effects>
                                 </modifier>
                                 <modifier requiredUpgrade="Necrons/HammerOfWrath">
                                     <effects>
-                                        <addTrait duration="1" name="HammerOfWrath" />
+                                        <addTrait name="HammerOfWrath" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -172,7 +172,7 @@
                                 </modifier>
                             </modifiers>
                         </area>
-                        <area affects="Tile" radius="2" excludeRadius="0">
+                        <area affects="Tile" excludeRadius="0" radius="2">
                             <modifiers>
                                 <modifier>
                                     <effects>
@@ -202,7 +202,7 @@
                 </selfTarget>
             </beginTargets>
         </destructionProtocols>
-        <reaper cooldown="10" requiredActionPoints="0" consumedActionPoints="0" consumedMovement="0" elite="1" levelUpPriority="1" name="Necrons/Reaper" rank="-1" rankMax="0">
+        <reaper name="Necrons/Reaper" consumedActionPoints="0" consumedMovement="0" cooldown="10" elite="1" levelUpPriority="1" rank="-1" rankMax="0" requiredActionPoints="0">
             <model>
                 <action animation="Units/Necrons/DestroyerLordAbility" sound="Actions/PsychicBuff" />
             </model>
@@ -213,7 +213,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="3" name="Necrons/Reaper" />
+                                        <addTrait name="Necrons/Reaper" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon fireSound="Weapons/PulseSubmunitionsCannon" fireSoundCount="3" muzzleFlashesBlueprint="Effects/PlasmaMuzzleFlashes" directionalMuzzleFlashesBlueprint="Effects/PlasmaDirectionalMuzzleFlashes" projectilesBlueprint="Effects/PlasmaProjectiles" projectilesEmitterBlueprint="Effects/PulseSubmunitionProjectilesEmitter" explosionsBlueprint="Effects/PlasmaExplosions" explosionsEmitterBlueprint="Effects/PulseSubmunitionExplosionsEmitter" />
+        <projectileWeapon directionalMuzzleFlashesBlueprint="Effects/PlasmaDirectionalMuzzleFlashes" explosionsBlueprint="Effects/PlasmaExplosions" explosionsEmitterBlueprint="Effects/PulseSubmunitionExplosionsEmitter" fireSound="Weapons/PulseSubmunitionsCannon" fireSoundCount="3" muzzleFlashesBlueprint="Effects/PlasmaMuzzleFlashes" projectilesBlueprint="Effects/PlasmaProjectiles" projectilesEmitterBlueprint="Effects/PulseSubmunitionProjectilesEmitter" />
     </model>
     <modifiers>
         <modifier>

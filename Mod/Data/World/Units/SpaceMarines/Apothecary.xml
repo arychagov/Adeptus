@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/SpaceMarines/Apothecary" material="Units/SpaceMarines/Apothecary" idleAnimation="Units/SpaceMarines/ApothecaryIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.9 0.9 0.9" bloodBone="Chest" walker="1" />
+        <unit bloodBone="Chest" idleAnimation="Units/SpaceMarines/ApothecaryIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SpaceMarines/Apothecary" mesh="Units/SpaceMarines/Apothecary" normalWeight="0.1" scale="0.9 0.9 0.9" walker="1" />
     </model>
-    <group size="3" rowSize="3" memberDeltaX="80" memberDeltaY="64" />
+    <group memberDeltaX="80" memberDeltaY="64" rowSize="3" size="3" />
     <weapons>
         <weapon name="BoltPistol">
             <model>
-                <projectileWeapon mesh="Weapons/SpaceMarines/BoltPistol" material="Weapons/SpaceMarines/BoltPistol" bone="RightHand" muzzleBone=".Muzzle0" fireInterval="0.233" />
+                <projectileWeapon bone="RightHand" fireInterval="0.233" material="Weapons/SpaceMarines/BoltPistol" mesh="Weapons/SpaceMarines/BoltPistol" muzzleBone=".Muzzle0" />
             </model>
         </weapon>
-        <weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
             <model>
                 <grenadeWeapon muzzleBone="RightHand" />
             </model>
         </weapon>
-        <weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
+        <weapon name="KrakGrenade" enabled="0" slotName="KrakGrenade">
             <model>
                 <grenadeWeapon muzzleBone="RightHand" />
             </model>

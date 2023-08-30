@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement9">
     <model>
-        <unit mesh="Units/AdeptusMechanicus/TechPriestDominus" material="Units/AdeptusMechanicus/TechPriestDominus" idleAnimation="Units/AdeptusMechanicus/TechPriestDominusIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1.1 1.1 1.1" bloodBone="Chest" walker="1" />
+        <unit bloodBone="Chest" idleAnimation="Units/AdeptusMechanicus/TechPriestDominusIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AdeptusMechanicus/TechPriestDominus" mesh="Units/AdeptusMechanicus/TechPriestDominus" normalWeight="0.1" scale="1.1 1.1 1.1" walker="1" />
     </model>
     <weapons>
         <weapon name="PowerAxe">
@@ -12,7 +12,7 @@
         <weapon name="Dataspike" />
         <weapon name="PhosphorSerpenta">
             <model>
-                <projectileWeapon muzzleBone="Muzzle0" fireInterval="0.3" />
+                <projectileWeapon fireInterval="0.3" muzzleBone="Muzzle0" />
             </model>
         </weapon>
         <weapon name="VolkiteBlaster">
@@ -54,7 +54,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/AdeptusMechanicus/TechPriestDominusAttack" beginFire="1.06" endFire="2.01" chargeAnimation="Units/AdeptusMechanicus/TechPriestDominusCharge" chargeBeginFire="0.53" chargeEndFire="0.88" meleeAnimation="Units/AdeptusMechanicus/TechPriestDominusMelee" meleeBeginSwing="0.15" meleeEndSwing="0.5" />
+                <action animation="Units/AdeptusMechanicus/TechPriestDominusAttack" beginFire="1.06" chargeAnimation="Units/AdeptusMechanicus/TechPriestDominusCharge" chargeBeginFire="0.53" chargeEndFire="0.88" endFire="2.01" meleeAnimation="Units/AdeptusMechanicus/TechPriestDominusMelee" meleeBeginSwing="0.15" meleeEndSwing="0.5" />
             </model>
         </attack>
         <die>
@@ -72,12 +72,12 @@
                 <action animation="Units/AdeptusMechanicus/TechPriestDominusMove" sound="Units/AdeptusMechanicus/InfantryMove" soundCount="3" />
             </model>
         </move>
-        <masterOfMachines cooldown="1" name="AdeptusMechanicus/MasterOfMachines">
+        <masterOfMachines name="AdeptusMechanicus/MasterOfMachines" cooldown="1">
             <model>
                 <action animation="Units/AdeptusMechanicus/TechPriestDominusAbility" sound="Actions/Heal" />
             </model>
             <beginTargets>
-                <target rangeMin="1" rangeMax="1">
+                <target rangeMax="1" rangeMin="1">
                     <conditions>
                         <unit>
                             <allied />
@@ -104,7 +104,7 @@
                 </target>
             </beginTargets>
         </masterOfMachines>
-        <scryerskull cooldownMin="3" cooldownMax="1" name="AdeptusMechanicus/Scryerskull" rank="-1" rankMax="2">
+        <scryerskull name="AdeptusMechanicus/Scryerskull" cooldownMax="1" cooldownMin="3" rank="-1" rankMax="2">
             <model>
                 <action animation="Units/AdeptusMechanicus/TechPriestDominusAbility" sound="Actions/Scryerskull" />
             </model>
@@ -128,7 +128,7 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1" excludeRadius="0">
+                        <area affects="Tile" excludeRadius="0" radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
@@ -141,7 +141,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <wrathOfMars cooldown="3" name="AdeptusMechanicus/WrathOfMars" rank="-1" rankMax="2" requiredActionPoints="0" consumedActionPoints="0" consumedMovement="0">
+        <wrathOfMars name="AdeptusMechanicus/WrathOfMars" consumedActionPoints="0" consumedMovement="0" cooldown="3" rank="-1" rankMax="2" requiredActionPoints="0">
             <model>
                 <action animation="Units/AdeptusMechanicus/TechPriestDominusAbility" sound="Actions/WrathOfMars" />
             </model>
@@ -161,7 +161,7 @@
                 </selfTarget>
             </beginTargets>
         </wrathOfMars>
-        <genericUnitAbility elite="1" levelUpPriority="1" name="AdeptusMechanicus/MechanicusLocum" passive="1" rank="-1" rankMax="0">
+        <genericUnitAbility name="AdeptusMechanicus/MechanicusLocum" elite="1" levelUpPriority="1" passive="1" rank="-1" rankMax="0">
             <beginTargets>
                 <selfTarget>
                     <areas>

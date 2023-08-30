@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement3">
     <model>
-        <unit mesh="Units/ChaosSpaceMarines/Warpsmith" material="Units/ChaosSpaceMarines/Warpsmith" idleAnimation="Units/ChaosSpaceMarines/WarpsmithIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.8 0.8 0.8" bloodBone="Bone050" walker="1" />
+        <unit bloodBone="Bone050" idleAnimation="Units/ChaosSpaceMarines/WarpsmithIdle" idleAnimationCount="3" idleContinuously="1" material="Units/ChaosSpaceMarines/Warpsmith" mesh="Units/ChaosSpaceMarines/Warpsmith" normalWeight="0.1" scale="0.8 0.8 0.8" walker="1" />
     </model>
     <weapons>
         <weapon name="PowerAxe">
             <model>
-                <powerWeapon effectBlueprint="Effects/ChaosPowerWeapon" effectBoundingVolume="Blade" effectBone="Bone040" fireInterval="0.5" />
+                <powerWeapon effectBlueprint="Effects/ChaosPowerWeapon" effectBone="Bone040" effectBoundingVolume="Blade" fireInterval="0.5" />
             </model>
         </weapon>
         <weapon name="BoltPistol">
             <model>
-                <projectileWeapon mesh="Weapons/ChaosSpaceMarines/WarpsmithGun" material="Units/ChaosSpaceMarines/Warpsmith" bone="Bone043" muzzleBone=".Muzzle" fireInterval="0.33" />
+                <projectileWeapon bone="Bone043" fireInterval="0.33" material="Units/ChaosSpaceMarines/Warpsmith" mesh="Weapons/ChaosSpaceMarines/WarpsmithGun" muzzleBone=".Muzzle" />
             </model>
         </weapon>
-        <weapon name="Meltagun" slotName="Mechatendrils" enabled="0">
+        <weapon name="Meltagun" enabled="0" slotName="Mechatendrils">
             <model>
                 <beamWeapon muzzleBone="Bone007" muzzleCount="1" />
             </model>
         </weapon>
-        <weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
             <model>
                 <grenadeWeapon muzzleBone="Bone043" />
             </model>
         </weapon>
-        <weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
+        <weapon name="KrakGrenade" enabled="0" slotName="KrakGrenade">
             <model>
                 <grenadeWeapon muzzleBone="Bone043" />
             </model>
@@ -64,7 +64,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/ChaosSpaceMarines/WarpsmithAttack" beginFire="1" endFire="2.1" chargeAnimation="Units/ChaosSpaceMarines/WarpsmithCharge" chargeBeginFire="0.33" chargeEndFire="1.4" meleeAnimation="Units/ChaosSpaceMarines/WarpsmithMelee" meleeAnimationSpeed="1.0" meleeBeginSwing="0.67" meleeEndSwing="0.8" />
+                <action animation="Units/ChaosSpaceMarines/WarpsmithAttack" beginFire="1" chargeAnimation="Units/ChaosSpaceMarines/WarpsmithCharge" chargeBeginFire="0.33" chargeEndFire="1.4" endFire="2.1" meleeAnimation="Units/ChaosSpaceMarines/WarpsmithMelee" meleeAnimationSpeed="1.0" meleeBeginSwing="0.67" meleeEndSwing="0.8" />
             </model>
         </attack>
         <die>
@@ -86,7 +86,7 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1" excludeRadius="0">
+                        <area affects="Tile" excludeRadius="0" radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
@@ -99,12 +99,12 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <masterOfMechanisms cooldown="1" name="ChaosSpaceMarines/MasterOfMechanisms" rank="-1" rankMax="2">
+        <masterOfMechanisms name="ChaosSpaceMarines/MasterOfMechanisms" cooldown="1" rank="-1" rankMax="2">
             <model>
                 <action animation="Units/ChaosSpaceMarines/WarpsmithAbility" sound="Actions/Heal" />
             </model>
             <beginTargets>
-                <target rangeMin="1" rangeMax="1">
+                <target rangeMax="1" rangeMin="1">
                     <conditions>
                         <unit>
                             <allied />
@@ -120,7 +120,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints addMin="8" addMax="24" />
+                                        <hitpoints addMax="24" addMin="8" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -129,7 +129,7 @@
                 </target>
             </beginTargets>
         </masterOfMechanisms>
-        <shatterDefences cooldown="3" consumedActionPoints="0" consumedMovement="1" name="ChaosSpaceMarines/ShatterDefences" rank="-1" rankMax="2">
+        <shatterDefences name="ChaosSpaceMarines/ShatterDefences" consumedActionPoints="0" consumedMovement="1" cooldown="3" rank="-1" rankMax="2">
             <model>
                 <action animation="Units/ChaosSpaceMarines/WarpsmithAbility" sound="Actions/ChaosDebuff" />
             </model>
@@ -150,7 +150,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="ChaosSpaceMarines/ShatterDefences" />
+                                        <addTrait name="ChaosSpaceMarines/ShatterDefences" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -159,19 +159,19 @@
                 </target>
             </beginTargets>
         </shatterDefences>
-        <mechatendrils cooldown="2" icon="Actions/ChaosSpaceMarines/Mechatendrils" name="ChaosSpaceMarines/Mechatendrils" rank="-1" rankMax="2" weaponSlotName="Mechatendrils">
+        <mechatendrils name="ChaosSpaceMarines/Mechatendrils" cooldown="2" icon="Actions/ChaosSpaceMarines/Mechatendrils" rank="-1" rankMax="2" weaponSlotName="Mechatendrils">
             <model>
                 <action animation="Units/ChaosSpaceMarines/WarpsmithMelta2" beginFire="1" endFire="2.2" />
             </model>
             <modifiers>
                 <modifier>
                     <effects>
-                        <attacks mulMin="1" mulMax="3" />
+                        <attacks mulMax="3" mulMin="1" />
                     </effects>
                 </modifier>
             </modifiers>
         </mechatendrils>
-        <genericUnitAbility elite="1" levelUpPriority="1" name="ChaosSpaceMarines/InfernalIndustry" passive="1" rank="-1" rankMax="0">
+        <genericUnitAbility name="ChaosSpaceMarines/InfernalIndustry" elite="1" levelUpPriority="1" passive="1" rank="-1" rankMax="0">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -188,7 +188,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility beginOnDisappear="1" cooldown="10" name="ChaosSpaceMarines/BlessedChampions" requiredUpgrade="ChaosSpaceMarines/BlessedChampions" icon="Buildings/ChaosSpaceMarines/Heroes" passive="1">
+        <genericUnitAbility name="ChaosSpaceMarines/BlessedChampions" beginOnDisappear="1" cooldown="10" icon="Buildings/ChaosSpaceMarines/Heroes" passive="1" requiredUpgrade="ChaosSpaceMarines/BlessedChampions">
             <model>
                 <action sound="Actions/ChaosBuff" />
             </model>

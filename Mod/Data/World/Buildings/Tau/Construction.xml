@@ -66,6 +66,6 @@
         <constructBuilding building="Tau/MonstrousCreatures" requiredUpgrade="Tau/MonstrousCreatures" />
         <constructBuilding building="Tau/Aircraft" requiredUpgrade="Tau/Aircraft" />
         <constructBuilding building="Tau/Construction" requiredUpgrade="Tau/Construction" />
-        <produceUnit unit="Tau/BuilderDrone" requiredUpgrade="Tau/BuilderDrone" />
+        <produceUnit requiredUpgrade="Tau/BuilderDrone" unit="Tau/BuilderDrone" />
     </actions>
 </building>

@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <rangedArmorPenetration addMin="1" addMax="3" />
+                <rangedArmorPenetration addMax="3" addMin="1" />
             </effects>
         </modifier>
     </modifiers>

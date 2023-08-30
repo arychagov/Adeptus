@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement11">
     <model>
-        <unit mesh="Units/SistersOfBattle/Castigator" material="Units/SistersOfBattle/Castigator" idleAnimation="Units/SistersOfBattle/CastigatorIdle" idleAnimationCount="3" idleContinuously="1" scale="0.95 0.95 0.95" explosionsBone="Hull_Shake" uvAnimated="1" />
+        <unit explosionsBone="Hull_Shake" idleAnimation="Units/SistersOfBattle/CastigatorIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SistersOfBattle/Castigator" mesh="Units/SistersOfBattle/Castigator" scale="0.95 0.95 0.95" uvAnimated="1" />
     </model>
     <weapons>
-        <weapon name="CastigatorBattleCannonPyreShell" slotName="CastigatorBattleCannonPyreShell" enabled="0">
+        <weapon name="CastigatorBattleCannonPyreShell" enabled="0" slotName="CastigatorBattleCannonPyreShell">
             <model>
-                <projectileWeapon muzzleBone="CannonMuzzle" fireInterval="10.0" fireDelay="1.2" />
+                <projectileWeapon fireDelay="1.2" fireInterval="10.0" muzzleBone="CannonMuzzle" />
             </model>
         </weapon>
         <weapon name="CastigatorBattleCannonSanctifiedShell" slotName="CastigatorBattleCannonSanctifiedShell">
             <model>
-                <projectileWeapon muzzleBone="CannonMuzzle" fireInterval="10.0" fireDelay="1.2" />
+                <projectileWeapon fireDelay="1.2" fireInterval="10.0" muzzleBone="CannonMuzzle" />
             </model>
         </weapon>
         <weapon name="HeavyBolter" count="2">
@@ -21,17 +21,17 @@
         </weapon>
         <weapon name="HeavyBolter" requiredUpgrade="SistersOfBattle/AdditionalHeavyBolter">
             <model>
-                <projectileWeapon mesh="Weapons/SistersOfBattle/CastigatorBolter" material="Weapons/SistersOfBattle/CastigatorUpgrades" bone="Gun_Front" muzzleBone="FrontMuzzle" />
+                <projectileWeapon bone="Gun_Front" material="Weapons/SistersOfBattle/CastigatorUpgrades" mesh="Weapons/SistersOfBattle/CastigatorBolter" muzzleBone="FrontMuzzle" />
             </model>
         </weapon>
-        <weapon name="HunterKillerMissile" slotName="HunterKillerMissile" enabled="0" requiredUpgrade="SistersOfBattle/HunterKillerMissile">
+        <weapon name="HunterKillerMissile" enabled="0" requiredUpgrade="SistersOfBattle/HunterKillerMissile" slotName="HunterKillerMissile">
             <model>
-                <missileWeapon mesh="Weapons/SistersOfBattle/CastigatorHunterKiller" material="Weapons/SistersOfBattle/CastigatorUpgrades" bone="Hull_Shake" />
+                <missileWeapon bone="Hull_Shake" material="Weapons/SistersOfBattle/CastigatorUpgrades" mesh="Weapons/SistersOfBattle/CastigatorHunterKiller" />
             </model>
         </weapon>
         <weapon name="None" enabled="0" requiredUpgrade="SistersOfBattle/DozerBlade">
             <model>
-                <weapon mesh="Weapons/SistersOfBattle/CastigatorSmokeLaunchers" material="Weapons/SistersOfBattle/CastigatorUpgrades" bone="Hull_Shake" />
+                <weapon bone="Hull_Shake" material="Weapons/SistersOfBattle/CastigatorUpgrades" mesh="Weapons/SistersOfBattle/CastigatorSmokeLaunchers" />
             </model>
         </weapon>
     </weapons>
@@ -85,7 +85,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature duration="3" name="SmokeScreen" />
+                                        <addFeature name="SmokeScreen" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -94,7 +94,7 @@
                 </selfTarget>
             </beginTargets>
         </createSmokeScreen>
-        <genericUnitAbility passive="1" name="SistersOfBattle/LaudHailer" requiredUpgrade="SistersOfBattle/LaudHailer">
+        <genericUnitAbility name="SistersOfBattle/LaudHailer" passive="1" requiredUpgrade="SistersOfBattle/LaudHailer">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -111,7 +111,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <useWeapon weaponSlotName="HunterKillerMissile" cooldown="10" requiredUpgrade="SistersOfBattle/HunterKillerMissile">
+        <useWeapon cooldown="10" requiredUpgrade="SistersOfBattle/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
             <model>
                 <action beginFire="0.1" endFire="1.0" />
             </model>

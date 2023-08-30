@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/AstraMilitarum/Valkyrie" material="Units/AstraMilitarum/Valkyrie" position="0 0 64" idleAnimation="Units/AstraMilitarum/ValkyrieIdle" idleAnimationCount="2" idleContinuously="1" explosionsBone="Hull" normalWeight="1.0" scale="1.8 1.8 1.8" />
+        <unit explosionsBone="Hull" idleAnimation="Units/AstraMilitarum/ValkyrieIdle" idleAnimationCount="2" idleContinuously="1" material="Units/AstraMilitarum/Valkyrie" mesh="Units/AstraMilitarum/Valkyrie" normalWeight="1.0" position="0 0 64" scale="1.8 1.8 1.8" />
     </model>
     <weapons>
         <weapon name="MultiLaser">
             <model>
-                <beamWeapon mesh="Weapons/AstraMilitarum/ValkyrieMultiLaser" material="Units/AstraMilitarum/Valkyrie" bone=".MultiLaserMuzzle0" muzzleBone=".MultiLaserMuzzle0" />
+                <beamWeapon bone=".MultiLaserMuzzle0" material="Units/AstraMilitarum/Valkyrie" mesh="Weapons/AstraMilitarum/ValkyrieMultiLaser" muzzleBone=".MultiLaserMuzzle0" />
             </model>
         </weapon>
         <weapon name="None" enabled="0">
             <model>
-                <weapon mesh="Weapons/AstraMilitarum/ValkyrieHellstrikeMissile" material="Units/AstraMilitarum/Valkyrie" bone=".HellstrikeMissile0" />
+                <weapon bone=".HellstrikeMissile0" material="Units/AstraMilitarum/Valkyrie" mesh="Weapons/AstraMilitarum/ValkyrieHellstrikeMissile" />
             </model>
         </weapon>
         <weapon name="None" enabled="0">
             <model>
-                <weapon mesh="Weapons/AstraMilitarum/ValkyrieHellstrikeMissile" material="Units/AstraMilitarum/Valkyrie" bone=".HellstrikeMissile1" />
+                <weapon bone=".HellstrikeMissile1" material="Units/AstraMilitarum/Valkyrie" mesh="Weapons/AstraMilitarum/ValkyrieHellstrikeMissile" />
             </model>
         </weapon>
         <weapon name="HellstrikeMissile">
             <model>
-                <missileWeapon muzzleBone=".HellstrikeMissile" muzzleCount="2" fireInterval="1.2" missileScale="0.8" />
+                <missileWeapon fireInterval="1.2" missileScale="0.8" muzzleBone=".HellstrikeMissile" muzzleCount="2" />
             </model>
         </weapon>
         <weapon name="HeavyBolter" count="2" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
             <model>
-                <projectileWeapon mesh="Weapons/AstraMilitarum/ValkyrieHeavyBolters" material="Weapons/AstraMilitarum/HydraHeavyBolter" bone="Hull" muzzleBone=".Muzzle" muzzleCount="2" />
+                <projectileWeapon bone="Hull" material="Weapons/AstraMilitarum/HydraHeavyBolter" mesh="Weapons/AstraMilitarum/ValkyrieHeavyBolters" muzzleBone=".Muzzle" muzzleCount="2" />
             </model>
         </weapon>
     </weapons>
@@ -70,7 +70,7 @@
                 <action sound="Units/AstraMilitarum/ValkyrieMove" soundCount="3" />
             </model>
         </move>
-        <jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
@@ -86,7 +86,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Jink" />
+                                        <addTrait name="Jink" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

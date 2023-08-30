@@ -8,7 +8,7 @@
         </modifier>
     </modifiers>
     <actions>
-        <tactic cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" name="AstraMilitarumInfantryProductionEdict" requiredUpgrade="AstraMilitarum/InfantryProductionEdict">
+        <tactic name="AstraMilitarumInfantryProductionEdict" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" requiredUpgrade="AstraMilitarum/InfantryProductionEdict">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -19,12 +19,12 @@
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="AstraMilitarumInfantryProductionEdict" />
+                        <addTrait name="AstraMilitarumInfantryProductionEdict" duration="10" />
                     </effects>
                 </modifier>
             </actorModifiers>
         </tactic>
-        <tactic cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" name="AstraMilitarumVehicleProductionEdict" requiredUpgrade="AstraMilitarum/VehicleProductionEdict">
+        <tactic name="AstraMilitarumVehicleProductionEdict" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" requiredUpgrade="AstraMilitarum/VehicleProductionEdict">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -35,12 +35,12 @@
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="AstraMilitarumVehicleProductionEdict" />
+                        <addTrait name="AstraMilitarumVehicleProductionEdict" duration="10" />
                     </effects>
                 </modifier>
             </actorModifiers>
         </tactic>
-        <tactic cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" name="AstraMilitarumGrowthEdict" requiredUpgrade="AstraMilitarum/GrowthEdict">
+        <tactic name="AstraMilitarumGrowthEdict" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" requiredUpgrade="AstraMilitarum/GrowthEdict">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -51,12 +51,12 @@
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="AstraMilitarumGrowthEdict" />
+                        <addTrait name="AstraMilitarumGrowthEdict" duration="10" />
                     </effects>
                 </modifier>
             </actorModifiers>
         </tactic>
-        <tactic cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" name="AstraMilitarumFoodEdict" requiredUpgrade="AstraMilitarum/FoodEdict">
+        <tactic name="AstraMilitarumFoodEdict" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" requiredUpgrade="AstraMilitarum/FoodEdict">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -67,7 +67,7 @@
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="AstraMilitarumFoodEdict" />
+                        <addTrait name="AstraMilitarumFoodEdict" duration="10" />
                     </effects>
                 </modifier>
             </actorModifiers>
@@ -79,7 +79,7 @@
                 </modifier>
             </strategyModifiers>
         </tactic>
-        <tactic cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" name="AstraMilitarumOreEdict" requiredUpgrade="AstraMilitarum/OreEdict">
+        <tactic name="AstraMilitarumOreEdict" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" requiredUpgrade="AstraMilitarum/OreEdict">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -90,7 +90,7 @@
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="AstraMilitarumOreEdict" />
+                        <addTrait name="AstraMilitarumOreEdict" duration="10" />
                     </effects>
                 </modifier>
             </actorModifiers>
@@ -102,7 +102,7 @@
                 </modifier>
             </strategyModifiers>
         </tactic>
-        <tactic cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" name="AstraMilitarumEnergyEdict" requiredUpgrade="AstraMilitarum/EnergyEdict">
+        <tactic name="AstraMilitarumEnergyEdict" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" requiredUpgrade="AstraMilitarum/EnergyEdict">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -113,7 +113,7 @@
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="AstraMilitarumEnergyEdict" />
+                        <addTrait name="AstraMilitarumEnergyEdict" duration="10" />
                     </effects>
                 </modifier>
             </actorModifiers>
@@ -125,7 +125,7 @@
                 </modifier>
             </strategyModifiers>
         </tactic>
-        <tactic cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" name="AstraMilitarumResearchEdict" requiredUpgrade="AstraMilitarum/ResearchEdict">
+        <tactic name="AstraMilitarumResearchEdict" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" requiredUpgrade="AstraMilitarum/ResearchEdict">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -136,7 +136,7 @@
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="AstraMilitarumResearchEdict" />
+                        <addTrait name="AstraMilitarumResearchEdict" duration="10" />
                     </effects>
                 </modifier>
             </actorModifiers>
@@ -148,7 +148,7 @@
                 </modifier>
             </strategyModifiers>
         </tactic>
-        <tactic cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" name="AstraMilitarumPsykerProductionEdict" requiredUpgrade="AstraMilitarum/PsykerProductionEdict">
+        <tactic name="AstraMilitarumPsykerProductionEdict" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" requiredUpgrade="AstraMilitarum/PsykerProductionEdict">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -159,12 +159,12 @@
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="AstraMilitarumPsykerProductionEdict" />
+                        <addTrait name="AstraMilitarumPsykerProductionEdict" duration="10" />
                     </effects>
                 </modifier>
             </actorModifiers>
         </tactic>
-        <tactic cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" name="AstraMilitarumLoyaltyEdict" requiredUpgrade="AstraMilitarum/LoyaltyEdict">
+        <tactic name="AstraMilitarumLoyaltyEdict" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" requiredUpgrade="AstraMilitarum/LoyaltyEdict">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -175,7 +175,7 @@
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="AstraMilitarumLoyaltyEdict" />
+                        <addTrait name="AstraMilitarumLoyaltyEdict" duration="10" />
                     </effects>
                 </modifier>
             </actorModifiers>
@@ -187,7 +187,7 @@
                 </modifier>
             </strategyModifiers>
         </tactic>
-        <tactic cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" name="AstraMilitarumAircraftProductionEdict" requiredUpgrade="AstraMilitarum/AircraftProductionEdict">
+        <tactic name="AstraMilitarumAircraftProductionEdict" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" requiredUpgrade="AstraMilitarum/AircraftProductionEdict">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -198,12 +198,12 @@
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="AstraMilitarumAircraftProductionEdict" />
+                        <addTrait name="AstraMilitarumAircraftProductionEdict" duration="10" />
                     </effects>
                 </modifier>
             </actorModifiers>
         </tactic>
-        <tactic cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" name="AstraMilitarumDefenseEdict" requiredUpgrade="AstraMilitarum/DefenseEdict">
+        <tactic name="AstraMilitarumDefenseEdict" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Edict" requiredUpgrade="AstraMilitarum/DefenseEdict">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -214,7 +214,7 @@
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="AstraMilitarumDefenseEdict" />
+                        <addTrait name="AstraMilitarumDefenseEdict" duration="10" />
                     </effects>
                 </modifier>
             </actorModifiers>

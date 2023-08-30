@@ -31,7 +31,7 @@
         <item type="ZoatHideJerkin" />
     </items>
     <model>
-        <simpleModel mesh="Features/JokaeroTraderEncampment" material="Features/JokaeroTraderEncampment" groundMaterial="Features/JokaeroTraderEncampmentGround" />
+        <simpleModel groundMaterial="Features/JokaeroTraderEncampmentGround" material="Features/JokaeroTraderEncampment" mesh="Features/JokaeroTraderEncampment" />
     </model>
     <areas>
         <area affects="Tile" radius="1">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="5" icon="Traits/MeleeDamage">
+<upgrade icon="Traits/MeleeDamage" position="5">
     <strategyModifiers>
         <modifier>
             <effects>

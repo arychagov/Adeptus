@@ -11,7 +11,7 @@
                 </encounter>
             </conditions>
             <effects>
-                <damage addMin="0.25" addMax="4.25" />
+                <damage addMax="4.25" addMin="0.25" />
             </effects>
         </modifier>
     </modifiers>

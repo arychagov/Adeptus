@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon fireInterval="0.2" fireSound="Weapons/Starcannon" fireSoundCount="3" muzzleFlashesBlueprint="Effects/PlasmaMuzzleFlashes" directionalMuzzleFlashesBlueprint="Effects/PlasmaDirectionalMuzzleFlashes" projectilesBlueprint="Effects/PlasmaProjectiles" explosionsBlueprint="Effects/PlasmaExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" />
+        <projectileWeapon directionalMuzzleFlashesBlueprint="Effects/PlasmaDirectionalMuzzleFlashes" explosionsBlueprint="Effects/PlasmaExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" fireInterval="0.2" fireSound="Weapons/Starcannon" fireSoundCount="3" muzzleFlashesBlueprint="Effects/PlasmaMuzzleFlashes" projectilesBlueprint="Effects/PlasmaProjectiles" />
     </model>
     <modifiers>
         <modifier>

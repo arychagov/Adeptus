@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement7">
     <model>
-        <unit mesh="Units/Eldar/HowlingBanshee" material="Units/Eldar/HowlingBanshee" idleAnimation="Units/Eldar/HowlingBansheeIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.9 0.9 0.9" bloodBone="Banshee_Chest" walker="1" />
+        <unit bloodBone="Banshee_Chest" idleAnimation="Units/Eldar/HowlingBansheeIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Eldar/HowlingBanshee" mesh="Units/Eldar/HowlingBanshee" normalWeight="0.1" scale="0.9 0.9 0.9" walker="1" />
     </model>
-    <group size="6" rowSize="3" memberDeltaX="70" memberDeltaY="60" />
+    <group memberDeltaX="70" memberDeltaY="60" rowSize="3" size="6" />
     <weapons>
         <weapon name="ShurikenPistol">
             <model>
-                <projectileWeapon muzzleBone="Banshee_Gun" fireInterval="0.33" effectFaceWeight="0.75" />
+                <projectileWeapon effectFaceWeight="0.75" fireInterval="0.33" muzzleBone="Banshee_Gun" />
             </model>
         </weapon>
         <weapon name="PowerSword">
             <model>
-                <powerWeapon effectBoundingVolume="Blade" effectBone="Effect" fireInterval="0.33" />
+                <powerWeapon effectBone="Effect" effectBoundingVolume="Blade" fireInterval="0.33" />
             </model>
         </weapon>
     </weapons>
@@ -46,7 +46,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/Eldar/HowlingBansheeAttack" beginFire="0.67" endFire="1.43" chargeAnimation="Units/Eldar/HowlingBansheeCharge" chargeBeginFire="0.50" chargeEndFire="1.33" meleeAnimation="Units/Eldar/HowlingBansheeMelee" meleeBeginSwing="0.33" meleeEndSwing="0.75" />
+                <action animation="Units/Eldar/HowlingBansheeAttack" beginFire="0.67" chargeAnimation="Units/Eldar/HowlingBansheeCharge" chargeBeginFire="0.50" chargeEndFire="1.33" endFire="1.43" meleeAnimation="Units/Eldar/HowlingBansheeMelee" meleeBeginSwing="0.33" meleeEndSwing="0.75" />
             </model>
         </attack>
         <die>
@@ -98,9 +98,9 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <warShout consumedActionPoints="0" consumedMovement="0" cooldown="3" name="Eldar/WarShout" requiredActionPoints="0">
+        <warShout name="Eldar/WarShout" consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
-                <action animation="Units/Eldar/HowlingBansheeAbility" sound="Actions/WarShout" soundDelay="1.0" bone="Banshee_Head" beginFire="1.1" />
+                <action animation="Units/Eldar/HowlingBansheeAbility" beginFire="1.1" bone="Banshee_Head" sound="Actions/WarShout" soundDelay="1.0" />
             </model>
             <beginTargets>
                 <selfTarget>

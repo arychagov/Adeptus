@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement2">
     <model>
-        <unit mesh="Units/Tyranids/Tervigon" material="Units/Tyranids/Tervigon" idleAnimation="Units/Tyranids/TervigonIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1.1 1.1 1.1" bloodBone="BloodBone" walker="1" />
+        <unit bloodBone="BloodBone" idleAnimation="Units/Tyranids/TervigonIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tyranids/Tervigon" mesh="Units/Tyranids/Tervigon" normalWeight="0.1" scale="1.1 1.1 1.1" walker="1" />
     </model>
     <weapons>
         <weapon name="CrushingClaws">
@@ -16,7 +16,7 @@
         </weapon>
         <weapon name="StingerSalvo">
             <model>
-                <projectileWeapon muzzleBone=".BackSpikes" fireInterval="0.666666666667" />
+                <projectileWeapon fireInterval="0.666666666667" muzzleBone=".BackSpikes" />
             </model>
         </weapon>
     </weapons>
@@ -52,7 +52,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/Tyranids/TervigonAttack" beginFire="1.1" endFire="2.16666666667" chargeAnimation="Units/Tyranids/TervigonCharge" chargeBeginFire="0.3" chargeEndFire="0.733333333333" meleeAnimation="Units/Tyranids/TervigonMelee" meleeBeginSwing="0" meleeEndSwing="0.666" />
+                <action animation="Units/Tyranids/TervigonAttack" beginFire="1.1" chargeAnimation="Units/Tyranids/TervigonCharge" chargeBeginFire="0.3" chargeEndFire="0.733333333333" endFire="2.16666666667" meleeAnimation="Units/Tyranids/TervigonMelee" meleeBeginSwing="0" meleeEndSwing="0.666" />
             </model>
         </attack>
         <die>
@@ -91,7 +91,7 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radiusMin="2" radiusMax="4">
+                        <area affects="Tile" radiusMax="4" radiusMin="2">
                             <modifiers>
                                 <modifier>
                                     <effects>
@@ -108,7 +108,7 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1" excludeRadius="0">
+                        <area affects="Tile" excludeRadius="0" radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
@@ -159,7 +159,7 @@
             </beginTargets>
         </hammerOfWrath>
         <subterraneanAssault name="Tyranids/SubterraneanAssault" />
-        <livingIncubator cooldownMin="5" cooldownMax="3" name="Tyranids/LivingIncubator" rank="-1" rankMax="2">
+        <livingIncubator name="Tyranids/LivingIncubator" cooldownMax="3" cooldownMin="5" rank="-1" rankMax="2">
             <model>
                 <action animation="Units/Tyranids/TervigonAbility" sound="Actions/HiveMindBuff" />
             </model>
@@ -203,7 +203,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility consumedActionPoints="0" consumedMovement="0" cooldown="3" elite="1" name="Tyranids/MassIncubation" rank="-1" rankMax="0">
+        <genericUnitAbility name="Tyranids/MassIncubation" consumedActionPoints="0" consumedMovement="0" cooldown="3" elite="1" rank="-1" rankMax="0">
             <model>
                 <action animation="Units/Tyranids/TervigonAbility" sound="Actions/HiveMindEliteBuff" />
             </model>

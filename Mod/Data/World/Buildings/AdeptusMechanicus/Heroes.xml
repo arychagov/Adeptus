@@ -35,10 +35,10 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="AdeptusMechanicus/CyberneticaDatasmith" />
-        <produceUnit unit="AdeptusMechanicus/TechPriestManipulus" requiredUpgrade="AdeptusMechanicus/TechPriestManipulus" />
-        <produceUnit unit="AdeptusMechanicus/TechPriestDominus" requiredUpgrade="AdeptusMechanicus/TechPriestDominus" />
-        <produceUnit unit="AdeptusMechanicus/FulguriteElectroPriest" requiredUpgrade="AdeptusMechanicus/FulguriteElectroPriest" />
-        <produceUnit unit="AdeptusMechanicus/KataphronBreacher" requiredUpgrade="AdeptusMechanicus/KataphronBreacher" />
-        <produceUnit unit="AdeptusMechanicus/KataphronDestroyer" requiredUpgrade="AdeptusMechanicus/KataphronDestroyer" />
+        <produceUnit requiredUpgrade="AdeptusMechanicus/TechPriestManipulus" unit="AdeptusMechanicus/TechPriestManipulus" />
+        <produceUnit requiredUpgrade="AdeptusMechanicus/TechPriestDominus" unit="AdeptusMechanicus/TechPriestDominus" />
+        <produceUnit requiredUpgrade="AdeptusMechanicus/FulguriteElectroPriest" unit="AdeptusMechanicus/FulguriteElectroPriest" />
+        <produceUnit requiredUpgrade="AdeptusMechanicus/KataphronBreacher" unit="AdeptusMechanicus/KataphronBreacher" />
+        <produceUnit requiredUpgrade="AdeptusMechanicus/KataphronDestroyer" unit="AdeptusMechanicus/KataphronDestroyer" />
     </actions>
 </building>

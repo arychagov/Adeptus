@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement10">
     <model>
-        <unit mesh="Units/Eldar/Hornet" material="Units/Eldar/Hornet" idleAnimation="Units/Eldar/HornetIdle" idleAnimationCount="3" idleContinuously="1" position="0 0 24" scale="0.7 0.7 0.7" explosionsBone="Hull" />
+        <unit explosionsBone="Hull" idleAnimation="Units/Eldar/HornetIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Eldar/Hornet" mesh="Units/Eldar/Hornet" position="0 0 24" scale="0.7 0.7 0.7" />
     </model>
     <weapons>
         <weapon name="HornetPulseLaser" count="2">
             <model>
-                <beamWeapon muzzleBone="Muzzle" muzzleCount="2" fireInterval="0.5" effectFaceWeight="0" cycleMuzzles="0" />
+                <beamWeapon cycleMuzzles="0" effectFaceWeight="0" fireInterval="0.5" muzzleBone="Muzzle" muzzleCount="2" />
             </model>
         </weapon>
     </weapons>
@@ -90,7 +90,7 @@
                 </selfTarget>
             </beginTargets>
         </scout>
-        <jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
@@ -106,7 +106,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Jink" />
+                                        <addTrait name="Jink" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -115,7 +115,7 @@
                 </selfTarget>
             </beginTargets>
         </jink>
-        <crystalTargetingMatrix consumedActionPoints="0" consumedMovement="0" cooldown="5" name="Eldar/CrystalTargetingMatrix" requiredUpgrade="Eldar/CrystalTargetingMatrix">
+        <crystalTargetingMatrix name="Eldar/CrystalTargetingMatrix" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredUpgrade="Eldar/CrystalTargetingMatrix">
             <model>
                 <action sound="Actions/CrystalTargetingMatrix" />
             </model>
@@ -126,7 +126,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Eldar/CrystalTargetingMatrix" />
+                                        <addTrait name="Eldar/CrystalTargetingMatrix" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -135,7 +135,7 @@
                 </selfTarget>
             </beginTargets>
         </crystalTargetingMatrix>
-        <vectoredEngines consumedActionPoints="0" consumedMovement="0" cooldown="5" name="Eldar/VectoredEngines" requiredActionPoints="0" requiredUpgrade="Eldar/VectoredEngines">
+        <vectoredEngines name="Eldar/VectoredEngines" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0" requiredUpgrade="Eldar/VectoredEngines">
             <model>
                 <action sound="Actions/VectoredEngines" />
             </model>
@@ -146,7 +146,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Eldar/VectoredEngines" />
+                                        <addTrait name="Eldar/VectoredEngines" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -155,7 +155,7 @@
                 </selfTarget>
             </beginTargets>
         </vectoredEngines>
-        <clearTileUnitAbility cooldown="1" icon="Actions/ClearTile" name="ClearTile">
+        <clearTileUnitAbility name="ClearTile" cooldown="1" icon="Actions/ClearTile">
             <beginTargets>
                 <target rangeMax="1">
                     <conditions />

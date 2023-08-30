@@ -3,8 +3,8 @@
     <modifiers>
         <modifier>
             <effects>
-                <loyalty mulMin="0.02" mulMax="0.20" />
-                <damage mulMin="0.03" mulMax="0.30" />
+                <loyalty mulMax="0.20" mulMin="0.02" />
+                <damage mulMax="0.30" mulMin="0.03" />
             </effects>
         </modifier>
         <modifier requiredUpgrade="Orks/MegaWaaagh">

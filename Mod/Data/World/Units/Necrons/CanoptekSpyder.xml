@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit productionWeight="0.01">
     <model>
-        <unit mesh="Units/Necrons/CanoptekSpyder" material="Units/Necrons/CanoptekSpyder" idleAnimation="Units/Necrons/CanoptekSpyderIdle" idleAnimationCount="4" idleContinuously="1" scale="1 1 1" explosionsBone="BloodBone" walker="1" />
+        <unit explosionsBone="BloodBone" idleAnimation="Units/Necrons/CanoptekSpyderIdle" idleAnimationCount="4" idleContinuously="1" material="Units/Necrons/CanoptekSpyder" mesh="Units/Necrons/CanoptekSpyder" scale="1 1 1" walker="1" />
     </model>
     <weapons>
         <weapon name="CloseCombatWeapon">
@@ -45,7 +45,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/Necrons/CanoptekSpyderAttack" beginFire="0.5" endFire="1.8" chargeAnimation="Units/Necrons/CanoptekSpyderCharge" chargeBeginFire="0.25" chargeEndFire="1.1" chargeDefenseAnimation="Units/Necrons/CanoptekSpyderChargeDefense" chargeDefenseBeginFire="0.25" chargeDefenseEndFire="1.5" meleeAnimation="Units/Necrons/CanoptekSpyderMelee" meleeDefenseAnimation="Units/Necrons/CanoptekSpyderMeleeDefense" meleeBeginSwing="0.0" meleeEndSwing="1.0" meleeSound="Units/Necrons/CanoptekSpyderAttack" meleeSoundCount="2" />
+                <action animation="Units/Necrons/CanoptekSpyderAttack" beginFire="0.5" chargeAnimation="Units/Necrons/CanoptekSpyderCharge" chargeBeginFire="0.25" chargeDefenseAnimation="Units/Necrons/CanoptekSpyderChargeDefense" chargeDefenseBeginFire="0.25" chargeDefenseEndFire="1.5" chargeEndFire="1.1" endFire="1.8" meleeAnimation="Units/Necrons/CanoptekSpyderMelee" meleeBeginSwing="0.0" meleeDefenseAnimation="Units/Necrons/CanoptekSpyderMeleeDefense" meleeEndSwing="1.0" meleeSound="Units/Necrons/CanoptekSpyderAttack" meleeSoundCount="2" />
             </model>
         </attack>
         <die>
@@ -63,7 +63,7 @@
                 <action animation="Units/Necrons/CanoptekSpyderMove" sound="Units/Necrons/CanoptekSpyderMove" soundCount="3" />
             </model>
         </move>
-        <necrodermisRepair consumedActionPoints="0" consumedMovement="0" cooldown="1" name="Necrons/NecrodermisRepair" requiredActionPoints="0">
+        <necrodermisRepair name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
             <model>
                 <action sound="Actions/Heal" />
             </model>
@@ -127,7 +127,7 @@
                 </target>
             </beginTargets>
         </foundCity>
-        <clearTileUnitAbility cooldown="1" icon="Actions/ClearTile" name="ClearTile">
+        <clearTileUnitAbility name="ClearTile" cooldown="1" icon="Actions/ClearTile">
             <model>
                 <action animation="Units/Necrons/CanoptekSpyderAbility" />
             </model>
@@ -163,7 +163,7 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <scarabHive cooldown="10" icon="Units/Necrons/CanoptekScarab" name="Necrons/ScarabHive" requiredUpgrade="Necrons/ScarabHive">
+        <scarabHive name="Necrons/ScarabHive" cooldown="10" icon="Units/Necrons/CanoptekScarab" requiredUpgrade="Necrons/ScarabHive">
             <model>
                 <action animation="Units/Necrons/CanoptekSpyderAbility" sound="Actions/PsychicBuff" />
             </model>
@@ -197,7 +197,7 @@
                 </target>
             </beginTargets>
         </scarabHive>
-        <fabricatorClawArray cooldown="1" name="Necrons/FabricatorClawArray">
+        <fabricatorClawArray name="Necrons/FabricatorClawArray" cooldown="1">
             <model>
                 <action animation="Units/Necrons/CanoptekSpyderAbility" sound="Actions/MechanicalBuff" />
             </model>
@@ -245,7 +245,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility name="Necrons/AggressionOverrides" icon="Actions/Necrons/AggressionOverrides" charges="1" consumedActionPoints="0" consumedMovement="0" requiredUpgrade="Necrons/GloomPrism">
+        <genericUnitAbility name="Necrons/AggressionOverrides" charges="1" consumedActionPoints="0" consumedMovement="0" icon="Actions/Necrons/AggressionOverrides" requiredUpgrade="Necrons/GloomPrism">
             <beginTargets>
                 <selfTarget>
                     <areas>

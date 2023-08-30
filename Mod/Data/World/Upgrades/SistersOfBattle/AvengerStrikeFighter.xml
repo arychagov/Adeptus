@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="9" icon="Units/SistersOfBattle/AvengerStrikeFighter">
+<upgrade icon="Units/SistersOfBattle/AvengerStrikeFighter" position="9">
     <requiredUpgrades>
         <upgrade name="SistersOfBattle/Auxiliaries" />
     </requiredUpgrades>

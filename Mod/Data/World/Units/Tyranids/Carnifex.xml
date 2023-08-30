@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement2">
     <model>
-        <unit mesh="Units/Tyranids/Carnifex" material="Units/Tyranids/Carnifex" scale="1.5 1.5 1.5" idleAnimation="Units/Tyranids/CarnifexIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" bloodBone="Bloodbone" walker="1" />
+        <unit bloodBone="Bloodbone" idleAnimation="Units/Tyranids/CarnifexIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tyranids/Carnifex" mesh="Units/Tyranids/Carnifex" normalWeight="0.1" scale="1.5 1.5 1.5" walker="1" />
     </model>
     <weapons>
         <weapon name="BioPlasma" requiredUpgrade="Tyranids/BioPlasma">
@@ -21,12 +21,12 @@
         </weapon>
         <weapon name="SpineBanks">
             <model>
-                <projectileWeapon muzzleBone="Bloodbone" fireInterval="3.0" />
+                <projectileWeapon fireInterval="3.0" muzzleBone="Bloodbone" />
             </model>
         </weapon>
         <weapon name="StranglethornCannon">
             <model>
-                <projectileWeapon muzzleBone=".Muzzle" fireInterval="0.5" />
+                <projectileWeapon fireInterval="0.5" muzzleBone=".Muzzle" />
             </model>
         </weapon>
     </weapons>
@@ -59,7 +59,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/Tyranids/CarnifexAttack" beginFire="0.833333333333" endFire="2.83333333333" chargeAnimation="Units/Tyranids/CarnifexCharge" chargeBeginFire="0.5" chargeEndFire="1.16666666667" meleeAnimation="Units/Tyranids/CarnifexMelee" meleeBeginSwing="0.333333333333" meleeEndSwing="0.666666666667" />
+                <action animation="Units/Tyranids/CarnifexAttack" beginFire="0.833333333333" chargeAnimation="Units/Tyranids/CarnifexCharge" chargeBeginFire="0.5" chargeEndFire="1.16666666667" endFire="2.83333333333" meleeAnimation="Units/Tyranids/CarnifexMelee" meleeBeginSwing="0.333333333333" meleeEndSwing="0.666666666667" />
             </model>
         </attack>
         <die>
@@ -89,7 +89,7 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <hammerOfWrath consumedActionPoints="0" consumedMovement="0" cooldown="3" name="Tyranids/LivingBatteringRam" requiredActionPoints="0">
+        <hammerOfWrath name="Tyranids/LivingBatteringRam" consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/PsychicBuff" />
             </model>
@@ -109,7 +109,7 @@
                 </selfTarget>
             </beginTargets>
         </hammerOfWrath>
-        <instinctiveBehaviourOverride consumedActionPoints="0" consumedMovement="0" cooldown="3" name="Tyranids/InstinctiveBehaviourOverride" requiredActionPoints="0">
+        <instinctiveBehaviourOverride name="Tyranids/InstinctiveBehaviourOverride" consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/HiveMindBuff" />
             </model>

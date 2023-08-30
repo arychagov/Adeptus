@@ -8,7 +8,7 @@
                 </unit>
             </conditions>
             <effects>
-                <feelNoPainDamageReduction addMin="0.15" addMax="0.45" />
+                <feelNoPainDamageReduction addMax="0.45" addMin="0.15" />
             </effects>
         </modifier>
     </modifiers>

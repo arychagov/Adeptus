@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="7" icon="Units/Tau/SkyRayGunship">
+<upgrade icon="Units/Tau/SkyRayGunship" position="7">
     <requiredUpgrades>
         <upgrade name="Tau/Vehicles" />
     </requiredUpgrades>

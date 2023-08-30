@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <rangedAccuracy min="12" max="12" />
+                <rangedAccuracy max="12" min="12" />
                 <additionalMembersHit add="100" />
             </effects>
         </modifier>

@@ -27,7 +27,7 @@
         <track name="Music/TyranidsTheme" dlc="Supplement2" />
     </music>
     <quests>
-        <quest name="Orks/Story0" icon="Quests/Orks/Chapter0" firstTurn="2" lastTurn="2">
+        <quest name="Orks/Story0" firstTurn="2" icon="Quests/Orks/Chapter0" lastTurn="2">
             <stages>
                 <stage>
                     <objectives>
@@ -47,7 +47,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="Orks/Story1" icon="Quests/Orks/Chapter1" firstTurn="20" lastTurn="30">
+        <quest name="Orks/Story1" firstTurn="20" icon="Quests/Orks/Chapter1" lastTurn="30">
             <conditions>
                 <quests>
                     <completed name="Orks/Story0" />
@@ -60,9 +60,9 @@
                         <constructBuilding buildingType="Orks/Heroes" count="1" />
                         <researchUpgrade upgrade="Orks/Weirdboy" />
                         <produceUnit unitType="Orks/Weirdboy" />
-                        <visitTile unitType="Orks/Weirdboy" clearEnemies="1" featureType="Ruin" count="3">
+                        <visitTile clearEnemies="1" count="3" featureType="Ruin" unitType="Orks/Weirdboy">
                             <defenders>
-                                <unit type="Neutral/Psychneuein" count="1" rankMin="1" rankMax="3" />
+                                <unit count="1" rankMax="3" rankMin="1" type="Neutral/Psychneuein" />
                             </defenders>
                         </visitTile>
                     </objectives>
@@ -72,7 +72,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="Orks/Story2" icon="Quests/Orks/Chapter2" firstTurn="40" lastTurn="50">
+        <quest name="Orks/Story2" firstTurn="40" icon="Quests/Orks/Chapter2" lastTurn="50">
             <conditions>
                 <quests>
                     <completed name="Orks/Story1" />
@@ -90,13 +90,13 @@
                 <stage>
                     <objectives>
                         <defendTileWithEntrance turns="10" />
-                        <surviveInvasion turns="10" waves="4" waveInterval="2" strength="8" relativeStrength="0.5">
+                        <surviveInvasion relativeStrength="0.5" strength="8" turns="10" waveInterval="2" waves="4">
                             <attackers>
-                                <unit type="SpaceMarines/TacticalSpaceMarine" rankMin="2" rankMax="4" />
-                                <unit type="SpaceMarines/AssaultSpaceMarine" rankMin="2" rankMax="4" />
-                                <unit type="SpaceMarines/DevastatorSpaceMarine" rankMin="2" rankMax="4" />
-                                <unit type="SpaceMarines/Hunter" rankMin="2" rankMax="4" />
-                                <unit type="SpaceMarines/Predator" rankMin="2" rankMax="4" />
+                                <unit rankMax="4" rankMin="2" type="SpaceMarines/TacticalSpaceMarine" />
+                                <unit rankMax="4" rankMin="2" type="SpaceMarines/AssaultSpaceMarine" />
+                                <unit rankMax="4" rankMin="2" type="SpaceMarines/DevastatorSpaceMarine" />
+                                <unit rankMax="4" rankMin="2" type="SpaceMarines/Hunter" />
+                                <unit rankMax="4" rankMin="2" type="SpaceMarines/Predator" />
                             </attackers>
                         </surviveInvasion>
                     </objectives>
@@ -108,7 +108,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="Orks/Story3" icon="Quests/Orks/Chapter3" firstTurn="60" lastTurn="70">
+        <quest name="Orks/Story3" firstTurn="60" icon="Quests/Orks/Chapter3" lastTurn="70">
             <conditions>
                 <quests>
                     <completed name="Orks/Story2" />
@@ -126,7 +126,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="Orks/Story4" icon="Quests/Orks/Chapter4" firstTurn="80" lastTurn="90">
+        <quest name="Orks/Story4" firstTurn="80" icon="Quests/Orks/Chapter4" lastTurn="90">
             <conditions>
                 <quests>
                     <completed name="Orks/Story3" />
@@ -135,15 +135,15 @@
             <stages>
                 <stage>
                     <objectives>
-                        <destroySpawnedCity strength="16" relativeStrength="1.0">
+                        <destroySpawnedCity relativeStrength="1.0" strength="16">
                             <defenders>
-                                <unit type="AstraMilitarum/Basilisk" count="1" rankMin="4" rankMax="6" />
-                                <unit type="AstraMilitarum/Guardsman" count="2" rankMin="4" rankMax="6" />
-                                <unit type="AstraMilitarum/HeavyWeaponsSquad" count="1" rankMin="4" rankMax="6" />
-                                <unit type="AstraMilitarum/Hydra" count="1" rankMin="4" rankMax="6" />
-                                <unit type="AstraMilitarum/ScoutSentinel" count="1" rankMin="4" rankMax="6" />
-                                <unit type="AstraMilitarum/LemanRussBattleTank" count="1" rankMin="4" rankMax="6" />
-                                <unit type="AstraMilitarum/LordCommissar" count="1" rankMin="4" rankMax="6" />
+                                <unit count="1" rankMax="6" rankMin="4" type="AstraMilitarum/Basilisk" />
+                                <unit count="2" rankMax="6" rankMin="4" type="AstraMilitarum/Guardsman" />
+                                <unit count="1" rankMax="6" rankMin="4" type="AstraMilitarum/HeavyWeaponsSquad" />
+                                <unit count="1" rankMax="6" rankMin="4" type="AstraMilitarum/Hydra" />
+                                <unit count="1" rankMax="6" rankMin="4" type="AstraMilitarum/ScoutSentinel" />
+                                <unit count="1" rankMax="6" rankMin="4" type="AstraMilitarum/LemanRussBattleTank" />
+                                <unit count="1" rankMax="6" rankMin="4" type="AstraMilitarum/LordCommissar" />
                             </defenders>
                         </destroySpawnedCity>
                     </objectives>
@@ -153,7 +153,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="Orks/Story5" icon="Quests/Orks/Chapter5" firstTurn="100" lastTurn="110">
+        <quest name="Orks/Story5" firstTurn="100" icon="Quests/Orks/Chapter5" lastTurn="110">
             <conditions>
                 <quests>
                     <completed name="Orks/Story4" />
@@ -163,7 +163,7 @@
                 <stage>
                     <objectives>
                         <researchUpgrade upgrade="Orks/Beasts" />
-                        <produceUnit unitType="Orks/GargantuanSquiggoth" count="1" />
+                        <produceUnit count="1" unitType="Orks/GargantuanSquiggoth" />
                     </objectives>
                     <rewards>
                         <influence amount="200" />
@@ -171,35 +171,35 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <surviveInvasion relativeStrength="2.0" strength="32" turns="20" waves="9" waveInterval="2">
+                        <surviveInvasion relativeStrength="2.0" strength="32" turns="20" waveInterval="2" waves="9">
                             <attackers>
-                                <unit type="AstraMilitarum/Baneblade" count="1" rankMin="5" rankMax="7" />
-                                <unit type="AstraMilitarum/Basilisk" count="1" rankMin="5" rankMax="7" />
-                                <unit type="AstraMilitarum/Guardsman" count="1" rankMin="5" rankMax="7" />
-                                <unit type="AstraMilitarum/HeavyWeaponsSquad" count="1" rankMin="5" rankMax="7" />
-                                <unit type="AstraMilitarum/Hydra" count="1" rankMin="5" rankMax="7" />
-                                <unit type="AstraMilitarum/LemanRussBattleTank" count="1" rankMin="5" rankMax="7" />
-                                <unit type="AstraMilitarum/MarauderBomber" count="1" rankMin="5" rankMax="7" />
-                                <unit type="AstraMilitarum/TempestusScion" count="1" rankMin="5" rankMax="7" />
-                                <unit type="AstraMilitarum/Thunderbolt" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/AnnihilationBarge" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/DoomScythe" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/DoomsdayArk" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/HeavyDestroyer" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/Immortal" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/Monolith" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/TranscendentCtan" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/TriarchPraetorian" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/Warrior" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/AssaultSpaceMarine" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/DevastatorSpaceMarine" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/LandRaider" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/Predator" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/StormravenGunship" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/StormtalonGunship" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/TacticalSpaceMarine" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/Terminator" count="1" rankMin="5" rankMax="7" />
-                                <unit type="SpaceMarines/Vindicator" count="1" rankMin="5" rankMax="7" />
+                                <unit count="1" rankMax="7" rankMin="5" type="AstraMilitarum/Baneblade" />
+                                <unit count="1" rankMax="7" rankMin="5" type="AstraMilitarum/Basilisk" />
+                                <unit count="1" rankMax="7" rankMin="5" type="AstraMilitarum/Guardsman" />
+                                <unit count="1" rankMax="7" rankMin="5" type="AstraMilitarum/HeavyWeaponsSquad" />
+                                <unit count="1" rankMax="7" rankMin="5" type="AstraMilitarum/Hydra" />
+                                <unit count="1" rankMax="7" rankMin="5" type="AstraMilitarum/LemanRussBattleTank" />
+                                <unit count="1" rankMax="7" rankMin="5" type="AstraMilitarum/MarauderBomber" />
+                                <unit count="1" rankMax="7" rankMin="5" type="AstraMilitarum/TempestusScion" />
+                                <unit count="1" rankMax="7" rankMin="5" type="AstraMilitarum/Thunderbolt" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/AnnihilationBarge" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/DoomScythe" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/DoomsdayArk" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/HeavyDestroyer" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/Immortal" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/Monolith" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/TranscendentCtan" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/TriarchPraetorian" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/Warrior" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/AssaultSpaceMarine" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/DevastatorSpaceMarine" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/LandRaider" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/Predator" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/StormravenGunship" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/StormtalonGunship" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/TacticalSpaceMarine" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/Terminator" />
+                                <unit count="1" rankMax="7" rankMin="5" type="SpaceMarines/Vindicator" />
                             </attackers>
                         </surviveInvasion>
                     </objectives>
@@ -224,6 +224,6 @@
     </quests>
     <startingUnits>
         <unit type="Orks/Mek" />
-        <unit type="Orks/Boy" count="3" />
+        <unit count="3" type="Orks/Boy" />
     </startingUnits>
 </faction>

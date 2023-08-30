@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement6">
     <model>
-        <unit mesh="Units/Tau/TidewallGunrig" material="Units/Tau/TidewallGunrig" idleAnimation="Units/Tau/TidewallGunrigIdle" idleAnimationCount="3" idleContinuously="1" position="0 0 0" scale="1 1 1" explosionsBone="Bone" />
+        <unit explosionsBone="Bone" idleAnimation="Units/Tau/TidewallGunrigIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tau/TidewallGunrig" mesh="Units/Tau/TidewallGunrig" position="0 0 0" scale="1 1 1" />
     </model>
     <weapons>
         <weapon name="SupremacyRailgun">
             <model>
-                <projectileWeapon muzzleBone=".Muzzle" fireInterval="0.67" />
+                <projectileWeapon fireInterval="0.67" muzzleBone=".Muzzle" />
             </model>
         </weapon>
     </weapons>

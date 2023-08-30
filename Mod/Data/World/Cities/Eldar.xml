@@ -8,7 +8,7 @@
         </modifier>
     </modifiers>
     <actions>
-        <asuryaniArrivals cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/AsuryaniArrivals" name="Eldar/AsuryaniArrivals">
+        <asuryaniArrivals name="Eldar/AsuryaniArrivals" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/AsuryaniArrivals">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -29,12 +29,12 @@
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="5" name="Eldar/AsuryaniArrivals" />
+                        <addTrait name="Eldar/AsuryaniArrivals" duration="5" />
                     </effects>
                 </modifier>
             </actorModifiers>
         </asuryaniArrivals>
-        <transcendentBliss cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/TranscendentBliss" name="Eldar/TranscendentBliss" requiredUpgrade="Eldar/TranscendentBliss">
+        <transcendentBliss name="Eldar/TranscendentBliss" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/TranscendentBliss" requiredUpgrade="Eldar/TranscendentBliss">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -45,7 +45,7 @@
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait duration="10" name="Eldar/TranscendentBliss" />
+                        <addTrait name="Eldar/TranscendentBliss" duration="10" />
                     </effects>
                 </modifier>
             </actorModifiers>

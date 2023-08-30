@@ -35,12 +35,12 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="Eldar/ShiningSpear" />
-        <produceUnit unit="Eldar/Hornet" requiredUpgrade="Eldar/Hornet" />
-        <produceUnit unit="Eldar/VaulsWrathSupportBattery" requiredUpgrade="Eldar/VaulsWrathSupportBattery" />
-        <produceUnit unit="Eldar/WaveSerpent" requiredUpgrade="Eldar/WaveSerpent" />
-        <produceUnit unit="Eldar/FirePrism" requiredUpgrade="Eldar/FirePrism" />
-        <produceUnit unit="Eldar/WarWalker" requiredUpgrade="Eldar/WarWalker" />
-        <produceUnit unit="Eldar/Scorpion" requiredUpgrade="Eldar/Scorpion" />
+        <produceUnit requiredUpgrade="Eldar/Hornet" unit="Eldar/Hornet" />
+        <produceUnit requiredUpgrade="Eldar/VaulsWrathSupportBattery" unit="Eldar/VaulsWrathSupportBattery" />
+        <produceUnit requiredUpgrade="Eldar/WaveSerpent" unit="Eldar/WaveSerpent" />
+        <produceUnit requiredUpgrade="Eldar/FirePrism" unit="Eldar/FirePrism" />
+        <produceUnit requiredUpgrade="Eldar/WarWalker" unit="Eldar/WarWalker" />
+        <produceUnit requiredUpgrade="Eldar/Scorpion" unit="Eldar/Scorpion" />
     </actions>
     <traits>
         <trait name="Eldar/VehicleBuildingBonus" requiredUpgrade="Eldar/VehicleBuildingBonus" />

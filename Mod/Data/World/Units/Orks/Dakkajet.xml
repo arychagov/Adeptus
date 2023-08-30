@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/Orks/Dakkajet" material="Units/Orks/Dakkajet" position="0 0 64" idleAnimation="Units/Orks/DakkajetIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="1.0" scale="0.8 0.8 0.8" explosionsBone="Hull_Dakkajet" />
+        <unit explosionsBone="Hull_Dakkajet" idleAnimation="Units/Orks/DakkajetIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Orks/Dakkajet" mesh="Units/Orks/Dakkajet" normalWeight="1.0" position="0 0 64" scale="0.8 0.8 0.8" />
     </model>
     <weapons>
         <weapon name="TwinLinkedSupaShoota" count="2">
@@ -11,7 +11,7 @@
         </weapon>
         <weapon name="TwinLinkedSupaShoota" requiredUpgrade="Orks/DakkajetSupaShoota">
             <model>
-                <projectileWeapon mesh="Weapons/Orks/DakkajetTwinLinkedSupaShoota" material="Weapons/Orks/DakkajetTwinLinkedSupaShoota" bone="Hull_Dakkajet" muzzleBone=".Muzzle" />
+                <projectileWeapon bone="Hull_Dakkajet" material="Weapons/Orks/DakkajetTwinLinkedSupaShoota" mesh="Weapons/Orks/DakkajetTwinLinkedSupaShoota" muzzleBone=".Muzzle" />
             </model>
         </weapon>
     </weapons>
@@ -71,7 +71,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Supersonic" />
+                                        <addTrait name="Supersonic" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -80,7 +80,7 @@
                 </selfTarget>
             </beginTargets>
         </supersonic>
-        <jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
@@ -96,7 +96,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Jink" />
+                                        <addTrait name="Jink" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

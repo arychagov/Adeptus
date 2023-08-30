@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/AstraMilitarum/Bullgryn" material="Units/AstraMilitarum/Bullgryn" scale="1.5 1.5 1.5" idleAnimation="Units/AstraMilitarum/BullgrynIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" bloodBone="ChestBone" walker="1" />
+        <unit bloodBone="ChestBone" idleAnimation="Units/AstraMilitarum/BullgrynIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AstraMilitarum/Bullgryn" mesh="Units/AstraMilitarum/Bullgryn" normalWeight="0.1" scale="1.5 1.5 1.5" walker="1" />
     </model>
-    <group size="3" rowSize="3" memberDeltaX="64" memberDeltaY="64" />
+    <group memberDeltaX="64" memberDeltaY="64" rowSize="3" size="3" />
     <weapons>
         <weapon name="PowerMaul">
             <model>
-                <powerWeapon effectBoundingVolume="Blade" mesh="Weapons/AstraMilitarum/BullgrynPowerMaul" material="Weapons/AstraMilitarum/BullgrynMeleeWeapons" bone="RightHandBone" fireInterval="0.4" />
+                <powerWeapon bone="RightHandBone" effectBoundingVolume="Blade" fireInterval="0.4" material="Weapons/AstraMilitarum/BullgrynMeleeWeapons" mesh="Weapons/AstraMilitarum/BullgrynPowerMaul" />
             </model>
         </weapon>
         <weapon name="None" enabled="0" requiredUpgrade="AstraMilitarum/BruteShield">
             <model>
-                <weapon mesh="Weapons/AstraMilitarum/BullgrynBruteShield" material="Weapons/AstraMilitarum/BullgrynMeleeWeapons" bone="LeftArmBone1" />
+                <weapon bone="LeftArmBone1" material="Weapons/AstraMilitarum/BullgrynMeleeWeapons" mesh="Weapons/AstraMilitarum/BullgrynBruteShield" />
             </model>
         </weapon>
-        <weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
             <model>
                 <grenadeWeapon muzzleBone="RightHandBone" />
             </model>
@@ -51,7 +51,7 @@
     <actions>
         <attack>
             <model>
-                <action chargeAnimation="Units/AstraMilitarum/BullgrynCharge" meleeAnimation="Units/AstraMilitarum/BullgrynMelee" meleeBeginSwing="0.45" meleeEndSwing="0.95" meleeDefenseAnimation="Units/AstraMilitarum/BullgrynMelee" meleeDefenseBeginSwing="0.45" meleeDefenseEndSwing="0.95" />
+                <action chargeAnimation="Units/AstraMilitarum/BullgrynCharge" meleeAnimation="Units/AstraMilitarum/BullgrynMelee" meleeBeginSwing="0.45" meleeDefenseAnimation="Units/AstraMilitarum/BullgrynMelee" meleeDefenseBeginSwing="0.45" meleeDefenseEndSwing="0.95" meleeEndSwing="0.95" />
             </model>
         </attack>
         <die>
@@ -85,7 +85,7 @@
                 </selfTarget>
             </beginTargets>
         </hammerOfWrath>
-        <genericUnitAbility passive="1" icon="Units/AstraMilitarum/Bullgryn" name="AstraMilitarum/WallOfMuscle">
+        <genericUnitAbility name="AstraMilitarum/WallOfMuscle" icon="Units/AstraMilitarum/Bullgryn" passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>

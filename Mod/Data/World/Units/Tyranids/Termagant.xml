@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement2">
     <model>
-        <unit mesh="Units/Tyranids/Termagant" material="Units/Tyranids/Termagant" idleAnimation="Units/Tyranids/TermagantIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.8 0.8 0.8" bloodBone="BloodBone" walker="1" />
+        <unit bloodBone="BloodBone" idleAnimation="Units/Tyranids/TermagantIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tyranids/Termagant" mesh="Units/Tyranids/Termagant" normalWeight="0.1" scale="0.8 0.8 0.8" walker="1" />
     </model>
-    <group size="10" rowSize="5" memberDeltaX="100" memberDeltaY="50" />
+    <group memberDeltaX="100" memberDeltaY="50" rowSize="5" size="10" />
     <weapons>
         <weapon name="Fleshborer">
             <model>
-                <projectileWeapon mesh="Weapons/Tyranids/TermagantGun" material="Units/Tyranids/Termagant" bone="Bone003" muzzleBone=".Muzzle" fireInterval="0.166666666667" />
+                <projectileWeapon bone="Bone003" fireInterval="0.166666666667" material="Units/Tyranids/Termagant" mesh="Weapons/Tyranids/TermagantGun" muzzleBone=".Muzzle" />
             </model>
         </weapon>
     </weapons>
@@ -56,7 +56,7 @@
                 <action animation="Units/Tyranids/TermagantMove" sound="Units/Tyranids/InfantryMove" soundCount="4" />
             </model>
         </move>
-        <instinctiveBehaviourOverride consumedActionPoints="0" consumedMovement="0" cooldown="3" name="Tyranids/InstinctiveBehaviourOverride" requiredActionPoints="0">
+        <instinctiveBehaviourOverride name="Tyranids/InstinctiveBehaviourOverride" consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/HiveMindBuff" />
             </model>

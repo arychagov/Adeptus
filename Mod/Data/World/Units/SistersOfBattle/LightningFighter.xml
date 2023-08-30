@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement11">
     <model>
-        <unit mesh="Units/SistersOfBattle/LightningFighter" material="Units/SistersOfBattle/LightningFighter" idleAnimation="Units/SistersOfBattle/LightningFighterIdle" idleAnimationCount="2" idleContinuously="1" position="0 0 32" scale="0.9 0.9 0.9" normalWeight="1.0" explosionsBone="Hull_Shake" uvAnimated="0" />
+        <unit explosionsBone="Hull_Shake" idleAnimation="Units/SistersOfBattle/LightningFighterIdle" idleAnimationCount="2" idleContinuously="1" material="Units/SistersOfBattle/LightningFighter" mesh="Units/SistersOfBattle/LightningFighter" normalWeight="1.0" position="0 0 32" scale="0.9 0.9 0.9" uvAnimated="0" />
     </model>
     <weapons>
         <weapon name="Lascannon" count="2">
             <model>
-                <projectileWeapon muzzleBone="Muzzle" muzzleCount="2" fireInterval="0.6" cycleMuzzles="0" />
+                <projectileWeapon cycleMuzzles="0" fireInterval="0.6" muzzleBone="Muzzle" muzzleCount="2" />
             </model>
         </weapon>
         <weapon name="SkystrikeMissile" count="2" requiredUpgrade="SistersOfBattle/AircraftsMissiles">
             <model>
-                <missileWeapon muzzleBone="MissileMuzzle" muzzleCount="4" fireInterval="0.93" missileScale="0.5" />
+                <missileWeapon fireInterval="0.93" missileScale="0.5" muzzleBone="MissileMuzzle" muzzleCount="4" />
             </model>
         </weapon>
     </weapons>
@@ -54,7 +54,7 @@
                 <action sound="Units/AstraMilitarum/ValkyrieMove" soundCount="3" />
             </model>
         </move>
-        <agile name="Agile" consumedMovement="0" cooldown="3" consumedActionPoints="0" requiredActionPoints="1">
+        <agile name="Agile" consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="1">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
@@ -65,7 +65,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Agile" />
+                                        <addTrait name="Agile" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -85,7 +85,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Supersonic" />
+                                        <addTrait name="Supersonic" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -94,7 +94,7 @@
                 </selfTarget>
             </beginTargets>
         </supersonic>
-        <jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
@@ -110,7 +110,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Jink" />
+                                        <addTrait name="Jink" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -119,7 +119,7 @@
                 </selfTarget>
             </beginTargets>
         </jink>
-        <dispenseChaff consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="5" requiredUpgrade="SistersOfBattle/ChaffLauncher">
+        <dispenseChaff consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0" requiredUpgrade="SistersOfBattle/ChaffLauncher">
             <model>
                 <action sound="Actions/SmokeScreen" />
             </model>
@@ -130,7 +130,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Chaff" />
+                                        <addTrait name="Chaff" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

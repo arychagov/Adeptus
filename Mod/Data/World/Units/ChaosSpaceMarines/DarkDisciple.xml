@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement8">
     <model>
-        <unit mesh="Units/ChaosSpaceMarines/DarkDisciple" material="Units/ChaosSpaceMarines/DarkDisciple" idleAnimation="Units/ChaosSpaceMarines/DarkDiscipleIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" portraitFocusHeightModifier="-24" portraitZoomModifier="1.6" scale="0.8 0.8 0.8" bloodBone="Chest" walker="1" />
+        <unit bloodBone="Chest" idleAnimation="Units/ChaosSpaceMarines/DarkDiscipleIdle" idleAnimationCount="3" idleContinuously="1" material="Units/ChaosSpaceMarines/DarkDisciple" mesh="Units/ChaosSpaceMarines/DarkDisciple" normalWeight="0.1" portraitFocusHeightModifier="-24" portraitZoomModifier="1.6" scale="0.8 0.8 0.8" walker="1" />
     </model>
-    <group size="10" rowSize="5" memberDeltaX="70" memberDeltaY="50" />
+    <group memberDeltaX="70" memberDeltaY="50" rowSize="5" size="10" />
     <weapons>
         <weapon name="CloseCombatWeapon">
             <model>
@@ -62,7 +62,7 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1" excludeRadius="0">
+                        <area affects="Tile" excludeRadius="0" radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>

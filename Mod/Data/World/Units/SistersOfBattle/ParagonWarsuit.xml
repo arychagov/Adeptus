@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement11">
     <model>
-        <unit mesh="Units/SistersOfBattle/ParagonWarsuit" material="Units/SistersOfBattle/ParagonWarsuit" idleAnimation="Units/SistersOfBattle/ParagonWarsuitIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1.2 1.2 1.2" bloodBone="Chest" explosionsBone="Chest" portraitFocusHeightModifier="-12" portraitZoomModifier="1.25" walker="1" />
+        <unit bloodBone="Chest" explosionsBone="Chest" idleAnimation="Units/SistersOfBattle/ParagonWarsuitIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SistersOfBattle/ParagonWarsuit" mesh="Units/SistersOfBattle/ParagonWarsuit" normalWeight="0.1" portraitFocusHeightModifier="-12" portraitZoomModifier="1.25" scale="1.2 1.2 1.2" walker="1" />
     </model>
-    <group size="2" rowSize="2" memberDeltaX="110" memberDeltaY="110" />
+    <group memberDeltaX="110" memberDeltaY="110" rowSize="2" size="2" />
     <weapons>
         <weapon name="MultiMelta">
             <model>
-                <beamWeapon muzzleBone="Muzzle" fireDelay="0.3" chargeFireDelay="0.3" />
+                <beamWeapon chargeFireDelay="0.3" fireDelay="0.3" muzzleBone="Muzzle" />
             </model>
         </weapon>
         <weapon name="ParagonGrenadeLauncher">
@@ -17,15 +17,15 @@
         </weapon>
         <weapon name="ParagonWarBlade">
             <model>
-                <powerWeapon effectBoundingVolume="Blade" effectBone="Effect" />
+                <powerWeapon effectBone="Effect" effectBoundingVolume="Blade" />
             </model>
         </weapon>
-        <weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
             <model>
                 <grenadeWeapon muzzleBone="Hand_R" />
             </model>
         </weapon>
-        <weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
+        <weapon name="KrakGrenade" enabled="0" slotName="KrakGrenade">
             <model>
                 <grenadeWeapon muzzleBone="Hand_R" />
             </model>
@@ -60,7 +60,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/SistersOfBattle/ParagonWarsuitAttack" beginFire="0.7" endFire="1.9" chargeAnimation="Units/SistersOfBattle/ParagonWarsuitCharge" chargeDefenseAnimation="Units/SistersOfBattle/ParagonWarsuitChargeDefense" chargeBeginFire="0.23" chargeEndFire="1.1" meleeAnimation="Units/SistersOfBattle/ParagonWarsuitMelee" meleeDefenseAnimation="Units/SistersOfBattle/ParagonWarsuitMeleeDefense" meleeBeginSwing="0.5" meleeEndSwing="1.0" />
+                <action animation="Units/SistersOfBattle/ParagonWarsuitAttack" beginFire="0.7" chargeAnimation="Units/SistersOfBattle/ParagonWarsuitCharge" chargeBeginFire="0.23" chargeDefenseAnimation="Units/SistersOfBattle/ParagonWarsuitChargeDefense" chargeEndFire="1.1" endFire="1.9" meleeAnimation="Units/SistersOfBattle/ParagonWarsuitMelee" meleeBeginSwing="0.5" meleeDefenseAnimation="Units/SistersOfBattle/ParagonWarsuitMeleeDefense" meleeEndSwing="1.0" />
             </model>
         </attack>
         <die>
@@ -80,7 +80,7 @@
         </move>
 
 
-        <lightOfTheEmperor consumedActionPoints="0" consumedMovement="0" cooldown="10" name="SistersOfBattle/LightOfTheEmperor" requiredActionPoints="0">
+        <lightOfTheEmperor name="SistersOfBattle/LightOfTheEmperor" consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0">
             <model>
                 <action sound="Actions/LightOfTheEmperor" />
             </model>
@@ -112,8 +112,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="SistersOfBattle/LightOfTheEmperor" />
-                                        <addTrait duration="1" name="SistersOfBattle/UsedActOfFaith" />
+                                        <addTrait name="SistersOfBattle/LightOfTheEmperor" duration="1" />
+                                        <addTrait name="SistersOfBattle/UsedActOfFaith" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

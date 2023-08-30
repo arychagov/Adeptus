@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/SpaceMarines/Dreadnought" material="Units/SpaceMarines/Dreadnought" idleAnimation="Units/SpaceMarines/DreadnoughtIdle" idleAnimationCount="3" normalWeight="0.1" scale="1.5 1.5 1.5" syncMovementSounds="1" explosionsBone="Hull" walker="1" />
+        <unit explosionsBone="Hull" idleAnimation="Units/SpaceMarines/DreadnoughtIdle" idleAnimationCount="3" material="Units/SpaceMarines/Dreadnought" mesh="Units/SpaceMarines/Dreadnought" normalWeight="0.1" scale="1.5 1.5 1.5" syncMovementSounds="1" walker="1" />
     </model>
     <weapons>
         <weapon name="MultiMelta">
@@ -14,7 +14,7 @@
         </weapon>
         <weapon name="StormBolter">
             <model>
-                <projectileWeapon muzzleBone=".StormBolterMuzzleBone" effectScale="1.0" muzzleCount="1" />
+                <projectileWeapon effectScale="1.0" muzzleBone=".StormBolterMuzzleBone" muzzleCount="1" />
                 <!-- Storm Bolters need two muzzles. -->
             </model>
         </weapon>
@@ -48,7 +48,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/SpaceMarines/DreadnoughtAttack" beginFire="0.5" endFire="2.667" chargeAnimation="Units/SpaceMarines/DreadnoughtCharge" chargeBeginFire="0.0" chargeEndFire="0.67" chargeDefenseAnimation="Units/SpaceMarines/DreadnoughtChargeDefense" chargeDefenseBeginFire="0.33" chargeDefenseEndFire="1.3" meleeAnimation="Units/SpaceMarines/DreadnoughtMelee" meleeBeginSwing="0.05" meleeEndSwing="0.5" meleeDefenseAnimation="Units/SpaceMarines/DreadnoughtMeleeDefense" meleeDefenseBeginSwing="0.05" meleeDefenseEndSwing="0.5" />
+                <action animation="Units/SpaceMarines/DreadnoughtAttack" beginFire="0.5" chargeAnimation="Units/SpaceMarines/DreadnoughtCharge" chargeBeginFire="0.0" chargeDefenseAnimation="Units/SpaceMarines/DreadnoughtChargeDefense" chargeDefenseBeginFire="0.33" chargeDefenseEndFire="1.3" chargeEndFire="0.67" endFire="2.667" meleeAnimation="Units/SpaceMarines/DreadnoughtMelee" meleeBeginSwing="0.05" meleeDefenseAnimation="Units/SpaceMarines/DreadnoughtMeleeDefense" meleeDefenseBeginSwing="0.05" meleeDefenseEndSwing="0.5" meleeEndSwing="0.5" />
             </model>
         </attack>
         <die>
@@ -86,7 +86,7 @@
                 </selfTarget>
             </beginTargets>
         </hammerOfWrath>
-        <createSmokeScreen icon="Traits/SmokeScreen" cooldown="10" requiredUpgrade="SpaceMarines/SmokeLauncher">
+        <createSmokeScreen cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="SpaceMarines/SmokeLauncher">
             <model>
                 <action sound="Actions/SmokeScreen" />
             </model>
@@ -97,7 +97,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature duration="3" name="SmokeScreen" />
+                                        <addFeature name="SmokeScreen" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>

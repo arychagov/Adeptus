@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/AstraMilitarum/LemanRussBattleTank" material="Units/AstraMilitarum/LemanRussBattleTank" idleAnimation="Units/AstraMilitarum/LemanRussBattleTankIdle" idleAnimationCount="2" scale="1.3 1.3 1.3" explosionsBone="Hull" uvAnimated="1" />
+        <unit explosionsBone="Hull" idleAnimation="Units/AstraMilitarum/LemanRussBattleTankIdle" idleAnimationCount="2" material="Units/AstraMilitarum/LemanRussBattleTank" mesh="Units/AstraMilitarum/LemanRussBattleTank" scale="1.3 1.3 1.3" uvAnimated="1" />
     </model>
     <weapons>
         <weapon name="EradicatorNovaCannon">
             <model>
-                <projectileWeapon mesh="Weapons/AstraMilitarum/LemanRussBattleTankBattleCannon" material="Weapons/AstraMilitarum/LemanRussBattleTankBattleCannon" bone=".BarrelAttachment" muzzleBone="BarrelMuzzle0" fireInterval="1.0" />
+                <projectileWeapon bone=".BarrelAttachment" fireInterval="1.0" material="Weapons/AstraMilitarum/LemanRussBattleTankBattleCannon" mesh="Weapons/AstraMilitarum/LemanRussBattleTankBattleCannon" muzzleBone="BarrelMuzzle0" />
             </model>
         </weapon>
         <weapon name="HeavyLascannon">
             <model>
-                <beamWeapon muzzleBone=".FrontTurretMuzzle0" fireInterval="1.0" />
+                <beamWeapon fireInterval="1.0" muzzleBone=".FrontTurretMuzzle0" />
             </model>
         </weapon>
         <weapon name="HeavyBolter" count="2" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
             <model>
-                <projectileWeapon mesh="Weapons/AstraMilitarum/LemanRussBattleTankHeavyBolters" material="Weapons/AstraMilitarum/LemanRussBattleTankHeavyBolters" bone=".SideGunsAttachment" muzzleBone="SideGunsMuzzle" muzzleCount="2" />
+                <projectileWeapon bone=".SideGunsAttachment" material="Weapons/AstraMilitarum/LemanRussBattleTankHeavyBolters" mesh="Weapons/AstraMilitarum/LemanRussBattleTankHeavyBolters" muzzleBone="SideGunsMuzzle" muzzleCount="2" />
             </model>
         </weapon>
         <weapon name="HeavyBolter" requiredUpgrade="AstraMilitarum/BoltDamage" />
-        <weapon name="HunterKillerMissile" slotName="HunterKillerMissile" enabled="0">
+        <weapon name="HunterKillerMissile" enabled="0" slotName="HunterKillerMissile">
             <model>
                 <missileWeapon muzzleBone=".SmokeLaunchersAttachment" />
             </model>
@@ -40,7 +40,7 @@
                 <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>
         </modifier>
-        <modifier visible="0" requiredUpgrade="AstraMilitarum/RelicPlating">
+        <modifier requiredUpgrade="AstraMilitarum/RelicPlating" visible="0">
             <effects>
                 <armor add="1" />
             </effects>
@@ -80,7 +80,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature duration="3" name="SmokeScreen" />
+                                        <addFeature name="SmokeScreen" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -89,7 +89,7 @@
                 </selfTarget>
             </beginTargets>
         </createSmokeScreen>
-        <useWeapon weaponSlotName="HunterKillerMissile" cooldown="10" requiredUpgrade="AstraMilitarum/HunterKillerMissile">
+        <useWeapon cooldown="10" requiredUpgrade="AstraMilitarum/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
             <model>
                 <action beginFire="0.1" endFire="1.0" />
             </model>

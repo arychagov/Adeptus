@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<faction auxiliary="1" playable="1" icon="Attributes/Sight">
+<faction auxiliary="1" icon="Attributes/Sight" playable="1">
     <music>
         <track name="Music/AdeptusMechanicusBGM" dlc="Supplement9" />
         <track name="Music/AdeptusMechanicusTheme" dlc="Supplement9" />

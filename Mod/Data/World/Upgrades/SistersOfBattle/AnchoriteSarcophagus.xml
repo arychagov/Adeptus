@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="4" icon="Traits/SistersOfBattle/AnchoriteSarcophagus" visible="0">
+<upgrade icon="Traits/SistersOfBattle/AnchoriteSarcophagus" position="4" visible="0">
     <requiredUpgrades>
         <upgrade name="SistersOfBattle/Mortifier" />
     </requiredUpgrades>

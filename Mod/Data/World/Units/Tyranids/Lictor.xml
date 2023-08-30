@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement2">
     <model>
-        <unit mesh="Units/Tyranids/Lictor" material="Units/Tyranids/Lictor" idleAnimation="Units/Tyranids/LictorIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1 1 1" bloodBone="Bone001" walker="1" />
+        <unit bloodBone="Bone001" idleAnimation="Units/Tyranids/LictorIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tyranids/Lictor" mesh="Units/Tyranids/Lictor" normalWeight="0.1" scale="1 1 1" walker="1" />
     </model>
-    <group size="3" rowSize="3" memberDeltaX="70" memberDeltaY="70" />
+    <group memberDeltaX="70" memberDeltaY="70" rowSize="3" size="3" />
     <weapons>
         <weapon name="ScythingTalons">
             <model>
@@ -17,7 +17,7 @@
         </weapon>
         <weapon name="FleshHooks" requiredUpgrade="Tyranids/FleshHooks">
             <model>
-                <projectileWeapon muzzleBone="Bone001" fireInterval="10.0" />
+                <projectileWeapon fireInterval="10.0" muzzleBone="Bone001" />
             </model>
         </weapon>
     </weapons>
@@ -49,7 +49,7 @@
     <actions>
         <attack>
             <model>
-                <action beginFire="0.5" endFire="1.0" chargeAnimation="Units/Tyranids/LictorCharge" chargeBeginFire="0.5" chargeEndFire="1.0" meleeAnimation="Units/Tyranids/LictorMelee" meleeBeginSwing="0.166666666667" meleeEndSwing="1.0" />
+                <action beginFire="0.5" chargeAnimation="Units/Tyranids/LictorCharge" chargeBeginFire="0.5" chargeEndFire="1.0" endFire="1.0" meleeAnimation="Units/Tyranids/LictorMelee" meleeBeginSwing="0.166666666667" meleeEndSwing="1.0" />
             </model>
         </attack>
         <die>
@@ -84,9 +84,9 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <hammerOfWrath consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0" requiredUpgrade="Tyranids/HammerOfWrath"
+        <hammerOfWrath consumedActionPoints="0" consumedMovement="0" cooldown="3" enabled="0" requiredActionPoints="0"
 
-            enabled="0" visible="0"
+            requiredUpgrade="Tyranids/HammerOfWrath" visible="0"
 
         >
             <model>
@@ -108,7 +108,7 @@
                 </selfTarget>
             </beginTargets>
         </hammerOfWrath>
-        <instinctiveBehaviourOverride consumedActionPoints="0" consumedMovement="0" cooldown="3" name="Tyranids/InstinctiveBehaviourOverride" requiredActionPoints="0">
+        <instinctiveBehaviourOverride name="Tyranids/InstinctiveBehaviourOverride" consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/HiveMindBuff" />
             </model>

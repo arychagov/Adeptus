@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement6">
     <model>
-        <unit mesh="Units/AstraMilitarum/Chimera" material="Units/AstraMilitarum/Chimera" idleAnimation="Units/AstraMilitarum/ChimeraIdle" idleAnimationCount="3" idleContinuously="1" scale="1.3 1.3 1.3" explosionsBone="Bone" uvAnimated="1" />
+        <unit explosionsBone="Bone" idleAnimation="Units/AstraMilitarum/ChimeraIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AstraMilitarum/Chimera" mesh="Units/AstraMilitarum/Chimera" scale="1.3 1.3 1.3" uvAnimated="1" />
     </model>
     <weapons>
         <weapon name="MultiLaser">
             <model>
-                <beamWeapon muzzleBone=".MultiLaserMuzzle" fireInterval="0.2" />
+                <beamWeapon fireInterval="0.2" muzzleBone=".MultiLaserMuzzle" />
             </model>
         </weapon>
         <weapon name="HeavyBolter">
@@ -16,10 +16,10 @@
         </weapon>
         <weapon name="LasgunArray" count="2">
             <model>
-                <beamWeapon muzzleBone=".LasgunArrayMuzzle" muzzleCount="6" effectFaceWeight="0" cycleMuzzles="0" />
+                <beamWeapon cycleMuzzles="0" effectFaceWeight="0" muzzleBone=".LasgunArrayMuzzle" muzzleCount="6" />
             </model>
         </weapon>
-        <weapon name="HunterKillerMissile" slotName="HunterKillerMissile" enabled="0">
+        <weapon name="HunterKillerMissile" enabled="0" slotName="HunterKillerMissile">
             <model>
                 <missileWeapon muzzleBone="Bone" />
             </model>
@@ -75,7 +75,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature duration="3" name="SmokeScreen" />
+                                        <addFeature name="SmokeScreen" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -84,7 +84,7 @@
                 </selfTarget>
             </beginTargets>
         </createSmokeScreen>
-        <useWeapon weaponSlotName="HunterKillerMissile" cooldown="10" requiredUpgrade="AstraMilitarum/HunterKillerMissile">
+        <useWeapon cooldown="10" requiredUpgrade="AstraMilitarum/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
             <model>
                 <action beginFire="0.1" endFire="1.0" />
             </model>

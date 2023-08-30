@@ -27,7 +27,7 @@
         <track name="Music/TyranidsTheme" dlc="Supplement2" />
     </music>
     <quests>
-        <quest name="Eldar/Story0" icon="Quests/Eldar/Chapter0" firstTurn="2" lastTurn="2">
+        <quest name="Eldar/Story0" firstTurn="2" icon="Quests/Eldar/Chapter0" lastTurn="2">
             <stages>
                 <stage>
                     <objectives>
@@ -51,7 +51,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="Eldar/Story1" icon="Quests/Eldar/Chapter1" firstTurn="20" lastTurn="30">
+        <quest name="Eldar/Story1" firstTurn="20" icon="Quests/Eldar/Chapter1" lastTurn="30">
             <conditions>
                 <quests>
                     <completed name="Eldar/Story0" />
@@ -62,14 +62,14 @@
                     <objectives>
                         <constructBuilding buildingType="Eldar/Infantry" count="1" />
                         <researchUpgrade upgrade="Eldar/Ranger" />
-                        <produceUnit unitType="Eldar/Ranger" count="1" />
-                        <visitTile unitType="Eldar/Ranger" clearEnemies="1" featureType="NecronTomb" count="1">
+                        <produceUnit count="1" unitType="Eldar/Ranger" />
+                        <visitTile clearEnemies="1" count="1" featureType="NecronTomb" unitType="Eldar/Ranger">
                             <defenders>
-                                <unit type="Tyranids/Warrior" count="1" rankMin="1" rankMax="3" />
-                                <unit type="Tyranids/Hormagaunt" count="1" rankMin="1" rankMax="3" />
-                                <unit type="Tyranids/Termagant" count="1" rankMin="1" rankMax="3" />
-                                <unit type="Tyranids/Gargoyle" count="1" rankMin="1" rankMax="3" />
-                                <unit type="Tyranids/Zoanthrope" count="1" rankMin="1" rankMax="3" />
+                                <unit count="1" rankMax="3" rankMin="1" type="Tyranids/Warrior" />
+                                <unit count="1" rankMax="3" rankMin="1" type="Tyranids/Hormagaunt" />
+                                <unit count="1" rankMax="3" rankMin="1" type="Tyranids/Termagant" />
+                                <unit count="1" rankMax="3" rankMin="1" type="Tyranids/Gargoyle" />
+                                <unit count="1" rankMax="3" rankMin="1" type="Tyranids/Zoanthrope" />
                             </defenders>
                         </visitTile>
                     </objectives>
@@ -79,7 +79,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="Eldar/Story2" icon="Quests/Eldar/Chapter2" firstTurn="40" lastTurn="50">
+        <quest name="Eldar/Story2" firstTurn="40" icon="Quests/Eldar/Chapter2" lastTurn="50">
             <conditions>
                 <quests>
                     <completed name="Eldar/Story1" />
@@ -88,7 +88,7 @@
             <stages>
                 <stage>
                     <objectives>
-                        <recoverUnit unitType="Neutral/Artefacts/VaulSentry" count="3" />
+                        <recoverUnit count="3" unitType="Neutral/Artefacts/VaulSentry" />
                     </objectives>
                     <rewards>
                         <research amount="50" />
@@ -96,15 +96,15 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <surviveInvasion waves="4" waveInterval="2" strength="8" relativeStrength="0.5">
+                        <surviveInvasion relativeStrength="0.5" strength="8" waveInterval="2" waves="4">
                             <attackers>
-                                <unit type="Necrons/Warrior" count="1" rankMin="2" rankMax="4" />
-                                <unit type="Necrons/FlayedOne" count="1" rankMin="2" rankMax="4" />
-                                <unit type="Necrons/Immortal" count="1" rankMin="2" rankMax="4" />
-                                <unit type="Necrons/HeavyDestroyer" count="1" rankMin="2" rankMax="4" />
-                                <unit type="Necrons/TombBlade" count="1" rankMin="2" rankMax="4" />
-                                <unit type="Necrons/AnnihilationBarge" count="1" rankMin="2" rankMax="4" />
-                                <unit type="Necrons/TriarchStalker" count="1" rankMin="2" rankMax="4" />
+                                <unit count="1" rankMax="4" rankMin="2" type="Necrons/Warrior" />
+                                <unit count="1" rankMax="4" rankMin="2" type="Necrons/FlayedOne" />
+                                <unit count="1" rankMax="4" rankMin="2" type="Necrons/Immortal" />
+                                <unit count="1" rankMax="4" rankMin="2" type="Necrons/HeavyDestroyer" />
+                                <unit count="1" rankMax="4" rankMin="2" type="Necrons/TombBlade" />
+                                <unit count="1" rankMax="4" rankMin="2" type="Necrons/AnnihilationBarge" />
+                                <unit count="1" rankMax="4" rankMin="2" type="Necrons/TriarchStalker" />
                             </attackers>
                         </surviveInvasion>
                     </objectives>
@@ -114,7 +114,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="Eldar/Story3" icon="Quests/Eldar/Chapter3" firstTurn="60" lastTurn="70">
+        <quest name="Eldar/Story3" firstTurn="60" icon="Quests/Eldar/Chapter3" lastTurn="70">
             <conditions>
                 <quests>
                     <completed name="Eldar/Story2" />
@@ -125,17 +125,17 @@
                     <objectives>
                         <researchUpgrade upgrade="Eldar/FarseerSkyrunner" />
                         <produceUnit unitType="Eldar/FarseerSkyrunner" />
-                        <visitTile unitType="Eldar/FarseerSkyrunner" clearEnemies="1" featureType="Ruin" count="1">
+                        <visitTile clearEnemies="1" count="1" featureType="Ruin" unitType="Eldar/FarseerSkyrunner">
                             <defenders>
-                                <unit type="Tau/FireWarrior" count="1" rankMin="3" rankMax="5" />
-                                <unit type="Tau/Pathfinder" count="1" rankMin="3" rankMax="5" />
-                                <unit type="Tau/CrisisBattlesuit" count="1" rankMin="3" rankMax="5" />
-                                <unit type="Tau/StealthBattlesuit" count="1" rankMin="3" rankMax="5" />
-                                <unit type="Tau/Piranha" count="1" rankMin="3" rankMax="5" />
-                                <unit type="Tau/Devilfish" count="1" rankMin="3" rankMax="5" />
-                                <unit type="Tau/HammerheadGunship" count="1" rankMin="3" rankMax="5" />
-                                <unit type="Tau/SkyRayGunship" count="1" rankMin="3" rankMax="5" />
-                                <unit type="Tau/GhostkeelBattlesuit" count="1" rankMin="3" rankMax="5" />
+                                <unit count="1" rankMax="5" rankMin="3" type="Tau/FireWarrior" />
+                                <unit count="1" rankMax="5" rankMin="3" type="Tau/Pathfinder" />
+                                <unit count="1" rankMax="5" rankMin="3" type="Tau/CrisisBattlesuit" />
+                                <unit count="1" rankMax="5" rankMin="3" type="Tau/StealthBattlesuit" />
+                                <unit count="1" rankMax="5" rankMin="3" type="Tau/Piranha" />
+                                <unit count="1" rankMax="5" rankMin="3" type="Tau/Devilfish" />
+                                <unit count="1" rankMax="5" rankMin="3" type="Tau/HammerheadGunship" />
+                                <unit count="1" rankMax="5" rankMin="3" type="Tau/SkyRayGunship" />
+                                <unit count="1" rankMax="5" rankMin="3" type="Tau/GhostkeelBattlesuit" />
                             </defenders>
                         </visitTile>
                     </objectives>
@@ -145,15 +145,15 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <killCampWithDaemonPrince relativeStrength="0.5" strength="4" turns="20" addFeature="SkullAltar">
-                            <boss type="ChaosSpaceMarines/DaemonPrince" rankMin="9" rankMax="9" />
+                        <killCampWithDaemonPrince addFeature="SkullAltar" relativeStrength="0.5" strength="4" turns="20">
+                            <boss rankMax="9" rankMin="9" type="ChaosSpaceMarines/DaemonPrince" />
                             <defenders>
-                                <unit type="ChaosSpaceMarines/ChaosCultist" count="2" rankMin="3" rankMax="5" />
-                                <unit type="ChaosSpaceMarines/ChaosSpaceMarine" count="1" rankMin="3" rankMax="5" />
-                                <unit type="ChaosSpaceMarines/Havoc" count="1" rankMin="3" rankMax="5" />
-                                <unit type="ChaosSpaceMarines/KhorneBerzerker" count="1" rankMin="3" rankMax="5" />
-                                <unit type="ChaosSpaceMarines/ChaosRhino" count="1" rankMin="3" rankMax="5" />
-                                <unit type="ChaosSpaceMarines/Helbrute" count="1" rankMin="3" rankMax="5" />
+                                <unit count="2" rankMax="5" rankMin="3" type="ChaosSpaceMarines/ChaosCultist" />
+                                <unit count="1" rankMax="5" rankMin="3" type="ChaosSpaceMarines/ChaosSpaceMarine" />
+                                <unit count="1" rankMax="5" rankMin="3" type="ChaosSpaceMarines/Havoc" />
+                                <unit count="1" rankMax="5" rankMin="3" type="ChaosSpaceMarines/KhorneBerzerker" />
+                                <unit count="1" rankMax="5" rankMin="3" type="ChaosSpaceMarines/ChaosRhino" />
+                                <unit count="1" rankMax="5" rankMin="3" type="ChaosSpaceMarines/Helbrute" />
                             </defenders>
                         </killCampWithDaemonPrince>
                     </objectives>
@@ -163,7 +163,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="Eldar/Story4" icon="Quests/Eldar/Chapter4" firstTurn="80" lastTurn="90">
+        <quest name="Eldar/Story4" firstTurn="80" icon="Quests/Eldar/Chapter4" lastTurn="90">
             <conditions>
                 <quests>
                     <completed name="Eldar/Story3" />
@@ -182,17 +182,17 @@
                 <stage>
                     <objectives>
                         <killCamp relativeStrength="1.0" strength="8">
-                            <boss type="Necrons/TranscendentCtan" rankMin="9" rankMax="9" />
+                            <boss rankMax="9" rankMin="9" type="Necrons/TranscendentCtan" />
                             <defenders>
-                                <unit type="ChaosSpaceMarines/WarpTalon" count="1" rankMin="4" rankMax="6" />
-                                <unit type="ChaosSpaceMarines/Obliterator" count="1" rankMin="4" rankMax="6" />
-                                <unit type="ChaosSpaceMarines/Maulerfiend" count="1" rankMin="4" rankMax="6" />
-                                <unit type="ChaosSpaceMarines/Venomcrawler" count="1" rankMin="4" rankMax="6" />
-                                <unit type="AstraMilitarum/TempestusScion" count="1" rankMin="4" rankMax="6" />
-                                <unit type="AstraMilitarum/WyrdvanePsyker" count="1" rankMin="4" rankMax="6" />
-                                <unit type="AstraMilitarum/Bullgryn" count="1" rankMin="4" rankMax="6" />
-                                <unit type="AstraMilitarum/LemanRussBattleTank" count="1" rankMin="4" rankMax="6" />
-                                <unit type="AstraMilitarum/Hydra" count="1" rankMin="4" rankMax="6" />
+                                <unit count="1" rankMax="6" rankMin="4" type="ChaosSpaceMarines/WarpTalon" />
+                                <unit count="1" rankMax="6" rankMin="4" type="ChaosSpaceMarines/Obliterator" />
+                                <unit count="1" rankMax="6" rankMin="4" type="ChaosSpaceMarines/Maulerfiend" />
+                                <unit count="1" rankMax="6" rankMin="4" type="ChaosSpaceMarines/Venomcrawler" />
+                                <unit count="1" rankMax="6" rankMin="4" type="AstraMilitarum/TempestusScion" />
+                                <unit count="1" rankMax="6" rankMin="4" type="AstraMilitarum/WyrdvanePsyker" />
+                                <unit count="1" rankMax="6" rankMin="4" type="AstraMilitarum/Bullgryn" />
+                                <unit count="1" rankMax="6" rankMin="4" type="AstraMilitarum/LemanRussBattleTank" />
+                                <unit count="1" rankMax="6" rankMin="4" type="AstraMilitarum/Hydra" />
                             </defenders>
                         </killCamp>
                         <keepAvatarOfKhaineAlive descriptionName="KeepUnitAliveDescription" />
@@ -203,7 +203,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="Eldar/Story5" icon="Quests/Eldar/Chapter5" firstTurn="100" lastTurn="110">
+        <quest name="Eldar/Story5" firstTurn="100" icon="Quests/Eldar/Chapter5" lastTurn="110">
             <conditions>
                 <quests>
                     <completed name="Eldar/Story4" />
@@ -212,13 +212,13 @@
             <stages>
                 <stage>
                     <objectives>
-                        <surviveInvasion bossWave="6" relativeStrength="2.0" strength="32" waves="10" waveInterval="2">
-                            <boss type="Eldar/AvatarOfKhaine" rankMin="9" rankMax="9" />
+                        <surviveInvasion bossWave="6" relativeStrength="2.0" strength="32" waveInterval="2" waves="10">
+                            <boss rankMax="9" rankMin="9" type="Eldar/AvatarOfKhaine" />
                             <attackers>
-                                <unit type="Neutral/Umbra" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Eldar/Wraithblade" count="2" rankMin="5" rankMax="7" />
-                                <unit type="Eldar/Wraithknight" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Eldar/HemlockWraithfighter" count="1" rankMin="5" rankMax="7" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Neutral/Umbra" />
+                                <unit count="2" rankMax="7" rankMin="5" type="Eldar/Wraithblade" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Eldar/Wraithknight" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Eldar/HemlockWraithfighter" />
                             </attackers>
                         </surviveInvasion>
                     </objectives>
@@ -242,7 +242,7 @@
         </quest>
     </quests>
     <actions>
-        <activateWebwayGate cooldown="1" name="Eldar/ActivateWebwayGate">
+        <activateWebwayGate name="Eldar/ActivateWebwayGate" cooldown="1">
             <model>
                 <action sound="Actions/ActivateWebwayGate" />
             </model>
@@ -274,7 +274,7 @@
                 </target>
             </beginTargets>
         </activateWebwayGate>
-        <webwayRedoubt cooldown="1" costScalesWithCities="1" name="Eldar/WebwayRedoubt" requiredUpgrade="Eldar/WebwayRedoubt">
+        <webwayRedoubt name="Eldar/WebwayRedoubt" cooldown="1" costScalesWithCities="1" requiredUpgrade="Eldar/WebwayRedoubt">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -316,6 +316,6 @@
         </webwayRedoubt>
     </actions>
     <startingUnits>
-        <unit type="Eldar/Guardian" count="2" />
+        <unit count="2" type="Eldar/Guardian" />
     </startingUnits>
 </faction>

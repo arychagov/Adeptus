@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement5">
     <model>
-        <unit mesh="Units/Tau/BroadsideBattlesuit" material="Units/Tau/BroadsideBattlesuit" idleAnimation="Units/Tau/BroadsideBattlesuitIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1.1 1.1 1.1" explosionsBone="BloodBone" walker="1" />
+        <unit explosionsBone="BloodBone" idleAnimation="Units/Tau/BroadsideBattlesuitIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tau/BroadsideBattlesuit" mesh="Units/Tau/BroadsideBattlesuit" normalWeight="0.1" scale="1.1 1.1 1.1" walker="1" />
     </model>
-    <group size="3" rowSize="3" memberDeltaX="80" memberDeltaY="80" />
+    <group memberDeltaX="80" memberDeltaY="80" rowSize="3" size="3" />
     <weapons>
         <weapon name="TwinLinkedHeavyRailRifle">
             <model>
-                <projectileWeapon muzzleBone=".Muzzle" fireInterval="1.5" />
+                <projectileWeapon fireInterval="1.5" muzzleBone=".Muzzle" />
             </model>
         </weapon>
         <weapon name="TwinLinkedSmartMissileSystem">
             <model>
-                <missileWeapon muzzleBone=".missile" muzzleCount="6" missileScale="0.5" fireInterval="0.6" />
+                <missileWeapon fireInterval="0.6" missileScale="0.5" muzzleBone=".missile" muzzleCount="6" />
             </model>
         </weapon>
         <weapon name="SeekerMissile" enabled="0" slotName="SeekerMissile">
             <model>
-                <missileWeapon muzzleBone=".SeekerMissile" missileScale="0.8" />
+                <missileWeapon missileScale="0.8" muzzleBone=".SeekerMissile" />
             </model>
         </weapon>
     </weapons>
@@ -69,7 +69,7 @@
                 <action animation="Units/Tau/BroadsideBattlesuitMove" sound="Units/Tau/WalkerMove" soundCount="1" />
             </model>
         </move>
-        <bondingKnifeRitual cooldown="5" consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" name="Tau/BondingKnifeRitual" requiredUpgrade="Tau/BondingKnifeRitual">
+        <bondingKnifeRitual name="Tau/BondingKnifeRitual" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0" requiredUpgrade="Tau/BondingKnifeRitual">
             <model>
                 <action bone="ChestBone" sound="Actions/BondingKnifeRitual" />
             </model>
@@ -89,17 +89,17 @@
                 </selfTarget>
             </beginTargets>
         </bondingKnifeRitual>
-        <useWeapon cooldown="5" consumedActionPoints="0" requiredActionPoints="0" requiredUpgrade="Tau/SeekerMissile" weaponSlotName="SeekerMissile">
+        <useWeapon consumedActionPoints="0" cooldown="5" requiredActionPoints="0" requiredUpgrade="Tau/SeekerMissile" weaponSlotName="SeekerMissile">
             <model>
                 <action beginFire="1.3" endFire="2" />
             </model>
         </useWeapon>
-        <deployGunDrone cooldown="10" name="Tau/DeployDrone" requiredActionPoints="0" consumedActionPoints="0" consumedMovement="0" requiredUpgrade="Tau/GunDrone" unitType="Tau/GunDrone">
+        <deployGunDrone name="Tau/DeployDrone" consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0" requiredUpgrade="Tau/GunDrone" unitType="Tau/GunDrone">
             <model>
                 <action animation="" sound="Actions/DeployDrone" />
             </model>
             <modifiers>
-                <modifier visible="0" requiredUpgrade="Tau/DroneController">
+                <modifier requiredUpgrade="Tau/DroneController" visible="0">
                     <effects>
                         <cooldown add="-5" />
                     </effects>
@@ -127,7 +127,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="3" name="Summon" />
+                                        <addTrait name="Summon" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -140,12 +140,12 @@
                 <action name="Tau/DeployDrone/Tau/MarkerDrone" />
             </sharedCooldowns>
         </deployGunDrone>
-        <deployShieldDrone cooldown="10" name="Tau/DeployDrone" requiredActionPoints="0" consumedActionPoints="0" consumedMovement="0" requiredUpgrade="Tau/ShieldDrone" unitType="Tau/ShieldDrone">
+        <deployShieldDrone name="Tau/DeployDrone" consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0" requiredUpgrade="Tau/ShieldDrone" unitType="Tau/ShieldDrone">
             <model>
                 <action animation="" sound="Actions/DeployDrone" />
             </model>
             <modifiers>
-                <modifier visible="0" requiredUpgrade="Tau/DroneController">
+                <modifier requiredUpgrade="Tau/DroneController" visible="0">
                     <effects>
                         <cooldown add="-5" />
                     </effects>
@@ -173,7 +173,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="3" name="Summon" />
+                                        <addTrait name="Summon" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -186,12 +186,12 @@
                 <action name="Tau/DeployDrone/Tau/MarkerDrone" />
             </sharedCooldowns>
         </deployShieldDrone>
-        <deployMarkerDrone cooldown="10" name="Tau/DeployDrone" requiredActionPoints="0" consumedActionPoints="0" consumedMovement="0" requiredUpgrade="Tau/MarkerDrone" unitType="Tau/MarkerDrone">
+        <deployMarkerDrone name="Tau/DeployDrone" consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0" requiredUpgrade="Tau/MarkerDrone" unitType="Tau/MarkerDrone">
             <model>
                 <action animation="" sound="Actions/DeployDrone" />
             </model>
             <modifiers>
-                <modifier visible="0" requiredUpgrade="Tau/DroneController">
+                <modifier requiredUpgrade="Tau/DroneController" visible="0">
                     <effects>
                         <cooldown add="-5" />
                     </effects>
@@ -219,7 +219,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="3" name="Summon" />
+                                        <addTrait name="Summon" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>

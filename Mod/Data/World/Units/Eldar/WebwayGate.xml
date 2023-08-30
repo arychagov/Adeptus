@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement7">
     <model>
-        <webwayGate mesh="Units/Eldar/Headquarters" material="Buildings/Eldar/Buildings" groundMaterial="Units/Eldar/WebwayGateGround" idleAnimationCount="0" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" explosionsBone="Portal" scale="1.2 1.2 1.2">
+        <webwayGate explosionsBone="Portal" groundMaterial="Units/Eldar/WebwayGateGround" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" idleAnimationCount="0" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" material="Buildings/Eldar/Buildings" mesh="Units/Eldar/Headquarters" scale="1.2 1.2 1.2">
             <effects>
-                <effect blueprint="Effects/WebwayGate" name="Portal" position="0.000000 0.000000 53.300999" rotation="0 0 1 -55" bone="Portal" />
+                <effect name="Portal" blueprint="Effects/WebwayGate" bone="Portal" position="0.000000 0.000000 53.300999" rotation="0 0 1 -55" />
             </effects>
         </webwayGate>
     </model>

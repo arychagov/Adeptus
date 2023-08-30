@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="8" icon="Traits/Eldar/AircraftBuildingBonus">
+<upgrade icon="Traits/Eldar/AircraftBuildingBonus" position="8">
     <requiredUpgrades>
         <upgrade name="Eldar/Aircraft" />
     </requiredUpgrades>

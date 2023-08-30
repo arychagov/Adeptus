@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="8" icon="Weapons/HeavyBolter">
+<upgrade icon="Weapons/HeavyBolter" position="8">
     <requiredUpgrades>
         <upgrade name="AstraMilitarum/Baneblade" />
         <upgrade name="AstraMilitarum/LemanRussBattleTank" />

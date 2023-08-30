@@ -27,12 +27,12 @@
         <track name="Music/TyranidsTheme" dlc="Supplement2" />
     </music>
     <quests>
-        <quest name="AdeptusMechanicus/Story0" icon="Quests/AdeptusMechanicus/Chapter0" firstTurn="2" lastTurn="2">
+        <quest name="AdeptusMechanicus/Story0" firstTurn="2" icon="Quests/AdeptusMechanicus/Chapter0" lastTurn="2">
             <stages>
                 <stage>
                     <objectives>
                         <constructBuilding buildingType="AdeptusMechanicus/Infantry" />
-                        <produceUnit unitType="AdeptusMechanicus/SkitariiVanguard" count="2" ignoreExisting="1" />
+                        <produceUnit count="2" ignoreExisting="1" unitType="AdeptusMechanicus/SkitariiVanguard" />
                     </objectives>
                     <rewards>
                         <influence amount="50" />
@@ -50,7 +50,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="AdeptusMechanicus/Story1" icon="Quests/AdeptusMechanicus/Chapter1" firstTurn="20" lastTurn="30">
+        <quest name="AdeptusMechanicus/Story1" firstTurn="20" icon="Quests/AdeptusMechanicus/Chapter1" lastTurn="30">
             <conditions>
                 <quests>
                     <completed name="AdeptusMechanicus/Story0" />
@@ -60,18 +60,18 @@
                 <stage>
                     <objectives>
                         <activateDoctrina />
-                        <killCamp descriptionName="KillCampWithOrksDescription" strength="1" relativeStrength="0.25" faction="Orks">
-                            <boss type="Orks/Headquarters" name="Cities/Orks9" />
+                        <killCamp descriptionName="KillCampWithOrksDescription" faction="Orks" relativeStrength="0.25" strength="1">
+                            <boss name="Cities/Orks9" type="Orks/Headquarters" />
                             <defenders>
-                                <unit type="Orks/Boy" count="2" rankMin="1" rankMax="3" />
-                                <unit type="Orks/Warbuggy" count="1" rankMin="1" rankMax="3" />
+                                <unit count="2" rankMax="3" rankMin="1" type="Orks/Boy" />
+                                <unit count="1" rankMax="3" rankMin="1" type="Orks/Warbuggy" />
                             </defenders>
                         </killCamp>
-                        <killCamp descriptionName="KillCampWithTyranidsDescription" strength="1" relativeStrength="0.25" faction="Tyranids">
-                            <boss type="Tyranids/Headquarters" name="Cities/Tyranids5" />
+                        <killCamp descriptionName="KillCampWithTyranidsDescription" faction="Tyranids" relativeStrength="0.25" strength="1">
+                            <boss name="Cities/Tyranids5" type="Tyranids/Headquarters" />
                             <defenders>
-                                <unit type="Tyranids/Termagant" count="2" rankMin="1" rankMax="3" />
-                                <unit type="Tyranids/Warrior" count="1" rankMin="1" rankMax="3" />
+                                <unit count="2" rankMax="3" rankMin="1" type="Tyranids/Termagant" />
+                                <unit count="1" rankMax="3" rankMin="1" type="Tyranids/Warrior" />
                             </defenders>
                         </killCamp>
                     </objectives>
@@ -82,10 +82,10 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <killCamp descriptionName="KillCampWithKastelansDescription" strength="1" relativeStrength="0.25" bossKillCompletes="0">
-                            <boss type="AdeptusMechanicus/CyberneticaDatasmith" rankMin="1" rankMax="3" />
+                        <killCamp bossKillCompletes="0" descriptionName="KillCampWithKastelansDescription" relativeStrength="0.25" strength="1">
+                            <boss rankMax="3" rankMin="1" type="AdeptusMechanicus/CyberneticaDatasmith" />
                             <defenders>
-                                <unit type="Neutral/KastelanRobot" count="2" rankMin="1" rankMax="3" />
+                                <unit count="2" rankMax="3" rankMin="1" type="Neutral/KastelanRobot" />
                             </defenders>
                         </killCamp>
                     </objectives>
@@ -95,7 +95,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="AdeptusMechanicus/Story2" icon="Quests/AdeptusMechanicus/Chapter2" firstTurn="40" lastTurn="50">
+        <quest name="AdeptusMechanicus/Story2" firstTurn="40" icon="Quests/AdeptusMechanicus/Chapter2" lastTurn="50">
             <conditions>
                 <quests>
                     <completed name="AdeptusMechanicus/Story1" />
@@ -116,12 +116,12 @@
                         <researchUpgrade upgrade="AdeptusMechanicus/Heroes" />
                         <constructBuilding buildingType="AdeptusMechanicus/Heroes" count="1" />
                         <researchUpgrade upgrade="AdeptusMechanicus/TechPriestManipulus" />
-                        <produceUnit unitType="AdeptusMechanicus/TechPriestManipulus" count="1" />
-                        <visitTile unitType="AdeptusMechanicus/TechPriestManipulus" clearEnemies="1" featureType="Ruin" count="3">
+                        <produceUnit count="1" unitType="AdeptusMechanicus/TechPriestManipulus" />
+                        <visitTile clearEnemies="1" count="3" featureType="Ruin" unitType="AdeptusMechanicus/TechPriestManipulus">
                             <defenders>
-                                <unit type="Tau/FireWarrior" count="2" rankMin="2" rankMax="4" />
-                                <unit type="Tau/Pathfinder" count="1" rankMin="2" rankMax="4" />
-                                <unit type="Tau/CrisisBattlesuit" count="1" rankMin="2" rankMax="4" />
+                                <unit count="2" rankMax="4" rankMin="2" type="Tau/FireWarrior" />
+                                <unit count="1" rankMax="4" rankMin="2" type="Tau/Pathfinder" />
+                                <unit count="1" rankMax="4" rankMin="2" type="Tau/CrisisBattlesuit" />
                             </defenders>
                         </visitTile>
                     </objectives>
@@ -133,7 +133,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="AdeptusMechanicus/Story3" icon="Quests/AdeptusMechanicus/Chapter3" firstTurn="60" lastTurn="70">
+        <quest name="AdeptusMechanicus/Story3" firstTurn="60" icon="Quests/AdeptusMechanicus/Chapter3" lastTurn="70">
             <conditions>
                 <quests>
                     <completed name="AdeptusMechanicus/Story2" />
@@ -150,12 +150,12 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <surviveInvasion bossWave="2" relativeStrength="0.5" strength="8" waves="5" waveInterval="2">
-                            <boss type="ChaosSpaceMarines/Warpsmith" rankMin="6" rankMax="6" />
+                        <surviveInvasion bossWave="2" relativeStrength="0.5" strength="8" waveInterval="2" waves="5">
+                            <boss rankMax="6" rankMin="6" type="ChaosSpaceMarines/Warpsmith" />
                             <attackers>
-                                <unit type="ChaosSpaceMarines/Helbrute" count="1" rankMin="5" rankMax="7" />
-                                <unit type="ChaosSpaceMarines/Maulerfiend" count="1" rankMin="5" rankMax="7" />
-                                <unit type="ChaosSpaceMarines/Venomcrawler" count="1" rankMin="5" rankMax="7" />
+                                <unit count="1" rankMax="7" rankMin="5" type="ChaosSpaceMarines/Helbrute" />
+                                <unit count="1" rankMax="7" rankMin="5" type="ChaosSpaceMarines/Maulerfiend" />
+                                <unit count="1" rankMax="7" rankMin="5" type="ChaosSpaceMarines/Venomcrawler" />
                             </attackers>
                             <beginUnitModifiers>
                                 <modifier>
@@ -189,7 +189,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="AdeptusMechanicus/Story4" icon="Quests/AdeptusMechanicus/Chapter4" firstTurn="80" lastTurn="90">
+        <quest name="AdeptusMechanicus/Story4" firstTurn="80" icon="Quests/AdeptusMechanicus/Chapter4" lastTurn="90">
             <conditions>
                 <quests>
                     <completed name="AdeptusMechanicus/Story3" />
@@ -199,13 +199,13 @@
                 <stage>
                     <objectives>
                         <researchUpgrade upgrade="AdeptusMechanicus/SicarianInfiltrator" />
-                        <produceUnit unitType="AdeptusMechanicus/SicarianInfiltrator" count="1" />
-                        <infiltrateCamp strength="8" relativeStrength="1" faction="SpaceMarines" infiltrationUnitType="AdeptusMechanicus/SicarianInfiltrator" infiltrationUnitCount="1">
-                            <boss type="SpaceMarines/Headquarters" name="Cities/SpaceMarines7" token="Benedict" />
+                        <produceUnit count="1" unitType="AdeptusMechanicus/SicarianInfiltrator" />
+                        <infiltrateCamp faction="SpaceMarines" infiltrationUnitCount="1" infiltrationUnitType="AdeptusMechanicus/SicarianInfiltrator" relativeStrength="1" strength="8">
+                            <boss name="Cities/SpaceMarines7" token="Benedict" type="SpaceMarines/Headquarters" />
                             <defenders>
-                                <unit type="SpaceMarines/Terminator" count="1" rankMin="4" rankMax="6" />
-                                <unit type="SpaceMarines/ThunderfireCannon" count="1" rankMin="4" rankMax="6" />
-                                <unit type="SpaceMarines/Vindicator" count="1" rankMin="4" rankMax="6" />
+                                <unit count="1" rankMax="6" rankMin="4" type="SpaceMarines/Terminator" />
+                                <unit count="1" rankMax="6" rankMin="4" type="SpaceMarines/ThunderfireCannon" />
+                                <unit count="1" rankMax="6" rankMin="4" type="SpaceMarines/Vindicator" />
                             </defenders>
                             <beginUnitModifiers>
                                 <modifier>
@@ -249,7 +249,7 @@
                 </stage>
             </stages>
         </quest>
-        <quest name="AdeptusMechanicus/Story5" icon="Quests/AdeptusMechanicus/Chapter5" firstTurn="100" lastTurn="110">
+        <quest name="AdeptusMechanicus/Story5" firstTurn="100" icon="Quests/AdeptusMechanicus/Chapter5" lastTurn="110">
             <conditions>
                 <quests>
                     <completed name="AdeptusMechanicus/Story4" />
@@ -258,20 +258,20 @@
             <stages>
                 <stage>
                     <objectives>
-                        <killCampWithDeceiver strength="8" relativeStrength="0.5" descriptionName="KillCampDescription">
+                        <killCampWithDeceiver descriptionName="KillCampDescription" relativeStrength="0.5" strength="8">
                             <defenders>
-                                <unit type="Necrons/Immortal" count="2" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/TriarchPraetorian" count="2" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/TriarchStalker" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/DoomsdayArk" count="1" rankMin="5" rankMax="7" />
+                                <unit count="2" rankMax="7" rankMin="5" type="Necrons/Immortal" />
+                                <unit count="2" rankMax="7" rankMin="5" type="Necrons/TriarchPraetorian" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/TriarchStalker" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/DoomsdayArk" />
                             </defenders>
                         </killCampWithDeceiver>
-                        <killCamp strength="8" relativeStrength="0.5" requiringCompletion="0">
+                        <killCamp relativeStrength="0.5" requiringCompletion="0" strength="8">
                             <defenders>
-                                <unit type="Necrons/Immortal" count="2" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/TriarchPraetorian" count="2" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/TriarchStalker" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Necrons/DoomsdayArk" count="1" rankMin="5" rankMax="7" />
+                                <unit count="2" rankMax="7" rankMin="5" type="Necrons/Immortal" />
+                                <unit count="2" rankMax="7" rankMin="5" type="Necrons/TriarchPraetorian" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/TriarchStalker" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/DoomsdayArk" />
                             </defenders>
                         </killCamp>
                     </objectives>
@@ -281,16 +281,16 @@
                 </stage>
                 <stage>
                     <objectives>
-                        <surviveInvasion relativeStrength="2.0" strength="32" waves="5" waveInterval="2" turns="10">
+                        <surviveInvasion relativeStrength="2.0" strength="32" turns="10" waveInterval="2" waves="5">
                             <attackers>
-                                <unit type="Eldar/HemlockWraithfighter" count="2" rankMin="5" rankMax="7" />
-                                <unit type="Eldar/Scorpion" count="1" rankMin="5" rankMax="7" />
-                                <unit type="Eldar/Wraithblade" count="3" rankMin="5" rankMax="7" />
-                                <unit type="Eldar/Wraithknight" count="2" rankMin="5" rankMax="7" />
-                                <unit type="Tau/SunSharkBomber" count="2" rankMin="5" rankMax="7" />
-                                <unit type="Tau/SkyRayGunship" count="2" rankMin="5" rankMax="7" />
-                                <unit type="Tau/BroadsideBattlesuit" count="3" rankMin="5" rankMax="7" />
-                                <unit type="Tau/Stormsurge" count="1" rankMin="5" rankMax="7" />
+                                <unit count="2" rankMax="7" rankMin="5" type="Eldar/HemlockWraithfighter" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Eldar/Scorpion" />
+                                <unit count="3" rankMax="7" rankMin="5" type="Eldar/Wraithblade" />
+                                <unit count="2" rankMax="7" rankMin="5" type="Eldar/Wraithknight" />
+                                <unit count="2" rankMax="7" rankMin="5" type="Tau/SunSharkBomber" />
+                                <unit count="2" rankMax="7" rankMin="5" type="Tau/SkyRayGunship" />
+                                <unit count="3" rankMax="7" rankMin="5" type="Tau/BroadsideBattlesuit" />
+                                <unit count="1" rankMax="7" rankMin="5" type="Tau/Stormsurge" />
                             </attackers>
                             <beginUnitModifiers>
                                 <modifier>
@@ -339,7 +339,7 @@
         </quest>
     </quests>
     <actions>
-        <powerSurge cooldown="6" name="AdeptusMechanicus/PowerSurge">
+        <powerSurge name="AdeptusMechanicus/PowerSurge" cooldown="6">
             <model>
                 <action sound="Actions/PowerSurge" />
             </model>
@@ -376,14 +376,14 @@
                 </target>
             </beginTargets>
         </powerSurge>
-        <litanyOfTheElectromancer cooldown="3" durationInSeconds="0.1" name="AdeptusMechanicus/LitanyOfTheElectromancer" rankMax="9" requiredUpgrade="AdeptusMechanicus/LitanyOfTheElectromancer" scaleInfluenceCost="1">
+        <litanyOfTheElectromancer name="AdeptusMechanicus/LitanyOfTheElectromancer" cooldown="3" durationInSeconds="0.1" rankMax="9" requiredUpgrade="AdeptusMechanicus/LitanyOfTheElectromancer" scaleInfluenceCost="1">
             <model>
                 <action sound="Actions/LitanyOfTheElectromancer" />
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <attacks mulMin="0.0" mulMax="9.0" />
+                        <attacks mulMax="9.0" mulMin="0.0" />
                         <influenceCost base="4" />
                     </effects>
                 </modifier>
@@ -409,7 +409,7 @@
                 </target>
             </beginTargets>
         </litanyOfTheElectromancer>
-        <canticle cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/ChantOfTheRemorselessFist" name="AdeptusMechanicus/ChantOfTheRemorselessFist" rankMax="9" requiredUpgrade="AdeptusMechanicus/ChantOfTheRemorselessFist" scaleInfluenceCost="1">
+        <canticle name="AdeptusMechanicus/ChantOfTheRemorselessFist" cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/ChantOfTheRemorselessFist" rankMax="9" requiredUpgrade="AdeptusMechanicus/ChantOfTheRemorselessFist" scaleInfluenceCost="1">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -425,12 +425,12 @@
                         </unit>
                     </conditions>
                     <effects>
-                        <addTrait duration="1" name="AdeptusMechanicus/ChantOfTheRemorselessFist" />
+                        <addTrait name="AdeptusMechanicus/ChantOfTheRemorselessFist" duration="1" />
                     </effects>
                 </modifier>
             </unitModifiers>
         </canticle>
-        <canticle cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/BenedictionOfOmniscience" name="AdeptusMechanicus/BenedictionOfOmniscience" rankMax="9" requiredUpgrade="AdeptusMechanicus/BenedictionOfOmniscience" scaleInfluenceCost="1">
+        <canticle name="AdeptusMechanicus/BenedictionOfOmniscience" cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/BenedictionOfOmniscience" rankMax="9" requiredUpgrade="AdeptusMechanicus/BenedictionOfOmniscience" scaleInfluenceCost="1">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -446,12 +446,12 @@
                         </unit>
                     </conditions>
                     <effects>
-                        <addTrait duration="1" name="AdeptusMechanicus/BenedictionOfOmniscience" />
+                        <addTrait name="AdeptusMechanicus/BenedictionOfOmniscience" duration="1" />
                     </effects>
                 </modifier>
             </unitModifiers>
         </canticle>
-        <canticle cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/Shroudpsalm" name="AdeptusMechanicus/Shroudpsalm" rankMax="9" requiredUpgrade="AdeptusMechanicus/Shroudpsalm" scaleInfluenceCost="1">
+        <canticle name="AdeptusMechanicus/Shroudpsalm" cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/Shroudpsalm" rankMax="9" requiredUpgrade="AdeptusMechanicus/Shroudpsalm" scaleInfluenceCost="1">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -467,12 +467,12 @@
                         </unit>
                     </conditions>
                     <effects>
-                        <addTrait duration="1" name="AdeptusMechanicus/Shroudpsalm" />
+                        <addTrait name="AdeptusMechanicus/Shroudpsalm" duration="1" />
                     </effects>
                 </modifier>
             </unitModifiers>
         </canticle>
-        <canticle cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/InvocationOfMachineMight" name="AdeptusMechanicus/InvocationOfMachineMight" rankMax="9" requiredUpgrade="AdeptusMechanicus/InvocationOfMachineMight" scaleInfluenceCost="1">
+        <canticle name="AdeptusMechanicus/InvocationOfMachineMight" cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/InvocationOfMachineMight" rankMax="9" requiredUpgrade="AdeptusMechanicus/InvocationOfMachineMight" scaleInfluenceCost="1">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -488,12 +488,12 @@
                         </unit>
                     </conditions>
                     <effects>
-                        <addTrait duration="1" name="AdeptusMechanicus/InvocationOfMachineMight" />
+                        <addTrait name="AdeptusMechanicus/InvocationOfMachineMight" duration="1" />
                     </effects>
                 </modifier>
             </unitModifiers>
         </canticle>
-        <canticle cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/IncantationOfTheIronSoul" name="AdeptusMechanicus/IncantationOfTheIronSoul" rankMax="9" requiredUpgrade="AdeptusMechanicus/IncantationOfTheIronSoul" scaleInfluenceCost="1">
+        <canticle name="AdeptusMechanicus/IncantationOfTheIronSoul" cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/IncantationOfTheIronSoul" rankMax="9" requiredUpgrade="AdeptusMechanicus/IncantationOfTheIronSoul" scaleInfluenceCost="1">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -509,12 +509,12 @@
                         </unit>
                     </conditions>
                     <effects>
-                        <addTrait duration="1" name="AdeptusMechanicus/IncantationOfTheIronSoul" />
+                        <addTrait name="AdeptusMechanicus/IncantationOfTheIronSoul" duration="1" />
                     </effects>
                 </modifier>
             </unitModifiers>
         </canticle>
-        <doctrina cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/BulwarkImperative" name="AdeptusMechanicus/BulwarkImperative" rankMax="9" requiredUpgrade="AdeptusMechanicus/BulwarkImperative" scaleInfluenceCost="1">
+        <doctrina name="AdeptusMechanicus/BulwarkImperative" cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/BulwarkImperative" rankMax="9" requiredUpgrade="AdeptusMechanicus/BulwarkImperative" scaleInfluenceCost="1">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -530,12 +530,12 @@
                         </unit>
                     </conditions>
                     <effects>
-                        <addTrait duration="1" name="AdeptusMechanicus/BulwarkImperative" />
+                        <addTrait name="AdeptusMechanicus/BulwarkImperative" duration="1" />
                     </effects>
                 </modifier>
             </unitModifiers>
         </doctrina>
-        <doctrina cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/ProtectorImperative" name="AdeptusMechanicus/ProtectorImperative" rankMax="9" requiredUpgrade="AdeptusMechanicus/ProtectorImperative" scaleInfluenceCost="1">
+        <doctrina name="AdeptusMechanicus/ProtectorImperative" cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/ProtectorImperative" rankMax="9" requiredUpgrade="AdeptusMechanicus/ProtectorImperative" scaleInfluenceCost="1">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -551,12 +551,12 @@
                         </unit>
                     </conditions>
                     <effects>
-                        <addTrait duration="1" name="AdeptusMechanicus/ProtectorImperative" />
+                        <addTrait name="AdeptusMechanicus/ProtectorImperative" duration="1" />
                     </effects>
                 </modifier>
             </unitModifiers>
         </doctrina>
-        <doctrina cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/ConquerorImperative" name="AdeptusMechanicus/ConquerorImperative" rankMax="9" requiredUpgrade="AdeptusMechanicus/ConquerorImperative" scaleInfluenceCost="1">
+        <doctrina name="AdeptusMechanicus/ConquerorImperative" cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/ConquerorImperative" rankMax="9" requiredUpgrade="AdeptusMechanicus/ConquerorImperative" scaleInfluenceCost="1">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -572,12 +572,12 @@
                         </unit>
                     </conditions>
                     <effects>
-                        <addTrait duration="1" name="AdeptusMechanicus/ConquerorImperative" />
+                        <addTrait name="AdeptusMechanicus/ConquerorImperative" duration="1" />
                     </effects>
                 </modifier>
             </unitModifiers>
         </doctrina>
-        <doctrina cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/AggressorImperative" name="AdeptusMechanicus/AggressorImperative" rankMax="9" requiredUpgrade="AdeptusMechanicus/AggressorImperative" scaleInfluenceCost="1">
+        <doctrina name="AdeptusMechanicus/AggressorImperative" cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/AggressorImperative" rankMax="9" requiredUpgrade="AdeptusMechanicus/AggressorImperative" scaleInfluenceCost="1">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -593,15 +593,15 @@
                         </unit>
                     </conditions>
                     <effects>
-                        <addTrait duration="1" name="AdeptusMechanicus/AggressorImperative" />
+                        <addTrait name="AdeptusMechanicus/AggressorImperative" duration="1" />
                     </effects>
                 </modifier>
             </unitModifiers>
         </doctrina>
     </actions>
     <startingUnits>
-        <unit type="AdeptusMechanicus/CyberneticaDatasmith" count="1" />
-        <unit type="AdeptusMechanicus/SkitariiVanguard" count="2" />
+        <unit count="1" type="AdeptusMechanicus/CyberneticaDatasmith" />
+        <unit count="2" type="AdeptusMechanicus/SkitariiVanguard" />
     </startingUnits>
     <traits>
         <trait name="AdeptusMechanicus/EnslavedToThePast" />

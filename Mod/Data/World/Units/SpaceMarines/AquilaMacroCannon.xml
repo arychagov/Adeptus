@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement4">
     <model>
-        <structureUnit mesh="Units/SpaceMarines/AquilaMacroCannon" material="Units/SpaceMarines/AquilaMacroCannon" groundMaterial="Units/SpaceMarines/AquilaMacroCannonGround" idleAnimation="" idleAnimationCount="0" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" scale="1 1 1" explosionsBone="Base" portraitFocusHeightModifier="16" />
+        <structureUnit explosionsBone="Base" groundMaterial="Units/SpaceMarines/AquilaMacroCannonGround" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" idleAnimation="" idleAnimationCount="0" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" material="Units/SpaceMarines/AquilaMacroCannon" mesh="Units/SpaceMarines/AquilaMacroCannon" portraitFocusHeightModifier="16" scale="1 1 1" />
     </model>
     <weapons>
         <weapon name="AquilaMacroCannon">
             <model>
-                <projectileWeapon mesh="Weapons/SpaceMarines/AquilaMacroCannonTurret" material="Units/SpaceMarines/AquilaMacroCannon" bone="Turret" muzzleBone=".Muzzle" />
+                <projectileWeapon bone="Turret" material="Units/SpaceMarines/AquilaMacroCannon" mesh="Weapons/SpaceMarines/AquilaMacroCannonTurret" muzzleBone=".Muzzle" />
             </model>
         </weapon>
         <weapon name="HeavyBolter" count="4" requiredUpgrade="SpaceMarines/PredatorLascannon">
             <model>
-                <projectileWeapon mesh="Weapons/SpaceMarines/AquilaMacroCannonHeavyBolters" material="Units/SpaceMarines/AquilaMacroCannon" bone="Turret" muzzleBone=".Muzzle" muzzleCount="4" />
+                <projectileWeapon bone="Turret" material="Units/SpaceMarines/AquilaMacroCannon" mesh="Weapons/SpaceMarines/AquilaMacroCannonHeavyBolters" muzzleBone=".Muzzle" muzzleCount="4" />
             </model>
         </weapon>
     </weapons>

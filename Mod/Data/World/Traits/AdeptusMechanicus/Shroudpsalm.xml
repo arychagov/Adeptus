@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <rangedDamageReduction minMin="0.05" minMax="0.5" />
+                <rangedDamageReduction minMax="0.5" minMin="0.05" />
             </effects>
         </modifier>
     </modifiers>

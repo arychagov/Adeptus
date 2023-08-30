@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="8" icon="Actions/MachineEmpathy">
+<upgrade icon="Actions/MachineEmpathy" position="8">
     <requiredUpgrades>
         <upgrade name="SpaceMarines/Vehicles" />
     </requiredUpgrades>

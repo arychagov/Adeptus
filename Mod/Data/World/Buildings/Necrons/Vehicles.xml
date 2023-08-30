@@ -36,12 +36,12 @@
             </modifiers>
         </rapidRise>
         <produceUnit unit="Necrons/TombBlade" />
-        <produceUnit unit="Necrons/GhostArk" requiredUpgrade="Necrons/GhostArk" />
-        <produceUnit unit="Necrons/AnnihilationBarge" requiredUpgrade="Necrons/AnnihilationBarge" />
-        <produceUnit unit="Necrons/TriarchStalker" requiredUpgrade="Necrons/TriarchStalker" />
-        <produceUnit unit="Necrons/DoomsdayArk" requiredUpgrade="Necrons/DoomsdayArk" />
-        <produceUnit unit="Necrons/Monolith" requiredUpgrade="Necrons/Monolith" />
-        <produceUnit unit="Necrons/Obelisk" requiredUpgrade="Necrons/Obelisk" />
+        <produceUnit requiredUpgrade="Necrons/GhostArk" unit="Necrons/GhostArk" />
+        <produceUnit requiredUpgrade="Necrons/AnnihilationBarge" unit="Necrons/AnnihilationBarge" />
+        <produceUnit requiredUpgrade="Necrons/TriarchStalker" unit="Necrons/TriarchStalker" />
+        <produceUnit requiredUpgrade="Necrons/DoomsdayArk" unit="Necrons/DoomsdayArk" />
+        <produceUnit requiredUpgrade="Necrons/Monolith" unit="Necrons/Monolith" />
+        <produceUnit requiredUpgrade="Necrons/Obelisk" unit="Necrons/Obelisk" />
     </actions>
     <traits>
         <trait name="Necrons/VehiclesBuildingBonus" requiredUpgrade="Necrons/VehiclesBuildingBonus" />

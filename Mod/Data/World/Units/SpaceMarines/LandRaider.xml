@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement1">
     <model>
-        <unit mesh="Units/SpaceMarines/LandRaider" material="Units/SpaceMarines/LandRaider" idleAnimation="Units/SpaceMarines/LandRaiderIdle" idleAnimationCount="3" idleContinuously="1" scale="1.5 1.5 1.5" explosionsBone="BloodBone" uvAnimated="1" />
+        <unit explosionsBone="BloodBone" idleAnimation="Units/SpaceMarines/LandRaiderIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SpaceMarines/LandRaider" mesh="Units/SpaceMarines/LandRaider" scale="1.5 1.5 1.5" uvAnimated="1" />
     </model>
     <weapons>
         <weapon name="TwinLinkedLascannon" count="2">
@@ -16,12 +16,12 @@
         </weapon>
         <weapon name="MultiMelta" requiredUpgrade="SpaceMarines/LandSpeederMultiMelta">
             <model>
-                <beamWeapon mesh="Weapons/SpaceMarines/LandRaiderMultiMelta" material="Units/SpaceMarines/LandRaider" unavailableMesh="Weapons/SpaceMarines/LandRaiderLid" unavailableMaterial="Units/SpaceMarines/LandRaider" bone="BloodBone" muzzleBone=".Muzzle" muzzleCount="2" animationSuffix="MultiMelta" />
+                <beamWeapon animationSuffix="MultiMelta" bone="BloodBone" material="Units/SpaceMarines/LandRaider" mesh="Weapons/SpaceMarines/LandRaiderMultiMelta" muzzleBone=".Muzzle" muzzleCount="2" unavailableMaterial="Units/SpaceMarines/LandRaider" unavailableMesh="Weapons/SpaceMarines/LandRaiderLid" />
             </model>
         </weapon>
-        <weapon name="HunterKillerMissile" slotName="HunterKillerMissile" enabled="0">
+        <weapon name="HunterKillerMissile" enabled="0" slotName="HunterKillerMissile">
             <model>
-                <missileWeapon muzzleBone="BloodBone" fireInterval="5.0" />
+                <missileWeapon fireInterval="5.0" muzzleBone="BloodBone" />
             </model>
         </weapon>
     </weapons>
@@ -75,7 +75,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature duration="3" name="SmokeScreen" />
+                                        <addFeature name="SmokeScreen" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -84,7 +84,7 @@
                 </selfTarget>
             </beginTargets>
         </createSmokeScreen>
-        <useWeapon weaponSlotName="HunterKillerMissile" cooldown="10" requiredUpgrade="SpaceMarines/HunterKillerMissile">
+        <useWeapon cooldown="10" requiredUpgrade="SpaceMarines/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
             <model>
                 <action beginFire="0.1" endFire="1.0" />
             </model>
@@ -101,7 +101,7 @@
                 </modifier>
             </modifiers>
         </orbitalDeployment>
-        <powerOfTheMachineSpirit consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="5">
+        <powerOfTheMachineSpirit consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0">
             <model>
                 <action sound="Actions/MechanicalBuff" />
             </model>
@@ -112,7 +112,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="PowerOfTheMachineSpirit" />
+                                        <addTrait name="PowerOfTheMachineSpirit" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -121,7 +121,7 @@
                 </selfTarget>
             </beginTargets>
         </powerOfTheMachineSpirit>
-        <signum cooldown="5" consumedActionPoints="0" consumedMovement="0" name="SpaceMarines/Omniscope" requiredUpgrade="SpaceMarines/Omniscope">
+        <signum name="SpaceMarines/Omniscope" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredUpgrade="SpaceMarines/Omniscope">
             <model>
                 <action sound="Actions/Omniscope" />
             </model>
@@ -132,7 +132,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="SpaceMarines/Omniscope" />
+                                        <addTrait name="SpaceMarines/Omniscope" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

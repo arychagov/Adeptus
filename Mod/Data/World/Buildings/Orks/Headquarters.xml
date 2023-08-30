@@ -23,9 +23,9 @@
         </modifier>
     </modifiers>
     <actions>
-        <produceUnit unit="Orks/Warboss" requiredUpgrade="Orks/Warboss" />
-        <produceUnit unit="Orks/Weirdboy" requiredUpgrade="Orks/Weirdboy" />
-        <produceUnit unit="Orks/Painboy" requiredUpgrade="Orks/Painboy" />
+        <produceUnit requiredUpgrade="Orks/Warboss" unit="Orks/Warboss" />
+        <produceUnit requiredUpgrade="Orks/Weirdboy" unit="Orks/Weirdboy" />
+        <produceUnit requiredUpgrade="Orks/Painboy" unit="Orks/Painboy" />
     </actions>
     <traits>
         <trait name="Orks/CityTier2" requiredUpgrade="Orks/CityTier2" />

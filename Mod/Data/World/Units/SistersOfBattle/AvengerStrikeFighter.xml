@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement11">
     <model>
-        <unit mesh="Units/SistersOfBattle/AvengerStrikeFighter" material="Units/SistersOfBattle/AvengerStrikeFighter" position="0 0 32" idleAnimation="Units/SistersOfBattle/AvengerStrikeFighterIdle" idleAnimationCount="2" idleContinuously="1" normalWeight="1.0" scale="1.2 1.2 1.2" explosionsBone="Hull_Guide" />
+        <unit explosionsBone="Hull_Guide" idleAnimation="Units/SistersOfBattle/AvengerStrikeFighterIdle" idleAnimationCount="2" idleContinuously="1" material="Units/SistersOfBattle/AvengerStrikeFighter" mesh="Units/SistersOfBattle/AvengerStrikeFighter" normalWeight="1.0" position="0 0 32" scale="1.2 1.2 1.2" />
     </model>
     <weapons>
         <weapon name="AvengerBoltCannon">
@@ -11,17 +11,17 @@
         </weapon>
         <weapon name="Lascannon" count="2">
             <model>
-                <beamWeapon muzzleBone="LasMuzzle" muzzleCount="2" fireInterval="0.53" />
+                <beamWeapon fireInterval="0.53" muzzleBone="LasMuzzle" muzzleCount="2" />
             </model>
         </weapon>
         <weapon name="HellstrikeMissile" count="2" requiredUpgrade="SistersOfBattle/AircraftsMissiles">
             <model>
-                <missileWeapon muzzleBone="MissileMuzzle" muzzleCount="2" fireInterval="0.42" missileScale="0.5" />
+                <missileWeapon fireInterval="0.42" missileScale="0.5" muzzleBone="MissileMuzzle" muzzleCount="2" />
             </model>
         </weapon>
         <weapon name="DefensiveHeavyStubber">
             <model>
-                <projectileWeapon muzzleBone="StubberMuzzle" effectFaceWeight="0" />
+                <projectileWeapon effectFaceWeight="0" muzzleBone="StubberMuzzle" />
             </model>
         </weapon>
     </weapons>
@@ -76,7 +76,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Supersonic" />
+                                        <addTrait name="Supersonic" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -85,7 +85,7 @@
                 </selfTarget>
             </beginTargets>
         </supersonic>
-        <jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
@@ -101,7 +101,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Jink" />
+                                        <addTrait name="Jink" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -110,7 +110,7 @@
                 </selfTarget>
             </beginTargets>
         </jink>
-        <dispenseChaff consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="5" requiredUpgrade="SistersOfBattle/ChaffLauncher">
+        <dispenseChaff consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0" requiredUpgrade="SistersOfBattle/ChaffLauncher">
             <model>
                 <action sound="Actions/SmokeScreen" />
             </model>
@@ -121,7 +121,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Chaff" />
+                                        <addTrait name="Chaff" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

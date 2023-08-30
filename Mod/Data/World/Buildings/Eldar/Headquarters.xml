@@ -23,10 +23,10 @@
         </modifier>
     </modifiers>
     <actions>
-        <produceUnit unit="Eldar/Autarch" requiredUpgrade="Eldar/Autarch" />
-        <produceUnit unit="Eldar/Spiritseer" requiredUpgrade="Eldar/Spiritseer" />
-        <produceUnit unit="Eldar/FarseerSkyrunner" requiredUpgrade="Eldar/FarseerSkyrunner" />
-        <produceUnit unit="Eldar/AvatarOfKhaine" requiredUpgrade="Eldar/AvatarOfKhaine" />
+        <produceUnit requiredUpgrade="Eldar/Autarch" unit="Eldar/Autarch" />
+        <produceUnit requiredUpgrade="Eldar/Spiritseer" unit="Eldar/Spiritseer" />
+        <produceUnit requiredUpgrade="Eldar/FarseerSkyrunner" unit="Eldar/FarseerSkyrunner" />
+        <produceUnit requiredUpgrade="Eldar/AvatarOfKhaine" unit="Eldar/AvatarOfKhaine" />
     </actions>
     <traits>
         <trait name="Eldar/CityTier2" requiredUpgrade="Eldar/CityTier2" />

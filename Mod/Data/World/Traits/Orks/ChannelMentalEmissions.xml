@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <research addMin="3" addMax="9" />
+                <research addMax="9" addMin="3" />
             </effects>
         </modifier>
     </modifiers>

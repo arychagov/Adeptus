@@ -35,10 +35,10 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="AdeptusMechanicus/SkitariiVanguard" />
-        <produceUnit unit="AdeptusMechanicus/SkitariiRanger" requiredUpgrade="AdeptusMechanicus/SkitariiRanger" />
-        <produceUnit unit="AdeptusMechanicus/SkitariiMarshal" requiredUpgrade="AdeptusMechanicus/SkitariiMarshal" />
-        <produceUnit unit="AdeptusMechanicus/SerberysSulphurhound" requiredUpgrade="AdeptusMechanicus/SerberysSulphurhound" />
-        <produceUnit unit="AdeptusMechanicus/SicarianInfiltrator" requiredUpgrade="AdeptusMechanicus/SicarianInfiltrator" />
-        <produceUnit unit="AdeptusMechanicus/PteraxiiSterylizor" requiredUpgrade="AdeptusMechanicus/PteraxiiSterylizor" />
+        <produceUnit requiredUpgrade="AdeptusMechanicus/SkitariiRanger" unit="AdeptusMechanicus/SkitariiRanger" />
+        <produceUnit requiredUpgrade="AdeptusMechanicus/SkitariiMarshal" unit="AdeptusMechanicus/SkitariiMarshal" />
+        <produceUnit requiredUpgrade="AdeptusMechanicus/SerberysSulphurhound" unit="AdeptusMechanicus/SerberysSulphurhound" />
+        <produceUnit requiredUpgrade="AdeptusMechanicus/SicarianInfiltrator" unit="AdeptusMechanicus/SicarianInfiltrator" />
+        <produceUnit requiredUpgrade="AdeptusMechanicus/PteraxiiSterylizor" unit="AdeptusMechanicus/PteraxiiSterylizor" />
     </actions>
 </building>

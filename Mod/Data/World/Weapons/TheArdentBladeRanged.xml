@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon fireSound="Weapons/TheArdentBladeRanged" fireSoundCount="1" beamsBlueprint="Effects/WailingDoom" muzzleFlashesBlueprint="Effects/WailingDoomMuzzleFlashes" />
+        <beamWeapon beamsBlueprint="Effects/WailingDoom" fireSound="Weapons/TheArdentBladeRanged" fireSoundCount="1" muzzleFlashesBlueprint="Effects/WailingDoomMuzzleFlashes" />
     </model>
     <modifiers>
         <modifier>

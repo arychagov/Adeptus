@@ -34,7 +34,7 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="AstraMilitarum/LordCommissar" />
-        <produceUnit unit="AstraMilitarum/TankCommander" requiredUpgrade="AstraMilitarum/TankCommander" />
-        <produceUnit unit="AstraMilitarum/PrimarisPsyker" requiredUpgrade="AstraMilitarum/PrimarisPsyker" />
+        <produceUnit requiredUpgrade="AstraMilitarum/TankCommander" unit="AstraMilitarum/TankCommander" />
+        <produceUnit requiredUpgrade="AstraMilitarum/PrimarisPsyker" unit="AstraMilitarum/PrimarisPsyker" />
     </actions>
 </building>

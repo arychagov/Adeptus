@@ -31,9 +31,9 @@
                 </modifier>
             </modifiers>
         </rapidRise>
-        <produceUnit unit="Necrons/Lord" requiredUpgrade="Necrons/Lord" />
-        <produceUnit unit="Necrons/Cryptek" requiredUpgrade="Necrons/Cryptek" />
-        <produceUnit unit="Necrons/DestroyerLord" requiredUpgrade="Necrons/DestroyerLord" />
+        <produceUnit requiredUpgrade="Necrons/Lord" unit="Necrons/Lord" />
+        <produceUnit requiredUpgrade="Necrons/Cryptek" unit="Necrons/Cryptek" />
+        <produceUnit requiredUpgrade="Necrons/DestroyerLord" unit="Necrons/DestroyerLord" />
     </actions>
     <traits>
         <trait name="Necrons/CityTier2" requiredUpgrade="Necrons/CityTier2" />

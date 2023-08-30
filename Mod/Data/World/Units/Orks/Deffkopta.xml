@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit mesh="Units/Orks/Deffkopta" material="Units/Orks/Deffkopta" position="0 0 32" idleAnimation="Units/Orks/DeffkoptaIdle" idleAnimationCount="3" idleContinuously="1" scale="0.75 0.75 0.75" explosionsBone="Hull" />
+        <unit explosionsBone="Hull" idleAnimation="Units/Orks/DeffkoptaIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Orks/Deffkopta" mesh="Units/Orks/Deffkopta" position="0 0 32" scale="0.75 0.75 0.75" />
     </model>
-    <group size="3" rowSize="3" memberDeltaX="80" memberDeltaY="80" />
+    <group memberDeltaX="80" memberDeltaY="80" rowSize="3" size="3" />
     <weapons>
         <weapon name="TwinLinkedBigShoota">
             <model>
@@ -12,10 +12,10 @@
         </weapon>
         <weapon name="Slugga">
             <model>
-                <projectileWeapon muzzleBone=".PistolMuzzle" fireInterval="0.75" />
+                <projectileWeapon fireInterval="0.75" muzzleBone=".PistolMuzzle" />
             </model>
         </weapon>
-        <weapon name="Bigbomm" slotName="Bigbomm" enabled="0">
+        <weapon name="Bigbomm" enabled="0" slotName="Bigbomm">
             <model>
                 <grenadeWeapon muzzleBone="RightHand" />
             </model>
@@ -52,7 +52,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/Orks/DeffkoptaAttack" beginFire="0.5" endFire="2.0" chargeAnimation="Units/Orks/DeffkoptaCharge" chargeDefenseAnimation="Units/Orks/DeffkoptaChargeDefense" chargeBeginFire="0.25" chargeEndFire="1.5" meleeAnimation="Units/Orks/DeffkoptaMelee" meleeDefenseAnimation="Units/Orks/DeffkoptaMeleeDefense" meleeBeginSwing="0.5" meleeEndSwing="1.0" />
+                <action animation="Units/Orks/DeffkoptaAttack" beginFire="0.5" chargeAnimation="Units/Orks/DeffkoptaCharge" chargeBeginFire="0.25" chargeDefenseAnimation="Units/Orks/DeffkoptaChargeDefense" chargeEndFire="1.5" endFire="2.0" meleeAnimation="Units/Orks/DeffkoptaMelee" meleeBeginSwing="0.5" meleeDefenseAnimation="Units/Orks/DeffkoptaMeleeDefense" meleeEndSwing="1.0" />
             </model>
         </attack>
         <die>
@@ -81,7 +81,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="EreWeGo" />
+                                        <addTrait name="EreWeGo" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -101,7 +101,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="TurboBoost" />
+                                        <addTrait name="TurboBoost" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -110,7 +110,7 @@
                 </selfTarget>
             </beginTargets>
         </turboBoost>
-        <jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
@@ -126,7 +126,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="Jink" />
+                                        <addTrait name="Jink" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

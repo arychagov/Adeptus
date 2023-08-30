@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement7">
     <model>
-        <unit mesh="Units/Eldar/Spiritseer" material="Units/Eldar/Spiritseer" idleAnimation="Units/Eldar/SpiritseerIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="1.1 1.1 1.1" bloodBone="SpiritSeer_Chest" walker="1" />
+        <unit bloodBone="SpiritSeer_Chest" idleAnimation="Units/Eldar/SpiritseerIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Eldar/Spiritseer" mesh="Units/Eldar/Spiritseer" normalWeight="0.1" scale="1.1 1.1 1.1" walker="1" />
     </model>
     <weapons>
         <weapon name="CloseCombatWeapon">
@@ -9,7 +9,7 @@
         </weapon>
         <weapon name="WitchStaff">
             <model>
-                <powerWeapon effectBoundingVolume="Staff" effectBone="StaffEffect" fireInterval="10.0" />
+                <powerWeapon effectBone="StaffEffect" effectBoundingVolume="Staff" fireInterval="10.0" />
             </model>
         </weapon>
     </weapons>
@@ -99,14 +99,14 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <destructorRenewer cooldown="2" name="Eldar/DestructorRenewer" rank="-1" rankMax="2">
+        <destructorRenewer name="Eldar/DestructorRenewer" cooldown="2" rank="-1" rankMax="2">
             <model>
                 <action animation="Units/Eldar/SpiritseerAbility" bone="Chest" />
             </model>
             <modifiers>
                 <modifier>
                     <effects>
-                        <damage mulMin="0.0" mulMax="1.0" />
+                        <damage mulMax="1.0" mulMin="0.0" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -126,7 +126,7 @@
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <hitpoints addMin="4" addMax="12" />
+                                        <hitpoints addMax="12" addMin="4" />
                                     </effects>
                                 </modifier>
                                 <modifier>
@@ -145,7 +145,7 @@
                 </target>
             </beginTargets>
         </destructorRenewer>
-        <protectJinx cooldown="2" name="Eldar/ProtectJinx" rank="-1" rankMax="2">
+        <protectJinx name="Eldar/ProtectJinx" cooldown="2" rank="-1" rankMax="2">
             <model>
                 <action animation="Units/Eldar/SpiritseerAbility" bone="Chest" />
             </model>
@@ -164,7 +164,7 @@
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait duration="1" name="Eldar/Protect" />
+                                        <addTrait name="Eldar/Protect" duration="1" />
                                     </effects>
                                 </modifier>
                                 <modifier>
@@ -175,7 +175,7 @@
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait duration="1" name="Eldar/Jinx" />
+                                        <addTrait name="Eldar/Jinx" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -184,7 +184,7 @@
                 </target>
             </beginTargets>
         </protectJinx>
-        <emboldenHorrify cooldown="2" name="Eldar/EmboldenHorrify" rank="-1" rankMax="2">
+        <emboldenHorrify name="Eldar/EmboldenHorrify" cooldown="2" rank="-1" rankMax="2">
             <model>
                 <action animation="Units/Eldar/SpiritseerAbility" bone="Chest" />
             </model>
@@ -203,7 +203,7 @@
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <morale addMin="3" addMax="9" />
+                                        <morale addMax="9" addMin="3" />
                                     </effects>
                                 </modifier>
                                 <modifier>
@@ -213,7 +213,7 @@
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <morale addMin="-3" addMax="-9" />
+                                        <morale addMax="-9" addMin="-3" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -222,7 +222,7 @@
                 </target>
             </beginTargets>
         </emboldenHorrify>
-        <hallucination cooldown="3" elite="1" levelUpPriority="1" name="Hallucination" rank="-1" rankMax="0">
+        <hallucination name="Hallucination" cooldown="3" elite="1" levelUpPriority="1" rank="-1" rankMax="0">
             <model>
                 <action animation="Units/Eldar/SpiritseerAbility" sound="Actions/Hallucination" />
             </model>
@@ -239,7 +239,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="3" name="Hallucination" />
+                                        <addTrait name="Hallucination" duration="3" />
                                     </effects>
                                 </modifier>
                             </modifiers>

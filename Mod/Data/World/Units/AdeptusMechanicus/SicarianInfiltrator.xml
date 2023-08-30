@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement9">
     <model>
-        <unit mesh="Units/AdeptusMechanicus/SicarianInfiltrator" material="Units/AdeptusMechanicus/SicarianInfiltrator" idleAnimation="Units/AdeptusMechanicus/SicarianInfiltratorIdle" idleAnimationCount="3" idleContinuously="1" normalWeight="0.1" scale="0.9 0.9 0.9" bloodBone="Chest" walker="1" />
+        <unit bloodBone="Chest" idleAnimation="Units/AdeptusMechanicus/SicarianInfiltratorIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AdeptusMechanicus/SicarianInfiltrator" mesh="Units/AdeptusMechanicus/SicarianInfiltrator" normalWeight="0.1" scale="0.9 0.9 0.9" walker="1" />
     </model>
-    <group size="3" rowSize="3" memberDeltaX="80" memberDeltaY="80" />
+    <group memberDeltaX="80" memberDeltaY="80" rowSize="3" size="3" />
     <weapons>
         <weapon name="FlechetteBlaster">
             <model>
@@ -45,7 +45,7 @@
     <actions>
         <attack>
             <model>
-                <action animation="Units/AdeptusMechanicus/SicarianInfiltratorAttack" beginFire="0.67" endFire="1.9" chargeAnimation="Units/AdeptusMechanicus/SicarianInfiltratorCharge" chargeBeginFire="0.33" chargeEndFire="1.33" meleeAnimation="Units/AdeptusMechanicus/SicarianInfiltratorMelee" meleeBeginSwing="0.35" meleeEndSwing="2.5" />
+                <action animation="Units/AdeptusMechanicus/SicarianInfiltratorAttack" beginFire="0.67" chargeAnimation="Units/AdeptusMechanicus/SicarianInfiltratorCharge" chargeBeginFire="0.33" chargeEndFire="1.33" endFire="1.9" meleeAnimation="Units/AdeptusMechanicus/SicarianInfiltratorMelee" meleeBeginSwing="0.35" meleeEndSwing="2.5" />
             </model>
         </attack>
         <die>
