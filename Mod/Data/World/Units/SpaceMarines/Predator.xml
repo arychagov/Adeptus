@@ -80,7 +80,7 @@
             </beginTargets>
         </createSmokeScreen>
 
-        <genericUnitAbility name="SpaceMarines/AdditionalHeavyBolters" charges="1" icon="Actions/SpaceMarines/AdditionalHeavyBolters" requiredUpgrade="SpaceMarines/PredatorLascannon">
+        <genericUnitAbility name="SpaceMarines/AdditionalHeavyBolters" charges="1" icon="Actions/SpaceMarines/TwoAdditionalHeavyBolters" requiredUpgrade="SpaceMarines/PredatorLascannon">
             <conditions>
                 <unit>
                     <noTrait name="SpaceMarines/AdditionalHeavyBolters" />

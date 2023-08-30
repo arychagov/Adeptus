@@ -193,7 +193,9 @@
     <entry name="SistersOfBattle/FaithAndFuryFlavor" value="With the Emperor watching over them, the righteous zeal of the Sisters of Battle burns ever brighter, fuelling their attacks." />
 
     <entry name="SpaceMarines/AdditionalHeavyBolters" value="Additional Heavy Bolters" />
-    <entry name="SpaceMarines/AdditionalHeavyBoltersDescription" value="Grants additional Heavy Bolters." />
+    <entry name="SpaceMarines/AdditionalHeavyBoltersDescription" value="Grants additional heavy bolters." />
+    <entry name="SpaceMarines/AdditionalStormBolter" value="Additional Storm Bolter" />
+    <entry name="SpaceMarines/AdditionalStormBolterDescription" value="Grants additional storm bolter." />
     <entry name="SpaceMarines/BoltDamage" value="Kraken Bolts" />
     <entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
     <entry name="SpaceMarines/BoltDamageFlavor" value="<string name='Traits/AstraMilitarum/BoltDamageFlavor'/>" />

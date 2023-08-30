@@ -19,7 +19,7 @@
                 <missileWeapon fireInterval="5.0" muzzleBone="Hull" />
             </model>
         </weapon>
-        <weapon name="StormBolter" requiredUpgrade="SpaceMarines/HurricaneBolter" />
+        <weapon name="StormBolter" enabled="0" slotName="StormBolterUpgrade" />
     </weapons>
     <modifiers>
         <modifier visible="0">
@@ -79,6 +79,51 @@
                 </selfTarget>
             </beginTargets>
         </createSmokeScreen>
+
+        <genericUnitAbility name="SpaceMarines/AdditionalStormBolter" charges="1" icon="Actions/SpaceMarines/AdditionalStormBolter" requiredUpgrade="SpaceMarines/HurricaneBolter">
+            <conditions>
+                <unit>
+                    <cargoSlotsTaken equal="0" />
+                    <noTrait name="SpaceMarines/AdditionalStormBolter" />
+                </unit>
+            </conditions>
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="20" />
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="SpaceMarines/AdditionalStormBolter" />
+                                        <addTrait name="Untransport" />
+                                        <removeTrait name="Transport" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
+
+        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0" requiredUpgrade="SpaceMarines/PredatorLascannon" weaponSlotName="StormBolterUpgrade">
+            <conditions>
+                <unit>
+                    <trait name="SpaceMarines/AdditionalStormBolter" />
+                </unit>
+            </conditions>
+            <model>
+                <action beginFire="0.1" endFire="1.0" />
+            </model>
+        </useWeapon>
+
         <useWeapon cooldown="10" requiredUpgrade="SpaceMarines/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
             <model>
                 <action beginFire="0.1" endFire="1.0" />

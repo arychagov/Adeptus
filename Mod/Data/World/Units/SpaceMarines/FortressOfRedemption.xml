@@ -20,7 +20,7 @@
             </model>
         </weapon>
         <weapon name="HeavyBolter" count="1" requiredUpgrade="SpaceMarines/FortressOfRedemptionDamageReduction" />
-        <weapon name="HeavyBolter" requiredUpgrade="SpaceMarines/HurricaneBolter" />
+        <weapon name="HeavyBolter" enabled="0" slotName="HeavyBolterUpgrade" />
     </weapons>
     <modifiers>
         <modifier visible="0">
@@ -80,6 +80,43 @@
                 </target>
             </beginTargets>
         </bolsterDefences>
+
+        <genericUnitAbility name="SpaceMarines/AdditionalHeavyBolters" charges="1" icon="Actions/SpaceMarines/AdditionalHeavyBolter" requiredUpgrade="SpaceMarines/HurricaneBolter">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="20" />
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="SpaceMarines/AdditionalHeavyBolters" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
+
+        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0" requiredUpgrade="SpaceMarines/HurricaneBolter" weaponSlotName="HeavyBolterUpgrade">
+            <conditions>
+                <unit>
+                    <trait name="SpaceMarines/AdditionalHeavyBolters" />
+                </unit>
+            </conditions>
+            <model>
+                <action beginFire="0.1" endFire="1.0" />
+            </model>
+        </useWeapon>
+
         <genericUnitAbility passive="1" visible="0">
             <beginTargets>
                 <selfTarget>
