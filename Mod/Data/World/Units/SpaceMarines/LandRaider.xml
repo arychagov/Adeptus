@@ -121,26 +121,6 @@
                 </selfTarget>
             </beginTargets>
         </powerOfTheMachineSpirit>
-        <signum name="SpaceMarines/Omniscope" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredUpgrade="SpaceMarines/Omniscope">
-            <model>
-                <action sound="Actions/Omniscope" />
-            </model>
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="SpaceMarines/Omniscope" duration="1" />
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-        </signum>
     </actions>
     <traits>
         <trait name="AndTheyShallKnowNoFear" />
