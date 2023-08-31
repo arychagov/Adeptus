@@ -72,6 +72,7 @@
     <entry name="ChaosSpaceMarines/EnrageMachineSpirits" value="Enrage Machine Spirits" />
     <entry name="ChaosSpaceMarines/EnrageMachineSpiritsDescription" value="Increases the accuracy of adjacent allied Heldrakes, Forgefiends and Maulerfiends." />
     <entry name="ChaosSpaceMarines/EnrageMachineSpiritsFlavor" value="No armour is safe from the guns of the IV Legion, and once an enemy war engine is marked for destruction, its doomed is sealed." />
+    <entry name="CreateSmokeScreenDescription" value="Decreases opponent's ranged accuracy."/>
 
     <entry name="Eldar/ActivateWebwayGateDescription" value="Activates and claims a neutral Webway Gate. Must be within 3 tiles of friendly Eldar unit." />
     <entry name="Eldar/DoomDescription" value="Increases the damage taken by target non-hero enemy unit." />

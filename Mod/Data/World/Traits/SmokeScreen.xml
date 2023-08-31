@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <rangedDamageReduction add="0.33" />
+                <opponentRangedAccuracy mul="-0.17" />
             </effects>
         </modifier>
     </modifiers>

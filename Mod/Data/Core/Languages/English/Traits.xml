@@ -192,6 +192,8 @@
     <entry name="SistersOfBattle/FaithAndFuryDescription" value="Reduces the cooldown of Acts of Faith." />
     <entry name="SistersOfBattle/FaithAndFuryFlavor" value="With the Emperor watching over them, the righteous zeal of the Sisters of Battle burns ever brighter, fuelling their attacks." />
 
+    <entry name="SmokeScreenDescription" value="Decreases opponent's ranged accuracy."/>
+
     <entry name="SpaceMarines/AdditionalHeavyBolters" value="Additional Heavy Bolters" />
     <entry name="SpaceMarines/AdditionalHeavyBoltersDescription" value="Grants additional heavy bolters." />
     <entry name="SpaceMarines/AdditionalStormBolter" value="Additional Storm Bolter" />
