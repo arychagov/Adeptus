@@ -125,7 +125,8 @@
     <entry name="SpaceMarines/CityTier2Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption." />
     <entry name="SpaceMarines/CityTier3Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption." />
     <entry name="SpaceMarines/CityTier4Description" value="Increases the tile acquisition radius and gives Thunderfire Cannons and Fortresses of Redemption ability to increase the ranged damage reduction of the target tile. Increases the city damage reduction of Fortresses of Redemption." />
-    <entry name="SpaceMarines/DevastatorDoctrineDescription" value="Chapter tactic that increases the accuracy of Devastator Space Marines and Devastator Centurions. Grants Devastator Space Marines ability to ignore heavy weapon penalty." />
+    <entry name="SpaceMarines/DevastatorDoctrine" value="Specialist Doctrine" />
+    <entry name="SpaceMarines/DevastatorDoctrineDescription" value="Chapter tactics that increases the accuracy of Devastator Space Marines, Devastator Centurions, and the melee accuracy of Assault Space Marines, Terminators and heroes. Grants Devastator Space Marines ability to ignore heavy weapon penalty." />
     <entry name="SpaceMarines/DozerBladeDescription" value="Reduces the movement penalty for Hunters, Predators and Razorbacks in forests and imperial ruins. Increases Vindicators armor." />
     <entry name="SpaceMarines/ExtraVehicleArmourDescription" value="Increases the armour of vehicles." />
     <entry name="SpaceMarines/FortressOfRedemptionDamageReductionDescription" value="Grants city and Fortresses of Redemption heavy bolter, additional armour and hitpoints." />

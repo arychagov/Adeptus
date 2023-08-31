@@ -397,7 +397,7 @@
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic name="AssaultDoctrine" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/AssaultDoctrine">
+        <tactic name="AssaultDoctrine" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/DevastatorDoctrine">
             <modifiers>
                 <modifier visible="0">
                     <effects>
