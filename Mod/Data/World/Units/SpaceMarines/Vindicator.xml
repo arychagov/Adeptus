@@ -53,6 +53,26 @@
                 <action animation="Units/SpaceMarines/VindicatorMove" sound="Units/SpaceMarines/TankMove" soundCount="3" />
             </model>
         </move>
+        <genericUnitAbility name="MachineSpirit" icon="Traits/MachineSpirit" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0">
+            <model>
+                <action sound="Actions/MechanicalBuff" />
+            </model>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="MachineSpirit" duration="1" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
         <createSmokeScreen cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="SpaceMarines/SmokeLauncher">
             <model>
                 <action sound="Actions/SmokeScreen" />

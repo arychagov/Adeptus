@@ -7,6 +7,7 @@
                     <noTrait name="MultimodelVehicle" />
                     <noTrait name="UnbreakableVehicle" />
                     <noTrait name="AdeptusMechanicus/DataBlessedAutosermon" />
+                    <noTrait name="MachineSpirit"/>
                     <hitpointsFraction greater="0.33" less="0.66" />
                 </unit>
             </conditions>
@@ -20,6 +21,7 @@
                     <noTrait name="MultimodelVehicle" />
                     <noTrait name="UnbreakableVehicle" />
                     <noTrait name="AdeptusMechanicus/DataBlessedAutosermon" />
+                    <noTrait name="MachineSpirit"/>
                     <hitpointsFraction less="0.33" />
                 </unit>
             </conditions>

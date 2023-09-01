@@ -183,6 +183,10 @@
     <entry name="Orks/CityFoodAndOre" value="Funga / Digga" />
     <entry name="Orks/CityFoodAndOreDescription" value="Increases the food and the ore output." />
 
+    <entry name="MachineSpirit" value="Machine Spirit"/>
+    <entry name="MachineSpiritDescription" value="Temporary ignores degradation."/>
+    <entry name="MachineSpiritFlavor" value="There are many tales of machine spirits wreaking havoc on the foe, even after their crew are slain and critical systems are failing."/>
+
     <entry name="SistersOfBattle/Prosperity" value="Prosperity" />
     <entry name="SistersOfBattle/ProsperityDescription" value="Increases city growth" />
     <entry name="SistersOfBattle/BolterDrill" value="Bolter Drill" />

@@ -89,7 +89,23 @@
                 </selfTarget>
             </beginTargets>
         </scout>
-
+        <genericUnitAbility name="SpaceMarines/CamoCloak" icon="Traits/SpaceMarines/CamoCloak" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait duration="1" name="SpaceMarines/CamoCloak" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
         <orbitalDeployment requiredUpgrade="SpaceMarines/OrbitalDeployment">
             <model>
                 <action sound="Actions/DropPod" />
