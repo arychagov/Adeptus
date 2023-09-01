@@ -72,7 +72,7 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40" />
+                        <influenceCost base="20" />
                     </effects>
                 </modifier>
             </modifiers>

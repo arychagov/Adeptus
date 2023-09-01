@@ -13,7 +13,8 @@
         <modifier>
             <effects>
                 <production add="6" />
-                <research add="4" />
+                <research add="2" />
+                <influence add="2" />
             </effects>
         </modifier>
     </modifiers>
@@ -40,6 +41,5 @@
         <produceUnit requiredUpgrade="SpaceMarines/Apothecary" unit="SpaceMarines/Apothecary" />
         <produceUnit requiredUpgrade="SpaceMarines/Terminator" unit="SpaceMarines/Terminator" />
         <produceUnit requiredUpgrade="SpaceMarines/DevastatorCenturion" unit="SpaceMarines/DevastatorCenturion" />
-        <produceUnit requiredUpgrade="SpaceMarines/Techmarine" unit="SpaceMarines/Techmarine" />
     </actions>
 </building>

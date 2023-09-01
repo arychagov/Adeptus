@@ -89,6 +89,25 @@
                 </selfTarget>
             </beginTargets>
         </scout>
+        <clearTileUnitAbility name="ClearTile" cooldown="1" icon="Actions/ClearTile">
+            <model>
+                <action />
+            </model>
+            <beginTargets>
+                <target rangeMax="1">
+                    <conditions />
+                    <areas />
+                </target>
+            </beginTargets>
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="5" />
+                        <requisitionsCost base="5" />
+                    </effects>
+                </modifier>
+            </modifiers>
+        </clearTileUnitAbility>
         <genericUnitAbility name="SpaceMarines/CamoCloak" icon="Traits/SpaceMarines/CamoCloak" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0">
             <beginTargets>
                 <selfTarget>

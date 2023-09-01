@@ -18,7 +18,7 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8" /> <!-- %armor base armor=13/11/10 -->
+                <armor base="10" /> <!-- %armor base armor=13/11/10 -->
                 <hitpointsMax base="36.0" />
                 <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base armor=13/11/10 wounds=3 -->
                 <moraleMax base="10" /> <!-- %moraleMax base leadership=8 -->
@@ -113,7 +113,6 @@
     </actions>
     <traits>
         <trait name="AndTheyShallKnowNoFear" />
-        <trait name="ExtraVehicleArmour" requiredUpgrade="SpaceMarines/ExtraVehicleArmour" />
         <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand" />
         <trait name="LinebreakerBombardment" />
         <trait name="SiegeShield" />

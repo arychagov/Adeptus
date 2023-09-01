@@ -34,6 +34,7 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="SpaceMarines/Razorback" />
+        <produceUnit requiredUpgrade="SpaceMarines/Techmarine" unit="SpaceMarines/Techmarine" />
         <produceUnit requiredUpgrade="SpaceMarines/ScoutBiker" unit="SpaceMarines/ScoutBiker" />
         <produceUnit requiredUpgrade="SpaceMarines/LandSpeeder" unit="SpaceMarines/LandSpeeder" />
         <produceUnit requiredUpgrade="SpaceMarines/Whirlwind" unit="SpaceMarines/Whirlwind" />
