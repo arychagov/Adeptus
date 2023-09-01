@@ -128,6 +128,9 @@
     <entry name="SpaceMarines/DevastatorDoctrine" value="Specialist Doctrine" />
     <entry name="SpaceMarines/DevastatorDoctrineDescription" value="Chapter tactics that increases the accuracy of Devastator Space Marines, Devastator Centurions, and the melee accuracy of Assault Space Marines, Terminators and heroes. Grants Devastator Space Marines ability to ignore heavy weapon penalty." />
     <entry name="SpaceMarines/DozerBladeDescription" value="Reduces the movement penalty for Hunters, Predators and Razorbacks in forests and imperial ruins. Increases Vindicators armor." />
+    <entry name="SpaceMarines/EmperorsClaim" value="Emperor's Claim"/>
+    <entry name="SpaceMarines/EmperorsClaimDescription" value="Removes cooldown on Fortress of Redemption deploy and increases outposts yield."/>
+    <entry name="SpaceMarines/EmperorsClaimFlavor" value="In the wake of the Great Rift, the Indomitus Crusade battled to retake Imperial worlds plagued by the forces of Chaos."/>
     <entry name="SpaceMarines/ExtraVehicleArmourDescription" value="Increases the armour of vehicles." />
     <entry name="SpaceMarines/FortressOfRedemptionDamageReductionDescription" value="Grants city and Fortresses of Redemption heavy bolter, additional armour and hitpoints." />
     <entry name="SpaceMarines/HurricaneBolter" value="Extra Bolters" />

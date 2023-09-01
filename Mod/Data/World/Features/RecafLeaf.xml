@@ -45,6 +45,17 @@
                 <energy add="1" />
             </effects>
         </modifier>
+        <modifier requiredUpgrade="SpaceMarines/EmperorsClaim">
+            <conditions>
+                <player>
+                    <faction name="SpaceMarines" />
+                </player>
+            </conditions>
+            <effects>
+                <energy mul="0.05" />
+                <influence mul="0.05" />
+            </effects>
+        </modifier>
         <modifier>
             <conditions>
                 <player>

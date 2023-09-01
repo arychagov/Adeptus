@@ -38,6 +38,17 @@
                 <influence add="1" />
             </effects>
         </modifier>
+        <modifier requiredUpgrade="SpaceMarines/EmperorsClaim">
+            <conditions>
+                <player>
+                    <faction name="SpaceMarines" />
+                </player>
+            </conditions>
+            <effects>
+                <influence mul="0.05" />
+                <requisitions mul="0.05" />
+            </effects>
+        </modifier>
         <modifier>
             <conditions>
                 <player>

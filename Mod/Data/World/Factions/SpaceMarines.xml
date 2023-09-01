@@ -272,7 +272,7 @@
                 <action sound="Actions/DropPod" />
             </model>
         </deployCity>
-        <deployFortress cooldown="10" cooldownScalesWithPace="1" icon="Actions/DeployFortressOfRedemption" scaleInfluenceCost="1" unit="SpaceMarines/FortressOfRedemption">
+        <deployFortress cooldown="8" cooldownScalesWithPace="1" icon="Actions/DeployFortressOfRedemption" scaleInfluenceCost="1" unit="SpaceMarines/FortressOfRedemption">
             <model>
                 <action sound="Actions/DropPod" />
             </model>
@@ -280,6 +280,11 @@
                 <modifier visible="0">
                     <effects>
                         <influenceCost base="20" />
+                    </effects>
+                </modifier>
+                <modifier requiredUpgrade="SpaceMarines/EmperorsClaim" visible="0">
+                    <effects>
+                        <cooldown add="-7" />
                     </effects>
                 </modifier>
             </modifiers>
