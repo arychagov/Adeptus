@@ -9,7 +9,7 @@
                 <beamWeapon bone="TurretAttachment" material="Weapons/SpaceMarines/FortressOfRedemptionTurret" mesh="Weapons/SpaceMarines/FortressOfRedemptionTurret" muzzleBone=".Muzzle" />
             </model>
         </weapon>
-        <weapon name="KrakstormMissileSilo" requiredUpgrade="SpaceMarines/FortressOfRedemptionMissileSilo">
+        <weapon name="KrakstormMissileSilo" requiredUpgrade="SpaceMarines/CityTier4">
             <model>
                 <missileWeapon bone="SiloAttachment" fireInterval="0.75" material="Weapons/SpaceMarines/FortressOfRedemptionTurret" mesh="Weapons/SpaceMarines/FortressOfRedemptionSilo" missileScale="0.6" muzzleBone=".Muzzle" />
             </model>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Upgrades/CityTier4" position="7">
+<upgrade icon="Upgrades/SpaceMarines/CityTier4KrakstormMissileSilo" position="7">
     <strategyModifiers>
         <modifier>
             <effects>
