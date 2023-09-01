@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff">
+    <modifiers>
+        <modifier>
+            <conditions>
+                <tile match="Any">
+                    <feature name="Forest" />
+                    <feature name="ImperialRuin" />
+                </tile>
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.08" />
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>
