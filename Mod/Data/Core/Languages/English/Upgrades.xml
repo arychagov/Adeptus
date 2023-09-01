@@ -125,6 +125,9 @@
     <entry name="SpaceMarines/CityTier2Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption." />
     <entry name="SpaceMarines/CityTier3Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption." />
     <entry name="SpaceMarines/CityTier4Description" value="Increases the tile acquisition radius and gives Thunderfire Cannons and Fortresses of Redemption ability to increase the ranged damage reduction of the target tile. Increases the city damage reduction of Fortresses of Redemption." />
+    <entry name="SpaceMarines/CodexAstartes" value="Codex Astartes"/>
+    <entry name="SpaceMarines/CodexAstartesDescription" value="Decreases the cooldown and increases the duration of all chapter tactics."/>
+    <entry name="SpaceMarines/CodexAstartesFlavor" value="We follow in the footsteps of Guilliman. As it is written in the Codex, so shall it be."/>
     <entry name="SpaceMarines/DevastatorDoctrine" value="Specialist Doctrine" />
     <entry name="SpaceMarines/DevastatorDoctrineDescription" value="Chapter tactics that increases the accuracy of Devastator Space Marines, Devastator Centurions, and the melee accuracy of Assault Space Marines, Terminators and heroes. Grants Devastator Space Marines ability to ignore heavy weapon penalty." />
     <entry name="SpaceMarines/DozerBladeDescription" value="Reduces the movement penalty for Hunters, Predators and Razorbacks in forests and imperial ruins. Increases Vindicators armor." />

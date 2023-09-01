@@ -386,15 +386,25 @@
                 </target>
             </beginTargets>
         </orbitalBombardment>
-        <tactic name="TacticalDoctrine" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/TacticalDoctrine">
+        <tactic name="TacticalDoctrine" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/TacticalDoctrine">
             <modifiers>
                 <modifier visible="0">
                     <effects>
                         <influenceCost base="30" />
                     </effects>
                 </modifier>
+                <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
+                    <effects>
+                        <cooldown add="-1"/>
+                    </effects>
+                </modifier>
             </modifiers>
             <playerModifiers>
+                <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
+                    <effects>
+                        <addTrait name="TacticalDoctrine" duration="4" />
+                    </effects>
+                </modifier>
                 <modifier>
                     <effects>
                         <addTrait name="TacticalDoctrine" duration="3" />
@@ -402,15 +412,25 @@
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic name="AssaultDoctrine" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/DevastatorDoctrine">
+        <tactic name="AssaultDoctrine" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/DevastatorDoctrine">
             <modifiers>
                 <modifier visible="0">
                     <effects>
                         <influenceCost base="30" />
                     </effects>
                 </modifier>
+                <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
+                    <effects>
+                        <cooldown add="-1"/>
+                    </effects>
+                </modifier>
             </modifiers>
             <playerModifiers>
+                <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
+                    <effects>
+                        <addTrait name="AssaultDoctrine" duration="4" />
+                    </effects>
+                </modifier>
                 <modifier>
                     <effects>
                         <addTrait name="AssaultDoctrine" duration="3" />
@@ -418,15 +438,25 @@
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic name="DevastatorDoctrine" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/DevastatorDoctrine">
+        <tactic name="DevastatorDoctrine" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/DevastatorDoctrine">
             <modifiers>
                 <modifier visible="0">
                     <effects>
                         <influenceCost base="30" />
                     </effects>
                 </modifier>
+                <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
+                    <effects>
+                        <cooldown add="-1"/>
+                    </effects>
+                </modifier>
             </modifiers>
             <playerModifiers>
+                <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
+                    <effects>
+                        <addTrait name="DevastatorDoctrine" duration="4" />
+                    </effects>
+                </modifier>
                 <modifier>
                     <effects>
                         <addTrait name="DevastatorDoctrine" duration="3" />
@@ -434,15 +464,25 @@
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic name="BolterDrill" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/BolterDrill">
+        <tactic name="BolterDrill" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/BolterDrill">
             <modifiers>
                 <modifier visible="0">
                     <effects>
                         <influenceCost base="60" />
                     </effects>
                 </modifier>
+                <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
+                    <effects>
+                        <cooldown add="-1"/>
+                    </effects>
+                </modifier>
             </modifiers>
             <playerModifiers>
+                <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
+                    <effects>
+                        <addTrait name="BolterDrill" duration="4" />
+                    </effects>
+                </modifier>
                 <modifier>
                     <effects>
                         <addTrait name="BolterDrill" duration="3" />
@@ -450,15 +490,25 @@
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic name="TheFleshIsWeak" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/TheFleshIsWeak">
+        <tactic name="TheFleshIsWeak" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/TheFleshIsWeak">
             <modifiers>
                 <modifier visible="0">
                     <effects>
                         <influenceCost base="60" />
                     </effects>
                 </modifier>
+                <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
+                    <effects>
+                        <cooldown add="-1"/>
+                    </effects>
+                </modifier>
             </modifiers>
             <playerModifiers>
+                <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
+                    <effects>
+                        <addTrait name="TheFleshIsWeak" duration="4" />
+                    </effects>
+                </modifier>
                 <modifier>
                     <effects>
                         <addTrait name="TheFleshIsWeak" duration="3" />
@@ -466,15 +516,25 @@
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic name="MachineEmpathy" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/MachineEmpathy">
+        <tactic name="MachineEmpathy" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/MachineEmpathy">
             <modifiers>
                 <modifier visible="0">
                     <effects>
                         <influenceCost base="60" />
                     </effects>
                 </modifier>
+                <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
+                    <effects>
+                        <cooldown add="-1"/>
+                    </effects>
+                </modifier>
             </modifiers>
             <playerModifiers>
+                <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
+                    <effects>
+                        <addTrait name="MachineEmpathy" duration="4" />
+                    </effects>
+                </modifier>
                 <modifier>
                     <effects>
                         <addTrait name="MachineEmpathy" duration="3" />
@@ -482,15 +542,25 @@
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic name="SiegeMasters" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/SiegeMasters">
+        <tactic name="SiegeMasters" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/SiegeMasters">
             <modifiers>
                 <modifier visible="0">
                     <effects>
                         <influenceCost base="60" />
                     </effects>
                 </modifier>
+                <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
+                    <effects>
+                        <cooldown add="-1"/>
+                    </effects>
+                </modifier>
             </modifiers>
             <playerModifiers>
+                <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
+                    <effects>
+                        <addTrait name="SiegeMasters" duration="4" />
+                    </effects>
+                </modifier>
                 <modifier>
                     <effects>
                         <addTrait name="SiegeMasters" duration="3" />
