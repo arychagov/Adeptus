@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Actions/Misfortune" position="6">
+<upgrade icon="Actions/Misfortune" position="7">
     <requiredUpgrades>
         <upgrade name="AstraMilitarum/Psykers" />
     </requiredUpgrades>

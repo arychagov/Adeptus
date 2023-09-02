@@ -65,7 +65,7 @@
             </model>
         </move>
 
-        <hammerOfWrath consumedActionPoints="0" consumedMovement="0" cooldown="3">
+        <hammerOfWrath consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredUpgrade="AstraMilitarum/HammerOfWrath">
             <model>
                 <action sound="Actions/PsychicBuff" />
             </model>

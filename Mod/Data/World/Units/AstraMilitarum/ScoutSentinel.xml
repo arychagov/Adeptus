@@ -25,6 +25,7 @@
                 <meleeAccuracy base="6" /> <!-- %meleeAccuracy base weaponSkill=3 -->
                 <meleeAttacks base="1" />
                 <!-- <meleeInitiative base="3"/> -->
+                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base armor=12/10/10 wounds=3 -->
                 <oreUpkeep base="2.0" /> <!-- %oreUpkeep base tier=6 factor=1 -->
                 <oreCost base="40.0" /> <!-- %oreCost base tier=6 factor=1 -->
                 <moraleMax base="8" /> <!-- %moraleMax base leadership=7 -->
@@ -102,7 +103,7 @@
                 </selfTarget>
             </beginTargets>
         </createSmokeScreen>
-        <hammerOfWrath consumedActionPoints="0" consumedMovement="0" cooldown="3">
+        <hammerOfWrath consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredUpgrade="AstraMilitarum/HammerOfWrath">
             <model>
                 <action sound="Actions/PsychicBuff" />
             </model>
