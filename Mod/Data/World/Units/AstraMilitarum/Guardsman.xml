@@ -20,6 +20,11 @@
                 <grenadeWeapon muzzleBone="LeftHandBone" />
             </model>
         </weapon>
+        <weapon name="MeltaBomb" enabled="0" slotName="MeltaBomb">
+            <model>
+                <grenadeWeapon muzzleBone="LeftHandBone" />
+            </model>
+        </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
@@ -69,8 +74,6 @@
                 <action animation="Units/AstraMilitarum/GuardsmanMove" sound="Units/AstraMilitarum/InfantryMove" soundCount="4" />
             </model>
         </move>
-
-
         <mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
             <model>
                 <action bone="ChestBone" sound="Actions/Heal" />
@@ -96,6 +99,11 @@
                 </selfTarget>
             </beginTargets>
         </mediPack>
+        <throwGrenade cooldown="10" requiredUpgrade="AstraMilitarum/MeltaBomb" weaponSlotName="MeltaBomb">
+            <model>
+                <action animation="Units/AstraMilitarum/GuardsmanGrenade" beginFire="0.833333333333"/>
+            </model>
+        </throwGrenade>
     </actions>
     <traits>
         <trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour" />

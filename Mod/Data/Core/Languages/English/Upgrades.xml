@@ -33,6 +33,9 @@
     <entry name="AstraMilitarum/LasgunArray" value="Lasgun Array" />
     <entry name="AstraMilitarum/LasgunArrayDescription" value="Grants Chimeras lasgun array." />
     <entry name="AstraMilitarum/LasgunArrayFlavor" value="Standing tall in ordered ranks, they unleash a devastating fusillade of las-fire." />
+    <entry name="AstraMilitarum/MeltaBomb" value="<string name='Weapons/MeltaBomb'/>"/>
+    <entry name="AstraMilitarum/MeltaBombDescription" value="Grants Guardsmen the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications."/>
+    <entry name="AstraMilitarum/MeltaBombFlavor" value="<string name='Weapons/MeltaBombFlavor'/>"/>
     <entry name="AstraMilitarum/ReconOperators" value="Recon Operators" />
     <entry name="AstraMilitarum/ReconOperatorsDescription" value="Grants Scout Sentinels and Tempestus Scions ability to reveal nearby tiles." />
     <entry name="AstraMilitarum/ReconOperatorsFlavor" value="Adept infiltrators or swift vanguard skirmishers, this regiment’s infantry range ahead of the front lines alongside swifter elements, tackling the enemy without warning and reporting observations to Imperial command." />
