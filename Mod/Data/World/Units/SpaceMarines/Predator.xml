@@ -196,6 +196,7 @@
         <trait name="ExtraVehicleArmour" requiredUpgrade="SpaceMarines/ExtraVehicleArmour" />
         <trait name="Killshot" />
         <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand" />
+        <trait name="ConvergentTargetingPredator"/>
         <trait name="Tank" />
         <trait name="Vehicle" />
     </traits>

@@ -87,6 +87,9 @@
     <entry name="ChaosSpaceMarines/EnrageMachineSpiritsDescription" value="Increases the accuracy." />
     <entry name="ChaosSpaceMarines/EnrageMachineSpiritsFlavor" value="No armour is safe from the guns of the IV Legion, and once an enemy war engine is marked for destruction, its doomed is sealed." />
 
+    <entry name="ConvergentTargetingPredator" value="Convergent Targeting"/>
+    <entry name="ConvergentTargetingPredatorDescription" value="Increases the accuracy when adjacent to an allied Predator."/>
+
     <entry name="Eldar/Prosperity" value="Prosperity" />
     <entry name="Eldar/ProsperityDescription" value="Increases city growth" />
 
