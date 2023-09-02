@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait>
+<trait category="Buff">
     <modifiers>
         <modifier>
+            <conditions>
+                <unit>
+                    <unitsInRange count="1" range="2">
+                        <allied />
+                        <type name="AstraMilitarum/TechpriestEnginseer" />
+                    </unitsInRange>
+                </unit>
+            </conditions>
             <effects>
                 <healingRate mul="0.5" />
             </effects>

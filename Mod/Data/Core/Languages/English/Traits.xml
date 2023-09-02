@@ -192,6 +192,8 @@
     <entry name="MachineSpiritDescription" value="Temporary ignores degradation."/>
     <entry name="MachineSpiritFlavor" value="There are many tales of machine spirits wreaking havoc on the foe, even after their crew are slain and critical systems are failing."/>
 
+    <entry name="RecoveryGearDescription" value="Increases the healing rate when allied Tech-Priest Enginseer is nearby."/>
+
     <entry name="ShatteredDefences" value="Shattered Defences"/>
     <entry name="ShatteredDefencesDescription" value="Removes the ranged damage reduction of the target tile."/>
 
