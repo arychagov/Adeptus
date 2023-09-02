@@ -155,6 +155,8 @@
     <entry name="SpaceMarines/PowerOfTheMachineSpiritStormraven" value="Power of the Machine Spirit" />
     <entry name="SpaceMarines/PowerOfTheMachineSpiritStormravenDescription" value="Increases the ranged accuracy of this unit and nearby Stormtalon Gunships." />
     <entry name="SpaceMarines/PowerOfTheMachineSpiritStormravenFlavor" value="The interface between this vehicle's advanced machine spirit and its fire control mechanisms allows the crew to target foes with incredible accuracy." />
+    <entry name="SpaceMarines/ShatterDefences" value="Shatter Defences"/>
+    <entry name="SpaceMarines/ShatterDefencesDescription" value="Removes the ranged damage reduction of the target tile."/>
     <entry name="SpaceMarines/DefensiveFocus" value="Defensive Focus" />
     <entry name="SpaceMarines/DefensiveFocusDescription" value="Increases count of overwatch attacks but deals no damage when shooting this turn." />
     <entry name="SpaceMarines/DefensiveFocus" value="As the Codex Astartes dictates, when the foe presses hard at one section of the Ultramarines’ battle line they are swift to concentrate their defensive fire to drive the threat back." />

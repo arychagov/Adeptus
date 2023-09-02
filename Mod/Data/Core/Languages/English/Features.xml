@@ -3,4 +3,7 @@
     <entry name="NullZone" value="<string name='Traits/NullZone'/>" />
     <entry name="NullZoneDescription" value="<string name='Traits/NullZoneDescription'/>" />
     <entry name="NullZoneFlavor" value="<string name='Traits/NullZoneFlavor'/>" />
+    <entry name="ShatteredDefences" value="<string name='Traits/ShatteredDefences'/>"/>
+    <entry name="ShatteredDefencesDescription" value="<string name='Traits/ShatteredDefencesDescription'/>"/>
+
 </language>

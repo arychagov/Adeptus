@@ -4,12 +4,7 @@
         <unit explosionsBone="Hull_Shake" idleAnimation="Units/SpaceMarines/WhirlwindIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SpaceMarines/Whirlwind" mesh="Units/SpaceMarines/Whirlwind" scale="1 1 1" uvAnimated="1" />
     </model>
     <weapons>
-        <weapon name="WhirlwindMultipleMissileLauncherVengeance" slotName="WhirlwindMultipleMissileLauncherVengeance">
-            <model>
-                <missileWeapon fireInterval="1.14" muzzleBone="Missile" muzzleCount="4" />
-            </model>
-        </weapon>
-        <weapon name="WhirlwindMultipleMissileLauncherIncendiaryCastellan" enabled="0" slotName="WhirlwindMultipleMissileLauncherIncendiaryCastellan">
+        <weapon name="WhirlwindMultipleMissileLauncherIncendiaryCastellan">
             <model>
                 <missileWeapon fireInterval="1.14" muzzleBone="Missile" muzzleCount="4" />
             </model>
@@ -63,7 +58,31 @@
                 <action animation="Units/SpaceMarines/WhirlwindMove" sound="Units/SpaceMarines/TankMove" soundCount="3" />
             </model>
         </move>
-        <cycleWeapon interfaceSound="Interface/CycleWeapon" weaponSlotNames="WhirlwindMultipleMissileLauncherVengeance WhirlwindMultipleMissileLauncherIncendiaryCastellan" />
+        <genericUnitAbility name="SpaceMarines/ShatterDefences" icon="Actions/ChaosSpaceMarines/ShatterDefences" consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
+            <model>
+                <action sound="Units/SpaceMarines/ShatterDefences" />
+            </model>
+            <beginTargets>
+                <target rangeMax="3">
+                    <conditions>
+                        <tile>
+                            <noFeature name="ShatteredDefences" />
+                        </tile>
+                    </conditions>
+                    <areas>
+                        <area affects="Tile">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addFeature name="ShatteredDefences" duration="1" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </genericUnitAbility>
         <genericUnitAbility name="MachineSpirit" icon="Traits/MachineSpirit" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0">
             <model>
                 <action sound="Actions/MechanicalBuff" />
@@ -127,7 +146,7 @@
         <trait name="DozerBlade" requiredUpgrade="SpaceMarines/DozerBlade" />
         <trait name="ExtraVehicleArmour" requiredUpgrade="SpaceMarines/ExtraVehicleArmour" />
         <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand" />
-        <trait name="SpaceMarines/SuppressiveBombardment" />
+        <trait name="ConvergentTargetingWhirlwind"/>
         <trait name="Tank" />
         <trait name="Vehicle" />
     </traits>

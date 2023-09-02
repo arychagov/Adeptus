@@ -89,6 +89,8 @@
 
     <entry name="ConvergentTargetingPredator" value="Convergent Targeting"/>
     <entry name="ConvergentTargetingPredatorDescription" value="Increases the accuracy when adjacent to an allied Predator."/>
+    <entry name="ConvergentTargetingWhirlwind" value="Convergent Targeting"/>
+    <entry name="ConvergentTargetingWhirlwindDescription" value="Increases the accuracy when adjacent to an allied Whirlwind."/>
 
     <entry name="Eldar/Prosperity" value="Prosperity" />
     <entry name="Eldar/ProsperityDescription" value="Increases city growth" />
@@ -189,6 +191,9 @@
     <entry name="MachineSpirit" value="Machine Spirit"/>
     <entry name="MachineSpiritDescription" value="Temporary ignores degradation."/>
     <entry name="MachineSpiritFlavor" value="There are many tales of machine spirits wreaking havoc on the foe, even after their crew are slain and critical systems are failing."/>
+
+    <entry name="ShatteredDefences" value="Shattered Defences"/>
+    <entry name="ShatteredDefencesDescription" value="Removes the ranged damage reduction of the target tile."/>
 
     <entry name="SistersOfBattle/Prosperity" value="Prosperity" />
     <entry name="SistersOfBattle/ProsperityDescription" value="Increases city growth" />
