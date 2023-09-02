@@ -96,27 +96,15 @@
                 </selfTarget>
             </beginTargets>
         </auraOfDiscipline>
-        <bringItDown consumedActionPoints="0" consumedMovement="0" cooldown="3" levelUpPriority="0.1" rank="-1" rankMax="2" requiredActionPoints="0" shoutString="Actions/BringItDown">
-            <model>
-                <action animation="Units/AstraMilitarum/LordCommissarShout" bone="ChestBone" sound="Actions/AstraMilitarumBuff" />
-            </model>
+        <bringItDown levelUpPriority="0.1" rank="-1" rankMax="2" passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Unit" radius="1">
+                        <area affects="Tile" radiusMax="3" radiusMin="1">
                             <modifiers>
                                 <modifier>
-                                    <conditions>
-                                        <unit>
-                                            <allied />
-                                            <faction name="AstraMilitarum" />
-                                            <noTrait name="Fortification" />
-                                            <noTrait name="MonstrousCreature" />
-                                            <noTrait name="Vehicle" />
-                                        </unit>
-                                    </conditions>
                                     <effects>
-                                        <addTrait name="BringItDown" duration="1" />
+                                        <addTrait name="BringItDown" />
                                     </effects>
                                 </modifier>
                             </modifiers>
