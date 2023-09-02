@@ -121,5 +121,6 @@
         <trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster" />
         <trait name="Bodyguard" />
         <trait name="AstraMilitarum/ImperiumOfMan" requiredUpgrade="AstraMilitarum/ImperiumOfMan" />
+        <trait name="AstraMilitarum/CommitEverythingTempestusScion" requiredUpgrade="AstraMilitarum/CommitEverything" />
     </traits>
 </unit>

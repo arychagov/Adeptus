@@ -24,6 +24,9 @@
     <entry name="AstraMilitarum/BoltDamageFlavor" value="An Astartes-derived upgrade to the standard bolter, this kit allows a bolter to fire Kraken penetrator rounds, hard-tipped projectiles with a heavier explosive charge. These heavier rounds are much favoured by the Space Marine Deathwatch alien hunters." />
     <entry name="AstraMilitarum/CityTier2Description" value="Increases the tile acquisition radius. Increases Imperial Bastions' the city damage reduction." />
     <entry name="AstraMilitarum/CityTier3Description" value="Increases the tile acquisition radius. Increases Imperial Bastions' the city damage reduction." />
+    <entry name="AstraMilitarum/CommitEverything" value="Commit Everything" />
+    <entry name="AstraMilitarum/CommitEverythingDescription" value="Increases group size of Guardsmen and Tempestus Scions." />
+    <entry name="AstraMilitarum/CommitEverythingFlavor" value="The campaign’s senior commander has designated the upcoming battle as so vital that they will funnel all of their resources and assets into securing victory, forgoing frugal logistical management in favour of overwhelming force." />
     <entry name="AstraMilitarum/Construction" value="Labour Corps / Breeding Licenses" />
     <entry name="AstraMilitarum/ConstructionDescription" value="Building that constructs new buildings as well as generates food and research. Unlocks edict that increases the growth rate of the city." />
     <entry name="AstraMilitarum/DefenseEdictDescription" value="Edict that increases the armour of units in the city. Increases Imperial Bastions and cities armor." />
@@ -90,7 +93,7 @@
     <entry name="Necrons/DimensionalCorridor2Description" value="Reduces the influence cost, the action and movement cost of Dimensional Corridor." />
     <entry name="Necrons/DimensionalCorridor2Flavor" value="Drawing upon the power of the Old One's abandoned technology has allowed the Necrons to stabilise their recall technology, greatly reducing the cost of warriors phasing out to Eternity Gates." />
     <entry name="Necrons/EndlessLegions" value="<string name='Traits/Necrons/EndlessLegions'/>" />
-    <entry name="Necrons/EndlessLegionsDescription" value="Increases models count of Immortals, Flayed Ones and Necron Warriors." />
+    <entry name="Necrons/EndlessLegionsDescription" value="Increases group size of Immortals, Flayed Ones and Necron Warriors." />
     <entry name="Necrons/EndlessLegionsFlavor" value="<string name='Traits/Necrons/EndlessLegionsFlavor'/>" />
     <entry name="Necrons/GloomPrismDescription" value="Increases the witchfire damage reduction of Canoptek Spyders and adjacent allied units. Grants Canoptek Spyders ability to permanently increase hit points, armour penetration and damage." />
     <entry name="Necrons/HousingBuildingBonusDescription" value="Increases the population limit. Increases damage reduction of units in cities." />

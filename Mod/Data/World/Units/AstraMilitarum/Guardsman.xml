@@ -109,5 +109,6 @@
         <trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour" />
         <trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster" />
         <trait name="AstraMilitarum/ImperiumOfMan" requiredUpgrade="AstraMilitarum/ImperiumOfMan" />
+        <trait name="AstraMilitarum/CommitEverythingGuardsman" requiredUpgrade="AstraMilitarum/CommitEverything"/>
     </traits>
 </unit>

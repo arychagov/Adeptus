@@ -27,6 +27,12 @@
     <entry name="AstraMilitarum/BoltDamage" value="The Emperor's Benediction" />
     <entry name="AstraMilitarum/BoltDamageDescription" value="Increases the armour penetration." />
     <entry name="AstraMilitarum/BoltDamageFlavor" value="An Astartes-derived upgrade to the standard bolter, this kit allows a bolter to fire Kraken penetrator rounds, hard-tipped projectiles with a heavier explosive charge. These heavier rounds are much favoured by the Space Marine Deathwatch alien hunters." />
+    <entry name="AstraMilitarum/CommitEverythingGuardsman" value="Commit Everything" />
+    <entry name="AstraMilitarum/CommitEverythingGuardsmanDescription" value="Increases group size." />
+    <entry name="AstraMilitarum/CommitEverythingGuardsmanFlavor" value="The campaign’s senior commander has designated the upcoming battle as so vital that they will funnel all of their resources and assets into securing victory, forgoing frugal logistical management in favour of overwhelming force." />
+    <entry name="AstraMilitarum/CommitEverythingTempestusScion" value="Commit Everything" />
+    <entry name="AstraMilitarum/CommitEverythingTempestusScionDescription" value="Increases group size." />
+    <entry name="AstraMilitarum/CommitEverythingTempestusScionFlavor" value="The campaign’s senior commander has designated the upcoming battle as so vital that they will funnel all of their resources and assets into securing victory, forgoing frugal logistical management in favour of overwhelming force." />
     <entry name="AstraMilitarum/ImperialStrongpointDamageReduction1" value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction1'/>" />
     <entry name="AstraMilitarum/ImperialStrongpointDamageReduction1Description" value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction1Description'/>" />
     <entry name="AstraMilitarum/ImperialStrongpointDamageReduction1Flavor" value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction1Flavor'/>" />
@@ -87,10 +93,10 @@
     <entry name="ChaosSpaceMarines/EnrageMachineSpiritsDescription" value="Increases the accuracy." />
     <entry name="ChaosSpaceMarines/EnrageMachineSpiritsFlavor" value="No armour is safe from the guns of the IV Legion, and once an enemy war engine is marked for destruction, its doomed is sealed." />
 
-    <entry name="ConvergentTargetingPredator" value="Convergent Targeting"/>
-    <entry name="ConvergentTargetingPredatorDescription" value="Increases the accuracy when adjacent to an allied Predator."/>
-    <entry name="ConvergentTargetingWhirlwind" value="Convergent Targeting"/>
-    <entry name="ConvergentTargetingWhirlwindDescription" value="Increases the accuracy when adjacent to an allied Whirlwind."/>
+    <entry name="ConvergentTargetingPredator" value="Convergent Targeting" />
+    <entry name="ConvergentTargetingPredatorDescription" value="Increases the accuracy when adjacent to an allied Predator." />
+    <entry name="ConvergentTargetingWhirlwind" value="Convergent Targeting" />
+    <entry name="ConvergentTargetingWhirlwindDescription" value="Increases the accuracy when adjacent to an allied Whirlwind." />
 
     <entry name="Eldar/Prosperity" value="Prosperity" />
     <entry name="Eldar/ProsperityDescription" value="Increases city growth" />
@@ -116,7 +122,7 @@
     <entry name="Necrons/DefensiveProtocolsLordDescription" value="Increases the armour." />
     <entry name="Necrons/DefensiveProtocolsLordFlavor" value="<string name='Actions/Necrons/DefensiveProtocolsFlavor'/>" />
     <entry name="Necrons/EndlessLegions" value="Endless Legions" />
-    <entry name="Necrons/EndlessLegionsDescription" value="Increases models count." />
+    <entry name="Necrons/EndlessLegionsDescription" value="Increases group size." />
     <entry name="Necrons/EndlessLegionsFlavor" value="As ever more systems awake upon this noble's tomb world, ever greater legions become theirs to command." />
     <entry name="Necrons/HousingBuildingBonusDescription" value="Increases the population limit. Increases damage reduction of units in cities." />
     <entry name="Necrons/JudgementOfTheTriarch" value="Judgement Of The Triarch" />
@@ -188,14 +194,14 @@
     <entry name="Orks/CityFoodAndOre" value="Funga / Digga" />
     <entry name="Orks/CityFoodAndOreDescription" value="Increases the food and the ore output." />
 
-    <entry name="MachineSpirit" value="Machine Spirit"/>
-    <entry name="MachineSpiritDescription" value="Temporary ignores degradation."/>
-    <entry name="MachineSpiritFlavor" value="There are many tales of machine spirits wreaking havoc on the foe, even after their crew are slain and critical systems are failing."/>
+    <entry name="MachineSpirit" value="Machine Spirit" />
+    <entry name="MachineSpiritDescription" value="Temporary ignores degradation." />
+    <entry name="MachineSpiritFlavor" value="There are many tales of machine spirits wreaking havoc on the foe, even after their crew are slain and critical systems are failing." />
 
-    <entry name="RecoveryGearDescription" value="Increases the healing rate when allied Tech-Priest Enginseer is nearby."/>
+    <entry name="RecoveryGearDescription" value="Increases the healing rate when allied Tech-Priest Enginseer is nearby." />
 
-    <entry name="ShatteredDefences" value="Shattered Defences"/>
-    <entry name="ShatteredDefencesDescription" value="Removes the ranged damage reduction of the target tile."/>
+    <entry name="ShatteredDefences" value="Shattered Defences" />
+    <entry name="ShatteredDefencesDescription" value="Removes the ranged damage reduction of the target tile." />
 
     <entry name="SistersOfBattle/Prosperity" value="Prosperity" />
     <entry name="SistersOfBattle/ProsperityDescription" value="Increases city growth" />
@@ -206,7 +212,7 @@
     <entry name="SistersOfBattle/FaithAndFuryDescription" value="Reduces the cooldown of Acts of Faith." />
     <entry name="SistersOfBattle/FaithAndFuryFlavor" value="With the Emperor watching over them, the righteous zeal of the Sisters of Battle burns ever brighter, fuelling their attacks." />
 
-    <entry name="SmokeScreenDescription" value="Decreases opponent's ranged accuracy."/>
+    <entry name="SmokeScreenDescription" value="Decreases opponent's ranged accuracy." />
 
     <entry name="SpaceMarines/AdditionalHeavyBolters" value="Additional Heavy Bolters" />
     <entry name="SpaceMarines/AdditionalHeavyBoltersDescription" value="Grants additional heavy bolters." />
@@ -215,9 +221,9 @@
     <entry name="SpaceMarines/BoltDamage" value="Kraken Bolts" />
     <entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
     <entry name="SpaceMarines/BoltDamageFlavor" value="<string name='Traits/AstraMilitarum/BoltDamageFlavor'/>" />
-    <entry name="SpaceMarines/CamoCloak" value="Camo Cloak"/>
-    <entry name="SpaceMarines/CamoCloakDescription" value="Increases the ranged damage reduction while in an imperial ruin or a forest"/>
-    <entry name="SpaceMarines/CamoCloakFlavor" value="The weave of this camo cloak emulates the movements of the elements. As a gust of wind passes, as rainfalls across the battlefield, as the haze of heat shimmers the air, the bearers form flickers in and out of perception. If the bearer remains stationary, they are clouded entirely, a ghost lost to the wilds."/>
+    <entry name="SpaceMarines/CamoCloak" value="Camo Cloak" />
+    <entry name="SpaceMarines/CamoCloakDescription" value="Increases the ranged damage reduction while in an imperial ruin or a forest" />
+    <entry name="SpaceMarines/CamoCloakFlavor" value="The weave of this camo cloak emulates the movements of the elements. As a gust of wind passes, as rainfalls across the battlefield, as the haze of heat shimmers the air, the bearers form flickers in and out of perception. If the bearer remains stationary, they are clouded entirely, a ghost lost to the wilds." />
     <entry name="SpaceMarines/CityTier2Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption." />
     <entry name="SpaceMarines/CityTier3Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption." />
     <entry name="SpaceMarines/CityTier4Description" value="Increases the tile acquisition radius and gives Thunderfire Cannons and Fortresses of Redemption ability to increase the ranged damage reduction of the target tile. Increases the city damage reduction of Fortresses of Redemption." />
