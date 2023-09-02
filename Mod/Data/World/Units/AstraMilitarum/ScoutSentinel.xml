@@ -63,12 +63,12 @@
                 <action animation="Units/AstraMilitarum/ScoutSentinelMove" sound="Units/AstraMilitarum/ScoutSentinelMove" soundCount="1" />
             </model>
         </move>
-        <scout consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
+        <scout consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/ReconOperators">
             <model>
                 <action sound="Actions/Scan" />
             </model>
             <beginTargets>
-                <selfTarget>
+                <target rangeMax="1">
                     <areas>
                         <area affects="Tile" radius="3">
                             <modifiers>
@@ -80,7 +80,7 @@
                             </modifiers>
                         </area>
                     </areas>
-                </selfTarget>
+                </target>
             </beginTargets>
         </scout>
         <createSmokeScreen cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="AstraMilitarum/SmokeLauncher">

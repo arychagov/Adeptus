@@ -69,7 +69,26 @@
             </model>
         </move>
 
-
+        <scout consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/ReconOperators">
+            <model>
+                <action sound="Actions/Scan" />
+            </model>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile" radius="3">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <reveal />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </scout>
         <mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
             <model>
                 <action bone="ChestBone" sound="Actions/Heal" />

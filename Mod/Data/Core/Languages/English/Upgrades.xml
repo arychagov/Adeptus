@@ -24,20 +24,24 @@
     <entry name="AstraMilitarum/BoltDamageFlavor" value="An Astartes-derived upgrade to the standard bolter, this kit allows a bolter to fire Kraken penetrator rounds, hard-tipped projectiles with a heavier explosive charge. These heavier rounds are much favoured by the Space Marine Deathwatch alien hunters." />
     <entry name="AstraMilitarum/CityTier2Description" value="Increases the tile acquisition radius. Increases Imperial Bastions' the city damage reduction." />
     <entry name="AstraMilitarum/CityTier3Description" value="Increases the tile acquisition radius. Increases Imperial Bastions' the city damage reduction." />
-    <entry name="AstraMilitarum/Construction" value="Labour Corps / Breeding Licenses"/>
-    <entry name="AstraMilitarum/ConstructionDescription" value="Building that constructs new buildings as well as generates food and research. Unlocks edict that increases the growth rate of the city."/>
+    <entry name="AstraMilitarum/Construction" value="Labour Corps / Breeding Licenses" />
+    <entry name="AstraMilitarum/ConstructionDescription" value="Building that constructs new buildings as well as generates food and research. Unlocks edict that increases the growth rate of the city." />
     <entry name="AstraMilitarum/DefenseEdictDescription" value="Edict that increases the armour of units in the city. Increases Imperial Bastions armor." />
     <entry name="AstraMilitarum/ImperiumOfMan" value="<string name='Traits/AstraMilitarum/ImperiumOfMan'/>" />
     <entry name="AstraMilitarum/ImperiumOfManDescription" value="Grants Guardsmen and Tempestus Scions ability to treat shooting with rapid fire weapons as if in half range." />
     <entry name="AstraMilitarum/ImperiumOfManFlavor" value="<string name='Traits/AstraMilitarum/ImperiumOfManFlavor'/>" />
-    <entry name="AstraMilitarum/LasgunArray" value="Lasgun Array"/>
-    <entry name="AstraMilitarum/LasgunArray" value="Grants Chimeras lasgun array."/>
+    <entry name="AstraMilitarum/LasgunArray" value="Lasgun Array" />
+    <entry name="AstraMilitarum/LasgunArrayDescription" value="Grants Chimeras lasgun array." />
+    <entry name="AstraMilitarum/LasgunArrayFlavor" value="Standing tall in ordered ranks, they unleash a devastating fusillade of las-fire." />
+    <entry name="AstraMilitarum/ReconOperators" value="Recon Operators" />
+    <entry name="AstraMilitarum/ReconOperatorsDescription" value="Grants Scout Sentinels and Tempestus Scions ability to reveal nearby tiles." />
+    <entry name="AstraMilitarum/ReconOperatorsFlavor" value="Adept infiltrators or swift vanguard skirmishers, this regiment’s infantry range ahead of the front lines alongside swifter elements, tackling the enemy without warning and reporting observations to Imperial command." />
     <entry name="AstraMilitarum/RelicPlatingDescription" value="Increases the witchfire damage reduction of ground vehicles. Increases Imperial Bastions' the city damage reduction. Increases Leman Russ Battle Tanks and Baneblades armour." />
     <entry name="AstraMilitarum/SmokeLauncher" value="Smoke Launcher / Dozer Blade" />
     <entry name="AstraMilitarum/SmokeLauncherDescription" value="Grants ground vehicles the ability to launch a smoke screen that increases the ranged damage reduction. Reduces the movement penalty for tanks in forests and imperial ruins." />
-    <entry name="AstraMilitarum/ScoutSentinel" value="<string name='Units/AstraMilitarum/ScoutSentinel'/>"/>
-    <entry name="AstraMilitarum/ScoutSentinelDescription" value="<string name='Units/AstraMilitarum/ScoutSentinelDescription'/>"/>
-    <entry name="AstraMilitarum/ScoutSentinelFlavor" value="<string name='Units/AstraMilitarum/ScoutSentinelFlavor'/>"/>
+    <entry name="AstraMilitarum/ScoutSentinel" value="<string name='Units/AstraMilitarum/ScoutSentinel'/>" />
+    <entry name="AstraMilitarum/ScoutSentinelDescription" value="<string name='Units/AstraMilitarum/ScoutSentinelDescription'/>" />
+    <entry name="AstraMilitarum/ScoutSentinelFlavor" value="<string name='Units/AstraMilitarum/ScoutSentinelFlavor'/>" />
     <entry name="AstraMilitarum/TechpriestEnginseer" value="Tech-Priest Enginseers" />
     <entry name="AstraMilitarum/TechpriestEnginseerDescription" value="Infantry unit that supports vehicles, clears tiles and founds new cities." />
     <entry name="AstraMilitarum/TechpriestEnginseerFlavor" value="Tech-Priest Enginseers serve as custodians for the vehicles of the Imperial Guard. With binary prayers and mystic rites, the Enginseers soothe the machine spirits of their tracked congregation. Without the diligent maintenance of the Enginseers, the Imperial Guard would soon find themselves without the heavy armour vital to their very survival." />
@@ -130,22 +134,22 @@
 
     <entry name="SpaceMarines/BlastDamageDescription" value="Increases the armour penetration of grenade, missile, las and blast weapons." />
     <entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
-    <entry name="SpaceMarines/CamoCloak" value="Camo Cloak"/>
-    <entry name="SpaceMarines/CamoCloakDescription" value="Grants Scouts abilities to scout and to temporary increase the ranged damage reduction while in an imperial ruin or a forest"/>
-    <entry name="SpaceMarines/CamoCloakFlavor" value="The weave of this camo cloak emulates the movements of the elements. As a gust of wind passes, as rainfalls across the battlefield, as the haze of heat shimmers the air, the bearers form flickers in and out of perception. If the bearer remains stationary, they are clouded entirely, a ghost lost to the wilds."/>
+    <entry name="SpaceMarines/CamoCloak" value="Camo Cloak" />
+    <entry name="SpaceMarines/CamoCloakDescription" value="Grants Scouts abilities to scout and to temporary increase the ranged damage reduction while in an imperial ruin or a forest" />
+    <entry name="SpaceMarines/CamoCloakFlavor" value="The weave of this camo cloak emulates the movements of the elements. As a gust of wind passes, as rainfalls across the battlefield, as the haze of heat shimmers the air, the bearers form flickers in and out of perception. If the bearer remains stationary, they are clouded entirely, a ghost lost to the wilds." />
     <entry name="SpaceMarines/CityTier2Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption." />
     <entry name="SpaceMarines/CityTier3Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption." />
     <entry name="SpaceMarines/CityTier4" value="Fortresses Supreme / Missile Silo" />
     <entry name="SpaceMarines/CityTier4Description" value="Increases the tile acquisition radius and gives Thunderfire Cannons and Fortresses of Redemption ability to increase the ranged damage reduction of the target tile. Increases the city damage reduction of Fortresses of Redemption. Grants Fortresses of Redemption a krakstorm missile silo." />
-    <entry name="SpaceMarines/CodexAstartes" value="Codex Astartes"/>
-    <entry name="SpaceMarines/CodexAstartesDescription" value="Decreases the cooldown and increases the duration of all chapter tactics."/>
-    <entry name="SpaceMarines/CodexAstartesFlavor" value="We follow in the footsteps of Guilliman. As it is written in the Codex, so shall it be."/>
+    <entry name="SpaceMarines/CodexAstartes" value="Codex Astartes" />
+    <entry name="SpaceMarines/CodexAstartesDescription" value="Decreases the cooldown and increases the duration of all chapter tactics." />
+    <entry name="SpaceMarines/CodexAstartesFlavor" value="We follow in the footsteps of Guilliman. As it is written in the Codex, so shall it be." />
     <entry name="SpaceMarines/DevastatorDoctrine" value="Specialist Doctrine" />
     <entry name="SpaceMarines/DevastatorDoctrineDescription" value="Chapter tactics that increases the accuracy of Devastator Space Marines, Devastator Centurions, and the melee accuracy of Assault Space Marines, Terminators and heroes. Grants Devastator Space Marines ability to ignore heavy weapon penalty." />
     <entry name="SpaceMarines/DozerBladeDescription" value="Reduces the movement penalty for Hunters, Predators and Razorbacks in forests and imperial ruins. Increases Vindicators armor." />
-    <entry name="SpaceMarines/EmperorsClaim" value="Emperor's Claim"/>
-    <entry name="SpaceMarines/EmperorsClaimDescription" value="Removes cooldown on Fortress of Redemption deploy and increases outposts yield."/>
-    <entry name="SpaceMarines/EmperorsClaimFlavor" value="In the wake of the Great Rift, the Indomitus Crusade battled to retake Imperial worlds plagued by the forces of Chaos."/>
+    <entry name="SpaceMarines/EmperorsClaim" value="Emperor's Claim" />
+    <entry name="SpaceMarines/EmperorsClaimDescription" value="Removes cooldown on Fortress of Redemption deploy and increases outposts yield." />
+    <entry name="SpaceMarines/EmperorsClaimFlavor" value="In the wake of the Great Rift, the Indomitus Crusade battled to retake Imperial worlds plagued by the forces of Chaos." />
     <entry name="SpaceMarines/ExtraVehicleArmourDescription" value="Increases the armour of vehicles." />
     <entry name="SpaceMarines/FortressOfRedemptionDamageReductionDescription" value="Grants city and Fortresses of Redemption heavy bolter, additional armour and hitpoints." />
     <entry name="SpaceMarines/HurricaneBolter" value="Extra Bolters" />
@@ -153,9 +157,9 @@
     <entry name="SpaceMarines/KillTeamEliminators" value="<string name='Units/SpaceMarines/KillTeamEliminators'/>" />
     <entry name="SpaceMarines/KillTeamEliminatorsDescription" value="<string name='Units/SpaceMarines/KillTeamEliminatorsDescription'/>" />
     <entry name="SpaceMarines/KillTeamEliminatorsFlavor" value="<string name='Units/SpaceMarines/KillTeamEliminatorsFlavor'/>" />
-    <entry name="SpaceMarines/MachineSpirit" value="Machine Spirit"/>
-    <entry name="SpaceMarines/MachineSpiritDescription" value="Allows vehicles to temporary ignore degradation."/>
-    <entry name="SpaceMarines/MachineSpiritFlavor" value="There are many tales of machine spirits wreaking havoc on the foe, even after their crew are slain and critical systems are failing."/>
+    <entry name="SpaceMarines/MachineSpirit" value="Machine Spirit" />
+    <entry name="SpaceMarines/MachineSpiritDescription" value="Allows vehicles to temporary ignore degradation." />
+    <entry name="SpaceMarines/MachineSpiritFlavor" value="There are many tales of machine spirits wreaking havoc on the foe, even after their crew are slain and critical systems are failing." />
     <entry name="SpaceMarines/MeltaBombDescription" value="Grants Assault Space Marines, Kill Team Eliminators and Scout Bikers the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications." />
     <entry name="SpaceMarines/OmniscopeDescription" value="Grants Scouts, Devastator Space Marines, Terminators and Devastator Centurions the ability to bypass ranged damaged reduction." />
     <entry name="SpaceMarines/PredatorLascannonDescription" value="Grants Predators ability to install extra Heavy Bolters or improve lascannon damage, armour penetration and accuracy. Grants Fortresses of Redemption twin-linked Lascannon. Grants Aquila Macro-Cannons extra Heavy Bolters." />
