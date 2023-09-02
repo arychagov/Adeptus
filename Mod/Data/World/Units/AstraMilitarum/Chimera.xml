@@ -14,7 +14,7 @@
                 <projectileWeapon muzzleBone=".HeavyBolterMuzzle" />
             </model>
         </weapon>
-        <weapon name="LasgunArray" count="2">
+        <weapon name="LasgunArray" count="2" requiredUpgrade="AstraMilitarum/LasgunArray">
             <model>
                 <beamWeapon cycleMuzzles="0" effectFaceWeight="0" muzzleBone=".LasgunArrayMuzzle" muzzleCount="6" />
             </model>

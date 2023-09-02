@@ -30,6 +30,8 @@
     <entry name="AstraMilitarum/ImperiumOfMan" value="<string name='Traits/AstraMilitarum/ImperiumOfMan'/>" />
     <entry name="AstraMilitarum/ImperiumOfManDescription" value="Grants Guardsmen and Tempestus Scions ability to treat shooting with rapid fire weapons as if in half range." />
     <entry name="AstraMilitarum/ImperiumOfManFlavor" value="<string name='Traits/AstraMilitarum/ImperiumOfManFlavor'/>" />
+    <entry name="AstraMilitarum/LasgunArray" value="Lasgun Array"/>
+    <entry name="AstraMilitarum/LasgunArray" value="Grants Chimeras lasgun array."/>
     <entry name="AstraMilitarum/RelicPlatingDescription" value="Increases the witchfire damage reduction of ground vehicles. Increases Imperial Bastions' the city damage reduction. Increases Leman Russ Battle Tanks and Baneblades armour." />
     <entry name="AstraMilitarum/SmokeLauncher" value="Smoke Launcher / Dozer Blade" />
     <entry name="AstraMilitarum/SmokeLauncherDescription" value="Grants ground vehicles the ability to launch a smoke screen that increases the ranged damage reduction. Reduces the movement penalty for tanks in forests and imperial ruins." />
