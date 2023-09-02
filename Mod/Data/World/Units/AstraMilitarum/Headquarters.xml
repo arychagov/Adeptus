@@ -31,6 +31,11 @@
                 <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>
         </modifier>
+        <modifier requiredUpgrade="AstraMilitarum/DefenseEdict" visible="1">
+            <effects>
+                <armor add="1" />
+            </effects>
+        </modifier>
     </modifiers>
     <strategyModifiers></strategyModifiers>
     <actions>

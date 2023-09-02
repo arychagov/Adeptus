@@ -26,7 +26,7 @@
     <entry name="AstraMilitarum/CityTier3Description" value="Increases the tile acquisition radius. Increases Imperial Bastions' the city damage reduction." />
     <entry name="AstraMilitarum/Construction" value="Labour Corps / Breeding Licenses" />
     <entry name="AstraMilitarum/ConstructionDescription" value="Building that constructs new buildings as well as generates food and research. Unlocks edict that increases the growth rate of the city." />
-    <entry name="AstraMilitarum/DefenseEdictDescription" value="Edict that increases the armour of units in the city. Increases Imperial Bastions armor." />
+    <entry name="AstraMilitarum/DefenseEdictDescription" value="Edict that increases the armour of units in the city. Increases Imperial Bastions and cities armor." />
     <entry name="AstraMilitarum/ImperiumOfMan" value="<string name='Traits/AstraMilitarum/ImperiumOfMan'/>" />
     <entry name="AstraMilitarum/ImperiumOfManDescription" value="Grants Guardsmen and Tempestus Scions ability to treat shooting with rapid fire weapons as if in half range." />
     <entry name="AstraMilitarum/ImperiumOfManFlavor" value="<string name='Traits/AstraMilitarum/ImperiumOfManFlavor'/>" />
