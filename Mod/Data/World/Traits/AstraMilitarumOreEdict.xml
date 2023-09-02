@@ -8,7 +8,7 @@
                 </building>
             </conditions>
             <effects>
-                <ore mul="0.25" />
+                <ore mul="0.20" />
             </effects>
         </modifier>
     </modifiers>

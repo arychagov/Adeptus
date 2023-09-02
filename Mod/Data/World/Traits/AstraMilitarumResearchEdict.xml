@@ -8,7 +8,7 @@
                 </building>
             </conditions>
             <effects>
-                <research mul="0.25" />
+                <research mul="0.20" />
             </effects>
         </modifier>
     </modifiers>

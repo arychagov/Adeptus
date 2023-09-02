@@ -8,7 +8,7 @@
                 </building>
             </conditions>
             <effects>
-                <production mul="0.25" />
+                <production mul="0.20" />
             </effects>
         </modifier>
     </modifiers>

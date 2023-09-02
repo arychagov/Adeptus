@@ -38,7 +38,6 @@
         <produceUnit requiredUpgrade="AstraMilitarum/HeavyWeaponsSquad" unit="AstraMilitarum/HeavyWeaponsSquad" />
         <produceUnit requiredUpgrade="AstraMilitarum/TempestusScion" unit="AstraMilitarum/TempestusScion" />
         <produceUnit requiredUpgrade="AstraMilitarum/Bullgryn" unit="AstraMilitarum/Bullgryn" />
-        <produceUnit requiredUpgrade="AstraMilitarum/TechpriestEnginseer" unit="AstraMilitarum/TechpriestEnginseer" />
         <produceUnit requiredUpgrade="AstraMilitarum/Psykers" unit="AstraMilitarum/WyrdvanePsyker" />
     </actions>
 </building>

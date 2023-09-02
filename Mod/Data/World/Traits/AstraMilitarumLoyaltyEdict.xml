@@ -8,7 +8,7 @@
                 </building>
             </conditions>
             <effects>
-                <loyalty mul="0.25" />
+                <loyalty mul="0.5" />
             </effects>
         </modifier>
     </modifiers>
