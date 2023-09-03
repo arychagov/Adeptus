@@ -117,9 +117,9 @@
     <entry name="SistersOfBattle/DesperateForRedemptionFlavor" value="Not even death can stop the Emperor’s chosen servants, and through his benevolence they rise again to serve the Master of Mankind’s will." />
 
     <entry name="SpaceMarines/AdditionalHeavyBolters" value="Install Heavy Bolters" />
-    <entry name="SpaceMarines/AdditionalHeavyBoltersDescription" value="Grants additional heavy bolters. Only one improvement or install can be set up for a unit." />
+    <entry name="SpaceMarines/AdditionalHeavyBoltersDescription" value="Grants Predator additional heavy bolters. Only one improvement or install can be set up for a unit." />
     <entry name="SpaceMarines/AdditionalStormBolter" value="Install Storm Bolter" />
-    <entry name="SpaceMarines/AdditionalStormBolterDescription" value="Grants additional storm bolter, but removes ability to transport units." />
+    <entry name="SpaceMarines/AdditionalStormBolterDescription" value="Grants Razorback additional storm bolter, but removes ability to transport units." />
     <entry name="SpaceMarines/CamoCloak" value="Camo Cloak" />
     <entry name="SpaceMarines/CamoCloakDescription" value="Temporary increases the ranged damage reduction while in an imperial ruin or a forest" />
     <entry name="SpaceMarines/CamoCloakFlavor" value="The weave of this camo cloak emulates the movements of the elements. As a gust of wind passes, as rainfalls across the battlefield, as the haze of heat shimmers the air, the bearers form flickers in and out of perception. If the bearer remains stationary, they are clouded entirely, a ghost lost to the wilds." />
@@ -129,8 +129,8 @@
     <entry name="SpaceMarines/EmpireWithin" value="Empire Within" />
     <entry name="SpaceMarines/EmpireWithinDescription" value="Levels up non-hero friendly unit." />
     <entry name="SpaceMarines/EmpireWithinFlavor" value="”I can pulp your flesh and snap your bones in less than a second and without so much as lifting a finger. What is the power of technology compared to that?”<br/>  — Vel'Cona, Chief Librarian of the Salamanders" />
-    <entry name="SpaceMarines/ImprovedLascannon" value="Improved Lascannon" />
-    <entry name="SpaceMarines/ImprovedLascannonDescription" value="Permanently improves lascannon damage, armour penetration and accuracy. Only one improvement or install can be set up for a unit." />
+    <entry name="SpaceMarines/ImprovedLascannon" value="Install Improved Lascannon" />
+    <entry name="SpaceMarines/ImprovedLascannonDescription" value="Permanently improves lascannon damage, armour penetration and accuracy of Predator. Only one improvement or install can be set up for a unit." />
     <entry name="SpaceMarines/LitanyOfZeal" value="<string name='Traits/SpaceMarines/LitanyOfZeal'/>" />
     <entry name="SpaceMarines/LitanyOfZealDescription" value="<string name='Traits/SpaceMarines/LitanyOfZealDescription'/>" />
     <entry name="SpaceMarines/LitanyOfZealFlavor" value="<string name='Traits/SpaceMarines/LitanyOfZealFlavor'/>" />

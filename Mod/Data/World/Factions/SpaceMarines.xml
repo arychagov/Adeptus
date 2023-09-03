@@ -395,7 +395,7 @@
                 </modifier>
                 <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
                     <effects>
-                        <cooldown add="-1"/>
+                        <cooldown add="-1" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -421,7 +421,7 @@
                 </modifier>
                 <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
                     <effects>
-                        <cooldown add="-1"/>
+                        <cooldown add="-1" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -447,7 +447,7 @@
                 </modifier>
                 <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
                     <effects>
-                        <cooldown add="-1"/>
+                        <cooldown add="-1" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -473,7 +473,7 @@
                 </modifier>
                 <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
                     <effects>
-                        <cooldown add="-1"/>
+                        <cooldown add="-1" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -499,7 +499,7 @@
                 </modifier>
                 <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
                     <effects>
-                        <cooldown add="-1"/>
+                        <cooldown add="-1" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -525,7 +525,7 @@
                 </modifier>
                 <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
                     <effects>
-                        <cooldown add="-1"/>
+                        <cooldown add="-1" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -551,7 +551,7 @@
                 </modifier>
                 <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
                     <effects>
-                        <cooldown add="-1"/>
+                        <cooldown add="-1" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -568,6 +568,106 @@
                 </modifier>
             </playerModifiers>
         </tactic>
+        <installSupportSystem name="SpaceMarines/AdditionalStormBolter" cooldown="0" icon="Actions/SpaceMarines/AdditionalStormBolter" requiredUpgrade="SpaceMarines/HurricaneBolter">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="20" />
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <target rangeMax="-1">
+                    <conditions>
+                        <unit>
+                            <allied />
+                            <type name="SpaceMarines/Razorback" />
+                            <cargoSlotsTaken equal="0" />
+                            <noTrait name="SpaceMarines/AdditionalStormBolter" />
+                            <notAttackedThisTurn />
+                            <notMovedThisTurn />
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="SpaceMarines/AdditionalStormBolter" />
+                                        <addTrait name="Stunned" duration="1" />
+                                        <removeTrait name="Transport" />
+                                        <addTrait name="Untransport" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </installSupportSystem>
+        <installSupportSystem name="SpaceMarines/AdditionalHeavyBolters" cooldown="0" icon="Actions/SpaceMarines/TwoAdditionalHeavyBolters" requiredUpgrade="SpaceMarines/PredatorLascannon">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="40" />
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <target rangeMax="-1">
+                    <conditions>
+                        <unit>
+                            <allied />
+                            <type name="SpaceMarines/Predator" />
+                            <noTrait name="SpaceMarines/AdditionalHeavyBolters" />
+                            <noTrait name="SpaceMarines/ImprovedLascannon" />
+                            <notAttackedThisTurn />
+                            <notMovedThisTurn />
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="SpaceMarines/AdditionalHeavyBolters" />
+                                        <addTrait name="Stunned" duration="1" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </installSupportSystem>
+        <installSupportSystem name="SpaceMarines/ImprovedLascannon" cooldown="0" icon="Actions/SpaceMarines/ImprovedLascannon" requiredUpgrade="SpaceMarines/PredatorLascannon">
+            <beginTargets>
+                <target rangeMax="-1">
+                    <conditions>
+                        <unit>
+                            <allied />
+                            <type name="SpaceMarines/Predator" />
+                            <noTrait name="SpaceMarines/AdditionalHeavyBolters" />
+                            <noTrait name="SpaceMarines/ImprovedLascannon" />
+                            <notAttackedThisTurn />
+                            <notMovedThisTurn />
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="SpaceMarines/ImprovedLascannon" />
+                                        <addTrait name="Stunned" duration="1" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </installSupportSystem>
     </actions>
     <startingUnits>
         <unit count="2" type="SpaceMarines/TacticalSpaceMarine" />

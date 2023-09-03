@@ -100,39 +100,6 @@
             </beginTargets>
         </createSmokeScreen>
 
-        <genericUnitAbility name="SpaceMarines/AdditionalStormBolter" charges="1" icon="Actions/SpaceMarines/AdditionalStormBolter" requiredUpgrade="SpaceMarines/HurricaneBolter">
-            <conditions>
-                <unit>
-                    <cargoSlotsTaken equal="0" />
-                    <noTrait name="SpaceMarines/AdditionalStormBolter" />
-                </unit>
-            </conditions>
-            <modifiers>
-                <modifier visible="0">
-                    <effects>
-                        <influenceCost base="20" />
-                    </effects>
-                </modifier>
-            </modifiers>
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="SpaceMarines/AdditionalStormBolter" />
-                                        <addTrait name="Untransport" />
-                                        <removeTrait name="Transport" />
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-        </genericUnitAbility>
-
         <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0" requiredUpgrade="SpaceMarines/PredatorLascannon" weaponSlotName="StormBolterUpgrade">
             <conditions>
                 <unit>
