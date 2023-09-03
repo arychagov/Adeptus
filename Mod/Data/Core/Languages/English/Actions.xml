@@ -21,6 +21,9 @@
     <entry name="AdeptusMechanicus/DataBlessedAutosermonDescription" value="Grants nearby allied Kastelan Robots ability to not suffer accuracy loss on hit points loss, increases their accuracy. Increases nearby allied Fulgurite Electro Priests attacks." />
     <entry name="AdeptusMechanicus/DataBlessedAutosermonFlavor" value="Struck with an infoload of revelation, truly blessed Tech-Priests will override the sacred canticles to deliver the Machine God’s adaptive wisdom." />
 
+    <entry name="AstraMilitarum/DeployVoidShieldGenerator" value="Deploy Void Shield Generator" />
+    <entry name="AstraMilitarum/DeployVoidShieldGeneratorDescription" value="Deploys void shield generator on allied Imperial Bastion that gives the ranged damage reduction from attacks from range 2 or higher to nearby allied infantry units and vehicles." />
+    <entry name="AstraMilitarum/DeployVoidShieldGeneratorFlavor" value="Void shields are normally localised force fields reserved for protecting the monolithic Titans of the Adeptus Mechanicus, but static generators can be erected to serve as an aegis for other targets of vital import. The largest Void Shield generators can even project an invisible bubble of power across a large area of the battlefield, sheltering both troops and strategically vital battlefield locations by absorbing or deflecting the energy of incoming munitions." />
     <entry name="AstraMilitarum/LaurelsOfCommand" value="Laurels of Command" />
     <entry name="AstraMilitarum/LaurelsOfCommandDescription" value="Restores the morale of nearby allied units." />
     <entry name="AstraMilitarum/LaurelsOfCommandFlavor" value="The Laurels of Command are a callous and controversial means to ensure obedience. Concealed within their peerless artistry is a band of empathic-impulsion circuitry which allows the wearer limited control over the minds of indoctrinated individuals via subliminal suggestion. Under their effects even cowards fight to the last, while orders are executed in perfect synchronisation." />
@@ -72,7 +75,7 @@
     <entry name="ChaosSpaceMarines/EnrageMachineSpirits" value="Enrage Machine Spirits" />
     <entry name="ChaosSpaceMarines/EnrageMachineSpiritsDescription" value="Increases the accuracy of adjacent allied Heldrakes, Forgefiends and Maulerfiends." />
     <entry name="ChaosSpaceMarines/EnrageMachineSpiritsFlavor" value="No armour is safe from the guns of the IV Legion, and once an enemy war engine is marked for destruction, its doomed is sealed." />
-    <entry name="CreateSmokeScreenDescription" value="Decreases opponent's ranged accuracy."/>
+    <entry name="CreateSmokeScreenDescription" value="Decreases opponent's ranged accuracy." />
 
     <entry name="Eldar/ActivateWebwayGateDescription" value="Activates and claims a neutral Webway Gate. Must be within 3 tiles of friendly Eldar unit." />
     <entry name="Eldar/DoomDescription" value="Increases the damage taken by target non-hero enemy unit." />
@@ -105,9 +108,9 @@
     <entry name="Necrons/TriarchPraetorianJumpPackDescription" value="Flies across obstacles to the target tile. Reduces the movement of adjacent enemy units in destination." />
     <entry name="Necrons/TriarchPraetorianJumpPackFlavor" value="<string name='Actions/JumpPackFlavor'/>" />
 
-    <entry name="MachineSpirit" value="Machine Spirit"/>
-    <entry name="MachineSpiritDescription" value="Temporary ignores degradation."/>
-    <entry name="MachineSpiritFlavor" value="There are many tales of machine spirits wreaking havoc on the foe, even after their crew are slain and critical systems are failing."/>
+    <entry name="MachineSpirit" value="Machine Spirit" />
+    <entry name="MachineSpiritDescription" value="Temporary ignores degradation." />
+    <entry name="MachineSpiritFlavor" value="There are many tales of machine spirits wreaking havoc on the foe, even after their crew are slain and critical systems are failing." />
 
     <entry name="SistersOfBattle/DesperateForRedemption" value="Desperate For Redemption" />
     <entry name="SistersOfBattle/DesperateForRedemptionDescription" value="After dying, immediately comes back to life with 1 hit points remaining." />
@@ -117,9 +120,9 @@
     <entry name="SpaceMarines/AdditionalHeavyBoltersDescription" value="Grants additional heavy bolters. Only one improvement or install can be set up for a unit." />
     <entry name="SpaceMarines/AdditionalStormBolter" value="Install Storm Bolter" />
     <entry name="SpaceMarines/AdditionalStormBolterDescription" value="Grants additional storm bolter, but removes ability to transport units." />
-    <entry name="SpaceMarines/CamoCloak" value="Camo Cloak"/>
-    <entry name="SpaceMarines/CamoCloakDescription" value="Temporary increases the ranged damage reduction while in an imperial ruin or a forest"/>
-    <entry name="SpaceMarines/CamoCloakFlavor" value="The weave of this camo cloak emulates the movements of the elements. As a gust of wind passes, as rainfalls across the battlefield, as the haze of heat shimmers the air, the bearers form flickers in and out of perception. If the bearer remains stationary, they are clouded entirely, a ghost lost to the wilds."/>
+    <entry name="SpaceMarines/CamoCloak" value="Camo Cloak" />
+    <entry name="SpaceMarines/CamoCloakDescription" value="Temporary increases the ranged damage reduction while in an imperial ruin or a forest" />
+    <entry name="SpaceMarines/CamoCloakFlavor" value="The weave of this camo cloak emulates the movements of the elements. As a gust of wind passes, as rainfalls across the battlefield, as the haze of heat shimmers the air, the bearers form flickers in and out of perception. If the bearer remains stationary, they are clouded entirely, a ghost lost to the wilds." />
     <entry name="SpaceMarines/DominusAegis" value="<string name='Traits/SpaceMarines/DominusAegis'/>" />
     <entry name="SpaceMarines/DominusAegisDescription" value="<string name='Traits/SpaceMarines/DominusAegisDescription'/>" />
     <entry name="SpaceMarines/DominusAegisFlavor" value="<string name='Traits/SpaceMarines/DominusAegisFlavor'/>" />
@@ -155,8 +158,8 @@
     <entry name="SpaceMarines/PowerOfTheMachineSpiritStormraven" value="Power of the Machine Spirit" />
     <entry name="SpaceMarines/PowerOfTheMachineSpiritStormravenDescription" value="Increases the ranged accuracy of this unit and nearby Stormtalon Gunships." />
     <entry name="SpaceMarines/PowerOfTheMachineSpiritStormravenFlavor" value="The interface between this vehicle's advanced machine spirit and its fire control mechanisms allows the crew to target foes with incredible accuracy." />
-    <entry name="SpaceMarines/ShatterDefences" value="Shatter Defences"/>
-    <entry name="SpaceMarines/ShatterDefencesDescription" value="Removes the ranged damage reduction of the target tile."/>
+    <entry name="SpaceMarines/ShatterDefences" value="Shatter Defences" />
+    <entry name="SpaceMarines/ShatterDefencesDescription" value="Removes the ranged damage reduction of the target tile." />
     <entry name="SpaceMarines/DefensiveFocus" value="Defensive Focus" />
     <entry name="SpaceMarines/DefensiveFocusDescription" value="Increases count of overwatch attacks but deals no damage when shooting this turn." />
     <entry name="SpaceMarines/DefensiveFocus" value="As the Codex Astartes dictates, when the foe presses hard at one section of the Ultramarines’ battle line they are swift to concentrate their defensive fire to drive the threat back." />

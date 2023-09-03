@@ -147,8 +147,6 @@
                 </target>
             </beginTargets>
         </blessingsOfTheOmnissiah>
-
-
         <awakenTheMachine cooldown="1" requiredUpgrade="AstraMilitarum/AwakenTheMachine">
             <model>
                 <action animation="Units/AstraMilitarum/TechpriestEnginseerAbility" sound="Actions/MechanicalBuff" />
@@ -216,44 +214,6 @@
                 </target>
             </beginTargets>
         </constructImperialStrongpoint>
-        <constructVoidShieldGenerator cooldown="10" icon="Units/AstraMilitarum/VoidShieldGenerator" requiredUpgrade="AstraMilitarum/VoidShieldGenerator">
-            <model>
-                <action animation="Units/AstraMilitarum/TechpriestEnginseerBuild" sound="Actions/Construct" />
-            </model>
-            <modifiers>
-                <modifier visible="0">
-                    <effects>
-                        <energyCost base="20" />
-                        <oreCost base="20" />
-                    </effects>
-                </modifier>
-            </modifiers>
-            <beginTargets>
-                <target rangeMax="1">
-                    <conditions>
-                        <tile>
-                            <noFeatureCategory name="Resource" />
-                            <noFeatureCategory name="WireWeed" />
-                            <land />
-                            <noEnemyCity />
-                            <noUnit />
-                            <noFeature name="GravityWaves" />
-                        </tile>
-                    </conditions>
-                    <areas>
-                        <area affects="Tile">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addUnit name="AstraMilitarum/VoidShieldGenerator" />
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </target>
-            </beginTargets>
-        </constructVoidShieldGenerator>
     </actions>
     <traits>
         <trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour" />

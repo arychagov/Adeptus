@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Traits/VoidShield">
+    <modifiers>
+        <modifier>
+            <conditions>
+                <unit>
+                    <allied />
+                    <faction name="AstraMilitarum" />
+                    <noTrait name="Fortification" />
+                    <noTrait name="MonstrousCreature" />
+                </unit>
+                <encounterRange greater="1" />
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.2" />
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>

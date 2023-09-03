@@ -171,7 +171,7 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40" />
+                        <influenceCost base="30" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -187,7 +187,7 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40" />
+                        <influenceCost base="30" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -203,7 +203,7 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40" />
+                        <influenceCost base="30" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -219,7 +219,7 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40" />
+                        <influenceCost base="30" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -242,7 +242,7 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40" />
+                        <influenceCost base="30" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -265,7 +265,7 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40" />
+                        <influenceCost base="30" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -288,7 +288,7 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40" />
+                        <influenceCost base="30" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -311,7 +311,7 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40" />
+                        <influenceCost base="30" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -350,7 +350,7 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40" />
+                        <influenceCost base="30" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -366,7 +366,7 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40" />
+                        <influenceCost base="30" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -378,6 +378,43 @@
                 </modifier>
             </actorModifiers>
         </tactic>
+        <installSupportSystem name="AstraMilitarum/DeployVoidShieldGenerator" cooldown="0" icon="Traits/VoidShield" requiredUpgrade="AstraMilitarum/VoidShieldGenerator">
+            <model>
+                <action animation="Units/AstraMilitarum/TechpriestEnginseerBuild" sound="Actions/Construct" />
+            </model>
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="0" />
+                        <energyCost base="20" />
+                        <oreCost base="20" />
+                        <energyUpkeep add="2" />
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <target rangeMax="-1">
+                    <conditions>
+                        <unit>
+                            <allied />
+                            <type name="AstraMilitarum/ImperialStrongpoint" />
+                            <noTrait name="AstraMilitarum/InstalledVoidShield" />
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AstraMilitarum/InstalledVoidShield" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </installSupportSystem>
     </actions>
     <modifiers>
         <modifier>

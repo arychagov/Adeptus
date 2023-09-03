@@ -52,6 +52,7 @@
     <entry name="AstraMilitarum/TechpriestEnginseer" value="Tech-Priest Enginseers" />
     <entry name="AstraMilitarum/TechpriestEnginseerDescription" value="Infantry unit that supports vehicles, clears tiles and founds new cities." />
     <entry name="AstraMilitarum/TechpriestEnginseerFlavor" value="Tech-Priest Enginseers serve as custodians for the vehicles of the Imperial Guard. With binary prayers and mystic rites, the Enginseers soothe the machine spirits of their tracked congregation. Without the diligent maintenance of the Enginseers, the Imperial Guard would soon find themselves without the heavy armour vital to their very survival." />
+    <entry name="AstraMilitarum/VoidShieldGeneratorDescription" value="Grants ability to install void shield on Imperial Bastions that shields units in range."/>
 
     <entry name="ChaosSpaceMarines/BloatedWithLifesteal" value="<string name='Traits/ChaosSpaceMarines/BloatedWithLifesteal'/>" />
     <entry name="ChaosSpaceMarines/BloatedWithLifestealDescription" value="Grants Champions of Chaos ability to restore percentage of maximum health after attack." />

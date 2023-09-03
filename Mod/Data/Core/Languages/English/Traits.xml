@@ -45,8 +45,14 @@
     <entry name="AstraMilitarum/ImperiumOfMan" value="Imperium of Man" />
     <entry name="AstraMilitarum/ImperiumOfManDescription" value="Treats shooting with rapid fire weapons as if in half range." />
     <entry name="AstraMilitarum/ImperiumOfManFlavor" value="”The martyr's grave is the keystone of the Imperium.”<br/> — The Liber Imperialis" />
+    <entry name="AstraMilitarum/InstalledVoidShield" value="Void Shield" />
+    <entry name="AstraMilitarum/InstalledVoidShieldDescription" value="Grants the ranged damage reduction from attacks from range 2 or higher to nearby allied infantry units and vehicles." />
+    <entry name="AstraMilitarum/InstalledVoidShieldFlavor" value="Void shields are normally localised force fields reserved for protecting the monolithic Titans of the Adeptus Mechanicus, but static generators can be erected to serve as an aegis for other targets of vital import. The largest Void Shield generators can even project an invisible bubble of power across a large area of the battlefield, sheltering both troops and strategically vital battlefield locations by absorbing or deflecting the energy of incoming munitions." />
     <entry name="AstraMilitarum/Prosperity" value="Prosperity" />
     <entry name="AstraMilitarum/ProsperityDescription" value="Increases city growth" />
+    <entry name="AstraMilitarum/VoidShield" value="Void Shield" />
+    <entry name="AstraMilitarum/VoidShieldDescription" value="Increases ranged damage reduction from attacks from range 2 or higher." />
+    <entry name="AstraMilitarum/VoidShieldFlavor" value="Void shields are normally localised force fields reserved for protecting the monolithic Titans of the Adeptus Mechanicus, but static generators can be erected to serve as an aegis for other targets of vital import. The largest Void Shield generators can even project an invisible bubble of power across a large area of the battlefield, sheltering both troops and strategically vital battlefield locations by absorbing or deflecting the energy of incoming munitions." />
     <entry name="AstraMilitarum/WallOfMuscle" value="Wall Of Muscle" />
     <entry name="AstraMilitarum/WallOfMuscleDescription" value="Reduces melee attacks." />
     <entry name="AstraMilitarum/WallOfMuscleFlavor" value="“Brute force not work? It because you not use enough of it!“<br/>—Karg, Ogryn Bone'ead" />
