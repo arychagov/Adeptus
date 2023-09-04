@@ -83,6 +83,8 @@
     </actions>
     <traits>
         <trait name="SpaceMarines/TacticalDoctrine" />
+        <trait name="SpaceMarines/SiegeMasters" />
+        <trait name="SpaceMarines/TheFleshIsWeak" />
         <trait name="AndTheyShallKnowNoFear" />
         <trait name="ExtraInfantryArmour" requiredUpgrade="SpaceMarines/ExtraInfantryArmour" />
         <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand" />

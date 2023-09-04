@@ -166,5 +166,7 @@
         <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand" />
         <trait name="TeleportHomer" requiredUpgrade="SpaceMarines/TeleportHomer" />
         <trait name="SpaceMarines/DevastatorDoctrine" />
+        <trait name="SpaceMarines/SiegeMasters" />
+        <trait name="SpaceMarines/TheFleshIsWeak" />
     </traits>
 </unit>

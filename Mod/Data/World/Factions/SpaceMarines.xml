@@ -386,11 +386,11 @@
                 </target>
             </beginTargets>
         </orbitalBombardment>
-        <tactic name="TacticalDoctrine" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/TacticalDoctrine">
+        <doctrina name="TacticalDoctrine" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" rankMax="9" requiredUpgrade="SpaceMarines/TacticalDoctrine" scaleInfluenceCost="1">
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="30" />
+                        <influenceCost base="4" />
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
@@ -411,12 +411,21 @@
                     </effects>
                 </modifier>
             </playerModifiers>
-        </tactic>
-        <tactic name="AssaultDoctrine" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/DevastatorDoctrine">
+            <unitModifiers>
+                <modifier>
+                    <conditions>
+                        <unit>
+                            <trait name="SpaceMarines/TacticalDoctrine" />
+                        </unit>
+                    </conditions>
+                </modifier>
+            </unitModifiers>
+        </doctrina>
+        <doctrina name="AssaultDoctrine" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" rankMax="9" requiredUpgrade="SpaceMarines/DevastatorDoctrine" scaleInfluenceCost="1">
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="30" />
+                        <influenceCost base="4" />
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
@@ -437,12 +446,21 @@
                     </effects>
                 </modifier>
             </playerModifiers>
-        </tactic>
-        <tactic name="DevastatorDoctrine" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/DevastatorDoctrine">
+            <unitModifiers>
+                <modifier>
+                    <conditions>
+                        <unit>
+                            <trait name="SpaceMarines/AssaultDoctrine" />
+                        </unit>
+                    </conditions>
+                </modifier>
+            </unitModifiers>
+        </doctrina>
+        <doctrina name="DevastatorDoctrine" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" rankMax="9" requiredUpgrade="SpaceMarines/DevastatorDoctrine" scaleInfluenceCost="1">
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="30" />
+                        <influenceCost base="4" />
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
@@ -463,8 +481,17 @@
                     </effects>
                 </modifier>
             </playerModifiers>
-        </tactic>
-        <tactic name="BolterDrill" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/BolterDrill">
+            <unitModifiers>
+                <modifier>
+                    <conditions>
+                        <unit>
+                            <trait name="SpaceMarines/DevastatorDoctrine" />
+                        </unit>
+                    </conditions>
+                </modifier>
+            </unitModifiers>
+        </doctrina>
+        <tactic name="BolterDrill" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/BolterDrill" scaleInfluenceCost="1">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -490,11 +517,11 @@
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic name="TheFleshIsWeak" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/TheFleshIsWeak">
+        <doctrina scaleInfluenceCost="1" rankMax="9" name="TheFleshIsWeak" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/TheFleshIsWeak">
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="60" />
+                        <influenceCost base="8" />
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
@@ -515,12 +542,21 @@
                     </effects>
                 </modifier>
             </playerModifiers>
-        </tactic>
-        <tactic name="MachineEmpathy" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/MachineEmpathy">
+            <unitModifiers>
+                <modifier>
+                    <conditions>
+                        <unit>
+                            <trait name="SpaceMarines/TheFleshIsWeak" />
+                        </unit>
+                    </conditions>
+                </modifier>
+            </unitModifiers>
+        </doctrina>
+        <doctrina  scaleInfluenceCost="1" rankMax="9"  name="MachineEmpathy" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/MachineEmpathy">
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="60" />
+                        <influenceCost base="8" />
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
@@ -541,12 +577,21 @@
                     </effects>
                 </modifier>
             </playerModifiers>
-        </tactic>
-        <tactic name="SiegeMasters" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/SiegeMasters">
+            <unitModifiers>
+                <modifier>
+                    <conditions>
+                        <unit>
+                            <trait name="SpaceMarines/MachineEmpathy" />
+                        </unit>
+                    </conditions>
+                </modifier>
+            </unitModifiers>
+        </doctrina>
+        <doctrina name="SiegeMasters"  scaleInfluenceCost="1" rankMax="9"  cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" requiredUpgrade="SpaceMarines/SiegeMasters">
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="60" />
+                        <influenceCost base="8" />
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="SpaceMarines/CodexAstartes">
@@ -567,7 +612,16 @@
                     </effects>
                 </modifier>
             </playerModifiers>
-        </tactic>
+            <unitModifiers>
+                <modifier>
+                    <conditions>
+                        <unit>
+                            <trait name="SpaceMarines/SiegeMasters" />
+                        </unit>
+                    </conditions>
+                </modifier>
+            </unitModifiers>
+        </doctrina>
         <installSupportSystem name="SpaceMarines/AdditionalStormBolter" cooldown="0" icon="Actions/SpaceMarines/AdditionalStormBolter" requiredUpgrade="SpaceMarines/HurricaneBolter">
             <modifiers>
                 <modifier visible="0">

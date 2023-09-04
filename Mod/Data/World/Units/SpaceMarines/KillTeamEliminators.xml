@@ -140,5 +140,7 @@
         <trait name="MoveThroughCover" />
         <trait name="Infiltrate" />
         <trait name="Stealth" />
-    </traits>
+        <trait name="SpaceMarines/SiegeMasters" />
+        <trait name="SpaceMarines/TheFleshIsWeak" />
+   </traits>
 </unit>

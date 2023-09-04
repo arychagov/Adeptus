@@ -111,5 +111,7 @@
         <trait name="ExtraInfantryArmour" requiredUpgrade="SpaceMarines/ExtraInfantryArmour" />
         <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand" />
         <trait name="SlowAndPurposeful" />
+        <trait name="SpaceMarines/SiegeMasters" />
+        <trait name="SpaceMarines/TheFleshIsWeak" />
     </traits>
 </unit>

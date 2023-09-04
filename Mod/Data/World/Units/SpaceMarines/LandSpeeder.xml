@@ -121,5 +121,7 @@
         <trait name="Skimmer" />
         <trait name="Vehicle" />
         <trait name="MultimodelVehicle" />
+        <trait name="SpaceMarines/SiegeMasters" />
+        <trait name="SpaceMarines/MachineEmpathy" />
     </traits>
 </unit>

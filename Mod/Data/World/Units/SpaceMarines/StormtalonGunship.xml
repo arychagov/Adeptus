@@ -130,5 +130,7 @@
         <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand" />
         <trait name="StrafingRun" />
         <trait name="Vehicle" />
+        <trait name="SpaceMarines/SiegeMasters" />
+        <trait name="SpaceMarines/MachineEmpathy" />
     </traits>
 </unit>

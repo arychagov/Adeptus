@@ -216,5 +216,7 @@
         <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand" />
         <trait name="LocatorBeacon" requiredUpgrade="SpaceMarines/TeleportHomer" />
         <trait name="Relentless" />
+        <trait name="SpaceMarines/SiegeMasters" />
+        <trait name="SpaceMarines/TheFleshIsWeak" />
     </traits>
 </unit>

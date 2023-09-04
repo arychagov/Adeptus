@@ -127,6 +127,8 @@
         <trait name="ExtraInfantryArmour" requiredUpgrade="SpaceMarines/ExtraInfantryArmour" />
         <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand" />
         <trait name="SpaceMarines/AssaultDoctrine" />
+        <trait name="SpaceMarines/SiegeMasters" />
+        <trait name="SpaceMarines/TheFleshIsWeak" />
         <trait name="Bodyguard" />
     </traits>
 </unit>

@@ -220,5 +220,7 @@
         <trait name="TerminatorArmour" />
         <trait name="Infiltrate" />
         <trait name="SpaceMarines/AssaultDoctrine" />
+        <trait name="SpaceMarines/SiegeMasters" />
+        <trait name="SpaceMarines/TheFleshIsWeak" />
     </traits>
 </unit>

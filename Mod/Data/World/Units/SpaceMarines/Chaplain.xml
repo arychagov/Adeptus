@@ -185,5 +185,7 @@
         <trait name="Zealot" />
         <trait name="SpaceMarines/AssaultDoctrine" />
         <trait name="SpaceMarines/SonOfTheAbyss" />
+        <trait name="SpaceMarines/SiegeMasters" />
+        <trait name="SpaceMarines/TheFleshIsWeak" />
     </traits>
 </unit>

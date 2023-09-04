@@ -159,5 +159,7 @@
         <trait name="SpaceMarines/DevastatorDoctrine" />
         <trait name="MoveThroughCover" />
         <trait name="Stealth" />
+        <trait name="SpaceMarines/SiegeMasters" />
+        <trait name="SpaceMarines/TheFleshIsWeak" />
     </traits>
 </unit>

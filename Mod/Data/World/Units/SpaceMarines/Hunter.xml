@@ -119,5 +119,7 @@
         <trait name="SavantInterlocution" />
         <trait name="Tank" />
         <trait name="Vehicle" />
+        <trait name="SpaceMarines/SiegeMasters" />
+        <trait name="SpaceMarines/MachineEmpathy" />
     </traits>
 </unit>

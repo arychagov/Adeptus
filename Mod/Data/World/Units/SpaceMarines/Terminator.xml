@@ -106,5 +106,7 @@
         <trait name="Relentless" />
         <trait name="Bodyguard" />
         <trait name="SpaceMarines/AssaultDoctrine" />
+        <trait name="SpaceMarines/SiegeMasters" />
+        <trait name="SpaceMarines/TheFleshIsWeak" />
     </traits>
 </unit>

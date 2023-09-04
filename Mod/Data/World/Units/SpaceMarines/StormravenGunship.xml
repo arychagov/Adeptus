@@ -157,5 +157,7 @@
         <!-- <trait name="Hover"/> -->
         <trait name="Transport" />
         <trait name="Vehicle" />
+        <trait name="SpaceMarines/SiegeMasters" />
+        <trait name="SpaceMarines/MachineEmpathy" />
     </traits>
 </unit>

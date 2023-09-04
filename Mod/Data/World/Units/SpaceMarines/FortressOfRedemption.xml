@@ -141,6 +141,8 @@
         <trait name="HarvestResourceFeatures" />
         <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand" />
         <trait name="Transport" />
+        <trait name="SpaceMarines/SiegeMasters" />
+        <trait name="SpaceMarines/MachineEmpathy" />
         <trait name="SpaceMarines/FortressOfRedemptionDamageReduction1" requiredUpgrade="SpaceMarines/CityTier2" />
         <trait name="SpaceMarines/FortressOfRedemptionDamageReduction2" requiredUpgrade="SpaceMarines/CityTier3" />
         <trait name="SpaceMarines/FortressOfRedemptionDamageReduction3" requiredUpgrade="SpaceMarines/CityTier4" />
