@@ -26,7 +26,7 @@
                 <foodCost base="20.0" /> <!-- %foodCost base tier=5 factor=0.5 -->
                 <oreCost base="20.0" /> <!-- %oreCost base tier=5 factor=0.5 -->
                 <productionCost base="36.0" /> <!-- %productionCost base tier=5 factor=1 -->
-                <rangedAccuracy base="7" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
         </modifier>
     </modifiers>
