@@ -9,6 +9,7 @@
                     <noTrait name="Fortification" />
                     <noTrait name="MonstrousCreature" />
                     <noTrait name="Vehicle" />
+                    <noTrait name="Bike" />
                 </unit>
             </conditions>
             <effects>
