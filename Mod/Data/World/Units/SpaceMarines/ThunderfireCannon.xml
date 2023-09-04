@@ -50,12 +50,6 @@
                 <energyUpkeep base="1.5" />
             </effects>
         </modifier>
-        <modifier requiredUpgrade="SpaceMarines/SiegeManeuvers">
-            <effects>
-                <hitpointsMax add="4.0" />
-                <hitpoints add="4.0" />
-            </effects>
-        </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
@@ -150,6 +144,7 @@
         <trait name="ExtraInfantryArmour" requiredUpgrade="SpaceMarines/ExtraInfantryArmour" />
         <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand" />
         <trait name="Relentless" requiredUpgrade="SpaceMarines/SiegeManeuvers" />
+        <trait name="SpaceMarines/SiegeManeuversThunderfireCannon" requiredUpgrade="SpaceMarines/SiegeManeuvers" />
         <trait name="SpaceMarines/SiegeMasters" />
         <trait name="SpaceMarines/TheFleshIsWeak" />
     </traits>

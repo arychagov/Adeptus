@@ -264,6 +264,10 @@
     <entry name="SpaceMarines/Righteousness" value="Righteousness" />
     <entry name="SpaceMarines/RighteousnessDescription" value="Increases adjacent allied units melee attacks." />
     <entry name="SpaceMarines/RighteousnessFlavor" value="Rejoice! Let the glory of battle envelop us! Let our enemies fear us, for we are the Emperor's wrath!" />
+    <entry name="SpaceMarines/SiegeManeuversScoutBiker" value="Siege Maneuvers" />
+    <entry name="SpaceMarines/SiegeManeuversScoutBikerDescription" value="Increases the hitpoints and the armour." />
+    <entry name="SpaceMarines/SiegeManeuversThunderfireCannon" value="Siege Maneuvers" />
+    <entry name="SpaceMarines/SiegeManeuversThunderfireCannonDescription" value="Increases the hitpoints." />
     <entry name="SpaceMarines/SonOfTheAbyss" value="Son Of The Abyss" />
     <entry name="SpaceMarines/SonOfTheAbyssDescription" value="Grants Librarian witchfire damage immunity. Reduces the morale of adjacent enemy psyker units each turn." />
     <entry name="SpaceMarines/SpectralBlade" value="Spectral Blade" />
