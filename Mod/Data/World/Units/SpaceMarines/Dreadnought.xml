@@ -86,7 +86,7 @@
                 </selfTarget>
             </beginTargets>
         </hammerOfWrath>
-        <genericUnitAbility name="MachineSpirit" icon="Traits/MachineSpirit" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0">
+        <genericUnitAbility name="MachineSpirit" icon="Traits/MachineSpirit" requiredUpgrade="SpaceMarines/MachineSpirit" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0">
             <model>
                 <action sound="Actions/MechanicalBuff" />
             </model>
