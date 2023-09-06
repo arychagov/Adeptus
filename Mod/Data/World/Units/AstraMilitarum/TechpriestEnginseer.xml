@@ -147,7 +147,7 @@
                 </target>
             </beginTargets>
         </blessingsOfTheOmnissiah>
-        <awakenTheMachine cooldown="1" requiredUpgrade="AstraMilitarum/AwakenTheMachine">
+        <awakenTheMachine cooldown="1">
             <model>
                 <action animation="Units/AstraMilitarum/TechpriestEnginseerAbility" sound="Actions/MechanicalBuff" />
             </model>
