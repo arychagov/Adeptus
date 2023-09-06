@@ -13,7 +13,7 @@
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="6" rangeMin="2" />
+    <target rangeMax="4" rangeMin="2" />
     <traits>
         <trait name="Barrage" />
         <trait name="AstraMilitarum/BlastDamage" requiredUpgrade="AstraMilitarum/BlastDamage" />
