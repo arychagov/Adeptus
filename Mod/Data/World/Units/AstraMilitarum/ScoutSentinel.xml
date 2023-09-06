@@ -3,10 +3,10 @@
     <model>
         <unit explosionsBone="HullBone" idleAnimation="Units/AstraMilitarum/ScoutSentinelIdle" idleAnimationCount="2" material="Units/AstraMilitarum/ScoutSentinel" mesh="Units/AstraMilitarum/ScoutSentinel" normalWeight="0.1" scale="1.0 1.0 1.0" syncMovementSounds="1" walker="1" />
     </model>
-    <group memberDeltaX="64" memberDeltaY="110" rowSize="2" size="2" />
+    <group memberDeltaX="64" memberDeltaY="110" rowSize="2" size="1" />
     <weapons>
         <weapon name="HeavyBolter" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters" />
-        <weapon name="MultiLaser">
+        <weapon name="Lascannon">
             <model>
                 <beamWeapon muzzleBone=".MuzzleBone0" />
             </model>
@@ -21,7 +21,7 @@
         <modifier visible="0">
             <effects>
                 <armor base="6" /> <!-- %armor base armor=10/10/10 -->
-                <hitpointsMax base="16.0" /> <!-- %hitpointsMax base armor=10/10/10 wounds=2 -->
+                <hitpointsMax base="20.0" /> <!-- %hitpointsMax base armor=10/10/10 wounds=2 -->
                 <meleeAccuracy base="6" /> <!-- %meleeAccuracy base weaponSkill=3 -->
                 <meleeAttacks base="1" />
                 <!-- <meleeInitiative base="3"/> -->
@@ -31,7 +31,7 @@
                 <moraleMax base="8" /> <!-- %moraleMax base leadership=7 -->
                 <movementMax base="3" />
                 <productionCost base="36.0" /> <!-- %productionCost base tier=6 factor=1 -->
-                <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <rangedAccuracy base="7" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>
         </modifier>
     </modifiers>
