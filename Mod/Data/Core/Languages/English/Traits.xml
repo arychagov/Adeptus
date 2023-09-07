@@ -220,8 +220,10 @@
 
     <entry name="SmokeScreenDescription" value="Decreases opponent's ranged accuracy." />
 
+    <entry name="SpaceMarines/AdditionalHeavyBolter" value="Additional Heavy Bolter" />
+    <entry name="SpaceMarines/AdditionalHeavyBolterDescription" value="Grants additional heavy bolter." />
     <entry name="SpaceMarines/AdditionalHeavyBolters" value="Additional Heavy Bolters" />
-    <entry name="SpaceMarines/AdditionalHeavyBoltersDescription" value="Grants additional heavy bolters." />
+    <entry name="SpaceMarines/AdditionalHeavyBoltersDescription" value="Grants two additional heavy bolters." />
     <entry name="SpaceMarines/AdditionalStormBolter" value="Additional Storm Bolter" />
     <entry name="SpaceMarines/AdditionalStormBolterDescription" value="Grants additional storm bolter." />
     <entry name="SpaceMarines/BoltDamage" value="Kraken Bolts" />

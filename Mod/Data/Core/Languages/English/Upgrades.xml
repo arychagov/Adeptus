@@ -161,7 +161,7 @@
     <entry name="SpaceMarines/ExtraVehicleArmourDescription" value="Increases the armour of vehicles." />
     <entry name="SpaceMarines/FortressOfRedemptionDamageReductionDescription" value="Grants city and Fortresses of Redemption heavy bolter, additional armour and hitpoints." />
     <entry name="SpaceMarines/HurricaneBolter" value="Extra Bolters" />
-    <entry name="SpaceMarines/HurricaneBolterDescription" value="Grants Stormraven Gunships a hurricane bolter. Grants city, Fortresses of Redemption and Predators a heavy bolter. Grants Razorbacks storm bolter." />
+    <entry name="SpaceMarines/HurricaneBolterDescription" value="Grants ability to install bolter weapon on Fortresses of Redemption and Razorbacks." />
     <entry name="SpaceMarines/KillTeamEliminators" value="<string name='Units/SpaceMarines/KillTeamEliminators'/>" />
     <entry name="SpaceMarines/KillTeamEliminatorsDescription" value="<string name='Units/SpaceMarines/KillTeamEliminatorsDescription'/>" />
     <entry name="SpaceMarines/KillTeamEliminatorsFlavor" value="<string name='Units/SpaceMarines/KillTeamEliminatorsFlavor'/>" />

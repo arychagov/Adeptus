@@ -659,6 +659,39 @@
                 </target>
             </beginTargets>
         </installSupportSystem>
+        <installSupportSystem name="SpaceMarines/AdditionalHeavyBolter" cooldown="0" icon="Actions/SpaceMarines/AdditionalHeavyBolter" requiredUpgrade="SpaceMarines/HurricaneBolter">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="20" />
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <target rangeMax="-1">
+                    <conditions>
+                        <unit>
+                            <allied />
+                            <type name="SpaceMarines/FortressOfRedemption" />
+                            <noTrait name="SpaceMarines/AdditionalHeavyBolter" />
+                            <notAttackedThisTurn />
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="SpaceMarines/AdditionalHeavyBolter" />
+                                        <addTrait name="Stunned" duration="1" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </installSupportSystem>
         <installSupportSystem name="SpaceMarines/AdditionalHeavyBolters" cooldown="0" icon="Actions/SpaceMarines/TwoAdditionalHeavyBolters" requiredUpgrade="SpaceMarines/PredatorLascannon">
             <modifiers>
                 <modifier visible="0">
