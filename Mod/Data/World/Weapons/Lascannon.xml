@@ -20,5 +20,6 @@
         <trait name="ChaosSpaceMarines/LasDamage" requiredUpgrade="ChaosSpaceMarines/LasDamage" />
         <trait name="SpaceMarines/LasDamage" requiredUpgrade="SpaceMarines/BlastDamage" />
         <trait name="SistersOfBattle/HeavyWeaponBonus" requiredUpgrade="SistersOfBattle/HeavyWeaponBonus" />
+        <trait name="AstraMilitarum/ChadLascannon" />
     </traits>
 </weapon>

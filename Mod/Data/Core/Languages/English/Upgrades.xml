@@ -18,7 +18,14 @@
     <entry name="AdeptusMechanicus/MachineSpiritResurgentFlavor" value="To invigorate the failing machine spirit of a damaged vehicle is a sacred task, greatly aided by certain broadcast datahymns played in the correct sequence." />
     <entry name="AdeptusMechanicus/XenariteAcceptanceDescription" value="Increases the flat amount of research gained from outposts. Increases the building research output for each building in an adjacent tile." />
 
-    <entry name="AstraMilitarum/AdditionalHeavyBoltersDescription" value="Grants Scout Sentinels, Imperial Bastions, Baneblades, Leman Russ Battle Tanks and Valkyries extra Heavy Bolters." />
+    <entry name="AstraMilitarum/AdditionalFlamerGuardsman" value="<string name='Weapons/Flamer'/>" />
+    <entry name="AstraMilitarum/AdditionalFlamerGuardsmanDescription" value="Grants ability to install additional flamer on Guardsmen." />
+    <entry name="AstraMilitarum/AdditionalFlamerGuardsmanFlavor" value="<string name='Weapons/FlamerFlavor'/>" />
+    <entry name="AstraMilitarum/AdditionalHeavyBolters" value="Additional Heavy Bolters" />
+    <entry name="AstraMilitarum/AdditionalHeavyBoltersDescription" value="Grants ability to install additional heavy bolters on Leman Russ Battle Tanks. Grants ability to improve Rogal Dorn Battle Tanks weaponry." />
+    <entry name="AstraMilitarum/AdditionalMeltagunGuardsman" value="<string name='Weapons/Meltagun'/>" />
+    <entry name="AstraMilitarum/AdditionalMeltagunGuardsmanDescription" value="Grants ability to install additional meltagun on Guardsmen." />
+    <entry name="AstraMilitarum/AdditionalMeltagunGuardsmanFlavor" value="<string name='Weapons/MeltagunFlavor'/>" />
     <entry name="AstraMilitarum/BoltDamage" value="The Emperor's Benediction" />
     <entry name="AstraMilitarum/BoltDamageDescription" value="Increases the armour penetration of bolt weapons. Grants Leman Russ Battle Tanks, Imperial Bastions, cities, Basilisk and Devil Dogs additional Heavy Bolter." />
     <entry name="AstraMilitarum/BoltDamageFlavor" value="An Astartes-derived upgrade to the standard bolter, this kit allows a bolter to fire Kraken penetrator rounds, hard-tipped projectiles with a heavier explosive charge. These heavier rounds are much favoured by the Space Marine Deathwatch alien hunters." />
@@ -36,13 +43,10 @@
     <entry name="AstraMilitarum/LasgunArray" value="Lasgun Array" />
     <entry name="AstraMilitarum/LasgunArrayDescription" value="Grants Chimeras lasgun array." />
     <entry name="AstraMilitarum/LasgunArrayFlavor" value="Standing tall in ordered ranks, they unleash a devastating fusillade of las-fire." />
-    <entry name="AstraMilitarum/MeltaBomb" value="<string name='Weapons/MeltaBomb'/>"/>
-    <entry name="AstraMilitarum/MeltaBombDescription" value="Grants Guardsmen the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications."/>
-    <entry name="AstraMilitarum/MeltaBombFlavor" value="<string name='Weapons/MeltaBombFlavor'/>"/>
     <entry name="AstraMilitarum/ReconOperators" value="Recon Operators" />
     <entry name="AstraMilitarum/ReconOperatorsDescription" value="Grants Scout Sentinels and Tempestus Scions ability to reveal nearby tiles." />
     <entry name="AstraMilitarum/ReconOperatorsFlavor" value="Adept infiltrators or swift vanguard skirmishers, this regiment’s infantry range ahead of the front lines alongside swifter elements, tackling the enemy without warning and reporting observations to Imperial command." />
-    <entry name="AstraMilitarum/RecoveryGearDescription" value="Increases the healing rate of vehicle near Tech-Priest Enginseers. Increases Tech-Priest Enginseer's blessing of the omnissiah healing effect."/>
+    <entry name="AstraMilitarum/RecoveryGearDescription" value="Increases the healing rate of vehicle near Tech-Priest Enginseers. Increases Tech-Priest Enginseer's blessing of the omnissiah healing effect." />
     <entry name="AstraMilitarum/RelicPlatingDescription" value="Increases the witchfire damage reduction of ground vehicles. Increases Imperial Bastions' the city damage reduction. Increases Leman Russ Battle Tanks and Baneblades armour." />
     <entry name="AstraMilitarum/SmokeLauncher" value="Smoke Launcher / Dozer Blade" />
     <entry name="AstraMilitarum/SmokeLauncherDescription" value="Grants ground vehicles the ability to launch a smoke screen that increases the ranged damage reduction. Reduces the movement penalty for tanks in forests and imperial ruins." />
@@ -52,7 +56,7 @@
     <entry name="AstraMilitarum/TechpriestEnginseer" value="Tech-Priest Enginseers" />
     <entry name="AstraMilitarum/TechpriestEnginseerDescription" value="Infantry unit that supports vehicles, clears tiles and founds new cities." />
     <entry name="AstraMilitarum/TechpriestEnginseerFlavor" value="Tech-Priest Enginseers serve as custodians for the vehicles of the Imperial Guard. With binary prayers and mystic rites, the Enginseers soothe the machine spirits of their tracked congregation. Without the diligent maintenance of the Enginseers, the Imperial Guard would soon find themselves without the heavy armour vital to their very survival." />
-    <entry name="AstraMilitarum/VoidShieldGeneratorDescription" value="Grants ability to install void shield on Imperial Bastions that shields units in range."/>
+    <entry name="AstraMilitarum/VoidShieldGeneratorDescription" value="Grants ability to install void shield on Imperial Bastions that shields units in range." />
 
     <entry name="ChaosSpaceMarines/BloatedWithLifesteal" value="<string name='Traits/ChaosSpaceMarines/BloatedWithLifesteal'/>" />
     <entry name="ChaosSpaceMarines/BloatedWithLifestealDescription" value="Grants Champions of Chaos ability to restore percentage of maximum health after attack." />

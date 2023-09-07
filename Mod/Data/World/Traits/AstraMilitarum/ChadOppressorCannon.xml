@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait icon="Actions/SpaceMarines/UpgradedLascannon">
+<trait icon="Actions/AstraMilitarum/UpgradedOppressorCannon">
     <modifiers>
         <modifier visible="0">
             <conditions>
                 <unit>
-                    <trait name="SpaceMarines/UpgradedLascannon" />
+                    <trait name="AstraMilitarum/UpgradedOppressorCannon" />
                 </unit>
             </conditions>
             <effects>
                 <rangedDamage add="2" />
                 <rangedAccuracy add="2" />
-                <armorPenetration add="1" />
             </effects>
         </modifier>
     </modifiers>

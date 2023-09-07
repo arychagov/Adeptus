@@ -20,11 +20,8 @@
                 <grenadeWeapon muzzleBone="LeftHandBone" />
             </model>
         </weapon>
-        <weapon name="MeltaBomb" enabled="0" slotName="MeltaBomb">
-            <model>
-                <grenadeWeapon muzzleBone="LeftHandBone" />
-            </model>
-        </weapon>
+        <weapon name="GuardsmanFlamer" enabled="0" slotName="GuardsmanFlamer" requiredUpgrade="AstraMilitarum/AdditionalFlamerGuardsman" />
+        <weapon name="GuardsmanMeltagun" enabled="0" slotName="GuardsmanMeltagun" requiredUpgrade="AstraMilitarum/AdditionalMeltagunGuardsman" />
     </weapons>
     <modifiers>
         <modifier visible="0">
@@ -99,11 +96,28 @@
                 </selfTarget>
             </beginTargets>
         </mediPack>
-        <throwGrenade cooldown="10" requiredUpgrade="AstraMilitarum/MeltaBomb" weaponSlotName="MeltaBomb">
+
+        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/AdditionalFlamerGuardsman" weaponSlotName="GuardsmanFlamer">
+            <conditions>
+                <unit>
+                    <trait name="AstraMilitarum/AdditionalFlamerGuardsman" />
+                </unit>
+            </conditions>
             <model>
-                <action animation="Units/AstraMilitarum/GuardsmanGrenade" beginFire="0.833333333333"/>
+                <action beginFire="0.1" endFire="1.0" />
             </model>
-        </throwGrenade>
+        </useWeapon>
+
+        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/AdditionalMeltagunGuardsman" weaponSlotName="GuardsmanMeltagun">
+            <conditions>
+                <unit>
+                    <trait name="AstraMilitarum/AdditionalMeltagunGuardsman" />
+                </unit>
+            </conditions>
+            <model>
+                <action beginFire="0.1" endFire="1.0" />
+            </model>
+        </useWeapon>
     </actions>
     <traits>
         <trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour" />

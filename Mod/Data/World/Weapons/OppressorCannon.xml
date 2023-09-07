@@ -7,7 +7,7 @@
         <modifier>
             <effects>
                 <attacks add="1" />
-                <rangedArmorPenetration add="6" /> <!-- %rangedArmorPenetration add armorPiercing=-3 -->
+                <rangedArmorPenetration add="8" /> <!-- %rangedArmorPenetration add armorPiercing=-3 -->
                 <rangedDamage add="12" /> <!-- %rangedDamage add strength=10 -->
                 <strengthDamage base="0" />
             </effects>
@@ -18,5 +18,6 @@
         <trait name="AstraMilitarum/BlastDamage" requiredUpgrade="AstraMilitarum/BlastDamage" />
         <trait name="LargeBlast" />
         <trait name="HeavyWeapon" />
+        <trait name="AstraMilitarum/ChadOppressorCannon" />
     </traits>
 </weapon>

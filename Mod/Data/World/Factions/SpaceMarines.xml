@@ -707,7 +707,7 @@
                             <allied />
                             <type name="SpaceMarines/Predator" />
                             <noTrait name="SpaceMarines/AdditionalHeavyBolters" />
-                            <noTrait name="SpaceMarines/ImprovedLascannon" />
+                            <noTrait name="SpaceMarines/UpgradedLascannon" />
                             <notAttackedThisTurn />
                             <notMovedThisTurn />
                         </unit>
@@ -727,7 +727,7 @@
                 </target>
             </beginTargets>
         </installSupportSystem>
-        <installSupportSystem name="SpaceMarines/ImprovedLascannon" cooldown="0" icon="Actions/SpaceMarines/ImprovedLascannon" requiredUpgrade="SpaceMarines/PredatorLascannon">
+        <installSupportSystem name="SpaceMarines/UpgradedLascannon" cooldown="0" icon="Actions/SpaceMarines/UpgradedLascannon" requiredUpgrade="SpaceMarines/PredatorLascannon">
             <beginTargets>
                 <target rangeMax="-1">
                     <conditions>
@@ -735,7 +735,7 @@
                             <allied />
                             <type name="SpaceMarines/Predator" />
                             <noTrait name="SpaceMarines/AdditionalHeavyBolters" />
-                            <noTrait name="SpaceMarines/ImprovedLascannon" />
+                            <noTrait name="SpaceMarines/UpgradedLascannon" />
                             <notAttackedThisTurn />
                             <notMovedThisTurn />
                         </unit>
@@ -745,7 +745,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="SpaceMarines/ImprovedLascannon" />
+                                        <addTrait name="SpaceMarines/UpgradedLascannon" />
                                         <addTrait name="Stunned" duration="1" />
                                     </effects>
                                 </modifier>

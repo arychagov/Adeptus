@@ -14,7 +14,7 @@
                 <beamWeapon fireInterval="1.0" muzzleBone=".FrontTurretMuzzle0" />
             </model>
         </weapon>
-        <weapon name="HeavyBolter" count="2" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
+        <weapon name="HeavyBolter" count="2" enabled="0" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters" slotName="HeavyBolterUpgrade">
             <model>
                 <projectileWeapon bone=".SideGunsAttachment" material="Weapons/AstraMilitarum/LemanRussBattleTankHeavyBolters" mesh="Weapons/AstraMilitarum/LemanRussBattleTankHeavyBolters" muzzleBone="SideGunsMuzzle" muzzleCount="2" />
             </model>
@@ -30,7 +30,7 @@
         <modifier visible="0">
             <effects>
                 <armor base="9" /> <!-- %armor base armor=14/13/10 -->
-                <hitpointsMax base="42.0" />
+                <hitpointsMax base="48.0" />
                 <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base armor=14/13/10 wounds=3 -->
                 <moraleMax base="8" /> <!-- %moraleMax base leadership=7 -->
                 <movementMax base="3" />
@@ -89,6 +89,16 @@
                 </selfTarget>
             </beginTargets>
         </createSmokeScreen>
+        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters" weaponSlotName="HeavyBolterUpgrade">
+            <conditions>
+                <unit>
+                    <trait name="AstraMilitarum/AdditionalHeavyBolters" />
+                </unit>
+            </conditions>
+            <model>
+                <action beginFire="0.1" endFire="1.0" />
+            </model>
+        </useWeapon>
         <useWeapon cooldown="10" requiredUpgrade="AstraMilitarum/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
             <model>
                 <action beginFire="0.1" endFire="1.0" />

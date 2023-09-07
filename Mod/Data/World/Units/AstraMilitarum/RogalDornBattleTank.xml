@@ -9,26 +9,7 @@
                 <projectileWeapon fireDelay="1.19" muzzleBone="Muzzle1" />
             </model>
         </weapon>
-        <weapon name="Autocannon">
-            <model>
-                <projectileWeapon muzzleBone="Muzzle2" />
-            </model>
-        </weapon>
-        <weapon name="CastigatorGatlingCannon">
-            <model>
-                <projectileWeapon muzzleBone="Muzzle0" />
-            </model>
-        </weapon>
-        <weapon name="HeavyBolter" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
-            <model>
-                <projectileWeapon bone="Bolter_L" material="Units/AstraMilitarum/RogalDornBattleTank" mesh="Weapons/AstraMilitarum/RogalDornBattleTankBolterL" muzzleBone="Muzzle3" />
-            </model>
-        </weapon>
-        <weapon name="HeavyBolter" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
-            <model>
-                <projectileWeapon bone="Bolter_R" material="Units/AstraMilitarum/RogalDornBattleTank" mesh="Weapons/AstraMilitarum/RogalDornBattleTankBolterR" muzzleBone="Muzzle4" />
-            </model>
-        </weapon>
+        <weapon name="Lascannon" count="3" />
         <weapon name="HunterKillerMissile" enabled="0" slotName="HunterKillerMissile">
             <model>
                 <missileWeapon muzzleBone="Hull_Shake" />

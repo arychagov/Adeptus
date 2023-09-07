@@ -415,6 +415,182 @@
                 </target>
             </beginTargets>
         </installSupportSystem>
+        <installSupportSystem name="AstraMilitarum/AdditionalFlamerGuardsman" cooldown="0" icon="Actions/AstraMilitarum/AdditionalFlamerGuardsman" requiredUpgrade="AstraMilitarum/AdditionalFlamerGuardsman">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <foodCost base="5" />
+                        <oreCost base="5" />
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <target rangeMax="-1">
+                    <conditions>
+                        <unit>
+                            <allied />
+                            <type name="AstraMilitarum/Guardsman" />
+                            <noTrait name="AstraMilitarum/AdditionalFlamerGuardsman" />
+                            <noTrait name="AstraMilitarum/AdditionalMeltagunGuardsman" />
+                            <notAttackedThisTurn />
+                            <notMovedThisTurn />
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AstraMilitarum/AdditionalFlamerGuardsman" />
+                                        <addTrait name="Stunned" duration="1" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </installSupportSystem>
+        <installSupportSystem name="AstraMilitarum/AdditionalMeltagunGuardsman" cooldown="0" icon="Actions/AstraMilitarum/AdditionalMeltagunGuardsman" requiredUpgrade="AstraMilitarum/AdditionalMeltagunGuardsman">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <foodCost base="10" />
+                        <oreCost base="10" />
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <target rangeMax="-1">
+                    <conditions>
+                        <unit>
+                            <allied />
+                            <type name="AstraMilitarum/Guardsman" />
+                            <noTrait name="AstraMilitarum/AdditionalFlamerGuardsman" />
+                            <noTrait name="AstraMilitarum/AdditionalMeltagunGuardsman" />
+                            <notAttackedThisTurn />
+                            <notMovedThisTurn />
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AstraMilitarum/AdditionalMeltagunGuardsman" />
+                                        <addTrait name="Stunned" duration="1" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </installSupportSystem>
+        <installSupportSystem name="AstraMilitarum/AdditionalHeavyBolters" cooldown="0" icon="Actions/SpaceMarines/TwoAdditionalHeavyBolters" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="40" />
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <target rangeMax="-1">
+                    <conditions>
+                        <unit>
+                            <allied />
+                            <type name="AstraMilitarum/LemanRussBattleTank" />
+                            <noTrait name="AstraMilitarum/AdditionalHeavyBolters" />
+                            <notAttackedThisTurn />
+                            <notMovedThisTurn />
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AstraMilitarum/AdditionalHeavyBolters" />
+                                        <addTrait name="Stunned" duration="1" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </installSupportSystem>
+        <installSupportSystem name="AstraMilitarum/UpgradeOppressorCannon" cooldown="0" icon="Actions/AstraMilitarum/UpgradedOppressorCannon" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="40" />
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <target rangeMax="-1">
+                    <conditions>
+                        <unit>
+                            <allied />
+                            <type name="AstraMilitarum/RogalDornBattleTank" />
+                            <noTrait name="AstraMilitarum/UpgradedOppressorCannon" />
+                            <noTrait name="AstraMilitarum/UpgradedLascannon" />
+                            <notAttackedThisTurn />
+                            <notMovedThisTurn />
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AstraMilitarum/UpgradedOppressorCannon" />
+                                        <addTrait name="Stunned" duration="1" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </installSupportSystem>
+        <installSupportSystem name="AstraMilitarum/UpgradeLascannon" cooldown="0" icon="Actions/SpaceMarines/UpgradedLascannon" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="40" />
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <target rangeMax="-1">
+                    <conditions>
+                        <unit>
+                            <allied />
+                            <type name="AstraMilitarum/RogalDornBattleTank" />
+                            <noTrait name="AstraMilitarum/UpgradedOppressorCannon" />
+                            <noTrait name="AstraMilitarum/UpgradedLascannon" />
+                            <notAttackedThisTurn />
+                            <notMovedThisTurn />
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AstraMilitarum/UpgradedLascannon" />
+                                        <addTrait name="Stunned" duration="1" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </installSupportSystem>
     </actions>
     <modifiers>
         <modifier>

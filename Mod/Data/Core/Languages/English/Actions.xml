@@ -21,6 +21,12 @@
     <entry name="AdeptusMechanicus/DataBlessedAutosermonDescription" value="Grants nearby allied Kastelan Robots ability to not suffer accuracy loss on hit points loss, increases their accuracy. Increases nearby allied Fulgurite Electro Priests attacks." />
     <entry name="AdeptusMechanicus/DataBlessedAutosermonFlavor" value="Struck with an infoload of revelation, truly blessed Tech-Priests will override the sacred canticles to deliver the Machine God’s adaptive wisdom." />
 
+    <entry name="AstraMilitarum/AdditionalFlamerGuardsman" value="Install Flamer" />
+    <entry name="AstraMilitarum/AdditionalFlamerGuardsmanDescription" value="Grants Guardsmen additional flamer. Only one upgrade or install can be set up for a unit." />
+    <entry name="AstraMilitarum/AdditionalMeltagunGuardsman" value="Install Meltagun" />
+    <entry name="AstraMilitarum/AdditionalMeltagunGuardsmanDescription" value="Grants Guardsmen additional meltagun. Only one upgrade or install can be set up for a unit." />
+    <entry name="AstraMilitarum/AdditionalHeavyBolters" value="Install Heavy Bolters" />
+    <entry name="AstraMilitarum/AdditionalHeavyBoltersDescription" value="Grants Leman Russ Battle Tank additional heavy bolters. Only one upgrade or install can be set up for a unit." />
     <entry name="AstraMilitarum/DeployVoidShieldGenerator" value="Deploy Void Shield Generator" />
     <entry name="AstraMilitarum/DeployVoidShieldGeneratorDescription" value="Deploys void shield generator on allied Imperial Bastion that gives the ranged damage reduction from attacks from range 2 or higher to nearby allied infantry units and vehicles." />
     <entry name="AstraMilitarum/DeployVoidShieldGeneratorFlavor" value="Void shields are normally localised force fields reserved for protecting the monolithic Titans of the Adeptus Mechanicus, but static generators can be erected to serve as an aegis for other targets of vital import. The largest Void Shield generators can even project an invisible bubble of power across a large area of the battlefield, sheltering both troops and strategically vital battlefield locations by absorbing or deflecting the energy of incoming munitions." />
@@ -36,6 +42,10 @@
     <entry name="AstraMilitarum/Nightshroud" value="Nightshroud" />
     <entry name="AstraMilitarum/NightshroudDescription" value="Restores hitpoints of target allied infantry unit." />
     <entry name="AstraMilitarum/NightshroudFlavor" value="Calling upon the power of the empyrean, the psyker cloaks their allies in a flowing curtain of shadow, concealing them from the enemy." />
+    <entry name="AstraMilitarum/UpgradeLascannon" value="Upgrade Lascannon" />
+    <entry name="AstraMilitarum/UpgradeLascannonDescription" value="Improves the accuracy and the damage of Rogal Dorn Battle Tank's lascannon. Only one upgrade or install can be set up for a unit." />
+    <entry name="AstraMilitarum/UpgradeOppressorCannon" value="Upgrade Oppressor Cannon" />
+    <entry name="AstraMilitarum/UpgradeOppressorCannonDescription" value="Improves the accuracy and the damage of Rogal Dorn Battle Tank's oppressor cannon. Only one upgrade or install can be set up for a unit." />
     <entry name="AstraMilitarum/WallOfMuscle" value="<string name='Traits/AstraMilitarum/WallOfMuscle'/>" />
     <entry name="AstraMilitarum/WallOfMuscleDescription" value="Reduces melee attacks of adjacent enemy units." />
     <entry name="AstraMilitarum/WallOfMuscleFlavor" value="<string name='Traits/AstraMilitarum/WallOfMuscleFlavor'/>" />
@@ -117,11 +127,11 @@
     <entry name="SistersOfBattle/DesperateForRedemptionFlavor" value="Not even death can stop the Emperor’s chosen servants, and through his benevolence they rise again to serve the Master of Mankind’s will." />
 
     <entry name="SpaceMarines/AdditionalHeavyBolter" value="Install Heavy Bolter" />
-    <entry name="SpaceMarines/AdditionalHeavyBolterDescription" value="Grants Fortress of Redemption additional heavy bolter. Only one improvement or install can be set up for a unit." />
+    <entry name="SpaceMarines/AdditionalHeavyBolterDescription" value="Grants Fortress of Redemption additional heavy bolter. Only one upgrade or install can be set up for a unit." />
     <entry name="SpaceMarines/AdditionalHeavyBolters" value="Install Heavy Bolters" />
-    <entry name="SpaceMarines/AdditionalHeavyBoltersDescription" value="Grants Predator additional heavy bolters. Only one improvement or install can be set up for a unit." />
+    <entry name="SpaceMarines/AdditionalHeavyBoltersDescription" value="Grants Predator additional heavy bolters. Only one upgrade or install can be set up for a unit." />
     <entry name="SpaceMarines/AdditionalStormBolter" value="Install Storm Bolter" />
-    <entry name="SpaceMarines/AdditionalStormBolterDescription" value="Grants Razorback additional storm bolter, but removes ability to transport units. Only one improvement or install can be set up for a unit." />
+    <entry name="SpaceMarines/AdditionalStormBolterDescription" value="Grants Razorback additional storm bolter, but removes ability to transport units. Only one upgrade or install can be set up for a unit." />
     <entry name="SpaceMarines/CamoCloak" value="Camo Cloak" />
     <entry name="SpaceMarines/CamoCloakDescription" value="Temporary increases the ranged damage reduction while in an imperial ruin or a forest" />
     <entry name="SpaceMarines/CamoCloakFlavor" value="The weave of this camo cloak emulates the movements of the elements. As a gust of wind passes, as rainfalls across the battlefield, as the haze of heat shimmers the air, the bearers form flickers in and out of perception. If the bearer remains stationary, they are clouded entirely, a ghost lost to the wilds." />
@@ -131,8 +141,8 @@
     <entry name="SpaceMarines/EmpireWithin" value="Empire Within" />
     <entry name="SpaceMarines/EmpireWithinDescription" value="Levels up non-hero friendly unit." />
     <entry name="SpaceMarines/EmpireWithinFlavor" value="”I can pulp your flesh and snap your bones in less than a second and without so much as lifting a finger. What is the power of technology compared to that?”<br/>  — Vel'Cona, Chief Librarian of the Salamanders" />
-    <entry name="SpaceMarines/ImprovedLascannon" value="Install Improved Lascannon" />
-    <entry name="SpaceMarines/ImprovedLascannonDescription" value="Permanently improves lascannon damage, armour penetration and accuracy of Predator. Only one improvement or install can be set up for a unit." />
+    <entry name="SpaceMarines/UpgradedLascannon" value="Upgrade Lascannon" />
+    <entry name="SpaceMarines/UpgradedLascannonDescription" value="Permanently improves lascannon damage, armour penetration and accuracy of Predator. Only one upgrade or install can be set up for a unit." />
     <entry name="SpaceMarines/LitanyOfZeal" value="<string name='Traits/SpaceMarines/LitanyOfZeal'/>" />
     <entry name="SpaceMarines/LitanyOfZealDescription" value="<string name='Traits/SpaceMarines/LitanyOfZealDescription'/>" />
     <entry name="SpaceMarines/LitanyOfZealFlavor" value="<string name='Traits/SpaceMarines/LitanyOfZealFlavor'/>" />

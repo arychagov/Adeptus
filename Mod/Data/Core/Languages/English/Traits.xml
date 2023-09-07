@@ -24,9 +24,19 @@
     <entry name="AdeptusMechanicus/ReprogramKastelanRobotFlavor" value="Since the aftermath of Warmaster Horus’ rebellion the Legio Cybernetica’s robots have been controlled completely by their masters – not by the bio-plastic cerebra and nerve-like tendril webs of Mechanicum constructs, but by sanctified doctrina wafers. No bigger than the cards of the Emperor’s Tarot, these slivers of wetware are entrusted to the Cybernetica Datasmiths that accompany the robot maniples to war. Inserted into the dataslot hidden behind each robot’s chestplate, the wafer’s command protocol will dictate every iota of the host’s behaviour, usually optimising its ability to destroy its foes in a spectacular fashion." />
     <entry name="AdeptusMechanicus/DataBlessedAutosermonDescription" value="Kastelan Robot does not suffer accuracy loss on hit points loss, increases accuracy. Increases attacks of Fulgurite Electro Priests." />
 
+    <entry name="AstraMilitarum/AdditionalFlamerGuardsman" value="Installed Flamer" />
+    <entry name="AstraMilitarum/AdditionalFlamerGuardsmanDescription" value="Grants additional flamer." />
+    <entry name="AstraMilitarum/AdditionalMeltagunGuardsman" value="Installed Meltagun" />
+    <entry name="AstraMilitarum/AdditionalMeltagunGuardsmanDescription" value="Grants additional meltagun." />
+    <entry name="AstraMilitarum/AdditionalHeavyBolters" value="Installed Heavy Bolters" />
+    <entry name="AstraMilitarum/AdditionalHeavyBoltersDescription" value="Grants additional heavy bolters." />
     <entry name="AstraMilitarum/BoltDamage" value="The Emperor's Benediction" />
     <entry name="AstraMilitarum/BoltDamageDescription" value="Increases the armour penetration." />
     <entry name="AstraMilitarum/BoltDamageFlavor" value="An Astartes-derived upgrade to the standard bolter, this kit allows a bolter to fire Kraken penetrator rounds, hard-tipped projectiles with a heavier explosive charge. These heavier rounds are much favoured by the Space Marine Deathwatch alien hunters." />
+    <entry name="AstraMilitarum/ChadLascannon" value="Upgraded Lascannon" />
+    <entry name="AstraMilitarum/ChadLascannonDescription" value="Improves the damage and the accuracy of lascannon." />
+    <entry name="AstraMilitarum/ChadOppressorCannon" value="Upgraded Oppressor Cannon" />
+    <entry name="AstraMilitarum/ChadOppressorCannonDescription" value="Improves the damage and the accuracy of oppressor cannon." />
     <entry name="AstraMilitarum/CommitEverythingGuardsman" value="Commit Everything" />
     <entry name="AstraMilitarum/CommitEverythingGuardsmanDescription" value="Increases group size." />
     <entry name="AstraMilitarum/CommitEverythingGuardsmanFlavor" value="The campaign’s senior commander has designated the upcoming battle as so vital that they will funnel all of their resources and assets into securing victory, forgoing frugal logistical management in favour of overwhelming force." />
@@ -50,6 +60,10 @@
     <entry name="AstraMilitarum/InstalledVoidShieldFlavor" value="Void shields are normally localised force fields reserved for protecting the monolithic Titans of the Adeptus Mechanicus, but static generators can be erected to serve as an aegis for other targets of vital import. The largest Void Shield generators can even project an invisible bubble of power across a large area of the battlefield, sheltering both troops and strategically vital battlefield locations by absorbing or deflecting the energy of incoming munitions." />
     <entry name="AstraMilitarum/Prosperity" value="Prosperity" />
     <entry name="AstraMilitarum/ProsperityDescription" value="Increases city growth" />
+    <entry name="AstraMilitarum/UpgradedLascannon" value="Upgraded Lascannon" />
+    <entry name="AstraMilitarum/UpgradedLascannonDescription" value="Improves the accuracy and the damage of lascannon." />
+    <entry name="AstraMilitarum/UpgradedOppressorCannon" value="Upgraded Oppressor Cannon" />
+    <entry name="AstraMilitarum/UpgradedOppressorCannonDescription" value="Improves the accuracy and the damage of oppressor cannon." />
     <entry name="AstraMilitarum/VoidShield" value="Void Shield" />
     <entry name="AstraMilitarum/VoidShieldDescription" value="Increases ranged damage reduction from attacks from range 2 or higher." />
     <entry name="AstraMilitarum/VoidShieldFlavor" value="Void shields are normally localised force fields reserved for protecting the monolithic Titans of the Adeptus Mechanicus, but static generators can be erected to serve as an aegis for other targets of vital import. The largest Void Shield generators can even project an invisible bubble of power across a large area of the battlefield, sheltering both troops and strategically vital battlefield locations by absorbing or deflecting the energy of incoming munitions." />
@@ -253,8 +267,8 @@
     <entry name="SpaceMarines/FortressOfRedemptionDamageReduction3Description" value="Increases the city damage reduction." />
     <entry name="SpaceMarines/FortressOfRedemptionDamageReduction3Flavor" value="Gladius Prime is already proving far more hostile than the Adeptus Administratum's worst forecasts. With the Fortress' physical defenses under almost constant assault, the Techmarines approve installation of a void shield. Once constructed, this shimmering dome of power is sufficient to warp away the firepower of entire battalions (or even a rogue Imperial Knight) before collapsing." />
     <entry name="SpaceMarines/FortressOfRedemptionDamageReductionDescription" value="Grants Fortresses of Redemption additional Heavy Bolter weapon and armour." />
-    <entry name="SpaceMarines/ImprovedLascannon" value="Improved Lascannon" />
-    <entry name="SpaceMarines/ImprovedLascannonDescription" value="Improves lascannon damage, armour penetration and accuracy." />
+    <entry name="SpaceMarines/UpgradedLascannon" value="Upgraded Lascannon" />
+    <entry name="SpaceMarines/UpgradedLascannonDescription" value="Improves lascannon damage, armour penetration and accuracy." />
     <entry name="SpaceMarines/LitanyOfZeal" value="Litany Of Zeal" />
     <entry name="SpaceMarines/LitanyOfZealDescription" value="Increases movement of target infantry unit that have not moved this turn and prevents that unit from being targeted by overwatch attacks. The unit also ignores enemy zone of control." />
     <entry name="SpaceMarines/LitanyOfZealFlavor" value="Bellowing his hatred of the foe, the Chaplain leads his brothers in the wholesale destruction of the enemy." />
