@@ -22,7 +22,7 @@
     <entry name="AstraMilitarum/AdditionalFlamerGuardsmanDescription" value="Grants ability to install additional flamer on Guardsmen." />
     <entry name="AstraMilitarum/AdditionalFlamerGuardsmanFlavor" value="<string name='Weapons/FlamerFlavor'/>" />
     <entry name="AstraMilitarum/AdditionalHeavyBolters" value="Additional Heavy Bolters" />
-    <entry name="AstraMilitarum/AdditionalHeavyBoltersDescription" value="Grants ability to install additional heavy bolters on Leman Russ Battle Tanks. Grants ability to improve Rogal Dorn Battle Tanks weaponry." />
+    <entry name="AstraMilitarum/AdditionalHeavyBoltersDescription" value="Grants ability to install additional heavy bolters on Leman Russ Battle Tanks, Tank Commanders, Imperial Bastions, Baneblades and Valkyries. Grants ability to improve Rogal Dorn Battle Tanks weaponry." />
     <entry name="AstraMilitarum/AdditionalMeltagunGuardsman" value="<string name='Weapons/Meltagun'/>" />
     <entry name="AstraMilitarum/AdditionalMeltagunGuardsmanDescription" value="Grants ability to install additional meltagun on Guardsmen." />
     <entry name="AstraMilitarum/AdditionalMeltagunGuardsmanFlavor" value="<string name='Weapons/MeltagunFlavor'/>" />

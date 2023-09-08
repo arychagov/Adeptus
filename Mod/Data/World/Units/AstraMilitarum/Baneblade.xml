@@ -29,7 +29,7 @@
                 <projectileWeapon muzzleBone=".HeavyBolterMuzzle" />
             </model>
         </weapon>
-        <weapon name="TwinLinkedHeavyBolter" count="2" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
+        <weapon name="HeavyBolter" count="2" enabled="0" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters" slotName="HeavyBolterUpgrade">
             <model>
                 <projectileWeapon bone="Hull" material="Units/AstraMilitarum/Baneblade" mesh="Weapons/AstraMilitarum/BanebladeTwinLinkedHeavyBolters" muzzleBone=".Muzzle" muzzleCount="4" />
             </model>
@@ -136,6 +136,17 @@
             </beginTargets>
         </createSmokeScreen>
         <useWeapon consumedActionPoints="0" cooldown="10" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
+            <model>
+                <action beginFire="0.1" endFire="1.0" />
+            </model>
+        </useWeapon>
+        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters" weaponSlotName="HeavyBolterUpgrade">
+            <conditions>
+                <unit>
+                    <trait name="AstraMilitarum/AdditionalHeavyBolters" />
+                    <noTrait name="Exhausted" />
+                </unit>
+            </conditions>
             <model>
                 <action beginFire="0.1" endFire="1.0" />
             </model>

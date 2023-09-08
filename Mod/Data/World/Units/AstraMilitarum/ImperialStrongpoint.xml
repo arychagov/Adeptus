@@ -5,8 +5,12 @@
     </model>
     <weapons>
         <weapon name="HeavyBolter" requiredUpgrade="AstraMilitarum/BoltDamage" />
-        <weapon name="HeavyBolter" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters" />
         <weapon name="HeavyBolter" count="3">
+            <model>
+                <projectileWeapon bone="Strongpoint" material="Buildings/AstraMilitarum/Buildings" mesh="Weapons/AstraMilitarum/ImperialStrongpointWeapons" muzzleBone=".Muzzle" muzzleCount="3" />
+            </model>
+        </weapon>
+        <weapon name="HeavyBolter" count="2" enabled="0" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters" slotName="HeavyBolterUpgrade">
             <model>
                 <projectileWeapon bone="Strongpoint" material="Buildings/AstraMilitarum/Buildings" mesh="Weapons/AstraMilitarum/ImperialStrongpointWeapons" muzzleBone=".Muzzle" muzzleCount="3" />
             </model>
@@ -83,6 +87,17 @@
                 <action sound="Units/HeavyBuildingDie" soundCount="3" />
             </model>
         </die>
+        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters" weaponSlotName="HeavyBolterUpgrade">
+            <conditions>
+                <unit>
+                    <trait name="AstraMilitarum/AdditionalHeavyBolters" />
+                    <noTrait name="Exhausted" />
+                </unit>
+            </conditions>
+            <model>
+                <action beginFire="0.1" endFire="1.0" />
+            </model>
+        </useWeapon>
     </actions>
     <traits>
         <trait name="Fortification" />

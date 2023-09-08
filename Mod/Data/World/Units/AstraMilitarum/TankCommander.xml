@@ -14,7 +14,7 @@
                 <beamWeapon muzzleBone=".FrontTurretMuzzle0" />
             </model>
         </weapon>
-        <weapon name="HeavyBolter" count="2" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
+        <weapon name="HeavyBolter" count="2" enabled="0" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters" slotName="HeavyBolterUpgrade">
             <model>
                 <projectileWeapon bone=".SideGunsAttachment" material="Weapons/AstraMilitarum/LemanRussBattleTankHeavyBolters" mesh="Weapons/AstraMilitarum/LemanRussBattleTankHeavyBolters" muzzleBone="SideGunsMuzzle" muzzleCount="2" />
             </model>
@@ -191,6 +191,17 @@
                 </selfTarget>
             </beginTargets>
         </strikeAndShroud>
+        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters" weaponSlotName="HeavyBolterUpgrade">
+            <conditions>
+                <unit>
+                    <trait name="AstraMilitarum/AdditionalHeavyBolters" />
+                    <noTrait name="Exhausted" />
+                </unit>
+            </conditions>
+            <model>
+                <action beginFire="0.1" endFire="1.0" />
+            </model>
+        </useWeapon>
         <levelUp />
         <shop />
     </actions>

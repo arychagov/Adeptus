@@ -511,9 +511,15 @@
                     <conditions>
                         <unit>
                             <allied />
-                            <type name="AstraMilitarum/LemanRussBattleTank" />
                             <noTrait name="AstraMilitarum/AdditionalHeavyBolters" />
                             <notAttackedThisTurn />
+                        </unit>
+                        <unit match="Any">
+                            <type name="AstraMilitarum/LemanRussBattleTank" />
+                            <type name="AstraMilitarum/Baneblade" />
+                            <type name="AstraMilitarum/ImperialStrongpoint" />
+                            <type name="AstraMilitarum/TankCommander" />
+                            <type name="AstraMilitarum/Valkyrie" />
                         </unit>
                     </conditions>
                     <areas>

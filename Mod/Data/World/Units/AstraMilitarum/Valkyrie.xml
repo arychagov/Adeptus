@@ -24,7 +24,7 @@
                 <missileWeapon fireInterval="1.2" missileScale="0.8" muzzleBone=".HellstrikeMissile" muzzleCount="2" />
             </model>
         </weapon>
-        <weapon name="HeavyBolter" count="2" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
+        <weapon name="HeavyBolter" count="2" enabled="0" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters" slotName="HeavyBolterUpgrade">
             <model>
                 <projectileWeapon bone="Hull" material="Weapons/AstraMilitarum/HydraHeavyBolter" mesh="Weapons/AstraMilitarum/ValkyrieHeavyBolters" muzzleBone=".Muzzle" muzzleCount="2" />
             </model>
@@ -95,6 +95,17 @@
                 </selfTarget>
             </beginTargets>
         </jink>
+        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters" weaponSlotName="HeavyBolterUpgrade">
+            <conditions>
+                <unit>
+                    <trait name="AstraMilitarum/AdditionalHeavyBolters" />
+                    <noTrait name="Exhausted" />
+                </unit>
+            </conditions>
+            <model>
+                <action beginFire="0.1" endFire="1.0" />
+            </model>
+        </useWeapon>
     </actions>
     <traits>
         <trait name="ExtraVehicleArmour" requiredUpgrade="AstraMilitarum/ExtraVehicleArmour" />
