@@ -20,8 +20,16 @@
                 <grenadeWeapon muzzleBone="LeftHandBone" />
             </model>
         </weapon>
-        <weapon name="GuardsmanFlamer" enabled="0" slotName="GuardsmanFlamer" requiredUpgrade="AstraMilitarum/AdditionalFlamerGuardsman" />
-        <weapon name="GuardsmanMeltagun" enabled="0" slotName="GuardsmanMeltagun" requiredUpgrade="AstraMilitarum/AdditionalMeltagunGuardsman" />
+        <weapon name="GuardsmanFlamer" enabled="0" requiredUpgrade="AstraMilitarum/AdditionalFlamerGuardsman" slotName="GuardsmanFlamer">
+            <model>
+                <flamerWeapon fireInterval="1" muzzleBone="RightHandBone" />
+            </model>
+        </weapon>
+        <weapon name="GuardsmanMeltagun" enabled="0" requiredUpgrade="AstraMilitarum/AdditionalMeltagunGuardsman" slotName="GuardsmanMeltagun">
+            <model>
+                <beamWeapon fireInterval="0.5" muzzleBone="RightHandBone" />
+            </model>
+        </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
@@ -123,6 +131,6 @@
         <trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour" />
         <trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster" />
         <trait name="AstraMilitarum/ImperiumOfMan" requiredUpgrade="AstraMilitarum/ImperiumOfMan" />
-        <trait name="AstraMilitarum/CommitEverythingGuardsman" requiredUpgrade="AstraMilitarum/CommitEverything"/>
+        <trait name="AstraMilitarum/CommitEverythingGuardsman" requiredUpgrade="AstraMilitarum/CommitEverything" />
     </traits>
 </unit>
