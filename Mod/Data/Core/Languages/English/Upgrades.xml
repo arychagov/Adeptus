@@ -172,7 +172,7 @@
     <entry name="SpaceMarines/MachineSpirit" value="Machine Spirit" />
     <entry name="SpaceMarines/MachineSpiritDescription" value="Allows vehicles to temporary ignore degradation." />
     <entry name="SpaceMarines/MachineSpiritFlavor" value="There are many tales of machine spirits wreaking havoc on the foe, even after their crew are slain and critical systems are failing." />
-    <entry name="SpaceMarines/MeltaBombDescription" value="Grants Assault Space Marines, Kill Team Eliminators and Scout Bikers the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications." />
+    <entry name="SpaceMarines/MeltaBombDescription" value="Grants Assault Space Marines and Scout Bikers the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications." />
     <entry name="SpaceMarines/OmniscopeDescription" value="Grants Scouts, Devastator Space Marines, Terminators and Devastator Centurions the ability to bypass ranged damaged reduction." />
     <entry name="SpaceMarines/PredatorLascannonDescription" value="Grants Predators ability to install extra Heavy Bolters or improve lascannon damage, armour penetration and accuracy. Grants Fortresses of Redemption twin-linked Lascannon. Grants Aquila Macro-Cannons extra Heavy Bolters." />
     <entry name="SpaceMarines/ScoutBiker" value="<string name='Units/SpaceMarines/ScoutBiker'/>" />
