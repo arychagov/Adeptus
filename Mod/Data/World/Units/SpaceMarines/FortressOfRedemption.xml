@@ -85,6 +85,7 @@
             <conditions>
                 <unit>
                     <trait name="SpaceMarines/AdditionalHeavyBolter" />
+                    <noTrait name="Exhausted" />
                 </unit>
             </conditions>
             <model>

@@ -93,6 +93,7 @@
             <conditions>
                 <unit>
                     <trait name="AstraMilitarum/AdditionalHeavyBolters" />
+                    <noTrait name="Exhausted" />
                 </unit>
             </conditions>
             <model>
