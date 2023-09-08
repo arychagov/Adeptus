@@ -121,6 +121,9 @@
     <entry name="Eldar/Prosperity" value="Prosperity" />
     <entry name="Eldar/ProsperityDescription" value="Increases city growth" />
 
+    <entry name="Exhausted" value="Exhausted" />
+    <entry name="ExhaustedDescription" value="Prevents unit from attacking and moving." />
+
     <entry name="Necrons/AethericInterception" value="Aetheric Interception" />
     <entry name="Necrons/AethericInterceptionDescription" value="Reduces the movement." />
     <entry name="Necrons/AethericInterceptionFlavor" value="With hunters' instincts honed over aeons, the Triarch pounce precisely at the moment their prey enter battle, gunning them down before they can even act." />

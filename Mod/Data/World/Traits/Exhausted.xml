@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Traits/VoidShield">
+<trait category="Debuff" icon="Traits/Stunned">
     <modifiers>
         <modifier>
             <effects>
-                <energyUpkeep add="2" />
+                <actionPoints mul="-1" />
+                <movement mul="-1" />
             </effects>
         </modifier>
     </modifiers>

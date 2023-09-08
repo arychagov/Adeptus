@@ -639,7 +639,6 @@
                             <cargoSlotsTaken equal="0" />
                             <noTrait name="SpaceMarines/AdditionalStormBolter" />
                             <notAttackedThisTurn />
-                            <notMovedThisTurn />
                         </unit>
                     </conditions>
                     <areas>
@@ -648,9 +647,15 @@
                                 <modifier>
                                     <effects>
                                         <addTrait name="SpaceMarines/AdditionalStormBolter" />
-                                        <addTrait name="Stunned" duration="1" />
+                                        <addTrait name="Exhausted" duration="1" />
                                         <removeTrait name="Transport" />
                                         <addTrait name="Untransport" />
+                                    </effects>
+                                </modifier>
+                                <modifier visible="0">
+                                    <effects>
+                                        <addTrait name="Stunned" />
+                                        <removeTrait name="Stunned" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -683,7 +688,13 @@
                                 <modifier>
                                     <effects>
                                         <addTrait name="SpaceMarines/AdditionalHeavyBolter" />
-                                        <addTrait name="Stunned" duration="1" />
+                                        <addTrait name="Exhausted" duration="1" />
+                                    </effects>
+                                </modifier>
+                                <modifier visible="0">
+                                    <effects>
+                                        <addTrait name="Stunned" />
+                                        <removeTrait name="Stunned" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -709,7 +720,6 @@
                             <noTrait name="SpaceMarines/AdditionalHeavyBolters" />
                             <noTrait name="SpaceMarines/UpgradedLascannon" />
                             <notAttackedThisTurn />
-                            <notMovedThisTurn />
                         </unit>
                     </conditions>
                     <areas>
@@ -718,7 +728,13 @@
                                 <modifier>
                                     <effects>
                                         <addTrait name="SpaceMarines/AdditionalHeavyBolters" />
-                                        <addTrait name="Stunned" duration="1" />
+                                        <addTrait name="Exhausted" duration="1" />
+                                    </effects>
+                                </modifier>
+                                <modifier visible="0">
+                                    <effects>
+                                        <addTrait name="Stunned" />
+                                        <removeTrait name="Stunned" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -737,7 +753,6 @@
                             <noTrait name="SpaceMarines/AdditionalHeavyBolters" />
                             <noTrait name="SpaceMarines/UpgradedLascannon" />
                             <notAttackedThisTurn />
-                            <notMovedThisTurn />
                         </unit>
                     </conditions>
                     <areas>
@@ -746,7 +761,13 @@
                                 <modifier>
                                     <effects>
                                         <addTrait name="SpaceMarines/UpgradedLascannon" />
-                                        <addTrait name="Stunned" duration="1" />
+                                        <addTrait name="Exhausted" duration="1" />
+                                    </effects>
+                                </modifier>
+                                <modifier visible="0">
+                                    <effects>
+                                        <addTrait name="Stunned" />
+                                        <removeTrait name="Stunned" />
                                     </effects>
                                 </modifier>
                             </modifiers>
