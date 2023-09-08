@@ -30,6 +30,9 @@
         <item type="VolcanisShroud" />
         <item type="ZoatHideJerkin" />
     </items>
+    <traits>
+        <trait name="Shop" />
+    </traits>
     <model>
         <simpleModel groundMaterial="Features/JokaeroTraderEncampmentGround" material="Features/JokaeroTraderEncampment" mesh="Features/JokaeroTraderEncampment" />
     </model>

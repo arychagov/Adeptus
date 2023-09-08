@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feature category="Resource">
+    <items>
+        <item type="AegisHarness" />
+        <item type="BlightGrenade" />
+        <item type="BlindGrenade" />
+        <item type="CombatStimulant" />
+        <item type="DimensionalKey" />
+        <item type="DuskBlade" />
+        <item type="EnduranceImplant" />
+        <item type="EntropicLocum" />
+        <item type="FaolchusWing" />
+        <item type="ForbiddenKnowledge" />
+        <item type="JokaeroDigitalWeapon" />
+        <item type="LaurelsOfCommand" />
+        <item type="LightningGauntlet" />
+        <item type="ManCatcher" />
+        <item type="MourningBladeOfLazaerek" />
+        <item type="OmniScope" />
+        <item type="PoweredBolas" />
+        <item type="PoweredGauntlet" />
+        <item type="RecoveryPackage" />
+        <item type="ScrollsOfMagnus" />
+        <item type="SightlessHelm" />
+        <item type="StunGrenade" />
+        <item type="TantalisingIcon" />
+        <item type="TemporaryShield" />
+        <item type="UltraWidebandAuspex" />
+        <item type="UncreatorGauntlet" />
+        <item type="VolcanisShroud" />
+        <item type="ZoatHideJerkin" />
+    </items>
+    <traits>
+        <trait name="Shop" />
+    </traits>
     <model>
         <simpleModel flow="1" groundMaterial="Features/FermentationPoolGround" material="Features/FermentationPool" mesh="Features/FermentationPool" />
     </model>
