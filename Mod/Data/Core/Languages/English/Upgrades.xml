@@ -101,12 +101,12 @@
     <entry name="Necrons/EndlessLegionsDescription" value="Increases group size of Immortals, Flayed Ones and Necron Warriors." />
     <entry name="Necrons/EndlessLegionsFlavor" value="<string name='Traits/Necrons/EndlessLegionsFlavor'/>" />
     <entry name="Necrons/GloomPrismDescription" value="Increases the witchfire damage reduction of Canoptek Spyders and adjacent allied units. Grants Canoptek Spyders ability to permanently increase hit points, armour penetration and damage." />
-    <entry name="Necrons/HousingBuildingBonusDescription" value="Increases the population limit. Increases damage reduction of units in cities." />
+    <entry name="Necrons/HousingBuildingBonus" value="Shelter Compression / Accelerated Regrowth"/>
+    <entry name="Necrons/HousingBuildingBonusDescription" value="Increases the population limit. Increases damage reduction of units in cities. Increases the hitpoint restoration from Necrodermis Repair. Removes the cooldown of Necrodermis Repair." />
     <entry name="Necrons/LivingMetal2" value="Undying Revenants" />
     <entry name="Necrons/LivingMetal2Description" value="Increases the healing of Reanimation Protocols and Living Metal." />
     <entry name="Necrons/LivingMetal2Flavor" value="These Necrons rise again and again despite the most grievous wounding, resolutely refusing to succumb to their wounds. Augmented with advanced matter-replication capabilities, these Canoptek constructs can swiftly repair themselves in battle." />
     <entry name="Necrons/NebuloscopeDescription" value="Allows Tomb Blades to ignore ranged damage reduction and increases Tomb Blades armor." />
-    <entry name="Necrons/NecrodermisRepair2Description" value="Increases the hitpoint restoration from Necrodermis Repair. Removes the cooldown of Necrodermis Repair." />
     <entry name="Necrons/QuantumShieldingDescription" value="Grants vehicles and aircrafts the invulnerable damage reduction." />
     <entry name="Necrons/StormOfFlensingBlades" value="Storm Of Flensing Blades" />
     <entry name="Necrons/StormOfFlensingBladesDescription" value="Grants Flayed Ones ability to pin units with melee attacks and ignore zone of control." />

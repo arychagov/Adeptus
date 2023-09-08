@@ -67,7 +67,7 @@
                         <influenceCost base="60" />
                     </effects>
                 </modifier>
-                <modifier requiredUpgrade="Necrons/NecrodermisRepair2">
+                <modifier requiredUpgrade="Necrons/HousingBuildingBonus">
                     <effects>
                         <cooldown max="0" />
                     </effects>
@@ -88,7 +88,7 @@
                                         <hitpoints add="6" />
                                     </effects>
                                 </modifier>
-                                <modifier requiredUpgrade="Necrons/NecrodermisRepair2">
+                                <modifier requiredUpgrade="Necrons/HousingBuildingBonus">
                                     <effects>
                                         <hitpoints add="2" />
                                     </effects>

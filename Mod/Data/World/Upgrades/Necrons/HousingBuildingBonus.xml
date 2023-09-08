@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Traits/Necrons/HousingBuildingBonus" position="7">
+<upgrade icon="Necrons/HousingBuildingBonusNecrodermisRepair2" position="7">
     <strategyModifiers>
         <modifier>
             <effects>
