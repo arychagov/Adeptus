@@ -25,5 +25,6 @@
     </strategyModifiers>
     <traits>
         <trait name="Necrons/InfluenceBuildingBonus" requiredUpgrade="Necrons/InfluenceBuildingBonus" />
+        <trait name="Necrons/UnlockedPotentialInfluenceBuildingBonus" requiredUpgrade="Necrons/UnlockedPotential" />
     </traits>
 </building>

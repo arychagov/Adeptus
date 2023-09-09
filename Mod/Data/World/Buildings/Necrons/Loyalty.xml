@@ -25,5 +25,6 @@
     </strategyModifiers>
     <traits>
         <trait name="Necrons/LoyaltyBuildingBonus" requiredUpgrade="Necrons/LoyaltyBuildingBonus" />
+        <trait name="Necrons/UnlockedPotentialLoyaltyBuildingBonus" requiredUpgrade="Necrons/UnlockedPotential" />
     </traits>
 </building>

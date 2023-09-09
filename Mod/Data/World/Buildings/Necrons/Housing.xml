@@ -25,5 +25,6 @@
     </strategyModifiers>
     <traits>
         <trait name="Necrons/HousingBuildingBonus" requiredUpgrade="Necrons/HousingBuildingBonus" />
-    </traits>
+        <trait name="Necrons/UnlockedPotentialHousingBuildingBonus" requiredUpgrade="Necrons/UnlockedPotential" />
+   </traits>
 </building>

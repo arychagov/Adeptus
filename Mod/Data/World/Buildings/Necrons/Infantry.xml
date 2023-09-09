@@ -48,5 +48,6 @@
     </actions>
     <traits>
         <trait name="Necrons/InfantryBuildingBonus" requiredUpgrade="Necrons/InfantryBuildingBonus" />
+        <trait name="Necrons/UnlockedPotentialInfantryBuildingBonus" requiredUpgrade="Necrons/UnlockedPotential" />
     </traits>
 </building>

@@ -219,6 +219,26 @@
     <entry name="Necrons/ReanimationProtocolsWarrior" value="Reanimation Protocols" />
     <entry name="Necrons/ReanimationProtocolsWarriorDescription" value="Restores hitpoints each turn." />
     <entry name="Necrons/ReanimationProtocolsWarriorFlavor" value="Necrons have sophisticated self-repair systems that return even critically damaged warriors to the fight." />
+    <entry name="Necrons/UnlockedPotentialAircraftBuildingBonus" value="Unlocked Potential" />
+    <entry name="Necrons/UnlockedPotentialAircraftBuildingBonusDescription" value="Increases production." />
+    <entry name="Necrons/UnlockedPotentialConstructionBuildingBonus" value="Unlocked Potential" />
+    <entry name="Necrons/UnlockedPotentialConstructionBuildingBonusDescription" value="Increases production." />
+    <entry name="Necrons/UnlockedPotentialEnergyBuildingBonus" value="Unlocked Potential" />
+    <entry name="Necrons/UnlockedPotentialEnergyBuildingBonusDescription" value="Increases energy output." />
+    <entry name="Necrons/UnlockedPotentialHousingBuildingBonus" value="Unlocked Potential" />
+    <entry name="Necrons/UnlockedPotentialHousingBuildingBonusDescription" value="Increases population limit." />
+    <entry name="Necrons/UnlockedPotentialInfantryBuildingBonus" value="Unlocked Potential" />
+    <entry name="Necrons/UnlockedPotentialInfantryBuildingBonusDescription" value="Increases production." />
+    <entry name="Necrons/UnlockedPotentialInfluenceBuildingBonus" value="Unlocked Potential" />
+    <entry name="Necrons/UnlockedPotentialInfluenceBuildingBonusDescription" value="Increases influence output." />
+    <entry name="Necrons/UnlockedPotentialLoyaltyBuildingBonus" value="Unlocked Potential" />
+    <entry name="Necrons/UnlockedPotentialLoyaltyBuildingBonusDescription" value="Increases loyalty output." />
+    <entry name="Necrons/UnlockedPotentialOreBuildingBonus" value="Unlocked Potential" />
+    <entry name="Necrons/UnlockedPotentialOreBuildingBonusDescription" value="Increases ore output." />
+    <entry name="Necrons/UnlockedPotentialResearchBuildingBonus" value="Unlocked Potential" />
+    <entry name="Necrons/UnlockedPotentialResearchBuildingBonusDescription" value="Increases research output." />
+    <entry name="Necrons/UnlockedPotentialVehiclesBuildingBonus" value="Unlocked Potential" />
+    <entry name="Necrons/UnlockedPotentialVehiclesBuildingBonusDescription" value="Increases production." />
     <entry name="Necrons/UpgradedGaussFlayerArray" value="Upgraded Gauss Flayer Array" />
     <entry name="Necrons/UpgradedGaussFlayerArrayDescription" value="Increases the ranged attacks of Ghost Ark." />
 

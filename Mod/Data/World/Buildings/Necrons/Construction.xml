@@ -69,5 +69,6 @@
     </actions>
     <traits>
         <trait name="Necrons/ConstructionBuildingBonus" requiredUpgrade="Necrons/ConstructionBuildingBonus" />
+        <trait name="Necrons/UnlockedPotentialConstructionBuildingBonus" requiredUpgrade="Necrons/UnlockedPotential" />
     </traits>
 </building>

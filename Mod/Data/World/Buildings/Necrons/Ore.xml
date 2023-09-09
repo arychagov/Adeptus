@@ -25,5 +25,6 @@
     </strategyModifiers>
     <traits>
         <trait name="Necrons/OreBuildingBonus" requiredUpgrade="Necrons/OreBuildingBonus" />
+        <trait name="Necrons/UnlockedPotentialOreBuildingBonus" requiredUpgrade="Necrons/UnlockedPotential" />
     </traits>
 </building>

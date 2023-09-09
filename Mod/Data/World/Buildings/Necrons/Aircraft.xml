@@ -40,5 +40,6 @@
     </actions>
     <traits>
         <trait name="Necrons/AircraftBuildingBonus" requiredUpgrade="Necrons/AircraftBuildingBonus" />
+        <trait name="Necrons/UnlockedPotentialAircraftBuildingBonus" requiredUpgrade="Necrons/UnlockedPotential" />
     </traits>
 </building>

@@ -25,5 +25,6 @@
     </strategyModifiers>
     <traits>
         <trait name="Necrons/ResearchBuildingBonus" requiredUpgrade="Necrons/ResearchBuildingBonus" />
+        <trait name="Necrons/UnlockedPotentialResearchBuildingBonus" requiredUpgrade="Necrons/UnlockedPotential" />
     </traits>
 </building>
