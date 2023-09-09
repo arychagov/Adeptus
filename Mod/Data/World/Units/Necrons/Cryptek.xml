@@ -176,6 +176,10 @@
                         <unit>
                             <allied />
                             <faction name="Necrons" />
+                            <noTrait name="Hero" />
+                            <noTrait name="Vehicle" />
+                            <noTrait name="Fortification" />
+                            <noTrait name="Necrons/Chronometron" />
                         </unit>
                     </conditions>
                     <areas>
@@ -183,7 +187,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Necrons/Chronometron" duration="1" />
+                                        <addTrait name="Necrons/Chronometron" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -192,7 +196,7 @@
                 </target>
             </beginTargets>
         </chronometron>
-        <genericUnitAbility name="Necrons/CountertemporalNanomines" consumedMovement="0" cooldownMax="1" cooldownMin="3" icon="Actions/Necrons/CountertemporalNanomines" rank="-1" rankMax="2"> <!-- axis aligned billboard scarabs traveling towards unit center -->
+        <genericUnitAbility name="Necrons/CountertemporalNanomines" consumedMovement="0" cooldownMax="2" cooldownMin="5" icon="Actions/Necrons/CountertemporalNanomines" rank="-1" rankMax="2"> <!-- axis aligned billboard scarabs traveling towards unit center -->
             <model>
                 <action animation="Units/Necrons/CryptekAbility" sound="Actions/PsychicDebuff" />
             </model>

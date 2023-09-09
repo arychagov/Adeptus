@@ -95,6 +95,7 @@
     <entry name="Necrons/AggressionOverridesDescription" value="Permanently increases Canoptek Spyder's hit points, armour penetration and damage." />
     <entry name="Necrons/AggressionOverridesFlavor" value="<string name='Traits/Necrons/AggressionOverridesFlavor'/>" />
     <entry name="Necrons/BloodyCrusadeDescription" value="Increases the attacks of Destroyer Lord and the melee attacks of nearby allied units." />
+    <entry name="Necrons/ChronometronDescription" value="Permanently increases the damage and damage reduction of the target allied infantry or monstrous creature unit."/>
     <entry name="Necrons/CountertemporalNanomines" value="<string name='Traits/Necrons/CountertemporalNanomines'/>" />
     <entry name="Necrons/CountertemporalNanominesDescription" value="Immobilizes enemy non-hero unit." />
     <entry name="Necrons/CountertemporalNanominesFlavor" value="<string name='Traits/Necrons/CountertemporalNanominesFlavor'/>" />

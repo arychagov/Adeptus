@@ -142,7 +142,7 @@
     <entry name="Necrons/CountertemporalNanominesDescription" value="Immobilized." />
     <entry name="Necrons/CountertemporalNanominesFlavor" value="Released from a hive-gem about the bearer’s person, a swarm of nanoscarabs sweep out and lace the ground before them with microscopic temporal charges. Foes advancing into this invisible minefield find reality stuttering and glitching around them as they trigger one minute chronofault after another." />
     <entry name="Necrons/CunningAdvisors" value="Cunning Advisors" />
-    <entry name="Necrons/CunningAdvisorsDescription" value="Greatly increases research output." />
+    <entry name="Necrons/CunningAdvisorsDescription" value="Increases research output." />
     <entry name="Necrons/CunningAdvisorsFlavor" value="The greater a Necron nobles reputation, the more cunning and accomplished are the Crypteks who seek them out and offer them service." />
     <entry name="Necrons/DefensiveProtocolsDescription" value="Increases the regeneration." />
     <entry name="Necrons/DefensiveProtocolsLord" value="<string name='Actions/Necrons/DefensiveProtocols'/>" />

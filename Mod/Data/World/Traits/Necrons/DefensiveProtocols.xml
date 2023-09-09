@@ -12,7 +12,7 @@
                 </unit>
             </conditions>
             <effects>
-                <hitpoints add="2" />
+                <hitpoints add="1" />
                 <moraleLossFactor add="-0.33" />
             </effects>
         </modifier>
