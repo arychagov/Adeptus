@@ -145,6 +145,11 @@
                     <areas>
                         <area affects="Unit">
                             <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="Infiltrate" duration="1" />
+                                    </effects>
+                                </modifier>
                                 <modifier requiredUpgrade="Necrons/HammerOfWrath">
                                     <effects>
                                         <addTrait name="HammerOfWrath" duration="1" />
@@ -155,44 +160,7 @@
                     </areas>
                 </target>
             </beginTargets>
-            <endTargets>
-                <target>
-                    <areas>
-                        <area affects="Unit" radius="1">
-                            <modifiers>
-                                <modifier>
-                                    <conditions>
-                                        <unit>
-                                            <enemy />
-                                        </unit>
-                                    </conditions>
-                                    <effects>
-                                        <addTrait name="Necrons/AethericInterception" duration="1" />
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </target>
-            </endTargets>
         </jumpPack>
-        <genericUnitAbility name="Necrons/JudgementOfTheTriarch" icon="Units/Necrons/TriarchPraetorian" passive="1">
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Tile" excludeRadius="0" radius="1">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="Necrons/JudgementOfTheTriarch" />
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-        </genericUnitAbility>
     </actions>
     <traits>
         <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
@@ -200,5 +168,6 @@
         <trait name="Fearless" />
         <trait name="Necrons/ReanimationProtocols" />
         <trait name="Bodyguard" />
+        <trait name="Shielded" requiredUpgrade="Necrons/Translocation" />
     </traits>
 </unit>
