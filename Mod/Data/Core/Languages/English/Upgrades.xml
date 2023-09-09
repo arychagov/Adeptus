@@ -95,7 +95,7 @@
     <entry name="Necrons/AircraftBuildingBonusDescription" value="Increases the production output of Nameless Causeways. Increases the invulnerable damage reduction of Night Scythes and Doom Scythes."/>
     <entry name="Necrons/AttackCityBonusDescription" value="Increases the accuracy of units, except aircrafts."/>
     <entry name="Necrons/CityTier2Description" value="Increases the tile acquisition radius." />
-    <entry name="Necrons/CityTier3Description" value="Increases the tile acquisition radius." />
+    <entry name="Necrons/CityTier3Description" value="Increases the tile acquisition radius, the armor and the hitpoints. Grants additional action per turn to cities." />
     <entry name="Necrons/DimensionalCorridor2" value="Dimensional Stability" />
     <entry name="Necrons/DimensionalCorridor2Description" value="Reduces the influence cost, the action and movement cost of Dimensional Corridor." />
     <entry name="Necrons/DimensionalCorridor2Flavor" value="Drawing upon the power of the Old One's abandoned technology has allowed the Necrons to stabilise their recall technology, greatly reducing the cost of warriors phasing out to Eternity Gates." />

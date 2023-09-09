@@ -122,5 +122,6 @@
         <trait name="Headquarters" />
         <trait name="Transport" />
         <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
+        <trait name="Necrons/CityTier3" requiredUpgrade="Necrons/CityTier3" />
     </traits>
 </unit>

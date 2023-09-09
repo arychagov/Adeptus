@@ -144,6 +144,7 @@
     <entry name="Necrons/CunningAdvisors" value="Cunning Advisors" />
     <entry name="Necrons/CunningAdvisorsDescription" value="Increases research output." />
     <entry name="Necrons/CunningAdvisorsFlavor" value="The greater a Necron nobles reputation, the more cunning and accomplished are the Crypteks who seek them out and offer them service." />
+    <entry name="Necrons/CityTier3Description" value="Increases the tile acquisition radius, the armour and hitpoints. Grants additional action."/>
     <entry name="Necrons/DefensiveProtocolsDescription" value="Increases the regeneration." />
     <entry name="Necrons/DefensiveProtocolsLord" value="<string name='Actions/Necrons/DefensiveProtocols'/>" />
     <entry name="Necrons/DefensiveProtocolsLordDescription" value="Increases the armour." />

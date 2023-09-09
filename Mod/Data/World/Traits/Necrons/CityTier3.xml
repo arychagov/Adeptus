@@ -4,6 +4,9 @@
         <modifier>
             <effects>
                 <cityRadius add="1" />
+                <actionPointsMax add="1" />
+                <hitpointsMax mul="0.2" />
+                <armour add="2" />
             </effects>
         </modifier>
     </modifiers>
