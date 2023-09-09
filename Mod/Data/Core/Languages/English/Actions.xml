@@ -116,6 +116,8 @@
     <entry name="Necrons/QuantumDeflectionDescription" value="<string name='Traits/Necrons/QuantumDeflectionDescription'/>" />
     <entry name="Necrons/QuantumDeflectionFlavor" value="<string name='Traits/Necrons/QuantumDeflectionFlavor'/>" />
     <entry name="Necrons/QuantumShieldingDescription" value="Increases the invulnerable damage reduction." />
+    <entry name="Necrons/StormOfFlensingBlades" value="Storm Of Flensing Blades" />
+    <entry name="Necrons/StormOfFlensingBladesDescription" value="Increases the movement." />
     <entry name="Necrons/TriarchPraetorianJumpPack" value="<string name='Actions/JumpPack'/>" />
     <entry name="Necrons/TriarchPraetorianJumpPackDescription" value="Flies across obstacles to the target tile. Reduces the movement of adjacent enemy units in destination." />
     <entry name="Necrons/TriarchPraetorianJumpPackFlavor" value="<string name='Actions/JumpPackFlavor'/>" />

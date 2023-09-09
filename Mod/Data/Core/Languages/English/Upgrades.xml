@@ -121,7 +121,7 @@
     <entry name="Necrons/PredictiveStrategistFlavor" value="He that sees the face of the enemy sees only his death, he that hears the words of the enemy hear’est only lies, but he that know’eth the heart of the enemy, hath the wisdom to slay'eth all before him in their measure." />
     <entry name="Necrons/QuantumShieldingDescription" value="Grants vehicles and aircrafts the invulnerable damage reduction." />
     <entry name="Necrons/StormOfFlensingBlades" value="Storm Of Flensing Blades" />
-    <entry name="Necrons/StormOfFlensingBladesDescription" value="Grants Flayed Ones ability to pin units with melee attacks and ignore zone of control." />
+    <entry name="Necrons/StormOfFlensingBladesDescription" value="Grants Flayed Ones ability to ignore zone of control. Grants Flayed Ones ability to temporary increase the movement." />
     <entry name="Necrons/StormOfFlensingBladesFlavor" value="Driven into a grotesque frenzy by the hot gore sluicing through their innards, the Flayed Ones lay about themselves wildly with their vicious talons." />
     <entry name="Necrons/TheSwarm" value="The Swarm" />
     <entry name="Necrons/TheSwarmDescription" value="Grants cities, Triarch Stalkers, Wraiths and Monoliths ability to summon Canoptek Scarabs. Removes the cost of Canoptek Scarab summoning." />

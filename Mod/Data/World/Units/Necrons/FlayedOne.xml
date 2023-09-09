@@ -139,6 +139,26 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
+        <genericUnitAbility name="Necrons/StormOfFlensingBlades" consumedActionPoints="0" consumedMovement="0" cooldown="5" icon="Upgrades/Necrons/StormOfFlensingBlades" requiredActionPoints="0" requiredMovement="1" requiredUpgrade="Necrons/StormOfFlensingBlades" usableInTransport="1">
+            <model>
+                <action sound="Actions/PsychicBuff" />
+            </model>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="Fleet" duration="1" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
     </actions>
     <traits>
         <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
