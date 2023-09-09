@@ -203,6 +203,10 @@
     <entry name="Necrons/OrphicStarkness" value="Orphic Starkness"/>
     <entry name="Necrons/OrphicStarknessDescription" value="Increases the invulnerable damage reduction."/>
     <entry name="Necrons/OrphicStarknessFlavor" value="This inhuman expanse of stone now seems to bend impossibly, filling more space than there is. The Necron flying machines stretch and flicker in and out of existence as they traverse it."/>
+    <entry name="Necrons/Overcharged" value="Overcharged" />
+    <entry name="Necrons/OverchargedDescription" value="Blocks Quantum Shielding due to recent overcharge." />
+    <entry name="Necrons/OverchargedQuantumShielding" value="Overcharged Quantum Shielding" />
+    <entry name="Necrons/OverchargedQuantumShieldingDescription" value="Increases the invulnerable damage reduction." />
     <entry name="Necrons/PredictiveStrategist" value="Predictive Strategist" />
     <entry name="Necrons/PredictiveStrategistDescription" value="Reduces the upkeep." />
     <entry name="Necrons/Prosperity" value="Prosperity" />

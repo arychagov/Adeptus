@@ -2,6 +2,11 @@
 <trait category="Buff" icon="Actions/Necrons/QuantumShielding">
     <modifiers>
         <modifier>
+            <conditions>
+                <unit>
+                    <noTrait name="Necrons/Overcharged" />
+                </unit>
+            </conditions>
             <effects>
                 <invulnerableDamageReduction min="0.17" />
             </effects>

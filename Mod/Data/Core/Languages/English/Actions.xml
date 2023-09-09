@@ -112,6 +112,9 @@
     <entry name="Necrons/MethodicalDestruction" value="<string name='Traits/Necrons/MethodicalDestruction'/>" />
     <entry name="Necrons/MethodicalDestructionDescription" value="Increases the accuracy of the Lord and adjacent allied Necrons infantry." />
     <entry name="Necrons/MethodicalDestructionFlavor" value="<string name='Traits/Necrons/MethodicalDestructionFlavor'/>" />
+    <entry name="Necrons/OverchargeQuantumShielding" value="Overcharge Quantum Shielding" />
+    <entry name="Necrons/OverchargeQuantumShieldingDescription" value="Temporary increases the invulnerable damage reduction, but temporary blocks Quantum Shielding." />
+    <entry name="Necrons/OverchargeQuantumShieldingFlavor" value="Necron quantum shielding is a true marvel of techno-arcana, phasing into existence at the moment of impact and capable of adaptive remodulation to diffuse and deflect even the most powerful enemy attacks." />
     <entry name="Necrons/QuantumDeflection" value="<string name='Traits/Necrons/QuantumDeflection'/>" />
     <entry name="Necrons/QuantumDeflectionDescription" value="<string name='Traits/Necrons/QuantumDeflectionDescription'/>" />
     <entry name="Necrons/QuantumDeflectionFlavor" value="<string name='Traits/Necrons/QuantumDeflectionFlavor'/>" />

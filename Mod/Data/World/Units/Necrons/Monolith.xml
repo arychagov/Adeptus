@@ -156,6 +156,32 @@
                 </target>
             </beginTargets>
         </scarabHive>
+        <genericUnitAbility name="Necrons/OverchargeQuantumShielding" consumedActionPoints="0" consumedMovement="0" cooldown="3" icon="Upgrades/Necrons/OverchargedQuantumShielding" requiredActionPoints="0" requiredUpgrade="Necrons/OverchargedQuantumShielding">
+            <model>
+                <action sound="Actions/ChargeUp" />
+            </model>
+            <conditions>
+                <unit>
+                    <notAttackedThisTurn />
+                </unit>
+            </conditions>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="Necrons/OverchargedQuantumShielding" duration="1" />
+                                        <addTrait name="Necrons/Overcharged" duration="3" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
     </actions>
     <traits>
         <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
