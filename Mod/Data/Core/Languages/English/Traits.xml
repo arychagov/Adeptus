@@ -196,6 +196,9 @@
     <entry name="Necrons/MethodicalDestruction" value="Methodical Destruction" />
     <entry name="Necrons/MethodicalDestructionDescription" value="Increases the accuracy." />
     <entry name="Necrons/MethodicalDestructionFlavor" value="The Dynasty excel in systematic killing, marking each target then concentrating their fury upon it until it is completely obliterated." />
+    <entry name="Necrons/OrphicStarkness" value="Orphic Starkness"/>
+    <entry name="Necrons/OrphicStarknessDescription" value="Increases the invulnerable damage reduction."/>
+    <entry name="Necrons/OrphicStarknessFlavor" value="This inhuman expanse of stone now seems to bend impossibly, filling more space than there is. The Necron flying machines stretch and flicker in and out of existence as they traverse it."/>
     <entry name="Necrons/Prosperity" value="Prosperity" />
     <entry name="Necrons/ProsperityDescription" value="Increases city growth" />
     <entry name="Necrons/QuantumDeflection" value="Quantum Deflection" />

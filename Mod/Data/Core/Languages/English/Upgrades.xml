@@ -92,6 +92,7 @@
     <entry name="Eldar/HornetDescription" value="Fast reconnaissance skimmer unit that can clear tiles." />
     <entry name="Eldar/SpiritStonesDescription" value="Reduces the morale loss of Shining Spears, Fire Prisms, Hornets, War Walkers and Wave Serpents." />
 
+    <entry name="Necrons/AircraftBuildingBonusDescription" value="Increases the production output of Nameless Causeways. Increases the invulnerable damage reduction of Night Scythes and Doom Scythes."/>
     <entry name="Necrons/CityTier2Description" value="Increases the tile acquisition radius." />
     <entry name="Necrons/CityTier3Description" value="Increases the tile acquisition radius." />
     <entry name="Necrons/DimensionalCorridor2" value="Dimensional Stability" />
