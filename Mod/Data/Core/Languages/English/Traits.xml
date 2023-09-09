@@ -217,6 +217,8 @@
     <entry name="Necrons/ReanimationProtocolsWarrior" value="Reanimation Protocols" />
     <entry name="Necrons/ReanimationProtocolsWarriorDescription" value="Restores hitpoints each turn." />
     <entry name="Necrons/ReanimationProtocolsWarriorFlavor" value="Necrons have sophisticated self-repair systems that return even critically damaged warriors to the fight." />
+    <entry name="Necrons/UpgradedGaussFlayerArray" value="Upgraded Gauss Flayer Array" />
+    <entry name="Necrons/UpgradedGaussFlayerArrayDescription" value="Increases the ranged attacks of Ghost Ark." />
 
     <entry name="Orks/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
     <entry name="Orks/Prosperity" value="Prosperity" />

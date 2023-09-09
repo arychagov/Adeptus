@@ -234,6 +234,91 @@
             </stages>
         </quest>
     </quests>
+    <actions>
+        <installSupportSystem name="Necrons/InstallAssaultSystem" cooldown="0" icon="Actions/Necrons/InstallAssaultSystem" requiredUpgrade="Necrons/GhostProtocol">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="40" />
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <target rangeMax="-1">
+                    <conditions>
+                        <unit>
+                            <allied />
+                            <type name="Necrons/GhostArk" />
+                            <noTrait name="Necrons/AssaultVehicle" />
+                            <noTrait name="Necrons/UpgradedGaussFlayerArray" />
+                            <notAttackedThisTurn />
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AssaultVehicle" />
+                                        <addTrait name="Exhausted" duration="1" />
+                                    </effects>
+                                </modifier>
+                                <modifier visible="0">
+                                    <effects>
+                                        <addTrait name="Stunned" />
+                                        <removeTrait name="Stunned" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </installSupportSystem>
+        <installSupportSystem name="Necrons/UpgradeGaussFlayerArray" cooldown="0" icon="Actions/Necrons/UpgradeGaussFlayerArray" requiredUpgrade="Necrons/GhostProtocol">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="40" />
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <target rangeMax="-1">
+                    <conditions>
+                        <unit>
+                            <allied />
+                            <type name="Necrons/GhostArk" />
+                            <cargoSlotsTaken equal="0" />
+                            <noTrait name="Necrons/AssaultVehicle" />
+                            <noTrait name="Necrons/UpgradedGaussFlayerArray" />
+                            <notAttackedThisTurn />
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="Necrons/UpgradedGaussFlayerArray" />
+                                        <addTrait name="Exhausted" duration="1" />
+                                        <removeTrait name="Transport" />
+                                        <addTrait name="Untransport" />
+                                    </effects>
+                                </modifier>
+                                <modifier visible="0">
+                                    <effects>
+                                        <addTrait name="Stunned" />
+                                        <removeTrait name="Stunned" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </installSupportSystem>
+    </actions>
     <startingUnits>
         <unit type="Necrons/CanoptekSpyder" />
         <unit count="2" type="Necrons/Warrior" />
