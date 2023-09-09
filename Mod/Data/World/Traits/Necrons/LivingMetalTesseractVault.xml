@@ -3,12 +3,12 @@
     <perTurnModifiers endure="0">
         <modifier>
             <effects>
-                <hitpoints add="6" />
+                <hitpoints add="10" />
             </effects>
         </modifier>
         <modifier requiredUpgrade="Necrons/LivingMetal2">
             <effects>
-                <hitpoints add="3" />
+                <hitpoints add="5" />
             </effects>
         </modifier>
     </perTurnModifiers>

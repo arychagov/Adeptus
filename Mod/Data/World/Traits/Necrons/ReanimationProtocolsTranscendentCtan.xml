@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Traits/Necrons/LivingMetal">
+<trait icon="Traits/Necrons/ReanimationProtocols">
     <perTurnModifiers endure="0">
         <modifier>
             <effects>
-                <hitpoints add="3" />
+                <hitpoints add="4" />
             </effects>
         </modifier>
         <modifier requiredUpgrade="Necrons/LivingMetal2">
             <effects>
-                <hitpoints add="1.5" />
+                <hitpoints add="2" />
             </effects>
         </modifier>
     </perTurnModifiers>

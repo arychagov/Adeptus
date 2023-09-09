@@ -178,7 +178,7 @@
         <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
         <trait name="ExtraInfantryArmour" requiredUpgrade="Necrons/ExtraInfantryArmour" />
         <trait name="Fearless" />
-        <trait name="Necrons/ReanimationProtocols" />
+        <trait name="Necrons/ReanimationProtocolsTriarchPraetorian" />
         <trait name="Bodyguard" />
         <trait name="Shielded" requiredUpgrade="Necrons/Translocation" />
         <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
