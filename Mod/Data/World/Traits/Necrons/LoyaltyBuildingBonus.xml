@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <loyalty mul="0.17" />
+                <loyalty mul="0.1" />
             </effects>
         </modifier>
     </modifiers>
