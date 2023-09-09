@@ -247,5 +247,6 @@
         <trait name="MoveThroughCover" />
         <trait name="Relentless" />
         <trait name="Smash" />
+        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
     </traits>
 </unit>

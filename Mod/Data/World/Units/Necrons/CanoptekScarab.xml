@@ -110,5 +110,6 @@
         <trait name="Necrons/LivingMetalCanoptekScarab" />
         <trait name="MoveThroughCover" />
         <trait name="Swarms" />
+        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
     </traits>
 </unit>

@@ -153,5 +153,6 @@
         <trait name="Vehicle" />
         <trait name="Necrons/QuantumShielding" requiredUpgrade="Necrons/QuantumShielding" />
         <trait name="Necrons/OrphicStarkness" requiredUpgrade="Necrons/AircraftBuildingBonus" />
+        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
     </traits>
 </unit>

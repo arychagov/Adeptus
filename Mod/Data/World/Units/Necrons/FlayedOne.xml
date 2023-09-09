@@ -167,5 +167,6 @@
         <trait name="Infiltrate" />
         <trait name="HitAndRun" requiredUpgrade="Necrons/StormOfFlensingBlades" />
         <trait name="Necrons/EndlessLegions" requiredUpgrade="Necrons/EndlessLegions" />
+        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
     </traits>
 </unit>

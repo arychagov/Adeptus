@@ -131,5 +131,6 @@
         <trait name="PreferredEnemy" />
         <trait name="Relentless" />
         <trait name="Necrons/ReanimationProtocols" />
+        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
     </traits>
 </unit>

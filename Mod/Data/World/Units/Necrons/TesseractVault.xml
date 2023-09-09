@@ -144,5 +144,6 @@
         <trait name="SuperHeavy" />
         <trait name="Vehicle" />
         <trait name="Necrons/VengeanceOfTheEnchained" />
+        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
     </traits>
 </unit>

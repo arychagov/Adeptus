@@ -161,5 +161,6 @@
         <trait name="ExtraVehicleArmour" requiredUpgrade="Necrons/ExtraVehicleArmour" />
         <trait name="Necrons/QuantumShielding" requiredUpgrade="Necrons/QuantumShielding" />
         <trait name="MannedWeaponGhostArk" />
+        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
     </traits>
 </unit>

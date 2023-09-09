@@ -130,5 +130,6 @@
         <trait name="Necrons/ReanimationProtocols" />
         <trait name="Rapid" />
         <trait name="Necrons/EndlessLegions" requiredUpgrade="Necrons/EndlessLegions" />
+        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
     </traits>
 </unit>

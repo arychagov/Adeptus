@@ -110,5 +110,6 @@
         <trait name="Rending" />
         <trait name="Necrons/WraithForm" />
         <trait name="Necrons/Wraithflight" />
+        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
     </traits>
 </unit>

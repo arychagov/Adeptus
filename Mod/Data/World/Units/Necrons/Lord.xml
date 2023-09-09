@@ -240,5 +240,6 @@
         <trait name="Hero" />
         <trait name="Necrons/ReanimationProtocols" />
         <trait name="Necrons/PhaseShiftGenerator" />
+        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
     </traits>
 </unit>

@@ -173,5 +173,6 @@
         <trait name="Necrons/LivingMetalTombBlades" />
         <trait name="Necrons/ShieldVane" requiredUpgrade="Necrons/Nebuloscope" />
         <trait name="Necrons/QuantumShielding" requiredUpgrade="Necrons/QuantumShielding" />
+        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
     </traits>
 </unit>

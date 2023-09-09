@@ -128,5 +128,6 @@
         <trait name="ExtraInfantryArmour" requiredUpgrade="Necrons/ExtraInfantryArmour" />
         <trait name="Necrons/ReanimationProtocolsWarrior" />
         <trait name="Necrons/EndlessLegions" requiredUpgrade="Necrons/EndlessLegions" />
+        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
     </traits>
 </unit>

@@ -232,5 +232,6 @@
         <trait name="JetPack" />
         <trait name="PreferredEnemy" />
         <trait name="Necrons/ReanimationProtocols" />
+        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
     </traits>
 </unit>

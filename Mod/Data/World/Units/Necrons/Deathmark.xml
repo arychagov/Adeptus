@@ -148,5 +148,6 @@
         <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
         <trait name="ExtraInfantryArmour" requiredUpgrade="Necrons/ExtraInfantryArmour" />
         <trait name="Necrons/ReanimationProtocols" />
+        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
     </traits>
 </unit>

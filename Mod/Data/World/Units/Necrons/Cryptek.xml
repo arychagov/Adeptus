@@ -234,5 +234,6 @@
         <trait name="SupportHero" />
         <trait name="Necrons/ReanimationProtocols" />
         <trait name="Necrons/Technomancer" />
+        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
     </traits>
 </unit>

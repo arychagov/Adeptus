@@ -169,5 +169,6 @@
         <trait name="Necrons/ReanimationProtocols" />
         <trait name="Bodyguard" />
         <trait name="Shielded" requiredUpgrade="Necrons/Translocation" />
+        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
     </traits>
 </unit>

@@ -82,5 +82,6 @@
         <trait name="Fortification" />
         <trait name="Headquarters" />
         <trait name="Transport" />
+        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
     </traits>
 </unit>

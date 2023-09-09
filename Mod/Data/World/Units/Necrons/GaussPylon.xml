@@ -76,5 +76,6 @@
         <trait name="Fortification" />
         <trait name="Necrons/LivingMetal" />
         <trait name="SuperHeavy" />
+        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
     </traits>
 </unit>

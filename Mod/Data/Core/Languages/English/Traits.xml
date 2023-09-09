@@ -203,6 +203,8 @@
     <entry name="Necrons/OrphicStarkness" value="Orphic Starkness"/>
     <entry name="Necrons/OrphicStarknessDescription" value="Increases the invulnerable damage reduction."/>
     <entry name="Necrons/OrphicStarknessFlavor" value="This inhuman expanse of stone now seems to bend impossibly, filling more space than there is. The Necron flying machines stretch and flicker in and out of existence as they traverse it."/>
+    <entry name="Necrons/PredictiveStrategist" value="Predictive Strategist" />
+    <entry name="Necrons/PredictiveStrategistDescription" value="Reduces the upkeep." />
     <entry name="Necrons/Prosperity" value="Prosperity" />
     <entry name="Necrons/ProsperityDescription" value="Increases city growth" />
     <entry name="Necrons/QuantumDeflection" value="Quantum Deflection" />
