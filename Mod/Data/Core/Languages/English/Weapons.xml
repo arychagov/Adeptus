@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-    <entry name="BoltSniperRifle" value="Bolt Sniper Rifle" />
-    <entry name="BoltSniperRifleFlavor" value="Sniper rifles have powerful telescopic sights, enabling the firer to target weak points and distant foes with unerring accuracy. Some commanders see the sniper rifle as a dishonourable weapon, but they are in the minority. Most understand that pragmatism, and dead enemies, win more battles than honour ever will." />
-    <entry name="GaussReaper" value="Gauss Reaper" />
-    <entry name="GaussReaperFlavor" value="Gauss weapon which trades range for increased hitting power." />
-    <entry name="DestroyerWarscythe" value="<string name='Weapons/Warscythe'/>" />
-    <entry name="DestroyerWarscytheFlavor" value="<string name='Weapons/WarscytheFlavor'/>" />
-    <entry name="GuardsmanFlamer" value="Flamer" />
-    <entry name="GuardsmanFlamerFlavor" value="<string name='Weapons/FlamerFlavor'/>"/>
-    <entry name="GuardsmanMeltagun" value="Meltagun" />
-    <entry name="GuardsmanMeltagun" value="<string name='Weapons/MeltaFlavor'/>"/>
-    <entry name="HeavyLascannon" value="Heavy Lascannon" />
-    <entry name="HeavyLascannonFlavor" value="<string name='Weapons/LasFlavor'/>" />
-    <entry name="EradicatorNovaCannon" value="Eradicator Nova Cannon" />
-    <entry name="EradicatorNovaCannonFlavor" value="<string name='Weapons/BattleCannon'/>" />
-    <entry name="CadrePulseRifle" value="Cadre's Pulse Rifle" />
-    <entry name="CadrePulseRifleFlavor" value="<string name='Weapons/PulseRifleFlavor'/>" />
     <entry name="AstartesChainsword" value="Astartes Chainsword" />
     <entry name="AstartesChainswordFlavor" value="A chainsword is a high-powered chainsaw fitted with hilt, pommel and guard to make it less unwieldy. It is a common weapon across the Imperium, with a quite horrifying reputation for the damage it can inflict on unarmoured flesh." />
+    <entry name="BoltSniperRifle" value="Bolt Sniper Rifle" />
+    <entry name="BoltSniperRifleFlavor" value="Sniper rifles have powerful telescopic sights, enabling the firer to target weak points and distant foes with unerring accuracy. Some commanders see the sniper rifle as a dishonourable weapon, but they are in the minority. Most understand that pragmatism, and dead enemies, win more battles than honour ever will." />
+    <entry name="CadrePulseRifle" value="Cadre's Pulse Rifle" />
+    <entry name="CadrePulseRifleFlavor" value="<string name='Weapons/PulseRifleFlavor'/>" />
+    <entry name="DestroyerWarscythe" value="<string name='Weapons/Warscythe'/>" />
+    <entry name="DestroyerWarscytheFlavor" value="<string name='Weapons/WarscytheFlavor'/>" />
+    <entry name="EradicatorNovaCannon" value="Eradicator Nova Cannon" />
+    <entry name="EradicatorNovaCannonFlavor" value="<string name='Weapons/BattleCannon'/>" />
+    <entry name="GaussFlayerArrayGhostArk" value="Gauss Flayer Array"/>
+    <entry name="GaussFlayerArrayGhostArkFlavor" value="<string name='Weapons/GaussFlavor'/>"/>
+    <entry name="GaussReaper" value="Gauss Reaper" />
+    <entry name="GaussReaperFlavor" value="Gauss weapon which trades range for increased hitting power." />
+    <entry name="GuardsmanFlamer" value="Flamer" />
+    <entry name="GuardsmanFlamerFlavor" value="<string name='Weapons/FlamerFlavor'/>"/>
+    <entry name="GuardsmanMeltagun" value="<string name='Weapons/MeltaFlavor'/>"/>
+    <entry name="GuardsmanMeltagun" value="Meltagun" />
+    <entry name="HeavyLascannon" value="Heavy Lascannon" />
+    <entry name="HeavyLascannonFlavor" value="<string name='Weapons/LasFlavor'/>" />
 </language>

@@ -152,7 +152,6 @@
         </jink>
     </actions>
     <traits>
-        <trait name="AssaultVehicle" />
         <trait name="Necrons/LivingMetal" />
         <trait name="OpenTopped" />
         <trait name="Skimmer" />
@@ -161,5 +160,6 @@
         <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
         <trait name="ExtraVehicleArmour" requiredUpgrade="Necrons/ExtraVehicleArmour" />
         <trait name="Necrons/QuantumShielding" requiredUpgrade="Necrons/QuantumShielding" />
+        <trait name="MannedWeaponGhostArk" />
     </traits>
 </unit>
