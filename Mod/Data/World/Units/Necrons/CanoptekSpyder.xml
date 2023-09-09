@@ -117,15 +117,6 @@
                     </effects>
                 </modifier>
             </modifiers>
-            <beginTargets>
-                <target>
-                    <conditions>
-                        <tile>
-                            <feature name="NecronTomb" />
-                        </tile>
-                    </conditions>
-                </target>
-            </beginTargets>
         </foundCity>
         <clearTileUnitAbility name="ClearTile" cooldown="1" icon="Actions/ClearTile">
             <model>
