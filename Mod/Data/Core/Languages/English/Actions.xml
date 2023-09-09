@@ -145,9 +145,9 @@
     <entry name="SpaceMarines/AdditionalHeavyBoltersDescription" value="Grants Predator additional heavy bolters. Only one upgrade or install can be set up for a unit." />
     <entry name="SpaceMarines/AdditionalStormBolter" value="Install Storm Bolter" />
     <entry name="SpaceMarines/AdditionalStormBolterDescription" value="Grants Razorback additional storm bolter, but removes ability to transport cargo. Only one upgrade or install can be set up for a unit." />
-    <entry name="SpaceMarines/CamoCloak" value="Camo Cloak" />
-    <entry name="SpaceMarines/CamoCloakDescription" value="Temporary increases the ranged damage reduction while in an imperial ruin or a forest" />
-    <entry name="SpaceMarines/CamoCloakFlavor" value="The weave of this camo cloak emulates the movements of the elements. As a gust of wind passes, as rainfalls across the battlefield, as the haze of heat shimmers the air, the bearers form flickers in and out of perception. If the bearer remains stationary, they are clouded entirely, a ghost lost to the wilds." />
+    <entry name="SpaceMarines/Infiltrate" value="Camo Cloak" />
+    <entry name="SpaceMarines/InfiltrateDescription" value="Temporary increases the ranged damage reduction while in an imperial ruin or a forest" />
+    <entry name="SpaceMarines/InfiltrateFlavor" value="The weave of this camo cloak emulates the movements of the elements. As a gust of wind passes, as rainfalls across the battlefield, as the haze of heat shimmers the air, the bearers form flickers in and out of perception. If the bearer remains stationary, they are clouded entirely, a ghost lost to the wilds." />
     <entry name="SpaceMarines/DominusAegis" value="<string name='Traits/SpaceMarines/DominusAegis'/>" />
     <entry name="SpaceMarines/DominusAegisDescription" value="<string name='Traits/SpaceMarines/DominusAegisDescription'/>" />
     <entry name="SpaceMarines/DominusAegisFlavor" value="<string name='Traits/SpaceMarines/DominusAegisFlavor'/>" />

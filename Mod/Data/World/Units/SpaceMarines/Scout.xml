@@ -69,7 +69,7 @@
                 <action animation="Units/SpaceMarines/ScoutMove" sound="Units/SpaceMarines/InfantryMove" soundCount="4" />
             </model>
         </move>
-        <scout consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0" requiredUpgrade="SpaceMarines/CamoCloak" >
+        <scout consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0" requiredUpgrade="SpaceMarines/Infiltrate">
             <model>
                 <action sound="Actions/Scan" />
             </model>
@@ -89,7 +89,7 @@
                 </selfTarget>
             </beginTargets>
         </scout>
-        <clearTileUnitAbility name="ClearTile" cooldown="1" icon="Actions/ClearTile">
+        <clearTileUnitAbility name="ClearTile" cooldown="1" icon="Actions/ClearTile" requiredUpgrade="SpaceMarines/Infiltrate">
             <model>
                 <action />
             </model>
@@ -108,7 +108,7 @@
                 </modifier>
             </modifiers>
         </clearTileUnitAbility>
-        <genericUnitAbility name="SpaceMarines/CamoCloak" icon="Traits/SpaceMarines/CamoCloak" requiredUpgrade="SpaceMarines/CamoCloak" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0">
+        <genericUnitAbility name="SpaceMarines/Infiltrate" consumedActionPoints="0" consumedMovement="0" cooldown="5" icon="Traits/SpaceMarines/Infiltrate" requiredActionPoints="0" requiredUpgrade="SpaceMarines/Infiltrate">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -116,7 +116,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait duration="1" name="SpaceMarines/CamoCloak" />
+                                        <addTrait name="SpaceMarines/Infiltrate" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>

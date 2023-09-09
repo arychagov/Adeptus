@@ -281,9 +281,9 @@
     <entry name="SpaceMarines/BoltDamage" value="Kraken Bolts" />
     <entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
     <entry name="SpaceMarines/BoltDamageFlavor" value="<string name='Traits/AstraMilitarum/BoltDamageFlavor'/>" />
-    <entry name="SpaceMarines/CamoCloak" value="Camo Cloak" />
-    <entry name="SpaceMarines/CamoCloakDescription" value="Increases the ranged damage reduction while in an imperial ruin or a forest" />
-    <entry name="SpaceMarines/CamoCloakFlavor" value="The weave of this camo cloak emulates the movements of the elements. As a gust of wind passes, as rainfalls across the battlefield, as the haze of heat shimmers the air, the bearers form flickers in and out of perception. If the bearer remains stationary, they are clouded entirely, a ghost lost to the wilds." />
+    <entry name="SpaceMarines/Infiltrate" value="Camo Cloak" />
+    <entry name="SpaceMarines/InfiltrateDescription" value="Increases the ranged damage reduction while in an imperial ruin or a forest" />
+    <entry name="SpaceMarines/InfiltrateFlavor" value="The weave of this camo cloak emulates the movements of the elements. As a gust of wind passes, as rainfalls across the battlefield, as the haze of heat shimmers the air, the bearers form flickers in and out of perception. If the bearer remains stationary, they are clouded entirely, a ghost lost to the wilds." />
     <entry name="SpaceMarines/CityTier2Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption." />
     <entry name="SpaceMarines/CityTier3Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption." />
     <entry name="SpaceMarines/CityTier4Description" value="Increases the tile acquisition radius and gives Thunderfire Cannons and Fortresses of Redemption ability to increase the ranged damage reduction of the target tile. Increases the city damage reduction of Fortresses of Redemption." />
