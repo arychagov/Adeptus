@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Upgrades/Necrons/HousingBuildingBonusNecrodermisRepair2" position="7">
+<upgrade position="8">
+    <requiredUpgrades>
+        <upgrade name="Necrons/Vehicles" />
+    </requiredUpgrades>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increasePopulationLimitScore base="1.0" />
+                <increaseVehiclesScore base="1.0" />
             </effects>
         </modifier>
     </strategyModifiers>
