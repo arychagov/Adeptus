@@ -2,8 +2,18 @@
 <trait category="Buff" icon="Actions/Necrons/BloodyCrusade" rankMax="2">
     <modifiers>
         <modifier>
+            <conditions>
+                <unit>
+                    <allied />
+                    <faction name="Necrons" />
+                    <noTrait name="Fortification" />
+                    <noTrait name="Biker" />
+                    <noTrait name="Vehicle" />
+                </unit>
+            </conditions>
             <effects>
-                <attacks mulMax="0.3" mulMin="0.1" />
+                <accuracy addMax="1.5" addMin="0.5" />
+                <feelNoPainDamageReduction minMax="0.15" minMin="0.05" />
             </effects>
         </modifier>
     </modifiers>

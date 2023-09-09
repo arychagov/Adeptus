@@ -4,9 +4,9 @@
         <unit explosionsBone="BloodBone" idleAnimation="Units/Necrons/DestroyerLordIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Necrons/DestroyerLord" mesh="Units/Necrons/DestroyerLord" normalWeight="0.1" scale="0.9 0.9 0.9" walker="1" />
     </model>
     <weapons>
-        <weapon name="DestroyerWarscythe">
+        <weapon name="HeavyGaussCannon">
             <model>
-                <weapon bone="Bone037" fireInterval="0.5" material="Units/Necrons/DestroyerLord" mesh="Weapons/Necrons/Warscythe" muzzleBone=".Muzzle" />
+                <weapon bone="Bone037" fireInterval="0.8333333" material="Units/Necrons/DestroyerLord" mesh="Weapons/Necrons/GaussFlayer" muzzleBone=".Muzzle" />
             </model>
         </weapon>
     </weapons>
@@ -85,6 +85,7 @@
             </modifiers>
             <conditions>
                 <unit>
+                    <noTrait name="Necrons/BloodyCrusade" />
                     <damaged />
                 </unit>
             </conditions>
@@ -119,6 +120,11 @@
             <model>
                 <action sound="Actions/Teleport" />
             </model>
+            <conditions>
+                <unit>
+                    <noTrait name="Necrons/BloodyCrusade" />
+                </unit>
+            </conditions>
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -175,20 +181,11 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Unit">
+                        <area affects="Tile" radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
                                         <addTrait name="Necrons/BloodyCrusade" />
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                        <area affects="Tile" excludeRadius="0" radius="2">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="Necrons/BloodyCrusadeUnit" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -201,7 +198,7 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1">
+                        <area affects="Unit">
                             <modifiers>
                                 <modifier>
                                     <effects>
@@ -242,7 +239,8 @@
         <trait name="ExtraInfantryArmour" requiredUpgrade="Necrons/ExtraInfantryArmour" />
         <trait name="Hero" />
         <trait name="JetPack" />
-        <trait name="PreferredEnemy" />
+        <trait name="Fearless" />
+        <trait name="Relentless" />
         <trait name="Necrons/ReanimationProtocols" />
         <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
     </traits>

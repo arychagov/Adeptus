@@ -80,8 +80,10 @@
                     </effects>
                 </modifier>
             </modifiers>
+
             <conditions>
                 <unit>
+                    <noTrait name="Necrons/BloodyCrusade" />
                     <damaged />
                 </unit>
             </conditions>
@@ -119,17 +121,17 @@
         </useWeapon>
         <scarabHive name="Necrons/ScarabHive" cooldown="10" icon="Units/Necrons/CanoptekScarab" requiredUpgrade="Necrons/TheSwarm">
             <model>
-                <action animation="Units/Necrons/CanoptekSpyderAbility" sound="Actions/PsychicBuff" />
+                <action animation="Units/Necrons/MonolithGaussFluxArc" sound="Actions/PsychicBuff" />
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <energyCost base="20" />
+                        <energyCost base="40" />
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Necrons/TheSwarm" visible="0">
                     <effects>
-                        <energyCost add="-10" />
+                        <energyCost add="-20" />
                     </effects>
                 </modifier>
             </modifiers>

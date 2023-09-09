@@ -89,6 +89,7 @@
                 <selfTarget>
                     <conditions>
                         <unit>
+                            <noTrait name="Necrons/BloodyCrusade" />
                             <damaged />
                         </unit>
                     </conditions>
@@ -173,12 +174,12 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <energyCost base="20" />
+                        <energyCost base="40" />
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Necrons/TheSwarm" visible="0">
                     <effects>
-                        <energyCost add="-10" />
+                        <energyCost add="-20" />
                     </effects>
                 </modifier>
             </modifiers>

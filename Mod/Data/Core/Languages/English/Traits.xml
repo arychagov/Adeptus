@@ -124,8 +124,8 @@
     <entry name="Exhausted" value="Exhausted" />
     <entry name="ExhaustedDescription" value="Prevents unit from attacking and moving." />
 
-    <entry name="MannedWeaponGhostArk" value="Manned Weapon"/>
-    <entry name="MannedWeaponGhostArkDescription" value="Increases the ranged attacks while transporting cargo."/>
+    <entry name="MannedWeaponGhostArk" value="Manned Weapon" />
+    <entry name="MannedWeaponGhostArkDescription" value="Increases the ranged attacks while transporting cargo." />
 
     <entry name="Necrons/AethericInterception" value="Aetheric Interception" />
     <entry name="Necrons/AethericInterceptionDescription" value="Reduces the movement." />
@@ -135,20 +135,25 @@
     <entry name="Necrons/AggressionOverridesDescription" value="Increases Canoptek Spyder's hit points, armour penetration and damage." />
     <entry name="Necrons/AggressionOverridesFlavor" value="Canoptek Spyders are generally docile creatures, diligently maintaining their tomb complex. However, when roused to battle, their aggression engrams ensure they are truly formidable foes." />
     <entry name="Necrons/AggressionOverridesFlavor" value="Canoptek Spyders are generally docile creatures, diligently maintaining their tomb complex. However, when roused to battle, their aggression engrams ensure they are truly formidable foes." />
-    <entry name="Necrons/AttackCityBonusDescription" value="Increases the accuracy."/>
-    <entry name="Necrons/BloodyCrusadeUnit" value="Bloody Crusade (Aura)" />
-    <entry name="Necrons/BloodyCrusadeUnitDescription" value="Increases melee attacks." />
+    <entry name="Necrons/AttackCityBonusDescription" value="Increases the accuracy." />
+    <entry name="Necrons/BloodyCrusade" value="Bloody Crusade" />
+    <entry name="Necrons/BloodyCrusadeDescription" value="Increases the accuracy and the feel no pain damage reduction, but disables Reanimation Protocols, Living Metal, Dimensional Corridor and Necrodermis Repair." />
     <entry name="Necrons/CountertemporalNanomines" value="Countertemporal Nanomines" />
     <entry name="Necrons/CountertemporalNanominesDescription" value="Immobilized." />
     <entry name="Necrons/CountertemporalNanominesFlavor" value="Released from a hive-gem about the bearer’s person, a swarm of nanoscarabs sweep out and lace the ground before them with microscopic temporal charges. Foes advancing into this invisible minefield find reality stuttering and glitching around them as they trigger one minute chronofault after another." />
     <entry name="Necrons/CunningAdvisors" value="Cunning Advisors" />
     <entry name="Necrons/CunningAdvisorsDescription" value="Increases research output." />
     <entry name="Necrons/CunningAdvisorsFlavor" value="The greater a Necron nobles reputation, the more cunning and accomplished are the Crypteks who seek them out and offer them service." />
-    <entry name="Necrons/CityTier3Description" value="Increases the tile acquisition radius, the armour and hitpoints. Grants additional action."/>
+    <entry name="Necrons/CityTier3Description" value="Increases the tile acquisition radius, the armour and hitpoints. Grants additional action." />
     <entry name="Necrons/DefensiveProtocolsDescription" value="Increases the regeneration." />
     <entry name="Necrons/DefensiveProtocolsLord" value="<string name='Actions/Necrons/DefensiveProtocols'/>" />
     <entry name="Necrons/DefensiveProtocolsLordDescription" value="Increases the armour." />
     <entry name="Necrons/DefensiveProtocolsLordFlavor" value="<string name='Actions/Necrons/DefensiveProtocolsFlavor'/>" />
+    <entry name="Necrons/DestructionProtocols" value="<string name='Actions/Necrons/DestructionProtocols'/>" />
+    <entry name="Necrons/DestructionProtocolsDescription" value="Increases the accuracy. Increases the damage taken of attacked unit." />
+    <entry name="Necrons/DestructionProtocolsDebuff" value="<string name='Actions/Necrons/DestructionProtocols'/>" />
+    <entry name="Necrons/DestructionProtocolsDebuffDescription" value="Increases the damage taken." />
+
     <entry name="Necrons/EndlessLegions" value="Endless Legions" />
     <entry name="Necrons/EndlessLegionsDescription" value="Increases group size." />
     <entry name="Necrons/EndlessLegionsFlavor" value="As ever more systems awake upon this noble's tomb world, ever greater legions become theirs to command." />
@@ -201,9 +206,9 @@
     <entry name="Necrons/MethodicalDestruction" value="Methodical Destruction" />
     <entry name="Necrons/MethodicalDestructionDescription" value="Increases the accuracy." />
     <entry name="Necrons/MethodicalDestructionFlavor" value="The Dynasty excel in systematic killing, marking each target then concentrating their fury upon it until it is completely obliterated." />
-    <entry name="Necrons/OrphicStarkness" value="Orphic Starkness"/>
-    <entry name="Necrons/OrphicStarknessDescription" value="Increases the invulnerable damage reduction."/>
-    <entry name="Necrons/OrphicStarknessFlavor" value="This inhuman expanse of stone now seems to bend impossibly, filling more space than there is. The Necron flying machines stretch and flicker in and out of existence as they traverse it."/>
+    <entry name="Necrons/OrphicStarkness" value="Orphic Starkness" />
+    <entry name="Necrons/OrphicStarknessDescription" value="Increases the invulnerable damage reduction." />
+    <entry name="Necrons/OrphicStarknessFlavor" value="This inhuman expanse of stone now seems to bend impossibly, filling more space than there is. The Necron flying machines stretch and flicker in and out of existence as they traverse it." />
     <entry name="Necrons/Overcharged" value="Overcharged" />
     <entry name="Necrons/OverchargedDescription" value="Blocks Quantum Shielding due to recent overcharge." />
     <entry name="Necrons/OverchargedQuantumShielding" value="Overcharged Quantum Shielding" />

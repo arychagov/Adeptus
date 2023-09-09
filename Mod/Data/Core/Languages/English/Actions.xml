@@ -94,7 +94,8 @@
     <entry name="Necrons/AggressionOverrides" value="<string name='Traits/Necrons/AggressionOverrides'/>" />
     <entry name="Necrons/AggressionOverridesDescription" value="Permanently increases Canoptek Spyder's hit points, armour penetration and damage." />
     <entry name="Necrons/AggressionOverridesFlavor" value="<string name='Traits/Necrons/AggressionOverridesFlavor'/>" />
-    <entry name="Necrons/BloodyCrusadeDescription" value="Increases the attacks of Destroyer Lord and the melee attacks of nearby allied units." />
+    <entry name="Necrons/BloodyCrusade" value="Bloody Crusade" />
+    <entry name="Necrons/BloodyCrusadeDescription" value="Increases the accuracy and the feel no pain damage reduction of infantry and monstrous creatures, but disables Reanimation Protocols, Living Metal, Dimensional Corridor and Necrodermis Repair." />
     <entry name="Necrons/ChronometronDescription" value="Permanently increases the damage and damage reduction of the target allied infantry or monstrous creature unit."/>
     <entry name="Necrons/CountertemporalNanomines" value="<string name='Traits/Necrons/CountertemporalNanomines'/>" />
     <entry name="Necrons/CountertemporalNanominesDescription" value="Immobilizes enemy non-hero unit." />

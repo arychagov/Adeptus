@@ -88,6 +88,7 @@
                 <selfTarget>
                     <conditions>
                         <unit>
+                            <noTrait name="Necrons/BloodyCrusade" />
                             <damaged />
                         </unit>
                     </conditions>
@@ -120,6 +121,11 @@
             <model>
                 <action sound="Actions/Teleport" />
             </model>
+            <conditions>
+                <unit>
+                    <noTrait name="Necrons/BloodyCrusade" />
+                </unit>
+            </conditions>
             <modifiers>
                 <modifier visible="0">
                     <effects>

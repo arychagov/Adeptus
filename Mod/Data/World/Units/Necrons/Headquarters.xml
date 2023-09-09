@@ -78,17 +78,17 @@
         </constructGaussPylon>
         <scarabHive name="Necrons/ScarabHive" cooldown="10" icon="Units/Necrons/CanoptekScarab" requiredUpgrade="Necrons/TheSwarm">
             <model>
-                <action animation="Units/Necrons/CanoptekSpyderAbility" sound="Actions/PsychicBuff" />
+                <action sound="Actions/PsychicBuff" />
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <energyCost base="20" />
+                        <energyCost base="40" />
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Necrons/TheSwarm" visible="0">
                     <effects>
-                        <energyCost add="-10" />
+                        <energyCost add="-20" />
                     </effects>
                 </modifier>
             </modifiers>

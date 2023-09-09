@@ -86,8 +86,10 @@
                     </effects>
                 </modifier>
             </modifiers>
+
             <conditions>
                 <unit>
+                    <noTrait name="Necrons/BloodyCrusade" />
                     <damaged />
                 </unit>
             </conditions>

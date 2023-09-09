@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff" icon="Actions/Necrons/DestructionProtocols" rankMax="2">
+<trait alwaysVisible="1" category="Buff" icon="Actions/Necrons/DestructionProtocols" rankMax="2">
     <modifiers>
         <modifier>
-            <conditions>
-                <encounter>
-                    <opponent>
-                        <faction name="Necrons" />
-                    </opponent>
-                </encounter>
-                <unit>
-                    <enemy />
-                    <noTrait name="Hero" />
-                </unit>
-            </conditions>
             <effects>
-                <damageTaken mulMax="0.3" mulMin="0.1" />
+                <rangedAccuracy addMax="2.0" addMin="1.0" />
             </effects>
         </modifier>
     </modifiers>
+    <onCombatOpponentModifiers>
+        <modifier visible="0">
+            <conditions>
+                <encounter>
+                    <opponent>
+                        <noAttacking />
+                    </opponent>
+                </encounter>
+            </conditions>
+            <effects>
+                <addTrait name="Necrons/DestructionProtocolsDebuff" duration="1" />
+            </effects>
+        </modifier>
+    </onCombatOpponentModifiers>
 </trait>

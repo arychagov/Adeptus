@@ -80,8 +80,10 @@
                     </effects>
                 </modifier>
             </modifiers>
+
             <conditions>
                 <unit>
+                    <noTrait name="Necrons/BloodyCrusade" />
                     <damaged />
                 </unit>
             </conditions>
@@ -116,6 +118,11 @@
             <model>
                 <action sound="Actions/Teleport" />
             </model>
+            <conditions>
+                <unit>
+                    <noTrait name="Necrons/BloodyCrusade" />
+                </unit>
+            </conditions>
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -140,7 +147,6 @@
         <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
         <trait name="ExtraInfantryArmour" requiredUpgrade="Necrons/ExtraInfantryArmour" />
         <trait name="JetPack" />
-        <trait name="PreferredEnemy" />
         <trait name="Relentless" />
         <trait name="Necrons/ReanimationProtocols" />
         <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
