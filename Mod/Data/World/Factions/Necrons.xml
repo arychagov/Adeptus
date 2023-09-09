@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<faction constructSound="Actions/Construct" energy="1" influence="1" loyalty="1" ore="1" orePooling="0.25" orePopulationUpkeep="1" playable="1" production="1" research="1" startingEnergy="50" startingFood="0" startingInfluence="25" startingOre="50" startingRequisitions="0">
+<faction actionsTitle="GUI/DynasticCodes" constructSound="Actions/Construct" energy="1" influence="1" loyalty="1" ore="1" orePooling="0.25" orePopulationUpkeep="1" playable="1" production="1" research="1" startingEnergy="50" startingFood="0" startingInfluence="25" startingOre="50" startingRequisitions="0">
     <music>
         <track name="Music/AdeptusMechanicusBGM" dlc="Supplement9" />
         <track name="Music/AdeptusMechanicusTheme" dlc="Supplement9" />
@@ -249,7 +249,7 @@
                         <unit>
                             <allied />
                             <type name="Necrons/GhostArk" />
-                            <noTrait name="Necrons/AssaultVehicle" />
+                            <noTrait name="AssaultVehicle" />
                             <noTrait name="Necrons/UpgradedGaussFlayerArray" />
                             <notAttackedThisTurn />
                         </unit>
@@ -290,7 +290,7 @@
                             <allied />
                             <type name="Necrons/GhostArk" />
                             <cargoSlotsTaken equal="0" />
-                            <noTrait name="Necrons/AssaultVehicle" />
+                            <noTrait name="AssaultVehicle" />
                             <noTrait name="Necrons/UpgradedGaussFlayerArray" />
                             <notAttackedThisTurn />
                         </unit>
