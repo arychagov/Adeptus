@@ -132,6 +132,7 @@
     <entry name="Necrons/AggressionOverridesDescription" value="Increases Canoptek Spyder's hit points, armour penetration and damage." />
     <entry name="Necrons/AggressionOverridesFlavor" value="Canoptek Spyders are generally docile creatures, diligently maintaining their tomb complex. However, when roused to battle, their aggression engrams ensure they are truly formidable foes." />
     <entry name="Necrons/AggressionOverridesFlavor" value="Canoptek Spyders are generally docile creatures, diligently maintaining their tomb complex. However, when roused to battle, their aggression engrams ensure they are truly formidable foes." />
+    <entry name="Necrons/AttackCityBonusDescription" value="Increases the accuracy."/>
     <entry name="Necrons/BloodyCrusadeUnit" value="Bloody Crusade (Aura)" />
     <entry name="Necrons/BloodyCrusadeUnitDescription" value="Increases melee attacks." />
     <entry name="Necrons/CountertemporalNanomines" value="Countertemporal Nanomines" />

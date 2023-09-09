@@ -143,7 +143,6 @@
         </supersonic>
     </actions>
     <traits>
-        <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
         <trait name="ExtraVehicleArmour" requiredUpgrade="Necrons/ExtraVehicleArmour" />
         <trait name="Flyer" />
         <trait name="Necrons/InvasionBeams" />
