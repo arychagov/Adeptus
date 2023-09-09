@@ -129,31 +129,12 @@
                 </modifier>
             </modifiers>
         </dimensionalCorridor>
-        <huntersFromHyperspace name="Necrons/HuntersFromHyperspace" consumedActionPoints="0" cooldown="10" requiredActionPoints="0">
-            <model>
-                <action sound="Actions/HuntersFromHyperspace" />
-            </model>
-            <endTargets>
-                <target>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="Necrons/HuntersFromHyperspace" duration="1" />
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </target>
-            </endTargets>
-        </huntersFromHyperspace>
     </actions>
     <traits>
         <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
         <trait name="ExtraInfantryArmour" requiredUpgrade="Necrons/ExtraInfantryArmour" />
         <trait name="Necrons/ReanimationProtocols" />
         <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
+        <trait name="Necrons/Nebuloscope" requiredUpgrade="Necrons/Nebuloscope" />
     </traits>
 </unit>

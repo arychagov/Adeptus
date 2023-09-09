@@ -2,6 +2,7 @@
 <upgrade icon="Traits/Necrons/Nebuloscope" position="2">
     <requiredUpgrades>
         <upgrade name="Necrons/Vehicles" />
+        <upgrade name="Necrons/Deathmark" />
     </requiredUpgrades>
     <strategyModifiers>
         <modifier>
