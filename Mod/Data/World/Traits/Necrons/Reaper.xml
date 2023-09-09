@@ -3,8 +3,10 @@
     <modifiers>
         <modifier>
             <effects>
-                <accuracy add="3" />
-                <armor add="3" />
+                <rangeMax add="1" />
+                <damage mul="0.2" />
+                <armor add="1" />
+                <movementMax add="1" />
             </effects>
         </modifier>
     </modifiers>
