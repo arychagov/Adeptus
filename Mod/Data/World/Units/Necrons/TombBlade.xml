@@ -3,9 +3,9 @@
     <model>
         <unit explosionsBone="ExplosionBone" idleAnimation="Units/Necrons/TombBladeIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Necrons/TombBlade" mesh="Units/Necrons/TombBlade" position="0 0 16" scale="0.9 0.9 0.9" />
     </model>
-    <group memberDeltaX="64" memberDeltaY="100" rowSize="2" size="2" />
+    <group memberDeltaX="64" memberDeltaY="100" rowSize="2" size="1" />
     <weapons>
-        <weapon name="TwinLinkedGaussBlaster" count="2">
+        <weapon name="TwinLinkedGaussBlaster" count="4">
             <model>
                 <beamWeapon fireInterval="0.5" muzzleBone="Muzzle" muzzleCount="4" />
             </model>
@@ -16,7 +16,7 @@
             <effects>
                 <armor base="6" /> <!-- %armor base armor=4+ -->
                 <energyCost base="40.0" /> <!-- %energyCost base tier=6 factor=1 -->
-                <hitpointsMax base="4.0" /> <!-- %hitpointsMax base toughness=5 wounds=1 -->
+                <hitpointsMax base="8.0" /> <!-- %hitpointsMax base toughness=5 wounds=1 -->
                 <meleeAccuracy base="8" /> <!-- %meleeAccuracy base weaponSkill=4 -->
                 <meleeAttacks base="1" />
                 <strengthDamage base="1.5" /> <!-- %strengthDamage base strength=4 -->
