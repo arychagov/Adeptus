@@ -124,7 +124,7 @@
     <entry name="Necrons/StormOfFlensingBladesDescription" value="Grants Flayed Ones ability to ignore zone of control. Grants Flayed Ones ability to temporary increase the movement." />
     <entry name="Necrons/StormOfFlensingBladesFlavor" value="Driven into a grotesque frenzy by the hot gore sluicing through their innards, the Flayed Ones lay about themselves wildly with their vicious talons." />
     <entry name="Necrons/TheSwarm" value="The Swarm" />
-    <entry name="Necrons/TheSwarmDescription" value="Grants cities, Triarch Stalkers, Wraiths and Monoliths ability to summon Canoptek Scarabs. Removes the cost of Canoptek Scarab summoning." />
+    <entry name="Necrons/TheSwarmDescription" value="Grants cities, Triarch Stalkers, Wraiths and Monoliths ability to summon Canoptek Scarabs. Reduces the cost of Canoptek Scarab summoning." />
     <entry name="Necrons/TheSwarmFlavor" value="Channelling energy to motivator systems, these warriors swarm towards the enemy in a tide of skittering limbs and humming gravitic motors." />
     <entry name="Necrons/Translocation" value="Translocation" />
     <entry name="Necrons/TranslocationDescription" value="Grants Triarch Praetorians ability to ignore overwatch attacks while jumping. Increases the invulnerable damage reduction of Triarch Praetorians." />

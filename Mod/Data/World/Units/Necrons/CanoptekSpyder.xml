@@ -176,6 +176,11 @@
                         <energyCost base="20" />
                     </effects>
                 </modifier>
+                <modifier requiredUpgrade="Necrons/TheSwarm" visible="0">
+                    <effects>
+                        <energyCost add="-10" />
+                    </effects>
+                </modifier>
             </modifiers>
             <beginTargets>
                 <target rangeMax="1">

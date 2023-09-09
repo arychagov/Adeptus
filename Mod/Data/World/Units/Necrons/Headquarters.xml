@@ -76,6 +76,45 @@
                 </target>
             </beginTargets>
         </constructGaussPylon>
+        <scarabHive name="Necrons/ScarabHive" cooldown="10" icon="Units/Necrons/CanoptekScarab" requiredUpgrade="Necrons/TheSwarm">
+            <model>
+                <action animation="Units/Necrons/CanoptekSpyderAbility" sound="Actions/PsychicBuff" />
+            </model>
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <energyCost base="20" />
+                    </effects>
+                </modifier>
+                <modifier requiredUpgrade="Necrons/TheSwarm" visible="0">
+                    <effects>
+                        <energyCost add="-10" />
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <target rangeMax="1">
+                    <conditions>
+                        <tile>
+                            <land />
+                            <noUnit />
+                            <noFeature name="GravityWaves" />
+                        </tile>
+                    </conditions>
+                    <areas>
+                        <area affects="Tile">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addUnit name="Necrons/CanoptekScarab" consumedAction="0" consumedMovement="0" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </scarabHive>
     </actions>
     <traits>
         <trait name="Necrons/EternityGate" />
