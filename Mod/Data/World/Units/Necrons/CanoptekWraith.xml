@@ -150,6 +150,26 @@
                 </target>
             </beginTargets>
         </scarabHive>
+        <genericUnitAbility name="Necrons/Wraithflight" icon="Traits/Necrons/Wraithflight" requiredMovement="1" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0">
+            <model>
+                <action sound="Actions/ChargeUp" />
+            </model>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="Necrons/Wraithflight" duration="1" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
     </actions>
     <traits>
         <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
@@ -160,7 +180,6 @@
         <trait name="MoveThroughCover" />
         <trait name="Rending" />
         <trait name="Necrons/WraithForm" />
-        <trait name="Necrons/Wraithflight" />
         <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
     </traits>
 </unit>
