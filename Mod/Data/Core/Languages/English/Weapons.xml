@@ -10,6 +10,8 @@
     <entry name="DestroyerWarscytheFlavor" value="<string name='Weapons/WarscytheFlavor'/>" />
     <entry name="EradicatorNovaCannon" value="Eradicator Nova Cannon" />
     <entry name="EradicatorNovaCannonFlavor" value="<string name='Weapons/BattleCannon'/>" />
+    <entry name="ExorcistMissileLauncher" value="Exarsist Missile Launcher"/>
+    <entry name="ExorcistMissileLauncherFlavor" value="The Exarsist missiles fired by these revered vehicles are capable of splitting open enemy battle tanks or destroying entire squads of heavy infantry in one punishing salvo, provided, of course, that the Exorcist’s temperamental machine spirit does not malfunction."/>
     <entry name="GaussFlayerArrayGhostArk" value="Gauss Flayer Array"/>
     <entry name="GaussFlayerArrayGhostArkFlavor" value="<string name='Weapons/GaussFlavor'/>"/>
     <entry name="GaussReaper" value="Gauss Reaper" />

@@ -143,14 +143,16 @@
     <entry name="Orks/CreatePermanentOrkoidFungusOnDeathDescription" value="Causes units to create permanent orkoid fungus when they die. Grants feel no pain damage reduction to Ork units on orkoid fungus." />
     <entry name="Orks/BonusBeastsProductionDescription" value="Increases the production output of Runtherd Groundz. Increases cities the food and the ore output." />
 
+    <entry name="SistersOfBattle/AdditionalHeavyBolterDescription" value="Grants Immolators, Exarsists and Castigators one additional Heavy Bolter."/>
     <entry name="SistersOfBattle/Canoness" value="Canoness" />
     <entry name="SistersOfBattle/CanonessDescription" value="Witch-seeking powerful hero unit that leads infantry into battle." />
     <entry name="SistersOfBattle/CanonessFlavor" value="A Canoness is the overall commander of one of the Orders Militant, a shining example of purity and dedication of purpose. Each is a veteran warrior of many hundreds of battles who has risen to her position through a combination of strong leadership, shrewd tactical genius and sheer overarching faith in the Emperor. When the Ecclesiarchy sounds the call to arms, a Canoness boldly leads her warriors into the fray, refusing to take one step backwards whilst her enemies still draw breath." />
     <entry name="SistersOfBattle/CityTier2Description" value="Increases the tile acquisition radius." />
     <entry name="SistersOfBattle/CityTier3Description" value="Increases the tile acquisition radius." />
+    <entry name="SistersOfBattle/LaudHailerDescription" value="Grants Castigators, Exarsists and Immolators an aura allowing adjacent shaken units to perform Acts of Faith."/>
     <entry name="SistersOfBattle/MeltaBombDescription" value="Grants Canonesses, Dialogus, Dominions, Retributors and Zephyrims the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications." />
     <entry name="SistersOfBattle/DozerBlade" value="Dozer Blade / Smoke Launcher" />
-    <entry name="SistersOfBattle/DozerBladeDescription" value="Reduces the movement penalty for Immolators, Exorcists and Castigators in forests and imperial ruins. Grants ground vehicles the ability to launch a smoke screen that increases the ranged damage reduction." />
+    <entry name="SistersOfBattle/DozerBladeDescription" value="Reduces the movement penalty for Immolators, Exarsists and Castigators in forests and imperial ruins. Grants ground vehicles the ability to launch a smoke screen that increases the ranged damage reduction." />
     <entry name="SistersOfBattle/DozerBladeFlavor" value="<string name='Traits/DozerBladeFlavor'/>" />
     <entry name="SistersOfBattle/MinistorumIndoctrination" value="Ministorum Indoctrination / Universal Catechism" />
     <entry name="SistersOfBattle/MinistorumIndoctrinationDescription" value="Grants Martyr Spirit to Lightning Fighters, Avengers Strike Fighters and Cerastus Knight-Lancers. Grants Shield Of Faith to Lightning Fighters, Avengers Strike Fighters and Cerastus Knight-Lancers." />
