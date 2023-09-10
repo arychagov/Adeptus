@@ -4,12 +4,7 @@
         <unit explosionsBone="Hull" idleAnimation="Units/Necrons/MonolithIdle" idleAnimationCount="1" idleContinuously="1" material="Units/Necrons/Monolith" mesh="Units/Necrons/Monolith" scale="0.8 0.8 0.8" />
     </model>
     <weapons>
-        <weapon name="ParticleWhip">
-            <model>
-                <projectileWeapon fireInterval="0.4" muzzleBone="MuzzleParticleWhip0" />
-            </model>
-        </weapon>
-        <weapon name="GaussFluxArc" count="4" enabled="0" slotName="GaussFluxArc">
+        <weapon name="GaussFluxArc" count="4">
             <model>
                 <projectileWeapon effectFaceWeight="0" fireInterval="0.3" muzzleBone=".Muzzle" muzzleCount="12" />
             </model>
@@ -114,11 +109,6 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <useWeapon consumedActionPoints="0" cooldown="1" requiredActionPoints="0" weaponSlotName="GaussFluxArc">
-            <model>
-                <action animation="Units/Necrons/MonolithGaussFluxArc" beginFire="0.5" endFire="2.0" />
-            </model>
-        </useWeapon>
         <scarabHive name="Necrons/ScarabHive" cooldown="10" icon="Units/Necrons/CanoptekScarab" requiredUpgrade="Necrons/TheSwarm">
             <model>
                 <action animation="Units/Necrons/MonolithGaussFluxArc" sound="Actions/PsychicBuff" />
