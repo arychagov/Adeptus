@@ -4,7 +4,7 @@
         <modifier>
             <effects>
                 <damage mulMax="0.15" mulMin="0.05" />
-                <feelNoPainDamageReduction addMax="0.15" addMin="0.05" />
+                <feelNoPainDamageReduction minMax="0.15" minMin="0.05" />
             </effects>
         </modifier>
     </modifiers>

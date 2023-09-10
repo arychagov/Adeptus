@@ -3,7 +3,8 @@
     <modifiers>
         <modifier>
             <effects>
-                <research add="18" />
+                <research add="9" />
+                <energy add="9" />
             </effects>
         </modifier>
     </modifiers>

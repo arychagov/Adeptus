@@ -145,7 +145,7 @@
                 </modifier>
             </modifiers>
         </dimensionalCorridor>
-        <resurrectionOrb name="Necrons/ResurrectionOrb" cooldown="3" levelUpPriority="0.15" rank="-1" rankMax="2"> <!-- like molten beam but all directions out of his chest-->
+        <resurrectionOrb name="Necrons/ResurrectionOrb" cooldown="1" levelUpPriority="0.15" rank="-1" rankMax="2"> <!-- like molten beam but all directions out of his chest-->
             <model>
                 <action animation="Units/Necrons/CryptekAbility" sound="Actions/PsychicBuff" />
             </model>
@@ -172,7 +172,7 @@
                 </target>
             </beginTargets>
         </resurrectionOrb>
-        <chronometron name="Necrons/Chronometron" cooldown="2" levelUpPriority="0.1" rank="-1" rankMax="2">
+        <chronometron name="Necrons/Chronometron" cooldown="3" levelUpPriority="0.1" rank="-1" rankMax="2">
             <model>
                 <action animation="Units/Necrons/CryptekAbility" sound="Actions/PsychicBuff" />
             </model>
@@ -202,7 +202,7 @@
                 </target>
             </beginTargets>
         </chronometron>
-        <genericUnitAbility name="Necrons/CountertemporalNanomines" consumedMovement="0" cooldownMax="2" cooldownMin="5" icon="Actions/Necrons/CountertemporalNanomines" rank="-1" rankMax="2"> <!-- axis aligned billboard scarabs traveling towards unit center -->
+        <genericUnitAbility name="Necrons/CountertemporalNanomines" consumedMovement="0" cooldownMax="3" cooldownMin="5" icon="Actions/Necrons/CountertemporalNanomines" rank="-1" rankMax="2"> <!-- axis aligned billboard scarabs traveling towards unit center -->
             <model>
                 <action animation="Units/Necrons/CryptekAbility" sound="Actions/PsychicDebuff" />
             </model>
