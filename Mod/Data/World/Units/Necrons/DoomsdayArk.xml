@@ -14,11 +14,6 @@
                 <projectileWeapon muzzleBone=".DoomsdayCannonMuzzle" />
             </model>
         </weapon>
-        <weapon name="GaussFlayerArray" count="2" enabled="0" slotName="GaussFlayerArray">
-            <model>
-                <projectileWeapon effectFaceWeight="0" muzzleBone=".GaussFlayerArrayMuzzle" muzzleCount="10" />
-            </model>
-        </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
@@ -120,11 +115,6 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <useWeapon consumedActionPoints="0" cooldown="1" requiredActionPoints="0" weaponSlotName="GaussFlayerArray">
-            <model>
-                <action animation="Units/Necrons/DoomsdayArkAttack2" beginFire="1.0" endFire="2.33" />
-            </model>
-        </useWeapon>
         <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
