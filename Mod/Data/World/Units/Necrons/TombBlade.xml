@@ -182,6 +182,13 @@
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <energyCost base="30" />
+                    </effects>
+                </modifier>
+            </modifiers>
             <conditions>
                 <unit>
                     <notAttackedThisTurn />

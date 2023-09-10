@@ -116,12 +116,12 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <energyCost base="40" />
+                        <energyCost base="20" />
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Necrons/TheSwarm" visible="0">
                     <effects>
-                        <energyCost add="-20" />
+                        <energyCost add="-10" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -157,6 +157,13 @@
                     <notAttackedThisTurn />
                 </unit>
             </conditions>
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <energyCost base="30" />
+                    </effects>
+                </modifier>
+            </modifiers>
             <beginTargets>
                 <selfTarget>
                     <areas>

@@ -152,7 +152,7 @@
     <traits>
         <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
         <trait name="ExtraVehicleArmour" requiredUpgrade="Necrons/ExtraVehicleArmour" />
-        <trait name="Necrons/LivingMetal" />
+        <trait name="Necrons/LivingMetalTesseractVault" />
         <trait name="MoveThroughCover" />
         <trait name="Skimmer" />
         <trait name="SuperHeavy" />

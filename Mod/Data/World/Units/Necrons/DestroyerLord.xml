@@ -4,9 +4,9 @@
         <unit explosionsBone="BloodBone" idleAnimation="Units/Necrons/DestroyerLordIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Necrons/DestroyerLord" mesh="Units/Necrons/DestroyerLord" normalWeight="0.1" scale="0.9 0.9 0.9" walker="1" />
     </model>
     <weapons>
-        <weapon name="HeavyGaussCannon">
+        <weapon name="HeavyGaussCannon" count="2">
             <model>
-                <weapon bone="Bone037" fireInterval="0.8333333" material="Units/Necrons/DestroyerLord" mesh="Weapons/Necrons/GaussFlayer" muzzleBone=".Muzzle" />
+                <weapon mesh="Weapons/Necrons/Warscythe" material="Units/Necrons/DestroyerLord" muzzleBone=".Muzzle" bone="Bone037" fireInterval="0.5"/>
             </model>
         </weapon>
     </weapons>

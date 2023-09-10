@@ -79,26 +79,6 @@
                 <action animation="Units/SpaceMarines/DevastatorSpaceMarineGrenade" beginFire="1" />
             </model>
         </throwGrenade>
-        <signum consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredUpgrade="SpaceMarines/DevastatorDoctrine">
-            <model>
-                <action sound="Actions/Reload" />
-            </model>
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="Relentless" duration="1" />
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-        </signum>
         <orbitalDeployment requiredUpgrade="SpaceMarines/OrbitalDeployment">
             <model>
                 <action sound="Actions/DropPod" />
@@ -111,26 +91,6 @@
                 </modifier>
             </modifiers>
         </orbitalDeployment>
-        <signum name="SpaceMarines/Omniscope" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredUpgrade="SpaceMarines/Omniscope">
-            <model>
-                <action sound="Actions/Omniscope" />
-            </model>
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="SpaceMarines/Omniscope" duration="1" />
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-        </signum>
         <genericUnitAbility name="SpaceMarines/DefensiveFocus" consumedActionPoints="0" consumedMovement="999" cooldown="3" icon="Traits/ExtraInfantryArmour" requiredActionPoints="1">
             <model>
                 <action sound="Actions/Reload" />
@@ -161,5 +121,6 @@
         <trait name="Stealth" />
         <trait name="SpaceMarines/SiegeMasters" />
         <trait name="SpaceMarines/TheFleshIsWeak" />
+        <trait name="SpaceMarines/Omniscope" requiredUpgrade="SpaceMarines/Omniscope" />
     </traits>
 </unit>

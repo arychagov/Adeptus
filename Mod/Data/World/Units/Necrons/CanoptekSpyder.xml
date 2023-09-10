@@ -167,19 +167,19 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <scarabHive name="Necrons/ScarabHive" cooldown="10" icon="Units/Necrons/CanoptekScarab">
+        <scarabHive name="Necrons/ScarabHive" cooldown="10" icon="Units/Necrons/CanoptekScarab" requiredUpgrade="Necrons/CanoptekSpyder">
             <model>
                 <action animation="Units/Necrons/CanoptekSpyderAbility" sound="Actions/PsychicBuff" />
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <energyCost base="40" />
+                        <energyCost base="20" />
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Necrons/TheSwarm" visible="0">
                     <effects>
-                        <energyCost add="-20" />
+                        <energyCost add="-10" />
                     </effects>
                 </modifier>
             </modifiers>

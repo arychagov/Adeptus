@@ -72,26 +72,6 @@
                 <action animation="Units/SpaceMarines/DevastatorCenturionMove" sound="Units/ChaosSpaceMarines/MaulerfiendMove" soundCount="1" />
             </model>
         </move>
-        <signum name="SpaceMarines/Omniscope" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredUpgrade="SpaceMarines/Omniscope">
-            <model>
-                <action sound="Actions/Omniscope" />
-            </model>
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="SpaceMarines/Omniscope" duration="1" />
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-        </signum>
         <orbitalDeployment requiredUpgrade="SpaceMarines/OrbitalDeployment">
             <model>
                 <action sound="Actions/DropPod" />
@@ -113,5 +93,6 @@
         <trait name="SlowAndPurposeful" />
         <trait name="SpaceMarines/SiegeMasters" />
         <trait name="SpaceMarines/TheFleshIsWeak" />
+        <trait name="SpaceMarines/Omniscope" requiredUpgrade="SpaceMarines/Omniscope" />
     </traits>
 </unit>
