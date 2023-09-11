@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
+    <entry name="SpaceMarines/Captain" value="Captain of the Lost" />
     <entry name="SpaceMarines/ChaplainDescription" value="Zealous hero unit that leads melee combat and inspires loyalty." />
     <entry name="SpaceMarines/Techmarine" value="Techmarine" />
     <entry name="SpaceMarines/TechmarineDescription" value="Technician and engineer as well as a full Astartes battle-brother." />

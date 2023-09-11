@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Actions/SistersOfBattle/MedicusMinistorum" position="6">
+<upgrade icon="Actions/SistersOfBattle/MedicusMinistorum" position="5">
     <requiredUpgrades>
         <upgrade name="SistersOfBattle/Hospitaller" />
     </requiredUpgrades>

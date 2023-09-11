@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Actions/SistersOfBattle/ChaseTheProfane" position="5" />
+<upgrade icon="Actions/SistersOfBattle/ChaseTheProfane" position="5" visible="0" />
