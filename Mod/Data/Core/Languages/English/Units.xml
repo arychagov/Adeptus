@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
+    <entry name="SpaceMarines/ChaplainDescription" value="Zealous hero unit that leads melee combat and inspires loyalty." />
     <entry name="SpaceMarines/Techmarine" value="Techmarine" />
     <entry name="SpaceMarines/TechmarineDescription" value="Technician and engineer as well as a full Astartes battle-brother." />
     <entry name="SpaceMarines/TechmarineFlavor" value="They learn how to divine the runes of engineering and study the liturgy of maintenance. This great body of lore must be committed to memory and understood by the novice Techmarine." />
     <entry name="SpaceMarines/KillTeamEliminators" value="Kill Team Eliminators" />
     <entry name="SpaceMarines/KillTeamEliminatorsDescription" value="Cloaked infantry unit equipped to bring down any target." />
     <entry name="SpaceMarines/KillTeamEliminatorsFlavor" value="Once marked, there is nowhere for an Eliminator's prey to hide, and no amount of protective armour that can stop the killing shot." />
+    <entry name="SpaceMarines/WhirlwindDescription" value="Artillery tank that capable of wiping out swathes of enemy infantry in lethal explosions and shatter tile defences."/>
 
-    <entry name="Necrons/ObeliskDescription" value="Super-heavy skimmer unit with powerful anti-air capabilities that protects nearby allied infantry units." />
+    <entry name="Necrons/DeathmarkDescription" value="Sniper unit." />
+    <entry name="Necrons/DestroyerLordDescription" value="Hero unit with powerful auras and ranged capabilities." />
+    <entry name="Necrons/ObeliskDescription" value="Super-heavy skimmer unit with powerful anti-tank capabilities that protects nearby allied infantry units." />
 
     <entry name="Eldar/Autarch" value="Autarch" />
     <entry name="Eldar/AutarchDescription" value="Psyker hero unit that leads the Aeldari charge." />
