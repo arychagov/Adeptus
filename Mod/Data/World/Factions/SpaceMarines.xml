@@ -744,6 +744,13 @@
             </beginTargets>
         </installSupportSystem>
         <installSupportSystem name="SpaceMarines/UpgradedLascannon" cooldown="0" icon="Actions/SpaceMarines/UpgradedLascannon" requiredUpgrade="SpaceMarines/PredatorLascannon">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="40" />
+                    </effects>
+                </modifier>
+            </modifiers>
             <beginTargets>
                 <target rangeMax="-1">
                     <conditions>

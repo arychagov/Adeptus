@@ -5,6 +5,7 @@
             <conditions>
                 <unit match="Any">
                     <type name="SpaceMarines/KillTeamEliminators" />
+                    <type name="SpaceMarines/DevastatorSpaceMarine" />
                     <type name="SpaceMarines/DevastatorCenturion" />
                 </unit>
             </conditions>
