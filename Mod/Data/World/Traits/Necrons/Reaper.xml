@@ -4,7 +4,7 @@
         <modifier>
             <effects>
                 <rangeMax add="1" />
-                <damage mul="0.2" />
+                <damage mul="0.1" />
                 <armor add="1" />
                 <movementMax add="1" />
             </effects>

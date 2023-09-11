@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait>
     <modifiers>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <noTrait name="MultimodelMonstrousCreature" />
+                    <noTrait name="UnbreakableMonstrousCreature" />
+                    <hitpointsFraction greater="0.33" less="0.66" />
+                </unit>
+            </conditions>
+            <effects>
+                <accuracy mul="-0.17" />
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <noTrait name="MultimodelMonstrousCreature" />
+                    <noTrait name="UnbreakableMonstrousCreature" />
+                    <hitpointsFraction less="0.33" />
+                </unit>
+            </conditions>
+            <effects>
+                <accuracy mul="-0.25" />
+                <movementMax add="-1" />
+            </effects>
+        </modifier>
+        <modifier>
+            <conditions>
+                <unit>
+                    <noTrait name="MultimodelMonstrousCreature" />
+                </unit>
+            </conditions>
+            <effects>
+                <addTrait name="MonstrousCreatureDamaged" />
+                <addTrait name="MonstrousCreatureHeavilyDamaged" />
+                <moraleMax max="0" />
+            </effects>
+        </modifier>
         <modifier>
             <effects>
                 <cargoSlotsRequired add="5" />

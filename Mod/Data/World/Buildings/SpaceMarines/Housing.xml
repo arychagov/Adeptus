@@ -12,7 +12,7 @@
         </modifier>
         <modifier>
             <effects>
-                <populationLimit add="8" />
+                <populationLimit add="6" />
             </effects>
         </modifier>
     </modifiers>

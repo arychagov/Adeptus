@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Traits/Broken">
+    <modifiers>
+        <modifier>
+            <effects>
+                <accuracy mul="-0.25" />
+                <movementMax add="-1" />
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>

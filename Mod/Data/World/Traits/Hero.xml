@@ -34,7 +34,7 @@
                 </unit>
             </conditions>
             <effects>
-                <heroDamageReduction add="0.075" />
+                <heroDamageReduction add="0.05" />
             </effects>
         </modifier>
         <modifier visible="0">
@@ -50,7 +50,7 @@
                 </unit>
             </conditions>
             <effects>
-                <heroDamageReduction add="0.075" />
+                <heroDamageReduction add="0.05" />
             </effects>
         </modifier>
 
@@ -85,7 +85,7 @@
                 </unit>
             </conditions>
             <effects>
-                <heroDamageReduction add="0.075" />
+                <heroDamageReduction add="0.05" />
             </effects>
         </modifier>
 
@@ -120,7 +120,7 @@
                 </unit>
             </conditions>
             <effects>
-                <heroDamageReduction add="0.075" />
+                <heroDamageReduction add="0.05" />
             </effects>
         </modifier>
 
@@ -155,7 +155,7 @@
                 </unit>
             </conditions>
             <effects>
-                <heroDamageReduction add="0.075" />
+                <heroDamageReduction add="0.05" />
             </effects>
         </modifier>
 
@@ -190,7 +190,7 @@
                 </unit>
             </conditions>
             <effects>
-                <heroDamageReduction add="0.075" />
+                <heroDamageReduction add="0.05" />
             </effects>
         </modifier>
 
@@ -225,7 +225,7 @@
                 </unit>
             </conditions>
             <effects>
-                <heroDamageReduction add="0.075" />
+                <heroDamageReduction add="0.05" />
             </effects>
         </modifier>
     </modifiers>

@@ -12,7 +12,7 @@
             </conditions>
             <effects>
                 <damage mul="1.0" />
-                <armorPenetration min="6" />
+                <armorPenetration min="5" />
             </effects>
         </modifier>
     </modifiers>

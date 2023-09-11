@@ -393,4 +393,11 @@
     <entry name="VehicleDescription" value="Negates the penalty for heavy and ordnance weapons. Increases the movement penalty in forests and imperial ruins. Missing hit points reduces accuracy and movement on single model unit." />
     <entry name="VehicleHeavilyDamaged" value="Missing 66% hit points" />
     <entry name="VehicleHeavilyDamagedDescription" value="Reduces the accuracy and movement." />
+    <entry name="MonstrousCreatureDamaged" value="Missing 33% hit points" />
+    <entry name="MonstrousCreatureDamagedDescription" value="Reduces the accuracy." />
+    <entry name="MonstrousCreatureDescription" value="Classification. Missing hit points reduces accuracy and movement on single model unit." />
+    <entry name="MonstrousCreatureHeavilyDamaged" value="Missing 66% hit points" />
+    <entry name="MonstrousCreatureHeavilyDamagedDescription" value="Reduces the accuracy and movement." />
+    <entry name="UnbreakableMonstrousCreature" value="Berserk" />
+    <entry name="UnbreakableMonstrousCreatureDescription" value="Does not suffer accuracy loss on hit points loss" />
 </language>
