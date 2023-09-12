@@ -32,5 +32,6 @@
         <trait name="AstraMilitarum/CityTier3" requiredUpgrade="AstraMilitarum/CityTier3" />
         <trait name="Headquarters" />
         <trait name="AstraMilitarum/Prosperity" requiredUpgrade="AstraMilitarum/Construction" />
+        <trait name="MobileCommand" />
     </traits>
 </building>

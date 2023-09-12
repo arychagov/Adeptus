@@ -22,8 +22,8 @@
     <entry name="GaussReaperFlavor" value="Gauss weapon which trades range for increased hitting power." />
     <entry name="GuardsmanFlamer" value="Flamer" />
     <entry name="GuardsmanFlamerFlavor" value="<string name='Weapons/FlamerFlavor'/>"/>
-    <entry name="GuardsmanMeltagun" value="<string name='Weapons/MeltaFlavor'/>"/>
     <entry name="GuardsmanMeltagun" value="Meltagun" />
+    <entry name="GuardsmanMeltagunFlavor" value="<string name='Weapons/MeltaFlavor'/>"/>
     <entry name="HeavyLascannon" value="Heavy Lascannon" />
     <entry name="HeavyLascannonFlavor" value="<string name='Weapons/LasFlavor'/>" />
 </language>
