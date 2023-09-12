@@ -34,7 +34,7 @@
                 </unit>
             </conditions>
             <effects>
-                <heroDamageReduction add="0.05" />
+                <heroDamageReduction add="0.075" />
             </effects>
         </modifier>
         <modifier visible="0">

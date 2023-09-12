@@ -24,6 +24,8 @@
     <entry name="AdeptusMechanicus/ReprogramKastelanRobotFlavor" value="Since the aftermath of Warmaster Horus’ rebellion the Legio Cybernetica’s robots have been controlled completely by their masters – not by the bio-plastic cerebra and nerve-like tendril webs of Mechanicum constructs, but by sanctified doctrina wafers. No bigger than the cards of the Emperor’s Tarot, these slivers of wetware are entrusted to the Cybernetica Datasmiths that accompany the robot maniples to war. Inserted into the dataslot hidden behind each robot’s chestplate, the wafer’s command protocol will dictate every iota of the host’s behaviour, usually optimising its ability to destroy its foes in a spectacular fashion." />
     <entry name="AdeptusMechanicus/DataBlessedAutosermonDescription" value="Kastelan Robot does not suffer accuracy loss on hit points loss, increases accuracy. Increases attacks of Fulgurite Electro Priests." />
 
+    <entry name="Artefacts/LoyaltyDescription" value="Increases the loyalty. Space Marines get extra loyalty."/>
+
     <entry name="AstraMilitarum/AdditionalFlamerGuardsman" value="Installed Flamer" />
     <entry name="AstraMilitarum/AdditionalFlamerGuardsmanDescription" value="Grants additional flamer." />
     <entry name="AstraMilitarum/AdditionalMeltagunGuardsman" value="Installed Meltagun" />
@@ -73,6 +75,8 @@
     <entry name="AstraMilitarum/WallOfMuscle" value="Wall Of Muscle" />
     <entry name="AstraMilitarum/WallOfMuscleDescription" value="Reduces melee attacks." />
     <entry name="AstraMilitarum/WallOfMuscleFlavor" value="“Brute force not work? It because you not use enough of it!“<br/>—Karg, Ogryn Bone'ead" />
+
+    <entry name="BrokenDescription" value="Reduces the accuracy."/>
 
     <entry name="ChaosSpaceMarines/BloatedWithLifesteal" value="Bloated" />
     <entry name="ChaosSpaceMarines/BloatedWithLifestealDescription" value="Restores hitpoints on hit." />
@@ -267,6 +271,7 @@
 
     <entry name="RecoveryGearDescription" value="Increases the healing rate when allied Tech-Priest Enginseer is nearby." />
 
+    <entry name="ShakenDescription" value="Reduces the accuracy."/>
     <entry name="ShatteredDefences" value="Shattered Defences" />
     <entry name="ShatteredDefencesDescription" value="Removes the ranged damage reduction of the target tile." />
 
@@ -376,7 +381,7 @@
     <entry name="Fright" value="Fright" />
     <entry name="FrightDescription" value="Reduces the morale each turn." />
     <entry name="FrightFlavor" value="<string name='Actions/AuraOfFearFlavor'/>" />
-    <entry name="HeroDescription" value="Increases the damage reduction of infantry units. Each adjacent infantry unit increases damage reduction by additional 7.5% (15% for Bodyguard units)" />
+    <entry name="HeroDescription" value="Increases the damage reduction of infantry units. Each adjacent infantry unit increases damage reduction by additional 7.5% (12.5% for Bodyguard units)" />
     <entry name="KillshotDescription" value="Increases the damage against monstrous creatures, vehicles, heroes and fortifications." />
     <entry name="MonsterHunter" value="Monster Hunter" />
     <entry name="MonsterHunterDescription" value="Increases the damage against monstrous creatures." />

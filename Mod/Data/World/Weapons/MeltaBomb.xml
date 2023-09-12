@@ -8,7 +8,7 @@
             <effects>
                 <meleeAttacks max="1" />
                 <meleeArmorPenetration base="8" /> <!-- %meleeArmorPenetration base armorPiercing=1 -->
-                <meleeDamage base="6" /> <!-- %meleeDamage base strength=8 -->
+                <meleeDamage max="6" min="6" /> <!-- %meleeDamage base strength=8 -->
             </effects>
         </modifier>
     </modifiers>

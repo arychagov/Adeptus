@@ -636,7 +636,6 @@
                         <unit>
                             <allied />
                             <type name="SpaceMarines/Razorback" />
-                            <cargoSlotsTaken equal="0" />
                             <noTrait name="SpaceMarines/AdditionalStormBolter" />
                             <notAttackedThisTurn />
                         </unit>
@@ -648,8 +647,6 @@
                                     <effects>
                                         <addTrait name="SpaceMarines/AdditionalStormBolter" />
                                         <addTrait name="Exhausted" duration="1" />
-                                        <removeTrait name="Transport" />
-                                        <addTrait name="Untransport" />
                                     </effects>
                                 </modifier>
                                 <modifier visible="0">

@@ -77,7 +77,7 @@
             </model>
         </move>
 
-        <genericUnitAbility name="SpaceMarines/TacticalPrecision" consumedActionPoints="0" consumedMovement="0" cooldownMax="1" cooldownMin="3" icon="Actions/Signum" rank="-1" rankMax="2" requiredActionPoints="0">
+        <genericUnitAbility name="SpaceMarines/TacticalPrecision" cooldownMax="3" cooldownMin="5" icon="Actions/Signum" rank="-1" rankMax="2">
             <beginTargets>
                 <target rangeMax="2">
                     <conditions>
