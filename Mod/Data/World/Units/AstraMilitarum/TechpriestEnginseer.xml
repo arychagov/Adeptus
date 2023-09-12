@@ -147,7 +147,7 @@
                 </target>
             </beginTargets>
         </blessingsOfTheOmnissiah>
-        <awakenTheMachine name="AstraMilitarum/AwakenTheMachine" passive="1">
+        <awakenTheMachine icon="Actions/AwakenTheMachine" name="AstraMilitarum/AwakenTheMachine" passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
