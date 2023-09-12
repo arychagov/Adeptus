@@ -4,7 +4,7 @@
         <unit explosionsBone="Hull_Shake" idleAnimation="Units/SistersOfBattle/ImmolatorIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SistersOfBattle/Immolator" mesh="Units/SistersOfBattle/Immolator" portraitFocusHeightModifier="-10" scale="0.9 0.9 0.9" uvAnimated="1" />
     </model>
     <weapons>
-        <weapon name="StormBolter" />
+        <weapon name="StormBolter" requiredUpgrade="SistersOfBattle/StormBolter"/>
         <weapon name="TwinLinkedHeavyFlamer">
             <model>
                 <flamerWeapon muzzleBone="Muzzle" muzzleCount="4" />

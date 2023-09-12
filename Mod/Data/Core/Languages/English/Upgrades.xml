@@ -149,23 +149,26 @@
     <entry name="SistersOfBattle/CanonessFlavor" value="A Canoness is the overall commander of one of the Orders Militant, a shining example of purity and dedication of purpose. Each is a veteran warrior of many hundreds of battles who has risen to her position through a combination of strong leadership, shrewd tactical genius and sheer overarching faith in the Emperor. When the Ecclesiarchy sounds the call to arms, a Canoness boldly leads her warriors into the fray, refusing to take one step backwards whilst her enemies still draw breath." />
     <entry name="SistersOfBattle/CityTier2Description" value="Increases the tile acquisition radius." />
     <entry name="SistersOfBattle/CityTier3Description" value="Increases the tile acquisition radius." />
-    <entry name="SistersOfBattle/LaudHailerDescription" value="Grants Castigators, Exarsists and Immolators an aura allowing adjacent shaken units to perform Acts of Faith."/>
-    <entry name="SistersOfBattle/MeltaBombDescription" value="Grants Canonesses, Dialogus, Dominions, Retributors and Zephyrims the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications." />
-    <entry name="SistersOfBattle/DozerBlade" value="Dozer Blade / Smoke Launcher" />
-    <entry name="SistersOfBattle/DozerBladeDescription" value="Reduces the movement penalty for Immolators, Exarsists and Castigators in forests and imperial ruins. Grants ground vehicles the ability to launch a smoke screen that increases the ranged damage reduction." />
-    <entry name="SistersOfBattle/DozerBladeFlavor" value="<string name='Traits/DozerBladeFlavor'/>" />
-    <entry name="SistersOfBattle/MinistorumIndoctrination" value="Ministorum Indoctrination / Universal Catechism" />
-    <entry name="SistersOfBattle/MinistorumIndoctrinationDescription" value="Grants Martyr Spirit to Lightning Fighters, Avengers Strike Fighters and Cerastus Knight-Lancers. Grants Shield Of Faith to Lightning Fighters, Avengers Strike Fighters and Cerastus Knight-Lancers." />
-    <entry name="SistersOfBattle/ValourOfSaints" value="Valour of Saints" />
-    <entry name="SistersOfBattle/ValourOfSaintsDescription" value="Adepta Sororitas units cannot be shaken or broken in cities. Enemy units are broken in Adepta Sororitas cities." />
-    <entry name="SistersOfBattle/ValourOfSaintsFlavor" value="Those who stand unflinching against the horrors of the galaxy inspire their comrades to feats of divine heroism." />
     <entry name="SistersOfBattle/DesperateForRedemption" value="Desperate For Redemption" />
     <entry name="SistersOfBattle/DesperateForRedemptionDescription" value="Adepta Sororitas infantry units resurrect on death with 1 hit point remaining." />
     <entry name="SistersOfBattle/DesperateForRedemptionFlavor" value="Even the most grievous wound cannot stop a Sister Repentia in her quest to earn redemption in the eyes of the Emperor." />
-    <entry name="SistersOfBattle/VowOfTheMilitantOrderDescription" value="Units keep their Shield Of Faith if they are broken. Increases damage reduction of Shield Of Faith." />
+    <entry name="SistersOfBattle/DozerBlade" value="Dozer Blade / Smoke Launcher" />
+    <entry name="SistersOfBattle/DozerBladeDescription" value="Reduces the movement penalty for Immolators, Exarsists and Castigators in forests and imperial ruins. Grants ground vehicles the ability to launch a smoke screen that increases the ranged damage reduction." />
+    <entry name="SistersOfBattle/DozerBladeFlavor" value="<string name='Traits/DozerBladeFlavor'/>" />
     <entry name="SistersOfBattle/FaithAndFury" value="<string name='Traits/SistersOfBattle/FaithAndFury'/>" />
     <entry name="SistersOfBattle/FaithAndFuryDescription" value="<string name='Traits/SistersOfBattle/FaithAndFuryDescription'/>" />
     <entry name="SistersOfBattle/FaithAndFuryFlavor" value="<string name='Traits/SistersOfBattle/FaithAndFuryFlavor'/>" />
+    <entry name="SistersOfBattle/LaudHailerDescription" value="Grants Castigators, Exarsists and Immolators an aura allowing adjacent shaken units to perform Acts of Faith."/>
+    <entry name="SistersOfBattle/MeltaBombDescription" value="Grants Canonesses, Dialogus, Dominions, Retributors and Zephyrims the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications." />
+    <entry name="SistersOfBattle/MinistorumIndoctrination" value="Ministorum Indoctrination / Universal Catechism" />
+    <entry name="SistersOfBattle/MinistorumIndoctrinationDescription" value="Grants Martyr Spirit to Lightning Fighters, Avengers Strike Fighters and Cerastus Knight-Lancers. Grants Shield Of Faith to Lightning Fighters, Avengers Strike Fighters and Cerastus Knight-Lancers." />
+    <entry name="SistersOfBattle/StormBolter" value="Storm Bolter"/>
+    <entry name="SistersOfBattle/StormBolterDescription" value="Grants Immolators a storm bolter."/>
+    <entry name="SistersOfBattle/StormBolterFlavor" value="<string name='Weapons/BoltFlavor'/>"/>
+    <entry name="SistersOfBattle/ValourOfSaints" value="Valour of Saints" />
+    <entry name="SistersOfBattle/ValourOfSaintsDescription" value="Adepta Sororitas units cannot be shaken or broken in cities. Enemy units are broken in Adepta Sororitas cities." />
+    <entry name="SistersOfBattle/ValourOfSaintsFlavor" value="Those who stand unflinching against the horrors of the galaxy inspire their comrades to feats of divine heroism." />
+    <entry name="SistersOfBattle/VowOfTheMilitantOrderDescription" value="Units keep their Shield Of Faith if they are broken. Increases damage reduction of Shield Of Faith." />
 
     <entry name="SpaceMarines/BlastDamageDescription" value="Increases the armour penetration of grenade, missile, las and blast weapons." />
     <entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
