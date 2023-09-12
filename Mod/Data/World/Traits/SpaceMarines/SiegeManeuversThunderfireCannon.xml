@@ -3,6 +3,12 @@
     <modifiers>
         <modifier>
             <effects>
+                <energyUpkeep add="0.5" />
+                <requisitionsUpkeep add="0.5" />
+            </effects>
+        </modifier>
+        <modifier>
+            <effects>
                 <hitpointsMax add="4.0" />
                 <hitpoints add="4.0" />
             </effects>

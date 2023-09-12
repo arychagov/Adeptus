@@ -143,8 +143,6 @@
         <trait name="ConvergentTargeting" />
         <trait name="ExtraInfantryArmour" requiredUpgrade="SpaceMarines/ExtraInfantryArmour" />
         <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand" />
-        <trait name="Relentless" requiredUpgrade="SpaceMarines/SiegeManeuvers" />
-        <trait name="SpaceMarines/SiegeManeuversThunderfireCannon" requiredUpgrade="SpaceMarines/SiegeManeuvers" />
         <trait name="SpaceMarines/SiegeMasters" />
         <trait name="SpaceMarines/TheFleshIsWeak" />
     </traits>

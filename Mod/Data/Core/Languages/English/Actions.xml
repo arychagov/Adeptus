@@ -174,6 +174,8 @@
     <entry name="SpaceMarines/Righteousness" value="<string name='Traits/SpaceMarines/Righteousness'/>" />
     <entry name="SpaceMarines/RighteousnessDescription" value="<string name='Traits/SpaceMarines/RighteousnessDescription'/>" />
     <entry name="SpaceMarines/RighteousnessFlavor" value="<string name='Traits/SpaceMarines/RighteousnessFlavor'/>" />
+    <entry name="SpaceMarines/SiegeManeuversThunderfireCannon" value="Upgrade Thunderfire Cannon" />
+    <entry name="SpaceMarines/SiegeManeuversThunderfireCannon" value="Permanently increases the hitpoints of target Thunderfire Cannon." />
     <entry name="SpaceMarines/SpectralBlade" value="<string name='Traits/SpaceMarines/SpectralBlade'/>" />
     <entry name="SpaceMarines/SpectralBladeDescription" value="<string name='Traits/SpaceMarines/SpectralBladeDescription'/>" />
     <entry name="SpaceMarines/SpectralBladeFlavor" value="<string name='Traits/SpaceMarines/SpectralBladeFlavor'/>" />
