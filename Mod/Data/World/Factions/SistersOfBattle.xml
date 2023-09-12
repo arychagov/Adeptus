@@ -381,7 +381,7 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="10" />
+                        <influenceCost base="20" />
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="SistersOfBattle/RitualizedCeremonies">

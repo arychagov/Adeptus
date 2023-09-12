@@ -9,7 +9,7 @@
                 </building>
             </conditions>
             <effects>
-                <production mul="0.33" />
+                <production mul="0.2" />
             </effects>
         </modifier>
     </modifiers>

@@ -144,6 +144,7 @@
     <entry name="SistersOfBattle/DesperateForRedemption" value="Desperate For Redemption" />
     <entry name="SistersOfBattle/DesperateForRedemptionDescription" value="After dying, immediately comes back to life with 1 hit points remaining." />
     <entry name="SistersOfBattle/DesperateForRedemptionFlavor" value="Not even death can stop the Emperor’s chosen servants, and through his benevolence they rise again to serve the Master of Mankind’s will." />
+    <entry name="SistersOfBattle/EternalCrusadeDescription" value="Sacred Rite that increases the production output of Battle Chapels."/>
 
     <entry name="SpaceMarines/AdditionalHeavyBolter" value="Install Heavy Bolter" />
     <entry name="SpaceMarines/AdditionalHeavyBolterDescription" value="Grants Fortress of Redemption additional heavy bolter. Only one upgrade or install can be set up for a unit." />
