@@ -177,7 +177,7 @@
     <entry name="SpaceMarines/CityTier4" value="Fortresses Supreme / Missile Silo" />
     <entry name="SpaceMarines/CityTier4Description" value="Increases the tile acquisition radius and gives Thunderfire Cannons and Fortresses of Redemption ability to increase the ranged damage reduction of the target tile. Increases the city damage reduction of Fortresses of Redemption. Grants Fortresses of Redemption a krakstorm missile silo." />
     <entry name="SpaceMarines/CodexAstartes" value="Codex Astartes" />
-    <entry name="SpaceMarines/CodexAstartesDescription" value="Decreases the cooldown and increases the duration of all chapter tactics." />
+    <entry name="SpaceMarines/CodexAstartesDescription" value="Decreases the cooldown and increases the duration of all chapter tactics. Increases damage reduction of Assault Space Marines." />
     <entry name="SpaceMarines/CodexAstartesFlavor" value="We follow in the footsteps of Guilliman. As it is written in the Codex, so shall it be." />
     <entry name="SpaceMarines/DevastatorDoctrine" value="Specialist Doctrine" />
     <entry name="SpaceMarines/DevastatorDoctrineDescription" value="Chapter tactics that increases the accuracy of Devastator Space Marines, Devastator Centurions, and the melee accuracy of Assault Space Marines, Terminators and heroes." />
