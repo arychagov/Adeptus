@@ -100,7 +100,7 @@
     <entry name="Necrons/BloodyCrusade" value="Bloody Crusade" />
     <entry name="Necrons/BloodyCrusadeDescription" value="Increases the accuracy and the feel no pain damage reduction of infantry and monstrous creatures, but disables Reanimation Protocols, Living Metal, Dimensional Corridor and Necrodermis Repair." />
     <entry name="Necrons/Chronometron" value="Mechanical Augmentation"/>
-    <entry name="Necrons/ChronometronDescription" value="Permanently increases the damage and damage reduction of the target allied infantry or monstrous creature unit."/>
+    <entry name="Necrons/ChronometronDescription" value="Permanently increases damage reduction of the target allied infantry or monstrous creature unit and make it return damage back to the attacker."/>
     <entry name="Necrons/CountertemporalNanomines" value="<string name='Traits/Necrons/CountertemporalNanomines'/>" />
     <entry name="Necrons/CountertemporalNanominesDescription" value="Immobilizes enemy non-hero unit." />
     <entry name="Necrons/CountertemporalNanominesFlavor" value="<string name='Traits/Necrons/CountertemporalNanominesFlavor'/>" />

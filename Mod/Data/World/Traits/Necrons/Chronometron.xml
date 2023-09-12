@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <damage mulMax="0.15" mulMin="0.05" />
+                <damageReturnFactor addMax="0.2" addMin="0.1" />
                 <feelNoPainDamageReduction minMax="0.15" minMin="0.05" />
             </effects>
         </modifier>

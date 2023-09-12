@@ -8,7 +8,7 @@
                 </unit>
             </conditions>
             <effects>
-                <rangedAttacks add="3" />
+                <rangedAttacks add="2" />
             </effects>
         </modifier>
     </modifiers>

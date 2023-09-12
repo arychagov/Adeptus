@@ -124,5 +124,6 @@
         <trait name="MoveThroughCover" />
         <trait name="Swarms" />
         <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
+        <trait name="BulkyVulky" />
     </traits>
 </unit>

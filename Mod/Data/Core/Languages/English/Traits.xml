@@ -77,6 +77,9 @@
     <entry name="AstraMilitarum/WallOfMuscleFlavor" value="“Brute force not work? It because you not use enough of it!“<br/>—Karg, Ogryn Bone'ead" />
 
     <entry name="BrokenDescription" value="Reduces the accuracy."/>
+    <entry name="BulkyVulky" value="Bulky Vulky"/>
+    <entry name="BulkyVulkyDescription" value="Requires six additional cargo slots in a transport (basically cannot embark any transport)."/>
+    <entry name="BulkyVulkyFlavor" value="<string name='Traits/BulkyFlavor'/>"/>
 
     <entry name="ChaosSpaceMarines/BloatedWithLifesteal" value="Bloated" />
     <entry name="ChaosSpaceMarines/BloatedWithLifestealDescription" value="Restores hitpoints on hit." />
@@ -145,6 +148,7 @@
     <entry name="Necrons/AttackCityBonusDescription" value="Increases the accuracy." />
     <entry name="Necrons/BloodyCrusade" value="Bloody Crusade" />
     <entry name="Necrons/BloodyCrusadeDescription" value="Increases the accuracy and the feel no pain damage reduction, but disables Reanimation Protocols, Living Metal, Dimensional Corridor and Necrodermis Repair." />
+    <entry name="Necrons/ChronometronDescription" value="Increases damage reduction and returns damage back to the attacker."/>
     <entry name="Necrons/CountertemporalNanomines" value="Countertemporal Nanomines" />
     <entry name="Necrons/CountertemporalNanominesDescription" value="Immobilized." />
     <entry name="Necrons/CountertemporalNanominesFlavor" value="Released from a hive-gem about the bearer’s person, a swarm of nanoscarabs sweep out and lace the ground before them with microscopic temporal charges. Foes advancing into this invisible minefield find reality stuttering and glitching around them as they trigger one minute chronofault after another." />
