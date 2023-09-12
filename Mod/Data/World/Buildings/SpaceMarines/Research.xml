@@ -12,7 +12,7 @@
         </modifier>
         <modifier>
             <effects>
-                <research add="7" />
+                <research add="6" />
             </effects>
         </modifier>
     </modifiers>

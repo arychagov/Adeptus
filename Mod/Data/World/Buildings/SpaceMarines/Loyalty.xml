@@ -12,7 +12,7 @@
         </modifier>
         <modifier>
             <effects>
-                <loyalty add="7" />
+                <loyalty add="6" />
             </effects>
         </modifier>
     </modifiers>

@@ -216,6 +216,7 @@
         <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
         <trait name="ExtraVehicleArmour" requiredUpgrade="Necrons/ExtraVehicleArmour" />
         <trait name="Vehicle" />
+        <trait name="Skimmer" />
         <trait name="Necrons/Nebuloscope" requiredUpgrade="Necrons/Nebuloscope" />
         <trait name="Necrons/LivingMetalTombBlades" />
         <trait name="Necrons/ShieldVane" requiredUpgrade="Necrons/Nebuloscope" />

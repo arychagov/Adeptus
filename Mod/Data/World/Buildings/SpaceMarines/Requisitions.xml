@@ -12,7 +12,7 @@
         </modifier>
         <modifier>
             <effects>
-                <requisitions add="7" />
+                <requisitions add="6" />
             </effects>
         </modifier>
     </modifiers>

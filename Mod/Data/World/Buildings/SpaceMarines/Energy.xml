@@ -12,7 +12,7 @@
         </modifier>
         <modifier>
             <effects>
-                <energy add="7" />
+                <energy add="6" />
             </effects>
         </modifier>
     </modifiers>

@@ -12,7 +12,7 @@
         </modifier>
         <modifier>
             <effects>
-                <influence add="7" />
+                <influence add="6" />
             </effects>
         </modifier>
     </modifiers>
