@@ -25,14 +25,14 @@
         <modifier visible="0">
             <effects>
                 <armor base="8" /> <!-- %armor base armor=3+ -->
-                <hitpointsMax base="2.0" /> <!-- %hitpointsMax base toughness=3 wounds=1 -->
+                <hitpointsMax base="3.0" /> <!-- %hitpointsMax base toughness=3 wounds=1 -->
                 <meleeAccuracy base="8" /> <!-- %meleeAccuracy base weaponSkill=4 -->
                 <meleeAttacks base="1" />
                 <strengthDamage base="1" /> <!-- %strengthDamage base strength=3 -->
                 <!-- <meleeInitiative base="3"/> -->
                 <moraleMax base="10" /> <!-- %moraleMax base leadership=8 -->
                 <movementMax base="3" />
-                <productionCost base="18.0" /> <!-- %productionCost base tier=3 factor=1 -->
+                <productionCost base="40.0" /> <!-- %productionCost base tier=3 factor=1 -->
                 <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
                 <requisitionsCost base="15.0" /> <!-- %requisitionsCost base tier=3 factor=1 -->
                 <requisitionsUpkeep base="0.75" /> <!-- %requisitionsUpkeep base tier=3 factor=1 -->
