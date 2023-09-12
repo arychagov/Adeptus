@@ -179,8 +179,6 @@
     <entry name="SpaceMarines/CodexAstartes" value="Codex Astartes" />
     <entry name="SpaceMarines/CodexAstartesDescription" value="Decreases the cooldown and increases the duration of all chapter tactics. Increases damage reduction of Assault Space Marines." />
     <entry name="SpaceMarines/CodexAstartesFlavor" value="We follow in the footsteps of Guilliman. As it is written in the Codex, so shall it be." />
-    <entry name="SpaceMarines/DevastatorDoctrine" value="Specialist Doctrine" />
-    <entry name="SpaceMarines/DevastatorDoctrineDescription" value="Chapter tactics that increases the accuracy of Devastator Space Marines, Devastator Centurions, and the melee accuracy of Assault Space Marines, Terminators and heroes." />
     <entry name="SpaceMarines/DozerBladeDescription" value="Reduces the movement penalty for Hunters, Predators and Razorbacks in forests and imperial ruins. Increases Vindicators armor." />
     <entry name="SpaceMarines/EmperorsClaim" value="Emperor's Claim" />
     <entry name="SpaceMarines/EmperorsClaimDescription" value="Removes cooldown on Fortress of Redemption deploy and increases outposts yield." />

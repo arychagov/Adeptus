@@ -421,7 +421,7 @@
                 </modifier>
             </unitModifiers>
         </doctrina>
-        <doctrina name="AssaultDoctrine" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" rankMax="9" requiredUpgrade="SpaceMarines/DevastatorDoctrine" scaleInfluenceCost="1">
+        <doctrina name="AssaultDoctrine" cooldown="9" durationInSeconds="0.1" interfaceSound="Interface/Tactic" rankMax="9" requiredUpgrade="SpaceMarines/AssaultDoctrine" scaleInfluenceCost="1">
             <modifiers>
                 <modifier visible="0">
                     <effects>
