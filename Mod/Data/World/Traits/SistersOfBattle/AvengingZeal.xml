@@ -6,7 +6,7 @@
                 <moraleLossFactor add="-0.17" />
             </effects>
         </modifier>
-        <modifier requiredUpgrade="SistersOfBattle/AvengeTheMartyrs" visible="1">
+        <modifier requiredUpgrade="SistersOfBattle/CityTier3" visible="1">
             <effects>
                 <moraleLossFactor add="-0.17" />
             </effects>
