@@ -147,34 +147,21 @@
                 </target>
             </beginTargets>
         </blessingsOfTheOmnissiah>
-        <awakenTheMachine cooldown="1">
-            <model>
-                <action animation="Units/AstraMilitarum/TechpriestEnginseerAbility" sound="Actions/MechanicalBuff" />
-            </model>
+        <awakenTheMachine name="AstraMilitarum/AwakenTheMachine" passive="1">
             <beginTargets>
-                <target rangeMax="1">
-                    <conditions>
-                        <unit>
-                            <allied />
-                            <noTrait name="PowerOfTheMachineSpirit" />
-                        </unit>
-                        <unit match="Any">
-                            <trait name="Fortification" />
-                            <trait name="Vehicle" />
-                        </unit>
-                    </conditions>
+                <selfTarget>
                     <areas>
-                        <area affects="Unit">
+                        <area affects="Tile" radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="PowerOfTheMachineSpirit" duration="3" />
+                                        <addTrait name="AstraMilitarum/PowerOfTheMachineSpirit" />
                                     </effects>
                                 </modifier>
                             </modifiers>
                         </area>
                     </areas>
-                </target>
+                </selfTarget>
             </beginTargets>
         </awakenTheMachine>
         <constructImperialStrongpoint cooldown="10" icon="Units/AstraMilitarum/ImperialStrongpoint" requiredUpgrade="AstraMilitarum/ImperialStrongpoint">

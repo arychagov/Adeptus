@@ -4,12 +4,12 @@
         <unit explosionsBone="Hull" idleAnimation="Units/AstraMilitarum/LemanRussBattleTankIdle" idleAnimationCount="2" material="Units/AstraMilitarum/LemanRussBattleTank" mesh="Units/AstraMilitarum/LemanRussBattleTank" scale="1.3 1.3 1.3" uvAnimated="1" />
     </model>
     <weapons>
-        <weapon name="EradicatorNovaCannon">
+        <weapon name="BattleCannon">
             <model>
                 <projectileWeapon bone=".BarrelAttachment" fireInterval="1.0" material="Weapons/AstraMilitarum/LemanRussBattleTankBattleCannon" mesh="Weapons/AstraMilitarum/LemanRussBattleTankBattleCannon" muzzleBone="BarrelMuzzle0" />
             </model>
         </weapon>
-        <weapon name="HeavyLascannon">
+        <weapon name="Lascannon">
             <model>
                 <beamWeapon fireInterval="1.0" muzzleBone=".FrontTurretMuzzle0" />
             </model>
@@ -69,7 +69,7 @@
                 <action animation="Units/AstraMilitarum/LemanRussBattleTankMove" sound="Units/AstraMilitarum/TankMove" soundCount="3" />
             </model>
         </move>
-        <createSmokeScreen cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="AstraMilitarum/SmokeLauncher">
+        <createSmokeScreen consumedActionPoints="0" consumedMovement="0" cooldown="10" icon="Traits/SmokeScreen" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/SmokeLauncher">
             <model>
                 <action sound="Actions/SmokeScreen" />
             </model>

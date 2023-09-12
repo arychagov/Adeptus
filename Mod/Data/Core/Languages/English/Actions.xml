@@ -27,6 +27,9 @@
     <entry name="AstraMilitarum/AdditionalMeltagunGuardsmanDescription" value="Grants Guardsmen additional meltagun. Only one upgrade or install can be set up for a unit." />
     <entry name="AstraMilitarum/AdditionalHeavyBolters" value="Install Heavy Bolters" />
     <entry name="AstraMilitarum/AdditionalHeavyBoltersDescription" value="Grants Leman Russ Battle Tank, Tank Commander, Imperial Bastion, Baneblade or Valkyrie additional heavy bolters. Only one upgrade or install can be set up for a unit." />
+    <entry name="AstraMilitarum/AwakenTheMachine" value="Awaken The Machine"/>
+    <entry name="AstraMilitarum/AwakenTheMachineDescription" value="Increases the ranged accuracy of adjacent allied vehicle or fortification units."/>
+    <entry name="AstraMilitarum/AwakenTheMachineFlavor" value="“With push of Button fire the Engine<br/>And spark Turbine into life…<br/>Toll the Great Bell Thrice!<br/>Sing Praise to the<br/>God of All Machines”<br/>  — Catechism of the Autoculus of Mars"/>
     <entry name="AstraMilitarum/DeployVoidShieldGenerator" value="Deploy Void Shield Generator" />
     <entry name="AstraMilitarum/DeployVoidShieldGeneratorDescription" value="Deploys void shield generator on allied Imperial Bastion that gives the ranged damage reduction from attacks from range 2 or higher to nearby allied infantry units and vehicles." />
     <entry name="AstraMilitarum/DeployVoidShieldGeneratorFlavor" value="Void shields are normally localised force fields reserved for protecting the monolithic Titans of the Adeptus Mechanicus, but static generators can be erected to serve as an aegis for other targets of vital import. The largest Void Shield generators can even project an invisible bubble of power across a large area of the battlefield, sheltering both troops and strategically vital battlefield locations by absorbing or deflecting the energy of incoming munitions." />

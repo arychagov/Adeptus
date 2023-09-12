@@ -115,7 +115,7 @@
                 <action animation="Units/AstraMilitarum/BanebladeAttack" beginFire="0.2" endFire="2.7" />
             </model>
         </useWeapon>
-        <createSmokeScreen cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="AstraMilitarum/SmokeLauncher">
+        <createSmokeScreen consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="AstraMilitarum/SmokeLauncher">
             <model>
                 <action sound="Actions/SmokeScreen" />
             </model>

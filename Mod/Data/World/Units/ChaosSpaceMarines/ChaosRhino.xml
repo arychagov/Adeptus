@@ -104,7 +104,7 @@
         <destroyerBlades cooldown="1" visible="0" weaponSlotName="DestroyerBlades">
             <model></model>
         </destroyerBlades>
-        <createSmokeScreen cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="ChaosSpaceMarines/SmokeLauncher">
+        <createSmokeScreen consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="ChaosSpaceMarines/SmokeLauncher">
             <model>
                 <action sound="Actions/SmokeScreen" />
             </model>

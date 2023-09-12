@@ -58,6 +58,9 @@
     <entry name="AstraMilitarum/InstalledVoidShield" value="Void Shield" />
     <entry name="AstraMilitarum/InstalledVoidShieldDescription" value="Grants the ranged damage reduction from attacks from range 2 or higher to nearby allied infantry units and vehicles." />
     <entry name="AstraMilitarum/InstalledVoidShieldFlavor" value="Void shields are normally localised force fields reserved for protecting the monolithic Titans of the Adeptus Mechanicus, but static generators can be erected to serve as an aegis for other targets of vital import. The largest Void Shield generators can even project an invisible bubble of power across a large area of the battlefield, sheltering both troops and strategically vital battlefield locations by absorbing or deflecting the energy of incoming munitions." />
+    <entry name="AstraMilitarum/PowerOfTheMachineSpirit" value="<string name='Actions/PowerOfTheMachineSpirit'/>" />
+    <entry name="AstraMilitarum/PowerOfTheMachineSpiritDescription" value="<string name='Actions/PowerOfTheMachineSpiritDescription'/>" />
+    <entry name="AstraMilitarum/PowerOfTheMachineSpiritFlavor" value="<string name='Actions/PowerOfTheMachineSpiritFlavor'/>" />
     <entry name="AstraMilitarum/Prosperity" value="Prosperity" />
     <entry name="AstraMilitarum/ProsperityDescription" value="Increases city growth" />
     <entry name="AstraMilitarum/UpgradedLascannon" value="Upgraded Lascannon" />

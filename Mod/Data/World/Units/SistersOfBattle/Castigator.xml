@@ -74,7 +74,7 @@
             </model>
         </move>
         <cycleWeapon interfaceSound="Interface/CycleWeapon" weaponSlotNames="CastigatorBattleCannonSanctifiedShell CastigatorBattleCannonPyreShell" />
-        <createSmokeScreen cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="SistersOfBattle/DozerBlade">
+        <createSmokeScreen consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="SistersOfBattle/DozerBlade">
             <model>
                 <action sound="Actions/SmokeScreen" />
             </model>
