@@ -324,7 +324,7 @@
         </quest>
     </quests>
     <actions>
-        <tactic name="SistersOfBattle/ConvictionOfFaith" cooldown="1" durationInSeconds="0.1" icon="Actions/SistersOfBattle/ConvictionOfFaith" interfaceSound="Interface/ConvictionOfFaith" requiredUpgrade="SistersOfBattle/ConvictionOfFaith">
+        <tactic name="SistersOfBattle/ConvictionOfFaith" cooldown="3" durationInSeconds="0.1" icon="Actions/SistersOfBattle/ConvictionOfFaith" interfaceSound="Interface/ConvictionOfFaith" requiredUpgrade="SistersOfBattle/ConvictionOfFaith">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -367,17 +367,17 @@
                         </player>
                     </conditions>
                     <effects>
-                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="1" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="3" />
                     </effects>
                 </modifier>
                 <modifier>
                     <effects>
-                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="1" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="3" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic name="SistersOfBattle/EternalCrusade" cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/EternalCrusade" requiredUpgrade="SistersOfBattle/EternalCrusade">
+        <tactic name="SistersOfBattle/EternalCrusade" cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/EternalCrusade" requiredUpgrade="SistersOfBattle/EternalCrusade">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -408,18 +408,18 @@
                         </player>
                     </conditions>
                     <effects>
-                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="1" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="3" />
                     </effects>
                 </modifier>
                 <modifier>
                     <effects>
-                        <addTrait name="SistersOfBattle/EternalCrusade" duration="1" />
-                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="1" />
+                        <addTrait name="SistersOfBattle/EternalCrusade" duration="3" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="3" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic name="SistersOfBattle/WarmachinesWrath" cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/WarmachinesWrath" requiredUpgrade="SistersOfBattle/WarmachinesWrath">
+        <tactic name="SistersOfBattle/WarmachinesWrath" cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/WarmachinesWrath" requiredUpgrade="SistersOfBattle/WarmachinesWrath">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -450,18 +450,18 @@
                         </player>
                     </conditions>
                     <effects>
-                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="1" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="3" />
                     </effects>
                 </modifier>
                 <modifier>
                     <effects>
-                        <addTrait name="SistersOfBattle/WarmachinesWrath" duration="1" />
-                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="1" />
+                        <addTrait name="SistersOfBattle/WarmachinesWrath" duration="3" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="3" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic name="SistersOfBattle/RagingFervour" cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/RagingFervour" requiredUpgrade="SistersOfBattle/RagingFervour">
+        <tactic name="SistersOfBattle/RagingFervour" cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/RagingFervour" requiredUpgrade="SistersOfBattle/RagingFervour">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -492,18 +492,18 @@
                         </player>
                     </conditions>
                     <effects>
-                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="1" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="3" />
                     </effects>
                 </modifier>
                 <modifier>
                     <effects>
-                        <addTrait name="SistersOfBattle/RagingFervour" duration="1" />
-                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="1" />
+                        <addTrait name="SistersOfBattle/RagingFervour" duration="3" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="3" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic name="SistersOfBattle/SacralVigor" cooldown="1" durationInSeconds="0.1" icon="Actions/SistersOfBattle/SacralVigor" interfaceSound="Interface/SacralVigor" requiredUpgrade="SistersOfBattle/SacralVigor">
+        <tactic name="SistersOfBattle/SacralVigor" cooldown="3" durationInSeconds="0.1" icon="Actions/SistersOfBattle/SacralVigor" interfaceSound="Interface/SacralVigor" requiredUpgrade="SistersOfBattle/SacralVigor">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -547,17 +547,17 @@
                         </player>
                     </conditions>
                     <effects>
-                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="1" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="3" />
                     </effects>
                 </modifier>
                 <modifier>
                     <effects>
-                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="1" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="3" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic name="SistersOfBattle/ChaseTheProfane" cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/ChaseTheProfane" requiredUpgrade="SistersOfBattle/ChaseTheProfane">
+        <tactic name="SistersOfBattle/ChaseTheProfane" cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/ChaseTheProfane" requiredUpgrade="SistersOfBattle/ChaseTheProfane">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -589,7 +589,7 @@
                         </unit>
                     </conditions>
                     <effects>
-                        <addTrait name="MoveThroughCover" duration="1" />
+                        <addTrait name="MoveThroughCover" duration="3" />
                     </effects>
                 </modifier>
             </unitModifiers>
@@ -601,17 +601,17 @@
                         </player>
                     </conditions>
                     <effects>
-                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="1" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="3" />
                     </effects>
                 </modifier>
                 <modifier>
                     <effects>
-                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="1" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="3" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic name="SistersOfBattle/PurifyingRecitations" cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/PurifyingRecitations" requiredUpgrade="SistersOfBattle/PurifyingRecitations">
+        <tactic name="SistersOfBattle/PurifyingRecitations" cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/PurifyingRecitations" requiredUpgrade="SistersOfBattle/PurifyingRecitations">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -642,18 +642,18 @@
                         </player>
                     </conditions>
                     <effects>
-                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="1" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="3" />
                     </effects>
                 </modifier>
                 <modifier>
                     <effects>
-                        <addTrait name="SistersOfBattle/PurifyingRecitations" duration="1" />
-                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="1" />
+                        <addTrait name="SistersOfBattle/PurifyingRecitations" duration="3" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="3" />
                     </effects>
                 </modifier>
             </playerModifiers>
         </tactic>
-        <tactic name="SistersOfBattle/NonMilitantMobilisation" cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/NonMilitantMobilisation" requiredUpgrade="SistersOfBattle/NonMilitantMobilisation">
+        <tactic name="SistersOfBattle/NonMilitantMobilisation" cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/NonMilitantMobilisation" requiredUpgrade="SistersOfBattle/NonMilitantMobilisation">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -684,24 +684,24 @@
                         </player>
                     </conditions>
                     <effects>
-                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="1" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="3" />
                     </effects>
                 </modifier>
                 <modifier>
                     <effects>
-                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="1" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="3" />
                     </effects>
                 </modifier>
             </playerModifiers>
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait name="SistersOfBattle/NonMilitantMobilisation" duration="1" />
+                        <addTrait name="SistersOfBattle/NonMilitantMobilisation" duration="3" />
                     </effects>
                 </modifier>
             </actorModifiers>
         </tactic>
-        <tactic name="SistersOfBattle/VengefulSpirit" cooldown="1" durationInSeconds="0.1" interfaceSound="Interface/VengefulSpirit" requiredUpgrade="SistersOfBattle/VengefulSpirit">
+        <tactic name="SistersOfBattle/VengefulSpirit" cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/VengefulSpirit" requiredUpgrade="SistersOfBattle/VengefulSpirit">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -732,13 +732,13 @@
                         </player>
                     </conditions>
                     <effects>
-                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="1" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="3" />
                     </effects>
                 </modifier>
                 <modifier>
                     <effects>
-                        <addTrait name="SistersOfBattle/VengefulSpirit" duration="1" />
-                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="1" />
+                        <addTrait name="SistersOfBattle/VengefulSpirit" duration="3" />
+                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="3" />
                     </effects>
                 </modifier>
             </playerModifiers>
