@@ -16,14 +16,14 @@
             <effects>
                 <armor base="2" /> <!-- %armor base armor=6+ -->
                 <energyCost base="20.0" /> <!-- %energyCost base tier=4 factor=1 -->
-                <hitpointsMax base="6.0" />
+                <hitpointsMax base="4.0" />
                 <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=3 wounds=3 -->
                 <meleeAccuracy base="4" /> <!-- %meleeAccuracy base weaponSkill=2 -->
                 <meleeAttacks base="3" />
                 <strengthDamage base="1" /> <!-- %strengthDamage base strength=3 -->
                 <!-- <meleeInitiative base="2"/> -->
                 <moraleMax base="12" /> <!-- %moraleMax base leadership=10 -->
-                <movementMax base="5" />
+                <movementMax base="4" />
                 <oreUpkeep base="1.0" /> <!-- %oreUpkeep base tier=4 factor=1 -->
                 <productionCost base="24.0" /> <!-- %productionCost base tier=4 factor=1 -->
                 <rangedAccuracy base="4" /> <!-- %rangedAccuracy base ballisticSkill=2 -->
