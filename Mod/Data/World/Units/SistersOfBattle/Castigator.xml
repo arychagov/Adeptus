@@ -4,26 +4,12 @@
         <unit explosionsBone="Hull_Shake" idleAnimation="Units/SistersOfBattle/CastigatorIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SistersOfBattle/Castigator" mesh="Units/SistersOfBattle/Castigator" scale="0.95 0.95 0.95" uvAnimated="1" />
     </model>
     <weapons>
-        <weapon name="CastigatorBattleCannonPyreShell" enabled="0" slotName="CastigatorBattleCannonPyreShell">
+        <weapon name="MultiMelta" count="2">
             <model>
-                <projectileWeapon fireDelay="1.2" fireInterval="10.0" muzzleBone="CannonMuzzle" />
+                <beamWeapon muzzleBone="BolterMuzzle" muzzleCount="2" />
             </model>
         </weapon>
-        <weapon name="CastigatorBattleCannonSanctifiedShell" slotName="CastigatorBattleCannonSanctifiedShell">
-            <model>
-                <projectileWeapon fireDelay="1.2" fireInterval="10.0" muzzleBone="CannonMuzzle" />
-            </model>
-        </weapon>
-        <weapon name="HeavyBolter" count="2">
-            <model>
-                <projectileWeapon muzzleBone="BolterMuzzle" muzzleCount="2" />
-            </model>
-        </weapon>
-        <weapon name="HeavyBolter" requiredUpgrade="SistersOfBattle/AdditionalHeavyBolter">
-            <model>
-                <projectileWeapon bone="Gun_Front" material="Weapons/SistersOfBattle/CastigatorUpgrades" mesh="Weapons/SistersOfBattle/CastigatorBolter" muzzleBone="FrontMuzzle" />
-            </model>
-        </weapon>
+        <weapon name="MultiMelta" count="1"/>
         <weapon name="HunterKillerMissile" enabled="0" requiredUpgrade="SistersOfBattle/HunterKillerMissile" slotName="HunterKillerMissile">
             <model>
                 <missileWeapon bone="Hull_Shake" material="Weapons/SistersOfBattle/CastigatorUpgrades" mesh="Weapons/SistersOfBattle/CastigatorHunterKiller" />
@@ -43,8 +29,8 @@
                 <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base armor=13/11/10 wounds=3 -->
                 <moraleMax base="10" /> <!-- %moraleMax base leadership=8 -->
                 <movementMax base="4" />
-                <requisitionsUpkeep base="4.0" /> <!-- %requisitionsUpkeep base tier=8 factor=1 -->
-                <requisitionsCost base="80.0" /> <!-- %requisitionsCost base tier=8 factor=1 -->
+                <requisitionsUpkeep base="3.0" /> <!-- %requisitionsUpkeep base tier=8 factor=1 -->
+                <requisitionsCost base="60.0" /> <!-- %requisitionsCost base tier=8 factor=1 -->
                 <productionCost base="48.0" /> <!-- %productionCost base tier=8 factor=1 -->
                 <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
@@ -73,8 +59,7 @@
                 <action animation="Units/SistersOfBattle/CastigatorMove" sound="Units/AstraMilitarum/TankMove" soundCount="3" />
             </model>
         </move>
-        <cycleWeapon interfaceSound="Interface/CycleWeapon" weaponSlotNames="CastigatorBattleCannonSanctifiedShell CastigatorBattleCannonPyreShell" />
-        <createSmokeScreen consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="SistersOfBattle/DozerBlade">
+        <createSmokeScreen consumedActionPoints="0" consumedMovement="0" cooldown="10" icon="Traits/SmokeScreen" requiredActionPoints="0" requiredUpgrade="SistersOfBattle/DozerBlade">
             <model>
                 <action sound="Actions/SmokeScreen" />
             </model>
