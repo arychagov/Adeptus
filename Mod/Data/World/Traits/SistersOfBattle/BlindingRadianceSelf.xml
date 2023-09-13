@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" rankMax="2">
+<trait category="Buff" icon="Traits/Blinding" rankMax="2">
     <modifiers>
         <modifier>
             <effects>
-                <accuracy addMax="2" addMin="1" />
+                <armor addMax="1" addMin="1" />
             </effects>
         </modifier>
     </modifiers>

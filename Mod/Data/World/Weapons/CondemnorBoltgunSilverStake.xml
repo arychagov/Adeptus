@@ -7,14 +7,15 @@
         <modifier>
             <effects>
                 <attacks add="1" />
-                <rangedArmorPenetration add="0" /> <!-- %rangedArmorPenetration add armorPiercing=- -->
-                <rangedDamage add="2" /> <!-- %rangedDamage add strength=5 -->
+                <rangedArmorPenetration add="1" /> <!-- %rangedArmorPenetration add armorPiercing=- -->
+                <rangedDamage add="5" /> <!-- %rangedDamage add strength=5 -->
                 <strengthDamage base="0" />
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="2" />
+    <target rangeMax="3" />
     <traits>
+        <trait name="Luminagen" />
         <trait name="SistersOfBattle/PsyShock" />
         <trait name="SistersOfBattle/AssaultWeaponBonus" requiredUpgrade="SistersOfBattle/AssaultWeaponBonus" />
     </traits>

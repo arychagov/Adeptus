@@ -279,6 +279,12 @@
     <entry name="ShatteredDefences" value="Shattered Defences" />
     <entry name="ShatteredDefencesDescription" value="Removes the ranged damage reduction of the target tile." />
 
+    <entry name="SistersOfBattle/BlindingRadianceSelf" value="Blinding Radiance" />
+    <entry name="SistersOfBattle/BlindingRadianceSelfDescription" value="Increases the armour." />
+    <entry name="SistersOfBattle/BlindingRadianceSelfFlavor" value="The Emperor’s own divinity is made manifest from this warrior’s golden halo, blinding the enemy with holy light." />
+    <entry name="SistersOfBattle/BlindingRadianceEnemy" value="Blinding Radiance" />
+    <entry name="SistersOfBattle/BlindingRadianceEnemyDescription" value="Decreases the accuracy." />
+    <entry name="SistersOfBattle/BlindingRadianceEnemyFlavor" value="The Emperor’s own divinity is made manifest from this warrior’s golden halo, blinding the enemy with holy light." />
     <entry name="SistersOfBattle/Prosperity" value="Prosperity" />
     <entry name="SistersOfBattle/ProsperityDescription" value="Increases city growth" />
     <entry name="SistersOfBattle/BolterDrill" value="Bolter Drill" />
@@ -287,6 +293,12 @@
     <entry name="SistersOfBattle/FaithAndFury" value="Faith And Fury" />
     <entry name="SistersOfBattle/FaithAndFuryDescription" value="Reduces the cooldown of Acts of Faith." />
     <entry name="SistersOfBattle/FaithAndFuryFlavor" value="With the Emperor watching over them, the righteous zeal of the Sisters of Battle burns ever brighter, fuelling their attacks." />
+    <entry name="SistersOfBattle/HolyFireEnemy" value="Holy Fire" />
+    <entry name="SistersOfBattle/HolyFireEnemyDescription" value="Takes damage over time." />
+    <entry name="SistersOfBattle/HolyFireEnemyFlavor" value="Fed by auxiliary fuel lines, this transport’s braziers are made to flare with holy fire, tinged with sacred unguents and rare resins" />
+    <entry name="SistersOfBattle/HolyFireSelf" value="Holy Fire" />
+    <entry name="SistersOfBattle/HolyFireSelfDescription" value="Applies damage over time debuff." />
+    <entry name="SistersOfBattle/HolyFireSelfFlavor" value="Fed by auxiliary fuel lines, this transport’s braziers are made to flare with holy fire, tinged with sacred unguents and rare resins" />
 
     <entry name="SmokeScreenDescription" value="Decreases opponent's ranged accuracy." />
 

@@ -26,4 +26,6 @@
     <entry name="GuardsmanMeltagunFlavor" value="<string name='Weapons/MeltaFlavor'/>"/>
     <entry name="HeavyLascannon" value="Heavy Lascannon" />
     <entry name="HeavyLascannonFlavor" value="<string name='Weapons/LasFlavor'/>" />
+    <entry name="HolyFire" value="Holy Fire"/>
+    <entry name="HolyFireFlavor" value="Fed by auxiliary fuel lines, this transport’s braziers are made to flare with holy fire, tinged with sacred unguents and rare resins."/>
 </language>

@@ -27,9 +27,9 @@
     <entry name="AstraMilitarum/AdditionalMeltagunGuardsmanDescription" value="Grants Guardsmen additional meltagun. Only one upgrade or install can be set up for a unit." />
     <entry name="AstraMilitarum/AdditionalHeavyBolters" value="Install Heavy Bolters" />
     <entry name="AstraMilitarum/AdditionalHeavyBoltersDescription" value="Grants Leman Russ Battle Tank, Tank Commander, Imperial Bastion, Baneblade or Valkyrie additional heavy bolters. Only one upgrade or install can be set up for a unit." />
-    <entry name="AstraMilitarum/AwakenTheMachine" value="Awaken The Machine"/>
-    <entry name="AstraMilitarum/AwakenTheMachineDescription" value="Increases the ranged accuracy of adjacent allied vehicle or fortification units."/>
-    <entry name="AstraMilitarum/AwakenTheMachineFlavor" value="“With push of Button fire the Engine<br/>And spark Turbine into life…<br/>Toll the Great Bell Thrice!<br/>Sing Praise to the<br/>God of All Machines”<br/>  — Catechism of the Autoculus of Mars"/>
+    <entry name="AstraMilitarum/AwakenTheMachine" value="Awaken The Machine" />
+    <entry name="AstraMilitarum/AwakenTheMachineDescription" value="Increases the ranged accuracy of adjacent allied vehicle or fortification units." />
+    <entry name="AstraMilitarum/AwakenTheMachineFlavor" value="“With push of Button fire the Engine<br/>And spark Turbine into life…<br/>Toll the Great Bell Thrice!<br/>Sing Praise to the<br/>God of All Machines”<br/>  — Catechism of the Autoculus of Mars" />
     <entry name="AstraMilitarum/DeployVoidShieldGenerator" value="Deploy Void Shield Generator" />
     <entry name="AstraMilitarum/DeployVoidShieldGeneratorDescription" value="Deploys void shield generator on allied Imperial Bastion that gives the ranged damage reduction from attacks from range 2 or higher to nearby allied infantry units and vehicles." />
     <entry name="AstraMilitarum/DeployVoidShieldGeneratorFlavor" value="Void shields are normally localised force fields reserved for protecting the monolithic Titans of the Adeptus Mechanicus, but static generators can be erected to serve as an aegis for other targets of vital import. The largest Void Shield generators can even project an invisible bubble of power across a large area of the battlefield, sheltering both troops and strategically vital battlefield locations by absorbing or deflecting the energy of incoming munitions." />
@@ -99,8 +99,8 @@
     <entry name="Necrons/AggressionOverridesFlavor" value="<string name='Traits/Necrons/AggressionOverridesFlavor'/>" />
     <entry name="Necrons/BloodyCrusade" value="Bloody Crusade" />
     <entry name="Necrons/BloodyCrusadeDescription" value="Increases the accuracy and the feel no pain damage reduction of infantry and monstrous creatures, but disables Reanimation Protocols, Living Metal, Dimensional Corridor and Necrodermis Repair." />
-    <entry name="Necrons/Chronometron" value="Mechanical Augmentation"/>
-    <entry name="Necrons/ChronometronDescription" value="Permanently increases damage reduction of the target allied infantry or monstrous creature unit and make it return damage back to the attacker."/>
+    <entry name="Necrons/Chronometron" value="Mechanical Augmentation" />
+    <entry name="Necrons/ChronometronDescription" value="Permanently increases damage reduction of the target allied infantry or monstrous creature unit and make it return damage back to the attacker." />
     <entry name="Necrons/CountertemporalNanomines" value="<string name='Traits/Necrons/CountertemporalNanomines'/>" />
     <entry name="Necrons/CountertemporalNanominesDescription" value="Immobilizes enemy non-hero unit." />
     <entry name="Necrons/CountertemporalNanominesFlavor" value="<string name='Traits/Necrons/CountertemporalNanominesFlavor'/>" />
@@ -125,7 +125,7 @@
     <entry name="Necrons/QuantumDeflectionDescription" value="<string name='Traits/Necrons/QuantumDeflectionDescription'/>" />
     <entry name="Necrons/QuantumDeflectionFlavor" value="<string name='Traits/Necrons/QuantumDeflectionFlavor'/>" />
     <entry name="Necrons/QuantumShieldingDescription" value="Increases the invulnerable damage reduction." />
-    <entry name="Necrons/ReaperDescription" value="Increases the armour, the attacks range, the damage and the movement. Jet Charge recharges when the Destroyer Lord gains experience from combat."/>
+    <entry name="Necrons/ReaperDescription" value="Increases the armour, the attacks range, the damage and the movement. Jet Charge recharges when the Destroyer Lord gains experience from combat." />
     <entry name="Necrons/StormOfFlensingBlades" value="Storm Of Flensing Blades" />
     <entry name="Necrons/StormOfFlensingBladesDescription" value="Increases the movement." />
     <entry name="Necrons/TriarchPraetorianJumpPack" value="<string name='Actions/JumpPack'/>" />
@@ -133,18 +133,24 @@
     <entry name="Necrons/TriarchPraetorianJumpPackFlavor" value="<string name='Actions/JumpPackFlavor'/>" />
     <entry name="Necrons/UpgradeGaussFlayerArray" value="Upgrade Gauss Flayer Array" />
     <entry name="Necrons/UpgradeGaussFlayerArrayDescription" value="Increases the ranged attacks of Ghost Ark, but removes ability to transport cargo. additional. Only one upgrade or install can be set up for a unit." />
-    <entry name="Necrons/Wraithflight" value="Wraithflight"/>
-    <entry name="Necrons/WraithflightDescription" value="Allows to move over water, through enemy units and ignores the penalties of rivers and wire weed, but reduces movement."/>
-    <entry name="Necrons/WraithflightFlavor" value="Their dimensional destabilisation matrix doesn’t just make Wraiths almost impossible to kill—it also allows them to pass through any obstacle, be that rivers, wire weed or even enemy warriors."/>
+    <entry name="Necrons/Wraithflight" value="Wraithflight" />
+    <entry name="Necrons/WraithflightDescription" value="Allows to move over water, through enemy units and ignores the penalties of rivers and wire weed, but reduces movement." />
+    <entry name="Necrons/WraithflightFlavor" value="Their dimensional destabilisation matrix doesn’t just make Wraiths almost impossible to kill—it also allows them to pass through any obstacle, be that rivers, wire weed or even enemy warriors." />
 
     <entry name="MachineSpirit" value="Machine Spirit" />
     <entry name="MachineSpiritDescription" value="Temporary ignores degradation." />
     <entry name="MachineSpiritFlavor" value="There are many tales of machine spirits wreaking havoc on the foe, even after their crew are slain and critical systems are failing." />
 
+    <entry name="SistersOfBattle/BlindingRadiance" value="Blinding Radiance" />
+    <entry name="SistersOfBattle/BlindingRadianceDescription" value="Decreases the accuracy of nearby enemies and increases Canoness' armour." />
+    <entry name="SistersOfBattle/BlindingRadianceFlavor" value="The Emperor’s own divinity is made manifest from this warrior’s golden halo, blinding the enemy with holy light." />
     <entry name="SistersOfBattle/DesperateForRedemption" value="Desperate For Redemption" />
     <entry name="SistersOfBattle/DesperateForRedemptionDescription" value="After dying, immediately comes back to life with 1 hit points remaining." />
     <entry name="SistersOfBattle/DesperateForRedemptionFlavor" value="Not even death can stop the Emperor’s chosen servants, and through his benevolence they rise again to serve the Master of Mankind’s will." />
-    <entry name="SistersOfBattle/EternalCrusadeDescription" value="Sacred Rite that increases the production output of Battle Chapels."/>
+    <entry name="SistersOfBattle/EternalCrusadeDescription" value="Sacred Rite that increases the production output of Battle Chapels." />
+    <entry name="SistersOfBattle/HolyFire" value="Holy Fire" />
+    <entry name="SistersOfBattle/HolyFireDescription" value="Imbues target allied infantry attacks with holy fire that applies damage over time debuff to the attacked enemy." />
+    <entry name="SistersOfBattle/HolyFireFlavor" value="Fed by auxiliary fuel lines, this transport’s braziers are made to flare with holy fire, tinged with sacred unguents and rare resins" />
 
     <entry name="SpaceMarines/AdditionalHeavyBolter" value="Install Heavy Bolter" />
     <entry name="SpaceMarines/AdditionalHeavyBolterDescription" value="Grants Fortress of Redemption additional heavy bolter. Only one upgrade or install can be set up for a unit." />
