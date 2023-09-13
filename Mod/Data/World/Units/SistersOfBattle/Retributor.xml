@@ -101,11 +101,6 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <throwGrenade cooldown="10" requiredUpgrade="SistersOfBattle/MeltaBomb" weaponSlotName="MeltaBomb">
-            <model>
-                <action animation="Units/SistersOfBattle/RetributorGrenade" beginFire="1.63" />
-            </model>
-        </throwGrenade>
         <lightOfTheEmperor name="SistersOfBattle/LightOfTheEmperor" consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0">
             <model>
                 <action sound="Actions/LightOfTheEmperor" />

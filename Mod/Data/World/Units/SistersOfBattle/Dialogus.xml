@@ -72,13 +72,6 @@
                 <action animation="Units/SistersOfBattle/DialogusMove" sound="Units/SistersOfBattle/InfantryMove" soundCount="3" />
             </model>
         </move>
-
-
-        <throwGrenade cooldown="10" requiredUpgrade="SistersOfBattle/MeltaBomb" weaponSlotName="MeltaBomb">
-            <model>
-                <action animation="Units/SistersOfBattle/DialogusGrenade" />
-            </model>
-        </throwGrenade>
         <genericUnitAbility name="SistersOfBattle/LaudHailer" passive="1">
             <beginTargets>
                 <selfTarget>

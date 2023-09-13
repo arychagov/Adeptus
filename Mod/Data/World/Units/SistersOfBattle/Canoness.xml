@@ -86,13 +86,6 @@
                 <action animation="Units/SistersOfBattle/CanonessMove" sound="Units/SistersOfBattle/InfantryMove" soundCount="3" />
             </model>
         </move>
-
-
-        <throwGrenade cooldown="10" requiredUpgrade="SistersOfBattle/MeltaBomb" weaponSlotName="MeltaBomb">
-            <model>
-                <action animation="Units/SistersOfBattle/CanonessGrenade" beginFire="1.16666666667" />
-            </model>
-        </throwGrenade>
         <useWeapon consumedActionPoints="1" cooldown="3" requiredActionPoints="1" requiredMovement="0" weaponSlotName="CondemnorBoltgunSilverStake">
             <model>
                 <action animation="Units/SistersOfBattle/CanonessIdle2" beginFire="1.0" endFire="1.1" />

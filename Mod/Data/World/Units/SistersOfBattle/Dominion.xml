@@ -121,13 +121,6 @@
                 </selfTarget>
             </beginTargets>
         </scout>
-
-
-        <throwGrenade cooldown="10" requiredUpgrade="SistersOfBattle/MeltaBomb" weaponSlotName="MeltaBomb">
-            <model>
-                <action animation="Units/SistersOfBattle/DominionGrenade" beginFire="1.63" />
-            </model>
-        </throwGrenade>
         <divineGuidance name="SistersOfBattle/DivineGuidance" consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0">
             <model>
                 <action sound="Actions/DivineGuidance" />
