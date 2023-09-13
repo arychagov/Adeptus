@@ -143,24 +143,16 @@
                 </selfTarget>
             </beginTargets>
         </miraculousIntervention>
-        <beaconOfFaith name="SistersOfBattle/BeaconOfFaith" consumedActionPoints="0" consumedMovement="0" cooldown="5" rank="-1" rankMax="2" requiredActionPoints="0">
-            <model>
-                <action animation="Units/SistersOfBattle/SaintCelestineAbility" sound="Actions/Command" />
-            </model>
+        <beaconOfFaith name="SistersOfBattle/BeaconOfFaith" passive="1" rank="-1" rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Unit" radius="2">
+                        <area affects="Tile" radiusMin="1" radiusMax="3">
                             <modifiers>
                                 <modifier>
-                                    <conditions>
-                                        <unit>
-                                            <allied />
-                                            <faction name="SistersOfBattle" />
-                                        </unit>
-                                    </conditions>
                                     <effects>
-                                        <morale addMax="6" addMin="2" />
+                                        <addTrait name="SistersOfBattle/BeaconOfFaithAlly" />
+                                        <addTrait name="SistersOfBattle/BeaconOfFaithEnemy" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -211,19 +203,31 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <theEmperorsVengeance name="SistersOfBattle/TheEmperorsVengeance" consumedActionPoints="0" consumedMovement="0" cooldown="5" elite="1" levelUpPriority="1" rank="-1" rankMax="0" requiredActionPoints="0">
+        <genericUnitAbility name="SistersOfBattle/EmperorsBlaze" icon="Actions/SistersOfBattle/EmperorsBlaze" rankMax="0" elite="1" rank="-1" cooldown="7">
             <model>
                 <action animation="Units/SistersOfBattle/SaintCelestineAbility" sound="Actions/TheEmperorsVengeance" />
             </model>
             <beginTargets>
-                <target rangeMax="-1">
-                    <conditions>
-                        <unit>
-                            <enemy />
-                        </unit>
-                    </conditions>
+                <selfTarget>
                     <areas>
-                        <area affects="Unit">
+                        <area affects="Unit" radius="2">
+                            <modifiers>
+                                <modifier>
+                                    <conditions>
+                                        <unit>
+                                            <allied />
+                                            <faction name="SistersOfBattle" />
+                                            <noTrait name="Hero" />
+                                            <noTrait name="Vehicle" />
+                                            <noTrait name="MonstrousCreature" />
+                                            <noTrait name="Fortification" />
+                                        </unit>
+                                    </conditions>
+                                    <effects>
+                                        <addTrait name="SistersOfBattle/HolyFireSelf" duration="2" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
                             <modifiers>
                                 <modifier>
                                     <conditions>
@@ -232,15 +236,15 @@
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <weaponDamage weapon="TheEmperorsVengeance" />
+                                        <addTrait name="SistersOfBattle/HolyFireEnemy" duration="2" />
                                     </effects>
                                 </modifier>
                             </modifiers>
                         </area>
                     </areas>
-                </target>
+                </selfTarget>
             </beginTargets>
-        </theEmperorsVengeance>
+        </genericUnitAbility>
         <levelUp />
         <shop />
     </actions>

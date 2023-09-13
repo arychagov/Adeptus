@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Traits/SoulBlaze">
+<trait category="Debuff" icon="Traits/SoulBlaze">
     <perTurnModifiers endure="0">
         <modifier>
             <effects>
-                <weaponDamage weapon="SoulBlaze" />
+                <hitpointsFactorFromMax add="-0.1" />
+                <healingRate mul="-1.0" />
             </effects>
         </modifier>
     </perTurnModifiers>

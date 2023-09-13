@@ -141,12 +141,18 @@
     <entry name="MachineSpiritDescription" value="Temporary ignores degradation." />
     <entry name="MachineSpiritFlavor" value="There are many tales of machine spirits wreaking havoc on the foe, even after their crew are slain and critical systems are failing." />
 
+    <entry name="SistersOfBattle/BeaconOfFaith" value="Beacon of Faith" />
+    <entry name="SistersOfBattle/BeaconOfFaithDescription" value="Restores the morale of nearby allied and reduces the morale of nearby enemy units each turn." />
+    <entry name="SistersOfBattle/BeaconOfFaithFlavor" value="“The Khornate warriors threatened to overwhelm us, we were cut and rent and thrown aside… even the Canoness fell… and then She intervened. As She descended, a shining beacon, our wounds closed, our spirits rallied and we drove back the heretics with newfound devotion…”<br/>  — Unknown remembrancer, Gospel of the Webway" />
     <entry name="SistersOfBattle/BlindingRadiance" value="Blinding Radiance" />
     <entry name="SistersOfBattle/BlindingRadianceDescription" value="Decreases the accuracy of nearby enemies and increases Canoness' armour." />
     <entry name="SistersOfBattle/BlindingRadianceFlavor" value="The Emperor’s own divinity is made manifest from this warrior’s golden halo, blinding the enemy with holy light." />
     <entry name="SistersOfBattle/DesperateForRedemption" value="Desperate For Redemption" />
     <entry name="SistersOfBattle/DesperateForRedemptionDescription" value="After dying, immediately comes back to life with 1 hit points remaining." />
     <entry name="SistersOfBattle/DesperateForRedemptionFlavor" value="Not even death can stop the Emperor’s chosen servants, and through his benevolence they rise again to serve the Master of Mankind’s will." />
+    <entry name="SistersOfBattle/EmperorsBlaze" value="Emperor's Blaze" />
+    <entry name="SistersOfBattle/EmperorsBlazeDescription" value="Imbues nearby allied infantry attacks with holy fire that applies damage over time debuff to the attacked enemy. Applies the same debuff to all nearby enemy units." />
+    <entry name="SistersOfBattle/EmperorsBlazeFlavor" value="The Brazier of Eternal Flame burns above the faithful, its blazing light driving back the darkness and protecting the true servants of the Emperor from foul sorceries and unholy abominations." />
     <entry name="SistersOfBattle/EternalCrusadeDescription" value="Sacred Rite that increases the production output of Battle Chapels." />
     <entry name="SistersOfBattle/HolyFire" value="Holy Fire" />
     <entry name="SistersOfBattle/HolyFireDescription" value="Imbues target allied infantry attacks with holy fire that applies damage over time debuff to the attacked enemy." />

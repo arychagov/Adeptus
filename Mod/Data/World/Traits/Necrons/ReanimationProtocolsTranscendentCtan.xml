@@ -4,6 +4,7 @@
         <modifier>
             <conditions>
                 <unit>
+                    <noTrait name="SistersOfBattle/HolyFireEnemy" />
                     <noTrait name="Necrons/BloodyCrusade" />
                 </unit>
             </conditions>
@@ -14,6 +15,7 @@
         <modifier requiredUpgrade="Necrons/LivingMetal2">
             <conditions>
                 <unit>
+                    <noTrait name="SistersOfBattle/HolyFireEnemy" />
                     <noTrait name="Necrons/BloodyCrusade" />
                 </unit>
             </conditions>

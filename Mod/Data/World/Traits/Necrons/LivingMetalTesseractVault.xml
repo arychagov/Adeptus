@@ -2,11 +2,21 @@
 <trait category="Buff" icon="Traits/Necrons/LivingMetal">
     <perTurnModifiers endure="0">
         <modifier>
+            <conditions>
+                <unit>
+                    <noTrait name="SistersOfBattle/HolyFireEnemy" />
+                </unit>
+            </conditions>
             <effects>
                 <hitpoints add="10" />
             </effects>
         </modifier>
         <modifier requiredUpgrade="Necrons/LivingMetal2">
+            <conditions>
+                <unit>
+                    <noTrait name="SistersOfBattle/HolyFireEnemy" />
+                </unit>
+            </conditions>
             <effects>
                 <hitpoints add="5" />
             </effects>

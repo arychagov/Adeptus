@@ -279,6 +279,12 @@
     <entry name="ShatteredDefences" value="Shattered Defences" />
     <entry name="ShatteredDefencesDescription" value="Removes the ranged damage reduction of the target tile." />
 
+    <entry name="SistersOfBattle/BeaconOfFaithAlly" value="Beacon of Faith"/>
+    <entry name="SistersOfBattle/BeaconOfFaithAllyDescription" value="Restore the morale each turn."/>
+    <entry name="SistersOfBattle/BeaconOfFaithAllyFlavor" value="“The Khornate warriors threatened to overwhelm us, we were cut and rent and thrown aside… even the Canoness fell… and then She intervened. As She descended, a shining beacon, our wounds closed, our spirits rallied and we drove back the heretics with newfound devotion…”<br/>  — Unknown remembrancer, Gospel of the Webway"/>
+    <entry name="SistersOfBattle/BeaconOfFaithEnemy" value="Beacon of Faith"/>
+    <entry name="SistersOfBattle/BeaconOfFaithEnemyDescription" value="Reduces the morale each turn."/>
+    <entry name="SistersOfBattle/BeaconOfFaithEnemyFlavor" value="“The Khornate warriors threatened to overwhelm us, we were cut and rent and thrown aside… even the Canoness fell… and then She intervened. As She descended, a shining beacon, our wounds closed, our spirits rallied and we drove back the heretics with newfound devotion…”<br/>  — Unknown remembrancer, Gospel of the Webway"/>
     <entry name="SistersOfBattle/BlindingRadianceSelf" value="Blinding Radiance" />
     <entry name="SistersOfBattle/BlindingRadianceSelfDescription" value="Increases the armour." />
     <entry name="SistersOfBattle/BlindingRadianceSelfFlavor" value="The Emperor’s own divinity is made manifest from this warrior’s golden halo, blinding the enemy with holy light." />
@@ -294,7 +300,7 @@
     <entry name="SistersOfBattle/FaithAndFuryDescription" value="Reduces the cooldown of Acts of Faith." />
     <entry name="SistersOfBattle/FaithAndFuryFlavor" value="With the Emperor watching over them, the righteous zeal of the Sisters of Battle burns ever brighter, fuelling their attacks." />
     <entry name="SistersOfBattle/HolyFireEnemy" value="Holy Fire" />
-    <entry name="SistersOfBattle/HolyFireEnemyDescription" value="Takes damage over time." />
+    <entry name="SistersOfBattle/HolyFireEnemyDescription" value="Takes damage over time and reduced the healing rate." />
     <entry name="SistersOfBattle/HolyFireEnemyFlavor" value="Fed by auxiliary fuel lines, this transport’s braziers are made to flare with holy fire, tinged with sacred unguents and rare resins" />
     <entry name="SistersOfBattle/HolyFireSelf" value="Holy Fire" />
     <entry name="SistersOfBattle/HolyFireSelfDescription" value="Applies damage over time debuff." />
