@@ -168,6 +168,7 @@
     <entry name="SistersOfBattle/ValourOfSaints" value="Valour of Saints" />
     <entry name="SistersOfBattle/ValourOfSaintsDescription" value="Adepta Sororitas units cannot be shaken or broken in cities. Enemy units are broken in Adepta Sororitas cities." />
     <entry name="SistersOfBattle/ValourOfSaintsFlavor" value="Those who stand unflinching against the horrors of the galaxy inspire their comrades to feats of divine heroism." />
+    <entry name="SistersOfBattle/VengefulSpiritDescription" value="Units with Shield Of Faith return damage back to the attacker."/>
     <entry name="SistersOfBattle/VowOfTheMilitantOrderDescription" value="Units keep their Shield Of Faith if they are broken. Increases damage reduction of Shield Of Faith." />
 
     <entry name="SpaceMarines/BlastDamageDescription" value="Increases the armour penetration of grenade, missile, las and blast weapons." />

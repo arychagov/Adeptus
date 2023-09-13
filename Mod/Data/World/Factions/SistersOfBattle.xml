@@ -701,48 +701,6 @@
                 </modifier>
             </actorModifiers>
         </tactic>
-        <tactic name="SistersOfBattle/VengefulSpirit" cooldown="3" durationInSeconds="0.1" interfaceSound="Interface/VengefulSpirit" requiredUpgrade="SistersOfBattle/VengefulSpirit">
-            <modifiers>
-                <modifier visible="0">
-                    <effects>
-                        <influenceCost base="10" />
-                    </effects>
-                </modifier>
-                <modifier requiredUpgrade="SistersOfBattle/RitualizedCeremonies">
-                    <effects>
-                        <influenceCost mul="-0.33" />
-                    </effects>
-                </modifier>
-            </modifiers>
-            <conditions>
-                <player match="Any">
-                    <upgrade name="SistersOfBattle/AdditionalSacredRite" />
-                    <noTrait name="SistersOfBattle/UsedSacredRite" />
-                </player>
-                <player match="Any">
-                    <noTrait name="SistersOfBattle/UsedSacredRite" />
-                    <noTrait name="SistersOfBattle/UsedSacredRite2" />
-                </player>
-            </conditions>
-            <playerModifiers>
-                <modifier>
-                    <conditions>
-                        <player>
-                            <trait name="SistersOfBattle/UsedSacredRite" />
-                        </player>
-                    </conditions>
-                    <effects>
-                        <addTrait name="SistersOfBattle/UsedSacredRite2" duration="3" />
-                    </effects>
-                </modifier>
-                <modifier>
-                    <effects>
-                        <addTrait name="SistersOfBattle/VengefulSpirit" duration="3" />
-                        <addTrait name="SistersOfBattle/UsedSacredRite" duration="3" />
-                    </effects>
-                </modifier>
-            </playerModifiers>
-        </tactic>
     </actions>
     <startingUnits>
         <unit count="1" type="SistersOfBattle/Hospitaller" />
