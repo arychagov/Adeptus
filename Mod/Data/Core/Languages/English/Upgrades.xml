@@ -159,6 +159,7 @@
     <entry name="SistersOfBattle/FaithAndFuryDescription" value="<string name='Traits/SistersOfBattle/FaithAndFuryDescription'/>" />
     <entry name="SistersOfBattle/FaithAndFuryFlavor" value="<string name='Traits/SistersOfBattle/FaithAndFuryFlavor'/>" />
     <entry name="SistersOfBattle/LaudHailerDescription" value="Grants Castigators, Exarsists and Immolators an aura allowing adjacent shaken units to perform Acts of Faith."/>
+    <entry name="SistersOfBattle/MedicusMinistorumDescription" value="Grants feel no pain damage reduction to allied infantry units adjacent to a Hospitaller and an Imagifier unit."/>
     <entry name="SistersOfBattle/MeltaBombDescription" value="Grants Zephyrims the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications." />
     <entry name="SistersOfBattle/MinistorumIndoctrination" value="Ministorum Indoctrination / Universal Catechism" />
     <entry name="SistersOfBattle/MinistorumIndoctrinationDescription" value="Grants Martyr Spirit to Lightning Fighters, Avengers Strike Fighters and Cerastus Knight-Lancers. Grants Shield Of Faith to Lightning Fighters, Avengers Strike Fighters and Cerastus Knight-Lancers." />
