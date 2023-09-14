@@ -9,7 +9,7 @@
                 <projectileWeapon muzzleBone=".HeavyBolterMuzzle" muzzleCount="2" />
             </model>
         </weapon>
-        <weapon name="StormBolter">
+        <weapon name="StormBolter" enabled="0" slotName="StormBolterUpgrade">
             <model>
                 <projectileWeapon muzzleBone=".StormbolterMuzzle" muzzleCount="2" />
             </model>
@@ -19,7 +19,6 @@
                 <missileWeapon fireInterval="5.0" muzzleBone="Hull" />
             </model>
         </weapon>
-        <weapon name="StormBolter" enabled="0" slotName="StormBolterUpgrade" />
     </weapons>
     <modifiers>
         <modifier visible="0">

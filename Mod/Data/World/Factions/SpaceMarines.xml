@@ -626,7 +626,7 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="20" />
+                        <influenceCost base="10" />
                     </effects>
                 </modifier>
             </modifiers>

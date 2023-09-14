@@ -3,7 +3,6 @@
     <modifiers>
         <modifier>
             <effects>
-                <armor add="-1" />
                 <movementMax add="-1" />
             </effects>
         </modifier>
