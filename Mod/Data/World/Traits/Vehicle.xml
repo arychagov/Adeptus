@@ -26,7 +26,7 @@
                 </unit>
             </conditions>
             <effects>
-                <accuracy mul="-0.25" />
+                <accuracy mul="-0.33" />
                 <movementMax add="-1" />
             </effects>
         </modifier>
