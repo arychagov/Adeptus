@@ -34,8 +34,8 @@
                 <movementMax base="3" />
                 <productionCost base="40.0" /> <!-- %productionCost base tier=3 factor=1 -->
                 <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
-                <requisitionsCost base="15.0" /> <!-- %requisitionsCost base tier=3 factor=1 -->
-                <requisitionsUpkeep base="0.75" /> <!-- %requisitionsUpkeep base tier=3 factor=1 -->
+                <requisitionsCost base="40.0" /> <!-- %requisitionsCost base tier=3 factor=1 -->
+                <requisitionsUpkeep base="2.0" /> <!-- %requisitionsUpkeep base tier=3 factor=1 -->
                 <duplicateTypeCost mul="0.125" />
             </effects>
         </modifier>
