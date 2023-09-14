@@ -43,7 +43,7 @@
                 <movementMax base="3" />
                 <productionCost base="54.0" /> <!-- %productionCost base tier=9 factor=1 -->
                 <rangedAccuracy base="12" /> <!-- %rangedAccuracy base ballisticSkill=7 -->
-                <requisitionsUpkeep base="3.0" /> <!-- %requistionsUpkeep base tier=9 factor=1 -->
+                <requisitionsUpkeep base="6.0" /> <!-- %requistionsUpkeep base tier=9 factor=1 -->
                 <requisitionsCost base="120.0" /> <!-- %requisitionsCost base tier=9 factor=1 -->
             </effects>
         </modifier>
