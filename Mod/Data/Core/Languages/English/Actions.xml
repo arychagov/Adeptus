@@ -21,10 +21,10 @@
     <entry name="AdeptusMechanicus/DataBlessedAutosermonDescription" value="Grants nearby allied Kastelan Robots ability to not suffer accuracy loss on hit points loss, increases their accuracy. Increases nearby allied Fulgurite Electro Priests attacks." />
     <entry name="AdeptusMechanicus/DataBlessedAutosermonFlavor" value="Struck with an infoload of revelation, truly blessed Tech-Priests will override the sacred canticles to deliver the Machine God’s adaptive wisdom." />
 
-    <entry name="AstraMilitarum/AdditionalFlamerGuardsman" value="Install Flamer" />
-    <entry name="AstraMilitarum/AdditionalFlamerGuardsmanDescription" value="Grants Guardsmen additional flamer. Only one upgrade or install can be set up for a unit." />
-    <entry name="AstraMilitarum/AdditionalMeltagunGuardsman" value="Install Meltagun" />
-    <entry name="AstraMilitarum/AdditionalMeltagunGuardsmanDescription" value="Grants Guardsmen additional meltagun. Only one upgrade or install can be set up for a unit." />
+    <entry name="AstraMilitarum/AdditionalFlamer" value="Install Flamer" />
+    <entry name="AstraMilitarum/AdditionalFlamerDescription" value="Grants Guardsmen or Tempestus Scions additional flamer. Only one upgrade or install can be set up for a unit." />
+    <entry name="AstraMilitarum/AdditionalMeltagun" value="Install Meltagun" />
+    <entry name="AstraMilitarum/AdditionalMeltagunDescription" value="Grants Guardsmen additional meltagun. Only one upgrade or install can be set up for a unit." />
     <entry name="AstraMilitarum/AdditionalHeavyBolters" value="Install Heavy Bolters" />
     <entry name="AstraMilitarum/AdditionalHeavyBoltersDescription" value="Grants Leman Russ Battle Tank, Tank Commander, Imperial Bastion, Baneblade or Valkyrie additional heavy bolters. Only one upgrade or install can be set up for a unit." />
     <entry name="AstraMilitarum/AwakenTheMachine" value="Awaken The Machine" />

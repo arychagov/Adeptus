@@ -20,6 +20,11 @@
                 <grenadeWeapon muzzleBone="BloodBone" />
             </model>
         </weapon>
+        <weapon name="GuardsmanFlamer" enabled="0" requiredUpgrade="AstraMilitarum/AdditionalFlamer" slotName="Flamer">
+            <model>
+                <flamerWeapon fireInterval="10" muzzleBone="BloodBone" />
+            </model>
+        </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
@@ -89,6 +94,17 @@
                 </selfTarget>
             </beginTargets>
         </scout>
+        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/AdditionalFlamer" weaponSlotName="Flamer">
+            <conditions>
+                <unit>
+                    <trait name="AstraMilitarum/AdditionalFlamer" />
+                    <noTrait name="Exhausted" />
+                </unit>
+            </conditions>
+            <model>
+                <action beginFire="0.1" endFire="1.0" />
+            </model>
+        </useWeapon>
         <mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
             <model>
                 <action bone="ChestBone" sound="Actions/Heal" />

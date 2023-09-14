@@ -20,12 +20,12 @@
                 <grenadeWeapon muzzleBone="LeftHandBone" />
             </model>
         </weapon>
-        <weapon name="GuardsmanFlamer" enabled="0" requiredUpgrade="AstraMilitarum/AdditionalFlamerGuardsman" slotName="GuardsmanFlamer">
+        <weapon name="GuardsmanFlamer" enabled="0" requiredUpgrade="AstraMilitarum/AdditionalFlamer" slotName="Flamer">
             <model>
                 <flamerWeapon fireInterval="10" muzzleBone="LeftHandBone" />
             </model>
         </weapon>
-        <weapon name="GuardsmanMeltagun" enabled="0" requiredUpgrade="AstraMilitarum/AdditionalMeltagunGuardsman" slotName="GuardsmanMeltagun">
+        <weapon name="GuardsmanMeltagun" enabled="0" requiredUpgrade="AstraMilitarum/AdditionalMeltagun" slotName="Meltagun">
             <model>
                 <beamWeapon fireInterval="1" muzzleBone="LeftHandBone" />
             </model>
@@ -105,10 +105,10 @@
             </beginTargets>
         </mediPack>
 
-        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/AdditionalFlamerGuardsman" weaponSlotName="GuardsmanFlamer">
+        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/AdditionalFlamer" weaponSlotName="Flamer">
             <conditions>
                 <unit>
-                    <trait name="AstraMilitarum/AdditionalFlamerGuardsman" />
+                    <trait name="AstraMilitarum/AdditionalFlamer" />
                     <noTrait name="Exhausted" />
                 </unit>
             </conditions>
@@ -117,10 +117,10 @@
             </model>
         </useWeapon>
 
-        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/AdditionalMeltagunGuardsman" weaponSlotName="GuardsmanMeltagun">
+        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/AdditionalMeltagun" weaponSlotName="Meltagun">
             <conditions>
                 <unit>
-                    <trait name="AstraMilitarum/AdditionalMeltagunGuardsman" />
+                    <trait name="AstraMilitarum/AdditionalMeltagun" />
                     <noTrait name="Exhausted" />
                 </unit>
             </conditions>

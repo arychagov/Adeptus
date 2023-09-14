@@ -414,7 +414,7 @@
                 </target>
             </beginTargets>
         </installSupportSystem>
-        <installSupportSystem name="AstraMilitarum/AdditionalFlamerGuardsman" cooldown="0" icon="Actions/AdditionalFlamer" requiredUpgrade="AstraMilitarum/AdditionalFlamerGuardsman">
+        <installSupportSystem name="AstraMilitarum/AdditionalFlamer" cooldown="0" icon="Actions/AdditionalFlamer" requiredUpgrade="AstraMilitarum/AdditionalFlamer">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -428,10 +428,13 @@
                     <conditions>
                         <unit>
                             <allied />
-                            <type name="AstraMilitarum/Guardsman" />
-                            <noTrait name="AstraMilitarum/AdditionalFlamerGuardsman" />
-                            <noTrait name="AstraMilitarum/AdditionalMeltagunGuardsman" />
+                            <noTrait name="AstraMilitarum/AdditionalFlamer" />
+                            <noTrait name="AstraMilitarum/AdditionalMeltagun" />
                             <notAttackedThisTurn />
+                        </unit>
+                        <unit match="Any">
+                            <type name="AstraMilitarum/Guardsman" />
+                            <type name="AstraMilitarum/TempestusScion" />
                         </unit>
                     </conditions>
                     <areas>
@@ -439,7 +442,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="AstraMilitarum/AdditionalFlamerGuardsman" />
+                                        <addTrait name="AstraMilitarum/AdditionalFlamer" />
                                         <addTrait name="Exhausted" duration="1" />
                                     </effects>
                                 </modifier>
@@ -455,7 +458,7 @@
                 </target>
             </beginTargets>
         </installSupportSystem>
-        <installSupportSystem name="AstraMilitarum/AdditionalMeltagunGuardsman" cooldown="0" icon="Actions/AdditionalMeltagun" requiredUpgrade="AstraMilitarum/AdditionalMeltagunGuardsman">
+        <installSupportSystem name="AstraMilitarum/AdditionalMeltagun" cooldown="0" icon="Actions/AdditionalMeltagun" requiredUpgrade="AstraMilitarum/AdditionalMeltagun">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -471,8 +474,8 @@
                         <unit>
                             <allied />
                             <type name="AstraMilitarum/Guardsman" />
-                            <noTrait name="AstraMilitarum/AdditionalFlamerGuardsman" />
-                            <noTrait name="AstraMilitarum/AdditionalMeltagunGuardsman" />
+                            <noTrait name="AstraMilitarum/AdditionalFlamer" />
+                            <noTrait name="AstraMilitarum/AdditionalMeltagun" />
                             <notAttackedThisTurn />
                         </unit>
                     </conditions>
@@ -481,7 +484,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="AstraMilitarum/AdditionalMeltagunGuardsman" />
+                                        <addTrait name="AstraMilitarum/AdditionalMeltagun" />
                                         <addTrait name="Exhausted" duration="1" />
                                     </effects>
                                 </modifier>

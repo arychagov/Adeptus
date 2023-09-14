@@ -26,10 +26,10 @@
 
     <entry name="Artefacts/LoyaltyDescription" value="Increases the loyalty. Space Marines get extra loyalty." />
 
-    <entry name="AstraMilitarum/AdditionalFlamerGuardsman" value="Installed Flamer" />
-    <entry name="AstraMilitarum/AdditionalFlamerGuardsmanDescription" value="Grants additional flamer." />
-    <entry name="AstraMilitarum/AdditionalMeltagunGuardsman" value="Installed Meltagun" />
-    <entry name="AstraMilitarum/AdditionalMeltagunGuardsmanDescription" value="Grants additional meltagun." />
+    <entry name="AstraMilitarum/AdditionalFlamer" value="Installed Flamer" />
+    <entry name="AstraMilitarum/AdditionalFlamerDescription" value="Grants additional flamer." />
+    <entry name="AstraMilitarum/AdditionalMeltagun" value="Installed Meltagun" />
+    <entry name="AstraMilitarum/AdditionalMeltagunDescription" value="Grants additional meltagun." />
     <entry name="AstraMilitarum/AdditionalHeavyBolters" value="Installed Heavy Bolters" />
     <entry name="AstraMilitarum/AdditionalHeavyBoltersDescription" value="Grants additional heavy bolters." />
     <entry name="AstraMilitarum/BoltDamage" value="The Emperor's Benediction" />

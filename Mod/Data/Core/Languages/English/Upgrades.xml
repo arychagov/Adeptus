@@ -18,14 +18,14 @@
     <entry name="AdeptusMechanicus/MachineSpiritResurgentFlavor" value="To invigorate the failing machine spirit of a damaged vehicle is a sacred task, greatly aided by certain broadcast datahymns played in the correct sequence." />
     <entry name="AdeptusMechanicus/XenariteAcceptanceDescription" value="Increases the flat amount of research gained from outposts. Increases the building research output for each building in an adjacent tile." />
 
-    <entry name="AstraMilitarum/AdditionalFlamerGuardsman" value="<string name='Weapons/Flamer'/>" />
-    <entry name="AstraMilitarum/AdditionalFlamerGuardsmanDescription" value="Grants ability to install additional flamer on Guardsmen." />
-    <entry name="AstraMilitarum/AdditionalFlamerGuardsmanFlavor" value="<string name='Weapons/FlamerFlavor'/>" />
+    <entry name="AstraMilitarum/AdditionalFlamer" value="<string name='Weapons/Flamer'/>" />
+    <entry name="AstraMilitarum/AdditionalFlamerDescription" value="Grants ability to install additional flamer on Guardsmen or Tempestus Scions." />
+    <entry name="AstraMilitarum/AdditionalFlamerFlavor" value="<string name='Weapons/FlamerFlavor'/>" />
     <entry name="AstraMilitarum/AdditionalHeavyBolters" value="Additional Heavy Bolters" />
     <entry name="AstraMilitarum/AdditionalHeavyBoltersDescription" value="Grants ability to install additional heavy bolters on Leman Russ Battle Tanks, Tank Commanders, Imperial Bastions, Baneblades and Valkyries. Grants ability to improve Rogal Dorn Battle Tanks weaponry." />
-    <entry name="AstraMilitarum/AdditionalMeltagunGuardsman" value="<string name='Weapons/Meltagun'/>" />
-    <entry name="AstraMilitarum/AdditionalMeltagunGuardsmanDescription" value="Grants ability to install additional meltagun on Guardsmen." />
-    <entry name="AstraMilitarum/AdditionalMeltagunGuardsmanFlavor" value="<string name='Weapons/MeltagunFlavor'/>" />
+    <entry name="AstraMilitarum/AdditionalMeltagun" value="<string name='Weapons/Meltagun'/>" />
+    <entry name="AstraMilitarum/AdditionalMeltagunDescription" value="Grants ability to install additional meltagun on Guardsmen." />
+    <entry name="AstraMilitarum/AdditionalMeltagunFlavor" value="<string name='Weapons/MeltagunFlavor'/>" />
     <entry name="AstraMilitarum/BoltDamage" value="The Emperor's Benediction" />
     <entry name="AstraMilitarum/BoltDamageDescription" value="Increases the armour penetration of bolt weapons. Grants Leman Russ Battle Tanks, Imperial Bastions, cities, Basilisk and Devil Dogs additional Heavy Bolter." />
     <entry name="AstraMilitarum/BoltDamageFlavor" value="An Astartes-derived upgrade to the standard bolter, this kit allows a bolter to fire Kraken penetrator rounds, hard-tipped projectiles with a heavier explosive charge. These heavier rounds are much favoured by the Space Marine Deathwatch alien hunters." />
