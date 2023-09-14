@@ -131,6 +131,7 @@
     <entry name="Necrons/TriarchPraetorianJumpPack" value="<string name='Actions/JumpPack'/>" />
     <entry name="Necrons/TriarchPraetorianJumpPackDescription" value="Flies across obstacles to the target tile. Reduces the movement of adjacent enemy units in destination." />
     <entry name="Necrons/TriarchPraetorianJumpPackFlavor" value="<string name='Actions/JumpPackFlavor'/>" />
+    <entry name="Necrons/VoidStrikeDescription" value="Deals damage to the target vehicle or fortification and forces its degradation."/>
     <entry name="Necrons/UpgradeGaussFlayerArray" value="Upgrade Gauss Flayer Array" />
     <entry name="Necrons/UpgradeGaussFlayerArrayDescription" value="Increases the ranged attacks of Ghost Ark, but removes ability to transport cargo. additional. Only one upgrade or install can be set up for a unit." />
     <entry name="Necrons/Wraithflight" value="Wraithflight" />
