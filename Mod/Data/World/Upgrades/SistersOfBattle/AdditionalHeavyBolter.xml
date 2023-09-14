@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade icon="Weapons/HeavyBolter" position="8">
     <requiredUpgrades>
-        <upgrade name="SistersOfBattle/Vehicles" />
+        <upgrade name="SistersOfBattle/Castigator" />
     </requiredUpgrades>
     <strategyModifiers>
         <modifier>

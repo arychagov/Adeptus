@@ -10,11 +10,6 @@
                 <flamerWeapon muzzleBone="Muzzle" muzzleCount="4" />
             </model>
         </weapon>
-        <weapon name="HeavyBolter" requiredUpgrade="SistersOfBattle/AdditionalHeavyBolter">
-            <model>
-                <projectileWeapon bone="Front_Gun" material="Weapons/SistersOfBattle/ImmolatorUpgrades" mesh="Weapons/SistersOfBattle/ImmolatorHeavyBolter" muzzleBone="Muzzle@Front_Gun" />
-            </model>
-        </weapon>
         <weapon name="HunterKillerMissile" enabled="0" requiredUpgrade="SistersOfBattle/HunterKillerMissile" slotName="HunterKillerMissile">
             <model>
                 <missileWeapon bone="Hull_Shake" fireInterval="10" material="Weapons/SistersOfBattle/ImmolatorUpgrades" mesh="Weapons/SistersOfBattle/ImmolatorHunterKiller" muzzleBone="HKMuzzle@Hull_Shake" />

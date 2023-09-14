@@ -414,7 +414,7 @@
                 </target>
             </beginTargets>
         </installSupportSystem>
-        <installSupportSystem name="AstraMilitarum/AdditionalFlamerGuardsman" cooldown="0" icon="Actions/AstraMilitarum/AdditionalFlamerGuardsman" requiredUpgrade="AstraMilitarum/AdditionalFlamerGuardsman">
+        <installSupportSystem name="AstraMilitarum/AdditionalFlamerGuardsman" cooldown="0" icon="Actions/AdditionalFlamer" requiredUpgrade="AstraMilitarum/AdditionalFlamerGuardsman">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -455,7 +455,7 @@
                 </target>
             </beginTargets>
         </installSupportSystem>
-        <installSupportSystem name="AstraMilitarum/AdditionalMeltagunGuardsman" cooldown="0" icon="Actions/AstraMilitarum/AdditionalMeltagunGuardsman" requiredUpgrade="AstraMilitarum/AdditionalMeltagunGuardsman">
+        <installSupportSystem name="AstraMilitarum/AdditionalMeltagunGuardsman" cooldown="0" icon="Actions/AdditionalMeltagun" requiredUpgrade="AstraMilitarum/AdditionalMeltagunGuardsman">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -497,7 +497,7 @@
                 </target>
             </beginTargets>
         </installSupportSystem>
-        <installSupportSystem name="AstraMilitarum/AdditionalHeavyBolters" cooldown="0" icon="Actions/SpaceMarines/TwoAdditionalHeavyBolters" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
+        <installSupportSystem name="AstraMilitarum/AdditionalHeavyBolters" cooldown="0" icon="Actions/TwoAdditionalHeavyBolters" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -542,7 +542,7 @@
                 </target>
             </beginTargets>
         </installSupportSystem>
-        <installSupportSystem name="AstraMilitarum/UpgradeOppressorCannon" cooldown="0" icon="Actions/AstraMilitarum/UpgradedOppressorCannon" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
+        <installSupportSystem name="AstraMilitarum/UpgradeOppressorCannon" cooldown="0" icon="Actions/UpgradedOppressorCannon" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -582,7 +582,7 @@
                 </target>
             </beginTargets>
         </installSupportSystem>
-        <installSupportSystem name="AstraMilitarum/UpgradeLascannon" cooldown="0" icon="Actions/SpaceMarines/UpgradedLascannon" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
+        <installSupportSystem name="AstraMilitarum/UpgradeLascannon" cooldown="0" icon="Actions/UpgradedLascannon" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
             <modifiers>
                 <modifier visible="0">
                     <effects>

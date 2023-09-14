@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait icon="Actions/UpgradedLascannon">
+<trait icon="Actions/UpgradedMultiMelta">
     <modifiers>
         <modifier visible="0">
             <conditions>
                 <unit>
-                    <trait name="AstraMilitarum/UpgradedLascannon" />
+                    <trait name="SistersOfBattle/UpgradedMultiMelta" />
                 </unit>
             </conditions>
             <effects>
-                <rangedDamage add="1" />
                 <rangedAccuracy add="1" />
+                <rangeMax add="1" />
             </effects>
         </modifier>
     </modifiers>

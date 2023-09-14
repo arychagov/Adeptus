@@ -10,6 +10,11 @@
             </model>
         </weapon>
         <weapon name="MultiMelta" count="1"/>
+        <weapon name="MultiMelta" count="2" enabled="0" requiredUpgrade="SistersOfBattle/AdditionalHeavyBolter" slotName="HeavyBolterUpgrade">
+            <model>
+                <beamWeapon muzzleBone="BolterMuzzle" muzzleCount="2" />
+            </model>
+        </weapon>
         <weapon name="HunterKillerMissile" enabled="0" requiredUpgrade="SistersOfBattle/HunterKillerMissile" slotName="HunterKillerMissile">
             <model>
                 <missileWeapon bone="Hull_Shake" material="Weapons/SistersOfBattle/CastigatorUpgrades" mesh="Weapons/SistersOfBattle/CastigatorHunterKiller" />
@@ -96,6 +101,17 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
+        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0" requiredUpgrade="SistersOfBattle/AdditionalHeavyBolter" weaponSlotName="HeavyBolterUpgrade">
+            <conditions>
+                <unit>
+                    <trait name="SistersOfBattle/TwoAdditionalMultiMeltas" />
+                    <noTrait name="Exhausted" />
+                </unit>
+            </conditions>
+            <model>
+                <action beginFire="0.1" endFire="1.0" />
+            </model>
+        </useWeapon>
         <useWeapon cooldown="10" requiredUpgrade="SistersOfBattle/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
             <model>
                 <action beginFire="0.1" endFire="1.0" />

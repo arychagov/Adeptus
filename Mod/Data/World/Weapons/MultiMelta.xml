@@ -18,5 +18,6 @@
         <trait name="HeavyWeapon" />
         <trait name="Melta" />
         <trait name="SistersOfBattle/HeavyWeaponBonus" requiredUpgrade="SistersOfBattle/HeavyWeaponBonus" />
+        <trait name="SistersOfBattle/ChadMultiMelta" />
     </traits>
 </weapon>

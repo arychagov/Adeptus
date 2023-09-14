@@ -293,6 +293,8 @@
     <entry name="SistersOfBattle/BlindingRadianceEnemy" value="Blinding Radiance" />
     <entry name="SistersOfBattle/BlindingRadianceEnemyDescription" value="Decreases the accuracy." />
     <entry name="SistersOfBattle/BlindingRadianceEnemyFlavor" value="The Emperor’s own divinity is made manifest from this warrior’s golden halo, blinding the enemy with holy light." />
+    <entry name="SistersOfBattle/ChadMultiMelta" value="Upgraded Multi Melta" />
+    <entry name="SistersOfBattle/ChadMultiMeltaDescription" value="Increases the maximum range and the accuracy." />
     <entry name="SistersOfBattle/Prosperity" value="Prosperity" />
     <entry name="SistersOfBattle/ProsperityDescription" value="Increases city growth" />
     <entry name="SistersOfBattle/BolterDrill" value="Bolter Drill" />
@@ -307,6 +309,10 @@
     <entry name="SistersOfBattle/HolyFireSelf" value="Holy Fire" />
     <entry name="SistersOfBattle/HolyFireSelfDescription" value="Applies damage over time debuff." />
     <entry name="SistersOfBattle/HolyFireSelfFlavor" value="Fed by auxiliary fuel lines, this transport’s braziers are made to flare with holy fire, tinged with sacred unguents and rare resins" />
+    <entry name="SistersOfBattle/TwoAdditionalMultiMeltas" value="Installed Multi Meltas" />
+    <entry name="SistersOfBattle/TwoAdditionalMultiMeltasDescription" value="Grants additional multi meltas." />
+    <entry name="SistersOfBattle/UpgradedMultiMelta" value="Upgraded Multi Melta" />
+    <entry name="SistersOfBattle/UpgradedMultiMeltaDescription" value="Increases the maximum range and the accuracy of multi meltas." />
 
     <entry name="SmokeScreenDescription" value="Decreases opponent's ranged accuracy." />
 
