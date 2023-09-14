@@ -64,5 +64,6 @@
         <trait name="Infiltrate" />
         <trait name="AstraMilitarum/ShootSharpAndScarper" />
         <trait name="Stealth" />
+        <trait name="Cloak" />
     </traits>
 </unit>

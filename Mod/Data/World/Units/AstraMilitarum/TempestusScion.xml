@@ -122,5 +122,6 @@
         <trait name="Bodyguard" />
         <trait name="AstraMilitarum/ImperiumOfMan" requiredUpgrade="AstraMilitarum/ImperiumOfMan" />
         <trait name="AstraMilitarum/CommitEverythingTempestusScion" requiredUpgrade="AstraMilitarum/CommitEverything" />
+        <trait name="Cloak" />
     </traits>
 </unit>

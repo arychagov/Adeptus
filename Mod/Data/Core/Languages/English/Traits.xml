@@ -24,7 +24,7 @@
     <entry name="AdeptusMechanicus/ReprogramKastelanRobotFlavor" value="Since the aftermath of Warmaster Horus’ rebellion the Legio Cybernetica’s robots have been controlled completely by their masters – not by the bio-plastic cerebra and nerve-like tendril webs of Mechanicum constructs, but by sanctified doctrina wafers. No bigger than the cards of the Emperor’s Tarot, these slivers of wetware are entrusted to the Cybernetica Datasmiths that accompany the robot maniples to war. Inserted into the dataslot hidden behind each robot’s chestplate, the wafer’s command protocol will dictate every iota of the host’s behaviour, usually optimising its ability to destroy its foes in a spectacular fashion." />
     <entry name="AdeptusMechanicus/DataBlessedAutosermonDescription" value="Kastelan Robot does not suffer accuracy loss on hit points loss, increases accuracy. Increases attacks of Fulgurite Electro Priests." />
 
-    <entry name="Artefacts/LoyaltyDescription" value="Increases the loyalty. Space Marines get extra loyalty."/>
+    <entry name="Artefacts/LoyaltyDescription" value="Increases the loyalty. Space Marines get extra loyalty." />
 
     <entry name="AstraMilitarum/AdditionalFlamerGuardsman" value="Installed Flamer" />
     <entry name="AstraMilitarum/AdditionalFlamerGuardsmanDescription" value="Grants additional flamer." />
@@ -76,12 +76,12 @@
     <entry name="AstraMilitarum/WallOfMuscleDescription" value="Reduces the ranged attacks of an opponent." />
     <entry name="AstraMilitarum/WallOfMuscleFlavor" value="“Brute force not work? It because you not use enough of it!“<br/>—Karg, Ogryn Bone'ead" />
 
-    <entry name="BrokenDescription" value="Reduces the accuracy."/>
-    <entry name="Blurry" value="Blurry"/>
-    <entry name="BlurryDescription" value="Decreases opponent's ranged accuracy."/>
-    <entry name="BulkyVulky" value="Bulky Vulky"/>
-    <entry name="BulkyVulkyDescription" value="Requires six additional cargo slots in a transport (basically cannot embark any transport)."/>
-    <entry name="BulkyVulkyFlavor" value="<string name='Traits/BulkyFlavor'/>"/>
+    <entry name="BrokenDescription" value="Reduces the accuracy." />
+    <entry name="Blurry" value="Blurry" />
+    <entry name="BlurryDescription" value="Decreases opponent's ranged accuracy." />
+    <entry name="BulkyVulky" value="Bulky Vulky" />
+    <entry name="BulkyVulkyDescription" value="Requires six additional cargo slots in a transport (basically cannot embark any transport)." />
+    <entry name="BulkyVulkyFlavor" value="<string name='Traits/BulkyFlavor'/>" />
 
     <entry name="ChaosSpaceMarines/BloatedWithLifesteal" value="Bloated" />
     <entry name="ChaosSpaceMarines/BloatedWithLifestealDescription" value="Restores hitpoints on hit." />
@@ -125,6 +125,8 @@
     <entry name="ChaosSpaceMarines/EnrageMachineSpiritsDescription" value="Increases the accuracy." />
     <entry name="ChaosSpaceMarines/EnrageMachineSpiritsFlavor" value="No armour is safe from the guns of the IV Legion, and once an enemy war engine is marked for destruction, its doomed is sealed." />
 
+    <entry name="Cloak" value="Cloak" />
+    <entry name="CloakDescription" value="Receives additional damage reduction while in imperial ruins or forests." />
     <entry name="ConvergentTargetingPredator" value="Convergent Targeting" />
     <entry name="ConvergentTargetingPredatorDescription" value="Increases the accuracy when adjacent to an allied Predator." />
     <entry name="ConvergentTargetingWhirlwind" value="Convergent Targeting" />
@@ -150,7 +152,7 @@
     <entry name="Necrons/AttackCityBonusDescription" value="Increases the accuracy." />
     <entry name="Necrons/BloodyCrusade" value="Bloody Crusade" />
     <entry name="Necrons/BloodyCrusadeDescription" value="Increases the accuracy and the feel no pain damage reduction, but disables Reanimation Protocols, Living Metal, Dimensional Corridor and Necrodermis Repair." />
-    <entry name="Necrons/ChronometronDescription" value="Increases damage reduction and returns damage back to the attacker."/>
+    <entry name="Necrons/ChronometronDescription" value="Increases damage reduction and returns damage back to the attacker." />
     <entry name="Necrons/CountertemporalNanomines" value="Countertemporal Nanomines" />
     <entry name="Necrons/CountertemporalNanominesDescription" value="Immobilized." />
     <entry name="Necrons/CountertemporalNanominesFlavor" value="Released from a hive-gem about the bearer’s person, a swarm of nanoscarabs sweep out and lace the ground before them with microscopic temporal charges. Foes advancing into this invisible minefield find reality stuttering and glitching around them as they trigger one minute chronofault after another." />
@@ -277,16 +279,16 @@
 
     <entry name="RecoveryGearDescription" value="Increases the healing rate when allied Tech-Priest Enginseer is nearby." />
 
-    <entry name="ShakenDescription" value="Reduces the accuracy."/>
+    <entry name="ShakenDescription" value="Reduces the accuracy." />
     <entry name="ShatteredDefences" value="Shattered Defences" />
     <entry name="ShatteredDefencesDescription" value="Removes the ranged damage reduction of the target tile." />
 
-    <entry name="SistersOfBattle/BeaconOfFaithAlly" value="Beacon of Faith"/>
-    <entry name="SistersOfBattle/BeaconOfFaithAllyDescription" value="Restore the morale each turn."/>
-    <entry name="SistersOfBattle/BeaconOfFaithAllyFlavor" value="“The Khornate warriors threatened to overwhelm us, we were cut and rent and thrown aside… even the Canoness fell… and then She intervened. As She descended, a shining beacon, our wounds closed, our spirits rallied and we drove back the heretics with newfound devotion…”<br/>  — Unknown remembrancer, Gospel of the Webway"/>
-    <entry name="SistersOfBattle/BeaconOfFaithEnemy" value="Beacon of Faith"/>
-    <entry name="SistersOfBattle/BeaconOfFaithEnemyDescription" value="Reduces the morale each turn."/>
-    <entry name="SistersOfBattle/BeaconOfFaithEnemyFlavor" value="“The Khornate warriors threatened to overwhelm us, we were cut and rent and thrown aside… even the Canoness fell… and then She intervened. As She descended, a shining beacon, our wounds closed, our spirits rallied and we drove back the heretics with newfound devotion…”<br/>  — Unknown remembrancer, Gospel of the Webway"/>
+    <entry name="SistersOfBattle/BeaconOfFaithAlly" value="Beacon of Faith" />
+    <entry name="SistersOfBattle/BeaconOfFaithAllyDescription" value="Restore the morale each turn." />
+    <entry name="SistersOfBattle/BeaconOfFaithAllyFlavor" value="“The Khornate warriors threatened to overwhelm us, we were cut and rent and thrown aside… even the Canoness fell… and then She intervened. As She descended, a shining beacon, our wounds closed, our spirits rallied and we drove back the heretics with newfound devotion…”<br/>  — Unknown remembrancer, Gospel of the Webway" />
+    <entry name="SistersOfBattle/BeaconOfFaithEnemy" value="Beacon of Faith" />
+    <entry name="SistersOfBattle/BeaconOfFaithEnemyDescription" value="Reduces the morale each turn." />
+    <entry name="SistersOfBattle/BeaconOfFaithEnemyFlavor" value="“The Khornate warriors threatened to overwhelm us, we were cut and rent and thrown aside… even the Canoness fell… and then She intervened. As She descended, a shining beacon, our wounds closed, our spirits rallied and we drove back the heretics with newfound devotion…”<br/>  — Unknown remembrancer, Gospel of the Webway" />
     <entry name="SistersOfBattle/BlindingRadianceSelf" value="Blinding Radiance" />
     <entry name="SistersOfBattle/BlindingRadianceSelfDescription" value="Increases the armour." />
     <entry name="SistersOfBattle/BlindingRadianceSelfFlavor" value="The Emperor’s own divinity is made manifest from this warrior’s golden halo, blinding the enemy with holy light." />

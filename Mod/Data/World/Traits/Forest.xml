@@ -15,5 +15,15 @@
                 <rangedDamageReduction add="0.25" />
             </effects>
         </modifier>
+        <modifier>
+            <conditions>
+                <unit>
+                    <trait name="Cloak" />
+                </unit>
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.08" />
+            </effects>
+        </modifier>
     </modifiers>
 </trait>
