@@ -84,8 +84,8 @@
                 </player>
             </conditions>
             <effects>
-                <energy mul="0.05" />
-                <influence mul="0.05" />
+                <energy mul="0.025" />
+                <influence mul="0.025" />
             </effects>
         </modifier>
     </modifiers>

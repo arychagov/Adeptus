@@ -78,8 +78,8 @@
                 </player>
             </conditions>
             <effects>
-                <influence mul="0.05" />
-                <requisitions mul="0.05" />
+                <influence mul="0.025" />
+                <requisitions mul="0.025" />
             </effects>
         </modifier>
         <modifier>

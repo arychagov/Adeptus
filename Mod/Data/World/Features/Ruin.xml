@@ -72,7 +72,7 @@
                 </player>
             </conditions>
             <effects>
-                <research mul="0.1" />
+                <research mul="0.05" />
             </effects>
         </modifier>
         <modifier requiredUpgrade="AdeptusMechanicus/XenariteAcceptance">
