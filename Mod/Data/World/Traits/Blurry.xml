@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff">
+<trait alwaysVisible="1" category="Buff" icons="Traits/Blind">
     <modifiers>
         <modifier>
             <effects>
-                <accuracy add="1" />
                 <opponentRangedAccuracy mul="-0.17" />
             </effects>
         </modifier>

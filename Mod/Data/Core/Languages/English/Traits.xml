@@ -77,6 +77,8 @@
     <entry name="AstraMilitarum/WallOfMuscleFlavor" value="“Brute force not work? It because you not use enough of it!“<br/>—Karg, Ogryn Bone'ead" />
 
     <entry name="BrokenDescription" value="Reduces the accuracy."/>
+    <entry name="Blurry" value="Blurry"/>
+    <entry name="BlurryDescription" value="Decreases opponent's ranged accuracy."/>
     <entry name="BulkyVulky" value="Bulky Vulky"/>
     <entry name="BulkyVulkyDescription" value="Requires six additional cargo slots in a transport (basically cannot embark any transport)."/>
     <entry name="BulkyVulkyFlavor" value="<string name='Traits/BulkyFlavor'/>"/>
