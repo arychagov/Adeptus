@@ -163,6 +163,9 @@
     <entry name="SistersOfBattle/MeltaBombDescription" value="Grants Zephyrims the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications." />
     <entry name="SistersOfBattle/MinistorumIndoctrination" value="Ministorum Indoctrination / Universal Catechism" />
     <entry name="SistersOfBattle/MinistorumIndoctrinationDescription" value="Grants Martyr Spirit to Lightning Fighters, Avengers Strike Fighters and Cerastus Knight-Lancers. Grants Shield Of Faith to Lightning Fighters, Avengers Strike Fighters and Cerastus Knight-Lancers." />
+    <entry name="SistersOfBattle/SisterAssassinorum" value="<string name='Units/SistersOfBattle/SisterAssassinorum'/>" />
+    <entry name="SistersOfBattle/SisterAssassinorumDescription" value="<string name='Units/SistersOfBattle/SisterAssassinorumDescription'/>" />
+    <entry name="SistersOfBattle/SisterAssassinorumFlavor" value="<string name='Units/SistersOfBattle/SisterAssassinorumFlavor'/>" />
     <entry name="SistersOfBattle/StormBolter" value="Storm Bolter"/>
     <entry name="SistersOfBattle/StormBolterDescription" value="Grants Immolators a storm bolter."/>
     <entry name="SistersOfBattle/StormBolterFlavor" value="<string name='Weapons/BoltFlavor'/>"/>

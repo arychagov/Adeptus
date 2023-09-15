@@ -50,4 +50,8 @@
 
     <entry name="SistersOfBattle/Exorcist" value="Exarsist"/>
     <entry name="SistersOfBattle/CastigatorDescription" value="Powerful tank unit equipped with multi meltas."/>
+    <entry name="SistersOfBattle/SisterAssassinorum" value="Sisters Assassinorum" />
+    <entry name="SistersOfBattle/SisterAssassinorumDescription" value="Sniper unit." />
+    <entry name="SistersOfBattle/SisterAssassinorumFlavor" value="For a split second, it seems as though the world reshapes itself to the will of a single warrior." />
+
 </language>
