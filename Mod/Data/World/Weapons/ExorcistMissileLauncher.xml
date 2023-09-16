@@ -6,9 +6,9 @@
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="3" />
-                <rangedArmorPenetration add="8" /> <!-- %rangedArmorPenetration add armorPiercing=1 -->
-                <rangedDamage add="6" /> <!-- %rangedDamage add strength=8 -->
+                <attacks add="2" />
+                <rangedArmorPenetration add="1" /> <!-- %rangedArmorPenetration add armorPiercing=- -->
+                <rangedDamage add="1.81" /> <!-- %rangedDamage add strength=5 -->
                 <strengthDamage base="0" />
             </effects>
         </modifier>
@@ -17,5 +17,6 @@
     <traits>
         <trait name="SistersOfBattle/HeavyWeaponBonus" requiredUpgrade="SistersOfBattle/HeavyWeaponBonus" />
         <trait name="HeavyWeapon" />
+        <trait name="ApocalypticBlast" />
     </traits>
 </weapon>
