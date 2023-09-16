@@ -26,6 +26,7 @@
                 <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
                 <requisitionsUpkeep base="2.0" /> <!-- %requisitionsUpkeep base tier=6 factor=1 -->
                 <requisitionsCost base="40.0" /> <!-- %requisitionsCost base tier=6 factor=1 -->
+                <duplicateTypeCost mul="0.125" />
             </effects>
         </modifier>
     </modifiers>
