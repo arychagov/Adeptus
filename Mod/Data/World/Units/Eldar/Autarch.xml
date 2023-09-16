@@ -231,5 +231,6 @@
         <trait name="Hero" />
         <trait name="Psyker" />
         <trait name="Eldar/SpiritPreservation" />
+        <trait name="Bulky"/>
     </traits>
 </unit>

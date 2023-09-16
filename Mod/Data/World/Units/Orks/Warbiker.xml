@@ -161,5 +161,6 @@
         <trait name="OrkoidFungusBonusHealingRate" requiredUpgrade="Orks/OrkoidFungusBonusHealingRate" />
         <trait name="OrkoidFungusBonusFeelNoPainDamageReduction" requiredUpgrade="Orks/CreatePermanentOrkoidFungusOnDeath" />
         <trait name="Orks/Scavenger" />
+        <trait name="VeryBulky" />
     </traits>
 </unit>

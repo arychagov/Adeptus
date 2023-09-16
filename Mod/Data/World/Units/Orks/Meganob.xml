@@ -91,7 +91,7 @@
     </actions>
     <traits>
         <trait name="Bosspole" requiredUpgrade="Orks/Bosspole" />
-        <!-- <trait name="Bulky"/> -->
+        <trait name="Bulky" />
         <trait name="Orks/CreateOrkoidFungusOnDeath" />
         <trait name="ExtraInfantryArmour" requiredUpgrade="Orks/ExtraInfantryArmour" />
         <trait name="FuriousCharge" />

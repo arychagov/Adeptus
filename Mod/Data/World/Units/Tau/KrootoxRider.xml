@@ -71,5 +71,6 @@
         <trait name="ForestStealth" />
         <trait name="Tau/PreciseShooter" />
         <trait name="Bodyguard" />
+        <trait name="Bulky"/>
     </traits>
 </unit>

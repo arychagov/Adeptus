@@ -187,5 +187,6 @@
         <trait name="SpaceMarines/SonOfTheAbyss" />
         <trait name="SpaceMarines/SiegeMasters" />
         <trait name="SpaceMarines/TheFleshIsWeak" />
+        <trait name="Bulky"/>
     </traits>
 </unit>

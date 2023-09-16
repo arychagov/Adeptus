@@ -72,6 +72,6 @@
         <trait name="Relentless" />
         <trait name="MoveThroughCover" />
         <trait name="AdeptusMechanicus/ControlEdict" requiredUpgrade="AdeptusMechanicus/ControlEdict" />
-        <!-- <trait name="VeryBulky"/> -->
+        <trait name="VeryBulky"/>
     </traits>
 </unit>

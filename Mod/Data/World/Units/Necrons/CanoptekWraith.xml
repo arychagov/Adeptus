@@ -57,7 +57,7 @@
                 <action animation="Units/Necrons/CanoptekWraithMove" sound="Units/Necrons/CanoptekSpyderMove" soundCount="3" />
             </model>
         </move>
-        <necrodermisRepair requiredUpgrade="Necrons/NecrodermisRepair" name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
+        <necrodermisRepair name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0" requiredUpgrade="Necrons/NecrodermisRepair">
             <model>
                 <action sound="Actions/Heal" />
             </model>
@@ -151,7 +151,7 @@
                 </target>
             </beginTargets>
         </scarabHive>
-        <genericUnitAbility name="Necrons/Wraithflight" icon="Traits/Necrons/Wraithflight" requiredMovement="1" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0">
+        <genericUnitAbility name="Necrons/Wraithflight" consumedActionPoints="0" consumedMovement="0" cooldown="5" icon="Traits/Necrons/Wraithflight" requiredActionPoints="0" requiredMovement="1">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
@@ -182,5 +182,6 @@
         <trait name="Rending" />
         <trait name="Necrons/WraithForm" />
         <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
+        <trait name="VeryBulky" />
     </traits>
 </unit>

@@ -179,7 +179,7 @@
         <trait name="Jetbike" />
         <trait name="Outflank" />
         <trait name="Relentless" />
-        <!-- <trait name="VeryBulky"/> -->
+        <trait name="VeryBulky" />
         <trait name="Eldar/SpiritPreservation" />
         <trait name="Eldar/SpiritStones" requiredUpgrade="Eldar/SpiritStones" />
     </traits>

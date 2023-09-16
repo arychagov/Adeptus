@@ -128,5 +128,6 @@
         <trait name="Tyranids/InstinctiveBehaviour" />
         <trait name="Tyranids/ToxinSacs" requiredUpgrade="Tyranids/ToxinSacs" />
         <trait name="MoveThroughCover" />
+        <trait name="Bulky"/>
     </traits>
 </unit>

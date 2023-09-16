@@ -120,5 +120,6 @@
         <trait name="Tyranids/InstinctiveBehaviour" />
         <trait name="Poisoned" rank="4" />
         <trait name="MoveThroughCover" />
+        <trait name="VeryBulky" />
     </traits>
 </unit>

@@ -83,5 +83,6 @@
         <trait name="MoveThroughCover" />
         <trait name="ChaosSpaceMarines/MutatedBeyondReason" />
         <trait name="Rage" />
+        <trait name="VeryBulky"/>
     </traits>
 </unit>

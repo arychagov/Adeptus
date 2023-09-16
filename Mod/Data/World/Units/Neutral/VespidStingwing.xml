@@ -74,7 +74,7 @@
         </jumpPack>
     </actions>
     <traits>
-        <!-- <trait name="Bulky"/> -->
+        <trait name="Bulky" />
         <trait name="Fleet" />
         <trait name="HitAndRun" />
         <trait name="MoveThroughCover" />

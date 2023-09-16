@@ -189,5 +189,6 @@
         <trait name="Bodyguard" />
         <trait name="Shielded" requiredUpgrade="Necrons/Translocation" />
         <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
+        <trait name="VeryBulky" />
     </traits>
 </unit>

@@ -213,5 +213,6 @@
         <trait name="Relentless" />
         <trait name="SpaceMarines/SiegeMasters" />
         <trait name="SpaceMarines/TheFleshIsWeak" />
+        <trait name="VeryBulky"/>
     </traits>
 </unit>

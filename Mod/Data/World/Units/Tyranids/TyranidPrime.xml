@@ -197,5 +197,6 @@
         <trait name="Tyranids/InfantryUpkeep" requiredUpgrade="Tyranids/InfantryUpkeep" />
         <trait name="Regeneration" requiredUpgrade="Tyranids/Regeneration" />
         <trait name="Tyranids/ToxinSacs" requiredUpgrade="Tyranids/ToxinSacs" />
+        <trait name="VeryBulky" />
     </traits>
 </unit>

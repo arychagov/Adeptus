@@ -150,5 +150,6 @@
         <trait name="Relentless" />
         <trait name="Necrons/ReanimationProtocols" />
         <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
+        <trait name="Bulky"/>
     </traits>
 </unit>

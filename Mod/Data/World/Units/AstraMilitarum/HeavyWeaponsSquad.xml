@@ -77,5 +77,6 @@
     </actions>
     <traits>
         <trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour" />
+        <trait name="Bulky"/>
     </traits>
 </unit>

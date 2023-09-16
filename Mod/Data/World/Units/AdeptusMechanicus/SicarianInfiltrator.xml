@@ -82,7 +82,7 @@
         </genericUnitAbility>
     </actions>
     <traits>
-        <!-- <trait name="Bulky"/> -->
+        <trait name="Bulky" />
         <trait name="AdeptusMechanicus/DoctrinaImperatives" />
         <trait name="AdeptusMechanicus/Dunestrider" />
         <trait name="ExtraInfantryArmour" requiredUpgrade="AdeptusMechanicus/ExtraInfantryArmour" />

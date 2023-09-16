@@ -110,5 +110,6 @@
         <trait name="Tyranids/InfantryUpkeep" requiredUpgrade="Tyranids/InfantryUpkeep" />
         <trait name="Tyranids/ToxinSacs" requiredUpgrade="Tyranids/ToxinSacs" />
         <trait name="Bodyguard" />
+        <trait name="VeryBulky" />
     </traits>
 </unit>

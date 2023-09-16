@@ -128,5 +128,6 @@
         <trait name="ExtraInfantryArmour" requiredUpgrade="Tyranids/ExtraInfantryArmour" />
         <trait name="Tyranids/InfantryUpkeep" requiredUpgrade="Tyranids/InfantryUpkeep" />
         <trait name="Tyranids/InstinctiveBehaviour" />
+        <trait name="VeryBulky" />
     </traits>
 </unit>

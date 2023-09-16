@@ -230,5 +230,6 @@
         <trait name="MoveThroughCover" />
         <trait name="Regeneration" />
         <trait name="Tyranids/PreyAdaptation" />
+        <trait name="VeryBulky" />
     </traits>
 </unit>

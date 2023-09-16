@@ -89,5 +89,6 @@
         <trait name="SpaceMarines/SiegeMasters" />
         <trait name="SpaceMarines/TheFleshIsWeak" />
         <trait name="SpaceMarines/Omniscope" requiredUpgrade="SpaceMarines/Omniscope" />
+        <trait name="Bulky"/>
     </traits>
 </unit>

@@ -108,5 +108,6 @@
         <trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour" />
         <trait name="Stubborn" />
         <trait name="Bodyguard" />
+        <trait name="VeryBulky"/>
     </traits>
 </unit>

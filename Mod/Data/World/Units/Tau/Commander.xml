@@ -362,5 +362,6 @@
         <trait name="ExtraInfantryArmour" requiredUpgrade="Tau/ExtraInfantryArmour" />
         <trait name="Tau/Battlesuit" />
         <trait name="Tau/PreciseShooter" />
+        <trait name="VeryBulky"/>
     </traits>
 </unit>

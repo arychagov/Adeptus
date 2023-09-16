@@ -191,5 +191,6 @@
         <trait name="ExtraInfantryArmour" requiredUpgrade="SistersOfBattle/ExtraInfantryArmour" />
         <trait name="SistersOfBattle/SisterSuperior" requiredUpgrade="SistersOfBattle/SisterSuperior" />
         <trait name="Bodyguard" />
+        <trait name="Bulky"/>
     </traits>
 </unit>

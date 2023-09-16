@@ -134,5 +134,6 @@
         <trait name="SpaceMarines/SiegeMasters" />
         <trait name="SpaceMarines/TheFleshIsWeak" />
         <trait name="Bodyguard" />
+        <trait name="Bulky"/>
     </traits>
 </unit>

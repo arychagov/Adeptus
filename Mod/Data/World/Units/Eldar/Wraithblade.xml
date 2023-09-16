@@ -85,5 +85,6 @@
         <trait name="Rage" />
         <trait name="Eldar/SpiritPreservation" />
         <trait name="Bodyguard" />
+        <trait name="Bulky"/>
     </traits>
 </unit>

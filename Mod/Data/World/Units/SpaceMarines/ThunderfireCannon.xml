@@ -145,5 +145,6 @@
         <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand" />
         <trait name="SpaceMarines/SiegeMasters" />
         <trait name="SpaceMarines/TheFleshIsWeak" />
+        <trait name="Bulky"/>
     </traits>
 </unit>

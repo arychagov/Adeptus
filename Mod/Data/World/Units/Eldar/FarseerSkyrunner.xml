@@ -249,6 +249,6 @@
         <trait name="Relentless" />
         <trait name="Eldar/RuneArmour" />
         <trait name="Eldar/SpiritPreservation" />
-        <!-- <trait name="VeryBulky"/> -->
+        <trait name="VeryBulky" />
     </traits>
 </unit>

@@ -183,5 +183,6 @@
         <trait name="Psyker" />
         <trait name="MoveThroughCover" />
         <trait name="Tyranids/WarpField" />
+        <trait name="VeryBulky" />
     </traits>
 </unit>
