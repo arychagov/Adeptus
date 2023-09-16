@@ -378,7 +378,7 @@
                 </modifier>
             </actorModifiers>
         </tactic>
-        <installSupportSystem name="AstraMilitarum/DeployVoidShieldGenerator" cooldown="0" icon="Traits/VoidShield" requiredUpgrade="AstraMilitarum/VoidShieldGenerator">
+        <installSupportSystem name="AstraMilitarum/DeployVoidShieldGenerator" cooldown="1" icon="Traits/VoidShield" requiredUpgrade="AstraMilitarum/VoidShieldGenerator">
             <model>
                 <action animation="Units/AstraMilitarum/TechpriestEnginseerBuild" sound="Actions/Construct" />
             </model>
@@ -413,8 +413,15 @@
                     </areas>
                 </target>
             </beginTargets>
+            <sharedCooldowns>
+                <action name="AstraMilitarum/AdditionalFlamer" />
+                <action name="AstraMilitarum/AdditionalMeltagun" />
+                <action name="AstraMilitarum/AdditionalHeavyBolters" />
+                <action name="AstraMilitarum/UpgradeOppressorCannon" />
+                <action name="AstraMilitarum/UpgradeLascannon" />
+            </sharedCooldowns>
         </installSupportSystem>
-        <installSupportSystem name="AstraMilitarum/AdditionalFlamer" cooldown="0" icon="Actions/AdditionalFlamer" requiredUpgrade="AstraMilitarum/AdditionalFlamer">
+        <installSupportSystem name="AstraMilitarum/AdditionalFlamer" cooldown="1" icon="Actions/AdditionalFlamer" requiredUpgrade="AstraMilitarum/AdditionalFlamer">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -457,8 +464,15 @@
                     </areas>
                 </target>
             </beginTargets>
+            <sharedCooldowns>
+                <action name="AstraMilitarum/DeployVoidShieldGenerator" />
+                <action name="AstraMilitarum/AdditionalMeltagun" />
+                <action name="AstraMilitarum/AdditionalHeavyBolters" />
+                <action name="AstraMilitarum/UpgradeOppressorCannon" />
+                <action name="AstraMilitarum/UpgradeLascannon" />
+            </sharedCooldowns>
         </installSupportSystem>
-        <installSupportSystem name="AstraMilitarum/AdditionalMeltagun" cooldown="0" icon="Actions/AdditionalMeltagun" requiredUpgrade="AstraMilitarum/AdditionalMeltagun">
+        <installSupportSystem name="AstraMilitarum/AdditionalMeltagun" cooldown="1" icon="Actions/AdditionalMeltagun" requiredUpgrade="AstraMilitarum/AdditionalMeltagun">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -499,8 +513,15 @@
                     </areas>
                 </target>
             </beginTargets>
+            <sharedCooldowns>
+                <action name="AstraMilitarum/DeployVoidShieldGenerator" />
+                <action name="AstraMilitarum/AdditionalFlamer" />
+                <action name="AstraMilitarum/AdditionalHeavyBolters" />
+                <action name="AstraMilitarum/UpgradeOppressorCannon" />
+                <action name="AstraMilitarum/UpgradeLascannon" />
+            </sharedCooldowns>
         </installSupportSystem>
-        <installSupportSystem name="AstraMilitarum/AdditionalHeavyBolters" cooldown="0" icon="Actions/TwoAdditionalHeavyBolters" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
+        <installSupportSystem name="AstraMilitarum/AdditionalHeavyBolters" cooldown="1" icon="Actions/TwoAdditionalHeavyBolters" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -544,8 +565,15 @@
                     </areas>
                 </target>
             </beginTargets>
+            <sharedCooldowns>
+                <action name="AstraMilitarum/DeployVoidShieldGenerator" />
+                <action name="AstraMilitarum/AdditionalFlamer" />
+                <action name="AstraMilitarum/AdditionalMeltagun" />
+                <action name="AstraMilitarum/UpgradeOppressorCannon" />
+                <action name="AstraMilitarum/UpgradeLascannon" />
+            </sharedCooldowns>
         </installSupportSystem>
-        <installSupportSystem name="AstraMilitarum/UpgradeOppressorCannon" cooldown="0" icon="Actions/UpgradedOppressorCannon" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
+        <installSupportSystem name="AstraMilitarum/UpgradeOppressorCannon" cooldown="1" icon="Actions/UpgradedOppressorCannon" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -584,8 +612,15 @@
                     </areas>
                 </target>
             </beginTargets>
+            <sharedCooldowns>
+                <action name="AstraMilitarum/DeployVoidShieldGenerator" />
+                <action name="AstraMilitarum/AdditionalFlamer" />
+                <action name="AstraMilitarum/AdditionalMeltagun" />
+                <action name="AstraMilitarum/AdditionalHeavyBolters" />
+                <action name="AstraMilitarum/UpgradeLascannon" />
+            </sharedCooldowns>
         </installSupportSystem>
-        <installSupportSystem name="AstraMilitarum/UpgradeLascannon" cooldown="0" icon="Actions/UpgradedLascannon" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
+        <installSupportSystem name="AstraMilitarum/UpgradeLascannon" cooldown="1" icon="Actions/UpgradedLascannon" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -624,6 +659,13 @@
                     </areas>
                 </target>
             </beginTargets>
+            <sharedCooldowns>
+                <action name="AstraMilitarum/DeployVoidShieldGenerator" />
+                <action name="AstraMilitarum/AdditionalFlamer" />
+                <action name="AstraMilitarum/AdditionalMeltagun" />
+                <action name="AstraMilitarum/AdditionalHeavyBolters" />
+                <action name="AstraMilitarum/UpgradeOppressorCannon" />
+            </sharedCooldowns>
         </installSupportSystem>
     </actions>
     <modifiers>

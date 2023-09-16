@@ -701,7 +701,7 @@
                 </modifier>
             </actorModifiers>
         </tactic>
-        <installSupportSystem name="SistersOfBattle/UpgradeMultiMelta" cooldown="0" icon="Actions/UpgradedMultiMelta" requiredUpgrade="SistersOfBattle/AdditionalHeavyBolter">
+        <installSupportSystem name="SistersOfBattle/UpgradeMultiMelta" cooldown="1" icon="Actions/UpgradedMultiMelta" requiredUpgrade="SistersOfBattle/AdditionalHeavyBolter">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -740,8 +740,11 @@
                     </areas>
                 </target>
             </beginTargets>
+            <sharedCooldowns>
+                <action name="SistersOfBattle/TwoAdditionalMultiMeltas" />
+            </sharedCooldowns>
         </installSupportSystem>
-        <installSupportSystem name="SistersOfBattle/TwoAdditionalMultiMeltas" cooldown="0" icon="Actions/TwoAdditionalMultiMeltas" requiredUpgrade="SistersOfBattle/AdditionalHeavyBolter">
+        <installSupportSystem name="SistersOfBattle/TwoAdditionalMultiMeltas" cooldown="1" icon="Actions/TwoAdditionalMultiMeltas" requiredUpgrade="SistersOfBattle/AdditionalHeavyBolter">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -780,6 +783,9 @@
                     </areas>
                 </target>
             </beginTargets>
+            <sharedCooldowns>
+                <action name="SistersOfBattle/UpgradeMultiMelta" />
+            </sharedCooldowns>
         </installSupportSystem>
     </actions>
     <startingUnits>

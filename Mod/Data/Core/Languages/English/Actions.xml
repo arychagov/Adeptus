@@ -22,11 +22,11 @@
     <entry name="AdeptusMechanicus/DataBlessedAutosermonFlavor" value="Struck with an infoload of revelation, truly blessed Tech-Priests will override the sacred canticles to deliver the Machine God’s adaptive wisdom." />
 
     <entry name="AstraMilitarum/AdditionalFlamer" value="Install Flamer" />
-    <entry name="AstraMilitarum/AdditionalFlamerDescription" value="Grants Guardsmen or Tempestus Scions additional flamer. Only one upgrade or install can be set up for a unit." />
+    <entry name="AstraMilitarum/AdditionalFlamerDescription" value="Grants Guardsmen or Tempestus Scions additional flamer.<br/><br/><string name='Actions/UpgradeDisclaimer'/>" />
     <entry name="AstraMilitarum/AdditionalMeltagun" value="Install Meltagun" />
-    <entry name="AstraMilitarum/AdditionalMeltagunDescription" value="Grants Guardsmen additional meltagun. Only one upgrade or install can be set up for a unit." />
+    <entry name="AstraMilitarum/AdditionalMeltagunDescription" value="Grants Guardsmen additional meltagun.<br/><br/><string name='Actions/UpgradeDisclaimer'/>" />
     <entry name="AstraMilitarum/AdditionalHeavyBolters" value="Install Heavy Bolters" />
-    <entry name="AstraMilitarum/AdditionalHeavyBoltersDescription" value="Grants Leman Russ Battle Tank, Tank Commander, Imperial Bastion, Baneblade or Valkyrie additional heavy bolters. Only one upgrade or install can be set up for a unit." />
+    <entry name="AstraMilitarum/AdditionalHeavyBoltersDescription" value="Grants Leman Russ Battle Tank, Tank Commander, Imperial Bastion, Baneblade or Valkyrie additional heavy bolters.<br/><br/><string name='Actions/UpgradeDisclaimer'/>" />
     <entry name="AstraMilitarum/AwakenTheMachine" value="Awaken The Machine" />
     <entry name="AstraMilitarum/AwakenTheMachineDescription" value="Increases the ranged accuracy of adjacent allied vehicle or fortification units." />
     <entry name="AstraMilitarum/AwakenTheMachineFlavor" value="“With push of Button fire the Engine<br/>And spark Turbine into life…<br/>Toll the Great Bell Thrice!<br/>Sing Praise to the<br/>God of All Machines”<br/>  — Catechism of the Autoculus of Mars" />
@@ -46,9 +46,9 @@
     <entry name="AstraMilitarum/NightshroudDescription" value="Restores hitpoints of target allied infantry unit." />
     <entry name="AstraMilitarum/NightshroudFlavor" value="Calling upon the power of the empyrean, the psyker cloaks their allies in a flowing curtain of shadow, concealing them from the enemy." />
     <entry name="AstraMilitarum/UpgradeLascannon" value="Upgrade Lascannon" />
-    <entry name="AstraMilitarum/UpgradeLascannonDescription" value="Improves the accuracy and the damage of Rogal Dorn Battle Tank's lascannon. Only one upgrade or install can be set up for a unit." />
+    <entry name="AstraMilitarum/UpgradeLascannonDescription" value="Improves the accuracy and the damage of Rogal Dorn Battle Tank's lascannon.<br/><br/><string name='Actions/UpgradeDisclaimer'/>" />
     <entry name="AstraMilitarum/UpgradeOppressorCannon" value="Upgrade Oppressor Cannon" />
-    <entry name="AstraMilitarum/UpgradeOppressorCannonDescription" value="Improves the accuracy and the damage of Rogal Dorn Battle Tank's oppressor cannon. Only one upgrade or install can be set up for a unit." />
+    <entry name="AstraMilitarum/UpgradeOppressorCannonDescription" value="Improves the accuracy and the damage of Rogal Dorn Battle Tank's oppressor cannon.<br/><br/><string name='Actions/UpgradeDisclaimer'/>" />
     <entry name="AstraMilitarum/WallOfMuscle" value="<string name='Traits/AstraMilitarum/WallOfMuscle'/>" />
     <entry name="AstraMilitarum/WallOfMuscleDescription" value="Reduces melee attacks of adjacent enemy units." />
     <entry name="AstraMilitarum/WallOfMuscleFlavor" value="<string name='Traits/AstraMilitarum/WallOfMuscleFlavor'/>" />
@@ -133,7 +133,7 @@
     <entry name="Necrons/TriarchPraetorianJumpPackFlavor" value="<string name='Actions/JumpPackFlavor'/>" />
     <entry name="Necrons/VoidStrikeDescription" value="Deals damage to the target vehicle or fortification and forces its degradation."/>
     <entry name="Necrons/UpgradeGaussFlayerArray" value="Upgrade Gauss Flayer Array" />
-    <entry name="Necrons/UpgradeGaussFlayerArrayDescription" value="Increases the ranged attacks of Ghost Ark, but removes ability to transport cargo. additional. Only one upgrade or install can be set up for a unit." />
+    <entry name="Necrons/UpgradeGaussFlayerArrayDescription" value="Increases the ranged attacks of Ghost Ark, but removes ability to transport cargo. additional.<br/><br/><string name='Actions/UpgradeDisclaimer'/>" />
     <entry name="Necrons/Wraithflight" value="Wraithflight" />
     <entry name="Necrons/WraithflightDescription" value="Allows to move over water, through enemy units and ignores the penalties of rivers and wire weed, but reduces movement." />
     <entry name="Necrons/WraithflightFlavor" value="Their dimensional destabilisation matrix doesn’t just make Wraiths almost impossible to kill—it also allows them to pass through any obstacle, be that rivers, wire weed or even enemy warriors." />
@@ -170,16 +170,16 @@
     <entry name="SistersOfBattle/TaleOfTheStoicDescription" value="Decreases the accuracy of opponent attacks against this unit and adjacent Adepta Sororitas infantry units. Shares cooldown with other tales."/>
     <entry name="SistersOfBattle/TaleOfTheWarriorDescription" value="Increases the armour penetration of adjacent Adepta Sororitas infantry units. Shares cooldown with other tales."/>
     <entry name="SistersOfBattle/TwoAdditionalMultiMeltas" value="Install Multi Meltas" />
-    <entry name="SistersOfBattle/TwoAdditionalMultiMeltasDescription" value="Grants Castigator additional multi meltas. Only one upgrade or install can be set up for a unit." />
+    <entry name="SistersOfBattle/TwoAdditionalMultiMeltasDescription" value="Grants Castigator additional multi meltas.<br/><br/><string name='Actions/UpgradeDisclaimer'/>" />
     <entry name="SistersOfBattle/UpgradeMultiMelta" value="Upgrade Multi Melta" />
-    <entry name="SistersOfBattle/UpgradeMultiMeltaDescription" value="Upgrades Castigator's multi meltas. Only one upgrade or install can be set up for a unit." />
+    <entry name="SistersOfBattle/UpgradeMultiMeltaDescription" value="Upgrades Castigator's multi meltas.<br/><br/><string name='Actions/UpgradeDisclaimer'/>" />
 
     <entry name="SpaceMarines/AdditionalHeavyBolter" value="Install Heavy Bolter" />
-    <entry name="SpaceMarines/AdditionalHeavyBolterDescription" value="Grants Fortress of Redemption additional heavy bolter. Only one upgrade or install can be set up for a unit." />
+    <entry name="SpaceMarines/AdditionalHeavyBolterDescription" value="Grants Fortress of Redemption additional heavy bolter.<br/><br/><string name='Actions/UpgradeDisclaimer'/>" />
     <entry name="SpaceMarines/AdditionalHeavyBolters" value="Install Heavy Bolters" />
-    <entry name="SpaceMarines/AdditionalHeavyBoltersDescription" value="Grants Predator additional heavy bolters. Only one upgrade or install can be set up for a unit." />
+    <entry name="SpaceMarines/AdditionalHeavyBoltersDescription" value="Grants Predator additional heavy bolters.<br/><br/><string name='Actions/UpgradeDisclaimer'/>" />
     <entry name="SpaceMarines/AdditionalStormBolter" value="Install Storm Bolter" />
-    <entry name="SpaceMarines/AdditionalStormBolterDescription" value="Grants Razorback additional storm bolter, but removes ability to transport cargo. Only one upgrade or install can be set up for a unit." />
+    <entry name="SpaceMarines/AdditionalStormBolterDescription" value="Grants Razorback additional storm bolter, but removes ability to transport cargo.<br/><br/><string name='Actions/UpgradeDisclaimer'/>" />
     <entry name="SpaceMarines/Infiltrate" value="Camo Cloak" />
     <entry name="SpaceMarines/InfiltrateDescription" value="Temporary increases the ranged damage reduction while in an imperial ruin or a forest" />
     <entry name="SpaceMarines/InfiltrateFlavor" value="The weave of this camo cloak emulates the movements of the elements. As a gust of wind passes, as rainfalls across the battlefield, as the haze of heat shimmers the air, the bearers form flickers in and out of perception. If the bearer remains stationary, they are clouded entirely, a ghost lost to the wilds." />
@@ -190,7 +190,7 @@
     <entry name="SpaceMarines/EmpireWithinDescription" value="Levels up non-hero friendly unit." />
     <entry name="SpaceMarines/EmpireWithinFlavor" value="”I can pulp your flesh and snap your bones in less than a second and without so much as lifting a finger. What is the power of technology compared to that?”<br/>  — Vel'Cona, Chief Librarian of the Salamanders" />
     <entry name="SpaceMarines/UpgradedLascannon" value="Upgrade Lascannon" />
-    <entry name="SpaceMarines/UpgradedLascannonDescription" value="Permanently improves lascannon damage, armour penetration and accuracy of Predator. Only one upgrade or install can be set up for a unit." />
+    <entry name="SpaceMarines/UpgradedLascannonDescription" value="Permanently improves lascannon damage, armour penetration and accuracy of Predator.<br/><br/><string name='Actions/UpgradeDisclaimer'/>" />
     <entry name="SpaceMarines/LitanyOfZeal" value="<string name='Traits/SpaceMarines/LitanyOfZeal'/>" />
     <entry name="SpaceMarines/LitanyOfZealDescription" value="<string name='Traits/SpaceMarines/LitanyOfZealDescription'/>" />
     <entry name="SpaceMarines/LitanyOfZealFlavor" value="<string name='Traits/SpaceMarines/LitanyOfZealFlavor'/>" />
@@ -256,4 +256,6 @@
     <entry name="LuminagenDescription" value="Temporarily decreases the ranged damage reduction of the attacked unit." />
     <entry name="VoidShield" value="Void Shield" />
     <entry name="VoidShieldDescription" value="Increases the ranged damage reduction." />
+    <entry name="UpgradeDisclaimer" value="Only one upgrade or install can be set up for a unit. Shares cooldown with other upgrades or installs." />
+
 </language>

@@ -622,7 +622,7 @@
                 </modifier>
             </unitModifiers>
         </doctrina>
-        <installSupportSystem name="SpaceMarines/AdditionalStormBolter" cooldown="0" icon="Actions/AdditionalStormBolter" requiredUpgrade="SpaceMarines/HurricaneBolter">
+        <installSupportSystem name="SpaceMarines/AdditionalStormBolter" cooldown="1" icon="Actions/AdditionalStormBolter" requiredUpgrade="SpaceMarines/HurricaneBolter">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -660,8 +660,14 @@
                     </areas>
                 </target>
             </beginTargets>
+            <sharedCooldowns>
+                <action name="SpaceMarines/AdditionalHeavyBolter" />
+                <action name="SpaceMarines/AdditionalHeavyBolters" />
+                <action name="SpaceMarines/UpgradedLascannon" />
+                <action name="SpaceMarines/SiegeManeuversThunderfireCannon" />
+            </sharedCooldowns>
         </installSupportSystem>
-        <installSupportSystem name="SpaceMarines/AdditionalHeavyBolter" cooldown="0" icon="Actions/AdditionalHeavyBolter" requiredUpgrade="SpaceMarines/HurricaneBolter">
+        <installSupportSystem name="SpaceMarines/AdditionalHeavyBolter" cooldown="1" icon="Actions/AdditionalHeavyBolter" requiredUpgrade="SpaceMarines/HurricaneBolter">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -699,8 +705,14 @@
                     </areas>
                 </target>
             </beginTargets>
+            <sharedCooldowns>
+                <action name="SpaceMarines/AdditionalStormBolter" />
+                <action name="SpaceMarines/AdditionalHeavyBolters" />
+                <action name="SpaceMarines/UpgradedLascannon" />
+                <action name="SpaceMarines/SiegeManeuversThunderfireCannon" />
+            </sharedCooldowns>
         </installSupportSystem>
-        <installSupportSystem name="SpaceMarines/AdditionalHeavyBolters" cooldown="0" icon="Actions/TwoAdditionalHeavyBolters" requiredUpgrade="SpaceMarines/PredatorLascannon">
+        <installSupportSystem name="SpaceMarines/AdditionalHeavyBolters" cooldown="1" icon="Actions/TwoAdditionalHeavyBolters" requiredUpgrade="SpaceMarines/PredatorLascannon">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -739,8 +751,14 @@
                     </areas>
                 </target>
             </beginTargets>
+            <sharedCooldowns>
+                <action name="SpaceMarines/AdditionalStormBolter" />
+                <action name="SpaceMarines/AdditionalHeavyBolter" />
+                <action name="SpaceMarines/UpgradedLascannon" />
+                <action name="SpaceMarines/SiegeManeuversThunderfireCannon" />
+            </sharedCooldowns>
         </installSupportSystem>
-        <installSupportSystem name="SpaceMarines/UpgradedLascannon" cooldown="0" icon="Actions/UpgradedLascannon" requiredUpgrade="SpaceMarines/PredatorLascannon">
+        <installSupportSystem name="SpaceMarines/UpgradedLascannon" cooldown="1" icon="Actions/UpgradedLascannon" requiredUpgrade="SpaceMarines/PredatorLascannon">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -779,8 +797,14 @@
                     </areas>
                 </target>
             </beginTargets>
+            <sharedCooldowns>
+                <action name="SpaceMarines/AdditionalStormBolter" />
+                <action name="SpaceMarines/AdditionalHeavyBolter" />
+                <action name="SpaceMarines/AdditionalHeavyBolters" />
+                <action name="SpaceMarines/SiegeManeuversThunderfireCannon" />
+            </sharedCooldowns>
         </installSupportSystem>
-        <installSupportSystem name="SpaceMarines/SiegeManeuversThunderfireCannon" cooldown="0" icon="Upgrades/SpaceMarines/SiegeManeuvers" requiredUpgrade="SpaceMarines/SiegeManeuvers">
+        <installSupportSystem name="SpaceMarines/SiegeManeuversThunderfireCannon" cooldown="1" icon="Upgrades/SpaceMarines/SiegeManeuvers" requiredUpgrade="SpaceMarines/SiegeManeuvers">
             <modifiers>
                 <modifier visible="0">
                     <effects>
@@ -821,6 +845,12 @@
                     </areas>
                 </target>
             </beginTargets>
+            <sharedCooldowns>
+                <action name="SpaceMarines/AdditionalStormBolter" />
+                <action name="SpaceMarines/AdditionalHeavyBolter" />
+                <action name="SpaceMarines/AdditionalHeavyBolters" />
+                <action name="SpaceMarines/UpgradedLascannon" />
+            </sharedCooldowns>
         </installSupportSystem>
     </actions>
     <startingUnits>
