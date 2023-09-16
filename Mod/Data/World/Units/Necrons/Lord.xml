@@ -223,42 +223,33 @@
                 </target>
             </beginTargets>
         </genericUnitAbility>
-        <royalGuard name="Necrons/RoyalGuard" cooldown="5" elite="1" levelUpPriority="1" rank="-1" rankMax="0"> <!-- growing billboarded particle growing from his chest -->
+        <solarPulse name="Necrons/SolarPulse" cooldown="5" elite="1" levelUpPriority="1" rank="-1" rankMax="0">
             <model>
-                <action animation="Units/Necrons/LordAbility" sound="Actions/PsychicBuff" />
+                <action animation="Units/Necrons/LordAbility" sound="Actions/PsychicDebuff" />
             </model>
             <beginTargets>
-                <target rangeMax="1">
-                    <conditions>
-                        <tile>
-                            <land />
-                            <noUnit />
-                            <noFeature name="GravityWaves" />
-                        </tile>
-                    </conditions>
+                <selfTarget>
                     <areas>
-                        <area affects="Tile">
+                        <area affects="Unit" radius="3">
                             <modifiers>
                                 <modifier>
+                                    <conditions>
+                                        <unit>
+                                            <enemy />
+                                            <noTrait name="Fortification" />
+                                            <noTrait name="Vehicle" />
+                                        </unit>
+                                    </conditions>
                                     <effects>
-                                        <addUnit name="Necrons/TriarchPraetorian" consumedAction="0" consumedMovement="0" />
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="Summon" duration="3" />
+                                        <addTrait name="Flared" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
                         </area>
                     </areas>
-                </target>
+                </selfTarget>
             </beginTargets>
-        </royalGuard>
+        </solarPulse>
         <levelUp />
         <shop />
     </actions>

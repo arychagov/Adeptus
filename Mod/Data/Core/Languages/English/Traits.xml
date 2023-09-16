@@ -138,6 +138,10 @@
     <entry name="Exhausted" value="Exhausted" />
     <entry name="ExhaustedDescription" value="Prevents unit from attacking and moving." />
 
+    <entry name="Flared" value="Flared"/>
+    <entry name="FlaredDescription" value="Reduces the accuracy."/>
+    <entry name="FlaredFlavor" value="This attack looses a brilliant flare of light, searing the sight of the victim and forcing him to fight blind for a few moments."/>
+
     <entry name="MannedWeaponGhostArk" value="Manned Weapon" />
     <entry name="MannedWeaponGhostArkDescription" value="Increases the ranged attacks while transporting cargo." />
 
@@ -317,6 +321,7 @@
     <entry name="SistersOfBattle/UpgradedMultiMeltaDescription" value="Increases the maximum range and the accuracy of multi meltas." />
     <entry name="SistersOfBattle/Vengeance" value="Vengeance" />
     <entry name="SistersOfBattle/VengeanceDescription" value="Increases the accuracy." />
+
     <entry name="SmokeScreenDescription" value="Decreases opponent's ranged accuracy." />
 
     <entry name="SpaceMarines/AdditionalHeavyBolter" value="Additional Heavy Bolter" />
