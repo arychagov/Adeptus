@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade icon="Upgrades/SistersOfBattle/Conflagration" position="10">
+    <requiredUpgrades>
+        <upgrade name="SistersOfBattle/EternalFire" />
+        <upgrade name="SistersOfBattle/Canoness" />
+        <upgrade name="SistersOfBattle/SaintCelestine" />
+        <upgrade name="SistersOfBattle/Exorcist" />
+    </requiredUpgrades>
+</upgrade>

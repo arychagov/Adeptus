@@ -92,8 +92,8 @@
     <entry name="Eldar/HornetDescription" value="Fast reconnaissance skimmer unit that can clear tiles." />
     <entry name="Eldar/SpiritStonesDescription" value="Reduces the morale loss of Shining Spears, Fire Prisms, Hornets, War Walkers and Wave Serpents." />
 
-    <entry name="Necrons/AircraftBuildingBonusDescription" value="Increases the production output of Nameless Causeways. Increases the invulnerable damage reduction of Night Scythes and Doom Scythes."/>
-    <entry name="Necrons/AttackCityBonusDescription" value="Increases the accuracy of units, except aircrafts."/>
+    <entry name="Necrons/AircraftBuildingBonusDescription" value="Increases the production output of Nameless Causeways. Increases the invulnerable damage reduction of Night Scythes and Doom Scythes." />
+    <entry name="Necrons/AttackCityBonusDescription" value="Increases the accuracy of units, except aircrafts." />
     <entry name="Necrons/CityTier2Description" value="Increases the tile acquisition radius." />
     <entry name="Necrons/CityTier3Description" value="Increases the tile acquisition radius, the armor, the attack range and the hitpoints of cities." />
     <entry name="Necrons/DimensionalCorridor2" value="Dimensional Stability" />
@@ -112,9 +112,9 @@
     <entry name="Necrons/LivingMetal2Description" value="Increases the healing of Reanimation Protocols and Living Metal." />
     <entry name="Necrons/LivingMetal2Flavor" value="These Necrons rise again and again despite the most grievous wounding, resolutely refusing to succumb to their wounds. Augmented with advanced matter-replication capabilities, these Canoptek constructs can swiftly repair themselves in battle." />
     <entry name="Necrons/NebuloscopeDescription" value="Allows Tomb Blades and Deathmarks to ignore ranged damage reduction and increases Tomb Blades armor." />
-    <entry name="Necrons/NecrodermisRepair" value="Necrodermis Repair"/>
-    <entry name="Necrons/NecrodermisRepairDescription" value="Grants ability to restore the hitpoints."/>
-    <entry name="Necrons/NecrodermisRepairFlavor" value="If a Necron is only mildly damaged, their living metal body can somewhat heal itself, flowing reserve metals to cover flaws and failings."/>
+    <entry name="Necrons/NecrodermisRepair" value="Necrodermis Repair" />
+    <entry name="Necrons/NecrodermisRepairDescription" value="Grants ability to restore the hitpoints." />
+    <entry name="Necrons/NecrodermisRepairFlavor" value="If a Necron is only mildly damaged, their living metal body can somewhat heal itself, flowing reserve metals to cover flaws and failings." />
     <entry name="Necrons/NecrodermisRepair3Description" value="Increases the healing effect and reduced the cost of Necrodermis Repair." />
     <entry name="Necrons/OverchargedQuantumShielding" value="Overcharged Quantum Shielding" />
     <entry name="Necrons/OverchargedQuantumShieldingDescription" value="Grants ability to temporary increase the invulnerable damage reduction of a vehicle, but loses Quantum Shielding for several turns." />
@@ -146,12 +146,15 @@
     <entry name="Orks/CreatePermanentOrkoidFungusOnDeathDescription" value="Causes units to create permanent orkoid fungus when they die. Grants feel no pain damage reduction to Ork units on orkoid fungus." />
     <entry name="Orks/BonusBeastsProductionDescription" value="Increases the production output of Runtherd Groundz. Increases cities the food and the ore output." />
 
-    <entry name="SistersOfBattle/AdditionalHeavyBolterDescription" value="Grants ability to upgrade Castigators weaponry."/>
+    <entry name="SistersOfBattle/AdditionalHeavyBolterDescription" value="Grants ability to upgrade Castigators weaponry." />
     <entry name="SistersOfBattle/Canoness" value="Canoness" />
     <entry name="SistersOfBattle/CanonessDescription" value="Witch-seeking powerful hero unit that leads infantry into battle." />
     <entry name="SistersOfBattle/CanonessFlavor" value="A Canoness is the overall commander of one of the Orders Militant, a shining example of purity and dedication of purpose. Each is a veteran warrior of many hundreds of battles who has risen to her position through a combination of strong leadership, shrewd tactical genius and sheer overarching faith in the Emperor. When the Ecclesiarchy sounds the call to arms, a Canoness boldly leads her warriors into the fray, refusing to take one step backwards whilst her enemies still draw breath." />
     <entry name="SistersOfBattle/CityTier2Description" value="Increases the tile acquisition radius." />
     <entry name="SistersOfBattle/CityTier3Description" value="Increases the tile acquisition radius. Increases the morale loss reduction from Avenging Zeal." />
+    <entry name="SistersOfBattle/Conflagration" value="Conflagration" />
+    <entry name="SistersOfBattle/ConflagrationDescription" value="Increases the duration of Holy Fire debuff and reduces the cooldown of Eternal Fire." />
+    <entry name="SistersOfBattle/ConflagrationFlavor" value="With a resounding flourish, missiles streak into the skies to bring glorious destruction to the enemies of the God-Emperor." />
     <entry name="SistersOfBattle/DesperateForRedemption" value="Desperate For Redemption" />
     <entry name="SistersOfBattle/DesperateForRedemptionDescription" value="Adepta Sororitas infantry units resurrect on death with 1 hit point remaining." />
     <entry name="SistersOfBattle/DesperateForRedemptionFlavor" value="Even the most grievous wound cannot stop a Sister Repentia in her quest to earn redemption in the eyes of the Emperor." />
@@ -164,8 +167,8 @@
     <entry name="SistersOfBattle/FaithAndFury" value="<string name='Traits/SistersOfBattle/FaithAndFury'/>" />
     <entry name="SistersOfBattle/FaithAndFuryDescription" value="<string name='Traits/SistersOfBattle/FaithAndFuryDescription'/>" />
     <entry name="SistersOfBattle/FaithAndFuryFlavor" value="<string name='Traits/SistersOfBattle/FaithAndFuryFlavor'/>" />
-    <entry name="SistersOfBattle/LaudHailerDescription" value="Grants Castigators, Exarsists and Immolators an aura allowing adjacent shaken units to perform Acts of Faith."/>
-    <entry name="SistersOfBattle/MedicusMinistorumDescription" value="Grants feel no pain damage reduction to allied infantry units adjacent to a Hospitaller and an Imagifier unit."/>
+    <entry name="SistersOfBattle/LaudHailerDescription" value="Grants Castigators, Exarsists and Immolators an aura allowing adjacent shaken units to perform Acts of Faith." />
+    <entry name="SistersOfBattle/MedicusMinistorumDescription" value="Grants feel no pain damage reduction to allied infantry units adjacent to a Hospitaller and an Imagifier unit." />
     <entry name="SistersOfBattle/MeltaBombDescription" value="Grants Zephyrims the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications." />
     <entry name="SistersOfBattle/MinistorumIndoctrination" value="Ministorum Indoctrination / Universal Catechism" />
     <entry name="SistersOfBattle/MinistorumIndoctrinationDescription" value="Grants Martyr Spirit to Lightning Fighters, Avengers Strike Fighters and Cerastus Knight-Lancers. Grants Shield Of Faith to Lightning Fighters, Avengers Strike Fighters and Cerastus Knight-Lancers." />
@@ -175,13 +178,16 @@
     <entry name="SistersOfBattle/SisterAssassinorum" value="<string name='Units/SistersOfBattle/SisterAssassinorum'/>" />
     <entry name="SistersOfBattle/SisterAssassinorumDescription" value="<string name='Units/SistersOfBattle/SisterAssassinorumDescription'/>" />
     <entry name="SistersOfBattle/SisterAssassinorumFlavor" value="<string name='Units/SistersOfBattle/SisterAssassinorumFlavor'/>" />
-    <entry name="SistersOfBattle/StormBolter" value="Storm Bolter"/>
-    <entry name="SistersOfBattle/StormBolterDescription" value="Grants Immolators a storm bolter."/>
-    <entry name="SistersOfBattle/StormBolterFlavor" value="<string name='Weapons/BoltFlavor'/>"/>
+    <entry name="SistersOfBattle/SoothingLight" value="Soothing Light" />
+    <entry name="SistersOfBattle/SoothingLightDescription" value="Acts of Faith restores the hitpoints on use." />
+    <entry name="SistersOfBattle/SoothingLightFlavor" value="The Emperor’s radiance shines upon his warriors, emboldening them amidst the thick of battle." />
+    <entry name="SistersOfBattle/StormBolter" value="Storm Bolter" />
+    <entry name="SistersOfBattle/StormBolterDescription" value="Grants Immolators a storm bolter." />
+    <entry name="SistersOfBattle/StormBolterFlavor" value="<string name='Weapons/BoltFlavor'/>" />
     <entry name="SistersOfBattle/ValourOfSaints" value="Valour of Saints" />
     <entry name="SistersOfBattle/ValourOfSaintsDescription" value="Adepta Sororitas units cannot be shaken or broken in cities. Enemy units are broken in Adepta Sororitas cities." />
     <entry name="SistersOfBattle/ValourOfSaintsFlavor" value="Those who stand unflinching against the horrors of the galaxy inspire their comrades to feats of divine heroism." />
-    <entry name="SistersOfBattle/VengefulSpiritDescription" value="Units with Shield Of Faith return damage back to the attacker."/>
+    <entry name="SistersOfBattle/VengefulSpiritDescription" value="Units with Shield Of Faith return damage back to the attacker." />
     <entry name="SistersOfBattle/VowOfTheMilitantOrderDescription" value="Units keep their Shield Of Faith if they are broken. Increases damage reduction of Shield Of Faith." />
 
     <entry name="SpaceMarines/BlastDamageDescription" value="Increases the armour penetration of grenade, missile, las and blast weapons." />
@@ -207,7 +213,7 @@
     <entry name="SpaceMarines/KillTeamEliminators" value="<string name='Units/SpaceMarines/KillTeamEliminators'/>" />
     <entry name="SpaceMarines/KillTeamEliminatorsDescription" value="<string name='Units/SpaceMarines/KillTeamEliminatorsDescription'/>" />
     <entry name="SpaceMarines/KillTeamEliminatorsFlavor" value="<string name='Units/SpaceMarines/KillTeamEliminatorsFlavor'/>" />
-    <entry name="SpaceMarines/LandSpeederMultiMeltaDescription" value="Grants Land Speeders and Land Raiders ability to install multi-melta weapon."/>
+    <entry name="SpaceMarines/LandSpeederMultiMeltaDescription" value="Grants Land Speeders and Land Raiders ability to install multi-melta weapon." />
     <entry name="SpaceMarines/MachineSpirit" value="Machine Spirit" />
     <entry name="SpaceMarines/MachineSpiritDescription" value="Allows vehicles to temporary ignore degradation." />
     <entry name="SpaceMarines/MachineSpiritFlavor" value="There are many tales of machine spirits wreaking havoc on the foe, even after their crew are slain and critical systems are failing." />
