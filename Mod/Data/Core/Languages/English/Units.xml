@@ -2,6 +2,8 @@
 <language>
     <entry name="SpaceMarines/Captain" value="Captain of the Lost" />
     <entry name="SpaceMarines/ChaplainDescription" value="Zealous hero unit that leads melee combat and inspires loyalty." />
+    <entry name="SpaceMarines/HonourGuard" value="Honour Guard" />
+    <entry name="SpaceMarines/HonourGuardDescription" value="Elite cadre of Veteran Space Marines." />
     <entry name="SpaceMarines/Techmarine" value="Techmarine" />
     <entry name="SpaceMarines/TechmarineDescription" value="Technician and engineer as well as a full Astartes battle-brother." />
     <entry name="SpaceMarines/TechmarineFlavor" value="They learn how to divine the runes of engineering and study the liturgy of maintenance. This great body of lore must be committed to memory and understood by the novice Techmarine." />
