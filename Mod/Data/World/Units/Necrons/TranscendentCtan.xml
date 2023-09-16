@@ -64,14 +64,14 @@
                 <action sound="Units/Necrons/TranscendentCtanMove" soundCount="3" />
             </model>
         </move>
-        <necrodermisRepair name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
+        <necrodermisRepair requiredUpgrade="Necrons/NecrodermisRepair" name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
             <model>
                 <action sound="Actions/Heal" />
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="60" />
+                        <influenceCost base="50" />
                     </effects>
                 </modifier>
 
@@ -82,7 +82,7 @@
                 </modifier>
                 <modifier requiredUpgrade="Necrons/NecrodermisRepair3">
                     <effects>
-                        <influenceCost add="-40" />
+                        <influenceCost add="-30" />
                     </effects>
                 </modifier>
             </modifiers>

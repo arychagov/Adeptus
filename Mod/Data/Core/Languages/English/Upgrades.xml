@@ -112,6 +112,9 @@
     <entry name="Necrons/LivingMetal2Description" value="Increases the healing of Reanimation Protocols and Living Metal." />
     <entry name="Necrons/LivingMetal2Flavor" value="These Necrons rise again and again despite the most grievous wounding, resolutely refusing to succumb to their wounds. Augmented with advanced matter-replication capabilities, these Canoptek constructs can swiftly repair themselves in battle." />
     <entry name="Necrons/NebuloscopeDescription" value="Allows Tomb Blades and Deathmarks to ignore ranged damage reduction and increases Tomb Blades armor." />
+    <entry name="Necrons/NecrodermisRepair" value="Necrodermis Repair"/>
+    <entry name="Necrons/NecrodermisRepairDescription" value="Grants ability to restore the hitpoints."/>
+    <entry name="Necrons/NecrodermisRepairFlavor" value="If a Necron is only mildly damaged, their living metal body can somewhat heal itself, flowing reserve metals to cover flaws and failings."/>
     <entry name="Necrons/NecrodermisRepair3Description" value="Increases the healing effect and reduced the cost of Necrodermis Repair." />
     <entry name="Necrons/OverchargedQuantumShielding" value="Overcharged Quantum Shielding" />
     <entry name="Necrons/OverchargedQuantumShieldingDescription" value="Grants ability to temporary increase the invulnerable damage reduction of a vehicle, but loses Quantum Shielding for several turns." />
