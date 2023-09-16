@@ -239,7 +239,8 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40" />
+                        <energyCost base="15" />
+                        <influenceCost base="15" />
                     </effects>
                 </modifier>
             </modifiers>
@@ -279,7 +280,8 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40" />
+                        <energyCost base="15" />
+                        <influenceCost base="15" />
                     </effects>
                 </modifier>
             </modifiers>
