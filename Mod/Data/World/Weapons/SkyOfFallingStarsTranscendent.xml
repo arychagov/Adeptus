@@ -13,7 +13,7 @@
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="3" />
+    <target rangeMax="2" />
     <traits>
         <trait name="Assault" />
         <trait name="Barrage" />
