@@ -139,10 +139,17 @@
                 </selfTarget>
             </beginTargets>
         </dispenseChaff>
-        <genericUnitAbility name="SistersOfBattle/EternalFire" icon="Traits/SoulBlaze" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0">
+        <genericUnitAbility name="SistersOfBattle/EternalFire" consumedActionPoints="0" consumedMovement="0" cooldown="10" icon="Traits/SoulBlaze" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
+            <modifiers>
+                <modifier requiredUpgrade="SistersOfBattle/Conflagration">
+                    <effects>
+                        <cooldown add="-5" />
+                    </effects>
+                </modifier>
+            </modifiers>
             <conditions>
                 <unit>
                     <notAttackedThisTurn />

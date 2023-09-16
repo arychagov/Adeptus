@@ -4,7 +4,7 @@
         <unit explosionsBone="Hull_Shake" idleAnimation="Units/SistersOfBattle/ImmolatorIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SistersOfBattle/Immolator" mesh="Units/SistersOfBattle/Immolator" portraitFocusHeightModifier="-10" scale="0.9 0.9 0.9" uvAnimated="1" />
     </model>
     <weapons>
-        <weapon name="StormBolter" requiredUpgrade="SistersOfBattle/StormBolter"/>
+        <weapon name="StormBolter" requiredUpgrade="SistersOfBattle/StormBolter" />
         <weapon name="TwinLinkedHeavyFlamer">
             <model>
                 <flamerWeapon muzzleBone="Muzzle" muzzleCount="4" />
@@ -64,7 +64,7 @@
                 <action animation="Units/SistersOfBattle/ImmolatorMove" sound="Units/SpaceMarines/TankMove" soundCount="3" />
             </model>
         </move>
-        <createSmokeScreen consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="SistersOfBattle/DozerBlade">
+        <createSmokeScreen consumedActionPoints="0" consumedMovement="0" cooldown="10" icon="Traits/SmokeScreen" requiredActionPoints="0" requiredUpgrade="SistersOfBattle/DozerBlade">
             <model>
                 <action sound="Actions/SmokeScreen" />
             </model>
@@ -106,10 +106,17 @@
                 <action beginFire="0.1" endFire="1.0" />
             </model>
         </useWeapon>
-        <genericUnitAbility name="SistersOfBattle/EternalFire" icon="Traits/SoulBlaze" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0">
+        <genericUnitAbility name="SistersOfBattle/EternalFire" consumedActionPoints="0" consumedMovement="0" cooldown="10" icon="Traits/SoulBlaze" requiredActionPoints="0">
             <model>
                 <action sound="Actions/ChargeUp" />
             </model>
+            <modifiers>
+                <modifier requiredUpgrade="SistersOfBattle/Conflagration">
+                    <effects>
+                        <cooldown add="-5" />
+                    </effects>
+                </modifier>
+            </modifiers>
             <conditions>
                 <unit>
                     <notAttackedThisTurn />

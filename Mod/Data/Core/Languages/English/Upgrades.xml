@@ -153,7 +153,7 @@
     <entry name="SistersOfBattle/CityTier2Description" value="Increases the tile acquisition radius." />
     <entry name="SistersOfBattle/CityTier3Description" value="Increases the tile acquisition radius. Increases the morale loss reduction from Avenging Zeal." />
     <entry name="SistersOfBattle/Conflagration" value="Conflagration" />
-    <entry name="SistersOfBattle/ConflagrationDescription" value="Increases the duration of Holy Fire debuff and reduces the cooldown of Eternal Fire." />
+    <entry name="SistersOfBattle/ConflagrationDescription" value="Increases the duration of Holy Fire debuff from Eternal Fire and Emperor's Blaze and reduces the cooldown of Eternal Fire." />
     <entry name="SistersOfBattle/ConflagrationFlavor" value="With a resounding flourish, missiles streak into the skies to bring glorious destruction to the enemies of the God-Emperor." />
     <entry name="SistersOfBattle/DesperateForRedemption" value="Desperate For Redemption" />
     <entry name="SistersOfBattle/DesperateForRedemptionDescription" value="Adepta Sororitas infantry units resurrect on death with 1 hit point remaining." />

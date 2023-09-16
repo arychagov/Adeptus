@@ -239,6 +239,16 @@
                                         <addTrait name="SistersOfBattle/HolyFireEnemy" duration="2" />
                                     </effects>
                                 </modifier>
+                                <modifier requiredUpgrade="SistersOfBattle/Conflagration">
+                                    <conditions>
+                                        <unit>
+                                            <enemy />
+                                        </unit>
+                                    </conditions>
+                                    <effects>
+                                        <addTrait name="SistersOfBattle/HolyFireEnemy" duration="3" />
+                                    </effects>
+                                </modifier>
                             </modifiers>
                         </area>
                     </areas>
