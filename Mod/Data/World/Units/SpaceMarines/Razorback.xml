@@ -99,7 +99,7 @@
             </beginTargets>
         </createSmokeScreen>
 
-        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0" requiredUpgrade="SpaceMarines/PredatorLascannon" weaponSlotName="StormBolterUpgrade">
+        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0" requiredUpgrade="SpaceMarines/HurricaneBolter" weaponSlotName="StormBolterUpgrade">
             <conditions>
                 <unit>
                     <trait name="SpaceMarines/AdditionalStormBolter" />
