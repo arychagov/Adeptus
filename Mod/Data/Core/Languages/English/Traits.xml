@@ -138,9 +138,9 @@
     <entry name="Exhausted" value="Exhausted" />
     <entry name="ExhaustedDescription" value="Prevents unit from attacking and moving." />
 
-    <entry name="Flared" value="Flared"/>
-    <entry name="FlaredDescription" value="Reduces the accuracy."/>
-    <entry name="FlaredFlavor" value="This attack looses a brilliant flare of light, searing the sight of the victim and forcing him to fight blind for a few moments."/>
+    <entry name="Flared" value="Flared" />
+    <entry name="FlaredDescription" value="Reduces the accuracy." />
+    <entry name="FlaredFlavor" value="This attack looses a brilliant flare of light, searing the sight of the victim and forcing him to fight blind for a few moments." />
 
     <entry name="MannedWeaponGhostArk" value="Manned Weapon" />
     <entry name="MannedWeaponGhostArkDescription" value="Increases the ranged attacks while transporting cargo." />
@@ -328,6 +328,8 @@
     <entry name="SpaceMarines/AdditionalHeavyBolterDescription" value="Grants additional heavy bolter." />
     <entry name="SpaceMarines/AdditionalHeavyBolters" value="Additional Heavy Bolters" />
     <entry name="SpaceMarines/AdditionalHeavyBoltersDescription" value="Grants two additional heavy bolters." />
+    <entry name="SpaceMarines/AdditionalMultiMelta" value="Additional Multi Melta" />
+    <entry name="SpaceMarines/AdditionalMultiMeltaDescription" value="Grants additional multi melta." />
     <entry name="SpaceMarines/AdditionalStormBolter" value="Additional Storm Bolter" />
     <entry name="SpaceMarines/AdditionalStormBolterDescription" value="Grants additional storm bolter." />
     <entry name="SpaceMarines/BoltDamage" value="Kraken Bolts" />

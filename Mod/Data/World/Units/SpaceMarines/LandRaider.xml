@@ -14,7 +14,7 @@
                 <projectileWeapon muzzleBone=".HeavyBolter" muzzleCount="2" />
             </model>
         </weapon>
-        <weapon name="MultiMelta" requiredUpgrade="SpaceMarines/LandSpeederMultiMelta">
+        <weapon name="MultiMelta" enabled="0" requiredUpgrade="SpaceMarines/LandSpeederMultiMelta" slotName="MultiMeltaUpgrade">
             <model>
                 <beamWeapon animationSuffix="MultiMelta" bone="BloodBone" material="Units/SpaceMarines/LandRaider" mesh="Weapons/SpaceMarines/LandRaiderMultiMelta" muzzleBone=".Muzzle" muzzleCount="2" unavailableMaterial="Units/SpaceMarines/LandRaider" unavailableMesh="Weapons/SpaceMarines/LandRaiderLid" />
             </model>
@@ -64,7 +64,7 @@
                 <action animation="Units/SpaceMarines/LandRaiderMove" sound="Units/SpaceMarines/LandRaiderMove" soundCount="1" />
             </model>
         </move>
-        <createSmokeScreen consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="SpaceMarines/SmokeLauncher">
+        <createSmokeScreen consumedActionPoints="0" consumedMovement="0" cooldown="10" icon="Traits/SmokeScreen" requiredActionPoints="0" requiredUpgrade="SpaceMarines/SmokeLauncher">
             <model>
                 <action sound="Actions/SmokeScreen" />
             </model>
@@ -101,7 +101,7 @@
                 </modifier>
             </modifiers>
         </orbitalDeployment>
-        <genericUnitAbility name="MachineSpirit" icon="Traits/MachineSpirit" requiredUpgrade="SpaceMarines/MachineSpirit" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0">
+        <genericUnitAbility name="MachineSpirit" consumedActionPoints="0" consumedMovement="0" cooldown="5" icon="Traits/MachineSpirit" requiredActionPoints="0" requiredUpgrade="SpaceMarines/MachineSpirit">
             <model>
                 <action sound="Actions/MechanicalBuff" />
             </model>
@@ -141,6 +141,17 @@
                 </selfTarget>
             </beginTargets>
         </powerOfTheMachineSpirit>
+        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0" requiredUpgrade="SpaceMarines/LandSpeederMultiMelta" weaponSlotName="MultiMeltaUpgrade">
+            <conditions>
+                <unit>
+                    <trait name="SpaceMarines/AdditionalMultiMelta" />
+                    <noTrait name="Exhausted" />
+                </unit>
+            </conditions>
+            <model>
+                <action beginFire="0.1" endFire="1.0" />
+            </model>
+        </useWeapon>
     </actions>
     <traits>
         <trait name="AndTheyShallKnowNoFear" />

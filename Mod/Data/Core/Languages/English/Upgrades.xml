@@ -207,6 +207,7 @@
     <entry name="SpaceMarines/KillTeamEliminators" value="<string name='Units/SpaceMarines/KillTeamEliminators'/>" />
     <entry name="SpaceMarines/KillTeamEliminatorsDescription" value="<string name='Units/SpaceMarines/KillTeamEliminatorsDescription'/>" />
     <entry name="SpaceMarines/KillTeamEliminatorsFlavor" value="<string name='Units/SpaceMarines/KillTeamEliminatorsFlavor'/>" />
+    <entry name="SpaceMarines/LandSpeederMultiMeltaDescription" value="Grants Land Speeders and Land Raiders ability to install multi-melta weapon."/>
     <entry name="SpaceMarines/MachineSpirit" value="Machine Spirit" />
     <entry name="SpaceMarines/MachineSpiritDescription" value="Allows vehicles to temporary ignore degradation." />
     <entry name="SpaceMarines/MachineSpiritFlavor" value="There are many tales of machine spirits wreaking havoc on the foe, even after their crew are slain and critical systems are failing." />
