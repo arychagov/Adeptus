@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <rangedAttacks add="5" />
+                <rangedAttacks add="4" />
             </effects>
         </modifier>
     </modifiers>
