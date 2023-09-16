@@ -161,7 +161,7 @@
         </orbitalStrike>
         <genericUnitAbility name="SpaceMarines/SummonHonourGuard" icon="Units/SpaceMarines/HonourGuard" consumedActionPoints="0" consumedMovement="0" cooldown="5" elite="1" levelUpPriority="1" rank="-1" rankMax="0">
             <model>
-                <action animation="" sound="Actions/DeployDrone" />
+                <action animation="" sound="Actions/DropPod" />
             </model>
             <beginTargets>
                 <target rangeMax="1">
@@ -185,7 +185,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Summon" duration="3" />
+                                        <addTrait name="Summon" duration="4" />
                                     </effects>
                                 </modifier>
                             </modifiers>
