@@ -119,27 +119,17 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <deedsOfGlory levelUpPriority="0.2" passive="1" rank="-1" rankMax="2">
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="DeedsOfGlory" />
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-        </deedsOfGlory>
-        <orbitalStrike cooldown="5" elite="1" levelUpPriority="1" rank="-1" rankMax="0">
+        <orbitalStrike cooldown="5" levelUpPriority="1" rank="-1" rankMax="2">
             <model>
                 <action animation="Units/SpaceMarines/CaptainOrbitalStrike" sound="Actions/BombDrop" />
             </model>
+            <modifiers>
+                <modifier>
+                    <effects>
+                        <accuracy mulMin="-0.66" mulMax="0"/>
+                    </effects>
+                </modifier>
+            </modifiers>
             <beginTargets>
                 <target rangeMax="-1">
                     <conditions>
@@ -152,7 +142,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <weaponDamage weapon="OrbitalBombardment" />
+                                        <weaponDamage weapon="OrbitalBombardmentCaptain" />
                                     </effects>
                                 </modifier>
                             </modifiers>

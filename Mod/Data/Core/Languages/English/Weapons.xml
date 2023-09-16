@@ -26,4 +26,5 @@
     <entry name="GuardsmanMeltagunFlavor" value="<string name='Weapons/MeltaFlavor'/>"/>
     <entry name="HeavyLascannon" value="Heavy Lascannon" />
     <entry name="HeavyLascannonFlavor" value="<string name='Weapons/LasFlavor'/>" />
+    <entry name="OrbitalBombardmentCaptain" value="Orbital Bombardment"/>
 </language>
