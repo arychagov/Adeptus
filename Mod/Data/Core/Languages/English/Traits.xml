@@ -315,7 +315,8 @@
     <entry name="SistersOfBattle/TwoAdditionalMultiMeltasDescription" value="Grants additional multi meltas." />
     <entry name="SistersOfBattle/UpgradedMultiMelta" value="Upgraded Multi Melta" />
     <entry name="SistersOfBattle/UpgradedMultiMeltaDescription" value="Increases the maximum range and the accuracy of multi meltas." />
-
+    <entry name="SistersOfBattle/Vengeance" value="Vengeance" />
+    <entry name="SistersOfBattle/VengeanceDescription" value="Increases the accuracy." />
     <entry name="SmokeScreenDescription" value="Decreases opponent's ranged accuracy." />
 
     <entry name="SpaceMarines/AdditionalHeavyBolter" value="Additional Heavy Bolter" />

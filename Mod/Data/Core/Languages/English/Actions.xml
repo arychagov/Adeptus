@@ -163,6 +163,9 @@
     <entry name="SistersOfBattle/HolyFireDescription" value="Imbues target allied infantry attacks with holy fire that applies damage over time debuff to the attacked enemy." />
     <entry name="SistersOfBattle/HolyFireFlavor" value="Fed by auxiliary fuel lines, this transport’s braziers are made to flare with holy fire, tinged with sacred unguents and rare resins" />
     <entry name="SistersOfBattle/LightOfTheEmperorDescription" value="Increases the accuracy and decreases opponent's ranged accuracy.<br/><br/><string name='Actions/SistersOfBattle/ActOfFaithDescription'/>"/>
+    <entry name="SistersOfBattle/Sacrifice" value="Sacrifice" />
+    <entry name="SistersOfBattle/SacrificeDescription" value="Sacrifices this unit in order to completely heal the target unit, restore morale of adjacent allied units, and break morale of adjacent enemy units." />
+    <entry name="SistersOfBattle/SacrificeFlavor" value="Suffering is a staple prayer for the Adepta Sororitas, and a martyr’s fate only brings greater glory to the God-Emperor." />
     <entry name="SistersOfBattle/TwoAdditionalMultiMeltas" value="Install Multi Meltas" />
     <entry name="SistersOfBattle/TwoAdditionalMultiMeltasDescription" value="Grants Castigator additional multi meltas. Only one upgrade or install can be set up for a unit." />
     <entry name="SistersOfBattle/UpgradeMultiMelta" value="Upgrade Multi Melta" />
