@@ -127,6 +127,11 @@
                                         <addTrait name="Blurry" duration="1" />
                                     </effects>
                                 </modifier>
+                                <modifier requiredUpgrade="SistersOfBattle/SoothingLight">
+                                    <effects>
+                                        <hitpointsFactorFromMax add="0.5" />
+                                    </effects>
+                                </modifier>
                             </modifiers>
                         </area>
                     </areas>
