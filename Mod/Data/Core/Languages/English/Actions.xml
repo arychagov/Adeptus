@@ -224,6 +224,8 @@
     <entry name="SpaceMarines/PowerOfTheMachineSpiritStormravenFlavor" value="The interface between this vehicle's advanced machine spirit and its fire control mechanisms allows the crew to target foes with incredible accuracy." />
     <entry name="SpaceMarines/ShatterDefences" value="Shatter Defences" />
     <entry name="SpaceMarines/ShatterDefencesDescription" value="Removes the ranged damage reduction of the target tile." />
+    <entry name="SpaceMarines/SummonHonourGuard" value="Summon Honour Guard" />
+    <entry name="SpaceMarines/SummonHonourGuardDescription" value="Temporary summons Honour Guard unit, elite cadre of Veteran Space Marines." />
     <entry name="SpaceMarines/DefensiveFocus" value="Defensive Focus" />
     <entry name="SpaceMarines/DefensiveFocusDescription" value="Increases count of overwatch attacks but deals no damage when shooting this turn." />
     <entry name="SpaceMarines/DefensiveFocus" value="As the Codex Astartes dictates, when the foe presses hard at one section of the Ultramarines’ battle line they are swift to concentrate their defensive fire to drive the threat back." />

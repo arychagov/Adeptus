@@ -159,6 +159,41 @@
                 </target>
             </beginTargets>
         </orbitalStrike>
+        <genericUnitAbility name="SpaceMarines/SummonHonourGuard" icon="Units/SpaceMarines/HonourGuard" consumedActionPoints="0" consumedMovement="0" cooldown="5" elite="1" levelUpPriority="1" rank="-1" rankMax="0">
+            <model>
+                <action animation="" sound="Actions/DeployDrone" />
+            </model>
+            <beginTargets>
+                <target rangeMax="1">
+                    <conditions>
+                        <tile>
+                            <noUnit />
+                            <noFeature name="GravityWaves" />
+                        </tile>
+                    </conditions>
+                    <areas>
+                        <area affects="Tile">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addUnit name="SpaceMarines/HonourGuard" consumedAction="1" consumedMovement="1" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="Summon" duration="3" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </genericUnitAbility>
         <orbitalDeployment requiredUpgrade="SpaceMarines/OrbitalDeployment">
             <model>
                 <action sound="Actions/DropPod" />
