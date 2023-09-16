@@ -347,8 +347,11 @@
     <entry name="SpaceMarines/DefensiveFocusDescription" value="<string name='Actions/SpaceMarines/DefensiveFocusDescription'/>" />
     <entry name="SpaceMarines/DefensiveFocus" value="<string name='Actions/SpaceMarines/DefensiveFocusFlavor'/>" />
     <entry name="SpaceMarines/DominusAegis" value="Dominus Aegis" />
-    <entry name="SpaceMarines/DominusAegisDescription" value="Increases the ranged damage reduction of nearby troops." />
+    <entry name="SpaceMarines/DominusAegisDescription" value="Increases the ranged damage reduction." />
     <entry name="SpaceMarines/DominusAegisFlavor" value="This artefact takes the form of an ornate tower shield; from its sculpted edge, it projects a hemispherical force field that protects all those within its reach. Carried to war by those kill teams expected toplunge into the heart of the xenos hordes, it has saved countless lives, the bearer and his team fighting to victory as the dome-like force field keeps the worst of the alien scum at bay." />
+    <entry name="SpaceMarines/DominusAegisSelf" value="<string name='Traits/SpaceMarines/DominusAegis'/>" />
+    <entry name="SpaceMarines/DominusAegisSelfDescription" value="Increases the armour." />
+    <entry name="SpaceMarines/DominusAegisFlavor" value="<string name='Traits/SpaceMarines/DominusAegisFlavor'/>" />
     <entry name="SpaceMarines/FortressOfRedemptionDamageReduction1" value="Stronghold Shielding 1" />
     <entry name="SpaceMarines/FortressOfRedemptionDamageReduction1Description" value="Increases the city damage reduction." />
     <entry name="SpaceMarines/FortressOfRedemptionDamageReduction1Flavor" value="Gladius Prime is already proving far more hostile than the Adeptus Administratum's worst forecasts. With the Fortress' physical defenses under almost constant assault, the Techmarines approve installation of a void shield. Once constructed, this shimmering dome of power is sufficient to warp away the firepower of entire battalions (or even a rogue Imperial Knight) before collapsing." />

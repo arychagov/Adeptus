@@ -186,7 +186,7 @@
     <entry name="SpaceMarines/InfiltrateDescription" value="Temporary increases the ranged damage reduction while in an imperial ruin or a forest" />
     <entry name="SpaceMarines/InfiltrateFlavor" value="The weave of this camo cloak emulates the movements of the elements. As a gust of wind passes, as rainfalls across the battlefield, as the haze of heat shimmers the air, the bearers form flickers in and out of perception. If the bearer remains stationary, they are clouded entirely, a ghost lost to the wilds." />
     <entry name="SpaceMarines/DominusAegis" value="<string name='Traits/SpaceMarines/DominusAegis'/>" />
-    <entry name="SpaceMarines/DominusAegisDescription" value="<string name='Traits/SpaceMarines/DominusAegisDescription'/>" />
+    <entry name="SpaceMarines/DominusAegisDescription" value="Increases Captain's armour and the ranged damage reduction of nearby infantry." />
     <entry name="SpaceMarines/DominusAegisFlavor" value="<string name='Traits/SpaceMarines/DominusAegisFlavor'/>" />
     <entry name="SpaceMarines/EmpireWithin" value="Empire Within" />
     <entry name="SpaceMarines/EmpireWithinDescription" value="Levels up non-hero friendly unit." />
