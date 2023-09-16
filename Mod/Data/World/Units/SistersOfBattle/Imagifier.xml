@@ -68,7 +68,7 @@
                 <action animation="Units/SistersOfBattle/ImagifierMove" sound="Units/SistersOfBattle/InfantryMove" soundCount="3" />
             </model>
         </move>
-        <taleOfTheWarrior name="SistersOfBattle/TaleOfTheWarrior" consumedActionPoints="1" consumedMovement="0" cooldown="1" requiredActionPoints="1">
+        <taleOfTheWarrior name="SistersOfBattle/TaleOfTheWarrior" consumedActionPoints="1" consumedMovement="0" cooldown="3" requiredActionPoints="1">
             <model>
                 <action animation="Units/SistersOfBattle/ImagifierAbility" sound="Actions/WarHymn" />
             </model>
@@ -94,8 +94,12 @@
                     </areas>
                 </selfTarget>
             </beginTargets>
+            <sharedCooldowns>
+                <action name="SistersOfBattle/TaleOfTheStoic" />
+                <action name="SistersOfBattle/TaleOfTheFaithful" />
+            </sharedCooldowns>
         </taleOfTheWarrior>
-        <taleOfTheStoic name="SistersOfBattle/TaleOfTheStoic" consumedActionPoints="1" consumedMovement="0" cooldown="1" requiredActionPoints="1">
+        <taleOfTheStoic name="SistersOfBattle/TaleOfTheStoic" consumedActionPoints="1" consumedMovement="0" cooldown="3" requiredActionPoints="1">
             <model>
                 <action animation="Units/SistersOfBattle/ImagifierAbility" sound="Actions/WarHymn" />
             </model>
@@ -121,8 +125,12 @@
                     </areas>
                 </selfTarget>
             </beginTargets>
+            <sharedCooldowns>
+                <action name="SistersOfBattle/TaleOfTheWarrior" />
+                <action name="SistersOfBattle/TaleOfTheFaithful" />
+            </sharedCooldowns>
         </taleOfTheStoic>
-        <taleOfTheFaithful name="SistersOfBattle/TaleOfTheFaithful" consumedActionPoints="1" consumedMovement="0" cooldown="1" requiredActionPoints="1">
+        <taleOfTheFaithful name="SistersOfBattle/TaleOfTheFaithful" consumedActionPoints="1" consumedMovement="0" cooldown="3" requiredActionPoints="1">
             <model>
                 <action animation="Units/SistersOfBattle/ImagifierAbility" sound="Actions/WarHymn" />
             </model>
@@ -148,6 +156,10 @@
                     </areas>
                 </selfTarget>
             </beginTargets>
+            <sharedCooldowns>
+                <action name="SistersOfBattle/TaleOfTheWarrior" />
+                <action name="SistersOfBattle/TaleOfTheStoic" />
+            </sharedCooldowns>
         </taleOfTheFaithful>
         <endlessCrusade name="SistersOfBattle/EndlessCrusade" consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0">
             <model>

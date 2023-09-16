@@ -166,6 +166,9 @@
     <entry name="SistersOfBattle/Sacrifice" value="Sacrifice" />
     <entry name="SistersOfBattle/SacrificeDescription" value="Sacrifices this unit in order to completely heal the target unit, restore morale of adjacent allied units, and break morale of adjacent enemy units." />
     <entry name="SistersOfBattle/SacrificeFlavor" value="Suffering is a staple prayer for the Adepta Sororitas, and a martyr’s fate only brings greater glory to the God-Emperor." />
+    <entry name="SistersOfBattle/TaleOfTheFaithfulDescription" value="Increases the movement of this unit and adjacent Adepta Sororitas infantry units. Shares cooldown with other tales."/>
+    <entry name="SistersOfBattle/TaleOfTheStoicDescription" value="Decreases the accuracy of opponent attacks against this unit and adjacent Adepta Sororitas infantry units. Shares cooldown with other tales."/>
+    <entry name="SistersOfBattle/TaleOfTheWarriorDescription" value="Increases the armour penetration of adjacent Adepta Sororitas infantry units. Shares cooldown with other tales."/>
     <entry name="SistersOfBattle/TwoAdditionalMultiMeltas" value="Install Multi Meltas" />
     <entry name="SistersOfBattle/TwoAdditionalMultiMeltasDescription" value="Grants Castigator additional multi meltas. Only one upgrade or install can be set up for a unit." />
     <entry name="SistersOfBattle/UpgradeMultiMelta" value="Upgrade Multi Melta" />
