@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Traits/MeleeDamage">
+<trait category="Buff" icon="Traits/MeleeDamage" rankMax="2">
     <modifiers>
         <modifier>
             <effects>
-                <hitpointsMax mul="0.15" />
-                <accuracy mul="0.15" />
-                <damage mul="0.15" />
-                <rangedAttacks mul="0.15" />
-                <meleeAttacks mul="0.15" />
+                <hitpointsMax mulMin="0.05" mulMax="0.15" />
+                <accuracy mulMin="0.05" mulMax="0.15" />
+                <damage mulMin="0.05" mulMax="0.15" />
+                <rangedAttacks mulMin="0.05" mulMax="0.15" />
+                <meleeAttacks mulMin="0.05" mulMax="0.15" />
             </effects>
         </modifier>
     </modifiers>
