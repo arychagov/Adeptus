@@ -126,6 +126,31 @@
                 </selfTarget>
             </beginTargets>
         </lightOfTheEmperor>
+        <genericUnitAbility name="SistersOfBattle/EternalFire" icon="Traits/SoulBlaze" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0">
+            <model>
+                <action sound="Actions/ChargeUp" />
+            </model>
+            <conditions>
+                <unit>
+                    <notAttackedThisTurn />
+                </unit>
+            </conditions>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="SistersOfBattle/HolyFireSelf" duration="1" />
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
     </actions>
     <traits>
         <trait name="SistersOfBattle/ShieldOfFaith" />

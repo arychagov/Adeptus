@@ -156,6 +156,9 @@
     <entry name="SistersOfBattle/EmperorsBlazeFlavor" value="The Brazier of Eternal Flame burns above the faithful, its blazing light driving back the darkness and protecting the true servants of the Emperor from foul sorceries and unholy abominations." />
     <entry name="SistersOfBattle/EndlessCrusadeDescription" value="Gains Blurry, Fleet and Move Through Cover.<br/><br/><string name='Actions/SistersOfBattle/ActOfFaithDescription'/>"/>
     <entry name="SistersOfBattle/EternalCrusadeDescription" value="Sacred Rite that increases the production output of Battle Chapels." />
+    <entry name="SistersOfBattle/EternalFire" value="Eternal Fire" />
+    <entry name="SistersOfBattle/EternalFireDescription" value="Imbues attacks with holy fire that applies damage over time debuff to the attacked enemy." />
+    <entry name="SistersOfBattle/EternalFireFlavor" value="Burn the mutant. Burn the heretic. Burn the witch." />
     <entry name="SistersOfBattle/HolyFire" value="Holy Fire" />
     <entry name="SistersOfBattle/HolyFireDescription" value="Imbues target allied infantry attacks with holy fire that applies damage over time debuff to the attacked enemy." />
     <entry name="SistersOfBattle/HolyFireFlavor" value="Fed by auxiliary fuel lines, this transport’s braziers are made to flare with holy fire, tinged with sacred unguents and rare resins" />

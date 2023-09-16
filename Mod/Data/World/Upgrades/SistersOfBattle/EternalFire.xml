@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade icon="Traits/SoulBlaze" position="3">
+    <requiredUpgrades>
+        <upgrade name="SistersOfBattle/SisterAssassinorum" />
+        <upgrade name="SistersOfBattle/CelestianSacresant" />
+        <upgrade name="SistersOfBattle/Vehicles" />
+    </requiredUpgrades>
+</upgrade>

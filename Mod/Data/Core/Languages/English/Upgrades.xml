@@ -155,6 +155,9 @@
     <entry name="SistersOfBattle/DozerBlade" value="Dozer Blade / Smoke Launcher" />
     <entry name="SistersOfBattle/DozerBladeDescription" value="Reduces the movement penalty for Immolators, Exarsists and Castigators in forests and imperial ruins. Grants ground vehicles the ability to launch a smoke screen that increases the ranged damage reduction." />
     <entry name="SistersOfBattle/DozerBladeFlavor" value="<string name='Traits/DozerBladeFlavor'/>" />
+    <entry name="SistersOfBattle/EternalFire" value="Eternal Fire" />
+    <entry name="SistersOfBattle/EternalFireDescription" value="Grants Immolators, Sisters Assassinorum, Celestial Sacresants and Lightning Fighters ability to imbue their attacks with holy fire that applies damage over time debuff to the attacked enemy." />
+    <entry name="SistersOfBattle/EternalFireFlavor" value="Burn the mutant. Burn the heretic. Burn the witch." />
     <entry name="SistersOfBattle/FaithAndFury" value="<string name='Traits/SistersOfBattle/FaithAndFury'/>" />
     <entry name="SistersOfBattle/FaithAndFuryDescription" value="<string name='Traits/SistersOfBattle/FaithAndFuryDescription'/>" />
     <entry name="SistersOfBattle/FaithAndFuryFlavor" value="<string name='Traits/SistersOfBattle/FaithAndFuryFlavor'/>" />
