@@ -5,19 +5,9 @@
     </model>
     <group memberDeltaX="80" memberDeltaY="90" rowSize="3" size="3" />
     <weapons>
-        <weapon name="TwinLinkedLascannon">
+        <weapon name="TwinLinkedLascannon" count="1">
             <model>
                 <beamWeapon cycleMuzzles="0" fireInterval="0.43" muzzleBone="LasMuzzle" muzzleCount="2" />
-            </model>
-        </weapon>
-        <weapon name="KrakMissileLauncher" slotName="KrakMissileLauncher">
-            <model>
-                <missileWeapon fireInterval="0.6" missileScale="0.4" muzzleBone="MissileMuzzle" muzzleCount="6" />
-            </model>
-        </weapon>
-        <weapon name="FragMissileLauncher" enabled="0" slotName="FragMissileLauncher">
-            <model>
-                <missileWeapon fireInterval="0.6" missileScale="0.4" muzzleBone="MissileMuzzle" muzzleCount="6" />
             </model>
         </weapon>
         <weapon name="None" enabled="0" requiredUpgrade="SpaceMarines/Omniscope">
@@ -34,6 +24,7 @@
                 <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=5 wounds=2 -->
                 <meleeAccuracy base="8" /> <!-- %meleeAccuracy base weaponSkill=4 -->
                 <meleeAttacks base="1" />
+                <rangedAttacks mul="0.33" />
                 <strengthDamage base="2" /> <!-- %strengthDamage base strength=5 -->
                 <moraleMax base="10" /> <!-- %moraleMax base leadership=8 -->
                 <movementMax base="3" />
@@ -84,7 +75,6 @@
                 </modifier>
             </modifiers>
         </orbitalDeployment>
-        <cycleWeapon interfaceSound="Interface/CycleWeapon" weaponSlotNames="KrakMissileLauncher FragMissileLauncher" />
     </actions>
     <traits>
         <trait name="AndTheyShallKnowNoFear" />

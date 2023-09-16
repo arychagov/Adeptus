@@ -2,6 +2,7 @@
 <language>
     <entry name="SpaceMarines/Captain" value="Captain of the Lost" />
     <entry name="SpaceMarines/ChaplainDescription" value="Zealous hero unit that leads melee combat and inspires loyalty." />
+    <entry name="SpaceMarines/DevastatorCenturionDescription" value="Very bulky anti-tank infantry unit."/>
     <entry name="SpaceMarines/HonourGuard" value="Honour Guard" />
     <entry name="SpaceMarines/HonourGuardDescription" value="Elite cadre of Veteran Space Marines." />
     <entry name="SpaceMarines/Techmarine" value="Techmarine" />
