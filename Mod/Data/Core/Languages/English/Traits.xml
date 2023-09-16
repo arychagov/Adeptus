@@ -287,6 +287,10 @@
     <entry name="ShatteredDefences" value="Shattered Defences" />
     <entry name="ShatteredDefencesDescription" value="Removes the ranged damage reduction of the target tile." />
 
+    <entry name="SacredGround" value="Sacred Ground"/>
+    <entry name="SacredGroundDescription" value="Applies damage over time debuff to the enemy."/>
+    <entry name="SacredGroundFlavor" value="Reclaim the Emperor’s dominion and consecrate it once more."/>
+
     <entry name="SistersOfBattle/BeaconOfFaithAlly" value="Beacon of Faith" />
     <entry name="SistersOfBattle/BeaconOfFaithAllyDescription" value="Restore the morale each turn." />
     <entry name="SistersOfBattle/BeaconOfFaithAllyFlavor" value="“The Khornate warriors threatened to overwhelm us, we were cut and rent and thrown aside… even the Canoness fell… and then She intervened. As She descended, a shining beacon, our wounds closed, our spirits rallied and we drove back the heretics with newfound devotion…”<br/>  — Unknown remembrancer, Gospel of the Webway" />

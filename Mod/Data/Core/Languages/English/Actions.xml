@@ -163,6 +163,12 @@
     <entry name="SistersOfBattle/HolyFireDescription" value="Imbues target allied infantry attacks with holy fire that applies damage over time debuff to the attacked enemy." />
     <entry name="SistersOfBattle/HolyFireFlavor" value="Fed by auxiliary fuel lines, this transport’s braziers are made to flare with holy fire, tinged with sacred unguents and rare resins" />
     <entry name="SistersOfBattle/LightOfTheEmperorDescription" value="Increases the accuracy and decreases opponent's ranged accuracy.<br/><br/><string name='Actions/SistersOfBattle/ActOfFaithDescription'/>"/>
+    <entry name="SistersOfBattle/SacredGroundFirst" value="Create Sacred Ground" />
+    <entry name="SistersOfBattle/SacredGroundFirstDescription" value="Creates temporary feature on the target tile that applies damage over time debuff to the enemy and ends the movement." />
+    <entry name="SistersOfBattle/SacredGroundFirstFlavor" value="Reclaim the Emperor’s dominion and consecrate it once more."/>
+    <entry name="SistersOfBattle/SacredGroundSecond" value="Create Sacred Ground" />
+    <entry name="SistersOfBattle/SacredGroundSecondDescription" value="Creates temporary feature on the target tile that applies damage over time debuff to the enemy and ends the movement." />
+    <entry name="SistersOfBattle/SacredGroundSecondFlavor" value="Reclaim the Emperor’s dominion and consecrate it once more."/>
     <entry name="SistersOfBattle/Sacrifice" value="Sacrifice" />
     <entry name="SistersOfBattle/SacrificeDescription" value="Sacrifices this unit in order to completely heal the target unit, restore morale of adjacent allied units, and break morale of adjacent enemy units." />
     <entry name="SistersOfBattle/SacrificeFlavor" value="Suffering is a staple prayer for the Adepta Sororitas, and a martyr’s fate only brings greater glory to the God-Emperor." />

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Actions/SistersOfBattle/SacredGround">
+    <perTurnModifiers endure="0">
+        <modifier>
+            <conditions>
+                <unit>
+                    <enemy />
+                    <noTrait name="Flyer" />
+                    <noTrait name="JetPack" />
+                    <noTrait name="Jetbike" />
+                    <noTrait name="Skimmer" />
+                </unit>
+            </conditions>
+            <effects>
+                <addTrait name="SistersOfBattle/HolyFireEnemy" duration="2" />
+            </effects>
+        </modifier>
+    </perTurnModifiers>
+</trait>

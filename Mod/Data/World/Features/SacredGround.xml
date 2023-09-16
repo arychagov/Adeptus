@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feature category="None" icon="Actions/SistersOfBattle/SacredGround">
+    <modifiers>
+        <modifier>
+            <conditions>
+                <unit>
+                    <noTrait name="Flyer" />
+                    <noTrait name="JetPack" />
+                    <noTrait name="Jetbike" />
+                    <noTrait name="Skimmer" />
+                </unit>
+            </conditions>
+            <effects>
+                <movementCost min="100" />
+            </effects>
+        </modifier>
+    </modifiers>
+    <traits>
+        <trait name="SacredGround" />
+    </traits>
+    <model>
+        <necronTomb blueprint="Features/NecronTombGlow" effectBlueprint="Effects/SacredGroundGlow" />
+    </model>
+</feature>

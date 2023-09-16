@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<boxEmitter emissionVolumeMin="-20 -20 -20"
+		emissionVolumeMax="20 20 20"
+		flowDirection="1 0 0"
+		particleSizeSquared="0"
+		particleLifeTimeMin="2"
+		particleLifeTimeMax="4"
+		particleSizeMin="15 15"
+		particleSizeMax="30 30"
+		particleVelocityMin="3"
+		particleVelocityMax="6"
+		spawns="1"
+		interval="1"/>
