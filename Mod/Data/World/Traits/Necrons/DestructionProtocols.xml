@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <rangedAccuracy addMax="2.0" addMin="1.0" />
+                <rangedAccuracy addMax="1.5" addMin="0.5" />
             </effects>
         </modifier>
     </modifiers>
