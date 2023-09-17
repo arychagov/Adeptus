@@ -7,6 +7,10 @@
             <conditions>
                 <unit>
                     <enemy/>
+                    <noTrait name="Vehicle"/>
+                    <noTrait name="MonstrousCreature"/>
+                    <noTrait name="Fortification"/>
+                    <noTrait name="Hero"/>
                 </unit>
             </conditions>
             <effects>

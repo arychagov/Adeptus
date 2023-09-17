@@ -271,8 +271,7 @@
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/MedicusMinistorum"
-                                                  duration="1"/>
+                                        <addTrait name="SistersOfBattle/MedicusMinistorum"/>
                                     </effects>
                                 </modifier>
                             </modifiers>

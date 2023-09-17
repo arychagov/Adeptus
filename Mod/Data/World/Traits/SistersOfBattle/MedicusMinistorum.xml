@@ -7,7 +7,6 @@
                     <allied/>
                     <noTrait name="Vehicle"/>
                     <faction name="SistersOfBattle"/>
-
                 </unit>
             </conditions>
             <effects>

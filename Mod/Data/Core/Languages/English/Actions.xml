@@ -287,7 +287,7 @@
     <entry name="SistersOfBattle/BlindingRadiance"
            value="Blinding Radiance"/>
     <entry name="SistersOfBattle/BlindingRadianceDescription"
-           value="Decreases the accuracy of nearby enemies and increases Canoness' armour."/>
+           value="Decreases the accuracy of nearby enemy infantry units and increases Canoness' armour."/>
     <entry name="SistersOfBattle/BlindingRadianceFlavor"
            value="The Emperor’s own divinity is made manifest from this warrior’s golden halo, blinding the enemy with holy light."/>
     <entry name="SistersOfBattle/CatechismOfRepugnanceDescription"

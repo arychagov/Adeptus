@@ -16,6 +16,11 @@
                               radius="3">
                             <modifiers>
                                 <modifier>
+                                    <conditions>
+                                        <unit>
+                                            <allied/>
+                                        </unit>
+                                    </conditions>
                                     <effects>
                                         <morale add="3"/>
                                     </effects>

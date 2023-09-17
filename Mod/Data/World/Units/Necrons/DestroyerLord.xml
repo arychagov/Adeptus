@@ -242,10 +242,13 @@
             </beginTargets>
         </bloodyCrusade>
         <destructionProtocols name="Necrons/DestructionProtocols"
+                              consumedActionPoints="0"
+                              consumedMovement="0"
+                              cooldown="5"
                               levelUpPriority="0.1"
-                              passive="1"
                               rank="-1"
-                              rankMax="2">
+                              rankMax="2"
+                              requiredActionPoints="0">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -253,7 +256,9 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Necrons/DestructionProtocols"/>
+                                        <addTrait name="Necrons/DestructionProtocols"
+                                                  durationMax="3"
+                                                  durationMin="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>

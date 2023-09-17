@@ -9,7 +9,7 @@
         <modifier requiredUpgrade="SistersOfBattle/CityTier3"
                   visible="1">
             <effects>
-                <moraleLossFactor add="-0.17"/>
+                <moraleLossFactor add="-0.25"/>
             </effects>
         </modifier>
     </modifiers>
