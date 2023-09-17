@@ -4,12 +4,12 @@
         <modifier>
             <conditions>
                 <unit>
-                    <allied />
-                    <trait name="Hero" />
+                    <allied/>
+                    <trait name="Hero"/>
                 </unit>
             </conditions>
             <effects>
-                <feelNoPainDamageReduction add="0.17" />
+                <feelNoPainDamageReduction add="0.17"/>
             </effects>
         </modifier>
     </modifiers>

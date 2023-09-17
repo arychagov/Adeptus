@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Traits/ExtraInfantryArmour">
+<trait category="Buff"
+       icon="Traits/ExtraInfantryArmour">
     <modifiers>
         <modifier>
             <effects>
-                <actionPointsMax add="1" />
+                <actionPointsMax add="1"/>
             </effects>
         </modifier>
         <modifier visible="0">
             <effects>
-                <rangedDamage add="-999" />
+                <rangedDamage add="-999"/>
             </effects>
         </modifier>
         <modifier visible="0">
             <conditions>
                 <unit>
-                    <overwatching />
+                    <overwatching/>
                 </unit>
             </conditions>
             <effects>
-                <rangedDamage add="999" />
+                <rangedDamage add="999"/>
             </effects>
         </modifier>
     </modifiers>

@@ -3,8 +3,9 @@
     <modifiers>
         <modifier>
             <effects>
-                <rangedAccuracy max="12" min="12" /> <!-- Beams don't roll to hit. -->
-                <additionalMembersHit add="5" />
+                <rangedAccuracy max="12"
+                                min="12"/> <!-- Beams don't roll to hit. -->
+                <additionalMembersHit add="5"/>
             </effects>
         </modifier>
     </modifiers>

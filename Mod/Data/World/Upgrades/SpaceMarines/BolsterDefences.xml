@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Actions/BolsterDefences" position="8" visible="0">
+<upgrade icon="Actions/BolsterDefences"
+         position="8"
+         visible="0">
     <requiredUpgrades>
-        <upgrade name="SpaceMarines/ThunderfireCannon" />
+        <upgrade name="SpaceMarines/ThunderfireCannon"/>
     </requiredUpgrades>
 </upgrade>

@@ -4,12 +4,12 @@
         <modifier>
             <conditions>
                 <unit>
-                    <noTrait name="Flyer" />
-                    <trait name="Orks/GreenTideHealing" />
+                    <noTrait name="Flyer"/>
+                    <trait name="Orks/GreenTideHealing"/>
                 </unit>
             </conditions>
             <effects>
-                <hitpoints add="2" />
+                <hitpoints add="2"/>
             </effects>
         </modifier>
     </perTurnModifiers>

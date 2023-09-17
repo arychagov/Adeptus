@@ -1,466 +1,907 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-    <entry name="AdeptusMechanicus/AggressorImperativeDescription" value="Increases the movement, but decreases the armour." />
-    <entry name="AdeptusMechanicus/CommandUplinkDescription" value="The unit cannot be shaken or broken." />
-    <entry name="AdeptusMechanicus/Prosperity" value="Prosperity" />
-    <entry name="AdeptusMechanicus/ProsperityDescription" value="Increases city growth" />
-    <entry name="AdeptusMechanicus/ProtectorImperativeDescription" value="Increases the ranged accuracy, but decreases the armour." />
-    <entry name="AdeptusMechanicus/BlessedArms" value="Blessed Arms" />
-    <entry name="AdeptusMechanicus/BlessedArmsDescription" value="Temporary decreases the armour of target." />
-    <entry name="AdeptusMechanicus/BlessedArmsFlavor" value="This household reverently maintains the masterwork weapons of former ages, their power undimmed." />
-    <entry name="AdeptusMechanicus/BlessedArmsDebuff" value="Blessed Arms" />
-    <entry name="AdeptusMechanicus/BlessedArmsDebuffDescription" value="Decreases the armour." />
-    <entry name="AdeptusMechanicus/BlessedArmsDebuffFlavor" value="This household reverently maintains the masterwork weapons of former ages, their power undimmed." />
-    <entry name="AdeptusMechanicus/SiphonVigourDescription" value="Increases the invulnerable damage reduction." />
-    <entry name="AdeptusMechanicus/GalvanicFieldDescription" value="Increases the armour penetration and accuracy." />
-    <entry name="AdeptusMechanicus/TechAdept" value="Tech-Adept" /> <!-- Tech-Priest Manipulus ability -->
-    <entry name="AdeptusMechanicus/TechAdeptDescription" value="Increases healing rate." />
-    <entry name="AdeptusMechanicus/TechAdeptFlavor" value="Repairing war engines damaged in the crusade is a holy task." />
-    <entry name="AdeptusMechanicus/MasterOfMachines" value="Master of Machines" />
-    <entry name="AdeptusMechanicus/MasterOfMachinesDescription" value="Increases the armour." />
-    <entry name="AdeptusMechanicus/MasterOfMachinesFlavor" value="“Our enemies may rest but rust never sleeps.”<br/>—Tech-Priest Jung, Forge World Gehenna" />
-    <entry name="AdeptusMechanicus/ReprogramKastelanRobot" value="Reprogrammed Kastelan Robot" />
-    <entry name="AdeptusMechanicus/ReprogramKastelanRobotDescription" value="Increases Repulsor Grid effect and hit points." />
-    <entry name="AdeptusMechanicus/ReprogramKastelanRobotFlavor" value="Since the aftermath of Warmaster Horus’ rebellion the Legio Cybernetica’s robots have been controlled completely by their masters – not by the bio-plastic cerebra and nerve-like tendril webs of Mechanicum constructs, but by sanctified doctrina wafers. No bigger than the cards of the Emperor’s Tarot, these slivers of wetware are entrusted to the Cybernetica Datasmiths that accompany the robot maniples to war. Inserted into the dataslot hidden behind each robot’s chestplate, the wafer’s command protocol will dictate every iota of the host’s behaviour, usually optimising its ability to destroy its foes in a spectacular fashion." />
-    <entry name="AdeptusMechanicus/DataBlessedAutosermonDescription" value="Kastelan Robot does not suffer accuracy loss on hit points loss, increases accuracy. Increases attacks of Fulgurite Electro Priests." />
+    <entry name="AdeptusMechanicus/AggressorImperativeDescription"
+           value="Increases the movement, but decreases the armour."/>
+    <entry name="AdeptusMechanicus/CommandUplinkDescription"
+           value="The unit cannot be shaken or broken."/>
+    <entry name="AdeptusMechanicus/Prosperity"
+           value="Prosperity"/>
+    <entry name="AdeptusMechanicus/ProsperityDescription"
+           value="Increases city growth"/>
+    <entry name="AdeptusMechanicus/ProtectorImperativeDescription"
+           value="Increases the ranged accuracy, but decreases the armour."/>
+    <entry name="AdeptusMechanicus/BlessedArms"
+           value="Blessed Arms"/>
+    <entry name="AdeptusMechanicus/BlessedArmsDescription"
+           value="Temporary decreases the armour of target."/>
+    <entry name="AdeptusMechanicus/BlessedArmsFlavor"
+           value="This household reverently maintains the masterwork weapons of former ages, their power undimmed."/>
+    <entry name="AdeptusMechanicus/BlessedArmsDebuff"
+           value="Blessed Arms"/>
+    <entry name="AdeptusMechanicus/BlessedArmsDebuffDescription"
+           value="Decreases the armour."/>
+    <entry name="AdeptusMechanicus/BlessedArmsDebuffFlavor"
+           value="This household reverently maintains the masterwork weapons of former ages, their power undimmed."/>
+    <entry name="AdeptusMechanicus/SiphonVigourDescription"
+           value="Increases the invulnerable damage reduction."/>
+    <entry name="AdeptusMechanicus/GalvanicFieldDescription"
+           value="Increases the armour penetration and accuracy."/>
+    <entry name="AdeptusMechanicus/TechAdept"
+           value="Tech-Adept"/> <!-- Tech-Priest Manipulus ability -->
+    <entry name="AdeptusMechanicus/TechAdeptDescription"
+           value="Increases healing rate."/>
+    <entry name="AdeptusMechanicus/TechAdeptFlavor"
+           value="Repairing war engines damaged in the crusade is a holy task."/>
+    <entry name="AdeptusMechanicus/MasterOfMachines"
+           value="Master of Machines"/>
+    <entry name="AdeptusMechanicus/MasterOfMachinesDescription"
+           value="Increases the armour."/>
+    <entry name="AdeptusMechanicus/MasterOfMachinesFlavor"
+           value="“Our enemies may rest but rust never sleeps.”<br/>—Tech-Priest Jung, Forge World Gehenna"/>
+    <entry name="AdeptusMechanicus/ReprogramKastelanRobot"
+           value="Reprogrammed Kastelan Robot"/>
+    <entry name="AdeptusMechanicus/ReprogramKastelanRobotDescription"
+           value="Increases Repulsor Grid effect and hit points."/>
+    <entry name="AdeptusMechanicus/ReprogramKastelanRobotFlavor"
+           value="Since the aftermath of Warmaster Horus’ rebellion the Legio Cybernetica’s robots have been controlled completely by their masters – not by the bio-plastic cerebra and nerve-like tendril webs of Mechanicum constructs, but by sanctified doctrina wafers. No bigger than the cards of the Emperor’s Tarot, these slivers of wetware are entrusted to the Cybernetica Datasmiths that accompany the robot maniples to war. Inserted into the dataslot hidden behind each robot’s chestplate, the wafer’s command protocol will dictate every iota of the host’s behaviour, usually optimising its ability to destroy its foes in a spectacular fashion."/>
+    <entry name="AdeptusMechanicus/DataBlessedAutosermonDescription"
+           value="Kastelan Robot does not suffer accuracy loss on hit points loss, increases accuracy. Increases attacks of Fulgurite Electro Priests."/>
 
-    <entry name="Artefacts/LoyaltyDescription" value="Increases the loyalty. Space Marines get extra loyalty." />
+    <entry name="Artefacts/LoyaltyDescription"
+           value="Increases the loyalty. Space Marines get extra loyalty."/>
 
-    <entry name="AstraMilitarum/AdditionalFlamer" value="Installed Flamer" />
-    <entry name="AstraMilitarum/AdditionalFlamerDescription" value="Grants additional flamer." />
-    <entry name="AstraMilitarum/AdditionalMeltagun" value="Installed Meltagun" />
-    <entry name="AstraMilitarum/AdditionalMeltagunDescription" value="Grants additional meltagun." />
-    <entry name="AstraMilitarum/AdditionalHeavyBolters" value="Installed Heavy Bolters" />
-    <entry name="AstraMilitarum/AdditionalHeavyBoltersDescription" value="Grants additional heavy bolters." />
-    <entry name="AstraMilitarum/BoltDamage" value="The Emperor's Benediction" />
-    <entry name="AstraMilitarum/BoltDamageDescription" value="Increases the armour penetration." />
-    <entry name="AstraMilitarum/BoltDamageFlavor" value="An Astartes-derived upgrade to the standard bolter, this kit allows a bolter to fire Kraken penetrator rounds, hard-tipped projectiles with a heavier explosive charge. These heavier rounds are much favoured by the Space Marine Deathwatch alien hunters." />
-    <entry name="AstraMilitarum/ChadLascannon" value="Upgraded Lascannon" />
-    <entry name="AstraMilitarum/ChadLascannonDescription" value="Improves the damage and the accuracy of lascannon." />
-    <entry name="AstraMilitarum/ChadOppressorCannon" value="Upgraded Oppressor Cannon" />
-    <entry name="AstraMilitarum/ChadOppressorCannonDescription" value="Improves the damage and the accuracy of oppressor cannon." />
-    <entry name="AstraMilitarum/CommitEverythingGuardsman" value="Commit Everything" />
-    <entry name="AstraMilitarum/CommitEverythingGuardsmanDescription" value="Increases group size." />
-    <entry name="AstraMilitarum/CommitEverythingGuardsmanFlavor" value="The campaign’s senior commander has designated the upcoming battle as so vital that they will funnel all of their resources and assets into securing victory, forgoing frugal logistical management in favour of overwhelming force." />
-    <entry name="AstraMilitarum/CommitEverythingTempestusScion" value="Commit Everything" />
-    <entry name="AstraMilitarum/CommitEverythingTempestusScionDescription" value="Increases group size." />
-    <entry name="AstraMilitarum/CommitEverythingTempestusScionFlavor" value="The campaign’s senior commander has designated the upcoming battle as so vital that they will funnel all of their resources and assets into securing victory, forgoing frugal logistical management in favour of overwhelming force." />
-    <entry name="AstraMilitarum/ImperialStrongpointDamageReduction1" value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction1'/>" />
-    <entry name="AstraMilitarum/ImperialStrongpointDamageReduction1Description" value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction1Description'/>" />
-    <entry name="AstraMilitarum/ImperialStrongpointDamageReduction1Flavor" value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction1Flavor'/>" />
-    <entry name="AstraMilitarum/ImperialStrongpointDamageReduction2" value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction2'/>" />
-    <entry name="AstraMilitarum/ImperialStrongpointDamageReduction2Description" value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction2Description'/>" />
-    <entry name="AstraMilitarum/ImperialStrongpointDamageReduction2Flavor" value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction2Flavor'/>" />
-    <entry name="AstraMilitarum/ImperialStrongpointDamageReduction3" value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction2'/>" />
-    <entry name="AstraMilitarum/ImperialStrongpointDamageReduction3Description" value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction2Description'/>" />
-    <entry name="AstraMilitarum/ImperialStrongpointDamageReduction3Flavor" value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction2Flavor'/>" />
-    <entry name="AstraMilitarum/ImperiumOfMan" value="Imperium of Man" />
-    <entry name="AstraMilitarum/ImperiumOfManDescription" value="Treats shooting with rapid fire weapons as if in half range." />
-    <entry name="AstraMilitarum/ImperiumOfManFlavor" value="”The martyr's grave is the keystone of the Imperium.”<br/> — The Liber Imperialis" />
-    <entry name="AstraMilitarum/InstalledVoidShield" value="Void Shield" />
-    <entry name="AstraMilitarum/InstalledVoidShieldDescription" value="Grants the ranged damage reduction from attacks from range 2 or higher to nearby allied infantry units and vehicles." />
-    <entry name="AstraMilitarum/InstalledVoidShieldFlavor" value="Void shields are normally localised force fields reserved for protecting the monolithic Titans of the Adeptus Mechanicus, but static generators can be erected to serve as an aegis for other targets of vital import. The largest Void Shield generators can even project an invisible bubble of power across a large area of the battlefield, sheltering both troops and strategically vital battlefield locations by absorbing or deflecting the energy of incoming munitions." />
-    <entry name="AstraMilitarum/PowerOfTheMachineSpirit" value="<string name='Actions/PowerOfTheMachineSpirit'/>" />
-    <entry name="AstraMilitarum/PowerOfTheMachineSpiritDescription" value="<string name='Actions/PowerOfTheMachineSpiritDescription'/>" />
-    <entry name="AstraMilitarum/PowerOfTheMachineSpiritFlavor" value="<string name='Actions/PowerOfTheMachineSpiritFlavor'/>" />
-    <entry name="AstraMilitarum/Prosperity" value="Prosperity" />
-    <entry name="AstraMilitarum/ProsperityDescription" value="Increases city growth" />
-    <entry name="AstraMilitarum/UpgradedLascannon" value="Upgraded Lascannon" />
-    <entry name="AstraMilitarum/UpgradedLascannonDescription" value="Improves the accuracy and the damage of lascannon." />
-    <entry name="AstraMilitarum/UpgradedOppressorCannon" value="Upgraded Oppressor Cannon" />
-    <entry name="AstraMilitarum/UpgradedOppressorCannonDescription" value="Improves the accuracy and the damage of oppressor cannon." />
-    <entry name="AstraMilitarum/VoidShield" value="Void Shield" />
-    <entry name="AstraMilitarum/VoidShieldDescription" value="Increases ranged damage reduction from attacks from range 2 or higher." />
-    <entry name="AstraMilitarum/VoidShieldFlavor" value="Void shields are normally localised force fields reserved for protecting the monolithic Titans of the Adeptus Mechanicus, but static generators can be erected to serve as an aegis for other targets of vital import. The largest Void Shield generators can even project an invisible bubble of power across a large area of the battlefield, sheltering both troops and strategically vital battlefield locations by absorbing or deflecting the energy of incoming munitions." />
-    <entry name="AstraMilitarum/WallOfMuscle" value="Wall Of Muscle" />
-    <entry name="AstraMilitarum/WallOfMuscleDescription" value="Reduces the ranged attacks of an opponent." />
-    <entry name="AstraMilitarum/WallOfMuscleFlavor" value="“Brute force not work? It because you not use enough of it!“<br/>—Karg, Ogryn Bone'ead" />
+    <entry name="AstraMilitarum/AdditionalFlamer"
+           value="Installed Flamer"/>
+    <entry name="AstraMilitarum/AdditionalFlamerDescription"
+           value="Grants additional flamer."/>
+    <entry name="AstraMilitarum/AdditionalMeltagun"
+           value="Installed Meltagun"/>
+    <entry name="AstraMilitarum/AdditionalMeltagunDescription"
+           value="Grants additional meltagun."/>
+    <entry name="AstraMilitarum/AdditionalHeavyBolters"
+           value="Installed Heavy Bolters"/>
+    <entry name="AstraMilitarum/AdditionalHeavyBoltersDescription"
+           value="Grants additional heavy bolters."/>
+    <entry name="AstraMilitarum/BoltDamage"
+           value="The Emperor's Benediction"/>
+    <entry name="AstraMilitarum/BoltDamageDescription"
+           value="Increases the armour penetration."/>
+    <entry name="AstraMilitarum/BoltDamageFlavor"
+           value="An Astartes-derived upgrade to the standard bolter, this kit allows a bolter to fire Kraken penetrator rounds, hard-tipped projectiles with a heavier explosive charge. These heavier rounds are much favoured by the Space Marine Deathwatch alien hunters."/>
+    <entry name="AstraMilitarum/ChadLascannon"
+           value="Upgraded Lascannon"/>
+    <entry name="AstraMilitarum/ChadLascannonDescription"
+           value="Improves the damage and the accuracy of lascannon."/>
+    <entry name="AstraMilitarum/ChadOppressorCannon"
+           value="Upgraded Oppressor Cannon"/>
+    <entry name="AstraMilitarum/ChadOppressorCannonDescription"
+           value="Improves the damage and the accuracy of oppressor cannon."/>
+    <entry name="AstraMilitarum/CommitEverythingGuardsman"
+           value="Commit Everything"/>
+    <entry name="AstraMilitarum/CommitEverythingGuardsmanDescription"
+           value="Increases group size."/>
+    <entry name="AstraMilitarum/CommitEverythingGuardsmanFlavor"
+           value="The campaign’s senior commander has designated the upcoming battle as so vital that they will funnel all of their resources and assets into securing victory, forgoing frugal logistical management in favour of overwhelming force."/>
+    <entry name="AstraMilitarum/CommitEverythingTempestusScion"
+           value="Commit Everything"/>
+    <entry name="AstraMilitarum/CommitEverythingTempestusScionDescription"
+           value="Increases group size."/>
+    <entry name="AstraMilitarum/CommitEverythingTempestusScionFlavor"
+           value="The campaign’s senior commander has designated the upcoming battle as so vital that they will funnel all of their resources and assets into securing victory, forgoing frugal logistical management in favour of overwhelming force."/>
+    <entry name="AstraMilitarum/ImperialStrongpointDamageReduction1"
+           value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction1'/>"/>
+    <entry name="AstraMilitarum/ImperialStrongpointDamageReduction1Description"
+           value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction1Description'/>"/>
+    <entry name="AstraMilitarum/ImperialStrongpointDamageReduction1Flavor"
+           value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction1Flavor'/>"/>
+    <entry name="AstraMilitarum/ImperialStrongpointDamageReduction2"
+           value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction2'/>"/>
+    <entry name="AstraMilitarum/ImperialStrongpointDamageReduction2Description"
+           value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction2Description'/>"/>
+    <entry name="AstraMilitarum/ImperialStrongpointDamageReduction2Flavor"
+           value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction2Flavor'/>"/>
+    <entry name="AstraMilitarum/ImperialStrongpointDamageReduction3"
+           value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction2'/>"/>
+    <entry name="AstraMilitarum/ImperialStrongpointDamageReduction3Description"
+           value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction2Description'/>"/>
+    <entry name="AstraMilitarum/ImperialStrongpointDamageReduction3Flavor"
+           value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction2Flavor'/>"/>
+    <entry name="AstraMilitarum/ImperiumOfMan"
+           value="Imperium of Man"/>
+    <entry name="AstraMilitarum/ImperiumOfManDescription"
+           value="Treats shooting with rapid fire weapons as if in half range."/>
+    <entry name="AstraMilitarum/ImperiumOfManFlavor"
+           value="”The martyr's grave is the keystone of the Imperium.”<br/> — The Liber Imperialis"/>
+    <entry name="AstraMilitarum/InstalledVoidShield"
+           value="Void Shield"/>
+    <entry name="AstraMilitarum/InstalledVoidShieldDescription"
+           value="Grants the ranged damage reduction from attacks from range 2 or higher to nearby allied infantry units and vehicles."/>
+    <entry name="AstraMilitarum/InstalledVoidShieldFlavor"
+           value="Void shields are normally localised force fields reserved for protecting the monolithic Titans of the Adeptus Mechanicus, but static generators can be erected to serve as an aegis for other targets of vital import. The largest Void Shield generators can even project an invisible bubble of power across a large area of the battlefield, sheltering both troops and strategically vital battlefield locations by absorbing or deflecting the energy of incoming munitions."/>
+    <entry name="AstraMilitarum/PowerOfTheMachineSpirit"
+           value="<string name='Actions/PowerOfTheMachineSpirit'/>"/>
+    <entry name="AstraMilitarum/PowerOfTheMachineSpiritDescription"
+           value="<string name='Actions/PowerOfTheMachineSpiritDescription'/>"/>
+    <entry name="AstraMilitarum/PowerOfTheMachineSpiritFlavor"
+           value="<string name='Actions/PowerOfTheMachineSpiritFlavor'/>"/>
+    <entry name="AstraMilitarum/Prosperity"
+           value="Prosperity"/>
+    <entry name="AstraMilitarum/ProsperityDescription"
+           value="Increases city growth"/>
+    <entry name="AstraMilitarum/UpgradedLascannon"
+           value="Upgraded Lascannon"/>
+    <entry name="AstraMilitarum/UpgradedLascannonDescription"
+           value="Improves the accuracy and the damage of lascannon."/>
+    <entry name="AstraMilitarum/UpgradedOppressorCannon"
+           value="Upgraded Oppressor Cannon"/>
+    <entry name="AstraMilitarum/UpgradedOppressorCannonDescription"
+           value="Improves the accuracy and the damage of oppressor cannon."/>
+    <entry name="AstraMilitarum/VoidShield"
+           value="Void Shield"/>
+    <entry name="AstraMilitarum/VoidShieldDescription"
+           value="Increases ranged damage reduction from attacks from range 2 or higher."/>
+    <entry name="AstraMilitarum/VoidShieldFlavor"
+           value="Void shields are normally localised force fields reserved for protecting the monolithic Titans of the Adeptus Mechanicus, but static generators can be erected to serve as an aegis for other targets of vital import. The largest Void Shield generators can even project an invisible bubble of power across a large area of the battlefield, sheltering both troops and strategically vital battlefield locations by absorbing or deflecting the energy of incoming munitions."/>
+    <entry name="AstraMilitarum/WallOfMuscle"
+           value="Wall Of Muscle"/>
+    <entry name="AstraMilitarum/WallOfMuscleDescription"
+           value="Reduces the ranged attacks of an opponent."/>
+    <entry name="AstraMilitarum/WallOfMuscleFlavor"
+           value="“Brute force not work? It because you not use enough of it!“<br/>—Karg, Ogryn Bone'ead"/>
 
-    <entry name="BrokenDescription" value="Reduces the accuracy." />
-    <entry name="Blurry" value="Blurry" />
-    <entry name="BlurryDescription" value="Decreases opponent's ranged accuracy." />
-    <entry name="BulkyVulky" value="Bulky Vulky" />
-    <entry name="BulkyVulkyDescription" value="Requires six additional cargo slots in a transport (basically cannot embark any transport)." />
-    <entry name="BulkyVulkyFlavor" value="<string name='Traits/BulkyFlavor'/>" />
+    <entry name="BrokenDescription"
+           value="Reduces the accuracy."/>
+    <entry name="Blurry"
+           value="Blurry"/>
+    <entry name="BlurryDescription"
+           value="Decreases opponent's ranged accuracy."/>
+    <entry name="BulkyVulky"
+           value="Bulky Vulky"/>
+    <entry name="BulkyVulkyDescription"
+           value="Requires six additional cargo slots in a transport (basically cannot embark any transport)."/>
+    <entry name="BulkyVulkyFlavor"
+           value="<string name='Traits/BulkyFlavor'/>"/>
 
-    <entry name="ChaosSpaceMarines/BloatedWithLifesteal" value="Bloated" />
-    <entry name="ChaosSpaceMarines/BloatedWithLifestealDescription" value="Restores hitpoints on hit." />
-    <entry name="ChaosSpaceMarines/BloatedWithLifestealFlavor" value="Though Nurgle’s cursed diseases rot a man both physically and spiritually, they also imbue their subjects decaying flesh with inhuman resilience. To such bloated forms, spreading their pox can often bring with it minor blessings from the plague God." />
-    <entry name="ChaosSpaceMarines/DeathEcstasy" value="<string name='Actions/ChaosSpaceMarines/DeathEcstasy'/>" />
-    <entry name="ChaosSpaceMarines/DeathEcstasyDescription" value="Increases damage output." />
-    <entry name="ChaosSpaceMarines/DeathEcstasyFlavor" value="<string name='Actions/ChaosSpaceMarines/DeathEcstasyFlavor'/>" />
-    <entry name="ChaosSpaceMarines/IconOfDespairDescription" value="Increases the melee damage reduction." />
-    <entry name="ChaosSpaceMarines/KhorneCorruption" value="Khorne Corruption" />
-    <entry name="ChaosSpaceMarines/KhorneCorruptionDescription" value="Increases damage and attacks." />
-    <entry name="ChaosSpaceMarines/KhorneCorruptionFlavor" value="The infernal armouries of Khorne’s daemon legions overflow with macabre artefacts of unbridled slaughter." />
-    <entry name="ChaosSpaceMarines/LordOfChaos" value="<string name='Actions/ChaosSpaceMarines/LordOfChaos'/>" />
-    <entry name="ChaosSpaceMarines/LordOfChaosDescription" value="Increases the damage reduction and melee attacks." />
-    <entry name="ChaosSpaceMarines/LordOfChaosFlavor" value="<string name='Actions/ChaosSpaceMarines/LordOfChaosFlavor'/>" />
-    <entry name="ChaosSpaceMarines/NurgleCorruption" value="Nurgle Corruption" />
-    <entry name="ChaosSpaceMarines/NurgleCorruptionDescription" value="Reduces armour." />
-    <entry name="ChaosSpaceMarines/NurgleCorruptionFlavor" value="From the germ of an idea may grow the most perfect plagues." />
-    <entry name="ChaosSpaceMarines/Prosperity" value="Prosperity" />
-    <entry name="ChaosSpaceMarines/ProsperityDescription" value="Increases city growth" />
-    <entry name="ChaosSpaceMarines/ShatterDefencesDescription" value="Reduces armour and movement." />
-    <entry name="ChaosSpaceMarines/SlaaneshCorruption" value="Slaanesh Corruption" />
-    <entry name="ChaosSpaceMarines/SlaaneshCorruptionDescription" value="Grants Daemon Prince flying ability, increases the movement, the accuracy and the invulnerable damage reduction." />
-    <entry name="ChaosSpaceMarines/SlaaneshCorruptionFlavor" value="The greatest of Slaanesh’s daemons move with an idealised grace and agility rendered hideous by its sheer precision and impossibility." />
-    <entry name="ChaosSpaceMarines/TzeentchCorruption" value="Tzeentch Corruption" />
-    <entry name="ChaosSpaceMarines/TzeentchCorruptionDescription" value="Gains research when the Daemon Prince gains experience from combat." />
-    <entry name="ChaosSpaceMarines/TzeentchCorruptionFlavor" value="Arcane knowledge and mystical power have ever been the domain of Tzeentch and his minions." />
-    <entry name="ChaosSpaceMarines/IconOfVengeance" value="Icon of Vengeance" />
-    <entry name="ChaosSpaceMarines/IconOfVengeanceDescription" value="Returns damage back to the attacker." />
-    <entry name="ChaosSpaceMarines/IconOfVengeanceFlavor" value="These icons shine brightly in the Warp, gathering the malefic energies of Chaos to those who bear them and spurring them on to acts of suicidal brabery in their quest to seize victory from the minions of the Corpse-god." />
-    <entry name="ChaosSpaceMarines/StimulatedByPain" value="Stimulated By Pain" />
-    <entry name="ChaosSpaceMarines/StimulatedByPainDescription" value="Increases armour, hit points and Bloated healing rate of heroes." />
-    <entry name="ChaosSpaceMarines/StimulatedByPainFlavor" value="The warlords of the Emperor’s Children thrive on pain. The more grievous their injuries, the deadlier they become." />
-    <entry name="ChaosSpaceMarines/BlessedChampion" value="Blessed Champion" />
-    <entry name="ChaosSpaceMarines/BlessedChampionDescription" value="Immediately comes back to life after dying." />
-    <entry name="ChaosSpaceMarines/BlessedChampionFlavor" value="While many warbands of Heretic Astartes have grown to rival entire Chapters of loyalist Space Marines in size, most began as a core of ruthless followers led by their powerful champion. Such individuals draw more and more warriors to their service as their influence expands, their dread reputation for destruction becoming more storied as their warband grows in notoriety and power." />
-    <entry name="ChaosSpaceMarines/SmokeLauncher" value="Smoke Launcher" />
-    <entry name="ChaosSpaceMarines/SmokeLauncherDescription" value="Increases regeneration." />
-    <entry name="ChaosSpaceMarines/Defiler" value="Defiler" />
-    <entry name="ChaosSpaceMarines/DefilerDescription" value="Takes damage over time." />
-    <entry name="ChaosSpaceMarines/EnrageMachineSpirits" value="Enrage Machine Spirits" />
-    <entry name="ChaosSpaceMarines/EnrageMachineSpiritsDescription" value="Increases the accuracy." />
-    <entry name="ChaosSpaceMarines/EnrageMachineSpiritsFlavor" value="No armour is safe from the guns of the IV Legion, and once an enemy war engine is marked for destruction, its doomed is sealed." />
+    <entry name="ChaosSpaceMarines/BloatedWithLifesteal"
+           value="Bloated"/>
+    <entry name="ChaosSpaceMarines/BloatedWithLifestealDescription"
+           value="Restores hitpoints on hit."/>
+    <entry name="ChaosSpaceMarines/BloatedWithLifestealFlavor"
+           value="Though Nurgle’s cursed diseases rot a man both physically and spiritually, they also imbue their subjects decaying flesh with inhuman resilience. To such bloated forms, spreading their pox can often bring with it minor blessings from the plague God."/>
+    <entry name="ChaosSpaceMarines/DeathEcstasy"
+           value="<string name='Actions/ChaosSpaceMarines/DeathEcstasy'/>"/>
+    <entry name="ChaosSpaceMarines/DeathEcstasyDescription"
+           value="Increases damage output."/>
+    <entry name="ChaosSpaceMarines/DeathEcstasyFlavor"
+           value="<string name='Actions/ChaosSpaceMarines/DeathEcstasyFlavor'/>"/>
+    <entry name="ChaosSpaceMarines/IconOfDespairDescription"
+           value="Increases the melee damage reduction."/>
+    <entry name="ChaosSpaceMarines/KhorneCorruption"
+           value="Khorne Corruption"/>
+    <entry name="ChaosSpaceMarines/KhorneCorruptionDescription"
+           value="Increases damage and attacks."/>
+    <entry name="ChaosSpaceMarines/KhorneCorruptionFlavor"
+           value="The infernal armouries of Khorne’s daemon legions overflow with macabre artefacts of unbridled slaughter."/>
+    <entry name="ChaosSpaceMarines/LordOfChaos"
+           value="<string name='Actions/ChaosSpaceMarines/LordOfChaos'/>"/>
+    <entry name="ChaosSpaceMarines/LordOfChaosDescription"
+           value="Increases the damage reduction and melee attacks."/>
+    <entry name="ChaosSpaceMarines/LordOfChaosFlavor"
+           value="<string name='Actions/ChaosSpaceMarines/LordOfChaosFlavor'/>"/>
+    <entry name="ChaosSpaceMarines/NurgleCorruption"
+           value="Nurgle Corruption"/>
+    <entry name="ChaosSpaceMarines/NurgleCorruptionDescription"
+           value="Reduces armour."/>
+    <entry name="ChaosSpaceMarines/NurgleCorruptionFlavor"
+           value="From the germ of an idea may grow the most perfect plagues."/>
+    <entry name="ChaosSpaceMarines/Prosperity"
+           value="Prosperity"/>
+    <entry name="ChaosSpaceMarines/ProsperityDescription"
+           value="Increases city growth"/>
+    <entry name="ChaosSpaceMarines/ShatterDefencesDescription"
+           value="Reduces armour and movement."/>
+    <entry name="ChaosSpaceMarines/SlaaneshCorruption"
+           value="Slaanesh Corruption"/>
+    <entry name="ChaosSpaceMarines/SlaaneshCorruptionDescription"
+           value="Grants Daemon Prince flying ability, increases the movement, the accuracy and the invulnerable damage reduction."/>
+    <entry name="ChaosSpaceMarines/SlaaneshCorruptionFlavor"
+           value="The greatest of Slaanesh’s daemons move with an idealised grace and agility rendered hideous by its sheer precision and impossibility."/>
+    <entry name="ChaosSpaceMarines/TzeentchCorruption"
+           value="Tzeentch Corruption"/>
+    <entry name="ChaosSpaceMarines/TzeentchCorruptionDescription"
+           value="Gains research when the Daemon Prince gains experience from combat."/>
+    <entry name="ChaosSpaceMarines/TzeentchCorruptionFlavor"
+           value="Arcane knowledge and mystical power have ever been the domain of Tzeentch and his minions."/>
+    <entry name="ChaosSpaceMarines/IconOfVengeance"
+           value="Icon of Vengeance"/>
+    <entry name="ChaosSpaceMarines/IconOfVengeanceDescription"
+           value="Returns damage back to the attacker."/>
+    <entry name="ChaosSpaceMarines/IconOfVengeanceFlavor"
+           value="These icons shine brightly in the Warp, gathering the malefic energies of Chaos to those who bear them and spurring them on to acts of suicidal brabery in their quest to seize victory from the minions of the Corpse-god."/>
+    <entry name="ChaosSpaceMarines/StimulatedByPain"
+           value="Stimulated By Pain"/>
+    <entry name="ChaosSpaceMarines/StimulatedByPainDescription"
+           value="Increases armour, hit points and Bloated healing rate of heroes."/>
+    <entry name="ChaosSpaceMarines/StimulatedByPainFlavor"
+           value="The warlords of the Emperor’s Children thrive on pain. The more grievous their injuries, the deadlier they become."/>
+    <entry name="ChaosSpaceMarines/BlessedChampion"
+           value="Blessed Champion"/>
+    <entry name="ChaosSpaceMarines/BlessedChampionDescription"
+           value="Immediately comes back to life after dying."/>
+    <entry name="ChaosSpaceMarines/BlessedChampionFlavor"
+           value="While many warbands of Heretic Astartes have grown to rival entire Chapters of loyalist Space Marines in size, most began as a core of ruthless followers led by their powerful champion. Such individuals draw more and more warriors to their service as their influence expands, their dread reputation for destruction becoming more storied as their warband grows in notoriety and power."/>
+    <entry name="ChaosSpaceMarines/SmokeLauncher"
+           value="Smoke Launcher"/>
+    <entry name="ChaosSpaceMarines/SmokeLauncherDescription"
+           value="Increases regeneration."/>
+    <entry name="ChaosSpaceMarines/Defiler"
+           value="Defiler"/>
+    <entry name="ChaosSpaceMarines/DefilerDescription"
+           value="Takes damage over time."/>
+    <entry name="ChaosSpaceMarines/EnrageMachineSpirits"
+           value="Enrage Machine Spirits"/>
+    <entry name="ChaosSpaceMarines/EnrageMachineSpiritsDescription"
+           value="Increases the accuracy."/>
+    <entry name="ChaosSpaceMarines/EnrageMachineSpiritsFlavor"
+           value="No armour is safe from the guns of the IV Legion, and once an enemy war engine is marked for destruction, its doomed is sealed."/>
 
-    <entry name="Cloak" value="Cloak" />
-    <entry name="CloakDescription" value="Receives additional damage reduction while in imperial ruins or forests." />
-    <entry name="ConvergentTargetingPredator" value="Convergent Targeting" />
-    <entry name="ConvergentTargetingPredatorDescription" value="Increases the accuracy when adjacent to an allied Predator." />
-    <entry name="ConvergentTargetingWhirlwind" value="Convergent Targeting" />
-    <entry name="ConvergentTargetingWhirlwindDescription" value="Increases the accuracy when adjacent to an allied Whirlwind." />
+    <entry name="Cloak"
+           value="Cloak"/>
+    <entry name="CloakDescription"
+           value="Receives additional damage reduction while in imperial ruins or forests."/>
+    <entry name="ConvergentTargetingPredator"
+           value="Convergent Targeting"/>
+    <entry name="ConvergentTargetingPredatorDescription"
+           value="Increases the accuracy when adjacent to an allied Predator."/>
+    <entry name="ConvergentTargetingWhirlwind"
+           value="Convergent Targeting"/>
+    <entry name="ConvergentTargetingWhirlwindDescription"
+           value="Increases the accuracy when adjacent to an allied Whirlwind."/>
 
-    <entry name="Eldar/Prosperity" value="Prosperity" />
-    <entry name="Eldar/ProsperityDescription" value="Increases city growth" />
+    <entry name="Eldar/Prosperity"
+           value="Prosperity"/>
+    <entry name="Eldar/ProsperityDescription"
+           value="Increases city growth"/>
 
-    <entry name="Exhausted" value="Exhausted" />
-    <entry name="ExhaustedDescription" value="Prevents unit from attacking and moving." />
+    <entry name="Exhausted"
+           value="Exhausted"/>
+    <entry name="ExhaustedDescription"
+           value="Prevents unit from attacking and moving."/>
 
-    <entry name="Flared" value="Flared" />
-    <entry name="FlaredDescription" value="Reduces the accuracy." />
-    <entry name="FlaredFlavor" value="This attack looses a brilliant flare of light, searing the sight of the victim and forcing him to fight blind for a few moments." />
+    <entry name="Flared"
+           value="Flared"/>
+    <entry name="FlaredDescription"
+           value="Reduces the accuracy."/>
+    <entry name="FlaredFlavor"
+           value="This attack looses a brilliant flare of light, searing the sight of the victim and forcing him to fight blind for a few moments."/>
 
-    <entry name="MannedWeaponGhostArk" value="Manned Weapon" />
-    <entry name="MannedWeaponGhostArkDescription" value="Increases the ranged attacks while transporting cargo." />
+    <entry name="MannedWeaponGhostArk"
+           value="Manned Weapon"/>
+    <entry name="MannedWeaponGhostArkDescription"
+           value="Increases the ranged attacks while transporting cargo."/>
 
-    <entry name="Necrons/AethericInterception" value="Aetheric Interception" />
-    <entry name="Necrons/AethericInterceptionDescription" value="Reduces the movement." />
-    <entry name="Necrons/AethericInterceptionFlavor" value="With hunters' instincts honed over aeons, the Triarch pounce precisely at the moment their prey enter battle, gunning them down before they can even act." />
-    <entry name="Necrons/AggressionOverrides" value="Aggression Overrides" />
-    <entry name="Necrons/AggressionOverridesDescription" value="Increases Canoptek Spyder's hit points, armour penetration and damage." />
-    <entry name="Necrons/AggressionOverridesDescription" value="Increases Canoptek Spyder's hit points, armour penetration and damage." />
-    <entry name="Necrons/AggressionOverridesFlavor" value="Canoptek Spyders are generally docile creatures, diligently maintaining their tomb complex. However, when roused to battle, their aggression engrams ensure they are truly formidable foes." />
-    <entry name="Necrons/AggressionOverridesFlavor" value="Canoptek Spyders are generally docile creatures, diligently maintaining their tomb complex. However, when roused to battle, their aggression engrams ensure they are truly formidable foes." />
-    <entry name="Necrons/AttackCityBonusDescription" value="Increases the accuracy." />
-    <entry name="Necrons/BloodyCrusade" value="Bloody Crusade" />
-    <entry name="Necrons/BloodyCrusadeDescription" value="Increases the accuracy and the feel no pain damage reduction, but disables Reanimation Protocols, Living Metal, Dimensional Corridor and Necrodermis Repair." />
-    <entry name="Necrons/ChronometronDescription" value="Increases damage reduction and returns damage back to the attacker." />
-    <entry name="Necrons/CountertemporalNanomines" value="Countertemporal Nanomines" />
-    <entry name="Necrons/CountertemporalNanominesDescription" value="Immobilized." />
-    <entry name="Necrons/CountertemporalNanominesFlavor" value="Released from a hive-gem about the bearer’s person, a swarm of nanoscarabs sweep out and lace the ground before them with microscopic temporal charges. Foes advancing into this invisible minefield find reality stuttering and glitching around them as they trigger one minute chronofault after another." />
-    <entry name="Necrons/CunningAdvisors" value="Cunning Advisors" />
-    <entry name="Necrons/CunningAdvisorsDescription" value="Increases research and energy output of empire." />
-    <entry name="Necrons/CunningAdvisorsFlavor" value="The greater a Necron nobles reputation, the more cunning and accomplished are the Crypteks who seek them out and offer them service." />
-    <entry name="Necrons/CityTier3Description" value="Increases the tile acquisition radius, the armour, the range of attacks and the hitpoints." />
-    <entry name="Necrons/DefensiveProtocolsDescription" value="Increases the regeneration." />
-    <entry name="Necrons/DefensiveProtocolsLord" value="<string name='Actions/Necrons/DefensiveProtocols'/>" />
-    <entry name="Necrons/DefensiveProtocolsLordDescription" value="Increases the armour." />
-    <entry name="Necrons/DefensiveProtocolsLordFlavor" value="<string name='Actions/Necrons/DefensiveProtocolsFlavor'/>" />
-    <entry name="Necrons/DestructionProtocols" value="<string name='Actions/Necrons/DestructionProtocols'/>" />
-    <entry name="Necrons/DestructionProtocolsDescription" value="Increases the accuracy. Increases the damage taken of attacked unit." />
-    <entry name="Necrons/DestructionProtocolsDebuff" value="<string name='Actions/Necrons/DestructionProtocols'/>" />
-    <entry name="Necrons/DestructionProtocolsDebuffDescription" value="Increases the damage taken." />
+    <entry name="Necrons/AethericInterception"
+           value="Aetheric Interception"/>
+    <entry name="Necrons/AethericInterceptionDescription"
+           value="Reduces the movement."/>
+    <entry name="Necrons/AethericInterceptionFlavor"
+           value="With hunters' instincts honed over aeons, the Triarch pounce precisely at the moment their prey enter battle, gunning them down before they can even act."/>
+    <entry name="Necrons/AggressionOverrides"
+           value="Aggression Overrides"/>
+    <entry name="Necrons/AggressionOverridesDescription"
+           value="Increases Canoptek Spyder's hit points, armour penetration and damage."/>
+    <entry name="Necrons/AggressionOverridesDescription"
+           value="Increases Canoptek Spyder's hit points, armour penetration and damage."/>
+    <entry name="Necrons/AggressionOverridesFlavor"
+           value="Canoptek Spyders are generally docile creatures, diligently maintaining their tomb complex. However, when roused to battle, their aggression engrams ensure they are truly formidable foes."/>
+    <entry name="Necrons/AggressionOverridesFlavor"
+           value="Canoptek Spyders are generally docile creatures, diligently maintaining their tomb complex. However, when roused to battle, their aggression engrams ensure they are truly formidable foes."/>
+    <entry name="Necrons/AttackCityBonusDescription"
+           value="Increases the accuracy."/>
+    <entry name="Necrons/BloodyCrusade"
+           value="Bloody Crusade"/>
+    <entry name="Necrons/BloodyCrusadeDescription"
+           value="Increases the accuracy and the feel no pain damage reduction, but disables Reanimation Protocols, Living Metal, Dimensional Corridor and Necrodermis Repair."/>
+    <entry name="Necrons/ChronometronDescription"
+           value="Increases damage reduction and returns damage back to the attacker."/>
+    <entry name="Necrons/CountertemporalNanomines"
+           value="Countertemporal Nanomines"/>
+    <entry name="Necrons/CountertemporalNanominesDescription"
+           value="Immobilized."/>
+    <entry name="Necrons/CountertemporalNanominesFlavor"
+           value="Released from a hive-gem about the bearer’s person, a swarm of nanoscarabs sweep out and lace the ground before them with microscopic temporal charges. Foes advancing into this invisible minefield find reality stuttering and glitching around them as they trigger one minute chronofault after another."/>
+    <entry name="Necrons/CunningAdvisors"
+           value="Cunning Advisors"/>
+    <entry name="Necrons/CunningAdvisorsDescription"
+           value="Increases research and energy output of empire."/>
+    <entry name="Necrons/CunningAdvisorsFlavor"
+           value="The greater a Necron nobles reputation, the more cunning and accomplished are the Crypteks who seek them out and offer them service."/>
+    <entry name="Necrons/CityTier3Description"
+           value="Increases the tile acquisition radius, the armour, the range of attacks and the hitpoints."/>
+    <entry name="Necrons/DefensiveProtocolsDescription"
+           value="Increases the regeneration."/>
+    <entry name="Necrons/DefensiveProtocolsLord"
+           value="<string name='Actions/Necrons/DefensiveProtocols'/>"/>
+    <entry name="Necrons/DefensiveProtocolsLordDescription"
+           value="Increases the armour."/>
+    <entry name="Necrons/DefensiveProtocolsLordFlavor"
+           value="<string name='Actions/Necrons/DefensiveProtocolsFlavor'/>"/>
+    <entry name="Necrons/DestructionProtocols"
+           value="<string name='Actions/Necrons/DestructionProtocols'/>"/>
+    <entry name="Necrons/DestructionProtocolsDescription"
+           value="Increases the accuracy. Increases the damage taken of attacked unit."/>
+    <entry name="Necrons/DestructionProtocolsDebuff"
+           value="<string name='Actions/Necrons/DestructionProtocols'/>"/>
+    <entry name="Necrons/DestructionProtocolsDebuffDescription"
+           value="Increases the damage taken."/>
 
-    <entry name="Necrons/EndlessLegions" value="Endless Legions" />
-    <entry name="Necrons/EndlessLegionsDescription" value="Increases group size." />
-    <entry name="Necrons/EndlessLegionsFlavor" value="As ever more systems awake upon this noble's tomb world, ever greater legions become theirs to command." />
-    <entry name="Necrons/HousingBuildingBonusDescription" value="Increases the population limit. Increases damage reduction of units in cities." />
-    <entry name="Necrons/JudgementOfTheTriarch" value="Judgement Of The Triarch" />
-    <entry name="Necrons/JudgementOfTheTriarchDescription" value="Decreases melee attacks." />
-    <entry name="Necrons/JudgementOfTheTriarchFlavor" value="Those who defy the will of the Final Triarch are subject to swift and merciless retribution." />
-    <entry name="Necrons/LivingMetalAnnihilationBarge" value="<string name='Traits/Necrons/LivingMetal'/>" />
-    <entry name="Necrons/LivingMetalAnnihilationBargeDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>" />
-    <entry name="Necrons/LivingMetalAnnihilationBargeFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>" />
-    <entry name="Necrons/LivingMetalCanoptekScarab" value="<string name='Traits/Necrons/LivingMetal'/>" />
-    <entry name="Necrons/LivingMetalCanoptekScarabDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>" />
-    <entry name="Necrons/LivingMetalCanoptekScarabFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>" />
-    <entry name="Necrons/LivingMetalCanoptekSpyder" value="<string name='Traits/Necrons/LivingMetal'/>" />
-    <entry name="Necrons/LivingMetalCanoptekSpyderDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>" />
-    <entry name="Necrons/LivingMetalCanoptekSpyderFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>" />
-    <entry name="Necrons/LivingMetalCanoptekWraith" value="<string name='Traits/Necrons/LivingMetal'/>" />
-    <entry name="Necrons/LivingMetalCanoptekWraithDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>" />
-    <entry name="Necrons/LivingMetalCanoptekWraithFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>" />
-    <entry name="Necrons/LivingMetalDoomScythe" value="<string name='Traits/Necrons/LivingMetal'/>" />
-    <entry name="Necrons/LivingMetalDoomScytheDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>" />
-    <entry name="Necrons/LivingMetalDoomScytheFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>" />
-    <entry name="Necrons/LivingMetalDoomsdayArk" value="<string name='Traits/Necrons/LivingMetal'/>" />
-    <entry name="Necrons/LivingMetalDoomsdayArkDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>" />
-    <entry name="Necrons/LivingMetalDoomsdayArkFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>" />
-    <entry name="Necrons/LivingMetalGaussPylon" value="<string name='Traits/Necrons/LivingMetal'/>" />
-    <entry name="Necrons/LivingMetalGaussPylonDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>" />
-    <entry name="Necrons/LivingMetalGaussPylonFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>" />
-    <entry name="Necrons/LivingMetalGhostArk" value="<string name='Traits/Necrons/LivingMetal'/>" />
-    <entry name="Necrons/LivingMetalGhostArkDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>" />
-    <entry name="Necrons/LivingMetalGhostArkFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>" />
-    <entry name="Necrons/LivingMetalMonolith" value="<string name='Traits/Necrons/LivingMetal'/>" />
-    <entry name="Necrons/LivingMetalMonolithDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>" />
-    <entry name="Necrons/LivingMetalMonolithFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>" />
-    <entry name="Necrons/LivingMetalNightScythe" value="<string name='Traits/Necrons/LivingMetal'/>" />
-    <entry name="Necrons/LivingMetalNightScytheDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>" />
-    <entry name="Necrons/LivingMetalNightScytheFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>" />
-    <entry name="Necrons/LivingMetalObelisk" value="<string name='Traits/Necrons/LivingMetal'/>" />
-    <entry name="Necrons/LivingMetalObeliskDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>" />
-    <entry name="Necrons/LivingMetalObeliskFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>" />
-    <entry name="Necrons/LivingMetalTesseractVault" value="<string name='Traits/Necrons/LivingMetal'/>" />
-    <entry name="Necrons/LivingMetalTesseractVaultDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>" />
-    <entry name="Necrons/LivingMetalTesseractVaultFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>" />
-    <entry name="Necrons/LivingMetalTombBlades" value="<string name='Traits/Necrons/LivingMetal'/>" />
-    <entry name="Necrons/LivingMetalTombBladesDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>" />
-    <entry name="Necrons/LivingMetalTombBladesFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>" />
-    <entry name="Necrons/LivingMetalTriarchStalker" value="<string name='Traits/Necrons/LivingMetal'/>" />
-    <entry name="Necrons/LivingMetalTriarchStalkerDescription" value="<string name='Traits/Necrons/LivingMetalDescription'/>" />
-    <entry name="Necrons/LivingMetalTriarchStalkerFlavor" value="<string name='Traits/Necrons/LivingMetalFlavor'/>" />
-    <entry name="Necrons/MethodicalDestruction" value="Methodical Destruction" />
-    <entry name="Necrons/MethodicalDestructionDescription" value="Increases the accuracy." />
-    <entry name="Necrons/MethodicalDestructionFlavor" value="The Dynasty excel in systematic killing, marking each target then concentrating their fury upon it until it is completely obliterated." />
-    <entry name="Necrons/OrphicStarkness" value="Orphic Starkness" />
-    <entry name="Necrons/OrphicStarknessDescription" value="Increases the invulnerable damage reduction." />
-    <entry name="Necrons/OrphicStarknessFlavor" value="This inhuman expanse of stone now seems to bend impossibly, filling more space than there is. The Necron flying machines stretch and flicker in and out of existence as they traverse it." />
-    <entry name="Necrons/Overcharged" value="Overcharged" />
-    <entry name="Necrons/OverchargedDescription" value="Blocks Quantum Shielding due to recent overcharge." />
-    <entry name="Necrons/OverchargedQuantumShielding" value="Overcharged Quantum Shielding" />
-    <entry name="Necrons/OverchargedQuantumShieldingDescription" value="Increases the invulnerable damage reduction." />
-    <entry name="Necrons/PredictiveStrategist" value="Predictive Strategist" />
-    <entry name="Necrons/PredictiveStrategistDescription" value="Reduces the upkeep." />
-    <entry name="Necrons/Prosperity" value="Prosperity" />
-    <entry name="Necrons/ProsperityDescription" value="Increases city growth" />
-    <entry name="Necrons/QuantumDeflection" value="Quantum Deflection" />
-    <entry name="Necrons/QuantumDeflectionDescription" value="Increases the invulnerable damage reduction." />
-    <entry name="Necrons/QuantumDeflectionFlavor" value="Necron quantum shielding is a true marvel of techno-arcana, phasing into existence at the moment of impact and capable of adaptive remodulation to diffuse and deflect even the most powerful enemy attacks." />
-    <entry name="Necrons/QuantumDeflectionStrong" value="Quantum Deflection (Range 1)" />
-    <entry name="Necrons/QuantumDeflectionStrongDescription" value="<string name='Traits/Necrons/QuantumDeflectionDescription'/>" />
-    <entry name="Necrons/QuantumDeflectionStrongFlavor" value="<string name='Traits/Necrons/QuantumDeflectionFlavor'/>" />
-    <entry name="Necrons/QuantumDeflectionWeak" value="Quantum Deflection (Range 2)" />
-    <entry name="Necrons/QuantumDeflectionWeakDescription" value="<string name='Traits/Necrons/QuantumDeflectionDescription'/>" />
-    <entry name="Necrons/QuantumDeflectionWeakFlavor" value="<string name='Traits/Necrons/QuantumDeflectionFlavor'/>" />
-    <entry name="Necrons/ReanimationProtocolsWarrior" value="Reanimation Protocols" />
-    <entry name="Necrons/ReanimationProtocolsWarriorDescription" value="Restores hitpoints each turn." />
-    <entry name="Necrons/ReanimationProtocolsWarriorFlavor" value="Necrons have sophisticated self-repair systems that return even critically damaged warriors to the fight." />
-    <entry name="Necrons/UnlockedPotentialAircraftBuildingBonus" value="Unlocked Potential" />
-    <entry name="Necrons/UnlockedPotentialAircraftBuildingBonusDescription" value="Increases production." />
-    <entry name="Necrons/UnlockedPotentialConstructionBuildingBonus" value="Unlocked Potential" />
-    <entry name="Necrons/UnlockedPotentialConstructionBuildingBonusDescription" value="Increases production." />
-    <entry name="Necrons/UnlockedPotentialEnergyBuildingBonus" value="Unlocked Potential" />
-    <entry name="Necrons/UnlockedPotentialEnergyBuildingBonusDescription" value="Increases energy output." />
-    <entry name="Necrons/UnlockedPotentialHousingBuildingBonus" value="Unlocked Potential" />
-    <entry name="Necrons/UnlockedPotentialHousingBuildingBonusDescription" value="Increases population limit." />
-    <entry name="Necrons/UnlockedPotentialInfantryBuildingBonus" value="Unlocked Potential" />
-    <entry name="Necrons/UnlockedPotentialInfantryBuildingBonusDescription" value="Increases production." />
-    <entry name="Necrons/UnlockedPotentialInfluenceBuildingBonus" value="Unlocked Potential" />
-    <entry name="Necrons/UnlockedPotentialInfluenceBuildingBonusDescription" value="Increases influence output." />
-    <entry name="Necrons/UnlockedPotentialLoyaltyBuildingBonus" value="Unlocked Potential" />
-    <entry name="Necrons/UnlockedPotentialLoyaltyBuildingBonusDescription" value="Increases loyalty output." />
-    <entry name="Necrons/UnlockedPotentialOreBuildingBonus" value="Unlocked Potential" />
-    <entry name="Necrons/UnlockedPotentialOreBuildingBonusDescription" value="Increases ore output." />
-    <entry name="Necrons/UnlockedPotentialResearchBuildingBonus" value="Unlocked Potential" />
-    <entry name="Necrons/UnlockedPotentialResearchBuildingBonusDescription" value="Increases research output." />
-    <entry name="Necrons/UnlockedPotentialVehiclesBuildingBonus" value="Unlocked Potential" />
-    <entry name="Necrons/UnlockedPotentialVehiclesBuildingBonusDescription" value="Increases production." />
-    <entry name="Necrons/UpgradedGaussFlayerArray" value="Upgraded Gauss Flayer Array" />
-    <entry name="Necrons/UpgradedGaussFlayerArrayDescription" value="Increases the ranged attacks of Ghost Ark." />
+    <entry name="Necrons/EndlessLegions"
+           value="Endless Legions"/>
+    <entry name="Necrons/EndlessLegionsDescription"
+           value="Increases group size."/>
+    <entry name="Necrons/EndlessLegionsFlavor"
+           value="As ever more systems awake upon this noble's tomb world, ever greater legions become theirs to command."/>
+    <entry name="Necrons/HousingBuildingBonusDescription"
+           value="Increases the population limit. Increases damage reduction of units in cities."/>
+    <entry name="Necrons/JudgementOfTheTriarch"
+           value="Judgement Of The Triarch"/>
+    <entry name="Necrons/JudgementOfTheTriarchDescription"
+           value="Decreases melee attacks."/>
+    <entry name="Necrons/JudgementOfTheTriarchFlavor"
+           value="Those who defy the will of the Final Triarch are subject to swift and merciless retribution."/>
+    <entry name="Necrons/LivingMetalAnnihilationBarge"
+           value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalAnnihilationBargeDescription"
+           value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalAnnihilationBargeFlavor"
+           value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalCanoptekScarab"
+           value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalCanoptekScarabDescription"
+           value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalCanoptekScarabFlavor"
+           value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalCanoptekSpyder"
+           value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalCanoptekSpyderDescription"
+           value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalCanoptekSpyderFlavor"
+           value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalCanoptekWraith"
+           value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalCanoptekWraithDescription"
+           value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalCanoptekWraithFlavor"
+           value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalDoomScythe"
+           value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalDoomScytheDescription"
+           value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalDoomScytheFlavor"
+           value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalDoomsdayArk"
+           value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalDoomsdayArkDescription"
+           value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalDoomsdayArkFlavor"
+           value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalGaussPylon"
+           value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalGaussPylonDescription"
+           value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalGaussPylonFlavor"
+           value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalGhostArk"
+           value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalGhostArkDescription"
+           value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalGhostArkFlavor"
+           value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalMonolith"
+           value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalMonolithDescription"
+           value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalMonolithFlavor"
+           value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalNightScythe"
+           value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalNightScytheDescription"
+           value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalNightScytheFlavor"
+           value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalObelisk"
+           value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalObeliskDescription"
+           value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalObeliskFlavor"
+           value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalTesseractVault"
+           value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalTesseractVaultDescription"
+           value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalTesseractVaultFlavor"
+           value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalTombBlades"
+           value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalTombBladesDescription"
+           value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalTombBladesFlavor"
+           value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/LivingMetalTriarchStalker"
+           value="<string name='Traits/Necrons/LivingMetal'/>"/>
+    <entry name="Necrons/LivingMetalTriarchStalkerDescription"
+           value="<string name='Traits/Necrons/LivingMetalDescription'/>"/>
+    <entry name="Necrons/LivingMetalTriarchStalkerFlavor"
+           value="<string name='Traits/Necrons/LivingMetalFlavor'/>"/>
+    <entry name="Necrons/MethodicalDestruction"
+           value="Methodical Destruction"/>
+    <entry name="Necrons/MethodicalDestructionDescription"
+           value="Increases the accuracy."/>
+    <entry name="Necrons/MethodicalDestructionFlavor"
+           value="The Dynasty excel in systematic killing, marking each target then concentrating their fury upon it until it is completely obliterated."/>
+    <entry name="Necrons/OrphicStarkness"
+           value="Orphic Starkness"/>
+    <entry name="Necrons/OrphicStarknessDescription"
+           value="Increases the invulnerable damage reduction."/>
+    <entry name="Necrons/OrphicStarknessFlavor"
+           value="This inhuman expanse of stone now seems to bend impossibly, filling more space than there is. The Necron flying machines stretch and flicker in and out of existence as they traverse it."/>
+    <entry name="Necrons/Overcharged"
+           value="Overcharged"/>
+    <entry name="Necrons/OverchargedDescription"
+           value="Blocks Quantum Shielding due to recent overcharge."/>
+    <entry name="Necrons/OverchargedQuantumShielding"
+           value="Overcharged Quantum Shielding"/>
+    <entry name="Necrons/OverchargedQuantumShieldingDescription"
+           value="Increases the invulnerable damage reduction."/>
+    <entry name="Necrons/PredictiveStrategist"
+           value="Predictive Strategist"/>
+    <entry name="Necrons/PredictiveStrategistDescription"
+           value="Reduces the upkeep."/>
+    <entry name="Necrons/Prosperity"
+           value="Prosperity"/>
+    <entry name="Necrons/ProsperityDescription"
+           value="Increases city growth"/>
+    <entry name="Necrons/QuantumDeflection"
+           value="Quantum Deflection"/>
+    <entry name="Necrons/QuantumDeflectionDescription"
+           value="Increases the invulnerable damage reduction."/>
+    <entry name="Necrons/QuantumDeflectionFlavor"
+           value="Necron quantum shielding is a true marvel of techno-arcana, phasing into existence at the moment of impact and capable of adaptive remodulation to diffuse and deflect even the most powerful enemy attacks."/>
+    <entry name="Necrons/QuantumDeflectionStrong"
+           value="Quantum Deflection (Range 1)"/>
+    <entry name="Necrons/QuantumDeflectionStrongDescription"
+           value="<string name='Traits/Necrons/QuantumDeflectionDescription'/>"/>
+    <entry name="Necrons/QuantumDeflectionStrongFlavor"
+           value="<string name='Traits/Necrons/QuantumDeflectionFlavor'/>"/>
+    <entry name="Necrons/QuantumDeflectionWeak"
+           value="Quantum Deflection (Range 2)"/>
+    <entry name="Necrons/QuantumDeflectionWeakDescription"
+           value="<string name='Traits/Necrons/QuantumDeflectionDescription'/>"/>
+    <entry name="Necrons/QuantumDeflectionWeakFlavor"
+           value="<string name='Traits/Necrons/QuantumDeflectionFlavor'/>"/>
+    <entry name="Necrons/ReanimationProtocolsWarrior"
+           value="Reanimation Protocols"/>
+    <entry name="Necrons/ReanimationProtocolsWarriorDescription"
+           value="Restores hitpoints each turn."/>
+    <entry name="Necrons/ReanimationProtocolsWarriorFlavor"
+           value="Necrons have sophisticated self-repair systems that return even critically damaged warriors to the fight."/>
+    <entry name="Necrons/UnlockedPotentialAircraftBuildingBonus"
+           value="Unlocked Potential"/>
+    <entry name="Necrons/UnlockedPotentialAircraftBuildingBonusDescription"
+           value="Increases production."/>
+    <entry name="Necrons/UnlockedPotentialConstructionBuildingBonus"
+           value="Unlocked Potential"/>
+    <entry name="Necrons/UnlockedPotentialConstructionBuildingBonusDescription"
+           value="Increases production."/>
+    <entry name="Necrons/UnlockedPotentialEnergyBuildingBonus"
+           value="Unlocked Potential"/>
+    <entry name="Necrons/UnlockedPotentialEnergyBuildingBonusDescription"
+           value="Increases energy output."/>
+    <entry name="Necrons/UnlockedPotentialHousingBuildingBonus"
+           value="Unlocked Potential"/>
+    <entry name="Necrons/UnlockedPotentialHousingBuildingBonusDescription"
+           value="Increases population limit."/>
+    <entry name="Necrons/UnlockedPotentialInfantryBuildingBonus"
+           value="Unlocked Potential"/>
+    <entry name="Necrons/UnlockedPotentialInfantryBuildingBonusDescription"
+           value="Increases production."/>
+    <entry name="Necrons/UnlockedPotentialInfluenceBuildingBonus"
+           value="Unlocked Potential"/>
+    <entry name="Necrons/UnlockedPotentialInfluenceBuildingBonusDescription"
+           value="Increases influence output."/>
+    <entry name="Necrons/UnlockedPotentialLoyaltyBuildingBonus"
+           value="Unlocked Potential"/>
+    <entry name="Necrons/UnlockedPotentialLoyaltyBuildingBonusDescription"
+           value="Increases loyalty output."/>
+    <entry name="Necrons/UnlockedPotentialOreBuildingBonus"
+           value="Unlocked Potential"/>
+    <entry name="Necrons/UnlockedPotentialOreBuildingBonusDescription"
+           value="Increases ore output."/>
+    <entry name="Necrons/UnlockedPotentialResearchBuildingBonus"
+           value="Unlocked Potential"/>
+    <entry name="Necrons/UnlockedPotentialResearchBuildingBonusDescription"
+           value="Increases research output."/>
+    <entry name="Necrons/UnlockedPotentialVehiclesBuildingBonus"
+           value="Unlocked Potential"/>
+    <entry name="Necrons/UnlockedPotentialVehiclesBuildingBonusDescription"
+           value="Increases production."/>
+    <entry name="Necrons/UpgradedGaussFlayerArray"
+           value="Upgraded Gauss Flayer Array"/>
+    <entry name="Necrons/UpgradedGaussFlayerArrayDescription"
+           value="Increases the ranged attacks of Ghost Ark."/>
 
-    <entry name="Orks/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
-    <entry name="Orks/Prosperity" value="Prosperity" />
-    <entry name="Orks/ProsperityDescription" value="Increases city growth" />
-    <entry name="Orks/CityFoodAndOre" value="Funga / Digga" />
-    <entry name="Orks/CityFoodAndOreDescription" value="Increases the food and the ore output." />
+    <entry name="Orks/BoltDamageDescription"
+           value="Increases the armour penetration of bolt weapons."/>
+    <entry name="Orks/Prosperity"
+           value="Prosperity"/>
+    <entry name="Orks/ProsperityDescription"
+           value="Increases city growth"/>
+    <entry name="Orks/CityFoodAndOre"
+           value="Funga / Digga"/>
+    <entry name="Orks/CityFoodAndOreDescription"
+           value="Increases the food and the ore output."/>
 
-    <entry name="MachineSpirit" value="Machine Spirit" />
-    <entry name="MachineSpiritDescription" value="Temporary ignores degradation." />
-    <entry name="MachineSpiritFlavor" value="There are many tales of machine spirits wreaking havoc on the foe, even after their crew are slain and critical systems are failing." />
+    <entry name="MachineSpirit"
+           value="Machine Spirit"/>
+    <entry name="MachineSpiritDescription"
+           value="Temporary ignores degradation."/>
+    <entry name="MachineSpiritFlavor"
+           value="There are many tales of machine spirits wreaking havoc on the foe, even after their crew are slain and critical systems are failing."/>
 
-    <entry name="RecoveryGearDescription" value="Increases the healing rate when allied Tech-Priest Enginseer is nearby." />
+    <entry name="RecoveryGearDescription"
+           value="Increases the healing rate when allied Tech-Priest Enginseer is nearby."/>
 
-    <entry name="ShakenDescription" value="Reduces the accuracy." />
-    <entry name="ShatteredDefences" value="Shattered Defences" />
-    <entry name="ShatteredDefencesDescription" value="Removes the ranged damage reduction of the target tile." />
+    <entry name="ShakenDescription"
+           value="Reduces the accuracy."/>
+    <entry name="ShatteredDefences"
+           value="Shattered Defences"/>
+    <entry name="ShatteredDefencesDescription"
+           value="Removes the ranged damage reduction of the target tile."/>
 
-    <entry name="SacredGround" value="Sacred Ground"/>
-    <entry name="SacredGroundDescription" value="Applies damage over time debuff to the enemy."/>
-    <entry name="SacredGroundFlavor" value="Reclaim the Emperor’s dominion and consecrate it once more."/>
+    <entry name="SacredGround"
+           value="Sacred Ground"/>
+    <entry name="SacredGroundDescription"
+           value="Applies damage over time debuff to the enemy."/>
+    <entry name="SacredGroundFlavor"
+           value="Reclaim the Emperor’s dominion and consecrate it once more."/>
 
-    <entry name="SistersOfBattle/BeaconOfFaithAlly" value="Beacon of Faith" />
-    <entry name="SistersOfBattle/BeaconOfFaithAllyDescription" value="Restore the morale each turn." />
-    <entry name="SistersOfBattle/BeaconOfFaithAllyFlavor" value="“The Khornate warriors threatened to overwhelm us, we were cut and rent and thrown aside… even the Canoness fell… and then She intervened. As She descended, a shining beacon, our wounds closed, our spirits rallied and we drove back the heretics with newfound devotion…”<br/>  — Unknown remembrancer, Gospel of the Webway" />
-    <entry name="SistersOfBattle/BeaconOfFaithEnemy" value="Beacon of Faith" />
-    <entry name="SistersOfBattle/BeaconOfFaithEnemyDescription" value="Reduces the morale each turn." />
-    <entry name="SistersOfBattle/BeaconOfFaithEnemyFlavor" value="“The Khornate warriors threatened to overwhelm us, we were cut and rent and thrown aside… even the Canoness fell… and then She intervened. As She descended, a shining beacon, our wounds closed, our spirits rallied and we drove back the heretics with newfound devotion…”<br/>  — Unknown remembrancer, Gospel of the Webway" />
-    <entry name="SistersOfBattle/BlindingRadianceSelf" value="Blinding Radiance" />
-    <entry name="SistersOfBattle/BlindingRadianceSelfDescription" value="Increases the armour." />
-    <entry name="SistersOfBattle/BlindingRadianceSelfFlavor" value="The Emperor’s own divinity is made manifest from this warrior’s golden halo, blinding the enemy with holy light." />
-    <entry name="SistersOfBattle/BlindingRadianceEnemy" value="Blinding Radiance" />
-    <entry name="SistersOfBattle/BlindingRadianceEnemyDescription" value="Decreases the accuracy." />
-    <entry name="SistersOfBattle/BlindingRadianceEnemyFlavor" value="The Emperor’s own divinity is made manifest from this warrior’s golden halo, blinding the enemy with holy light." />
-    <entry name="SistersOfBattle/CatechismOfRepugnanceDescription" value="Decreases the accuracy and the attack range."/>
-    <entry name="SistersOfBattle/ChadMultiMelta" value="Upgraded Multi Melta" />
-    <entry name="SistersOfBattle/ChadMultiMeltaDescription" value="Increases the maximum range and the accuracy." />
-    <entry name="SistersOfBattle/Prosperity" value="Prosperity" />
-    <entry name="SistersOfBattle/ProsperityDescription" value="Increases city growth" />
-    <entry name="SistersOfBattle/BolterDrill" value="Bolter Drill" />
-    <entry name="SistersOfBattle/BolterDrillDescription" value="Increases the accuracy when firing weapons from range greater than 1." />
-    <entry name="SistersOfBattle/BolterDrillFlavor" value="<string name='Actions/BolterDrillFlavor'/>" />
-    <entry name="SistersOfBattle/FaithAndFury" value="Faith And Fury" />
-    <entry name="SistersOfBattle/FaithAndFuryDescription" value="Reduces the cooldown of Acts of Faith." />
-    <entry name="SistersOfBattle/FaithAndFuryFlavor" value="With the Emperor watching over them, the righteous zeal of the Sisters of Battle burns ever brighter, fuelling their attacks." />
-    <entry name="SistersOfBattle/HolyFireEnemy" value="Holy Fire" />
-    <entry name="SistersOfBattle/HolyFireEnemyDescription" value="Takes damage over time and reduced the healing rate." />
-    <entry name="SistersOfBattle/HolyFireEnemyFlavor" value="Fed by auxiliary fuel lines, this transport’s braziers are made to flare with holy fire, tinged with sacred unguents and rare resins" />
-    <entry name="SistersOfBattle/HolyFireSelf" value="Holy Fire" />
-    <entry name="SistersOfBattle/HolyFireSelfDescription" value="Applies damage over time debuff." />
-    <entry name="SistersOfBattle/HolyFireSelfFlavor" value="Fed by auxiliary fuel lines, this transport’s braziers are made to flare with holy fire, tinged with sacred unguents and rare resins" />
-    <entry name="SistersOfBattle/StirringRhetoricDescription" value="Increases the damage taken."/>
-    <entry name="SistersOfBattle/ThePassionSelf" value="<string name='Actions/SistersOfBattle/ThePassion'/>"/>
-    <entry name="SistersOfBattle/ThePassionSelfDescription" value="Increases the armour."/>
-    <entry name="SistersOfBattle/ThePassionSelfFlavor" value="<string name='Actions/SistersOfBattle/ThePassionFlavor'/>"/>
-    <entry name="SistersOfBattle/TwoAdditionalMultiMeltas" value="Installed Multi Meltas" />
-    <entry name="SistersOfBattle/TwoAdditionalMultiMeltasDescription" value="Grants additional multi meltas." />
-    <entry name="SistersOfBattle/UpgradedMultiMelta" value="Upgraded Multi Melta" />
-    <entry name="SistersOfBattle/UpgradedMultiMeltaDescription" value="Increases the maximum range and the accuracy of multi meltas." />
-    <entry name="SistersOfBattle/Vengeance" value="Vengeance" />
-    <entry name="SistersOfBattle/VengeanceDescription" value="Increases the accuracy." />
-    <entry name="SistersOfBattle/VerseOfHolyPiety" value="Verse of Holy Piety"/>
-    <entry name="SistersOfBattle/VerseOfHolyPietyDescription" value="Disables the morale regeneration."/>
-    <entry name="SistersOfBattle/VerseOfHolyPietyFlavor" value="Pray is stronger than any sword. As the sanctified words of the Order’s holy tenets are roared across the battlefield, the devout are infused with the Emperor’s blessings."/>
+    <entry name="SistersOfBattle/BeaconOfFaithAlly"
+           value="Beacon of Faith"/>
+    <entry name="SistersOfBattle/BeaconOfFaithAllyDescription"
+           value="Restore the morale each turn."/>
+    <entry name="SistersOfBattle/BeaconOfFaithAllyFlavor"
+           value="“The Khornate warriors threatened to overwhelm us, we were cut and rent and thrown aside… even the Canoness fell… and then She intervened. As She descended, a shining beacon, our wounds closed, our spirits rallied and we drove back the heretics with newfound devotion…”<br/>  — Unknown remembrancer, Gospel of the Webway"/>
+    <entry name="SistersOfBattle/BeaconOfFaithEnemy"
+           value="Beacon of Faith"/>
+    <entry name="SistersOfBattle/BeaconOfFaithEnemyDescription"
+           value="Reduces the morale each turn."/>
+    <entry name="SistersOfBattle/BeaconOfFaithEnemyFlavor"
+           value="“The Khornate warriors threatened to overwhelm us, we were cut and rent and thrown aside… even the Canoness fell… and then She intervened. As She descended, a shining beacon, our wounds closed, our spirits rallied and we drove back the heretics with newfound devotion…”<br/>  — Unknown remembrancer, Gospel of the Webway"/>
+    <entry name="SistersOfBattle/BlindingRadianceSelf"
+           value="Blinding Radiance"/>
+    <entry name="SistersOfBattle/BlindingRadianceSelfDescription"
+           value="Increases the armour."/>
+    <entry name="SistersOfBattle/BlindingRadianceSelfFlavor"
+           value="The Emperor’s own divinity is made manifest from this warrior’s golden halo, blinding the enemy with holy light."/>
+    <entry name="SistersOfBattle/BlindingRadianceEnemy"
+           value="Blinding Radiance"/>
+    <entry name="SistersOfBattle/BlindingRadianceEnemyDescription"
+           value="Decreases the accuracy."/>
+    <entry name="SistersOfBattle/BlindingRadianceEnemyFlavor"
+           value="The Emperor’s own divinity is made manifest from this warrior’s golden halo, blinding the enemy with holy light."/>
+    <entry name="SistersOfBattle/CatechismOfRepugnanceDescription"
+           value="Decreases the accuracy and the attack range."/>
+    <entry name="SistersOfBattle/ChadMultiMelta"
+           value="Upgraded Multi Melta"/>
+    <entry name="SistersOfBattle/ChadMultiMeltaDescription"
+           value="Increases the maximum range and the accuracy."/>
+    <entry name="SistersOfBattle/Prosperity"
+           value="Prosperity"/>
+    <entry name="SistersOfBattle/ProsperityDescription"
+           value="Increases city growth"/>
+    <entry name="SistersOfBattle/BolterDrill"
+           value="Bolter Drill"/>
+    <entry name="SistersOfBattle/BolterDrillDescription"
+           value="Increases the accuracy when firing weapons from range greater than 1."/>
+    <entry name="SistersOfBattle/BolterDrillFlavor"
+           value="<string name='Actions/BolterDrillFlavor'/>"/>
+    <entry name="SistersOfBattle/FaithAndFury"
+           value="Faith And Fury"/>
+    <entry name="SistersOfBattle/FaithAndFuryDescription"
+           value="Reduces the cooldown of Acts of Faith."/>
+    <entry name="SistersOfBattle/FaithAndFuryFlavor"
+           value="With the Emperor watching over them, the righteous zeal of the Sisters of Battle burns ever brighter, fuelling their attacks."/>
+    <entry name="SistersOfBattle/HolyFireEnemy"
+           value="Holy Fire"/>
+    <entry name="SistersOfBattle/HolyFireEnemyDescription"
+           value="Takes damage over time and reduced the healing rate."/>
+    <entry name="SistersOfBattle/HolyFireEnemyFlavor"
+           value="Fed by auxiliary fuel lines, this transport’s braziers are made to flare with holy fire, tinged with sacred unguents and rare resins"/>
+    <entry name="SistersOfBattle/HolyFireSelf"
+           value="Holy Fire"/>
+    <entry name="SistersOfBattle/HolyFireSelfDescription"
+           value="Applies damage over time debuff."/>
+    <entry name="SistersOfBattle/HolyFireSelfFlavor"
+           value="Fed by auxiliary fuel lines, this transport’s braziers are made to flare with holy fire, tinged with sacred unguents and rare resins"/>
+    <entry name="SistersOfBattle/StirringRhetoricDescription"
+           value="Increases the damage taken."/>
+    <entry name="SistersOfBattle/ThePassionSelf"
+           value="<string name='Actions/SistersOfBattle/ThePassion'/>"/>
+    <entry name="SistersOfBattle/ThePassionSelfDescription"
+           value="Increases the armour."/>
+    <entry name="SistersOfBattle/ThePassionSelfFlavor"
+           value="<string name='Actions/SistersOfBattle/ThePassionFlavor'/>"/>
+    <entry name="SistersOfBattle/TwoAdditionalMultiMeltas"
+           value="Installed Multi Meltas"/>
+    <entry name="SistersOfBattle/TwoAdditionalMultiMeltasDescription"
+           value="Grants additional multi meltas."/>
+    <entry name="SistersOfBattle/UpgradedMultiMelta"
+           value="Upgraded Multi Melta"/>
+    <entry name="SistersOfBattle/UpgradedMultiMeltaDescription"
+           value="Increases the maximum range and the accuracy of multi meltas."/>
+    <entry name="SistersOfBattle/Vengeance"
+           value="Vengeance"/>
+    <entry name="SistersOfBattle/VengeanceDescription"
+           value="Increases the accuracy."/>
+    <entry name="SistersOfBattle/VerseOfHolyPiety"
+           value="Verse of Holy Piety"/>
+    <entry name="SistersOfBattle/VerseOfHolyPietyDescription"
+           value="Disables the morale regeneration."/>
+    <entry name="SistersOfBattle/VerseOfHolyPietyFlavor"
+           value="Pray is stronger than any sword. As the sanctified words of the Order’s holy tenets are roared across the battlefield, the devout are infused with the Emperor’s blessings."/>
 
-    <entry name="SmokeScreenDescription" value="Decreases opponent's ranged accuracy." />
+    <entry name="SmokeScreenDescription"
+           value="Decreases opponent's ranged accuracy."/>
 
-    <entry name="SpaceMarines/AdditionalHeavyBolter" value="Additional Heavy Bolter" />
-    <entry name="SpaceMarines/AdditionalHeavyBolterDescription" value="Grants additional heavy bolter." />
-    <entry name="SpaceMarines/AdditionalHeavyBolters" value="Additional Heavy Bolters" />
-    <entry name="SpaceMarines/AdditionalHeavyBoltersDescription" value="Grants two additional heavy bolters." />
-    <entry name="SpaceMarines/AdditionalMultiMelta" value="Additional Multi Melta" />
-    <entry name="SpaceMarines/AdditionalMultiMeltaDescription" value="Grants additional multi melta." />
-    <entry name="SpaceMarines/AdditionalStormBolter" value="Additional Storm Bolter" />
-    <entry name="SpaceMarines/AdditionalStormBolterDescription" value="Grants additional storm bolter." />
-    <entry name="SpaceMarines/BoltDamage" value="Kraken Bolts" />
-    <entry name="SpaceMarines/BoltDamageDescription" value="Increases the armour penetration of bolt weapons." />
-    <entry name="SpaceMarines/BoltDamageFlavor" value="<string name='Traits/AstraMilitarum/BoltDamageFlavor'/>" />
-    <entry name="SpaceMarines/Infiltrate" value="Camo Cloak" />
-    <entry name="SpaceMarines/InfiltrateDescription" value="Increases the ranged damage reduction while in an imperial ruin or a forest" />
-    <entry name="SpaceMarines/InfiltrateFlavor" value="The weave of this camo cloak emulates the movements of the elements. As a gust of wind passes, as rainfalls across the battlefield, as the haze of heat shimmers the air, the bearers form flickers in and out of perception. If the bearer remains stationary, they are clouded entirely, a ghost lost to the wilds." />
-    <entry name="SpaceMarines/CityTier2Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption." />
-    <entry name="SpaceMarines/CityTier3Description" value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption." />
-    <entry name="SpaceMarines/CityTier4Description" value="Increases the tile acquisition radius and gives Thunderfire Cannons and Fortresses of Redemption ability to increase the ranged damage reduction of the target tile. Increases the city damage reduction of Fortresses of Redemption." />
-    <entry name="SpaceMarines/ChadLascannon" value="Improved Lascannon" />
-    <entry name="SpaceMarines/ChadLascannonDescription" value="Improves Predator's lascannon damage, armour penetration and accuracy." />
-    <entry name="SpaceMarines/DefensiveFocus" value="<string name='Actions/SpaceMarines/DefensiveFocus'/>" />
-    <entry name="SpaceMarines/DefensiveFocusDescription" value="<string name='Actions/SpaceMarines/DefensiveFocusDescription'/>" />
-    <entry name="SpaceMarines/DefensiveFocus" value="<string name='Actions/SpaceMarines/DefensiveFocusFlavor'/>" />
-    <entry name="SpaceMarines/DominusAegis" value="Dominus Aegis" />
-    <entry name="SpaceMarines/DominusAegisDescription" value="Increases the ranged damage reduction." />
-    <entry name="SpaceMarines/DominusAegisFlavor" value="This artefact takes the form of an ornate tower shield; from its sculpted edge, it projects a hemispherical force field that protects all those within its reach. Carried to war by those kill teams expected toplunge into the heart of the xenos hordes, it has saved countless lives, the bearer and his team fighting to victory as the dome-like force field keeps the worst of the alien scum at bay." />
-    <entry name="SpaceMarines/DominusAegisSelf" value="<string name='Traits/SpaceMarines/DominusAegis'/>" />
-    <entry name="SpaceMarines/DominusAegisSelfDescription" value="Increases the armour." />
-    <entry name="SpaceMarines/DominusAegisFlavor" value="<string name='Traits/SpaceMarines/DominusAegisFlavor'/>" />
-    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction1" value="Stronghold Shielding 1" />
-    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction1Description" value="Increases the city damage reduction." />
-    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction1Flavor" value="Gladius Prime is already proving far more hostile than the Adeptus Administratum's worst forecasts. With the Fortress' physical defenses under almost constant assault, the Techmarines approve installation of a void shield. Once constructed, this shimmering dome of power is sufficient to warp away the firepower of entire battalions (or even a rogue Imperial Knight) before collapsing." />
-    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction2" value="Stronghold Shielding 2" />
-    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction2Description" value="Increases the city damage reduction." />
-    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction2Flavor" value="Gladius Prime is already proving far more hostile than the Adeptus Administratum's worst forecasts. With the Fortress' physical defenses under almost constant assault, the Techmarines approve installation of a void shield. Once constructed, this shimmering dome of power is sufficient to warp away the firepower of entire battalions (or even a rogue Imperial Knight) before collapsing." />
-    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction3" value="Stronghold Shielding 3" />
-    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction3Description" value="Increases the city damage reduction." />
-    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction3Flavor" value="Gladius Prime is already proving far more hostile than the Adeptus Administratum's worst forecasts. With the Fortress' physical defenses under almost constant assault, the Techmarines approve installation of a void shield. Once constructed, this shimmering dome of power is sufficient to warp away the firepower of entire battalions (or even a rogue Imperial Knight) before collapsing." />
-    <entry name="SpaceMarines/FortressOfRedemptionDamageReductionDescription" value="Grants Fortresses of Redemption additional Heavy Bolter weapon and armour." />
-    <entry name="SpaceMarines/UpgradedLascannon" value="Upgraded Lascannon" />
-    <entry name="SpaceMarines/UpgradedLascannonDescription" value="Improves lascannon damage, armour penetration and accuracy." />
-    <entry name="SpaceMarines/LitanyOfZeal" value="Litany Of Zeal" />
-    <entry name="SpaceMarines/LitanyOfZealDescription" value="Increases movement of target infantry unit that have not moved this turn and prevents that unit from being targeted by overwatch attacks. The unit also ignores enemy zone of control." />
-    <entry name="SpaceMarines/LitanyOfZealFlavor" value="Bellowing his hatred of the foe, the Chaplain leads his brothers in the wholesale destruction of the enemy." />
-    <entry name="SpaceMarines/MightOfHeroes" value="Might Of Heroes" />
-    <entry name="SpaceMarines/MightOfHeroesDescription" value="Temporary increases hit points, the accuracy and the damage of friendly unit." />
-    <entry name="SpaceMarines/MightOfHeroesFlavor" value="Forward without hesitation." />
-    <entry name="SpaceMarines/Prosperity" value="Prosperity" />
-    <entry name="SpaceMarines/ProsperityDescription" value="Increases city growth" />
-    <entry name="SpaceMarines/Righteousness" value="Righteousness" />
-    <entry name="SpaceMarines/RighteousnessDescription" value="Increases adjacent allied units melee attacks." />
-    <entry name="SpaceMarines/RighteousnessFlavor" value="Rejoice! Let the glory of battle envelop us! Let our enemies fear us, for we are the Emperor's wrath!" />
-    <entry name="SpaceMarines/SiegeManeuversScoutBiker" value="Siege Maneuvers" />
-    <entry name="SpaceMarines/SiegeManeuversScoutBikerDescription" value="Increases the hitpoints and the armour." />
-    <entry name="SpaceMarines/SiegeManeuversThunderfireCannon" value="Siege Maneuvers" />
-    <entry name="SpaceMarines/SiegeManeuversThunderfireCannonDescription" value="Increases the hitpoints." />
-    <entry name="SpaceMarines/SonOfTheAbyss" value="Son Of The Abyss" />
-    <entry name="SpaceMarines/SonOfTheAbyssDescription" value="Grants Librarian witchfire damage immunity. Reduces the morale of adjacent enemy psyker units each turn." />
-    <entry name="SpaceMarines/SpectralBlade" value="Spectral Blade" />
-    <entry name="SpaceMarines/SpectralBladeDescription" value="Increases Librarian's melee attacks." />
-    <entry name="SpaceMarines/SpectralBladeFlavor" value="The psyker implants his foe with the psychosomatic suggestion that his weapon is irresistibly sharp, striking them down with the psychic feedback of their own warped perceptions." />
-    <entry name="SpaceMarines/TacticalPrecision" value="Tactical Precision" />
-    <entry name="SpaceMarines/TacticalPrecisionDescription" value="Removes penalty from firing heavy weapons after movement and treats shooting with rapid fire weapons as if in half range." />
-    <entry name="SpaceMarines/TacticalPrecisionFlavor" value="This warlord is a beacon of hope in a hateful galaxy. No matter the odds, friendly forces are inspired by his presence." />
-    <entry name="SpaceMarines/TemplarsCharge" value="Templar's Charge!" />
-    <entry name="SpaceMarines/TemplarsChargeDescription" value="Temporary increases nearby allied units melee attacks and damage." />
-    <entry name="SpaceMarines/TemplarsChargeFlavor" value="We fight to protect the spiritual and physical heart of our Chapter. That, surely, is worth shedding blood." />
-    <entry name="SpaceMarines/VeilOfTime" value="Veil Of Time" />
-    <entry name="SpaceMarines/VeilOfTimeDescription" value="Increases the research output of the empire." />
-    <entry name="SpaceMarines/VeilOfTimeFlavor" value="The psyker projects his will beyond the regular passage of time, altering the temporal flow to sway the tide of battle." />
+    <entry name="SpaceMarines/AdditionalHeavyBolter"
+           value="Additional Heavy Bolter"/>
+    <entry name="SpaceMarines/AdditionalHeavyBolterDescription"
+           value="Grants additional heavy bolter."/>
+    <entry name="SpaceMarines/AdditionalHeavyBolters"
+           value="Additional Heavy Bolters"/>
+    <entry name="SpaceMarines/AdditionalHeavyBoltersDescription"
+           value="Grants two additional heavy bolters."/>
+    <entry name="SpaceMarines/AdditionalMultiMelta"
+           value="Additional Multi Melta"/>
+    <entry name="SpaceMarines/AdditionalMultiMeltaDescription"
+           value="Grants additional multi melta."/>
+    <entry name="SpaceMarines/AdditionalStormBolter"
+           value="Additional Storm Bolter"/>
+    <entry name="SpaceMarines/AdditionalStormBolterDescription"
+           value="Grants additional storm bolter."/>
+    <entry name="SpaceMarines/BoltDamage"
+           value="Kraken Bolts"/>
+    <entry name="SpaceMarines/BoltDamageDescription"
+           value="Increases the armour penetration of bolt weapons."/>
+    <entry name="SpaceMarines/BoltDamageFlavor"
+           value="<string name='Traits/AstraMilitarum/BoltDamageFlavor'/>"/>
+    <entry name="SpaceMarines/Infiltrate"
+           value="Camo Cloak"/>
+    <entry name="SpaceMarines/InfiltrateDescription"
+           value="Increases the ranged damage reduction while in an imperial ruin or a forest"/>
+    <entry name="SpaceMarines/InfiltrateFlavor"
+           value="The weave of this camo cloak emulates the movements of the elements. As a gust of wind passes, as rainfalls across the battlefield, as the haze of heat shimmers the air, the bearers form flickers in and out of perception. If the bearer remains stationary, they are clouded entirely, a ghost lost to the wilds."/>
+    <entry name="SpaceMarines/CityTier2Description"
+           value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption."/>
+    <entry name="SpaceMarines/CityTier3Description"
+           value="Increases the tile acquisition radius and the city damage reduction of Fortresses of Redemption."/>
+    <entry name="SpaceMarines/CityTier4Description"
+           value="Increases the tile acquisition radius and gives Thunderfire Cannons and Fortresses of Redemption ability to increase the ranged damage reduction of the target tile. Increases the city damage reduction of Fortresses of Redemption."/>
+    <entry name="SpaceMarines/ChadLascannon"
+           value="Improved Lascannon"/>
+    <entry name="SpaceMarines/ChadLascannonDescription"
+           value="Improves Predator's lascannon damage, armour penetration and accuracy."/>
+    <entry name="SpaceMarines/DefensiveFocus"
+           value="<string name='Actions/SpaceMarines/DefensiveFocus'/>"/>
+    <entry name="SpaceMarines/DefensiveFocusDescription"
+           value="<string name='Actions/SpaceMarines/DefensiveFocusDescription'/>"/>
+    <entry name="SpaceMarines/DefensiveFocus"
+           value="<string name='Actions/SpaceMarines/DefensiveFocusFlavor'/>"/>
+    <entry name="SpaceMarines/DominusAegis"
+           value="Dominus Aegis"/>
+    <entry name="SpaceMarines/DominusAegisDescription"
+           value="Increases the ranged damage reduction."/>
+    <entry name="SpaceMarines/DominusAegisFlavor"
+           value="This artefact takes the form of an ornate tower shield; from its sculpted edge, it projects a hemispherical force field that protects all those within its reach. Carried to war by those kill teams expected toplunge into the heart of the xenos hordes, it has saved countless lives, the bearer and his team fighting to victory as the dome-like force field keeps the worst of the alien scum at bay."/>
+    <entry name="SpaceMarines/DominusAegisSelf"
+           value="<string name='Traits/SpaceMarines/DominusAegis'/>"/>
+    <entry name="SpaceMarines/DominusAegisSelfDescription"
+           value="Increases the armour."/>
+    <entry name="SpaceMarines/DominusAegisFlavor"
+           value="<string name='Traits/SpaceMarines/DominusAegisFlavor'/>"/>
+    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction1"
+           value="Stronghold Shielding 1"/>
+    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction1Description"
+           value="Increases the city damage reduction."/>
+    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction1Flavor"
+           value="Gladius Prime is already proving far more hostile than the Adeptus Administratum's worst forecasts. With the Fortress' physical defenses under almost constant assault, the Techmarines approve installation of a void shield. Once constructed, this shimmering dome of power is sufficient to warp away the firepower of entire battalions (or even a rogue Imperial Knight) before collapsing."/>
+    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction2"
+           value="Stronghold Shielding 2"/>
+    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction2Description"
+           value="Increases the city damage reduction."/>
+    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction2Flavor"
+           value="Gladius Prime is already proving far more hostile than the Adeptus Administratum's worst forecasts. With the Fortress' physical defenses under almost constant assault, the Techmarines approve installation of a void shield. Once constructed, this shimmering dome of power is sufficient to warp away the firepower of entire battalions (or even a rogue Imperial Knight) before collapsing."/>
+    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction3"
+           value="Stronghold Shielding 3"/>
+    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction3Description"
+           value="Increases the city damage reduction."/>
+    <entry name="SpaceMarines/FortressOfRedemptionDamageReduction3Flavor"
+           value="Gladius Prime is already proving far more hostile than the Adeptus Administratum's worst forecasts. With the Fortress' physical defenses under almost constant assault, the Techmarines approve installation of a void shield. Once constructed, this shimmering dome of power is sufficient to warp away the firepower of entire battalions (or even a rogue Imperial Knight) before collapsing."/>
+    <entry name="SpaceMarines/FortressOfRedemptionDamageReductionDescription"
+           value="Grants Fortresses of Redemption additional Heavy Bolter weapon and armour."/>
+    <entry name="SpaceMarines/UpgradedLascannon"
+           value="Upgraded Lascannon"/>
+    <entry name="SpaceMarines/UpgradedLascannonDescription"
+           value="Improves lascannon damage, armour penetration and accuracy."/>
+    <entry name="SpaceMarines/LitanyOfZeal"
+           value="Litany Of Zeal"/>
+    <entry name="SpaceMarines/LitanyOfZealDescription"
+           value="Increases movement of target infantry unit that have not moved this turn and prevents that unit from being targeted by overwatch attacks. The unit also ignores enemy zone of control."/>
+    <entry name="SpaceMarines/LitanyOfZealFlavor"
+           value="Bellowing his hatred of the foe, the Chaplain leads his brothers in the wholesale destruction of the enemy."/>
+    <entry name="SpaceMarines/MightOfHeroes"
+           value="Might Of Heroes"/>
+    <entry name="SpaceMarines/MightOfHeroesDescription"
+           value="Temporary increases hit points, the accuracy and the damage of friendly unit."/>
+    <entry name="SpaceMarines/MightOfHeroesFlavor"
+           value="Forward without hesitation."/>
+    <entry name="SpaceMarines/Prosperity"
+           value="Prosperity"/>
+    <entry name="SpaceMarines/ProsperityDescription"
+           value="Increases city growth"/>
+    <entry name="SpaceMarines/Righteousness"
+           value="Righteousness"/>
+    <entry name="SpaceMarines/RighteousnessDescription"
+           value="Increases adjacent allied units melee attacks."/>
+    <entry name="SpaceMarines/RighteousnessFlavor"
+           value="Rejoice! Let the glory of battle envelop us! Let our enemies fear us, for we are the Emperor's wrath!"/>
+    <entry name="SpaceMarines/SiegeManeuversScoutBiker"
+           value="Siege Maneuvers"/>
+    <entry name="SpaceMarines/SiegeManeuversScoutBikerDescription"
+           value="Increases the hitpoints and the armour."/>
+    <entry name="SpaceMarines/SiegeManeuversThunderfireCannon"
+           value="Siege Maneuvers"/>
+    <entry name="SpaceMarines/SiegeManeuversThunderfireCannonDescription"
+           value="Increases the hitpoints."/>
+    <entry name="SpaceMarines/SonOfTheAbyss"
+           value="Son Of The Abyss"/>
+    <entry name="SpaceMarines/SonOfTheAbyssDescription"
+           value="Grants Librarian witchfire damage immunity. Reduces the morale of adjacent enemy psyker units each turn."/>
+    <entry name="SpaceMarines/SpectralBlade"
+           value="Spectral Blade"/>
+    <entry name="SpaceMarines/SpectralBladeDescription"
+           value="Increases Librarian's melee attacks."/>
+    <entry name="SpaceMarines/SpectralBladeFlavor"
+           value="The psyker implants his foe with the psychosomatic suggestion that his weapon is irresistibly sharp, striking them down with the psychic feedback of their own warped perceptions."/>
+    <entry name="SpaceMarines/TacticalPrecision"
+           value="Tactical Precision"/>
+    <entry name="SpaceMarines/TacticalPrecisionDescription"
+           value="Removes penalty from firing heavy weapons after movement and treats shooting with rapid fire weapons as if in half range."/>
+    <entry name="SpaceMarines/TacticalPrecisionFlavor"
+           value="This warlord is a beacon of hope in a hateful galaxy. No matter the odds, friendly forces are inspired by his presence."/>
+    <entry name="SpaceMarines/TemplarsCharge"
+           value="Templar's Charge!"/>
+    <entry name="SpaceMarines/TemplarsChargeDescription"
+           value="Temporary increases nearby allied units melee attacks and damage."/>
+    <entry name="SpaceMarines/TemplarsChargeFlavor"
+           value="We fight to protect the spiritual and physical heart of our Chapter. That, surely, is worth shedding blood."/>
+    <entry name="SpaceMarines/VeilOfTime"
+           value="Veil Of Time"/>
+    <entry name="SpaceMarines/VeilOfTimeDescription"
+           value="Increases the research output of the empire."/>
+    <entry name="SpaceMarines/VeilOfTimeFlavor"
+           value="The psyker projects his will beyond the regular passage of time, altering the temporal flow to sway the tide of battle."/>
 
-    <entry name="Tau/BreakComposureDescription" value="Increases ranged attacks." />
-    <entry name="Tau/BreakComposureFlavor" value="Though not physically impressive, the T’au can inculcate fear in their enemies through subtler means—by harrying them so that they can’t focus, by surrounding them, by forcing them down tactical paths that only lead to repeated failure. Sometimes you don’t need to even touch an enemy to defeat them." />
-    <entry name="Tau/FrequencyLock" value="Frequency Lock" />
-    <entry name="Tau/FrequencyLockDescription" value="Decreases the armour." />
-    <entry name="Tau/FrequencyLockFlavor" value="Seeker missiles are designed to lock onto the remote targeting beacon provided by a markerlight beam and ride the signal all the way to their target, even bypassing and evading intervening terrain in the process.>" />
-    <entry name="Tau/Prosperity" value="Prosperity" />
-    <entry name="Tau/ProsperityDescription" value="Increases city growth" />
-    <entry name="Tau/ReactiveThrustSystem" value="Reactive Thrust System" />
-    <entry name="Tau/ReactiveThrustSystemDescription" value="Increases the accuracy and the attacks." />
-    <entry name="Tau/ReactiveThrustSystemFlavor" value="Angled micro-thrusters integrated into battlesuit plating allows their pilots to trigger a sudden burst of speed for interdiction assaults.>" />
-    <entry name="Tau/VolleyFireDescription" value="Increases overwatch attacks." />
-    <entry name="Tau/VolleyFireFlavor" value="“I’m not going to teach you a special deathblow. I’m not going to give you a bigger gun. I’m not going to surround you with magic shield drones willing to die for you. But I am going to teach you to shoot straight, under fire, together. That immediately makes you better than every last Gue’la.”<br/>  — Tutor Sharptongue." />
+    <entry name="Tau/BreakComposureDescription"
+           value="Increases ranged attacks."/>
+    <entry name="Tau/BreakComposureFlavor"
+           value="Though not physically impressive, the T’au can inculcate fear in their enemies through subtler means—by harrying them so that they can’t focus, by surrounding them, by forcing them down tactical paths that only lead to repeated failure. Sometimes you don’t need to even touch an enemy to defeat them."/>
+    <entry name="Tau/FrequencyLock"
+           value="Frequency Lock"/>
+    <entry name="Tau/FrequencyLockDescription"
+           value="Decreases the armour."/>
+    <entry name="Tau/FrequencyLockFlavor"
+           value="Seeker missiles are designed to lock onto the remote targeting beacon provided by a markerlight beam and ride the signal all the way to their target, even bypassing and evading intervening terrain in the process.>"/>
+    <entry name="Tau/Prosperity"
+           value="Prosperity"/>
+    <entry name="Tau/ProsperityDescription"
+           value="Increases city growth"/>
+    <entry name="Tau/ReactiveThrustSystem"
+           value="Reactive Thrust System"/>
+    <entry name="Tau/ReactiveThrustSystemDescription"
+           value="Increases the accuracy and the attacks."/>
+    <entry name="Tau/ReactiveThrustSystemFlavor"
+           value="Angled micro-thrusters integrated into battlesuit plating allows their pilots to trigger a sudden burst of speed for interdiction assaults.>"/>
+    <entry name="Tau/VolleyFireDescription"
+           value="Increases overwatch attacks."/>
+    <entry name="Tau/VolleyFireFlavor"
+           value="“I’m not going to teach you a special deathblow. I’m not going to give you a bigger gun. I’m not going to surround you with magic shield drones willing to die for you. But I am going to teach you to shoot straight, under fire, together. That immediately makes you better than every last Gue’la.”<br/>  — Tutor Sharptongue."/>
 
-    <entry name="Tyranids/Prosperity" value="Prosperity" />
-    <entry name="Tyranids/ProsperityDescription" value="Increases city growth" />
+    <entry name="Tyranids/Prosperity"
+           value="Prosperity"/>
+    <entry name="Tyranids/ProsperityDescription"
+           value="Increases city growth"/>
 
-    <entry name="IonShielded" value="Ion Shielded" />
-    <entry name="IonShieldedDescription" value="Increases the damage reduction." />
-    <entry name="IonShieldedFlavor" value="Some warriors are protected by more than mere physical armour. They may be shielded by force fields, enveloped in mystical energies or have a constitution that can shrug off hits that would put holes in a battle tank." />
-    <entry name="Bodyguard" value="Bodyguard" />
-    <entry name="BodyguardDescription" value="Increases adjacent heroes hero damage reduction." />
-    <entry name="Dimmed" value="Dimmed" />
-    <entry name="DimmedDescription" value="Reduces accuracy." />
-    <entry name="Dimmer" value="Dimmer" />
-    <entry name="DimmerDescription" value="Reduces the accuracy of the target attacked enemy." />
-    <entry name="EnhancedStealth" value="Enhanced Stealth" />
-    <entry name="EnhancedStealthDescription" value="Increases the ranged damage reduction while in forest or imperial ruins." />
-    <entry name="Fright" value="Fright" />
-    <entry name="FrightDescription" value="Reduces the morale each turn." />
-    <entry name="FrightFlavor" value="<string name='Actions/AuraOfFearFlavor'/>" />
-    <entry name="HeroDescription" value="Increases the damage reduction of infantry units. Each adjacent infantry unit increases damage reduction by additional 7.5% (12.5% for Bodyguard units)" />
-    <entry name="KillshotDescription" value="Increases the damage against monstrous creatures, vehicles, heroes and fortifications." />
-    <entry name="MonsterHunter" value="Monster Hunter" />
-    <entry name="MonsterHunterDescription" value="Increases the damage against monstrous creatures." />
-    <entry name="NullZone" value="Null Zone" />
-    <entry name="NullZoneDescription" value="Removes invulnerable, witchfire and feel no pain damage reduction." />
-    <entry name="NullZoneFlavor" value="No one is save beside angered Librarian." />
-    <entry name="OrkoidFungusBonusFeelNoPainDamageReduction" value="Fungal Haze" />
-    <entry name="OrkoidFungusBonusFeelNoPainDamageReductionDescription" value="Increases damage reduction." />
-    <entry name="Rapid" value="Rapid" />
-    <entry name="RapidDescription" value="Treats shooting with rapid fire weapons as if in half range." />
-    <entry name="SupportHero" value="Support" />
-    <entry name="SupportHeroDescription" value="Increases the ranged damage reduction against attacks from range 2 or higher." />
-    <entry name="UnbreakableVehicle" value="Unbreakable" />
-    <entry name="UnbreakableVehicleDescription" value="Does not suffer accuracy loss on hit points loss" />
-    <entry name="VehicleDamaged" value="Missing 33% hit points" />
-    <entry name="VehicleDamagedDescription" value="Reduces the accuracy." />
-    <entry name="VehicleDescription" value="Negates the penalty for heavy and ordnance weapons. Increases the movement penalty in forests and imperial ruins. Missing hit points reduces accuracy and movement on single model unit." />
-    <entry name="VehicleHeavilyDamaged" value="Missing 66% hit points" />
-    <entry name="VehicleHeavilyDamagedDescription" value="Reduces the accuracy and movement." />
-    <entry name="MonstrousCreatureDamaged" value="Missing 33% hit points" />
-    <entry name="MonstrousCreatureDamagedDescription" value="Reduces the accuracy." />
-    <entry name="MonstrousCreatureDescription" value="Classification. Missing hit points reduces accuracy and movement on single model unit." />
-    <entry name="MonstrousCreatureHeavilyDamaged" value="Missing 66% hit points" />
-    <entry name="MonstrousCreatureHeavilyDamagedDescription" value="Reduces the accuracy and movement." />
-    <entry name="UnbreakableMonstrousCreature" value="Berserk" />
-    <entry name="UnbreakableMonstrousCreatureDescription" value="Does not suffer accuracy loss on hit points loss" />
+    <entry name="IonShielded"
+           value="Ion Shielded"/>
+    <entry name="IonShieldedDescription"
+           value="Increases the damage reduction."/>
+    <entry name="IonShieldedFlavor"
+           value="Some warriors are protected by more than mere physical armour. They may be shielded by force fields, enveloped in mystical energies or have a constitution that can shrug off hits that would put holes in a battle tank."/>
+    <entry name="Bodyguard"
+           value="Bodyguard"/>
+    <entry name="BodyguardDescription"
+           value="Increases adjacent heroes hero damage reduction."/>
+    <entry name="Dimmed"
+           value="Dimmed"/>
+    <entry name="DimmedDescription"
+           value="Reduces accuracy."/>
+    <entry name="Dimmer"
+           value="Dimmer"/>
+    <entry name="DimmerDescription"
+           value="Reduces the accuracy of the target attacked enemy."/>
+    <entry name="EnhancedStealth"
+           value="Enhanced Stealth"/>
+    <entry name="EnhancedStealthDescription"
+           value="Increases the ranged damage reduction while in forest or imperial ruins."/>
+    <entry name="Fright"
+           value="Fright"/>
+    <entry name="FrightDescription"
+           value="Reduces the morale each turn."/>
+    <entry name="FrightFlavor"
+           value="<string name='Actions/AuraOfFearFlavor'/>"/>
+    <entry name="HeroDescription"
+           value="Increases the damage reduction of infantry units. Each adjacent infantry unit increases damage reduction by additional 7.5% (12.5% for Bodyguard units)"/>
+    <entry name="KillshotDescription"
+           value="Increases the damage against monstrous creatures, vehicles, heroes and fortifications."/>
+    <entry name="MonsterHunter"
+           value="Monster Hunter"/>
+    <entry name="MonsterHunterDescription"
+           value="Increases the damage against monstrous creatures."/>
+    <entry name="NullZone"
+           value="Null Zone"/>
+    <entry name="NullZoneDescription"
+           value="Removes invulnerable, witchfire and feel no pain damage reduction."/>
+    <entry name="NullZoneFlavor"
+           value="No one is save beside angered Librarian."/>
+    <entry name="OrkoidFungusBonusFeelNoPainDamageReduction"
+           value="Fungal Haze"/>
+    <entry name="OrkoidFungusBonusFeelNoPainDamageReductionDescription"
+           value="Increases damage reduction."/>
+    <entry name="Rapid"
+           value="Rapid"/>
+    <entry name="RapidDescription"
+           value="Treats shooting with rapid fire weapons as if in half range."/>
+    <entry name="SupportHero"
+           value="Support"/>
+    <entry name="SupportHeroDescription"
+           value="Increases the ranged damage reduction against attacks from range 2 or higher."/>
+    <entry name="UnbreakableVehicle"
+           value="Unbreakable"/>
+    <entry name="UnbreakableVehicleDescription"
+           value="Does not suffer accuracy loss on hit points loss"/>
+    <entry name="VehicleDamaged"
+           value="Missing 33% hit points"/>
+    <entry name="VehicleDamagedDescription"
+           value="Reduces the accuracy."/>
+    <entry name="VehicleDescription"
+           value="Negates the penalty for heavy and ordnance weapons. Increases the movement penalty in forests and imperial ruins. Missing hit points reduces accuracy and movement on single model unit."/>
+    <entry name="VehicleHeavilyDamaged"
+           value="Missing 66% hit points"/>
+    <entry name="VehicleHeavilyDamagedDescription"
+           value="Reduces the accuracy and movement."/>
+    <entry name="MonstrousCreatureDamaged"
+           value="Missing 33% hit points"/>
+    <entry name="MonstrousCreatureDamagedDescription"
+           value="Reduces the accuracy."/>
+    <entry name="MonstrousCreatureDescription"
+           value="Classification. Missing hit points reduces accuracy and movement on single model unit."/>
+    <entry name="MonstrousCreatureHeavilyDamaged"
+           value="Missing 66% hit points"/>
+    <entry name="MonstrousCreatureHeavilyDamagedDescription"
+           value="Reduces the accuracy and movement."/>
+    <entry name="UnbreakableMonstrousCreature"
+           value="Berserk"/>
+    <entry name="UnbreakableMonstrousCreatureDescription"
+           value="Does not suffer accuracy loss on hit points loss"/>
 </language>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Traits/Necrons/OreBuildingBonus" position="1">
+<upgrade icon="Traits/Necrons/OreBuildingBonus"
+         position="1">
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseOreScore base="1.0" />
+                <increaseOreScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

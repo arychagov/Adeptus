@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Actions/SistersOfBattle/PurifyingRecitations" position="5">
+<upgrade icon="Actions/SistersOfBattle/PurifyingRecitations"
+         position="5">
     <requiredUpgrades>
-        <upgrade name="SistersOfBattle/Vehicles" />
-        <upgrade name="SistersOfBattle/Retributor" />
-        <upgrade name="SistersOfBattle/Dominion" />
-        <upgrade name="SistersOfBattle/SaintCelestine" />
+        <upgrade name="SistersOfBattle/Vehicles"/>
+        <upgrade name="SistersOfBattle/Retributor"/>
+        <upgrade name="SistersOfBattle/Dominion"/>
+        <upgrade name="SistersOfBattle/SaintCelestine"/>
     </requiredUpgrades>
 </upgrade>

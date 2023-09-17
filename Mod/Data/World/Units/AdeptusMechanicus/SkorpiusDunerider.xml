@@ -1,81 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement9">
     <model>
-        <unit explosionsBone="Hull_Vibrate" idleAnimation="Units/AdeptusMechanicus/SkorpiusDuneriderIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AdeptusMechanicus/SkorpiusDunerider" mesh="Units/AdeptusMechanicus/SkorpiusDunerider" normalWeight="0.1" scale="1.0 1.0 1.0" />
+        <unit explosionsBone="Hull_Vibrate"
+              idleAnimation="Units/AdeptusMechanicus/SkorpiusDuneriderIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/AdeptusMechanicus/SkorpiusDunerider"
+              mesh="Units/AdeptusMechanicus/SkorpiusDunerider"
+              normalWeight="0.1"
+              scale="1.0 1.0 1.0"/>
     </model>
-    <group memberDeltaX="64" memberDeltaY="110" rowSize="2" size="1" />
+    <group memberDeltaX="64"
+           memberDeltaY="110"
+           rowSize="2"
+           size="1"/>
     <weapons>
         <weapon name="TwinLinkedCognisHeavyStubber">
             <model>
-                <projectileWeapon muzzleBone="TLStubberMuzzle" muzzleCount="2" />
+                <projectileWeapon muzzleBone="TLStubberMuzzle"
+                                  muzzleCount="2"/>
             </model>
         </weapon>
-        <weapon name="CognisHeavyStubber" count="2">
+        <weapon name="CognisHeavyStubber"
+                count="2">
             <model>
-                <projectileWeapon effectFaceWeight="0" muzzleBone="StubberMuzzle" muzzleCount="2" />
+                <projectileWeapon effectFaceWeight="0"
+                                  muzzleBone="StubberMuzzle"
+                                  muzzleCount="2"/>
             </model>
         </weapon>
-        <weapon name="None" enabled="0" requiredUpgrade="AdeptusMechanicus/BroadSpectrumDataTether">
+        <weapon name="None"
+                enabled="0"
+                requiredUpgrade="AdeptusMechanicus/BroadSpectrumDataTether">
             <model>
-                <weapon bone="Hull_Vibrate" material="Units/AdeptusMechanicus/SkorpiusDunerider" mesh="Weapons/AdeptusMechanicus/SkorpiusDuneriderAntennas" />
+                <weapon bone="Hull_Vibrate"
+                        material="Units/AdeptusMechanicus/SkorpiusDunerider"
+                        mesh="Weapons/AdeptusMechanicus/SkorpiusDuneriderAntennas"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8" /> <!-- %armor base armor=3+ -->
-                <cargoSlots base="2" /> <!-- %cargoSlots base capacity=12 -->
-                <hitpointsMax base="18.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=6 wounds=3 -->
-                <meleeAccuracy base="2" /> <!-- %meleeAccuracy base weaponSkill=1 -->
-                <meleeAttacks base="2" />
-                <oreUpkeep base="2.0" /> <!-- %oreUpkeep base tier=6 factor=1 -->
-                <oreCost base="40.0" /> <!-- %oreCost base tier=6 factor=1 -->
-                <moraleMax base="10" /> <!-- %moraleMax base leadership=8 -->
-                <movementMax base="4" />
-                <productionCost base="36.0" /> <!-- %productionCost base tier=6 factor=1 -->
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <armor base="8"/> <!-- %armor base armor=3+ -->
+                <cargoSlots base="2"/> <!-- %cargoSlots base capacity=12 -->
+                <hitpointsMax base="18.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=6 wounds=3 -->
+                <meleeAccuracy base="2"/> <!-- %meleeAccuracy base weaponSkill=1 -->
+                <meleeAttacks base="2"/>
+                <oreUpkeep base="2.0"/> <!-- %oreUpkeep base tier=6 factor=1 -->
+                <oreCost base="40.0"/> <!-- %oreCost base tier=6 factor=1 -->
+                <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+                <movementMax base="4"/>
+                <productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="1.0" />
+                <increaseVehiclesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/AdeptusMechanicus/SkorpiusDuneriderAttack" beginFire="0.5" endFire="1.67" />
+                <action animation="Units/AdeptusMechanicus/SkorpiusDuneriderAttack"
+                        beginFire="0.5"
+                        endFire="1.67"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/AdeptusMechanicus/SkorpiusDuneriderDie0" sound="Units/AdeptusMechanicus/VehicleDie" soundCount="3" />
+                <action animation="Units/AdeptusMechanicus/SkorpiusDuneriderDie0"
+                        sound="Units/AdeptusMechanicus/VehicleDie"
+                        soundCount="3"/>
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="0.75" />
+                <action animationSpeed="0.75"/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/AdeptusMechanicus/SkorpiusDuneriderMove" sound="Units/AdeptusMechanicus/VehicleMove" soundCount="1" />
+                <action animation="Units/AdeptusMechanicus/SkorpiusDuneriderMove"
+                        sound="Units/AdeptusMechanicus/VehicleMove"
+                        soundCount="1"/>
             </model>
         </move>
-        <genericUnitAbility name="AdeptusMechanicus/BroadSpectrumDataTether" passive="1" requiredUpgrade="AdeptusMechanicus/BroadSpectrumDataTether">
+        <genericUnitAbility name="AdeptusMechanicus/BroadSpectrumDataTether"
+                            passive="1"
+                            requiredUpgrade="AdeptusMechanicus/BroadSpectrumDataTether">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1">
+                        <area affects="Tile"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="AdeptusMechanicus/BroadSpectrumDataTether" />
+                                        <addTrait name="AdeptusMechanicus/BroadSpectrumDataTether"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -86,14 +113,16 @@
         </genericUnitAbility>
     </actions>
     <traits>
-        <trait name="AssaultVehicle" />
-        <trait name="AdeptusMechanicus/DoctrinaImperatives" />
-        <trait name="ExtraVehicleArmour" requiredUpgrade="AdeptusMechanicus/ExtraVehicleArmour" />
-        <trait name="OpenTopped" />
-        <trait name="Skimmer" />
-        <trait name="Transport" />
-        <trait name="Vehicle" />
-        <trait name="UnbreakableVehicle" />
-        <trait name="AdeptusMechanicus/ControlEdict" requiredUpgrade="AdeptusMechanicus/ControlEdict" />
+        <trait name="AssaultVehicle"/>
+        <trait name="AdeptusMechanicus/DoctrinaImperatives"/>
+        <trait name="ExtraVehicleArmour"
+               requiredUpgrade="AdeptusMechanicus/ExtraVehicleArmour"/>
+        <trait name="OpenTopped"/>
+        <trait name="Skimmer"/>
+        <trait name="Transport"/>
+        <trait name="Vehicle"/>
+        <trait name="UnbreakableVehicle"/>
+        <trait name="AdeptusMechanicus/ControlEdict"
+               requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
     </traits>
 </unit>

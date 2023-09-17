@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade dlc="Supplement12" icon="Units/Orks/DeffDread" position="5">
+<upgrade dlc="Supplement12"
+         icon="Units/Orks/DeffDread"
+         position="5">
     <requiredUpgrades>
-        <upgrade name="Orks/Vehicles" />
+        <upgrade name="Orks/Vehicles"/>
     </requiredUpgrades>
 </upgrade>

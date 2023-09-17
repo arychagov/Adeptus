@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feature category="None" icon="Actions/ChaosSpaceMarines/ShatterDefences">
+<feature category="None"
+         icon="Actions/ChaosSpaceMarines/ShatterDefences">
     <model>
-        <effect blueprint="Effects/ShatterDefences" />
+        <effect blueprint="Effects/ShatterDefences"/>
     </model>
     <traits>
-        <trait name="ShatteredDefences" />
+        <trait name="ShatteredDefences"/>
     </traits>
 </feature>

@@ -1,82 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement7">
     <model>
-        <unit bloodBone="Banshee_Chest" idleAnimation="Units/Eldar/HowlingBansheeIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Eldar/HowlingBanshee" mesh="Units/Eldar/HowlingBanshee" normalWeight="0.1" scale="0.9 0.9 0.9" walker="1" />
+        <unit bloodBone="Banshee_Chest"
+              idleAnimation="Units/Eldar/HowlingBansheeIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/Eldar/HowlingBanshee"
+              mesh="Units/Eldar/HowlingBanshee"
+              normalWeight="0.1"
+              scale="0.9 0.9 0.9"
+              walker="1"/>
     </model>
-    <group memberDeltaX="70" memberDeltaY="60" rowSize="3" size="6" />
+    <group memberDeltaX="70"
+           memberDeltaY="60"
+           rowSize="3"
+           size="6"/>
     <weapons>
         <weapon name="ShurikenPistol">
             <model>
-                <projectileWeapon effectFaceWeight="0.75" fireInterval="0.33" muzzleBone="Banshee_Gun" />
+                <projectileWeapon effectFaceWeight="0.75"
+                                  fireInterval="0.33"
+                                  muzzleBone="Banshee_Gun"/>
             </model>
         </weapon>
         <weapon name="PowerSword">
             <model>
-                <powerWeapon effectBone="Effect" effectBoundingVolume="Blade" fireInterval="0.33" />
+                <powerWeapon effectBone="Effect"
+                             effectBoundingVolume="Blade"
+                             fireInterval="0.33"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="6" /> <!-- %armor base armor=4+ -->
-                <foodUpkeep base="2.0" /> <!-- %foodUpkeep base tier=6 factor=1 -->
-                <foodCost base="20.0" /> <!-- %foodCost base tier=6 factor=0.5 -->
-                <hitpointsMax base="2.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=3 wounds=1 -->
-                <meleeAccuracy base="8" /> <!-- %meleeAccuracy base weaponSkill=4 -->
-                <meleeAttacks base="1" />
+                <armor base="6"/> <!-- %armor base armor=4+ -->
+                <foodUpkeep base="2.0"/> <!-- %foodUpkeep base tier=6 factor=1 -->
+                <foodCost base="20.0"/> <!-- %foodCost base tier=6 factor=0.5 -->
+                <hitpointsMax base="2.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
+                <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
+                <meleeAttacks base="1"/>
                 <!-- <meleeInitiative base="3"/> -->
-                <oreCost base="20.0" /> <!-- %oreCost base tier=6 factor=0.5 -->
-                <strengthDamage base="1" /> <!-- %strengthDamage base strength=3 -->
-                <moraleMax base="10" /> <!-- %moraleMax base leadership=8 -->
-                <movementMax base="4" />
-                <productionCost base="36.0" /> <!-- %productionCost base tier=6 factor=1 -->
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <oreCost base="20.0"/> <!-- %oreCost base tier=6 factor=0.5 -->
+                <strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
+                <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+                <movementMax base="4"/>
+                <productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0" />
+                <increaseInfantryScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/Eldar/HowlingBansheeAttack" beginFire="0.67" chargeAnimation="Units/Eldar/HowlingBansheeCharge" chargeBeginFire="0.50" chargeEndFire="1.33" endFire="1.43" meleeAnimation="Units/Eldar/HowlingBansheeMelee" meleeBeginSwing="0.33" meleeEndSwing="0.75" />
+                <action animation="Units/Eldar/HowlingBansheeAttack"
+                        beginFire="0.67"
+                        chargeAnimation="Units/Eldar/HowlingBansheeCharge"
+                        chargeBeginFire="0.50"
+                        chargeEndFire="1.33"
+                        endFire="1.43"
+                        meleeAnimation="Units/Eldar/HowlingBansheeMelee"
+                        meleeBeginSwing="0.33"
+                        meleeEndSwing="0.75"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Eldar/HowlingBansheeDie" animationCount="2" sound="Units/MediumUnarmoredDie" soundCount="4" soundDelay="0.4" voiceSound="Units/Eldar/FemaleInfantryDie" voiceSoundCount="5" />
+                <action animation="Units/Eldar/HowlingBansheeDie"
+                        animationCount="2"
+                        sound="Units/MediumUnarmoredDie"
+                        soundCount="4"
+                        soundDelay="0.4"
+                        voiceSound="Units/Eldar/FemaleInfantryDie"
+                        voiceSoundCount="5"/>
             </model>
         </die>
         <idle>
             <model>
-                <action />
+                <action/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/Eldar/HowlingBansheeMove" sound="Units/AstraMilitarum/InfantryMove" soundCount="4" />
+                <action animation="Units/Eldar/HowlingBansheeMove"
+                        sound="Units/AstraMilitarum/InfantryMove"
+                        soundCount="4"/>
             </model>
         </move>
         <webwayTravel name="Eldar/WebwayTravel">
             <model>
-                <action sound="Actions/WebwayTravel" />
+                <action sound="Actions/WebwayTravel"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="20" />
+                        <influenceCost base="20"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Eldar/WebwayGateBonus2">
                     <effects>
-                        <consumedActionPoints max="0" />
+                        <consumedActionPoints max="0"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -85,11 +116,13 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" excludeRadius="0" radius="1">
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Fear" />
+                                        <addTrait name="Fear"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -98,23 +131,32 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <warShout name="Eldar/WarShout" consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
+        <warShout name="Eldar/WarShout"
+                  consumedActionPoints="0"
+                  consumedMovement="0"
+                  cooldown="3"
+                  requiredActionPoints="0">
             <model>
-                <action animation="Units/Eldar/HowlingBansheeAbility" beginFire="1.1" bone="Banshee_Head" sound="Actions/WarShout" soundDelay="1.0" />
+                <action animation="Units/Eldar/HowlingBansheeAbility"
+                        beginFire="1.1"
+                        bone="Banshee_Head"
+                        sound="Actions/WarShout"
+                        soundDelay="1.0"/>
             </model>
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Unit" radius="1">
+                        <area affects="Unit"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <enemy />
+                                            <enemy/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <morale add="-4" />
+                                        <morale add="-4"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -125,12 +167,13 @@
         </warShout>
     </actions>
     <traits>
-        <trait name="Eldar/AncientDoom" />
-        <trait name="Eldar/BansheeMask" />
-        <trait name="Eldar/BattleFocus" />
-        <trait name="ExtraInfantryArmour" requiredUpgrade="Eldar/ExtraInfantryArmour" />
-        <trait name="Fleet" />
-        <trait name="Eldar/SpiritPreservation" />
-        <trait name="Bodyguard" />
+        <trait name="Eldar/AncientDoom"/>
+        <trait name="Eldar/BansheeMask"/>
+        <trait name="Eldar/BattleFocus"/>
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="Eldar/ExtraInfantryArmour"/>
+        <trait name="Fleet"/>
+        <trait name="Eldar/SpiritPreservation"/>
+        <trait name="Bodyguard"/>
     </traits>
 </unit>

@@ -1,82 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement5">
     <model>
-        <unit explosionsBone="BloodBone" idleAnimation="Units/Tau/RiptideBattlesuitIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tau/RiptideBattlesuit" mesh="Units/Tau/RiptideBattlesuit" scale="1 1 1" walker="1" />
+        <unit explosionsBone="BloodBone"
+              idleAnimation="Units/Tau/RiptideBattlesuitIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/Tau/RiptideBattlesuit"
+              mesh="Units/Tau/RiptideBattlesuit"
+              scale="1 1 1"
+              walker="1"/>
     </model>
     <weapons>
-        <weapon name="IonAcceleratorStandard" slotName="IonAcceleratorStandard">
+        <weapon name="IonAcceleratorStandard"
+                slotName="IonAcceleratorStandard">
             <model>
-                <beamWeapon cycleMuzzles="0" fireInterval="0.33" muzzleBone=".IonAcceleratorMuzzle" muzzleCount="2" />
+                <beamWeapon cycleMuzzles="0"
+                            fireInterval="0.33"
+                            muzzleBone=".IonAcceleratorMuzzle"
+                            muzzleCount="2"/>
             </model>
         </weapon>
-        <weapon name="IonAcceleratorOvercharged" enabled="0" slotName="IonAcceleratorOvercharged">
+        <weapon name="IonAcceleratorOvercharged"
+                enabled="0"
+                slotName="IonAcceleratorOvercharged">
             <model>
-                <beamWeapon cycleMuzzles="0" fireInterval="0.33" muzzleBone=".IonAcceleratorMuzzle" muzzleCount="2" />
+                <beamWeapon cycleMuzzles="0"
+                            fireInterval="0.33"
+                            muzzleBone=".IonAcceleratorMuzzle"
+                            muzzleCount="2"/>
             </model>
         </weapon>
         <weapon name="TwinLinkedPlasmaRifle">
             <model>
-                <projectileWeapon cycleMuzzles="1" fireInterval="0.17" muzzleBone=".PlasmaRifleMuzzle" muzzleCount="2" />
+                <projectileWeapon cycleMuzzles="1"
+                                  fireInterval="0.17"
+                                  muzzleBone=".PlasmaRifleMuzzle"
+                                  muzzleCount="2"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="10" /> <!-- %armor base armor=2+ -->
-                <energyCost base="60.0" /> <!-- %energyCost base tier=9 factor=0.5 -->
-                <hitpointsMax base="30.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=6 wounds=5 -->
-                <meleeAccuracy base="4" /> <!-- %meleeAccuracy base weaponSkill=2 -->
-                <meleeAttacks base="2" />
-                <strengthDamage base="3" /> <!-- %strengthDamage base strength=6 -->
-                <moraleMax base="10" /> <!-- %moraleMax base leadership=8 -->
-                <movementMax base="3" />
-                <oreCost base="60.0" /> <!-- %oreCost base tier=9 factor=0.5 -->
-                <oreUpkeep base="6.0" /> <!-- %oreUpkeep base tier=9 factor=1 -->
-                <productionCost base="54.0" /> <!-- %productionCost base tier=9 factor=1 -->
-                <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <armor base="10"/> <!-- %armor base armor=2+ -->
+                <energyCost base="60.0"/> <!-- %energyCost base tier=9 factor=0.5 -->
+                <hitpointsMax base="30.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=6 wounds=5 -->
+                <meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
+                <meleeAttacks base="2"/>
+                <strengthDamage base="3"/> <!-- %strengthDamage base strength=6 -->
+                <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+                <movementMax base="3"/>
+                <oreCost base="60.0"/> <!-- %oreCost base tier=9 factor=0.5 -->
+                <oreUpkeep base="6.0"/> <!-- %oreUpkeep base tier=9 factor=1 -->
+                <productionCost base="54.0"/> <!-- %productionCost base tier=9 factor=1 -->
+                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseColonizersScore base="1.0" />
-                <increaseSupportScore base="1.0" />
+                <increaseColonizersScore base="1.0"/>
+                <increaseSupportScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/Tau/RiptideBattlesuitAttack" beginFire="1.33" endFire="1.93" />
+                <action animation="Units/Tau/RiptideBattlesuitAttack"
+                        beginFire="1.33"
+                        endFire="1.93"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Tau/RiptideBattlesuitDie0" sound="Units/LargeArmoredDie" soundCount="4" soundDelay="1.66" voiceSound="Units/Tau/MonstrousWalkerDie" voiceSoundCount="1" />
+                <action animation="Units/Tau/RiptideBattlesuitDie0"
+                        sound="Units/LargeArmoredDie"
+                        soundCount="4"
+                        soundDelay="1.66"
+                        voiceSound="Units/Tau/MonstrousWalkerDie"
+                        voiceSoundCount="1"/>
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0" />
+                <action animationSpeed="1.0"/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/Tau/RiptideBattlesuitMove" sound="Units/Tau/JetPackMove" soundCount="1" />
+                <action animation="Units/Tau/RiptideBattlesuitMove"
+                        sound="Units/Tau/JetPackMove"
+                        soundCount="1"/>
             </model>
         </move>
         <auraOfFear passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" excludeRadius="0" radius="1">
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Fear" />
+                                        <addTrait name="Fear"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -85,10 +115,17 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <cycleWeapon interfaceSound="Interface/CycleWeapon" weaponSlotNames="IonAcceleratorStandard IonAcceleratorOvercharged" />
-        <bondingKnifeRitual name="Tau/BondingKnifeRitual" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0" requiredUpgrade="Tau/BondingKnifeRitual">
+        <cycleWeapon interfaceSound="Interface/CycleWeapon"
+                     weaponSlotNames="IonAcceleratorStandard IonAcceleratorOvercharged"/>
+        <bondingKnifeRitual name="Tau/BondingKnifeRitual"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="5"
+                            requiredActionPoints="0"
+                            requiredUpgrade="Tau/BondingKnifeRitual">
             <model>
-                <action bone="ChestBone" sound="Actions/BondingKnifeRitual" />
+                <action bone="ChestBone"
+                        sound="Actions/BondingKnifeRitual"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -97,7 +134,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <morale add="100" />
+                                        <morale add="100"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -106,9 +143,12 @@
                 </selfTarget>
             </beginTargets>
         </bondingKnifeRitual>
-        <novaShield name="Tau/NovaShield" consumedActionPoints="0" consumedMovement="0" cooldown="2">
+        <novaShield name="Tau/NovaShield"
+                    consumedActionPoints="0"
+                    consumedMovement="0"
+                    cooldown="2">
             <model>
-                <action sound="Actions/NovaShield" />
+                <action sound="Actions/NovaShield"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -117,8 +157,9 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpointsFactorFromMax add="-0.1" />
-                                        <addTrait name="Tau/NovaShield" duration="1" />
+                                        <hitpointsFactorFromMax add="-0.1"/>
+                                        <addTrait name="Tau/NovaShield"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -127,13 +168,16 @@
                 </selfTarget>
             </beginTargets>
             <sharedCooldowns>
-                <action name="Tau/NovaBoost" />
-                <action name="Tau/NovaFire" />
+                <action name="Tau/NovaBoost"/>
+                <action name="Tau/NovaFire"/>
             </sharedCooldowns>
         </novaShield>
-        <novaBoost name="Tau/NovaBoost" consumedActionPoints="0" consumedMovement="0" cooldown="2">
+        <novaBoost name="Tau/NovaBoost"
+                   consumedActionPoints="0"
+                   consumedMovement="0"
+                   cooldown="2">
             <model>
-                <action sound="Actions/NovaBoost" />
+                <action sound="Actions/NovaBoost"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -142,8 +186,9 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpointsFactorFromMax add="-0.1" />
-                                        <addTrait name="Tau/NovaBoost" duration="1" />
+                                        <hitpointsFactorFromMax add="-0.1"/>
+                                        <addTrait name="Tau/NovaBoost"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -152,13 +197,16 @@
                 </selfTarget>
             </beginTargets>
             <sharedCooldowns>
-                <action name="Tau/NovaFire" />
-                <action name="Tau/NovaShield" />
+                <action name="Tau/NovaFire"/>
+                <action name="Tau/NovaShield"/>
             </sharedCooldowns>
         </novaBoost>
-        <novaFire name="Tau/NovaFire" consumedActionPoints="0" consumedMovement="0" cooldown="2">
+        <novaFire name="Tau/NovaFire"
+                  consumedActionPoints="0"
+                  consumedMovement="0"
+                  cooldown="2">
             <model>
-                <action sound="Actions/NovaFire" />
+                <action sound="Actions/NovaFire"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -167,8 +215,9 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpointsFactorFromMax add="-0.1" />
-                                        <addTrait name="Tau/NovaFire" duration="1" />
+                                        <hitpointsFactorFromMax add="-0.1"/>
+                                        <addTrait name="Tau/NovaFire"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -177,18 +226,25 @@
                 </selfTarget>
             </beginTargets>
             <sharedCooldowns>
-                <action name="Tau/NovaBoost" />
-                <action name="Tau/NovaShield" />
+                <action name="Tau/NovaBoost"/>
+                <action name="Tau/NovaShield"/>
             </sharedCooldowns>
         </novaFire>
-        <deployShieldedMissileDrone name="Tau/DeployDrone" consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0" unitType="Tau/ShieldedMissileDrone">
+        <deployShieldedMissileDrone name="Tau/DeployDrone"
+                                    consumedActionPoints="0"
+                                    consumedMovement="0"
+                                    cooldown="10"
+                                    requiredActionPoints="0"
+                                    unitType="Tau/ShieldedMissileDrone">
             <model>
-                <action animation="" sound="Actions/DeployDrone" />
+                <action animation=""
+                        sound="Actions/DeployDrone"/>
             </model>
             <modifiers>
-                <modifier requiredUpgrade="Tau/DroneController" visible="0">
+                <modifier requiredUpgrade="Tau/DroneController"
+                          visible="0">
                     <effects>
-                        <cooldown add="-5" />
+                        <cooldown add="-5"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -196,8 +252,8 @@
                 <target rangeMax="1">
                     <conditions>
                         <tile>
-                            <noUnit />
-                            <noFeature name="GravityWaves" />
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
                         </tile>
                     </conditions>
                     <areas>
@@ -205,7 +261,9 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="Tau/ShieldedMissileDrone" consumedAction="0" consumedMovement="0" />
+                                        <addUnit name="Tau/ShieldedMissileDrone"
+                                                 consumedAction="0"
+                                                 consumedMovement="0"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -214,7 +272,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Summon" duration="3" />
+                                        <addTrait name="Summon"
+                                                  duration="3"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -223,9 +282,12 @@
                 </target>
             </beginTargets>
         </deployShieldedMissileDrone>
-        <hammerOfWrath consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredUpgrade="Tau/HammerOfWrath">
+        <hammerOfWrath consumedActionPoints="0"
+                       consumedMovement="0"
+                       cooldown="3"
+                       requiredUpgrade="Tau/HammerOfWrath">
             <model>
-                <action sound="Actions/PsychicBuff" />
+                <action sound="Actions/PsychicBuff"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -234,7 +296,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="HammerOfWrath" duration="1" />
+                                        <addTrait name="HammerOfWrath"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -245,15 +308,17 @@
         </hammerOfWrath>
     </actions>
     <traits>
-        <trait name="Tau/FireTeam" />
-        <trait name="JetPack" />
-        <trait name="MonstrousCreature" />
-        <trait name="Relentless" />
+        <trait name="Tau/FireTeam"/>
+        <trait name="JetPack"/>
+        <trait name="MonstrousCreature"/>
+        <trait name="Relentless"/>
         <!-- <trait name="Smash"/> -->
-        <trait name="Tau/RiptideShieldGenerator" />
-        <trait name="Tau/SupportSystems" rank="1" />
-        <trait name="Tau/SupportingFire" />
-        <trait name="ExtraInfantryArmour" requiredUpgrade="Tau/ExtraInfantryArmour" />
-        <trait name="Tau/Battlesuit" />
+        <trait name="Tau/RiptideShieldGenerator"/>
+        <trait name="Tau/SupportSystems"
+               rank="1"/>
+        <trait name="Tau/SupportingFire"/>
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="Tau/ExtraInfantryArmour"/>
+        <trait name="Tau/Battlesuit"/>
     </traits>
 </unit>

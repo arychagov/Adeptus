@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Weapons/Deathspitter" position="5">
+<upgrade icon="Weapons/Deathspitter"
+         position="5">
     <requiredUpgrades>
-        <upgrade name="Tyranids/Ravener" />
+        <upgrade name="Tyranids/Ravener"/>
     </requiredUpgrades>
 </upgrade>

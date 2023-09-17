@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait icon="Actions/SistersOfBattle/WarmachinesWrath" visibilityCategory="Building">
+<trait icon="Actions/SistersOfBattle/WarmachinesWrath"
+       visibilityCategory="Building">
     <modifiers>
         <modifier>
             <conditions>
                 <building match="Any">
-                    <type name="SistersOfBattle/Vehicles" />
-                    <type name="SistersOfBattle/Auxiliaries" />
+                    <type name="SistersOfBattle/Vehicles"/>
+                    <type name="SistersOfBattle/Auxiliaries"/>
                 </building>
             </conditions>
             <effects>
-                <production mul="0.33" />
+                <production mul="0.33"/>
             </effects>
         </modifier>
     </modifiers>

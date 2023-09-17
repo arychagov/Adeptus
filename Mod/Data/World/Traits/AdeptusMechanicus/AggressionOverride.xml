@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Actions/AdeptusMechanicus/AggressionOverride" rankMax="2">
+<trait category="Buff"
+       icon="Actions/AdeptusMechanicus/AggressionOverride"
+       rankMax="2">
     <modifiers>
         <modifier>
             <effects>
-                <attacks mulMax="0.666" mulMin="0.333" />
+                <attacks mulMax="0.666"
+                         mulMin="0.333"/>
             </effects>
         </modifier>
     </modifiers>

@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon beamsBlueprint="Effects/Frazzle" beamsEmitterBlueprint="Effects/FrazzleEmitter" effectFaceWeight="1" fireInterval="0.15" fireSound="Weapons/TeslaCarbine" fireSoundCount="4" muzzleFlashesBlueprint="Effects/ZzapMuzzleFlashes" />
+        <beamWeapon beamsBlueprint="Effects/Frazzle"
+                    beamsEmitterBlueprint="Effects/FrazzleEmitter"
+                    effectFaceWeight="1"
+                    fireInterval="0.15"
+                    fireSound="Weapons/TeslaCarbine"
+                    fireSoundCount="4"
+                    muzzleFlashesBlueprint="Effects/ZzapMuzzleFlashes"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <accuracy max="12" min="12" />
-                <attacks add="1" />
-                <rangedArmorPenetration add="4" /> <!-- %rangedArmorPenetration add armorPiercing=3 -->
-                <rangedDamage add="3" /> <!-- %rangedDamage add strength=6 -->
-                <strengthDamage base="0" />
+                <accuracy max="12"
+                          min="12"/>
+                <attacks add="1"/>
+                <rangedArmorPenetration add="4"/> <!-- %rangedArmorPenetration add armorPiercing=3 -->
+                <rangedDamage add="3"/> <!-- %rangedDamage add strength=6 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="2" />
+    <target rangeMax="2"/>
     <traits>
-        <trait name="Assault" />
-        <trait name="Blast" />
-        <trait name="PsychicPower" />
-        <trait name="Witchfire" />
+        <trait name="Assault"/>
+        <trait name="Blast"/>
+        <trait name="PsychicPower"/>
+        <trait name="Witchfire"/>
     </traits>
 </weapon>

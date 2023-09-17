@@ -1,74 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit bloodBone="BloodBone" explosionsBone="BloodBone" idleAnimation="Units/Necrons/TesseractVaultIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Necrons/TesseractVault" mesh="Units/Necrons/TesseractVault" scale="1 1 1" />
+        <unit bloodBone="BloodBone"
+              explosionsBone="BloodBone"
+              idleAnimation="Units/Necrons/TesseractVaultIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/Necrons/TesseractVault"
+              mesh="Units/Necrons/TesseractVault"
+              scale="1 1 1"/>
     </model>
     <weapons>
-        <weapon name="TeslaSphere" count="4">
+        <weapon name="TeslaSphere"
+                count="4">
             <model>
-                <beamWeapon fireInterval="0.2" muzzleBone=".Muzzle" muzzleCount="4" />
+                <beamWeapon fireInterval="0.2"
+                            muzzleBone=".Muzzle"
+                            muzzleCount="4"/>
             </model>
         </weapon>
-        <weapon name="TransdimensionalThunderboltCoalescent" enabled="0" slotName="TransdimensionalThunderboltCoalescent">
+        <weapon name="TransdimensionalThunderboltCoalescent"
+                enabled="0"
+                slotName="TransdimensionalThunderboltCoalescent">
             <model>
-                <beamWeapon muzzleBone="Bone134(mirrored)" />
+                <beamWeapon muzzleBone="Bone134(mirrored)"/>
             </model>
         </weapon>
-        <weapon name="SkyOfFallingStarsCoalescent" enabled="0" slotName="SkyOfFallingStarsCoalescent" />
-        <weapon name="SeismicAssaultCoalescent" enabled="0" slotName="SeismicAssaultCoalescent" />
+        <weapon name="SkyOfFallingStarsCoalescent"
+                enabled="0"
+                slotName="SkyOfFallingStarsCoalescent"/>
+        <weapon name="SeismicAssaultCoalescent"
+                enabled="0"
+                slotName="SeismicAssaultCoalescent"/>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="10" /> <!-- %armor base armor=14/14/14 -->
-                <energyCost base="320.0" /> <!-- %energyCost base tier=12 factor=1 -->
-                <hitpointsMax base="144.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base armor=14/14/14 wounds=9 -->
-                <moraleMax base="12" /> <!-- %moraleMax base leadership=10 -->
-                <movementMax base="3" />
-                <oreUpkeep base="16.0" /> <!-- %oreUpkeep base tier=12 factor=1 -->
-                <productionCost base="72.0" /> <!-- %productionCost base tier=12 factor=1 -->
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <armor base="10"/> <!-- %armor base armor=14/14/14 -->
+                <energyCost base="320.0"/> <!-- %energyCost base tier=12 factor=1 -->
+                <hitpointsMax base="144.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=14/14/14 wounds=9 -->
+                <moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->
+                <movementMax base="3"/>
+                <oreUpkeep base="16.0"/> <!-- %oreUpkeep base tier=12 factor=1 -->
+                <productionCost base="72.0"/> <!-- %productionCost base tier=12 factor=1 -->
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="1.0" />
+                <increaseVehiclesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/Necrons/TesseractVaultAttack" beginFire="0.5" endFire="2.0" />
+                <action animation="Units/Necrons/TesseractVaultAttack"
+                        beginFire="0.5"
+                        endFire="2.0"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Necrons/TesseractVaultDie" sound="Units/LargeVehicleDie" soundCount="3" soundDelay="0.5" voiceSound="Units/Necrons/TranscendentCtanDie" voiceSoundCount="2" />
+                <action animation="Units/Necrons/TesseractVaultDie"
+                        sound="Units/LargeVehicleDie"
+                        soundCount="3"
+                        soundDelay="0.5"
+                        voiceSound="Units/Necrons/TranscendentCtanDie"
+                        voiceSoundCount="2"/>
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0" />
+                <action animationSpeed="1.0"/>
             </model>
         </idle>
         <move>
             <model>
-                <action sound="Units/Necrons/TesseractVaultMove" soundCount="3" />
+                <action sound="Units/Necrons/TesseractVaultMove"
+                        soundCount="3"/>
             </model>
         </move>
         <auraOfFear passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" excludeRadius="0" radius="1">
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Fear" />
+                                        <addTrait name="Fear"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -77,33 +103,38 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <necrodermisRepair requiredUpgrade="Necrons/NecrodermisRepair" name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
+        <necrodermisRepair name="Necrons/NecrodermisRepair"
+                           consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="1"
+                           requiredActionPoints="0"
+                           requiredUpgrade="Necrons/NecrodermisRepair">
             <model>
-                <action sound="Actions/Heal" />
+                <action sound="Actions/Heal"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="50" />
+                        <influenceCost base="50"/>
                     </effects>
                 </modifier>
 
                 <modifier requiredUpgrade="Necrons/HousingBuildingBonus">
                     <effects>
-                        <cooldown max="0" />
+                        <cooldown max="0"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Necrons/NecrodermisRepair3">
                     <effects>
-                        <influenceCost add="-30" />
+                        <influenceCost add="-30"/>
                     </effects>
                 </modifier>
             </modifiers>
 
             <conditions>
                 <unit>
-                    <noTrait name="Necrons/BloodyCrusade" />
-                    <damaged />
+                    <noTrait name="Necrons/BloodyCrusade"/>
+                    <damaged/>
                 </unit>
             </conditions>
             <beginTargets>
@@ -113,18 +144,18 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints add="6" />
+                                        <hitpoints add="6"/>
                                     </effects>
                                 </modifier>
 
                                 <modifier requiredUpgrade="Necrons/HousingBuildingBonus">
                                     <effects>
-                                        <hitpoints add="2" />
+                                        <hitpoints add="2"/>
                                     </effects>
                                 </modifier>
                                 <modifier requiredUpgrade="Necrons/NecrodermisRepair3">
                                     <effects>
-                                        <hitpoints add="2" />
+                                        <hitpoints add="2"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -133,31 +164,42 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <transdimensionalThunderbolt cooldown="3" weaponSlotName="TransdimensionalThunderboltCoalescent">
+        <transdimensionalThunderbolt cooldown="3"
+                                     weaponSlotName="TransdimensionalThunderboltCoalescent">
             <model>
-                <action animation="Units/Necrons/TesseractVaultAbility0" beginFire="0.8" endFire="2.5" />
+                <action animation="Units/Necrons/TesseractVaultAbility0"
+                        beginFire="0.8"
+                        endFire="2.5"/>
             </model>
         </transdimensionalThunderbolt>
-        <skyOfFallingStars cooldown="3" weaponSlotName="SkyOfFallingStarsCoalescent">
+        <skyOfFallingStars cooldown="3"
+                           weaponSlotName="SkyOfFallingStarsCoalescent">
             <model>
-                <action animation="Units/Necrons/TesseractVaultAbility1" sound="Actions/SkyOfFallingStars" />
+                <action animation="Units/Necrons/TesseractVaultAbility1"
+                        sound="Actions/SkyOfFallingStars"/>
             </model>
         </skyOfFallingStars>
-        <seismicAssault cooldown="3" requiredUpgrade="Necrons/SeismicAssault" weaponSlotName="SeismicAssaultCoalescent">
+        <seismicAssault cooldown="3"
+                        requiredUpgrade="Necrons/SeismicAssault"
+                        weaponSlotName="SeismicAssaultCoalescent">
             <model>
-                <action animation="Units/Necrons/TesseractVaultAbility1" sound="Actions/SeismicAssault" />
+                <action animation="Units/Necrons/TesseractVaultAbility1"
+                        sound="Actions/SeismicAssault"/>
             </model>
         </seismicAssault>
     </actions>
     <traits>
-        <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
-        <trait name="ExtraVehicleArmour" requiredUpgrade="Necrons/ExtraVehicleArmour" />
-        <trait name="Necrons/LivingMetalTesseractVault" />
-        <trait name="MoveThroughCover" />
-        <trait name="Skimmer" />
-        <trait name="SuperHeavy" />
-        <trait name="Vehicle" />
-        <trait name="Necrons/VengeanceOfTheEnchained" />
-        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
+        <trait name="Necrons/AttackCityBonus"
+               requiredUpgrade="Necrons/AttackCityBonus"/>
+        <trait name="ExtraVehicleArmour"
+               requiredUpgrade="Necrons/ExtraVehicleArmour"/>
+        <trait name="Necrons/LivingMetalTesseractVault"/>
+        <trait name="MoveThroughCover"/>
+        <trait name="Skimmer"/>
+        <trait name="SuperHeavy"/>
+        <trait name="Vehicle"/>
+        <trait name="Necrons/VengeanceOfTheEnchained"/>
+        <trait name="Necrons/PredictiveStrategist"
+               requiredUpgrade="Necrons/PredictiveStrategist"/>
     </traits>
 </unit>

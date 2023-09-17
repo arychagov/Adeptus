@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait icon="Traits/MannedWeapon" alwaysVisible="1">
+<trait alwaysVisible="1"
+       icon="Traits/MannedWeapon">
     <modifiers>
         <modifier>
             <conditions>
                 <unit>
-                    <cargoSlotsTaken greater="0" />
+                    <cargoSlotsTaken greater="0"/>
                 </unit>
             </conditions>
             <effects>
-                <rangedAttacks add="2" />
+                <rangedAttacks add="2"/>
             </effects>
         </modifier>
     </modifiers>

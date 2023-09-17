@@ -3,55 +3,64 @@
     <modifiers>
         <modifier>
             <effects>
-                <loyaltyPerCity base="-6" />
+                <loyaltyPerCity base="-6"/>
             </effects>
         </modifier>
     </modifiers>
     <actions>
-        <asuryaniArrivals name="Eldar/AsuryaniArrivals" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/AsuryaniArrivals">
+        <asuryaniArrivals name="Eldar/AsuryaniArrivals"
+                          cooldown="10"
+                          durationInSeconds="0.1"
+                          interfaceSound="Interface/AsuryaniArrivals">
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="20" />
+                        <influenceCost base="20"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Eldar/Construction">
                     <effects>
-                        <influenceCost mul="-0.5" />
+                        <influenceCost mul="-0.5"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Eldar/AsuryaniArrivalsBonus2">
                     <effects>
-                        <cooldown mul="-0.5" />
+                        <cooldown mul="-0.5"/>
                     </effects>
                 </modifier>
             </modifiers>
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait name="Eldar/AsuryaniArrivals" duration="5" />
+                        <addTrait name="Eldar/AsuryaniArrivals"
+                                  duration="5"/>
                     </effects>
                 </modifier>
             </actorModifiers>
         </asuryaniArrivals>
-        <transcendentBliss name="Eldar/TranscendentBliss" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/TranscendentBliss" requiredUpgrade="Eldar/TranscendentBliss">
+        <transcendentBliss name="Eldar/TranscendentBliss"
+                           cooldown="10"
+                           durationInSeconds="0.1"
+                           interfaceSound="Interface/TranscendentBliss"
+                           requiredUpgrade="Eldar/TranscendentBliss">
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40" />
+                        <influenceCost base="40"/>
                     </effects>
                 </modifier>
             </modifiers>
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait name="Eldar/TranscendentBliss" duration="10" />
+                        <addTrait name="Eldar/TranscendentBliss"
+                                  duration="10"/>
                     </effects>
                 </modifier>
             </actorModifiers>
         </transcendentBliss>
     </actions>
     <traits>
-        <trait name="Eldar/RemnantsOfTheFall" />
+        <trait name="Eldar/RemnantsOfTheFall"/>
     </traits>
 </city>

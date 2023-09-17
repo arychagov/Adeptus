@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Units/Tau/StealthBattlesuit" position="5" />
+<upgrade icon="Units/Tau/StealthBattlesuit"
+         position="5"/>

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait icon="Actions/Eldar/AsuryaniArrivals" visibilityCategory="Building">
+<trait icon="Actions/Eldar/AsuryaniArrivals"
+       visibilityCategory="Building">
     <modifiers>
         <modifier>
             <conditions>
                 <building>
-                    <growth greater="0" />
+                    <growth greater="0"/>
                 </building>
             </conditions>
             <effects>
-                <growth mul="0.67" />
+                <growth mul="0.67"/>
             </effects>
         </modifier>
     </modifiers>

@@ -1,23 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon directionalMuzzleFlashesBlueprint="" effectFaceWeight="1.0" explosionsBlueprint="" fireSound="Weapons/StingerSalvo" fireSoundCount="3" muzzleFlashesBlueprint="" projectilesBlueprint="Effects/SpineProjectiles" projectilesEmitterBlueprint="Effects/SpineProjectilesEmitter" smokeBlueprint="" />
+        <projectileWeapon directionalMuzzleFlashesBlueprint=""
+                          effectFaceWeight="1.0"
+                          explosionsBlueprint=""
+                          fireSound="Weapons/StingerSalvo"
+                          fireSoundCount="3"
+                          muzzleFlashesBlueprint=""
+                          projectilesBlueprint="Effects/SpineProjectiles"
+                          projectilesEmitterBlueprint="Effects/SpineProjectilesEmitter"
+                          smokeBlueprint=""/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="1" />
-                <rangedArmorPenetration add="0" /> <!-- %rangedArmorPenetration add armorPiercing=- -->
-                <rangedDamage add="2" /> <!-- %rangedDamage add strength=5 -->
-                <strengthDamage base="0" />
+                <attacks add="1"/>
+                <rangedArmorPenetration add="0"/> <!-- %rangedArmorPenetration add armorPiercing=- -->
+                <rangedDamage add="2"/> <!-- %rangedDamage add strength=5 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="1" />
+    <target rangeMax="1"/>
     <traits>
-        <trait name="Assault" />
-        <trait name="Tyranids/Biomorph" />
-        <trait name="Tyranids/BiomorphDamage" requiredUpgrade="Tyranids/BiomorphDamage" />
-        <trait name="Blast" />
+        <trait name="Assault"/>
+        <trait name="Tyranids/Biomorph"/>
+        <trait name="Tyranids/BiomorphDamage"
+               requiredUpgrade="Tyranids/BiomorphDamage"/>
+        <trait name="Blast"/>
     </traits>
 </weapon>

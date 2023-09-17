@@ -5,14 +5,14 @@
             <conditions>
                 <encounter>
                     <opponent match="Any">
-                        <trait name="Fortification" />
-                        <trait name="MonstrousCreature" />
-                        <trait name="Vehicle" />
+                        <trait name="Fortification"/>
+                        <trait name="MonstrousCreature"/>
+                        <trait name="Vehicle"/>
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <damage mul="0.33" />
+                <damage mul="0.33"/>
             </effects>
         </modifier>
     </modifiers>

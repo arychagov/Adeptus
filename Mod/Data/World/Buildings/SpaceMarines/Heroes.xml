@@ -3,18 +3,18 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36" />
-                <requisitionsCost base="50" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <energyUpkeep add="2" />
+                <productionCost base="36"/>
+                <requisitionsCost base="50"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <energyUpkeep add="2"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <loyalty add="1" />
-                <influence add="2" />
-                <production add="6" />
+                <loyalty add="1"/>
+                <influence add="2"/>
+                <production add="6"/>
             </effects>
         </modifier>
     </modifiers>
@@ -28,13 +28,15 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseHeroesProductionScore base="1.0" />
+                <increaseHeroesProductionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="SpaceMarines/Captain" />
-        <produceUnit requiredUpgrade="SpaceMarines/Librarian" unit="SpaceMarines/Librarian" />
-        <produceUnit requiredUpgrade="SpaceMarines/Chaplain" unit="SpaceMarines/Chaplain" />
+        <produceUnit unit="SpaceMarines/Captain"/>
+        <produceUnit requiredUpgrade="SpaceMarines/Librarian"
+                     unit="SpaceMarines/Librarian"/>
+        <produceUnit requiredUpgrade="SpaceMarines/Chaplain"
+                     unit="SpaceMarines/Chaplain"/>
     </actions>
 </building>

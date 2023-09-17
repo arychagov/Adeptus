@@ -3,7 +3,7 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <ignoreLineOfSight add="1" />
+                <ignoreLineOfSight add="1"/>
             </effects>
         </modifier>
     </modifiers>

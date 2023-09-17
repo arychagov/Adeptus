@@ -3,18 +3,18 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36" />
-                <oreCost base="50" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <energyUpkeep add="2" />
+                <productionCost base="36"/>
+                <oreCost base="50"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <energyUpkeep add="2"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <ore add="2" />
-                <research add="2" />
-                <production add="6" />
+                <ore add="2"/>
+                <research add="2"/>
+                <production add="6"/>
             </effects>
         </modifier>
     </modifiers>
@@ -28,19 +28,27 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesProductionScore base="1.0" />
+                <increaseVehiclesProductionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="AstraMilitarum/Chimera" />
-        <produceUnit requiredUpgrade="AstraMilitarum/TechpriestEnginseer" unit="AstraMilitarum/TechpriestEnginseer" />
-        <produceUnit requiredUpgrade="AstraMilitarum/ScoutSentinel" unit="AstraMilitarum/ScoutSentinel" />
-        <produceUnit requiredUpgrade="AstraMilitarum/Hydra" unit="AstraMilitarum/Hydra" />
-        <produceUnit requiredUpgrade="AstraMilitarum/DevilDog" unit="AstraMilitarum/DevilDog" />
-        <produceUnit requiredUpgrade="AstraMilitarum/Basilisk" unit="AstraMilitarum/Basilisk" />
-        <produceUnit requiredUpgrade="AstraMilitarum/LemanRussBattleTank" unit="AstraMilitarum/LemanRussBattleTank" />
-        <produceUnit requiredUpgrade="AstraMilitarum/RogalDornBattleTank" unit="AstraMilitarum/RogalDornBattleTank" />
-        <produceUnit requiredUpgrade="AstraMilitarum/Baneblade" unit="AstraMilitarum/Baneblade" />
+        <produceUnit unit="AstraMilitarum/Chimera"/>
+        <produceUnit requiredUpgrade="AstraMilitarum/TechpriestEnginseer"
+                     unit="AstraMilitarum/TechpriestEnginseer"/>
+        <produceUnit requiredUpgrade="AstraMilitarum/ScoutSentinel"
+                     unit="AstraMilitarum/ScoutSentinel"/>
+        <produceUnit requiredUpgrade="AstraMilitarum/Hydra"
+                     unit="AstraMilitarum/Hydra"/>
+        <produceUnit requiredUpgrade="AstraMilitarum/DevilDog"
+                     unit="AstraMilitarum/DevilDog"/>
+        <produceUnit requiredUpgrade="AstraMilitarum/Basilisk"
+                     unit="AstraMilitarum/Basilisk"/>
+        <produceUnit requiredUpgrade="AstraMilitarum/LemanRussBattleTank"
+                     unit="AstraMilitarum/LemanRussBattleTank"/>
+        <produceUnit requiredUpgrade="AstraMilitarum/RogalDornBattleTank"
+                     unit="AstraMilitarum/RogalDornBattleTank"/>
+        <produceUnit requiredUpgrade="AstraMilitarum/Baneblade"
+                     unit="AstraMilitarum/Baneblade"/>
     </actions>
 </building>

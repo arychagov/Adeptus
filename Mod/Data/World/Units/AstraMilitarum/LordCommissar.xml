@@ -1,93 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit bloodBone="ChestBone" idleAnimation="Units/AstraMilitarum/LordCommissarIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AstraMilitarum/LordCommissar" mesh="Units/AstraMilitarum/LordCommissar" normalWeight="0.1" scale="1 1 1" walker="1" />
+        <unit bloodBone="ChestBone"
+              idleAnimation="Units/AstraMilitarum/LordCommissarIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/AstraMilitarum/LordCommissar"
+              mesh="Units/AstraMilitarum/LordCommissar"
+              normalWeight="0.1"
+              scale="1 1 1"
+              walker="1"/>
     </model>
     <weapons>
-        <weapon name="BoltPistol" slotName="BoltPistol">
+        <weapon name="BoltPistol"
+                slotName="BoltPistol">
             <model>
-                <projectileWeapon bone="RightHandBone" fireInterval="0.35" material="Weapons/AstraMilitarum/LordCommissarBoltPistol" mesh="Weapons/AstraMilitarum/LordCommissarBoltPistol" muzzleBone=".Muzzle0" />
+                <projectileWeapon bone="RightHandBone"
+                                  fireInterval="0.35"
+                                  material="Weapons/AstraMilitarum/LordCommissarBoltPistol"
+                                  mesh="Weapons/AstraMilitarum/LordCommissarBoltPistol"
+                                  muzzleBone=".Muzzle0"/>
             </model>
         </weapon>
         <weapon name="PowerSword">
             <model>
-                <powerWeapon bone="LeftHandBone" effectBoundingVolume="Blade" fireInterval="1.0" material="Weapons/AstraMilitarum/LordCommissarSword" mesh="Weapons/AstraMilitarum/LordCommissarSword" />
+                <powerWeapon bone="LeftHandBone"
+                             effectBoundingVolume="Blade"
+                             fireInterval="1.0"
+                             material="Weapons/AstraMilitarum/LordCommissarSword"
+                             mesh="Weapons/AstraMilitarum/LordCommissarSword"/>
             </model>
         </weapon>
-        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
+        <weapon name="FragGrenade"
+                enabled="0"
+                slotName="FragGrenade">
             <model>
-                <grenadeWeapon muzzleBone="RightHandBone" />
+                <grenadeWeapon muzzleBone="RightHandBone"/>
             </model>
         </weapon>
-        <weapon name="KrakGrenade" enabled="0" slotName="KrakGrenade">
+        <weapon name="KrakGrenade"
+                enabled="0"
+                slotName="KrakGrenade">
             <model>
-                <grenadeWeapon muzzleBone="RightHandBone" />
+                <grenadeWeapon muzzleBone="RightHandBone"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="6" /> <!-- %armor base armor=4+ -->
-                <foodUpkeep base="1.5" /> <!-- %foodUpkeep base tier=6 factor=1 -->
-                <foodCost base="15.0" /> <!-- %foodCost base tier=6 factor=0.5 -->
-                <hitpointsMax base="7.0" />
-                <duplicateTypeCost mul="2.0" /> <!-- %hitpointsMax base toughness=3 wounds=3 -->
-                <influenceUpkeep base="3" /> <!-- %influenceUpkeep base tier=6 factor=2 -->
-                <influenceCost base="60.0" /> <!-- %influenceCost base tier=6 factor=2 -->
-                <itemSlots base="6" />
-                <levelMax base="9" />
-                <meleeAccuracy base="10" /> <!-- %meleeAccuracy base weaponSkill=5 -->
-                <meleeAttacks base="3" />
-                <strengthDamage base="1" /> <!-- %strengthDamage base strength=3 -->
+                <armor base="6"/> <!-- %armor base armor=4+ -->
+                <foodUpkeep base="1.5"/> <!-- %foodUpkeep base tier=6 factor=1 -->
+                <foodCost base="15.0"/> <!-- %foodCost base tier=6 factor=0.5 -->
+                <hitpointsMax base="7.0"/>
+                <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
+                <influenceUpkeep base="3"/> <!-- %influenceUpkeep base tier=6 factor=2 -->
+                <influenceCost base="60.0"/> <!-- %influenceCost base tier=6 factor=2 -->
+                <itemSlots base="6"/>
+                <levelMax base="9"/>
+                <meleeAccuracy base="10"/> <!-- %meleeAccuracy base weaponSkill=5 -->
+                <meleeAttacks base="3"/>
+                <strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
                 <!-- <meleeInitiative base="3"/> -->
-                <moraleMax base="12" /> <!-- %moraleMax base leadership=9 -->
-                <movementMax base="3" />
-                <oreCost base="15.0" /> <!-- %oreCost base tier=6 factor=0.5 -->
-                <productionCost base="30.0" /> <!-- %productionCost base tier=6 factor=1 -->
-                <rangedAccuracy base="10" /> <!-- %rangedAccuracy base ballisticSkill=5 -->
+                <moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
+                <movementMax base="3"/>
+                <oreCost base="15.0"/> <!-- %oreCost base tier=6 factor=0.5 -->
+                <productionCost base="30.0"/> <!-- %productionCost base tier=6 factor=1 -->
+                <rangedAccuracy base="10"/> <!-- %rangedAccuracy base ballisticSkill=5 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseHeroesScore base="1.0" />
+                <increaseHeroesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/AstraMilitarum/LordCommissarAttack" beginFire="0.4" chargeAnimation="Units/AstraMilitarum/LordCommissarCharge" chargeBeginFire="0.25" chargeDefenseAnimation="Units/AstraMilitarum/LordCommissarChargeDefense" chargeDefenseBeginFire="0.25" chargeDefenseEndFire="0.9" chargeEndFire="1.1" endFire="2.53" meleeAnimation="Units/AstraMilitarum/LordCommissarMelee" meleeBeginSwing="0.15" meleeDefenseAnimation="Units/AstraMilitarum/LordCommissarMeleeDefense" meleeDefenseBeginSwing="0.15" meleeDefenseEndSwing="0.5" meleeEndSwing="0.5" />
+                <action animation="Units/AstraMilitarum/LordCommissarAttack"
+                        beginFire="0.4"
+                        chargeAnimation="Units/AstraMilitarum/LordCommissarCharge"
+                        chargeBeginFire="0.25"
+                        chargeDefenseAnimation="Units/AstraMilitarum/LordCommissarChargeDefense"
+                        chargeDefenseBeginFire="0.25"
+                        chargeDefenseEndFire="0.9"
+                        chargeEndFire="1.1"
+                        endFire="2.53"
+                        meleeAnimation="Units/AstraMilitarum/LordCommissarMelee"
+                        meleeBeginSwing="0.15"
+                        meleeDefenseAnimation="Units/AstraMilitarum/LordCommissarMeleeDefense"
+                        meleeDefenseBeginSwing="0.15"
+                        meleeDefenseEndSwing="0.5"
+                        meleeEndSwing="0.5"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/AstraMilitarum/LordCommissarDie" sound="Units/MediumUnarmoredDie" soundCount="4" soundDelay="0.5" voiceSound="Units/AstraMilitarum/InfantryDie" voiceSoundCount="5" />
+                <action animation="Units/AstraMilitarum/LordCommissarDie"
+                        sound="Units/MediumUnarmoredDie"
+                        soundCount="4"
+                        soundDelay="0.5"
+                        voiceSound="Units/AstraMilitarum/InfantryDie"
+                        voiceSoundCount="5"/>
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0" />
+                <action animationSpeed="1.0"/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/AstraMilitarum/LordCommissarMove" sound="Units/AstraMilitarum/InfantryMove" soundCount="4" />
+                <action animation="Units/AstraMilitarum/LordCommissarMove"
+                        sound="Units/AstraMilitarum/InfantryMove"
+                        soundCount="4"/>
             </model>
         </move>
 
 
-        <auraOfDiscipline levelUpPriority="0.1" passive="1" rank="-1" rankMax="2">
+        <auraOfDiscipline levelUpPriority="0.1"
+                          passive="1"
+                          rank="-1"
+                          rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radiusMax="3" radiusMin="1">
+                        <area affects="Tile"
+                              radiusMax="3"
+                              radiusMin="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Discipline" />
+                                        <addTrait name="Discipline"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -96,15 +143,20 @@
                 </selfTarget>
             </beginTargets>
         </auraOfDiscipline>
-        <bringItDown levelUpPriority="0.1" rank="-1" rankMax="2" passive="1">
+        <bringItDown levelUpPriority="0.1"
+                     passive="1"
+                     rank="-1"
+                     rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radiusMax="3" radiusMin="1">
+                        <area affects="Tile"
+                              radiusMax="3"
+                              radiusMin="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="BringItDown" />
+                                        <addTrait name="BringItDown"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -113,18 +165,28 @@
                 </selfTarget>
             </beginTargets>
         </bringItDown>
-        <laurelsOfCommand name="AstraMilitarum/LaurelsOfCommand" consumedActionPoints="0" consumedMovement="0" cooldown="5" icon="Items/LaurelsOfCommand" rank="-1" rankMax="2" requiredActionPoints="0">
+        <laurelsOfCommand name="AstraMilitarum/LaurelsOfCommand"
+                          consumedActionPoints="0"
+                          consumedMovement="0"
+                          cooldown="5"
+                          icon="Items/LaurelsOfCommand"
+                          rank="-1"
+                          rankMax="2"
+                          requiredActionPoints="0">
             <model>
-                <action sound="Actions/MysticBuff" />
+                <action sound="Actions/MysticBuff"/>
             </model>
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Unit" radiusMax="3" radiusMin="1">
+                        <area affects="Unit"
+                              radiusMax="3"
+                              radiusMin="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <morale addMax="3" addMin="1" />
+                                        <morale addMax="3"
+                                                addMin="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -133,7 +195,13 @@
                 </selfTarget>
             </beginTargets>
         </laurelsOfCommand>
-        <ironWill beginOnDisappear="1" cooldown="10" elite="1" levelUpPriority="1" passive="1" rank="-1" rankMax="0">
+        <ironWill beginOnDisappear="1"
+                  cooldown="10"
+                  elite="1"
+                  levelUpPriority="1"
+                  passive="1"
+                  rank="-1"
+                  rankMax="0">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -141,7 +209,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="IronWill" />
+                                        <addTrait name="IronWill"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -149,11 +217,11 @@
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <destroyed />
+                                            <destroyed/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <hitpointsFactorFromMax add="1.0" />
+                                        <hitpointsFactorFromMax add="1.0"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -162,14 +230,15 @@
                 </selfTarget>
             </beginTargets>
         </ironWill>
-        <levelUp />
-        <shop />
+        <levelUp/>
+        <shop/>
     </actions>
     <traits>
-        <trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour" />
-        <trait name="Hero" />
-        <trait name="SupportHero" />
-        <trait name="RefractorField" />
-        <trait name="Stubborn" />
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
+        <trait name="Hero"/>
+        <trait name="SupportHero"/>
+        <trait name="RefractorField"/>
+        <trait name="Stubborn"/>
     </traits>
 </unit>

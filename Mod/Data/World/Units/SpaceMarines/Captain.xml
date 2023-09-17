@@ -1,89 +1,137 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit bloodBone="Chest" idleAnimation="Units/SpaceMarines/CaptainIdle" idleAnimationCount="4" idleContinuously="1" material="Units/SpaceMarines/Captain" mesh="Units/SpaceMarines/Captain" normalWeight="0.1" scale="1 1 1" walker="1" />
+        <unit bloodBone="Chest"
+              idleAnimation="Units/SpaceMarines/CaptainIdle"
+              idleAnimationCount="4"
+              idleContinuously="1"
+              material="Units/SpaceMarines/Captain"
+              mesh="Units/SpaceMarines/Captain"
+              normalWeight="0.1"
+              scale="1 1 1"
+              walker="1"/>
     </model>
     <weapons>
-        <weapon name="CaptainPowerSword" slotName="PowerSword">
+        <weapon name="CaptainPowerSword"
+                slotName="PowerSword">
             <model>
-                <powerWeapon bone="RightHand" effectBoundingVolume="Blade" fireInterval="0.5" material="Weapons/SpaceMarines/RelicBlade" mesh="Weapons/SpaceMarines/RelicBlade" />
+                <powerWeapon bone="RightHand"
+                             effectBoundingVolume="Blade"
+                             fireInterval="0.5"
+                             material="Weapons/SpaceMarines/RelicBlade"
+                             mesh="Weapons/SpaceMarines/RelicBlade"/>
             </model>
         </weapon>
         <weapon name="CaptainBoltPistol">
             <model>
-                <projectileWeapon bone="LeftHand" fireInterval="0.35" material="Weapons/SpaceMarines/BoltPistol" mesh="Weapons/SpaceMarines/CaptainBoltPistol" muzzleBone="Muzzle0" />
+                <projectileWeapon bone="LeftHand"
+                                  fireInterval="0.35"
+                                  material="Weapons/SpaceMarines/BoltPistol"
+                                  mesh="Weapons/SpaceMarines/CaptainBoltPistol"
+                                  muzzleBone="Muzzle0"/>
             </model>
         </weapon>
-        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
+        <weapon name="FragGrenade"
+                enabled="0"
+                slotName="FragGrenade">
             <model>
-                <grenadeWeapon muzzleBone="RightHand" />
+                <grenadeWeapon muzzleBone="RightHand"/>
             </model>
         </weapon>
-        <weapon name="KrakGrenade" enabled="0" slotName="KrakGrenade">
+        <weapon name="KrakGrenade"
+                enabled="0"
+                slotName="KrakGrenade">
             <model>
-                <grenadeWeapon muzzleBone="RightHand" />
+                <grenadeWeapon muzzleBone="RightHand"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8" /> <!-- %armor base armor=2+ -->
-                <hitpointsMax base="9.0" />
-                <duplicateTypeCost mul="2.0" /> <!-- %hitpointsMax base toughness=4 wounds=3 -->
-                <influenceUpkeep base="4.0" /> <!-- %influenceUpkeep base tier=6 factor=2 -->
-                <influenceCost base="80.0" /> <!-- %influenceCost base tier=6 factor=2 -->
-                <itemSlots base="6" />
-                <levelMax base="9" />
-                <meleeAccuracy base="12" /> <!-- %meleeAccuracy base weaponSkill=6 -->
-                <meleeAttacks base="3" />
-                <strengthDamage base="1.5" /> <!-- %strengthDamage base strength=4 -->
+                <armor base="8"/> <!-- %armor base armor=2+ -->
+                <hitpointsMax base="9.0"/>
+                <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=4 wounds=3 -->
+                <influenceUpkeep base="4.0"/> <!-- %influenceUpkeep base tier=6 factor=2 -->
+                <influenceCost base="80.0"/> <!-- %influenceCost base tier=6 factor=2 -->
+                <itemSlots base="6"/>
+                <levelMax base="9"/>
+                <meleeAccuracy base="12"/> <!-- %meleeAccuracy base weaponSkill=6 -->
+                <meleeAttacks base="3"/>
+                <strengthDamage base="1.5"/> <!-- %strengthDamage base strength=4 -->
                 <!-- <meleeInitiative base="5"/> -->
-                <moraleMax base="12" /> <!-- %moraleMax base leadership=9 -->
-                <movementMax base="3" />
-                <productionCost base="36.0" /> <!-- %productionCost base tier=6 factor=1 -->
-                <rangedAccuracy base="10" /> <!-- %rangedAccuracy base ballisticSkill=5 -->
-                <requisitionsUpkeep base="2.0" /> <!-- %requisitionsUpkeep base tier=6 factor=1 -->
-                <requisitionsCost base="40.0" /> <!-- %requisitionsCost base tier=6 factor=1 -->
+                <moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
+                <movementMax base="3"/>
+                <productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
+                <rangedAccuracy base="10"/> <!-- %rangedAccuracy base ballisticSkill=5 -->
+                <requisitionsUpkeep base="2.0"/> <!-- %requisitionsUpkeep base tier=6 factor=1 -->
+                <requisitionsCost base="40.0"/> <!-- %requisitionsCost base tier=6 factor=1 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseHeroesScore base="1.0" />
+                <increaseHeroesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/SpaceMarines/CaptainAttack" beginFire="0.4" chargeAnimation="Units/SpaceMarines/CaptainCharge" chargeBeginFire="0.25" chargeDefenseAnimation="Units/SpaceMarines/CaptainChargeDefense" chargeDefenseBeginFire="0.25" chargeDefenseEndFire="1.05" chargeEndFire="1.05" endFire="2.53" meleeAnimation="Units/SpaceMarines/CaptainMelee" meleeAnimationSpeed="1.0" meleeBeginSwing="0.15" meleeDefenseAnimation="Units/SpaceMarines/CaptainMeleeDefense" meleeDefenseBeginSwing="0.15" meleeDefenseEndSwing="0.8" meleeEndSwing="0.8" />
+                <action animation="Units/SpaceMarines/CaptainAttack"
+                        beginFire="0.4"
+                        chargeAnimation="Units/SpaceMarines/CaptainCharge"
+                        chargeBeginFire="0.25"
+                        chargeDefenseAnimation="Units/SpaceMarines/CaptainChargeDefense"
+                        chargeDefenseBeginFire="0.25"
+                        chargeDefenseEndFire="1.05"
+                        chargeEndFire="1.05"
+                        endFire="2.53"
+                        meleeAnimation="Units/SpaceMarines/CaptainMelee"
+                        meleeAnimationSpeed="1.0"
+                        meleeBeginSwing="0.15"
+                        meleeDefenseAnimation="Units/SpaceMarines/CaptainMeleeDefense"
+                        meleeDefenseBeginSwing="0.15"
+                        meleeDefenseEndSwing="0.8"
+                        meleeEndSwing="0.8"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/SpaceMarines/CaptainDie" sound="Units/MediumArmoredDie" soundCount="4" soundDelay="0.55" voiceSound="Units/SpaceMarines/InfantryDie" voiceSoundCount="5" />
+                <action animation="Units/SpaceMarines/CaptainDie"
+                        sound="Units/MediumArmoredDie"
+                        soundCount="4"
+                        soundDelay="0.55"
+                        voiceSound="Units/SpaceMarines/InfantryDie"
+                        voiceSoundCount="5"/>
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0" />
+                <action animationSpeed="1.0"/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/SpaceMarines/CaptainMove" sound="Units/SpaceMarines/InfantryMove" soundCount="4" />
+                <action animation="Units/SpaceMarines/CaptainMove"
+                        sound="Units/SpaceMarines/InfantryMove"
+                        soundCount="4"/>
             </model>
         </move>
-        <genericUnitAbility name="SpaceMarines/TacticalPrecision" cooldownMax="3" cooldownMin="5" icon="Actions/Signum" rank="-1" rankMax="2">
+        <genericUnitAbility name="SpaceMarines/TacticalPrecision"
+                            cooldownMax="3"
+                            cooldownMin="5"
+                            icon="Actions/Signum"
+                            rank="-1"
+                            rankMax="2">
             <beginTargets>
                 <target rangeMax="2">
                     <conditions>
                         <unit>
-                            <allied />
-                            <faction name="SpaceMarines" />
-                            <noType name="SpaceMarines/Captain" />
+                            <allied/>
+                            <faction name="SpaceMarines"/>
+                            <noType name="SpaceMarines/Captain"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -91,8 +139,10 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Relentless" duration="1" />
-                                        <addTrait name="SpaceMarines/TacticalPrecision" duration="1" />
+                                        <addTrait name="Relentless"
+                                                  duration="1"/>
+                                        <addTrait name="SpaceMarines/TacticalPrecision"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -101,7 +151,12 @@
                 </target>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility name="SpaceMarines/DominusAegis" icon="Traits/Shrouded" levelUpPriority="0.15" passive="1" rank="-1" rankMax="2">
+        <genericUnitAbility name="SpaceMarines/DominusAegis"
+                            icon="Traits/Shrouded"
+                            levelUpPriority="0.15"
+                            passive="1"
+                            rank="-1"
+                            rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -109,16 +164,18 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="SpaceMarines/DominusAegisSelf" />
+                                        <addTrait name="SpaceMarines/DominusAegisSelf"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
                         </area>
-                        <area affects="Tile" excludeRadius="0" radius="1">
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="SpaceMarines/DominusAegis" />
+                                        <addTrait name="SpaceMarines/DominusAegis"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -127,14 +184,19 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <orbitalStrike cooldown="5" levelUpPriority="1" rank="-1" rankMax="2">
+        <orbitalStrike cooldown="5"
+                       levelUpPriority="1"
+                       rank="-1"
+                       rankMax="2">
             <model>
-                <action animation="Units/SpaceMarines/CaptainOrbitalStrike" sound="Actions/BombDrop" />
+                <action animation="Units/SpaceMarines/CaptainOrbitalStrike"
+                        sound="Actions/BombDrop"/>
             </model>
             <modifiers>
                 <modifier>
                     <effects>
-                        <accuracy mulMax="0" mulMin="-0.66" />
+                        <accuracy mulMax="0"
+                                  mulMin="-0.66"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -142,7 +204,7 @@
                 <target rangeMax="-1">
                     <conditions>
                         <unit>
-                            <enemy />
+                            <enemy/>
                         </unit>
                     </conditions>
                     <areas>
@@ -150,7 +212,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <weaponDamage weapon="OrbitalBombardmentCaptain" />
+                                        <weaponDamage weapon="OrbitalBombardmentCaptain"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -159,16 +221,25 @@
                 </target>
             </beginTargets>
         </orbitalStrike>
-        <genericUnitAbility name="SpaceMarines/SummonHonourGuard" icon="Units/SpaceMarines/HonourGuard" consumedActionPoints="0" consumedMovement="0" cooldown="5" elite="1" levelUpPriority="1" rank="-1" rankMax="0">
+        <genericUnitAbility name="SpaceMarines/SummonHonourGuard"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="5"
+                            elite="1"
+                            icon="Units/SpaceMarines/HonourGuard"
+                            levelUpPriority="1"
+                            rank="-1"
+                            rankMax="0">
             <model>
-                <action animation="" sound="Actions/DropPod" />
+                <action animation=""
+                        sound="Actions/DropPod"/>
             </model>
             <beginTargets>
                 <target rangeMax="1">
                     <conditions>
                         <tile>
-                            <noUnit />
-                            <noFeature name="GravityWaves" />
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
                         </tile>
                     </conditions>
                     <areas>
@@ -176,7 +247,9 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="SpaceMarines/HonourGuard" consumedAction="1" consumedMovement="1" />
+                                        <addUnit name="SpaceMarines/HonourGuard"
+                                                 consumedAction="1"
+                                                 consumedMovement="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -185,7 +258,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Summon" duration="4" />
+                                        <addTrait name="Summon"
+                                                  duration="4"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -196,28 +270,30 @@
         </genericUnitAbility>
         <orbitalDeployment requiredUpgrade="SpaceMarines/OrbitalDeployment">
             <model>
-                <action sound="Actions/DropPod" />
+                <action sound="Actions/DropPod"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40" />
+                        <influenceCost base="40"/>
                     </effects>
                 </modifier>
             </modifiers>
         </orbitalDeployment>
-        <levelUp />
-        <shop />
+        <levelUp/>
+        <shop/>
     </actions>
     <traits>
-        <trait name="AndTheyShallKnowNoFear" />
-        <trait name="ExtraInfantryArmour" requiredUpgrade="SpaceMarines/ExtraInfantryArmour" />
-        <trait name="Hero" />
-        <trait name="IronHalo" />
-        <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand" />
-        <trait name="SpaceMarines/AssaultDoctrine" />
-        <trait name="SpaceMarines/SiegeMasters" />
-        <trait name="SpaceMarines/TheFleshIsWeak" />
-        <trait name="Fearless" />
+        <trait name="AndTheyShallKnowNoFear"/>
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="SpaceMarines/ExtraInfantryArmour"/>
+        <trait name="Hero"/>
+        <trait name="IronHalo"/>
+        <trait name="LastStand"
+               requiredUpgrade="SpaceMarines/LastStand"/>
+        <trait name="SpaceMarines/AssaultDoctrine"/>
+        <trait name="SpaceMarines/SiegeMasters"/>
+        <trait name="SpaceMarines/TheFleshIsWeak"/>
+        <trait name="Fearless"/>
     </traits>
 </unit>

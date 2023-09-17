@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Traits/TeleportHomer" position="10">
+<upgrade icon="Traits/TeleportHomer"
+         position="10">
     <requiredUpgrades>
-        <upgrade name="SpaceMarines/OrbitalDeployment" />
+        <upgrade name="SpaceMarines/OrbitalDeployment"/>
     </requiredUpgrades>
 </upgrade>

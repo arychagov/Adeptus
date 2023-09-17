@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Actions/AstraMilitarumLoyaltyEdict" position="9">
+<upgrade icon="Actions/AstraMilitarumLoyaltyEdict"
+         position="9">
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseLoyaltyScore base="1.0" />
+                <increaseLoyaltyScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

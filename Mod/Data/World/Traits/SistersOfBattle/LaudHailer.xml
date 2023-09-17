@@ -4,13 +4,13 @@
         <modifier>
             <conditions>
                 <unit>
-                    <allied />
-                    <noTrait name="Vehicle" />
-                    <trait name="SistersOfBattle/ShieldOfFaith" />
+                    <allied/>
+                    <noTrait name="Vehicle"/>
+                    <trait name="SistersOfBattle/ShieldOfFaith"/>
                 </unit>
             </conditions>
             <effects>
-                <moraleLossFactor add="-0.33" />
+                <moraleLossFactor add="-0.33"/>
             </effects>
         </modifier>
     </modifiers>

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Traits/Necrons/Nebuloscope" position="2">
+<upgrade icon="Traits/Necrons/Nebuloscope"
+         position="2">
     <requiredUpgrades>
-        <upgrade name="Necrons/Vehicles" />
-        <upgrade name="Necrons/Deathmark" />
+        <upgrade name="Necrons/Vehicles"/>
+        <upgrade name="Necrons/Deathmark"/>
     </requiredUpgrades>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="2.0" />
+                <increaseVehiclesScore base="2.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

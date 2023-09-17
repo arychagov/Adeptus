@@ -4,14 +4,15 @@
         <modifier>
             <conditions>
                 <unit>
-                    <unitsInRange count="1" range="2">
-                        <allied />
-                        <type name="AstraMilitarum/TechpriestEnginseer" />
+                    <unitsInRange count="1"
+                                  range="2">
+                        <allied/>
+                        <type name="AstraMilitarum/TechpriestEnginseer"/>
                     </unitsInRange>
                 </unit>
             </conditions>
             <effects>
-                <healingRate mul="0.5" />
+                <healingRate mul="0.5"/>
             </effects>
         </modifier>
     </modifiers>

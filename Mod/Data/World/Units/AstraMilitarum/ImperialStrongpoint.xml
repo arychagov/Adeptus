@@ -1,74 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit spawnCountMax="1">
     <model>
-        <structureUnit explosionsBone="Strongpoint" groundMaterial="Units/AstraMilitarum/ImperialStrongpointGround" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" idleAnimation="" idleAnimationCount="0" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" material="Buildings/AstraMilitarum/Buildings" mesh="Units/AstraMilitarum/ImperialStrongpoint" scale="0.8 0.8 0.8" uvAnimated="0" />
+        <structureUnit explosionsBone="Strongpoint"
+                       groundMaterial="Units/AstraMilitarum/ImperialStrongpointGround"
+                       heatImpactSound="Impacts/HeatConcrete"
+                       heatImpactSoundCount="4"
+                       idleAnimation=""
+                       idleAnimationCount="0"
+                       kineticImpactSound="Impacts/KineticConcrete"
+                       kineticImpactSoundCount="5"
+                       material="Buildings/AstraMilitarum/Buildings"
+                       mesh="Units/AstraMilitarum/ImperialStrongpoint"
+                       scale="0.8 0.8 0.8"
+                       uvAnimated="0"/>
     </model>
     <weapons>
-        <weapon name="HeavyBolter" requiredUpgrade="AstraMilitarum/BoltDamage" />
-        <weapon name="HeavyBolter" count="3">
+        <weapon name="HeavyBolter"
+                requiredUpgrade="AstraMilitarum/BoltDamage"/>
+        <weapon name="HeavyBolter"
+                count="3">
             <model>
-                <projectileWeapon bone="Strongpoint" material="Buildings/AstraMilitarum/Buildings" mesh="Weapons/AstraMilitarum/ImperialStrongpointWeapons" muzzleBone=".Muzzle" muzzleCount="3" />
+                <projectileWeapon bone="Strongpoint"
+                                  material="Buildings/AstraMilitarum/Buildings"
+                                  mesh="Weapons/AstraMilitarum/ImperialStrongpointWeapons"
+                                  muzzleBone=".Muzzle"
+                                  muzzleCount="3"/>
             </model>
         </weapon>
-        <weapon name="HeavyBolter" count="2" enabled="0" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters" slotName="HeavyBolterUpgrade">
+        <weapon name="HeavyBolter"
+                count="2"
+                enabled="0"
+                requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters"
+                slotName="HeavyBolterUpgrade">
             <model>
-                <projectileWeapon bone="Strongpoint" material="Buildings/AstraMilitarum/Buildings" mesh="Weapons/AstraMilitarum/ImperialStrongpointWeapons" muzzleBone=".Muzzle" muzzleCount="3" />
+                <projectileWeapon bone="Strongpoint"
+                                  material="Buildings/AstraMilitarum/Buildings"
+                                  mesh="Weapons/AstraMilitarum/ImperialStrongpointWeapons"
+                                  muzzleBone=".Muzzle"
+                                  muzzleCount="3"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="10" /> <!-- %armor base armor=14/14/14 -->
-                <cargoSlots base="6" /> <!-- %cargoSlots base capacity=20 -->
-                <hitpointsMax base="32.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base armor=14/14/14 wounds=2 -->
-                <moraleMax base="0" /> <!-- %moraleMax base leadership=8 -->
-                <movementMax max="0" />
-                <oreUpkeep base="2.0" /> <!-- %oreUpkeep base tier=6 factor=1 -->
-                <oreCost base="40.0" /> <!-- %oreCost base tier=6 factor=1 -->
-                <productionCost base="36.0" /> <!-- %productionCost base tier=6 factor=1 -->
-                <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <armor base="10"/> <!-- %armor base armor=14/14/14 -->
+                <cargoSlots base="6"/> <!-- %cargoSlots base capacity=20 -->
+                <hitpointsMax base="32.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=14/14/14 wounds=2 -->
+                <moraleMax base="0"/> <!-- %moraleMax base leadership=8 -->
+                <movementMax max="0"/>
+                <oreUpkeep base="2.0"/> <!-- %oreUpkeep base tier=6 factor=1 -->
+                <oreCost base="40.0"/> <!-- %oreCost base tier=6 factor=1 -->
+                <productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
+                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>
         </modifier>
-        <modifier requiredUpgrade="AstraMilitarum/DefenseEdict" visible="1">
+        <modifier requiredUpgrade="AstraMilitarum/DefenseEdict"
+                  visible="1">
             <effects>
-                <armor add="1" />
+                <armor add="1"/>
             </effects>
         </modifier>
         <modifier>
             <conditions>
                 <unit>
-                    <trait name="AstraMilitarum/InstalledVoidShield" />
+                    <trait name="AstraMilitarum/InstalledVoidShield"/>
                 </unit>
             </conditions>
             <effects>
-                <energyUpkeep add="2" />
+                <energyUpkeep add="2"/>
             </effects>
         </modifier>
     </modifiers>
     <actions>
-        <genericUnitAbility name="AstraMilitarum/ProjectedVoidShield" icon="Traits/VoidShield" cooldown="5" consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0">
+        <genericUnitAbility name="AstraMilitarum/ProjectedVoidShield"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="5"
+                            icon="Traits/VoidShield"
+                            requiredActionPoints="0">
             <conditions>
                 <unit>
-                    <trait name="AstraMilitarum/InstalledVoidShield" />
+                    <trait name="AstraMilitarum/InstalledVoidShield"/>
                 </unit>
             </conditions>
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Unit" radius="2">
+                        <area affects="Unit"
+                              radius="2">
                             <modifiers>
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <allied />
-                                            <faction name="AstraMilitarum" />
-                                            <noTrait name="Fortification" />
+                                            <allied/>
+                                            <faction name="AstraMilitarum"/>
+                                            <noTrait name="Fortification"/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait name="AstraMilitarum/VoidShield" duration="2" />
+                                        <addTrait name="AstraMilitarum/VoidShield"
+                                                  duration="2"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -79,31 +112,42 @@
         </genericUnitAbility>
         <attack>
             <model>
-                <action beginFire="0.15" endFire="2.6" />
+                <action beginFire="0.15"
+                        endFire="2.6"/>
             </model>
         </attack>
         <die>
             <model>
-                <action sound="Units/HeavyBuildingDie" soundCount="3" />
+                <action sound="Units/HeavyBuildingDie"
+                        soundCount="3"/>
             </model>
         </die>
-        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters" weaponSlotName="HeavyBolterUpgrade">
+        <useWeapon consumedActionPoints="0"
+                   consumedMovement="0"
+                   cooldown="1"
+                   requiredActionPoints="0"
+                   requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters"
+                   weaponSlotName="HeavyBolterUpgrade">
             <conditions>
                 <unit>
-                    <trait name="AstraMilitarum/AdditionalHeavyBolters" />
-                    <noTrait name="Exhausted" />
+                    <trait name="AstraMilitarum/AdditionalHeavyBolters"/>
+                    <noTrait name="Exhausted"/>
                 </unit>
             </conditions>
             <model>
-                <action beginFire="0.1" endFire="1.0" />
+                <action beginFire="0.1"
+                        endFire="1.0"/>
             </model>
         </useWeapon>
     </actions>
     <traits>
-        <trait name="Fortification" />
-        <trait name="Transport" />
-        <trait name="AstraMilitarum/ImperialStrongpointDamageReduction1" requiredUpgrade="AstraMilitarum/CityTier2" />
-        <trait name="AstraMilitarum/ImperialStrongpointDamageReduction2" requiredUpgrade="AstraMilitarum/CityTier3" />
-        <trait name="AstraMilitarum/ImperialStrongpointDamageReduction3" requiredUpgrade="AstraMilitarum/RelicPlating" />
+        <trait name="Fortification"/>
+        <trait name="Transport"/>
+        <trait name="AstraMilitarum/ImperialStrongpointDamageReduction1"
+               requiredUpgrade="AstraMilitarum/CityTier2"/>
+        <trait name="AstraMilitarum/ImperialStrongpointDamageReduction2"
+               requiredUpgrade="AstraMilitarum/CityTier3"/>
+        <trait name="AstraMilitarum/ImperialStrongpointDamageReduction3"
+               requiredUpgrade="AstraMilitarum/RelicPlating"/>
     </traits>
 </unit>

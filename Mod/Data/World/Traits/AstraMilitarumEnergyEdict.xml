@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait icon="Actions/AstraMilitarumEnergyEdict" visibilityCategory="Building">
+<trait icon="Actions/AstraMilitarumEnergyEdict"
+       visibilityCategory="Building">
     <modifiers>
         <modifier>
             <conditions>
                 <building>
-                    <type name="AstraMilitarum/Energy" />
+                    <type name="AstraMilitarum/Energy"/>
                 </building>
             </conditions>
             <effects>
-                <energy mul="0.20" />
+                <energy mul="0.20"/>
             </effects>
         </modifier>
     </modifiers>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff" icon="Actions/HammerOfWrath">
+<trait alwaysVisible="1"
+       category="Buff"
+       icon="Actions/HammerOfWrath">
     <modifiers>
         <modifier>
             <conditions>
@@ -8,7 +10,7 @@
                 </weapon>
             </conditions>
             <effects>
-                <damage mul="0.25" />
+                <damage mul="0.25"/>
             </effects>
         </modifier>
     </modifiers>

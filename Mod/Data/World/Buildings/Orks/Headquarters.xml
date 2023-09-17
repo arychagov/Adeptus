@@ -3,35 +3,41 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="336" />
-                <populationRequired base="0" />
-                <slotsRequired base="1" />
+                <productionCost base="336"/>
+                <populationRequired base="0"/>
+                <slotsRequired base="1"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <cityRadius add="1" />
-                <energy add="6" />
-                <food add="6" />
-                <loyalty add="6" />
-                <influence add="6" />
-                <ore add="6" />
-                <populationLimit add="6" />
-                <research add="6" />
-                <production add="6" />
+                <cityRadius add="1"/>
+                <energy add="6"/>
+                <food add="6"/>
+                <loyalty add="6"/>
+                <influence add="6"/>
+                <ore add="6"/>
+                <populationLimit add="6"/>
+                <research add="6"/>
+                <production add="6"/>
             </effects>
         </modifier>
     </modifiers>
     <actions>
-        <produceUnit requiredUpgrade="Orks/Warboss" unit="Orks/Warboss" />
-        <produceUnit requiredUpgrade="Orks/Weirdboy" unit="Orks/Weirdboy" />
-        <produceUnit requiredUpgrade="Orks/Painboy" unit="Orks/Painboy" />
+        <produceUnit requiredUpgrade="Orks/Warboss"
+                     unit="Orks/Warboss"/>
+        <produceUnit requiredUpgrade="Orks/Weirdboy"
+                     unit="Orks/Weirdboy"/>
+        <produceUnit requiredUpgrade="Orks/Painboy"
+                     unit="Orks/Painboy"/>
     </actions>
     <traits>
-        <trait name="Orks/CityTier2" requiredUpgrade="Orks/CityTier2" />
-        <trait name="Orks/CityTier3" requiredUpgrade="Orks/CityTier3" />
-        <trait name="Orks/GreenTideGrowth" />
-        <trait name="Headquarters" />
-        <trait name="Orks/Prosperity" requiredUpgrade="Orks/Construction" />
+        <trait name="Orks/CityTier2"
+               requiredUpgrade="Orks/CityTier2"/>
+        <trait name="Orks/CityTier3"
+               requiredUpgrade="Orks/CityTier3"/>
+        <trait name="Orks/GreenTideGrowth"/>
+        <trait name="Headquarters"/>
+        <trait name="Orks/Prosperity"
+               requiredUpgrade="Orks/Construction"/>
     </traits>
 </building>

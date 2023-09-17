@@ -3,8 +3,8 @@
     <modifiers>
         <modifier>
             <effects>
-                <invulnerableDamageReduction min="0.33" />
-                <witchfireDamageReduction add="0.33" />
+                <invulnerableDamageReduction min="0.33"/>
+                <witchfireDamageReduction add="0.33"/>
             </effects>
         </modifier>
     </modifiers>

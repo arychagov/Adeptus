@@ -3,19 +3,19 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36" />
-                <oreCost base="50" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <energyUpkeep add="2" />
+                <productionCost base="36"/>
+                <oreCost base="50"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <energyUpkeep add="2"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <food add="1" />
-                <influence add="2" />
-                <ore add="1" />
-                <production add="6" />
+                <food add="1"/>
+                <influence add="2"/>
+                <ore add="1"/>
+                <production add="6"/>
             </effects>
         </modifier>
     </modifiers>
@@ -29,16 +29,21 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesProductionScore base="1.0" />
+                <increaseVehiclesProductionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="AdeptusMechanicus/IronstriderBallistarius" />
-        <produceUnit requiredUpgrade="AdeptusMechanicus/SkorpiusDunerider" unit="AdeptusMechanicus/SkorpiusDunerider" />
-        <produceUnit requiredUpgrade="AdeptusMechanicus/KastelanRobot" unit="Neutral/KastelanRobot" />
-        <produceUnit requiredUpgrade="AdeptusMechanicus/OnagerDunecrawler" unit="AdeptusMechanicus/OnagerDunecrawler" />
-        <produceUnit requiredUpgrade="AdeptusMechanicus/SkorpiusDisintegrator" unit="AdeptusMechanicus/SkorpiusDisintegrator" />
-        <produceUnit requiredUpgrade="AdeptusMechanicus/KnightCrusader" unit="AdeptusMechanicus/KnightCrusader" />
+        <produceUnit unit="AdeptusMechanicus/IronstriderBallistarius"/>
+        <produceUnit requiredUpgrade="AdeptusMechanicus/SkorpiusDunerider"
+                     unit="AdeptusMechanicus/SkorpiusDunerider"/>
+        <produceUnit requiredUpgrade="AdeptusMechanicus/KastelanRobot"
+                     unit="Neutral/KastelanRobot"/>
+        <produceUnit requiredUpgrade="AdeptusMechanicus/OnagerDunecrawler"
+                     unit="AdeptusMechanicus/OnagerDunecrawler"/>
+        <produceUnit requiredUpgrade="AdeptusMechanicus/SkorpiusDisintegrator"
+                     unit="AdeptusMechanicus/SkorpiusDisintegrator"/>
+        <produceUnit requiredUpgrade="AdeptusMechanicus/KnightCrusader"
+                     unit="AdeptusMechanicus/KnightCrusader"/>
     </actions>
 </building>

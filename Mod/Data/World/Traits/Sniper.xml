@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff">
+<trait alwaysVisible="1"
+       category="Buff">
     <modifiers>
         <modifier>
             <conditions>
                 <encounter>
                     <opponent>
-                        <noTrait name="Fortification" />
-                        <noTrait name="Vehicle" />
+                        <noTrait name="Fortification"/>
+                        <noTrait name="Vehicle"/>
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <damage mul="1.0" />
-                <armorPenetration min="5" />
+                <damage mul="1.0"/>
+                <armorPenetration min="5"/>
             </effects>
         </modifier>
     </modifiers>

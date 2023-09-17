@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon directionalMuzzleFlashesBlueprint="Effects/BioPlasmaDirectionalMuzzleFlashes" directionalMuzzleFlashesEmitterBlueprint="Effects/StranglethornDirectionalMuzzleFlashesEmitter" explosionsBlueprint="Effects/BioPlasmaExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" fireSound="Weapons/BioPlasmicCannon" fireSoundCount="3" muzzleFlashesBlueprint="Effects/BioPlasmaMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/StranglethornMuzzleFlashesEmitter" projectilesBlueprint="Effects/BioPlasmaProjectiles" projectilesEmitterBlueprint="Effects/StranglethornProjectilesEmitter" />
+        <projectileWeapon directionalMuzzleFlashesBlueprint="Effects/BioPlasmaDirectionalMuzzleFlashes"
+                          directionalMuzzleFlashesEmitterBlueprint="Effects/StranglethornDirectionalMuzzleFlashesEmitter"
+                          explosionsBlueprint="Effects/BioPlasmaExplosions"
+                          explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter"
+                          fireSound="Weapons/BioPlasmicCannon"
+                          fireSoundCount="3"
+                          muzzleFlashesBlueprint="Effects/BioPlasmaMuzzleFlashes"
+                          muzzleFlashesEmitterBlueprint="Effects/StranglethornMuzzleFlashesEmitter"
+                          projectilesBlueprint="Effects/BioPlasmaProjectiles"
+                          projectilesEmitterBlueprint="Effects/StranglethornProjectilesEmitter"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="6" />
-                <rangedArmorPenetration add="6" /> <!-- %rangedArmorPenetration add armorPiercing=2 -->
-                <rangedDamage add="4" /> <!-- %rangedDamage add strength=7 -->
-                <strengthDamage base="0" />
+                <attacks add="6"/>
+                <rangedArmorPenetration add="6"/> <!-- %rangedArmorPenetration add armorPiercing=2 -->
+                <rangedDamage add="4"/> <!-- %rangedDamage add strength=7 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="2" />
+    <target rangeMax="2"/>
     <traits>
-        <trait name="Assault" />
-        <trait name="Tyranids/LongRangedDamage" requiredUpgrade="Tyranids/LongRangedDamage" />
+        <trait name="Assault"/>
+        <trait name="Tyranids/LongRangedDamage"
+               requiredUpgrade="Tyranids/LongRangedDamage"/>
     </traits>
 </weapon>

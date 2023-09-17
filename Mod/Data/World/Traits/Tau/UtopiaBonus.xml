@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <loyaltyFromUtopiaType add="1.0" />
+                <loyaltyFromUtopiaType add="1.0"/>
             </effects>
         </modifier>
     </modifiers>

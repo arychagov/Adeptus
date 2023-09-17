@@ -3,18 +3,18 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36" />
-                <oreCost base="50" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <energyUpkeep add="2" />
+                <productionCost base="36"/>
+                <oreCost base="50"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <energyUpkeep add="2"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <production add="6" />
-                <influence add="2" />
-                <research add="2" />
+                <production add="6"/>
+                <influence add="2"/>
+                <research add="2"/>
             </effects>
         </modifier>
     </modifiers>
@@ -28,14 +28,17 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseHeroesProductionScore base="1.0" />
+                <increaseHeroesProductionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="Eldar/Autarch" />
-        <produceUnit requiredUpgrade="Eldar/Spiritseer" unit="Eldar/Spiritseer" />
-        <produceUnit requiredUpgrade="Eldar/FarseerSkyrunner" unit="Eldar/FarseerSkyrunner" />
-        <produceUnit requiredUpgrade="Eldar/AvatarOfKhaine" unit="Eldar/AvatarOfKhaine" />
+        <produceUnit unit="Eldar/Autarch"/>
+        <produceUnit requiredUpgrade="Eldar/Spiritseer"
+                     unit="Eldar/Spiritseer"/>
+        <produceUnit requiredUpgrade="Eldar/FarseerSkyrunner"
+                     unit="Eldar/FarseerSkyrunner"/>
+        <produceUnit requiredUpgrade="Eldar/AvatarOfKhaine"
+                     unit="Eldar/AvatarOfKhaine"/>
     </actions>
 </building>

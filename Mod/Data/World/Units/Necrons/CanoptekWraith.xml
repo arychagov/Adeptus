@@ -1,88 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement8">
     <model>
-        <unit explosionsBone="SpineCore" idleAnimation="Units/Necrons/CanoptekWraithIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Necrons/CanoptekWraith" mesh="Units/Necrons/CanoptekWraith" scale="1 1 1" />
+        <unit explosionsBone="SpineCore"
+              idleAnimation="Units/Necrons/CanoptekWraithIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/Necrons/CanoptekWraith"
+              mesh="Units/Necrons/CanoptekWraith"
+              scale="1 1 1"/>
     </model>
-    <group memberDeltaX="70" memberDeltaY="80" rowSize="2" size="2" />
+    <group memberDeltaX="70"
+           memberDeltaY="80"
+           rowSize="2"
+           size="2"/>
     <weapons>
         <weapon name="WhipCoils">
             <model>
-                <weapon fireInterval="10" />
+                <weapon fireInterval="10"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8" /> <!-- %armor base armor=3+ -->
-                <energyCost base="60.0" /> <!-- %energyCost base tier=7 factor=1 -->
-                <hitpointsMax base="8.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=5 wounds=2 -->
-                <meleeAccuracy base="8" /> <!-- %meleeAccuracy base weaponSkill=4 -->
-                <meleeAttacks base="3" />
-                <strengthDamage base="2" /> <!-- %strengthDamage base strength=6 -->
-                <moraleMax base="12" /> <!-- %moraleMax base leadership=10 -->
-                <movementMax base="5" />
-                <oreUpkeep base="3.0" /> <!-- %oreUpkeep base tier=7 factor=1 -->
-                <productionCost base="42.0" /> <!-- %productionCost base tier=7 factor=1 -->
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <armor base="8"/> <!-- %armor base armor=3+ -->
+                <energyCost base="60.0"/> <!-- %energyCost base tier=7 factor=1 -->
+                <hitpointsMax base="8.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=5 wounds=2 -->
+                <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
+                <meleeAttacks base="3"/>
+                <strengthDamage base="2"/> <!-- %strengthDamage base strength=6 -->
+                <moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->
+                <movementMax base="5"/>
+                <oreUpkeep base="3.0"/> <!-- %oreUpkeep base tier=7 factor=1 -->
+                <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0" />
+                <increaseInfantryScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action chargeAnimation="Units/Necrons/CanoptekWraithCharge" meleeAnimation="Units/Necrons/CanoptekWraithMelee" meleeBeginSwing="0.2" meleeEndSwing="0.3" />
+                <action chargeAnimation="Units/Necrons/CanoptekWraithCharge"
+                        meleeAnimation="Units/Necrons/CanoptekWraithMelee"
+                        meleeBeginSwing="0.2"
+                        meleeEndSwing="0.3"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Necrons/CanoptekWraithDie" animationCount="2" sound="Units/MediumVehicleDie" soundCount="3" soundDelay="0.3" />
+                <action animation="Units/Necrons/CanoptekWraithDie"
+                        animationCount="2"
+                        sound="Units/MediumVehicleDie"
+                        soundCount="3"
+                        soundDelay="0.3"/>
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0" />
+                <action animationSpeed="1.0"/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/Necrons/CanoptekWraithMove" sound="Units/Necrons/CanoptekSpyderMove" soundCount="3" />
+                <action animation="Units/Necrons/CanoptekWraithMove"
+                        sound="Units/Necrons/CanoptekSpyderMove"
+                        soundCount="3"/>
             </model>
         </move>
-        <necrodermisRepair name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0" requiredUpgrade="Necrons/NecrodermisRepair">
+        <necrodermisRepair name="Necrons/NecrodermisRepair"
+                           consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="1"
+                           requiredActionPoints="0"
+                           requiredUpgrade="Necrons/NecrodermisRepair">
             <model>
-                <action sound="Actions/Heal" />
+                <action sound="Actions/Heal"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="50" />
+                        <influenceCost base="50"/>
                     </effects>
                 </modifier>
 
                 <modifier requiredUpgrade="Necrons/HousingBuildingBonus">
                     <effects>
-                        <cooldown max="0" />
+                        <cooldown max="0"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Necrons/NecrodermisRepair3">
                     <effects>
-                        <influenceCost add="-30" />
+                        <influenceCost add="-30"/>
                     </effects>
                 </modifier>
             </modifiers>
             <conditions>
                 <unit>
-                    <noTrait name="Necrons/BloodyCrusade" />
-                    <damaged />
+                    <noTrait name="Necrons/BloodyCrusade"/>
+                    <damaged/>
                 </unit>
             </conditions>
             <beginTargets>
@@ -92,18 +115,18 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints add="6" />
+                                        <hitpoints add="6"/>
                                     </effects>
                                 </modifier>
 
                                 <modifier requiredUpgrade="Necrons/HousingBuildingBonus">
                                     <effects>
-                                        <hitpoints add="2" />
+                                        <hitpoints add="2"/>
                                     </effects>
                                 </modifier>
                                 <modifier requiredUpgrade="Necrons/NecrodermisRepair3">
                                     <effects>
-                                        <hitpoints add="2" />
+                                        <hitpoints add="2"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -112,19 +135,24 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <scarabHive name="Necrons/ScarabHive" cooldown="10" icon="Units/Necrons/CanoptekScarab" requiredUpgrade="Necrons/TheSwarm">
+        <scarabHive name="Necrons/ScarabHive"
+                    cooldown="10"
+                    icon="Units/Necrons/CanoptekScarab"
+                    requiredUpgrade="Necrons/TheSwarm">
             <model>
-                <action animation="Units/Necrons/CanoptekWraithMove" sound="Actions/PsychicBuff" />
+                <action animation="Units/Necrons/CanoptekWraithMove"
+                        sound="Actions/PsychicBuff"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <energyCost base="20" />
+                        <energyCost base="20"/>
                     </effects>
                 </modifier>
-                <modifier requiredUpgrade="Necrons/TheSwarm" visible="0">
+                <modifier requiredUpgrade="Necrons/TheSwarm"
+                          visible="0">
                     <effects>
-                        <energyCost add="-10" />
+                        <energyCost add="-10"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -132,9 +160,9 @@
                 <target rangeMax="1">
                     <conditions>
                         <tile>
-                            <land />
-                            <noUnit />
-                            <noFeature name="GravityWaves" />
+                            <land/>
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
                         </tile>
                     </conditions>
                     <areas>
@@ -142,7 +170,9 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="Necrons/CanoptekScarab" consumedAction="0" consumedMovement="0" />
+                                        <addUnit name="Necrons/CanoptekScarab"
+                                                 consumedAction="0"
+                                                 consumedMovement="0"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -151,9 +181,15 @@
                 </target>
             </beginTargets>
         </scarabHive>
-        <genericUnitAbility name="Necrons/Wraithflight" consumedActionPoints="0" consumedMovement="0" cooldown="5" icon="Traits/Necrons/Wraithflight" requiredActionPoints="0" requiredMovement="1">
+        <genericUnitAbility name="Necrons/Wraithflight"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="5"
+                            icon="Traits/Necrons/Wraithflight"
+                            requiredActionPoints="0"
+                            requiredMovement="1">
             <model>
-                <action sound="Actions/ChargeUp" />
+                <action sound="Actions/ChargeUp"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -162,7 +198,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Necrons/Wraithflight" duration="1" />
+                                        <addTrait name="Necrons/Wraithflight"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -173,15 +210,18 @@
         </genericUnitAbility>
     </actions>
     <traits>
-        <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
-        <trait name="ExtraVehicleArmour" requiredUpgrade="Necrons/ExtraVehicleArmour" />
-        <trait name="Fearless" />
-        <trait name="Fleet" />
-        <trait name="Necrons/LivingMetalCanoptekWraith" />
-        <trait name="MoveThroughCover" />
-        <trait name="Rending" />
-        <trait name="Necrons/WraithForm" />
-        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
-        <trait name="VeryBulky" />
+        <trait name="Necrons/AttackCityBonus"
+               requiredUpgrade="Necrons/AttackCityBonus"/>
+        <trait name="ExtraVehicleArmour"
+               requiredUpgrade="Necrons/ExtraVehicleArmour"/>
+        <trait name="Fearless"/>
+        <trait name="Fleet"/>
+        <trait name="Necrons/LivingMetalCanoptekWraith"/>
+        <trait name="MoveThroughCover"/>
+        <trait name="Rending"/>
+        <trait name="Necrons/WraithForm"/>
+        <trait name="Necrons/PredictiveStrategist"
+               requiredUpgrade="Necrons/PredictiveStrategist"/>
+        <trait name="VeryBulky"/>
     </traits>
 </unit>

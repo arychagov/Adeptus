@@ -3,18 +3,18 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36" />
-                <oreCost base="50" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <energyUpkeep add="2" />
+                <productionCost base="36"/>
+                <oreCost base="50"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <energyUpkeep add="2"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <food add="2" />
-                <loyalty add="1" />
-                <production add="6" />
+                <food add="2"/>
+                <loyalty add="1"/>
+                <production add="6"/>
             </effects>
         </modifier>
     </modifiers>
@@ -28,14 +28,15 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryProductionScore base="1.0" />
+                <increaseInfantryProductionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="Orks/GargantuanSquiggoth" />
+        <produceUnit unit="Orks/GargantuanSquiggoth"/>
     </actions>
     <traits>
-        <trait name="Orks/BonusBeastsProduction" requiredUpgrade="Orks/BonusBeastsProduction" />
+        <trait name="Orks/BonusBeastsProduction"
+               requiredUpgrade="Orks/BonusBeastsProduction"/>
     </traits>
 </building>

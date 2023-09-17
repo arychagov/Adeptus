@@ -1,72 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement12">
     <model>
-        <unit explosionsBone="Hull_Shake" idleAnimation="Units/SpaceMarines/WhirlwindIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SpaceMarines/Whirlwind" mesh="Units/SpaceMarines/Whirlwind" scale="1 1 1" uvAnimated="1" />
+        <unit explosionsBone="Hull_Shake"
+              idleAnimation="Units/SpaceMarines/WhirlwindIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/SpaceMarines/Whirlwind"
+              mesh="Units/SpaceMarines/Whirlwind"
+              scale="1 1 1"
+              uvAnimated="1"/>
     </model>
     <weapons>
         <weapon name="WhirlwindMultipleMissileLauncherIncendiaryCastellan">
             <model>
-                <missileWeapon fireInterval="1.14" muzzleBone="Missile" muzzleCount="4" />
+                <missileWeapon fireInterval="1.14"
+                               muzzleBone="Missile"
+                               muzzleCount="4"/>
             </model>
         </weapon>
-        <weapon name="HunterKillerMissile" enabled="0" slotName="HunterKillerMissile">
+        <weapon name="HunterKillerMissile"
+                enabled="0"
+                slotName="HunterKillerMissile">
             <model>
-                <missileWeapon fireInterval="5.0" muzzleBone="Hull_Shake" />
+                <missileWeapon fireInterval="5.0"
+                               muzzleBone="Hull_Shake"/>
             </model>
         </weapon>
-        <weapon name="None" enabled="0" requiredUpgrade="SpaceMarines/SmokeLauncher">
+        <weapon name="None"
+                enabled="0"
+                requiredUpgrade="SpaceMarines/SmokeLauncher">
             <model>
-                <weapon bone="Hull_Shake" material="Units/SpaceMarines/Whirlwind" mesh="Weapons/SpaceMarines/WhirlwindSmokeLauncher" />
+                <weapon bone="Hull_Shake"
+                        material="Units/SpaceMarines/Whirlwind"
+                        mesh="Weapons/SpaceMarines/WhirlwindSmokeLauncher"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8" /> <!-- %armor base armor=12/12/10 -->
-                <hitpointsMax base="24.0" /> <!-- %hitpointsMax base armor=11/11/10 wounds=3 -->
-                <moraleMax base="10" /> <!-- %moraleMax base leadership=8 -->
-                <movementMax base="4" />
-                <productionCost base="36.0" /> <!-- %productionCost base tier=6 factor=1 -->
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
-                <requisitionsUpkeep base="2.0" /> <!-- %requisitionsUpkeep base tier=6 factor=1 -->
-                <requisitionsCost base="40.0" /> <!-- %requisitionsCost base tier=6 factor=1 -->
-                <duplicateTypeCost mul="0.125" />
+                <armor base="8"/> <!-- %armor base armor=12/12/10 -->
+                <hitpointsMax base="24.0"/> <!-- %hitpointsMax base armor=11/11/10 wounds=3 -->
+                <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+                <movementMax base="4"/>
+                <productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <requisitionsUpkeep base="2.0"/> <!-- %requisitionsUpkeep base tier=6 factor=1 -->
+                <requisitionsCost base="40.0"/> <!-- %requisitionsCost base tier=6 factor=1 -->
+                <duplicateTypeCost mul="0.125"/>
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="1.0" />
+                <increaseVehiclesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/SpaceMarines/WhirlwindAttack" beginFire="0.9" endFire="2.04" />
+                <action animation="Units/SpaceMarines/WhirlwindAttack"
+                        beginFire="0.9"
+                        endFire="2.04"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/SpaceMarines/WhirlwindDie0" sound="Units/MediumVehicleDie" soundCount="3" soundDelay="0" />
+                <action animation="Units/SpaceMarines/WhirlwindDie0"
+                        sound="Units/MediumVehicleDie"
+                        soundCount="3"
+                        soundDelay="0"/>
             </model>
         </die>
         <move>
             <model>
-                <action animation="Units/SpaceMarines/WhirlwindMove" sound="Units/SpaceMarines/TankMove" soundCount="3" />
+                <action animation="Units/SpaceMarines/WhirlwindMove"
+                        sound="Units/SpaceMarines/TankMove"
+                        soundCount="3"/>
             </model>
         </move>
-        <genericUnitAbility name="SpaceMarines/ShatterDefences" icon="Actions/ChaosSpaceMarines/ShatterDefences" consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
+        <genericUnitAbility name="SpaceMarines/ShatterDefences"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="3"
+                            icon="Actions/ChaosSpaceMarines/ShatterDefences"
+                            requiredActionPoints="0">
             <model>
-                <action sound="Units/SpaceMarines/ShatterDefences" />
+                <action sound="Units/SpaceMarines/ShatterDefences"/>
             </model>
             <beginTargets>
                 <target rangeMax="3">
                     <conditions>
                         <tile>
-                            <noFeature name="ShatteredDefences" />
+                            <noFeature name="ShatteredDefences"/>
                         </tile>
                     </conditions>
                     <areas>
@@ -74,7 +102,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature name="ShatteredDefences" duration="1" />
+                                        <addFeature name="ShatteredDefences"
+                                                    duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -83,9 +112,15 @@
                 </target>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility name="MachineSpirit" icon="Traits/MachineSpirit" requiredUpgrade="SpaceMarines/MachineSpirit" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0">
+        <genericUnitAbility name="MachineSpirit"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="5"
+                            icon="Traits/MachineSpirit"
+                            requiredActionPoints="0"
+                            requiredUpgrade="SpaceMarines/MachineSpirit">
             <model>
-                <action sound="Actions/MechanicalBuff" />
+                <action sound="Actions/MechanicalBuff"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -94,7 +129,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="MachineSpirit" duration="1" />
+                                        <addTrait name="MachineSpirit"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -103,9 +139,14 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <createSmokeScreen consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="SpaceMarines/SmokeLauncher">
+        <createSmokeScreen consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="10"
+                           icon="Traits/SmokeScreen"
+                           requiredActionPoints="0"
+                           requiredUpgrade="SpaceMarines/SmokeLauncher">
             <model>
-                <action sound="Actions/SmokeScreen" />
+                <action sound="Actions/SmokeScreen"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -114,7 +155,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature name="SmokeScreen" duration="3" />
+                                        <addFeature name="SmokeScreen"
+                                                    duration="3"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -123,33 +165,39 @@
                 </selfTarget>
             </beginTargets>
         </createSmokeScreen>
-        <useWeapon cooldown="10" requiredUpgrade="SpaceMarines/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
+        <useWeapon cooldown="10"
+                   requiredUpgrade="SpaceMarines/HunterKillerMissile"
+                   weaponSlotName="HunterKillerMissile">
             <model>
-                <action beginFire="0.1" endFire="1.0" />
+                <action beginFire="0.1"
+                        endFire="1.0"/>
             </model>
         </useWeapon>
         <orbitalDeployment requiredUpgrade="SpaceMarines/OrbitalDeployment">
             <model>
-                <action sound="Actions/DropPod" />
+                <action sound="Actions/DropPod"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40" />
+                        <influenceCost base="40"/>
                     </effects>
                 </modifier>
             </modifiers>
         </orbitalDeployment>
     </actions>
     <traits>
-        <trait name="AndTheyShallKnowNoFear" />
-        <trait name="DozerBlade" requiredUpgrade="SpaceMarines/DozerBlade" />
-        <trait name="ExtraVehicleArmour" requiredUpgrade="SpaceMarines/ExtraVehicleArmour" />
-        <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand" />
+        <trait name="AndTheyShallKnowNoFear"/>
+        <trait name="DozerBlade"
+               requiredUpgrade="SpaceMarines/DozerBlade"/>
+        <trait name="ExtraVehicleArmour"
+               requiredUpgrade="SpaceMarines/ExtraVehicleArmour"/>
+        <trait name="LastStand"
+               requiredUpgrade="SpaceMarines/LastStand"/>
         <trait name="ConvergentTargetingWhirlwind"/>
-        <trait name="Tank" />
-        <trait name="Vehicle" />
-        <trait name="SpaceMarines/SiegeMasters" />
-        <trait name="SpaceMarines/MachineEmpathy" />
+        <trait name="Tank"/>
+        <trait name="Vehicle"/>
+        <trait name="SpaceMarines/SiegeMasters"/>
+        <trait name="SpaceMarines/MachineEmpathy"/>
     </traits>
 </unit>

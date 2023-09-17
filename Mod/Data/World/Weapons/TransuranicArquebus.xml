@@ -1,24 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon directionalMuzzleFlashesBlueprint="Effects/PlasmaDirectionalMuzzleFlashes" explosionsBlueprint="Effects/TransuranicArquebusExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" fireInterval="0.2" fireSound="Weapons/TransuranicArquebus" fireSoundCount="3" muzzleFlashesBlueprint="Effects/PlasmaMuzzleFlashes" projectilesBlueprint="Effects/PlasmaProjectiles" />
+        <projectileWeapon directionalMuzzleFlashesBlueprint="Effects/PlasmaDirectionalMuzzleFlashes"
+                          explosionsBlueprint="Effects/TransuranicArquebusExplosions"
+                          explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter"
+                          fireInterval="0.2"
+                          fireSound="Weapons/TransuranicArquebus"
+                          fireSoundCount="3"
+                          muzzleFlashesBlueprint="Effects/PlasmaMuzzleFlashes"
+                          projectilesBlueprint="Effects/PlasmaProjectiles"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="1" />
-                <rangedArmorPenetration add="4" /> <!-- %rangedArmorPenetration add armorPiercing=3 -->
-                <rangedDamage add="1" /> <!-- %rangedDamage add strength=4 -->
-                <strengthDamage base="0" />
+                <attacks add="1"/>
+                <rangedArmorPenetration add="4"/> <!-- %rangedArmorPenetration add armorPiercing=3 -->
+                <rangedDamage add="1"/> <!-- %rangedDamage add strength=4 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="3" />
+    <target rangeMax="3"/>
     <traits>
-        <trait name="Armourbane" />
-        <trait name="HeavyWeapon" />
-        <trait name="Haywire" />
-        <trait name="MonsterHunter" />
-        <trait name="AdeptusMechanicus/HeavyWeaponBonus" requiredUpgrade="AdeptusMechanicus/HeavyWeaponBonus" />
+        <trait name="Armourbane"/>
+        <trait name="HeavyWeapon"/>
+        <trait name="Haywire"/>
+        <trait name="MonsterHunter"/>
+        <trait name="AdeptusMechanicus/HeavyWeaponBonus"
+               requiredUpgrade="AdeptusMechanicus/HeavyWeaponBonus"/>
     </traits>
 </weapon>

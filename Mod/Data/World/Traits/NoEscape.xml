@@ -5,12 +5,12 @@
             <conditions>
                 <encounter>
                     <opponent>
-                        <trait name="OpenTopped" />
+                        <trait name="OpenTopped"/>
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <attacks add="2" />
+                <attacks add="2"/>
             </effects>
         </modifier>
     </modifiers>

@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff" icon="Actions/SistersOfBattle/StirringRhetoric" rankMax="2">
+<trait category="Debuff"
+       icon="Actions/SistersOfBattle/StirringRhetoric"
+       rankMax="2">
     <modifiers>
         <modifier>
             <conditions>
                 <unit>
-                    <enemy />
-                    <trait name="Broken" />
+                    <enemy/>
+                    <trait name="Broken"/>
                 </unit>
             </conditions>
             <effects>
-                <damageTaken mulMax="0.15" mulMin="0.05" />
+                <damageTaken mulMax="0.15"
+                             mulMin="0.05"/>
             </effects>
         </modifier>
     </modifiers>

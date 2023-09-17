@@ -1,60 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-    <entry name="SpaceMarines/Captain" value="Captain of the Lost" />
-    <entry name="SpaceMarines/ChaplainDescription" value="Zealous hero unit that leads melee combat and inspires loyalty." />
-    <entry name="SpaceMarines/DevastatorCenturionDescription" value="Very bulky anti-tank infantry unit."/>
-    <entry name="SpaceMarines/HonourGuard" value="Honour Guard" />
-    <entry name="SpaceMarines/HonourGuardDescription" value="Elite cadre of Veteran Space Marines." />
-    <entry name="SpaceMarines/Techmarine" value="Techmarine" />
-    <entry name="SpaceMarines/TechmarineDescription" value="Technician and engineer as well as a full Astartes battle-brother." />
-    <entry name="SpaceMarines/TechmarineFlavor" value="They learn how to divine the runes of engineering and study the liturgy of maintenance. This great body of lore must be committed to memory and understood by the novice Techmarine." />
-    <entry name="SpaceMarines/KillTeamEliminators" value="Kill Team Eliminators" />
-    <entry name="SpaceMarines/KillTeamEliminatorsDescription" value="Cloaked infantry unit equipped to bring down any target." />
-    <entry name="SpaceMarines/KillTeamEliminatorsFlavor" value="Once marked, there is nowhere for an Eliminator's prey to hide, and no amount of protective armour that can stop the killing shot." />
-    <entry name="SpaceMarines/WhirlwindDescription" value="Artillery tank that capable of wiping out swathes of enemy infantry in lethal explosions and shatter tile defences."/>
+    <entry name="SpaceMarines/Captain"
+           value="Captain of the Lost"/>
+    <entry name="SpaceMarines/ChaplainDescription"
+           value="Zealous hero unit that leads melee combat and inspires loyalty."/>
+    <entry name="SpaceMarines/DevastatorCenturionDescription"
+           value="Very bulky anti-tank infantry unit."/>
+    <entry name="SpaceMarines/HonourGuard"
+           value="Honour Guard"/>
+    <entry name="SpaceMarines/HonourGuardDescription"
+           value="Elite cadre of Veteran Space Marines."/>
+    <entry name="SpaceMarines/Techmarine"
+           value="Techmarine"/>
+    <entry name="SpaceMarines/TechmarineDescription"
+           value="Technician and engineer as well as a full Astartes battle-brother."/>
+    <entry name="SpaceMarines/TechmarineFlavor"
+           value="They learn how to divine the runes of engineering and study the liturgy of maintenance. This great body of lore must be committed to memory and understood by the novice Techmarine."/>
+    <entry name="SpaceMarines/KillTeamEliminators"
+           value="Kill Team Eliminators"/>
+    <entry name="SpaceMarines/KillTeamEliminatorsDescription"
+           value="Cloaked infantry unit equipped to bring down any target."/>
+    <entry name="SpaceMarines/KillTeamEliminatorsFlavor"
+           value="Once marked, there is nowhere for an Eliminator's prey to hide, and no amount of protective armour that can stop the killing shot."/>
+    <entry name="SpaceMarines/WhirlwindDescription"
+           value="Artillery tank that capable of wiping out swathes of enemy infantry in lethal explosions and shatter tile defences."/>
 
-    <entry name="Necrons/DeathmarkDescription" value="Sniper unit." />
-    <entry name="Necrons/DestroyerLordDescription" value="Hero unit with powerful auras and ranged capabilities." />
-    <entry name="Necrons/ObeliskDescription" value="Super-heavy skimmer unit with powerful anti-tank capabilities that protects nearby allied infantry units." />
+    <entry name="Necrons/DeathmarkDescription"
+           value="Sniper unit."/>
+    <entry name="Necrons/DestroyerLordDescription"
+           value="Hero unit with powerful auras and ranged capabilities."/>
+    <entry name="Necrons/ObeliskDescription"
+           value="Super-heavy skimmer unit with powerful anti-tank capabilities that protects nearby allied infantry units."/>
 
-    <entry name="Eldar/Autarch" value="Autarch" />
-    <entry name="Eldar/AutarchDescription" value="Psyker hero unit that leads the Aeldari charge." />
-    <entry name="Eldar/AutarchFlavor" value="Autarchs have a consummate understanding of the way of the warrior, and the future of the race has been shaped by their excellence in the arts of death. They follow the Path of Command, gaining a wider appreciation of battle than any other and directing the warhost on the most efficient path to victory. Theirs is a burning obsession to see war itself conquered and made subservient to their will." />
-    <entry name="Eldar/HornetDescription" value="Fast reconnaissance skimmer unit that can clear tiles." />
+    <entry name="Eldar/Autarch"
+           value="Autarch"/>
+    <entry name="Eldar/AutarchDescription"
+           value="Psyker hero unit that leads the Aeldari charge."/>
+    <entry name="Eldar/AutarchFlavor"
+           value="Autarchs have a consummate understanding of the way of the warrior, and the future of the race has been shaped by their excellence in the arts of death. They follow the Path of Command, gaining a wider appreciation of battle than any other and directing the warhost on the most efficient path to victory. Theirs is a burning obsession to see war itself conquered and made subservient to their will."/>
+    <entry name="Eldar/HornetDescription"
+           value="Fast reconnaissance skimmer unit that can clear tiles."/>
 
-    <entry name="AdeptusMechanicus/IronstriderBallistariusDescription" value="Doctrina Imperatives fast walker unit equipped with las-cannon." />
+    <entry name="AdeptusMechanicus/IronstriderBallistariusDescription"
+           value="Doctrina Imperatives fast walker unit equipped with las-cannon."/>
 
-    <entry name="Tau/GunDroneDescription" value="Basic combat drone unit that marks enemies for increased damage." />
-    <entry name="Tau/BroadsideBattlesuit" value="Broadside Battlesuits" />
-    <entry name="Tau/GhostkeelBattlesuit" value="Ghostkeel Battlesuit" />
-    <entry name="Tau/GravInhibitorDrone" value="Grav-Inhibitor Drones" />
-    <entry name="Tau/InterceptorDrone" value="Interceptor Drones" />
-    <entry name="Tau/PulseAcceleratorDrone" value="Pulse Accelerator Drones" />
-    <entry name="Tau/RiptideBattlesuit" value="Riptide Battlesuit" />
-    <entry name="Tau/ShieldedMissileDrone" value="Shielded Missile Drones" />
-    <entry name="Tau/SkyRayGunship" value="Sky Ray Gunship" />
-    <entry name="Tau/StealthBattlesuit" value="Stealth Battlesuits" />
-    <entry name="Tau/Stormsurge" value="Stormsurge" />
-    <entry name="Tau/SunSharkBomber" value="Sun Shark Bomber" />
-    <entry name="Tau/CrisisBattlesuit" value="Crisis Battlesuits" />
-    <entry name="Tau/Devilfish" value="Devilfish" />
-    <entry name="Tau/GunDrone" value="Gun Drones" />
-    <entry name="Tau/TacticalDrone" value="Tactical Drones" />
-    <entry name="Tau/TacticalDroneDescription" value="<string name='Units/Tau/GunDroneDescription'/>" />
-    <entry name="Tau/TacticalDroneFlavor" value="<string name='Units/Tau/GunDroneFlavor'/>" />
-    <entry name="Tau/HammerheadGunship" value="Hammerhead Gunship" />
-    <entry name="Tau/Piranha" value="Piranha" />
-    <entry name="Tau/MarkerDrone" value="Marker Drones" />
-    <entry name="Tau/RazorsharkStrikeFighter" value="Razorshark Strike Fighter" />
-    <entry name="Tau/ReconDrone" value="Recon Drones" />
-    <entry name="Tau/ShieldDrone" value="Shield Drones" />
-    <entry name="Tau/StealthDrone" value="Stealth Drones" />
-    <entry name="Tau/RVarnaBattlesuit" value="R'Varna Battlesuit"/>
+    <entry name="Tau/GunDroneDescription"
+           value="Basic combat drone unit that marks enemies for increased damage."/>
+    <entry name="Tau/BroadsideBattlesuit"
+           value="Broadside Battlesuits"/>
+    <entry name="Tau/GhostkeelBattlesuit"
+           value="Ghostkeel Battlesuit"/>
+    <entry name="Tau/GravInhibitorDrone"
+           value="Grav-Inhibitor Drones"/>
+    <entry name="Tau/InterceptorDrone"
+           value="Interceptor Drones"/>
+    <entry name="Tau/PulseAcceleratorDrone"
+           value="Pulse Accelerator Drones"/>
+    <entry name="Tau/RiptideBattlesuit"
+           value="Riptide Battlesuit"/>
+    <entry name="Tau/ShieldedMissileDrone"
+           value="Shielded Missile Drones"/>
+    <entry name="Tau/SkyRayGunship"
+           value="Sky Ray Gunship"/>
+    <entry name="Tau/StealthBattlesuit"
+           value="Stealth Battlesuits"/>
+    <entry name="Tau/Stormsurge"
+           value="Stormsurge"/>
+    <entry name="Tau/SunSharkBomber"
+           value="Sun Shark Bomber"/>
+    <entry name="Tau/CrisisBattlesuit"
+           value="Crisis Battlesuits"/>
+    <entry name="Tau/Devilfish"
+           value="Devilfish"/>
+    <entry name="Tau/GunDrone"
+           value="Gun Drones"/>
+    <entry name="Tau/TacticalDrone"
+           value="Tactical Drones"/>
+    <entry name="Tau/TacticalDroneDescription"
+           value="<string name='Units/Tau/GunDroneDescription'/>"/>
+    <entry name="Tau/TacticalDroneFlavor"
+           value="<string name='Units/Tau/GunDroneFlavor'/>"/>
+    <entry name="Tau/HammerheadGunship"
+           value="Hammerhead Gunship"/>
+    <entry name="Tau/Piranha"
+           value="Piranha"/>
+    <entry name="Tau/MarkerDrone"
+           value="Marker Drones"/>
+    <entry name="Tau/RazorsharkStrikeFighter"
+           value="Razorshark Strike Fighter"/>
+    <entry name="Tau/ReconDrone"
+           value="Recon Drones"/>
+    <entry name="Tau/ShieldDrone"
+           value="Shield Drones"/>
+    <entry name="Tau/StealthDrone"
+           value="Stealth Drones"/>
+    <entry name="Tau/RVarnaBattlesuit"
+           value="R'Varna Battlesuit"/>
 
-    <entry name="SistersOfBattle/Exorcist" value="Exarsist"/>
-    <entry name="SistersOfBattle/CastigatorDescription" value="Powerful tank unit equipped with multi meltas."/>
-    <entry name="SistersOfBattle/SisterAssassinorum" value="Sisters Assassinorum" />
-    <entry name="SistersOfBattle/SisterAssassinorumDescription" value="Sniper unit." />
-    <entry name="SistersOfBattle/SisterAssassinorumFlavor" value="For a split second, it seems as though the world reshapes itself to the will of a single warrior." />
+    <entry name="SistersOfBattle/Exorcist"
+           value="Exarsist"/>
+    <entry name="SistersOfBattle/CastigatorDescription"
+           value="Powerful tank unit equipped with multi meltas."/>
+    <entry name="SistersOfBattle/SisterAssassinorum"
+           value="Sisters Assassinorum"/>
+    <entry name="SistersOfBattle/SisterAssassinorumDescription"
+           value="Sniper unit."/>
+    <entry name="SistersOfBattle/SisterAssassinorumFlavor"
+           value="For a split second, it seems as though the world reshapes itself to the will of a single warrior."/>
 
 </language>

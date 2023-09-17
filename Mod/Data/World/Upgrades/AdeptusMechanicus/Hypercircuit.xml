@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Actions/AdeptusMechanicus/LitanyOfTheElectromancer" position="10">
+<upgrade icon="Actions/AdeptusMechanicus/LitanyOfTheElectromancer"
+         position="10">
     <requiredUpgrades>
-        <upgrade name="AdeptusMechanicus/LitanyOfTheElectromancer" />
+        <upgrade name="AdeptusMechanicus/LitanyOfTheElectromancer"/>
     </requiredUpgrades>
 </upgrade>

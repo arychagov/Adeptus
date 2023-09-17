@@ -4,13 +4,13 @@
         <modifier visible="0">
             <conditions>
                 <unit>
-                    <trait name="SpaceMarines/UpgradedLascannon" />
+                    <trait name="SpaceMarines/UpgradedLascannon"/>
                 </unit>
             </conditions>
             <effects>
-                <rangedDamage add="2" />
-                <rangedAccuracy add="2" />
-                <armorPenetration add="1" />
+                <rangedDamage add="2"/>
+                <rangedAccuracy add="2"/>
+                <armorPenetration add="1"/>
             </effects>
         </modifier>
     </modifiers>

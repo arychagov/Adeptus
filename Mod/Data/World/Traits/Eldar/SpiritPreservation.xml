@@ -5,12 +5,12 @@
             <modifiers>
                 <modifier>
                     <effects>
-                        <energyFromExperienceValueFactor add="3" />
+                        <energyFromExperienceValueFactor add="3"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Eldar/SpiritPreservationBonus">
                     <effects>
-                        <energyFromExperienceValueFactor add="1" />
+                        <energyFromExperienceValueFactor add="1"/>
                     </effects>
                 </modifier>
             </modifiers>

@@ -3,43 +3,51 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="336" />
-                <populationRequired base="0" />
-                <slotsRequired base="1" />
+                <productionCost base="336"/>
+                <populationRequired base="0"/>
+                <slotsRequired base="1"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <cityRadius add="1" />
-                <energy add="9" />
-                <loyalty add="6" />
-                <influence add="6" />
-                <ore add="9" />
-                <populationLimit add="6" />
-                <research add="6" />
-                <production add="6" />
+                <cityRadius add="1"/>
+                <energy add="9"/>
+                <loyalty add="6"/>
+                <influence add="6"/>
+                <ore add="9"/>
+                <populationLimit add="6"/>
+                <research add="6"/>
+                <production add="6"/>
             </effects>
         </modifier>
     </modifiers>
     <actions>
-        <rapidRise name="Necrons/RapidRise" interfaceSound="Interface/RapidRise">
+        <rapidRise name="Necrons/RapidRise"
+                   interfaceSound="Interface/RapidRise">
             <modifiers>
                 <modifier requiredUpgrade="Necrons/RapidRiseBonus">
                     <effects>
-                        <influenceCost mul="-0.33" />
+                        <influenceCost mul="-0.33"/>
                     </effects>
                 </modifier>
             </modifiers>
         </rapidRise>
-        <produceUnit requiredUpgrade="Necrons/Lord" unit="Necrons/Lord" />
-        <produceUnit requiredUpgrade="Necrons/Cryptek" unit="Necrons/Cryptek" />
-        <produceUnit requiredUpgrade="Necrons/DestroyerLord" unit="Necrons/DestroyerLord" />
+        <produceUnit requiredUpgrade="Necrons/Lord"
+                     unit="Necrons/Lord"/>
+        <produceUnit requiredUpgrade="Necrons/Cryptek"
+                     unit="Necrons/Cryptek"/>
+        <produceUnit requiredUpgrade="Necrons/DestroyerLord"
+                     unit="Necrons/DestroyerLord"/>
     </actions>
     <traits>
-        <trait name="Necrons/CityTier2" requiredUpgrade="Necrons/CityTier2" />
-        <trait name="Necrons/CityTier3" requiredUpgrade="Necrons/CityTier3" />
-        <trait name="Necrons/GrowthBonus" requiredUpgrade="Necrons/GrowthBonus" />
-        <trait name="Headquarters" />
-        <trait name="Necrons/Prosperity" requiredUpgrade="Necrons/Construction" />
+        <trait name="Necrons/CityTier2"
+               requiredUpgrade="Necrons/CityTier2"/>
+        <trait name="Necrons/CityTier3"
+               requiredUpgrade="Necrons/CityTier3"/>
+        <trait name="Necrons/GrowthBonus"
+               requiredUpgrade="Necrons/GrowthBonus"/>
+        <trait name="Headquarters"/>
+        <trait name="Necrons/Prosperity"
+               requiredUpgrade="Necrons/Construction"/>
     </traits>
 </building>

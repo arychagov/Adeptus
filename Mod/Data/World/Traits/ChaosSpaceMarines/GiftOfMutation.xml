@@ -3,7 +3,7 @@
     <perTurnModifiers endure="0">
         <modifier>
             <effects>
-                <addRandomBoonOfChaos />
+                <addRandomBoonOfChaos/>
             </effects>
         </modifier>
     </perTurnModifiers>

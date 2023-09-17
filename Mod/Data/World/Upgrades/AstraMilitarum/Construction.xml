@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Upgrades/AstraMilitarum/ConstructionGrowthEdict" position="4" />
+<upgrade icon="Upgrades/AstraMilitarum/ConstructionGrowthEdict"
+         position="4"/>

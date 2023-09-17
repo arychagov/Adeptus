@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Actions/DispenseChaff" position="7">
+<upgrade icon="Actions/DispenseChaff"
+         position="7">
     <requiredUpgrades>
-        <upgrade name="SistersOfBattle/Auxiliaries" />
+        <upgrade name="SistersOfBattle/Auxiliaries"/>
     </requiredUpgrades>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseAircraftScore base="1.0" />
+                <increaseAircraftScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

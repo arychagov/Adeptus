@@ -1,33 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit dlc="Supplement5" icon="Buildings/Tau/Headquarters">
+<unit dlc="Supplement5"
+      icon="Buildings/Tau/Headquarters">
     <model>
-        <structureUnit explosionsBone="Bone" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" idleAnimationCount="0" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" material="Buildings/Tau/Buildings" mesh="Units/Tau/Headquarters" scale="1.0 1.0 1.0" />
+        <structureUnit explosionsBone="Bone"
+                       heatImpactSound="Impacts/HeatConcrete"
+                       heatImpactSoundCount="4"
+                       idleAnimationCount="0"
+                       kineticImpactSound="Impacts/KineticConcrete"
+                       kineticImpactSoundCount="5"
+                       material="Buildings/Tau/Buildings"
+                       mesh="Units/Tau/Headquarters"
+                       scale="1.0 1.0 1.0"/>
     </model>
     <weapons>
-        <weapon name="PulseRifle" count="3">
+        <weapon name="PulseRifle"
+                count="3">
             <model>
-                <projectileWeapon bone="Bone" fireInterval="0.17" material="Buildings/Tau/Buildings" mesh="Weapons/Tau/HeadquartersWeapons" muzzleBone="Muzzle" muzzleCount="5" />
+                <projectileWeapon bone="Bone"
+                                  fireInterval="0.17"
+                                  material="Buildings/Tau/Buildings"
+                                  mesh="Weapons/Tau/HeadquartersWeapons"
+                                  muzzleBone="Muzzle"
+                                  muzzleCount="5"/>
             </model>
         </weapon>
-        <weapon name="IonAcceleratorStandard" count="1" slotName="IonAcceleratorStandard">
+        <weapon name="IonAcceleratorStandard"
+                count="1"
+                slotName="IonAcceleratorStandard">
             <model>
-                <beamWeapon bone="Bone" fireInterval="0.33" material="Buildings/Tau/Buildings" mesh="Weapons/Tau/HeadquartersWeapons" muzzleBone="HeavyMuzzle" muzzleCount="1" />
+                <beamWeapon bone="Bone"
+                            fireInterval="0.33"
+                            material="Buildings/Tau/Buildings"
+                            mesh="Weapons/Tau/HeadquartersWeapons"
+                            muzzleBone="HeavyMuzzle"
+                            muzzleCount="1"/>
             </model>
         </weapon>
-        <weapon name="IonAcceleratorOvercharged" count="1" enabled="0" slotName="IonAcceleratorOvercharged">
+        <weapon name="IonAcceleratorOvercharged"
+                count="1"
+                enabled="0"
+                slotName="IonAcceleratorOvercharged">
             <model>
-                <beamWeapon bone="Bone" material="Buildings/Tau/Buildings" mesh="Weapons/Tau/HeadquartersWeapons" muzzleBone="HeavyMuzzle" muzzleCount="1" />
+                <beamWeapon bone="Bone"
+                            material="Buildings/Tau/Buildings"
+                            mesh="Weapons/Tau/HeadquartersWeapons"
+                            muzzleBone="HeavyMuzzle"
+                            muzzleCount="1"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="6" /> <!-- %armor base armor=10/10/10 -->
-                <cargoSlots base="6" /> <!-- %cargoSlots base capacity=20 -->
-                <moraleMax base="0" />
-                <movementMax max="0" />
-                <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <armor base="6"/> <!-- %armor base armor=10/10/10 -->
+                <cargoSlots base="6"/> <!-- %cargoSlots base capacity=20 -->
+                <moraleMax base="0"/>
+                <movementMax max="0"/>
+                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>
         </modifier>
     </modifiers>
@@ -35,22 +64,25 @@
     <actions>
         <attack>
             <model>
-                <action beginFire="0.15" endFire="2.6" />
+                <action beginFire="0.15"
+                        endFire="2.6"/>
             </model>
         </attack>
         <die>
             <model>
-                <action sound="Units/Tau/VehicleDie" soundCount="1" />
+                <action sound="Units/Tau/VehicleDie"
+                        soundCount="1"/>
             </model>
         </die>
-        <cycleWeapon interfaceSound="Interface/CycleWeapon" weaponSlotNames="IonAcceleratorStandard IonAcceleratorOvercharged" />
-        <setRallyPoint />
+        <cycleWeapon interfaceSound="Interface/CycleWeapon"
+                     weaponSlotNames="IonAcceleratorStandard IonAcceleratorOvercharged"/>
+        <setRallyPoint/>
     </actions>
     <traits>
-        <trait name="Fortification" />
-        <trait name="Headquarters" />
-        <trait name="Tau/SupportingFire" />
-        <trait name="Transport" />
-        <trait name="Tau/PreciseShooter" />
+        <trait name="Fortification"/>
+        <trait name="Headquarters"/>
+        <trait name="Tau/SupportingFire"/>
+        <trait name="Transport"/>
+        <trait name="Tau/PreciseShooter"/>
     </traits>
 </unit>

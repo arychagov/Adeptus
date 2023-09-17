@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Actions/Eldar/WebwayRedoubt" position="3">
+<upgrade icon="Actions/Eldar/WebwayRedoubt"
+         position="3">
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseCitiesScore base="1.0" />
+                <increaseCitiesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

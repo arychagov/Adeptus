@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Items/ScrollsOfMagnus" visibilityCategory="Unit">
+<trait category="Buff"
+       icon="Items/ScrollsOfMagnus"
+       visibilityCategory="Unit">
     <modifiers>
         <modifier>
             <effects>
-                <research add="6" />
+                <research add="6"/>
             </effects>
         </modifier>
     </modifiers>

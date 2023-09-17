@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Weapons/TwinLinkedIcarusAutocannon" position="10">
+<upgrade icon="Weapons/TwinLinkedIcarusAutocannon"
+         position="10">
     <requiredUpgrades>
-        <upgrade name="AdeptusMechanicus/KnightCrusader" />
+        <upgrade name="AdeptusMechanicus/KnightCrusader"/>
     </requiredUpgrades>
 </upgrade>

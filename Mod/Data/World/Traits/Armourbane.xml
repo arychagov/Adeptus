@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <armorPenetration add="2" />
+                <armorPenetration add="2"/>
             </effects>
         </modifier>
     </modifiers>

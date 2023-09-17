@@ -3,12 +3,14 @@
     <onUnitDisappearedModifiers>
         <modifier visible="0">
             <effects>
-                <addFeature name="OrkoidFungus" duration="3" />
+                <addFeature name="OrkoidFungus"
+                            duration="3"/>
             </effects>
         </modifier>
-        <modifier requiredUpgrade="Orks/CreatePermanentOrkoidFungusOnDeath" visible="0">
+        <modifier requiredUpgrade="Orks/CreatePermanentOrkoidFungusOnDeath"
+                  visible="0">
             <effects>
-                <addFeature name="OrkoidFungus" />
+                <addFeature name="OrkoidFungus"/>
             </effects>
         </modifier>
     </onUnitDisappearedModifiers>

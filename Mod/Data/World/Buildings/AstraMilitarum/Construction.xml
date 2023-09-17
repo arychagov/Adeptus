@@ -3,18 +3,18 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="48" />
-                <oreCost base="80" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <energyUpkeep add="3" />
+                <productionCost base="48"/>
+                <oreCost base="80"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <energyUpkeep add="3"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <ore add="6" />
-                <production add="6" />
-                <research add="2" />
+                <ore add="6"/>
+                <production add="6"/>
+                <research add="2"/>
             </effects>
         </modifier>
     </modifiers>
@@ -28,7 +28,7 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseConstructionScore base="1.0" />
+                <increaseConstructionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
@@ -37,9 +37,9 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost add="5" />
-                        <oreCost add="5" />
-                        <productionCost add="12" />
+                        <influenceCost add="5"/>
+                        <oreCost add="5"/>
+                        <productionCost add="12"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -48,21 +48,24 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <productionCost add="12" />
+                        <productionCost add="12"/>
                     </effects>
                 </modifier>
             </modifiers>
         </clearTile>
-        <constructBuilding building="AstraMilitarum/Food" />
-        <constructBuilding building="AstraMilitarum/Ore" />
-        <constructBuilding building="AstraMilitarum/Energy" />
-        <constructBuilding building="AstraMilitarum/Research" />
-        <constructBuilding building="AstraMilitarum/Influence" />
-        <constructBuilding building="AstraMilitarum/Loyalty" />
-        <constructBuilding building="AstraMilitarum/Housing" />
-        <constructBuilding building="AstraMilitarum/Infantry" />
-        <constructBuilding building="AstraMilitarum/Vehicles" requiredUpgrade="AstraMilitarum/Vehicles" />
-        <constructBuilding building="AstraMilitarum/Aircraft" requiredUpgrade="AstraMilitarum/Aircraft" />
-        <constructBuilding building="AstraMilitarum/Construction" requiredUpgrade="AstraMilitarum/Construction" />
+        <constructBuilding building="AstraMilitarum/Food"/>
+        <constructBuilding building="AstraMilitarum/Ore"/>
+        <constructBuilding building="AstraMilitarum/Energy"/>
+        <constructBuilding building="AstraMilitarum/Research"/>
+        <constructBuilding building="AstraMilitarum/Influence"/>
+        <constructBuilding building="AstraMilitarum/Loyalty"/>
+        <constructBuilding building="AstraMilitarum/Housing"/>
+        <constructBuilding building="AstraMilitarum/Infantry"/>
+        <constructBuilding building="AstraMilitarum/Vehicles"
+                           requiredUpgrade="AstraMilitarum/Vehicles"/>
+        <constructBuilding building="AstraMilitarum/Aircraft"
+                           requiredUpgrade="AstraMilitarum/Aircraft"/>
+        <constructBuilding building="AstraMilitarum/Construction"
+                           requiredUpgrade="AstraMilitarum/Construction"/>
     </actions>
 </building>

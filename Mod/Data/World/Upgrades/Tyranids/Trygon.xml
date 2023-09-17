@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Units/Tyranids/Trygon" position="7">
+<upgrade icon="Units/Tyranids/Trygon"
+         position="7">
     <requiredUpgrades>
-        <upgrade name="Tyranids/Vehicles" />
+        <upgrade name="Tyranids/Vehicles"/>
     </requiredUpgrades>
 </upgrade>

@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Actions/AdeptusMechanicus/ServoSkullUplink">
+<trait category="Buff"
+       icon="Actions/AdeptusMechanicus/ServoSkullUplink">
     <modifiers>
         <modifier>
             <conditions>
                 <unit>
-                    <allied />
-                    <faction name="AdeptusMechanicus" />
-                    <noTrait name="Vehicle" />
-                    <noTrait name="Fortification" />
-                    <noTrait name="MonstrousCreature" />
+                    <allied/>
+                    <faction name="AdeptusMechanicus"/>
+                    <noTrait name="Vehicle"/>
+                    <noTrait name="Fortification"/>
+                    <noTrait name="MonstrousCreature"/>
                 </unit>
             </conditions>
             <effects>
-                <damage mul="0.17" />
+                <damage mul="0.17"/>
             </effects>
         </modifier>
     </modifiers>

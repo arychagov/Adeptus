@@ -3,8 +3,8 @@
     <modifiers>
         <modifier>
             <effects>
-                <minDamageFromHitpointsFraction add="0.05" />
-                <damageFromHitpoints max="1.2" />
+                <minDamageFromHitpointsFraction add="0.05"/>
+                <damageFromHitpoints max="1.2"/>
             </effects>
         </modifier>
     </modifiers>

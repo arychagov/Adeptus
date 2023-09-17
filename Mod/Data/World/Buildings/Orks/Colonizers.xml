@@ -3,18 +3,18 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36" />
-                <oreCost base="50" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <oreUpkeep add="1" />
-                <energyUpkeep add="1" />
+                <productionCost base="36"/>
+                <oreCost base="50"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <oreUpkeep add="1"/>
+                <energyUpkeep add="1"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <research add="4" />
-                <production add="6" />
+                <research add="4"/>
+                <production add="6"/>
             </effects>
         </modifier>
     </modifiers>
@@ -28,16 +28,19 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseColonizersProductionScore base="1.0" />
+                <increaseColonizersProductionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="Orks/Mek" />
-        <produceUnit requiredUpgrade="Orks/MekGun" unit="Orks/MekGun" />
-        <produceUnit requiredUpgrade="Orks/BigMek" unit="Orks/BigMek" />
+        <produceUnit unit="Orks/Mek"/>
+        <produceUnit requiredUpgrade="Orks/MekGun"
+                     unit="Orks/MekGun"/>
+        <produceUnit requiredUpgrade="Orks/BigMek"
+                     unit="Orks/BigMek"/>
     </actions>
     <traits>
-        <trait name="Orks/BonusColonizersProduction" requiredUpgrade="Orks/BonusColonizersProduction" />
+        <trait name="Orks/BonusColonizersProduction"
+               requiredUpgrade="Orks/BonusColonizersProduction"/>
     </traits>
 </building>

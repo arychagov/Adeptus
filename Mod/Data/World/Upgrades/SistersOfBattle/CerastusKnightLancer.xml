@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Units/SistersOfBattle/CerastusKnightLancer" position="10">
+<upgrade icon="Units/SistersOfBattle/CerastusKnightLancer"
+         position="10">
     <requiredUpgrades>
-        <upgrade name="SistersOfBattle/Auxiliaries" />
+        <upgrade name="SistersOfBattle/Auxiliaries"/>
     </requiredUpgrades>
 </upgrade>

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Weapons/TankbustaBomb" position="4">
+<upgrade icon="Weapons/TankbustaBomb"
+         position="4">
     <requiredUpgrades>
-        <upgrade name="Orks/Tankbusta" />
+        <upgrade name="Orks/Tankbusta"/>
     </requiredUpgrades>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0" />
+                <increaseInfantryScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

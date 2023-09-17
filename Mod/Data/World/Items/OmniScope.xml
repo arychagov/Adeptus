@@ -9,7 +9,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Items/OmniScope" />
+                                        <addTrait name="Items/OmniScope"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -22,7 +22,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <influenceCost base="40" />
+                <influenceCost base="40"/>
             </effects>
         </modifier>
     </modifiers>

@@ -1,85 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit explosionsBone="Hull" idleAnimation="Units/Necrons/MonolithIdle" idleAnimationCount="1" idleContinuously="1" material="Units/Necrons/Monolith" mesh="Units/Necrons/Monolith" scale="0.8 0.8 0.8" />
+        <unit explosionsBone="Hull"
+              idleAnimation="Units/Necrons/MonolithIdle"
+              idleAnimationCount="1"
+              idleContinuously="1"
+              material="Units/Necrons/Monolith"
+              mesh="Units/Necrons/Monolith"
+              scale="0.8 0.8 0.8"/>
     </model>
     <weapons>
-        <weapon name="GaussFluxArc" count="4">
+        <weapon name="GaussFluxArc"
+                count="4">
             <model>
-                <projectileWeapon effectFaceWeight="0" fireInterval="0.3" muzzleBone=".Muzzle" muzzleCount="12" />
+                <projectileWeapon effectFaceWeight="0"
+                                  fireInterval="0.3"
+                                  muzzleBone=".Muzzle"
+                                  muzzleCount="12"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="10" /> <!-- %armor base armor=14/14/14 -->
-                <energyCost base="120.0" /> <!-- %energyCost base tier=10 factor=1 -->
-                <hitpointsMax base="52.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base armor=14/14/14 wounds=4 -->
-                <moraleMax base="12" /> <!-- %moraleMax base leadership=10 -->
-                <movementMax base="3" />
-                <oreUpkeep base="6.0" /> <!-- %oreUpkeep base tier=10 factor=1 -->
-                <productionCost base="60.0" /> <!-- %productionCost base tier=10 factor=1 -->
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <armor base="10"/> <!-- %armor base armor=14/14/14 -->
+                <energyCost base="120.0"/> <!-- %energyCost base tier=10 factor=1 -->
+                <hitpointsMax base="52.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=14/14/14 wounds=4 -->
+                <moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->
+                <movementMax base="3"/>
+                <oreUpkeep base="6.0"/> <!-- %oreUpkeep base tier=10 factor=1 -->
+                <productionCost base="60.0"/> <!-- %productionCost base tier=10 factor=1 -->
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="1.0" />
+                <increaseVehiclesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/Necrons/MonolithAttack" beginFire="1.4" endFire="2.55" />
+                <action animation="Units/Necrons/MonolithAttack"
+                        beginFire="1.4"
+                        endFire="2.55"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Necrons/MonolithDie" sound="Units/LargeVehicleDie" soundCount="3" soundDelay="0.4" />
+                <action animation="Units/Necrons/MonolithDie"
+                        sound="Units/LargeVehicleDie"
+                        soundCount="3"
+                        soundDelay="0.4"/>
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0" />
+                <action animationSpeed="1.0"/>
             </model>
         </idle>
         <move>
             <model>
-                <action sound="Units/Necrons/MonolithMove" soundCount="2" />
+                <action sound="Units/Necrons/MonolithMove"
+                        soundCount="2"/>
             </model>
         </move>
-        <necrodermisRepair requiredUpgrade="Necrons/NecrodermisRepair" name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
+        <necrodermisRepair name="Necrons/NecrodermisRepair"
+                           consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="1"
+                           requiredActionPoints="0"
+                           requiredUpgrade="Necrons/NecrodermisRepair">
             <model>
-                <action sound="Actions/Heal" />
+                <action sound="Actions/Heal"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="50" />
+                        <influenceCost base="50"/>
                     </effects>
                 </modifier>
 
                 <modifier requiredUpgrade="Necrons/HousingBuildingBonus">
                     <effects>
-                        <cooldown max="0" />
+                        <cooldown max="0"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Necrons/NecrodermisRepair3">
                     <effects>
-                        <influenceCost add="-30" />
+                        <influenceCost add="-30"/>
                     </effects>
                 </modifier>
             </modifiers>
 
             <conditions>
                 <unit>
-                    <noTrait name="Necrons/BloodyCrusade" />
-                    <damaged />
+                    <noTrait name="Necrons/BloodyCrusade"/>
+                    <damaged/>
                 </unit>
             </conditions>
             <beginTargets>
@@ -89,18 +110,18 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints add="6" />
+                                        <hitpoints add="6"/>
                                     </effects>
                                 </modifier>
 
                                 <modifier requiredUpgrade="Necrons/HousingBuildingBonus">
                                     <effects>
-                                        <hitpoints add="2" />
+                                        <hitpoints add="2"/>
                                     </effects>
                                 </modifier>
                                 <modifier requiredUpgrade="Necrons/NecrodermisRepair3">
                                     <effects>
-                                        <hitpoints add="2" />
+                                        <hitpoints add="2"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -109,19 +130,24 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <scarabHive name="Necrons/ScarabHive" cooldown="10" icon="Units/Necrons/CanoptekScarab" requiredUpgrade="Necrons/TheSwarm">
+        <scarabHive name="Necrons/ScarabHive"
+                    cooldown="10"
+                    icon="Units/Necrons/CanoptekScarab"
+                    requiredUpgrade="Necrons/TheSwarm">
             <model>
-                <action animation="Units/Necrons/MonolithGaussFluxArc" sound="Actions/PsychicBuff" />
+                <action animation="Units/Necrons/MonolithGaussFluxArc"
+                        sound="Actions/PsychicBuff"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <energyCost base="20" />
+                        <energyCost base="20"/>
                     </effects>
                 </modifier>
-                <modifier requiredUpgrade="Necrons/TheSwarm" visible="0">
+                <modifier requiredUpgrade="Necrons/TheSwarm"
+                          visible="0">
                     <effects>
-                        <energyCost add="-10" />
+                        <energyCost add="-10"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -129,9 +155,9 @@
                 <target rangeMax="1">
                     <conditions>
                         <tile>
-                            <land />
-                            <noUnit />
-                            <noFeature name="GravityWaves" />
+                            <land/>
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
                         </tile>
                     </conditions>
                     <areas>
@@ -139,7 +165,9 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="Necrons/CanoptekScarab" consumedAction="0" consumedMovement="0" />
+                                        <addUnit name="Necrons/CanoptekScarab"
+                                                 consumedAction="0"
+                                                 consumedMovement="0"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -148,19 +176,25 @@
                 </target>
             </beginTargets>
         </scarabHive>
-        <genericUnitAbility name="Necrons/OverchargeQuantumShielding" consumedActionPoints="0" consumedMovement="0" cooldown="3" icon="Upgrades/Necrons/OverchargedQuantumShielding" requiredActionPoints="0" requiredUpgrade="Necrons/OverchargedQuantumShielding">
+        <genericUnitAbility name="Necrons/OverchargeQuantumShielding"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="3"
+                            icon="Upgrades/Necrons/OverchargedQuantumShielding"
+                            requiredActionPoints="0"
+                            requiredUpgrade="Necrons/OverchargedQuantumShielding">
             <model>
-                <action sound="Actions/ChargeUp" />
+                <action sound="Actions/ChargeUp"/>
             </model>
             <conditions>
                 <unit>
-                    <notAttackedThisTurn />
+                    <notAttackedThisTurn/>
                 </unit>
             </conditions>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <energyCost base="30" />
+                        <energyCost base="30"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -171,8 +205,10 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Necrons/OverchargedQuantumShielding" duration="1" />
-                                        <addTrait name="Necrons/Overcharged" duration="3" />
+                                        <addTrait name="Necrons/OverchargedQuantumShielding"
+                                                  duration="1"/>
+                                        <addTrait name="Necrons/Overcharged"
+                                                  duration="3"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -183,14 +219,18 @@
         </genericUnitAbility>
     </actions>
     <traits>
-        <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
-        <trait name="Necrons/EternityGate" />
-        <trait name="ExtraVehicleArmour" requiredUpgrade="Necrons/ExtraVehicleArmour" />
-        <trait name="Necrons/LivingMetalMonolith" />
-        <trait name="Skimmer" />
-        <trait name="Tank" />
-        <trait name="Vehicle" />
-        <trait name="Necrons/QuantumShielding" requiredUpgrade="Necrons/QuantumShielding" />
-        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
+        <trait name="Necrons/AttackCityBonus"
+               requiredUpgrade="Necrons/AttackCityBonus"/>
+        <trait name="Necrons/EternityGate"/>
+        <trait name="ExtraVehicleArmour"
+               requiredUpgrade="Necrons/ExtraVehicleArmour"/>
+        <trait name="Necrons/LivingMetalMonolith"/>
+        <trait name="Skimmer"/>
+        <trait name="Tank"/>
+        <trait name="Vehicle"/>
+        <trait name="Necrons/QuantumShielding"
+               requiredUpgrade="Necrons/QuantumShielding"/>
+        <trait name="Necrons/PredictiveStrategist"
+               requiredUpgrade="Necrons/PredictiveStrategist"/>
     </traits>
 </unit>

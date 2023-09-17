@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade dlc="Supplement1" icon="Units/SpaceMarines/LandRaider" position="9">
+<upgrade dlc="Supplement1"
+         icon="Units/SpaceMarines/LandRaider"
+         position="9">
     <requiredUpgrades>
-        <upgrade name="SpaceMarines/Vehicles" />
+        <upgrade name="SpaceMarines/Vehicles"/>
     </requiredUpgrades>
 </upgrade>

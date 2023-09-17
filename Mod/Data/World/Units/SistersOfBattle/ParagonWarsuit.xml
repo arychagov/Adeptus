@@ -1,108 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement11">
     <model>
-        <unit bloodBone="Chest" explosionsBone="Chest" idleAnimation="Units/SistersOfBattle/ParagonWarsuitIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SistersOfBattle/ParagonWarsuit" mesh="Units/SistersOfBattle/ParagonWarsuit" normalWeight="0.1" portraitFocusHeightModifier="-12" portraitZoomModifier="1.25" scale="1.2 1.2 1.2" walker="1" />
+        <unit bloodBone="Chest"
+              explosionsBone="Chest"
+              idleAnimation="Units/SistersOfBattle/ParagonWarsuitIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/SistersOfBattle/ParagonWarsuit"
+              mesh="Units/SistersOfBattle/ParagonWarsuit"
+              normalWeight="0.1"
+              portraitFocusHeightModifier="-12"
+              portraitZoomModifier="1.25"
+              scale="1.2 1.2 1.2"
+              walker="1"/>
     </model>
-    <group memberDeltaX="110" memberDeltaY="110" rowSize="2" size="2" />
+    <group memberDeltaX="110"
+           memberDeltaY="110"
+           rowSize="2"
+           size="2"/>
     <weapons>
         <weapon name="MultiMelta">
             <model>
-                <beamWeapon chargeFireDelay="0.3" fireDelay="0.3" muzzleBone="Muzzle" />
+                <beamWeapon chargeFireDelay="0.3"
+                            fireDelay="0.3"
+                            muzzleBone="Muzzle"/>
             </model>
         </weapon>
         <weapon name="ParagonGrenadeLauncher">
             <model>
-                <grenadeWeapon muzzleBone="GrenadeMuzzle" muzzleCount="4" />
+                <grenadeWeapon muzzleBone="GrenadeMuzzle"
+                               muzzleCount="4"/>
             </model>
         </weapon>
         <weapon name="ParagonWarBlade">
             <model>
-                <powerWeapon effectBone="Effect" effectBoundingVolume="Blade" />
+                <powerWeapon effectBone="Effect"
+                             effectBoundingVolume="Blade"/>
             </model>
         </weapon>
-        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
+        <weapon name="FragGrenade"
+                enabled="0"
+                slotName="FragGrenade">
             <model>
-                <grenadeWeapon muzzleBone="Hand_R" />
+                <grenadeWeapon muzzleBone="Hand_R"/>
             </model>
         </weapon>
-        <weapon name="KrakGrenade" enabled="0" slotName="KrakGrenade">
+        <weapon name="KrakGrenade"
+                enabled="0"
+                slotName="KrakGrenade">
             <model>
-                <grenadeWeapon muzzleBone="Hand_R" />
+                <grenadeWeapon muzzleBone="Hand_R"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="10" /> <!-- %armor base armor=2+ -->
-                <hitpointsMax base="16.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=5 wounds=4 -->
-                <meleeAccuracy base="8" /> <!-- %meleeAccuracy base weaponSkill=4 -->
-                <meleeAttacks base="1.5" />
-                <strengthDamage base="2" /> <!-- %strengthDamage base strength=5 -->
+                <armor base="10"/> <!-- %armor base armor=2+ -->
+                <hitpointsMax base="16.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=5 wounds=4 -->
+                <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
+                <meleeAttacks base="1.5"/>
+                <strengthDamage base="2"/> <!-- %strengthDamage base strength=5 -->
                 <!-- <meleeInitiative base="3"/> -->
-                <moraleMax base="10" /> <!-- %moraleMax base leadership=8 -->
-                <movementMax base="3" />
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
-                <productionCost base="54.0" /> <!-- %productionCost base tier=9 factor=1 -->
-                <requisitionsUpkeep base="6.0" /> <!-- %requisitionsUpkeep base tier=9 factor=1 -->
-                <requisitionsCost base="120.0" /> <!-- %requisitionsCost base tier=9 factor=1 -->
+                <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+                <movementMax base="3"/>
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <productionCost base="54.0"/> <!-- %productionCost base tier=9 factor=1 -->
+                <requisitionsUpkeep base="6.0"/> <!-- %requisitionsUpkeep base tier=9 factor=1 -->
+                <requisitionsCost base="120.0"/> <!-- %requisitionsCost base tier=9 factor=1 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="1.0" />
+                <increaseVehiclesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/SistersOfBattle/ParagonWarsuitAttack" beginFire="0.7" chargeAnimation="Units/SistersOfBattle/ParagonWarsuitCharge" chargeBeginFire="0.23" chargeDefenseAnimation="Units/SistersOfBattle/ParagonWarsuitChargeDefense" chargeEndFire="1.1" endFire="1.9" meleeAnimation="Units/SistersOfBattle/ParagonWarsuitMelee" meleeBeginSwing="0.5" meleeDefenseAnimation="Units/SistersOfBattle/ParagonWarsuitMeleeDefense" meleeEndSwing="1.0" />
+                <action animation="Units/SistersOfBattle/ParagonWarsuitAttack"
+                        beginFire="0.7"
+                        chargeAnimation="Units/SistersOfBattle/ParagonWarsuitCharge"
+                        chargeBeginFire="0.23"
+                        chargeDefenseAnimation="Units/SistersOfBattle/ParagonWarsuitChargeDefense"
+                        chargeEndFire="1.1"
+                        endFire="1.9"
+                        meleeAnimation="Units/SistersOfBattle/ParagonWarsuitMelee"
+                        meleeBeginSwing="0.5"
+                        meleeDefenseAnimation="Units/SistersOfBattle/ParagonWarsuitMeleeDefense"
+                        meleeEndSwing="1.0"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/SistersOfBattle/ParagonWarsuitDie" animationCount="2" sound="Units/MediumArmoredDie" soundCount="4" soundDelay="0.8" voiceSound="Units/SistersOfBattle/InfantryDie" voiceSoundCount="5" />
+                <action animation="Units/SistersOfBattle/ParagonWarsuitDie"
+                        animationCount="2"
+                        sound="Units/MediumArmoredDie"
+                        soundCount="4"
+                        soundDelay="0.8"
+                        voiceSound="Units/SistersOfBattle/InfantryDie"
+                        voiceSoundCount="5"/>
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0" />
+                <action animationSpeed="1.0"/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/SistersOfBattle/ParagonWarsuitMove" sound="Units/SistersOfBattle/ParagonMove" soundCount="1" />
+                <action animation="Units/SistersOfBattle/ParagonWarsuitMove"
+                        sound="Units/SistersOfBattle/ParagonMove"
+                        soundCount="1"/>
             </model>
         </move>
 
 
-        <lightOfTheEmperor name="SistersOfBattle/LightOfTheEmperor" consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0">
+        <lightOfTheEmperor name="SistersOfBattle/LightOfTheEmperor"
+                           consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="10"
+                           requiredActionPoints="0">
             <model>
-                <action sound="Actions/LightOfTheEmperor" />
+                <action sound="Actions/LightOfTheEmperor"/>
             </model>
             <modifiers>
                 <modifier requiredUpgrade="SistersOfBattle/SimulacrumImperialis">
                     <effects>
-                        <cooldown add="-5" />
+                        <cooldown add="-5"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="SistersOfBattle/FaithAndFury">
                     <effects>
-                        <cooldown add="-4" />
+                        <cooldown add="-4"/>
                     </effects>
                 </modifier>
             </modifiers>
             <conditions>
                 <unit>
-                    <noTrait name="Broken" />
+                    <noTrait name="Broken"/>
                 </unit>
                 <unit match="Any">
-                    <noTrait name="Shaken" />
-                    <trait name="SistersOfBattle/LaudHailer" />
+                    <noTrait name="Shaken"/>
+                    <trait name="SistersOfBattle/LaudHailer"/>
                 </unit>
             </conditions>
             <beginTargets>
@@ -112,13 +156,15 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/LightOfTheEmperor" duration="1" />
-                                        <addTrait name="SistersOfBattle/UsedActOfFaith" duration="1" />
+                                        <addTrait name="SistersOfBattle/LightOfTheEmperor"
+                                                  duration="1"/>
+                                        <addTrait name="SistersOfBattle/UsedActOfFaith"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                                 <modifier requiredUpgrade="SistersOfBattle/SoothingLight">
                                     <effects>
-                                        <hitpointsFactorFromMax add="0.5" />
+                                        <hitpointsFactorFromMax add="0.5"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -127,9 +173,12 @@
                 </selfTarget>
             </beginTargets>
         </lightOfTheEmperor>
-        <hammerOfWrath consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredUpgrade="SistersOfBattle/HammerOfWrath">
+        <hammerOfWrath consumedActionPoints="0"
+                       consumedMovement="0"
+                       cooldown="3"
+                       requiredUpgrade="SistersOfBattle/HammerOfWrath">
             <model>
-                <action sound="Actions/PsychicBuff" />
+                <action sound="Actions/PsychicBuff"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -138,7 +187,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="HammerOfWrath" duration="1" />
+                                        <addTrait name="HammerOfWrath"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -149,14 +199,16 @@
         </hammerOfWrath>
     </actions>
     <traits>
-        <trait name="SistersOfBattle/ShieldOfFaith" />
-        <trait name="SistersOfBattle/MartyrSpirit" />
-        <trait name="SistersOfBattle/OathOfFaith" />
-        <trait name="SistersOfBattle/ParagonWarsuit" />
-        <trait name="SistersOfBattle/SisterSuperior" requiredUpgrade="SistersOfBattle/SisterSuperior" />
-        <trait name="ExtraVehicleArmour" requiredUpgrade="SistersOfBattle/ExtraVehicleArmour" />
-        <trait name="Vehicle" />
-        <trait name="Walker" />
-        <trait name="MultimodelVehicle" />
+        <trait name="SistersOfBattle/ShieldOfFaith"/>
+        <trait name="SistersOfBattle/MartyrSpirit"/>
+        <trait name="SistersOfBattle/OathOfFaith"/>
+        <trait name="SistersOfBattle/ParagonWarsuit"/>
+        <trait name="SistersOfBattle/SisterSuperior"
+               requiredUpgrade="SistersOfBattle/SisterSuperior"/>
+        <trait name="ExtraVehicleArmour"
+               requiredUpgrade="SistersOfBattle/ExtraVehicleArmour"/>
+        <trait name="Vehicle"/>
+        <trait name="Walker"/>
+        <trait name="MultimodelVehicle"/>
     </traits>
 </unit>

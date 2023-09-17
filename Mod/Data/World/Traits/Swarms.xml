@@ -4,11 +4,11 @@
         <modifier>
             <conditions>
                 <weapon>
-                    <additionalMembersHit greater="0" />
+                    <additionalMembersHit greater="0"/>
                 </weapon>
             </conditions>
             <effects>
-                <attacksTaken mul="0.25" />
+                <attacksTaken mul="0.25"/>
             </effects>
         </modifier>
     </modifiers>

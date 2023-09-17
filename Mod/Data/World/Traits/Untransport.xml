@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <cargoSlots base="0" />
+                <cargoSlots base="0"/>
             </effects>
         </modifier>
     </modifiers>

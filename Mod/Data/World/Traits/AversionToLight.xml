@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Debuff">
+<trait alwaysVisible="1"
+       category="Debuff">
     <modifiers>
         <modifier>
             <conditions>
                 <encounter>
                     <opponent>
-                        <attacking />
+                        <attacking/>
                     </opponent>
                     <weapon match="Any">
-                        <trait name="Flame" />
-                        <trait name="Melta" />
+                        <trait name="Flame"/>
+                        <trait name="Melta"/>
                     </weapon>
                 </encounter>
             </conditions>
             <effects>
-                <damageTaken mul="1.0" />
+                <damageTaken mul="1.0"/>
             </effects>
         </modifier>
     </modifiers>

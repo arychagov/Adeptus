@@ -1,27 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit dlc="Supplement7" icon="Buildings/Eldar/Headquarters">
+<unit dlc="Supplement7"
+      icon="Buildings/Eldar/Headquarters">
     <model>
-        <structureUnit explosionsBone="Portal" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" idleAnimationCount="0" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" material="Buildings/Eldar/Buildings" mesh="Units/Eldar/Headquarters" scale="1.2 1.2 1.2">
+        <structureUnit explosionsBone="Portal"
+                       heatImpactSound="Impacts/HeatConcrete"
+                       heatImpactSoundCount="4"
+                       idleAnimationCount="0"
+                       kineticImpactSound="Impacts/KineticConcrete"
+                       kineticImpactSoundCount="5"
+                       material="Buildings/Eldar/Buildings"
+                       mesh="Units/Eldar/Headquarters"
+                       scale="1.2 1.2 1.2">
             <effects>
-                <effect blueprint="Effects/WebwayGate" bone="Portal" position="0.000000 0.000000 53.300999" rotation="0 0 1 -55" />
+                <effect blueprint="Effects/WebwayGate"
+                        bone="Portal"
+                        position="0.000000 0.000000 53.300999"
+                        rotation="0 0 1 -55"/>
             </effects>
         </structureUnit>
     </model>
     <weapons>
-        <weapon name="DCannon" count="1">
+        <weapon name="DCannon"
+                count="1">
             <model>
-                <projectileWeapon bone="Bone" material="Buildings/Eldar/Buildings" mesh="Weapons/Eldar/HeadquartersWeapons" muzzleBone="HeavyMuzzle" />
+                <projectileWeapon bone="Bone"
+                                  material="Buildings/Eldar/Buildings"
+                                  mesh="Weapons/Eldar/HeadquartersWeapons"
+                                  muzzleBone="HeavyMuzzle"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="6" /> <!-- %armor base armor=10/10/10 -->
-                <cargoSlots base="6" /> <!-- %cargoSlots base capacity=20 -->
-                <moraleMax base="0" />
-                <movementMax max="0" />
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <armor base="6"/> <!-- %armor base armor=10/10/10 -->
+                <cargoSlots base="6"/> <!-- %cargoSlots base capacity=20 -->
+                <moraleMax base="0"/>
+                <movementMax max="0"/>
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
         </modifier>
     </modifiers>
@@ -29,20 +45,22 @@
     <actions>
         <attack>
             <model>
-                <action beginFire="1.0" endFire="1.2" />
+                <action beginFire="1.0"
+                        endFire="1.2"/>
             </model>
         </attack>
         <die>
             <model>
-                <action sound="Units/Eldar/WebwayGateDie" soundCount="1" />
+                <action sound="Units/Eldar/WebwayGateDie"
+                        soundCount="1"/>
             </model>
         </die>
-        <setRallyPoint />
+        <setRallyPoint/>
     </actions>
     <traits>
-        <trait name="Fortification" />
-        <trait name="Headquarters" />
-        <trait name="Transport" />
-        <trait name="Eldar/SpiritPreservation" />
+        <trait name="Fortification"/>
+        <trait name="Headquarters"/>
+        <trait name="Transport"/>
+        <trait name="Eldar/SpiritPreservation"/>
     </traits>
 </unit>

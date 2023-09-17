@@ -3,18 +3,18 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36" />
-                <oreCost base="50" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <energyUpkeep add="2" />
+                <productionCost base="36"/>
+                <oreCost base="50"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <energyUpkeep add="2"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <ore add="2" />
-                <influence add="2" />
-                <production add="6" />
+                <ore add="2"/>
+                <influence add="2"/>
+                <production add="6"/>
             </effects>
         </modifier>
     </modifiers>
@@ -28,15 +28,20 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesProductionScore base="1.0" />
+                <increaseVehiclesProductionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="Tau/Piranha" />
-        <produceUnit requiredUpgrade="Tau/Devilfish" unit="Tau/Devilfish" />
-        <produceUnit enabled="0" unit="Tau/TidewallGunrig" visible="0" />
-        <produceUnit requiredUpgrade="Tau/HammerheadGunship" unit="Tau/HammerheadGunship" />
-        <produceUnit requiredUpgrade="Tau/SkyRayGunship" unit="Tau/SkyRayGunship" />
+        <produceUnit unit="Tau/Piranha"/>
+        <produceUnit requiredUpgrade="Tau/Devilfish"
+                     unit="Tau/Devilfish"/>
+        <produceUnit enabled="0"
+                     unit="Tau/TidewallGunrig"
+                     visible="0"/>
+        <produceUnit requiredUpgrade="Tau/HammerheadGunship"
+                     unit="Tau/HammerheadGunship"/>
+        <produceUnit requiredUpgrade="Tau/SkyRayGunship"
+                     unit="Tau/SkyRayGunship"/>
     </actions>
 </building>

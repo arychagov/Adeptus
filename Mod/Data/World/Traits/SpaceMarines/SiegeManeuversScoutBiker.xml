@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Upgrades/SpaceMarines/SiegeManeuvers">
+<trait category="Buff"
+       icon="Upgrades/SpaceMarines/SiegeManeuvers">
     <modifiers>
         <modifier>
             <effects>
-                <hitpointsMax add="1.0" />
-                <hitpoints add="1.0" />
-                <armor add="1" />
+                <hitpointsMax add="1.0"/>
+                <hitpoints add="1.0"/>
+                <armor add="1"/>
             </effects>
         </modifier>
     </modifiers>

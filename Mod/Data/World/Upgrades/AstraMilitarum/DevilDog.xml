@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade dlc="Supplement10" icon="Units/AstraMilitarum/DevilDog" position="4">
+<upgrade dlc="Supplement10"
+         icon="Units/AstraMilitarum/DevilDog"
+         position="4">
     <requiredUpgrades>
-        <upgrade name="AstraMilitarum/Vehicles" />
+        <upgrade name="AstraMilitarum/Vehicles"/>
     </requiredUpgrades>
 </upgrade>

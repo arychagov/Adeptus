@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon beamsBlueprint="Effects/FusionBeams" beamsEmitterBlueprint="Effects/MeltaBeamsEmitter" fireInterval="0.5" fireSound="Weapons/FusionGun" fireSoundCount="3" muzzleFlashesBlueprint="Effects/FusionMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/MeltaMuzzleFlashesEmitter" />
+        <beamWeapon beamsBlueprint="Effects/FusionBeams"
+                    beamsEmitterBlueprint="Effects/MeltaBeamsEmitter"
+                    fireInterval="0.5"
+                    fireSound="Weapons/FusionGun"
+                    fireSoundCount="3"
+                    muzzleFlashesBlueprint="Effects/FusionMuzzleFlashes"
+                    muzzleFlashesEmitterBlueprint="Effects/MeltaMuzzleFlashesEmitter"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="1" />
-                <rangedArmorPenetration add="3" /> <!-- %rangedArmorPenetration add armorPiercing=1 -->
-                <rangedDamage add="3" /> <!-- %rangedDamage add strength=8 -->
-                <strengthDamage base="0" />
+                <attacks add="1"/>
+                <rangedArmorPenetration add="3"/> <!-- %rangedArmorPenetration add armorPiercing=1 -->
+                <rangedDamage add="3"/> <!-- %rangedDamage add strength=8 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="1" />
+    <target rangeMax="1"/>
     <traits>
-        <trait name="Assault" />
-        <trait name="Eldar/AssaultWeaponBonus" requiredUpgrade="Eldar/AssaultWeaponBonus" />
-        <trait name="Haywire" />
-        <trait name="Melta" />
+        <trait name="Assault"/>
+        <trait name="Eldar/AssaultWeaponBonus"
+               requiredUpgrade="Eldar/AssaultWeaponBonus"/>
+        <trait name="Haywire"/>
+        <trait name="Melta"/>
     </traits>
 </weapon>

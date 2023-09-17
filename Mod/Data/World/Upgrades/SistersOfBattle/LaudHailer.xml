@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Traits/SistersOfBattle/LaudHailer" position="2">
+<upgrade icon="Traits/SistersOfBattle/LaudHailer"
+         position="2">
     <requiredUpgrades>
-        <upgrade name="SistersOfBattle/Vehicles" />
+        <upgrade name="SistersOfBattle/Vehicles"/>
     </requiredUpgrades>
 </upgrade>

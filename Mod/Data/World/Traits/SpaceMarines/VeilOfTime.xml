@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Actions/SpaceMarines/VeilOfTime" rankMax="2">
+<trait category="Buff"
+       icon="Actions/SpaceMarines/VeilOfTime"
+       rankMax="2">
     <modifiers>
         <modifier>
             <effects>
-                <research addMax="9" addMin="3" />
+                <research addMax="9"
+                          addMin="3"/>
             </effects>
         </modifier>
     </modifiers>

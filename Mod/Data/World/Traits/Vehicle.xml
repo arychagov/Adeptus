@@ -4,47 +4,49 @@
         <modifier visible="0">
             <conditions>
                 <unit>
-                    <noTrait name="MultimodelVehicle" />
-                    <noTrait name="UnbreakableVehicle" />
-                    <noTrait name="AdeptusMechanicus/DataBlessedAutosermon" />
+                    <noTrait name="MultimodelVehicle"/>
+                    <noTrait name="UnbreakableVehicle"/>
+                    <noTrait name="AdeptusMechanicus/DataBlessedAutosermon"/>
                     <noTrait name="MachineSpirit"/>
-                    <hitpointsFraction greater="0.33" less="0.66" />
+                    <hitpointsFraction greater="0.33"
+                                       less="0.66"/>
                 </unit>
             </conditions>
             <effects>
-                <accuracy mul="-0.17" />
+                <accuracy mul="-0.17"/>
             </effects>
         </modifier>
         <modifier visible="0">
             <conditions>
                 <unit>
-                    <noTrait name="MultimodelVehicle" />
-                    <noTrait name="UnbreakableVehicle" />
-                    <noTrait name="AdeptusMechanicus/DataBlessedAutosermon" />
+                    <noTrait name="MultimodelVehicle"/>
+                    <noTrait name="UnbreakableVehicle"/>
+                    <noTrait name="AdeptusMechanicus/DataBlessedAutosermon"/>
                     <noTrait name="MachineSpirit"/>
-                    <hitpointsFraction less="0.33" />
+                    <hitpointsFraction less="0.33"/>
                 </unit>
             </conditions>
             <effects>
-                <accuracy mul="-0.33" />
-                <movementMax add="-1" />
+                <accuracy mul="-0.33"/>
+                <movementMax add="-1"/>
             </effects>
         </modifier>
         <modifier>
             <conditions>
                 <unit>
-                    <noTrait name="MultimodelVehicle" />
+                    <noTrait name="MultimodelVehicle"/>
                 </unit>
             </conditions>
             <effects>
-                <addTrait name="VehicleDamaged" />
-                <addTrait name="VehicleHeavilyDamaged" />
-                <moraleMax max="0" />
+                <addTrait name="VehicleDamaged"/>
+                <addTrait name="VehicleHeavilyDamaged"/>
+                <moraleMax max="0"/>
             </effects>
         </modifier>
         <modifier visible="0">
             <effects>
-                <cargoSlotsRequired max="-1" min="-1" />
+                <cargoSlotsRequired max="-1"
+                                    min="-1"/>
             </effects>
         </modifier>
     </modifiers>

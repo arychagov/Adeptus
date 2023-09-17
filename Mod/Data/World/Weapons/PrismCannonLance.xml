@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon beamsBlueprint="Effects/PrismCannon" beamsEmitterBlueprint="Effects/PrismCannonLanceEmitter" explosionsBlueprint="" fireSound="Weapons/PrismCannonLance" fireSoundCount="1" muzzleFlashesBlueprint="Effects/LasMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/MeltaMuzzleFlashesEmitter" />
+        <beamWeapon beamsBlueprint="Effects/PrismCannon"
+                    beamsEmitterBlueprint="Effects/PrismCannonLanceEmitter"
+                    explosionsBlueprint=""
+                    fireSound="Weapons/PrismCannonLance"
+                    fireSoundCount="1"
+                    muzzleFlashesBlueprint="Effects/LasMuzzleFlashes"
+                    muzzleFlashesEmitterBlueprint="Effects/MeltaMuzzleFlashesEmitter"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="1" />
-                <rangedArmorPenetration add="8" /> <!-- %rangedArmorPenetration add armorPiercing=1 -->
-                <rangedDamage add="8" /> <!-- %rangedDamage add strength=9 -->
-                <strengthDamage base="0" />
+                <attacks add="1"/>
+                <rangedArmorPenetration add="8"/> <!-- %rangedArmorPenetration add armorPiercing=1 -->
+                <rangedDamage add="8"/> <!-- %rangedDamage add strength=9 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="3" />
+    <target rangeMax="3"/>
     <traits>
-        <trait name="HeavyWeapon" />
-        <trait name="Eldar/HeavyWeaponBonus" requiredUpgrade="Eldar/HeavyWeaponBonus" />
-        <trait name="Lance" />
+        <trait name="HeavyWeapon"/>
+        <trait name="Eldar/HeavyWeaponBonus"
+               requiredUpgrade="Eldar/HeavyWeaponBonus"/>
+        <trait name="Lance"/>
     </traits>
 </weapon>

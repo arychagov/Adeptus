@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Actions/AdeptusMechanicus/VoicesInTheCode" position="5" visible="0">
+<upgrade icon="Actions/AdeptusMechanicus/VoicesInTheCode"
+         position="5"
+         visible="0">
     <requiredUpgrades>
-        <upgrade name="AdeptusMechanicus/SicarianInfiltrator" />
+        <upgrade name="AdeptusMechanicus/SicarianInfiltrator"/>
     </requiredUpgrades>
 </upgrade>

@@ -1,55 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feature ambientSound="Ambient/RuinOfVaul" ambientSoundLayer="1" ambientSoundPriority="0" audioEffectSystem="City" blockingSight="1" category="ImperialRuins">
+<feature ambientSound="Ambient/RuinOfVaul"
+         ambientSoundLayer="1"
+         ambientSoundPriority="0"
+         audioEffectSystem="City"
+         blockingSight="1"
+         category="ImperialRuins">
     <model>
-        <imperialRuin material="Buildings/AstraMilitarum/Buildings" />
+        <imperialRuin material="Buildings/AstraMilitarum/Buildings"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <buildingSlots max="4" />
-                <ore mul="0.0001" />
-                <requisitions mul="0.0001" />
+                <buildingSlots max="4"/>
+                <ore mul="0.0001"/>
+                <requisitions mul="0.0001"/>
             </effects>
         </modifier>
         <modifier>
             <conditions>
                 <unit>
-                    <noTrait name="Flyer" />
-                    <noTrait name="MoveThroughCover" />
+                    <noTrait name="Flyer"/>
+                    <noTrait name="MoveThroughCover"/>
                 </unit>
             </conditions>
             <effects>
-                <movementCost add="1" />
+                <movementCost add="1"/>
             </effects>
         </modifier>
         <modifier>
             <conditions>
                 <player>
-                    <faction name="AdeptusMechanicus" />
+                    <faction name="AdeptusMechanicus"/>
                 </player>
             </conditions>
             <effects>
-                <buildingSlots add="1" />
+                <buildingSlots add="1"/>
             </effects>
         </modifier>
         <modifier>
             <conditions>
                 <unit>
-                    <trait name="Vehicle" />
-                    <noTrait name="Flyer" />
-                    <noTrait name="Skimmer" />
-                    <noTrait name="Walker" />
-                    <noTrait name="MoveThroughCover" />
-                    <noTrait name="DozerBlade" />
-                    <noTrait name="SiegeShield" />
+                    <trait name="Vehicle"/>
+                    <noTrait name="Flyer"/>
+                    <noTrait name="Skimmer"/>
+                    <noTrait name="Walker"/>
+                    <noTrait name="MoveThroughCover"/>
+                    <noTrait name="DozerBlade"/>
+                    <noTrait name="SiegeShield"/>
                 </unit>
             </conditions>
             <effects>
-                <movementCost add="1" />
+                <movementCost add="1"/>
             </effects>
         </modifier>
     </modifiers>
     <traits>
-        <trait name="ImperialRuin" />
+        <trait name="ImperialRuin"/>
     </traits>
 </feature>

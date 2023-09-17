@@ -1,81 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement2">
     <model>
-        <unit bloodBone="Bone001" idleAnimation="Units/Tyranids/WarriorIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tyranids/Warrior" mesh="Units/Tyranids/Warrior" normalWeight="0.1" scale="0.9 0.9 0.9" walker="1" />
+        <unit bloodBone="Bone001"
+              idleAnimation="Units/Tyranids/WarriorIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/Tyranids/Warrior"
+              mesh="Units/Tyranids/Warrior"
+              normalWeight="0.1"
+              scale="0.9 0.9 0.9"
+              walker="1"/>
     </model>
-    <group memberDeltaX="70" memberDeltaY="80" rowSize="3" size="3" />
+    <group memberDeltaX="70"
+           memberDeltaY="80"
+           rowSize="3"
+           size="3"/>
     <weapons>
         <weapon name="Devourer">
             <model>
-                <projectileWeapon fireInterval="0.166666666667" muzzleBone=".Muzzle" />
+                <projectileWeapon fireInterval="0.166666666667"
+                                  muzzleBone=".Muzzle"/>
             </model>
         </weapon>
         <weapon name="ScythingTalons">
             <model>
-                <weapon fireInterval="0.366666666667" />
+                <weapon fireInterval="0.366666666667"/>
             </model>
         </weapon>
-        <weapon name="FleshHooks" requiredUpgrade="Tyranids/FleshHooks">
+        <weapon name="FleshHooks"
+                requiredUpgrade="Tyranids/FleshHooks">
             <model>
-                <projectileWeapon fireInterval="10.0" muzzleBone="Bone001" />
+                <projectileWeapon fireInterval="10.0"
+                                  muzzleBone="Bone001"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="6" /> <!-- %armor base armor=4+ -->
-                <biomassUpkeep base="3.0" /> <!-- %biomassUpkeep base tier=7 factor=1 -->
-                <biomassCost base="60.0" /> <!-- %biomassCost base tier=7 factor=1 -->
-                <hitpointsMax base="9.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=4 wounds=3 -->
-                <meleeAccuracy base="10" /> <!-- %meleeAccuracy base weaponSkill=5 -->
-                <meleeAttacks base="2" />
-                <strengthDamage base="1.5" /> <!-- %strengthDamage base strength=4 -->
-                <moraleMax base="12" /> <!-- %moraleMax base leadership=9 -->
-                <movementMax base="3" />
-                <productionCost base="42.0" /> <!-- %productionCost base tier=7 factor=1 -->
-                <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <armor base="6"/> <!-- %armor base armor=4+ -->
+                <biomassUpkeep base="3.0"/> <!-- %biomassUpkeep base tier=7 factor=1 -->
+                <biomassCost base="60.0"/> <!-- %biomassCost base tier=7 factor=1 -->
+                <hitpointsMax base="9.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=4 wounds=3 -->
+                <meleeAccuracy base="10"/> <!-- %meleeAccuracy base weaponSkill=5 -->
+                <meleeAttacks base="2"/>
+                <strengthDamage base="1.5"/> <!-- %strengthDamage base strength=4 -->
+                <moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
+                <movementMax base="3"/>
+                <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0" />
+                <increaseInfantryScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/Tyranids/WarriorAttack" beginFire="0.666666666667" chargeAnimation="Units/Tyranids/WarriorCharge" chargeBeginFire="0.333333333333" chargeEndFire="1.16666666667" endFire="2.33333333333" meleeAnimation="Units/Tyranids/WarriorMelee" meleeBeginSwing="0.533333333333" meleeEndSwing="1.0" />
+                <action animation="Units/Tyranids/WarriorAttack"
+                        beginFire="0.666666666667"
+                        chargeAnimation="Units/Tyranids/WarriorCharge"
+                        chargeBeginFire="0.333333333333"
+                        chargeEndFire="1.16666666667"
+                        endFire="2.33333333333"
+                        meleeAnimation="Units/Tyranids/WarriorMelee"
+                        meleeBeginSwing="0.533333333333"
+                        meleeEndSwing="1.0"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Tyranids/WarriorDie" animationCount="2" sound="Units/MediumUnarmoredDie" soundCount="4" soundDelay="0.5" voiceSound="Units/Tyranids/MediumDie" voiceSoundCount="4" />
+                <action animation="Units/Tyranids/WarriorDie"
+                        animationCount="2"
+                        sound="Units/MediumUnarmoredDie"
+                        soundCount="4"
+                        soundDelay="0.5"
+                        voiceSound="Units/Tyranids/MediumDie"
+                        voiceSoundCount="4"/>
             </model>
         </die>
         <idle>
             <model>
-                <action />
+                <action/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/Tyranids/WarriorMove" sound="Units/Tyranids/InfantryMove" soundCount="4" />
+                <action animation="Units/Tyranids/WarriorMove"
+                        sound="Units/Tyranids/InfantryMove"
+                        soundCount="4"/>
             </model>
         </move>
-        <genericUnitAbility name="Tyranids/SynapseCreature" passive="1">
+        <genericUnitAbility name="Tyranids/SynapseCreature"
+                            passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1">
+                        <area affects="Tile"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Tyranids/SynapseLink" />
+                                        <addTrait name="Tyranids/SynapseLink"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -84,15 +116,18 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility name="Tyranids/ShadowInTheWarp" passive="1">
+        <genericUnitAbility name="Tyranids/ShadowInTheWarp"
+                            passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" excludeRadius="0" radius="1">
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Tyranids/ShadowInTheWarp" />
+                                        <addTrait name="Tyranids/ShadowInTheWarp"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -101,15 +136,20 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <subterraneanAssault name="Tyranids/SubterraneanAssault" />
+        <subterraneanAssault name="Tyranids/SubterraneanAssault"/>
     </actions>
     <traits>
-        <trait name="ExtraInfantryArmour" requiredUpgrade="Tyranids/ExtraInfantryArmour" />
-        <trait name="Fleet" requiredUpgrade="Tyranids/AdrenalGlands" />
-        <trait name="FuriousCharge" requiredUpgrade="Tyranids/AdrenalGlands" />
-        <trait name="Tyranids/InfantryUpkeep" requiredUpgrade="Tyranids/InfantryUpkeep" />
-        <trait name="Tyranids/ToxinSacs" requiredUpgrade="Tyranids/ToxinSacs" />
-        <trait name="Bodyguard" />
-        <trait name="VeryBulky" />
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="Tyranids/ExtraInfantryArmour"/>
+        <trait name="Fleet"
+               requiredUpgrade="Tyranids/AdrenalGlands"/>
+        <trait name="FuriousCharge"
+               requiredUpgrade="Tyranids/AdrenalGlands"/>
+        <trait name="Tyranids/InfantryUpkeep"
+               requiredUpgrade="Tyranids/InfantryUpkeep"/>
+        <trait name="Tyranids/ToxinSacs"
+               requiredUpgrade="Tyranids/ToxinSacs"/>
+        <trait name="Bodyguard"/>
+        <trait name="VeryBulky"/>
     </traits>
 </unit>

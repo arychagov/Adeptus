@@ -3,7 +3,7 @@
     <opponentModifiers>
         <modifier>
             <effects>
-                <armor max="8" />
+                <armor max="8"/>
             </effects>
         </modifier>
     </opponentModifiers>

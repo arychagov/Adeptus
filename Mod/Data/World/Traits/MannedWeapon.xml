@@ -4,11 +4,12 @@
         <modifier>
             <conditions>
                 <unit>
-                    <cargoSlotsTaken equal="0" />
+                    <cargoSlotsTaken equal="0"/>
                 </unit>
             </conditions>
             <effects>
-                <accuracy max="-999" min="-999" />
+                <accuracy max="-999"
+                          min="-999"/>
             </effects>
         </modifier>
     </modifiers>

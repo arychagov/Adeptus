@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Weapons/SkystrikeMissile" position="9">
+<upgrade icon="Weapons/SkystrikeMissile"
+         position="9">
     <requiredUpgrades>
-        <upgrade name="AstraMilitarum/Thunderbolt" />
+        <upgrade name="AstraMilitarum/Thunderbolt"/>
     </requiredUpgrades>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseAircraftScore base="1.0" />
+                <increaseAircraftScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

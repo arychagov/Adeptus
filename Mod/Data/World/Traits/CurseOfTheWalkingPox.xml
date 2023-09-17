@@ -5,14 +5,14 @@
             <conditions>
                 <encounter>
                     <opponent match="Any">
-                        <noTrait name="Fortification" />
-                        <noTrait name="Vehicle" />
-                        <noTrait name="MonstrousCreature" />
+                        <noTrait name="Fortification"/>
+                        <noTrait name="Vehicle"/>
+                        <noTrait name="MonstrousCreature"/>
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <lifeStealFactor add="0.83" />
+                <lifeStealFactor add="0.83"/>
             </effects>
         </modifier>
     </modifiers>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Traits/MeleeDamage" position="4">
+<upgrade icon="Traits/MeleeDamage"
+         position="4">
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0" />
-                <increaseSupportScore base="1.0" />
+                <increaseInfantryScore base="1.0"/>
+                <increaseSupportScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

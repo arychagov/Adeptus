@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Traits/SistersOfBattle/ThePassion">
+<trait category="Buff"
+       icon="Traits/SistersOfBattle/ThePassion">
     <modifiers>
         <modifier>
             <effects>
-                <armor add="1" />
+                <armor add="1"/>
             </effects>
         </modifier>
     </modifiers>

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait icon="Actions/AstraMilitarumLoyaltyEdict" visibilityCategory="Building">
+<trait icon="Actions/AstraMilitarumLoyaltyEdict"
+       visibilityCategory="Building">
     <modifiers>
         <modifier>
             <conditions>
                 <building>
-                    <type name="AstraMilitarum/Loyalty" />
+                    <type name="AstraMilitarum/Loyalty"/>
                 </building>
             </conditions>
             <effects>
-                <loyalty mul="0.5" />
+                <loyalty mul="0.5"/>
             </effects>
         </modifier>
     </modifiers>

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" icon="Factions/AstraMilitarum">
+<trait alwaysVisible="1"
+       icon="Factions/AstraMilitarum">
     <modifiers>
         <modifier>
             <conditions>
                 <weapon>
-                    <trait name="RapidFire" />
+                    <trait name="RapidFire"/>
                 </weapon>
-                <encounterRange greater="1" />
+                <encounterRange greater="1"/>
             </conditions>
             <effects>
-                <rangedAttacks mul="1" />
+                <rangedAttacks mul="1"/>
             </effects>
         </modifier>
     </modifiers>

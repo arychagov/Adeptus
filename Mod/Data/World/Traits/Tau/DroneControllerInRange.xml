@@ -4,14 +4,15 @@
         <modifier>
             <conditions>
                 <unit>
-                    <unitsInRange count="1" range="1">
-                        <allied />
-                        <trait name="Tau/DroneController" />
+                    <unitsInRange count="1"
+                                  range="1">
+                        <allied/>
+                        <trait name="Tau/DroneController"/>
                     </unitsInRange>
                 </unit>
             </conditions>
             <effects>
-                <accuracy add="2" />
+                <accuracy add="2"/>
             </effects>
         </modifier>
     </modifiers>

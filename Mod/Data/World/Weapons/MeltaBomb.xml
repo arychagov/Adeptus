@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <grenadeWeapon explosionSound="Explosions/MeltaBomb" explosionSoundCount="3" fireSound="Weapons/GrenadeThrow" fireSoundCount="6" />
+        <grenadeWeapon explosionSound="Explosions/MeltaBomb"
+                       explosionSoundCount="3"
+                       fireSound="Weapons/GrenadeThrow"
+                       fireSoundCount="6"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <meleeAttacks max="1" />
-                <meleeArmorPenetration base="8" /> <!-- %meleeArmorPenetration base armorPiercing=1 -->
-                <meleeDamage max="6" min="6" /> <!-- %meleeDamage base strength=8 -->
+                <meleeAttacks max="1"/>
+                <meleeArmorPenetration base="8"/> <!-- %meleeArmorPenetration base armorPiercing=1 -->
+                <meleeDamage max="6"
+                             min="6"/> <!-- %meleeDamage base strength=8 -->
             </effects>
         </modifier>
     </modifiers>
     <target rangeMax="1">
         <conditions>
             <unit match="Any">
-                <trait name="Fortification" />
-                <trait name="MonstrousCreature" />
-                <trait name="Vehicle" />
+                <trait name="Fortification"/>
+                <trait name="MonstrousCreature"/>
+                <trait name="Vehicle"/>
             </unit>
         </conditions>
     </target>
     <traits>
-        <trait name="Armourbane" />
-        <trait name="AstraMilitarum/BlastDamage" requiredUpgrade="AstraMilitarum/BlastDamage" />
-        <trait name="SpaceMarines/BlastDamage" requiredUpgrade="SpaceMarines/BlastDamage" />
-        <trait name="Bomb" />
-        <trait name="Melee" />
+        <trait name="Armourbane"/>
+        <trait name="AstraMilitarum/BlastDamage"
+               requiredUpgrade="AstraMilitarum/BlastDamage"/>
+        <trait name="SpaceMarines/BlastDamage"
+               requiredUpgrade="SpaceMarines/BlastDamage"/>
+        <trait name="Bomb"/>
+        <trait name="Melee"/>
         <!-- <trait name="Unwieldy"/> -->
     </traits>
 </weapon>

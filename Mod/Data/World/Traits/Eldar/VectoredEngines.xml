@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff" icon="Actions/Eldar/VectorDancer">
+<trait alwaysVisible="1"
+       category="Buff"
+       icon="Actions/Eldar/VectorDancer">
     <modifiers>
         <modifier>
             <conditions>
                 <encounter>
                     <opponent>
-                        <attacking />
+                        <attacking/>
                     </opponent>
                     <weapon>
-                        <noTrait name="Melee" />
+                        <noTrait name="Melee"/>
                     </weapon>
                 </encounter>
             </conditions>
             <effects>
-                <armor add="2" />
+                <armor add="2"/>
             </effects>
         </modifier>
     </modifiers>

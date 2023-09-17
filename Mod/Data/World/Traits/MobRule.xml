@@ -3,7 +3,8 @@
     <modifiers>
         <modifier>
             <effects>
-                <moraleLossFactorPerAllyInArea add="-0.03" min="-0.30" />
+                <moraleLossFactorPerAllyInArea add="-0.03"
+                                               min="-0.30"/>
             </effects>
         </modifier>
     </modifiers>

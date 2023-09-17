@@ -1,132 +1,168 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit spawnDistanceMin="6">
     <model>
-        <unit bloodBone="Bone001" idleAnimation="Units/ChaosSpaceMarines/ChaosCultistIdle" idleAnimationCount="3" idleContinuously="1" material="Units/ChaosSpaceMarines/ChaosCultist" mesh="Units/ChaosSpaceMarines/ChaosCultist" normalWeight="0.1" scale="0.8 0.8 0.8" walker="1" />
+        <unit bloodBone="Bone001"
+              idleAnimation="Units/ChaosSpaceMarines/ChaosCultistIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/ChaosSpaceMarines/ChaosCultist"
+              mesh="Units/ChaosSpaceMarines/ChaosCultist"
+              normalWeight="0.1"
+              scale="0.8 0.8 0.8"
+              walker="1"/>
     </model>
-    <group memberDeltaX="70" memberDeltaY="50" rowSize="5" size="10" />
+    <group memberDeltaX="70"
+           memberDeltaY="50"
+           rowSize="5"
+           size="10"/>
     <weapons>
         <weapon name="Autopistol">
             <model>
-                <projectileWeapon bone="Bone006" fireInterval="0.25" material="Units/ChaosSpaceMarines/ChaosCultist" mesh="Weapons/ChaosSpaceMarines/Autopistol" muzzleBone=".Muzzle" />
+                <projectileWeapon bone="Bone006"
+                                  fireInterval="0.25"
+                                  material="Units/ChaosSpaceMarines/ChaosCultist"
+                                  mesh="Weapons/ChaosSpaceMarines/Autopistol"
+                                  muzzleBone=".Muzzle"/>
             </model>
         </weapon>
         <weapon name="CloseCombatWeapon">
             <model>
-                <weapon fireInterval="0.5" />
+                <weapon fireInterval="0.5"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="2" /> <!-- %armor base armor=6+ -->
-                <hitpointsMax base="2.0" /> <!-- %hitpointsMax base toughness=3 wounds=1 -->
-                <meleeAccuracy base="6" /> <!-- %meleeAccuracy base weaponSkill=3 -->
-                <meleeAttacks base="1" />
-                <strengthDamage base="1" /> <!-- %strengthDamage base strength=3 -->
+                <armor base="2"/> <!-- %armor base armor=6+ -->
+                <hitpointsMax base="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
+                <meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
+                <meleeAttacks base="1"/>
+                <strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
                 <!-- <meleeInitiative base="3"/> -->
-                <moraleMax base="4" /> <!-- %moraleMax base leadership=5 -->
-                <movementMax base="3" />
-                <productionCost base="24.0" /> <!-- %productionCost base tier=4 factor=1 -->
-                <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
-                <foodUpkeep base="1.0" /> <!-- %foodUpkeep base tier=4 factor=1 -->
-                <foodCost base="10.0" /> <!-- %foodCost base tier=4 factor=0.5 -->
-                <oreCost base="10.0" /> <!-- %oreCost base tier=4 factor=0.5 -->
+                <moraleMax base="4"/> <!-- %moraleMax base leadership=5 -->
+                <movementMax base="3"/>
+                <productionCost base="24.0"/> <!-- %productionCost base tier=4 factor=1 -->
+                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <foodUpkeep base="1.0"/> <!-- %foodUpkeep base tier=4 factor=1 -->
+                <foodCost base="10.0"/> <!-- %foodCost base tier=4 factor=0.5 -->
+                <oreCost base="10.0"/> <!-- %oreCost base tier=4 factor=0.5 -->
             </effects>
         </modifier>
-        <modifier requiredUpgrade="ChaosSpaceMarines/DarkDisciple" visible="0">
+        <modifier requiredUpgrade="ChaosSpaceMarines/DarkDisciple"
+                  visible="0">
             <effects>
-                <foodCost add="5" />
-                <oreCost add="5" />
-                <foodUpkeep add="0.5" />
+                <foodCost add="5"/>
+                <oreCost add="5"/>
+                <foodUpkeep add="0.5"/>
             </effects>
         </modifier>
-        <modifier requiredUpgrade="ChaosSpaceMarines/BelieversOfTheTrueFaith" visible="0">
+        <modifier requiredUpgrade="ChaosSpaceMarines/BelieversOfTheTrueFaith"
+                  visible="0">
             <effects>
-                <foodCost max="0" />
-                <oreCost max="0" />
-                <foodUpkeep max="0" />
-                <meleeAttacks mul="0.17" />
+                <foodCost max="0"/>
+                <oreCost max="0"/>
+                <foodUpkeep max="0"/>
+                <meleeAttacks mul="0.17"/>
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseColonizersScore base="1.0" />
-                <increaseInfantryScore base="1.0" />
+                <increaseColonizersScore base="1.0"/>
+                <increaseInfantryScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/ChaosSpaceMarines/ChaosCultistAttack" beginFire="0.7" chargeAnimation="Units/ChaosSpaceMarines/ChaosCultistCharge" chargeBeginFire="0.7" chargeEndFire="1.2" endFire="1.8" meleeAnimation="Units/ChaosSpaceMarines/ChaosCultistMelee" meleeBeginSwing="0.2" meleeEndSwing="0.9" />
+                <action animation="Units/ChaosSpaceMarines/ChaosCultistAttack"
+                        beginFire="0.7"
+                        chargeAnimation="Units/ChaosSpaceMarines/ChaosCultistCharge"
+                        chargeBeginFire="0.7"
+                        chargeEndFire="1.2"
+                        endFire="1.8"
+                        meleeAnimation="Units/ChaosSpaceMarines/ChaosCultistMelee"
+                        meleeBeginSwing="0.2"
+                        meleeEndSwing="0.9"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/ChaosSpaceMarines/ChaosCultistDie" animationCount="2" sound="Units/MediumUnarmoredDie" soundCount="4" soundDelay="0.35" voiceSound="Units/AstraMilitarum/InfantryDie" voiceSoundCount="5" />
+                <action animation="Units/ChaosSpaceMarines/ChaosCultistDie"
+                        animationCount="2"
+                        sound="Units/MediumUnarmoredDie"
+                        soundCount="4"
+                        soundDelay="0.35"
+                        voiceSound="Units/AstraMilitarum/InfantryDie"
+                        voiceSoundCount="5"/>
             </model>
         </die>
         <idle>
             <model>
-                <action />
+                <action/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/ChaosSpaceMarines/ChaosCultistMove" sound="Units/AstraMilitarum/InfantryMove" soundCount="4" />
+                <action animation="Units/ChaosSpaceMarines/ChaosCultistMove"
+                        sound="Units/AstraMilitarum/InfantryMove"
+                        soundCount="4"/>
             </model>
         </move>
         <foundCity>
             <model>
-                <action animation="" sound="Actions/FoundCity" />
+                <action animation=""
+                        sound="Actions/FoundCity"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="80" />
-                        <oreCost base="80" />
+                        <influenceCost base="80"/>
+                        <oreCost base="80"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="ChaosSpaceMarines/ChaosRising">
                     <effects>
-                        <influenceCost mul="-0.5" />
-                        <oreCost mul="-0.5" />
+                        <influenceCost mul="-0.5"/>
+                        <oreCost mul="-0.5"/>
                     </effects>
                 </modifier>
             </modifiers>
         </foundCity>
-        <clearTileUnitAbility name="ClearTile" cooldown="1" icon="Actions/ClearTile">
+        <clearTileUnitAbility name="ClearTile"
+                              cooldown="1"
+                              icon="Actions/ClearTile">
             <model>
-                <action animation="Units/ChaosSpaceMarines/ChaosCultistWork" />
+                <action animation="Units/ChaosSpaceMarines/ChaosCultistWork"/>
             </model>
             <beginTargets>
                 <target rangeMax="1">
-                    <conditions />
-                    <areas />
+                    <conditions/>
+                    <areas/>
                 </target>
             </beginTargets>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="5" />
-                        <oreCost base="5" />
+                        <influenceCost base="5"/>
+                        <oreCost base="5"/>
                     </effects>
                 </modifier>
             </modifiers>
         </clearTileUnitAbility>
         <cultistSacrifice name="ChaosSpaceMarines/CultistSacrifice">
             <model>
-                <action bone="Bone001" />
+                <action bone="Bone001"/>
             </model>
             <beginTargets>
                 <target rangeMax="1">
                     <conditions>
                         <unit>
-                            <allied />
-                            <type name="ChaosSpaceMarines/Headquarters" />
+                            <allied/>
+                            <type name="ChaosSpaceMarines/Headquarters"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -134,7 +170,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="ChaosSpaceMarines/CultistSacrifice" duration="10" />
+                                        <addTrait name="ChaosSpaceMarines/CultistSacrifice"
+                                                  duration="10"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -149,7 +186,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <removeUnit />
+                                        <removeUnit/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -158,15 +195,18 @@
                 </selfTarget>
             </endTargets>
         </cultistSacrifice>
-        <constructNoctilithCrown cooldown="10" icon="Units/ChaosSpaceMarines/NoctilithCrown" requiredUpgrade="ChaosSpaceMarines/NoctilithCrown">
+        <constructNoctilithCrown cooldown="10"
+                                 icon="Units/ChaosSpaceMarines/NoctilithCrown"
+                                 requiredUpgrade="ChaosSpaceMarines/NoctilithCrown">
             <model>
-                <action animation="Units/ChaosSpaceMarines/ChaosCultistWork" sound="Actions/Construct" />
+                <action animation="Units/ChaosSpaceMarines/ChaosCultistWork"
+                        sound="Actions/Construct"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <energyCost base="20" />
-                        <oreCost base="20" />
+                        <energyCost base="20"/>
+                        <oreCost base="20"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -174,12 +214,12 @@
                 <target rangeMax="1">
                     <conditions>
                         <tile>
-                            <noFeatureCategory name="Resource" />
-                            <noFeatureCategory name="WireWeed" />
-                            <land />
-                            <noEnemyCity />
-                            <noUnit />
-                            <noFeature name="GravityWaves" />
+                            <noFeatureCategory name="Resource"/>
+                            <noFeatureCategory name="WireWeed"/>
+                            <land/>
+                            <noEnemyCity/>
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
                         </tile>
                     </conditions>
                     <areas>
@@ -187,7 +227,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="ChaosSpaceMarines/NoctilithCrown" />
+                                        <addUnit name="ChaosSpaceMarines/NoctilithCrown"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -196,15 +236,19 @@
                 </target>
             </beginTargets>
         </constructNoctilithCrown>
-        <genericUnitAbility name="ChaosSpaceMarines/DeferredAbsolution" passive="1" requiredUpgrade="ChaosSpaceMarines/DarkDisciple">
+        <genericUnitAbility name="ChaosSpaceMarines/DeferredAbsolution"
+                            passive="1"
+                            requiredUpgrade="ChaosSpaceMarines/DarkDisciple">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" excludeRadius="0" radius="1">
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="ChaosSpaceMarines/DeferredAbsolution" />
+                                        <addTrait name="ChaosSpaceMarines/DeferredAbsolution"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -215,8 +259,10 @@
         </genericUnitAbility>
     </actions>
     <traits>
-        <trait name="ChaosSpaceMarines/ChampionOfChaos" />
-        <trait name="ChaosSpaceMarines/BloatedWithLifesteal" requiredUpgrade="ChaosSpaceMarines/BloatedWithLifesteal" />
-        <trait name="ExtraInfantryArmour" requiredUpgrade="ChaosSpaceMarines/ExtraInfantryArmour" />
+        <trait name="ChaosSpaceMarines/ChampionOfChaos"/>
+        <trait name="ChaosSpaceMarines/BloatedWithLifesteal"
+               requiredUpgrade="ChaosSpaceMarines/BloatedWithLifesteal"/>
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="ChaosSpaceMarines/ExtraInfantryArmour"/>
     </traits>
 </unit>

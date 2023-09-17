@@ -3,57 +3,66 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <influenceUpkeep add="2" />
-                <biomassCost base="50" />
-                <productionCost base="36" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
+                <influenceUpkeep add="2"/>
+                <biomassCost base="50"/>
+                <productionCost base="36"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <influence add="2" />
-                <biomass add="2" />
-                <production add="6" />
+                <influence add="2"/>
+                <biomass add="2"/>
+                <production add="6"/>
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesProductionScore base="1.0" />
+                <increaseVehiclesProductionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <reclaimUnit name="Tyranids/ReclaimUnit" cooldown="1" interfaceSound="Interface/ReclaimUnit">
+        <reclaimUnit name="Tyranids/ReclaimUnit"
+                     cooldown="1"
+                     interfaceSound="Interface/ReclaimUnit">
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost add="10" />
+                        <influenceCost add="10"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Tyranids/Reclamation2">
                     <effects>
-                        <influenceCost mul="-0.5" />
+                        <influenceCost mul="-0.5"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Tyranids/Reclamation3">
                     <effects>
-                        <cooldown max="0" />
+                        <cooldown max="0"/>
                     </effects>
                 </modifier>
             </modifiers>
         </reclaimUnit>
-        <produceUnit unit="Tyranids/Tyrannocyte" />
-        <produceUnit requiredUpgrade="Tyranids/Carnifex" unit="Tyranids/Carnifex" />
-        <produceUnit requiredUpgrade="Tyranids/Exocrine" unit="Tyranids/Exocrine" />
-        <produceUnit requiredUpgrade="Tyranids/Haruspex" unit="Tyranids/Haruspex" />
-        <produceUnit requiredUpgrade="Tyranids/Trygon" unit="Tyranids/Trygon" />
-        <produceUnit requiredUpgrade="Tyranids/Tyrannofex" unit="Tyranids/Tyrannofex" />
-        <produceUnit requiredUpgrade="Tyranids/ScythedHierodule" unit="Tyranids/ScythedHierodule" />
+        <produceUnit unit="Tyranids/Tyrannocyte"/>
+        <produceUnit requiredUpgrade="Tyranids/Carnifex"
+                     unit="Tyranids/Carnifex"/>
+        <produceUnit requiredUpgrade="Tyranids/Exocrine"
+                     unit="Tyranids/Exocrine"/>
+        <produceUnit requiredUpgrade="Tyranids/Haruspex"
+                     unit="Tyranids/Haruspex"/>
+        <produceUnit requiredUpgrade="Tyranids/Trygon"
+                     unit="Tyranids/Trygon"/>
+        <produceUnit requiredUpgrade="Tyranids/Tyrannofex"
+                     unit="Tyranids/Tyrannofex"/>
+        <produceUnit requiredUpgrade="Tyranids/ScythedHierodule"
+                     unit="Tyranids/ScythedHierodule"/>
     </actions>
     <traits>
-        <trait name="Tyranids/ProductionBuildingUpkeep" requiredUpgrade="Tyranids/ProductionBuildingUpkeep" />
+        <trait name="Tyranids/ProductionBuildingUpkeep"
+               requiredUpgrade="Tyranids/ProductionBuildingUpkeep"/>
     </traits>
 </building>

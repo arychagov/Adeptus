@@ -1,91 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit bloodBone="ChestBone" idleAnimation="Units/AstraMilitarum/GuardsmanIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AstraMilitarum/Guardsman" mesh="Units/AstraMilitarum/Guardsman" normalWeight="0.1" scale="1 1 1" walker="1" />
+        <unit bloodBone="ChestBone"
+              idleAnimation="Units/AstraMilitarum/GuardsmanIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/AstraMilitarum/Guardsman"
+              mesh="Units/AstraMilitarum/Guardsman"
+              normalWeight="0.1"
+              scale="1 1 1"
+              walker="1"/>
     </model>
-    <group memberDeltaX="70" memberDeltaY="50" rowSize="4" size="8" />
+    <group memberDeltaX="70"
+           memberDeltaY="50"
+           rowSize="4"
+           size="8"/>
     <weapons>
         <weapon name="Lasgun">
             <model>
-                <beamWeapon bone="RightHandBone" fireInterval="0.5" material="Weapons/AstraMilitarum/GuardsmanLasgun" mesh="Weapons/AstraMilitarum/GuardsmanLasgun" muzzleBone="GuardsmanLasgunMuzzle0" />
+                <beamWeapon bone="RightHandBone"
+                            fireInterval="0.5"
+                            material="Weapons/AstraMilitarum/GuardsmanLasgun"
+                            mesh="Weapons/AstraMilitarum/GuardsmanLasgun"
+                            muzzleBone="GuardsmanLasgunMuzzle0"/>
             </model>
         </weapon>
-        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
+        <weapon name="FragGrenade"
+                enabled="0"
+                slotName="FragGrenade">
             <model>
-                <grenadeWeapon muzzleBone="LeftHandBone" />
+                <grenadeWeapon muzzleBone="LeftHandBone"/>
             </model>
         </weapon>
-        <weapon name="KrakGrenade" enabled="0" slotName="KrakGrenade">
+        <weapon name="KrakGrenade"
+                enabled="0"
+                slotName="KrakGrenade">
             <model>
-                <grenadeWeapon muzzleBone="LeftHandBone" />
+                <grenadeWeapon muzzleBone="LeftHandBone"/>
             </model>
         </weapon>
-        <weapon name="GuardsmanFlamer" enabled="0" requiredUpgrade="AstraMilitarum/AdditionalFlamer" slotName="Flamer">
+        <weapon name="GuardsmanFlamer"
+                enabled="0"
+                requiredUpgrade="AstraMilitarum/AdditionalFlamer"
+                slotName="Flamer">
             <model>
-                <flamerWeapon fireInterval="10" muzzleBone="LeftHandBone" />
+                <flamerWeapon fireInterval="10"
+                              muzzleBone="LeftHandBone"/>
             </model>
         </weapon>
-        <weapon name="GuardsmanMeltagun" enabled="0" requiredUpgrade="AstraMilitarum/AdditionalMeltagun" slotName="Meltagun">
+        <weapon name="GuardsmanMeltagun"
+                enabled="0"
+                requiredUpgrade="AstraMilitarum/AdditionalMeltagun"
+                slotName="Meltagun">
             <model>
-                <beamWeapon fireInterval="1" muzzleBone="LeftHandBone" />
+                <beamWeapon fireInterval="1"
+                            muzzleBone="LeftHandBone"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="4" /> <!-- %armor base armor=5+ -->
-                <foodUpkeep base="1.0" /> <!-- %foodUpkeep base tier=4 factor=1 -->
-                <foodCost base="10.0" /> <!-- %foodCost base tier=4 factor=0.5 -->
-                <hitpointsMax base="2.0" /> <!-- %hitpointsMax base toughness=3 wounds=1 -->
-                <meleeAccuracy base="6" /> <!-- %meleeAccuracy base weaponSkill=3 -->
-                <meleeAttacks base="1" />
+                <armor base="4"/> <!-- %armor base armor=5+ -->
+                <foodUpkeep base="1.0"/> <!-- %foodUpkeep base tier=4 factor=1 -->
+                <foodCost base="10.0"/> <!-- %foodCost base tier=4 factor=0.5 -->
+                <hitpointsMax base="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
+                <meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
+                <meleeAttacks base="1"/>
                 <!-- <meleeInitiative base="3"/> -->
-                <oreCost base="10.0" /> <!-- %oreCost base tier=4 factor=0.5 -->
-                <strengthDamage base="1" /> <!-- %strengthDamage base strength=3 -->
-                <moraleMax base="6" /> <!-- %moraleMax base leadership=6 -->
-                <movementMax base="3" />
-                <productionCost base="24.0" /> <!-- %productionCost base tier=4 factor=1 -->
-                <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
-                <rangedDamage mul="0.25" />
+                <oreCost base="10.0"/> <!-- %oreCost base tier=4 factor=0.5 -->
+                <strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
+                <moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
+                <movementMax base="3"/>
+                <productionCost base="24.0"/> <!-- %productionCost base tier=4 factor=1 -->
+                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <rangedDamage mul="0.25"/>
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0" />
+                <increaseInfantryScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/AstraMilitarum/GuardsmanAttack" beginFire="0.35" endFire="2.5" />
+                <action animation="Units/AstraMilitarum/GuardsmanAttack"
+                        beginFire="0.35"
+                        endFire="2.5"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/AstraMilitarum/GuardsmanDie" animationCount="3" sound="Units/MediumUnarmoredDie" soundCount="4" soundDelay="0.4" voiceSound="Units/AstraMilitarum/InfantryDie" voiceSoundCount="5" />
+                <action animation="Units/AstraMilitarum/GuardsmanDie"
+                        animationCount="3"
+                        sound="Units/MediumUnarmoredDie"
+                        soundCount="4"
+                        soundDelay="0.4"
+                        voiceSound="Units/AstraMilitarum/InfantryDie"
+                        voiceSoundCount="5"/>
             </model>
         </die>
         <idle>
             <model>
-                <action />
+                <action/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/AstraMilitarum/GuardsmanMove" sound="Units/AstraMilitarum/InfantryMove" soundCount="4" />
+                <action animation="Units/AstraMilitarum/GuardsmanMove"
+                        sound="Units/AstraMilitarum/InfantryMove"
+                        soundCount="4"/>
             </model>
         </move>
-        <mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
+        <mediPack cooldown="10"
+                  requiredUpgrade="AstraMilitarum/MediPack">
             <model>
-                <action bone="ChestBone" sound="Actions/Heal" />
+                <action bone="ChestBone"
+                        sound="Actions/Heal"/>
             </model>
             <conditions>
                 <unit>
-                    <damaged />
+                    <damaged/>
                 </unit>
             </conditions>
             <beginTargets>
@@ -95,7 +134,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpointsFactorFromMax add="0.5" />
+                                        <hitpointsFactorFromMax add="0.5"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -105,34 +144,50 @@
             </beginTargets>
         </mediPack>
 
-        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/AdditionalFlamer" weaponSlotName="Flamer">
+        <useWeapon consumedActionPoints="0"
+                   consumedMovement="0"
+                   cooldown="3"
+                   requiredActionPoints="0"
+                   requiredUpgrade="AstraMilitarum/AdditionalFlamer"
+                   weaponSlotName="Flamer">
             <conditions>
                 <unit>
-                    <trait name="AstraMilitarum/AdditionalFlamer" />
-                    <noTrait name="Exhausted" />
+                    <trait name="AstraMilitarum/AdditionalFlamer"/>
+                    <noTrait name="Exhausted"/>
                 </unit>
             </conditions>
             <model>
-                <action beginFire="0.1" endFire="1.0" />
+                <action beginFire="0.1"
+                        endFire="1.0"/>
             </model>
         </useWeapon>
 
-        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/AdditionalMeltagun" weaponSlotName="Meltagun">
+        <useWeapon consumedActionPoints="0"
+                   consumedMovement="0"
+                   cooldown="3"
+                   requiredActionPoints="0"
+                   requiredUpgrade="AstraMilitarum/AdditionalMeltagun"
+                   weaponSlotName="Meltagun">
             <conditions>
                 <unit>
-                    <trait name="AstraMilitarum/AdditionalMeltagun" />
-                    <noTrait name="Exhausted" />
+                    <trait name="AstraMilitarum/AdditionalMeltagun"/>
+                    <noTrait name="Exhausted"/>
                 </unit>
             </conditions>
             <model>
-                <action beginFire="0.1" endFire="1.0" />
+                <action beginFire="0.1"
+                        endFire="1.0"/>
             </model>
         </useWeapon>
     </actions>
     <traits>
-        <trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour" />
-        <trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster" />
-        <trait name="AstraMilitarum/ImperiumOfMan" requiredUpgrade="AstraMilitarum/ImperiumOfMan" />
-        <trait name="AstraMilitarum/CommitEverythingGuardsman" requiredUpgrade="AstraMilitarum/CommitEverything" />
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
+        <trait name="VoxCaster"
+               requiredUpgrade="AstraMilitarum/VoxCaster"/>
+        <trait name="AstraMilitarum/ImperiumOfMan"
+               requiredUpgrade="AstraMilitarum/ImperiumOfMan"/>
+        <trait name="AstraMilitarum/CommitEverythingGuardsman"
+               requiredUpgrade="AstraMilitarum/CommitEverything"/>
     </traits>
 </unit>

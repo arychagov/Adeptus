@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff" icon="Traits/Shaken">
+<trait category="Debuff"
+       icon="Traits/Shaken">
     <modifiers>
         <modifier>
             <effects>
-                <accuracy mul="-0.17" />
+                <accuracy mul="-0.17"/>
             </effects>
         </modifier>
     </modifiers>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Actions/AssaultDoctrine" position="3">
+<upgrade icon="Actions/AssaultDoctrine"
+         position="3">
     <requiredUpgrades>
-        <upgrade name="SpaceMarines/AssaultSpaceMarine" />
+        <upgrade name="SpaceMarines/AssaultSpaceMarine"/>
     </requiredUpgrades>
 </upgrade>

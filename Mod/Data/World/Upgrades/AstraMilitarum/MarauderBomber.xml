@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Units/AstraMilitarum/MarauderBomber" position="9">
+<upgrade icon="Units/AstraMilitarum/MarauderBomber"
+         position="9">
     <requiredUpgrades>
-        <upgrade name="AstraMilitarum/Aircraft" />
+        <upgrade name="AstraMilitarum/Aircraft"/>
     </requiredUpgrades>
 </upgrade>

@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <additionalMembersHit add="4" />
+                <additionalMembersHit add="4"/>
             </effects>
         </modifier>
     </modifiers>

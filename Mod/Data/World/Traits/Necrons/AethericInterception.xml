@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff" icon="Units/Necrons/TriarchPraetorian">
+<trait category="Debuff"
+       icon="Units/Necrons/TriarchPraetorian">
     <modifiers>
         <modifier>
             <conditions>
                 <unit>
-                    <enemy />
+                    <enemy/>
                 </unit>
             </conditions>
             <effects>
-                <movementMax add="-1" />
+                <movementMax add="-1"/>
             </effects>
         </modifier>
     </modifiers>

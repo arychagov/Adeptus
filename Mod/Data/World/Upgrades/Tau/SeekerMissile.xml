@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Weapons/SeekerMissile" position="6">
+<upgrade icon="Weapons/SeekerMissile"
+         position="6">
     <requiredUpgrades>
-        <upgrade name="Tau/Vehicles" />
-        <upgrade name="Tau/BroadsideBattlesuit" />
+        <upgrade name="Tau/Vehicles"/>
+        <upgrade name="Tau/BroadsideBattlesuit"/>
     </requiredUpgrades>
 </upgrade>

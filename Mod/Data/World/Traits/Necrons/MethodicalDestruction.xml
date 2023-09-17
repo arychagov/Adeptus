@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Actions/Necrons/Reaper">
+<trait category="Buff"
+       icon="Actions/Necrons/Reaper">
     <modifiers>
         <modifier>
             <conditions>
                 <unit>
-                    <allied />
-                    <faction name="Necrons" />
-                    <noTrait name="Fortification" />
-                    <noTrait name="Vehicle" />
-                    <noTrait name="MonstrousCreature" />
-                    <noTrait name="Hero" />
+                    <allied/>
+                    <faction name="Necrons"/>
+                    <noTrait name="Fortification"/>
+                    <noTrait name="Vehicle"/>
+                    <noTrait name="MonstrousCreature"/>
+                    <noTrait name="Hero"/>
                 </unit>
             </conditions>
             <effects>
-                <accuracy add="1" />
+                <accuracy add="1"/>
             </effects>
         </modifier>
     </modifiers>

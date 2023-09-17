@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <item>
     <actions>
-        <faolchusWing consumedMovement="0" cooldown="1">
+        <faolchusWing consumedMovement="0"
+                      cooldown="1">
             <model>
-                <action sound="Actions/MysticBuff" />
+                <action sound="Actions/MysticBuff"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -12,7 +13,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Items/FaolchusWing" duration="1" />
+                                        <addTrait name="Items/FaolchusWing"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -25,11 +27,11 @@
     <modifiers>
         <modifier>
             <effects>
-                <influenceCost base="160" />
+                <influenceCost base="160"/>
             </effects>
         </modifier>
     </modifiers>
     <traits>
-        <trait name="Artefact" />
+        <trait name="Artefact"/>
     </traits>
 </item>

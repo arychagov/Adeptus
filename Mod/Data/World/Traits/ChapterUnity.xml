@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" visibilityCategory="Building">
+<trait category="Buff"
+       visibilityCategory="Building">
     <modifiers>
         <modifier>
             <effects>
-                <loyalty add="4" />
+                <loyalty add="4"/>
             </effects>
         </modifier>
     </modifiers>

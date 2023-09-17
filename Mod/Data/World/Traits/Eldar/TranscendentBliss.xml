@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait icon="Actions/Eldar/TranscendentBliss" visibilityCategory="Building">
+<trait icon="Actions/Eldar/TranscendentBliss"
+       visibilityCategory="Building">
     <modifiers>
         <modifier>
             <conditions>
                 <building>
-                    <type name="Eldar/Headquarters" />
+                    <type name="Eldar/Headquarters"/>
                 </building>
             </conditions>
             <effects>
-                <loyalty add="3" />
+                <loyalty add="3"/>
             </effects>
         </modifier>
         <modifier requiredUpgrade="Eldar/TranscendentBlissBonus">
             <conditions>
                 <building>
-                    <type name="Eldar/Headquarters" />
+                    <type name="Eldar/Headquarters"/>
                 </building>
             </conditions>
             <effects>
-                <loyalty add="3" />
+                <loyalty add="3"/>
             </effects>
         </modifier>
     </modifiers>

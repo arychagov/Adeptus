@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon beamsBlueprint="Effects/LaserBeams" beamsEmitterBlueprint="Effects/MeltaBeamsEmitter" effectScale="10" fireInterval="0.5" fireSound="Weapons/MultiMelta" fireSoundCount="4" muzzleFlashesBlueprint="Effects/LaserMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/MeltaMuzzleFlashesEmitter" />
+        <beamWeapon beamsBlueprint="Effects/LaserBeams"
+                    beamsEmitterBlueprint="Effects/MeltaBeamsEmitter"
+                    effectScale="10"
+                    fireInterval="0.5"
+                    fireSound="Weapons/MultiMelta"
+                    fireSoundCount="4"
+                    muzzleFlashesBlueprint="Effects/LaserMuzzleFlashes"
+                    muzzleFlashesEmitterBlueprint="Effects/MeltaMuzzleFlashesEmitter"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="2" />
-                <rangedArmorPenetration add="6" /> <!-- %rangedArmorPenetration add armorPiercing=2 -->
-                <rangedDamage add="12" /> <!-- %rangedDamage add strength=10 -->
-                <strengthDamage base="0" />
+                <attacks add="2"/>
+                <rangedArmorPenetration add="6"/> <!-- %rangedArmorPenetration add armorPiercing=2 -->
+                <rangedDamage add="12"/> <!-- %rangedDamage add strength=10 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="3" />
+    <target rangeMax="3"/>
     <traits>
-        <trait name="LargeBlast" />
-        <trait name="DestroyerWeapon" />
-        <trait name="Eldar/HeavyWeaponBonus" requiredUpgrade="Eldar/HeavyWeaponBonus" />
-        <trait name="HeavyWeapon" />
-        <trait name="PrimaryWeapon" />
-        <trait name="TwinLinked" />
+        <trait name="LargeBlast"/>
+        <trait name="DestroyerWeapon"/>
+        <trait name="Eldar/HeavyWeaponBonus"
+               requiredUpgrade="Eldar/HeavyWeaponBonus"/>
+        <trait name="HeavyWeapon"/>
+        <trait name="PrimaryWeapon"/>
+        <trait name="TwinLinked"/>
     </traits>
 </weapon>

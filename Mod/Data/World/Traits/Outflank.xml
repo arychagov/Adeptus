@@ -4,13 +4,14 @@
         <modifier>
             <conditions>
                 <unit>
-                    <unitsInRange count="1" range="1">
-                        <allied />
+                    <unitsInRange count="1"
+                                  range="1">
+                        <allied/>
                     </unitsInRange>
                 </unit>
             </conditions>
             <effects>
-                <accuracy add="1" />
+                <accuracy add="1"/>
             </effects>
         </modifier>
     </modifiers>

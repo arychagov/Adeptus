@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait>
     <areas>
-        <area affects="Unit" radius="1">
+        <area affects="Unit"
+              radius="1">
             <modifiers>
                 <modifier>
                     <effects>
-                        <additionalMembersHit add="4" />
+                        <additionalMembersHit add="4"/>
                     </effects>
                 </modifier>
             </modifiers>

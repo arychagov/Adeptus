@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff" icon="Weapons/ClusterMines">
+<trait category="Debuff"
+       icon="Weapons/ClusterMines">
     <modifiers>
         <modifier>
             <conditions>
                 <unit>
-                    <enemy />
-                    <noTrait name="Flyer" />
-                    <noTrait name="Necrons/ImmuneToNaturalLaw" />
-                    <noTrait name="JetPack" />
-                    <noTrait name="Jetbike" />
-                    <noTrait name="Skimmer" />
+                    <enemy/>
+                    <noTrait name="Flyer"/>
+                    <noTrait name="Necrons/ImmuneToNaturalLaw"/>
+                    <noTrait name="JetPack"/>
+                    <noTrait name="Jetbike"/>
+                    <noTrait name="Skimmer"/>
                 </unit>
             </conditions>
             <effects>
-                <movementCost min="100" />
+                <movementCost min="100"/>
             </effects>
         </modifier>
     </modifiers>
@@ -21,12 +22,12 @@
         <modifier>
             <conditions>
                 <unit>
-                    <enemy />
+                    <enemy/>
                 </unit>
             </conditions>
             <effects>
-                <weaponDamage weapon="ClusterMines" />
-                <removeFeature name="ClusterMines" />
+                <weaponDamage weapon="ClusterMines"/>
+                <removeFeature name="ClusterMines"/>
             </effects>
         </modifier>
     </onTileEnteredModifiers>

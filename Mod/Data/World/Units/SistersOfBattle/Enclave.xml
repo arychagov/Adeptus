@@ -1,33 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit dlc="Supplement11" icon="Buildings/SistersOfBattle/Enclave">
+<unit dlc="Supplement11"
+      icon="Buildings/SistersOfBattle/Enclave">
     <model>
-        <structureUnit explosionsBone="HQ" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" idleAnimationCount="0" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" material="Units/SistersOfBattle/Headquarters" mesh="Units/SistersOfBattle/Enclave" scale="1.0 1.0 1.0" />
+        <structureUnit explosionsBone="HQ"
+                       heatImpactSound="Impacts/HeatConcrete"
+                       heatImpactSoundCount="4"
+                       idleAnimationCount="0"
+                       kineticImpactSound="Impacts/KineticConcrete"
+                       kineticImpactSoundCount="5"
+                       material="Units/SistersOfBattle/Headquarters"
+                       mesh="Units/SistersOfBattle/Enclave"
+                       scale="1.0 1.0 1.0"/>
     </model>
     <weapons>
-        <weapon name="TwinLinkedBoltgun" count="5">
+        <weapon name="TwinLinkedBoltgun"
+                count="5">
             <model>
-                <projectileWeapon bone="Guns" material="Buildings/SistersOfBattle/Buildings" mesh="Weapons/SistersOfBattle/HeadquartersGuns" muzzleBone="Boltgun" muzzleCount="3" />
+                <projectileWeapon bone="Guns"
+                                  material="Buildings/SistersOfBattle/Buildings"
+                                  mesh="Weapons/SistersOfBattle/HeadquartersGuns"
+                                  muzzleBone="Boltgun"
+                                  muzzleCount="3"/>
             </model>
         </weapon>
-        <weapon name="TwinLinkedMultiMelta" count="1">
+        <weapon name="TwinLinkedMultiMelta"
+                count="1">
             <model>
-                <beamWeapon bone="Guns" material="Buildings/SistersOfBattle/Buildings" mesh="Weapons/SistersOfBattle/HeadquartersGuns" muzzleBone="Melta" muzzleCount="1" />
+                <beamWeapon bone="Guns"
+                            material="Buildings/SistersOfBattle/Buildings"
+                            mesh="Weapons/SistersOfBattle/HeadquartersGuns"
+                            muzzleBone="Melta"
+                            muzzleCount="1"/>
             </model>
         </weapon>
-        <weapon name="TwinLinkedHeavyFlamer" count="1">
+        <weapon name="TwinLinkedHeavyFlamer"
+                count="1">
             <model>
-                <flamerWeapon bone="Guns" material="Buildings/SistersOfBattle/Buildings" mesh="Weapons/SistersOfBattle/HeadquartersGuns" muzzleBone="Flamer" muzzleCount="1" />
+                <flamerWeapon bone="Guns"
+                              material="Buildings/SistersOfBattle/Buildings"
+                              mesh="Weapons/SistersOfBattle/HeadquartersGuns"
+                              muzzleBone="Flamer"
+                              muzzleCount="1"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="6" /> <!-- %armor base armor=10/10/10 -->
-                <cargoSlots base="6" /> <!-- %cargoSlots base capacity=20 -->
-                <moraleMax base="0" /> <!-- %moraleMax base leadership=8 -->
-                <movementMax max="0" />
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <armor base="6"/> <!-- %armor base armor=10/10/10 -->
+                <cargoSlots base="6"/> <!-- %cargoSlots base capacity=20 -->
+                <moraleMax base="0"/> <!-- %moraleMax base leadership=8 -->
+                <movementMax max="0"/>
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
         </modifier>
     </modifiers>
@@ -35,19 +59,21 @@
     <actions>
         <attack>
             <model>
-                <action beginFire="0.15" endFire="2.6" />
+                <action beginFire="0.15"
+                        endFire="2.6"/>
             </model>
         </attack>
         <die>
             <model>
-                <action sound="Units/HeavyBuildingDie" soundCount="3" />
+                <action sound="Units/HeavyBuildingDie"
+                        soundCount="3"/>
             </model>
         </die>
-        <setRallyPoint />
+        <setRallyPoint/>
     </actions>
     <traits>
-        <trait name="Fortification" />
-        <trait name="Headquarters" />
-        <trait name="Transport" />
+        <trait name="Fortification"/>
+        <trait name="Headquarters"/>
+        <trait name="Transport"/>
     </traits>
 </unit>

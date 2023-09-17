@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff" icon="Actions/AdeptusMechanicus/VoicesInTheCode">
+<trait category="Debuff"
+       icon="Actions/AdeptusMechanicus/VoicesInTheCode">
     <modifiers>
         <modifier>
             <conditions>
                 <unit>
-                    <enemy />
+                    <enemy/>
                 </unit>
             </conditions>
             <effects>
-                <moraleLossFactor add="0.17" />
+                <moraleLossFactor add="0.17"/>
             </effects>
         </modifier>
     </modifiers>

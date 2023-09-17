@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff" icon="Actions/Tyranids/IndescribableHorror">
+<trait category="Debuff"
+       icon="Actions/Tyranids/IndescribableHorror">
     <perTurnModifiers endure="0">
         <modifier>
             <conditions>
                 <unit>
-                    <enemy />
+                    <enemy/>
                 </unit>
             </conditions>
             <effects>
-                <morale add="-1" />
+                <morale add="-1"/>
             </effects>
         </modifier>
     </perTurnModifiers>

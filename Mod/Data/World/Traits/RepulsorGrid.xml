@@ -3,19 +3,19 @@
     <modifiers>
         <modifier>
             <effects>
-                <rangedDamageReduction add="0.17" />
+                <rangedDamageReduction add="0.17"/>
             </effects>
         </modifier>
         <modifier>
             <conditions>
                 <weapon>
-                    <noTrait name="Melee" />
-                    <noTrait name="Witchfire" />
-                    <additionalMembersHit equal="0" />
+                    <noTrait name="Melee"/>
+                    <noTrait name="Witchfire"/>
+                    <additionalMembersHit equal="0"/>
                 </weapon>
             </conditions>
             <effects>
-                <damageReturnFactor add="0.17" />
+                <damageReturnFactor add="0.17"/>
             </effects>
         </modifier>
     </modifiers>

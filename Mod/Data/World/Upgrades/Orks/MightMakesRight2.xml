@@ -3,7 +3,7 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfluenceScore base="1.0" />
+                <increaseInfluenceScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

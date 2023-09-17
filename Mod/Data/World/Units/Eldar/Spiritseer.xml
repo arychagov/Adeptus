@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement7">
     <model>
-        <unit bloodBone="SpiritSeer_Chest" idleAnimation="Units/Eldar/SpiritseerIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Eldar/Spiritseer" mesh="Units/Eldar/Spiritseer" normalWeight="0.1" scale="1.1 1.1 1.1" walker="1" />
+        <unit bloodBone="SpiritSeer_Chest"
+              idleAnimation="Units/Eldar/SpiritseerIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/Eldar/Spiritseer"
+              mesh="Units/Eldar/Spiritseer"
+              normalWeight="0.1"
+              scale="1.1 1.1 1.1"
+              walker="1"/>
     </model>
     <weapons>
         <weapon name="CloseCombatWeapon">
@@ -9,88 +17,104 @@
         </weapon>
         <weapon name="WitchStaff">
             <model>
-                <powerWeapon effectBone="StaffEffect" effectBoundingVolume="Staff" fireInterval="10.0" />
+                <powerWeapon effectBone="StaffEffect"
+                             effectBoundingVolume="Staff"
+                             fireInterval="10.0"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="0" /> <!-- %armor base armor=- -->
-                <hitpointsMax base="6.0" />
-                <duplicateTypeCost mul="2.0" /> <!-- %hitpointsMax base toughness=3 wounds=3 -->
-                <influenceUpkeep base="3.0" /> <!-- %influenceUpkeep base tier=5 factor=2 -->
-                <influenceCost base="60.0" /> <!-- %influenceCost base tier=5 factor=2 -->
-                <itemSlots base="6" />
-                <levelMax base="9" />
-                <meleeAccuracy base="10" /> <!-- %meleeAccuracy base weaponSkill=5 -->
-                <meleeAttacks base="1" />
-                <strengthDamage base="1" /> <!-- %strengthDamage base strength=3 -->
+                <armor base="0"/> <!-- %armor base armor=- -->
+                <hitpointsMax base="6.0"/>
+                <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
+                <influenceUpkeep base="3.0"/> <!-- %influenceUpkeep base tier=5 factor=2 -->
+                <influenceCost base="60.0"/> <!-- %influenceCost base tier=5 factor=2 -->
+                <itemSlots base="6"/>
+                <levelMax base="9"/>
+                <meleeAccuracy base="10"/> <!-- %meleeAccuracy base weaponSkill=5 -->
+                <meleeAttacks base="1"/>
+                <strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
                 <!-- <meleeInitiative base="5"/> -->
-                <moraleMax base="10" /> <!-- %moraleMax base leadership=8 -->
-                <movementMax base="3" />
-                <productionCost base="30.0" /> <!-- %productionCost base tier=5 factor=1 -->
-                <rangedAccuracy base="10" /> <!-- %rangedAccuracy base ballisticSkill=5 -->
-                <energyUpkeep base="1.5" /> <!-- %energyUpkeep base tier=5 factor=1 -->
-                <foodCost base="15.0" /> <!-- %foodCost base tier=5 factor=0.5 -->
-                <energyCost base="15.0" /> <!-- %energyCost base tier=5 factor=0.5 -->
+                <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+                <movementMax base="3"/>
+                <productionCost base="30.0"/> <!-- %productionCost base tier=5 factor=1 -->
+                <rangedAccuracy base="10"/> <!-- %rangedAccuracy base ballisticSkill=5 -->
+                <energyUpkeep base="1.5"/> <!-- %energyUpkeep base tier=5 factor=1 -->
+                <foodCost base="15.0"/> <!-- %foodCost base tier=5 factor=0.5 -->
+                <energyCost base="15.0"/> <!-- %energyCost base tier=5 factor=0.5 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseHeroesScore base="1.0" />
+                <increaseHeroesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action chargeAnimation="Units/Eldar/SpiritseerCharge" chargeBeginFire="0.25" chargeEndFire="1.05" meleeAnimation="Units/Eldar/SpiritseerMelee" meleeBeginSwing="0.15" meleeEndSwing="0.8" />
+                <action chargeAnimation="Units/Eldar/SpiritseerCharge"
+                        chargeBeginFire="0.25"
+                        chargeEndFire="1.05"
+                        meleeAnimation="Units/Eldar/SpiritseerMelee"
+                        meleeBeginSwing="0.15"
+                        meleeEndSwing="0.8"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Eldar/SpiritseerDie0" sound="Units/MediumArmoredDie" soundCount="4" soundDelay="1.0" voiceSound="Units/Eldar/SpiritseerDie" voiceSoundCount="1" />
+                <action animation="Units/Eldar/SpiritseerDie0"
+                        sound="Units/MediumArmoredDie"
+                        soundCount="4"
+                        soundDelay="1.0"
+                        voiceSound="Units/Eldar/SpiritseerDie"
+                        voiceSoundCount="1"/>
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0" />
+                <action animationSpeed="1.0"/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/Eldar/SpiritseerMove" sound="Units/AstraMilitarum/InfantryMove" soundCount="4" />
+                <action animation="Units/Eldar/SpiritseerMove"
+                        sound="Units/AstraMilitarum/InfantryMove"
+                        soundCount="4"/>
             </model>
         </move>
         <webwayTravel name="Eldar/WebwayTravel">
             <model>
-                <action sound="Actions/WebwayTravel" />
+                <action sound="Actions/WebwayTravel"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="20" />
+                        <influenceCost base="20"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Eldar/WebwayGateBonus2">
                     <effects>
-                        <consumedActionPoints max="0" />
+                        <consumedActionPoints max="0"/>
                     </effects>
                 </modifier>
             </modifiers>
         </webwayTravel>
-        <genericUnitAbility name="Eldar/SpiritMark" passive="1">
+        <genericUnitAbility name="Eldar/SpiritMark"
+                            passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1">
+                        <area affects="Tile"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Eldar/SpiritMark" />
+                                        <addTrait name="Eldar/SpiritMark"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -99,21 +123,26 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <destructorRenewer name="Eldar/DestructorRenewer" cooldown="2" rank="-1" rankMax="2">
+        <destructorRenewer name="Eldar/DestructorRenewer"
+                           cooldown="2"
+                           rank="-1"
+                           rankMax="2">
             <model>
-                <action animation="Units/Eldar/SpiritseerAbility" bone="Chest" />
+                <action animation="Units/Eldar/SpiritseerAbility"
+                        bone="Chest"/>
             </model>
             <modifiers>
                 <modifier>
                     <effects>
-                        <damage mulMax="1.0" mulMin="0.0" />
+                        <damage mulMax="1.0"
+                                mulMin="0.0"/>
                     </effects>
                 </modifier>
             </modifiers>
             <beginTargets>
                 <target rangeMax="2">
                     <conditions>
-                        <unit />
+                        <unit/>
                     </conditions>
                     <areas>
                         <area affects="Unit">
@@ -121,22 +150,23 @@
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <allied />
-                                            <faction name="Eldar" />
+                                            <allied/>
+                                            <faction name="Eldar"/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <hitpoints addMax="12" addMin="4" />
+                                        <hitpoints addMax="12"
+                                                   addMin="4"/>
                                     </effects>
                                 </modifier>
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <enemy />
+                                            <enemy/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <weaponDamage weapon="Destructor" />
+                                        <weaponDamage weapon="Destructor"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -145,14 +175,18 @@
                 </target>
             </beginTargets>
         </destructorRenewer>
-        <protectJinx name="Eldar/ProtectJinx" cooldown="2" rank="-1" rankMax="2">
+        <protectJinx name="Eldar/ProtectJinx"
+                     cooldown="2"
+                     rank="-1"
+                     rankMax="2">
             <model>
-                <action animation="Units/Eldar/SpiritseerAbility" bone="Chest" />
+                <action animation="Units/Eldar/SpiritseerAbility"
+                        bone="Chest"/>
             </model>
             <beginTargets>
                 <target rangeMax="2">
                     <conditions>
-                        <unit />
+                        <unit/>
                     </conditions>
                     <areas>
                         <area affects="Unit">
@@ -160,22 +194,24 @@
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <allied />
+                                            <allied/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait name="Eldar/Protect" duration="1" />
+                                        <addTrait name="Eldar/Protect"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <enemy />
-                                            <noTrait name="Hero" />
+                                            <enemy/>
+                                            <noTrait name="Hero"/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait name="Eldar/Jinx" duration="1" />
+                                        <addTrait name="Eldar/Jinx"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -184,14 +220,18 @@
                 </target>
             </beginTargets>
         </protectJinx>
-        <emboldenHorrify name="Eldar/EmboldenHorrify" cooldown="2" rank="-1" rankMax="2">
+        <emboldenHorrify name="Eldar/EmboldenHorrify"
+                         cooldown="2"
+                         rank="-1"
+                         rankMax="2">
             <model>
-                <action animation="Units/Eldar/SpiritseerAbility" bone="Chest" />
+                <action animation="Units/Eldar/SpiritseerAbility"
+                        bone="Chest"/>
             </model>
             <beginTargets>
                 <target rangeMax="2">
                     <conditions>
-                        <unit />
+                        <unit/>
                     </conditions>
                     <areas>
                         <area affects="Unit">
@@ -199,21 +239,23 @@
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <allied />
+                                            <allied/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <morale addMax="9" addMin="3" />
+                                        <morale addMax="9"
+                                                addMin="3"/>
                                     </effects>
                                 </modifier>
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <enemy />
+                                            <enemy/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <morale addMax="-9" addMin="-3" />
+                                        <morale addMax="-9"
+                                                addMin="-3"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -222,16 +264,22 @@
                 </target>
             </beginTargets>
         </emboldenHorrify>
-        <hallucination name="Hallucination" cooldown="3" elite="1" levelUpPriority="1" rank="-1" rankMax="0">
+        <hallucination name="Hallucination"
+                       cooldown="3"
+                       elite="1"
+                       levelUpPriority="1"
+                       rank="-1"
+                       rankMax="0">
             <model>
-                <action animation="Units/Eldar/SpiritseerAbility" sound="Actions/Hallucination" />
+                <action animation="Units/Eldar/SpiritseerAbility"
+                        sound="Actions/Hallucination"/>
             </model>
             <beginTargets>
                 <target rangeMax="2">
                     <conditions>
                         <unit>
-                            <enemy />
-                            <noTrait name="Hallucination" />
+                            <enemy/>
+                            <noTrait name="Hallucination"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -239,7 +287,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Hallucination" duration="3" />
+                                        <addTrait name="Hallucination"
+                                                  duration="3"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -248,18 +297,19 @@
                 </target>
             </beginTargets>
         </hallucination>
-        <levelUp />
-        <shop />
+        <levelUp/>
+        <shop/>
     </actions>
     <traits>
-        <trait name="Eldar/AncientDoom" />
-        <trait name="Eldar/BattleFocus" />
-        <trait name="ExtraInfantryArmour" requiredUpgrade="Eldar/ExtraInfantryArmour" />
-        <trait name="Fleet" />
-        <trait name="Hero" />
-        <trait name="SupportHero" />
-        <trait name="Psyker" />
-        <trait name="Eldar/RuneArmour" />
-        <trait name="Eldar/SpiritPreservation" />
+        <trait name="Eldar/AncientDoom"/>
+        <trait name="Eldar/BattleFocus"/>
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="Eldar/ExtraInfantryArmour"/>
+        <trait name="Fleet"/>
+        <trait name="Hero"/>
+        <trait name="SupportHero"/>
+        <trait name="Psyker"/>
+        <trait name="Eldar/RuneArmour"/>
+        <trait name="Eldar/SpiritPreservation"/>
     </traits>
 </unit>

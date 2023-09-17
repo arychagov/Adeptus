@@ -1,54 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feature category="OrkoidFungus" icon="Traits/OrkoidFungus">
+<feature category="OrkoidFungus"
+         icon="Traits/OrkoidFungus">
     <model>
-        <vegetation depthMaterial="Features/BloodshadeFungusDepth" material="Features/BloodshadeFungus" />
+        <vegetation depthMaterial="Features/BloodshadeFungusDepth"
+                    material="Features/BloodshadeFungus"/>
     </model>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="12" />
+                <productionCost base="12"/>
             </effects>
         </modifier>
         <modifier>
             <conditions>
                 <player>
-                    <faction name="Orks" />
+                    <faction name="Orks"/>
                 </player>
             </conditions>
             <effects>
-                <food mul="0.2" />
+                <food mul="0.2"/>
             </effects>
         </modifier>
         <modifier requiredUpgrade="Orks/OrkoidFungusFood">
             <conditions>
                 <player>
-                    <faction name="Orks" />
+                    <faction name="Orks"/>
                 </player>
             </conditions>
             <effects>
-                <food mul="0.1" />
+                <food mul="0.1"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <biomassOnConsume add="5" />
+                <biomassOnConsume add="5"/>
             </effects>
         </modifier>
     </modifiers>
     <traits>
-        <trait name="OrkoidFungus" />
+        <trait name="OrkoidFungus"/>
     </traits>
     <vegetation>
-        <trees clusterSizeMax="30" clusterSizeMin="15" scaleMax="1.0" scaleMin="0.5">
+        <trees clusterSizeMax="30"
+               clusterSizeMin="15"
+               scaleMax="1.0"
+               scaleMin="0.5">
             <meshes>
-                <mesh name="Terrain/Vegetation/BloodshadeFungus0" />
-                <mesh name="Terrain/Vegetation/BloodshadeFungus1" />
-                <mesh name="Terrain/Vegetation/BloodshadeFungus2" />
-                <mesh name="Terrain/Vegetation/BloodshadeFungus3" />
-                <mesh name="Terrain/Vegetation/BloodshadeFungus4" />
-                <mesh name="Terrain/Vegetation/BloodshadeFungus5" />
-                <mesh name="Terrain/Vegetation/BloodshadeFungus6" />
-                <mesh name="Terrain/Vegetation/BloodshadeFungus7" />
+                <mesh name="Terrain/Vegetation/BloodshadeFungus0"/>
+                <mesh name="Terrain/Vegetation/BloodshadeFungus1"/>
+                <mesh name="Terrain/Vegetation/BloodshadeFungus2"/>
+                <mesh name="Terrain/Vegetation/BloodshadeFungus3"/>
+                <mesh name="Terrain/Vegetation/BloodshadeFungus4"/>
+                <mesh name="Terrain/Vegetation/BloodshadeFungus5"/>
+                <mesh name="Terrain/Vegetation/BloodshadeFungus6"/>
+                <mesh name="Terrain/Vegetation/BloodshadeFungus7"/>
             </meshes>
         </trees>
     </vegetation>

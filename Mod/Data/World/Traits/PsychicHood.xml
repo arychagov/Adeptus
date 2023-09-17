@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <witchfireDamageReduction add="0.33" />
+                <witchfireDamageReduction add="0.33"/>
             </effects>
         </modifier>
     </modifiers>

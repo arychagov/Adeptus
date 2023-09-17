@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Actions/Orks/Warpath" rankMax="2">
+<trait category="Buff"
+       icon="Actions/Orks/Warpath"
+       rankMax="2">
     <modifiers>
         <modifier>
             <effects>
-                <meleeAttacks mulMax="0.45" mulMin="0.15" />
+                <meleeAttacks mulMax="0.45"
+                              mulMin="0.15"/>
             </effects>
         </modifier>
     </modifiers>

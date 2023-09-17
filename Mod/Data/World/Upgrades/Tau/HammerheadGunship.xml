@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Units/Tau/HammerheadGunship" position="5">
+<upgrade icon="Units/Tau/HammerheadGunship"
+         position="5">
     <requiredUpgrades>
-        <upgrade name="Tau/Vehicles" />
+        <upgrade name="Tau/Vehicles"/>
     </requiredUpgrades>
 </upgrade>

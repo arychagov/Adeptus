@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Actions/Tau/ForTheGreaterGoodBonus" position="8"></upgrade>
+<upgrade icon="Actions/Tau/ForTheGreaterGoodBonus"
+         position="8"></upgrade>

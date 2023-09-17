@@ -1,37 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit icon="Buildings/SpaceMarines/Headquarters">
     <model>
-        <structureUnit explosionsBone="HQBone" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" idleAnimationCount="0" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" material="Buildings/SpaceMarines/Buildings" mesh="Units/SpaceMarines/Headquarters" scale="1.0 1.0 1.0" />
+        <structureUnit explosionsBone="HQBone"
+                       heatImpactSound="Impacts/HeatConcrete"
+                       heatImpactSoundCount="4"
+                       idleAnimationCount="0"
+                       kineticImpactSound="Impacts/KineticConcrete"
+                       kineticImpactSoundCount="5"
+                       material="Buildings/SpaceMarines/Buildings"
+                       mesh="Units/SpaceMarines/Headquarters"
+                       scale="1.0 1.0 1.0"/>
     </model>
     <weapons>
-        <weapon name="TwinLinkedLascannon" />
-        <weapon name="HeavyBolter" requiredUpgrade="SpaceMarines/HurricaneBolter" />
-        <weapon name="HeavyBolter" requiredUpgrade="SpaceMarines/FortressOfRedemptionDamageReduction" />
-        <weapon name="Boltgun" count="5">
+        <weapon name="TwinLinkedLascannon"/>
+        <weapon name="HeavyBolter"
+                requiredUpgrade="SpaceMarines/HurricaneBolter"/>
+        <weapon name="HeavyBolter"
+                requiredUpgrade="SpaceMarines/FortressOfRedemptionDamageReduction"/>
+        <weapon name="Boltgun"
+                count="5">
             <model>
-                <projectileWeapon bone="HQBone" fireInterval="0.1" material="Buildings/SpaceMarines/Buildings" mesh="Weapons/SpaceMarines/HeadquartersBoltguns" muzzleBone=".Muzzle" muzzleCount="5" />
+                <projectileWeapon bone="HQBone"
+                                  fireInterval="0.1"
+                                  material="Buildings/SpaceMarines/Buildings"
+                                  mesh="Weapons/SpaceMarines/HeadquartersBoltguns"
+                                  muzzleBone=".Muzzle"
+                                  muzzleCount="5"/>
             </model>
         </weapon>
-        <weapon name="TwinLinkedLascannon" count="1">
+        <weapon name="TwinLinkedLascannon"
+                count="1">
             <model>
-                <beamWeapon bone="HQBone" fireInterval="1.0" material="Buildings/SpaceMarines/Buildings" mesh="Weapons/SpaceMarines/HeadquartersLascannon" muzzleBone=".Muzzle0" muzzleCount="1" />
+                <beamWeapon bone="HQBone"
+                            fireInterval="1.0"
+                            material="Buildings/SpaceMarines/Buildings"
+                            mesh="Weapons/SpaceMarines/HeadquartersLascannon"
+                            muzzleBone=".Muzzle0"
+                            muzzleCount="1"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="6" /> <!-- %armor base armor=10/10/10 -->
-                <cargoSlots base="6" /> <!-- %cargoSlots base capacity=20 -->
-                <moraleMax base="0" /> <!-- %moraleMax base leadership=8 -->
-                <movementMax max="0" />
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <armor base="6"/> <!-- %armor base armor=10/10/10 -->
+                <cargoSlots base="6"/> <!-- %cargoSlots base capacity=20 -->
+                <moraleMax base="0"/> <!-- %moraleMax base leadership=8 -->
+                <movementMax max="0"/>
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
         </modifier>
-        <modifier requiredUpgrade="SpaceMarines/FortressOfRedemptionDamageReduction" visible="0">
+        <modifier requiredUpgrade="SpaceMarines/FortressOfRedemptionDamageReduction"
+                  visible="0">
             <effects>
-                <armor add="3" />
-                <hitpointsMax mul="0.2" />
+                <armor add="3"/>
+                <hitpointsMax mul="0.2"/>
             </effects>
         </modifier>
     </modifiers>
@@ -39,23 +62,26 @@
     <actions>
         <attack>
             <model>
-                <action beginFire="0.15" endFire="2.6" />
+                <action beginFire="0.15"
+                        endFire="2.6"/>
             </model>
         </attack>
         <die>
             <model>
-                <action sound="Units/HeavyBuildingDie" soundCount="3" />
+                <action sound="Units/HeavyBuildingDie"
+                        soundCount="3"/>
             </model>
         </die>
-        <setRallyPoint />
+        <setRallyPoint/>
     </actions>
     <traits>
-        <trait name="AndTheyShallKnowNoFear" />
-        <trait name="Fortification" />
-        <trait name="Headquarters" />
-        <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand" />
-        <trait name="Transport" />
-        <trait name="SpaceMarines/SiegeMasters" />
-        <trait name="SpaceMarines/MachineEmpathy" />
+        <trait name="AndTheyShallKnowNoFear"/>
+        <trait name="Fortification"/>
+        <trait name="Headquarters"/>
+        <trait name="LastStand"
+               requiredUpgrade="SpaceMarines/LastStand"/>
+        <trait name="Transport"/>
+        <trait name="SpaceMarines/SiegeMasters"/>
+        <trait name="SpaceMarines/MachineEmpathy"/>
     </traits>
 </unit>

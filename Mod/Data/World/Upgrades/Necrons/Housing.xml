@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Buildings/Necrons/Housing" position="2" visible="0" />
+<upgrade icon="Buildings/Necrons/Housing"
+         position="2"
+         visible="0"/>

@@ -3,18 +3,18 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36" />
-                <requisitionsCost base="50" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <energyUpkeep add="2" />
+                <productionCost base="36"/>
+                <requisitionsCost base="50"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <energyUpkeep add="2"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <requisitions add="2" />
-                <research add="2" />
-                <production add="6" />
+                <requisitions add="2"/>
+                <research add="2"/>
+                <production add="6"/>
             </effects>
         </modifier>
     </modifiers>
@@ -28,15 +28,19 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesProductionScore base="1.0" />
+                <increaseVehiclesProductionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="SistersOfBattle/Immolator" />
-        <produceUnit requiredUpgrade="SistersOfBattle/Mortifier" unit="SistersOfBattle/Mortifier" />
-        <produceUnit requiredUpgrade="SistersOfBattle/Castigator" unit="SistersOfBattle/Castigator" />
-        <produceUnit requiredUpgrade="SistersOfBattle/Exorcist" unit="SistersOfBattle/Exorcist" />
-        <produceUnit requiredUpgrade="SistersOfBattle/ParagonWarsuit" unit="SistersOfBattle/ParagonWarsuit" />
+        <produceUnit unit="SistersOfBattle/Immolator"/>
+        <produceUnit requiredUpgrade="SistersOfBattle/Mortifier"
+                     unit="SistersOfBattle/Mortifier"/>
+        <produceUnit requiredUpgrade="SistersOfBattle/Castigator"
+                     unit="SistersOfBattle/Castigator"/>
+        <produceUnit requiredUpgrade="SistersOfBattle/Exorcist"
+                     unit="SistersOfBattle/Exorcist"/>
+        <produceUnit requiredUpgrade="SistersOfBattle/ParagonWarsuit"
+                     unit="SistersOfBattle/ParagonWarsuit"/>
     </actions>
 </building>

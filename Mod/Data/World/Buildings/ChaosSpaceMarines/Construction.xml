@@ -3,18 +3,18 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="48" />
-                <oreCost base="80" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <energyUpkeep add="3" />
+                <productionCost base="48"/>
+                <oreCost base="80"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <energyUpkeep add="3"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <influence add="2" />
-                <ore add="6" />
-                <production add="6" />
+                <influence add="2"/>
+                <ore add="6"/>
+                <production add="6"/>
             </effects>
         </modifier>
     </modifiers>
@@ -28,7 +28,7 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseConstructionScore base="1.0" />
+                <increaseConstructionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
@@ -37,9 +37,9 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost add="5" />
-                        <oreCost add="5" />
-                        <productionCost add="12" />
+                        <influenceCost add="5"/>
+                        <oreCost add="5"/>
+                        <productionCost add="12"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -48,22 +48,26 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <productionCost add="12" />
+                        <productionCost add="12"/>
                     </effects>
                 </modifier>
             </modifiers>
         </clearTile>
-        <constructBuilding building="ChaosSpaceMarines/Food" />
-        <constructBuilding building="ChaosSpaceMarines/Ore" />
-        <constructBuilding building="ChaosSpaceMarines/Energy" />
-        <constructBuilding building="ChaosSpaceMarines/Research" />
-        <constructBuilding building="ChaosSpaceMarines/Influence" />
-        <constructBuilding building="ChaosSpaceMarines/Loyalty" />
-        <constructBuilding building="ChaosSpaceMarines/Housing" />
-        <constructBuilding building="ChaosSpaceMarines/Cult" />
-        <constructBuilding building="ChaosSpaceMarines/Infantry" requiredUpgrade="ChaosSpaceMarines/Infantry" />
-        <constructBuilding building="ChaosSpaceMarines/Vehicles" requiredUpgrade="ChaosSpaceMarines/Vehicles" />
-        <constructBuilding building="ChaosSpaceMarines/Aircraft" requiredUpgrade="ChaosSpaceMarines/Aircraft" />
-        <constructBuilding building="ChaosSpaceMarines/Construction" requiredUpgrade="ChaosSpaceMarines/Construction" />
+        <constructBuilding building="ChaosSpaceMarines/Food"/>
+        <constructBuilding building="ChaosSpaceMarines/Ore"/>
+        <constructBuilding building="ChaosSpaceMarines/Energy"/>
+        <constructBuilding building="ChaosSpaceMarines/Research"/>
+        <constructBuilding building="ChaosSpaceMarines/Influence"/>
+        <constructBuilding building="ChaosSpaceMarines/Loyalty"/>
+        <constructBuilding building="ChaosSpaceMarines/Housing"/>
+        <constructBuilding building="ChaosSpaceMarines/Cult"/>
+        <constructBuilding building="ChaosSpaceMarines/Infantry"
+                           requiredUpgrade="ChaosSpaceMarines/Infantry"/>
+        <constructBuilding building="ChaosSpaceMarines/Vehicles"
+                           requiredUpgrade="ChaosSpaceMarines/Vehicles"/>
+        <constructBuilding building="ChaosSpaceMarines/Aircraft"
+                           requiredUpgrade="ChaosSpaceMarines/Aircraft"/>
+        <constructBuilding building="ChaosSpaceMarines/Construction"
+                           requiredUpgrade="ChaosSpaceMarines/Construction"/>
     </actions>
 </building>

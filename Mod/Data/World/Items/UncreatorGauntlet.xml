@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <item>
     <actions>
-        <uncreatorGauntlet consumedActionPoints="0" consumedMovement="0" cooldown="3" icon="Items/UncreatorGauntlet" requiredActionPoints="0">
+        <uncreatorGauntlet consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="3"
+                           icon="Items/UncreatorGauntlet"
+                           requiredActionPoints="0">
             <model>
-                <action sound="Actions/Heal" />
+                <action sound="Actions/Heal"/>
             </model>
             <beginTargets>
-                <target lineOfSight="1" rangeMax="1">
+                <target lineOfSight="1"
+                        rangeMax="1">
                     <conditions>
                         <unit>
-                            <allied />
-                            <damaged />
+                            <allied/>
+                            <damaged/>
                         </unit>
                         <unit match="Any">
-                            <trait name="Fortification" />
-                            <trait name="Vehicle" />
+                            <trait name="Fortification"/>
+                            <trait name="Vehicle"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -22,7 +27,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints add="6" />
+                                        <hitpoints add="6"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -35,11 +40,11 @@
     <modifiers>
         <modifier>
             <effects>
-                <influenceCost base="160" />
+                <influenceCost base="160"/>
             </effects>
         </modifier>
     </modifiers>
     <traits>
-        <trait name="Artefact" />
+        <trait name="Artefact"/>
     </traits>
 </item>

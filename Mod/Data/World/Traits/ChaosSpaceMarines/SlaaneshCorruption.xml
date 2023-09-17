@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh">
+<trait category="Buff"
+       icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh">
     <modifiers>
         <modifier>
             <effects>
-                <movementMax add="1" />
-                <accuracy mul="0.17" />
-                <feelNoPainDamageReduction add="0.17" />
+                <movementMax add="1"/>
+                <accuracy mul="0.17"/>
+                <feelNoPainDamageReduction add="0.17"/>
             </effects>
         </modifier>
     </modifiers>

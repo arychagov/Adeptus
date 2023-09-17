@@ -4,11 +4,11 @@
         <modifier>
             <conditions>
                 <tile>
-                    <feature name="OrkoidFungus" />
+                    <feature name="OrkoidFungus"/>
                 </tile>
             </conditions>
             <effects>
-                <feelNoPainDamageReduction add="0.17" />
+                <feelNoPainDamageReduction add="0.17"/>
             </effects>
         </modifier>
     </perTurnModifiers>

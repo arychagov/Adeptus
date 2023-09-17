@@ -3,19 +3,19 @@
     <modifiers>
         <modifier>
             <effects>
-                <biomassUpkeep max="0" />
-                <foodUpkeep max="0" />
-                <oreUpkeep max="0" />
-                <requisitionsUpkeep max="0" />
-                <energyUpkeep max="0" />
-                <influenceUpkeep max="0" />
+                <biomassUpkeep max="0"/>
+                <foodUpkeep max="0"/>
+                <oreUpkeep max="0"/>
+                <requisitionsUpkeep max="0"/>
+                <energyUpkeep max="0"/>
+                <influenceUpkeep max="0"/>
             </effects>
         </modifier>
     </modifiers>
     <onTraitRemovedModifiers>
         <modifier>
             <effects>
-                <removeUnit />
+                <removeUnit/>
             </effects>
         </modifier>
     </onTraitRemovedModifiers>

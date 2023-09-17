@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Units/AdeptusMechanicus/SkorpiusDunerider" position="1">
+<upgrade icon="Units/AdeptusMechanicus/SkorpiusDunerider"
+         position="1">
     <requiredUpgrades>
-        <upgrade name="AdeptusMechanicus/Vehicles" />
+        <upgrade name="AdeptusMechanicus/Vehicles"/>
     </requiredUpgrades>
 </upgrade>

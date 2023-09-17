@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Items/AxeOfBlindFury" visibilityCategory="Weapon">
+<trait category="Buff"
+       icon="Items/AxeOfBlindFury"
+       visibilityCategory="Weapon">
     <modifiers>
         <modifier>
             <conditions>
                 <weapon>
-                    <trait name="Melee" />
+                    <trait name="Melee"/>
                 </weapon>
             </conditions>
             <effects>
-                <additionalMembersHit add="1" />
+                <additionalMembersHit add="1"/>
             </effects>
         </modifier>
     </modifiers>

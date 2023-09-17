@@ -1,85 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement9">
     <model>
-        <unit bloodBone="Chest" idleAnimation="Units/AdeptusMechanicus/TechPriestManipulusIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AdeptusMechanicus/TechPriestManipulus" mesh="Units/AdeptusMechanicus/TechPriestManipulus" normalWeight="0.1" scale="1 1 1" walker="1" />
+        <unit bloodBone="Chest"
+              idleAnimation="Units/AdeptusMechanicus/TechPriestManipulusIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/AdeptusMechanicus/TechPriestManipulus"
+              mesh="Units/AdeptusMechanicus/TechPriestManipulus"
+              normalWeight="0.1"
+              scale="1 1 1"
+              walker="1"/>
     </model>
     <weapons>
         <weapon name="MagnarailLance">
             <model>
-                <beamWeapon fireInterval="0.67" muzzleBone="Muzzle" />
+                <beamWeapon fireInterval="0.67"
+                            muzzleBone="Muzzle"/>
             </model>
         </weapon>
         <weapon name="ManipulusMechadendrites">
             <model>
-                <weapon fireInterval="10.0" />
+                <weapon fireInterval="10.0"/>
             </model>
         </weapon>
         <weapon name="OmnissianStaff">
             <model>
-                <powerWeapon effectBone="Stick" fireDelay="0.3" fireInterval="10.0" />
+                <powerWeapon effectBone="Stick"
+                             fireDelay="0.3"
+                             fireInterval="10.0"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="10" /> <!-- %armor base armor=3+ -->
-                <energyCost base="30.0" /> <!-- %energyCost base tier=7 factor=0.5 -->
-                <foodCost base="30.0" /> <!-- %foodCost base tier=7 factor=0.5 -->
-                <foodUpkeep base="3.0" /> <!-- %foodUpkeep base tier=7 factor=1 -->
-                <hitpointsMax base="9.0" />
-                <duplicateTypeCost mul="2.0" /> <!-- %hitpointsMax base toughness=4 wounds=2 -->
-                <influenceUpkeep base="6.0" /> <!-- %influenceUpkeep base tier=7 factor=2 -->
-                <influenceCost base="120.0" /> <!-- %influenceCost base tier=7 factor=2 -->
-                <itemSlots base="6" />
-                <levelMax base="9" />
-                <meleeAccuracy base="8" /> <!-- %meleeAccuracy base weaponSkill=4 -->
-                <meleeAttacks base="1" />
-                <strengthDamage base="1.5" /> <!-- %strengthDamage base strength=4 -->
-                <moraleMax base="12" /> <!-- %moraleMax base leadership=9 -->
-                <movementMax base="3" />
-                <productionCost base="42.0" /> <!-- %productionCost base tier=7 factor=1 -->
-                <rangedAccuracy base="10" /> <!-- %rangedAccuracy base ballisticSkill=5 -->
+                <armor base="10"/> <!-- %armor base armor=3+ -->
+                <energyCost base="30.0"/> <!-- %energyCost base tier=7 factor=0.5 -->
+                <foodCost base="30.0"/> <!-- %foodCost base tier=7 factor=0.5 -->
+                <foodUpkeep base="3.0"/> <!-- %foodUpkeep base tier=7 factor=1 -->
+                <hitpointsMax base="9.0"/>
+                <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=4 wounds=2 -->
+                <influenceUpkeep base="6.0"/> <!-- %influenceUpkeep base tier=7 factor=2 -->
+                <influenceCost base="120.0"/> <!-- %influenceCost base tier=7 factor=2 -->
+                <itemSlots base="6"/>
+                <levelMax base="9"/>
+                <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
+                <meleeAttacks base="1"/>
+                <strengthDamage base="1.5"/> <!-- %strengthDamage base strength=4 -->
+                <moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
+                <movementMax base="3"/>
+                <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+                <rangedAccuracy base="10"/> <!-- %rangedAccuracy base ballisticSkill=5 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseHeroesScore base="1.0" />
+                <increaseHeroesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/AdeptusMechanicus/TechPriestManipulusAttack" beginFire="0.67" chargeAnimation="Units/AdeptusMechanicus/TechPriestManipulusCharge" chargeBeginFire="0.6" chargeEndFire="1.4" endFire="2.1" meleeAnimation="Units/AdeptusMechanicus/TechPriestManipulusMelee" meleeBeginSwing="0.3" meleeEndSwing="0.5" />
+                <action animation="Units/AdeptusMechanicus/TechPriestManipulusAttack"
+                        beginFire="0.67"
+                        chargeAnimation="Units/AdeptusMechanicus/TechPriestManipulusCharge"
+                        chargeBeginFire="0.6"
+                        chargeEndFire="1.4"
+                        endFire="2.1"
+                        meleeAnimation="Units/AdeptusMechanicus/TechPriestManipulusMelee"
+                        meleeBeginSwing="0.3"
+                        meleeEndSwing="0.5"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/AdeptusMechanicus/TechPriestManipulusDie0" sound="Units/MediumArmoredDie" soundCount="4" soundDelay="1" voiceSound="Units/AdeptusMechanicus/TechPriestManipulusVoiceDie" voiceSoundCount="1" />
+                <action animation="Units/AdeptusMechanicus/TechPriestManipulusDie0"
+                        sound="Units/MediumArmoredDie"
+                        soundCount="4"
+                        soundDelay="1"
+                        voiceSound="Units/AdeptusMechanicus/TechPriestManipulusVoiceDie"
+                        voiceSoundCount="1"/>
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0" />
+                <action animationSpeed="1.0"/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/AdeptusMechanicus/TechPriestManipulusMove" sound="Units/Neutral/UmbraMove" soundCount="1" />
+                <action animation="Units/AdeptusMechanicus/TechPriestManipulusMove"
+                        sound="Units/Neutral/UmbraMove"
+                        soundCount="1"/>
             </model>
         </move>
-        <techAdept name="AdeptusMechanicus/TechAdept" passive="1">
+        <techAdept name="AdeptusMechanicus/TechAdept"
+                   passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="2">
+                        <area affects="Tile"
+                              radius="2">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="AdeptusMechanicus/TechAdept" />
+                                        <addTrait name="AdeptusMechanicus/TechAdept"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -88,21 +116,26 @@
                 </selfTarget>
             </beginTargets>
         </techAdept>
-        <masterOfMachines name="AdeptusMechanicus/MasterOfMachines" cooldown="1" rank="-1" rankMax="2">
+        <masterOfMachines name="AdeptusMechanicus/MasterOfMachines"
+                          cooldown="1"
+                          rank="-1"
+                          rankMax="2">
             <model>
-                <action animation="Units/AdeptusMechanicus/TechPriestManipulusAbility" sound="Actions/Heal" />
+                <action animation="Units/AdeptusMechanicus/TechPriestManipulusAbility"
+                        sound="Actions/Heal"/>
             </model>
             <beginTargets>
-                <target rangeMax="1" rangeMin="1">
+                <target rangeMax="1"
+                        rangeMin="1">
                     <conditions>
                         <unit>
-                            <allied />
-                            <faction name="AdeptusMechanicus" />
+                            <allied/>
+                            <faction name="AdeptusMechanicus"/>
                         </unit>
                         <unit match="Any">
-                            <faction name="AdeptusMechanicus" />
-                            <trait name="Fortification" />
-                            <trait name="Vehicle" />
+                            <faction name="AdeptusMechanicus"/>
+                            <trait name="Fortification"/>
+                            <trait name="Vehicle"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -110,8 +143,10 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints addMax="18" addMin="10" />
-                                        <addTrait name="AdeptusMechanicus/MasterOfMachines" duration="1" />
+                                        <hitpoints addMax="18"
+                                                   addMin="10"/>
+                                        <addTrait name="AdeptusMechanicus/MasterOfMachines"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -120,16 +155,22 @@
                 </target>
             </beginTargets>
         </masterOfMachines>
-        <genericUnitAbility name="AdeptusMechanicus/ReprogramKastelanRobot" cooldownMax="3" cooldownMin="7" icon="Actions/AdeptusMechanicus/ReprogramKastelanRobot" rank="-1" rankMax="2">
+        <genericUnitAbility name="AdeptusMechanicus/ReprogramKastelanRobot"
+                            cooldownMax="3"
+                            cooldownMin="7"
+                            icon="Actions/AdeptusMechanicus/ReprogramKastelanRobot"
+                            rank="-1"
+                            rankMax="2">
             <model>
-                <action animation="Units/AdeptusMechanicus/TechPriestManipulusAbility" sound="Actions/GalvanicField" />
+                <action animation="Units/AdeptusMechanicus/TechPriestManipulusAbility"
+                        sound="Actions/GalvanicField"/>
             </model>
             <beginTargets>
                 <target rangeMax="1">
                     <conditions>
                         <unit>
-                            <allied />
-                            <type name="Neutral/KastelanRobot" />
+                            <allied/>
+                            <type name="Neutral/KastelanRobot"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -137,7 +178,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="AdeptusMechanicus/ReprogramKastelanRobot" />
+                                        <addTrait name="AdeptusMechanicus/ReprogramKastelanRobot"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -146,21 +187,25 @@
                 </target>
             </beginTargets>
         </genericUnitAbility>
-        <galvanicField name="AdeptusMechanicus/GalvanicField" cooldown="3" rank="-1" rankMax="2">
+        <galvanicField name="AdeptusMechanicus/GalvanicField"
+                       cooldown="3"
+                       rank="-1"
+                       rankMax="2">
             <model>
-                <action animation="Units/AdeptusMechanicus/TechPriestManipulusAbility" sound="Actions/GalvanicField" />
+                <action animation="Units/AdeptusMechanicus/TechPriestManipulusAbility"
+                        sound="Actions/GalvanicField"/>
             </model>
             <beginTargets>
                 <target rangeMax="2">
                     <conditions>
                         <unit>
-                            <allied />
-                            <faction name="AdeptusMechanicus" />
+                            <allied/>
+                            <faction name="AdeptusMechanicus"/>
                         </unit>
                         <unit match="Any">
-                            <type name="AdeptusMechanicus/ArchaeopterTransvector" />
-                            <type name="AdeptusMechanicus/ArchaeopterStratoraptor" />
-                            <trait name="AdeptusMechanicus/CanticlesOfTheOmnissiah" />
+                            <type name="AdeptusMechanicus/ArchaeopterTransvector"/>
+                            <type name="AdeptusMechanicus/ArchaeopterStratoraptor"/>
+                            <trait name="AdeptusMechanicus/CanticlesOfTheOmnissiah"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -168,7 +213,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="AdeptusMechanicus/GalvanicField" duration="1" />
+                                        <addTrait name="AdeptusMechanicus/GalvanicField"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -177,15 +223,21 @@
                 </target>
             </beginTargets>
         </galvanicField>
-        <dataBlessedAutosermon name="AdeptusMechanicus/DataBlessedAutosermon" elite="1" levelUpPriority="1" passive="1" rank="-1" rankMax="0">
+        <dataBlessedAutosermon name="AdeptusMechanicus/DataBlessedAutosermon"
+                               elite="1"
+                               levelUpPriority="1"
+                               passive="1"
+                               rank="-1"
+                               rankMax="0">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="3">
+                        <area affects="Tile"
+                              radius="3">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="AdeptusMechanicus/DataBlessedAutosermon" />
+                                        <addTrait name="AdeptusMechanicus/DataBlessedAutosermon"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -194,17 +246,20 @@
                 </selfTarget>
             </beginTargets>
         </dataBlessedAutosermon>
-        <levelUp />
-        <shop />
+        <levelUp/>
+        <shop/>
     </actions>
     <traits>
-        <trait name="AdeptusMechanicus/CanticlesOfTheOmnissiah" />
-        <trait name="ExtraInfantryArmour" requiredUpgrade="AdeptusMechanicus/ExtraInfantryArmour" />
-        <trait name="AdeptusMechanicus/CommandUplink" requiredUpgrade="AdeptusMechanicus/CommandUplink" />
-        <trait name="FeelNoPain" />
-        <trait name="Hero" />
-        <trait name="RefractorField" />
-        <trait name="Relentless" />
-        <trait name="AdeptusMechanicus/ControlEdict" requiredUpgrade="AdeptusMechanicus/ControlEdict" />
+        <trait name="AdeptusMechanicus/CanticlesOfTheOmnissiah"/>
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="AdeptusMechanicus/ExtraInfantryArmour"/>
+        <trait name="AdeptusMechanicus/CommandUplink"
+               requiredUpgrade="AdeptusMechanicus/CommandUplink"/>
+        <trait name="FeelNoPain"/>
+        <trait name="Hero"/>
+        <trait name="RefractorField"/>
+        <trait name="Relentless"/>
+        <trait name="AdeptusMechanicus/ControlEdict"
+               requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
     </traits>
 </unit>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Weapons/DesiccatorLarvae" position="7">
+<upgrade icon="Weapons/DesiccatorLarvae"
+         position="7">
     <requiredUpgrades>
-        <upgrade name="Tyranids/HiveTyrant" />
-        <upgrade name="Tyranids/Tervigon" />
-        <upgrade name="Tyranids/Tyrannofex" />
+        <upgrade name="Tyranids/HiveTyrant"/>
+        <upgrade name="Tyranids/Tervigon"/>
+        <upgrade name="Tyranids/Tyrannofex"/>
     </requiredUpgrades>
 </upgrade>

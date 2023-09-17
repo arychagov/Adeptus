@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" rankMax="9">
+<trait category="Buff"
+       rankMax="9">
     <modifiers>
         <modifier>
             <effects>
-                <loyalty mulMax="0.20" mulMin="0.02" />
-                <damage mulMax="0.30" mulMin="0.03" />
+                <loyalty mulMax="0.20"
+                         mulMin="0.02"/>
+                <damage mulMax="0.30"
+                        mulMin="0.03"/>
             </effects>
         </modifier>
         <modifier requiredUpgrade="Orks/MegaWaaagh">
             <effects>
-                <loyalty mul="0.5" />
-                <damage mul="0.5" />
+                <loyalty mul="0.5"/>
+                <damage mul="0.5"/>
             </effects>
         </modifier>
     </modifiers>

@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon directionalMuzzleFlashesBlueprint="" explosionsBlueprint="" fireSound="Weapons/ShadowWeaver" fireSoundCount="3" muzzleFlashesBlueprint="Effects/ShadowWeaverMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/ShurikenMuzzleFlashesEmitter" projectilesBlueprint="Effects/ShadowWeaverProjectiles" projectilesEmitterBlueprint="Effects/ShadowWeaverProjectilesEmitter" smokeBlueprint="" />
+        <projectileWeapon directionalMuzzleFlashesBlueprint=""
+                          explosionsBlueprint=""
+                          fireSound="Weapons/ShadowWeaver"
+                          fireSoundCount="3"
+                          muzzleFlashesBlueprint="Effects/ShadowWeaverMuzzleFlashes"
+                          muzzleFlashesEmitterBlueprint="Effects/ShurikenMuzzleFlashesEmitter"
+                          projectilesBlueprint="Effects/ShadowWeaverProjectiles"
+                          projectilesEmitterBlueprint="Effects/ShadowWeaverProjectilesEmitter"
+                          smokeBlueprint=""/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="1" />
-                <rangedArmorPenetration add="0" /> <!-- %rangedArmorPenetration add armorPiercing=6 -->
-                <rangedDamage add="3" /> <!-- %rangedDamage add strength=6 -->
-                <strengthDamage base="0" />
+                <attacks add="1"/>
+                <rangedArmorPenetration add="0"/> <!-- %rangedArmorPenetration add armorPiercing=6 -->
+                <rangedDamage add="3"/> <!-- %rangedDamage add strength=6 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="3" />
+    <target rangeMax="3"/>
     <traits>
-        <trait name="Barrage" />
-        <trait name="Blast" />
-        <trait name="HeavyWeapon" />
-        <trait name="Eldar/HeavyWeaponBonus" requiredUpgrade="Eldar/HeavyWeaponBonus" />
-        <trait name="Monofilament" />
+        <trait name="Barrage"/>
+        <trait name="Blast"/>
+        <trait name="HeavyWeapon"/>
+        <trait name="Eldar/HeavyWeaponBonus"
+               requiredUpgrade="Eldar/HeavyWeaponBonus"/>
+        <trait name="Monofilament"/>
     </traits>
 </weapon>

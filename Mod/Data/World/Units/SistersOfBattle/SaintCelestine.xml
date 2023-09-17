@@ -1,92 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit bloodBone="Chest" idleAnimation="Units/SistersOfBattle/SaintCelestineIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SistersOfBattle/SaintCelestine" mesh="Units/SistersOfBattle/SaintCelestine" normalWeight="0.1" portraitFocusHeightModifier="80" portraitZoomModifier="2" scale="0.7 0.7 0.7" walker="1" />
+        <unit bloodBone="Chest"
+              idleAnimation="Units/SistersOfBattle/SaintCelestineIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/SistersOfBattle/SaintCelestine"
+              mesh="Units/SistersOfBattle/SaintCelestine"
+              normalWeight="0.1"
+              portraitFocusHeightModifier="80"
+              portraitZoomModifier="2"
+              scale="0.7 0.7 0.7"
+              walker="1"/>
     </model>
     <weapons>
         <weapon name="TheArdentBladeMelee">
             <model>
-                <powerWeapon effectBone="Effect" effectBoundingVolume="Blade" fireInterval="10.0" />
+                <powerWeapon effectBone="Effect"
+                             effectBoundingVolume="Blade"
+                             fireInterval="10.0"/>
             </model>
         </weapon>
         <weapon name="TheArdentBladeRanged">
             <model>
-                <beamWeapon fireInterval="0.1" muzzleBone="Effect" />
+                <beamWeapon fireInterval="0.1"
+                            muzzleBone="Effect"/>
             </model>
         </weapon>
-        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
+        <weapon name="FragGrenade"
+                enabled="0"
+                slotName="FragGrenade">
             <model>
-                <grenadeWeapon muzzleBone="Hand_L" />
+                <grenadeWeapon muzzleBone="Hand_L"/>
             </model>
         </weapon>
-        <weapon name="KrakGrenade" enabled="0" slotName="KrakGrenade">
+        <weapon name="KrakGrenade"
+                enabled="0"
+                slotName="KrakGrenade">
             <model>
-                <grenadeWeapon muzzleBone="Hand_L" />
+                <grenadeWeapon muzzleBone="Hand_L"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="10" /> <!-- %armor base armor=2+ -->
-                <hitpointsMax base="12.0" />
-                <duplicateTypeCost mul="2.0" /> <!-- %hitpointsMax base toughness=3 wounds=5 -->
-                <influenceUpkeep base="12.0" /> <!-- %influenceUpkeep base tier=9 factor=2 -->
-                <influenceCost base="240.0" /> <!-- %influenceCost base tier=9 factor=2 -->
-                <itemSlots base="6" />
-                <levelMax base="9" />
-                <meleeAccuracy base="12" /> <!-- %meleeAccuracy base weaponSkill=7 -->
-                <meleeAttacks base="3" />
-                <strengthDamage base="1" /> <!-- %strengthDamage base strength=3 -->
+                <armor base="10"/> <!-- %armor base armor=2+ -->
+                <hitpointsMax base="12.0"/>
+                <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=5 -->
+                <influenceUpkeep base="12.0"/> <!-- %influenceUpkeep base tier=9 factor=2 -->
+                <influenceCost base="240.0"/> <!-- %influenceCost base tier=9 factor=2 -->
+                <itemSlots base="6"/>
+                <levelMax base="9"/>
+                <meleeAccuracy base="12"/> <!-- %meleeAccuracy base weaponSkill=7 -->
+                <meleeAttacks base="3"/>
+                <strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
                 <!-- <meleeInitiative base="7"/> -->
-                <moraleMax base="12" /> <!-- %moraleMax base leadership=10 -->
-                <movementMax base="3" />
-                <productionCost base="54.0" /> <!-- %productionCost base tier=9 factor=1 -->
-                <rangedAccuracy base="12" /> <!-- %rangedAccuracy base ballisticSkill=7 -->
-                <requisitionsUpkeep base="6.0" /> <!-- %requistionsUpkeep base tier=9 factor=1 -->
-                <requisitionsCost base="120.0" /> <!-- %requisitionsCost base tier=9 factor=1 -->
+                <moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->
+                <movementMax base="3"/>
+                <productionCost base="54.0"/> <!-- %productionCost base tier=9 factor=1 -->
+                <rangedAccuracy base="12"/> <!-- %rangedAccuracy base ballisticSkill=7 -->
+                <requisitionsUpkeep base="6.0"/> <!-- %requistionsUpkeep base tier=9 factor=1 -->
+                <requisitionsCost base="120.0"/> <!-- %requisitionsCost base tier=9 factor=1 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseHeroesScore base="1.0" />
+                <increaseHeroesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/SistersOfBattle/SaintCelestineAttack" beginFire="1.5" chargeAnimation="Units/SistersOfBattle/SaintCelestineCharge" chargeBeginFire="0.4" chargeEndFire="0.8" endFire="1.9" meleeAnimation="Units/SistersOfBattle/SaintCelestineMelee" meleeBeginSwing="0.43" meleeEndSwing="0.53" />
+                <action animation="Units/SistersOfBattle/SaintCelestineAttack"
+                        beginFire="1.5"
+                        chargeAnimation="Units/SistersOfBattle/SaintCelestineCharge"
+                        chargeBeginFire="0.4"
+                        chargeEndFire="0.8"
+                        endFire="1.9"
+                        meleeAnimation="Units/SistersOfBattle/SaintCelestineMelee"
+                        meleeBeginSwing="0.43"
+                        meleeEndSwing="0.53"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/SistersOfBattle/SaintCelestineDie0" sound="Units/MediumArmoredDie" soundCount="4" soundDelay="1.2" voiceSound="Units/SistersOfBattle/SaintCelestineVoiceDie" voiceSoundCount="1" />
+                <action animation="Units/SistersOfBattle/SaintCelestineDie0"
+                        sound="Units/MediumArmoredDie"
+                        soundCount="4"
+                        soundDelay="1.2"
+                        voiceSound="Units/SistersOfBattle/SaintCelestineVoiceDie"
+                        voiceSoundCount="1"/>
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0" />
+                <action animationSpeed="1.0"/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/SistersOfBattle/SaintCelestineMove" sound="Units/SistersOfBattle/SaintCelestineMove" soundCount="1" />
+                <action animation="Units/SistersOfBattle/SaintCelestineMove"
+                        sound="Units/SistersOfBattle/SaintCelestineMove"
+                        soundCount="1"/>
             </model>
         </move>
 
 
         <jumpPack cooldown="3">
             <model>
-                <action animation="Units/SistersOfBattle/SaintCelestineJumpMove" sound="Actions/SaintCelestineJumpPack" />
+                <action animation="Units/SistersOfBattle/SaintCelestineJumpMove"
+                        sound="Actions/SaintCelestineJumpPack"/>
             </model>
             <modifiers>
                 <modifier>
                     <effects>
-                        <movement add="1" />
-                        <movementMax add="1" />
+                        <movement add="1"/>
+                        <movementMax add="1"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -97,7 +130,8 @@
                             <modifiers>
                                 <modifier requiredUpgrade="SistersOfBattle/HammerOfWrath">
                                     <effects>
-                                        <addTrait name="HammerOfWrath" duration="1" />
+                                        <addTrait name="HammerOfWrath"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -106,9 +140,12 @@
                 </target>
             </beginTargets>
         </jumpPack>
-        <miraculousIntervention name="SistersOfBattle/MiraculousIntervention" beginOnDisappear="1" cooldown="10" passive="1">
+        <miraculousIntervention name="SistersOfBattle/MiraculousIntervention"
+                                beginOnDisappear="1"
+                                cooldown="10"
+                                passive="1">
             <model>
-                <action sound="Actions/MiraculousIntervention" />
+                <action sound="Actions/MiraculousIntervention"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -117,7 +154,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/MiraculousIntervention" />
+                                        <addTrait name="SistersOfBattle/MiraculousIntervention"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -125,16 +162,16 @@
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <destroyed />
-                                            <noTrait name="Broken" />
+                                            <destroyed/>
+                                            <noTrait name="Broken"/>
                                         </unit>
                                         <unit match="Any">
-                                            <noTrait name="Shaken" />
-                                            <trait name="SistersOfBattle/LaudHailer" />
+                                            <noTrait name="Shaken"/>
+                                            <trait name="SistersOfBattle/LaudHailer"/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <hitpointsFactorFromMax add="1.0" />
+                                        <hitpointsFactorFromMax add="1.0"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -143,16 +180,20 @@
                 </selfTarget>
             </beginTargets>
         </miraculousIntervention>
-        <beaconOfFaith name="SistersOfBattle/BeaconOfFaith" passive="1" rank="-1" rankMax="2">
+        <beaconOfFaith name="SistersOfBattle/BeaconOfFaith"
+                       passive="1"
+                       rank="-1"
+                       rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="2">
+                        <area affects="Tile"
+                              radius="2">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/BeaconOfFaithAlly" />
-                                        <addTrait name="SistersOfBattle/BeaconOfFaithEnemy" />
+                                        <addTrait name="SistersOfBattle/BeaconOfFaithAlly"/>
+                                        <addTrait name="SistersOfBattle/BeaconOfFaithEnemy"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -161,15 +202,22 @@
                 </selfTarget>
             </beginTargets>
         </beaconOfFaith>
-        <healingTears name="SistersOfBattle/HealingTears" consumedActionPoints="1" consumedMovement="0" cooldown="3" rank="-1" rankMax="2" requiredActionPoints="1">
+        <healingTears name="SistersOfBattle/HealingTears"
+                      consumedActionPoints="1"
+                      consumedMovement="0"
+                      cooldown="3"
+                      rank="-1"
+                      rankMax="2"
+                      requiredActionPoints="1">
             <model>
-                <action animation="Units/SistersOfBattle/SaintCelestineAbility" sound="Actions/HealingTears" />
+                <action animation="Units/SistersOfBattle/SaintCelestineAbility"
+                        sound="Actions/HealingTears"/>
             </model>
             <beginTargets>
                 <selfTarget>
                     <conditions>
                         <unit>
-                            <damaged />
+                            <damaged/>
                         </unit>
                     </conditions>
                     <areas>
@@ -177,7 +225,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpointsFactorFromMax addMax="0.3" addMin="0.1" />
+                                        <hitpointsFactorFromMax addMax="0.3"
+                                                                addMin="0.1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -186,15 +235,19 @@
                 </selfTarget>
             </beginTargets>
         </healingTears>
-        <genericUnitAbility name="SistersOfBattle/SaintlyBlessings" passive="1" rank="-1" rankMax="2">
+        <genericUnitAbility name="SistersOfBattle/SaintlyBlessings"
+                            passive="1"
+                            rank="-1"
+                            rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1">
+                        <area affects="Tile"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/SaintlyBlessings" />
+                                        <addTrait name="SistersOfBattle/SaintlyBlessings"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -203,28 +256,36 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility name="SistersOfBattle/EmperorsBlaze" icon="Actions/SistersOfBattle/EmperorsBlaze" rankMax="0" elite="1" rank="-1" cooldown="7">
+        <genericUnitAbility name="SistersOfBattle/EmperorsBlaze"
+                            cooldown="7"
+                            elite="1"
+                            icon="Actions/SistersOfBattle/EmperorsBlaze"
+                            rank="-1"
+                            rankMax="0">
             <model>
-                <action animation="Units/SistersOfBattle/SaintCelestineAbility" sound="Actions/TheEmperorsVengeance" />
+                <action animation="Units/SistersOfBattle/SaintCelestineAbility"
+                        sound="Actions/TheEmperorsVengeance"/>
             </model>
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Unit" radius="2">
+                        <area affects="Unit"
+                              radius="2">
                             <modifiers>
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <allied />
-                                            <faction name="SistersOfBattle" />
-                                            <noTrait name="Hero" />
-                                            <noTrait name="Vehicle" />
-                                            <noTrait name="MonstrousCreature" />
-                                            <noTrait name="Fortification" />
+                                            <allied/>
+                                            <faction name="SistersOfBattle"/>
+                                            <noTrait name="Hero"/>
+                                            <noTrait name="Vehicle"/>
+                                            <noTrait name="MonstrousCreature"/>
+                                            <noTrait name="Fortification"/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/HolyFireSelf" duration="2" />
+                                        <addTrait name="SistersOfBattle/HolyFireSelf"
+                                                  duration="2"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -232,21 +293,23 @@
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <enemy />
+                                            <enemy/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/HolyFireEnemy" duration="2" />
+                                        <addTrait name="SistersOfBattle/HolyFireEnemy"
+                                                  duration="2"/>
                                     </effects>
                                 </modifier>
                                 <modifier requiredUpgrade="SistersOfBattle/Conflagration">
                                     <conditions>
                                         <unit>
-                                            <enemy />
+                                            <enemy/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/HolyFireEnemy" duration="3" />
+                                        <addTrait name="SistersOfBattle/HolyFireEnemy"
+                                                  duration="3"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -255,18 +318,19 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <levelUp />
-        <shop />
+        <levelUp/>
+        <shop/>
     </actions>
     <traits>
-        <trait name="SistersOfBattle/ShieldOfFaith" />
-        <trait name="SistersOfBattle/Martyrdom" />
-        <trait name="SistersOfBattle/OathOfFaith" />
-        <trait name="SistersOfBattle/ArmourOfSaintKatherine" />
-        <trait name="ExtraInfantryArmour" requiredUpgrade="SistersOfBattle/ExtraInfantryArmour" />
-        <trait name="Hero" />
-        <trait name="Fearless" />
-        <trait name="HitAndRun" />
-        <trait name="Unique" />
+        <trait name="SistersOfBattle/ShieldOfFaith"/>
+        <trait name="SistersOfBattle/Martyrdom"/>
+        <trait name="SistersOfBattle/OathOfFaith"/>
+        <trait name="SistersOfBattle/ArmourOfSaintKatherine"/>
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="SistersOfBattle/ExtraInfantryArmour"/>
+        <trait name="Hero"/>
+        <trait name="Fearless"/>
+        <trait name="HitAndRun"/>
+        <trait name="Unique"/>
     </traits>
 </unit>

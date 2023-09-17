@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon fireInterval="1.0" fireSound="Weapons/OppressorCannon" fireSoundCount="1" muzzleFlashesBlueprint="Effects/CannonMuzzleFlashes" />
+        <projectileWeapon fireInterval="1.0"
+                          fireSound="Weapons/OppressorCannon"
+                          fireSoundCount="1"
+                          muzzleFlashesBlueprint="Effects/CannonMuzzleFlashes"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="1" />
-                <rangedArmorPenetration add="8" /> <!-- %rangedArmorPenetration add armorPiercing=-3 -->
-                <rangedDamage add="12" /> <!-- %rangedDamage add strength=10 -->
-                <strengthDamage base="0" />
+                <attacks add="1"/>
+                <rangedArmorPenetration add="8"/> <!-- %rangedArmorPenetration add armorPiercing=-3 -->
+                <rangedDamage add="12"/> <!-- %rangedDamage add strength=10 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="3" />
+    <target rangeMax="3"/>
     <traits>
-        <trait name="AstraMilitarum/BlastDamage" requiredUpgrade="AstraMilitarum/BlastDamage" />
-        <trait name="LargeBlast" />
-        <trait name="HeavyWeapon" />
-        <trait name="AstraMilitarum/ChadOppressorCannon" />
+        <trait name="AstraMilitarum/BlastDamage"
+               requiredUpgrade="AstraMilitarum/BlastDamage"/>
+        <trait name="LargeBlast"/>
+        <trait name="HeavyWeapon"/>
+        <trait name="AstraMilitarum/ChadOppressorCannon"/>
     </traits>
 </weapon>

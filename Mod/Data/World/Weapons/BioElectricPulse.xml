@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon beamsBlueprint="Effects/BioElectricity" beamsEmitterBlueprint="Effects/BioElectricityEmitter" effectFaceWeight="1" fireSound="Weapons/BioElectricPulse" fireSoundCount="3" muzzleFlashesBlueprint="Effects/BioElectricityMuzzleFlashes" />
+        <beamWeapon beamsBlueprint="Effects/BioElectricity"
+                    beamsEmitterBlueprint="Effects/BioElectricityEmitter"
+                    effectFaceWeight="1"
+                    fireSound="Weapons/BioElectricPulse"
+                    fireSoundCount="3"
+                    muzzleFlashesBlueprint="Effects/BioElectricityMuzzleFlashes"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="6" />
-                <rangedArmorPenetration add="1" /> <!-- %rangedArmorPenetration add armorPiercing=5 -->
-                <rangedDamage add="2" /> <!-- %rangedDamage add strength=5 -->
-                <strengthDamage base="0" />
+                <attacks add="6"/>
+                <rangedArmorPenetration add="1"/> <!-- %rangedArmorPenetration add armorPiercing=5 -->
+                <rangedDamage add="2"/> <!-- %rangedDamage add strength=5 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="1" />
+    <target rangeMax="1"/>
     <traits>
-        <trait name="Assault" />
-        <trait name="Tyranids/ShortRangedDamage" requiredUpgrade="Tyranids/ShortRangedDamage" />
+        <trait name="Assault"/>
+        <trait name="Tyranids/ShortRangedDamage"
+               requiredUpgrade="Tyranids/ShortRangedDamage"/>
     </traits>
 </weapon>

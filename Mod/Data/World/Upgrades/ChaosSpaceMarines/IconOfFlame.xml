@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Actions/ChaosSpaceMarines/IconOfFlame" position="9">
+<upgrade icon="Actions/ChaosSpaceMarines/IconOfFlame"
+         position="9">
     <requiredUpgrades>
-        <upgrade name="ChaosSpaceMarines/MarkOfTzeentch" />
+        <upgrade name="ChaosSpaceMarines/MarkOfTzeentch"/>
     </requiredUpgrades>
 </upgrade>

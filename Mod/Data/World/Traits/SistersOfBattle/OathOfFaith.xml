@@ -4,11 +4,11 @@
         <modifier>
             <conditions>
                 <unit>
-                    <trait name="Broken" />
+                    <trait name="Broken"/>
                 </unit>
             </conditions>
             <effects>
-                <accuracy mul="-0.17" />
+                <accuracy mul="-0.17"/>
             </effects>
         </modifier>
     </modifiers>

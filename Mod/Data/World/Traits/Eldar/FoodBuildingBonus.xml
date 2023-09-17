@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <food mul="0.17" />
+                <food mul="0.17"/>
             </effects>
         </modifier>
     </modifiers>

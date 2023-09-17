@@ -3,15 +3,15 @@
     <onTraitRemovedModifiers>
         <modifier visible="0">
             <effects>
-                <movement min="999" />
+                <movement min="999"/>
             </effects>
         </modifier>
     </onTraitRemovedModifiers>
     <modifiers>
         <modifier>
             <effects>
-                <movementMax max="1" />
-                <rangedAttacks mul="1.0" />
+                <movementMax max="1"/>
+                <rangedAttacks mul="1.0"/>
             </effects>
         </modifier>
     </modifiers>

@@ -4,11 +4,11 @@
         <modifier>
             <conditions>
                 <unit>
-                    <movement greater="0" />
+                    <movement greater="0"/>
                 </unit>
             </conditions>
             <effects>
-                <rangedAccuracy add="2" />
+                <rangedAccuracy add="2"/>
             </effects>
         </modifier>
     </modifiers>

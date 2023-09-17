@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff" icon="Weapons/SerpentShield">
+<trait alwaysVisible="1"
+       category="Buff"
+       icon="Weapons/SerpentShield">
     <modifiers>
         <modifier>
             <conditions>
                 <unit>
-                    <noCooldownAction name="SerpentShield/SerpentShield" />
+                    <noCooldownAction name="SerpentShield/SerpentShield"/>
                 </unit>
             </conditions>
             <effects>
-                <armor add="2" />
+                <armor add="2"/>
             </effects>
         </modifier>
     </modifiers>

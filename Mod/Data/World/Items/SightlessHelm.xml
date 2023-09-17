@@ -9,7 +9,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Items/SightlessHelm" />
+                                        <addTrait name="Items/SightlessHelm"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -22,11 +22,11 @@
     <modifiers>
         <modifier>
             <effects>
-                <influenceCost base="160" />
+                <influenceCost base="160"/>
             </effects>
         </modifier>
     </modifiers>
     <traits>
-        <trait name="Artefact" />
+        <trait name="Artefact"/>
     </traits>
 </item>

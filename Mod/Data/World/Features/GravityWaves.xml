@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feature category="GravityWaves" icon="Actions/Tau/GravityWaveProjector">
+<feature category="GravityWaves"
+         icon="Actions/Tau/GravityWaveProjector">
     <model>
-        <smokeScreen blueprint="Effects/GravityWaves" />
+        <smokeScreen blueprint="Effects/GravityWaves"/>
     </model>
 </feature>

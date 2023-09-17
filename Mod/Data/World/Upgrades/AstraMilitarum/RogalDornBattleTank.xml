@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade dlc="Supplement12" icon="Units/AstraMilitarum/RogalDornBattleTank" position="8">
+<upgrade dlc="Supplement12"
+         icon="Units/AstraMilitarum/RogalDornBattleTank"
+         position="8">
     <requiredUpgrades>
-        <upgrade name="AstraMilitarum/Vehicles" />
+        <upgrade name="AstraMilitarum/Vehicles"/>
     </requiredUpgrades>
 </upgrade>

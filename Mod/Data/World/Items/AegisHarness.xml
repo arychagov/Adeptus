@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <item>
     <actions>
-        <genericUnitAbility cooldown="3" passive="1">
+        <genericUnitAbility cooldown="3"
+                            passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -9,7 +10,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="PsychicBlock" />
+                                        <addTrait name="PsychicBlock"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -22,11 +23,11 @@
     <modifiers>
         <modifier>
             <effects>
-                <influenceCost base="160" />
+                <influenceCost base="160"/>
             </effects>
         </modifier>
     </modifiers>
     <traits>
-        <trait name="Artefact" />
+        <trait name="Artefact"/>
     </traits>
 </item>

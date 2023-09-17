@@ -4,23 +4,24 @@
         <modifier>
             <conditions>
                 <unit>
-                    <noTrait name="Broken" />
+                    <noTrait name="Broken"/>
                 </unit>
             </conditions>
             <effects>
-                <invulnerableDamageReduction min="0.17" />
-                <witchfireDamageReduction min="0.17" />
+                <invulnerableDamageReduction min="0.17"/>
+                <witchfireDamageReduction min="0.17"/>
             </effects>
         </modifier>
-        <modifier requiredUpgrade="SistersOfBattle/VowOfTheMilitantOrder" visible="0">
+        <modifier requiredUpgrade="SistersOfBattle/VowOfTheMilitantOrder"
+                  visible="0">
             <effects>
-                <invulnerableDamageReduction min="0.25" />
-                <witchfireDamageReduction min="0.25" />
+                <invulnerableDamageReduction min="0.25"/>
+                <witchfireDamageReduction min="0.25"/>
             </effects>
         </modifier>
         <modifier requiredUpgrade="SistersOfBattle/VengefulSpirit">
             <effects>
-                <damageReturnFactor add="0.17" />
+                <damageReturnFactor add="0.17"/>
             </effects>
         </modifier>
     </modifiers>

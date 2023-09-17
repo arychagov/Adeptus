@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Units/Orks/Battlewagon" position="5">
+<upgrade icon="Units/Orks/Battlewagon"
+         position="5">
     <requiredUpgrades>
-        <upgrade name="Orks/Vehicles" />
+        <upgrade name="Orks/Vehicles"/>
     </requiredUpgrades>
 </upgrade>

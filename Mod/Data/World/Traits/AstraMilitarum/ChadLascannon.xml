@@ -4,12 +4,12 @@
         <modifier visible="0">
             <conditions>
                 <unit>
-                    <trait name="AstraMilitarum/UpgradedLascannon" />
+                    <trait name="AstraMilitarum/UpgradedLascannon"/>
                 </unit>
             </conditions>
             <effects>
-                <rangedDamage add="1" />
-                <rangedAccuracy add="1" />
+                <rangedDamage add="1"/>
+                <rangedAccuracy add="1"/>
             </effects>
         </modifier>
     </modifiers>

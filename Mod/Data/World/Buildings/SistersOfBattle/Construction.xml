@@ -3,25 +3,25 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="48" />
-                <requisitionsCost base="80" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <energyUpkeep add="3" />
+                <productionCost base="48"/>
+                <requisitionsCost base="80"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <energyUpkeep add="3"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <influence add="3" />
-                <requisitions add="5" />
-                <production add="6" />
+                <influence add="3"/>
+                <requisitions add="5"/>
+                <production add="6"/>
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseConstructionScore base="1.0" />
+                <increaseConstructionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
@@ -30,9 +30,9 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost add="5" />
-                        <requisitionsCost add="5" />
-                        <productionCost add="12" />
+                        <influenceCost add="5"/>
+                        <requisitionsCost add="5"/>
+                        <productionCost add="12"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -41,20 +41,23 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <productionCost add="12" />
+                        <productionCost add="12"/>
                     </effects>
                 </modifier>
             </modifiers>
         </clearTile>
-        <constructBuilding building="SistersOfBattle/Requisitions" />
-        <constructBuilding building="SistersOfBattle/Energy" />
-        <constructBuilding building="SistersOfBattle/Research" />
-        <constructBuilding building="SistersOfBattle/Influence" />
-        <constructBuilding building="SistersOfBattle/Loyalty" />
-        <constructBuilding building="SistersOfBattle/Housing" />
-        <constructBuilding building="SistersOfBattle/Infantry" />
-        <constructBuilding building="SistersOfBattle/Vehicles" requiredUpgrade="SistersOfBattle/Vehicles" />
-        <constructBuilding building="SistersOfBattle/Auxiliaries" requiredUpgrade="SistersOfBattle/Auxiliaries" />
-        <constructBuilding building="SistersOfBattle/Construction" requiredUpgrade="SistersOfBattle/Construction" />
+        <constructBuilding building="SistersOfBattle/Requisitions"/>
+        <constructBuilding building="SistersOfBattle/Energy"/>
+        <constructBuilding building="SistersOfBattle/Research"/>
+        <constructBuilding building="SistersOfBattle/Influence"/>
+        <constructBuilding building="SistersOfBattle/Loyalty"/>
+        <constructBuilding building="SistersOfBattle/Housing"/>
+        <constructBuilding building="SistersOfBattle/Infantry"/>
+        <constructBuilding building="SistersOfBattle/Vehicles"
+                           requiredUpgrade="SistersOfBattle/Vehicles"/>
+        <constructBuilding building="SistersOfBattle/Auxiliaries"
+                           requiredUpgrade="SistersOfBattle/Auxiliaries"/>
+        <constructBuilding building="SistersOfBattle/Construction"
+                           requiredUpgrade="SistersOfBattle/Construction"/>
     </actions>
 </building>

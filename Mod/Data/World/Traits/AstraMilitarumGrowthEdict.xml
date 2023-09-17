@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait icon="Actions/AstraMilitarumGrowthEdict" visibilityCategory="Building">
+<trait icon="Actions/AstraMilitarumGrowthEdict"
+       visibilityCategory="Building">
     <modifiers>
         <modifier>
             <effects>
-                <growth mul="0.20" />
+                <growth mul="0.20"/>
             </effects>
         </modifier>
     </modifiers>

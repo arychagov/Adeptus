@@ -1,92 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement12">
     <model>
-        <unit bloodBone="Chest" idleAnimation="Units/SistersOfBattle/ImagifierIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SistersOfBattle/Imagifier" mesh="Units/SistersOfBattle/Imagifier" normalWeight="0.1" scale="0.9 0.9 0.9" walker="1" />
+        <unit bloodBone="Chest"
+              idleAnimation="Units/SistersOfBattle/ImagifierIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/SistersOfBattle/Imagifier"
+              mesh="Units/SistersOfBattle/Imagifier"
+              normalWeight="0.1"
+              scale="0.9 0.9 0.9"
+              walker="1"/>
     </model>
-    <group memberDeltaX="70" memberDeltaY="70" rowSize="3" size="3" />
+    <group memberDeltaX="70"
+           memberDeltaY="70"
+           rowSize="3"
+           size="3"/>
     <weapons>
         <weapon name="Boltgun">
             <model>
-                <projectileWeapon muzzleBone="Muzzle" />
+                <projectileWeapon muzzleBone="Muzzle"/>
             </model>
         </weapon>
-        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
+        <weapon name="FragGrenade"
+                enabled="0"
+                slotName="FragGrenade">
             <model>
-                <grenadeWeapon muzzleBone="Hand_R" />
+                <grenadeWeapon muzzleBone="Hand_R"/>
             </model>
         </weapon>
-        <weapon name="KrakGrenade" enabled="0" slotName="KrakGrenade">
+        <weapon name="KrakGrenade"
+                enabled="0"
+                slotName="KrakGrenade">
             <model>
-                <grenadeWeapon muzzleBone="Hand_R" />
+                <grenadeWeapon muzzleBone="Hand_R"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8" /> <!-- %armor base armor=3+ -->
-                <hitpointsMax base="3.0" /> <!-- %hitpointsMax base toughness=3 wounds=1 -->
-                <meleeAccuracy base="8" /> <!-- %meleeAccuracy base weaponSkill=4 -->
-                <meleeAttacks base="1" />
-                <strengthDamage base="1" /> <!-- %strengthDamage base strength=3 -->
+                <armor base="8"/> <!-- %armor base armor=3+ -->
+                <hitpointsMax base="3.0"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
+                <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
+                <meleeAttacks base="1"/>
+                <strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
                 <!-- <meleeInitiative base="3"/> -->
-                <moraleMax base="10" /> <!-- %moraleMax base leadership=8 -->
-                <movementMax base="3" />
-                <productionCost base="40.0" /> <!-- %productionCost base tier=3 factor=1 -->
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
-                <requisitionsCost base="40.0" /> <!-- %requisitionsCost base tier=3 factor=1 -->
-                <requisitionsUpkeep base="2.0" /> <!-- %requisitionsUpkeep base tier=3 factor=1 -->
-                <duplicateTypeCost mul="0.125" />
+                <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+                <movementMax base="3"/>
+                <productionCost base="40.0"/> <!-- %productionCost base tier=3 factor=1 -->
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <requisitionsCost base="40.0"/> <!-- %requisitionsCost base tier=3 factor=1 -->
+                <requisitionsUpkeep base="2.0"/> <!-- %requisitionsUpkeep base tier=3 factor=1 -->
+                <duplicateTypeCost mul="0.125"/>
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseSupportScore base="1.0" />
+                <increaseSupportScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/SistersOfBattle/ImagifierAttack" beginFire="0.67" endFire="1.8" />
+                <action animation="Units/SistersOfBattle/ImagifierAttack"
+                        beginFire="0.67"
+                        endFire="1.8"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/SistersOfBattle/ImagifierDie" animationCount="2" sound="Units/MediumArmoredDie" soundCount="4" soundDelay="0.38" voiceSound="Units/SistersOfBattle/InfantryDie" voiceSoundCount="5" />
+                <action animation="Units/SistersOfBattle/ImagifierDie"
+                        animationCount="2"
+                        sound="Units/MediumArmoredDie"
+                        soundCount="4"
+                        soundDelay="0.38"
+                        voiceSound="Units/SistersOfBattle/InfantryDie"
+                        voiceSoundCount="5"/>
             </model>
         </die>
         <idle>
             <model>
-                <action />
+                <action/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/SistersOfBattle/ImagifierMove" sound="Units/SistersOfBattle/InfantryMove" soundCount="3" />
+                <action animation="Units/SistersOfBattle/ImagifierMove"
+                        sound="Units/SistersOfBattle/InfantryMove"
+                        soundCount="3"/>
             </model>
         </move>
-        <taleOfTheWarrior name="SistersOfBattle/TaleOfTheWarrior" consumedActionPoints="1" consumedMovement="0" cooldown="3" requiredActionPoints="1">
+        <taleOfTheWarrior name="SistersOfBattle/TaleOfTheWarrior"
+                          consumedActionPoints="1"
+                          consumedMovement="0"
+                          cooldown="3"
+                          requiredActionPoints="1">
             <model>
-                <action animation="Units/SistersOfBattle/ImagifierAbility" sound="Actions/WarHymn" />
+                <action animation="Units/SistersOfBattle/ImagifierAbility"
+                        sound="Actions/WarHymn"/>
             </model>
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Unit" excludeRadius="0" radius="1">
+                        <area affects="Unit"
+                              excludeRadius="0"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <allied />
-                                            <noTrait name="Vehicle" />
-                                            <faction name="SistersOfBattle" />
+                                            <allied/>
+                                            <noTrait name="Vehicle"/>
+                                            <faction name="SistersOfBattle"/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/TaleOfTheWarrior" duration="1" />
+                                        <addTrait name="SistersOfBattle/TaleOfTheWarrior"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -95,29 +128,36 @@
                 </selfTarget>
             </beginTargets>
             <sharedCooldowns>
-                <action name="SistersOfBattle/TaleOfTheStoic" />
-                <action name="SistersOfBattle/TaleOfTheFaithful" />
+                <action name="SistersOfBattle/TaleOfTheStoic"/>
+                <action name="SistersOfBattle/TaleOfTheFaithful"/>
             </sharedCooldowns>
         </taleOfTheWarrior>
-        <taleOfTheStoic name="SistersOfBattle/TaleOfTheStoic" consumedActionPoints="1" consumedMovement="0" cooldown="3" requiredActionPoints="1">
+        <taleOfTheStoic name="SistersOfBattle/TaleOfTheStoic"
+                        consumedActionPoints="1"
+                        consumedMovement="0"
+                        cooldown="3"
+                        requiredActionPoints="1">
             <model>
-                <action animation="Units/SistersOfBattle/ImagifierAbility" sound="Actions/WarHymn" />
+                <action animation="Units/SistersOfBattle/ImagifierAbility"
+                        sound="Actions/WarHymn"/>
             </model>
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Unit" radius="1">
+                        <area affects="Unit"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <allied />
-                                            <noTrait name="Vehicle" />
-                                            <faction name="SistersOfBattle" />
+                                            <allied/>
+                                            <noTrait name="Vehicle"/>
+                                            <faction name="SistersOfBattle"/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/TaleOfTheStoic" duration="1" />
+                                        <addTrait name="SistersOfBattle/TaleOfTheStoic"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -126,29 +166,36 @@
                 </selfTarget>
             </beginTargets>
             <sharedCooldowns>
-                <action name="SistersOfBattle/TaleOfTheWarrior" />
-                <action name="SistersOfBattle/TaleOfTheFaithful" />
+                <action name="SistersOfBattle/TaleOfTheWarrior"/>
+                <action name="SistersOfBattle/TaleOfTheFaithful"/>
             </sharedCooldowns>
         </taleOfTheStoic>
-        <taleOfTheFaithful name="SistersOfBattle/TaleOfTheFaithful" consumedActionPoints="1" consumedMovement="0" cooldown="3" requiredActionPoints="1">
+        <taleOfTheFaithful name="SistersOfBattle/TaleOfTheFaithful"
+                           consumedActionPoints="1"
+                           consumedMovement="0"
+                           cooldown="3"
+                           requiredActionPoints="1">
             <model>
-                <action animation="Units/SistersOfBattle/ImagifierAbility" sound="Actions/WarHymn" />
+                <action animation="Units/SistersOfBattle/ImagifierAbility"
+                        sound="Actions/WarHymn"/>
             </model>
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Unit" radius="1">
+                        <area affects="Unit"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <allied />
-                                            <noTrait name="Vehicle" />
-                                            <faction name="SistersOfBattle" />
+                                            <allied/>
+                                            <noTrait name="Vehicle"/>
+                                            <faction name="SistersOfBattle"/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/TaleOfTheFaithful" duration="1" />
+                                        <addTrait name="SistersOfBattle/TaleOfTheFaithful"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -157,28 +204,33 @@
                 </selfTarget>
             </beginTargets>
             <sharedCooldowns>
-                <action name="SistersOfBattle/TaleOfTheWarrior" />
-                <action name="SistersOfBattle/TaleOfTheStoic" />
+                <action name="SistersOfBattle/TaleOfTheWarrior"/>
+                <action name="SistersOfBattle/TaleOfTheStoic"/>
             </sharedCooldowns>
         </taleOfTheFaithful>
-        <endlessCrusade name="SistersOfBattle/EndlessCrusade" consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0">
+        <endlessCrusade name="SistersOfBattle/EndlessCrusade"
+                        consumedActionPoints="0"
+                        consumedMovement="0"
+                        cooldown="10"
+                        requiredActionPoints="0">
             <model>
-                <action animation="Units/SistersOfBattle/ImagifierAbility" sound="Actions/EndlessCrusade" />
+                <action animation="Units/SistersOfBattle/ImagifierAbility"
+                        sound="Actions/EndlessCrusade"/>
             </model>
             <modifiers>
                 <modifier requiredUpgrade="SistersOfBattle/SimulacrumImperialis">
                     <effects>
-                        <cooldown mul="-0.5" />
+                        <cooldown mul="-0.5"/>
                     </effects>
                 </modifier>
             </modifiers>
             <conditions>
                 <unit>
-                    <noTrait name="Broken" />
+                    <noTrait name="Broken"/>
                 </unit>
                 <unit match="Any">
-                    <noTrait name="Shaken" />
-                    <trait name="SistersOfBattle/LaudHailer" />
+                    <noTrait name="Shaken"/>
+                    <trait name="SistersOfBattle/LaudHailer"/>
                 </unit>
             </conditions>
             <beginTargets>
@@ -188,15 +240,19 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Fleet" duration="1" />
-                                        <addTrait name="MoveThroughCover" duration="1" />
-                                        <addTrait name="Blurry" duration="1" />
-                                        <addTrait name="SistersOfBattle/UsedActOfFaith" duration="1" />
+                                        <addTrait name="Fleet"
+                                                  duration="1"/>
+                                        <addTrait name="MoveThroughCover"
+                                                  duration="1"/>
+                                        <addTrait name="Blurry"
+                                                  duration="1"/>
+                                        <addTrait name="SistersOfBattle/UsedActOfFaith"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                                 <modifier requiredUpgrade="SistersOfBattle/SoothingLight">
                                     <effects>
-                                        <hitpointsFactorFromMax add="0.5" />
+                                        <hitpointsFactorFromMax add="0.5"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -205,21 +261,26 @@
                 </selfTarget>
             </beginTargets>
         </endlessCrusade>
-        <genericUnitAbility name="SistersOfBattle/MedicusMinistorum" passive="1" requiredUpgrade="SistersOfBattle/MedicusMinistorum">
+        <genericUnitAbility name="SistersOfBattle/MedicusMinistorum"
+                            passive="1"
+                            requiredUpgrade="SistersOfBattle/MedicusMinistorum">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" excludeRadius="0" radius="1">
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <allied />
-                                            <faction name="SistersOfBattle" />
+                                            <allied/>
+                                            <faction name="SistersOfBattle"/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/MedicusMinistorum" duration="1" />
+                                        <addTrait name="SistersOfBattle/MedicusMinistorum"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -228,22 +289,30 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <throwGrenade cooldown="10" requiredUpgrade="SistersOfBattle/FragGrenade" weaponSlotName="FragGrenade">
+        <throwGrenade cooldown="10"
+                      requiredUpgrade="SistersOfBattle/FragGrenade"
+                      weaponSlotName="FragGrenade">
             <model>
-                <action animation="Units/SistersOfBattle/ImagifierGrenade" beginFire="1.6" />
+                <action animation="Units/SistersOfBattle/ImagifierGrenade"
+                        beginFire="1.6"/>
             </model>
         </throwGrenade>
-        <throwGrenade cooldown="10" requiredUpgrade="SistersOfBattle/KrakGrenade" weaponSlotName="KrakGrenade">
+        <throwGrenade cooldown="10"
+                      requiredUpgrade="SistersOfBattle/KrakGrenade"
+                      weaponSlotName="KrakGrenade">
             <model>
-                <action animation="Units/SistersOfBattle/ImagifierGrenade" beginFire="1.6" />
+                <action animation="Units/SistersOfBattle/ImagifierGrenade"
+                        beginFire="1.6"/>
             </model>
         </throwGrenade>
     </actions>
     <traits>
-        <trait name="SistersOfBattle/ShieldOfFaith" />
-        <trait name="SistersOfBattle/MartyrSpirit" />
-        <trait name="SistersOfBattle/OathOfFaith" />
-        <trait name="ExtraInfantryArmour" requiredUpgrade="SistersOfBattle/ExtraInfantryArmour" />
-        <trait name="SistersOfBattle/SisterSuperior" requiredUpgrade="SistersOfBattle/SisterSuperior" />
+        <trait name="SistersOfBattle/ShieldOfFaith"/>
+        <trait name="SistersOfBattle/MartyrSpirit"/>
+        <trait name="SistersOfBattle/OathOfFaith"/>
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="SistersOfBattle/ExtraInfantryArmour"/>
+        <trait name="SistersOfBattle/SisterSuperior"
+               requiredUpgrade="SistersOfBattle/SisterSuperior"/>
     </traits>
 </unit>

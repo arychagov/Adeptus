@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff">
+<trait alwaysVisible="1"
+       category="Buff">
     <modifiers>
         <modifier>
             <conditions>
                 <unit>
-                    <cargoSlotsTaken greater="0" />
+                    <cargoSlotsTaken greater="0"/>
                 </unit>
             </conditions>
             <effects>
-                <movementMax add="3" />
+                <movementMax add="3"/>
             </effects>
         </modifier>
     </modifiers>
@@ -18,11 +19,11 @@
                 <modifier visible="0">
                     <conditions>
                         <unit>
-                            <notMovedThisTurn />
+                            <notMovedThisTurn/>
                         </unit>
                     </conditions>
                     <effects>
-                        <movement add="999" />
+                        <movement add="999"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -34,11 +35,11 @@
                 <modifier visible="0">
                     <conditions>
                         <unit>
-                            <cargoSlotsTaken equal="0" />
+                            <cargoSlotsTaken equal="0"/>
                         </unit>
                     </conditions>
                     <effects>
-                        <movement add="-999" />
+                        <movement add="-999"/>
                     </effects>
                 </modifier>
             </modifiers>

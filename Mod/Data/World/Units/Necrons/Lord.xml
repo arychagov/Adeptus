@@ -1,40 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit explosionsBone="BloodBone" idleAnimation="Units/Necrons/LordIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Necrons/Lord" mesh="Units/Necrons/Lord" normalWeight="0.1" scale="1.2 1.2 1.2" walker="1" />
+        <unit explosionsBone="BloodBone"
+              idleAnimation="Units/Necrons/LordIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/Necrons/Lord"
+              mesh="Units/Necrons/Lord"
+              normalWeight="0.1"
+              scale="1.2 1.2 1.2"
+              walker="1"/>
     </model>
     <weapons>
         <weapon name="StaffOfLight">
             <model>
-                <beamWeapon bone="Bone074(mirrored)002" fireInterval="0.2" material="Units/Necrons/Lord" mesh="Weapons/Necrons/LordStaffOfLight" muzzleBone=".Muzzle" />
+                <beamWeapon bone="Bone074(mirrored)002"
+                            fireInterval="0.2"
+                            material="Units/Necrons/Lord"
+                            mesh="Weapons/Necrons/LordStaffOfLight"
+                            muzzleBone=".Muzzle"/>
             </model>
         </weapon>
-        <weapon name="Voidblade" slotName="Voidblade">
+        <weapon name="Voidblade"
+                slotName="Voidblade">
             <model>
-                <weapon bone="Bone074(mirrored)(mirrored)" fireInterval="0.5" material="Units/Necrons/Lord" mesh="Weapons/Necrons/Voidblade" />
+                <weapon bone="Bone074(mirrored)(mirrored)"
+                        fireInterval="0.5"
+                        material="Units/Necrons/Lord"
+                        mesh="Weapons/Necrons/Voidblade"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8" /> <!-- %armor base armor=3+ -->
-                <energyCost base="40.0" /> <!-- %energyCost base tier=6 factor=1 -->
-                <hitpointsMax base="12.0" />
-                <duplicateTypeCost mul="2.0" /> <!-- %hitpointsMax base toughness=5 wounds=3 -->
-                <influenceUpkeep base="4.0" /> <!-- %influenceUpkeep base tier=6 factor=2 -->
-                <influenceCost base="80.0" /> <!-- %influenceCost base tier=6 factor=2 -->
-                <itemSlots base="6" />
-                <levelMax base="9" />
-                <meleeAccuracy base="8" /> <!-- %meleeAccuracy base weaponSkill=4 -->
-                <meleeAttacks base="2" />
-                <strengthDamage base="2" /> <!-- %strengthDamage base strength=5 -->
+                <armor base="8"/> <!-- %armor base armor=3+ -->
+                <energyCost base="40.0"/> <!-- %energyCost base tier=6 factor=1 -->
+                <hitpointsMax base="12.0"/>
+                <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=5 wounds=3 -->
+                <influenceUpkeep base="4.0"/> <!-- %influenceUpkeep base tier=6 factor=2 -->
+                <influenceCost base="80.0"/> <!-- %influenceCost base tier=6 factor=2 -->
+                <itemSlots base="6"/>
+                <levelMax base="9"/>
+                <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
+                <meleeAttacks base="2"/>
+                <strengthDamage base="2"/> <!-- %strengthDamage base strength=5 -->
                 <!-- <meleeInitiative base="2"/> -->
-                <moraleMax base="12" /> <!-- %moraleMax base leadership=10 -->
-                <movementMax base="3" />
-                <oreUpkeep base="2.0" /> <!-- %oreUpkeep base tier=6 factor=1 -->
-                <productionCost base="36.0" /> <!-- %productionCost base tier=6 factor=1 -->
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->
+                <movementMax base="3"/>
+                <oreUpkeep base="2.0"/> <!-- %oreUpkeep base tier=6 factor=1 -->
+                <productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
 
             </effects>
         </modifier>
@@ -42,50 +58,75 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseHeroesScore base="1.0" />
+                <increaseHeroesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/Necrons/LordAttack" beginFire="0.6" chargeAnimation="Units/Necrons/LordCharge" chargeBeginFire="0.5" chargeDefenseAnimation="Units/Necrons/LordChargeDefense" chargeDefenseBeginFire="0.5" chargeDefenseEndFire="1.5" chargeEndFire="1.5" endFire="2.0" meleeAnimation="Units/Necrons/LordMelee" meleeBeginSwing="0.2" meleeDefenseAnimation="Units/Necrons/LordMeleeDefense" meleeEndSwing="0.9" />
+                <action animation="Units/Necrons/LordAttack"
+                        beginFire="0.6"
+                        chargeAnimation="Units/Necrons/LordCharge"
+                        chargeBeginFire="0.5"
+                        chargeDefenseAnimation="Units/Necrons/LordChargeDefense"
+                        chargeDefenseBeginFire="0.5"
+                        chargeDefenseEndFire="1.5"
+                        chargeEndFire="1.5"
+                        endFire="2.0"
+                        meleeAnimation="Units/Necrons/LordMelee"
+                        meleeBeginSwing="0.2"
+                        meleeDefenseAnimation="Units/Necrons/LordMeleeDefense"
+                        meleeEndSwing="0.9"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Necrons/LordDie" animationCount="1" sound="Units/MediumArmoredDie" soundCount="4" soundDelay="1.7" voiceSound="Units/Necrons/Die" voiceSoundCount="7" />
+                <action animation="Units/Necrons/LordDie"
+                        animationCount="1"
+                        sound="Units/MediumArmoredDie"
+                        soundCount="4"
+                        soundDelay="1.7"
+                        voiceSound="Units/Necrons/Die"
+                        voiceSoundCount="7"/>
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0" />
+                <action animationSpeed="1.0"/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/Necrons/LordMove" sound="Units/Necrons/InfantryMove" soundCount="4" />
+                <action animation="Units/Necrons/LordMove"
+                        sound="Units/Necrons/InfantryMove"
+                        soundCount="4"/>
             </model>
         </move>
-        <necrodermisRepair requiredUpgrade="Necrons/NecrodermisRepair" name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
+        <necrodermisRepair name="Necrons/NecrodermisRepair"
+                           consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="1"
+                           requiredActionPoints="0"
+                           requiredUpgrade="Necrons/NecrodermisRepair">
             <model>
-                <action sound="Actions/Heal" />
+                <action sound="Actions/Heal"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="50" />
+                        <influenceCost base="50"/>
                     </effects>
                 </modifier>
 
                 <modifier requiredUpgrade="Necrons/HousingBuildingBonus">
                     <effects>
-                        <cooldown max="0" />
+                        <cooldown max="0"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Necrons/NecrodermisRepair3">
                     <effects>
-                        <influenceCost add="-30" />
+                        <influenceCost add="-30"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -93,8 +134,8 @@
                 <selfTarget>
                     <conditions>
                         <unit>
-                            <noTrait name="Necrons/BloodyCrusade" />
-                            <damaged />
+                            <noTrait name="Necrons/BloodyCrusade"/>
+                            <damaged/>
                         </unit>
                     </conditions>
                     <areas>
@@ -102,18 +143,18 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints add="6" />
+                                        <hitpoints add="6"/>
                                     </effects>
                                 </modifier>
 
                                 <modifier requiredUpgrade="Necrons/HousingBuildingBonus">
                                     <effects>
-                                        <hitpoints add="2" />
+                                        <hitpoints add="2"/>
                                     </effects>
                                 </modifier>
                                 <modifier requiredUpgrade="Necrons/NecrodermisRepair3">
                                     <effects>
-                                        <hitpoints add="2" />
+                                        <hitpoints add="2"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -122,43 +163,51 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <dimensionalCorridor name="Necrons/DimensionalCorridor" cooldown="3" requiredUpgrade="Necrons/DimensionalCorridor"> <!-- growing and shrinking lens flare -->
+        <dimensionalCorridor name="Necrons/DimensionalCorridor"
+                             cooldown="3"
+                             requiredUpgrade="Necrons/DimensionalCorridor"> <!-- growing and shrinking lens flare -->
             <model>
-                <action sound="Actions/Teleport" />
+                <action sound="Actions/Teleport"/>
             </model>
             <conditions>
                 <unit>
-                    <noTrait name="Necrons/BloodyCrusade" />
+                    <noTrait name="Necrons/BloodyCrusade"/>
                 </unit>
             </conditions>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="20" />
+                        <influenceCost base="20"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Necrons/DimensionalCorridor2">
                     <effects>
-                        <influenceCost mul="-0.33" />
+                        <influenceCost mul="-0.33"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Necrons/DimensionalCorridor2">
                     <effects>
-                        <consumedActionPoints max="0" />
-                        <consumedMovement max="0" />
+                        <consumedActionPoints max="0"/>
+                        <consumedMovement max="0"/>
                     </effects>
                 </modifier>
             </modifiers>
         </dimensionalCorridor>
-        <genericUnitAbility name="Necrons/MethodicalDestruction" icon="Actions/Necrons/Reaper" passive="1" rank="-1" rankMax="2">
+        <genericUnitAbility name="Necrons/MethodicalDestruction"
+                            icon="Actions/Necrons/Reaper"
+                            passive="1"
+                            rank="-1"
+                            rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radiusMax="3" radiusMin="1">
+                        <area affects="Tile"
+                              radiusMax="3"
+                              radiusMin="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Necrons/MethodicalDestruction" />
+                                        <addTrait name="Necrons/MethodicalDestruction"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -167,9 +216,14 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <defensiveProtocols name="Necrons/DefensiveProtocols" levelUpPriority="0.15" passive="1" rank="-1" rankMax="2">
+        <defensiveProtocols name="Necrons/DefensiveProtocols"
+                            levelUpPriority="0.15"
+                            passive="1"
+                            rank="-1"
+                            rankMax="2">
             <model>
-                <action animation="Units/Necrons/LordAbility" sound="Actions/ArmourUp" />
+                <action animation="Units/Necrons/LordAbility"
+                        sound="Actions/ArmourUp"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -178,16 +232,18 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Necrons/DefensiveProtocolsLord" />
+                                        <addTrait name="Necrons/DefensiveProtocolsLord"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
                         </area>
-                        <area affects="Tile" radiusMax="3" radiusMin="1">
+                        <area affects="Tile"
+                              radiusMax="3"
+                              radiusMin="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Necrons/DefensiveProtocols" />
+                                        <addTrait name="Necrons/DefensiveProtocols"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -196,16 +252,20 @@
                 </selfTarget>
             </beginTargets>
         </defensiveProtocols>
-        <genericUnitAbility name="Necrons/VoidStrike" cooldown="3" icon="Actions/Necrons/VoidStrike" rank="-1" rankMax="2">
+        <genericUnitAbility name="Necrons/VoidStrike"
+                            cooldown="3"
+                            icon="Actions/Necrons/VoidStrike"
+                            rank="-1"
+                            rankMax="2">
             <beginTargets>
                 <target rangeMax="2">
                     <conditions>
                         <unit>
-                            <enemy />
+                            <enemy/>
                         </unit>
                         <unit match="Any">
-                            <trait name="Fortification" />
-                            <trait name="Vehicle" />
+                            <trait name="Fortification"/>
+                            <trait name="Vehicle"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -213,8 +273,10 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints add="-5" addMax="-15" />
-                                        <addTrait name="VehicleHeavilyDamaged" duration="1" />
+                                        <hitpoints add="-5"
+                                                   addMax="-15"/>
+                                        <addTrait name="VehicleHeavilyDamaged"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -223,25 +285,33 @@
                 </target>
             </beginTargets>
         </genericUnitAbility>
-        <solarPulse name="Necrons/SolarPulse" cooldown="5" elite="1" levelUpPriority="1" rank="-1" rankMax="0">
+        <solarPulse name="Necrons/SolarPulse"
+                    cooldown="5"
+                    elite="1"
+                    levelUpPriority="1"
+                    rank="-1"
+                    rankMax="0">
             <model>
-                <action animation="Units/Necrons/LordAbility" sound="Actions/PsychicDebuff" />
+                <action animation="Units/Necrons/LordAbility"
+                        sound="Actions/PsychicDebuff"/>
             </model>
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Unit" radius="3">
+                        <area affects="Unit"
+                              radius="3">
                             <modifiers>
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <enemy />
-                                            <noTrait name="Fortification" />
-                                            <noTrait name="Vehicle" />
+                                            <enemy/>
+                                            <noTrait name="Fortification"/>
+                                            <noTrait name="Vehicle"/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait name="Flared" duration="1" />
+                                        <addTrait name="Flared"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -250,15 +320,18 @@
                 </selfTarget>
             </beginTargets>
         </solarPulse>
-        <levelUp />
-        <shop />
+        <levelUp/>
+        <shop/>
     </actions>
     <traits>
-        <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
-        <trait name="ExtraInfantryArmour" requiredUpgrade="Necrons/ExtraInfantryArmour" />
-        <trait name="Hero" />
-        <trait name="Necrons/ReanimationProtocols" />
-        <trait name="Necrons/PhaseShiftGenerator" />
-        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
+        <trait name="Necrons/AttackCityBonus"
+               requiredUpgrade="Necrons/AttackCityBonus"/>
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="Necrons/ExtraInfantryArmour"/>
+        <trait name="Hero"/>
+        <trait name="Necrons/ReanimationProtocols"/>
+        <trait name="Necrons/PhaseShiftGenerator"/>
+        <trait name="Necrons/PredictiveStrategist"
+               requiredUpgrade="Necrons/PredictiveStrategist"/>
     </traits>
 </unit>

@@ -3,18 +3,18 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36" />
-                <requisitionsCost base="50" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <energyUpkeep add="2" />
+                <productionCost base="36"/>
+                <requisitionsCost base="50"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <energyUpkeep add="2"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <influence add="2" />
-                <requisitions add="2" />
-                <production add="6" />
+                <influence add="2"/>
+                <requisitions add="2"/>
+                <production add="6"/>
             </effects>
         </modifier>
     </modifiers>
@@ -28,12 +28,13 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseAircraftProductionScore base="1.0" />
+                <increaseAircraftProductionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="SpaceMarines/StormtalonGunship" />
-        <produceUnit requiredUpgrade="SpaceMarines/StormravenGunship" unit="SpaceMarines/StormravenGunship" />
+        <produceUnit unit="SpaceMarines/StormtalonGunship"/>
+        <produceUnit requiredUpgrade="SpaceMarines/StormravenGunship"
+                     unit="SpaceMarines/StormravenGunship"/>
     </actions>
 </building>

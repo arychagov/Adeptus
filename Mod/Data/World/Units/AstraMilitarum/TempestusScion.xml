@@ -1,91 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement1">
     <model>
-        <unit bloodBone="BloodBone" idleAnimation="Units/AstraMilitarum/TempestusScionIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AstraMilitarum/TempestusScion" mesh="Units/AstraMilitarum/TempestusScion" normalWeight="0.1" scale="1 1 1" walker="1" />
+        <unit bloodBone="BloodBone"
+              idleAnimation="Units/AstraMilitarum/TempestusScionIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/AstraMilitarum/TempestusScion"
+              mesh="Units/AstraMilitarum/TempestusScion"
+              normalWeight="0.1"
+              scale="1 1 1"
+              walker="1"/>
     </model>
-    <group memberDeltaX="70" memberDeltaY="50" rowSize="4" size="8" />
+    <group memberDeltaX="70"
+           memberDeltaY="50"
+           rowSize="4"
+           size="8"/>
     <weapons>
         <weapon name="HotShotLasgun">
             <model>
-                <beamWeapon fireInterval="0.3" muzzleBone=".Muzzle" />
+                <beamWeapon fireInterval="0.3"
+                            muzzleBone=".Muzzle"/>
             </model>
         </weapon>
-        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
+        <weapon name="FragGrenade"
+                enabled="0"
+                slotName="FragGrenade">
             <model>
-                <grenadeWeapon muzzleBone="BloodBone" />
+                <grenadeWeapon muzzleBone="BloodBone"/>
             </model>
         </weapon>
-        <weapon name="KrakGrenade" enabled="0" slotName="KrakGrenade">
+        <weapon name="KrakGrenade"
+                enabled="0"
+                slotName="KrakGrenade">
             <model>
-                <grenadeWeapon muzzleBone="BloodBone" />
+                <grenadeWeapon muzzleBone="BloodBone"/>
             </model>
         </weapon>
-        <weapon name="GuardsmanFlamer" enabled="0" requiredUpgrade="AstraMilitarum/AdditionalFlamer" slotName="Flamer">
+        <weapon name="GuardsmanFlamer"
+                enabled="0"
+                requiredUpgrade="AstraMilitarum/AdditionalFlamer"
+                slotName="Flamer">
             <model>
-                <flamerWeapon fireInterval="10" muzzleBone="BloodBone" />
+                <flamerWeapon fireInterval="10"
+                              muzzleBone="BloodBone"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="6" /> <!-- %armor base armor=4+ -->
-                <foodUpkeep base="2.0" /> <!-- %foodUpkeep base tier=6 factor=1 -->
-                <foodCost base="20.0" /> <!-- %foodCost base tier=6 factor=0.5 -->
-                <hitpointsMax base="2.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=3 wounds=1 -->
-                <meleeAccuracy base="6" /> <!-- %meleeAccuracy base weaponSkill=3 -->
-                <meleeAttacks base="1" />
-                <oreCost base="20.0" /> <!-- %oreCost base tier=6 factor=0.5 -->
-                <strengthDamage base="1" /> <!-- %strengthDamage base strength=3 -->
-                <moraleMax base="6" /> <!-- %moraleMax base leadership=6 -->
-                <movementMax base="3" />
-                <productionCost base="36.0" /> <!-- %productionCost base tier=6 factor=1 -->
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <armor base="6"/> <!-- %armor base armor=4+ -->
+                <foodUpkeep base="2.0"/> <!-- %foodUpkeep base tier=6 factor=1 -->
+                <foodCost base="20.0"/> <!-- %foodCost base tier=6 factor=0.5 -->
+                <hitpointsMax base="2.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
+                <meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
+                <meleeAttacks base="1"/>
+                <oreCost base="20.0"/> <!-- %oreCost base tier=6 factor=0.5 -->
+                <strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
+                <moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
+                <movementMax base="3"/>
+                <productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0" />
+                <increaseInfantryScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/AstraMilitarum/TempestusScionAttack" beginFire="1.0" endFire="2.0" />
+                <action animation="Units/AstraMilitarum/TempestusScionAttack"
+                        beginFire="1.0"
+                        endFire="2.0"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/AstraMilitarum/TempestusScionDie" animationCount="2" sound="Units/MediumUnarmoredDie" soundCount="4" soundDelay="0.6" voiceSound="Units/AstraMilitarum/InfantryDie" voiceSoundCount="5" />
+                <action animation="Units/AstraMilitarum/TempestusScionDie"
+                        animationCount="2"
+                        sound="Units/MediumUnarmoredDie"
+                        soundCount="4"
+                        soundDelay="0.6"
+                        voiceSound="Units/AstraMilitarum/InfantryDie"
+                        voiceSoundCount="5"/>
             </model>
         </die>
         <idle>
             <model>
-                <action />
+                <action/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/AstraMilitarum/TempestusScionMove" sound="Units/AstraMilitarum/InfantryMove" soundCount="4" />
+                <action animation="Units/AstraMilitarum/TempestusScionMove"
+                        sound="Units/AstraMilitarum/InfantryMove"
+                        soundCount="4"/>
             </model>
         </move>
 
-        <scout consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/ReconOperators">
+        <scout consumedActionPoints="0"
+               consumedMovement="0"
+               cooldown="10"
+               requiredActionPoints="0"
+               requiredUpgrade="AstraMilitarum/ReconOperators">
             <model>
-                <action sound="Actions/Scan" />
+                <action sound="Actions/Scan"/>
             </model>
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="3">
+                        <area affects="Tile"
+                              radius="3">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <reveal />
+                                        <reveal/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -94,24 +129,32 @@
                 </selfTarget>
             </beginTargets>
         </scout>
-        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/AdditionalFlamer" weaponSlotName="Flamer">
+        <useWeapon consumedActionPoints="0"
+                   consumedMovement="0"
+                   cooldown="3"
+                   requiredActionPoints="0"
+                   requiredUpgrade="AstraMilitarum/AdditionalFlamer"
+                   weaponSlotName="Flamer">
             <conditions>
                 <unit>
-                    <trait name="AstraMilitarum/AdditionalFlamer" />
-                    <noTrait name="Exhausted" />
+                    <trait name="AstraMilitarum/AdditionalFlamer"/>
+                    <noTrait name="Exhausted"/>
                 </unit>
             </conditions>
             <model>
-                <action beginFire="0.1" endFire="1.0" />
+                <action beginFire="0.1"
+                        endFire="1.0"/>
             </model>
         </useWeapon>
-        <mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
+        <mediPack cooldown="10"
+                  requiredUpgrade="AstraMilitarum/MediPack">
             <model>
-                <action bone="ChestBone" sound="Actions/Heal" />
+                <action bone="ChestBone"
+                        sound="Actions/Heal"/>
             </model>
             <conditions>
                 <unit>
-                    <damaged />
+                    <damaged/>
                 </unit>
             </conditions>
             <beginTargets>
@@ -121,7 +164,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpointsFactorFromMax add="0.5" />
+                                        <hitpointsFactorFromMax add="0.5"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -132,12 +175,16 @@
         </mediPack>
     </actions>
     <traits>
-        <trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour" />
-        <trait name="MoveThroughCover" />
-        <trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster" />
-        <trait name="Bodyguard" />
-        <trait name="AstraMilitarum/ImperiumOfMan" requiredUpgrade="AstraMilitarum/ImperiumOfMan" />
-        <trait name="AstraMilitarum/CommitEverythingTempestusScion" requiredUpgrade="AstraMilitarum/CommitEverything" />
-        <trait name="Cloak" />
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
+        <trait name="MoveThroughCover"/>
+        <trait name="VoxCaster"
+               requiredUpgrade="AstraMilitarum/VoxCaster"/>
+        <trait name="Bodyguard"/>
+        <trait name="AstraMilitarum/ImperiumOfMan"
+               requiredUpgrade="AstraMilitarum/ImperiumOfMan"/>
+        <trait name="AstraMilitarum/CommitEverythingTempestusScion"
+               requiredUpgrade="AstraMilitarum/CommitEverything"/>
+        <trait name="Cloak"/>
     </traits>
 </unit>

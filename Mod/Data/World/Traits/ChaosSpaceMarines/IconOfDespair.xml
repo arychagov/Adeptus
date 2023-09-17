@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff" icon="Actions/ChaosSpaceMarines/IconOfDespair">
+<trait alwaysVisible="1"
+       category="Buff"
+       icon="Actions/ChaosSpaceMarines/IconOfDespair">
     <modifiers>
         <modifier>
             <effects>
-                <meleeDamageReduction add="0.25" />
+                <meleeDamageReduction add="0.25"/>
             </effects>
         </modifier>
     </modifiers>

@@ -3,11 +3,12 @@
     <modifiers>
         <modifier>
             <effects>
-                <loyaltyPerCity base="-6" />
+                <loyaltyPerCity base="-6"/>
             </effects>
         </modifier>
     </modifiers>
     <traits>
-        <trait name="ImperialSplendour" requiredUpgrade="AstraMilitarum/ImperialSplendour" />
+        <trait name="ImperialSplendour"
+               requiredUpgrade="AstraMilitarum/ImperialSplendour"/>
     </traits>
 </city>

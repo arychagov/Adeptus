@@ -1,102 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit explosionsBone="Hull" idleAnimation="Units/AstraMilitarum/BanebladeIdle" idleAnimationCount="3" material="Units/AstraMilitarum/Baneblade" mesh="Units/AstraMilitarum/Baneblade" scale="1.3 1.3 1.3" uvAnimated="1" />
+        <unit explosionsBone="Hull"
+              idleAnimation="Units/AstraMilitarum/BanebladeIdle"
+              idleAnimationCount="3"
+              material="Units/AstraMilitarum/Baneblade"
+              mesh="Units/AstraMilitarum/Baneblade"
+              scale="1.3 1.3 1.3"
+              uvAnimated="1"/>
     </model>
     <weapons>
-        <weapon name="None" enabled="0">
+        <weapon name="None"
+                enabled="0">
             <model>
-                <weapon bone="Hull" material="Weapons/AstraMilitarum/BanebladeSideTurrets" mesh="Weapons/AstraMilitarum/BanebladeSideTurrets" />
+                <weapon bone="Hull"
+                        material="Weapons/AstraMilitarum/BanebladeSideTurrets"
+                        mesh="Weapons/AstraMilitarum/BanebladeSideTurrets"/>
             </model>
         </weapon>
         <weapon name="Autocannon">
             <model>
-                <projectileWeapon muzzleBone=".AutoCannonMuzzle0" />
+                <projectileWeapon muzzleBone=".AutoCannonMuzzle0"/>
             </model>
         </weapon>
         <weapon name="BanebladeCannon">
             <model>
-                <projectileWeapon fireInterval="1.0" muzzleBone=".BanebladeCannonMuzzle0" />
+                <projectileWeapon fireInterval="1.0"
+                                  muzzleBone=".BanebladeCannonMuzzle0"/>
             </model>
         </weapon>
-        <weapon name="DemolisherCannon" enabled="0" slotName="DemolisherCannon">
+        <weapon name="DemolisherCannon"
+                enabled="0"
+                slotName="DemolisherCannon">
             <model>
-                <projectileWeapon fireInterval="1.0" muzzleBone=".DemolisherCannonMuzzle0" />
+                <projectileWeapon fireInterval="1.0"
+                                  muzzleBone=".DemolisherCannonMuzzle0"/>
             </model>
         </weapon>
         <weapon name="TwinLinkedHeavyBolter">
             <model>
-                <projectileWeapon muzzleBone=".HeavyBolterMuzzle" />
+                <projectileWeapon muzzleBone=".HeavyBolterMuzzle"/>
             </model>
         </weapon>
-        <weapon name="HeavyBolter" count="2" enabled="0" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters" slotName="HeavyBolterUpgrade">
+        <weapon name="HeavyBolter"
+                count="2"
+                enabled="0"
+                requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters"
+                slotName="HeavyBolterUpgrade">
             <model>
-                <projectileWeapon bone="Hull" material="Units/AstraMilitarum/Baneblade" mesh="Weapons/AstraMilitarum/BanebladeTwinLinkedHeavyBolters" muzzleBone=".Muzzle" muzzleCount="4" />
+                <projectileWeapon bone="Hull"
+                                  material="Units/AstraMilitarum/Baneblade"
+                                  mesh="Weapons/AstraMilitarum/BanebladeTwinLinkedHeavyBolters"
+                                  muzzleBone=".Muzzle"
+                                  muzzleCount="4"/>
             </model>
         </weapon>
-        <weapon name="Lascannon" count="2" enabled="0" requiredUpgrade="AstraMilitarum/BanebladeLascannon" slotName="Lascannon">
+        <weapon name="Lascannon"
+                count="2"
+                enabled="0"
+                requiredUpgrade="AstraMilitarum/BanebladeLascannon"
+                slotName="Lascannon">
             <model>
-                <beamWeapon bone="Hull" cycleMuzzles="0" fireInterval="1.0" material="Weapons/AstraMilitarum/BanebladeLascannons" mesh="Weapons/AstraMilitarum/BanebladeLascannons" muzzleBone=".Muzzle" muzzleCount="2" />
+                <beamWeapon bone="Hull"
+                            cycleMuzzles="0"
+                            fireInterval="1.0"
+                            material="Weapons/AstraMilitarum/BanebladeLascannons"
+                            mesh="Weapons/AstraMilitarum/BanebladeLascannons"
+                            muzzleBone=".Muzzle"
+                            muzzleCount="2"/>
             </model>
         </weapon>
-        <weapon name="HunterKillerMissile" enabled="0" slotName="HunterKillerMissile">
+        <weapon name="HunterKillerMissile"
+                enabled="0"
+                slotName="HunterKillerMissile">
             <model>
-                <missileWeapon fireInterval="5.0" muzzleBone=".AutoCannonMuzzle0" />
+                <missileWeapon fireInterval="5.0"
+                               muzzleBone=".AutoCannonMuzzle0"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="9" /> <!-- %armor base armor=14/13/12 -->
-                <hitpointsMax base="144.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base armor=14/13/12 wounds=9 -->
-                <oreUpkeep base="12.0" /> <!-- %oreUpkeep base tier=12 factor=1 -->
-                <oreCost base="240.0" /> <!-- %oreCost base tier=12 factor=1 -->
-                <moraleMax base="10" /> <!-- %moraleMax base leadership=8 -->
-                <movementMax base="3" />
-                <productionCost base="66.0" /> <!-- %productionCost base tier=12 factor=1 -->
-                <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <armor base="9"/> <!-- %armor base armor=14/13/12 -->
+                <hitpointsMax base="144.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=14/13/12 wounds=9 -->
+                <oreUpkeep base="12.0"/> <!-- %oreUpkeep base tier=12 factor=1 -->
+                <oreCost base="240.0"/> <!-- %oreCost base tier=12 factor=1 -->
+                <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+                <movementMax base="3"/>
+                <productionCost base="66.0"/> <!-- %productionCost base tier=12 factor=1 -->
+                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>
         </modifier>
-        <modifier requiredUpgrade="AstraMilitarum/RelicPlating" visible="0">
+        <modifier requiredUpgrade="AstraMilitarum/RelicPlating"
+                  visible="0">
             <effects>
-                <armor add="1" />
+                <armor add="1"/>
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="1.0" />
+                <increaseVehiclesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/AstraMilitarum/BanebladeAttack" beginFire="0.2" endFire="2.7" />
+                <action animation="Units/AstraMilitarum/BanebladeAttack"
+                        beginFire="0.2"
+                        endFire="2.7"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/AstraMilitarum/BanebladeDie" sound="Units/LargeVehicleDie" soundCount="3" soundDelay="0.2" />
+                <action animation="Units/AstraMilitarum/BanebladeDie"
+                        sound="Units/LargeVehicleDie"
+                        soundCount="3"
+                        soundDelay="0.2"/>
             </model>
         </die>
         <move>
             <model>
-                <action animation="Units/AstraMilitarum/BanebladeMove" sound="Units/AstraMilitarum/SuperHeavyTankMove" soundCount="3" />
+                <action animation="Units/AstraMilitarum/BanebladeMove"
+                        sound="Units/AstraMilitarum/SuperHeavyTankMove"
+                        soundCount="3"/>
             </model>
         </move>
         <auraOfFear passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" excludeRadius="0" radius="1">
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Fear" />
+                                        <addTrait name="Fear"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -105,19 +149,34 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <useWeapon consumedActionPoints="0" cooldown="1" requiredActionPoints="0" weaponSlotName="DemolisherCannon">
+        <useWeapon consumedActionPoints="0"
+                   cooldown="1"
+                   requiredActionPoints="0"
+                   weaponSlotName="DemolisherCannon">
             <model>
-                <action animation="Units/AstraMilitarum/BanebladeAttack" beginFire="0.2" endFire="2.7" />
+                <action animation="Units/AstraMilitarum/BanebladeAttack"
+                        beginFire="0.2"
+                        endFire="2.7"/>
             </model>
         </useWeapon>
-        <useWeapon consumedActionPoints="0" cooldown="1" requiredActionPoints="0" weaponSlotName="Lascannon">
+        <useWeapon consumedActionPoints="0"
+                   cooldown="1"
+                   requiredActionPoints="0"
+                   weaponSlotName="Lascannon">
             <model>
-                <action animation="Units/AstraMilitarum/BanebladeAttack" beginFire="0.2" endFire="2.7" />
+                <action animation="Units/AstraMilitarum/BanebladeAttack"
+                        beginFire="0.2"
+                        endFire="2.7"/>
             </model>
         </useWeapon>
-        <createSmokeScreen consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="AstraMilitarum/SmokeLauncher">
+        <createSmokeScreen consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="10"
+                           icon="Traits/SmokeScreen"
+                           requiredActionPoints="0"
+                           requiredUpgrade="AstraMilitarum/SmokeLauncher">
             <model>
-                <action sound="Actions/SmokeScreen" />
+                <action sound="Actions/SmokeScreen"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -126,7 +185,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature name="SmokeScreen" duration="3" />
+                                        <addFeature name="SmokeScreen"
+                                                    duration="3"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -135,31 +195,46 @@
                 </selfTarget>
             </beginTargets>
         </createSmokeScreen>
-        <useWeapon consumedActionPoints="0" cooldown="10" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
+        <useWeapon consumedActionPoints="0"
+                   cooldown="10"
+                   requiredActionPoints="0"
+                   requiredUpgrade="AstraMilitarum/HunterKillerMissile"
+                   weaponSlotName="HunterKillerMissile">
             <model>
-                <action beginFire="0.1" endFire="1.0" />
+                <action beginFire="0.1"
+                        endFire="1.0"/>
             </model>
         </useWeapon>
-        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters" weaponSlotName="HeavyBolterUpgrade">
+        <useWeapon consumedActionPoints="0"
+                   consumedMovement="0"
+                   cooldown="1"
+                   requiredActionPoints="0"
+                   requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters"
+                   weaponSlotName="HeavyBolterUpgrade">
             <conditions>
                 <unit>
-                    <trait name="AstraMilitarum/AdditionalHeavyBolters" />
-                    <noTrait name="Exhausted" />
+                    <trait name="AstraMilitarum/AdditionalHeavyBolters"/>
+                    <noTrait name="Exhausted"/>
                 </unit>
             </conditions>
             <model>
-                <action beginFire="0.1" endFire="1.0" />
+                <action beginFire="0.1"
+                        endFire="1.0"/>
             </model>
         </useWeapon>
     </actions>
     <traits>
-        <trait name="CamoNetting" requiredUpgrade="AstraMilitarum/CamoNetting" />
-        <trait name="ExtraVehicleArmour" requiredUpgrade="AstraMilitarum/ExtraVehicleArmour" />
-        <trait name="MoveThroughCover" />
-        <trait name="RecoveryGear" requiredUpgrade="AstraMilitarum/RecoveryGear" />
-        <trait name="RelicPlating" requiredUpgrade="AstraMilitarum/RelicPlating" />
-        <trait name="SuperHeavy" />
-        <trait name="Tank" />
-        <trait name="Vehicle" />
+        <trait name="CamoNetting"
+               requiredUpgrade="AstraMilitarum/CamoNetting"/>
+        <trait name="ExtraVehicleArmour"
+               requiredUpgrade="AstraMilitarum/ExtraVehicleArmour"/>
+        <trait name="MoveThroughCover"/>
+        <trait name="RecoveryGear"
+               requiredUpgrade="AstraMilitarum/RecoveryGear"/>
+        <trait name="RelicPlating"
+               requiredUpgrade="AstraMilitarum/RelicPlating"/>
+        <trait name="SuperHeavy"/>
+        <trait name="Tank"/>
+        <trait name="Vehicle"/>
     </traits>
 </unit>

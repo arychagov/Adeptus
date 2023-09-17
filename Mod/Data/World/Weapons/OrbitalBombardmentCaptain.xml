@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon attributesModifiedByUnit="0" icon="Actions/OrbitalBombardment">
+<weapon attributesModifiedByUnit="0"
+        icon="Actions/OrbitalBombardment">
     <model>
-        <weapon explosionsBlueprint="Effects/MissileExplosions" explosionsEmitterBlueprint="Effects/BombardmentExplosionsEmitter" />
+        <weapon explosionsBlueprint="Effects/MissileExplosions"
+                explosionsEmitterBlueprint="Effects/BombardmentExplosionsEmitter"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <accuracy base="8" max="8" />
-                <attacks add="1" />
-                <rangedArmorPenetration add="8" /> <!-- %rangedArmorPenetration add armorPiercing=1 -->
-                <rangedDamage add="12" /> <!-- %rangedDamage add strength=10 -->
-                <strengthDamage base="0" />
+                <accuracy base="8"
+                          max="8"/>
+                <attacks add="1"/>
+                <rangedArmorPenetration add="8"/> <!-- %rangedArmorPenetration add armorPiercing=1 -->
+                <rangedDamage add="12"/> <!-- %rangedDamage add strength=10 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="-1" />
+    <target rangeMax="-1"/>
     <traits>
-        <trait name="Barrage" />
-        <trait name="SpaceMarines/BlastDamage" requiredUpgrade="SpaceMarines/BlastDamage" />
-        <trait name="ApocalypticBlast" />
+        <trait name="Barrage"/>
+        <trait name="SpaceMarines/BlastDamage"
+               requiredUpgrade="SpaceMarines/BlastDamage"/>
+        <trait name="ApocalypticBlast"/>
         <!-- <trait name="Ordnance"/> -->
     </traits>
 </weapon>

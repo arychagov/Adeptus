@@ -3,18 +3,18 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36" />
-                <oreCost base="50" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <energyUpkeep add="2" />
+                <productionCost base="36"/>
+                <oreCost base="50"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <energyUpkeep add="2"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <influence add="2" />
-                <research add="2" />
-                <production add="6" />
+                <influence add="2"/>
+                <research add="2"/>
+                <production add="6"/>
             </effects>
         </modifier>
     </modifiers>
@@ -28,16 +28,20 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseSupportProductionScore base="1.0" />
-                <increaseVehiclesProductionScore base="1.0" />
+                <increaseSupportProductionScore base="1.0"/>
+                <increaseVehiclesProductionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="Tau/GhostkeelBattlesuit" />
-        <produceUnit requiredUpgrade="Tau/BroadsideBattlesuit" unit="Tau/BroadsideBattlesuit" />
-        <produceUnit requiredUpgrade="Tau/RiptideBattlesuit" unit="Tau/RiptideBattlesuit" />
-        <produceUnit requiredUpgrade="Tau/RVarnaBattlesuit" unit="Tau/RVarnaBattlesuit" />
-        <produceUnit requiredUpgrade="Tau/Stormsurge" unit="Tau/Stormsurge" />
+        <produceUnit unit="Tau/GhostkeelBattlesuit"/>
+        <produceUnit requiredUpgrade="Tau/BroadsideBattlesuit"
+                     unit="Tau/BroadsideBattlesuit"/>
+        <produceUnit requiredUpgrade="Tau/RiptideBattlesuit"
+                     unit="Tau/RiptideBattlesuit"/>
+        <produceUnit requiredUpgrade="Tau/RVarnaBattlesuit"
+                     unit="Tau/RVarnaBattlesuit"/>
+        <produceUnit requiredUpgrade="Tau/Stormsurge"
+                     unit="Tau/Stormsurge"/>
     </actions>
 </building>

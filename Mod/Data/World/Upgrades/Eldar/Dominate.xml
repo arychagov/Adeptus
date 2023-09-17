@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Actions/Dominate" position="10">
+<upgrade icon="Actions/Dominate"
+         position="10">
     <requiredUpgrades>
-        <upgrade name="Eldar/HemlockWraithfighter" />
+        <upgrade name="Eldar/HemlockWraithfighter"/>
     </requiredUpgrades>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseAircraftScore base="1.0" />
+                <increaseAircraftScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

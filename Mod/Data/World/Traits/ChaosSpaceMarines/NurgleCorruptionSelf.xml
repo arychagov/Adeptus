@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait rankMax="2" visible="0">
+<trait rankMax="2"
+       visible="0">
     <modifiers>
         <modifier>
             <effects>
-                <hitpointsMax addMax="6" addMin="2" />
+                <hitpointsMax addMax="6"
+                              addMin="2"/>
             </effects>
         </modifier>
     </modifiers>

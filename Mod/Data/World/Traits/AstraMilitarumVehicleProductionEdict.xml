@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait icon="Actions/AstraMilitarumVehicleProductionEdict" visibilityCategory="Building">
+<trait icon="Actions/AstraMilitarumVehicleProductionEdict"
+       visibilityCategory="Building">
     <modifiers>
         <modifier>
             <conditions>
                 <building>
-                    <type name="AstraMilitarum/Vehicles" />
+                    <type name="AstraMilitarum/Vehicles"/>
                 </building>
             </conditions>
             <effects>
-                <production mul="0.20" />
+                <production mul="0.20"/>
             </effects>
         </modifier>
     </modifiers>

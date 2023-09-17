@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Traits/VoidShield">
+<trait category="Buff"
+       icon="Traits/VoidShield">
     <modifiers>
         <modifier>
             <effects>
-                <energyUpkeep add="2" />
+                <energyUpkeep add="2"/>
             </effects>
         </modifier>
     </modifiers>

@@ -1,87 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit productionWeight="0.01">
     <model>
-        <unit explosionsBone="BloodBone" idleAnimation="Units/Necrons/CanoptekSpyderIdle" idleAnimationCount="4" idleContinuously="1" material="Units/Necrons/CanoptekSpyder" mesh="Units/Necrons/CanoptekSpyder" scale="1 1 1" walker="1" />
+        <unit explosionsBone="BloodBone"
+              idleAnimation="Units/Necrons/CanoptekSpyderIdle"
+              idleAnimationCount="4"
+              idleContinuously="1"
+              material="Units/Necrons/CanoptekSpyder"
+              mesh="Units/Necrons/CanoptekSpyder"
+              scale="1 1 1"
+              walker="1"/>
     </model>
     <weapons>
         <weapon name="CloseCombatWeapon">
             <model>
-                <weapon fireInterval="0.3" fireSoundCount="0" />
+                <weapon fireInterval="0.3"
+                        fireSoundCount="0"/>
             </model>
         </weapon>
         <weapon name="TwinLinkedParticleBeamer">
             <model>
-                <beamWeapon muzzleBone=".Muzzle" />
+                <beamWeapon muzzleBone=".Muzzle"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8" /> <!-- %armor base armor=3+ -->
-                <energyCost base="30.0" /> <!-- %energyCost base tier=5 factor=1 -->
-                <hitpointsMax base="18.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=6 wounds=3 -->
-                <meleeAccuracy base="6" /> <!-- %meleeAccuracy base weaponSkill=3 -->
-                <meleeAttacks base="2" />
-                <strengthDamage base="3" /> <!-- %strengthDamage base strength=6 -->
+                <armor base="8"/> <!-- %armor base armor=3+ -->
+                <energyCost base="30.0"/> <!-- %energyCost base tier=5 factor=1 -->
+                <hitpointsMax base="18.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=6 wounds=3 -->
+                <meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
+                <meleeAttacks base="2"/>
+                <strengthDamage base="3"/> <!-- %strengthDamage base strength=6 -->
                 <!-- <meleeInitiative base="2"/> -->
-                <moraleMax base="12" /> <!-- %moraleMax base leadership=10 -->
-                <movementMax base="3" />
-                <oreUpkeep base="1.5" /> <!-- %oreUpkeep base tier=5 factor=1 -->
-                <productionCost base="30.0" /> <!-- %productionCost base tier=5 factor=1 -->
-                <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->
+                <movementMax base="3"/>
+                <oreUpkeep base="1.5"/> <!-- %oreUpkeep base tier=5 factor=1 -->
+                <productionCost base="30.0"/> <!-- %productionCost base tier=5 factor=1 -->
+                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseColonizersScore base="1.0" />
-                <increaseSupportScore base="1.0" />
+                <increaseColonizersScore base="1.0"/>
+                <increaseSupportScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/Necrons/CanoptekSpyderAttack" beginFire="0.5" chargeAnimation="Units/Necrons/CanoptekSpyderCharge" chargeBeginFire="0.25" chargeDefenseAnimation="Units/Necrons/CanoptekSpyderChargeDefense" chargeDefenseBeginFire="0.25" chargeDefenseEndFire="1.5" chargeEndFire="1.1" endFire="1.8" meleeAnimation="Units/Necrons/CanoptekSpyderMelee" meleeBeginSwing="0.0" meleeDefenseAnimation="Units/Necrons/CanoptekSpyderMeleeDefense" meleeEndSwing="1.0" meleeSound="Units/Necrons/CanoptekSpyderAttack" meleeSoundCount="2" />
+                <action animation="Units/Necrons/CanoptekSpyderAttack"
+                        beginFire="0.5"
+                        chargeAnimation="Units/Necrons/CanoptekSpyderCharge"
+                        chargeBeginFire="0.25"
+                        chargeDefenseAnimation="Units/Necrons/CanoptekSpyderChargeDefense"
+                        chargeDefenseBeginFire="0.25"
+                        chargeDefenseEndFire="1.5"
+                        chargeEndFire="1.1"
+                        endFire="1.8"
+                        meleeAnimation="Units/Necrons/CanoptekSpyderMelee"
+                        meleeBeginSwing="0.0"
+                        meleeDefenseAnimation="Units/Necrons/CanoptekSpyderMeleeDefense"
+                        meleeEndSwing="1.0"
+                        meleeSound="Units/Necrons/CanoptekSpyderAttack"
+                        meleeSoundCount="2"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Necrons/CanoptekSpyderDie" sound="Units/MediumVehicleDie" soundCount="3" soundDelay="0.3" />
+                <action animation="Units/Necrons/CanoptekSpyderDie"
+                        sound="Units/MediumVehicleDie"
+                        soundCount="3"
+                        soundDelay="0.3"/>
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0" />
+                <action animationSpeed="1.0"/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/Necrons/CanoptekSpyderMove" sound="Units/Necrons/CanoptekSpyderMove" soundCount="3" />
+                <action animation="Units/Necrons/CanoptekSpyderMove"
+                        sound="Units/Necrons/CanoptekSpyderMove"
+                        soundCount="3"/>
             </model>
         </move>
-        <necrodermisRepair requiredUpgrade="Necrons/NecrodermisRepair" name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
+        <necrodermisRepair name="Necrons/NecrodermisRepair"
+                           consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="1"
+                           requiredActionPoints="0"
+                           requiredUpgrade="Necrons/NecrodermisRepair">
             <model>
-                <action sound="Actions/Heal" />
+                <action sound="Actions/Heal"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="50" />
+                        <influenceCost base="50"/>
                     </effects>
                 </modifier>
 
                 <modifier requiredUpgrade="Necrons/HousingBuildingBonus">
                     <effects>
-                        <cooldown max="0" />
+                        <cooldown max="0"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Necrons/NecrodermisRepair3">
                     <effects>
-                        <influenceCost add="-30" />
+                        <influenceCost add="-30"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -89,8 +121,8 @@
                 <selfTarget>
                     <conditions>
                         <unit>
-                            <noTrait name="Necrons/BloodyCrusade" />
-                            <damaged />
+                            <noTrait name="Necrons/BloodyCrusade"/>
+                            <damaged/>
                         </unit>
                     </conditions>
                     <areas>
@@ -98,18 +130,18 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints add="6" />
+                                        <hitpoints add="6"/>
                                     </effects>
                                 </modifier>
 
                                 <modifier requiredUpgrade="Necrons/HousingBuildingBonus">
                                     <effects>
-                                        <hitpoints add="2" />
+                                        <hitpoints add="2"/>
                                     </effects>
                                 </modifier>
                                 <modifier requiredUpgrade="Necrons/NecrodermisRepair3">
                                     <effects>
-                                        <hitpoints add="2" />
+                                        <hitpoints add="2"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -118,34 +150,38 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <foundCity name="FoundCityNecrons" icon="Actions/FoundCity">
+        <foundCity name="FoundCityNecrons"
+                   icon="Actions/FoundCity">
             <model>
-                <action animation="Units/Necrons/CanoptekSpyderAbility" sound="Actions/FoundCity" />
+                <action animation="Units/Necrons/CanoptekSpyderAbility"
+                        sound="Actions/FoundCity"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <energyCost base="40" />
-                        <influenceCost base="40" />
+                        <energyCost base="40"/>
+                        <influenceCost base="40"/>
                     </effects>
                 </modifier>
             </modifiers>
         </foundCity>
-        <clearTileUnitAbility name="ClearTile" cooldown="1" icon="Actions/ClearTile">
+        <clearTileUnitAbility name="ClearTile"
+                              cooldown="1"
+                              icon="Actions/ClearTile">
             <model>
-                <action animation="Units/Necrons/CanoptekSpyderAbility" />
+                <action animation="Units/Necrons/CanoptekSpyderAbility"/>
             </model>
             <beginTargets>
                 <target rangeMax="1">
-                    <conditions />
-                    <areas />
+                    <conditions/>
+                    <areas/>
                 </target>
             </beginTargets>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="5" />
-                        <energyCost base="5" />
+                        <influenceCost base="5"/>
+                        <energyCost base="5"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -154,11 +190,13 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" excludeRadius="0" radius="1">
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Fear" />
+                                        <addTrait name="Fear"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -167,19 +205,24 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <scarabHive name="Necrons/ScarabHive" cooldown="10" icon="Units/Necrons/CanoptekScarab" requiredUpgrade="Necrons/CanoptekSpyder">
+        <scarabHive name="Necrons/ScarabHive"
+                    cooldown="10"
+                    icon="Units/Necrons/CanoptekScarab"
+                    requiredUpgrade="Necrons/CanoptekSpyder">
             <model>
-                <action animation="Units/Necrons/CanoptekSpyderAbility" sound="Actions/PsychicBuff" />
+                <action animation="Units/Necrons/CanoptekSpyderAbility"
+                        sound="Actions/PsychicBuff"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <energyCost base="20" />
+                        <energyCost base="20"/>
                     </effects>
                 </modifier>
-                <modifier requiredUpgrade="Necrons/TheSwarm" visible="0">
+                <modifier requiredUpgrade="Necrons/TheSwarm"
+                          visible="0">
                     <effects>
-                        <energyCost add="-10" />
+                        <energyCost add="-10"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -187,9 +230,9 @@
                 <target rangeMax="1">
                     <conditions>
                         <tile>
-                            <land />
-                            <noUnit />
-                            <noFeature name="GravityWaves" />
+                            <land/>
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
                         </tile>
                     </conditions>
                     <areas>
@@ -197,7 +240,9 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="Necrons/CanoptekScarab" consumedAction="0" consumedMovement="0" />
+                                        <addUnit name="Necrons/CanoptekScarab"
+                                                 consumedAction="0"
+                                                 consumedMovement="0"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -206,21 +251,23 @@
                 </target>
             </beginTargets>
         </scarabHive>
-        <fabricatorClawArray name="Necrons/FabricatorClawArray" cooldown="1">
+        <fabricatorClawArray name="Necrons/FabricatorClawArray"
+                             cooldown="1">
             <model>
-                <action animation="Units/Necrons/CanoptekSpyderAbility" sound="Actions/MechanicalBuff" />
+                <action animation="Units/Necrons/CanoptekSpyderAbility"
+                        sound="Actions/MechanicalBuff"/>
             </model>
             <beginTargets>
                 <target rangeMax="1">
                     <conditions>
                         <unit>
-                            <allied />
-                            <faction name="Necrons" />
-                            <damaged />
+                            <allied/>
+                            <faction name="Necrons"/>
+                            <damaged/>
                         </unit>
                         <unit match="Any">
-                            <trait name="Fortification" />
-                            <trait name="Vehicle" />
+                            <trait name="Fortification"/>
+                            <trait name="Vehicle"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -228,7 +275,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints add="8" />
+                                        <hitpoints add="8"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -237,7 +284,9 @@
                 </target>
             </beginTargets>
         </fabricatorClawArray>
-        <genericUnitAbility name="Necrons/GloomPrism" passive="1" requiredUpgrade="Necrons/GloomPrism">
+        <genericUnitAbility name="Necrons/GloomPrism"
+                            passive="1"
+                            requiredUpgrade="Necrons/GloomPrism">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -245,7 +294,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Necrons/GloomPrism" />
+                                        <addTrait name="Necrons/GloomPrism"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -254,7 +303,12 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility name="Necrons/AggressionOverrides" charges="1" consumedActionPoints="0" consumedMovement="0" icon="Actions/Necrons/AggressionOverrides" requiredUpgrade="Necrons/GloomPrism">
+        <genericUnitAbility name="Necrons/AggressionOverrides"
+                            charges="1"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            icon="Actions/Necrons/AggressionOverrides"
+                            requiredUpgrade="Necrons/GloomPrism">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -262,7 +316,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Necrons/AggressionOverrides" />
+                                        <addTrait name="Necrons/AggressionOverrides"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -273,14 +327,17 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="20" />
+                        <influenceCost base="20"/>
                     </effects>
                 </modifier>
             </modifiers>
         </genericUnitAbility>
-        <hammerOfWrath consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredUpgrade="Necrons/HammerOfWrath">
+        <hammerOfWrath consumedActionPoints="0"
+                       consumedMovement="0"
+                       cooldown="3"
+                       requiredUpgrade="Necrons/HammerOfWrath">
             <model>
-                <action sound="Actions/PsychicBuff" />
+                <action sound="Actions/PsychicBuff"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -289,7 +346,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="HammerOfWrath" duration="1" />
+                                        <addTrait name="HammerOfWrath"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -300,14 +358,17 @@
         </hammerOfWrath>
     </actions>
     <traits>
-        <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
-        <trait name="ExtraVehicleArmour" requiredUpgrade="Necrons/ExtraVehicleArmour" />
-        <trait name="Fearless" />
-        <trait name="MonstrousCreature" />
-        <trait name="MoveThroughCover" />
-        <trait name="Necrons/LivingMetalCanoptekSpyder" />
-        <trait name="Relentless" />
-        <trait name="Smash" />
-        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
+        <trait name="Necrons/AttackCityBonus"
+               requiredUpgrade="Necrons/AttackCityBonus"/>
+        <trait name="ExtraVehicleArmour"
+               requiredUpgrade="Necrons/ExtraVehicleArmour"/>
+        <trait name="Fearless"/>
+        <trait name="MonstrousCreature"/>
+        <trait name="MoveThroughCover"/>
+        <trait name="Necrons/LivingMetalCanoptekSpyder"/>
+        <trait name="Relentless"/>
+        <trait name="Smash"/>
+        <trait name="Necrons/PredictiveStrategist"
+               requiredUpgrade="Necrons/PredictiveStrategist"/>
     </traits>
 </unit>

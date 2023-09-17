@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff" icon="Units/ChaosSpaceMarines/Defiler">
+<trait category="Debuff"
+       icon="Units/ChaosSpaceMarines/Defiler">
     <perTurnModifiers endure="0">
         <modifier>
             <effects>
-                <weaponDamage weapon="SoulBlaze" />
+                <weaponDamage weapon="SoulBlaze"/>
             </effects>
         </modifier>
     </perTurnModifiers>

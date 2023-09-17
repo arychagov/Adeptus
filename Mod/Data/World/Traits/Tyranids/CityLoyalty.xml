@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <loyaltyPerCity add="1" />
+                <loyaltyPerCity add="1"/>
             </effects>
         </modifier>
     </modifiers>

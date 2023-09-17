@@ -4,11 +4,11 @@
         <modifier>
             <conditions>
                 <building>
-                    <populationLimit greater="0" />
+                    <populationLimit greater="0"/>
                 </building>
             </conditions>
             <effects>
-                <populationLimit add="1" />
+                <populationLimit add="1"/>
             </effects>
         </modifier>
     </modifiers>

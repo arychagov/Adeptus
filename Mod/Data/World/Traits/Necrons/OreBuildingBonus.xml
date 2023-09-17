@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <ore mul="0.2" />
+                <ore mul="0.2"/>
             </effects>
         </modifier>
     </modifiers>

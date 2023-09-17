@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <item>
     <actions>
-        <temporaryShield charges="1" consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0">
+        <temporaryShield charges="1"
+                         consumedActionPoints="0"
+                         consumedMovement="0"
+                         requiredActionPoints="0">
             <model>
-                <action sound="Actions/PsychicBuff" />
+                <action sound="Actions/PsychicBuff"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -12,7 +15,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Items/TemporaryShield" duration="2" />
+                                        <addTrait name="Items/TemporaryShield"
+                                                  duration="2"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -25,7 +29,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <influenceCost base="40" />
+                <influenceCost base="40"/>
             </effects>
         </modifier>
     </modifiers>

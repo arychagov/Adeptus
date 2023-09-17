@@ -5,12 +5,12 @@
             <conditions>
                 <encounter>
                     <opponent>
-                        <trait name="Flyer" />
+                        <trait name="Flyer"/>
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <rangedAccuracy add="2" />
+                <rangedAccuracy add="2"/>
             </effects>
         </modifier>
     </modifiers>

@@ -3,27 +3,28 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <influenceUpkeep add="1" />
-                <productionCost base="24" />
-                <biomassCost base="30" />
-                <populationRequired base="0" />
-                <slotsRequired base="1" />
+                <influenceUpkeep add="1"/>
+                <productionCost base="24"/>
+                <biomassCost base="30"/>
+                <populationRequired base="0"/>
+                <slotsRequired base="1"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <populationLimit add="6" />
+                <populationLimit add="6"/>
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increasePopulationLimitScore base="1.0" />
+                <increasePopulationLimitScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <traits>
-        <trait name="Tyranids/ResourceBuildingUpkeep" requiredUpgrade="Tyranids/ResourceBuildingUpkeep" />
+        <trait name="Tyranids/ResourceBuildingUpkeep"
+               requiredUpgrade="Tyranids/ResourceBuildingUpkeep"/>
     </traits>
 </building>

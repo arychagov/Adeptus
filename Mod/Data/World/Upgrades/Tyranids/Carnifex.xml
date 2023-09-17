@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Units/Tyranids/Carnifex" position="3">
+<upgrade icon="Units/Tyranids/Carnifex"
+         position="3">
     <requiredUpgrades>
-        <upgrade name="Tyranids/Vehicles" />
+        <upgrade name="Tyranids/Vehicles"/>
     </requiredUpgrades>
 </upgrade>

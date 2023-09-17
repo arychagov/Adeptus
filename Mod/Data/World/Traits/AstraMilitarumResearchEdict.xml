@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait icon="Actions/AstraMilitarumResearchEdict" visibilityCategory="Building">
+<trait icon="Actions/AstraMilitarumResearchEdict"
+       visibilityCategory="Building">
     <modifiers>
         <modifier>
             <conditions>
                 <building>
-                    <type name="AstraMilitarum/Research" />
+                    <type name="AstraMilitarum/Research"/>
                 </building>
             </conditions>
             <effects>
-                <research mul="0.20" />
+                <research mul="0.20"/>
             </effects>
         </modifier>
     </modifiers>

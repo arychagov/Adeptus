@@ -1,28 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit icon="Buildings/Necrons/Headquarters">
     <model>
-        <structureUnit explosionsBone="HQBone" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" idleAnimationCount="0" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" material="Buildings/Necrons/Buildings" mesh="Units/Necrons/Headquarters" scale="1.0 1.0 1.0" />
+        <structureUnit explosionsBone="HQBone"
+                       heatImpactSound="Impacts/HeatConcrete"
+                       heatImpactSoundCount="4"
+                       idleAnimationCount="0"
+                       kineticImpactSound="Impacts/KineticConcrete"
+                       kineticImpactSoundCount="5"
+                       material="Buildings/Necrons/Buildings"
+                       mesh="Units/Necrons/Headquarters"
+                       scale="1.0 1.0 1.0"/>
     </model>
     <weapons>
-        <weapon name="GaussFlayer" count="5">
+        <weapon name="GaussFlayer"
+                count="5">
             <model>
-                <beamWeapon bone="HQBone" fireInterval="0.5" material="Buildings/Necrons/Buildings" mesh="Weapons/Necrons/HeadquartersGaussFlayers" muzzleBone=".Muzzle" muzzleCount="5" />
+                <beamWeapon bone="HQBone"
+                            fireInterval="0.5"
+                            material="Buildings/Necrons/Buildings"
+                            mesh="Weapons/Necrons/HeadquartersGaussFlayers"
+                            muzzleBone=".Muzzle"
+                            muzzleCount="5"/>
             </model>
         </weapon>
-        <weapon name="ParticleWhip" count="1">
+        <weapon name="ParticleWhip"
+                count="1">
             <model>
-                <beamWeapon bone="HQBone" fireInterval="1.0" material="Buildings/Necrons/Buildings" mesh="Weapons/Necrons/HeadquartersParticleWhip" muzzleBone=".ParticleWhipMuzzle" />
+                <beamWeapon bone="HQBone"
+                            fireInterval="1.0"
+                            material="Buildings/Necrons/Buildings"
+                            mesh="Weapons/Necrons/HeadquartersParticleWhip"
+                            muzzleBone=".ParticleWhipMuzzle"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="6" /> <!-- %armor base armor=10/10/10 -->
-                <cargoSlots base="6" /> <!-- %cargoSlots base capacity=20 -->
-                <moraleMax base="0" />
-                <movementMax max="0" />
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <armor base="6"/> <!-- %armor base armor=10/10/10 -->
+                <cargoSlots base="6"/> <!-- %cargoSlots base capacity=20 -->
+                <moraleMax base="0"/>
+                <movementMax max="0"/>
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
         </modifier>
     </modifiers>
@@ -30,23 +49,27 @@
     <actions>
         <attack>
             <model>
-                <action beginFire="0.15" endFire="2.6" />
+                <action beginFire="0.15"
+                        endFire="2.6"/>
             </model>
         </attack>
         <die>
             <model>
-                <action sound="Units/HeavyBuildingDie" soundCount="3" />
+                <action sound="Units/HeavyBuildingDie"
+                        soundCount="3"/>
             </model>
         </die>
-        <setRallyPoint />
-        <constructGaussPylon cooldown="5" icon="Units/Necrons/GaussPylon" requiredUpgrade="Necrons/GaussPylon">
+        <setRallyPoint/>
+        <constructGaussPylon cooldown="5"
+                             icon="Units/Necrons/GaussPylon"
+                             requiredUpgrade="Necrons/GaussPylon">
             <model>
-                <action sound="Actions/PsychicBuff" />
+                <action sound="Actions/PsychicBuff"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="240" />
+                        <influenceCost base="240"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -54,12 +77,12 @@
                 <target rangeMax="3">
                     <conditions>
                         <tile>
-                            <noFeatureCategory name="Resource" />
-                            <noFeatureCategory name="WireWeed" />
-                            <land />
-                            <noEnemyCity />
-                            <noUnit />
-                            <noFeature name="GravityWaves" />
+                            <noFeatureCategory name="Resource"/>
+                            <noFeatureCategory name="WireWeed"/>
+                            <land/>
+                            <noEnemyCity/>
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
                         </tile>
                     </conditions>
                     <areas>
@@ -67,7 +90,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="Necrons/GaussPylon" />
+                                        <addUnit name="Necrons/GaussPylon"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -76,19 +99,23 @@
                 </target>
             </beginTargets>
         </constructGaussPylon>
-        <scarabHive name="Necrons/ScarabHive" cooldown="10" icon="Units/Necrons/CanoptekScarab" requiredUpgrade="Necrons/TheSwarm">
+        <scarabHive name="Necrons/ScarabHive"
+                    cooldown="10"
+                    icon="Units/Necrons/CanoptekScarab"
+                    requiredUpgrade="Necrons/TheSwarm">
             <model>
-                <action sound="Actions/PsychicBuff" />
+                <action sound="Actions/PsychicBuff"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <energyCost base="20" />
+                        <energyCost base="20"/>
                     </effects>
                 </modifier>
-                <modifier requiredUpgrade="Necrons/TheSwarm" visible="0">
+                <modifier requiredUpgrade="Necrons/TheSwarm"
+                          visible="0">
                     <effects>
-                        <energyCost add="-10" />
+                        <energyCost add="-10"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -96,9 +123,9 @@
                 <target rangeMax="1">
                     <conditions>
                         <tile>
-                            <land />
-                            <noUnit />
-                            <noFeature name="GravityWaves" />
+                            <land/>
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
                         </tile>
                     </conditions>
                     <areas>
@@ -106,7 +133,9 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="Necrons/CanoptekScarab" consumedAction="0" consumedMovement="0" />
+                                        <addUnit name="Necrons/CanoptekScarab"
+                                                 consumedAction="0"
+                                                 consumedMovement="0"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -117,11 +146,13 @@
         </scarabHive>
     </actions>
     <traits>
-        <trait name="Necrons/EternityGate" />
-        <trait name="Fortification" />
-        <trait name="Headquarters" />
-        <trait name="Transport" />
-        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
-        <trait name="Necrons/CityTier3" requiredUpgrade="Necrons/CityTier3" />
+        <trait name="Necrons/EternityGate"/>
+        <trait name="Fortification"/>
+        <trait name="Headquarters"/>
+        <trait name="Transport"/>
+        <trait name="Necrons/PredictiveStrategist"
+               requiredUpgrade="Necrons/PredictiveStrategist"/>
+        <trait name="Necrons/CityTier3"
+               requiredUpgrade="Necrons/CityTier3"/>
     </traits>
 </unit>

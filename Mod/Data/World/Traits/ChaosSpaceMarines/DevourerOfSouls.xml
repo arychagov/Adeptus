@@ -5,20 +5,20 @@
             <conditions>
                 <encounter>
                     <opponent>
-                        <destroyed />
+                        <destroyed/>
                         <!-- <noAttacking/> -->
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <hitpoints add="2" />
+                <hitpoints add="2"/>
             </effects>
         </modifier>
     </onCombatSelfModifiers>
     <perTurnModifiers endure="0">
         <modifier visible="0">
             <effects>
-                <hitpoints add="2" />
+                <hitpoints add="2"/>
             </effects>
         </modifier>
     </perTurnModifiers>

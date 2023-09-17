@@ -3,8 +3,8 @@
     <modifiers>
         <modifier>
             <effects>
-                <circumstanceMeleeDamage mul="0.1" />
-                <moraleLossFactor add="-0.67" />
+                <circumstanceMeleeDamage mul="0.1"/>
+                <moraleLossFactor add="-0.67"/>
             </effects>
         </modifier>
     </modifiers>

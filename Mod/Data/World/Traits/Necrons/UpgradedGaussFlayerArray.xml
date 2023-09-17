@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Actions/Necrons/UpgradeGaussFlayerArray">
+<trait category="Buff"
+       icon="Actions/Necrons/UpgradeGaussFlayerArray">
     <modifiers>
         <modifier>
             <effects>
-                <rangedAttacks add="4" />
+                <rangedAttacks add="4"/>
             </effects>
         </modifier>
     </modifiers>

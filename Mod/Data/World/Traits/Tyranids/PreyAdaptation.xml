@@ -3,12 +3,12 @@
     <modifiers>
         <modifier>
             <effects>
-                <researchPerExperience add="3" />
+                <researchPerExperience add="3"/>
             </effects>
         </modifier>
         <modifier requiredUpgrade="Tyranids/PreyAdaptation2">
             <effects>
-                <researchPerExperience mul="0.33" />
+                <researchPerExperience mul="0.33"/>
             </effects>
         </modifier>
     </modifiers>

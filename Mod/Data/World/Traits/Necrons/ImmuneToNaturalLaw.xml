@@ -3,7 +3,7 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <ignoreZoneOfControl add="1" />
+                <ignoreZoneOfControl add="1"/>
             </effects>
         </modifier>
     </modifiers>

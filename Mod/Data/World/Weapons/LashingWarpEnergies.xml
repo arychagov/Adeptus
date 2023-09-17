@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon beamsBlueprint="Effects/WarpTendrils" beamsEmitterBlueprint="Effects/FrazzleEmitter" effectFaceWeight="1" fireInterval="0.15" fireSound="Weapons/LashingWarpEnergies" fireSoundCount="3" muzzleFlashesBlueprint="Effects/ZzapMuzzleFlashes" />
+        <beamWeapon beamsBlueprint="Effects/WarpTendrils"
+                    beamsEmitterBlueprint="Effects/FrazzleEmitter"
+                    effectFaceWeight="1"
+                    fireInterval="0.15"
+                    fireSound="Weapons/LashingWarpEnergies"
+                    fireSoundCount="3"
+                    muzzleFlashesBlueprint="Effects/ZzapMuzzleFlashes"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="3" />
-                <rangedArmorPenetration add="4" /> <!-- %rangedArmorPenetration add armorPiercing=3 -->
-                <rangedDamage add="4" /> <!-- %rangedDamage add strength=7 -->
-                <strengthDamage base="0" />
+                <attacks add="3"/>
+                <rangedArmorPenetration add="4"/> <!-- %rangedArmorPenetration add armorPiercing=3 -->
+                <rangedDamage add="4"/> <!-- %rangedDamage add strength=7 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="2" />
+    <target rangeMax="2"/>
     <traits></traits>
 </weapon>

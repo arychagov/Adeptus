@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff" icon="Traits/Blind">
+<trait alwaysVisible="1"
+       category="Buff"
+       icon="Traits/Blind">
     <modifiers>
         <modifier>
             <effects>
-                <opponentRangedAccuracy mul="-0.17" />
+                <opponentRangedAccuracy mul="-0.17"/>
             </effects>
         </modifier>
     </modifiers>

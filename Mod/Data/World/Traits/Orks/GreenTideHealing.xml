@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait icon="Traits/Orks/GreenTide" visibilityCategory="Unit">
+<trait icon="Traits/Orks/GreenTide"
+       visibilityCategory="Unit">
     <modifiers>
         <modifier>
             <effects>
-                <healingRate mul="0.5" />
+                <healingRate mul="0.5"/>
             </effects>
         </modifier>
         <modifier requiredUpgrade="Orks/HealingRate">
             <effects>
-                <healingRate mul="0.25" />
+                <healingRate mul="0.25"/>
             </effects>
         </modifier>
     </modifiers>

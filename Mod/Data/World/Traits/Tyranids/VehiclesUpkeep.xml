@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <biomassUpkeep mul="-0.17" />
+                <biomassUpkeep mul="-0.17"/>
             </effects>
         </modifier>
     </modifiers>

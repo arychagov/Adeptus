@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Actions/Eldar/TranscendentBliss" position="2">
+<upgrade icon="Actions/Eldar/TranscendentBliss"
+         position="2">
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseLoyaltyScore base="1.0" />
+                <increaseLoyaltyScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

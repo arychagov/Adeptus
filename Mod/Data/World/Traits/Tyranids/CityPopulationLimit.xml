@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <populationLimit add="2" />
+                <populationLimit add="2"/>
             </effects>
         </modifier>
     </modifiers>

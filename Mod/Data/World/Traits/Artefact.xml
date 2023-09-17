@@ -3,7 +3,8 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <cargoSlotsRequired max="-1" min="-1" />
+                <cargoSlotsRequired max="-1"
+                                    min="-1"/>
             </effects>
         </modifier>
     </modifiers>

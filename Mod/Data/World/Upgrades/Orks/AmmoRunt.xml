@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Actions/AmmoRunt" position="6">
+<upgrade icon="Actions/AmmoRunt"
+         position="6">
     <requiredUpgrades>
-        <upgrade name="Orks/BigMek" />
-        <upgrade name="Orks/FlashGitz" />
-        <upgrade name="Orks/MekGun" />
+        <upgrade name="Orks/BigMek"/>
+        <upgrade name="Orks/FlashGitz"/>
+        <upgrade name="Orks/MekGun"/>
     </requiredUpgrades>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="0.75" />
+                <increaseInfantryScore base="0.75"/>
             </effects>
         </modifier>
     </strategyModifiers>

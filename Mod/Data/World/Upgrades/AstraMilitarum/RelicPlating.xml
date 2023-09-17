@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Traits/RelicPlating" position="9">
+<upgrade icon="Traits/RelicPlating"
+         position="9">
     <requiredUpgrades>
-        <upgrade name="AstraMilitarum/ImperialStrongpoint" />
-        <upgrade name="AstraMilitarum/Vehicles" />
+        <upgrade name="AstraMilitarum/ImperialStrongpoint"/>
+        <upgrade name="AstraMilitarum/Vehicles"/>
     </requiredUpgrades>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="0.75" />
+                <increaseVehiclesScore base="0.75"/>
             </effects>
         </modifier>
     </strategyModifiers>

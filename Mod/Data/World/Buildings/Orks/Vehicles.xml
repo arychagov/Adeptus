@@ -3,19 +3,19 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36" />
-                <oreCost base="50" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <energyUpkeep add="2" />
+                <productionCost base="36"/>
+                <oreCost base="50"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <energyUpkeep add="2"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <influence add="1" />
-                <research add="2" />
-                <ore add="1" />
-                <production add="6" />
+                <influence add="1"/>
+                <research add="2"/>
+                <ore add="1"/>
+                <production add="6"/>
             </effects>
         </modifier>
     </modifiers>
@@ -29,22 +29,30 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseAircraftProductionScore base="1.0" />
-                <increaseVehiclesProductionScore base="1.0" />
+                <increaseAircraftProductionScore base="1.0"/>
+                <increaseVehiclesProductionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="Orks/Warbuggy" />
-        <produceUnit requiredUpgrade="Orks/Warbiker" unit="Orks/Warbiker" />
-        <produceUnit requiredUpgrade="Orks/MegatrakkScrapjet" unit="Orks/MegatrakkScrapjet" />
-        <produceUnit requiredUpgrade="Orks/Battlewagon" unit="Orks/Battlewagon" />
-        <produceUnit requiredUpgrade="Orks/Deffkopta" unit="Orks/Deffkopta" />
-        <produceUnit requiredUpgrade="Orks/Dakkajet" unit="Orks/Dakkajet" />
-        <produceUnit requiredUpgrade="Orks/BurnaBommer" unit="Orks/BurnaBommer" />
-        <produceUnit requiredUpgrade="Orks/KillBursta" unit="Orks/KillBursta" />
+        <produceUnit unit="Orks/Warbuggy"/>
+        <produceUnit requiredUpgrade="Orks/Warbiker"
+                     unit="Orks/Warbiker"/>
+        <produceUnit requiredUpgrade="Orks/MegatrakkScrapjet"
+                     unit="Orks/MegatrakkScrapjet"/>
+        <produceUnit requiredUpgrade="Orks/Battlewagon"
+                     unit="Orks/Battlewagon"/>
+        <produceUnit requiredUpgrade="Orks/Deffkopta"
+                     unit="Orks/Deffkopta"/>
+        <produceUnit requiredUpgrade="Orks/Dakkajet"
+                     unit="Orks/Dakkajet"/>
+        <produceUnit requiredUpgrade="Orks/BurnaBommer"
+                     unit="Orks/BurnaBommer"/>
+        <produceUnit requiredUpgrade="Orks/KillBursta"
+                     unit="Orks/KillBursta"/>
     </actions>
     <traits>
-        <trait name="Orks/BonusVehiclesProduction" requiredUpgrade="Orks/BonusVehiclesProduction" />
+        <trait name="Orks/BonusVehiclesProduction"
+               requiredUpgrade="Orks/BonusVehiclesProduction"/>
     </traits>
 </building>

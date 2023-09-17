@@ -3,8 +3,8 @@
     <modifiers>
         <modifier>
             <effects>
-                <lifeStealFactor add="1.0" />
-                <lifeStealRadius add="1.0" />
+                <lifeStealFactor add="1.0"/>
+                <lifeStealRadius add="1.0"/>
             </effects>
         </modifier>
     </modifiers>

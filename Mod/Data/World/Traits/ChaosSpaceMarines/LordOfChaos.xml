@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Units/ChaosSpaceMarines/ChaosLord" rankMax="2">
+<trait category="Buff"
+       icon="Units/ChaosSpaceMarines/ChaosLord"
+       rankMax="2">
     <modifiers>
         <modifier>
             <conditions>
                 <unit match="Any">
-                    <type name="ChaosSpaceMarines/KhorneBerzerker" />
-                    <type name="ChaosSpaceMarines/ChaosCultist" />
-                    <type name="ChaosSpaceMarines/WarpTalon" />
-                    <type name="ChaosSpaceMarines/ChaosSpawn" />
+                    <type name="ChaosSpaceMarines/KhorneBerzerker"/>
+                    <type name="ChaosSpaceMarines/ChaosCultist"/>
+                    <type name="ChaosSpaceMarines/WarpTalon"/>
+                    <type name="ChaosSpaceMarines/ChaosSpawn"/>
                 </unit>
                 <unit>
-                    <allied />
+                    <allied/>
                 </unit>
             </conditions>
             <effects>
-                <invulnerableDamageReduction minMax="0.15" minMin="0.05" />
-                <meleeAttacks mulMax="0.15" mulMin="0.05" />
+                <invulnerableDamageReduction minMax="0.15"
+                                             minMin="0.05"/>
+                <meleeAttacks mulMax="0.15"
+                              mulMin="0.05"/>
             </effects>
         </modifier>
     </modifiers>

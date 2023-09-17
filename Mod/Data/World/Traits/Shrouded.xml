@@ -4,11 +4,11 @@
         <modifier>
             <conditions>
                 <unit>
-                    <allied />
+                    <allied/>
                 </unit>
             </conditions>
             <effects>
-                <rangedDamageReduction add="0.33" />
+                <rangedDamageReduction add="0.33"/>
             </effects>
         </modifier>
     </modifiers>

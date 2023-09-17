@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <groupSizeMax add="2" />
+                <groupSizeMax add="2"/>
             </effects>
         </modifier>
     </modifiers>

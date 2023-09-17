@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Traits/DozerBlade" position="6">
+<upgrade icon="Traits/DozerBlade"
+         position="6">
     <requiredUpgrades>
-        <upgrade name="SistersOfBattle/Vehicles" />
+        <upgrade name="SistersOfBattle/Vehicles"/>
     </requiredUpgrades>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="1.0" />
+                <increaseVehiclesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

@@ -5,17 +5,17 @@
             <conditions>
                 <encounter>
                     <opponent>
-                        <faction name="SpaceMarines" />
+                        <faction name="SpaceMarines"/>
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <meleeAccuracy add="2" />
+                <meleeAccuracy add="2"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <moraleLossFactor add="-0.33" />
+                <moraleLossFactor add="-0.33"/>
             </effects>
         </modifier>
     </modifiers>

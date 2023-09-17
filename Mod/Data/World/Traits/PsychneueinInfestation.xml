@@ -3,7 +3,7 @@
     <onUnitDisappearedModifiers>
         <modifier>
             <effects>
-                <addUnit name="Neutral/Psychneuein" />
+                <addUnit name="Neutral/Psychneuein"/>
             </effects>
         </modifier>
     </onUnitDisappearedModifiers>

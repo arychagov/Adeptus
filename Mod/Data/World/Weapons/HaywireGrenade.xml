@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <grenadeWeapon displaceExplosions="0" effectScale="0.75" explosionSound="Explosions/HaywireGrenade" explosionSoundCount="1" explosionsBlueprint="Effects/EMPExplosions" explosionsEmitterBlueprint="Effects/EMPExplosionsEmitter" fireSound="Weapons/GrenadeThrow" fireSoundCount="6" grenadeBlueprint="Weapons/Eldar/HaywireGrenade" />
+        <grenadeWeapon displaceExplosions="0"
+                       effectScale="0.75"
+                       explosionSound="Explosions/HaywireGrenade"
+                       explosionSoundCount="1"
+                       explosionsBlueprint="Effects/EMPExplosions"
+                       explosionsEmitterBlueprint="Effects/EMPExplosionsEmitter"
+                       fireSound="Weapons/GrenadeThrow"
+                       fireSoundCount="6"
+                       grenadeBlueprint="Weapons/Eldar/HaywireGrenade"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <rangedArmorPenetration add="0" /> <!-- %rangedArmorPenetration add armorPiercing=- -->
-                <rangedDamage add="0.75" /> <!-- %rangedDamage add strength=2 -->
-                <strengthDamage base="0" />
+                <rangedArmorPenetration add="0"/> <!-- %rangedArmorPenetration add armorPiercing=- -->
+                <rangedDamage add="0.75"/> <!-- %rangedDamage add strength=2 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="1" />
+    <target rangeMax="1"/>
     <traits>
-        <trait name="Assault" />
-        <trait name="Eldar/AssaultWeaponBonus" requiredUpgrade="Eldar/AssaultWeaponBonus" />
-        <trait name="Grenade" />
-        <trait name="Haywire" />
+        <trait name="Assault"/>
+        <trait name="Eldar/AssaultWeaponBonus"
+               requiredUpgrade="Eldar/AssaultWeaponBonus"/>
+        <trait name="Grenade"/>
+        <trait name="Haywire"/>
     </traits>
 </weapon>

@@ -1,82 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit bloodBone="ChestBone" idleAnimation="Units/AstraMilitarum/HeavyWeaponsSquadIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AstraMilitarum/HeavyWeaponsSquad" mesh="Units/AstraMilitarum/HeavyWeaponsSquad" normalWeight="0.1" scale="1 1 1" walker="1" />
+        <unit bloodBone="ChestBone"
+              idleAnimation="Units/AstraMilitarum/HeavyWeaponsSquadIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/AstraMilitarum/HeavyWeaponsSquad"
+              mesh="Units/AstraMilitarum/HeavyWeaponsSquad"
+              normalWeight="0.1"
+              scale="1 1 1"
+              walker="1"/>
     </model>
-    <group memberDeltaX="90" memberDeltaY="100" rowSize="2" size="4" />
+    <group memberDeltaX="90"
+           memberDeltaY="100"
+           rowSize="2"
+           size="4"/>
     <weapons>
-        <weapon name="FragMissileLauncher" enabled="0" slotName="FragMissileLauncher">
+        <weapon name="FragMissileLauncher"
+                enabled="0"
+                slotName="FragMissileLauncher">
             <model>
-                <missileWeapon fireInterval="0.83" muzzleBone="Muzzle0" />
+                <missileWeapon fireInterval="0.83"
+                               muzzleBone="Muzzle0"/>
             </model>
         </weapon>
-        <weapon name="KrakMissileLauncher" slotName="KrakMissileLauncher">
+        <weapon name="KrakMissileLauncher"
+                slotName="KrakMissileLauncher">
             <model>
-                <missileWeapon fireInterval="0.83" muzzleBone="Muzzle0" />
+                <missileWeapon fireInterval="0.83"
+                               muzzleBone="Muzzle0"/>
             </model>
         </weapon>
-        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
+        <weapon name="FragGrenade"
+                enabled="0"
+                slotName="FragGrenade">
             <model>
-                <grenadeWeapon muzzleBone="RightHandBone1" />
+                <grenadeWeapon muzzleBone="RightHandBone1"/>
             </model>
         </weapon>
-        <weapon name="KrakGrenade" enabled="0" slotName="KrakGrenade">
+        <weapon name="KrakGrenade"
+                enabled="0"
+                slotName="KrakGrenade">
             <model>
-                <grenadeWeapon muzzleBone="RightHandBone1" />
+                <grenadeWeapon muzzleBone="RightHandBone1"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="4" /> <!-- %armor base armor=5+ -->
-                <foodUpkeep base="2" /> <!-- %foodUpkeep base tier=5 factor=1 -->
-                <foodCost base="20.0" /> <!-- %foodCost base tier=5 factor=0.5 -->
-                <hitpointsMax base="4.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=3 wounds=2 -->
-                <meleeAccuracy base="6" /> <!-- %meleeAccuracy base weaponSkill=3 -->
-                <meleeAttacks base="2" />
-                <strengthDamage base="1" /> <!-- %strengthDamage base strength=3 -->
+                <armor base="4"/> <!-- %armor base armor=5+ -->
+                <foodUpkeep base="2"/> <!-- %foodUpkeep base tier=5 factor=1 -->
+                <foodCost base="20.0"/> <!-- %foodCost base tier=5 factor=0.5 -->
+                <hitpointsMax base="4.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=3 wounds=2 -->
+                <meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
+                <meleeAttacks base="2"/>
+                <strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
                 <!-- <meleeInitiative base="3"/> -->
-                <oreCost base="20.0" /> <!-- %oreCost base tier=5 factor=0.5 -->
-                <moraleMax base="6" /> <!-- %moraleMax base leadership=6 -->
-                <movementMax base="3" />
-                <productionCost base="36.0" /> <!-- %productionCost base tier=5 factor=1 -->
-                <rangedAccuracy base="7" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <oreCost base="20.0"/> <!-- %oreCost base tier=5 factor=0.5 -->
+                <moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
+                <movementMax base="3"/>
+                <productionCost base="36.0"/> <!-- %productionCost base tier=5 factor=1 -->
+                <rangedAccuracy base="7"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0" />
+                <increaseInfantryScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/AstraMilitarum/HeavyWeaponsSquadAttack" beginFire="0.5" endFire="2.4" />
+                <action animation="Units/AstraMilitarum/HeavyWeaponsSquadAttack"
+                        beginFire="0.5"
+                        endFire="2.4"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/AstraMilitarum/HeavyWeaponsSquadDie" sound="Units/MediumUnarmoredDie" soundCount="4" soundDelay="0.55" voiceSound="Units/AstraMilitarum/InfantryDie" voiceSoundCount="5" />
+                <action animation="Units/AstraMilitarum/HeavyWeaponsSquadDie"
+                        sound="Units/MediumUnarmoredDie"
+                        soundCount="4"
+                        soundDelay="0.55"
+                        voiceSound="Units/AstraMilitarum/InfantryDie"
+                        voiceSoundCount="5"/>
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0" />
+                <action animationSpeed="1.0"/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/AstraMilitarum/HeavyWeaponsSquadMove" sound="Units/AstraMilitarum/InfantryMove" soundCount="4" />
+                <action animation="Units/AstraMilitarum/HeavyWeaponsSquadMove"
+                        sound="Units/AstraMilitarum/InfantryMove"
+                        soundCount="4"/>
             </model>
         </move>
     </actions>
     <traits>
-        <trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour" />
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
         <trait name="Bulky"/>
     </traits>
 </unit>

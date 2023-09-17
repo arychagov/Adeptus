@@ -4,16 +4,16 @@
         <modifier>
             <conditions>
                 <unit>
-                    <movedThisTurn />
-                    <noTrait name="Flyer" />
-                    <noTrait name="Fortification" />
-                    <noTrait name="Relentless" />
-                    <noTrait name="SlowAndPurposeful" />
-                    <noTrait name="Vehicle" />
+                    <movedThisTurn/>
+                    <noTrait name="Flyer"/>
+                    <noTrait name="Fortification"/>
+                    <noTrait name="Relentless"/>
+                    <noTrait name="SlowAndPurposeful"/>
+                    <noTrait name="Vehicle"/>
                 </unit>
             </conditions>
             <effects>
-                <accuracy mul="-0.5" />
+                <accuracy mul="-0.5"/>
             </effects>
         </modifier>
     </modifiers>

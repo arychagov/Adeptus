@@ -1,78 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit explosionsBone="Hull" idleAnimation="Units/Orks/DeffkoptaIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Orks/Deffkopta" mesh="Units/Orks/Deffkopta" position="0 0 32" scale="0.75 0.75 0.75" />
+        <unit explosionsBone="Hull"
+              idleAnimation="Units/Orks/DeffkoptaIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/Orks/Deffkopta"
+              mesh="Units/Orks/Deffkopta"
+              position="0 0 32"
+              scale="0.75 0.75 0.75"/>
     </model>
-    <group memberDeltaX="80" memberDeltaY="80" rowSize="3" size="3" />
+    <group memberDeltaX="80"
+           memberDeltaY="80"
+           rowSize="3"
+           size="3"/>
     <weapons>
         <weapon name="TwinLinkedBigShoota">
             <model>
-                <projectileWeapon muzzleBone=".BigShootaMuzzle" />
+                <projectileWeapon muzzleBone=".BigShootaMuzzle"/>
             </model>
         </weapon>
         <weapon name="Slugga">
             <model>
-                <projectileWeapon fireInterval="0.75" muzzleBone=".PistolMuzzle" />
+                <projectileWeapon fireInterval="0.75"
+                                  muzzleBone=".PistolMuzzle"/>
             </model>
         </weapon>
-        <weapon name="Bigbomm" enabled="0" slotName="Bigbomm">
+        <weapon name="Bigbomm"
+                enabled="0"
+                slotName="Bigbomm">
             <model>
-                <grenadeWeapon muzzleBone="RightHand" />
+                <grenadeWeapon muzzleBone="RightHand"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="6" /> <!-- %armor base armor=4+ -->
-                <energyCost base="20.0" /> <!-- %energyCost base tier=6 factor=0.5 -->
-                <hitpointsMax base="8.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=5 wounds=2 -->
-                <influenceUpkeep base="2.0" /> <!-- %influenceUpkeep base tier=6 factor=1 -->
-                <meleeAccuracy base="8" /> <!-- %meleeAccuracy base weaponSkill=4 -->
-                <meleeAttacks base="2" />
-                <strengthDamage base="1.5" /> <!-- %strengthDamage base strength=4 -->
+                <armor base="6"/> <!-- %armor base armor=4+ -->
+                <energyCost base="20.0"/> <!-- %energyCost base tier=6 factor=0.5 -->
+                <hitpointsMax base="8.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=5 wounds=2 -->
+                <influenceUpkeep base="2.0"/> <!-- %influenceUpkeep base tier=6 factor=1 -->
+                <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
+                <meleeAttacks base="2"/>
+                <strengthDamage base="1.5"/> <!-- %strengthDamage base strength=4 -->
                 <!-- <meleeInitiative base="2"/> -->
-                <moraleMax base="6" /> <!-- %moraleMax base leadership=6 -->
-                <movementMax base="5" />
-                <oreCost base="20.0" /> <!-- %oreCost base tier=6 factor=0.5 -->
-                <energyUpkeep base="2.0" />  <!-- %oreUpkeep base tier=6 factor=1 -->
-                <productionCost base="36.0" /> <!-- %productionCost base tier=6 factor=1 -->
-                <rangedAccuracy base="4" /> <!-- %rangedAccuracy base ballisticSkill=2 -->
+                <moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
+                <movementMax base="5"/>
+                <oreCost base="20.0"/> <!-- %oreCost base tier=6 factor=0.5 -->
+                <energyUpkeep base="2.0"/>  <!-- %oreUpkeep base tier=6 factor=1 -->
+                <productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
+                <rangedAccuracy base="4"/> <!-- %rangedAccuracy base ballisticSkill=2 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="1.0" />
+                <increaseVehiclesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/Orks/DeffkoptaAttack" beginFire="0.5" chargeAnimation="Units/Orks/DeffkoptaCharge" chargeBeginFire="0.25" chargeDefenseAnimation="Units/Orks/DeffkoptaChargeDefense" chargeEndFire="1.5" endFire="2.0" meleeAnimation="Units/Orks/DeffkoptaMelee" meleeBeginSwing="0.5" meleeDefenseAnimation="Units/Orks/DeffkoptaMeleeDefense" meleeEndSwing="1.0" />
+                <action animation="Units/Orks/DeffkoptaAttack"
+                        beginFire="0.5"
+                        chargeAnimation="Units/Orks/DeffkoptaCharge"
+                        chargeBeginFire="0.25"
+                        chargeDefenseAnimation="Units/Orks/DeffkoptaChargeDefense"
+                        chargeEndFire="1.5"
+                        endFire="2.0"
+                        meleeAnimation="Units/Orks/DeffkoptaMelee"
+                        meleeBeginSwing="0.5"
+                        meleeDefenseAnimation="Units/Orks/DeffkoptaMeleeDefense"
+                        meleeEndSwing="1.0"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Orks/DeffkoptaDie" animationCount="2" sound="Units/SmallVehicleDie" soundCount="3" soundDelay="0.3" voiceSound="Units/Orks/InfantryDie" voiceSoundCount="5" />
+                <action animation="Units/Orks/DeffkoptaDie"
+                        animationCount="2"
+                        sound="Units/SmallVehicleDie"
+                        soundCount="3"
+                        soundDelay="0.3"
+                        voiceSound="Units/Orks/InfantryDie"
+                        voiceSoundCount="5"/>
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0" />
+                <action animationSpeed="1.0"/>
             </model>
         </idle>
         <move>
             <model>
-                <action sound="Units/Orks/DeffkoptaMove" soundCount="3" />
+                <action sound="Units/Orks/DeffkoptaMove"
+                        soundCount="3"/>
             </model>
         </move>
-        <ereWeGo consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0" requiredMovement="1" usableInTransport="1">
+        <ereWeGo consumedActionPoints="0"
+                 consumedMovement="0"
+                 cooldown="5"
+                 requiredActionPoints="0"
+                 requiredMovement="1"
+                 usableInTransport="1">
             <model>
-                <action sound="Actions/OrksBuff" />
+                <action sound="Actions/OrksBuff"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -81,7 +116,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="EreWeGo" duration="1" />
+                                        <addTrait name="EreWeGo"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -90,9 +126,10 @@
                 </selfTarget>
             </beginTargets>
         </ereWeGo>
-        <turboBoost consumedMovement="0" cooldown="3">
+        <turboBoost consumedMovement="0"
+                    cooldown="3">
             <model>
-                <action sound="Actions/ChargeUp" />
+                <action sound="Actions/ChargeUp"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -101,7 +138,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="TurboBoost" duration="1" />
+                                        <addTrait name="TurboBoost"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -110,15 +148,18 @@
                 </selfTarget>
             </beginTargets>
         </turboBoost>
-        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
+        <jink consumedActionPoints="0"
+              consumedMovement="0"
+              cooldown="3"
+              requiredActionPoints="0">
             <model>
-                <action sound="Actions/ChargeUp" />
+                <action sound="Actions/ChargeUp"/>
             </model>
             <beginTargets>
                 <selfTarget>
                     <conditions>
                         <unit>
-                            <notAttackedThisTurn />
+                            <notAttackedThisTurn/>
                         </unit>
                     </conditions>
                     <areas>
@@ -126,7 +167,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Jink" duration="1" />
+                                        <addTrait name="Jink"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -135,18 +177,22 @@
                 </selfTarget>
             </beginTargets>
         </jink>
-        <scout consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
+        <scout consumedActionPoints="0"
+               consumedMovement="0"
+               cooldown="3"
+               requiredActionPoints="0">
             <model>
-                <action sound="Actions/Scan" />
+                <action sound="Actions/Scan"/>
             </model>
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="3">
+                        <area affects="Tile"
+                              radius="3">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <reveal />
+                                        <reveal/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -155,9 +201,12 @@
                 </selfTarget>
             </beginTargets>
         </scout>
-        <hammerOfWrath consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredUpgrade="Orks/GrotRiggers">
+        <hammerOfWrath consumedActionPoints="0"
+                       consumedMovement="0"
+                       cooldown="3"
+                       requiredUpgrade="Orks/GrotRiggers">
             <model>
-                <action sound="Actions/PsychicBuff" />
+                <action sound="Actions/PsychicBuff"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -166,7 +215,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="HammerOfWrath" duration="1" />
+                                        <addTrait name="HammerOfWrath"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -175,25 +225,33 @@
                 </selfTarget>
             </beginTargets>
         </hammerOfWrath>
-        <throwGrenade consumedActionPoints="1" cooldown="10" requiredActionPoints="1" requiredUpgrade="Orks/Bigbomm" weaponSlotName="Bigbomm">
+        <throwGrenade consumedActionPoints="1"
+                      cooldown="10"
+                      requiredActionPoints="1"
+                      requiredUpgrade="Orks/Bigbomm"
+                      weaponSlotName="Bigbomm">
             <model>
-                <action animation="Units/Orks/DeffkoptaGrenade" beginFire="1.46666666667" />
+                <action animation="Units/Orks/DeffkoptaGrenade"
+                        beginFire="1.46666666667"/>
             </model>
         </throwGrenade>
     </actions>
     <traits>
-        <trait name="Orks/CreateOrkoidFungusOnDeath" />
-        <trait name="ExtraVehicleArmour" requiredUpgrade="Orks/ExtraVehicleArmour" />
+        <trait name="Orks/CreateOrkoidFungusOnDeath"/>
+        <trait name="ExtraVehicleArmour"
+               requiredUpgrade="Orks/ExtraVehicleArmour"/>
         <!-- <trait name="FuriousCharge"/> -->
-        <trait name="HitAndRun" />
-        <trait name="Jetbike" />
-        <trait name="Orks/MightMakesRight" />
-        <trait name="MobRule" />
-        <trait name="Relentless" />
-        <trait name="Orks/GreenTideHealing" />
-        <trait name="OrkoidFungusBonusHealingRate" requiredUpgrade="Orks/OrkoidFungusBonusHealingRate" />
-        <trait name="OrkoidFungusBonusFeelNoPainDamageReduction" requiredUpgrade="Orks/CreatePermanentOrkoidFungusOnDeath" />
-        <trait name="Orks/Scavenger" />
-        <trait name="VeryBulky" />
+        <trait name="HitAndRun"/>
+        <trait name="Jetbike"/>
+        <trait name="Orks/MightMakesRight"/>
+        <trait name="MobRule"/>
+        <trait name="Relentless"/>
+        <trait name="Orks/GreenTideHealing"/>
+        <trait name="OrkoidFungusBonusHealingRate"
+               requiredUpgrade="Orks/OrkoidFungusBonusHealingRate"/>
+        <trait name="OrkoidFungusBonusFeelNoPainDamageReduction"
+               requiredUpgrade="Orks/CreatePermanentOrkoidFungusOnDeath"/>
+        <trait name="Orks/Scavenger"/>
+        <trait name="VeryBulky"/>
     </traits>
 </unit>

@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <item>
     <actions>
-        <jokaeroDigitalWeapon consumedActionPoints="1" consumedMovement="1" cooldown="3" icon="Items/JokaeroDigitalWeapon" requiredActionPoints="1">
+        <jokaeroDigitalWeapon consumedActionPoints="1"
+                              consumedMovement="1"
+                              cooldown="3"
+                              icon="Items/JokaeroDigitalWeapon"
+                              requiredActionPoints="1">
             <model>
-                <action sound="Weapons/StaffOfLight" soundCount="3" />
+                <action sound="Weapons/StaffOfLight"
+                        soundCount="3"/>
             </model>
             <beginTargets>
-                <target lineOfSight="1" rangeMax="1">
+                <target lineOfSight="1"
+                        rangeMax="1">
                     <conditions>
                         <unit>
-                            <enemy />
+                            <enemy/>
                         </unit>
                     </conditions>
                     <areas>
@@ -17,7 +23,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <weaponDamage weapon="JokaeroDigitalWeapon" />
+                                        <weaponDamage weapon="JokaeroDigitalWeapon"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -30,11 +36,11 @@
     <modifiers>
         <modifier>
             <effects>
-                <influenceCost base="160" />
+                <influenceCost base="160"/>
             </effects>
         </modifier>
     </modifiers>
     <traits>
-        <trait name="Artefact" />
+        <trait name="Artefact"/>
     </traits>
 </item>

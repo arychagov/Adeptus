@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <attacks mul="0.17" />
+                <attacks mul="0.17"/>
             </effects>
         </modifier>
     </modifiers>

@@ -9,7 +9,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Items/ConcealedWeaponSystem" />
+                                        <addTrait name="Items/ConcealedWeaponSystem"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -22,11 +22,11 @@
     <modifiers>
         <modifier>
             <effects>
-                <influenceCost base="80" />
+                <influenceCost base="80"/>
             </effects>
         </modifier>
     </modifiers>
     <traits>
-        <trait name="Uncommon" />
+        <trait name="Uncommon"/>
     </traits>
 </item>

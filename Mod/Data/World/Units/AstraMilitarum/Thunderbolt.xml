@@ -1,68 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit explosionsBone="Hull" idleAnimation="Units/AstraMilitarum/ThunderboltIdle" idleAnimationCount="2" idleContinuously="1" material="Units/AstraMilitarum/Thunderbolt" mesh="Units/AstraMilitarum/Thunderbolt" normalWeight="1.0" position="0 0 64" scale="1.8 1.8 1.8" />
+        <unit explosionsBone="Hull"
+              idleAnimation="Units/AstraMilitarum/ThunderboltIdle"
+              idleAnimationCount="2"
+              idleContinuously="1"
+              material="Units/AstraMilitarum/Thunderbolt"
+              mesh="Units/AstraMilitarum/Thunderbolt"
+              normalWeight="1.0"
+              position="0 0 64"
+              scale="1.8 1.8 1.8"/>
     </model>
     <weapons>
         <weapon name="TwinLinkedLascannon">
             <model>
-                <beamWeapon bone="Hull" material="Units/AstraMilitarum/Thunderbolt" mesh="Weapons/AstraMilitarum/ThunderboltTwinLinkedLascannon" muzzleBone=".TwinLinkedLascannonMuzzle" />
+                <beamWeapon bone="Hull"
+                            material="Units/AstraMilitarum/Thunderbolt"
+                            mesh="Weapons/AstraMilitarum/ThunderboltTwinLinkedLascannon"
+                            muzzleBone=".TwinLinkedLascannonMuzzle"/>
             </model>
         </weapon>
-        <weapon name="TwinLinkedAutocannon" count="2">
+        <weapon name="TwinLinkedAutocannon"
+                count="2">
             <model>
-                <projectileWeapon bone="Hull" material="Units/AstraMilitarum/Thunderbolt" mesh="Weapons/AstraMilitarum/ThunderboltTwinLinkedAutocannons" muzzleBone=".TwinLinkedAutocannonMuzzle" muzzleCount="4" />
+                <projectileWeapon bone="Hull"
+                                  material="Units/AstraMilitarum/Thunderbolt"
+                                  mesh="Weapons/AstraMilitarum/ThunderboltTwinLinkedAutocannons"
+                                  muzzleBone=".TwinLinkedAutocannonMuzzle"
+                                  muzzleCount="4"/>
             </model>
         </weapon>
-        <weapon name="SkystrikeMissile" count="2" requiredUpgrade="AstraMilitarum/SkystrikeMissile">
+        <weapon name="SkystrikeMissile"
+                count="2"
+                requiredUpgrade="AstraMilitarum/SkystrikeMissile">
             <model>
-                <missileWeapon fireInterval="0.8" muzzleBone="Hull" />
+                <missileWeapon fireInterval="0.8"
+                               muzzleBone="Hull"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="7" /> <!-- %armor base armor=11/11/10 -->
-                <energyUpkeep base="4.0" /> <!-- %energyUpkeep base tier=8 factor=1 -->
-                <energyCost base="40.0" /> <!-- %energyCost base tier=8 factor=0.5 -->
-                <hitpointsMax base="24.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base armor=11/11/10 wounds=3 -->
-                <cargoSlotsRequired base="0" />
-                <moraleMax base="8" /> <!-- %moraleMax base leadership=7 -->
-                <movementMax base="6" />
-                <oreCost base="40.0" /> <!-- %oreCost base tier=8 factor=0.5 -->
-                <productionCost base="48.0" /> <!-- %productionCost base tier=8 factor=1 -->
-                <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <armor base="7"/> <!-- %armor base armor=11/11/10 -->
+                <energyUpkeep base="4.0"/> <!-- %energyUpkeep base tier=8 factor=1 -->
+                <energyCost base="40.0"/> <!-- %energyCost base tier=8 factor=0.5 -->
+                <hitpointsMax base="24.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=11/11/10 wounds=3 -->
+                <cargoSlotsRequired base="0"/>
+                <moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
+                <movementMax base="6"/>
+                <oreCost base="40.0"/> <!-- %oreCost base tier=8 factor=0.5 -->
+                <productionCost base="48.0"/> <!-- %productionCost base tier=8 factor=1 -->
+                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseAircraftScore base="1.0" />
+                <increaseAircraftScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/AstraMilitarum/ThunderboltAttack" beginFire="0.1" endFire="2.5" />
+                <action animation="Units/AstraMilitarum/ThunderboltAttack"
+                        beginFire="0.1"
+                        endFire="2.5"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/AstraMilitarum/ThunderboltDie" sound="Units/MediumVehicleDie" soundCount="3" soundDelay="0.2" />
+                <action animation="Units/AstraMilitarum/ThunderboltDie"
+                        sound="Units/MediumVehicleDie"
+                        soundCount="3"
+                        soundDelay="0.2"/>
             </model>
         </die>
         <move>
             <model>
-                <action sound="Units/AstraMilitarum/ThunderboltMove" soundCount="3" />
+                <action sound="Units/AstraMilitarum/ThunderboltMove"
+                        soundCount="3"/>
             </model>
         </move>
-        <supersonic consumedMovement="0" cooldown="3">
+        <supersonic consumedMovement="0"
+                    cooldown="3">
             <model>
-                <action sound="Actions/ChargeUp" />
+                <action sound="Actions/ChargeUp"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -71,7 +97,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Supersonic" duration="1" />
+                                        <addTrait name="Supersonic"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -80,13 +107,16 @@
                 </selfTarget>
             </beginTargets>
         </supersonic>
-        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
+        <jink consumedActionPoints="0"
+              consumedMovement="0"
+              cooldown="3"
+              requiredActionPoints="0">
             <model>
-                <action sound="Actions/ChargeUp" />
+                <action sound="Actions/ChargeUp"/>
             </model>
             <conditions>
                 <unit>
-                    <notAttackedThisTurn />
+                    <notAttackedThisTurn/>
                 </unit>
             </conditions>
             <beginTargets>
@@ -96,7 +126,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Jink" duration="1" />
+                                        <addTrait name="Jink"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -105,9 +136,13 @@
                 </selfTarget>
             </beginTargets>
         </jink>
-        <dispenseChaff consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/ChaffLauncher">
+        <dispenseChaff consumedActionPoints="0"
+                       consumedMovement="0"
+                       cooldown="5"
+                       requiredActionPoints="0"
+                       requiredUpgrade="AstraMilitarum/ChaffLauncher">
             <model>
-                <action sound="Actions/SmokeScreen" />
+                <action sound="Actions/SmokeScreen"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -116,7 +151,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Chaff" duration="1" />
+                                        <addTrait name="Chaff"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -127,8 +163,9 @@
         </dispenseChaff>
     </actions>
     <traits>
-        <trait name="ExtraVehicleArmour" requiredUpgrade="AstraMilitarum/ExtraVehicleArmour" />
-        <trait name="Flyer" />
-        <trait name="Vehicle" />
+        <trait name="ExtraVehicleArmour"
+               requiredUpgrade="AstraMilitarum/ExtraVehicleArmour"/>
+        <trait name="Flyer"/>
+        <trait name="Vehicle"/>
     </traits>
 </unit>

@@ -5,12 +5,12 @@
             <conditions>
                 <encounter>
                     <opponent>
-                        <trait name="Fortification" />
+                        <trait name="Fortification"/>
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <armorPenetration add="2" />
+                <armorPenetration add="2"/>
             </effects>
         </modifier>
     </modifiers>

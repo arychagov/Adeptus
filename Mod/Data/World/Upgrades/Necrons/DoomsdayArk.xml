@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Units/Necrons/DoomsdayArk" position="6">
+<upgrade icon="Units/Necrons/DoomsdayArk"
+         position="6">
     <requiredUpgrades>
-        <upgrade name="Necrons/Vehicles" />
+        <upgrade name="Necrons/Vehicles"/>
     </requiredUpgrades>
 </upgrade>

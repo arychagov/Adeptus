@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff" icon="Units/AstraMilitarum/Bullgryn">
+<trait category="Debuff"
+       icon="Units/AstraMilitarum/Bullgryn">
     <modifiers>
         <modifier>
             <conditions>
                 <unit>
-                    <enemy />
+                    <enemy/>
                 </unit>
             </conditions>
             <effects>
-                <rangedAttacks mul="-0.17" />
+                <rangedAttacks mul="-0.17"/>
             </effects>
         </modifier>
     </modifiers>

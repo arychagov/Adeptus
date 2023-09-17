@@ -3,18 +3,18 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36" />
-                <requisitionsCost base="50" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <influenceUpkeep add="1" />
+                <productionCost base="36"/>
+                <requisitionsCost base="50"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <influenceUpkeep add="1"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <energy add="2" />
-                <requisitions add="2" />
-                <production add="6" />
+                <energy add="2"/>
+                <requisitions add="2"/>
+                <production add="6"/>
             </effects>
         </modifier>
     </modifiers>
@@ -28,13 +28,15 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseAircraftProductionScore base="1.0" />
+                <increaseAircraftProductionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="SistersOfBattle/LightningFighter" />
-        <produceUnit requiredUpgrade="SistersOfBattle/AvengerStrikeFighter" unit="SistersOfBattle/AvengerStrikeFighter" />
-        <produceUnit requiredUpgrade="SistersOfBattle/CerastusKnightLancer" unit="SistersOfBattle/CerastusKnightLancer" />
+        <produceUnit unit="SistersOfBattle/LightningFighter"/>
+        <produceUnit requiredUpgrade="SistersOfBattle/AvengerStrikeFighter"
+                     unit="SistersOfBattle/AvengerStrikeFighter"/>
+        <produceUnit requiredUpgrade="SistersOfBattle/CerastusKnightLancer"
+                     unit="SistersOfBattle/CerastusKnightLancer"/>
     </actions>
 </building>

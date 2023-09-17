@@ -4,13 +4,13 @@
         <modifier>
             <conditions>
                 <unit>
-                    <allied />
-                    <faction name="AdeptusMechanicus" />
-                    <trait name="Vehicle" />
+                    <allied/>
+                    <faction name="AdeptusMechanicus"/>
+                    <trait name="Vehicle"/>
                 </unit>
             </conditions>
             <effects>
-                <rangedInvulnerableDamageReduction add="0.17" />
+                <rangedInvulnerableDamageReduction add="0.17"/>
             </effects>
         </modifier>
     </modifiers>

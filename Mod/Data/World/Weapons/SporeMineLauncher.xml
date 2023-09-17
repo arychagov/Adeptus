@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon directionalMuzzleFlashesBlueprint="Effects/SporeMineLauncherDirectionalMuzzleFlashes" directionalMuzzleFlashesEmitterBlueprint="Effects/SporeMineLauncherDirectionalMuzzleFlashesEmitter" effectScale="1.5" explosionsBlueprint="Effects/BioPlasmaExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" fireSound="Weapons/SporeMineLauncher" fireSoundCount="3" muzzleFlashesBlueprint="Effects/SporeMineLauncherMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/SporeMineLauncherMuzzleFlashesEmitter" projectilesBlueprint="Effects/SporeMineLauncherProjectiles" projectilesEmitterBlueprint="Effects/SporeMineLauncherProjectilesEmitter" />
+        <projectileWeapon directionalMuzzleFlashesBlueprint="Effects/SporeMineLauncherDirectionalMuzzleFlashes"
+                          directionalMuzzleFlashesEmitterBlueprint="Effects/SporeMineLauncherDirectionalMuzzleFlashesEmitter"
+                          effectScale="1.5"
+                          explosionsBlueprint="Effects/BioPlasmaExplosions"
+                          explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter"
+                          fireSound="Weapons/SporeMineLauncher"
+                          fireSoundCount="3"
+                          muzzleFlashesBlueprint="Effects/SporeMineLauncherMuzzleFlashes"
+                          muzzleFlashesEmitterBlueprint="Effects/SporeMineLauncherMuzzleFlashesEmitter"
+                          projectilesBlueprint="Effects/SporeMineLauncherProjectiles"
+                          projectilesEmitterBlueprint="Effects/SporeMineLauncherProjectilesEmitter"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="1" />
-                <rangedArmorPenetration add="2" /> <!-- %rangedArmorPenetration add armorPiercing=4 -->
-                <rangedDamage add="1.5" /> <!-- %rangedDamage add strength=4 -->
-                <strengthDamage base="0" />
+                <attacks add="1"/>
+                <rangedArmorPenetration add="2"/> <!-- %rangedArmorPenetration add armorPiercing=4 -->
+                <rangedDamage add="1.5"/> <!-- %rangedDamage add strength=4 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="3" />
+    <target rangeMax="3"/>
     <traits>
-        <trait name="Assault" />
-        <trait name="Barrage" />
-        <trait name="LargeBlast" />
-        <trait name="Tyranids/LongRangedDamage" requiredUpgrade="Tyranids/LongRangedDamage" />
+        <trait name="Assault"/>
+        <trait name="Barrage"/>
+        <trait name="LargeBlast"/>
+        <trait name="Tyranids/LongRangedDamage"
+               requiredUpgrade="Tyranids/LongRangedDamage"/>
     </traits>
 </weapon>

@@ -3,18 +3,18 @@
     <actions>
         <dimensionalKey cooldown="5">
             <model>
-                <action sound="Actions/GateOfInfinity" />
+                <action sound="Actions/GateOfInfinity"/>
             </model>
         </dimensionalKey>
     </actions>
     <modifiers>
         <modifier>
             <effects>
-                <influenceCost base="160" />
+                <influenceCost base="160"/>
             </effects>
         </modifier>
     </modifiers>
     <traits>
-        <trait name="Artefact" />
+        <trait name="Artefact"/>
     </traits>
 </item>

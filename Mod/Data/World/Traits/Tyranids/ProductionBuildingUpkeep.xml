@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <influenceUpkeep mul="-0.25" />
+                <influenceUpkeep mul="-0.25"/>
             </effects>
         </modifier>
     </modifiers>

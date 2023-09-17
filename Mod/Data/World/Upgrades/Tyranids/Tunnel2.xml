@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Traits/Tyranids/Tunnel2" position="10">
+<upgrade icon="Traits/Tyranids/Tunnel2"
+         position="10">
     <requiredUpgrades>
-        <upgrade name="Tyranids/Trygon" />
+        <upgrade name="Tyranids/Trygon"/>
     </requiredUpgrades>
 </upgrade>

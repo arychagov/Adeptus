@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <circumstanceMeleeDamage mul="0.1" />
+                <circumstanceMeleeDamage mul="0.1"/>
             </effects>
         </modifier>
     </modifiers>

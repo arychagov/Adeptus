@@ -1,40 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feature category="WireWeed">
     <model>
-        <vegetation depthMaterial="Terrain/VegetationDepth" effectBlueprint="Effects/WireWeedSpores" effectEmitterBlueprint="Effects/WireWeedSporesEmitter" material="Terrain/Vegetation" />
+        <vegetation depthMaterial="Terrain/VegetationDepth"
+                    effectBlueprint="Effects/WireWeedSpores"
+                    effectEmitterBlueprint="Effects/WireWeedSporesEmitter"
+                    material="Terrain/Vegetation"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <buildingSlots max="0" />
+                <buildingSlots max="0"/>
             </effects>
         </modifier>
         <modifier>
             <conditions>
                 <unit>
-                    <noTrait name="Flyer" />
-                    <noTrait name="Necrons/ImmuneToNaturalLaw" />
-                    <noTrait name="JetPack" />
-                    <noTrait name="Jetbike" />
-                    <noTrait name="Skimmer" />
+                    <noTrait name="Flyer"/>
+                    <noTrait name="Necrons/ImmuneToNaturalLaw"/>
+                    <noTrait name="JetPack"/>
+                    <noTrait name="Jetbike"/>
+                    <noTrait name="Skimmer"/>
                 </unit>
             </conditions>
             <effects>
-                <movementCost min="100" />
+                <movementCost min="100"/>
             </effects>
         </modifier>
     </modifiers>
     <traits>
-        <trait name="WireWeed" />
+        <trait name="WireWeed"/>
     </traits>
     <vegetation>
-        <trees clusterSizeMax="20" clusterSizeMin="10" scaleMax="0.75" scaleMin="0.25">
+        <trees clusterSizeMax="20"
+               clusterSizeMin="10"
+               scaleMax="0.75"
+               scaleMin="0.25">
             <meshes>
-                <mesh name="Terrain/Vegetation/WireWeed0" />
-                <mesh name="Terrain/Vegetation/WireWeed1" />
-                <mesh name="Terrain/Vegetation/WireWeed2" />
-                <mesh name="Terrain/Vegetation/WireWeed3" />
-                <mesh name="Terrain/Vegetation/WireWeed4" />
+                <mesh name="Terrain/Vegetation/WireWeed0"/>
+                <mesh name="Terrain/Vegetation/WireWeed1"/>
+                <mesh name="Terrain/Vegetation/WireWeed2"/>
+                <mesh name="Terrain/Vegetation/WireWeed3"/>
+                <mesh name="Terrain/Vegetation/WireWeed4"/>
             </meshes>
         </trees>
     </vegetation>

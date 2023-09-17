@@ -3,8 +3,8 @@
     <onTraitAddedModifiers>
         <modifier>
             <effects>
-                <hitpointsFactorFromMax add="0.5" />
-                <removeTrait name="ChaosSpaceMarines/Bloated" />
+                <hitpointsFactorFromMax add="0.5"/>
+                <removeTrait name="ChaosSpaceMarines/Bloated"/>
             </effects>
         </modifier>
     </onTraitAddedModifiers>

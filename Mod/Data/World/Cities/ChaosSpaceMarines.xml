@@ -1,66 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <city actionsTitle="GUI/UnholyRites">
     <actions>
-        <riteOfChange name="ChaosSpaceMarines/RiteOfChange" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/UnholyRite" requiredUpgrade="ChaosSpaceMarines/RiteOfChange">
+        <riteOfChange name="ChaosSpaceMarines/RiteOfChange"
+                      cooldown="10"
+                      durationInSeconds="0.1"
+                      interfaceSound="Interface/UnholyRite"
+                      requiredUpgrade="ChaosSpaceMarines/RiteOfChange">
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <populationCost base="1" />
+                        <populationCost base="1"/>
                     </effects>
                 </modifier>
             </modifiers>
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait name="ChaosSpaceMarines/RiteOfChange" duration="10" />
+                        <addTrait name="ChaosSpaceMarines/RiteOfChange"
+                                  duration="10"/>
                     </effects>
                 </modifier>
             </actorModifiers>
         </riteOfChange>
-        <riteOfPestilence name="ChaosSpaceMarines/RiteOfPestilence" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/UnholyRite" requiredUpgrade="ChaosSpaceMarines/RiteOfPestilence">
+        <riteOfPestilence name="ChaosSpaceMarines/RiteOfPestilence"
+                          cooldown="10"
+                          durationInSeconds="0.1"
+                          interfaceSound="Interface/UnholyRite"
+                          requiredUpgrade="ChaosSpaceMarines/RiteOfPestilence">
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <populationCost base="1" />
+                        <populationCost base="1"/>
                     </effects>
                 </modifier>
             </modifiers>
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait name="ChaosSpaceMarines/RiteOfPestilence" duration="10" />
+                        <addTrait name="ChaosSpaceMarines/RiteOfPestilence"
+                                  duration="10"/>
                     </effects>
                 </modifier>
             </actorModifiers>
         </riteOfPestilence>
-        <riteOfBlood name="ChaosSpaceMarines/RiteOfBlood" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/UnholyRite" requiredUpgrade="ChaosSpaceMarines/RiteOfBlood">
+        <riteOfBlood name="ChaosSpaceMarines/RiteOfBlood"
+                     cooldown="10"
+                     durationInSeconds="0.1"
+                     interfaceSound="Interface/UnholyRite"
+                     requiredUpgrade="ChaosSpaceMarines/RiteOfBlood">
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <populationCost base="1" />
+                        <populationCost base="1"/>
                     </effects>
                 </modifier>
             </modifiers>
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait name="ChaosSpaceMarines/RiteOfBlood" duration="10" />
+                        <addTrait name="ChaosSpaceMarines/RiteOfBlood"
+                                  duration="10"/>
                     </effects>
                 </modifier>
             </actorModifiers>
         </riteOfBlood>
-        <riteOfUnholyPleasure name="ChaosSpaceMarines/RiteOfUnholyPleasure" cooldown="10" durationInSeconds="0.1" interfaceSound="Interface/UnholyRite" requiredUpgrade="ChaosSpaceMarines/RiteOfUnholyPleasure">
+        <riteOfUnholyPleasure name="ChaosSpaceMarines/RiteOfUnholyPleasure"
+                              cooldown="10"
+                              durationInSeconds="0.1"
+                              interfaceSound="Interface/UnholyRite"
+                              requiredUpgrade="ChaosSpaceMarines/RiteOfUnholyPleasure">
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <populationCost base="1" />
+                        <populationCost base="1"/>
                     </effects>
                 </modifier>
             </modifiers>
             <actorModifiers>
                 <modifier>
                     <effects>
-                        <addTrait name="ChaosSpaceMarines/RiteOfUnholyPleasure" duration="10" />
+                        <addTrait name="ChaosSpaceMarines/RiteOfUnholyPleasure"
+                                  duration="10"/>
                     </effects>
                 </modifier>
             </actorModifiers>

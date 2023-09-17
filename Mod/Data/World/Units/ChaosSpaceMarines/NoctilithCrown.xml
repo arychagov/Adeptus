@@ -1,32 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit dlc="Supplement4" spawnCountMax="1" spawnDistanceMin="6">
+<unit dlc="Supplement4"
+      spawnCountMax="1"
+      spawnDistanceMin="6">
     <model>
-        <structureUnit explosionsBone="Bone" groundMaterial="Units/ChaosSpaceMarines/NoctilithCrownGround" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" idleAnimationCount="0" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" material="Units/ChaosSpaceMarines/NoctilithCrown" mesh="Units/ChaosSpaceMarines/NoctilithCrown" scale="0.9 0.9 0.9">
+        <structureUnit explosionsBone="Bone"
+                       groundMaterial="Units/ChaosSpaceMarines/NoctilithCrownGround"
+                       heatImpactSound="Impacts/HeatConcrete"
+                       heatImpactSoundCount="4"
+                       idleAnimationCount="0"
+                       kineticImpactSound="Impacts/KineticConcrete"
+                       kineticImpactSoundCount="5"
+                       material="Units/ChaosSpaceMarines/NoctilithCrown"
+                       mesh="Units/ChaosSpaceMarines/NoctilithCrown"
+                       scale="0.9 0.9 0.9">
             <effects>
-                <effect blueprint="Effects/WarpGate" bone="Bone" position="0.000000 0.000000 91.304436" rotation="0 0 1 -60" />
+                <effect blueprint="Effects/WarpGate"
+                        bone="Bone"
+                        position="0.000000 0.000000 91.304436"
+                        rotation="0 0 1 -60"/>
             </effects>
         </structureUnit>
     </model>
     <weapons>
         <weapon name="LashingWarpEnergies">
             <model>
-                <beamWeapon muzzleBone="Bone" />
+                <beamWeapon muzzleBone="Bone"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8" /> <!-- %armor base armor=12/12/12 -->
-                <energyCost base="20.0" /> <!-- %energyCost base tier=6 factor=0.5 -->
-                <energyUpkeep base="2.0" /> <!-- %energyUpkeep base tier=6 factor=1 -->
-                <hitpointsMax base="24.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base armor=12/12/12 wounds=2 -->
-                <moraleMax base="0" /> <!-- %moraleMax base leadership=7 -->
-                <movementMax max="0" />
-                <oreCost base="20.0" /> <!-- %oreCost base tier=6 factor=0.5 -->
-                <productionCost base="36.0" /> <!-- %productionCost base tier=6 factor=1 -->
-                <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <armor base="8"/> <!-- %armor base armor=12/12/12 -->
+                <energyCost base="20.0"/> <!-- %energyCost base tier=6 factor=0.5 -->
+                <energyUpkeep base="2.0"/> <!-- %energyUpkeep base tier=6 factor=1 -->
+                <hitpointsMax base="24.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=12/12/12 wounds=2 -->
+                <moraleMax base="0"/> <!-- %moraleMax base leadership=7 -->
+                <movementMax max="0"/>
+                <oreCost base="20.0"/> <!-- %oreCost base tier=6 factor=0.5 -->
+                <productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
+                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>
         </modifier>
     </modifiers>
@@ -34,23 +48,30 @@
     <actions>
         <attack>
             <model>
-                <action beginFire="0.15" endFire="2.6" />
+                <action beginFire="0.15"
+                        endFire="2.6"/>
             </model>
         </attack>
         <die>
             <model>
-                <action sound="Units/HeavyBuildingDie" soundCount="3" voiceSound="Units/ChaosSpaceMarines/VehicleDie" voiceSoundCount="3" />
+                <action sound="Units/HeavyBuildingDie"
+                        soundCount="3"
+                        voiceSound="Units/ChaosSpaceMarines/VehicleDie"
+                        voiceSoundCount="3"/>
             </model>
         </die>
-        <genericUnitAbility name="ChaosSpaceMarines/LoathsomeAura" passive="1">
+        <genericUnitAbility name="ChaosSpaceMarines/LoathsomeAura"
+                            passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" excludeRadius="0" radius="1">
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="ChaosSpaceMarines/LoathsomeAura" />
+                                        <addTrait name="ChaosSpaceMarines/LoathsomeAura"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -59,15 +80,18 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility name="ChaosSpaceMarines/MalevolentLocus" passive="1">
+        <genericUnitAbility name="ChaosSpaceMarines/MalevolentLocus"
+                            passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" excludeRadius="0" radius="3">
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="3">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="ChaosSpaceMarines/MalevolentLocus" />
+                                        <addTrait name="ChaosSpaceMarines/MalevolentLocus"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -78,6 +102,6 @@
         </genericUnitAbility>
     </actions>
     <traits>
-        <trait name="Fortification" />
+        <trait name="Fortification"/>
     </traits>
 </unit>

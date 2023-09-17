@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Actions/Tyranids/ScourgeOfTheBrood" rankMax="2">
+<trait category="Buff"
+       icon="Actions/Tyranids/ScourgeOfTheBrood"
+       rankMax="2">
     <modifiers>
         <modifier>
             <effects>
-                <damage mulMax="0.9" mulMin="0.3" />
+                <damage mulMax="0.9"
+                        mulMin="0.3"/>
             </effects>
         </modifier>
     </modifiers>

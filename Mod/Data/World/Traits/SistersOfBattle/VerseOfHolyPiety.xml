@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysColored="1" category="Debuff" icon="Actions/SistersOfBattle/VerseOfHolyPiety">
+<trait alwaysColored="1"
+       category="Debuff"
+       icon="Actions/SistersOfBattle/VerseOfHolyPiety">
     <modifiers>
         <modifier>
             <effects>
-                <moraleRegeneration max="0" />
+                <moraleRegeneration max="0"/>
             </effects>
         </modifier>
     </modifiers>

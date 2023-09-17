@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Actions/Tau/DroneController" position="8">
+<upgrade icon="Actions/Tau/DroneController"
+         position="8">
     <requiredUpgrades>
-        <upgrade name="Tau/Commander" />
-        <upgrade name="Tau/CadreFireblade" />
-        <upgrade name="Tau/CrisisBattlesuit" />
-        <upgrade name="Tau/MonstrousCreatures" />
-        <upgrade name="Tau/StealthBattlesuit" />
-        <upgrade name="Tau/BroadsideBattlesuit" />
+        <upgrade name="Tau/Commander"/>
+        <upgrade name="Tau/CadreFireblade"/>
+        <upgrade name="Tau/CrisisBattlesuit"/>
+        <upgrade name="Tau/MonstrousCreatures"/>
+        <upgrade name="Tau/StealthBattlesuit"/>
+        <upgrade name="Tau/BroadsideBattlesuit"/>
     </requiredUpgrades>
 </upgrade>

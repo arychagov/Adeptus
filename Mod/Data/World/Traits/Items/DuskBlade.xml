@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Items/DuskBlade" visibilityCategory="Weapon">
+<trait category="Buff"
+       icon="Items/DuskBlade"
+       visibilityCategory="Weapon">
     <modifiers>
         <modifier>
             <conditions>
                 <weapon>
-                    <trait name="Melee" />
+                    <trait name="Melee"/>
                 </weapon>
             </conditions>
             <effects>
-                <lifeStealFactor add="0.2" />
+                <lifeStealFactor add="0.2"/>
             </effects>
         </modifier>
     </modifiers>

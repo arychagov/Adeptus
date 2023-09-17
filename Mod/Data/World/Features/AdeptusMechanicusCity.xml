@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feature ambientSound="Ambient/AdeptusMechanicusCity" ambientSoundLayer="1" ambientSoundPriority="1" audioEffectSystem="City" blockingSight="1" category="Building" icon="Factions/AdeptusMechanicus">
+<feature ambientSound="Ambient/AdeptusMechanicusCity"
+         ambientSoundLayer="1"
+         ambientSoundPriority="1"
+         audioEffectSystem="City"
+         blockingSight="1"
+         category="Building"
+         icon="Factions/AdeptusMechanicus">
     <model>
-        <buildings />
+        <buildings/>
     </model>
     <traits>
-        <trait name="City" />
+        <trait name="City"/>
     </traits>
 </feature>

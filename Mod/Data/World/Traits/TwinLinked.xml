@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <rangedAccuracy add="2" />
+                <rangedAccuracy add="2"/>
             </effects>
         </modifier>
     </modifiers>

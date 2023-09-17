@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon beamsBlueprint="Effects/MeltaBeams" beamsEmitterBlueprint="Effects/MeltaBeamsEmitter" fireInterval="0.5" fireSound="Weapons/MultiMelta" fireSoundCount="4" />
+        <beamWeapon beamsBlueprint="Effects/MeltaBeams"
+                    beamsEmitterBlueprint="Effects/MeltaBeamsEmitter"
+                    fireInterval="0.5"
+                    fireSound="Weapons/MultiMelta"
+                    fireSoundCount="4"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="0.15" />
-                <rangedArmorPenetration add="7" /> <!-- %rangedArmorPenetration add armorPiercing=1 -->
-                <rangedDamage add="5.5" /> <!-- %rangedDamage add strength=8 -->
-                <strengthDamage base="0" />
+                <attacks add="0.15"/>
+                <rangedArmorPenetration add="7"/> <!-- %rangedArmorPenetration add armorPiercing=1 -->
+                <rangedDamage add="5.5"/> <!-- %rangedDamage add strength=8 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="1" />
+    <target rangeMax="1"/>
     <traits>
-        <trait name="SistersOfBattle/HeavyWeaponBonus" requiredUpgrade="SistersOfBattle/HeavyWeaponBonus" />
+        <trait name="SistersOfBattle/HeavyWeaponBonus"
+               requiredUpgrade="SistersOfBattle/HeavyWeaponBonus"/>
     </traits>
 </weapon>

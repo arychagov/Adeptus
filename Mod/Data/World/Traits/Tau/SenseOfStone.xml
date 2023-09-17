@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff" icon="Actions/Tau/SenseOfStone" rankMax="2">
+<trait alwaysVisible="1"
+       category="Buff"
+       icon="Actions/Tau/SenseOfStone"
+       rankMax="2">
     <modifiers>
         <modifier>
             <effects>
-                <feelNoPainDamageReduction add="0.17" />
+                <feelNoPainDamageReduction add="0.17"/>
             </effects>
         </modifier>
     </modifiers>

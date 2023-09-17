@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Actions/Tyranids/AdaptiveBiology" rankMax="2">
+<trait category="Buff"
+       icon="Actions/Tyranids/AdaptiveBiology"
+       rankMax="2">
     <modifiers>
         <modifier>
             <conditions>
                 <unit>
-                    <damagedThisTurn />
+                    <damagedThisTurn/>
                 </unit>
             </conditions>
             <effects>
-                <feelNoPainDamageReduction addMax="0.45" addMin="0.15" />
+                <feelNoPainDamageReduction addMax="0.45"
+                                           addMin="0.15"/>
             </effects>
         </modifier>
     </modifiers>

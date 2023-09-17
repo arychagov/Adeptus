@@ -3,28 +3,30 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="24" />
-                <energyCost base="30" />
-                <oreUpkeep add="1" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
+                <productionCost base="24"/>
+                <energyCost base="30"/>
+                <oreUpkeep add="1"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <influence add="6" />
+                <influence add="6"/>
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfluenceScore base="1.0" />
+                <increaseInfluenceScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <traits>
-        <trait name="Necrons/InfluenceBuildingBonus" requiredUpgrade="Necrons/InfluenceBuildingBonus" />
-        <trait name="Necrons/UnlockedPotentialInfluenceBuildingBonus" requiredUpgrade="Necrons/UnlockedPotential" />
+        <trait name="Necrons/InfluenceBuildingBonus"
+               requiredUpgrade="Necrons/InfluenceBuildingBonus"/>
+        <trait name="Necrons/UnlockedPotentialInfluenceBuildingBonus"
+               requiredUpgrade="Necrons/UnlockedPotential"/>
     </traits>
 </building>

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff" icon="Actions/AdeptusMechanicus/WrathOfMars" rankMax="2">
+<trait alwaysVisible="1"
+       category="Buff"
+       icon="Actions/AdeptusMechanicus/WrathOfMars"
+       rankMax="2">
     <modifiers>
         <modifier>
             <effects>
-                <damage mulMax="0.75" mulMin="0.25" />
+                <damage mulMax="0.75"
+                        mulMin="0.25"/>
             </effects>
         </modifier>
     </modifiers>

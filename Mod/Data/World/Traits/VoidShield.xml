@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <rangedInvulnerableDamageReduction min="0.33" />
+                <rangedInvulnerableDamageReduction min="0.33"/>
             </effects>
         </modifier>
     </modifiers>

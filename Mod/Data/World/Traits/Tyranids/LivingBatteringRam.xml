@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Actions/Tyranids/LivingBatteringRam">
+<trait category="Buff"
+       icon="Actions/Tyranids/LivingBatteringRam">
     <modifiers>
         <modifier>
             <effects>
-                <damage mul="0.5" />
+                <damage mul="0.5"/>
             </effects>
         </modifier>
     </modifiers>

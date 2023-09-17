@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait icon="Upgrades/CityTier3" visibilityCategory="Building">
+<trait icon="Upgrades/CityTier3"
+       visibilityCategory="Building">
     <modifiers>
         <modifier>
             <effects>
-                <cityRadius add="1" />
-                <rangeMax add="1" />
-                <hitpointsMax mul="0.2" />
-                <armor add="2" />
+                <cityRadius add="1"/>
+                <rangeMax add="1"/>
+                <hitpointsMax mul="0.2"/>
+                <armor add="2"/>
             </effects>
         </modifier>
     </modifiers>

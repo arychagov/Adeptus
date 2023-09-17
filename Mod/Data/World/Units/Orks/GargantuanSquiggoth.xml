@@ -1,85 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit bloodBone="Torso" idleAnimation="Units/Orks/GargantuanSquiggothIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Orks/GargantuanSquiggoth" mesh="Units/Orks/GargantuanSquiggoth" normalWeight="0.1" scale="0.9 0.9 0.9" walker="1" />
+        <unit bloodBone="Torso"
+              idleAnimation="Units/Orks/GargantuanSquiggothIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/Orks/GargantuanSquiggoth"
+              mesh="Units/Orks/GargantuanSquiggoth"
+              normalWeight="0.1"
+              scale="0.9 0.9 0.9"
+              walker="1"/>
     </model>
     <weapons>
         <weapon name="CloseCombatWeapon">
             <model>
-                <weapon fireInterval="0.5" fireSoundCount="0" />
+                <weapon fireInterval="0.5"
+                        fireSoundCount="0"/>
             </model>
         </weapon>
         <weapon name="SupaLobba">
             <model>
-                <projectileWeapon fireInterval="1.0" muzzleBone=".SupaLobbaMuzzle" />
+                <projectileWeapon fireInterval="1.0"
+                                  muzzleBone=".SupaLobbaMuzzle"/>
             </model>
         </weapon>
-        <weapon name="TwinLinkedBigShoota" count="2">
+        <weapon name="TwinLinkedBigShoota"
+                count="2">
             <model>
-                <projectileWeapon effectFaceWeight="0" muzzleBone=".BigShootaMuzzle" muzzleCount="4" />
+                <projectileWeapon effectFaceWeight="0"
+                                  muzzleBone=".BigShootaMuzzle"
+                                  muzzleCount="4"/>
             </model>
         </weapon>
-        <weapon name="Stomp" enabled="0" slotName="Stomp" />
+        <weapon name="Stomp"
+                enabled="0"
+                slotName="Stomp"/>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="6" /> <!-- %armor base armor=4+ -->
-                <cargoSlots base="6" /> <!-- %cargoSlots base capacity=20 -->
-                <foodUpkeep base="12.0" /> <!-- %foodUpkeep base tier=11 factor=1 -->
-                <foodCost base="120.0" /> <!-- %foodCost base tier=11 factor=0.5 -->
-                <hitpointsMax base="96.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=8 wounds=8 -->
-                <influenceUpkeep base="12.0" /> <!-- %influenceUpkeep base tier=11 factor=1 -->
-                <meleeAccuracy base="4" /> <!-- %meleeAccuracy base weaponSkill=2 -->
-                <meleeAttacks base="4" />
-                <strengthDamage base="12" /> <!-- %strengthDamage base strength=10 -->
+                <armor base="6"/> <!-- %armor base armor=4+ -->
+                <cargoSlots base="6"/> <!-- %cargoSlots base capacity=20 -->
+                <foodUpkeep base="12.0"/> <!-- %foodUpkeep base tier=11 factor=1 -->
+                <foodCost base="120.0"/> <!-- %foodCost base tier=11 factor=0.5 -->
+                <hitpointsMax base="96.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=8 wounds=8 -->
+                <influenceUpkeep base="12.0"/> <!-- %influenceUpkeep base tier=11 factor=1 -->
+                <meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
+                <meleeAttacks base="4"/>
+                <strengthDamage base="12"/> <!-- %strengthDamage base strength=10 -->
                 <!-- <meleeInitiative base="1"/> -->
-                <moraleMax base="8" /> <!-- %moraleMax base leadership=7 -->
-                <movementMax base="3" />
-                <oreCost base="120.0" /> <!-- %oreCost base tier=11 factor=0.5 -->
-                <productionCost base="66.0" /> <!-- %productionCost base tier=11 factor=1 -->
-                <rangedAccuracy base="4" /> <!-- %rangedAccuracy base ballisticSkill=2 -->
+                <moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
+                <movementMax base="3"/>
+                <oreCost base="120.0"/> <!-- %oreCost base tier=11 factor=0.5 -->
+                <productionCost base="66.0"/> <!-- %productionCost base tier=11 factor=1 -->
+                <rangedAccuracy base="4"/> <!-- %rangedAccuracy base ballisticSkill=2 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0" />
+                <increaseInfantryScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/Orks/GargantuanSquiggothAttack" beginFire="0.5" chargeAnimation="Units/Orks/GargantuanSquiggothCharge" chargeBeginFire="0.25" chargeDefenseAnimation="Units/Orks/GargantuanSquiggothChargeDefense" chargeDefenseBeginFire="0.25" chargeDefenseEndFire="1.25" chargeEndFire="1.25" endFire="2.0" meleeAnimation="Units/Orks/GargantuanSquiggothMelee" meleeBeginSwing="0.5" meleeDefenseAnimation="Units/Orks/GargantuanSquiggothMeleeDefense" meleeEndSwing="1.0" meleeSound="Units/Orks/GargantuanSquiggothAttack" meleeSoundCount="2" />
+                <action animation="Units/Orks/GargantuanSquiggothAttack"
+                        beginFire="0.5"
+                        chargeAnimation="Units/Orks/GargantuanSquiggothCharge"
+                        chargeBeginFire="0.25"
+                        chargeDefenseAnimation="Units/Orks/GargantuanSquiggothChargeDefense"
+                        chargeDefenseBeginFire="0.25"
+                        chargeDefenseEndFire="1.25"
+                        chargeEndFire="1.25"
+                        endFire="2.0"
+                        meleeAnimation="Units/Orks/GargantuanSquiggothMelee"
+                        meleeBeginSwing="0.5"
+                        meleeDefenseAnimation="Units/Orks/GargantuanSquiggothMeleeDefense"
+                        meleeEndSwing="1.0"
+                        meleeSound="Units/Orks/GargantuanSquiggothAttack"
+                        meleeSoundCount="2"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Orks/GargantuanSquiggothDie" sound="Units/Orks/GargantuanSquiggothDie" soundCount="2" soundDelay="0" />
+                <action animation="Units/Orks/GargantuanSquiggothDie"
+                        sound="Units/Orks/GargantuanSquiggothDie"
+                        soundCount="2"
+                        soundDelay="0"/>
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0" />
+                <action animationSpeed="1.0"/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/Orks/GargantuanSquiggothMove" sound="Units/Orks/GargantuanSquiggothMove" soundCount="2" />
+                <action animation="Units/Orks/GargantuanSquiggothMove"
+                        sound="Units/Orks/GargantuanSquiggothMove"
+                        soundCount="2"/>
             </model>
         </move>
         <auraOfFear passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" excludeRadius="0" radius="1">
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Fear" />
+                                        <addTrait name="Fear"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -88,9 +124,12 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <hammerOfWrath consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredUpgrade="Orks/GrotRiggers">
+        <hammerOfWrath consumedActionPoints="0"
+                       consumedMovement="0"
+                       cooldown="3"
+                       requiredUpgrade="Orks/GrotRiggers">
             <model>
-                <action sound="Actions/PsychicBuff" />
+                <action sound="Actions/PsychicBuff"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -99,7 +138,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="HammerOfWrath" duration="1" />
+                                        <addTrait name="HammerOfWrath"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -108,27 +148,33 @@
                 </selfTarget>
             </beginTargets>
         </hammerOfWrath>
-        <stomp consumedActionPoints="0" cooldown="1" requiredActionPoints="0" weaponSlotName="Stomp" />
+        <stomp consumedActionPoints="0"
+               cooldown="1"
+               requiredActionPoints="0"
+               weaponSlotName="Stomp"/>
     </actions>
     <traits>
-        <trait name="AssaultVehicle" />
-        <trait name="Orks/CreateOrkoidFungusOnDeath" />
-        <trait name="ExtraInfantryArmour" requiredUpgrade="Orks/ExtraInfantryArmour" />
-        <trait name="Fearless" />
-        <trait name="FeelNoPain" />
-        <trait name="Gargantuan" />
-        <trait name="Orks/MightMakesRight" />
-        <trait name="MonstrousCreature" />
-        <trait name="MoveThroughCover" />
-        <trait name="Relentless" />
-        <trait name="Orks/GreenTideHealing" />
-        <trait name="OrkoidFungusBonusHealingRate" requiredUpgrade="Orks/OrkoidFungusBonusHealingRate" />
-        <trait name="OrkoidFungusBonusFeelNoPainDamageReduction" requiredUpgrade="Orks/CreatePermanentOrkoidFungusOnDeath" />
-        <trait name="Orks/Scavenger" />
+        <trait name="AssaultVehicle"/>
+        <trait name="Orks/CreateOrkoidFungusOnDeath"/>
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="Orks/ExtraInfantryArmour"/>
+        <trait name="Fearless"/>
+        <trait name="FeelNoPain"/>
+        <trait name="Gargantuan"/>
+        <trait name="Orks/MightMakesRight"/>
+        <trait name="MonstrousCreature"/>
+        <trait name="MoveThroughCover"/>
+        <trait name="Relentless"/>
+        <trait name="Orks/GreenTideHealing"/>
+        <trait name="OrkoidFungusBonusHealingRate"
+               requiredUpgrade="Orks/OrkoidFungusBonusHealingRate"/>
+        <trait name="OrkoidFungusBonusFeelNoPainDamageReduction"
+               requiredUpgrade="Orks/CreatePermanentOrkoidFungusOnDeath"/>
+        <trait name="Orks/Scavenger"/>
         <!-- <trait name="SlowAndPurposeful"/> -->
-        <trait name="Smash" />
-        <trait name="Strikedown" />
-        <trait name="Transport" />
-        <trait name="Tusked" />
+        <trait name="Smash"/>
+        <trait name="Strikedown"/>
+        <trait name="Transport"/>
+        <trait name="Tusked"/>
     </traits>
 </unit>

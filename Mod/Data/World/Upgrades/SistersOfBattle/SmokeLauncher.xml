@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Traits/SmokeScreen" position="6" visible="0">
+<upgrade icon="Traits/SmokeScreen"
+         position="6"
+         visible="0">
     <requiredUpgrades>
-        <upgrade name="SistersOfBattle/Vehicles" />
+        <upgrade name="SistersOfBattle/Vehicles"/>
     </requiredUpgrades>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="1.0" />
+                <increaseVehiclesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

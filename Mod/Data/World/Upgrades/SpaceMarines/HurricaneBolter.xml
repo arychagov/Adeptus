@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Weapons/TwinLinkedBoltgun" position="6">
+<upgrade icon="Weapons/TwinLinkedBoltgun"
+         position="6">
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseAircraftScore base="1.0" />
+                <increaseAircraftScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feature category="Brush">
     <model>
-        <vegetation depthMaterial="Terrain/VegetationDepth" material="Terrain/Vegetation" />
+        <vegetation depthMaterial="Terrain/VegetationDepth"
+                    material="Terrain/Vegetation"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <biomassOnConsume add="0" />
-                <food mul="0.00001" />
+                <biomassOnConsume add="0"/>
+                <food mul="0.00001"/>
             </effects>
         </modifier>
     </modifiers>
     <vegetation>
-        <bushes clusterSizeMax="20" clusterSizeMin="10" scaleMax="1.5" scaleMin="0.5" />
+        <bushes clusterSizeMax="20"
+                clusterSizeMin="10"
+                scaleMax="1.5"
+                scaleMin="0.5"/>
     </vegetation>
 </feature>

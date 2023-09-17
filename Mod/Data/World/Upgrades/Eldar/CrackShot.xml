@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Traits/Eldar/CrackShot" position="5">
+<upgrade icon="Traits/Eldar/CrackShot"
+         position="5">
     <requiredUpgrades>
-        <upgrade name="Eldar/FireDragon" />
+        <upgrade name="Eldar/FireDragon"/>
     </requiredUpgrades>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0" />
+                <increaseInfantryScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

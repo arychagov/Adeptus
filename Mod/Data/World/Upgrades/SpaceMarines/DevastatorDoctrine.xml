@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Actions/DevastatorDoctrine" position="4">
+<upgrade icon="Actions/DevastatorDoctrine"
+         position="4">
     <requiredUpgrades>
-        <upgrade name="SpaceMarines/DevastatorSpaceMarine" />
-        <upgrade name="SpaceMarines/KillTeamEliminators" />
-        <upgrade name="SpaceMarines/DevastatorCenturion" />
+        <upgrade name="SpaceMarines/DevastatorSpaceMarine"/>
+        <upgrade name="SpaceMarines/KillTeamEliminators"/>
+        <upgrade name="SpaceMarines/DevastatorCenturion"/>
     </requiredUpgrades>
 </upgrade>

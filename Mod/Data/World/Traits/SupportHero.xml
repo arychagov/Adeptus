@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff">
+<trait alwaysVisible="1"
+       category="Buff">
     <modifiers>
         <modifier>
             <conditions>
-                <encounterRange greater="1" />
+                <encounterRange greater="1"/>
             </conditions>
             <effects>
-                <rangedInvulnerableDamageReduction min="0.33" />
+                <rangedInvulnerableDamageReduction min="0.33"/>
             </effects>
         </modifier>
     </modifiers>

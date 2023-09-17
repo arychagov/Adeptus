@@ -1,75 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit explosionsBone="Hull" idleAnimation="Units/AstraMilitarum/MarauderBomberIdle" idleAnimationCount="2" idleContinuously="1" material="Units/AstraMilitarum/MarauderBomber" mesh="Units/AstraMilitarum/MarauderBomber" normalWeight="1.0" position="0 0 64" scale="1.3 1.3 1.3" />
+        <unit explosionsBone="Hull"
+              idleAnimation="Units/AstraMilitarum/MarauderBomberIdle"
+              idleAnimationCount="2"
+              idleContinuously="1"
+              material="Units/AstraMilitarum/MarauderBomber"
+              mesh="Units/AstraMilitarum/MarauderBomber"
+              normalWeight="1.0"
+              position="0 0 64"
+              scale="1.3 1.3 1.3"/>
     </model>
     <weapons>
         <weapon name="TwinLinkedLascannon">
             <model>
-                <beamWeapon bone="Hull" material="Units/AstraMilitarum/MarauderBomber" mesh="Weapons/AstraMilitarum/MarauderBomberLascannon" muzzleBone=".LascannonMuzzle" />
+                <beamWeapon bone="Hull"
+                            material="Units/AstraMilitarum/MarauderBomber"
+                            mesh="Weapons/AstraMilitarum/MarauderBomberLascannon"
+                            muzzleBone=".LascannonMuzzle"/>
             </model>
         </weapon>
         <weapon name="TwinLinkedHeavyBolter">
             <model>
-                <projectileWeapon bone="Hull" effectFaceWeight="0" material="Units/AstraMilitarum/MarauderBomber" mesh="Weapons/AstraMilitarum/MarauderBomberTopBolters" muzzleBone=".BolterTopMuzzle" />
+                <projectileWeapon bone="Hull"
+                                  effectFaceWeight="0"
+                                  material="Units/AstraMilitarum/MarauderBomber"
+                                  mesh="Weapons/AstraMilitarum/MarauderBomberTopBolters"
+                                  muzzleBone=".BolterTopMuzzle"/>
             </model>
         </weapon>
         <weapon name="TwinLinkedHeavyBolter">
             <model>
-                <projectileWeapon bone="Hull" effectFaceWeight="0" material="Units/AstraMilitarum/MarauderBomber" mesh="Weapons/AstraMilitarum/MarauderBomberRearBolters" muzzleBone=".BolterRearMuzzle" />
+                <projectileWeapon bone="Hull"
+                                  effectFaceWeight="0"
+                                  material="Units/AstraMilitarum/MarauderBomber"
+                                  mesh="Weapons/AstraMilitarum/MarauderBomberRearBolters"
+                                  muzzleBone=".BolterRearMuzzle"/>
             </model>
         </weapon>
-        <weapon name="HeavyBombClusters" enabled="0" slotName="HeavyBombClusters" />
+        <weapon name="HeavyBombClusters"
+                enabled="0"
+                slotName="HeavyBombClusters"/>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="7" /> <!-- %armor base armor=11/11/10 -->
-                <cargoSlotsRequired base="0" />
-                <energyUpkeep base="8.0" /> <!-- %energyUpkeep base tier=10 factor=1 -->
-                <energyCost base="80.0" /> <!-- %energyCost base tier=10 factor=0.5 -->
-                <hitpointsMax base="72.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base armor=11/11/10 wounds=9 -->
-                <oreCost base="80.0" /> <!-- %oreCost base tier=10 factor=0.5 -->
-                <moraleMax base="10" /> <!-- %moraleMax base leadership=8 -->
-                <movementMax base="5" />
-                <productionCost base="60.0" /> <!-- %productionCost base tier=10 factor=1 -->
-                <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <armor base="7"/> <!-- %armor base armor=11/11/10 -->
+                <cargoSlotsRequired base="0"/>
+                <energyUpkeep base="8.0"/> <!-- %energyUpkeep base tier=10 factor=1 -->
+                <energyCost base="80.0"/> <!-- %energyCost base tier=10 factor=0.5 -->
+                <hitpointsMax base="72.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=11/11/10 wounds=9 -->
+                <oreCost base="80.0"/> <!-- %oreCost base tier=10 factor=0.5 -->
+                <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+                <movementMax base="5"/>
+                <productionCost base="60.0"/> <!-- %productionCost base tier=10 factor=1 -->
+                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseAircraftScore base="1.0" />
+                <increaseAircraftScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/AstraMilitarum/MarauderBomberAttack" beginFire="0.1" endFire="2.5" />
+                <action animation="Units/AstraMilitarum/MarauderBomberAttack"
+                        beginFire="0.1"
+                        endFire="2.5"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/AstraMilitarum/MarauderBomberDie" sound="Units/LargeVehicleDie" soundCount="3" soundDelay="0.2" />
+                <action animation="Units/AstraMilitarum/MarauderBomberDie"
+                        sound="Units/LargeVehicleDie"
+                        soundCount="3"
+                        soundDelay="0.2"/>
             </model>
         </die>
         <move>
             <model>
-                <action sound="Units/AstraMilitarum/MarauderBomberMove" soundCount="3" />
+                <action sound="Units/AstraMilitarum/MarauderBomberMove"
+                        soundCount="3"/>
             </model>
         </move>
         <auraOfFear passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" excludeRadius="0" radius="1">
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Fear" />
+                                        <addTrait name="Fear"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -78,13 +107,18 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" enabled="0" requiredActionPoints="0" visible="0">
+        <jink consumedActionPoints="0"
+              consumedMovement="0"
+              cooldown="3"
+              enabled="0"
+              requiredActionPoints="0"
+              visible="0">
             <model>
-                <action sound="Actions/ChargeUp" />
+                <action sound="Actions/ChargeUp"/>
             </model>
             <conditions>
                 <unit>
-                    <notAttackedThisTurn />
+                    <notAttackedThisTurn/>
                 </unit>
             </conditions>
             <beginTargets>
@@ -94,7 +128,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Jink" duration="1" />
+                                        <addTrait name="Jink"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -103,9 +138,13 @@
                 </selfTarget>
             </beginTargets>
         </jink>
-        <dispenseChaff consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/ChaffLauncher">
+        <dispenseChaff consumedActionPoints="0"
+                       consumedMovement="0"
+                       cooldown="5"
+                       requiredActionPoints="0"
+                       requiredUpgrade="AstraMilitarum/ChaffLauncher">
             <model>
-                <action sound="Actions/SmokeScreen" />
+                <action sound="Actions/SmokeScreen"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -114,7 +153,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Chaff" duration="1" />
+                                        <addTrait name="Chaff"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -123,16 +163,21 @@
                 </selfTarget>
             </beginTargets>
         </dispenseChaff>
-        <heavyBombClusters consumedActionPoints="0" cooldown="3" requiredActionPoints="0" weaponSlotName="HeavyBombClusters">
+        <heavyBombClusters consumedActionPoints="0"
+                           cooldown="3"
+                           requiredActionPoints="0"
+                           weaponSlotName="HeavyBombClusters">
             <model>
-                <action beginFire="1.4" endFire="1.9" />
+                <action beginFire="1.4"
+                        endFire="1.9"/>
             </model>
         </heavyBombClusters>
     </actions>
     <traits>
-        <trait name="ExtraVehicleArmour" requiredUpgrade="AstraMilitarum/ExtraVehicleArmour" />
-        <trait name="Flyer" />
-        <trait name="SuperHeavy" />
-        <trait name="Vehicle" />
+        <trait name="ExtraVehicleArmour"
+               requiredUpgrade="AstraMilitarum/ExtraVehicleArmour"/>
+        <trait name="Flyer"/>
+        <trait name="SuperHeavy"/>
+        <trait name="Vehicle"/>
     </traits>
 </unit>

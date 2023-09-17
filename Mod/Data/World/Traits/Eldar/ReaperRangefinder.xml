@@ -5,12 +5,12 @@
             <conditions>
                 <encounter>
                     <opponent>
-                        <trait name="Jink" />
+                        <trait name="Jink"/>
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <rangedDamageReductionBypass add="0.33" />
+                <rangedDamageReductionBypass add="0.33"/>
             </effects>
         </modifier>
     </modifiers>

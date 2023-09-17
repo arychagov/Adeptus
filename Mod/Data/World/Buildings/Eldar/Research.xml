@@ -3,27 +3,28 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="24" />
-                <oreCost base="30" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <energyUpkeep add="1" />
+                <productionCost base="24"/>
+                <oreCost base="30"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <energyUpkeep add="1"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <research add="6" />
+                <research add="6"/>
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseResearchScore base="1.0" />
+                <increaseResearchScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <traits>
-        <trait name="Eldar/ResearchBuildingBonus" requiredUpgrade="Eldar/ResearchBuildingBonus" />
+        <trait name="Eldar/ResearchBuildingBonus"
+               requiredUpgrade="Eldar/ResearchBuildingBonus"/>
     </traits>
 </building>

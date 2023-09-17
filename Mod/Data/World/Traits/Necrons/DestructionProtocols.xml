@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff" icon="Actions/Necrons/DestructionProtocols" rankMax="2">
+<trait alwaysVisible="1"
+       category="Buff"
+       icon="Actions/Necrons/DestructionProtocols"
+       rankMax="2">
     <modifiers>
         <modifier>
             <effects>
-                <rangedAccuracy addMax="1.5" addMin="0.5" />
+                <rangedAccuracy addMax="1.5"
+                                addMin="0.5"/>
             </effects>
         </modifier>
     </modifiers>
@@ -12,12 +16,13 @@
             <conditions>
                 <encounter>
                     <opponent>
-                        <noAttacking />
+                        <noAttacking/>
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <addTrait name="Necrons/DestructionProtocolsDebuff" duration="1" />
+                <addTrait name="Necrons/DestructionProtocolsDebuff"
+                          duration="1"/>
             </effects>
         </modifier>
     </onCombatOpponentModifiers>

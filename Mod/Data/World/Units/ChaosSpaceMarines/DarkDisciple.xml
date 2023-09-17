@@ -1,72 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement8">
     <model>
-        <unit bloodBone="Chest" idleAnimation="Units/ChaosSpaceMarines/DarkDiscipleIdle" idleAnimationCount="3" idleContinuously="1" material="Units/ChaosSpaceMarines/DarkDisciple" mesh="Units/ChaosSpaceMarines/DarkDisciple" normalWeight="0.1" portraitFocusHeightModifier="-24" portraitZoomModifier="1.6" scale="0.8 0.8 0.8" walker="1" />
+        <unit bloodBone="Chest"
+              idleAnimation="Units/ChaosSpaceMarines/DarkDiscipleIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/ChaosSpaceMarines/DarkDisciple"
+              mesh="Units/ChaosSpaceMarines/DarkDisciple"
+              normalWeight="0.1"
+              portraitFocusHeightModifier="-24"
+              portraitZoomModifier="1.6"
+              scale="0.8 0.8 0.8"
+              walker="1"/>
     </model>
-    <group memberDeltaX="70" memberDeltaY="50" rowSize="5" size="10" />
+    <group memberDeltaX="70"
+           memberDeltaY="50"
+           rowSize="5"
+           size="10"/>
     <weapons>
         <weapon name="CloseCombatWeapon">
             <model>
-                <weapon fireInterval="10.0" />
+                <weapon fireInterval="10.0"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="4" /> <!-- %armor base armor=5+ -->
-                <hitpointsMax base="2.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=3 wounds=1 -->
-                <meleeAccuracy base="6" /> <!-- %meleeAccuracy base weaponSkill=3 -->
-                <meleeAttacks base="1" />
-                <strengthDamage base="1" /> <!-- %strengthDamage base strength=3 -->
-                <moraleMax base="6" /> <!-- %moraleMax base leadership=6 -->
-                <movementMax base="3" />
-                <productionCost base="30.0" /> <!-- %productionCost base tier=5 factor=1 -->
-                <rangedAccuracy base="4" /> <!-- %rangedAccuracy base ballisticSkill=2 -->
-                <foodUpkeep base="1.5" /> <!-- %foodUpkeep base tier=5 factor=1 -->
-                <foodCost base="15.0" /> <!-- %foodCost base tier=5 factor=0.5 -->
-                <oreCost base="15.0" /> <!-- %oreCost base tier=5 factor=0.5 -->
+                <armor base="4"/> <!-- %armor base armor=5+ -->
+                <hitpointsMax base="2.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
+                <meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
+                <meleeAttacks base="1"/>
+                <strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
+                <moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
+                <movementMax base="3"/>
+                <productionCost base="30.0"/> <!-- %productionCost base tier=5 factor=1 -->
+                <rangedAccuracy base="4"/> <!-- %rangedAccuracy base ballisticSkill=2 -->
+                <foodUpkeep base="1.5"/> <!-- %foodUpkeep base tier=5 factor=1 -->
+                <foodCost base="15.0"/> <!-- %foodCost base tier=5 factor=0.5 -->
+                <oreCost base="15.0"/> <!-- %oreCost base tier=5 factor=0.5 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseSupportScore base="1.0" />
+                <increaseSupportScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action chargeAnimation="Units/ChaosSpaceMarines/DarkDiscipleCharge" meleeAnimation="Units/ChaosSpaceMarines/DarkDiscipleMelee" meleeBeginSwing="0.33" meleeEndSwing="0.43" />
+                <action chargeAnimation="Units/ChaosSpaceMarines/DarkDiscipleCharge"
+                        meleeAnimation="Units/ChaosSpaceMarines/DarkDiscipleMelee"
+                        meleeBeginSwing="0.33"
+                        meleeEndSwing="0.43"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/ChaosSpaceMarines/DarkDiscipleDie" animationCount="2" sound="Units/MediumUnarmoredDie" soundCount="4" soundDelay="0.35" voiceSound="Units/AstraMilitarum/InfantryDie" voiceSoundCount="5" />
+                <action animation="Units/ChaosSpaceMarines/DarkDiscipleDie"
+                        animationCount="2"
+                        sound="Units/MediumUnarmoredDie"
+                        soundCount="4"
+                        soundDelay="0.35"
+                        voiceSound="Units/AstraMilitarum/InfantryDie"
+                        voiceSoundCount="5"/>
             </model>
         </die>
         <idle>
             <model>
-                <action />
+                <action/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/ChaosSpaceMarines/DarkDiscipleMove" sound="Units/AstraMilitarum/InfantryMove" soundCount="4" />
+                <action animation="Units/ChaosSpaceMarines/DarkDiscipleMove"
+                        sound="Units/AstraMilitarum/InfantryMove"
+                        soundCount="4"/>
             </model>
         </move>
-        <genericUnitAbility name="ChaosSpaceMarines/DeferredAbsolution" passive="1">
+        <genericUnitAbility name="ChaosSpaceMarines/DeferredAbsolution"
+                            passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" excludeRadius="0" radius="1">
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="ChaosSpaceMarines/DeferredAbsolution" />
+                                        <addTrait name="ChaosSpaceMarines/DeferredAbsolution"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -77,8 +104,10 @@
         </genericUnitAbility>
     </actions>
     <traits>
-        <trait name="ChaosSpaceMarines/ChampionOfChaos" />
-        <trait name="ChaosSpaceMarines/BloatedWithLifesteal" requiredUpgrade="ChaosSpaceMarines/BloatedWithLifesteal" />
-        <trait name="ExtraInfantryArmour" requiredUpgrade="ChaosSpaceMarines/ExtraInfantryArmour" />
+        <trait name="ChaosSpaceMarines/ChampionOfChaos"/>
+        <trait name="ChaosSpaceMarines/BloatedWithLifesteal"
+               requiredUpgrade="ChaosSpaceMarines/BloatedWithLifesteal"/>
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="ChaosSpaceMarines/ExtraInfantryArmour"/>
     </traits>
 </unit>

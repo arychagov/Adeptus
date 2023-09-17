@@ -5,12 +5,12 @@
             <conditions>
                 <encounter>
                     <opponent>
-                        <trait name="Psyker" />
+                        <trait name="Psyker"/>
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <damage mul="0.5" />
+                <damage mul="0.5"/>
             </effects>
         </modifier>
     </modifiers>
@@ -19,12 +19,13 @@
             <conditions>
                 <encounter>
                     <opponent>
-                        <trait name="Psyker" />
+                        <trait name="Psyker"/>
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <addTrait name="Stunned" duration="1" />
+                <addTrait name="Stunned"
+                          duration="1"/>
             </effects>
         </modifier>
     </onCombatOpponentModifiers>

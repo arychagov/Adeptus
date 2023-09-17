@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Weapons/MeltaBomb" position="5">
+<upgrade icon="Weapons/MeltaBomb"
+         position="5">
     <requiredUpgrades>
-        <upgrade name="ChaosSpaceMarines/Infantry" />
+        <upgrade name="ChaosSpaceMarines/Infantry"/>
     </requiredUpgrades>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0" />
+                <increaseInfantryScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

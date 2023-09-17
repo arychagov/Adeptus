@@ -3,19 +3,19 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36" />
-                <oreCost base="50" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <energyUpkeep add="2" />
+                <productionCost base="36"/>
+                <oreCost base="50"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <energyUpkeep add="2"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <food add="1" />
-                <influence add="2" />
-                <ore add="1" />
-                <production add="6" />
+                <food add="1"/>
+                <influence add="2"/>
+                <ore add="1"/>
+                <production add="6"/>
             </effects>
         </modifier>
     </modifiers>
@@ -29,16 +29,21 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryProductionScore base="1.0" />
+                <increaseInfantryProductionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="AdeptusMechanicus/SkitariiVanguard" />
-        <produceUnit requiredUpgrade="AdeptusMechanicus/SkitariiRanger" unit="AdeptusMechanicus/SkitariiRanger" />
-        <produceUnit requiredUpgrade="AdeptusMechanicus/SkitariiMarshal" unit="AdeptusMechanicus/SkitariiMarshal" />
-        <produceUnit requiredUpgrade="AdeptusMechanicus/SerberysSulphurhound" unit="AdeptusMechanicus/SerberysSulphurhound" />
-        <produceUnit requiredUpgrade="AdeptusMechanicus/SicarianInfiltrator" unit="AdeptusMechanicus/SicarianInfiltrator" />
-        <produceUnit requiredUpgrade="AdeptusMechanicus/PteraxiiSterylizor" unit="AdeptusMechanicus/PteraxiiSterylizor" />
+        <produceUnit unit="AdeptusMechanicus/SkitariiVanguard"/>
+        <produceUnit requiredUpgrade="AdeptusMechanicus/SkitariiRanger"
+                     unit="AdeptusMechanicus/SkitariiRanger"/>
+        <produceUnit requiredUpgrade="AdeptusMechanicus/SkitariiMarshal"
+                     unit="AdeptusMechanicus/SkitariiMarshal"/>
+        <produceUnit requiredUpgrade="AdeptusMechanicus/SerberysSulphurhound"
+                     unit="AdeptusMechanicus/SerberysSulphurhound"/>
+        <produceUnit requiredUpgrade="AdeptusMechanicus/SicarianInfiltrator"
+                     unit="AdeptusMechanicus/SicarianInfiltrator"/>
+        <produceUnit requiredUpgrade="AdeptusMechanicus/PteraxiiSterylizor"
+                     unit="AdeptusMechanicus/PteraxiiSterylizor"/>
     </actions>
 </building>

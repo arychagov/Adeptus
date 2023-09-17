@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon beamsBlueprint="Effects/GaussBeams" effectScale="20" fireSound="Weapons/GaussAnnihilator" fireSoundCount="3" muzzleFlashesBlueprint="Effects/GaussMuzzleFlashes" />
+        <beamWeapon beamsBlueprint="Effects/GaussBeams"
+                    effectScale="20"
+                    fireSound="Weapons/GaussAnnihilator"
+                    fireSoundCount="3"
+                    muzzleFlashesBlueprint="Effects/GaussMuzzleFlashes"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="3" />
-                <rangedArmorPenetration add="6" /> <!-- %rangedArmorPenetration add armorPiercing=2 -->
-                <rangedDamage add="12" /> <!-- %rangedDamage add strength=10 -->
-                <strengthDamage base="0" />
+                <attacks add="3"/>
+                <rangedArmorPenetration add="6"/> <!-- %rangedArmorPenetration add armorPiercing=2 -->
+                <rangedDamage add="12"/> <!-- %rangedDamage add strength=10 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="4" />
+    <target rangeMax="4"/>
     <traits>
-        <trait name="DestroyerWeapon" />
-        <trait name="GaussDamage" requiredUpgrade="Necrons/GaussDamage" />
+        <trait name="DestroyerWeapon"/>
+        <trait name="GaussDamage"
+               requiredUpgrade="Necrons/GaussDamage"/>
         <!-- <trait name="PrimaryWeapon"/> -->
-        <trait name="Skyfire" />
+        <trait name="Skyfire"/>
     </traits>
 </weapon>

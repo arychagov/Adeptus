@@ -3,18 +3,18 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36" />
-                <requisitionsCost base="50" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <energyUpkeep add="2" />
+                <productionCost base="36"/>
+                <requisitionsCost base="50"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <energyUpkeep add="2"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <production add="6" />
-                <research add="2" />
-                <influence add="2" />
+                <production add="6"/>
+                <research add="2"/>
+                <influence add="2"/>
             </effects>
         </modifier>
     </modifiers>
@@ -28,18 +28,25 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryProductionScore base="1.0" />
+                <increaseInfantryProductionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="SpaceMarines/TacticalSpaceMarine" />
-        <produceUnit requiredUpgrade="SpaceMarines/Scout" unit="SpaceMarines/Scout" />
-        <produceUnit requiredUpgrade="SpaceMarines/AssaultSpaceMarine" unit="SpaceMarines/AssaultSpaceMarine" />
-        <produceUnit requiredUpgrade="SpaceMarines/DevastatorSpaceMarine" unit="SpaceMarines/DevastatorSpaceMarine" />
-        <produceUnit requiredUpgrade="SpaceMarines/ThunderfireCannon" unit="SpaceMarines/ThunderfireCannon" />
-        <produceUnit requiredUpgrade="SpaceMarines/Apothecary" unit="SpaceMarines/Apothecary" />
-        <produceUnit requiredUpgrade="SpaceMarines/Terminator" unit="SpaceMarines/Terminator" />
-        <produceUnit requiredUpgrade="SpaceMarines/DevastatorCenturion" unit="SpaceMarines/DevastatorCenturion" />
+        <produceUnit unit="SpaceMarines/TacticalSpaceMarine"/>
+        <produceUnit requiredUpgrade="SpaceMarines/Scout"
+                     unit="SpaceMarines/Scout"/>
+        <produceUnit requiredUpgrade="SpaceMarines/AssaultSpaceMarine"
+                     unit="SpaceMarines/AssaultSpaceMarine"/>
+        <produceUnit requiredUpgrade="SpaceMarines/DevastatorSpaceMarine"
+                     unit="SpaceMarines/DevastatorSpaceMarine"/>
+        <produceUnit requiredUpgrade="SpaceMarines/ThunderfireCannon"
+                     unit="SpaceMarines/ThunderfireCannon"/>
+        <produceUnit requiredUpgrade="SpaceMarines/Apothecary"
+                     unit="SpaceMarines/Apothecary"/>
+        <produceUnit requiredUpgrade="SpaceMarines/Terminator"
+                     unit="SpaceMarines/Terminator"/>
+        <produceUnit requiredUpgrade="SpaceMarines/DevastatorCenturion"
+                     unit="SpaceMarines/DevastatorCenturion"/>
     </actions>
 </building>

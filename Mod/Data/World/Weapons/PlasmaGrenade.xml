@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <grenadeWeapon effectScale="1.25" explosionSound="Explosions/PlasmaGrenade" explosionSoundCount="1" explosionsBlueprint="Effects/PlasmaExplosions" explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter" fireSound="Weapons/GrenadeThrow" fireSoundCount="6" grenadeBlueprint="Weapons/Eldar/PlasmaGrenade" />
+        <grenadeWeapon effectScale="1.25"
+                       explosionSound="Explosions/PlasmaGrenade"
+                       explosionSoundCount="1"
+                       explosionsBlueprint="Effects/PlasmaExplosions"
+                       explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter"
+                       fireSound="Weapons/GrenadeThrow"
+                       fireSoundCount="6"
+                       grenadeBlueprint="Weapons/Eldar/PlasmaGrenade"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <rangedArmorPenetration add="2" /> <!-- %rangedArmorPenetration add armorPiercing=4 -->
-                <rangedDamage add="2" /> <!-- %rangedDamage add strength=5 -->
-                <strengthDamage base="0" />
+                <rangedArmorPenetration add="2"/> <!-- %rangedArmorPenetration add armorPiercing=4 -->
+                <rangedDamage add="2"/> <!-- %rangedDamage add strength=5 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="1" />
+    <target rangeMax="1"/>
     <traits>
-        <trait name="HeavyWeapon" />
-        <trait name="Eldar/HeavyWeaponBonus" requiredUpgrade="Eldar/HeavyWeaponBonus" />
-        <trait name="Blast" />
-        <trait name="Grenade" />
+        <trait name="HeavyWeapon"/>
+        <trait name="Eldar/HeavyWeaponBonus"
+               requiredUpgrade="Eldar/HeavyWeaponBonus"/>
+        <trait name="Blast"/>
+        <trait name="Grenade"/>
     </traits>
 </weapon>

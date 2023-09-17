@@ -1,82 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit explosionsBone="Hull" idleAnimation="Units/AstraMilitarum/ValkyrieIdle" idleAnimationCount="2" idleContinuously="1" material="Units/AstraMilitarum/Valkyrie" mesh="Units/AstraMilitarum/Valkyrie" normalWeight="1.0" position="0 0 64" scale="1.8 1.8 1.8" />
+        <unit explosionsBone="Hull"
+              idleAnimation="Units/AstraMilitarum/ValkyrieIdle"
+              idleAnimationCount="2"
+              idleContinuously="1"
+              material="Units/AstraMilitarum/Valkyrie"
+              mesh="Units/AstraMilitarum/Valkyrie"
+              normalWeight="1.0"
+              position="0 0 64"
+              scale="1.8 1.8 1.8"/>
     </model>
     <weapons>
         <weapon name="MultiLaser">
             <model>
-                <beamWeapon bone=".MultiLaserMuzzle0" material="Units/AstraMilitarum/Valkyrie" mesh="Weapons/AstraMilitarum/ValkyrieMultiLaser" muzzleBone=".MultiLaserMuzzle0" />
+                <beamWeapon bone=".MultiLaserMuzzle0"
+                            material="Units/AstraMilitarum/Valkyrie"
+                            mesh="Weapons/AstraMilitarum/ValkyrieMultiLaser"
+                            muzzleBone=".MultiLaserMuzzle0"/>
             </model>
         </weapon>
-        <weapon name="None" enabled="0">
+        <weapon name="None"
+                enabled="0">
             <model>
-                <weapon bone=".HellstrikeMissile0" material="Units/AstraMilitarum/Valkyrie" mesh="Weapons/AstraMilitarum/ValkyrieHellstrikeMissile" />
+                <weapon bone=".HellstrikeMissile0"
+                        material="Units/AstraMilitarum/Valkyrie"
+                        mesh="Weapons/AstraMilitarum/ValkyrieHellstrikeMissile"/>
             </model>
         </weapon>
-        <weapon name="None" enabled="0">
+        <weapon name="None"
+                enabled="0">
             <model>
-                <weapon bone=".HellstrikeMissile1" material="Units/AstraMilitarum/Valkyrie" mesh="Weapons/AstraMilitarum/ValkyrieHellstrikeMissile" />
+                <weapon bone=".HellstrikeMissile1"
+                        material="Units/AstraMilitarum/Valkyrie"
+                        mesh="Weapons/AstraMilitarum/ValkyrieHellstrikeMissile"/>
             </model>
         </weapon>
         <weapon name="HellstrikeMissile">
             <model>
-                <missileWeapon fireInterval="1.2" missileScale="0.8" muzzleBone=".HellstrikeMissile" muzzleCount="2" />
+                <missileWeapon fireInterval="1.2"
+                               missileScale="0.8"
+                               muzzleBone=".HellstrikeMissile"
+                               muzzleCount="2"/>
             </model>
         </weapon>
-        <weapon name="HeavyBolter" count="2" enabled="0" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters" slotName="HeavyBolterUpgrade">
+        <weapon name="HeavyBolter"
+                count="2"
+                enabled="0"
+                requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters"
+                slotName="HeavyBolterUpgrade">
             <model>
-                <projectileWeapon bone="Hull" material="Weapons/AstraMilitarum/HydraHeavyBolter" mesh="Weapons/AstraMilitarum/ValkyrieHeavyBolters" muzzleBone=".Muzzle" muzzleCount="2" />
+                <projectileWeapon bone="Hull"
+                                  material="Weapons/AstraMilitarum/HydraHeavyBolter"
+                                  mesh="Weapons/AstraMilitarum/ValkyrieHeavyBolters"
+                                  muzzleBone=".Muzzle"
+                                  muzzleCount="2"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8" /> <!-- %armor base armor=12/12/10 -->
-                <cargoSlots base="4" /> <!-- %cargoSlots base capacity=12 -->
-                <energyUpkeep base="3.0" /> <!-- %energyUpkeep base tier=7 factor=1 -->
-                <energyCost base="30.0" /> <!-- %energyCost base tier=7 factor=0.5 -->
-                <hitpointsMax base="24.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base armor=12/12/10 wounds=3 -->
-                <oreCost base="30.0" /> <!-- %oreCost base tier=7 factor=0.5 -->
-                <moraleMax base="8" /> <!-- %moraleMax base leadership=7 -->
-                <movementMax base="6" />
-                <productionCost base="42.0" /> <!-- %productionCost base tier=7 factor=1 -->
-                <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <armor base="8"/> <!-- %armor base armor=12/12/10 -->
+                <cargoSlots base="4"/> <!-- %cargoSlots base capacity=12 -->
+                <energyUpkeep base="3.0"/> <!-- %energyUpkeep base tier=7 factor=1 -->
+                <energyCost base="30.0"/> <!-- %energyCost base tier=7 factor=0.5 -->
+                <hitpointsMax base="24.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=12/12/10 wounds=3 -->
+                <oreCost base="30.0"/> <!-- %oreCost base tier=7 factor=0.5 -->
+                <moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
+                <movementMax base="6"/>
+                <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseAircraftScore base="1.0" />
+                <increaseAircraftScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/AstraMilitarum/ValkyrieAttack" beginFire="0.1" endFire="2.5" />
+                <action animation="Units/AstraMilitarum/ValkyrieAttack"
+                        beginFire="0.1"
+                        endFire="2.5"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/AstraMilitarum/ValkyrieDie" sound="Units/MediumVehicleDie" soundCount="3" soundDelay="0.2" />
+                <action animation="Units/AstraMilitarum/ValkyrieDie"
+                        sound="Units/MediumVehicleDie"
+                        soundCount="3"
+                        soundDelay="0.2"/>
             </model>
         </die>
         <move>
             <model>
-                <action sound="Units/AstraMilitarum/ValkyrieMove" soundCount="3" />
+                <action sound="Units/AstraMilitarum/ValkyrieMove"
+                        soundCount="3"/>
             </model>
         </move>
-        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
+        <jink consumedActionPoints="0"
+              consumedMovement="0"
+              cooldown="3"
+              requiredActionPoints="0">
             <model>
-                <action sound="Actions/ChargeUp" />
+                <action sound="Actions/ChargeUp"/>
             </model>
             <conditions>
                 <unit>
-                    <notAttackedThisTurn />
+                    <notAttackedThisTurn/>
                 </unit>
             </conditions>
             <beginTargets>
@@ -86,7 +123,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Jink" duration="1" />
+                                        <addTrait name="Jink"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -95,23 +133,30 @@
                 </selfTarget>
             </beginTargets>
         </jink>
-        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters" weaponSlotName="HeavyBolterUpgrade">
+        <useWeapon consumedActionPoints="0"
+                   consumedMovement="0"
+                   cooldown="1"
+                   requiredActionPoints="0"
+                   requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters"
+                   weaponSlotName="HeavyBolterUpgrade">
             <conditions>
                 <unit>
-                    <trait name="AstraMilitarum/AdditionalHeavyBolters" />
-                    <noTrait name="Exhausted" />
+                    <trait name="AstraMilitarum/AdditionalHeavyBolters"/>
+                    <noTrait name="Exhausted"/>
                 </unit>
             </conditions>
             <model>
-                <action beginFire="0.1" endFire="1.0" />
+                <action beginFire="0.1"
+                        endFire="1.0"/>
             </model>
         </useWeapon>
     </actions>
     <traits>
-        <trait name="ExtraVehicleArmour" requiredUpgrade="AstraMilitarum/ExtraVehicleArmour" />
-        <trait name="Flyer" />
+        <trait name="ExtraVehicleArmour"
+               requiredUpgrade="AstraMilitarum/ExtraVehicleArmour"/>
+        <trait name="Flyer"/>
         <!-- <trait name="Hover"/> -->
-        <trait name="Transport" />
-        <trait name="Vehicle" />
+        <trait name="Transport"/>
+        <trait name="Vehicle"/>
     </traits>
 </unit>

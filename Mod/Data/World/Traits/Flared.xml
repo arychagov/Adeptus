@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff" icon="Traits/Blind">
+<trait category="Debuff"
+       icon="Traits/Blind">
     <modifiers>
         <modifier>
             <effects>
-                <accuracy mul="-0.33" />
+                <accuracy mul="-0.33"/>
             </effects>
         </modifier>
     </modifiers>

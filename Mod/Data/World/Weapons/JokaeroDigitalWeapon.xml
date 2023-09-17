@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon icon="Items/JokaeroDigitalWeapon">
     <model>
-        <beamWeapon beamsBlueprint="Effects/GaussBeams" fireSound="Weapons/GaussFluxArc" fireSoundCount="4" muzzleFlashesBlueprint="Effects/GaussMuzzleFlashes" />
+        <beamWeapon beamsBlueprint="Effects/GaussBeams"
+                    fireSound="Weapons/GaussFluxArc"
+                    fireSoundCount="4"
+                    muzzleFlashesBlueprint="Effects/GaussMuzzleFlashes"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <accuracy max="12" min="12" />
-                <attacks add="1" />
-                <rangedArmorPenetration add="8" /> <!-- %rangedArmorPenetration add armorPiercing=1 -->
-                <rangedDamage add="12" /> <!-- %rangedDamage add strength=10 -->
-                <strengthDamage base="0" />
+                <accuracy max="12"
+                          min="12"/>
+                <attacks add="1"/>
+                <rangedArmorPenetration add="8"/> <!-- %rangedArmorPenetration add armorPiercing=1 -->
+                <rangedDamage add="12"/> <!-- %rangedDamage add strength=10 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>

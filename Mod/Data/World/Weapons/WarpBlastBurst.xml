@@ -1,23 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon beamsBlueprint="Effects/WarpBlastBurst" beamsEmitterBlueprint="Effects/WarpBlastBurstEmitter" effectFaceWeight="1.0" effectScale="1.0" fireInterval="10.0" fireSound="Weapons/WarpBlastBurst" fireSoundCount="3" muzzleFlashesBlueprint="Effects/WarpBlastMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/WarpBlastMuzzleFlashesEmitter" />
+        <beamWeapon beamsBlueprint="Effects/WarpBlastBurst"
+                    beamsEmitterBlueprint="Effects/WarpBlastBurstEmitter"
+                    effectFaceWeight="1.0"
+                    effectScale="1.0"
+                    fireInterval="10.0"
+                    fireSound="Weapons/WarpBlastBurst"
+                    fireSoundCount="3"
+                    muzzleFlashesBlueprint="Effects/WarpBlastMuzzleFlashes"
+                    muzzleFlashesEmitterBlueprint="Effects/WarpBlastMuzzleFlashesEmitter"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="1" />
-                <rangedArmorPenetration add="4" /> <!-- %rangedArmorPenetration add armorPiercing=3 -->
-                <rangedDamage add="2" /> <!-- %rangedDamage add strength=5 -->
-                <strengthDamage base="0" />
+                <attacks add="1"/>
+                <rangedArmorPenetration add="4"/> <!-- %rangedArmorPenetration add armorPiercing=3 -->
+                <rangedDamage add="2"/> <!-- %rangedDamage add strength=5 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="2" />
+    <target rangeMax="2"/>
     <traits>
-        <trait name="Blast" />
-        <trait name="PsychicPower" />
-        <trait name="Witchfire" />
-        <trait name="Tyranids/LongRangedDamage" requiredUpgrade="Tyranids/LongRangedDamage" />
+        <trait name="Blast"/>
+        <trait name="PsychicPower"/>
+        <trait name="Witchfire"/>
+        <trait name="Tyranids/LongRangedDamage"
+               requiredUpgrade="Tyranids/LongRangedDamage"/>
     </traits>
 </weapon>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <material>
-	<textures>
-		<texture name="Units/SistersOfBattle/SisterAssassinorumDiffuse"/>
-		<texture name="Units/SistersOfBattle/BattleSisterNormal"/>
-		<texture name="Units/SistersOfBattle/SisterAssassinorumSIC"/>
-		<texture name="ShadowMapColor"/>
-	</textures>
+    <textures>
+        <texture name="Units/SistersOfBattle/SisterAssassinorumDiffuse"/>
+        <texture name="Units/SistersOfBattle/BattleSisterNormal"/>
+        <texture name="Units/SistersOfBattle/SisterAssassinorumSIC"/>
+        <texture name="ShadowMapColor"/>
+    </textures>
 </material>

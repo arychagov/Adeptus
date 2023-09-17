@@ -4,11 +4,11 @@
         <modifier>
             <conditions>
                 <unit>
-                    <destroyed />
+                    <destroyed/>
                 </unit>
             </conditions>
             <effects>
-                <damage mul="0.25" />
+                <damage mul="0.25"/>
             </effects>
         </modifier>
     </modifiers>

@@ -3,7 +3,7 @@
     <perTurnModifiers endure="0">
         <modifier>
             <effects>
-                <weaponDamage weapon="Blighted" />
+                <weaponDamage weapon="Blighted"/>
             </effects>
         </modifier>
     </perTurnModifiers>

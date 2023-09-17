@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" icon="Traits/PsychneueinInfestation">
+<trait alwaysVisible="1"
+       icon="Traits/PsychneueinInfestation">
     <onCombatOpponentModifiers>
         <modifier>
             <conditions>
                 <encounter>
                     <opponent>
-                        <noAttacking />
-                        <noType name="Eldar/WebwayGate" />
+                        <noAttacking/>
+                        <noType name="Eldar/WebwayGate"/>
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <addTrait name="PsychneueinInfestation" duration="1" />
+                <addTrait name="PsychneueinInfestation"
+                          duration="1"/>
             </effects>
         </modifier>
     </onCombatOpponentModifiers>

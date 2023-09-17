@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Actions/Tyranids/BroodProgenitor" rankMax="2">
+<trait category="Buff"
+       icon="Actions/Tyranids/BroodProgenitor"
+       rankMax="2">
     <modifiers>
         <modifier>
             <conditions>
                 <unit>
-                    <allied />
-                    <type name="Tyranids/Termagant" />
+                    <allied/>
+                    <type name="Tyranids/Termagant"/>
                 </unit>
             </conditions>
             <effects>
-                <attacks mulMax="0.45" mulMin="0.15" />
+                <attacks mulMax="0.45"
+                         mulMin="0.15"/>
             </effects>
         </modifier>
     </modifiers>

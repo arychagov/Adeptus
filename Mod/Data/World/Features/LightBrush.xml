@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feature category="LightBrush" icon="Features/Brush" visible="0">
+<feature category="LightBrush"
+         icon="Features/Brush"
+         visible="0">
     <model>
-        <vegetation depthMaterial="Terrain/VegetationDepth" material="Terrain/Vegetation" />
+        <vegetation depthMaterial="Terrain/VegetationDepth"
+                    material="Terrain/Vegetation"/>
     </model>
     <vegetation>
-        <bushes clusterSizeMax="4" clusterSizeMin="0" scaleMax="1.5" scaleMin="0.5" />
+        <bushes clusterSizeMax="4"
+                clusterSizeMin="0"
+                scaleMax="1.5"
+                scaleMin="0.5"/>
     </vegetation>
 </feature>

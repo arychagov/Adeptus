@@ -2,7 +2,7 @@
 <trait>
     <targetConditions>
         <unit>
-            <noTrait name="Flyer" />
+            <noTrait name="Flyer"/>
         </unit>
     </targetConditions>
 </trait>

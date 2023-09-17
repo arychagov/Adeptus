@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait icon="Missing" visible="0" />
+<trait icon="Missing"
+       visible="0"/>

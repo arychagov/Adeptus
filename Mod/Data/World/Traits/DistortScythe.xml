@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <damage mul="0.5" />
+                <damage mul="0.5"/>
             </effects>
         </modifier>
     </modifiers>

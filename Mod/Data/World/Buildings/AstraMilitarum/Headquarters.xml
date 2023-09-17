@@ -3,35 +3,41 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="336" />
-                <populationRequired base="0" />
-                <slotsRequired base="1" />
+                <productionCost base="336"/>
+                <populationRequired base="0"/>
+                <slotsRequired base="1"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <cityRadius add="1" />
-                <energy add="6" />
-                <food add="6" />
-                <loyalty add="6" />
-                <influence add="6" />
-                <ore add="6" />
-                <populationLimit add="6" />
-                <research add="6" />
-                <production add="6" />
+                <cityRadius add="1"/>
+                <energy add="6"/>
+                <food add="6"/>
+                <loyalty add="6"/>
+                <influence add="6"/>
+                <ore add="6"/>
+                <populationLimit add="6"/>
+                <research add="6"/>
+                <production add="6"/>
             </effects>
         </modifier>
     </modifiers>
     <actions>
-        <produceUnit requiredUpgrade="AstraMilitarum/LordCommissar" unit="AstraMilitarum/LordCommissar" />
-        <produceUnit requiredUpgrade="AstraMilitarum/TankCommander" unit="AstraMilitarum/TankCommander" />
-        <produceUnit requiredUpgrade="AstraMilitarum/PrimarisPsyker" unit="AstraMilitarum/PrimarisPsyker" />
+        <produceUnit requiredUpgrade="AstraMilitarum/LordCommissar"
+                     unit="AstraMilitarum/LordCommissar"/>
+        <produceUnit requiredUpgrade="AstraMilitarum/TankCommander"
+                     unit="AstraMilitarum/TankCommander"/>
+        <produceUnit requiredUpgrade="AstraMilitarum/PrimarisPsyker"
+                     unit="AstraMilitarum/PrimarisPsyker"/>
     </actions>
     <traits>
-        <trait name="AstraMilitarum/CityTier2" requiredUpgrade="AstraMilitarum/CityTier2" />
-        <trait name="AstraMilitarum/CityTier3" requiredUpgrade="AstraMilitarum/CityTier3" />
-        <trait name="Headquarters" />
-        <trait name="AstraMilitarum/Prosperity" requiredUpgrade="AstraMilitarum/Construction" />
-        <trait name="MobileCommand" />
+        <trait name="AstraMilitarum/CityTier2"
+               requiredUpgrade="AstraMilitarum/CityTier2"/>
+        <trait name="AstraMilitarum/CityTier3"
+               requiredUpgrade="AstraMilitarum/CityTier3"/>
+        <trait name="Headquarters"/>
+        <trait name="AstraMilitarum/Prosperity"
+               requiredUpgrade="AstraMilitarum/Construction"/>
+        <trait name="MobileCommand"/>
     </traits>
 </building>

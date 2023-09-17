@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait icon="Actions/SistersOfBattle/NonMilitantMobilisation" visibilityCategory="Building">
+<trait icon="Actions/SistersOfBattle/NonMilitantMobilisation"
+       visibilityCategory="Building">
     <modifiers>
         <modifier>
             <effects>
-                <requisitions mul="0.2" />
+                <requisitions mul="0.2"/>
             </effects>
         </modifier>
     </modifiers>

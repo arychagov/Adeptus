@@ -4,11 +4,11 @@
         <modifier>
             <conditions>
                 <building>
-                    <loyalty greater="0" />
+                    <loyalty greater="0"/>
                 </building>
             </conditions>
             <effects>
-                <loyalty mul="0.17" />
+                <loyalty mul="0.17"/>
             </effects>
         </modifier>
     </modifiers>

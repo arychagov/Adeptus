@@ -1,86 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement3">
     <model>
-        <unit bloodBone="Bone001" idleAnimation="Units/ChaosSpaceMarines/DaemonPrinceIdle" idleAnimationCount="3" idleContinuously="1" material="Units/ChaosSpaceMarines/DaemonPrince" mesh="Units/ChaosSpaceMarines/DaemonPrince" normalWeight="0.1" scale="1 1 1" walker="1" />
+        <unit bloodBone="Bone001"
+              idleAnimation="Units/ChaosSpaceMarines/DaemonPrinceIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/ChaosSpaceMarines/DaemonPrince"
+              mesh="Units/ChaosSpaceMarines/DaemonPrince"
+              normalWeight="0.1"
+              scale="1 1 1"
+              walker="1"/>
     </model>
     <weapons>
         <weapon name="CloseCombatWeapon">
             <model>
-                <weapon fireInterval="0.5" />
+                <weapon fireInterval="0.5"/>
             </model>
         </weapon>
-        <weapon name="SensoryOverload" enabled="0" slotName="SensoryOverload">
+        <weapon name="SensoryOverload"
+                enabled="0"
+                slotName="SensoryOverload">
             <model>
-                <beamWeapon muzzleBone="Bone014" />
+                <beamWeapon muzzleBone="Bone014"/>
             </model>
         </weapon>
-        <weapon name="BreathOfChaos" enabled="0" slotName="BreathOfChaos">
+        <weapon name="BreathOfChaos"
+                enabled="0"
+                slotName="BreathOfChaos">
             <model>
-                <flamerWeapon muzzleBone=".Mouth" />
+                <flamerWeapon muzzleBone=".Mouth"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8" /> <!-- %armor base armor=3+ -->
-                <hitpointsMax base="20.0" />
-                <duplicateTypeCost mul="2.0" /> <!-- %hitpointsMax base toughness=5 wounds=5 -->
-                <influenceUpkeep base="4.5" /> <!-- %influenceUpkeep base tier=7 factor=1.5 -->
-                <influenceCost base="90.0" /> <!-- %influenceCost base tier=7 factor=1.5 -->
-                <itemSlots base="6" />
-                <levelMax base="9" />
-                <meleeAccuracy base="12" /> <!-- %meleeAccuracy base weaponSkill=9 -->
-                <meleeAttacks base="3" />
-                <strengthDamage base="3" /> <!-- %strengthDamage base strength=6 -->
+                <armor base="8"/> <!-- %armor base armor=3+ -->
+                <hitpointsMax base="20.0"/>
+                <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=5 wounds=5 -->
+                <influenceUpkeep base="4.5"/> <!-- %influenceUpkeep base tier=7 factor=1.5 -->
+                <influenceCost base="90.0"/> <!-- %influenceCost base tier=7 factor=1.5 -->
+                <itemSlots base="6"/>
+                <levelMax base="9"/>
+                <meleeAccuracy base="12"/> <!-- %meleeAccuracy base weaponSkill=9 -->
+                <meleeAttacks base="3"/>
+                <strengthDamage base="3"/> <!-- %strengthDamage base strength=6 -->
                 <!-- <meleeInitiative base="8"/> -->
-                <moraleMax base="12" /> <!-- %moraleMax base leadership=10 -->
-                <movementMax base="3" />
-                <productionCost base="42.0" /> <!-- %productionCost base tier=7 factor=1 -->
-                <rangedAccuracy base="10" /> <!-- %rangedAccuracy base ballisticSkill=5 -->
-                <energyUpkeep base="3.0" /> <!-- %energyUpkeep base tier=7 factor=1 -->
-                <energyCost base="30.0" /> <!-- %energyCost base tier=7 factor=0.5 -->
-                <foodCost base="30.0" /> <!-- %foodCost base tier=7 factor=0.5 -->
+                <moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->
+                <movementMax base="3"/>
+                <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+                <rangedAccuracy base="10"/> <!-- %rangedAccuracy base ballisticSkill=5 -->
+                <energyUpkeep base="3.0"/> <!-- %energyUpkeep base tier=7 factor=1 -->
+                <energyCost base="30.0"/> <!-- %energyCost base tier=7 factor=0.5 -->
+                <foodCost base="30.0"/> <!-- %foodCost base tier=7 factor=0.5 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseHeroesScore base="1.0" />
+                <increaseHeroesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action chargeAnimation="Units/ChaosSpaceMarines/DaemonPrinceCharge" meleeAnimation="Units/ChaosSpaceMarines/DaemonPrinceMelee" meleeBeginSwing="0.03" meleeEndSwing="0.67" />
+                <action chargeAnimation="Units/ChaosSpaceMarines/DaemonPrinceCharge"
+                        meleeAnimation="Units/ChaosSpaceMarines/DaemonPrinceMelee"
+                        meleeBeginSwing="0.03"
+                        meleeEndSwing="0.67"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/ChaosSpaceMarines/DaemonPrinceDie" sound="Units/MediumArmoredDie" soundCount="4" soundDelay="0.8" voiceSound="Units/ChaosSpaceMarines/DaemonPrinceDie" voiceSoundCount="1" />
+                <action animation="Units/ChaosSpaceMarines/DaemonPrinceDie"
+                        sound="Units/MediumArmoredDie"
+                        soundCount="4"
+                        soundDelay="0.8"
+                        voiceSound="Units/ChaosSpaceMarines/DaemonPrinceDie"
+                        voiceSoundCount="1"/>
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0" />
+                <action animationSpeed="1.0"/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/ChaosSpaceMarines/DaemonPrinceMove" sound="Units/AstraMilitarum/BullgrynMove" soundCount="4" />
+                <action animation="Units/ChaosSpaceMarines/DaemonPrinceMove"
+                        sound="Units/AstraMilitarum/BullgrynMove"
+                        soundCount="4"/>
             </model>
         </move>
         <auraOfFear passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" excludeRadius="0" radius="1">
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Fear" />
+                                        <addTrait name="Fear"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -89,9 +113,13 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <hammerOfWrath consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0" requiredUpgrade="ChaosSpaceMarines/SmokeLauncher">
+        <hammerOfWrath consumedActionPoints="0"
+                       consumedMovement="0"
+                       cooldown="3"
+                       requiredActionPoints="0"
+                       requiredUpgrade="ChaosSpaceMarines/SmokeLauncher">
             <model>
-                <action sound="Actions/PsychicBuff" />
+                <action sound="Actions/PsychicBuff"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -100,7 +128,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="HammerOfWrath" duration="1" />
+                                        <addTrait name="HammerOfWrath"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -109,15 +138,17 @@
                 </selfTarget>
             </beginTargets>
         </hammerOfWrath>
-        <genericUnitAbility name="ChaosSpaceMarines/PrinceOfChaos" passive="1">
+        <genericUnitAbility name="ChaosSpaceMarines/PrinceOfChaos"
+                            passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1">
+                        <area affects="Tile"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="ChaosSpaceMarines/PrinceOfChaos" />
+                                        <addTrait name="ChaosSpaceMarines/PrinceOfChaos"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -126,33 +157,11 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility name="ChaosSpaceMarines/NurgleCorruption" icon="Actions/ChaosSpaceMarines/MarkOfNurgle" passive="1" rank="-1" rankMax="2">
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="ChaosSpaceMarines/NurgleCorruptionSelf" />
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                        <area affects="Tile" radiusMax="3" radiusMin="1">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="ChaosSpaceMarines/NurgleCorruption" />
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-        </genericUnitAbility>
-        <genericUnitAbility name="ChaosSpaceMarines/KhorneCorruption" icon="Actions/ChaosSpaceMarines/MarkOfKhorne" passive="1" rank="-1" rankMax="2">
+        <genericUnitAbility name="ChaosSpaceMarines/NurgleCorruption"
+                            icon="Actions/ChaosSpaceMarines/MarkOfNurgle"
+                            passive="1"
+                            rank="-1"
+                            rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -160,7 +169,18 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="ChaosSpaceMarines/KhorneCorruption" />
+                                        <addTrait name="ChaosSpaceMarines/NurgleCorruptionSelf"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                        <area affects="Tile"
+                              radiusMax="3"
+                              radiusMin="1">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="ChaosSpaceMarines/NurgleCorruption"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -169,7 +189,11 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility name="ChaosSpaceMarines/TzeentchCorruption" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch" passive="1" rank="-1" rankMax="2">
+        <genericUnitAbility name="ChaosSpaceMarines/KhorneCorruption"
+                            icon="Actions/ChaosSpaceMarines/MarkOfKhorne"
+                            passive="1"
+                            rank="-1"
+                            rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -177,7 +201,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="ChaosSpaceMarines/TzeentchCorruption" />
+                                        <addTrait name="ChaosSpaceMarines/KhorneCorruption"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -186,7 +210,11 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility name="ChaosSpaceMarines/SlaaneshCorruption" elite="1" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" passive="1" rank="-1" rankMax="0">
+        <genericUnitAbility name="ChaosSpaceMarines/TzeentchCorruption"
+                            icon="Actions/ChaosSpaceMarines/MarkOfTzeentch"
+                            passive="1"
+                            rank="-1"
+                            rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -194,8 +222,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Flyer" />
-                                        <addTrait name="ChaosSpaceMarines/SlaaneshCorruption" />
+                                        <addTrait name="ChaosSpaceMarines/TzeentchCorruption"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -204,9 +231,37 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility name="ChaosSpaceMarines/BlessedChampions" beginOnDisappear="1" cooldown="10" icon="Buildings/ChaosSpaceMarines/Heroes" passive="1" requiredUpgrade="ChaosSpaceMarines/BlessedChampions">
+        <genericUnitAbility name="ChaosSpaceMarines/SlaaneshCorruption"
+                            elite="1"
+                            icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh"
+                            passive="1"
+                            rank="-1"
+                            rankMax="0">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="Flyer"/>
+                                        <addTrait name="ChaosSpaceMarines/SlaaneshCorruption"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
+        <genericUnitAbility name="ChaosSpaceMarines/BlessedChampions"
+                            beginOnDisappear="1"
+                            cooldown="10"
+                            icon="Buildings/ChaosSpaceMarines/Heroes"
+                            passive="1"
+                            requiredUpgrade="ChaosSpaceMarines/BlessedChampions">
             <model>
-                <action sound="Actions/ChaosBuff" />
+                <action sound="Actions/ChaosBuff"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -215,7 +270,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="ChaosSpaceMarines/BlessedChampion" />
+                                        <addTrait name="ChaosSpaceMarines/BlessedChampion"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -223,11 +278,11 @@
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <destroyed />
+                                            <destroyed/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <hitpointsFactorFromMax add="1.0" />
+                                        <hitpointsFactorFromMax add="1.0"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -236,21 +291,23 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <levelUp />
-        <shop />
+        <levelUp/>
+        <shop/>
     </actions>
     <traits>
-        <trait name="Daemon" />
-        <trait name="ExtraInfantryArmour" requiredUpgrade="ChaosSpaceMarines/ExtraInfantryArmour" />
-        <trait name="Fearless" />
-        <trait name="Hero" />
-        <trait name="MonstrousCreature" />
-        <trait name="MoveThroughCover" />
-        <trait name="Psyker" />
-        <trait name="Relentless" />
-        <trait name="Shrouded" />
-        <trait name="Smash" />
-        <trait name="ChaosSpaceMarines/VeteransOfTheLongWar" />
-        <trait name="ChaosSpaceMarines/StimulatedByPain" requiredUpgrade="ChaosSpaceMarines/StimulatedByPain" />
+        <trait name="Daemon"/>
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="ChaosSpaceMarines/ExtraInfantryArmour"/>
+        <trait name="Fearless"/>
+        <trait name="Hero"/>
+        <trait name="MonstrousCreature"/>
+        <trait name="MoveThroughCover"/>
+        <trait name="Psyker"/>
+        <trait name="Relentless"/>
+        <trait name="Shrouded"/>
+        <trait name="Smash"/>
+        <trait name="ChaosSpaceMarines/VeteransOfTheLongWar"/>
+        <trait name="ChaosSpaceMarines/StimulatedByPain"
+               requiredUpgrade="ChaosSpaceMarines/StimulatedByPain"/>
     </traits>
 </unit>

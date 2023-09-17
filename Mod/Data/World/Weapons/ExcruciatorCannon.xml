@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <projectileWeapon cycleMuzzles="0" effectScale="1" fireInterval="0.5" fireSound="Weapons/ExcruciatorCannon" fireSoundCount="3" muzzleFlashesBlueprint="Effects/CannonMuzzleFlashes" />
+        <projectileWeapon cycleMuzzles="0"
+                          effectScale="1"
+                          fireInterval="0.5"
+                          fireSound="Weapons/ExcruciatorCannon"
+                          fireSoundCount="3"
+                          muzzleFlashesBlueprint="Effects/CannonMuzzleFlashes"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="2" />
-                <rangedArmorPenetration add="4" /> <!-- %rangedArmorPenetration add armorPiercing=3 -->
-                <rangedDamage mul="1" /> <!-- %rangedDamage mul strength=2 -->
+                <attacks add="2"/>
+                <rangedArmorPenetration add="4"/> <!-- %rangedArmorPenetration add armorPiercing=3 -->
+                <rangedDamage mul="1"/> <!-- %rangedDamage mul strength=2 -->
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="2" />
+    <target rangeMax="2"/>
     <traits>
-        <trait name="Assault" />
-        <trait name="AstraMilitarum/BoltDamage" requiredUpgrade="AstraMilitarum/BoltDamage" />
-        <trait name="ChaosSpaceMarines/BoltDamage" requiredUpgrade="ChaosSpaceMarines/BoltDamage" />
-        <trait name="SpaceMarines/BoltDamage" requiredUpgrade="SpaceMarines/BoltDamage" />
-        <trait name="BoltWeapon" />
+        <trait name="Assault"/>
+        <trait name="AstraMilitarum/BoltDamage"
+               requiredUpgrade="AstraMilitarum/BoltDamage"/>
+        <trait name="ChaosSpaceMarines/BoltDamage"
+               requiredUpgrade="ChaosSpaceMarines/BoltDamage"/>
+        <trait name="SpaceMarines/BoltDamage"
+               requiredUpgrade="SpaceMarines/BoltDamage"/>
+        <trait name="BoltWeapon"/>
     </traits>
 </weapon>

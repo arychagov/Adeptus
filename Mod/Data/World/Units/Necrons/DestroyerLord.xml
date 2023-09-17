@@ -1,92 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit explosionsBone="BloodBone" idleAnimation="Units/Necrons/DestroyerLordIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Necrons/DestroyerLord" mesh="Units/Necrons/DestroyerLord" normalWeight="0.1" scale="0.9 0.9 0.9" walker="1" />
+        <unit explosionsBone="BloodBone"
+              idleAnimation="Units/Necrons/DestroyerLordIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/Necrons/DestroyerLord"
+              mesh="Units/Necrons/DestroyerLord"
+              normalWeight="0.1"
+              scale="0.9 0.9 0.9"
+              walker="1"/>
     </model>
     <weapons>
-        <weapon name="HeavyGaussCannon" count="2">
+        <weapon name="HeavyGaussCannon"
+                count="2">
             <model>
-                <weapon mesh="Weapons/Necrons/Warscythe" material="Units/Necrons/DestroyerLord" muzzleBone=".Muzzle" bone="Bone037" fireInterval="0.5"/>
+                <weapon bone="Bone037"
+                        fireInterval="0.5"
+                        material="Units/Necrons/DestroyerLord"
+                        mesh="Weapons/Necrons/Warscythe"
+                        muzzleBone=".Muzzle"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8" /> <!-- %armor base armor=3+ -->
-                <energyCost base="60.0" /> <!-- %energyCost base tier=7 factor=1 -->
-                <hitpointsMax base="18.0" />
-                <duplicateTypeCost mul="2.0" /> <!-- %hitpointsMax base toughness=6 wounds=3 -->
-                <influenceUpkeep base="6.0" /> <!-- %influenceUpkeep base tier=7 factor=2 -->
-                <influenceCost base="120.0" /> <!-- %influenceCost base tier=7 factor=2 -->
-                <itemSlots base="6" />
-                <levelMax base="9" />
-                <meleeAccuracy base="8" /> <!-- %meleeAccuracy base weaponSkill=4 -->
-                <meleeAttacks base="2" />
-                <strengthDamage base="2" /> <!-- %strengthDamage base strength=5 -->
+                <armor base="8"/> <!-- %armor base armor=3+ -->
+                <energyCost base="60.0"/> <!-- %energyCost base tier=7 factor=1 -->
+                <hitpointsMax base="18.0"/>
+                <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=6 wounds=3 -->
+                <influenceUpkeep base="6.0"/> <!-- %influenceUpkeep base tier=7 factor=2 -->
+                <influenceCost base="120.0"/> <!-- %influenceCost base tier=7 factor=2 -->
+                <itemSlots base="6"/>
+                <levelMax base="9"/>
+                <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
+                <meleeAttacks base="2"/>
+                <strengthDamage base="2"/> <!-- %strengthDamage base strength=5 -->
                 <!-- <meleeInitiative base="2"/> -->
-                <moraleMax base="12" /> <!-- %moraleMax base leadership=10 -->
-                <movementMax base="3" />
-                <oreUpkeep base="3.0" /> <!-- %oreUpkeep base tier=7 factor=1 -->
-                <productionCost base="42.0" /> <!-- %productionCost base tier=7 factor=1 -->
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->
+                <movementMax base="3"/>
+                <oreUpkeep base="3.0"/> <!-- %oreUpkeep base tier=7 factor=1 -->
+                <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseHeroesScore base="1.0" />
+                <increaseHeroesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action chargeAnimation="Units/Necrons/DestroyerLordCharge" chargeBeginFire="0.25" chargeDefenseAnimation="Units/Necrons/DestroyerLordChargeDefense" chargeDefenseBeginFire="0.25" chargeDefenseEndFire="1.5" chargeEndFire="1.1" meleeAnimation="Units/Necrons/DestroyerLordMelee" meleeBeginSwing="0.2" meleeDefenseAnimation="Units/Necrons/DestroyerLordMeleeDefense" meleeEndSwing="0.9" />
+                <action chargeAnimation="Units/Necrons/DestroyerLordCharge"
+                        chargeBeginFire="0.25"
+                        chargeDefenseAnimation="Units/Necrons/DestroyerLordChargeDefense"
+                        chargeDefenseBeginFire="0.25"
+                        chargeDefenseEndFire="1.5"
+                        chargeEndFire="1.1"
+                        meleeAnimation="Units/Necrons/DestroyerLordMelee"
+                        meleeBeginSwing="0.2"
+                        meleeDefenseAnimation="Units/Necrons/DestroyerLordMeleeDefense"
+                        meleeEndSwing="0.9"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Necrons/DestroyerLordDie" animationCount="1" sound="Units/MediumArmoredDie" soundCount="4" soundDelay="1.5" voiceSound="Units/Necrons/Die" voiceSoundCount="7" />
+                <action animation="Units/Necrons/DestroyerLordDie"
+                        animationCount="1"
+                        sound="Units/MediumArmoredDie"
+                        soundCount="4"
+                        soundDelay="1.5"
+                        voiceSound="Units/Necrons/Die"
+                        voiceSoundCount="7"/>
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0" />
+                <action animationSpeed="1.0"/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/Necrons/DestroyerLordMove" sound="Units/Necrons/DestroyerMove" soundCount="3" />
+                <action animation="Units/Necrons/DestroyerLordMove"
+                        sound="Units/Necrons/DestroyerMove"
+                        soundCount="3"/>
             </model>
         </move>
-        <necrodermisRepair requiredUpgrade="Necrons/NecrodermisRepair" name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
+        <necrodermisRepair name="Necrons/NecrodermisRepair"
+                           consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="1"
+                           requiredActionPoints="0"
+                           requiredUpgrade="Necrons/NecrodermisRepair">
             <model>
-                <action sound="Actions/Heal" />
+                <action sound="Actions/Heal"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="50" />
+                        <influenceCost base="50"/>
                     </effects>
                 </modifier>
 
                 <modifier requiredUpgrade="Necrons/HousingBuildingBonus">
                     <effects>
-                        <cooldown max="0" />
+                        <cooldown max="0"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Necrons/NecrodermisRepair3">
                     <effects>
-                        <influenceCost add="-30" />
+                        <influenceCost add="-30"/>
                     </effects>
                 </modifier>
             </modifiers>
             <conditions>
                 <unit>
-                    <noTrait name="Necrons/BloodyCrusade" />
-                    <damaged />
+                    <noTrait name="Necrons/BloodyCrusade"/>
+                    <damaged/>
                 </unit>
             </conditions>
             <beginTargets>
@@ -96,18 +131,18 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints add="6" />
+                                        <hitpoints add="6"/>
                                     </effects>
                                 </modifier>
 
                                 <modifier requiredUpgrade="Necrons/HousingBuildingBonus">
                                     <effects>
-                                        <hitpoints add="2" />
+                                        <hitpoints add="2"/>
                                     </effects>
                                 </modifier>
                                 <modifier requiredUpgrade="Necrons/NecrodermisRepair3">
                                     <effects>
-                                        <hitpoints add="2" />
+                                        <hitpoints add="2"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -116,43 +151,48 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <dimensionalCorridor name="Necrons/DimensionalCorridor" cooldown="3" requiredUpgrade="Necrons/DimensionalCorridor">
+        <dimensionalCorridor name="Necrons/DimensionalCorridor"
+                             cooldown="3"
+                             requiredUpgrade="Necrons/DimensionalCorridor">
             <model>
-                <action sound="Actions/Teleport" />
+                <action sound="Actions/Teleport"/>
             </model>
             <conditions>
                 <unit>
-                    <noTrait name="Necrons/BloodyCrusade" />
+                    <noTrait name="Necrons/BloodyCrusade"/>
                 </unit>
             </conditions>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="20" />
+                        <influenceCost base="20"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Necrons/DimensionalCorridor2">
                     <effects>
-                        <influenceCost mul="-0.33" />
+                        <influenceCost mul="-0.33"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Necrons/DimensionalCorridor2">
                     <effects>
-                        <consumedActionPoints max="0" />
-                        <consumedMovement max="0" />
+                        <consumedActionPoints max="0"/>
+                        <consumedMovement max="0"/>
                     </effects>
                 </modifier>
             </modifiers>
         </dimensionalCorridor>
-        <jetCharge name="Necrons/JetCharge" cooldown="3" rank="-1" rankMax="2"> <!-- little shield ram effect in front -->
+        <jetCharge name="Necrons/JetCharge"
+                   cooldown="3"
+                   rank="-1"
+                   rankMax="2"> <!-- little shield ram effect in front -->
             <model>
-                <action sound="Actions/JumpPack" />
+                <action sound="Actions/JumpPack"/>
             </model>
             <modifiers>
                 <modifier>
                     <effects>
-                        <movement add="1" />
-                        <movementMax add="1" />
+                        <movement add="1"/>
+                        <movementMax add="1"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -163,12 +203,14 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Necrons/JetCharge" duration="1" />
+                                        <addTrait name="Necrons/JetCharge"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                                 <modifier requiredUpgrade="Necrons/HammerOfWrath">
                                     <effects>
-                                        <addTrait name="HammerOfWrath" duration="1" />
+                                        <addTrait name="HammerOfWrath"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -177,15 +219,20 @@
                 </target>
             </beginTargets>
         </jetCharge>
-        <bloodyCrusade name="Necrons/BloodyCrusade" levelUpPriority="0.1" passive="1" rank="-1" rankMax="2">
+        <bloodyCrusade name="Necrons/BloodyCrusade"
+                       levelUpPriority="0.1"
+                       passive="1"
+                       rank="-1"
+                       rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1">
+                        <area affects="Tile"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Necrons/BloodyCrusade" />
+                                        <addTrait name="Necrons/BloodyCrusade"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -194,7 +241,11 @@
                 </selfTarget>
             </beginTargets>
         </bloodyCrusade>
-        <destructionProtocols name="Necrons/DestructionProtocols" levelUpPriority="0.1" passive="1" rank="-1" rankMax="2">
+        <destructionProtocols name="Necrons/DestructionProtocols"
+                              levelUpPriority="0.1"
+                              passive="1"
+                              rank="-1"
+                              rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -202,7 +253,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Necrons/DestructionProtocols" />
+                                        <addTrait name="Necrons/DestructionProtocols"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -211,9 +262,18 @@
                 </selfTarget>
             </beginTargets>
         </destructionProtocols>
-        <reaper name="Necrons/Reaper" consumedActionPoints="0" consumedMovement="0" cooldown="10" elite="1" levelUpPriority="1" rank="-1" rankMax="0" requiredActionPoints="0">
+        <reaper name="Necrons/Reaper"
+                consumedActionPoints="0"
+                consumedMovement="0"
+                cooldown="10"
+                elite="1"
+                levelUpPriority="1"
+                rank="-1"
+                rankMax="0"
+                requiredActionPoints="0">
             <model>
-                <action animation="Units/Necrons/DestroyerLordAbility" sound="Actions/PsychicBuff" />
+                <action animation="Units/Necrons/DestroyerLordAbility"
+                        sound="Actions/PsychicBuff"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -222,7 +282,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Necrons/Reaper" duration="3" />
+                                        <addTrait name="Necrons/Reaper"
+                                                  duration="3"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -231,18 +292,21 @@
                 </selfTarget>
             </beginTargets>
         </reaper>
-        <levelUp />
-        <shop />
+        <levelUp/>
+        <shop/>
     </actions>
     <traits>
-        <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
-        <trait name="ExtraInfantryArmour" requiredUpgrade="Necrons/ExtraInfantryArmour" />
-        <trait name="Hero" />
-        <trait name="JetPack" />
-        <trait name="Fearless" />
-        <trait name="Relentless" />
-        <trait name="Necrons/ReanimationProtocols" />
-        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
+        <trait name="Necrons/AttackCityBonus"
+               requiredUpgrade="Necrons/AttackCityBonus"/>
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="Necrons/ExtraInfantryArmour"/>
+        <trait name="Hero"/>
+        <trait name="JetPack"/>
+        <trait name="Fearless"/>
+        <trait name="Relentless"/>
+        <trait name="Necrons/ReanimationProtocols"/>
+        <trait name="Necrons/PredictiveStrategist"
+               requiredUpgrade="Necrons/PredictiveStrategist"/>
         <trait name="Bulky"/>
     </traits>
 </unit>

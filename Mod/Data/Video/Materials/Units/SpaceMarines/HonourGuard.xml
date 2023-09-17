@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <material>
-	<textures>
-		<texture name="Units/SpaceMarines/HonourGuardDiffuse"/>
-		<texture name="Units/SpaceMarines/TacticalSpaceMarineNormal"/>
-		<texture name="Units/SpaceMarines/HonourGuardSIC"/>
-		<texture name="ShadowMapColor"/>
-	</textures>
+    <textures>
+        <texture name="Units/SpaceMarines/HonourGuardDiffuse"/>
+        <texture name="Units/SpaceMarines/TacticalSpaceMarineNormal"/>
+        <texture name="Units/SpaceMarines/HonourGuardSIC"/>
+        <texture name="ShadowMapColor"/>
+    </textures>
 </material>

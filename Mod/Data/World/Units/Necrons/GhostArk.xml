@@ -1,86 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement10">
     <model>
-        <unit explosionsBone="Hull" idleAnimation="Units/Necrons/GhostArkIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Necrons/GhostArk" mesh="Units/Necrons/GhostArk" scale="1.2 1.2 1.2" />
+        <unit explosionsBone="Hull"
+              idleAnimation="Units/Necrons/GhostArkIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/Necrons/GhostArk"
+              mesh="Units/Necrons/GhostArk"
+              scale="1.2 1.2 1.2"/>
     </model>
     <weapons>
-        <weapon name="GaussFlayerArray" count="2" slotName="GaussFlayerArray">
+        <weapon name="GaussFlayerArray"
+                count="2"
+                slotName="GaussFlayerArray">
             <model>
-                <beamWeapon effectFaceWeight="0" muzzleBone="LeftMuzzle" muzzleCount="5" />
+                <beamWeapon effectFaceWeight="0"
+                            muzzleBone="LeftMuzzle"
+                            muzzleCount="5"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="7" /> <!-- %armor base armor=11/11/11 -->
-                <cargoSlots base="2" /> <!-- %cargoSlots base capacity=10 -->
-                <hitpointsMax base="32.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base armor=11/11/11 wounds=4 -->
-                <moraleMax base="12" /> <!-- %moraleMax base leadership=10 -->
-                <movementMax base="4" />
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
-                <energyCost base="60.0" /> <!-- %energyCost base tier=8 factor=1 -->
-                <oreUpkeep base="3.0" /> <!-- %oreUpkeep base tier=8 factor=1 -->
-                <productionCost base="42.0" /> <!-- %productionCost base tier=8 factor=1 -->
+                <armor base="7"/> <!-- %armor base armor=11/11/11 -->
+                <cargoSlots base="2"/> <!-- %cargoSlots base capacity=10 -->
+                <hitpointsMax base="32.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=11/11/11 wounds=4 -->
+                <moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->
+                <movementMax base="4"/>
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <energyCost base="60.0"/> <!-- %energyCost base tier=8 factor=1 -->
+                <oreUpkeep base="3.0"/> <!-- %oreUpkeep base tier=8 factor=1 -->
+                <productionCost base="42.0"/> <!-- %productionCost base tier=8 factor=1 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="1.0" />
+                <increaseVehiclesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/Necrons/GhostArkAttack" beginFire="1.0" endFire="2.25" />
+                <action animation="Units/Necrons/GhostArkAttack"
+                        beginFire="1.0"
+                        endFire="2.25"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Necrons/GhostArkDie0" sound="Units/LargeVehicleDie" soundCount="3" />
+                <action animation="Units/Necrons/GhostArkDie0"
+                        sound="Units/LargeVehicleDie"
+                        soundCount="3"/>
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0" />
+                <action animationSpeed="1.0"/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/Necrons/GhostArkMove" sound="Units/Necrons/DoomsdayArkMove" soundCount="2" />
+                <action animation="Units/Necrons/GhostArkMove"
+                        sound="Units/Necrons/DoomsdayArkMove"
+                        soundCount="2"/>
             </model>
         </move>
-        <necrodermisRepair requiredUpgrade="Necrons/NecrodermisRepair" name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
+        <necrodermisRepair name="Necrons/NecrodermisRepair"
+                           consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="1"
+                           requiredActionPoints="0"
+                           requiredUpgrade="Necrons/NecrodermisRepair">
             <model>
-                <action sound="Actions/Heal" />
+                <action sound="Actions/Heal"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="50" />
+                        <influenceCost base="50"/>
                     </effects>
                 </modifier>
 
                 <modifier requiredUpgrade="Necrons/HousingBuildingBonus">
                     <effects>
-                        <cooldown max="0" />
+                        <cooldown max="0"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Necrons/NecrodermisRepair3">
                     <effects>
-                        <influenceCost add="-30" />
+                        <influenceCost add="-30"/>
                     </effects>
                 </modifier>
             </modifiers>
 
             <conditions>
                 <unit>
-                    <noTrait name="Necrons/BloodyCrusade" />
-                    <damaged />
+                    <noTrait name="Necrons/BloodyCrusade"/>
+                    <damaged/>
                 </unit>
             </conditions>
             <beginTargets>
@@ -90,18 +111,18 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints add="6" />
+                                        <hitpoints add="6"/>
                                     </effects>
                                 </modifier>
 
                                 <modifier requiredUpgrade="Necrons/HousingBuildingBonus">
                                     <effects>
-                                        <hitpoints add="2" />
+                                        <hitpoints add="2"/>
                                     </effects>
                                 </modifier>
                                 <modifier requiredUpgrade="Necrons/NecrodermisRepair3">
                                     <effects>
-                                        <hitpoints add="2" />
+                                        <hitpoints add="2"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -110,19 +131,21 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <blessingsOfTheOmnissiah name="Necrons/RepairBarge" cooldown="1">
+        <blessingsOfTheOmnissiah name="Necrons/RepairBarge"
+                                 cooldown="1">
             <model>
-                <action animation="Units/Necrons/GhostArkAbility" sound="Actions/RepairBarge" />
+                <action animation="Units/Necrons/GhostArkAbility"
+                        sound="Actions/RepairBarge"/>
             </model>
             <beginTargets>
                 <target rangeMax="1">
                     <conditions>
                         <unit>
-                            <allied />
-                            <damaged />
-                            <faction name="Necrons" />
-                            <noTrait name="Fortification" />
-                            <noTrait name="Vehicle" />
+                            <allied/>
+                            <damaged/>
+                            <faction name="Necrons"/>
+                            <noTrait name="Fortification"/>
+                            <noTrait name="Vehicle"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -130,7 +153,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints add="8" />
+                                        <hitpoints add="8"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -139,13 +162,16 @@
                 </target>
             </beginTargets>
         </blessingsOfTheOmnissiah>
-        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
+        <jink consumedActionPoints="0"
+              consumedMovement="0"
+              cooldown="3"
+              requiredActionPoints="0">
             <model>
-                <action sound="Actions/ChargeUp" />
+                <action sound="Actions/ChargeUp"/>
             </model>
             <conditions>
                 <unit>
-                    <notAttackedThisTurn />
+                    <notAttackedThisTurn/>
                 </unit>
             </conditions>
             <beginTargets>
@@ -155,7 +181,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Jink" duration="1" />
+                                        <addTrait name="Jink"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -164,20 +191,26 @@
                 </selfTarget>
             </beginTargets>
         </jink>
-        <genericUnitAbility name="Necrons/OverchargeQuantumShielding" consumedActionPoints="0" consumedMovement="0" cooldown="3" icon="Upgrades/Necrons/OverchargedQuantumShielding" requiredActionPoints="0" requiredUpgrade="Necrons/OverchargedQuantumShielding">
+        <genericUnitAbility name="Necrons/OverchargeQuantumShielding"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="3"
+                            icon="Upgrades/Necrons/OverchargedQuantumShielding"
+                            requiredActionPoints="0"
+                            requiredUpgrade="Necrons/OverchargedQuantumShielding">
             <model>
-                <action sound="Actions/ChargeUp" />
+                <action sound="Actions/ChargeUp"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <energyCost base="30" />
+                        <energyCost base="30"/>
                     </effects>
                 </modifier>
             </modifiers>
             <conditions>
                 <unit>
-                    <notAttackedThisTurn />
+                    <notAttackedThisTurn/>
                 </unit>
             </conditions>
             <beginTargets>
@@ -187,8 +220,10 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Necrons/OverchargedQuantumShielding" duration="1" />
-                                        <addTrait name="Necrons/Overcharged" duration="3" />
+                                        <addTrait name="Necrons/OverchargedQuantumShielding"
+                                                  duration="1"/>
+                                        <addTrait name="Necrons/Overcharged"
+                                                  duration="3"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -199,15 +234,19 @@
         </genericUnitAbility>
     </actions>
     <traits>
-        <trait name="Necrons/LivingMetal" />
-        <trait name="OpenTopped" />
-        <trait name="Skimmer" />
-        <trait name="Transport" />
-        <trait name="Vehicle" />
-        <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
-        <trait name="ExtraVehicleArmour" requiredUpgrade="Necrons/ExtraVehicleArmour" />
-        <trait name="Necrons/QuantumShielding" requiredUpgrade="Necrons/QuantumShielding" />
-        <trait name="MannedWeaponGhostArk" />
-        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
+        <trait name="Necrons/LivingMetal"/>
+        <trait name="OpenTopped"/>
+        <trait name="Skimmer"/>
+        <trait name="Transport"/>
+        <trait name="Vehicle"/>
+        <trait name="Necrons/AttackCityBonus"
+               requiredUpgrade="Necrons/AttackCityBonus"/>
+        <trait name="ExtraVehicleArmour"
+               requiredUpgrade="Necrons/ExtraVehicleArmour"/>
+        <trait name="Necrons/QuantumShielding"
+               requiredUpgrade="Necrons/QuantumShielding"/>
+        <trait name="MannedWeaponGhostArk"/>
+        <trait name="Necrons/PredictiveStrategist"
+               requiredUpgrade="Necrons/PredictiveStrategist"/>
     </traits>
 </unit>

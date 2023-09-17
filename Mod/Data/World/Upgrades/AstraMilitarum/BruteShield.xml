@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Traits/BruteShield" position="7">
+<upgrade icon="Traits/BruteShield"
+         position="7">
     <requiredUpgrades>
-        <upgrade name="AstraMilitarum/Bullgryn" />
+        <upgrade name="AstraMilitarum/Bullgryn"/>
     </requiredUpgrades>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0" />
+                <increaseInfantryScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

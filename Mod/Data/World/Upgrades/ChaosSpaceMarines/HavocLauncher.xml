@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Weapons/HavocLauncher" position="6">
+<upgrade icon="Weapons/HavocLauncher"
+         position="6">
     <requiredUpgrades>
-        <upgrade name="ChaosSpaceMarines/Vehicles" />
+        <upgrade name="ChaosSpaceMarines/Vehicles"/>
     </requiredUpgrades>
 </upgrade>

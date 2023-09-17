@@ -1,69 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <structureUnit explosionsBone="Fortress" groundMaterial="Units/SpaceMarines/FortressOfRedemptionGround" heatImpactSound="Impacts/HeatConcrete" heatImpactSoundCount="4" idleAnimation="" idleAnimationCount="0" kineticImpactSound="Impacts/KineticConcrete" kineticImpactSoundCount="5" material="Units/SpaceMarines/FortressOfRedemption" mesh="Units/SpaceMarines/FortressOfRedemption" scale="1.4 1.4 1.4" uvAnimated="0" />
+        <structureUnit explosionsBone="Fortress"
+                       groundMaterial="Units/SpaceMarines/FortressOfRedemptionGround"
+                       heatImpactSound="Impacts/HeatConcrete"
+                       heatImpactSoundCount="4"
+                       idleAnimation=""
+                       idleAnimationCount="0"
+                       kineticImpactSound="Impacts/KineticConcrete"
+                       kineticImpactSoundCount="5"
+                       material="Units/SpaceMarines/FortressOfRedemption"
+                       mesh="Units/SpaceMarines/FortressOfRedemption"
+                       scale="1.4 1.4 1.4"
+                       uvAnimated="0"/>
     </model>
     <weapons>
-        <weapon name="TwinLinkedLascannon" requiredUpgrade="SpaceMarines/PredatorLascannon">
+        <weapon name="TwinLinkedLascannon"
+                requiredUpgrade="SpaceMarines/PredatorLascannon">
             <model>
-                <beamWeapon bone="TurretAttachment" material="Weapons/SpaceMarines/FortressOfRedemptionTurret" mesh="Weapons/SpaceMarines/FortressOfRedemptionTurret" muzzleBone=".Muzzle" />
+                <beamWeapon bone="TurretAttachment"
+                            material="Weapons/SpaceMarines/FortressOfRedemptionTurret"
+                            mesh="Weapons/SpaceMarines/FortressOfRedemptionTurret"
+                            muzzleBone=".Muzzle"/>
             </model>
         </weapon>
-        <weapon name="KrakstormMissileSilo" requiredUpgrade="SpaceMarines/CityTier4">
+        <weapon name="KrakstormMissileSilo"
+                requiredUpgrade="SpaceMarines/CityTier4">
             <model>
-                <missileWeapon bone="SiloAttachment" fireInterval="0.75" material="Weapons/SpaceMarines/FortressOfRedemptionTurret" mesh="Weapons/SpaceMarines/FortressOfRedemptionSilo" missileScale="0.6" muzzleBone=".Muzzle" />
+                <missileWeapon bone="SiloAttachment"
+                               fireInterval="0.75"
+                               material="Weapons/SpaceMarines/FortressOfRedemptionTurret"
+                               mesh="Weapons/SpaceMarines/FortressOfRedemptionSilo"
+                               missileScale="0.6"
+                               muzzleBone=".Muzzle"/>
             </model>
         </weapon>
-        <weapon name="HeavyBolter" count="2">
+        <weapon name="HeavyBolter"
+                count="2">
             <model>
-                <projectileWeapon bone="BolterAttachment" material="Weapons/SpaceMarines/FortressOfRedemptionTurret" mesh="Weapons/SpaceMarines/FortressOfRedemptionHeavyBolters" muzzleBone=".Muzzle" muzzleCount="2" />
+                <projectileWeapon bone="BolterAttachment"
+                                  material="Weapons/SpaceMarines/FortressOfRedemptionTurret"
+                                  mesh="Weapons/SpaceMarines/FortressOfRedemptionHeavyBolters"
+                                  muzzleBone=".Muzzle"
+                                  muzzleCount="2"/>
             </model>
         </weapon>
-        <weapon name="HeavyBolter" count="1" requiredUpgrade="SpaceMarines/FortressOfRedemptionDamageReduction" />
-        <weapon name="HeavyBolter" enabled="0" slotName="HeavyBolterUpgrade" />
+        <weapon name="HeavyBolter"
+                count="1"
+                requiredUpgrade="SpaceMarines/FortressOfRedemptionDamageReduction"/>
+        <weapon name="HeavyBolter"
+                enabled="0"
+                slotName="HeavyBolterUpgrade"/>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="10" /> <!-- %armor base armor=14/14/14 -->
-                <cargoSlots base="6" /> <!-- %cargoSlots base capacity=20 -->
-                <hitpointsMax base="32.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base armor=14/14/14 wounds=2 -->
-                <moraleMax base="0" /> <!-- %moraleMax base leadership=8 -->
-                <movementMax max="0" />
-                <influenceUpkeep base="1.5" /> <!-- %influenceUpkeep base tier=6 factor=1 -->
-                <influenceCost base="40.0" /> <!-- %influenceCost base tier=6 factor=1 -->
-                <productionCost base="36.0" /> <!-- %productionCost base tier=6 factor=1 -->
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <armor base="10"/> <!-- %armor base armor=14/14/14 -->
+                <cargoSlots base="6"/> <!-- %cargoSlots base capacity=20 -->
+                <hitpointsMax base="32.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=14/14/14 wounds=2 -->
+                <moraleMax base="0"/> <!-- %moraleMax base leadership=8 -->
+                <movementMax max="0"/>
+                <influenceUpkeep base="1.5"/> <!-- %influenceUpkeep base tier=6 factor=1 -->
+                <influenceCost base="40.0"/> <!-- %influenceCost base tier=6 factor=1 -->
+                <productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
         </modifier>
-        <modifier requiredUpgrade="SpaceMarines/FortressOfRedemptionDamageReduction" visible="0">
+        <modifier requiredUpgrade="SpaceMarines/FortressOfRedemptionDamageReduction"
+                  visible="0">
             <effects>
-                <armor add="1" />
-                <hitpointsMax mul="0.2" />
+                <armor add="1"/>
+                <hitpointsMax mul="0.2"/>
             </effects>
         </modifier>
     </modifiers>
     <actions>
         <attack>
             <model>
-                <action beginFire="0.15" endFire="2.6" />
+                <action beginFire="0.15"
+                        endFire="2.6"/>
             </model>
         </attack>
         <die>
             <model>
-                <action sound="Units/HeavyBuildingDie" soundCount="3" />
+                <action sound="Units/HeavyBuildingDie"
+                        soundCount="3"/>
             </model>
         </die>
-        <bolsterDefences cooldown="3" requiredUpgrade="SpaceMarines/CityTier4">
+        <bolsterDefences cooldown="3"
+                         requiredUpgrade="SpaceMarines/CityTier4">
             <model>
-                <action sound="Actions/ArmourUp" />
+                <action sound="Actions/ArmourUp"/>
             </model>
             <beginTargets>
-                <target rangeMax="2" rangeMin="1">
+                <target rangeMax="2"
+                        rangeMin="1">
                     <conditions>
                         <tile>
-                            <noFeature name="FortressOfRedemption" />
+                            <noFeature name="FortressOfRedemption"/>
                         </tile>
                     </conditions>
                     <areas>
@@ -71,7 +106,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature name="BolsterDefences" duration="3" />
+                                        <addFeature name="BolsterDefences"
+                                                    duration="3"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -81,19 +117,26 @@
             </beginTargets>
         </bolsterDefences>
 
-        <useWeapon consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0" requiredUpgrade="SpaceMarines/HurricaneBolter" weaponSlotName="HeavyBolterUpgrade">
+        <useWeapon consumedActionPoints="0"
+                   consumedMovement="0"
+                   cooldown="1"
+                   requiredActionPoints="0"
+                   requiredUpgrade="SpaceMarines/HurricaneBolter"
+                   weaponSlotName="HeavyBolterUpgrade">
             <conditions>
                 <unit>
-                    <trait name="SpaceMarines/AdditionalHeavyBolter" />
-                    <noTrait name="Exhausted" />
+                    <trait name="SpaceMarines/AdditionalHeavyBolter"/>
+                    <noTrait name="Exhausted"/>
                 </unit>
             </conditions>
             <model>
-                <action beginFire="0.1" endFire="1.0" />
+                <action beginFire="0.1"
+                        endFire="1.0"/>
             </model>
         </useWeapon>
 
-        <genericUnitAbility passive="1" visible="0">
+        <genericUnitAbility passive="1"
+                            visible="0">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -101,7 +144,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature name="FortressOfRedemption" />
+                                        <addFeature name="FortressOfRedemption"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -112,15 +155,19 @@
         </genericUnitAbility>
     </actions>
     <traits>
-        <trait name="AndTheyShallKnowNoFear" />
-        <trait name="Fortification" />
-        <trait name="HarvestResourceFeatures" />
-        <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand" />
-        <trait name="Transport" />
-        <trait name="SpaceMarines/SiegeMasters" />
-        <trait name="SpaceMarines/MachineEmpathy" />
-        <trait name="SpaceMarines/FortressOfRedemptionDamageReduction1" requiredUpgrade="SpaceMarines/CityTier2" />
-        <trait name="SpaceMarines/FortressOfRedemptionDamageReduction2" requiredUpgrade="SpaceMarines/CityTier3" />
-        <trait name="SpaceMarines/FortressOfRedemptionDamageReduction3" requiredUpgrade="SpaceMarines/CityTier4" />
+        <trait name="AndTheyShallKnowNoFear"/>
+        <trait name="Fortification"/>
+        <trait name="HarvestResourceFeatures"/>
+        <trait name="LastStand"
+               requiredUpgrade="SpaceMarines/LastStand"/>
+        <trait name="Transport"/>
+        <trait name="SpaceMarines/SiegeMasters"/>
+        <trait name="SpaceMarines/MachineEmpathy"/>
+        <trait name="SpaceMarines/FortressOfRedemptionDamageReduction1"
+               requiredUpgrade="SpaceMarines/CityTier2"/>
+        <trait name="SpaceMarines/FortressOfRedemptionDamageReduction2"
+               requiredUpgrade="SpaceMarines/CityTier3"/>
+        <trait name="SpaceMarines/FortressOfRedemptionDamageReduction3"
+               requiredUpgrade="SpaceMarines/CityTier4"/>
     </traits>
 </unit>

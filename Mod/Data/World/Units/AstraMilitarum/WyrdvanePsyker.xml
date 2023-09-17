@@ -1,84 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit bloodBone="ChestBone" idleAnimation="Units/AstraMilitarum/WyrdvanePsykerIdle" idleAnimationCount="2" idleContinuously="1" material="Units/AstraMilitarum/WyrdvanePsyker" mesh="Units/AstraMilitarum/WyrdvanePsyker" normalWeight="0.1" scale="1.0 1.0 1.0" walker="1" />
+        <unit bloodBone="ChestBone"
+              idleAnimation="Units/AstraMilitarum/WyrdvanePsykerIdle"
+              idleAnimationCount="2"
+              idleContinuously="1"
+              material="Units/AstraMilitarum/WyrdvanePsyker"
+              mesh="Units/AstraMilitarum/WyrdvanePsyker"
+              normalWeight="0.1"
+              scale="1.0 1.0 1.0"
+              walker="1"/>
     </model>
-    <group memberDeltaX="64" memberDeltaY="64" rowSize="3" size="5" />
+    <group memberDeltaX="64"
+           memberDeltaY="64"
+           rowSize="3"
+           size="5"/>
     <weapons>
         <weapon name="Laspistol">
             <model>
-                <beamWeapon bone="LeftHandBone0" fireInterval="0.75" material="Weapons/AstraMilitarum/WyrdvanePsykerLaspistol" mesh="Weapons/AstraMilitarum/WyrdvanePsykerLaspistol" muzzleBone="Muzzle0" />
+                <beamWeapon bone="LeftHandBone0"
+                            fireInterval="0.75"
+                            material="Weapons/AstraMilitarum/WyrdvanePsykerLaspistol"
+                            mesh="Weapons/AstraMilitarum/WyrdvanePsykerLaspistol"
+                            muzzleBone="Muzzle0"/>
             </model>
         </weapon>
-        <weapon name="None" enabled="0">
+        <weapon name="None"
+                enabled="0">
             <model>
-                <weapon bone="RightHandBone0" material="Weapons/AstraMilitarum/WyrdvanePsykerStave" mesh="Weapons/AstraMilitarum/WyrdvanePsykerStave" />
+                <weapon bone="RightHandBone0"
+                        material="Weapons/AstraMilitarum/WyrdvanePsykerStave"
+                        mesh="Weapons/AstraMilitarum/WyrdvanePsykerStave"/>
             </model>
         </weapon>
-        <weapon name="FlameBreath" enabled="0" slotName="FlameBreath">
+        <weapon name="FlameBreath"
+                enabled="0"
+                slotName="FlameBreath">
             <model>
-                <flamerWeapon muzzleBone=".Mouth" />
+                <flamerWeapon muzzleBone=".Mouth"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="4" /> <!-- %armor base armor=5+ -->
-                <energyUpkeep base="1.5" /> <!-- %energyUpkeep base tier=5 factor=1 -->
-                <energyCost base="15.0" /> <!-- %energyCost base tier=5 factor=0.5 -->
-                <foodCost base="15.0" /> <!-- %foodCost base tier=5 factor=0.5 -->
-                <hitpointsMax base="2.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=3 wounds=1 -->
-                <meleeAccuracy base="4" /> <!-- %meleeAccuracy base weaponSkill=2 -->
-                <meleeAttacks base="1" />
-                <strengthDamage base="0.75" /> <!-- %strengthDamage base strength=2 -->
+                <armor base="4"/> <!-- %armor base armor=5+ -->
+                <energyUpkeep base="1.5"/> <!-- %energyUpkeep base tier=5 factor=1 -->
+                <energyCost base="15.0"/> <!-- %energyCost base tier=5 factor=0.5 -->
+                <foodCost base="15.0"/> <!-- %foodCost base tier=5 factor=0.5 -->
+                <hitpointsMax base="2.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
+                <meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
+                <meleeAttacks base="1"/>
+                <strengthDamage base="0.75"/> <!-- %strengthDamage base strength=2 -->
                 <!-- <meleeInitiative base="3"/> -->
-                <moraleMax base="8" /> <!-- %moraleMax base leadership=7 -->
-                <movementMax base="3" />
-                <productionCost base="30.0" /> <!-- %productionCost base tier=5 factor=1 -->
-                <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
+                <movementMax base="3"/>
+                <productionCost base="30.0"/> <!-- %productionCost base tier=5 factor=1 -->
+                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseSupportScore base="1.0" />
+                <increaseSupportScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/AstraMilitarum/WyrdvanePsykerAttack" beginFire="0.67" endFire="2.5" />
+                <action animation="Units/AstraMilitarum/WyrdvanePsykerAttack"
+                        beginFire="0.67"
+                        endFire="2.5"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/AstraMilitarum/WyrdvanePsykerDie" animationCount="2" sound="Units/MediumUnarmoredDie" soundCount="4" soundDelay="0.5" voiceSound="Units/AstraMilitarum/InfantryDie" voiceSoundCount="5" />
+                <action animation="Units/AstraMilitarum/WyrdvanePsykerDie"
+                        animationCount="2"
+                        sound="Units/MediumUnarmoredDie"
+                        soundCount="4"
+                        soundDelay="0.5"
+                        voiceSound="Units/AstraMilitarum/InfantryDie"
+                        voiceSoundCount="5"/>
             </model>
         </die>
         <move>
             <model>
-                <action animation="Units/AstraMilitarum/WyrdvanePsykerMove" sound="Units/AstraMilitarum/InfantryMove" soundCount="4" />
+                <action animation="Units/AstraMilitarum/WyrdvanePsykerMove"
+                        sound="Units/AstraMilitarum/InfantryMove"
+                        soundCount="4"/>
             </model>
         </move>
-        <flameBreath cooldown="1" psychicPower="1" weaponSlotName="FlameBreath">
+        <flameBreath cooldown="1"
+                     psychicPower="1"
+                     weaponSlotName="FlameBreath">
             <model>
-                <action animation="Units/AstraMilitarum/WyrdvanePsykerFlameBreath" beginFire="0.6" endFire="2.4" />
+                <action animation="Units/AstraMilitarum/WyrdvanePsykerFlameBreath"
+                        beginFire="0.6"
+                        endFire="2.4"/>
             </model>
         </flameBreath>
-        <enfeeble cooldown="1" psychicPower="1">
+        <enfeeble cooldown="1"
+                  psychicPower="1">
             <model>
-                <action animation="Units/AstraMilitarum/WyrdvanePsykerEnfeeble" sound="Actions/PsychicDebuff" />
+                <action animation="Units/AstraMilitarum/WyrdvanePsykerEnfeeble"
+                        sound="Actions/PsychicDebuff"/>
             </model>
             <beginTargets>
                 <target rangeMax="2">
                     <conditions>
                         <unit>
-                            <enemy />
-                            <noTrait name="Weakened" />
+                            <enemy/>
+                            <noTrait name="Weakened"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -86,7 +122,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Weakened" duration="3" />
+                                        <addTrait name="Weakened"
+                                                  duration="3"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -95,19 +132,22 @@
                 </target>
             </beginTargets>
         </enfeeble>
-        <misfortune cooldown="1" psychicPower="1" requiredUpgrade="AstraMilitarum/Misfortune">
+        <misfortune cooldown="1"
+                    psychicPower="1"
+                    requiredUpgrade="AstraMilitarum/Misfortune">
             <model>
-                <action animation="Units/AstraMilitarum/WyrdvanePsykerEnfeeble" sound="Actions/PsychicDebuff" />
+                <action animation="Units/AstraMilitarum/WyrdvanePsykerEnfeeble"
+                        sound="Actions/PsychicDebuff"/>
             </model>
             <beginTargets>
                 <target rangeMax="2">
                     <conditions>
                         <unit>
-                            <enemy />
-                            <noTrait name="Misfortune" />
-                            <noTrait name="Headquarters" />
-                            <noTrait name="Fortification" />
-                            <noTrait name="Hero" />
+                            <enemy/>
+                            <noTrait name="Misfortune"/>
+                            <noTrait name="Headquarters"/>
+                            <noTrait name="Fortification"/>
+                            <noTrait name="Hero"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -115,7 +155,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Misfortune" duration="3" />
+                                        <addTrait name="Misfortune"
+                                                  duration="3"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -126,7 +167,8 @@
         </misfortune>
     </actions>
     <traits>
-        <trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour" />
-        <trait name="Psyker" />
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
+        <trait name="Psyker"/>
     </traits>
 </unit>

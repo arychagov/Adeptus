@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <feelNoPainDamageReduction add="0.17" />
+                <feelNoPainDamageReduction add="0.17"/>
             </effects>
         </modifier>
     </modifiers>

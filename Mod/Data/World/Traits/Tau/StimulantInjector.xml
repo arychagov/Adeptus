@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Actions/Tau/StimulantInjector">
+<trait category="Buff"
+       icon="Actions/Tau/StimulantInjector">
     <modifiers>
         <modifier>
             <effects>
-                <feelNoPainDamageReduction add="0.17" />
+                <feelNoPainDamageReduction add="0.17"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <supportSystemSlots add="-1" />
+                <supportSystemSlots add="-1"/>
             </effects>
         </modifier>
     </modifiers>

@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade dlc="Supplement6" icon="Units/AstraMilitarum/Chimera" position="1" visible="0">
+<upgrade dlc="Supplement6"
+         icon="Units/AstraMilitarum/Chimera"
+         position="1"
+         visible="0">
 
 </upgrade>

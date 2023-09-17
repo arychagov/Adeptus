@@ -1,80 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement3">
     <model>
-        <unit explosionsBone="Bone014" idleAnimation="Units/ChaosSpaceMarines/DefilerIdle" idleAnimationCount="3" idleContinuously="1" material="Units/ChaosSpaceMarines/Defiler" mesh="Units/ChaosSpaceMarines/Defiler" scale="1.1 1.1 1.1" walker="1" />
+        <unit explosionsBone="Bone014"
+              idleAnimation="Units/ChaosSpaceMarines/DefilerIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/ChaosSpaceMarines/Defiler"
+              mesh="Units/ChaosSpaceMarines/Defiler"
+              scale="1.1 1.1 1.1"
+              walker="1"/>
     </model>
     <weapons>
         <weapon name="BattleCannon">
             <model>
-                <projectileWeapon fireInterval="1.37" muzzleBone=".BattleCannonMuzzle" />
+                <projectileWeapon fireInterval="1.37"
+                                  muzzleBone=".BattleCannonMuzzle"/>
             </model>
         </weapon>
         <weapon name="HavocLauncher">
             <model>
-                <missileWeapon missileScale="0.8" muzzleBone=".HavocMuzzle" muzzleCount="6" />
+                <missileWeapon missileScale="0.8"
+                               muzzleBone=".HavocMuzzle"
+                               muzzleCount="6"/>
             </model>
         </weapon>
-        <weapon name="PowerFist" count="2">
+        <weapon name="PowerFist"
+                count="2">
             <model>
-                <weapon fireInterval="0.33" />
+                <weapon fireInterval="0.33"/>
             </model>
         </weapon>
         <weapon name="TwinLinkedLascannon">
             <model>
-                <beamWeapon muzzleBone=".LascannonMuzzle" muzzleCount="2" />
+                <beamWeapon muzzleBone=".LascannonMuzzle"
+                            muzzleCount="2"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="10" /> <!-- %armor base armor=12/12/10 -->
-                <hitpointsMax base="60.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base armor=12/12/10 wounds=4 -->
-                <meleeAccuracy base="6" /> <!-- %meleeAccuracy base weaponSkill=3 -->
-                <meleeAttacks base="2" />
-                <strengthDamage base="6" /> <!-- %strengthDamage base strength=8 -->
-                <moraleMax base="10" /> <!-- %moraleMax base leadership=8 -->
-                <movementMax base="3" />
-                <productionCost base="60.0" /> <!-- %productionCost base tier=10 factor=1 -->
-                <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
-                <oreUpkeep base="8.0" /> <!-- %oreUpkeep base tier=10 factor=1 -->
-                <oreCost base="160.0" /> <!-- %oreCost base tier=10 factor=1 -->
+                <armor base="10"/> <!-- %armor base armor=12/12/10 -->
+                <hitpointsMax base="60.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=12/12/10 wounds=4 -->
+                <meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
+                <meleeAttacks base="2"/>
+                <strengthDamage base="6"/> <!-- %strengthDamage base strength=8 -->
+                <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+                <movementMax base="3"/>
+                <productionCost base="60.0"/> <!-- %productionCost base tier=10 factor=1 -->
+                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <oreUpkeep base="8.0"/> <!-- %oreUpkeep base tier=10 factor=1 -->
+                <oreCost base="160.0"/> <!-- %oreCost base tier=10 factor=1 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="1.0" />
+                <increaseVehiclesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/ChaosSpaceMarines/DefilerAttack" beginFire="0.67" chargeAnimation="Units/ChaosSpaceMarines/DefilerCharge" chargeBeginFire="0.17" chargeEndFire="1.33" endFire="2.5" meleeAnimation="Units/ChaosSpaceMarines/DefilerMelee" meleeBeginSwing="0.33" meleeEndSwing="0.83" />
+                <action animation="Units/ChaosSpaceMarines/DefilerAttack"
+                        beginFire="0.67"
+                        chargeAnimation="Units/ChaosSpaceMarines/DefilerCharge"
+                        chargeBeginFire="0.17"
+                        chargeEndFire="1.33"
+                        endFire="2.5"
+                        meleeAnimation="Units/ChaosSpaceMarines/DefilerMelee"
+                        meleeBeginSwing="0.33"
+                        meleeEndSwing="0.83"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/ChaosSpaceMarines/DefilerDie" sound="Units/MediumVehicleDie" soundCount="3" soundDelay="0.4" voiceSound="Units/ChaosSpaceMarines/VehicleDie" voiceSoundCount="3" />
+                <action animation="Units/ChaosSpaceMarines/DefilerDie"
+                        sound="Units/MediumVehicleDie"
+                        soundCount="3"
+                        soundDelay="0.4"
+                        voiceSound="Units/ChaosSpaceMarines/VehicleDie"
+                        voiceSoundCount="3"/>
             </model>
         </die>
         <move>
             <model>
-                <action animation="Units/ChaosSpaceMarines/DefilerMove" sound="Units/ChaosSpaceMarines/DefilerMove" soundCount="1" />
+                <action animation="Units/ChaosSpaceMarines/DefilerMove"
+                        sound="Units/ChaosSpaceMarines/DefilerMove"
+                        soundCount="1"/>
             </model>
         </move>
         <auraOfFear passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" excludeRadius="0" radius="1">
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Fear" />
+                                        <addTrait name="Fear"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -83,15 +112,19 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <genericUnitAbility name="ChaosSpaceMarines/NurgleCorruption" icon="Actions/ChaosSpaceMarines/MarkOfNurgle" passive="1">
+        <genericUnitAbility name="ChaosSpaceMarines/NurgleCorruption"
+                            icon="Actions/ChaosSpaceMarines/MarkOfNurgle"
+                            passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radiusMax="2" radiusMin="1">
+                        <area affects="Tile"
+                              radiusMax="2"
+                              radiusMin="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="ChaosSpaceMarines/NurgleCorruption" />
+                                        <addTrait name="ChaosSpaceMarines/NurgleCorruption"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -100,15 +133,22 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility name="ChaosSpaceMarines/Defiler" consumedActionPoints="1" consumedMovement="1" cooldown="3" icon="Units/ChaosSpaceMarines/Defiler">
+        <genericUnitAbility name="ChaosSpaceMarines/Defiler"
+                            consumedActionPoints="1"
+                            consumedMovement="1"
+                            cooldown="3"
+                            icon="Units/ChaosSpaceMarines/Defiler">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" excludeRadius="0" radius="2">
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="2">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="ChaosSpaceMarines/Defiler" duration="1" />
+                                        <addTrait name="ChaosSpaceMarines/Defiler"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -117,9 +157,12 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <hammerOfWrath consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredUpgrade="ChaosSpaceMarines/SmokeLauncher">
+        <hammerOfWrath consumedActionPoints="0"
+                       consumedMovement="0"
+                       cooldown="3"
+                       requiredUpgrade="ChaosSpaceMarines/SmokeLauncher">
             <model>
-                <action sound="Actions/PsychicBuff" />
+                <action sound="Actions/PsychicBuff"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -128,7 +171,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="HammerOfWrath" duration="1" />
+                                        <addTrait name="HammerOfWrath"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -137,15 +181,19 @@
                 </selfTarget>
             </beginTargets>
         </hammerOfWrath>
-        <genericUnitAbility name="ChaosSpaceMarines/DirgeCaster" passive="1" requiredUpgrade="ChaosSpaceMarines/DirgeCaster">
+        <genericUnitAbility name="ChaosSpaceMarines/DirgeCaster"
+                            passive="1"
+                            requiredUpgrade="ChaosSpaceMarines/DirgeCaster">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" excludeRadius="0" radius="1">
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="ChaosSpaceMarines/DirgeCaster" />
+                                        <addTrait name="ChaosSpaceMarines/DirgeCaster"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -154,9 +202,12 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <daemonforge name="ChaosSpaceMarines/Daemonforge" consumedActionPoints="0" consumedMovement="0" cooldown="3">
+        <daemonforge name="ChaosSpaceMarines/Daemonforge"
+                     consumedActionPoints="0"
+                     consumedMovement="0"
+                     cooldown="3">
             <model>
-                <action sound="Actions/ChaosBuff" />
+                <action sound="Actions/ChaosBuff"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -165,8 +216,9 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpointsFactorFromMax add="-0.1" />
-                                        <addTrait name="ChaosSpaceMarines/Daemonforge" duration="1" />
+                                        <hitpointsFactorFromMax add="-0.1"/>
+                                        <addTrait name="ChaosSpaceMarines/Daemonforge"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -175,9 +227,14 @@
                 </selfTarget>
             </beginTargets>
         </daemonforge>
-        <createSmokeScreen consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="ChaosSpaceMarines/SmokeLauncher">
+        <createSmokeScreen consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="10"
+                           icon="Traits/SmokeScreen"
+                           requiredActionPoints="0"
+                           requiredUpgrade="ChaosSpaceMarines/SmokeLauncher">
             <model>
-                <action sound="Actions/SmokeScreen" />
+                <action sound="Actions/SmokeScreen"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -186,7 +243,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature name="SmokeScreen" duration="3" />
+                                        <addFeature name="SmokeScreen"
+                                                    duration="3"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -197,14 +255,18 @@
         </createSmokeScreen>
     </actions>
     <traits>
-        <trait name="Daemon" />
-        <trait name="ExtraVehicleArmour" requiredUpgrade="ChaosSpaceMarines/ExtraVehicleArmour" />
-        <trait name="Fleet" />
-        <trait name="ItWillNotDie" />
-        <trait name="Dimmer" requiredUpgrade="ChaosSpaceMarines/WarpflameGargoyles" />
-        <trait name="SoulBlaze" requiredUpgrade="ChaosSpaceMarines/WarpflameGargoyles" />
-        <trait name="Vehicle" />
-        <trait name="Walker" />
-        <trait name="ChaosSpaceMarines/SmokeLauncher" requiredUpgrade="ChaosSpaceMarines/SmokeLauncher" />
+        <trait name="Daemon"/>
+        <trait name="ExtraVehicleArmour"
+               requiredUpgrade="ChaosSpaceMarines/ExtraVehicleArmour"/>
+        <trait name="Fleet"/>
+        <trait name="ItWillNotDie"/>
+        <trait name="Dimmer"
+               requiredUpgrade="ChaosSpaceMarines/WarpflameGargoyles"/>
+        <trait name="SoulBlaze"
+               requiredUpgrade="ChaosSpaceMarines/WarpflameGargoyles"/>
+        <trait name="Vehicle"/>
+        <trait name="Walker"/>
+        <trait name="ChaosSpaceMarines/SmokeLauncher"
+               requiredUpgrade="ChaosSpaceMarines/SmokeLauncher"/>
     </traits>
 </unit>

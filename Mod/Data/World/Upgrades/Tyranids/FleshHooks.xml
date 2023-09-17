@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Weapons/FleshHooks" position="3">
+<upgrade icon="Weapons/FleshHooks"
+         position="3">
     <requiredUpgrades>
-        <upgrade name="Tyranids/Heroes" />
-        <upgrade name="Tyranids/Warrior" />
-        <upgrade name="Tyranids/Lictor" />
+        <upgrade name="Tyranids/Heroes"/>
+        <upgrade name="Tyranids/Warrior"/>
+        <upgrade name="Tyranids/Lictor"/>
     </requiredUpgrades>
 </upgrade>

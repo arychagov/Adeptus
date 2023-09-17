@@ -9,7 +9,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Items/ArmaplasBracers" />
+                                        <addTrait name="Items/ArmaplasBracers"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -22,7 +22,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <influenceCost base="40" />
+                <influenceCost base="40"/>
             </effects>
         </modifier>
     </modifiers>

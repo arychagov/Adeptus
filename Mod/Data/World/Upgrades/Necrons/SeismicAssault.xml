@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Weapons/SeismicAssault" position="9" visible="0">
+<upgrade icon="Weapons/SeismicAssault"
+         position="9"
+         visible="0">
     <requiredUpgrades>
-        <upgrade name="Necrons/TranscendentCtan" />
+        <upgrade name="Necrons/TranscendentCtan"/>
     </requiredUpgrades>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0" />
+                <increaseInfantryScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

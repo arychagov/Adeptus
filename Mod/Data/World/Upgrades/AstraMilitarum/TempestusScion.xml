@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade dlc="Supplement1" icon="Units/AstraMilitarum/TempestusScion" position="4" />
+<upgrade dlc="Supplement1"
+         icon="Units/AstraMilitarum/TempestusScion"
+         position="4"/>

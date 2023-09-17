@@ -1,24 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon beamsBlueprint="Effects/IonBeams" beamsEmitterBlueprint="Effects/DScytheBeamsEmitter" displaceExplosions="0" explosionsBlueprint="Effects/DScytheExplosions" explosionsEmitterBlueprint="Effects/DScytheExplosionsEmitter" fireInterval="10.0" fireSound="Weapons/HeavyDScythe" fireSoundCount="1" muzzleFlashesBlueprint="Effects/IonMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/DScytheMuzzleFlashesEmitter" />
+        <beamWeapon beamsBlueprint="Effects/IonBeams"
+                    beamsEmitterBlueprint="Effects/DScytheBeamsEmitter"
+                    displaceExplosions="0"
+                    explosionsBlueprint="Effects/DScytheExplosions"
+                    explosionsEmitterBlueprint="Effects/DScytheExplosionsEmitter"
+                    fireInterval="10.0"
+                    fireSound="Weapons/HeavyDScythe"
+                    fireSoundCount="1"
+                    muzzleFlashesBlueprint="Effects/IonMuzzleFlashes"
+                    muzzleFlashesEmitterBlueprint="Effects/DScytheMuzzleFlashesEmitter"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="1" />
-                <rangedArmorPenetration add="6" /> <!-- %rangedArmorPenetration add armorPiercing=2 -->
-                <rangedDamage add="12" /> <!-- %rangedDamage add strength=10 -->
-                <strengthDamage base="0" />
+                <attacks add="1"/>
+                <rangedArmorPenetration add="6"/> <!-- %rangedArmorPenetration add armorPiercing=2 -->
+                <rangedDamage add="12"/> <!-- %rangedDamage add strength=10 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="2" />
+    <target rangeMax="2"/>
     <traits>
-        <trait name="Eldar/HeavyWeaponBonus" requiredUpgrade="Eldar/HeavyWeaponBonus" />
-        <trait name="Barrage" />
-        <trait name="Blast" />
-        <trait name="DestroyerWeapon" />
-        <trait name="HeavyWeapon" />
+        <trait name="Eldar/HeavyWeaponBonus"
+               requiredUpgrade="Eldar/HeavyWeaponBonus"/>
+        <trait name="Barrage"/>
+        <trait name="Blast"/>
+        <trait name="DestroyerWeapon"/>
+        <trait name="HeavyWeapon"/>
     </traits>
 </weapon>

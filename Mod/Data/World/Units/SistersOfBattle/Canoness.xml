@@ -1,134 +1,183 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement11">
     <model>
-        <unit bloodBone="Chest" idleAnimation="Units/SistersOfBattle/CanonessIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SistersOfBattle/Canoness" mesh="Units/SistersOfBattle/Canoness" normalWeight="0.1" scale="0.8 0.8 0.8" walker="1" />
+        <unit bloodBone="Chest"
+              idleAnimation="Units/SistersOfBattle/CanonessIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/SistersOfBattle/Canoness"
+              mesh="Units/SistersOfBattle/Canoness"
+              normalWeight="0.1"
+              scale="0.8 0.8 0.8"
+              walker="1"/>
     </model>
     <weapons>
         <weapon name="PowerSword">
             <model>
-                <powerWeapon effectBone="Effect" effectBoundingVolume="Blade" fireInterval="0.2" />
+                <powerWeapon effectBone="Effect"
+                             effectBoundingVolume="Blade"
+                             fireInterval="0.2"/>
             </model>
         </weapon>
         <weapon name="CombiBolter">
             <model>
-                <projectileWeapon fireInterval="0.35" muzzleBone="Muzzle" />
+                <projectileWeapon fireInterval="0.35"
+                                  muzzleBone="Muzzle"/>
             </model>
         </weapon>
-        <weapon name="CondemnorBoltgunSilverStake" enabled="0" slotName="CondemnorBoltgunSilverStake">
+        <weapon name="CondemnorBoltgunSilverStake"
+                enabled="0"
+                slotName="CondemnorBoltgunSilverStake">
             <model>
-                <projectileWeapon fireInterval="10" muzzleBone="Muzzle" />
+                <projectileWeapon fireInterval="10"
+                                  muzzleBone="Muzzle"/>
             </model>
         </weapon>
-        <weapon name="MeltaBomb" enabled="0" slotName="MeltaBomb">
+        <weapon name="MeltaBomb"
+                enabled="0"
+                slotName="MeltaBomb">
             <model>
-                <grenadeWeapon muzzleBone="Hand_R" />
+                <grenadeWeapon muzzleBone="Hand_R"/>
             </model>
         </weapon>
-        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
+        <weapon name="FragGrenade"
+                enabled="0"
+                slotName="FragGrenade">
             <model>
-                <grenadeWeapon muzzleBone="Hand_R" />
+                <grenadeWeapon muzzleBone="Hand_R"/>
             </model>
         </weapon>
-        <weapon name="KrakGrenade" enabled="0" slotName="KrakGrenade">
+        <weapon name="KrakGrenade"
+                enabled="0"
+                slotName="KrakGrenade">
             <model>
-                <grenadeWeapon muzzleBone="Hand_R" />
+                <grenadeWeapon muzzleBone="Hand_R"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8" /> <!-- %armor base armor=3+ -->
-                <hitpointsMax base="6.0" />
-                <duplicateTypeCost mul="2.0" /> <!-- %hitpointsMax base toughness=3 wounds=3 -->
-                <influenceUpkeep base="4.0" /> <!-- %influenceUpkeep base tier=6 factor=2 -->
-                <influenceCost base="80.0" /> <!-- %influenceCost base tier=6 factor=2 -->
-                <itemSlots base="6" />
-                <levelMax base="9" />
-                <meleeAccuracy base="10" /> <!-- %meleeAccuracy base weaponSkill=5 -->
-                <meleeAttacks base="3" />
-                <strengthDamage base="1.5" /> <!-- %strengthDamage base strength=4 -->
+                <armor base="8"/> <!-- %armor base armor=3+ -->
+                <hitpointsMax base="6.0"/>
+                <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
+                <influenceUpkeep base="4.0"/> <!-- %influenceUpkeep base tier=6 factor=2 -->
+                <influenceCost base="80.0"/> <!-- %influenceCost base tier=6 factor=2 -->
+                <itemSlots base="6"/>
+                <levelMax base="9"/>
+                <meleeAccuracy base="10"/> <!-- %meleeAccuracy base weaponSkill=5 -->
+                <meleeAttacks base="3"/>
+                <strengthDamage base="1.5"/> <!-- %strengthDamage base strength=4 -->
                 <!-- <meleeInitiative base="4"/> -->
-                <moraleMax base="12" /> <!-- %moraleMax base leadership=9 -->
-                <movementMax base="3" />
-                <productionCost base="36.0" /> <!-- %productionCost base tier=6 factor=1 -->
-                <rangedAccuracy base="10" /> <!-- %rangedAccuracy base ballisticSkill=5 -->
-                <requisitionsUpkeep base="2.0" /> <!-- %requisitionsUpkeep base tier=6 factor=1 -->
-                <requisitionsCost base="40.0" /> <!-- %requisitionsCost base tier=6 factor=1 -->
+                <moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
+                <movementMax base="3"/>
+                <productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
+                <rangedAccuracy base="10"/> <!-- %rangedAccuracy base ballisticSkill=5 -->
+                <requisitionsUpkeep base="2.0"/> <!-- %requisitionsUpkeep base tier=6 factor=1 -->
+                <requisitionsCost base="40.0"/> <!-- %requisitionsCost base tier=6 factor=1 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseHeroesScore base="1.0" />
+                <increaseHeroesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/SistersOfBattle/CanonessAttack" beginFire="1.17" chargeAnimation="Units/SistersOfBattle/CanonessCharge" chargeBeginFire="0.4" chargeEndFire="1.3" endFire="2.17" meleeAnimation="Units/SistersOfBattle/CanonessMelee" meleeBeginSwing="0.3" meleeEndSwing="0.6" />
+                <action animation="Units/SistersOfBattle/CanonessAttack"
+                        beginFire="1.17"
+                        chargeAnimation="Units/SistersOfBattle/CanonessCharge"
+                        chargeBeginFire="0.4"
+                        chargeEndFire="1.3"
+                        endFire="2.17"
+                        meleeAnimation="Units/SistersOfBattle/CanonessMelee"
+                        meleeBeginSwing="0.3"
+                        meleeEndSwing="0.6"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/SistersOfBattle/CanonessDie0" sound="Units/MediumArmoredDie" soundCount="4" soundDelay="0.85" voiceSound="Units/SistersOfBattle/CanonessVoiceDie" voiceSoundCount="1" />
+                <action animation="Units/SistersOfBattle/CanonessDie0"
+                        sound="Units/MediumArmoredDie"
+                        soundCount="4"
+                        soundDelay="0.85"
+                        voiceSound="Units/SistersOfBattle/CanonessVoiceDie"
+                        voiceSoundCount="1"/>
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0" />
+                <action animationSpeed="1.0"/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/SistersOfBattle/CanonessMove" sound="Units/SistersOfBattle/InfantryMove" soundCount="3" />
+                <action animation="Units/SistersOfBattle/CanonessMove"
+                        sound="Units/SistersOfBattle/InfantryMove"
+                        soundCount="3"/>
             </model>
         </move>
-        <useWeapon consumedActionPoints="1" cooldown="3" requiredActionPoints="1" requiredMovement="0" weaponSlotName="CondemnorBoltgunSilverStake">
+        <useWeapon consumedActionPoints="1"
+                   cooldown="3"
+                   requiredActionPoints="1"
+                   requiredMovement="0"
+                   weaponSlotName="CondemnorBoltgunSilverStake">
             <model>
-                <action animation="Units/SistersOfBattle/CanonessIdle2" beginFire="1.0" endFire="1.1" />
+                <action animation="Units/SistersOfBattle/CanonessIdle2"
+                        beginFire="1.0"
+                        endFire="1.1"/>
             </model>
         </useWeapon>
-        <thePassion name="SistersOfBattle/ThePassion" consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0">
+        <thePassion name="SistersOfBattle/ThePassion"
+                    consumedActionPoints="0"
+                    consumedMovement="0"
+                    cooldown="10"
+                    requiredActionPoints="0">
             <model>
-                <action animation="Units/SistersOfBattle/CanonessAbility" sound="Actions/ThePassion" />
+                <action animation="Units/SistersOfBattle/CanonessAbility"
+                        sound="Actions/ThePassion"/>
             </model>
             <conditions>
                 <unit>
-                    <noTrait name="Broken" />
+                    <noTrait name="Broken"/>
                 </unit>
                 <unit match="Any">
-                    <noTrait name="Shaken" />
-                    <trait name="SistersOfBattle/LaudHailer" />
+                    <noTrait name="Shaken"/>
+                    <trait name="SistersOfBattle/LaudHailer"/>
                 </unit>
             </conditions>
             <modifiers>
                 <modifier requiredUpgrade="SistersOfBattle/SimulacrumImperialis">
                     <effects>
-                        <cooldown add="-5" />
+                        <cooldown add="-5"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="SistersOfBattle/FaithAndFury">
                     <effects>
-                        <cooldown add="-4" />
+                        <cooldown add="-4"/>
                     </effects>
                 </modifier>
             </modifiers>
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Unit" excludeRadius="0" radius="1">
+                        <area affects="Unit"
+                              excludeRadius="0"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <allied />
+                                            <allied/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/ThePassion" duration="1" />
+                                        <addTrait name="SistersOfBattle/ThePassion"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -137,13 +186,15 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/ThePassionSelf" duration="1" />
-                                        <addTrait name="SistersOfBattle/UsedActOfFaith" duration="1" />
+                                        <addTrait name="SistersOfBattle/ThePassionSelf"
+                                                  duration="1"/>
+                                        <addTrait name="SistersOfBattle/UsedActOfFaith"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                                 <modifier requiredUpgrade="SistersOfBattle/SoothingLight">
                                     <effects>
-                                        <hitpointsFactorFromMax add="0.5" />
+                                        <hitpointsFactorFromMax add="0.5"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -152,25 +203,34 @@
                 </selfTarget>
             </beginTargets>
         </thePassion>
-        <leadTheRighteous name="SistersOfBattle/LeadTheRighteous" consumedActionPoints="0" consumedMovement="0" cooldown="3" rank="-1" rankMax="2" requiredActionPoints="0">
+        <leadTheRighteous name="SistersOfBattle/LeadTheRighteous"
+                          consumedActionPoints="0"
+                          consumedMovement="0"
+                          cooldown="3"
+                          rank="-1"
+                          rankMax="2"
+                          requiredActionPoints="0">
             <model>
-                <action animation="Units/SistersOfBattle/CanonessAbility" sound="Actions/LeadTheRighteous" />
+                <action animation="Units/SistersOfBattle/CanonessAbility"
+                        sound="Actions/LeadTheRighteous"/>
             </model>
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Unit" radius="2">
+                        <area affects="Unit"
+                              radius="2">
                             <modifiers>
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <allied />
-                                            <noTrait name="Vehicle" />
-                                            <faction name="SistersOfBattle" />
+                                            <allied/>
+                                            <noTrait name="Vehicle"/>
+                                            <faction name="SistersOfBattle"/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/LeadTheRighteous" duration="1" />
+                                        <addTrait name="SistersOfBattle/LeadTheRighteous"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -179,7 +239,11 @@
                 </selfTarget>
             </beginTargets>
         </leadTheRighteous>
-        <genericUnitAbility name="SistersOfBattle/BlindingRadiance" icon="Traits/Blinding" passive="1" rank="-1" rankMax="2">
+        <genericUnitAbility name="SistersOfBattle/BlindingRadiance"
+                            icon="Traits/Blinding"
+                            passive="1"
+                            rank="-1"
+                            rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -187,16 +251,18 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/BlindingRadianceSelf" />
+                                        <addTrait name="SistersOfBattle/BlindingRadianceSelf"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
                         </area>
-                        <area affects="Tile" radiusMax="3" radiusMin="1">
+                        <area affects="Tile"
+                              radiusMax="3"
+                              radiusMin="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/BlindingRadianceEnemy" />
+                                        <addTrait name="SistersOfBattle/BlindingRadianceEnemy"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -205,17 +271,26 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility name="SistersOfBattle/HolyFire" consumedActionPoints="0" consumedMovement="0" cooldownMax="3" cooldownMin="5" icon="Traits/SoulBlaze" rank="-1" rankMax="2" requiredActionPoints="0">
+        <genericUnitAbility name="SistersOfBattle/HolyFire"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldownMax="3"
+                            cooldownMin="5"
+                            icon="Traits/SoulBlaze"
+                            rank="-1"
+                            rankMax="2"
+                            requiredActionPoints="0">
             <beginTargets>
-                <target rangeMax="2" rangeMin="1">
+                <target rangeMax="2"
+                        rangeMin="1">
                     <conditions>
                         <unit>
-                            <allied />
-                            <faction name="SistersOfBattle" />
-                            <noTrait name="Hero" />
-                            <noTrait name="Vehicle" />
-                            <noTrait name="MonstrousCreature" />
-                            <noTrait name="Fortification" />
+                            <allied/>
+                            <faction name="SistersOfBattle"/>
+                            <noTrait name="Hero"/>
+                            <noTrait name="Vehicle"/>
+                            <noTrait name="MonstrousCreature"/>
+                            <noTrait name="Fortification"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -223,7 +298,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/HolyFireSelf" duration="1" />
+                                        <addTrait name="SistersOfBattle/HolyFireSelf"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -232,15 +308,24 @@
                 </target>
             </beginTargets>
         </genericUnitAbility>
-        <theEmperorsVengeance name="SistersOfBattle/TheEmperorsVengeance" consumedActionPoints="0" consumedMovement="0" cooldown="5" elite="1" levelUpPriority="1" rank="-1" rankMax="0" requiredActionPoints="0">
+        <theEmperorsVengeance name="SistersOfBattle/TheEmperorsVengeance"
+                              consumedActionPoints="0"
+                              consumedMovement="0"
+                              cooldown="5"
+                              elite="1"
+                              levelUpPriority="1"
+                              rank="-1"
+                              rankMax="0"
+                              requiredActionPoints="0">
             <model>
-                <action animation="Units/SistersOfBattle/CanonessAttack" sound="Actions/TheEmperorsVengeance" />
+                <action animation="Units/SistersOfBattle/CanonessAttack"
+                        sound="Actions/TheEmperorsVengeance"/>
             </model>
             <beginTargets>
                 <target rangeMax="-1">
                     <conditions>
                         <unit>
-                            <enemy />
+                            <enemy/>
                         </unit>
                     </conditions>
                     <areas>
@@ -249,11 +334,11 @@
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <enemy />
+                                            <enemy/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <weaponDamage weapon="TheEmperorsVengeance" />
+                                        <weaponDamage weapon="TheEmperorsVengeance"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -262,17 +347,18 @@
                 </target>
             </beginTargets>
         </theEmperorsVengeance>
-        <levelUp />
-        <shop />
+        <levelUp/>
+        <shop/>
     </actions>
     <traits>
-        <trait name="SistersOfBattle/ShieldOfFaith" />
-        <trait name="SistersOfBattle/Martyrdom" />
-        <trait name="SistersOfBattle/OathOfFaith" />
-        <trait name="ExtraInfantryArmour" requiredUpgrade="SistersOfBattle/ExtraInfantryArmour" />
-        <trait name="Hero" />
-        <trait name="SupportHero" />
-        <trait name="Rosarius" />
-        <trait name="Stubborn" />
+        <trait name="SistersOfBattle/ShieldOfFaith"/>
+        <trait name="SistersOfBattle/Martyrdom"/>
+        <trait name="SistersOfBattle/OathOfFaith"/>
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="SistersOfBattle/ExtraInfantryArmour"/>
+        <trait name="Hero"/>
+        <trait name="SupportHero"/>
+        <trait name="Rosarius"/>
+        <trait name="Stubborn"/>
     </traits>
 </unit>

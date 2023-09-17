@@ -1,116 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit productionWeight="0.01" spawnCountMax="1">
+<unit productionWeight="0.01"
+      spawnCountMax="1">
     <model>
-        <unit bloodBone="Chest" idleAnimation="Units/AdeptusMechanicus/CyberneticaDatasmithIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AdeptusMechanicus/CyberneticaDatasmith" mesh="Units/AdeptusMechanicus/CyberneticaDatasmith" normalWeight="0.1" scale="0.9 0.9 0.9" walker="1" />
+        <unit bloodBone="Chest"
+              idleAnimation="Units/AdeptusMechanicus/CyberneticaDatasmithIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/AdeptusMechanicus/CyberneticaDatasmith"
+              mesh="Units/AdeptusMechanicus/CyberneticaDatasmith"
+              normalWeight="0.1"
+              scale="0.9 0.9 0.9"
+              walker="1"/>
     </model>
     <weapons>
         <weapon name="GammaPistol">
             <model>
-                <beamWeapon fireInterval="0.43" muzzleBone="Muzzle" />
+                <beamWeapon fireInterval="0.43"
+                            muzzleBone="Muzzle"/>
             </model>
         </weapon>
         <weapon name="PowerFist">
             <model>
-                <weapon fireInterval="10" />
+                <weapon fireInterval="10"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="9" /> <!-- %armor base armor=3+ -->
-                <energyUpkeep base="2.0" /> <!-- %energyUpkeep base tier=7 factor=1.0 -->
-                <foodCost base="20.0" /> <!-- %foodCost base tier=6 factor=0.5 -->
-                <hitpointsMax base="6.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=4 wounds=2 -->
-                <meleeAccuracy base="6" /> <!-- %meleeAccuracy base weaponSkill=3 -->
-                <meleeAttacks base="1" />
-                <energyCost base="20.0" /> <!-- %energyCost base tier=6 factor=0.5 -->
-                <strengthDamage base="1.5" /> <!-- %strengthDamage base strength=4 -->
-                <moraleMax base="12" /> <!-- %moraleMax base leadership=9 -->
-                <movementMax base="3" />
-                <productionCost base="36.0" /> <!-- %productionCost base tier=6 factor=1 -->
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <armor base="9"/> <!-- %armor base armor=3+ -->
+                <energyUpkeep base="2.0"/> <!-- %energyUpkeep base tier=7 factor=1.0 -->
+                <foodCost base="20.0"/> <!-- %foodCost base tier=6 factor=0.5 -->
+                <hitpointsMax base="6.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=4 wounds=2 -->
+                <meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
+                <meleeAttacks base="1"/>
+                <energyCost base="20.0"/> <!-- %energyCost base tier=6 factor=0.5 -->
+                <strengthDamage base="1.5"/> <!-- %strengthDamage base strength=4 -->
+                <moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
+                <movementMax base="3"/>
+                <productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseColonizersScore base="1.0" />
-                <increaseSupportScore base="1.0" />
+                <increaseColonizersScore base="1.0"/>
+                <increaseSupportScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/AdeptusMechanicus/CyberneticaDatasmithAttack" beginFire="1.0" chargeAnimation="Units/AdeptusMechanicus/CyberneticaDatasmithCharge" chargeBeginFire="0.5" chargeEndFire="1.1" endFire="1.9" meleeAnimation="Units/AdeptusMechanicus/CyberneticaDatasmithMelee" meleeBeginSwing="0.33" meleeEndSwing="1.0" />
+                <action animation="Units/AdeptusMechanicus/CyberneticaDatasmithAttack"
+                        beginFire="1.0"
+                        chargeAnimation="Units/AdeptusMechanicus/CyberneticaDatasmithCharge"
+                        chargeBeginFire="0.5"
+                        chargeEndFire="1.1"
+                        endFire="1.9"
+                        meleeAnimation="Units/AdeptusMechanicus/CyberneticaDatasmithMelee"
+                        meleeBeginSwing="0.33"
+                        meleeEndSwing="1.0"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/AdeptusMechanicus/CyberneticaDatasmithDie" animationCount="2" sound="Units/MediumArmoredDie" soundCount="4" soundDelay="0.2" voiceSound="Units/AdeptusMechanicus/CyberneticaDatasmithVoiceDie" voiceSoundCount="1" />
+                <action animation="Units/AdeptusMechanicus/CyberneticaDatasmithDie"
+                        animationCount="2"
+                        sound="Units/MediumArmoredDie"
+                        soundCount="4"
+                        soundDelay="0.2"
+                        voiceSound="Units/AdeptusMechanicus/CyberneticaDatasmithVoiceDie"
+                        voiceSoundCount="1"/>
             </model>
         </die>
         <idle>
             <model>
-                <action />
+                <action/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/AdeptusMechanicus/CyberneticaDatasmithMove" sound="Units/AdeptusMechanicus/InfantryMove" soundCount="3" />
+                <action animation="Units/AdeptusMechanicus/CyberneticaDatasmithMove"
+                        sound="Units/AdeptusMechanicus/InfantryMove"
+                        soundCount="3"/>
             </model>
         </move>
         <foundCity>
             <model>
-                <action animation="Units/AdeptusMechanicus/CyberneticaDatasmithAbility" sound="Actions/FoundCity" />
+                <action animation="Units/AdeptusMechanicus/CyberneticaDatasmithAbility"
+                        sound="Actions/FoundCity"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40" />
-                        <oreCost base="40" />
+                        <influenceCost base="40"/>
+                        <oreCost base="40"/>
                     </effects>
                 </modifier>
             </modifiers>
         </foundCity>
-        <clearTileUnitAbility name="ClearTile" cooldown="1" icon="Actions/ClearTile">
+        <clearTileUnitAbility name="ClearTile"
+                              cooldown="1"
+                              icon="Actions/ClearTile">
             <model>
-                <action animation="Units/AdeptusMechanicus/CyberneticaDatasmithAbility" />
+                <action animation="Units/AdeptusMechanicus/CyberneticaDatasmithAbility"/>
             </model>
             <beginTargets>
                 <target rangeMax="1">
-                    <conditions />
-                    <areas />
+                    <conditions/>
+                    <areas/>
                 </target>
             </beginTargets>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="5" />
-                        <oreCost base="5" />
+                        <influenceCost base="5"/>
+                        <oreCost base="5"/>
                     </effects>
                 </modifier>
             </modifiers>
         </clearTileUnitAbility>
-        <masterOfMachines name="AdeptusMechanicus/MasterOfMachines" cooldown="1">
+        <masterOfMachines name="AdeptusMechanicus/MasterOfMachines"
+                          cooldown="1">
             <model>
-                <action animation="Units/AdeptusMechanicus/CyberneticaDatasmithAbility" sound="Actions/Heal" />
+                <action animation="Units/AdeptusMechanicus/CyberneticaDatasmithAbility"
+                        sound="Actions/Heal"/>
             </model>
             <beginTargets>
-                <target rangeMax="1" rangeMin="1">
+                <target rangeMax="1"
+                        rangeMin="1">
                     <conditions>
                         <unit>
-                            <allied />
-                            <faction name="AdeptusMechanicus" />
-                            <damaged />
+                            <allied/>
+                            <faction name="AdeptusMechanicus"/>
+                            <damaged/>
                         </unit>
                         <unit match="Any">
-                            <faction name="AdeptusMechanicus" />
-                            <trait name="Fortification" />
-                            <trait name="Vehicle" />
+                            <faction name="AdeptusMechanicus"/>
+                            <trait name="Fortification"/>
+                            <trait name="Vehicle"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -118,7 +150,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints add="6" />
+                                        <hitpoints add="6"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -129,10 +161,13 @@
         </masterOfMachines>
     </actions>
     <traits>
-        <trait name="AdeptusMechanicus/CanticlesOfTheOmnissiah" />
-        <trait name="RefractorField" />
-        <trait name="ExtraInfantryArmour" requiredUpgrade="AdeptusMechanicus/ExtraInfantryArmour" />
-        <trait name="AdeptusMechanicus/CommandUplink" requiredUpgrade="AdeptusMechanicus/CommandUplink" />
-        <trait name="AdeptusMechanicus/ControlEdict" requiredUpgrade="AdeptusMechanicus/ControlEdict" />
+        <trait name="AdeptusMechanicus/CanticlesOfTheOmnissiah"/>
+        <trait name="RefractorField"/>
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="AdeptusMechanicus/ExtraInfantryArmour"/>
+        <trait name="AdeptusMechanicus/CommandUplink"
+               requiredUpgrade="AdeptusMechanicus/CommandUplink"/>
+        <trait name="AdeptusMechanicus/ControlEdict"
+               requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
     </traits>
 </unit>

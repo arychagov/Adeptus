@@ -3,27 +3,29 @@
     <modifiers>
         <modifier>
             <effects>
-                <additionalMembersHit add="2" />
+                <additionalMembersHit add="2"/>
             </effects>
         </modifier>
         <modifier>
             <conditions>
                 <weapon>
-                    <noTrait name="TwinLinked" />
+                    <noTrait name="TwinLinked"/>
                 </weapon>
             </conditions>
             <effects>
-                <rangedAccuracy max="12" min="12" /> <!-- Don't roll to hit. -->
+                <rangedAccuracy max="12"
+                                min="12"/> <!-- Don't roll to hit. -->
             </effects>
         </modifier>
         <modifier>
             <conditions>
                 <weapon>
-                    <trait name="TwinLinked" />
+                    <trait name="TwinLinked"/>
                 </weapon>
             </conditions>
             <effects>
-                <rangedAccuracy max="14" min="14" /> <!-- Don't roll to hit. -->
+                <rangedAccuracy max="14"
+                                min="14"/> <!-- Don't roll to hit. -->
             </effects>
         </modifier>
     </modifiers>

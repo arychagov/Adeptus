@@ -3,18 +3,18 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36" />
-                <oreCost base="50" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <energyUpkeep add="2" />
+                <productionCost base="36"/>
+                <oreCost base="50"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <energyUpkeep add="2"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <loyalty add="1" />
-                <influence add="2" />
-                <production add="6" />
+                <loyalty add="1"/>
+                <influence add="2"/>
+                <production add="6"/>
             </effects>
         </modifier>
     </modifiers>
@@ -28,18 +28,25 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesProductionScore base="1.0" />
+                <increaseVehiclesProductionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="ChaosSpaceMarines/ChaosRhino" />
-        <produceUnit requiredUpgrade="ChaosSpaceMarines/Helbrute" unit="ChaosSpaceMarines/Helbrute" />
-        <produceUnit requiredUpgrade="ChaosSpaceMarines/Maulerfiend" unit="ChaosSpaceMarines/Maulerfiend" />
-        <produceUnit requiredUpgrade="ChaosSpaceMarines/Forgefiend" unit="ChaosSpaceMarines/Forgefiend" />
-        <produceUnit requiredUpgrade="ChaosSpaceMarines/Venomcrawler" unit="ChaosSpaceMarines/Venomcrawler" />
-        <produceUnit requiredUpgrade="ChaosSpaceMarines/ChaosLandRaider" unit="ChaosSpaceMarines/ChaosLandRaider" />
-        <produceUnit requiredUpgrade="ChaosSpaceMarines/Defiler" unit="ChaosSpaceMarines/Defiler" />
-        <produceUnit requiredUpgrade="ChaosSpaceMarines/GreaterBrassScorpionOfKhorne" unit="ChaosSpaceMarines/GreaterBrassScorpionOfKhorne" />
+        <produceUnit unit="ChaosSpaceMarines/ChaosRhino"/>
+        <produceUnit requiredUpgrade="ChaosSpaceMarines/Helbrute"
+                     unit="ChaosSpaceMarines/Helbrute"/>
+        <produceUnit requiredUpgrade="ChaosSpaceMarines/Maulerfiend"
+                     unit="ChaosSpaceMarines/Maulerfiend"/>
+        <produceUnit requiredUpgrade="ChaosSpaceMarines/Forgefiend"
+                     unit="ChaosSpaceMarines/Forgefiend"/>
+        <produceUnit requiredUpgrade="ChaosSpaceMarines/Venomcrawler"
+                     unit="ChaosSpaceMarines/Venomcrawler"/>
+        <produceUnit requiredUpgrade="ChaosSpaceMarines/ChaosLandRaider"
+                     unit="ChaosSpaceMarines/ChaosLandRaider"/>
+        <produceUnit requiredUpgrade="ChaosSpaceMarines/Defiler"
+                     unit="ChaosSpaceMarines/Defiler"/>
+        <produceUnit requiredUpgrade="ChaosSpaceMarines/GreaterBrassScorpionOfKhorne"
+                     unit="ChaosSpaceMarines/GreaterBrassScorpionOfKhorne"/>
     </actions>
 </building>

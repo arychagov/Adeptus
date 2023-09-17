@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <cargoSlotsRequired add="6" />
+                <cargoSlotsRequired add="6"/>
             </effects>
         </modifier>
     </modifiers>

@@ -3,7 +3,7 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <meleeOverwatch add="1" />
+                <meleeOverwatch add="1"/>
             </effects>
         </modifier>
     </modifiers>

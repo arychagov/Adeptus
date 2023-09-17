@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Actions/AdeptusMechanicus/DataBlessedAutosermon">
+<trait category="Buff"
+       icon="Actions/AdeptusMechanicus/DataBlessedAutosermon">
     <modifiers>
         <modifier>
             <conditions>
                 <unit>
-                    <allied />
-                    <type name="Neutral/KastelanRobot" />
+                    <allied/>
+                    <type name="Neutral/KastelanRobot"/>
                 </unit>
             </conditions>
             <effects>
-                <addTrait name="UnbreakableVehicle" duration="1" />
-                <accuracy add="1" />
+                <addTrait name="UnbreakableVehicle"
+                          duration="1"/>
+                <accuracy add="1"/>
             </effects>
         </modifier>
         <modifier>
             <conditions>
                 <unit>
-                    <allied />
-                    <type name="AdeptusMechanicus/FulguriteElectroPriest" />
+                    <allied/>
+                    <type name="AdeptusMechanicus/FulguriteElectroPriest"/>
                 </unit>
             </conditions>
             <effects>
-                <attacks mul="0.17" />
+                <attacks mul="0.17"/>
             </effects>
         </modifier>
     </modifiers>

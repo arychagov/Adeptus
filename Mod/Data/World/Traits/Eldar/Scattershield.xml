@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <invulnerableDamageReduction min="0.00" />
+                <invulnerableDamageReduction min="0.00"/>
             </effects>
         </modifier>
     </modifiers>
@@ -12,15 +12,16 @@
             <conditions>
                 <encounter>
                     <opponent>
-                        <attacking />
-                        <firingMeleeWeapons />
-                        <noTrait name="Fortification" />
-                        <noTrait name="Vehicle" />
+                        <attacking/>
+                        <firingMeleeWeapons/>
+                        <noTrait name="Fortification"/>
+                        <noTrait name="Vehicle"/>
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <addTrait name="Blind" duration="1" />
+                <addTrait name="Blind"
+                          duration="1"/>
             </effects>
         </modifier>
     </onCombatOpponentModifiers>

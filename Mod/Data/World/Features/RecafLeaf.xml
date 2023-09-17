@@ -1,47 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feature category="Resource">
     <items>
-        <item type="AegisHarness" />
-        <item type="BlightGrenade" />
-        <item type="BlindGrenade" />
-        <item type="CombatStimulant" />
-        <item type="DimensionalKey" />
-        <item type="DuskBlade" />
-        <item type="EnduranceImplant" />
-        <item type="EntropicLocum" />
-        <item type="FaolchusWing" />
-        <item type="ForbiddenKnowledge" />
-        <item type="JokaeroDigitalWeapon" />
-        <item type="LaurelsOfCommand" />
-        <item type="LightningGauntlet" />
-        <item type="ManCatcher" />
-        <item type="MourningBladeOfLazaerek" />
-        <item type="OmniScope" />
-        <item type="PoweredBolas" />
-        <item type="PoweredGauntlet" />
-        <item type="RecoveryPackage" />
-        <item type="ScrollsOfMagnus" />
-        <item type="SightlessHelm" />
-        <item type="StunGrenade" />
-        <item type="TantalisingIcon" />
-        <item type="TemporaryShield" />
-        <item type="UltraWidebandAuspex" />
-        <item type="UncreatorGauntlet" />
-        <item type="VolcanisShroud" />
-        <item type="ZoatHideJerkin" />
+        <item type="AegisHarness"/>
+        <item type="BlightGrenade"/>
+        <item type="BlindGrenade"/>
+        <item type="CombatStimulant"/>
+        <item type="DimensionalKey"/>
+        <item type="DuskBlade"/>
+        <item type="EnduranceImplant"/>
+        <item type="EntropicLocum"/>
+        <item type="FaolchusWing"/>
+        <item type="ForbiddenKnowledge"/>
+        <item type="JokaeroDigitalWeapon"/>
+        <item type="LaurelsOfCommand"/>
+        <item type="LightningGauntlet"/>
+        <item type="ManCatcher"/>
+        <item type="MourningBladeOfLazaerek"/>
+        <item type="OmniScope"/>
+        <item type="PoweredBolas"/>
+        <item type="PoweredGauntlet"/>
+        <item type="RecoveryPackage"/>
+        <item type="ScrollsOfMagnus"/>
+        <item type="SightlessHelm"/>
+        <item type="StunGrenade"/>
+        <item type="TantalisingIcon"/>
+        <item type="TemporaryShield"/>
+        <item type="UltraWidebandAuspex"/>
+        <item type="UncreatorGauntlet"/>
+        <item type="VolcanisShroud"/>
+        <item type="ZoatHideJerkin"/>
     </items>
     <traits>
-        <trait name="Shop" />
+        <trait name="Shop"/>
     </traits>
     <model>
-        <vegetation depthMaterial="Features/RecafLeafDepth" material="Features/RecafLeaf" />
+        <vegetation depthMaterial="Features/RecafLeafDepth"
+                    material="Features/RecafLeaf"/>
     </model>
     <areas>
-        <area affects="Tile" radius="1">
+        <area affects="Tile"
+              radius="1">
             <modifiers>
                 <modifier>
                     <effects>
-                        <production mul="0.1" />
+                        <production mul="0.1"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -50,89 +52,92 @@
     <modifiers>
         <modifier>
             <effects>
-                <biomass add="1" />
-                <buildingSlots max="0" />
-                <influence add="1" />
-                <food mul="0.1" />
-                <food add="1" />
+                <biomass add="1"/>
+                <buildingSlots max="0"/>
+                <influence add="1"/>
+                <food mul="0.1"/>
+                <food add="1"/>
             </effects>
         </modifier>
         <modifier>
             <conditions>
                 <player>
-                    <noFaction name="Tyranids" />
+                    <noFaction name="Tyranids"/>
                 </player>
             </conditions>
             <effects>
-                <influence mul="0.1" />
+                <influence mul="0.1"/>
             </effects>
         </modifier>
         <modifier>
             <conditions>
                 <player>
-                    <faction name="SpaceMarines" />
+                    <faction name="SpaceMarines"/>
                 </player>
             </conditions>
             <effects>
-                <energy mul="0.1" />
-                <energy add="1" />
+                <energy mul="0.1"/>
+                <energy add="1"/>
             </effects>
         </modifier>
         <modifier requiredUpgrade="SpaceMarines/EmperorsClaim">
             <conditions>
                 <player>
-                    <faction name="SpaceMarines" />
+                    <faction name="SpaceMarines"/>
                 </player>
             </conditions>
             <effects>
-                <energy mul="0.025" />
-                <influence mul="0.025" />
+                <energy mul="0.025"/>
+                <influence mul="0.025"/>
             </effects>
         </modifier>
         <modifier>
             <conditions>
                 <player>
-                    <faction name="Necrons" />
+                    <faction name="Necrons"/>
                 </player>
             </conditions>
             <effects>
-                <energy mul="0.1" />
-                <energy add="1" />
+                <energy mul="0.1"/>
+                <energy add="1"/>
             </effects>
         </modifier>
         <modifier>
             <conditions>
                 <player>
-                    <faction name="SistersOfBattle" />
+                    <faction name="SistersOfBattle"/>
                 </player>
             </conditions>
             <effects>
-                <energy mul="0.1" />
-                <energy add="1" />
+                <energy mul="0.1"/>
+                <energy add="1"/>
             </effects>
         </modifier>
         <modifier>
             <conditions>
                 <player>
-                    <faction name="SpaceMarines" />
+                    <faction name="SpaceMarines"/>
                 </player>
             </conditions>
             <effects>
-                <loyalty mul="0.05" />
+                <loyalty mul="0.05"/>
             </effects>
         </modifier>
     </modifiers>
     <vegetation>
-        <trees clusterSizeMax="20" clusterSizeMin="10" scaleMax="2.0" scaleMin="0.5">
+        <trees clusterSizeMax="20"
+               clusterSizeMin="10"
+               scaleMax="2.0"
+               scaleMin="0.5">
             <meshes>
-                <mesh name="Terrain/Vegetation/RecafPlant0" />
-                <mesh name="Terrain/Vegetation/RecafPlant1" />
-                <mesh name="Terrain/Vegetation/RecafPlant2" />
-                <mesh name="Terrain/Vegetation/RecafPlant3" />
-                <mesh name="Terrain/Vegetation/RecafPlant4" />
-                <mesh name="Terrain/Vegetation/RecafPlant5" />
-                <mesh name="Terrain/Vegetation/RecafPlant6" />
-                <mesh name="Terrain/Vegetation/RecafPlant7" />
+                <mesh name="Terrain/Vegetation/RecafPlant0"/>
+                <mesh name="Terrain/Vegetation/RecafPlant1"/>
+                <mesh name="Terrain/Vegetation/RecafPlant2"/>
+                <mesh name="Terrain/Vegetation/RecafPlant3"/>
+                <mesh name="Terrain/Vegetation/RecafPlant4"/>
+                <mesh name="Terrain/Vegetation/RecafPlant5"/>
+                <mesh name="Terrain/Vegetation/RecafPlant6"/>
+                <mesh name="Terrain/Vegetation/RecafPlant7"/>
             </meshes>
         </trees>
     </vegetation>

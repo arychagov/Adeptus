@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Units/AstraMilitarum/LordCommissar" position="1" visible="0" />
+<upgrade icon="Units/AstraMilitarum/LordCommissar"
+         position="1"
+         visible="0"/>

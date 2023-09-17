@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Weapons/HeavyBolter" position="8">
+<upgrade icon="Weapons/HeavyBolter"
+         position="8">
     <requiredUpgrades>
-        <upgrade name="SistersOfBattle/Castigator" />
+        <upgrade name="SistersOfBattle/Castigator"/>
     </requiredUpgrades>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="1.0" />
+                <increaseVehiclesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

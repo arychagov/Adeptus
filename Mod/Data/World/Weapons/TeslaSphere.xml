@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon beamsBlueprint="Effects/TeslaArc" fireSound="Weapons/TeslaSphere" fireSoundCount="3" muzzleFlashesBlueprint="Effects/GaussMuzzleFlashes" />
+        <beamWeapon beamsBlueprint="Effects/TeslaArc"
+                    fireSound="Weapons/TeslaSphere"
+                    fireSoundCount="3"
+                    muzzleFlashesBlueprint="Effects/GaussMuzzleFlashes"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="5" />
-                <rangedArmorPenetration add="0" /> <!-- %rangedArmorPenetration add armorPiercing=- -->
-                <rangedDamage add="4" /> <!-- %rangedDamage add strength=7 -->
-                <strengthDamage base="0" />
+                <attacks add="5"/>
+                <rangedArmorPenetration add="0"/> <!-- %rangedArmorPenetration add armorPiercing=- -->
+                <rangedDamage add="4"/> <!-- %rangedDamage add strength=7 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="2" />
+    <target rangeMax="2"/>
     <traits>
-        <trait name="HeavyWeapon" />
-        <trait name="Tesla" />
-        <trait name="TeslaDamage" requiredUpgrade="Necrons/TeslaDamage" />
+        <trait name="HeavyWeapon"/>
+        <trait name="Tesla"/>
+        <trait name="TeslaDamage"
+               requiredUpgrade="Necrons/TeslaDamage"/>
     </traits>
 </weapon>

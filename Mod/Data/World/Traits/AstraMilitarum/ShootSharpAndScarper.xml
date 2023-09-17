@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <consumedMovement max="0" />
+                <consumedMovement max="0"/>
             </effects>
         </modifier>
     </modifiers>

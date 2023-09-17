@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Units/Tau/Devilfish" position="3">
+<upgrade icon="Units/Tau/Devilfish"
+         position="3">
     <requiredUpgrades>
-        <upgrade name="Tau/Vehicles" />
+        <upgrade name="Tau/Vehicles"/>
     </requiredUpgrades>
 </upgrade>

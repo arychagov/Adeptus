@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Traits/Orks/CityInfluence" position="1">
+<upgrade icon="Traits/Orks/CityInfluence"
+         position="1">
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfluenceScore base="1.0" />
+                <increaseInfluenceScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait icon="Actions/AstraMilitarumPsykerProductionEdict" visibilityCategory="Building">
+<trait icon="Actions/AstraMilitarumPsykerProductionEdict"
+       visibilityCategory="Building">
     <modifiers>
         <modifier>
             <conditions>
                 <building>
-                    <type name="AstraMilitarum/Psykers" />
+                    <type name="AstraMilitarum/Psykers"/>
                 </building>
             </conditions>
             <effects>
-                <production mul="0.20" />
+                <production mul="0.20"/>
             </effects>
         </modifier>
     </modifiers>

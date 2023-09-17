@@ -4,25 +4,25 @@
         <modifier>
             <conditions>
                 <unit>
-                    <noTrait name="Tyranids/SynapseLink" />
+                    <noTrait name="Tyranids/SynapseLink"/>
                 </unit>
             </conditions>
             <effects>
-                <accuracy mul="-0.33" />
+                <accuracy mul="-0.33"/>
             </effects>
         </modifier>
         <modifier visible="0">
             <conditions>
                 <unit>
-                    <faction name="Orks" />
-                    <noTrait name="Fortification" />
-                    <noTrait name="Vehicle" />
-                    <noTrait name="MonstrousCreature" />
-                    <noTrait name="Hero" />
+                    <faction name="Orks"/>
+                    <noTrait name="Fortification"/>
+                    <noTrait name="Vehicle"/>
+                    <noTrait name="MonstrousCreature"/>
+                    <noTrait name="Hero"/>
                 </unit>
             </conditions>
             <effects>
-                <damageTaken mul="0.25" />
+                <damageTaken mul="0.25"/>
             </effects>
         </modifier>
     </modifiers>

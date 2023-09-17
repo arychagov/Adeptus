@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Weapons/CognisHeavyStubber" position="6">
+<upgrade icon="Weapons/CognisHeavyStubber"
+         position="6">
     <requiredUpgrades>
-        <upgrade name="AdeptusMechanicus/OnagerDunecrawler" />
+        <upgrade name="AdeptusMechanicus/OnagerDunecrawler"/>
     </requiredUpgrades>
 </upgrade>

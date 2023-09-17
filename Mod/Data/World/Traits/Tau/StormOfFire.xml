@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff" icon="Actions/Tau/StormOfFire" rankMax="2">
+<trait alwaysVisible="1"
+       category="Buff"
+       icon="Actions/Tau/StormOfFire"
+       rankMax="2">
     <modifiers>
         <modifier>
             <effects>
-                <invulnerableDamageReduction minMax="0.5" minMin="0.17" />
+                <invulnerableDamageReduction minMax="0.5"
+                                             minMin="0.17"/>
             </effects>
         </modifier>
     </modifiers>

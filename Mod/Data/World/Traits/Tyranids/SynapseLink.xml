@@ -4,12 +4,12 @@
         <modifier>
             <conditions>
                 <unit>
-                    <allied />
-                    <faction name="Tyranids" />
+                    <allied/>
+                    <faction name="Tyranids"/>
                 </unit>
             </conditions>
             <effects>
-                <moraleMax max="0" />
+                <moraleMax max="0"/>
             </effects>
         </modifier>
     </modifiers>

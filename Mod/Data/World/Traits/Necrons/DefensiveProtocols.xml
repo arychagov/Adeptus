@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Actions/Necrons/DefensiveProtocols">
+<trait category="Buff"
+       icon="Actions/Necrons/DefensiveProtocols">
     <perTurnModifiers endure="0">
         <modifier>
             <conditions>
                 <unit>
-                    <allied />
-                    <faction name="Necrons" />
-                    <noTrait name="Fortification" />
-                    <noTrait name="Vehicle" />
-                    <noTrait name="Hero" />
+                    <allied/>
+                    <faction name="Necrons"/>
+                    <noTrait name="Fortification"/>
+                    <noTrait name="Vehicle"/>
+                    <noTrait name="Hero"/>
                 </unit>
             </conditions>
             <effects>
-                <hitpoints add="1" />
-                <moraleLossFactor add="-0.33" />
+                <hitpoints add="1"/>
+                <moraleLossFactor add="-0.33"/>
             </effects>
         </modifier>
     </perTurnModifiers>

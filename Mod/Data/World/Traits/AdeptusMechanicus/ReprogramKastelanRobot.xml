@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Actions/AdeptusMechanicus/ReprogramKastelanRobot" rankMax="2">
+<trait category="Buff"
+       icon="Actions/AdeptusMechanicus/ReprogramKastelanRobot"
+       rankMax="2">
     <modifiers>
         <modifier>
             <conditions>
                 <weapon>
-                    <noTrait name="Melee" />
-                    <noTrait name="Witchfire" />
-                    <additionalMembersHit equal="0" />
+                    <noTrait name="Melee"/>
+                    <noTrait name="Witchfire"/>
+                    <additionalMembersHit equal="0"/>
                 </weapon>
             </conditions>
             <effects>
-                <damageReturnFactor addMax="0.18" addMin="0.08" />
+                <damageReturnFactor addMax="0.18"
+                                    addMin="0.08"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <hitpointsMax addMax="4" addMin="2" />
+                <hitpointsMax addMax="4"
+                              addMin="2"/>
             </effects>
         </modifier>
     </modifiers>

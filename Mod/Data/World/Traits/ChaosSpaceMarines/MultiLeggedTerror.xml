@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" visibilityCategory="Weapon">
+<trait category="Buff"
+       visibilityCategory="Weapon">
     <modifiers>
         <modifier>
             <conditions>
                 <weapon>
-                    <type name="Stomp" />
+                    <type name="Stomp"/>
                 </weapon>
             </conditions>
             <effects>
-                <meleeAttacks mul="0.67" />
+                <meleeAttacks mul="0.67"/>
             </effects>
         </modifier>
     </modifiers>

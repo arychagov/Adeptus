@@ -3,14 +3,14 @@
     <modifiers>
         <modifier>
             <effects>
-                <moraleMax add="2" />
+                <moraleMax add="2"/>
             </effects>
         </modifier>
     </modifiers>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <morale add="2" />
+                <morale add="2"/>
             </effects>
         </modifier>
     </modifiers>

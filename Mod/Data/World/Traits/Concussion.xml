@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <accuracy mul="-0.25" />
+                <accuracy mul="-0.25"/>
             </effects>
         </modifier>
     </modifiers>

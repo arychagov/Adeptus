@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" rankMax="2">
+<trait category="Buff"
+       rankMax="2">
     <modifiers>
         <modifier>
             <effects>
-                <supportSystemSlots addMax="3" addMin="1" />
+                <supportSystemSlots addMax="3"
+                                    addMin="1"/>
             </effects>
         </modifier>
     </modifiers>

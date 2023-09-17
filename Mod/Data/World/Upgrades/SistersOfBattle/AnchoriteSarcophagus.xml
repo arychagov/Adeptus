@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Traits/SistersOfBattle/AnchoriteSarcophagus" position="4" visible="0">
+<upgrade icon="Traits/SistersOfBattle/AnchoriteSarcophagus"
+         position="4"
+         visible="0">
     <requiredUpgrades>
-        <upgrade name="SistersOfBattle/Mortifier" />
+        <upgrade name="SistersOfBattle/Mortifier"/>
     </requiredUpgrades>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="1.0" />
+                <increaseVehiclesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

@@ -3,19 +3,19 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36" />
-                <oreCost base="50" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <energyUpkeep add="2" />
+                <productionCost base="36"/>
+                <oreCost base="50"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <energyUpkeep add="2"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <energy add="1" />
-                <influence add="2" />
-                <production add="6" />
-                <research add="1" />
+                <energy add="1"/>
+                <influence add="2"/>
+                <production add="6"/>
+                <research add="1"/>
             </effects>
         </modifier>
     </modifiers>
@@ -29,15 +29,17 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseAircraftProductionScore base="1.0" />
+                <increaseAircraftProductionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="Eldar/CrimsonHunter" />
-        <produceUnit requiredUpgrade="Eldar/HemlockWraithfighter" unit="Eldar/HemlockWraithfighter" />
+        <produceUnit unit="Eldar/CrimsonHunter"/>
+        <produceUnit requiredUpgrade="Eldar/HemlockWraithfighter"
+                     unit="Eldar/HemlockWraithfighter"/>
     </actions>
     <traits>
-        <trait name="Eldar/AircraftBuildingBonus" requiredUpgrade="Eldar/AircraftBuildingBonus" />
+        <trait name="Eldar/AircraftBuildingBonus"
+               requiredUpgrade="Eldar/AircraftBuildingBonus"/>
     </traits>
 </building>

@@ -4,11 +4,12 @@
         <modifier>
             <conditions>
                 <unit>
-                    <movedThisTurn />
+                    <movedThisTurn/>
                 </unit>
             </conditions>
             <effects>
-                <accuracy max="-999" min="-999" />
+                <accuracy max="-999"
+                          min="-999"/>
             </effects>
         </modifier>
     </modifiers>

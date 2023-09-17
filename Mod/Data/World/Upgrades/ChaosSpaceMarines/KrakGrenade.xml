@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Weapons/KrakGrenade" position="3" visible="0">
+<upgrade icon="Weapons/KrakGrenade"
+         position="3"
+         visible="0">
     <requiredUpgrades>
-        <upgrade name="ChaosSpaceMarines/Heroes" />
-        <upgrade name="ChaosSpaceMarines/Infantry" />
+        <upgrade name="ChaosSpaceMarines/Heroes"/>
+        <upgrade name="ChaosSpaceMarines/Infantry"/>
     </requiredUpgrades>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0" />
+                <increaseInfantryScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

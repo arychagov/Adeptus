@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff" icon="Actions/Necrons/CountertemporalNanomines">
+<trait category="Debuff"
+       icon="Actions/Necrons/CountertemporalNanomines">
     <modifiers>
         <modifier>
             <effects>
-                <movementMax max="0.0" />
+                <movementMax max="0.0"/>
             </effects>
         </modifier>
     </modifiers>

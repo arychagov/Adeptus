@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Weapons/Toxinspike" position="8">
+<upgrade icon="Weapons/Toxinspike"
+         position="8">
     <requiredUpgrades>
-        <upgrade name="Tyranids/Trygon" />
+        <upgrade name="Tyranids/Trygon"/>
     </requiredUpgrades>
 </upgrade>

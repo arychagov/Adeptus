@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Units/Tau/SunSharkBomber" position="9">
+<upgrade icon="Units/Tau/SunSharkBomber"
+         position="9">
     <requiredUpgrades>
-        <upgrade name="Tau/Aircraft" />
+        <upgrade name="Tau/Aircraft"/>
     </requiredUpgrades>
 </upgrade>

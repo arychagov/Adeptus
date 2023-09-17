@@ -3,18 +3,18 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36" />
-                <oreCost base="50" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <energyUpkeep add="2" />
+                <productionCost base="36"/>
+                <oreCost base="50"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <energyUpkeep add="2"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <loyalty add="1" />
-                <populationLimit add="1" />
-                <production add="6" />
+                <loyalty add="1"/>
+                <populationLimit add="1"/>
+                <production add="6"/>
             </effects>
         </modifier>
     </modifiers>
@@ -28,16 +28,21 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryProductionScore base="1.0" />
+                <increaseInfantryProductionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="AstraMilitarum/Guardsman" />
-        <produceUnit requiredUpgrade="AstraMilitarum/Ratling" unit="AstraMilitarum/Ratling" />
-        <produceUnit requiredUpgrade="AstraMilitarum/HeavyWeaponsSquad" unit="AstraMilitarum/HeavyWeaponsSquad" />
-        <produceUnit requiredUpgrade="AstraMilitarum/TempestusScion" unit="AstraMilitarum/TempestusScion" />
-        <produceUnit requiredUpgrade="AstraMilitarum/Bullgryn" unit="AstraMilitarum/Bullgryn" />
-        <produceUnit requiredUpgrade="AstraMilitarum/Psykers" unit="AstraMilitarum/WyrdvanePsyker" />
+        <produceUnit unit="AstraMilitarum/Guardsman"/>
+        <produceUnit requiredUpgrade="AstraMilitarum/Ratling"
+                     unit="AstraMilitarum/Ratling"/>
+        <produceUnit requiredUpgrade="AstraMilitarum/HeavyWeaponsSquad"
+                     unit="AstraMilitarum/HeavyWeaponsSquad"/>
+        <produceUnit requiredUpgrade="AstraMilitarum/TempestusScion"
+                     unit="AstraMilitarum/TempestusScion"/>
+        <produceUnit requiredUpgrade="AstraMilitarum/Bullgryn"
+                     unit="AstraMilitarum/Bullgryn"/>
+        <produceUnit requiredUpgrade="AstraMilitarum/Psykers"
+                     unit="AstraMilitarum/WyrdvanePsyker"/>
     </actions>
 </building>

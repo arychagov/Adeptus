@@ -5,20 +5,20 @@
             <conditions>
                 <encounter>
                     <opponent match="Any">
-                        <trait name="Flyer" />
-                        <trait name="Jetbike" />
-                        <trait name="Bike" />
-                        <trait name="Vehicle" />
+                        <trait name="Flyer"/>
+                        <trait name="Jetbike"/>
+                        <trait name="Bike"/>
+                        <trait name="Vehicle"/>
                     </opponent>
                 </encounter>
                 <encounter>
                     <opponent>
-                        <movedThisTurn />
+                        <movedThisTurn/>
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <rangedAccuracy mul="0.17" />
+                <rangedAccuracy mul="0.17"/>
             </effects>
         </modifier>
     </modifiers>

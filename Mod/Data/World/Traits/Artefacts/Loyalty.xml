@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Units/Neutral/Artefacts/Loyalty" stacking="1" visibilityCategory="Unit">
+<trait category="Buff"
+       icon="Units/Neutral/Artefacts/Loyalty"
+       stacking="1"
+       visibilityCategory="Unit">
     <modifiers>
         <modifier>
             <effects>
-                <loyalty add="1" />
+                <loyalty add="1"/>
             </effects>
         </modifier>
         <modifier visible="0">
             <conditions>
                 <player>
-                    <faction name="SpaceMarines" />
+                    <faction name="SpaceMarines"/>
                 </player>
             </conditions>
             <effects>
-                <loyalty add="1" />
+                <loyalty add="1"/>
             </effects>
         </modifier>
     </modifiers>

@@ -1,67 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement10">
     <model>
-        <unit explosionsBone="Hull" idleAnimation="Units/AstraMilitarum/DevilDogIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AstraMilitarum/DevilDog" mesh="Units/AstraMilitarum/DevilDog" scale="1.1 1.1 1.1" uvAnimated="1" />
+        <unit explosionsBone="Hull"
+              idleAnimation="Units/AstraMilitarum/DevilDogIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/AstraMilitarum/DevilDog"
+              mesh="Units/AstraMilitarum/DevilDog"
+              scale="1.1 1.1 1.1"
+              uvAnimated="1"/>
     </model>
     <weapons>
-        <weapon name="HeavyBolter" requiredUpgrade="AstraMilitarum/BoltDamage" />
+        <weapon name="HeavyBolter"
+                requiredUpgrade="AstraMilitarum/BoltDamage"/>
         <weapon name="MeltaCannon">
             <model>
-                <beamWeapon fireInterval="0.2" muzzleBone="Cannon_Muzzle" muzzleCount="1" />
+                <beamWeapon fireInterval="0.2"
+                            muzzleBone="Cannon_Muzzle"
+                            muzzleCount="1"/>
             </model>
         </weapon>
         <weapon name="HeavyBolter">
             <model>
-                <projectileWeapon muzzleBone="Machinegun_Muzzle" />
+                <projectileWeapon muzzleBone="Machinegun_Muzzle"/>
             </model>
         </weapon>
-        <weapon name="HunterKillerMissile" enabled="0" slotName="HunterKillerMissile">
+        <weapon name="HunterKillerMissile"
+                enabled="0"
+                slotName="HunterKillerMissile">
             <model>
-                <missileWeapon muzzleBone="Hull" />
+                <missileWeapon muzzleBone="Hull"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8" /> <!-- %armor base armor=12/12/10 -->
-                <hitpointsMax base="36.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base armor=12/12/10 wounds=3 -->
-                <moraleMax base="8" /> <!-- %moraleMax base leadership=7 -->
-                <movementMax base="4" />
-                <oreUpkeep base="3.0" /> <!-- %oreUpkeep base tier=7 factor=1 -->
-                <oreCost base="60.0" /> <!-- %oreCost base tier=7 factor=1 -->
-                <productionCost base="42.0" /> <!-- %productionCost base tier=7 factor=1 -->
-                <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <armor base="8"/> <!-- %armor base armor=12/12/10 -->
+                <hitpointsMax base="36.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=12/12/10 wounds=3 -->
+                <moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
+                <movementMax base="4"/>
+                <oreUpkeep base="3.0"/> <!-- %oreUpkeep base tier=7 factor=1 -->
+                <oreCost base="60.0"/> <!-- %oreCost base tier=7 factor=1 -->
+                <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="1.0" />
+                <increaseVehiclesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/AstraMilitarum/DevilDogAttack" beginFire="1.2" endFire="2.43" />
+                <action animation="Units/AstraMilitarum/DevilDogAttack"
+                        beginFire="1.2"
+                        endFire="2.43"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/AstraMilitarum/DevilDogDie0" sound="Units/MediumVehicleDie" soundCount="3" soundDelay="0" />
+                <action animation="Units/AstraMilitarum/DevilDogDie0"
+                        sound="Units/MediumVehicleDie"
+                        soundCount="3"
+                        soundDelay="0"/>
             </model>
         </die>
         <move>
             <model>
-                <action animation="Units/AstraMilitarum/DevilDogMove" sound="Units/AstraMilitarum/TankMove" soundCount="3" />
+                <action animation="Units/AstraMilitarum/DevilDogMove"
+                        sound="Units/AstraMilitarum/TankMove"
+                        soundCount="3"/>
             </model>
         </move>
-        <createSmokeScreen consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="AstraMilitarum/SmokeLauncher">
+        <createSmokeScreen consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="10"
+                           icon="Traits/SmokeScreen"
+                           requiredActionPoints="0"
+                           requiredUpgrade="AstraMilitarum/SmokeLauncher">
             <model>
-                <action sound="Actions/SmokeScreen" />
+                <action sound="Actions/SmokeScreen"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -70,7 +94,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature name="SmokeScreen" duration="3" />
+                                        <addFeature name="SmokeScreen"
+                                                    duration="3"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -79,19 +104,27 @@
                 </selfTarget>
             </beginTargets>
         </createSmokeScreen>
-        <useWeapon cooldown="10" requiredUpgrade="AstraMilitarum/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
+        <useWeapon cooldown="10"
+                   requiredUpgrade="AstraMilitarum/HunterKillerMissile"
+                   weaponSlotName="HunterKillerMissile">
             <model>
-                <action beginFire="0.1" endFire="1.0" />
+                <action beginFire="0.1"
+                        endFire="1.0"/>
             </model>
         </useWeapon>
     </actions>
     <traits>
-        <trait name="CamoNetting" requiredUpgrade="AstraMilitarum/CamoNetting" />
-        <trait name="DozerBlade" requiredUpgrade="AstraMilitarum/SmokeLauncher" />
-        <trait name="ExtraVehicleArmour" requiredUpgrade="AstraMilitarum/ExtraVehicleArmour" />
-        <trait name="RecoveryGear" requiredUpgrade="AstraMilitarum/RecoveryGear" />
-        <trait name="RelicPlating" requiredUpgrade="AstraMilitarum/RelicPlating" />
-        <trait name="Tank" />
-        <trait name="Vehicle" />
+        <trait name="CamoNetting"
+               requiredUpgrade="AstraMilitarum/CamoNetting"/>
+        <trait name="DozerBlade"
+               requiredUpgrade="AstraMilitarum/SmokeLauncher"/>
+        <trait name="ExtraVehicleArmour"
+               requiredUpgrade="AstraMilitarum/ExtraVehicleArmour"/>
+        <trait name="RecoveryGear"
+               requiredUpgrade="AstraMilitarum/RecoveryGear"/>
+        <trait name="RelicPlating"
+               requiredUpgrade="AstraMilitarum/RelicPlating"/>
+        <trait name="Tank"/>
+        <trait name="Vehicle"/>
     </traits>
 </unit>

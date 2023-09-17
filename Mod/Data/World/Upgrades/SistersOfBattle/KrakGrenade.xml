@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Weapons/KrakGrenade" position="2" visible="0">
+<upgrade icon="Weapons/KrakGrenade"
+         position="2"
+         visible="0">
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0" />
+                <increaseInfantryScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

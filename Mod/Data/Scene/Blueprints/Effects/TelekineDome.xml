@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<simpleModel material="Effects/TelekineDome" mesh="Sphere" scale="684 684 512">
+<simpleModel material="Effects/TelekineDome"
+             mesh="Sphere"
+             scale="684 684 512">
     <renderQueues>
-        <renderQueue name="GlowingCustomEffects" />
+        <renderQueue name="GlowingCustomEffects"/>
     </renderQueues>
     <updateQueues>
-        <updateQueue name="Parallel1" />
+        <updateQueue name="Parallel1"/>
     </updateQueues>
 </simpleModel>

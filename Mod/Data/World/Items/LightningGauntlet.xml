@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <item>
     <actions>
-        <genericUnitAbility cooldown="3" passive="1">
+        <genericUnitAbility cooldown="3"
+                            passive="1">
             <combatEndedProcessUseConditions>
                 <unit>
-                    <firingMeleeWeapons />
+                    <firingMeleeWeapons/>
                 </unit>
             </combatEndedProcessUseConditions>
             <beginTargets>
@@ -14,7 +15,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Items/LightningGauntlet" />
+                                        <addTrait name="Items/LightningGauntlet"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -27,11 +28,11 @@
     <modifiers>
         <modifier>
             <effects>
-                <influenceCost base="80" />
+                <influenceCost base="80"/>
             </effects>
         </modifier>
     </modifiers>
     <traits>
-        <trait name="Uncommon" />
+        <trait name="Uncommon"/>
     </traits>
 </item>

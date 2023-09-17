@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feature category="None" icon="Weapons/ClusterMines">
+<feature category="None"
+         icon="Weapons/ClusterMines">
     <model>
-        <clusterMines />
+        <clusterMines/>
     </model>
     <traits>
-        <trait name="ClusterMines" />
+        <trait name="ClusterMines"/>
     </traits>
 </feature>

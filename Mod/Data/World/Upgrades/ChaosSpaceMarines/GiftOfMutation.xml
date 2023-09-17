@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Traits/ChaosSpaceMarines/GiftOfMutation" position="9">
+<upgrade icon="Traits/ChaosSpaceMarines/GiftOfMutation"
+         position="9">
     <requiredUpgrades>
-        <upgrade name="ChaosSpaceMarines/Infantry" />
+        <upgrade name="ChaosSpaceMarines/Infantry"/>
     </requiredUpgrades>
 </upgrade>

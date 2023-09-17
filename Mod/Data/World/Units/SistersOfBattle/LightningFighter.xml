@@ -1,62 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement11">
     <model>
-        <unit explosionsBone="Hull_Shake" idleAnimation="Units/SistersOfBattle/LightningFighterIdle" idleAnimationCount="2" idleContinuously="1" material="Units/SistersOfBattle/LightningFighter" mesh="Units/SistersOfBattle/LightningFighter" normalWeight="1.0" position="0 0 32" scale="0.9 0.9 0.9" uvAnimated="0" />
+        <unit explosionsBone="Hull_Shake"
+              idleAnimation="Units/SistersOfBattle/LightningFighterIdle"
+              idleAnimationCount="2"
+              idleContinuously="1"
+              material="Units/SistersOfBattle/LightningFighter"
+              mesh="Units/SistersOfBattle/LightningFighter"
+              normalWeight="1.0"
+              position="0 0 32"
+              scale="0.9 0.9 0.9"
+              uvAnimated="0"/>
     </model>
     <weapons>
-        <weapon name="Lascannon" count="2">
+        <weapon name="Lascannon"
+                count="2">
             <model>
-                <projectileWeapon cycleMuzzles="0" fireInterval="0.6" muzzleBone="Muzzle" muzzleCount="2" />
+                <projectileWeapon cycleMuzzles="0"
+                                  fireInterval="0.6"
+                                  muzzleBone="Muzzle"
+                                  muzzleCount="2"/>
             </model>
         </weapon>
-        <weapon name="SkystrikeMissile" count="2" requiredUpgrade="SistersOfBattle/AircraftsMissiles">
+        <weapon name="SkystrikeMissile"
+                count="2"
+                requiredUpgrade="SistersOfBattle/AircraftsMissiles">
             <model>
-                <missileWeapon fireInterval="0.93" missileScale="0.5" muzzleBone="MissileMuzzle" muzzleCount="4" />
+                <missileWeapon fireInterval="0.93"
+                               missileScale="0.5"
+                               muzzleBone="MissileMuzzle"
+                               muzzleCount="4"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="7" /> <!-- %armor base armor=11/11/10 -->
-                <energyUpkeep base="3.0" /> <!-- %energyUpkeep base tier=7 factor=1 -->
-                <energyCost base="30.0" /> <!-- %energyCost base tier=7 factor=0.5 -->
-                <hitpointsMax base="16.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base armor=10/10/10 wounds=2 -->
-                <moraleMax base="8" /> <!-- %moraleMax base leadership=7 -->
-                <movementMax base="6" />
-                <productionCost base="42.0" /> <!-- %productionCost base tier=7 factor=1 -->
-                <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
-                <requisitionsCost base="30.0" /> <!-- %requisitionsCost base tier=7 factor=0.5 -->
+                <armor base="7"/> <!-- %armor base armor=11/11/10 -->
+                <energyUpkeep base="3.0"/> <!-- %energyUpkeep base tier=7 factor=1 -->
+                <energyCost base="30.0"/> <!-- %energyCost base tier=7 factor=0.5 -->
+                <hitpointsMax base="16.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=10/10/10 wounds=2 -->
+                <moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
+                <movementMax base="6"/>
+                <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <requisitionsCost base="30.0"/> <!-- %requisitionsCost base tier=7 factor=0.5 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseAircraftScore base="1.0" />
+                <increaseAircraftScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/SistersOfBattle/LightningFighterAttack" beginFire="1.27" endFire="2.2" />
+                <action animation="Units/SistersOfBattle/LightningFighterAttack"
+                        beginFire="1.27"
+                        endFire="2.2"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/SistersOfBattle/LightningFighterDie0" sound="Units/MediumVehicleDie" soundCount="3" soundDelay="0.1" />
+                <action animation="Units/SistersOfBattle/LightningFighterDie0"
+                        sound="Units/MediumVehicleDie"
+                        soundCount="3"
+                        soundDelay="0.1"/>
             </model>
         </die>
         <move>
             <model>
-                <action sound="Units/AstraMilitarum/ValkyrieMove" soundCount="3" />
+                <action sound="Units/AstraMilitarum/ValkyrieMove"
+                        soundCount="3"/>
             </model>
         </move>
-        <agile name="Agile" consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="1">
+        <agile name="Agile"
+               consumedActionPoints="0"
+               consumedMovement="0"
+               cooldown="3"
+               requiredActionPoints="1">
             <model>
-                <action sound="Actions/ChargeUp" />
+                <action sound="Actions/ChargeUp"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -65,7 +93,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Agile" duration="1" />
+                                        <addTrait name="Agile"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -74,9 +103,10 @@
                 </selfTarget>
             </beginTargets>
         </agile>
-        <supersonic consumedMovement="0" cooldown="3">
+        <supersonic consumedMovement="0"
+                    cooldown="3">
             <model>
-                <action sound="Actions/ChargeUp" />
+                <action sound="Actions/ChargeUp"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -85,7 +115,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Supersonic" duration="1" />
+                                        <addTrait name="Supersonic"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -94,13 +125,16 @@
                 </selfTarget>
             </beginTargets>
         </supersonic>
-        <jink consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
+        <jink consumedActionPoints="0"
+              consumedMovement="0"
+              cooldown="3"
+              requiredActionPoints="0">
             <model>
-                <action sound="Actions/ChargeUp" />
+                <action sound="Actions/ChargeUp"/>
             </model>
             <conditions>
                 <unit>
-                    <notAttackedThisTurn />
+                    <notAttackedThisTurn/>
                 </unit>
             </conditions>
             <beginTargets>
@@ -110,7 +144,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Jink" duration="1" />
+                                        <addTrait name="Jink"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -119,9 +154,13 @@
                 </selfTarget>
             </beginTargets>
         </jink>
-        <dispenseChaff consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0" requiredUpgrade="SistersOfBattle/ChaffLauncher">
+        <dispenseChaff consumedActionPoints="0"
+                       consumedMovement="0"
+                       cooldown="5"
+                       requiredActionPoints="0"
+                       requiredUpgrade="SistersOfBattle/ChaffLauncher">
             <model>
-                <action sound="Actions/SmokeScreen" />
+                <action sound="Actions/SmokeScreen"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -130,7 +169,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Chaff" duration="1" />
+                                        <addTrait name="Chaff"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -139,20 +179,26 @@
                 </selfTarget>
             </beginTargets>
         </dispenseChaff>
-        <genericUnitAbility name="SistersOfBattle/EternalFire" consumedActionPoints="0" consumedMovement="0" cooldown="10" icon="Traits/SoulBlaze" requiredActionPoints="0" requiredUpgrade="SistersOfBattle/EternalFire">
+        <genericUnitAbility name="SistersOfBattle/EternalFire"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="10"
+                            icon="Traits/SoulBlaze"
+                            requiredActionPoints="0"
+                            requiredUpgrade="SistersOfBattle/EternalFire">
             <model>
-                <action sound="Actions/ChargeUp" />
+                <action sound="Actions/ChargeUp"/>
             </model>
             <modifiers>
                 <modifier requiredUpgrade="SistersOfBattle/Conflagration">
                     <effects>
-                        <cooldown add="-5" />
+                        <cooldown add="-5"/>
                     </effects>
                 </modifier>
             </modifiers>
             <conditions>
                 <unit>
-                    <notAttackedThisTurn />
+                    <notAttackedThisTurn/>
                 </unit>
             </conditions>
             <beginTargets>
@@ -162,7 +208,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/HolyFireSelf" duration="1" />
+                                        <addTrait name="SistersOfBattle/HolyFireSelf"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -173,10 +220,13 @@
         </genericUnitAbility>
     </actions>
     <traits>
-        <trait name="ExtraVehicleArmour" requiredUpgrade="SistersOfBattle/ExtraVehicleArmour" />
-        <trait name="SistersOfBattle/ShieldOfFaith" requiredUpgrade="SistersOfBattle/MinistorumIndoctrination" />
-        <trait name="SistersOfBattle/MartyrSpirit" requiredUpgrade="SistersOfBattle/MinistorumIndoctrination" />
-        <trait name="Flyer" />
-        <trait name="Vehicle" />
+        <trait name="ExtraVehicleArmour"
+               requiredUpgrade="SistersOfBattle/ExtraVehicleArmour"/>
+        <trait name="SistersOfBattle/ShieldOfFaith"
+               requiredUpgrade="SistersOfBattle/MinistorumIndoctrination"/>
+        <trait name="SistersOfBattle/MartyrSpirit"
+               requiredUpgrade="SistersOfBattle/MinistorumIndoctrination"/>
+        <trait name="Flyer"/>
+        <trait name="Vehicle"/>
     </traits>
 </unit>

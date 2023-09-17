@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff">
+<trait alwaysVisible="1"
+       category="Buff">
     <modifiers>
         <modifier>
             <effects>
-                <rangedDamageReductionBypass add="0.5" />
+                <rangedDamageReductionBypass add="0.5"/>
             </effects>
         </modifier>
     </modifiers>

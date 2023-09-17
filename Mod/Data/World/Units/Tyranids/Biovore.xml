@@ -1,78 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement4">
     <model>
-        <unit bloodBone="BloodBone" idleAnimation="Units/Tyranids/BiovoreIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Tyranids/Biovore" mesh="Units/Tyranids/Biovore" normalWeight="0.1" scale="0.8 0.8 0.8" walker="1" />
+        <unit bloodBone="BloodBone"
+              idleAnimation="Units/Tyranids/BiovoreIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/Tyranids/Biovore"
+              mesh="Units/Tyranids/Biovore"
+              normalWeight="0.1"
+              scale="0.8 0.8 0.8"
+              walker="1"/>
     </model>
-    <group memberDeltaX="70" memberDeltaY="80" rowSize="3" size="3" />
+    <group memberDeltaX="70"
+           memberDeltaY="80"
+           rowSize="3"
+           size="3"/>
     <weapons>
         <weapon name="SporeMineLauncher">
             <model>
-                <projectileWeapon fireInterval="1" muzzleBone=".Muzzle" />
+                <projectileWeapon fireInterval="1"
+                                  muzzleBone=".Muzzle"/>
             </model>
         </weapon>
-        <weapon name="SporeMineLauncher" enabled="0" slotName="SporeMineLauncher">
+        <weapon name="SporeMineLauncher"
+                enabled="0"
+                slotName="SporeMineLauncher">
             <model>
-                <projectileWeapon explosionsBlueprint="" fireInterval="1" muzzleBone=".Muzzle" />
+                <projectileWeapon explosionsBlueprint=""
+                                  fireInterval="1"
+                                  muzzleBone=".Muzzle"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="6" /> <!-- %armor base armor=4+ -->
-                <biomassUpkeep base="3.0" /> <!-- %biomassUpkeep base tier=7 factor=1 -->
-                <biomassCost base="60.0" /> <!-- %biomassCost base tier=7 factor=1 -->
-                <hitpointsMax base="8.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=4 wounds=3 -->
-                <meleeAccuracy base="6" /> <!-- %meleeAccuracy base weaponSkill=3 -->
-                <meleeAttacks base="2" />
-                <strengthDamage base="1.5" /> <!-- %strengthDamage base strength=4 -->
-                <moraleMax base="4" /> <!-- %moraleMax base leadership=5 -->
-                <movementMax base="3" />
-                <productionCost base="42.0" /> <!-- %productionCost base tier=7 factor=1 -->
-                <rangedAccuracy base="6" /> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <armor base="6"/> <!-- %armor base armor=4+ -->
+                <biomassUpkeep base="3.0"/> <!-- %biomassUpkeep base tier=7 factor=1 -->
+                <biomassCost base="60.0"/> <!-- %biomassCost base tier=7 factor=1 -->
+                <hitpointsMax base="8.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=4 wounds=3 -->
+                <meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
+                <meleeAttacks base="2"/>
+                <strengthDamage base="1.5"/> <!-- %strengthDamage base strength=4 -->
+                <moraleMax base="4"/> <!-- %moraleMax base leadership=5 -->
+                <movementMax base="3"/>
+                <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0" />
+                <increaseInfantryScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/Tyranids/BiovoreAttack" beginFire="1.2" endFire="1.5" />
+                <action animation="Units/Tyranids/BiovoreAttack"
+                        beginFire="1.2"
+                        endFire="1.5"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Tyranids/BiovoreDie" animationCount="2" sound="Units/MediumUnarmoredDie" soundCount="4" soundDelay="0.5" voiceSound="Units/Tyranids/MediumDie" voiceSoundCount="4" />
+                <action animation="Units/Tyranids/BiovoreDie"
+                        animationCount="2"
+                        sound="Units/MediumUnarmoredDie"
+                        soundCount="4"
+                        soundDelay="0.5"
+                        voiceSound="Units/Tyranids/MediumDie"
+                        voiceSoundCount="4"/>
             </model>
         </die>
         <idle>
             <model>
-                <action />
+                <action/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/Tyranids/BiovoreMove" sound="Units/Tyranids/InfantryMove" soundCount="4" />
+                <action animation="Units/Tyranids/BiovoreMove"
+                        sound="Units/Tyranids/InfantryMove"
+                        soundCount="4"/>
             </model>
         </move>
-        <sporeMine name="Tyranids/SporeMine" cooldown="5" icon="Units/Tyranids/SporeMine">
+        <sporeMine name="Tyranids/SporeMine"
+                   cooldown="5"
+                   icon="Units/Tyranids/SporeMine">
             <model>
-                <action animation="Units/Tyranids/BiovoreAbility" beginFire="0.67" endFire="0.87" />
+                <action animation="Units/Tyranids/BiovoreAbility"
+                        beginFire="0.67"
+                        endFire="0.87"/>
             </model>
             <beginTargets>
                 <target rangeMax="3">
                     <conditions>
                         <tile>
-                            <land />
-                            <noUnit />
-                            <noFeature name="GravityWaves" />
+                            <land/>
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
                         </tile>
                     </conditions>
                     <areas>
@@ -80,7 +110,9 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="Tyranids/SporeMine" consumedAction="0" consumedMovement="0" />
+                                        <addUnit name="Tyranids/SporeMine"
+                                                 consumedAction="0"
+                                                 consumedMovement="0"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -89,21 +121,25 @@
                 </target>
             </beginTargets>
         </sporeMine>
-        <instinctiveBehaviourOverride name="Tyranids/InstinctiveBehaviourOverride" consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredActionPoints="0">
+        <instinctiveBehaviourOverride name="Tyranids/InstinctiveBehaviourOverride"
+                                      consumedActionPoints="0"
+                                      consumedMovement="0"
+                                      cooldown="3"
+                                      requiredActionPoints="0">
             <model>
-                <action sound="Actions/HiveMindBuff" />
+                <action sound="Actions/HiveMindBuff"/>
             </model>
             <modifiers>
                 <modifier requiredUpgrade="Tyranids/InstinctiveBehaviourOverride2">
                     <effects>
-                        <influenceCost mul="-0.5" />
+                        <influenceCost mul="-0.5"/>
                     </effects>
                 </modifier>
             </modifiers>
             <conditions>
                 <unit>
-                    <noTrait name="Tyranids/InstinctiveBehaviourOverride" />
-                    <noTrait name="Tyranids/SynapseLink" />
+                    <noTrait name="Tyranids/InstinctiveBehaviourOverride"/>
+                    <noTrait name="Tyranids/SynapseLink"/>
                 </unit>
             </conditions>
             <beginTargets>
@@ -113,7 +149,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Tyranids/InstinctiveBehaviourOverride" duration="3" />
+                                        <addTrait name="Tyranids/InstinctiveBehaviourOverride"
+                                                  duration="3"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -122,12 +159,14 @@
                 </selfTarget>
             </beginTargets>
         </instinctiveBehaviourOverride>
-        <subterraneanAssault name="Tyranids/SubterraneanAssault" />
+        <subterraneanAssault name="Tyranids/SubterraneanAssault"/>
     </actions>
     <traits>
-        <trait name="ExtraInfantryArmour" requiredUpgrade="Tyranids/ExtraInfantryArmour" />
-        <trait name="Tyranids/InfantryUpkeep" requiredUpgrade="Tyranids/InfantryUpkeep" />
-        <trait name="Tyranids/InstinctiveBehaviour" />
-        <trait name="VeryBulky" />
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="Tyranids/ExtraInfantryArmour"/>
+        <trait name="Tyranids/InfantryUpkeep"
+               requiredUpgrade="Tyranids/InfantryUpkeep"/>
+        <trait name="Tyranids/InstinctiveBehaviour"/>
+        <trait name="VeryBulky"/>
     </traits>
 </unit>

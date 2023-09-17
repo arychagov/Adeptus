@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Buff" icon="Actions/Tau/Montka" rankMax="2">
+<trait alwaysVisible="1"
+       category="Buff"
+       icon="Actions/Tau/Montka"
+       rankMax="2">
     <modifiers>
         <modifier>
             <conditions>
                 <encounter>
                     <opponent>
-                        <hitpointsFraction less="0.5" />
-                        <noAttacking />
+                        <hitpointsFraction less="0.5"/>
+                        <noAttacking/>
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <damage mulMax="0.75" mulMin="0.25" />
+                <damage mulMax="0.75"
+                        mulMin="0.25"/>
             </effects>
         </modifier>
     </modifiers>

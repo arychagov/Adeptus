@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Items/TantalisingIcon" visibilityCategory="Unit">
+<trait category="Buff"
+       icon="Items/TantalisingIcon"
+       visibilityCategory="Unit">
     <modifiers>
         <modifier>
             <effects>
-                <influence add="8" />
+                <influence add="8"/>
             </effects>
         </modifier>
     </modifiers>

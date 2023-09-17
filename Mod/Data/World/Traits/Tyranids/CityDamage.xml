@@ -4,11 +4,11 @@
         <modifier>
             <conditions>
                 <unit>
-                    <enemy />
+                    <enemy/>
                 </unit>
             </conditions>
             <effects>
-                <weaponDamage weapon="TyranidCity" />
+                <weaponDamage weapon="TyranidCity"/>
             </effects>
         </modifier>
     </perTurnModifiers>

@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade dlc="Supplement8" icon="Units/Eldar/Warlock" position="5" />
+<upgrade dlc="Supplement8"
+         icon="Units/Eldar/Warlock"
+         position="5"/>

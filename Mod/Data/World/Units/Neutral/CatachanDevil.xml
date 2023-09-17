@@ -1,56 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit spawnCountMax="1" spawnWeight="0">
+<unit spawnCountMax="1"
+      spawnWeight="0">
     <model>
-        <unit bloodBone="Bone023" idleAnimation="Units/Neutral/CatachanDevilIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Neutral/CatachanDevil" mesh="Units/Neutral/CatachanDevil" normalWeight="0.1" scale="0.6 0.6 0.6" walker="1" />
+        <unit bloodBone="Bone023"
+              idleAnimation="Units/Neutral/CatachanDevilIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/Neutral/CatachanDevil"
+              mesh="Units/Neutral/CatachanDevil"
+              normalWeight="0.1"
+              scale="0.6 0.6 0.6"
+              walker="1"/>
     </model>
-    <group memberDeltaX="80" memberDeltaY="64" rowSize="3" size="1" />
+    <group memberDeltaX="80"
+           memberDeltaY="64"
+           rowSize="3"
+           size="1"/>
     <weapons>
         <weapon name="CloseCombatWeapon">
             <model>
-                <weapon fireInterval="0.5" fireSoundCount="0" />
+                <weapon fireInterval="0.5"
+                        fireSoundCount="0"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8" /> <!-- %armor base armor=3+ -->
-                <hitpointsMax base="12.0" /> <!-- %hitpointsMax base toughness=5 wounds=3 -->
-                <meleeAccuracy base="8" /> <!-- %meleeAccuracy base weaponSkill=4 -->
-                <meleeAttacks base="3" />
-                <strengthDamage base="3" /> <!-- %strengthDamage base strength=6 -->
+                <armor base="8"/> <!-- %armor base armor=3+ -->
+                <hitpointsMax base="12.0"/> <!-- %hitpointsMax base toughness=5 wounds=3 -->
+                <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
+                <meleeAttacks base="3"/>
+                <strengthDamage base="3"/> <!-- %strengthDamage base strength=6 -->
                 <!-- <meleeInitiative base="3"/> -->
-                <moraleMax base="10" /> <!-- %moraleMax base leadership=8 -->
-                <movementMax base="5" />
-                <productionCost base="36.0" /> <!-- %productionCost base tier=6 factor=1 -->
+                <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+                <movementMax base="5"/>
+                <productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
             </effects>
         </modifier>
     </modifiers>
     <actions>
         <attack>
             <model>
-                <action chargeAnimation="Units/Neutral/CatachanDevilCharge" meleeAnimation="Units/Neutral/CatachanDevilMelee" meleeBeginSwing="0.0" meleeDefenseAnimation="Units/Neutral/CatachanDevilMelee" meleeDefenseBeginSwing="0.0" meleeDefenseEndSwing="1.0" meleeEndSwing="1.0" meleeSound="Units/Neutral/CatachanDevilAttack" meleeSoundCount="2" />
+                <action chargeAnimation="Units/Neutral/CatachanDevilCharge"
+                        meleeAnimation="Units/Neutral/CatachanDevilMelee"
+                        meleeBeginSwing="0.0"
+                        meleeDefenseAnimation="Units/Neutral/CatachanDevilMelee"
+                        meleeDefenseBeginSwing="0.0"
+                        meleeDefenseEndSwing="1.0"
+                        meleeEndSwing="1.0"
+                        meleeSound="Units/Neutral/CatachanDevilAttack"
+                        meleeSoundCount="2"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Neutral/CatachanDevilDie" animationCount="2" sound="Units/Neutral/CatachanDevilDie" soundCount="2" soundDelay="0" />
+                <action animation="Units/Neutral/CatachanDevilDie"
+                        animationCount="2"
+                        sound="Units/Neutral/CatachanDevilDie"
+                        soundCount="2"
+                        soundDelay="0"/>
             </model>
         </die>
         <move>
             <model>
-                <action animation="Units/Neutral/CatachanDevilMove" sound="Units/Neutral/CatachanDevilMove" soundCount="1" />
+                <action animation="Units/Neutral/CatachanDevilMove"
+                        sound="Units/Neutral/CatachanDevilMove"
+                        soundCount="1"/>
             </model>
         </move>
         <auraOfFear passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" excludeRadius="0" radius="1">
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Fear" />
+                                        <addTrait name="Fear"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -59,9 +88,11 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <hammerOfWrath consumedActionPoints="0" consumedMovement="0" cooldown="3">
+        <hammerOfWrath consumedActionPoints="0"
+                       consumedMovement="0"
+                       cooldown="3">
             <model>
-                <action sound="Actions/PsychicBuff" />
+                <action sound="Actions/PsychicBuff"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -70,7 +101,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="HammerOfWrath" duration="1" />
+                                        <addTrait name="HammerOfWrath"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -81,12 +113,12 @@
         </hammerOfWrath>
     </actions>
     <traits>
-        <trait name="Fleet" />
-        <trait name="Infiltrate" />
-        <trait name="MonstrousCreature" />
-        <trait name="MoveThroughCover" />
-        <trait name="Relentless" />
-        <trait name="Smash" />
-        <trait name="Stealth" />
+        <trait name="Fleet"/>
+        <trait name="Infiltrate"/>
+        <trait name="MonstrousCreature"/>
+        <trait name="MoveThroughCover"/>
+        <trait name="Relentless"/>
+        <trait name="Smash"/>
+        <trait name="Stealth"/>
     </traits>
 </unit>

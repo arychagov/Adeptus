@@ -1,86 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement11">
     <model>
-        <unit bloodBone="Chest" idleAnimation="Units/SistersOfBattle/DialogusIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SistersOfBattle/Dialogus" mesh="Units/SistersOfBattle/Dialogus" normalWeight="0.1" portraitZoomModifier="1.1" position="0 0 0" scale="0.8 0.8 0.8" walker="1" />
+        <unit bloodBone="Chest"
+              idleAnimation="Units/SistersOfBattle/DialogusIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/SistersOfBattle/Dialogus"
+              mesh="Units/SistersOfBattle/Dialogus"
+              normalWeight="0.1"
+              portraitZoomModifier="1.1"
+              position="0 0 0"
+              scale="0.8 0.8 0.8"
+              walker="1"/>
     </model>
     <weapons>
         <weapon name="DialogusStaff">
             <model>
-                <weapon />
+                <weapon/>
             </model>
         </weapon>
-        <weapon name="MeltaBomb" enabled="0" slotName="MeltaBomb">
+        <weapon name="MeltaBomb"
+                enabled="0"
+                slotName="MeltaBomb">
             <model>
-                <grenadeWeapon />
+                <grenadeWeapon/>
             </model>
         </weapon>
-        <weapon name="FragGrenade" enabled="0" slotName="FragGrenade">
+        <weapon name="FragGrenade"
+                enabled="0"
+                slotName="FragGrenade">
             <model>
-                <grenadeWeapon />
+                <grenadeWeapon/>
             </model>
         </weapon>
-        <weapon name="KrakGrenade" enabled="0" slotName="KrakGrenade">
+        <weapon name="KrakGrenade"
+                enabled="0"
+                slotName="KrakGrenade">
             <model>
-                <grenadeWeapon />
+                <grenadeWeapon/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8" /> <!-- %armor base armor=3+ -->
-                <itemSlots base="6" />
-                <levelMax base="9" />
-                <meleeAccuracy base="6" /> <!-- %meleeAccuracy base weaponSkill=3 -->
-                <meleeAttacks base="1" />
-                <strengthDamage base="1" /> <!-- %strengthDamage base strength=3 -->
-                <moraleMax base="10" /> <!-- %moraleMax base leadership=8 -->
-                <movementMax base="3" />
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
-                <energyUpkeep base="2.0" /> <!-- %energyUpkeep base tier=5 factor=1 -->
-                <energyCost base="20.0" /> <!-- %energyCost base tier=5 factor=0.5 -->
-                <requisitionsCost base="20.0" /> <!-- %requisitionsCost base tier=5 factor=0.5 -->
-                <hitpointsMax base="7.0" />
-                <duplicateTypeCost mul="2.0" /> <!-- %hitpointsMax base toughness=3 wounds=3 -->
-                <influenceUpkeep base="4.0" /> <!-- %influenceUpkeep base tier=4 factor=2 -->
-                <influenceCost base="80.0" /> <!-- %influenceCost base tier=4 factor=2 -->
-                <productionCost base="36.0" /> <!-- %productionCost base tier=5 factor=1 -->
+                <armor base="8"/> <!-- %armor base armor=3+ -->
+                <itemSlots base="6"/>
+                <levelMax base="9"/>
+                <meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
+                <meleeAttacks base="1"/>
+                <strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
+                <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+                <movementMax base="3"/>
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <energyUpkeep base="2.0"/> <!-- %energyUpkeep base tier=5 factor=1 -->
+                <energyCost base="20.0"/> <!-- %energyCost base tier=5 factor=0.5 -->
+                <requisitionsCost base="20.0"/> <!-- %requisitionsCost base tier=5 factor=0.5 -->
+                <hitpointsMax base="7.0"/>
+                <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
+                <influenceUpkeep base="4.0"/> <!-- %influenceUpkeep base tier=4 factor=2 -->
+                <influenceCost base="80.0"/> <!-- %influenceCost base tier=4 factor=2 -->
+                <productionCost base="36.0"/> <!-- %productionCost base tier=5 factor=1 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseHeroesScore base="1.0" />
-                <increaseSupportScore base="1.0" />
+                <increaseHeroesScore base="1.0"/>
+                <increaseSupportScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action chargeAnimation="Units/SistersOfBattle/DialogusCharge" meleeAnimation="Units/SistersOfBattle/DialogusMelee" meleeBeginSwing="0.15" meleeEndSwing="0.5" />
+                <action chargeAnimation="Units/SistersOfBattle/DialogusCharge"
+                        meleeAnimation="Units/SistersOfBattle/DialogusMelee"
+                        meleeBeginSwing="0.15"
+                        meleeEndSwing="0.5"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/SistersOfBattle/DialogusDie0" sound="Units/MediumUnarmoredDie" soundCount="4" soundDelay="0.55" voiceSound="Units/SistersOfBattle/DialogusVoiceDie" voiceSoundCount="1" voiceSoundDelay="0.1" />
+                <action animation="Units/SistersOfBattle/DialogusDie0"
+                        sound="Units/MediumUnarmoredDie"
+                        soundCount="4"
+                        soundDelay="0.55"
+                        voiceSound="Units/SistersOfBattle/DialogusVoiceDie"
+                        voiceSoundCount="1"
+                        voiceSoundDelay="0.1"/>
             </model>
         </die>
         <move>
             <model>
-                <action animation="Units/SistersOfBattle/DialogusMove" sound="Units/SistersOfBattle/InfantryMove" soundCount="3" />
+                <action animation="Units/SistersOfBattle/DialogusMove"
+                        sound="Units/SistersOfBattle/InfantryMove"
+                        soundCount="3"/>
             </model>
         </move>
-        <genericUnitAbility name="SistersOfBattle/LaudHailer" passive="1">
+        <genericUnitAbility name="SistersOfBattle/LaudHailer"
+                            passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1">
+                        <area affects="Tile"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/LaudHailer" />
+                                        <addTrait name="SistersOfBattle/LaudHailer"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -89,29 +118,34 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <endlessCrusade name="SistersOfBattle/EndlessCrusade" consumedActionPoints="0" consumedMovement="0" cooldown="10" requiredActionPoints="0">
+        <endlessCrusade name="SistersOfBattle/EndlessCrusade"
+                        consumedActionPoints="0"
+                        consumedMovement="0"
+                        cooldown="10"
+                        requiredActionPoints="0">
             <model>
-                <action animation="Units/SistersOfBattle/DialogusAbility" sound="Actions/EndlessCrusade" />
+                <action animation="Units/SistersOfBattle/DialogusAbility"
+                        sound="Actions/EndlessCrusade"/>
             </model>
             <modifiers>
                 <modifier requiredUpgrade="SistersOfBattle/SimulacrumImperialis">
                     <effects>
-                        <cooldown add="-5" />
+                        <cooldown add="-5"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="SistersOfBattle/FaithAndFury">
                     <effects>
-                        <cooldown add="-4" />
+                        <cooldown add="-4"/>
                     </effects>
                 </modifier>
             </modifiers>
             <conditions>
                 <unit>
-                    <noTrait name="Broken" />
+                    <noTrait name="Broken"/>
                 </unit>
                 <unit match="Any">
-                    <noTrait name="Shaken" />
-                    <trait name="SistersOfBattle/LaudHailer" />
+                    <noTrait name="Shaken"/>
+                    <trait name="SistersOfBattle/LaudHailer"/>
                 </unit>
             </conditions>
             <beginTargets>
@@ -121,15 +155,19 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Fleet" duration="1" />
-                                        <addTrait name="MoveThroughCover" duration="1" />
-                                        <addTrait name="SistersOfBattle/UsedActOfFaith" duration="1" />
-                                        <addTrait name="Blurry" duration="1" />
+                                        <addTrait name="Fleet"
+                                                  duration="1"/>
+                                        <addTrait name="MoveThroughCover"
+                                                  duration="1"/>
+                                        <addTrait name="SistersOfBattle/UsedActOfFaith"
+                                                  duration="1"/>
+                                        <addTrait name="Blurry"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                                 <modifier requiredUpgrade="SistersOfBattle/SoothingLight">
                                     <effects>
-                                        <hitpointsFactorFromMax add="0.5" />
+                                        <hitpointsFactorFromMax add="0.5"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -138,16 +176,21 @@
                 </selfTarget>
             </beginTargets>
         </endlessCrusade>
-        <verseOfHolyPiety name="SistersOfBattle/VerseOfHolyPiety" cooldownMax="3" cooldownMin="5" rank="-1" rankMax="2">
+        <verseOfHolyPiety name="SistersOfBattle/VerseOfHolyPiety"
+                          cooldownMax="3"
+                          cooldownMin="5"
+                          rank="-1"
+                          rankMax="2">
             <model>
-                <action animation="Units/SistersOfBattle/DialogusAbility" sound="Actions/VerseOfHolyPiety" />
+                <action animation="Units/SistersOfBattle/DialogusAbility"
+                        sound="Actions/VerseOfHolyPiety"/>
             </model>
             <beginTargets>
                 <target rangeMax="3">
                     <conditions>
                         <unit>
-                            <enemy />
-                            <moraleMax greater="0.0" />
+                            <enemy/>
+                            <moraleMax greater="0.0"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -155,8 +198,9 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <morale add="-100" />
-                                        <addTrait duration="2" name="SistersOfBattle/VerseOfHolyPiety" />
+                                        <morale add="-100"/>
+                                        <addTrait name="SistersOfBattle/VerseOfHolyPiety"
+                                                  duration="2"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -165,15 +209,23 @@
                 </target>
             </beginTargets>
         </verseOfHolyPiety>
-        <catechismOfRepugnance name="SistersOfBattle/CatechismOfRepugnance" consumedActionPoints="1" consumedMovement="0" cooldownMax="1" cooldownMin="3" rank="-1" rankMax="2" requiredActionPoints="1">
+        <catechismOfRepugnance name="SistersOfBattle/CatechismOfRepugnance"
+                               consumedActionPoints="1"
+                               consumedMovement="0"
+                               cooldownMax="1"
+                               cooldownMin="3"
+                               rank="-1"
+                               rankMax="2"
+                               requiredActionPoints="1">
             <model>
-                <action animation="Units/SistersOfBattle/DialogusAbility" sound="Actions/CatechismOfRepugnance" />
+                <action animation="Units/SistersOfBattle/DialogusAbility"
+                        sound="Actions/CatechismOfRepugnance"/>
             </model>
             <beginTargets>
                 <target rangeMax="3">
                     <conditions>
                         <unit>
-                            <enemy />
+                            <enemy/>
                         </unit>
                     </conditions>
                     <areas>
@@ -181,7 +233,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/CatechismOfRepugnance" duration="1" />
+                                        <addTrait name="SistersOfBattle/CatechismOfRepugnance"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -190,15 +243,19 @@
                 </target>
             </beginTargets>
         </catechismOfRepugnance>
-        <genericUnitAbility name="SistersOfBattle/StirringRhetoric" passive="1" rank="-1" rankMax="2">
+        <genericUnitAbility name="SistersOfBattle/StirringRhetoric"
+                            passive="1"
+                            rank="-1"
+                            rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="3">
+                        <area affects="Tile"
+                              radius="3">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/StirringRhetoric" />
+                                        <addTrait name="SistersOfBattle/StirringRhetoric"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -207,24 +264,31 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <orationOfRestoration cooldown="5" elite="1" levelUpPriority="1" rank="-1" rankMax="0">
+        <orationOfRestoration cooldown="5"
+                              elite="1"
+                              levelUpPriority="1"
+                              rank="-1"
+                              rankMax="0">
             <model>
-                <action animation="Units/SistersOfBattle/DialogusAbility" sound="Actions/WarHymn" />
+                <action animation="Units/SistersOfBattle/DialogusAbility"
+                        sound="Actions/WarHymn"/>
             </model>
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Unit" radius="1">
+                        <area affects="Unit"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <conditions>
                                         <unit>
-                                            <allied />
+                                            <allied/>
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <hitpoints add="6" />
-                                        <addTrait name="OrationOfRestoration" duration="2" />
+                                        <hitpoints add="6"/>
+                                        <addTrait name="OrationOfRestoration"
+                                                  duration="2"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -233,17 +297,18 @@
                 </selfTarget>
             </beginTargets>
         </orationOfRestoration>
-        <levelUp />
-        <shop />
+        <levelUp/>
+        <shop/>
     </actions>
     <traits>
-        <trait name="SistersOfBattle/ShieldOfFaith" />
-        <trait name="SistersOfBattle/OathOfFaith" />
-        <trait name="SistersOfBattle/MartyrSpirit" />
-        <trait name="Rosarius" />
-        <trait name="Hero" />
-        <trait name="SupportHero" />
-        <trait name="Stubborn" />
-        <trait name="ExtraInfantryArmour" requiredUpgrade="SistersOfBattle/ExtraInfantryArmour" />
+        <trait name="SistersOfBattle/ShieldOfFaith"/>
+        <trait name="SistersOfBattle/OathOfFaith"/>
+        <trait name="SistersOfBattle/MartyrSpirit"/>
+        <trait name="Rosarius"/>
+        <trait name="Hero"/>
+        <trait name="SupportHero"/>
+        <trait name="Stubborn"/>
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="SistersOfBattle/ExtraInfantryArmour"/>
     </traits>
 </unit>

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff" icon="Units/Necrons/TriarchPraetorian">
+<trait category="Debuff"
+       icon="Units/Necrons/TriarchPraetorian">
     <modifiers>
         <modifier>
             <conditions>
                 <unit>
-                    <enemy />
+                    <enemy/>
                 </unit>
             </conditions>
             <effects>
-                <meleeAttacks mul="-0.25" />
+                <meleeAttacks mul="-0.25"/>
             </effects>
         </modifier>
     </modifiers>

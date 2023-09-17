@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait alwaysVisible="1" category="Debuff">
+<trait alwaysVisible="1"
+       category="Debuff">
     <onUnitDisappeared>
-        <area affects="Unit" radius="3">
+        <area affects="Unit"
+              radius="3">
             <modifiers>
                 <modifier>
                     <conditions>
                         <unit>
-                            <allied />
-                            <type name="Tyranids/Termagant" />
+                            <allied/>
+                            <type name="Tyranids/Termagant"/>
                         </unit>
                     </conditions>
                     <effects>
-                        <hitpointsFactorFromMax add="-0.5" />
+                        <hitpointsFactorFromMax add="-0.5"/>
                     </effects>
                 </modifier>
             </modifiers>

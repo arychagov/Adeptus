@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff" visibilityCategory="None" visible="0">
+<trait category="Debuff"
+       visibilityCategory="None"
+       visible="0">
     <!-- <modifiers>
         <modifier>
             <effects>

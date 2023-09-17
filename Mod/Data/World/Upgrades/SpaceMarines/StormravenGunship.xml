@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Units/SpaceMarines/StormravenGunship" position="9">
+<upgrade icon="Units/SpaceMarines/StormravenGunship"
+         position="9">
     <requiredUpgrades>
-        <upgrade name="SpaceMarines/Aircraft" />
+        <upgrade name="SpaceMarines/Aircraft"/>
     </requiredUpgrades>
 </upgrade>

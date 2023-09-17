@@ -1,89 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement8">
     <model>
-        <unit bloodBone="Chest" idleAnimation="Units/SpaceMarines/DevastatorCenturionIdle" idleAnimationCount="3" idleContinuously="1" material="Units/SpaceMarines/DevastatorCenturion" mesh="Units/SpaceMarines/DevastatorCenturion" normalWeight="0.1" scale="1.1 1.1 1.1" walker="1" />
+        <unit bloodBone="Chest"
+              idleAnimation="Units/SpaceMarines/DevastatorCenturionIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/SpaceMarines/DevastatorCenturion"
+              mesh="Units/SpaceMarines/DevastatorCenturion"
+              normalWeight="0.1"
+              scale="1.1 1.1 1.1"
+              walker="1"/>
     </model>
-    <group memberDeltaX="80" memberDeltaY="90" rowSize="3" size="3" />
+    <group memberDeltaX="80"
+           memberDeltaY="90"
+           rowSize="3"
+           size="3"/>
     <weapons>
-        <weapon name="TwinLinkedLascannon" count="1">
+        <weapon name="TwinLinkedLascannon"
+                count="1">
             <model>
-                <beamWeapon cycleMuzzles="0" fireInterval="0.43" muzzleBone="LasMuzzle" muzzleCount="2" />
+                <beamWeapon cycleMuzzles="0"
+                            fireInterval="0.43"
+                            muzzleBone="LasMuzzle"
+                            muzzleCount="2"/>
             </model>
         </weapon>
-        <weapon name="None" enabled="0" requiredUpgrade="SpaceMarines/Omniscope">
+        <weapon name="None"
+                enabled="0"
+                requiredUpgrade="SpaceMarines/Omniscope">
             <model>
-                <weapon bone="Chest" material="Units/SpaceMarines/DevastatorCenturion" mesh="Weapons/SpaceMarines/DevastatorCenturionCrest" />
+                <weapon bone="Chest"
+                        material="Units/SpaceMarines/DevastatorCenturion"
+                        mesh="Weapons/SpaceMarines/DevastatorCenturionCrest"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="10" /> <!-- %armor base armor=2+ -->
-                <hitpointsMax base="8.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=5 wounds=2 -->
-                <meleeAccuracy base="8" /> <!-- %meleeAccuracy base weaponSkill=4 -->
-                <meleeAttacks base="1" />
-                <rangedAttacks mul="0.33" />
-                <strengthDamage base="2" /> <!-- %strengthDamage base strength=5 -->
-                <moraleMax base="10" /> <!-- %moraleMax base leadership=8 -->
-                <movementMax base="3" />
-                <productionCost base="54.0" /> <!-- %productionCost base tier=9 factor=1 -->
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
-                <requisitionsUpkeep base="6.0" /> <!-- %requisitionsUpkeep base tier=9 factor=1 -->
-                <requisitionsCost base="120.0" /> <!-- %requisitionsCost base tier=9 factor=1 -->
+                <armor base="10"/> <!-- %armor base armor=2+ -->
+                <hitpointsMax base="8.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=5 wounds=2 -->
+                <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
+                <meleeAttacks base="1"/>
+                <rangedAttacks mul="0.33"/>
+                <strengthDamage base="2"/> <!-- %strengthDamage base strength=5 -->
+                <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+                <movementMax base="3"/>
+                <productionCost base="54.0"/> <!-- %productionCost base tier=9 factor=1 -->
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <requisitionsUpkeep base="6.0"/> <!-- %requisitionsUpkeep base tier=9 factor=1 -->
+                <requisitionsCost base="120.0"/> <!-- %requisitionsCost base tier=9 factor=1 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0" />
+                <increaseInfantryScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/SpaceMarines/DevastatorCenturionAttack" beginFire="1.0" endFire="1.67" />
+                <action animation="Units/SpaceMarines/DevastatorCenturionAttack"
+                        beginFire="1.0"
+                        endFire="1.67"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/SpaceMarines/DevastatorCenturionDie" animationCount="2" sound="Units/MediumArmoredDie" soundCount="4" soundDelay="0.4" voiceSound="Units/SpaceMarines/InfantryDie" voiceSoundCount="5" />
+                <action animation="Units/SpaceMarines/DevastatorCenturionDie"
+                        animationCount="2"
+                        sound="Units/MediumArmoredDie"
+                        soundCount="4"
+                        soundDelay="0.4"
+                        voiceSound="Units/SpaceMarines/InfantryDie"
+                        voiceSoundCount="5"/>
             </model>
         </die>
         <idle>
             <model>
-                <action />
+                <action/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/SpaceMarines/DevastatorCenturionMove" sound="Units/ChaosSpaceMarines/MaulerfiendMove" soundCount="1" />
+                <action animation="Units/SpaceMarines/DevastatorCenturionMove"
+                        sound="Units/ChaosSpaceMarines/MaulerfiendMove"
+                        soundCount="1"/>
             </model>
         </move>
         <orbitalDeployment requiredUpgrade="SpaceMarines/OrbitalDeployment">
             <model>
-                <action sound="Actions/DropPod" />
+                <action sound="Actions/DropPod"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40" />
+                        <influenceCost base="40"/>
                     </effects>
                 </modifier>
             </modifiers>
         </orbitalDeployment>
     </actions>
     <traits>
-        <trait name="AndTheyShallKnowNoFear" />
-        <trait name="ExtraInfantryArmour" requiredUpgrade="SpaceMarines/ExtraInfantryArmour" />
-        <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand" />
-        <trait name="SlowAndPurposeful" />
-        <trait name="SpaceMarines/SiegeMasters" />
-        <trait name="SpaceMarines/TheFleshIsWeak" />
-        <trait name="SpaceMarines/Omniscope" requiredUpgrade="SpaceMarines/Omniscope" />
+        <trait name="AndTheyShallKnowNoFear"/>
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="SpaceMarines/ExtraInfantryArmour"/>
+        <trait name="LastStand"
+               requiredUpgrade="SpaceMarines/LastStand"/>
+        <trait name="SlowAndPurposeful"/>
+        <trait name="SpaceMarines/SiegeMasters"/>
+        <trait name="SpaceMarines/TheFleshIsWeak"/>
+        <trait name="SpaceMarines/Omniscope"
+               requiredUpgrade="SpaceMarines/Omniscope"/>
         <trait name="VeryBulky"/>
     </traits>
 </unit>

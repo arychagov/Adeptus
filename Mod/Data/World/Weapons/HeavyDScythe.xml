@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon beamsBlueprint="Effects/IonBeams" beamsEmitterBlueprint="Effects/DScytheBeamsEmitter" displaceExplosions="0" explosionsBlueprint="Effects/DScytheExplosions" explosionsEmitterBlueprint="Effects/DScytheExplosionsEmitter" fireInterval="10.0" fireSound="Weapons/HeavyDScythe" fireSoundCount="1" muzzleFlashesBlueprint="Effects/IonMuzzleFlashes" muzzleFlashesEmitterBlueprint="Effects/DScytheMuzzleFlashesEmitter" />
+        <beamWeapon beamsBlueprint="Effects/IonBeams"
+                    beamsEmitterBlueprint="Effects/DScytheBeamsEmitter"
+                    displaceExplosions="0"
+                    explosionsBlueprint="Effects/DScytheExplosions"
+                    explosionsEmitterBlueprint="Effects/DScytheExplosionsEmitter"
+                    fireInterval="10.0"
+                    fireSound="Weapons/HeavyDScythe"
+                    fireSoundCount="1"
+                    muzzleFlashesBlueprint="Effects/IonMuzzleFlashes"
+                    muzzleFlashesEmitterBlueprint="Effects/DScytheMuzzleFlashesEmitter"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="1" />
-                <rangedArmorPenetration add="6" /> <!-- %rangedArmorPenetration add armorPiercing=2 -->
-                <rangedDamage add="12" /> <!-- %rangedDamage add strength=10 -->
-                <strengthDamage base="0" />
+                <attacks add="1"/>
+                <rangedArmorPenetration add="6"/> <!-- %rangedArmorPenetration add armorPiercing=2 -->
+                <rangedDamage add="12"/> <!-- %rangedDamage add strength=10 -->
+                <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="1" />
+    <target rangeMax="1"/>
     <traits>
-        <trait name="Assault" />
-        <trait name="Eldar/AssaultWeaponBonus" requiredUpgrade="Eldar/AssaultWeaponBonus" />
-        <trait name="Blast" />
-        <trait name="DistortScythe" />
+        <trait name="Assault"/>
+        <trait name="Eldar/AssaultWeaponBonus"
+               requiredUpgrade="Eldar/AssaultWeaponBonus"/>
+        <trait name="Blast"/>
+        <trait name="DistortScythe"/>
     </traits>
 </weapon>

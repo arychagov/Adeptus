@@ -1,246 +1,381 @@
 <?xml version="1.0" encoding="utf-8"?>
-<faction actionsTitle="GUI/DynasticCodes" constructSound="Actions/Construct" energy="1" influence="1" loyalty="1" ore="1" orePooling="0.25" orePopulationUpkeep="1" playable="1" production="1" research="1" startingEnergy="50" startingFood="0" startingInfluence="25" startingOre="50" startingRequisitions="0">
+<faction actionsTitle="GUI/DynasticCodes"
+         constructSound="Actions/Construct"
+         energy="1"
+         influence="1"
+         loyalty="1"
+         ore="1"
+         orePooling="0.25"
+         orePopulationUpkeep="1"
+         playable="1"
+         production="1"
+         research="1"
+         startingEnergy="50"
+         startingFood="0"
+         startingInfluence="25"
+         startingOre="50"
+         startingRequisitions="0">
     <music>
-        <track name="Music/AdeptusMechanicusBGM" dlc="Supplement9" />
-        <track name="Music/AdeptusMechanicusTheme" dlc="Supplement9" />
-        <track name="Music/AstraMilitarumBGM" />
-        <track name="Music/AstraMilitarumTheme" />
-        <track name="Music/BGM0" />
-        <track name="Music/BGM1" />
-        <track name="Music/ChaosSpaceMarinesBGM" dlc="Supplement3" />
-        <track name="Music/ChaosSpaceMarinesTheme" dlc="Supplement3" />
-        <track name="Music/EldarBGM" dlc="Supplement7" />
-        <track name="Music/EldarTheme" dlc="Supplement7" />
-        <track name="Music/MainBGM" />
-        <track name="Music/MainTheme" />
-        <mainTrack name="Music/NecronsBGM" />
-        <track name="Music/NecronsTheme" />
-        <track name="Music/OrksBGM" />
-        <track name="Music/OrksTheme" />
-        <track name="Music/SistersOfBattleBGM" dlc="Supplement11" />
-        <track name="Music/SistersOfBattleTheme" dlc="Supplement11" />
-        <track name="Music/SpaceMarinesBGM" />
-        <track name="Music/SpaceMarinesTheme" />
-        <track name="Music/TauBGM" dlc="Supplement5" />
-        <track name="Music/TauTheme" dlc="Supplement5" />
-        <track name="Music/TyranidsBGM" dlc="Supplement2" />
-        <track name="Music/TyranidsTheme" dlc="Supplement2" />
+        <track name="Music/AdeptusMechanicusBGM"
+               dlc="Supplement9"/>
+        <track name="Music/AdeptusMechanicusTheme"
+               dlc="Supplement9"/>
+        <track name="Music/AstraMilitarumBGM"/>
+        <track name="Music/AstraMilitarumTheme"/>
+        <track name="Music/BGM0"/>
+        <track name="Music/BGM1"/>
+        <track name="Music/ChaosSpaceMarinesBGM"
+               dlc="Supplement3"/>
+        <track name="Music/ChaosSpaceMarinesTheme"
+               dlc="Supplement3"/>
+        <track name="Music/EldarBGM"
+               dlc="Supplement7"/>
+        <track name="Music/EldarTheme"
+               dlc="Supplement7"/>
+        <track name="Music/MainBGM"/>
+        <track name="Music/MainTheme"/>
+        <mainTrack name="Music/NecronsBGM"/>
+        <track name="Music/NecronsTheme"/>
+        <track name="Music/OrksBGM"/>
+        <track name="Music/OrksTheme"/>
+        <track name="Music/SistersOfBattleBGM"
+               dlc="Supplement11"/>
+        <track name="Music/SistersOfBattleTheme"
+               dlc="Supplement11"/>
+        <track name="Music/SpaceMarinesBGM"/>
+        <track name="Music/SpaceMarinesTheme"/>
+        <track name="Music/TauBGM"
+               dlc="Supplement5"/>
+        <track name="Music/TauTheme"
+               dlc="Supplement5"/>
+        <track name="Music/TyranidsBGM"
+               dlc="Supplement2"/>
+        <track name="Music/TyranidsTheme"
+               dlc="Supplement2"/>
     </music>
     <quests>
-        <quest name="Necrons/Story0" firstTurn="2" icon="Quests/Necrons/Chapter0" lastTurn="2">
+        <quest name="Necrons/Story0"
+               firstTurn="2"
+               icon="Quests/Necrons/Chapter0"
+               lastTurn="2">
             <stages>
                 <stage>
                     <objectives>
-                        <constructBuilding buildingType="Necrons/Infantry" />
-                        <produceUnit count="1" ignoreExisting="1" unitType="Necrons/Warrior" />
-                        <invokeRapidRiseOnWarrior />
+                        <constructBuilding buildingType="Necrons/Infantry"/>
+                        <produceUnit count="1"
+                                     ignoreExisting="1"
+                                     unitType="Necrons/Warrior"/>
+                        <invokeRapidRiseOnWarrior/>
                     </objectives>
                     <rewards>
-                        <energy amount="50" />
+                        <energy amount="50"/>
                     </rewards>
                 </stage>
                 <stage>
                     <objectives>
-                        <killSpawnedUnits count="3" unitType="AstraMilitarum/Guardsman" />
+                        <killSpawnedUnits count="3"
+                                          unitType="AstraMilitarum/Guardsman"/>
                     </objectives>
                     <rewards>
-                        <influence amount="50" />
+                        <influence amount="50"/>
                     </rewards>
                 </stage>
                 <stage>
                     <objectives>
-                        <visitTile clearEnemies="1" count="1" featureType="NecronTomb" />
+                        <visitTile clearEnemies="1"
+                                   count="1"
+                                   featureType="NecronTomb"/>
                     </objectives>
                     <rewards>
-                        <research amount="50" />
+                        <research amount="50"/>
                     </rewards>
                 </stage>
             </stages>
         </quest>
-        <quest name="Necrons/Story1" firstTurn="20" icon="Quests/Necrons/Chapter1" lastTurn="30">
+        <quest name="Necrons/Story1"
+               firstTurn="20"
+               icon="Quests/Necrons/Chapter1"
+               lastTurn="30">
             <conditions>
                 <quests>
-                    <completed name="Necrons/Story0" />
+                    <completed name="Necrons/Story0"/>
                 </quests>
             </conditions>
             <stages>
                 <stage>
                     <objectives>
-                        <researchUpgrade upgrade="Necrons/Heroes" />
-                        <constructBuilding buildingType="Necrons/Heroes" />
-                        <researchUpgrade upgrade="Necrons/Cryptek" />
-                        <produceUnit unitType="Necrons/Cryptek" />
+                        <researchUpgrade upgrade="Necrons/Heroes"/>
+                        <constructBuilding buildingType="Necrons/Heroes"/>
+                        <researchUpgrade upgrade="Necrons/Cryptek"/>
+                        <produceUnit unitType="Necrons/Cryptek"/>
                     </objectives>
                     <rewards>
-                        <influence amount="100" />
+                        <influence amount="100"/>
                     </rewards>
                 </stage>
                 <stage>
                     <objectives>
-                        <accumulateResearch count="100" />
-                        <reachLevel level="2" unitType="Necrons/Cryptek" />
+                        <accumulateResearch count="100"/>
+                        <reachLevel level="2"
+                                    unitType="Necrons/Cryptek"/>
                     </objectives>
                     <rewards>
-                        <item type="AdamantiumWeaveVest" />
+                        <item type="AdamantiumWeaveVest"/>
                     </rewards>
                 </stage>
             </stages>
         </quest>
-        <quest name="Necrons/Story2" firstTurn="40" icon="Quests/Necrons/Chapter2" lastTurn="50">
+        <quest name="Necrons/Story2"
+               firstTurn="40"
+               icon="Quests/Necrons/Chapter2"
+               lastTurn="50">
             <conditions>
                 <quests>
-                    <completed name="Necrons/Story1" />
+                    <completed name="Necrons/Story1"/>
                 </quests>
             </conditions>
             <stages>
                 <stage>
                     <objectives>
-                        <killCampWithRebelNecronArmy bossKillCompletes="0" relativeStrength="0.5" strength="4">
-                            <boss name="Units/Necrons/RebelLord" rankMax="4" rankMin="4" type="Necrons/DestroyerLord" />
+                        <killCampWithRebelNecronArmy bossKillCompletes="0"
+                                                     relativeStrength="0.5"
+                                                     strength="4">
+                            <boss name="Units/Necrons/RebelLord"
+                                  rankMax="4"
+                                  rankMin="4"
+                                  type="Necrons/DestroyerLord"/>
                             <defenders>
-                                <unit count="2" rankMax="4" rankMin="2" type="Necrons/HeavyDestroyer" />
-                                <unit count="1" rankMax="4" rankMin="2" type="Necrons/Immortal" />
-                                <unit count="1" rankMax="4" rankMin="2" type="Necrons/TriarchStalker" />
-                                <unit count="1" rankMax="4" rankMin="2" type="Necrons/TombBlade" />
-                                <unit count="1" rankMax="4" rankMin="2" type="Necrons/Warrior" />
+                                <unit count="2"
+                                      rankMax="4"
+                                      rankMin="2"
+                                      type="Necrons/HeavyDestroyer"/>
+                                <unit count="1"
+                                      rankMax="4"
+                                      rankMin="2"
+                                      type="Necrons/Immortal"/>
+                                <unit count="1"
+                                      rankMax="4"
+                                      rankMin="2"
+                                      type="Necrons/TriarchStalker"/>
+                                <unit count="1"
+                                      rankMax="4"
+                                      rankMin="2"
+                                      type="Necrons/TombBlade"/>
+                                <unit count="1"
+                                      rankMax="4"
+                                      rankMin="2"
+                                      type="Necrons/Warrior"/>
                             </defenders>
                         </killCampWithRebelNecronArmy>
                     </objectives>
                     <rewards>
-                        <energy amount="100" />
-                        <influence amount="100" />
-                        <ore amount="100" />
+                        <energy amount="100"/>
+                        <influence amount="100"/>
+                        <ore amount="100"/>
                     </rewards>
                 </stage>
             </stages>
         </quest>
-        <quest name="Necrons/Story3" firstTurn="60" icon="Quests/Necrons/Chapter3" lastTurn="70">
+        <quest name="Necrons/Story3"
+               firstTurn="60"
+               icon="Quests/Necrons/Chapter3"
+               lastTurn="70">
             <conditions>
                 <quests>
-                    <completed name="Necrons/Story2" />
+                    <completed name="Necrons/Story2"/>
                 </quests>
             </conditions>
             <stages>
                 <stage>
                     <objectives>
-                        <recoverArcheotech />
+                        <recoverArcheotech/>
                     </objectives>
                     <rewards>
-                        <item type="LightningGauntlet" />
-                        <research amount="100" />
+                        <item type="LightningGauntlet"/>
+                        <research amount="100"/>
                     </rewards>
                 </stage>
             </stages>
         </quest>
-        <quest name="Necrons/Story4" firstTurn="80" icon="Quests/Necrons/Chapter4" lastTurn="90">
+        <quest name="Necrons/Story4"
+               firstTurn="80"
+               icon="Quests/Necrons/Chapter4"
+               lastTurn="90">
             <conditions>
                 <quests>
-                    <completed name="Necrons/Story3" />
+                    <completed name="Necrons/Story3"/>
                 </quests>
             </conditions>
             <stages>
                 <stage>
                     <objectives>
-                        <visitTile clearEnemies="1" count="1" featureType="Ruin" unitType="Necrons/Cryptek">
+                        <visitTile clearEnemies="1"
+                                   count="1"
+                                   featureType="Ruin"
+                                   unitType="Necrons/Cryptek">
                             <defenders>
-                                <unit count="6" rankMax="6" rankMin="4" type="Neutral/Psychneuein" />
+                                <unit count="6"
+                                      rankMax="6"
+                                      rankMin="4"
+                                      type="Neutral/Psychneuein"/>
                             </defenders>
                         </visitTile>
                     </objectives>
                     <rewards>
-                        <energy amount="300" />
+                        <energy amount="300"/>
                     </rewards>
                 </stage>
                 <stage>
                     <objectives>
-                        <accumulateInfluence count="300" />
+                        <accumulateInfluence count="300"/>
                     </objectives>
                     <rewards>
-                        <ore amount="150" />
+                        <ore amount="150"/>
                     </rewards>
                 </stage>
             </stages>
         </quest>
-        <quest name="Necrons/Story5" firstTurn="100" icon="Quests/Necrons/Chapter5" lastTurn="110">
+        <quest name="Necrons/Story5"
+               firstTurn="100"
+               icon="Quests/Necrons/Chapter5"
+               lastTurn="110">
             <conditions>
                 <quests>
-                    <completed name="Necrons/Story4" />
+                    <completed name="Necrons/Story4"/>
                 </quests>
             </conditions>
             <stages>
                 <stage>
                     <objectives>
-                        <killCampWithRebelNecronArmy bossKillCompletes="0" relativeStrength="1.0" strength="8">
-                            <boss name="Units/Neutral/Artefacts/VaulControlDevice" capturable="1" token="VaulControlDevice" type="Neutral/Artefacts/VaulControlDevice" />
+                        <killCampWithRebelNecronArmy bossKillCompletes="0"
+                                                     relativeStrength="1.0"
+                                                     strength="8">
+                            <boss name="Units/Neutral/Artefacts/VaulControlDevice"
+                                  capturable="1"
+                                  token="VaulControlDevice"
+                                  type="Neutral/Artefacts/VaulControlDevice"/>
                             <defenders>
-                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/Cryptek" />
-                                <unit count="2" rankMax="4" rankMin="2" type="Necrons/HeavyDestroyer" />
-                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/Lord" />
-                                <unit count="1" rankMax="2" rankMin="0" type="Necrons/Obelisk" />
-                                <unit count="1" rankMax="4" rankMin="2" type="Necrons/TriarchStalker" />
-                                <unit count="1" rankMax="4" rankMin="2" type="Necrons/TriarchPraetorian" />
+                                <unit count="1"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="Necrons/Cryptek"/>
+                                <unit count="2"
+                                      rankMax="4"
+                                      rankMin="2"
+                                      type="Necrons/HeavyDestroyer"/>
+                                <unit count="1"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="Necrons/Lord"/>
+                                <unit count="1"
+                                      rankMax="2"
+                                      rankMin="0"
+                                      type="Necrons/Obelisk"/>
+                                <unit count="1"
+                                      rankMax="4"
+                                      rankMin="2"
+                                      type="Necrons/TriarchStalker"/>
+                                <unit count="1"
+                                      rankMax="4"
+                                      rankMin="2"
+                                      type="Necrons/TriarchPraetorian"/>
                             </defenders>
                         </killCampWithRebelNecronArmy>
-                        <captureUnit token="VaulControlDevice" />
+                        <captureUnit token="VaulControlDevice"/>
                     </objectives>
                     <rewards>
-                        <energy amount="400" />
+                        <energy amount="400"/>
                     </rewards>
                 </stage>
                 <stage>
                     <startRewards>
-                        <upgrade name="Necrons/LastStandReady" />
+                        <upgrade name="Necrons/LastStandReady"/>
                     </startRewards>
                     <objectives>
-                        <activateUnit token="VaulControlDevice" />
+                        <activateUnit token="VaulControlDevice"/>
                     </objectives>
                     <rewards>
-                        <influence amount="200" />
+                        <influence amount="200"/>
                     </rewards>
                 </stage>
                 <stage>
                     <objectives>
-                        <surviveInvasion bossWave="6" relativeStrength="2.0" strength="32" waveInterval="2" waves="10">
-                            <boss name="Units/Necrons/EliteTesseractVault" rankMax="9" rankMin="9" type="Necrons/TesseractVault" />
+                        <surviveInvasion bossWave="6"
+                                         relativeStrength="2.0"
+                                         strength="32"
+                                         waveInterval="2"
+                                         waves="10">
+                            <boss name="Units/Necrons/EliteTesseractVault"
+                                  rankMax="9"
+                                  rankMin="9"
+                                  type="Necrons/TesseractVault"/>
                             <attackers>
-                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/AnnihilationBarge" />
-                                <unit count="2" rankMax="9" rankMin="9" type="Necrons/CanoptekScarab" />
-                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/DoomScythe" />
-                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/DoomsdayArk" />
-                                <unit count="2" rankMax="7" rankMin="5" type="Necrons/HeavyDestroyer" />
-                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/Monolith" />
-                                <unit count="1" rankMax="7" rankMin="5" type="Necrons/Obelisk" />
-                                <unit count="3" rankMax="7" rankMin="5" type="Necrons/TriarchPraetorian" />
+                                <unit count="1"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="Necrons/AnnihilationBarge"/>
+                                <unit count="2"
+                                      rankMax="9"
+                                      rankMin="9"
+                                      type="Necrons/CanoptekScarab"/>
+                                <unit count="1"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="Necrons/DoomScythe"/>
+                                <unit count="1"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="Necrons/DoomsdayArk"/>
+                                <unit count="2"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="Necrons/HeavyDestroyer"/>
+                                <unit count="1"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="Necrons/Monolith"/>
+                                <unit count="1"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="Necrons/Obelisk"/>
+                                <unit count="3"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="Necrons/TriarchPraetorian"/>
                             </attackers>
                         </surviveInvasion>
-                        <controlUnit token="VaulControlDevice" />
+                        <controlUnit token="VaulControlDevice"/>
                     </objectives>
                     <rewards>
-                        <victory />
+                        <victory/>
                     </rewards>
                 </stage>
             </stages>
         </quest>
-        <quest name="LordOfSkulls" icon="Units/Neutral/LordOfSkulls">
+        <quest name="LordOfSkulls"
+               icon="Units/Neutral/LordOfSkulls">
             <stages>
                 <stage>
                     <objectives>
-                        <killLordOfSkulls unitType="Neutral/LordOfSkulls" />
+                        <killLordOfSkulls unitType="Neutral/LordOfSkulls"/>
                     </objectives>
                     <rewards>
-                        <playerTrait name="SkullsForTheSkullThrone" />
+                        <playerTrait name="SkullsForTheSkullThrone"/>
                     </rewards>
                 </stage>
             </stages>
         </quest>
     </quests>
     <actions>
-        <installSupportSystem name="Necrons/InstallAssaultSystem" cooldown="0" icon="Actions/Necrons/InstallAssaultSystem" requiredUpgrade="Necrons/GhostProtocol">
+        <installSupportSystem name="Necrons/InstallAssaultSystem"
+                              cooldown="0"
+                              icon="Actions/Necrons/InstallAssaultSystem"
+                              requiredUpgrade="Necrons/GhostProtocol">
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <energyCost base="15" />
-                        <influenceCost base="15" />
+                        <energyCost base="15"/>
+                        <influenceCost base="15"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -248,11 +383,11 @@
                 <target rangeMax="-1">
                     <conditions>
                         <unit>
-                            <allied />
-                            <type name="Necrons/GhostArk" />
-                            <noTrait name="AssaultVehicle" />
-                            <noTrait name="Necrons/UpgradedGaussFlayerArray" />
-                            <notAttackedThisTurn />
+                            <allied/>
+                            <type name="Necrons/GhostArk"/>
+                            <noTrait name="AssaultVehicle"/>
+                            <noTrait name="Necrons/UpgradedGaussFlayerArray"/>
+                            <notAttackedThisTurn/>
                         </unit>
                     </conditions>
                     <areas>
@@ -260,14 +395,15 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="AssaultVehicle" />
-                                        <addTrait name="Exhausted" duration="1" />
+                                        <addTrait name="AssaultVehicle"/>
+                                        <addTrait name="Exhausted"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                                 <modifier visible="0">
                                     <effects>
-                                        <addTrait name="Stunned" />
-                                        <removeTrait name="Stunned" />
+                                        <addTrait name="Stunned"/>
+                                        <removeTrait name="Stunned"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -276,12 +412,15 @@
                 </target>
             </beginTargets>
         </installSupportSystem>
-        <installSupportSystem name="Necrons/UpgradeGaussFlayerArray" cooldown="0" icon="Actions/Necrons/UpgradeGaussFlayerArray" requiredUpgrade="Necrons/GhostProtocol">
+        <installSupportSystem name="Necrons/UpgradeGaussFlayerArray"
+                              cooldown="0"
+                              icon="Actions/Necrons/UpgradeGaussFlayerArray"
+                              requiredUpgrade="Necrons/GhostProtocol">
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <energyCost base="15" />
-                        <influenceCost base="15" />
+                        <energyCost base="15"/>
+                        <influenceCost base="15"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -289,12 +428,12 @@
                 <target rangeMax="-1">
                     <conditions>
                         <unit>
-                            <allied />
-                            <type name="Necrons/GhostArk" />
-                            <cargoSlotsTaken equal="0" />
-                            <noTrait name="AssaultVehicle" />
-                            <noTrait name="Necrons/UpgradedGaussFlayerArray" />
-                            <notAttackedThisTurn />
+                            <allied/>
+                            <type name="Necrons/GhostArk"/>
+                            <cargoSlotsTaken equal="0"/>
+                            <noTrait name="AssaultVehicle"/>
+                            <noTrait name="Necrons/UpgradedGaussFlayerArray"/>
+                            <notAttackedThisTurn/>
                         </unit>
                     </conditions>
                     <areas>
@@ -302,16 +441,17 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Necrons/UpgradedGaussFlayerArray" />
-                                        <addTrait name="Exhausted" duration="1" />
-                                        <removeTrait name="Transport" />
-                                        <addTrait name="Untransport" />
+                                        <addTrait name="Necrons/UpgradedGaussFlayerArray"/>
+                                        <addTrait name="Exhausted"
+                                                  duration="1"/>
+                                        <removeTrait name="Transport"/>
+                                        <addTrait name="Untransport"/>
                                     </effects>
                                 </modifier>
                                 <modifier visible="0">
                                     <effects>
-                                        <addTrait name="Stunned" />
-                                        <removeTrait name="Stunned" />
+                                        <addTrait name="Stunned"/>
+                                        <removeTrait name="Stunned"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -322,7 +462,8 @@
         </installSupportSystem>
     </actions>
     <startingUnits>
-        <unit type="Necrons/CanoptekSpyder" />
-        <unit count="2" type="Necrons/Warrior" />
+        <unit type="Necrons/CanoptekSpyder"/>
+        <unit count="2"
+              type="Necrons/Warrior"/>
     </startingUnits>
 </faction>

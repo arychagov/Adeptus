@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Units/Necrons/TesseractVault" position="10">
+<upgrade icon="Units/Necrons/TesseractVault"
+         position="10">
     <requiredUpgrades>
-        <upgrade name="Necrons/TranscendentCtan" />
+        <upgrade name="Necrons/TranscendentCtan"/>
     </requiredUpgrades>
 </upgrade>

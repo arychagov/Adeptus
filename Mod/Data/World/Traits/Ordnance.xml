@@ -4,30 +4,31 @@
         <modifier>
             <conditions>
                 <unit>
-                    <movement equal="0" />
-                    <movementMax greater="0" />
-                    <noTrait name="Flyer" />
-                    <noTrait name="Fortification" />
-                    <noTrait name="Relentless" />
-                    <noTrait name="SlowAndPurposeful" />
-                    <noTrait name="Vehicle" />
+                    <movement equal="0"/>
+                    <movementMax greater="0"/>
+                    <noTrait name="Flyer"/>
+                    <noTrait name="Fortification"/>
+                    <noTrait name="Relentless"/>
+                    <noTrait name="SlowAndPurposeful"/>
+                    <noTrait name="Vehicle"/>
                 </unit>
             </conditions>
             <effects>
-                <rangedAccuracy max="-999" min="-999" />
+                <rangedAccuracy max="-999"
+                                min="-999"/>
             </effects>
         </modifier>
         <modifier>
             <conditions>
                 <encounter>
                     <opponent match="Any">
-                        <trait name="Fortification" />
-                        <trait name="Vehicle" />
+                        <trait name="Fortification"/>
+                        <trait name="Vehicle"/>
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <armorPenetration mul="0.25" />
+                <armorPenetration mul="0.25"/>
             </effects>
         </modifier>
     </modifiers>

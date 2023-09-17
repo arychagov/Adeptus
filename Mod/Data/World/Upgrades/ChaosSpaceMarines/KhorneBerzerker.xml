@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Units/ChaosSpaceMarines/KhorneBerzerker" position="2">
+<upgrade icon="Units/ChaosSpaceMarines/KhorneBerzerker"
+         position="2">
     <requiredUpgrades>
-        <upgrade name="ChaosSpaceMarines/Infantry" />
+        <upgrade name="ChaosSpaceMarines/Infantry"/>
     </requiredUpgrades>
 </upgrade>

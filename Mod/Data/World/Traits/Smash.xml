@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <meleeArmorPenetration add="6" />
+                <meleeArmorPenetration add="6"/>
             </effects>
         </modifier>
     </modifiers>

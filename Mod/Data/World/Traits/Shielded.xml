@@ -4,11 +4,11 @@
         <modifier>
             <conditions>
                 <unit>
-                    <allied />
+                    <allied/>
                 </unit>
             </conditions>
             <effects>
-                <invulnerableDamageReduction min="0.17" />
+                <invulnerableDamageReduction min="0.17"/>
             </effects>
         </modifier>
     </modifiers>

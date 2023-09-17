@@ -1,61 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit explosionsBone="Hull" idleAnimation="" idleAnimationCount="0" material="Units/SpaceMarines/Vindicator" mesh="Units/SpaceMarines/Vindicator" scale="1.2 1.2 1.2" uvAnimated="1" />
+        <unit explosionsBone="Hull"
+              idleAnimation=""
+              idleAnimationCount="0"
+              material="Units/SpaceMarines/Vindicator"
+              mesh="Units/SpaceMarines/Vindicator"
+              scale="1.2 1.2 1.2"
+              uvAnimated="1"/>
     </model>
     <weapons>
         <weapon name="DemolisherCannon">
             <model>
-                <projectileWeapon fireInterval="0.7" muzzleBone=".DemolisherCannonMuzzle" />
+                <projectileWeapon fireInterval="0.7"
+                                  muzzleBone=".DemolisherCannonMuzzle"/>
             </model>
         </weapon>
-        <weapon name="HunterKillerMissile" enabled="0" slotName="HunterKillerMissile">
+        <weapon name="HunterKillerMissile"
+                enabled="0"
+                slotName="HunterKillerMissile">
             <model>
-                <missileWeapon fireInterval="5.0" muzzleBone="Hull" />
+                <missileWeapon fireInterval="5.0"
+                               muzzleBone="Hull"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8" /> <!-- %armor base armor=13/11/10 -->
-                <hitpointsMax base="36.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base armor=13/11/10 wounds=3 -->
-                <moraleMax base="10" /> <!-- %moraleMax base leadership=8 -->
-                <movementMax base="4" />
-                <productionCost base="42.0" /> <!-- %productionCost base tier=7 factor=1 -->
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
-                <requisitionsUpkeep base="3.0" /> <!-- %requisitionsUpkeep base tier=7 factor=1 -->
-                <requisitionsCost base="80.0" /> <!-- %requisitionsCost base tier=7 factor=1 -->
+                <armor base="8"/> <!-- %armor base armor=13/11/10 -->
+                <hitpointsMax base="36.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=13/11/10 wounds=3 -->
+                <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+                <movementMax base="4"/>
+                <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <requisitionsUpkeep base="3.0"/> <!-- %requisitionsUpkeep base tier=7 factor=1 -->
+                <requisitionsCost base="80.0"/> <!-- %requisitionsCost base tier=7 factor=1 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="1.0" />
+                <increaseVehiclesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/SpaceMarines/VindicatorAttack" beginFire="0.6" endFire="2.1" />
+                <action animation="Units/SpaceMarines/VindicatorAttack"
+                        beginFire="0.6"
+                        endFire="2.1"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/SpaceMarines/VindicatorDie" sound="Units/MediumVehicleDie" soundCount="3" soundDelay="0" />
+                <action animation="Units/SpaceMarines/VindicatorDie"
+                        sound="Units/MediumVehicleDie"
+                        soundCount="3"
+                        soundDelay="0"/>
             </model>
         </die>
         <move>
             <model>
-                <action animation="Units/SpaceMarines/VindicatorMove" sound="Units/SpaceMarines/TankMove" soundCount="3" />
+                <action animation="Units/SpaceMarines/VindicatorMove"
+                        sound="Units/SpaceMarines/TankMove"
+                        soundCount="3"/>
             </model>
         </move>
-        <genericUnitAbility name="MachineSpirit" icon="Traits/MachineSpirit" requiredUpgrade="SpaceMarines/MachineSpirit" consumedActionPoints="0" consumedMovement="0" cooldown="5" requiredActionPoints="0">
+        <genericUnitAbility name="MachineSpirit"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="5"
+                            icon="Traits/MachineSpirit"
+                            requiredActionPoints="0"
+                            requiredUpgrade="SpaceMarines/MachineSpirit">
             <model>
-                <action sound="Actions/MechanicalBuff" />
+                <action sound="Actions/MechanicalBuff"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -64,7 +87,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="MachineSpirit" duration="1" />
+                                        <addTrait name="MachineSpirit"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -73,9 +97,14 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <createSmokeScreen consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="10" icon="Traits/SmokeScreen" requiredUpgrade="SpaceMarines/SmokeLauncher">
+        <createSmokeScreen consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="10"
+                           icon="Traits/SmokeScreen"
+                           requiredActionPoints="0"
+                           requiredUpgrade="SpaceMarines/SmokeLauncher">
             <model>
-                <action sound="Actions/SmokeScreen" />
+                <action sound="Actions/SmokeScreen"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -84,7 +113,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addFeature name="SmokeScreen" duration="3" />
+                                        <addFeature name="SmokeScreen"
+                                                    duration="3"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -93,33 +123,38 @@
                 </selfTarget>
             </beginTargets>
         </createSmokeScreen>
-        <useWeapon cooldown="10" requiredUpgrade="SpaceMarines/HunterKillerMissile" weaponSlotName="HunterKillerMissile">
+        <useWeapon cooldown="10"
+                   requiredUpgrade="SpaceMarines/HunterKillerMissile"
+                   weaponSlotName="HunterKillerMissile">
             <model>
-                <action beginFire="0.1" endFire="1.0" />
+                <action beginFire="0.1"
+                        endFire="1.0"/>
             </model>
         </useWeapon>
         <orbitalDeployment requiredUpgrade="SpaceMarines/OrbitalDeployment">
             <model>
-                <action sound="Actions/DropPod" />
+                <action sound="Actions/DropPod"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40" />
+                        <influenceCost base="40"/>
                     </effects>
                 </modifier>
             </modifiers>
         </orbitalDeployment>
     </actions>
     <traits>
-        <trait name="AndTheyShallKnowNoFear" />
-        <trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand" />
-        <trait name="LinebreakerBombardment" />
-        <trait name="SiegeShield" />
-        <trait name="ExtraVehicleArmour" requiredUpgrade="SpaceMarines/ExtraVehicleArmour" />
-        <trait name="Tank" />
-        <trait name="Vehicle" />
-        <trait name="SpaceMarines/SiegeMasters" />
-        <trait name="SpaceMarines/MachineEmpathy" />
+        <trait name="AndTheyShallKnowNoFear"/>
+        <trait name="LastStand"
+               requiredUpgrade="SpaceMarines/LastStand"/>
+        <trait name="LinebreakerBombardment"/>
+        <trait name="SiegeShield"/>
+        <trait name="ExtraVehicleArmour"
+               requiredUpgrade="SpaceMarines/ExtraVehicleArmour"/>
+        <trait name="Tank"/>
+        <trait name="Vehicle"/>
+        <trait name="SpaceMarines/SiegeMasters"/>
+        <trait name="SpaceMarines/MachineEmpathy"/>
     </traits>
 </unit>

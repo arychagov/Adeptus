@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff" icon="Traits/Waaagh" rankMax="9">
+<trait category="Debuff"
+       icon="Traits/Waaagh"
+       rankMax="9">
     <modifiers>
         <modifier>
             <effects>
-                <attacks mulMax="-0.20" mulMin="-0.02" />
+                <attacks mulMax="-0.20"
+                         mulMin="-0.02"/>
             </effects>
         </modifier>
         <modifier visible="0">
             <effects>
-                <loyalty mulMax="-0.20" mulMin="-0.02" />
+                <loyalty mulMax="-0.20"
+                         mulMin="-0.02"/>
             </effects>
         </modifier>
     </modifiers>

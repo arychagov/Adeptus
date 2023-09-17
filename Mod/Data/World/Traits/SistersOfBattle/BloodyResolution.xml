@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <moraleLossFactor add="-0.83" />
+                <moraleLossFactor add="-0.83"/>
             </effects>
         </modifier>
     </modifiers>

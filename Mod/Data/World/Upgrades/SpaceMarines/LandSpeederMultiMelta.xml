@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Weapons/MultiMelta" position="7">
+<upgrade icon="Weapons/MultiMelta"
+         position="7">
     <requiredUpgrades>
-        <upgrade name="SpaceMarines/LandRaider" />
-        <upgrade name="SpaceMarines/LandSpeeder" />
+        <upgrade name="SpaceMarines/LandRaider"/>
+        <upgrade name="SpaceMarines/LandSpeeder"/>
     </requiredUpgrades>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="1.0" />
+                <increaseVehiclesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>

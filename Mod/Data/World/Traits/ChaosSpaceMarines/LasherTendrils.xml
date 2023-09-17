@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff" icon="Actions/ChaosSpaceMarines/LasherTendrils">
+<trait category="Debuff"
+       icon="Actions/ChaosSpaceMarines/LasherTendrils">
     <modifiers>
         <modifier>
             <conditions>
                 <unit>
-                    <enemy />
+                    <enemy/>
                 </unit>
             </conditions>
             <effects>
-                <meleeAttacks mul="-0.33" />
+                <meleeAttacks mul="-0.33"/>
             </effects>
         </modifier>
     </modifiers>

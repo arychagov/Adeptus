@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade dlc="Supplement6" icon="Units/Tyranids/ScythedHierodule" position="10">
+<upgrade dlc="Supplement6"
+         icon="Units/Tyranids/ScythedHierodule"
+         position="10">
     <requiredUpgrades>
-        <upgrade name="Tyranids/Vehicles" />
+        <upgrade name="Tyranids/Vehicles"/>
     </requiredUpgrades>
 </upgrade>

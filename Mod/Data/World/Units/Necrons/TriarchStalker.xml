@@ -1,92 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit>
     <model>
-        <unit explosionsBone="BloodBone" idleAnimation="Units/Necrons/TriarchStalkerIdle" idleAnimationCount="3" idleContinuously="1" material="Units/Necrons/TriarchStalker" mesh="Units/Necrons/TriarchStalker" scale="0.8 0.8 0.8" walker="1" />
+        <unit explosionsBone="BloodBone"
+              idleAnimation="Units/Necrons/TriarchStalkerIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/Necrons/TriarchStalker"
+              mesh="Units/Necrons/TriarchStalker"
+              scale="0.8 0.8 0.8"
+              walker="1"/>
     </model>
     <weapons>
-        <weapon name="HeatRayFocused" slotName="HeatRayFocused">
+        <weapon name="HeatRayFocused"
+                slotName="HeatRayFocused">
             <model>
-                <beamWeapon fireInterval="0.25" muzzleBone="Bone110" />
+                <beamWeapon fireInterval="0.25"
+                            muzzleBone="Bone110"/>
             </model>
         </weapon>
-        <weapon name="HeatRayDispersed" enabled="0" slotName="HeatRayDispersed">
+        <weapon name="HeatRayDispersed"
+                enabled="0"
+                slotName="HeatRayDispersed">
             <model>
-                <beamWeapon fireInterval="0.25" muzzleBone="Bone110" />
+                <beamWeapon fireInterval="0.25"
+                            muzzleBone="Bone110"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="7" /> <!-- %armor base armor=11/11/11 -->
-                <energyCost base="60.0" /> <!-- %energyCost base tier=7 factor=1 -->
-                <hitpointsMax base="32.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base armor=11/11/11 wounds=3 -->
-                <meleeAccuracy base="8" /> <!-- %meleeAccuracy base weaponSkill=4 -->
-                <meleeAttacks base="3" />
+                <armor base="7"/> <!-- %armor base armor=11/11/11 -->
+                <energyCost base="60.0"/> <!-- %energyCost base tier=7 factor=1 -->
+                <hitpointsMax base="32.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=11/11/11 wounds=3 -->
+                <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
+                <meleeAttacks base="3"/>
                 <!-- <meleeInitiative base="2"/> -->
-                <moraleMax base="12" /> <!-- %moraleMax base leadership=10 -->
-                <movementMax base="3" />
-                <oreUpkeep base="3.0" /> <!-- %oreUpkeep base tier=7 factor=1 -->
-                <productionCost base="42.0" /> <!-- %productionCost base tier=7 factor=1 -->
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->
+                <movementMax base="3"/>
+                <oreUpkeep base="3.0"/> <!-- %oreUpkeep base tier=7 factor=1 -->
+                <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseVehiclesScore base="1.0" />
+                <increaseVehiclesScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/Necrons/TriarchStalkerAttack" beginFire="0.5" endFire="2.0" />
+                <action animation="Units/Necrons/TriarchStalkerAttack"
+                        beginFire="0.5"
+                        endFire="2.0"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/Necrons/TriarchStalkerDie" sound="Units/MediumVehicleDie" soundCount="3" soundDelay="0.55" voiceSound="Units/Necrons/Die" voiceSoundCount="7" />
+                <action animation="Units/Necrons/TriarchStalkerDie"
+                        sound="Units/MediumVehicleDie"
+                        soundCount="3"
+                        soundDelay="0.55"
+                        voiceSound="Units/Necrons/Die"
+                        voiceSoundCount="7"/>
             </model>
         </die>
         <idle>
             <model>
-                <action animationSpeed="1.0" />
+                <action animationSpeed="1.0"/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/Necrons/TriarchStalkerMove" sound="Units/Necrons/TriarchStalkerMove" soundCount="1" />
+                <action animation="Units/Necrons/TriarchStalkerMove"
+                        sound="Units/Necrons/TriarchStalkerMove"
+                        soundCount="1"/>
             </model>
         </move>
-        <necrodermisRepair requiredUpgrade="Necrons/NecrodermisRepair" name="Necrons/NecrodermisRepair" consumedActionPoints="0" consumedMovement="0" cooldown="1" requiredActionPoints="0">
+        <necrodermisRepair name="Necrons/NecrodermisRepair"
+                           consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="1"
+                           requiredActionPoints="0"
+                           requiredUpgrade="Necrons/NecrodermisRepair">
             <model>
-                <action sound="Actions/Heal" />
+                <action sound="Actions/Heal"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="50" />
+                        <influenceCost base="50"/>
                     </effects>
                 </modifier>
 
                 <modifier requiredUpgrade="Necrons/HousingBuildingBonus">
                     <effects>
-                        <cooldown max="0" />
+                        <cooldown max="0"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="Necrons/NecrodermisRepair3">
                     <effects>
-                        <influenceCost add="-30" />
+                        <influenceCost add="-30"/>
                     </effects>
                 </modifier>
             </modifiers>
             <conditions>
                 <unit>
-                    <noTrait name="Necrons/BloodyCrusade" />
-                    <damaged />
+                    <noTrait name="Necrons/BloodyCrusade"/>
+                    <damaged/>
                 </unit>
             </conditions>
             <beginTargets>
@@ -96,18 +122,18 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints add="6" />
+                                        <hitpoints add="6"/>
                                     </effects>
                                 </modifier>
 
                                 <modifier requiredUpgrade="Necrons/HousingBuildingBonus">
                                     <effects>
-                                        <hitpoints add="2" />
+                                        <hitpoints add="2"/>
                                     </effects>
                                 </modifier>
                                 <modifier requiredUpgrade="Necrons/NecrodermisRepair3">
                                     <effects>
-                                        <hitpoints add="2" />
+                                        <hitpoints add="2"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -116,17 +142,24 @@
                 </selfTarget>
             </beginTargets>
         </necrodermisRepair>
-        <genericUnitAbility name="Necrons/TargetingRelay" enabled="0" passive="1" visible="0">
+        <genericUnitAbility name="Necrons/TargetingRelay"
+                            enabled="0"
+                            passive="1"
+                            visible="0">
             <beginTargets>
                 <selfTarget>
-                    <areas />
+                    <areas/>
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <cycleWeapon interfaceSound="Interface/CycleWeapon" weaponSlotNames="HeatRayFocused HeatRayDispersed" />
-        <hammerOfWrath consumedActionPoints="0" consumedMovement="0" cooldown="3" requiredUpgrade="Necrons/HammerOfWrath">
+        <cycleWeapon interfaceSound="Interface/CycleWeapon"
+                     weaponSlotNames="HeatRayFocused HeatRayDispersed"/>
+        <hammerOfWrath consumedActionPoints="0"
+                       consumedMovement="0"
+                       cooldown="3"
+                       requiredUpgrade="Necrons/HammerOfWrath">
             <model>
-                <action sound="Actions/PsychicBuff" />
+                <action sound="Actions/PsychicBuff"/>
             </model>
             <beginTargets>
                 <selfTarget>
@@ -135,7 +168,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="HammerOfWrath" duration="1" />
+                                        <addTrait name="HammerOfWrath"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -144,19 +178,24 @@
                 </selfTarget>
             </beginTargets>
         </hammerOfWrath>
-        <scarabHive name="Necrons/ScarabHive" cooldown="10" icon="Units/Necrons/CanoptekScarab" requiredUpgrade="Necrons/TheSwarm">
+        <scarabHive name="Necrons/ScarabHive"
+                    cooldown="10"
+                    icon="Units/Necrons/CanoptekScarab"
+                    requiredUpgrade="Necrons/TheSwarm">
             <model>
-                <action animation="Units/Necrons/TriarchStalkerAttack" sound="Actions/PsychicBuff" />
+                <action animation="Units/Necrons/TriarchStalkerAttack"
+                        sound="Actions/PsychicBuff"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <energyCost base="20" />
+                        <energyCost base="20"/>
                     </effects>
                 </modifier>
-                <modifier requiredUpgrade="Necrons/TheSwarm" visible="0">
+                <modifier requiredUpgrade="Necrons/TheSwarm"
+                          visible="0">
                     <effects>
-                        <energyCost add="-10" />
+                        <energyCost add="-10"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -164,9 +203,9 @@
                 <target rangeMax="1">
                     <conditions>
                         <tile>
-                            <land />
-                            <noUnit />
-                            <noFeature name="GravityWaves" />
+                            <land/>
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
                         </tile>
                     </conditions>
                     <areas>
@@ -174,7 +213,9 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="Necrons/CanoptekScarab" consumedAction="0" consumedMovement="0" />
+                                        <addUnit name="Necrons/CanoptekScarab"
+                                                 consumedAction="0"
+                                                 consumedMovement="0"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -183,20 +224,26 @@
                 </target>
             </beginTargets>
         </scarabHive>
-        <genericUnitAbility name="Necrons/OverchargeQuantumShielding" consumedActionPoints="0" consumedMovement="0" cooldown="3" icon="Upgrades/Necrons/OverchargedQuantumShielding" requiredActionPoints="0" requiredUpgrade="Necrons/OverchargedQuantumShielding">
+        <genericUnitAbility name="Necrons/OverchargeQuantumShielding"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="3"
+                            icon="Upgrades/Necrons/OverchargedQuantumShielding"
+                            requiredActionPoints="0"
+                            requiredUpgrade="Necrons/OverchargedQuantumShielding">
             <model>
-                <action sound="Actions/ChargeUp" />
+                <action sound="Actions/ChargeUp"/>
             </model>
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <energyCost base="30" />
+                        <energyCost base="30"/>
                     </effects>
                 </modifier>
             </modifiers>
             <conditions>
                 <unit>
-                    <notAttackedThisTurn />
+                    <notAttackedThisTurn/>
                 </unit>
             </conditions>
             <beginTargets>
@@ -206,8 +253,10 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Necrons/OverchargedQuantumShielding" duration="1" />
-                                        <addTrait name="Necrons/Overcharged" duration="3" />
+                                        <addTrait name="Necrons/OverchargedQuantumShielding"
+                                                  duration="1"/>
+                                        <addTrait name="Necrons/Overcharged"
+                                                  duration="3"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -218,15 +267,19 @@
         </genericUnitAbility>
     </actions>
     <traits>
-        <trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus" />
-        <trait name="ExtraVehicleArmour" requiredUpgrade="Necrons/ExtraVehicleArmour" />
-        <trait name="Necrons/LivingMetalTriarchStalker" />
-        <trait name="MoveThroughCover" />
-        <trait name="OpenTopped" />
-        <trait name="Necrons/TargetingRelay" />
-        <trait name="Vehicle" />
-        <trait name="Walker" />
-        <trait name="Necrons/QuantumShielding" requiredUpgrade="Necrons/QuantumShielding" />
-        <trait name="Necrons/PredictiveStrategist" requiredUpgrade="Necrons/PredictiveStrategist" />
+        <trait name="Necrons/AttackCityBonus"
+               requiredUpgrade="Necrons/AttackCityBonus"/>
+        <trait name="ExtraVehicleArmour"
+               requiredUpgrade="Necrons/ExtraVehicleArmour"/>
+        <trait name="Necrons/LivingMetalTriarchStalker"/>
+        <trait name="MoveThroughCover"/>
+        <trait name="OpenTopped"/>
+        <trait name="Necrons/TargetingRelay"/>
+        <trait name="Vehicle"/>
+        <trait name="Walker"/>
+        <trait name="Necrons/QuantumShielding"
+               requiredUpgrade="Necrons/QuantumShielding"/>
+        <trait name="Necrons/PredictiveStrategist"
+               requiredUpgrade="Necrons/PredictiveStrategist"/>
     </traits>
 </unit>

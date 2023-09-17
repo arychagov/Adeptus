@@ -3,18 +3,18 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <productionCost base="36" />
-                <requisitionsCost base="50" />
-                <populationRequired base="1" />
-                <slotsRequired base="1" />
-                <energyUpkeep add="2" />
+                <productionCost base="36"/>
+                <requisitionsCost base="50"/>
+                <populationRequired base="1"/>
+                <slotsRequired base="1"/>
+                <energyUpkeep add="2"/>
             </effects>
         </modifier>
         <modifier>
             <effects>
-                <populationLimit add="1" />
-                <production add="6" />
-                <requisitions add="2" />
+                <populationLimit add="1"/>
+                <production add="6"/>
+                <requisitions add="2"/>
             </effects>
         </modifier>
     </modifiers>
@@ -28,19 +28,27 @@
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryProductionScore base="1.0" />
+                <increaseInfantryProductionScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="SistersOfBattle/BattleSister" />
-        <produceUnit requiredUpgrade="SistersOfBattle/SisterAssassinorum" unit="SistersOfBattle/SisterAssassinorum" />
-        <produceUnit requiredUpgrade="SistersOfBattle/Hospitaller" unit="SistersOfBattle/Hospitaller" />
-        <produceUnit requiredUpgrade="SistersOfBattle/Imagifier" unit="SistersOfBattle/Imagifier" />
-        <produceUnit requiredUpgrade="SistersOfBattle/Zephyrim" unit="SistersOfBattle/Zephyrim" />
-        <produceUnit requiredUpgrade="SistersOfBattle/SisterRepentia" unit="SistersOfBattle/SisterRepentia" />
-        <produceUnit requiredUpgrade="SistersOfBattle/Dominion" unit="SistersOfBattle/Dominion" />
-        <produceUnit requiredUpgrade="SistersOfBattle/Retributor" unit="SistersOfBattle/Retributor" />
-        <produceUnit requiredUpgrade="SistersOfBattle/CelestianSacresant" unit="SistersOfBattle/CelestianSacresant" />
+        <produceUnit unit="SistersOfBattle/BattleSister"/>
+        <produceUnit requiredUpgrade="SistersOfBattle/SisterAssassinorum"
+                     unit="SistersOfBattle/SisterAssassinorum"/>
+        <produceUnit requiredUpgrade="SistersOfBattle/Hospitaller"
+                     unit="SistersOfBattle/Hospitaller"/>
+        <produceUnit requiredUpgrade="SistersOfBattle/Imagifier"
+                     unit="SistersOfBattle/Imagifier"/>
+        <produceUnit requiredUpgrade="SistersOfBattle/Zephyrim"
+                     unit="SistersOfBattle/Zephyrim"/>
+        <produceUnit requiredUpgrade="SistersOfBattle/SisterRepentia"
+                     unit="SistersOfBattle/SisterRepentia"/>
+        <produceUnit requiredUpgrade="SistersOfBattle/Dominion"
+                     unit="SistersOfBattle/Dominion"/>
+        <produceUnit requiredUpgrade="SistersOfBattle/Retributor"
+                     unit="SistersOfBattle/Retributor"/>
+        <produceUnit requiredUpgrade="SistersOfBattle/CelestianSacresant"
+                     unit="SistersOfBattle/CelestianSacresant"/>
     </actions>
 </building>

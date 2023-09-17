@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Attributes/Armor">
+<trait category="Buff"
+       icon="Attributes/Armor">
     <modifiers>
         <modifier>
             <effects>
-                <armor add="1" />
+                <armor add="1"/>
             </effects>
         </modifier>
     </modifiers>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade icon="Traits/Tyranids/VehiclesUpkeep" position="5">
+<upgrade icon="Traits/Tyranids/VehiclesUpkeep"
+         position="5">
     <requiredUpgrades>
-        <upgrade name="Tyranids/Aircraft" />
-        <upgrade name="Tyranids/HiveTyrant" />
-        <upgrade name="Tyranids/Vehicles" />
+        <upgrade name="Tyranids/Aircraft"/>
+        <upgrade name="Tyranids/HiveTyrant"/>
+        <upgrade name="Tyranids/Vehicles"/>
     </requiredUpgrades>
 </upgrade>

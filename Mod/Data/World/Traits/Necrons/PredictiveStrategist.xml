@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Upgrades/Necrons/PredictiveStrategist">
+<trait category="Buff"
+       icon="Upgrades/Necrons/PredictiveStrategist">
     <modifiers>
         <modifier>
             <effects>
-                <oreUpkeep mul="-0.2" />
-                <influenceUpkeep mul="-0.2" />
+                <oreUpkeep mul="-0.2"/>
+                <influenceUpkeep mul="-0.2"/>
             </effects>
         </modifier>
     </modifiers>

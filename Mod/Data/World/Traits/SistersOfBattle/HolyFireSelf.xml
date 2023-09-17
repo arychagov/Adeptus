@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" alwaysVisible="1" icon="Traits/SoulBlaze">
+<trait alwaysVisible="1"
+       category="Buff"
+       icon="Traits/SoulBlaze">
     <onCombatOpponentModifiers>
         <modifier>
             <conditions>
                 <encounter>
                     <opponent>
-                        <noAttacking />
+                        <noAttacking/>
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <addTrait name="SistersOfBattle/HolyFireEnemy" duration="2" />
+                <addTrait name="SistersOfBattle/HolyFireEnemy"
+                          duration="2"/>
             </effects>
         </modifier>
         <modifier requiredUpgrade="SistersOfBattle/Conflagration">
             <conditions>
                 <encounter>
                     <opponent>
-                        <noAttacking />
+                        <noAttacking/>
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <addTrait name="SistersOfBattle/HolyFireEnemy" duration="3" />
+                <addTrait name="SistersOfBattle/HolyFireEnemy"
+                          duration="3"/>
             </effects>
         </modifier>
     </onCombatOpponentModifiers>

@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <movementMax mul="-0.33" />
+                <movementMax mul="-0.33"/>
             </effects>
         </modifier>
     </modifiers>

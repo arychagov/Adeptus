@@ -1,77 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unit dlc="Supplement9">
     <model>
-        <unit bloodBone="Chest" idleAnimation="Units/AdeptusMechanicus/PteraxiiSterylizorIdle" idleAnimationCount="3" idleContinuously="1" material="Units/AdeptusMechanicus/PteraxiiSterylizor" mesh="Units/AdeptusMechanicus/PteraxiiSterylizor" normalWeight="0.1" scale="1 1 1" walker="1" />
+        <unit bloodBone="Chest"
+              idleAnimation="Units/AdeptusMechanicus/PteraxiiSterylizorIdle"
+              idleAnimationCount="3"
+              idleContinuously="1"
+              material="Units/AdeptusMechanicus/PteraxiiSterylizor"
+              mesh="Units/AdeptusMechanicus/PteraxiiSterylizor"
+              normalWeight="0.1"
+              scale="1 1 1"
+              walker="1"/>
     </model>
-    <group memberDeltaX="110" memberDeltaY="110" rowSize="2" size="4" />
+    <group memberDeltaX="110"
+           memberDeltaY="110"
+           rowSize="2"
+           size="4"/>
     <weapons>
         <weapon name="PteraxiiTalons">
             <model>
-                <weapon fireInterval="10" />
+                <weapon fireInterval="10"/>
             </model>
         </weapon>
         <weapon name="PhosphorTorch">
             <model>
-                <flamerWeapon muzzleBone="Muzzle" />
+                <flamerWeapon muzzleBone="Muzzle"/>
             </model>
         </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="6" /> <!-- %armor base armor=4+ -->
-                <foodUpkeep base="3.0" /> <!-- %foodUpkeep base tier=7 factor=1 -->
-                <foodCost base="30.0" /> <!-- %foodCost base tier=7 factor=0.5 -->
-                <hitpointsMax base="4.0" />
-                <duplicateTypeCost mul="0.125" /> <!-- %hitpointsMax base toughness=3 wounds=2 -->
-                <meleeAccuracy base="8" /> <!-- %meleeAccuracy base weaponSkill=4 -->
-                <meleeAttacks base="1.5" />
-                <oreCost base="30.0" /> <!-- %oreCost base tier=7 factor=0.5 -->
-                <strengthDamage base="1.5" /> <!-- %strengthDamage base strength=4 -->
-                <moraleMax base="6" /> <!-- %moraleMax base leadership=6 -->
-                <movementMax base="3" />
-                <productionCost base="42.0" /> <!-- %productionCost base tier=7 factor=1 -->
-                <rangedAccuracy base="8" /> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <armor base="6"/> <!-- %armor base armor=4+ -->
+                <foodUpkeep base="3.0"/> <!-- %foodUpkeep base tier=7 factor=1 -->
+                <foodCost base="30.0"/> <!-- %foodCost base tier=7 factor=0.5 -->
+                <hitpointsMax base="4.0"/>
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=3 wounds=2 -->
+                <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
+                <meleeAttacks base="1.5"/>
+                <oreCost base="30.0"/> <!-- %oreCost base tier=7 factor=0.5 -->
+                <strengthDamage base="1.5"/> <!-- %strengthDamage base strength=4 -->
+                <moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
+                <movementMax base="3"/>
+                <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
         </modifier>
     </modifiers>
     <strategyModifiers>
         <modifier>
             <effects>
-                <increaseInfantryScore base="1.0" />
+                <increaseInfantryScore base="1.0"/>
             </effects>
         </modifier>
     </strategyModifiers>
     <actions>
         <attack>
             <model>
-                <action animation="Units/AdeptusMechanicus/PteraxiiSterylizorAttack" beginFire="1.0" chargeAnimation="Units/AdeptusMechanicus/PteraxiiSterylizorCharge" chargeBeginFire="0.3" chargeEndFire="1.3" endFire="2.3" meleeAnimation="Units/AdeptusMechanicus/PteraxiiSterylizorMelee" meleeBeginSwing="0.4" meleeEndSwing="0.6" />
+                <action animation="Units/AdeptusMechanicus/PteraxiiSterylizorAttack"
+                        beginFire="1.0"
+                        chargeAnimation="Units/AdeptusMechanicus/PteraxiiSterylizorCharge"
+                        chargeBeginFire="0.3"
+                        chargeEndFire="1.3"
+                        endFire="2.3"
+                        meleeAnimation="Units/AdeptusMechanicus/PteraxiiSterylizorMelee"
+                        meleeBeginSwing="0.4"
+                        meleeEndSwing="0.6"/>
             </model>
         </attack>
         <die>
             <model>
-                <action animation="Units/AdeptusMechanicus/PteraxiiSterylizorDie" animationCount="2" sound="Units/MediumArmoredDie" soundCount="4" soundDelay="0.4" voiceSound="Units/AdeptusMechanicus/InfantryVoiceDie" voiceSoundCount="5" />
+                <action animation="Units/AdeptusMechanicus/PteraxiiSterylizorDie"
+                        animationCount="2"
+                        sound="Units/MediumArmoredDie"
+                        soundCount="4"
+                        soundDelay="0.4"
+                        voiceSound="Units/AdeptusMechanicus/InfantryVoiceDie"
+                        voiceSoundCount="5"/>
             </model>
         </die>
         <idle>
             <model>
-                <action />
+                <action/>
             </model>
         </idle>
         <move>
             <model>
-                <action animation="Units/AdeptusMechanicus/PteraxiiSterylizorMove" sound="Units/AdeptusMechanicus/PteraxiiSterylizorMove" />
+                <action animation="Units/AdeptusMechanicus/PteraxiiSterylizorMove"
+                        sound="Units/AdeptusMechanicus/PteraxiiSterylizorMove"/>
             </model>
         </move>
         <jumpPack cooldown="3">
             <model>
-                <action animation="Units/AdeptusMechanicus/PteraxiiSterylizorMove" sound="Actions/PteraxiiSterylizorJumpPack" />
+                <action animation="Units/AdeptusMechanicus/PteraxiiSterylizorMove"
+                        sound="Actions/PteraxiiSterylizorJumpPack"/>
             </model>
             <modifiers>
                 <modifier>
                     <effects>
-                        <movement add="1" />
-                        <movementMax add="1" />
+                        <movement add="1"/>
+                        <movementMax add="1"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -82,7 +109,8 @@
                             <modifiers>
                                 <modifier requiredUpgrade="AdeptusMechanicus/HammerOfWrath">
                                     <effects>
-                                        <addTrait name="HammerOfWrath" duration="1" />
+                                        <addTrait name="HammerOfWrath"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -93,12 +121,15 @@
         </jumpPack>
     </actions>
     <traits>
-        <trait name="AdeptusMechanicus/DoctrinaImperatives" />
-        <trait name="Bulky" />
-        <trait name="ExtraInfantryArmour" requiredUpgrade="AdeptusMechanicus/ExtraInfantryArmour" />
-        <trait name="AdeptusMechanicus/CommandUplink" requiredUpgrade="AdeptusMechanicus/CommandUplink" />
-        <trait name="FeelNoPain" />
-        <trait name="MoveThroughCover" />
-        <trait name="AdeptusMechanicus/ControlEdict" requiredUpgrade="AdeptusMechanicus/ControlEdict" />
+        <trait name="AdeptusMechanicus/DoctrinaImperatives"/>
+        <trait name="Bulky"/>
+        <trait name="ExtraInfantryArmour"
+               requiredUpgrade="AdeptusMechanicus/ExtraInfantryArmour"/>
+        <trait name="AdeptusMechanicus/CommandUplink"
+               requiredUpgrade="AdeptusMechanicus/CommandUplink"/>
+        <trait name="FeelNoPain"/>
+        <trait name="MoveThroughCover"/>
+        <trait name="AdeptusMechanicus/ControlEdict"
+               requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
     </traits>
 </unit>

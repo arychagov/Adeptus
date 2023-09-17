@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <beamWeapon beamsBlueprint="Effects/ShadowLimbs" beamsEmitterBlueprint="Effects/ShadowLimbsEmitter" effectFaceWeight="1.0" effectScale="1.0" fireInterval="10.0" fireSound="Weapons/Shadowlimbs" fireSoundCount="1" muzzleFlashesBlueprint="" />
+        <beamWeapon beamsBlueprint="Effects/ShadowLimbs"
+                    beamsEmitterBlueprint="Effects/ShadowLimbsEmitter"
+                    effectFaceWeight="1.0"
+                    effectScale="1.0"
+                    fireInterval="10.0"
+                    fireSound="Weapons/Shadowlimbs"
+                    fireSoundCount="1"
+                    muzzleFlashesBlueprint=""/>
     </model>
     <traits>
-        <trait name="Melee" />
+        <trait name="Melee"/>
     </traits>
 </weapon>

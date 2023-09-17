@@ -4,14 +4,15 @@
         <modifier>
             <conditions>
                 <unit>
-                    <unitsInRange count="1" range="1">
-                        <allied />
-                        <type name="SpaceMarines/Vindicator" />
+                    <unitsInRange count="1"
+                                  range="1">
+                        <allied/>
+                        <type name="SpaceMarines/Vindicator"/>
                     </unitsInRange>
                 </unit>
             </conditions>
             <effects>
-                <rangedDamageReductionBypass add="1.0" />
+                <rangedDamageReductionBypass add="1.0"/>
             </effects>
         </modifier>
     </modifiers>

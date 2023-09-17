@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Traits/ChaosSpaceMarines/Bloated">
+<trait category="Buff"
+       icon="Traits/ChaosSpaceMarines/Bloated">
     <onCombatSelfModifiers>
         <modifier>
             <conditions>
                 <encounter>
                     <opponent>
-                        <noAttacking />
+                        <noAttacking/>
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <hitpointsFactorFromMax add="0.15" />
+                <hitpointsFactorFromMax add="0.15"/>
             </effects>
         </modifier>
         <modifier requiredUpgrade="ChaosSpaceMarines/StimulatedByPain">
             <conditions>
                 <encounter>
                     <opponent>
-                        <noAttacking />
+                        <noAttacking/>
                     </opponent>
                 </encounter>
             </conditions>
             <effects>
-                <hitpointsFactorFromMax add="0.10" />
+                <hitpointsFactorFromMax add="0.10"/>
             </effects>
         </modifier>
     </onCombatSelfModifiers>
