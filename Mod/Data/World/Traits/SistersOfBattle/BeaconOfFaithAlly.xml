@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Actions/SistersOfBattle/BeaconOfFaith">
+<trait category="Buff" icon="Actions/SistersOfBattle/BeaconOfFaith" rankMax="2">
     <perTurnModifiers endure="0">
         <modifier>
             <conditions>
@@ -8,7 +8,7 @@
                 </unit>
             </conditions>
             <effects>
-                <morale add="2" />
+                <morale addMax="2" addMin="1" />
             </effects>
         </modifier>
     </perTurnModifiers>
