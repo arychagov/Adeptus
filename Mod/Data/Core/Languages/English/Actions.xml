@@ -175,6 +175,7 @@
     <entry name="SistersOfBattle/TaleOfTheFaithfulDescription" value="Increases the movement of this unit and adjacent Adepta Sororitas infantry units. Shares cooldown with other tales."/>
     <entry name="SistersOfBattle/TaleOfTheStoicDescription" value="Decreases the accuracy of opponent attacks against this unit and adjacent Adepta Sororitas infantry units. Shares cooldown with other tales."/>
     <entry name="SistersOfBattle/TaleOfTheWarriorDescription" value="Increases the armour penetration of adjacent Adepta Sororitas infantry units. Shares cooldown with other tales."/>
+    <entry name="SistersOfBattle/ThePassionDescription" value="Increases the melee accuracy of adjacent allied units and the armour of Canoness.<br/><br/><string name='Actions/SistersOfBattle/ActOfFaithDescription'/>"/>
     <entry name="SistersOfBattle/TwoAdditionalMultiMeltas" value="Install Multi Meltas" />
     <entry name="SistersOfBattle/TwoAdditionalMultiMeltasDescription" value="Grants Castigator additional multi meltas.<br/><br/><string name='Actions/UpgradeDisclaimer'/>" />
     <entry name="SistersOfBattle/UpgradeMultiMelta" value="Upgrade Multi Melta" />

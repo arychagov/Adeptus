@@ -204,7 +204,7 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility name="SistersOfBattle/HolyFire" consumedActionPoints="0" consumedMovement="0" cooldown="3" icon="Traits/SoulBlaze" rank="-1" rankMax="2" requiredActionPoints="0">
+        <genericUnitAbility name="SistersOfBattle/HolyFire" consumedActionPoints="0" consumedMovement="0" cooldownMax="3" cooldownMin="5" icon="Traits/SoulBlaze" rank="-1" rankMax="2" requiredActionPoints="0">
             <beginTargets>
                 <target rangeMax="2" rangeMin="1">
                     <conditions>
@@ -222,7 +222,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/HolyFireSelf" durationMax="3" durationMin="1" />
+                                        <addTrait name="SistersOfBattle/HolyFireSelf" duration="1" />
                                     </effects>
                                 </modifier>
                             </modifiers>
