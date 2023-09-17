@@ -773,9 +773,9 @@
         </iconOfFlame>
     </actions>
     <startingUnits>
-        <unit count="1"
-              type="ChaosSpaceMarines/ChaosSpaceMarine"/>
         <unit count="2"
+              type="ChaosSpaceMarines/ChaosSpaceMarine"/>
+        <unit count="1"
               type="ChaosSpaceMarines/ChaosCultist"/>
     </startingUnits>
 </faction>

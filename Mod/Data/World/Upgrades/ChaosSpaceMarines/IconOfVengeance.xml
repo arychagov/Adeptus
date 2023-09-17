@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade icon="Actions/ChaosSpaceMarines/IconOfVengeance"
-         position="5">
+         position="5"
+         visible="0">
     <requiredUpgrades>
         <upgrade name="ChaosSpaceMarines/MarkOfKhorne"/>
         <upgrade name="ChaosSpaceMarines/MarkOfNurgle"/>

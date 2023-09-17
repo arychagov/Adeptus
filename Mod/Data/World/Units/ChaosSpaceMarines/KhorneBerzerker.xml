@@ -128,7 +128,6 @@
         </throwGrenade>
     </actions>
     <traits>
-        <trait name="ChaosSpaceMarines/BloodForTheBloodGod"/>
         <trait name="ChaosSpaceMarines/ChampionOfChaos"/>
         <trait name="ChaosSpaceMarines/BloatedWithLifesteal"
                requiredUpgrade="ChaosSpaceMarines/BloatedWithLifesteal"/>

@@ -103,16 +103,6 @@
                         soundCount="4"/>
             </model>
         </move>
-
-
-        <throwGrenade cooldown="10"
-                      requiredUpgrade="ChaosSpaceMarines/MeltaBomb"
-                      weaponSlotName="MeltaBomb">
-            <model>
-                <action animation="Units/ChaosSpaceMarines/ChaosSpaceMarineGrenade"
-                        beginFire="1"/>
-            </model>
-        </throwGrenade>
     </actions>
     <traits>
         <trait name="ChaosSpaceMarines/ChampionOfChaos"/>

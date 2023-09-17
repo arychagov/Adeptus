@@ -1,3 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade icon="Units/ChaosSpaceMarines/DaemonPrince"
-         position="4"/>
+         position="4"
+         visible="0"/>

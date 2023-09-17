@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade icon="Units/ChaosSpaceMarines/Obliterator"
-         position="7">
+         position="8">
     <requiredUpgrades>
         <upgrade name="ChaosSpaceMarines/Infantry"/>
     </requiredUpgrades>
