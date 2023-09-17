@@ -147,12 +147,12 @@
             <modifiers>
                 <modifier requiredUpgrade="SistersOfBattle/SimulacrumImperialis">
                     <effects>
-                        <cooldown mul="-0.5" />
+                        <cooldown add="-5" />
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="SistersOfBattle/FaithAndFury">
                     <effects>
-                        <cooldown mul="-0.66" />
+                        <cooldown add="-4" />
                     </effects>
                 </modifier>
             </modifiers>
