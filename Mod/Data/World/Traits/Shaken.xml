@@ -11,7 +11,7 @@
                 <accuracy mul="-0.17" />
             </effects>
         </modifier>
-        <modifier>
+        <modifier visible="0">
             <conditions>
                 <unit>
                     <faction name="Orks" />

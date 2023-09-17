@@ -148,6 +148,7 @@
     <entry name="SistersOfBattle/BlindingRadiance" value="Blinding Radiance" />
     <entry name="SistersOfBattle/BlindingRadianceDescription" value="Decreases the accuracy of nearby enemies and increases Canoness' armour." />
     <entry name="SistersOfBattle/BlindingRadianceFlavor" value="The Emperor’s own divinity is made manifest from this warrior’s golden halo, blinding the enemy with holy light." />
+    <entry name="SistersOfBattle/CatechismOfRepugnanceDescription" value="Decreases the accuracy and the attack range of the target enemy unit."/>
     <entry name="SistersOfBattle/DesperateForRedemption" value="Desperate For Redemption" />
     <entry name="SistersOfBattle/DesperateForRedemptionDescription" value="After dying, immediately comes back to life with 1 hit points remaining." />
     <entry name="SistersOfBattle/DesperateForRedemptionFlavor" value="Not even death can stop the Emperor’s chosen servants, and through his benevolence they rise again to serve the Master of Mankind’s will." />
@@ -172,12 +173,14 @@
     <entry name="SistersOfBattle/Sacrifice" value="Sacrifice" />
     <entry name="SistersOfBattle/SacrificeDescription" value="Sacrifices this unit in order to completely heal the target unit, restore morale of adjacent allied units, and break morale of adjacent enemy units." />
     <entry name="SistersOfBattle/SacrificeFlavor" value="Suffering is a staple prayer for the Adepta Sororitas, and a martyr’s fate only brings greater glory to the God-Emperor." />
+    <entry name="SistersOfBattle/StirringRhetoricDescription" value="Increases the damage taken of nearby enemy units with broken morale."/>
     <entry name="SistersOfBattle/TaleOfTheFaithfulDescription" value="Increases the movement of this unit and adjacent Adepta Sororitas infantry units. Shares cooldown with other tales."/>
     <entry name="SistersOfBattle/TaleOfTheStoicDescription" value="Decreases the accuracy of opponent attacks against this unit and adjacent Adepta Sororitas infantry units. Shares cooldown with other tales."/>
     <entry name="SistersOfBattle/TaleOfTheWarriorDescription" value="Increases the armour penetration of adjacent Adepta Sororitas infantry units. Shares cooldown with other tales."/>
     <entry name="SistersOfBattle/ThePassionDescription" value="Increases the melee accuracy of adjacent allied units and the armour of Canoness.<br/><br/><string name='Actions/SistersOfBattle/ActOfFaithDescription'/>"/>
     <entry name="SistersOfBattle/TwoAdditionalMultiMeltas" value="Install Multi Meltas" />
     <entry name="SistersOfBattle/TwoAdditionalMultiMeltasDescription" value="Grants Castigator additional multi meltas.<br/><br/><string name='Actions/UpgradeDisclaimer'/>" />
+    <entry name="SistersOfBattle/VerseOfHolyPietyDescription" value="Breaks the morale of target enemy unit and disables the morale regeneration."/>
     <entry name="SistersOfBattle/UpgradeMultiMelta" value="Upgrade Multi Melta" />
     <entry name="SistersOfBattle/UpgradeMultiMeltaDescription" value="Upgrades Castigator's multi meltas.<br/><br/><string name='Actions/UpgradeDisclaimer'/>" />
 

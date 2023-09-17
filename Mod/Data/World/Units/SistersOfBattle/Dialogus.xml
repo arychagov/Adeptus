@@ -40,7 +40,7 @@
                 <energyUpkeep base="2.0" /> <!-- %energyUpkeep base tier=5 factor=1 -->
                 <energyCost base="20.0" /> <!-- %energyCost base tier=5 factor=0.5 -->
                 <requisitionsCost base="20.0" /> <!-- %requisitionsCost base tier=5 factor=0.5 -->
-                <hitpointsMax base="6.0" />
+                <hitpointsMax base="7.0" />
                 <duplicateTypeCost mul="2.0" /> <!-- %hitpointsMax base toughness=3 wounds=3 -->
                 <influenceUpkeep base="4.0" /> <!-- %influenceUpkeep base tier=4 factor=2 -->
                 <influenceCost base="80.0" /> <!-- %influenceCost base tier=4 factor=2 -->
@@ -138,41 +138,25 @@
                 </selfTarget>
             </beginTargets>
         </endlessCrusade>
-        <verseOfHolyPiety name="SistersOfBattle/VerseOfHolyPiety" consumedActionPoints="0" consumedMovement="0" cooldown="1" rank="-1" rankMax="2" requiredActionPoints="0">
+        <verseOfHolyPiety name="SistersOfBattle/VerseOfHolyPiety" cooldownMax="3" cooldownMin="5" rank="-1" rankMax="2">
             <model>
                 <action animation="Units/SistersOfBattle/DialogusAbility" sound="Actions/VerseOfHolyPiety" />
             </model>
             <beginTargets>
-                <target rangeMax="2">
+                <target rangeMax="3">
                     <conditions>
                         <unit>
-                            <allied />
-                        </unit>
-                        <unit match="Any">
-                            <cooldownAction name="SistersOfBattle/EndlessCrusade" />
-                            <cooldownAction name="SistersOfBattle/ThePassion" />
-                            <cooldownAction name="SistersOfBattle/SolaceInAnguish" />
-                            <cooldownAction name="SistersOfBattle/MiraculousIntervention" />
-                            <cooldownAction name="SistersOfBattle/LightOfTheEmperor" />
-                            <cooldownAction name="SistersOfBattle/DivineGuidance" />
+                            <enemy />
+                            <moraleMax greater="0.0" />
                         </unit>
                     </conditions>
                     <areas>
-                        <area affects="UnitAction">
+                        <area affects="Unit">
                             <modifiers>
                                 <modifier>
-                                    <conditions>
-                                        <unit match="Any">
-                                            <cooldownAction name="SistersOfBattle/EndlessCrusade" />
-                                            <cooldownAction name="SistersOfBattle/ThePassion" />
-                                            <cooldownAction name="SistersOfBattle/SolaceInAnguish" />
-                                            <cooldownAction name="SistersOfBattle/MiraculousIntervention" />
-                                            <cooldownAction name="SistersOfBattle/LightOfTheEmperor" />
-                                            <cooldownAction name="SistersOfBattle/DivineGuidance" />
-                                        </unit>
-                                    </conditions>
                                     <effects>
-                                        <cooldown addMax="-9" addMin="-3" />
+                                        <morale add="-100" />
+                                        <addTrait duration="2" name="SistersOfBattle/VerseOfHolyPiety" />
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -181,16 +165,15 @@
                 </target>
             </beginTargets>
         </verseOfHolyPiety>
-        <catechismOfRepugnance name="SistersOfBattle/CatechismOfRepugnance" consumedActionPoints="1" consumedMovement="0" cooldown="1" rank="-1" rankMax="2" requiredActionPoints="1">
+        <catechismOfRepugnance name="SistersOfBattle/CatechismOfRepugnance" consumedActionPoints="1" consumedMovement="0" cooldownMax="1" cooldownMin="3" rank="-1" rankMax="2" requiredActionPoints="1">
             <model>
                 <action animation="Units/SistersOfBattle/DialogusAbility" sound="Actions/CatechismOfRepugnance" />
             </model>
             <beginTargets>
-                <target rangeMax="2">
+                <target rangeMax="3">
                     <conditions>
                         <unit>
-                            <allied />
-                            <faction name="SistersOfBattle" />
+                            <enemy />
                         </unit>
                     </conditions>
                     <areas>
@@ -211,7 +194,7 @@
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="2">
+                        <area affects="Tile" radius="3">
                             <modifiers>
                                 <modifier>
                                     <effects>
@@ -224,36 +207,32 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <warHymn name="SistersOfBattle/WarHymn" consumedActionPoints="1" consumedMovement="0" cooldown="3" elite="1" levelUpPriority="1" rank="-1" rankMax="0" requiredActionPoints="1">
+        <orationOfRestoration cooldown="5" elite="1" levelUpPriority="1" rank="-1" rankMax="0">
             <model>
                 <action animation="Units/SistersOfBattle/DialogusAbility" sound="Actions/WarHymn" />
             </model>
             <beginTargets>
-                <target rangeMax="2">
-                    <conditions>
-                        <unit>
-                            <allied />
-                            <faction name="SistersOfBattle" />
-                            <noTrait name="SuperHeavy" />
-                        </unit>
-                        <weapon>
-                            <trait name="Melee" />
-                        </weapon>
-                    </conditions>
+                <selfTarget>
                     <areas>
-                        <area affects="Unit">
+                        <area affects="Unit" radius="1">
                             <modifiers>
                                 <modifier>
+                                    <conditions>
+                                        <unit>
+                                            <allied />
+                                        </unit>
+                                    </conditions>
                                     <effects>
-                                        <addTrait name="SistersOfBattle/WarHymn" duration="2" />
+                                        <hitpoints add="6" />
+                                        <addTrait name="OrationOfRestoration" duration="2" />
                                     </effects>
                                 </modifier>
                             </modifiers>
                         </area>
                     </areas>
-                </target>
+                </selfTarget>
             </beginTargets>
-        </warHymn>
+        </orationOfRestoration>
         <levelUp />
         <shop />
     </actions>
