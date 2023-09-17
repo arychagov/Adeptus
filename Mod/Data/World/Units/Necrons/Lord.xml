@@ -285,12 +285,13 @@
                 </target>
             </beginTargets>
         </genericUnitAbility>
-        <solarPulse name="Necrons/SolarPulse"
-                    cooldown="5"
-                    elite="1"
-                    levelUpPriority="1"
-                    rank="-1"
-                    rankMax="0">
+        <genericUnitAbility name="Necrons/SolarPulse"
+                            icon="Actions/Necrons/SolarPulse"
+                            cooldown="5"
+                            elite="1"
+                            levelUpPriority="1"
+                            rank="-1"
+                            rankMax="0">
             <model>
                 <action animation="Units/Necrons/LordAbility"
                         sound="Actions/PsychicDebuff"/>
@@ -319,7 +320,7 @@
                     </areas>
                 </selfTarget>
             </beginTargets>
-        </solarPulse>
+        </genericUnitAbility>
         <levelUp/>
         <shop/>
     </actions>
