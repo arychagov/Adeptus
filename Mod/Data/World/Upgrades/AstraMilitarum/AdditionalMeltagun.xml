@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade icon="Weapons/Meltagun"
-         position="4">
+         position="4" visible="0">
     <strategyModifiers>
         <modifier>
             <effects>

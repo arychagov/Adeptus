@@ -661,7 +661,8 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40"/>
+                        <influenceCost base="0"/>
+                        <oreCost base="20"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -717,7 +718,8 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40"/>
+                        <influenceCost base="0"/>
+                        <oreCost base="20"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -768,7 +770,8 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="40"/>
+                        <influenceCost base="0"/>
+                        <oreCost base="20"/>
                     </effects>
                 </modifier>
             </modifiers>

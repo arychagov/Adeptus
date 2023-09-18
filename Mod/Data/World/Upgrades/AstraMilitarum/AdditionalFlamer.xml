@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade icon="Weapons/Flamer"
-         position="1">
+         position="1" visible="0">
     <strategyModifiers>
         <modifier>
             <effects>
