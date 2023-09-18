@@ -68,7 +68,7 @@
     <entry name="AstraMilitarum/LaurelsOfCommand"
            value="Laurels of Command"/>
     <entry name="AstraMilitarum/LaurelsOfCommandDescription"
-           value="Restores the morale of nearby allied units."/>
+           value="Restores the morale of nearby allied units and increases the experience gain rate of nearby infantry units and Lord Commissar."/>
     <entry name="AstraMilitarum/LaurelsOfCommandFlavor"
            value="The Laurels of Command are a callous and controversial means to ensure obedience. Concealed within their peerless artistry is a band of empathic-impulsion circuitry which allows the wearer limited control over the minds of indoctrinated individuals via subliminal suggestion. Under their effects even cowards fight to the last, while orders are executed in perfect synchronisation."/>
     <entry name="AstraMilitarum/MasterTactician"
@@ -89,6 +89,14 @@
            value="Restores hitpoints of target allied infantry unit."/>
     <entry name="AstraMilitarum/NightshroudFlavor"
            value="Calling upon the power of the empyrean, the psyker cloaks their allies in a flowing curtain of shadow, concealing them from the enemy."/>
+    <entry name="AstraMilitarum/SeniorOfficerTempestus"
+           value="Senior Officer"/>
+    <entry name="AstraMilitarum/SeniorOfficerTempestusDescription"
+           value="Increases the accuracy of adjacent allied Guardsmen."/>
+    <entry name="AstraMilitarum/SeniorOfficerValkyrie"
+           value="Senior Officer"/>
+    <entry name="AstraMilitarum/SeniorOfficerValkyrieDescription"
+           value="Increases the accuracy of nearby allied Tempestus Scions."/>
     <entry name="AstraMilitarum/UpgradeLascannon"
            value="Upgrade Lascannon"/>
     <entry name="AstraMilitarum/UpgradeLascannonDescription"

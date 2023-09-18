@@ -104,6 +104,26 @@
                         soundCount="3"/>
             </model>
         </move>
+        <genericUnitAbility name="AstraMilitarum/SeniorOfficerValkyrie"
+                            icon="Units/AstraMilitarum/Valkyrie"
+                            passive="1">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile"
+                              radius="2">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AstraMilitarum/SeniorOfficerValkyrie"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
         <jink consumedActionPoints="0"
               consumedMovement="0"
               cooldown="3"

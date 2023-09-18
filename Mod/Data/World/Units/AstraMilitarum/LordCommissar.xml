@@ -52,7 +52,7 @@
                 <armor base="6"/> <!-- %armor base armor=4+ -->
                 <foodUpkeep base="1.5"/> <!-- %foodUpkeep base tier=6 factor=1 -->
                 <foodCost base="15.0"/> <!-- %foodCost base tier=6 factor=0.5 -->
-                <hitpointsMax base="7.0"/>
+                <hitpointsMax base="10.0"/>
                 <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
                 <influenceUpkeep base="3"/> <!-- %influenceUpkeep base tier=6 factor=2 -->
                 <influenceCost base="60.0"/> <!-- %influenceCost base tier=6 factor=2 -->
@@ -187,6 +187,32 @@
                                     <effects>
                                         <morale addMax="3"
                                                 addMin="1"/>
+                                    </effects>
+                                </modifier>
+                                <modifier>
+                                    <conditions>
+                                        <unit>
+                                            <allied/>
+                                            <faction name="AstraMilitarum"/>
+                                            <noTrait name="Vehicle"/>
+                                            <noTrait name="Fortification"/>
+                                            <noTrait name="Hero"/>
+                                            <noTrait name="MonstrousCreature"/>
+                                        </unit>
+                                    </conditions>
+                                    <effects>
+                                        <addTrait name="AstraMilitarum/BattleHonour"
+                                                  duration="3"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier visible="0">
+                                    <effects>
+                                        <addTrait name="AstraMilitarum/BattleHonour"
+                                                  duration="3"/>
                                     </effects>
                                 </modifier>
                             </modifiers>

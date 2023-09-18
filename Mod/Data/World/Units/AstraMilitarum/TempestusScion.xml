@@ -103,7 +103,26 @@
                         soundCount="4"/>
             </model>
         </move>
-
+        <genericUnitAbility name="AstraMilitarum/SeniorOfficerTempestus"
+                            icon="Units/AstraMilitarum/TempestusScion"
+                            passive="1">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile"
+                              radius="1">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AstraMilitarum/SeniorOfficerTempestus"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
         <scout consumedActionPoints="0"
                consumedMovement="0"
                cooldown="10"

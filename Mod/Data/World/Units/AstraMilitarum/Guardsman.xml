@@ -181,6 +181,7 @@
         </useWeapon>
     </actions>
     <traits>
+        <trait name="AstraMilitarum/Ambush"/>
         <trait name="ExtraInfantryArmour"
                requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
         <trait name="VoxCaster"

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1"
+       category="Buff"
+       icon="Attributes/Level"
+       rankMax="2">
+    <modifiers>
+        <modifier>
+            <effects>
+                <experienceGainRate mulMax="0.5"
+                                    mulMin="0.25"/>
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>
