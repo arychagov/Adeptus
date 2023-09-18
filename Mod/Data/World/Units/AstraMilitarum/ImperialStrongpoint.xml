@@ -144,6 +144,7 @@
         <trait name="Fortification"/>
         <trait name="Transport"/>
         <trait name="MobileCommand"/>
+        <trait name="MannedWeaponImperialStrongpoint"/>
         <trait name="AstraMilitarum/ImperialStrongpointDamageReduction1"
                requiredUpgrade="AstraMilitarum/CityTier2"/>
         <trait name="AstraMilitarum/ImperialStrongpointDamageReduction2"

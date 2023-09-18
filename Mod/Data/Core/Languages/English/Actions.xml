@@ -65,6 +65,10 @@
            value="Deploys void shield generator on allied Imperial Bastion that gives the ranged damage reduction from attacks from range 2 or higher to nearby allied infantry units and vehicles."/>
     <entry name="AstraMilitarum/DeployVoidShieldGeneratorFlavor"
            value="Void shields are normally localised force fields reserved for protecting the monolithic Titans of the Adeptus Mechanicus, but static generators can be erected to serve as an aegis for other targets of vital import. The largest Void Shield generators can even project an invisible bubble of power across a large area of the battlefield, sheltering both troops and strategically vital battlefield locations by absorbing or deflecting the energy of incoming munitions."/>
+    <entry name="AstraMilitarum/DraconianDisciplinarian"
+           value="Draconian Disciplinarian"/>
+    <entry name="AstraMilitarum/DraconianDisciplinarianDescription"
+           value="Decreases the morale loss of nearby allied infantry units."/>
     <entry name="AstraMilitarum/LaurelsOfCommand"
            value="Laurels of Command"/>
     <entry name="AstraMilitarum/LaurelsOfCommandDescription"
@@ -191,6 +195,11 @@
            value="Increases the damage taken by target non-hero enemy unit."/>
     <entry name="Eldar/ProtectJinxDescription"
            value="Increases the armour of target allied unit or decreases the armour of target non-hero enemy unit."/>
+
+    <entry name="IronWill"
+           value="Cadia Stands!"/>
+    <entry name="IronWillDescription"
+           value="Increases the armour of nearby allied infantry units."/>
 
     <entry name="Necrons/AggressionOverrides"
            value="<string name='Traits/Necrons/AggressionOverrides'/>"/>

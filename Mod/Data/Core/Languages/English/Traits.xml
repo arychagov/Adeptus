@@ -96,6 +96,10 @@
            value="Increases group size."/>
     <entry name="AstraMilitarum/CommitEverythingTempestusScionFlavor"
            value="The campaign’s senior commander has designated the upcoming battle as so vital that they will funnel all of their resources and assets into securing victory, forgoing frugal logistical management in favour of overwhelming force."/>
+    <entry name="AstraMilitarum/DraconianDisciplinarian"
+           value="Draconian Disciplinarian"/>
+    <entry name="AstraMilitarum/DraconianDisciplinarianDescription"
+           value="Decreases the morale loss."/>
     <entry name="AstraMilitarum/ImperialStrongpointDamageReduction1"
            value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction1'/>"/>
     <entry name="AstraMilitarum/ImperialStrongpointDamageReduction1Description"
@@ -291,9 +295,16 @@
     <entry name="FlaredFlavor"
            value="This attack looses a brilliant flare of light, searing the sight of the victim and forcing him to fight blind for a few moments."/>
 
+    <entry name="IronWill" value="Cadia Stands!"/>
+    <entry name="IronWillDescription" value="Increases the armour."/>
+
     <entry name="MannedWeaponGhostArk"
            value="Manned Weapon"/>
     <entry name="MannedWeaponGhostArkDescription"
+           value="Increases the ranged attacks while transporting cargo."/>
+    <entry name="MannedWeaponImperialStrongpoint"
+           value="Manned Weapon"/>
+    <entry name="MannedWeaponImperialStrongpointDescription"
            value="Increases the ranged attacks while transporting cargo."/>
 
     <entry name="Necrons/AethericInterception"
