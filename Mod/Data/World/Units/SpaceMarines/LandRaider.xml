@@ -112,7 +112,7 @@
                                 <modifier>
                                     <effects>
                                         <addFeature name="SmokeScreen"
-                                                    duration="3"/>
+                                                    duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
