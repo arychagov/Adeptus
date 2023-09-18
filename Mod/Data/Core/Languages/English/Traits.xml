@@ -637,7 +637,7 @@
     <entry name="SistersOfBattle/BolterDrill"
            value="Bolter Drill"/>
     <entry name="SistersOfBattle/BolterDrillDescription"
-           value="Increases the accuracy when firing weapons from range greater than 1."/>
+           value="Increases the accuracy when firing weapons from range greater than 1 if not moved this turn."/>
     <entry name="SistersOfBattle/BolterDrillFlavor"
            value="<string name='Actions/BolterDrillFlavor'/>"/>
     <entry name="SistersOfBattle/FaithAndFury"

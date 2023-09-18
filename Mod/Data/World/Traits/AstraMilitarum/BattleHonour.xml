@@ -3,8 +3,35 @@
        category="Buff"
        icon="Attributes/Level"
        rankMax="2">
+    <perTurnModifiers endure="0">
+        <modifier>
+            <conditions>
+                <unit>
+                    <allied/>
+                    <faction name="AstraMilitarum"/>
+                    <noTrait name="Vehicle"/>
+                    <noTrait name="Fortification"/>
+                    <noTrait name="Hero"/>
+                    <noTrait name="MonstrousCreature"/>
+                </unit>
+            </conditions>
+            <effects>
+                <morale add="1"/>
+            </effects>
+        </modifier>
+    </perTurnModifiers>
     <modifiers>
         <modifier>
+            <conditions>
+                <unit>
+                    <allied/>
+                    <faction name="AstraMilitarum"/>
+                    <noTrait name="Vehicle"/>
+                    <noTrait name="Fortification"/>
+                    <noTrait name="Hero"/>
+                    <noTrait name="MonstrousCreature"/>
+                </unit>
+            </conditions>
             <effects>
                 <experienceGainRate mulMax="0.5"
                                     mulMin="0.25"/>

@@ -184,53 +184,20 @@
             </beginTargets>
         </bringItDown>
         <laurelsOfCommand name="AstraMilitarum/LaurelsOfCommand"
-                          consumedActionPoints="0"
-                          consumedMovement="0"
-                          cooldown="5"
                           icon="Items/LaurelsOfCommand"
                           rank="-1"
                           rankMax="2"
-                          requiredActionPoints="0">
-            <model>
-                <action sound="Actions/MysticBuff"/>
-            </model>
+                          passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Unit"
+                        <area affects="Tile"
                               radiusMax="3"
                               radiusMin="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <morale addMax="3"
-                                                addMin="1"/>
-                                    </effects>
-                                </modifier>
-                                <modifier>
-                                    <conditions>
-                                        <unit>
-                                            <allied/>
-                                            <faction name="AstraMilitarum"/>
-                                            <noTrait name="Vehicle"/>
-                                            <noTrait name="Fortification"/>
-                                            <noTrait name="Hero"/>
-                                            <noTrait name="MonstrousCreature"/>
-                                        </unit>
-                                    </conditions>
-                                    <effects>
-                                        <addTrait name="AstraMilitarum/BattleHonour"
-                                                  duration="3"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier visible="0">
-                                    <effects>
-                                        <addTrait name="AstraMilitarum/BattleHonour"
-                                                  duration="3"/>
+                                        <addTrait name="AstraMilitarum/BattleHonour"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
