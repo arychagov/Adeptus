@@ -116,6 +116,27 @@
                         soundCount="4"/>
             </model>
         </move>
+        <genericUnitAbility name="AstraMilitarum/DefendersOfImperium"
+                            icon="Units/AstraMilitarum/Guardsman"
+                            requiredUpgrade="AstraMilitarum/DefendersOfImperium"
+                            passive="1">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile"
+                              radius="1">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AstraMilitarum/DefendersOfImperium"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
         <mediPack cooldown="10"
                   requiredUpgrade="AstraMilitarum/MediPack">
             <model>
@@ -182,6 +203,8 @@
     </actions>
     <traits>
         <trait name="AstraMilitarum/Ambush"/>
+        <trait name="AstraMilitarum/ShockTroops"
+               requiredUpgrade="AstraMilitarum/ShockTroops"/>
         <trait name="ExtraInfantryArmour"
                requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
         <trait name="VoxCaster"

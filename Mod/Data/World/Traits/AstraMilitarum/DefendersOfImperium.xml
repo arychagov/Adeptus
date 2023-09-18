@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait icon="Units/AstraMilitarum/Guardsman"
+       category="Buff">
+    <modifiers>
+        <modifier>
+            <conditions>
+                <unit>
+                    <allied />
+                    <faction name="AstraMilitarum"/>
+                    <noTrait name="Vehicle"/>
+                    <noTrait name="Fortification"/>
+                    <noTrait name="MonstrousCreature"/>
+                    <noType name="AstraMilitarum/Guardsman"/>
+                </unit>
+            </conditions>
+            <effects>
+                <opponentRangedAccuracy mul="-0.05"/>
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>

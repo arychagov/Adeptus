@@ -71,6 +71,10 @@
            value="Labour Corps / Breeding Licenses"/>
     <entry name="AstraMilitarum/ConstructionDescription"
            value="Building that constructs new buildings as well as generates food and research. Unlocks edict that increases the growth rate of the city."/>
+    <entry name="AstraMilitarum/DefendersOfImperium"
+           value="Defenders Of Imperium"/>
+    <entry name="AstraMilitarum/DefendersOfImperiumDescription"
+           value="Grants Guardsmen aura that reduces the accuracy of ranged attack against adjacent infantry units."/>
     <entry name="AstraMilitarum/DefenseEdictDescription"
            value="Edict that increases the armour of units in the city. Increases Imperial Bastions and cities armor."/>
     <entry name="AstraMilitarum/ImperiumOfMan"
@@ -95,6 +99,10 @@
            value="Increases the healing rate of vehicle near Tech-Priest Enginseers. Increases Tech-Priest Enginseer's blessing of the omnissiah healing effect."/>
     <entry name="AstraMilitarum/RelicPlatingDescription"
            value="Increases the witchfire damage reduction of ground vehicles. Increases Imperial Bastions' the city damage reduction. Increases Leman Russ Battle Tanks and Baneblades armour."/>
+    <entry name="AstraMilitarum/ShockTroops"
+           value="Shock Troops"/>
+    <entry name="AstraMilitarum/ShockTroopsDescription"
+           value="Increases the attacks of Guardsmen in presence of Tempestus Scions, heroes, Imperial Bastions or cities."/>
     <entry name="AstraMilitarum/SmokeLauncher"
            value="Smoke Launcher / Dozer Blade"/>
     <entry name="AstraMilitarum/SmokeLauncherDescription"

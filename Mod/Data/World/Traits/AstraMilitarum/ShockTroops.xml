@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait icon="Units/AstraMilitarum/Guardsman">
+    <modifiers>
+        <modifier>
+            <conditions>
+                <unit match="Any">
+                    <unitsInRange count="1"
+                                  range="1">
+                        <allied/>
+                        <type name="AstraMilitarum/TempestusScion"/>
+                    </unitsInRange>
+                    <unitsInRange count="1"
+                                  range="2">
+                        <allied/>
+                        <type name="AstraMilitarum/ImperialStrongpoint"/>
+                    </unitsInRange>
+                    <unitsInRange count="1"
+                                  range="2">
+                        <allied/>
+                        <faction name="AstraMilitarum"/>
+                        <trait name="Hero"/>
+                    </unitsInRange>
+                    <unitsInRange count="1"
+                                  range="3">
+                        <allied/>
+                        <type name="AstraMilitarum/Headquarters"/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <rangedAttacks mul="0.15"/>
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>

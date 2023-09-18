@@ -96,6 +96,10 @@
            value="Increases group size."/>
     <entry name="AstraMilitarum/CommitEverythingTempestusScionFlavor"
            value="The campaign’s senior commander has designated the upcoming battle as so vital that they will funnel all of their resources and assets into securing victory, forgoing frugal logistical management in favour of overwhelming force."/>
+    <entry name="AstraMilitarum/DefendersOfImperium"
+           value="Defenders Of Imperium"/>
+    <entry name="AstraMilitarum/DefendersOfImperiumDescription"
+           value="Reduces the accuracy of ranged attack against this unit."/>
     <entry name="AstraMilitarum/DraconianDisciplinarian"
            value="Draconian Disciplinarian"/>
     <entry name="AstraMilitarum/DraconianDisciplinarianDescription"
@@ -148,6 +152,10 @@
            value="Senior Officer"/>
     <entry name="AstraMilitarum/SeniorOfficerValkyrieDescription"
            value="Increases the accuracy."/>
+    <entry name="AstraMilitarum/ShockTroops"
+           value="Shock Troops"/>
+    <entry name="AstraMilitarum/ShockTroopsDescription"
+           value="Increases the attacks while near allied Tempestus Scions, heroes, Imperial Bastions or cities."/>
     <entry name="AstraMilitarum/UpgradedLascannon"
            value="Upgraded Lascannon"/>
     <entry name="AstraMilitarum/UpgradedLascannonDescription"
