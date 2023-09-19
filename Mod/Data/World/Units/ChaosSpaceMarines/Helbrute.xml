@@ -13,8 +13,6 @@
               walker="1"/>
     </model>
     <weapons>
-        <weapon name="HavocLauncher"
-                requiredUpgrade="ChaosSpaceMarines/HavocLauncher"/>
         <weapon name="ReaperAutocannon"/>
         <weapon name="ReaperAutocannon">
             <model>

@@ -141,7 +141,7 @@
     <entry name="ChaosSpaceMarines/CityTier3Description"
            value="Increases the tile acquisition radius."/>
     <entry name="ChaosSpaceMarines/HavocLauncherDescription"
-           value="Grants Chaos Rhinos, Helbrutes and Chaos Land Raiders a mid-range blast weapon."/>
+           value="Grants Chaos Rhinos and Chaos Land Raiders a mid-range blast weapon."/>
     <entry name="ChaosSpaceMarines/AscensionToDaemonhood"
            value="Ascension To Daemonhood"/>
     <entry name="ChaosSpaceMarines/AscensionToDaemonhoodDescription"
