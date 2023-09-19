@@ -63,7 +63,6 @@
                 <foodCost max="0"/>
                 <oreCost max="0"/>
                 <foodUpkeep max="0"/>
-                <meleeAttacks mul="0.17"/>
             </effects>
         </modifier>
     </modifiers>
