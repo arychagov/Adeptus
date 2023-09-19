@@ -218,6 +218,8 @@
            value="Increases the damage reduction and melee attacks."/>
     <entry name="ChaosSpaceMarines/LordOfChaosFlavor"
            value="<string name='Actions/ChaosSpaceMarines/LordOfChaosFlavor'/>"/>
+    <entry name="ChaosSpaceMarines/MarkOfTzeentchDescription"
+           value="Decreases the morale of opponent on attack."/>
     <entry name="ChaosSpaceMarines/NurgleCorruption"
            value="Nurgle Corruption"/>
     <entry name="ChaosSpaceMarines/NurgleCorruptionDescription"

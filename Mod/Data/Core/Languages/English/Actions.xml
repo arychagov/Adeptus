@@ -146,6 +146,8 @@
            value="Increases the damage reduction and melee attacks of adjacent Khorne Berzerkers, Chaos Cultists, Warp Talons and Chaos Spawns."/>
     <entry name="ChaosSpaceMarines/LordOfChaosFlavor"
            value="”I murdered thousands for the Emperor and He gave me nothing except His damning silence. Now His lapdogs yap for every life I take, while the gods promise me the galaxy.”<br/>  —  Renegade Wolf Lord Svane Vulfbad"/>
+    <entry name="ChaosSpaceMarines/MarkOfTzeentchDescription"
+           value="Mark of Chaos that grants allied Chaos infantry unit ability to reduce the morale of the attacked enemy."/>
     <entry name="ChaosSpaceMarines/NurgleCorruption"
            value="Nurgle Corruption"/>
     <entry name="ChaosSpaceMarines/NurgleCorruptionDescription"
