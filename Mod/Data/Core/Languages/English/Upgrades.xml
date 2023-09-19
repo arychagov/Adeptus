@@ -130,6 +130,8 @@
            value="Grants Champions of Chaos ability to restore percentage of maximum health after attack."/>
     <entry name="ChaosSpaceMarines/BloatedWithLifestealFlavor"
            value="<string name='Traits/ChaosSpaceMarines/BloatedWithLifestealFlavor'/>"/>
+    <entry name="ChaosSpaceMarines/BlastDamageDescription"
+           value="Increases the armour penetration of grenade, missile and blast weapons. Grants Chaos Rhinos and Chaos Land Raiders a mid-range blast weapon."/>
     <entry name="ChaosSpaceMarines/ChaosLord"
            value="Chaos Lord"/>
     <entry name="ChaosSpaceMarines/ChaosLordDescription"
@@ -142,8 +144,6 @@
            value="Increases the tile acquisition radius."/>
     <entry name="ChaosSpaceMarines/ConstructionDescription"
            value="<string name='Buildings/ChaosSpaceMarines/ConstructionDescription'/> Increases the growth rate of Cultist Sacrifice. "/>
-    <entry name="ChaosSpaceMarines/HavocLauncherDescription"
-           value="Grants Chaos Rhinos and Chaos Land Raiders a mid-range blast weapon."/>
     <entry name="ChaosSpaceMarines/AscensionToDaemonhood"
            value="Ascension To Daemonhood"/>
     <entry name="ChaosSpaceMarines/AscensionToDaemonhoodDescription"

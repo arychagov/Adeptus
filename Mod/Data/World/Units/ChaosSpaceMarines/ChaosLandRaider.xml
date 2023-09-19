@@ -33,7 +33,7 @@
             </model>
         </weapon>
         <weapon name="HavocLauncher"
-                requiredUpgrade="ChaosSpaceMarines/HavocLauncher">
+                requiredUpgrade="ChaosSpaceMarines/BlastDamageDescription">
             <model>
                 <missileWeapon bone="Hull"
                                material="Units/ChaosSpaceMarines/ChaosLandRaider"
