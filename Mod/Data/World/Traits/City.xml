@@ -66,4 +66,16 @@
             </effects>
         </modifier>
     </modifiers>
+    <perTurnModifiers endure="0">
+        <modifier requiredUpgrade="ChaosSpaceMarines/CityTier3">
+            <conditions>
+                <unit>
+                    <enemy/>
+                </unit>
+            </conditions>
+            <effects>
+                <weaponDamage weapon="SoulBlaze"/>
+            </effects>
+        </modifier>
+    </perTurnModifiers>
 </trait>

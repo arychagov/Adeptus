@@ -141,7 +141,7 @@
     <entry name="ChaosSpaceMarines/CityTier2Description"
            value="Increases the tile acquisition radius."/>
     <entry name="ChaosSpaceMarines/CityTier3Description"
-           value="Increases the tile acquisition radius."/>
+           value="Increases the tile acquisition radius. Grants additional armour to the cities. Enemy units suffer damage on city tiles."/>
     <entry name="ChaosSpaceMarines/ConstructionDescription"
            value="<string name='Buildings/ChaosSpaceMarines/ConstructionDescription'/> Increases the growth rate of Cultist Sacrifice. "/>
     <entry name="ChaosSpaceMarines/AscensionToDaemonhood"

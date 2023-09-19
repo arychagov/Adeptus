@@ -68,5 +68,7 @@
         <trait name="Fortification"/>
         <trait name="Headquarters"/>
         <trait name="Transport"/>
+        <trait name="CeramitePlating"
+               requiredUpgrade="ChaosSpaceMarines/CityTier3"/>
     </traits>
 </unit>
