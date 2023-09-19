@@ -202,6 +202,8 @@
            value="Increases damage output."/>
     <entry name="ChaosSpaceMarines/DeathEcstasyFlavor"
            value="<string name='Actions/ChaosSpaceMarines/DeathEcstasyFlavor'/>"/>
+    <entry name="ChaosSpaceMarines/IconOfExcessDescription"
+           value="Negates the movement penalty in forests, imperial ruins and rivers."/>
     <entry name="ChaosSpaceMarines/IconOfDespairDescription"
            value="Increases the melee damage reduction."/>
     <entry name="ChaosSpaceMarines/KhorneCorruption"

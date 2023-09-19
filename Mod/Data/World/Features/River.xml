@@ -28,6 +28,7 @@
                     <noTrait name="Jetbike"/>
                     <noTrait name="Skimmer"/>
                     <noTrait name="Tyranids/BoundingLeap"/>
+                    <noTrait name="ChaosSpaceMarines/IconOfExcess"/>
                 </unit>
             </conditions>
             <effects>

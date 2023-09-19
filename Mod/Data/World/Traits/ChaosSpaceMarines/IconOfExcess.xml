@@ -1,11 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait category="Buff"
-       icon="Actions/ChaosSpaceMarines/IconOfExcess">
-    <modifiers>
-        <modifier>
-            <effects>
-                <feelNoPainDamageReduction add="0.17"/>
-            </effects>
-        </modifier>
-    </modifiers>
-</trait>
+       icon="Actions/ChaosSpaceMarines/IconOfExcess"/>

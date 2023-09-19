@@ -70,6 +70,7 @@
                     <noTrait name="MoveThroughCover"/>
                     <noTrait name="DozerBlade"/>
                     <noTrait name="SiegeShield"/>
+                    <noTrait name="ChaosSpaceMarines/IconOfExcess"/>
                 </unit>
             </conditions>
             <effects>
