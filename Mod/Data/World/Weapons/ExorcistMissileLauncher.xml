@@ -20,5 +20,6 @@
                requiredUpgrade="SistersOfBattle/HeavyWeaponBonus"/>
         <trait name="HeavyWeapon"/>
         <trait name="ApocalypticBlast"/>
+        <trait name="Barrage"/>
     </traits>
 </weapon>
