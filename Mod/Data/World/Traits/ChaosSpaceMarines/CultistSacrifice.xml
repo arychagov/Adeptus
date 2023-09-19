@@ -13,7 +13,7 @@
                 <growth mul="0.5"/>
             </effects>
         </modifier>
-        <modifier requiredUpgrade="ChaosSpaceMarines/OurLivesForTheGods">
+        <modifier requiredUpgrade="ChaosSpaceMarines/Construction">
             <conditions>
                 <building>
                     <type name="ChaosSpaceMarines/Headquarters"/>

@@ -140,6 +140,8 @@
            value="Increases the tile acquisition radius."/>
     <entry name="ChaosSpaceMarines/CityTier3Description"
            value="Increases the tile acquisition radius."/>
+    <entry name="ChaosSpaceMarines/ConstructionDescription"
+           value="<string name='Buildings/ChaosSpaceMarines/ConstructionDescription'/> Increases the growth rate of Cultist Sacrifice. "/>
     <entry name="ChaosSpaceMarines/HavocLauncherDescription"
            value="Grants Chaos Rhinos and Chaos Land Raiders a mid-range blast weapon."/>
     <entry name="ChaosSpaceMarines/AscensionToDaemonhood"
