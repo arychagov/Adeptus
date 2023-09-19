@@ -17,5 +17,6 @@
         <trait name="ChaosSpaceMarines/MeleeDamage"
                requiredUpgrade="ChaosSpaceMarines/MeleeDamage"/>
         <trait name="Shred"/>
+        <trait name="SmallBlinding"/>
     </traits>
 </weapon>

@@ -7,10 +7,11 @@
                 <unit>
                     <allied/>
                     <faction name="ChaosSpaceMarines"/>
+                    <trait name="Vehicle" />
                 </unit>
             </conditions>
             <effects>
-                <invulnerableDamageReduction min="0.17"/>
+                <invulnerableDamageReduction min="0.08"/>
             </effects>
         </modifier>
     </modifiers>

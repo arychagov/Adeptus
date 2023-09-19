@@ -167,7 +167,7 @@
         </daemonforge>
     </actions>
     <traits>
-        <trait name="Daemon"/>
+        <trait name="SmallDaemon"/>
         <trait name="ExtraVehicleArmour"
                requiredUpgrade="ChaosSpaceMarines/ExtraVehicleArmour"/>
         <trait name="Fleet"/>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1"
+       category="Buff"
+       icon="Traits/Blinding">
+    <onCombatOpponentModifiers>
+        <modifier>
+            <conditions>
+                <encounter>
+                    <opponent>
+                        <noAttacking/>
+                        <noTrait name="Fortification"/>
+                        <noTrait name="Vehicle"/>
+                    </opponent>
+                </encounter>
+            </conditions>
+            <effects>
+                <addTrait name="SmallBlind"
+                          duration="1"/>
+            </effects>
+        </modifier>
+    </onCombatOpponentModifiers>
+</trait>

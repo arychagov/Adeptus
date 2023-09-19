@@ -161,7 +161,8 @@
         <trait name="ChaosSpaceMarines/ChampionOfChaos"/>
         <trait name="ChaosSpaceMarines/BloatedWithLifesteal"
                requiredUpgrade="ChaosSpaceMarines/BloatedWithLifesteal"/>
-        <trait name="Daemon"/>
+        <trait name="SmallDaemon"/>
+        <trait name="Shielded"/>
         <trait name="ExtraInfantryArmour"
                requiredUpgrade="ChaosSpaceMarines/ExtraInfantryArmour"/>
         <trait name="ChaosSpaceMarines/VeteransOfTheLongWar"
