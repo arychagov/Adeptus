@@ -2,11 +2,11 @@
 <trait alwaysVisible="1"
        category="Buff"
        icon="Actions/ChaosSpaceMarines/IconOfDespair">
-    <modifiers>
+    <perTurnModifiers endure="0">
         <modifier>
             <effects>
-                <meleeDamageReduction add="0.25"/>
+                <hitpoints add="3"/>
             </effects>
         </modifier>
-    </modifiers>
+    </perTurnModifiers>
 </trait>

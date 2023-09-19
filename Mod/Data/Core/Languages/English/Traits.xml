@@ -205,7 +205,7 @@
     <entry name="ChaosSpaceMarines/IconOfExcessDescription"
            value="Negates the movement penalty in forests, imperial ruins and rivers."/>
     <entry name="ChaosSpaceMarines/IconOfDespairDescription"
-           value="Increases the melee damage reduction."/>
+           value="Increases the hitpoints regeneration."/>
     <entry name="ChaosSpaceMarines/KhorneCorruption"
            value="Khorne Corruption"/>
     <entry name="ChaosSpaceMarines/KhorneCorruptionDescription"
