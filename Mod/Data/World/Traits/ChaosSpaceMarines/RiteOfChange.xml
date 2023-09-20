@@ -10,7 +10,7 @@
                 </building>
             </conditions>
             <effects>
-                <production mul="0.33"/>
+                <production mul="0.25"/>
             </effects>
         </modifier>
         <modifier>
@@ -20,7 +20,7 @@
                 </building>
             </conditions>
             <effects>
-                <research mul="0.33"/>
+                <research mul="0.25"/>
             </effects>
         </modifier>
     </modifiers>

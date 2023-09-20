@@ -10,7 +10,7 @@
                 </building>
             </conditions>
             <effects>
-                <influence mul="0.33"/>
+                <influence mul="0.25"/>
             </effects>
         </modifier>
         <modifier>
@@ -20,7 +20,7 @@
                 </building>
             </conditions>
             <effects>
-                <loyalty mul="0.33"/>
+                <loyalty mul="0.25"/>
             </effects>
         </modifier>
     </modifiers>

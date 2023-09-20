@@ -8,13 +8,13 @@
                 <building match="Any">
                     <type name="ChaosSpaceMarines/Aircraft"/>
                     <type name="ChaosSpaceMarines/Cult"/>
-                    <type name="ChaosSpaceMarines/Heroes"/>
+                    <type name="ChaosSpaceMarines/Headquarters"/>
                     <type name="ChaosSpaceMarines/Infantry"/>
                     <type name="ChaosSpaceMarines/Vehicles"/>
                 </building>
             </conditions>
             <effects>
-                <production mul="0.33"/>
+                <production mul="0.25"/>
             </effects>
         </modifier>
     </modifiers>

@@ -10,7 +10,7 @@
                 </building>
             </conditions>
             <effects>
-                <food mul="0.33"/>
+                <food mul="0.25"/>
             </effects>
         </modifier>
         <modifier>
@@ -20,7 +20,7 @@
                 </building>
             </conditions>
             <effects>
-                <growth mul="0.33"/>
+                <growth mul="0.25"/>
             </effects>
         </modifier>
     </modifiers>
