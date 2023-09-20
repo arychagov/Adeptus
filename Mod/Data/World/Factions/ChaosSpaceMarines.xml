@@ -604,7 +604,7 @@
                     <conditions>
                         <unit>
                             <allied/>
-                            <noTrait name="Fearless"/>
+                            <noTrait name="ChaosSpaceMarines/IconOfVengeance"/>
                         </unit>
                         <unit match="Any">
                             <trait name="ChaosSpaceMarines/MarkOfKhorne"/>
