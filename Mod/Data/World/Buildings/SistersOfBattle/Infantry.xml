@@ -14,7 +14,7 @@
             <effects>
                 <populationLimit add="1"/>
                 <production add="6"/>
-                <requisitions add="2"/>
+                <loyalty add="1"/>
             </effects>
         </modifier>
     </modifiers>

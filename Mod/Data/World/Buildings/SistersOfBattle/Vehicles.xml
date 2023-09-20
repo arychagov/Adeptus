@@ -12,7 +12,7 @@
         </modifier>
         <modifier>
             <effects>
-                <requisitions add="2"/>
+                <loyalty add="1"/>
                 <research add="2"/>
                 <production add="6"/>
             </effects>
