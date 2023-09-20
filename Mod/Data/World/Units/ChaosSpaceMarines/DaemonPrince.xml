@@ -175,7 +175,7 @@
                             </modifiers>
                         </area>
                         <area affects="Tile"
-                              radiusMax="3"
+                              radiusMax="2"
                               radiusMin="1">
                             <modifiers>
                                 <modifier>

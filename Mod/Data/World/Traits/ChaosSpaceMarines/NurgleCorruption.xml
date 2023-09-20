@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait category="Debuff"
-       icon="Actions/ChaosSpaceMarines/MarkOfNurgle">
+       icon="Actions/ChaosSpaceMarines/MarkOfNurgle"
+       rankMax="2">
     <modifiers>
         <modifier>
             <conditions>
@@ -10,7 +11,8 @@
                 </unit>
             </conditions>
             <effects>
-                <armor add="-1"/>
+                <armor addMax="-1"
+                       addMin="-0.5"/>
             </effects>
         </modifier>
     </modifiers>
