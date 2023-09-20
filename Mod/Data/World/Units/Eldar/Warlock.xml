@@ -175,7 +175,6 @@
         </useWeapon>
     </actions>
     <traits>
-        <trait name="Eldar/AncientDoom"/>
         <trait name="Eldar/BattleFocus"/>
         <trait name="ExtraInfantryArmour"
                requiredUpgrade="Eldar/ExtraInfantryArmour"/>

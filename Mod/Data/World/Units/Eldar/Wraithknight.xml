@@ -187,7 +187,6 @@
         </hammerOfWrath>
     </actions>
     <traits>
-        <trait name="Eldar/AncientDoom"/>
         <trait name="ExtraInfantryArmour"
                requiredUpgrade="Eldar/ExtraInfantryArmour"/>
         <trait name="Fearless"/>

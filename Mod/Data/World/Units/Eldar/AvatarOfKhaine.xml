@@ -180,7 +180,6 @@
         <shop/>
     </actions>
     <traits>
-        <trait name="Eldar/AncientDoom"/>
         <trait name="Eldar/BattleFocus"/>
         <trait name="Daemon"/>
         <trait name="ExtraInfantryArmour"

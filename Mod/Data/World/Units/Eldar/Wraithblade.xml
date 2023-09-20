@@ -99,7 +99,6 @@
         </webwayTravel>
     </actions>
     <traits>
-        <trait name="Eldar/AncientDoom"/>
         <trait name="Eldar/Forceshield"/>
         <trait name="ExtraInfantryArmour"
                requiredUpgrade="Eldar/ExtraInfantryArmour"/>
