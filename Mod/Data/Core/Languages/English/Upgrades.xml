@@ -166,6 +166,12 @@
            value="Hammer Of Wrath / Smoke Launcher"/>
     <entry name="ChaosSpaceMarines/SmokeLauncherDescription"
            value="Grants Daemon Princes, Defilers, Forgefiends, Helbrutes, Maulerfiends, Venomcrawlers and Warp Talons the ability to perform more devastating attacks. Grants Chaos Rhinos, Defilers and Chaos Land Raiders the ability to launch a smoke screen that increases the ranged damage reduction. Increases allied Chaos Space Marine vehicles regeneration."/>
+    <entry name="ChaosSpaceMarines/TheBlackCitadel"
+           value="The Black Citadel"/>
+    <entry name="ChaosSpaceMarines/TheBlackCitadelDescription"
+           value="Increases the loyalty of the cities, effect of Rites and adds weaponry to the cities."/>
+    <entry name="ChaosSpaceMarines/TheBlackCitadelFlavor"
+           value="Bound to the will of their master, Abaddon the Despoiler, the Black Legion are a dread blight upon the galaxy and amongst the gravest threats to the Imperium."/>
     <entry name="ChaosSpaceMarines/WarpflameGargoylesDescription"
            value="Grants damage over time to Chaos Rhino, Venomcrawler, Defiler and Chaos Land Raider weapons and the accuracy debuff from attacks."/>
     <entry name="ChaosSpaceMarines/BelieversOfTheTrueFaith"

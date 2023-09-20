@@ -23,5 +23,25 @@
                 <loyalty mul="0.25"/>
             </effects>
         </modifier>
+        <modifier requiredUpgrade="ChaosSpaceMarines/TheBlackCitadel">
+            <conditions>
+                <building>
+                    <type name="ChaosSpaceMarines/Influence"/>
+                </building>
+            </conditions>
+            <effects>
+                <influence mul="0.08"/>
+            </effects>
+        </modifier>
+        <modifier requiredUpgrade="ChaosSpaceMarines/TheBlackCitadel">
+            <conditions>
+                <building>
+                    <type name="ChaosSpaceMarines/Loyalty"/>
+                </building>
+            </conditions>
+            <effects>
+                <loyalty mul="0.08"/>
+            </effects>
+        </modifier>
     </modifiers>
 </trait>

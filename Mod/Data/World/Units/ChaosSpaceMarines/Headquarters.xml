@@ -34,6 +34,12 @@
                                   muzzleBone=".Muzzle0"/>
             </model>
         </weapon>
+        <weapon name="CombiBolter"
+                count="5"
+                requiredUpgrade="ChaosSpaceMarines/TheBlackCitadel"/>
+        <weapon name="BattleCannon"
+                count="1"
+                requiredUpgrade="ChaosSpaceMarines/TheBlackCitadel"/>
     </weapons>
     <modifiers>
         <modifier visible="0">

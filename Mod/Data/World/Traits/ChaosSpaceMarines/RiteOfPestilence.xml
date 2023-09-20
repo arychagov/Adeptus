@@ -23,5 +23,25 @@
                 <growth mul="0.25"/>
             </effects>
         </modifier>
+        <modifier requiredUpgrade="ChaosSpaceMarines/TheBlackCitadel">
+            <conditions>
+                <building>
+                    <type name="ChaosSpaceMarines/Food"/>
+                </building>
+            </conditions>
+            <effects>
+                <food mul="0.08"/>
+            </effects>
+        </modifier>
+        <modifier requiredUpgrade="ChaosSpaceMarines/TheBlackCitadel">
+            <conditions>
+                <building>
+                    <type name="ChaosSpaceMarines/Headquarters"/>
+                </building>
+            </conditions>
+            <effects>
+                <growth mul="0.08"/>
+            </effects>
+        </modifier>
     </modifiers>
 </trait>

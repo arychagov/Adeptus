@@ -17,5 +17,19 @@
                 <production mul="0.25"/>
             </effects>
         </modifier>
+        <modifier requiredUpgrade="ChaosSpaceMarines/TheBlackCitadel">
+            <conditions>
+                <building match="Any">
+                    <type name="ChaosSpaceMarines/Aircraft"/>
+                    <type name="ChaosSpaceMarines/Cult"/>
+                    <type name="ChaosSpaceMarines/Headquarters"/>
+                    <type name="ChaosSpaceMarines/Infantry"/>
+                    <type name="ChaosSpaceMarines/Vehicles"/>
+                </building>
+            </conditions>
+            <effects>
+                <production mul="0.08"/>
+            </effects>
+        </modifier>
     </modifiers>
 </trait>

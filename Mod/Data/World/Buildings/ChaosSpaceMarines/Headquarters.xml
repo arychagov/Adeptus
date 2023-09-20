@@ -40,5 +40,7 @@
         <trait name="Headquarters"/>
         <trait name="ChaosSpaceMarines/Prosperity"
                requiredUpgrade="ChaosSpaceMarines/Construction"/>
+        <trait name="ChaosSpaceMarines/TheBlackCitadel"
+               requiredUpgrade="ChaosSpaceMarines/TheBlackCitadel"/>
     </traits>
 </building>

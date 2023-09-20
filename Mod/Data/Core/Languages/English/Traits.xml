@@ -238,6 +238,12 @@
            value="Grants Daemon Prince flying ability, increases the movement, the accuracy and the invulnerable damage reduction."/>
     <entry name="ChaosSpaceMarines/SlaaneshCorruptionFlavor"
            value="The greatest of Slaanesh’s daemons move with an idealised grace and agility rendered hideous by its sheer precision and impossibility."/>
+    <entry name="ChaosSpaceMarines/TheBlackCitadel"
+           value="The Black Citadel"/>
+    <entry name="ChaosSpaceMarines/TheBlackCitadelDescription"
+           value="Increases the loyalty."/>
+    <entry name="ChaosSpaceMarines/TheBlackCitadelFlavor"
+           value="Bound to the will of their master, Abaddon the Despoiler, the Black Legion are a dread blight upon the galaxy and amongst the gravest threats to the Imperium."/>
     <entry name="ChaosSpaceMarines/TzeentchCorruption"
            value="Tzeentch Corruption"/>
     <entry name="ChaosSpaceMarines/TzeentchCorruptionDescription"
