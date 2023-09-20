@@ -328,7 +328,7 @@
     <entry name="SistersOfBattle/EndlessCrusadeDescription"
            value="Gains Blurry, Fleet and Move Through Cover.<br/><br/><string name='Actions/SistersOfBattle/ActOfFaithDescription'/>"/>
     <entry name="SistersOfBattle/EternalCrusadeDescription"
-           value="Sacred Rite that increases the production output of Battle Chapels."/>
+           value="Sacred Rite that increases the production output of Battle Chapels and Headquarters."/>
     <entry name="SistersOfBattle/EternalFire"
            value="Eternal Fire"/>
     <entry name="SistersOfBattle/EternalFireDescription"

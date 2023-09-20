@@ -6,7 +6,7 @@
             <conditions>
                 <building match="Any">
                     <type name="SistersOfBattle/Infantry"/>
-                    <type name="SistersOfBattle/Heroes"/>
+                    <type name="SistersOfBattle/Headquarters"/>
                 </building>
             </conditions>
             <effects>
