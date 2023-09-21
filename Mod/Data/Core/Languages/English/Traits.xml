@@ -202,6 +202,12 @@
            value="Increases the damage, the armour penetration, the attacks and grants additional member hits."/>
     <entry name="ChaosSpaceMarines/DaemonforgeForgefiendFlavor"
            value="<string name='Actions/ChaosSpaceMarines/DaemonforgeFlavor'/>"/>
+    <entry name="ChaosSpaceMarines/DaemonforgeVenomcrawler"
+           value="<string name='Actions/ChaosSpaceMarines/Daemonforge'/>"/>
+    <entry name="ChaosSpaceMarines/DaemonforgeVenomcrawlerDescription"
+           value="Increases the damage, the armour penetration, the attacks and grants additional member hits."/>
+    <entry name="ChaosSpaceMarines/DaemonforgeVenomcrawlerFlavor"
+           value="<string name='Actions/ChaosSpaceMarines/DaemonforgeFlavor'/>"/>
     <entry name="ChaosSpaceMarines/DeathEcstasy"
            value="<string name='Actions/ChaosSpaceMarines/DeathEcstasy'/>"/>
     <entry name="ChaosSpaceMarines/DeathEcstasyDescription"
@@ -308,6 +314,16 @@
            value="Increases the damage reduction."/>
     <entry name="DaemonicFlavor"
            value="The creatures of the Warp are many and foul, with infinite variety, but there are some characteristics that they all share."/>
+
+    <entry name="DeathPact"
+           value="Death Pact"/>
+    <entry name="DeathPactDescription"
+           value="Damages and debuffs attacker on death."/>
+
+    <entry name="Desperation"
+           value="Desperation"/>
+    <entry name="DesperationDescription"
+           value="Prevents the morale regeneration."/>
 
     <entry name="Eldar/Prosperity"
            value="Prosperity"/>

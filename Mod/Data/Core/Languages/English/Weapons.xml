@@ -66,4 +66,6 @@
            value="Forgefiend Autocannon"/>
     <entry name="ForgefiendAutocannonFlavor"
            value="<string name='Weapons/HadesAutocannonFlavor'/>"/>
+    <entry name="DeathPact"
+           value="Death Pact"/>
 </language>

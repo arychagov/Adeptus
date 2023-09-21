@@ -5,13 +5,11 @@
         <modifier>
             <coditions>
                 <unit>
-                    <trait name="Vehicle"/>
-                    <noTrait name="MultimodelVehicle"/>
+                    <noTrait name="Vehicle"/>
                 </unit>
             </coditions>
             <effects>
-                <accuracy mul="-0.33"/>
-                <movementMax add="-1"/>
+                <moraleRegeneration max="0"/>
             </effects>
         </modifier>
     </modifiers>

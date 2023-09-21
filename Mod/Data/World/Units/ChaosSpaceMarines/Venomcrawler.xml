@@ -12,19 +12,6 @@
               walker="1"/>
     </model>
     <weapons>
-        <weapon name="ExcruciatorCannon"
-                count="2">
-            <model>
-                <projectileWeapon fireInterval="0.43"
-                                  muzzleBone=".Muzzle"
-                                  muzzleCount="2"/>
-            </model>
-        </weapon>
-        <weapon name="SoulflayerTendrils">
-            <model>
-
-            </model>
-        </weapon>
         <weapon name="EvisceratingClaws">
             <model>
                 <weapon fireInterval="10"/>
@@ -35,11 +22,11 @@
         <modifier visible="0">
             <effects>
                 <armor base="8"/> <!-- %armor base armor=12/12/10 -->
-                <hitpointsMax base="36.0"/>
+                <hitpointsMax base="28.0"/>
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=12/12/10 wounds=3 -->
                 <meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
-                <meleeAttacks base="2"/>
-                <strengthDamage base="3"/> <!-- %strengthDamage base strength=6 -->
+                <meleeAttacks base="8"/>
+                <strengthDamage base="5"/> <!-- %strengthDamage base strength=6 -->
                 <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
                 <movementMax base="3"/>
                 <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
@@ -141,7 +128,7 @@
                                 <modifier>
                                     <effects>
                                         <hitpointsFactorFromMax add="-0.1"/>
-                                        <addTrait name="ChaosSpaceMarines/Daemonforge"
+                                        <addTrait name="ChaosSpaceMarines/DaemonforgeVenomcrawler"
                                                   duration="1"/>
                                     </effects>
                                 </modifier>
@@ -153,7 +140,7 @@
         </daemonforge>
     </actions>
     <traits>
-        <trait name="Daemon"/>
+        <trait name="Daemonic"/>
         <trait name="ChaosSpaceMarines/DevourerOfSouls"/>
         <trait name="ExtraVehicleArmour"
                requiredUpgrade="ChaosSpaceMarines/ExtraVehicleArmour"/>
@@ -164,7 +151,10 @@
         <trait name="Fleet"/>
         <trait name="Vehicle"/>
         <trait name="Walker"/>
+        <trait name="ChaosSpaceMarines/NurgleCorruption"
+               rank="2"/>
         <trait name="ChaosSpaceMarines/SmokeLauncher"
                requiredUpgrade="ChaosSpaceMarines/SmokeLauncher"/>
+        <trait name="DeathPact"/>
     </traits>
 </unit>
