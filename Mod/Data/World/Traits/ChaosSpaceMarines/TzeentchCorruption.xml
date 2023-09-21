@@ -5,8 +5,8 @@
     <modifiers>
         <modifier>
             <effects>
-                <researchPerExperience addMax="6"
-                                       addMin="3"/>
+                <researchPerExperience addMax="4"
+                                       addMin="2"/>
                 <researchPerExperience mul="0.33"/>
             </effects>
         </modifier>

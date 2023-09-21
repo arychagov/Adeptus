@@ -118,8 +118,6 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-
-
         <boonOfMutation name="ChaosSpaceMarines/BoonOfMutation"
                         cooldownMax="2"
                         cooldownMin="4"
@@ -211,7 +209,7 @@
             </beginTargets>
         </genericUnitAbility>
         <incursion name="ChaosSpaceMarines/Incursion"
-                   cooldown="5"
+                   cooldown="10"
                    elite="1"
                    levelUpPriority="1"
                    rank="-1"
@@ -245,24 +243,9 @@
                         <area affects="Tile">
                             <modifiers>
                                 <modifier>
-                                    <randomEffects count="1">
-                                        <addUnit name="ChaosSpaceMarines/Maulerfiend"
-                                                 consumedAction="0"
-                                                 consumedMovement="0"/>
-                                        <addUnit name="ChaosSpaceMarines/WarpTalon"
-                                                 consumedAction="0"
-                                                 consumedMovement="0"/>
-                                    </randomEffects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="Summon"
-                                                  duration="3"/>
-                                    </effects>
+                                    <addUnit name="ChaosSpaceMarines/DaemonPrince"
+                                             consumedAction="0"
+                                             consumedMovement="0"/>
                                 </modifier>
                             </modifiers>
                         </area>

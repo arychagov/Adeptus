@@ -39,7 +39,6 @@
                 <hitpointsMax base="20.0"/>
                 <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=5 wounds=5 -->
                 <influenceUpkeep base="4.5"/> <!-- %influenceUpkeep base tier=7 factor=1.5 -->
-                <influenceCost base="90.0"/> <!-- %influenceCost base tier=7 factor=1.5 -->
                 <itemSlots base="6"/>
                 <levelMax base="9"/>
                 <meleeAccuracy base="12"/> <!-- %meleeAccuracy base weaponSkill=9 -->
@@ -51,6 +50,7 @@
                 <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
                 <rangedAccuracy base="10"/> <!-- %rangedAccuracy base ballisticSkill=5 -->
                 <energyUpkeep base="3.0"/> <!-- %energyUpkeep base tier=7 factor=1 -->
+                <influenceCost base="90.0"/> <!-- %influenceCost base tier=7 factor=1.5 -->
                 <energyCost base="30.0"/> <!-- %energyCost base tier=7 factor=0.5 -->
                 <foodCost base="30.0"/> <!-- %foodCost base tier=7 factor=0.5 -->
             </effects>
@@ -279,9 +279,7 @@
         <trait name="MoveThroughCover"/>
         <trait name="Psyker"/>
         <trait name="Relentless"/>
-        <trait name="Shrouded"/>
         <trait name="Smash"/>
-        <trait name="ChaosSpaceMarines/VeteransOfTheLongWar"/>
         <trait name="ChaosSpaceMarines/StimulatedByPain"
                requiredUpgrade="ChaosSpaceMarines/StimulatedByPain"/>
     </traits>
