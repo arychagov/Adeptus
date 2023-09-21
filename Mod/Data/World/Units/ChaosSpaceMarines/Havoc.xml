@@ -16,7 +16,7 @@
            rowSize="3"
            size="3"/>
     <weapons>
-        <weapon name="Autocannon">
+        <weapon name="HeavyAutocannon">
             <model>
                 <projectileWeapon bone="Bone008"
                                   fireInterval="0.23"
@@ -117,6 +117,7 @@
         </throwGrenade>
     </actions>
     <traits>
+        <trait name="Relentless"/>
         <trait name="ChaosSpaceMarines/ChampionOfChaos"/>
         <trait name="ChaosSpaceMarines/BloatedWithLifesteal"
                requiredUpgrade="ChaosSpaceMarines/BloatedWithLifesteal"/>

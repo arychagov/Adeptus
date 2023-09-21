@@ -52,6 +52,10 @@
            value="Heavy Lascannon"/>
     <entry name="HeavyLascannonFlavor"
            value="<string name='Weapons/LasFlavor'/>"/>
+    <entry name="HeavyAutocannon"
+           value="Heavy Autocannon"/>
+    <entry name="HeavyAutocannonFlavor"
+           value="<string name='Weapons/Autocannon'/>"/>
     <entry name="OrbitalBombardmentCaptain"
            value="Orbital Bombardment"/>
     <entry name="HonourGuardBoltgun"
