@@ -196,6 +196,12 @@
            value="Restores hitpoints on hit."/>
     <entry name="ChaosSpaceMarines/BloatedWithLifestealFlavor"
            value="Though Nurgle’s cursed diseases rot a man both physically and spiritually, they also imbue their subjects decaying flesh with inhuman resilience. To such bloated forms, spreading their pox can often bring with it minor blessings from the plague God."/>
+    <entry name="ChaosSpaceMarines/DaemonforgeForgefiend"
+           value="<string name='Actions/ChaosSpaceMarines/Daemonforge'/>"/>
+    <entry name="ChaosSpaceMarines/DaemonforgeForgefiendDescription"
+           value="Increases the damage, the armour penetration, the attacks and grants additional member hits."/>
+    <entry name="ChaosSpaceMarines/DaemonforgeForgefiendFlavor"
+           value="<string name='Actions/ChaosSpaceMarines/DaemonforgeFlavor'/>"/>
     <entry name="ChaosSpaceMarines/DeathEcstasy"
            value="<string name='Actions/ChaosSpaceMarines/DeathEcstasy'/>"/>
     <entry name="ChaosSpaceMarines/DeathEcstasyDescription"
@@ -295,6 +301,13 @@
            value="Convergent Targeting"/>
     <entry name="ConvergentTargetingWhirlwindDescription"
            value="Increases the accuracy when adjacent to an allied Whirlwind."/>
+
+    <entry name="Daemonic"
+           value="Daemonic"/>
+    <entry name="DaemonicDescription"
+           value="Increases the damage reduction."/>
+    <entry name="DaemonicFlavor"
+           value="The creatures of the Warp are many and foul, with infinite variety, but there are some characteristics that they all share."/>
 
     <entry name="Eldar/Prosperity"
            value="Prosperity"/>

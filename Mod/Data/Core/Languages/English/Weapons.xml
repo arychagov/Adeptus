@@ -55,11 +55,15 @@
     <entry name="HeavyAutocannon"
            value="Heavy Autocannon"/>
     <entry name="HeavyAutocannonFlavor"
-           value="<string name='Weapons/Autocannon'/>"/>
+           value="<string name='Weapons/AutocannonFlavor'/>"/>
     <entry name="OrbitalBombardmentCaptain"
            value="Orbital Bombardment"/>
     <entry name="HonourGuardBoltgun"
            value="Boltgun"/>
     <entry name="HonourGuardBoltgunFlavor"
            value="<string name='Weapons/BoltFlavor'/>"/>
+    <entry name="ForgefiendAutocannon"
+           value="Forgefiend Autocannon"/>
+    <entry name="ForgefiendAutocannonFlavor"
+           value="<string name='Weapons/HadesAutocannonFlavor'/>"/>
 </language>

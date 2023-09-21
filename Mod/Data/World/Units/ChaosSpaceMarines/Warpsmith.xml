@@ -297,12 +297,14 @@
         <shop/>
     </actions>
     <traits>
+        <trait name="Daemonic"/>
         <trait name="ChaosSpaceMarines/ChampionOfChaos"/>
         <trait name="ChaosSpaceMarines/BloatedWithLifesteal"
                requiredUpgrade="ChaosSpaceMarines/BloatedWithLifesteal"/>
         <trait name="ExtraInfantryArmour"
                requiredUpgrade="ChaosSpaceMarines/ExtraInfantryArmour"/>
         <trait name="Hero"/>
+        <trait name="SupportHero"/>
         <trait name="ChaosSpaceMarines/VeteransOfTheLongWar"
                requiredUpgrade="ChaosSpaceMarines/VeteransOfTheLongWar"/>
         <trait name="ChaosSpaceMarines/StimulatedByPain"

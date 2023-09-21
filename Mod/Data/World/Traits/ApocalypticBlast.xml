@@ -2,6 +2,11 @@
 <trait>
     <modifiers>
         <modifier>
+            <conditions>
+                <unit>
+                    <noTrait name="ChaosSpaceMarines/Daemonforge"/>
+                </unit>
+            </conditions>
             <effects>
                 <additionalMembersHit add="8"/>
             </effects>

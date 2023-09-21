@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff"
+       icon="Actions/ChaosSpaceMarines/Daemonforge">
+    <modifiers>
+        <modifier>
+            <effects>
+                <attacks mul="0.75"/>
+                <damage mul="2"/>
+                <armorPenetration add="1"/>
+                <additionalMembersHit add="2"/>
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>

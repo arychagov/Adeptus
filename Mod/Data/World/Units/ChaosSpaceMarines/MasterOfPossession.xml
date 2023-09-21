@@ -243,9 +243,11 @@
                         <area affects="Tile">
                             <modifiers>
                                 <modifier>
-                                    <addUnit name="ChaosSpaceMarines/DaemonPrince"
-                                             consumedAction="0"
-                                             consumedMovement="0"/>
+                                    <effects>
+                                        <addUnit name="ChaosSpaceMarines/DaemonPrince"
+                                                 consumedAction="0"
+                                                 consumedMovement="0"/>
+                                    </effects>
                                 </modifier>
                             </modifiers>
                         </area>
