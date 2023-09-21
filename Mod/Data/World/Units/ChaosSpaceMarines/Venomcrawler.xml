@@ -107,30 +107,6 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <hammerOfWrath consumedActionPoints="0"
-                       consumedMovement="0"
-                       cooldown="3"
-                       requiredUpgrade="ChaosSpaceMarines/SmokeLauncher">
-            <model>
-                <action sound="Actions/PsychicBuff"/>
-            </model>
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="HammerOfWrath"
-                                                  duration="1"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-        </hammerOfWrath>
         <genericUnitAbility name="ChaosSpaceMarines/ReservoirOfDaemonicEnergy"
                             passive="1">
             <beginTargets>

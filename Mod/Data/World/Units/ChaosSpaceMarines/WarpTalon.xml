@@ -115,22 +115,6 @@
                     </effects>
                 </modifier>
             </modifiers>
-            <beginTargets>
-                <target>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier requiredUpgrade="ChaosSpaceMarines/SmokeLauncher">
-                                    <effects>
-                                        <addTrait name="HammerOfWrath"
-                                                  duration="1"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </target>
-            </beginTargets>
             <endTargets>
                 <target>
                     <areas>
