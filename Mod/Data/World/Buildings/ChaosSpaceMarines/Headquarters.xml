@@ -34,7 +34,7 @@
     </actions>
     <traits>
         <trait name="ChaosSpaceMarines/CityTier2"
-               requiredUpgrade="ChaosSpaceMarines/CityTier2"/>
+               requiredUpgrade="ChaosSpaceMarines/ChaosRising"/>
         <trait name="ChaosSpaceMarines/CityTier3"
                requiredUpgrade="ChaosSpaceMarines/CityTier3"/>
         <trait name="Headquarters"/>

@@ -138,6 +138,8 @@
            value="Hero unit that returns damage to attackers and slays units low on hitpoints."/>
     <entry name="ChaosSpaceMarines/ChaosLordFlavor"
            value="A Chaos Lord is a tyrannical warrior king who lives to bathe in the blood of worlds. He strives to bring whole star systems to their knees in the name of his patron deities. Typified by merciless ambition and fierce pride, many of these champions of disorder were once noble Chapter Masters and Captains of the Adeptus Astartes, but long years of unremitting war have twisted their souls beyond recovery."/>
+    <entry name="ChaosSpaceMarines/ChaosRisingDescription"
+           value="Reduces the cost of founding new cities. Increases the tile acquisition radius."/>
     <entry name="ChaosSpaceMarines/CityTier2Description"
            value="Increases the tile acquisition radius."/>
     <entry name="ChaosSpaceMarines/CityTier3Description"
