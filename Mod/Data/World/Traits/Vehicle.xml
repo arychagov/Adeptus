@@ -8,6 +8,7 @@
                     <noTrait name="UnbreakableVehicle"/>
                     <noTrait name="AdeptusMechanicus/DataBlessedAutosermon"/>
                     <noTrait name="MachineSpirit"/>
+                    <noTrait name="ChaosSpaceMarines/TraitorisLoyalty"/>
                     <hitpointsFraction greater="0.33"
                                        less="0.66"/>
                 </unit>
@@ -23,6 +24,7 @@
                     <noTrait name="UnbreakableVehicle"/>
                     <noTrait name="AdeptusMechanicus/DataBlessedAutosermon"/>
                     <noTrait name="MachineSpirit"/>
+                    <noTrait name="ChaosSpaceMarines/TraitorisLoyalty"/>
                     <hitpointsFraction less="0.33"/>
                 </unit>
             </conditions>

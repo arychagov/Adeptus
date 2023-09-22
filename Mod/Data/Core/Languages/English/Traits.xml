@@ -316,6 +316,10 @@
            value="Increases the accuracy."/>
     <entry name="ChaosSpaceMarines/EnrageMachineSpiritsFlavor"
            value="No armour is safe from the guns of the IV Legion, and once an enemy war engine is marked for destruction, its doomed is sealed."/>
+    <entry name="ChaosSpaceMarines/TraitorisLoyalty"
+           value="Traitoris Loyalty"/>
+    <entry name="ChaosSpaceMarines/TraitorisLoyaltyDescription"
+           value="Ignores degradation effect."/>
 
     <entry name="Cloak"
            value="Cloak"/>
@@ -336,16 +340,20 @@
            value="Increases the damage reduction."/>
     <entry name="DaemonicFlavor"
            value="The creatures of the Warp are many and foul, with infinite variety, but there are some characteristics that they all share."/>
-
     <entry name="DeathPact"
            value="Death Pact"/>
     <entry name="DeathPactDescription"
            value="Damages and debuffs attacker on death."/>
-
     <entry name="Desperation"
            value="Desperation"/>
     <entry name="DesperationDescription"
            value="Prevents the morale regeneration."/>
+    <entry name="Dread"
+           value="Dread"/>
+    <entry name="DreadDescription"
+           value="Reduces the morale of enemy each turn. Restores the morale of ally each turn."/>
+    <entry name="DreadFlavor"
+           value="<string name='Actions/AuraOfDreadFlavor'/>"/>
 
     <entry name="Eldar/Prosperity"
            value="Prosperity"/>

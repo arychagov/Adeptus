@@ -68,4 +68,8 @@
            value="<string name='Weapons/HadesAutocannonFlavor'/>"/>
     <entry name="DeathPact"
            value="Death Pact"/>
+    <entry name="DefilerMissileLauncher"
+           value="Defiler Missile Launcher"/>
+    <entry name="DefilerRocketLauncher"
+           value="Defiler Rocket Launcher"/>
 </language>

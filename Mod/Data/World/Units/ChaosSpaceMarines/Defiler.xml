@@ -11,29 +11,20 @@
               walker="1"/>
     </model>
     <weapons>
-        <weapon name="BattleCannon">
-            <model>
-                <projectileWeapon fireInterval="1.37"
-                                  muzzleBone=".BattleCannonMuzzle"/>
-            </model>
-        </weapon>
-        <weapon name="HavocLauncher">
+        <weapon name="DefilerRocketLauncher"
+                enabled="0"
+                slotName="DefilerRocketLauncher">
             <model>
                 <missileWeapon missileScale="0.8"
                                muzzleBone=".HavocMuzzle"
                                muzzleCount="6"/>
             </model>
         </weapon>
-        <weapon name="PowerFist"
-                count="2">
+        <weapon name="DefilerMissileLauncher">
             <model>
-                <weapon fireInterval="0.33"/>
-            </model>
-        </weapon>
-        <weapon name="TwinLinkedLascannon">
-            <model>
-                <beamWeapon muzzleBone=".LascannonMuzzle"
-                            muzzleCount="2"/>
+                <missileWeapon missileScale="0.8"
+                               muzzleBone=".HavocMuzzle"
+                               muzzleCount="6"/>
             </model>
         </weapon>
     </weapons>
@@ -41,7 +32,7 @@
         <modifier visible="0">
             <effects>
                 <armor base="10"/> <!-- %armor base armor=12/12/10 -->
-                <hitpointsMax base="60.0"/>
+                <hitpointsMax base="46.0"/>
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=12/12/10 wounds=4 -->
                 <meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
                 <meleeAttacks base="2"/>
@@ -93,7 +84,26 @@
                         soundCount="1"/>
             </model>
         </move>
-        <auraOfFear passive="1">
+        <genericUnitAbility name="ChaosSpaceMarines/AuraOfDread" icon="Traits/Fear" passive="1">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="3">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="Dread"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
+        <genericUnitAbility name="ChaosSpaceMarines/TraitorisLoyalty" icon="Traits/Vehicle" passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -103,7 +113,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Fear"/>
+                                        <addTrait name="ChaosSpaceMarines/TraitorisLoyalty"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -111,7 +121,17 @@
                     </areas>
                 </selfTarget>
             </beginTargets>
-        </auraOfFear>
+        </genericUnitAbility>
+        <useWeapon consumedActionPoints="0"
+                   consumedMovement="0"
+                   cooldown="1"
+                   requiredActionPoints="0"
+                   weaponSlotName="DefilerRocketLauncher">
+            <model>
+                <action beginFire="0.1"
+                        endFire="1.0"/>
+            </model>
+        </useWeapon>
         <genericUnitAbility name="ChaosSpaceMarines/NurgleCorruption"
                             icon="Actions/ChaosSpaceMarines/MarkOfNurgle"
                             passive="1">

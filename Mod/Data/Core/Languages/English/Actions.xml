@@ -120,6 +120,12 @@
     <entry name="AstraMilitarum/WallOfMuscleFlavor"
            value="<string name='Traits/AstraMilitarum/WallOfMuscleFlavor'/>"/>
 
+    <entry name="ChaosSpaceMarines/AuraOfDread"
+           value="Aura of Dread"/>
+    <entry name="ChaosSpaceMarines/AuraOfDreadDescription"
+           value="Reduces the morale of nearby enemy units each turn. Restores the morale of nearby allied units each turn."/>
+    <entry name="ChaosSpaceMarines/AuraOfDreadFlavor"
+           value="Some beings are so monstrous or alien that they can force their foes to recoil in horror."/>
     <entry name="ChaosSpaceMarines/CursedGroundFirst"
            value="Create Cursed Ground"/>
     <entry name="ChaosSpaceMarines/CursedGroundFirstDescription"
@@ -182,6 +188,10 @@
            value="Grants Daemon Prince flying ability, increases the movement, the accuracy and the invulnerable damage reduction."/>
     <entry name="ChaosSpaceMarines/SlaaneshCorruptionFlavor"
            value="The greatest of Slaanesh’s daemons move with an idealised grace and agility rendered hideous by its sheer precision and impossibility."/>
+    <entry name="ChaosSpaceMarines/TraitorisLoyalty"
+           value="Traitoris Loyalty"/>
+    <entry name="ChaosSpaceMarines/TraitorisLoyaltyDescription"
+           value="Grants adjacent allied vehicles ignore of degradation effect."/>
     <entry name="ChaosSpaceMarines/TzeentchCorruption"
            value="Tzeentch Corruption"/>
     <entry name="ChaosSpaceMarines/TzeentchCorruptionDescription"
