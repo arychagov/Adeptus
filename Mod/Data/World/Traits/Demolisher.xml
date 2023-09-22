@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1"
+       category="Buff"
+       icon="Traits/Smash">
+    <onCombatOpponentModifiers>
+        <modifier>
+            <conditions>
+                <encounter>
+                    <opponent>
+                        <noAttacking/>
+                        <trait name="Vehicle"/>
+                    </opponent>
+                </encounter>
+            </conditions>
+            <effects>
+                <addTrait name="VehicleHeavilyDamaged"
+                          duration="2"/>
+            </effects>
+        </modifier>
+    </onCombatOpponentModifiers>
+</trait>

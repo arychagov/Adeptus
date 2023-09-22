@@ -11,24 +11,19 @@
               walker="1"/>
     </model>
     <weapons>
-        <weapon name="ScorpionCannon">
-            <model>
-                <projectileWeapon muzzleBone="Muzzle3"/>
-            </model>
-        </weapon>
         <weapon name="HellmawCannon"
                 count="2">
             <model>
-                <flamerWeapon muzzleBone="FlamerMuzzle"
-                              muzzleCount="2"/>
+                <beamWeapon muzzleBone="FlamerMuzzle"
+                            muzzleCount="2"/>
             </model>
         </weapon>
         <weapon name="SoulburnerCannon"
                 enabled="0"
                 slotName="SoulburnerCannon">
             <model>
-                <projectileWeapon fireInterval="1.0"
-                                  muzzleBone="Muzzle0"/>
+                <beamWeapon fireInterval="1.0"
+                            muzzleBone="Muzzle0"/>
             </model>
         </weapon>
         <weapon name="Stomp"
@@ -39,16 +34,16 @@
         <modifier visible="0">
             <effects>
                 <armor base="9"/> <!-- %armor base armor=14/13/10 -->
-                <hitpointsMax base="144.0"/> <!-- %hitpointsMax base armor=14/13/10 wounds=9 -->
+                <hitpointsMax base="72.0"/> <!-- %hitpointsMax base armor=14/13/10 wounds=9 -->
                 <meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
                 <meleeAttacks base="3"/>
                 <strengthDamage base="12"/> <!-- %strengthDamage base strength=10 -->
                 <moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
                 <movementMax base="3"/>
-                <productionCost base="72.0"/> <!-- %productionCost base tier=12 factor=1 -->
-                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
-                <oreUpkeep base="16.0"/> <!-- %oreUpkeep base tier=12 factor=1 -->
-                <oreCost base="320.0"/> <!-- %oreCost base tier=12 factor=1 -->
+                <productionCost base="66.0"/> <!-- %productionCost base tier=12 factor=1 -->
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <oreUpkeep base="10.0"/> <!-- %oreUpkeep base tier=12 factor=1 -->
+                <oreCost base="200.0"/> <!-- %oreCost base tier=12 factor=1 -->
                 <duplicateTypeCost mul="0.125"/>
             </effects>
         </modifier>
@@ -150,10 +145,9 @@
         <trait name="ChaosSpaceMarines/MultiLeggedTerror"/>
         <trait name="MoveThroughCover"/>
         <trait name="ChaosSpaceMarines/RunesOfTheBloodGod"/>
-        <trait name="Smash"/>
-        <trait name="Strikedown"/>
         <trait name="SuperHeavy"/>
         <trait name="Vehicle"/>
         <trait name="Walker"/>
+        <trait name="Demolisher"/>
     </traits>
 </unit>

@@ -344,6 +344,10 @@
            value="Death Pact"/>
     <entry name="DeathPactDescription"
            value="Damages and debuffs attacker on death."/>
+    <entry name="Demolisher"
+           value="Demolisher"/>
+    <entry name="DemolisherDescription"
+           value="Attacks on vehicle applies maximum degradation effect."/>
     <entry name="Desperation"
            value="Desperation"/>
     <entry name="DesperationDescription"

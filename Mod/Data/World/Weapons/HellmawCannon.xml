@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon>
     <model>
-        <flamerWeapon fireSound="Weapons/HellmawCannon"
-                      fireSoundCount="1"/>
+        <beamWeapon beamsBlueprint="Effects/MeltaBeams"
+                    beamsEmitterBlueprint="Effects/MeltaBeamsEmitter"
+                    fireInterval="0.5"
+                    fireSound="Weapons/MultiMelta"
+                    fireSoundCount="4"
+                    muzzleCount="2"
+                    muzzleFlashesBlueprint="Effects/MeltaMuzzleFlashes"
+                    muzzleFlashesEmitterBlueprint="Effects/MeltaMuzzleFlashesEmitter"/>
     </model>
     <modifiers>
         <modifier>
             <effects>
                 <attacks add="1"/>
-                <rangedArmorPenetration add="4"/> <!-- %rangedArmorPenetration add armorPiercing=3 -->
-                <rangedDamage add="3"/> <!-- %rangedDamage add strength=6 -->
+                <rangedArmorPenetration add="8"/> <!-- %rangedArmorPenetration add armorPiercing=3 -->
+                <rangedDamage add="18"/> <!-- %rangedDamage add strength=6 -->
                 <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="1"/>
+    <target rangeMax="3"/>
     <traits>
-        <trait name="Assault"/>
+        <trait name="HeavyWeapon"/>
+        <trait name="Melta"/>
         <trait name="ChaosSpaceMarines/BlastDamage"
                requiredUpgrade="ChaosSpaceMarines/BlastDamage"/>
-        <trait name="Flame"/>
-        <trait name="IgnoresCover"/>
-        <trait name="NoEscape"/>
-        <trait name="Template"/>
     </traits>
 </weapon>
