@@ -150,6 +150,7 @@
                requiredUpgrade="ChaosSpaceMarines/WarpflameGargoyles"/>
         <trait name="Fleet"/>
         <trait name="Vehicle"/>
+        <trait name="ChaosVehicle"/>
         <trait name="Walker"/>
         <trait name="ChaosSpaceMarines/NurgleCorruption"
                rank="2"/>

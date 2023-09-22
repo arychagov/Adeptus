@@ -175,6 +175,7 @@
         <trait name="MoveThroughCover"/>
         <trait name="ChaosSpaceMarines/SiegeCrawler"/>
         <trait name="Vehicle"/>
+        <trait name="ChaosVehicle"/>
         <trait name="Walker"/>
         <trait name="ChaosSpaceMarines/SmokeLauncher"
                requiredUpgrade="ChaosSpaceMarines/SmokeLauncher"/>

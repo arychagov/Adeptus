@@ -16,15 +16,5 @@
                 <morale add="-2"/>
             </effects>
         </modifier>
-        <modifier>
-            <conditions>
-                <unit>
-                    <allied/>
-                </unit>
-            </conditions>
-            <effects>
-                <morale add="1"/>
-            </effects>
-        </modifier>
     </perTurnModifiers>
 </trait>

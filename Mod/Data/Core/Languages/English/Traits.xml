@@ -352,12 +352,18 @@
            value="Desperation"/>
     <entry name="DesperationDescription"
            value="Prevents the morale regeneration."/>
-    <entry name="Dread"
+    <entry name="DreadAlly"
            value="Dread"/>
-    <entry name="DreadDescription"
-           value="Reduces the morale of enemy each turn. Restores the morale of ally each turn."/>
-    <entry name="DreadFlavor"
-           value="<string name='Actions/AuraOfDreadFlavor'/>"/>
+    <entry name="DreadAllyDescription"
+           value="Restores the morale of ally each turn."/>
+    <entry name="DreadAllyFlavor"
+           value="<string name='Actions/ChaosSpaceMarines/AuraOfDreadFlavor'/>"/>
+    <entry name="DreadEnemy"
+           value="Dread"/>
+    <entry name="DreadEnemyDescription"
+           value="Reduces the morale of enemy each turn."/>
+    <entry name="DreadEnemyFlavor"
+           value="<string name='Actions/ChaosSpaceMarines/AuraOfDreadFlavor'/>"/>
 
     <entry name="Eldar/Prosperity"
            value="Prosperity"/>

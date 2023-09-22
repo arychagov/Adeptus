@@ -147,6 +147,7 @@
         <trait name="ChaosSpaceMarines/RunesOfTheBloodGod"/>
         <trait name="SuperHeavy"/>
         <trait name="Vehicle"/>
+        <trait name="ChaosVehicle"/>
         <trait name="Walker"/>
         <trait name="Demolisher"/>
     </traits>

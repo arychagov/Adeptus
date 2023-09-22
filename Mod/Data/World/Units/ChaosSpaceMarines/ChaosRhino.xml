@@ -181,6 +181,7 @@
         <trait name="Tank"/>
         <trait name="Transport"/>
         <trait name="Vehicle"/>
+        <trait name="ChaosVehicle"/>
         <trait name="ChaosSpaceMarines/SmokeLauncher"
                requiredUpgrade="ChaosSpaceMarines/SmokeLauncher"/>
     </traits>
