@@ -259,6 +259,8 @@
     </actions>
     <traits>
         <trait name="ChaosSpaceMarines/ChampionOfChaos"/>
+        <trait name="ChaosSpaceMarines/GiftOfMutation"
+               requiredUpgrade="ChaosSpaceMarines/GiftOfMutation"/>
         <trait name="ChaosSpaceMarines/BloatedWithLifesteal"
                requiredUpgrade="ChaosSpaceMarines/BloatedWithLifesteal"/>
         <trait name="ExtraInfantryArmour"

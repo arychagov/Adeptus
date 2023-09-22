@@ -184,6 +184,8 @@
            value="Though each selfishly sees faith as an easy route to power in on uncaring galaxy, these mortals are zealous worshippers brimming with hate."/>
     <entry name="ChaosSpaceMarines/DarkDiscipleDescription"
            value="Increases resource cost of Chaos Cultists and grants ability to increase the invulnerable damage reduction of adjacent allied Chaos units."/>
+    <entry name="ChaosSpaceMarines/GiftOfMutationDescription"
+           value="Increases chance of infantry units to randomly receive unlocked Boon of Chaos on enemy kill."/>
 
     <entry name="Eldar/Autarch"
            value="Autarch"/>
