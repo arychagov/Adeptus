@@ -113,6 +113,24 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
+        <genericUnitAbility name="ChaosSpaceMarines/DaemonPrincePresence" icon="Units/ChaosSpaceMarines/DaemonPrince" passive="1">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile"
+                              radius="99">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="ChaosSpaceMarines/DaemonPrincePresence"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
         <genericUnitAbility name="ChaosSpaceMarines/PrinceOfChaos"
                             passive="1">
             <beginTargets>
@@ -282,5 +300,6 @@
         <trait name="Smash"/>
         <trait name="ChaosSpaceMarines/StimulatedByPain"
                requiredUpgrade="ChaosSpaceMarines/StimulatedByPain"/>
+        <trait name="ChaosSpaceMarines/DaemonPrincePresence"/>
     </traits>
 </unit>

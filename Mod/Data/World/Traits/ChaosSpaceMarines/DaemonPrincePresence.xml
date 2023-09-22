@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait category="Debuff"
-       icon="Traits/Broken">
+       icon="Units/ChaosSpaceMarines/DaemonPrince">
     <modifiers>
         <modifier>
             <conditions>
                 <unit>
-                    <noTrait name="Vehicle"/>
+                    <allied/>
+                    <type name="ChaosSpaceMarines/MasterOfPossession"/>
                 </unit>
             </conditions>
-            <effects>
-                <moraleRegeneration max="0"/>
-            </effects>
+            <effects/>
         </modifier>
     </modifiers>
 </trait>

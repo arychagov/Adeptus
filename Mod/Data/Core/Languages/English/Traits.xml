@@ -196,6 +196,10 @@
            value="Restores hitpoints on hit."/>
     <entry name="ChaosSpaceMarines/BloatedWithLifestealFlavor"
            value="Though Nurgle’s cursed diseases rot a man both physically and spiritually, they also imbue their subjects decaying flesh with inhuman resilience. To such bloated forms, spreading their pox can often bring with it minor blessings from the plague God."/>
+    <entry name="ChaosSpaceMarines/DaemonPrincePresence"
+           value="Daemon Prince Presence"/>
+    <entry name="ChaosSpaceMarines/DaemonPrincePresenceDescription"
+           value="Cannot use Incursion until after summoned Daemon Prince dies."/>
     <entry name="ChaosSpaceMarines/DaemonforgeForgefiend"
            value="<string name='Actions/ChaosSpaceMarines/Daemonforge'/>"/>
     <entry name="ChaosSpaceMarines/DaemonforgeForgefiendDescription"

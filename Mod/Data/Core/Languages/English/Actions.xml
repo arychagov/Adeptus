@@ -120,6 +120,10 @@
     <entry name="AstraMilitarum/WallOfMuscleFlavor"
            value="<string name='Traits/AstraMilitarum/WallOfMuscleFlavor'/>"/>
 
+    <entry name="ChaosSpaceMarines/DaemonPrincePresence"
+           value="Daemon Prince Presence"/>
+    <entry name="ChaosSpaceMarines/DaemonPrincePresenceDescription"
+           value="Disables Master of Possessions' Incursion ability."/>
     <entry name="ChaosSpaceMarines/DarkGloryDescription"
            value=""/>
     <entry name="ChaosSpaceMarines/DeathEcstasy"
@@ -134,6 +138,8 @@
            value="Icon of Chaos that grants negation of the movement penalty in forests, imperial ruins and rivers to a unit with Mark of Slaanesh."/>
     <entry name="ChaosSpaceMarines/IconOfDespairDescription"
            value="Icon of Chaos that increases the hitpoints regeneration to a unit with Mark of Nurgle."/>
+    <entry name="ChaosSpaceMarines/IncursionDescription"
+           value="Summon a Daemon Prince. Not usable until after Daemon Prince dies."/>
     <entry name="ChaosSpaceMarines/KhorneCorruption"
            value="Khorne Corruption"/>
     <entry name="ChaosSpaceMarines/KhorneCorruptionDescription"
