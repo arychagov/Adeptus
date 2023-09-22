@@ -49,9 +49,9 @@
                 <movementMax base="3"/>
                 <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
                 <productionCost base="51.0"/> <!-- %productionCost base tier=9 factor=1 -->
-                <foodUpkeep base="5.0"/> <!-- %foodUpkeep base tier=9 factor=1 -->
-                <foodCost base="50.0"/> <!-- %foodCost base tier=9 factor=0.5 -->
-                <oreCost base="50.0"/> <!-- %oreCost base tier=9 factor=0.5 -->
+                <foodUpkeep base="6.0"/> <!-- %foodUpkeep base tier=9 factor=1 -->
+                <foodCost base="60.0"/> <!-- %foodCost base tier=9 factor=0.5 -->
+                <oreCost base="60.0"/> <!-- %oreCost base tier=9 factor=0.5 -->
             </effects>
         </modifier>
     </modifiers>
