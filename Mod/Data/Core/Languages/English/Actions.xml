@@ -120,6 +120,18 @@
     <entry name="AstraMilitarum/WallOfMuscleFlavor"
            value="<string name='Traits/AstraMilitarum/WallOfMuscleFlavor'/>"/>
 
+    <entry name="ChaosSpaceMarines/CursedGroundFirst"
+           value="Create Cursed Ground"/>
+    <entry name="ChaosSpaceMarines/CursedGroundFirstDescription"
+           value="Creates temporary feature on the target tile that applies damage over time debuff to the enemy and ends the movement."/>
+    <entry name="ChaosSpaceMarines/CursedGroundFirstFlavor"
+           value="The resolute sons of Perturabo have been hardened by the grinding hell of countless sieges."/>
+    <entry name="ChaosSpaceMarines/CursedGroundSecond"
+           value="Create Cursed Ground"/>
+    <entry name="ChaosSpaceMarines/CursedGroundSecondDescription"
+           value="Creates temporary feature on the target tile that applies damage over time debuff to the enemy and ends the movement."/>
+    <entry name="ChaosSpaceMarines/CursedGroundSecondFlavor"
+           value="The resolute sons of Perturabo have been hardened by the grinding hell of countless sieges."/>
     <entry name="ChaosSpaceMarines/DaemonPrincePresence"
            value="Daemon Prince Presence"/>
     <entry name="ChaosSpaceMarines/DaemonPrincePresenceDescription"

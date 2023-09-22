@@ -146,7 +146,7 @@
         <daemonforge name="ChaosSpaceMarines/Daemonforge"
                      consumedActionPoints="0"
                      consumedMovement="0"
-                     cooldown="3">
+                     cooldown="5">
             <model>
                 <action sound="Actions/ChaosBuff"/>
             </model>
@@ -157,8 +157,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpointsFactorFromMax add="-0.1"/>
-                                        <addTrait name="ChaosSpaceMarines/Daemonforge"
+                                        <hitpointsFactorFromMax add="-0.2"/>
+                                        <addTrait name="ChaosSpaceMarines/DaemonforgeHeldrake"
                                                   duration="1"/>
                                     </effects>
                                 </modifier>
@@ -168,6 +168,72 @@
                 </selfTarget>
             </beginTargets>
         </daemonforge>
+        <genericUnitAbility name="ChaosSpaceMarines/CursedGroundFirst"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="10"
+                            icon="Actions/ChaosSpaceMarines/CursedGround"
+                            requiredActionPoints="0">
+            <model>
+                <action sound="Actions/SmokeScreen"/>
+            </model>
+            <beginTargets>
+                <target rangeMax="2">
+                    <conditions>
+                        <tile>
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
+                            <noFeature name="WireWeed"/>
+                        </tile>
+                    </conditions>
+                    <areas>
+                        <area affects="Tile">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addFeature name="CursedGround"
+                                                    duration="1"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </genericUnitAbility>
+        <genericUnitAbility name="ChaosSpaceMarines/CursedGroundSecond"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="10"
+                            icon="Actions/ChaosSpaceMarines/CursedGround"
+                            requiredActionPoints="0">
+            <model>
+                <action sound="Actions/SmokeScreen"/>
+            </model>
+            <beginTargets>
+                <target rangeMax="2">
+                    <conditions>
+                        <tile>
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
+                            <noFeature name="WireWeed"/>
+                        </tile>
+                    </conditions>
+                    <areas>
+                        <area affects="Tile">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addFeature name="CursedGround"
+                                                    duration="1"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </genericUnitAbility>
     </actions>
     <traits>
         <trait name="Daemon"/>
@@ -179,5 +245,6 @@
         <trait name="Vehicle"/>
         <trait name="ChaosSpaceMarines/SmokeLauncher"
                requiredUpgrade="ChaosSpaceMarines/SmokeLauncher"/>
+        <trait name="ChaosSpaceMarines/HellFireSelf"/>
     </traits>
 </unit>

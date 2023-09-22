@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff"
+       icon="Actions/ChaosSpaceMarines/Daemonforge">
+    <modifiers>
+        <modifier>
+            <effects>
+                <damage mul="0.15"/>
+                <armorPenetration add="2"/>
+                <rangeMax add="-1"/>
+            </effects>
+        </modifier>
+    </modifiers>
+    <onCombatOpponentModifiers>
+        <modifier>
+            <conditions>
+                <encounter>
+                    <opponent>
+                        <noAttacking/>
+                        <trait name="Vehicle"/>
+                    </opponent>
+                </encounter>
+            </conditions>
+            <effects>
+                <addTrait name="Stunned"
+                          duration="1"/>
+            </effects>
+        </modifier>
+    </onCombatOpponentModifiers>
+</trait>

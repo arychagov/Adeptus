@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpleParticleSystem material="Effects/MoltenBeam"
+                      particleOrientation="AxisBillboarded"
+                      variationCount="1 1">
+    <updateQueues>
+        <updateQueue name="Parallel3"/>
+    </updateQueues>
+    <renderQueues>
+        <renderQueue name="GlowingSimpleParticleSystemsBelowFog"/>
+    </renderQueues>
+    <affectors>
+        <colorAffector>
+            <colors>
+                <color progress="0.0"
+                       value="1 1 1 0"/>
+                <color progress="0.5"
+                       value="1 1 100 0.5"/>
+                <color progress="1.0"
+                       value="1 1 200 0"/>
+            </colors>
+        </colorAffector>
+        <scaleAffector>
+            <scales>
+                <scale progress="0.0"
+                       value="20 1"/>
+                <scale progress="1.0"
+                       value="40 1"/>
+            </scales>
+        </scaleAffector>
+    </affectors>
+</simpleParticleSystem>

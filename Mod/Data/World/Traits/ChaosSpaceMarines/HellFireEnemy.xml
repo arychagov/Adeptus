@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff"
+       icon="Traits/SoulBlaze">
+    <perTurnModifiers endure="0">
+        <modifier>
+            <conditions>
+                <unit>
+                    <noTrait name="Fortification"/>
+                </unit>
+            </conditions>
+            <effects>
+                <hitpointsFactorFromMax add="-0.1"/>
+                <lifeStealFactor max="0.0"/>
+                <healingRate mul="-1.0"/>
+            </effects>
+        </modifier>
+    </perTurnModifiers>
+</trait>

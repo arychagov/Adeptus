@@ -206,6 +206,12 @@
            value="Increases the damage, the armour penetration, the attacks and grants additional member hits."/>
     <entry name="ChaosSpaceMarines/DaemonforgeForgefiendFlavor"
            value="<string name='Actions/ChaosSpaceMarines/DaemonforgeFlavor'/>"/>
+    <entry name="ChaosSpaceMarines/DaemonforgeHeldrake"
+           value="<string name='Actions/ChaosSpaceMarines/Daemonforge'/>"/>
+    <entry name="ChaosSpaceMarines/DaemonforgeHeldrakeDescription"
+           value="Increases the damage, the armour penetration, and applies stun to vehicles on attack, but reduces the attack range."/>
+    <entry name="ChaosSpaceMarines/DaemonforgeHeldrakeFlavor"
+           value="<string name='Actions/ChaosSpaceMarines/DaemonforgeFlavor'/>"/>
     <entry name="ChaosSpaceMarines/DaemonforgeVenomcrawler"
            value="<string name='Actions/ChaosSpaceMarines/Daemonforge'/>"/>
     <entry name="ChaosSpaceMarines/DaemonforgeVenomcrawlerDescription"
@@ -222,6 +228,18 @@
            value="Negates the movement penalty in forests, imperial ruins and rivers."/>
     <entry name="ChaosSpaceMarines/IconOfDespairDescription"
            value="Increases the hitpoints regeneration."/>
+    <entry name="ChaosSpaceMarines/HellFireEnemy"
+           value="Hell Fire"/>
+    <entry name="ChaosSpaceMarines/HellFireEnemyDescription"
+           value="Takes damage over time and reduced the healing rate."/>
+    <entry name="ChaosSpaceMarines/HellFireEnemyFlavor"
+           value="The resolute sons of Perturabo have been hardened by the grinding hell of countless sieges."/>
+    <entry name="ChaosSpaceMarines/HellFireSelf"
+           value="Hell Fire"/>
+    <entry name="ChaosSpaceMarines/HellFireSelfDescription"
+           value="Applies damage over time debuff."/>
+    <entry name="ChaosSpaceMarines/HellFireSelfFlavor"
+           value="The resolute sons of Perturabo have been hardened by the grinding hell of countless sieges."/>
     <entry name="ChaosSpaceMarines/KhorneCorruption"
            value="Khorne Corruption"/>
     <entry name="ChaosSpaceMarines/KhorneCorruptionDescription"
@@ -644,6 +662,13 @@
            value="Applies damage over time debuff to the enemy."/>
     <entry name="SacredGroundFlavor"
            value="Reclaim the Emperor’s dominion and consecrate it once more."/>
+
+    <entry name="CursedGround"
+           value="Cursed Ground"/>
+    <entry name="CursedGroundDescription"
+           value="Applies damage over time debuff to the enemy."/>
+    <entry name="CursedGroundFlavor"
+           value="The resolute sons of Perturabo have been hardened by the grinding hell of countless sieges."/>
 
     <entry name="SistersOfBattle/BeaconOfFaithAlly"
            value="Beacon of Faith"/>

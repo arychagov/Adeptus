@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+    <textures>
+        <texture name="Effects/CursedGroundGlow"/>
+        <texture name="DisplayDepth"/>
+    </textures>
+</material>
