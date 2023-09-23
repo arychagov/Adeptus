@@ -18,7 +18,7 @@
     <target rangeMax="2"/>
     <traits>
         <trait name="HeavyWeapon"/>
-        <trait name="Pinning"/>
+        <trait name="IgnoresCover"/>
         <trait name="ApocalypticBlast"/>
         <trait name="ChaosSpaceMarines/BoltDamage"
                requiredUpgrade="ChaosSpaceMarines/BoltDamage"/>
