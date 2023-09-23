@@ -853,13 +853,13 @@
                     </conditions>
                     <effects>
                         <addTrait name="SistersOfBattle/UsedSacredRite2"
-                                  duration="3"/>
+                                  duration="1"/>
                     </effects>
                 </modifier>
                 <modifier>
                     <effects>
                         <addTrait name="SistersOfBattle/UsedSacredRite"
-                                  duration="3"/>
+                                  duration="1"/>
                     </effects>
                 </modifier>
             </playerModifiers>
