@@ -804,7 +804,7 @@
             </playerModifiers>
         </tactic>
         <tactic name="SistersOfBattle/SacralVigor"
-                cooldown="3"
+                cooldown="1"
                 durationInSeconds="0.1"
                 icon="Actions/SistersOfBattle/SacralVigor"
                 interfaceSound="Interface/SacralVigor"
