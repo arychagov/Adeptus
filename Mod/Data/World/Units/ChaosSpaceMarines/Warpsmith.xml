@@ -228,8 +228,8 @@
             <modifiers>
                 <modifier>
                     <effects>
-                        <attacks mulMax="3"
-                                 mulMin="1"/>
+                        <attacks mulMax="1"
+                                 mulMin="0.5"/>
                     </effects>
                 </modifier>
             </modifiers>

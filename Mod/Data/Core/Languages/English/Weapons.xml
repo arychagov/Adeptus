@@ -72,4 +72,8 @@
            value="Defiler Missile Launcher"/>
     <entry name="DefilerRocketLauncher"
            value="Defiler Rocket Launcher"/>
+    <entry name="LascannonDevastatorSpaceMarine"
+           value="Lascannon"/>
+    <entry name="LascannonDevastatorSpaceMarineFlavor"
+           value="<string name='Weapons/Lascannon'/>"/>
 </language>
