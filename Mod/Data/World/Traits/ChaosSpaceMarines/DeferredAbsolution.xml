@@ -7,7 +7,10 @@
                 <unit>
                     <allied/>
                     <faction name="ChaosSpaceMarines"/>
-                    <trait name="Vehicle" />
+                </unit>
+                <unit match="Any">
+                    <trait name="Vehicle"/>
+                    <trait name="Fortification"/>
                 </unit>
             </conditions>
             <effects>

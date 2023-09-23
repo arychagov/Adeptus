@@ -2,6 +2,11 @@
 <trait category="Debuff">
     <modifiers>
         <modifier>
+            <conditions>
+                <unit>
+                    <noType name="ChaosSpaceMarines/Warpsmith"/>
+                </unit>
+            </conditions>
             <effects>
                 <accuracy add="-2"/>
             </effects>

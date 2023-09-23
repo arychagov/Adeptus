@@ -110,6 +110,8 @@
         </hammerOfWrath>
     </actions>
     <traits>
+        <trait name="Daemonic"/>
+        <trait name="ItWillNotDie"/>
         <trait name="Flail"/>
         <trait name="ExtraVehicleArmour"
                requiredUpgrade="ChaosSpaceMarines/ExtraVehicleArmour"/>

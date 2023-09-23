@@ -158,6 +158,8 @@
            value="Grants heroes ability to immediately come back to life after dying."/>
     <entry name="ChaosSpaceMarines/BlessedChampionsFlavor"
            value="While many warbands of Heretic Astartes have grown to rival entire Chapters of loyalist Space Marines in size, most began as a core of ruthless followers led by their powerful champion. Such individuals draw more and more warriors to their service as their influence expands, their dread reputation for destruction becoming more storied as their warband grows in notoriety and power."/>
+    <entry name="ChaosSpaceMarines/DirgeCasterDescription"
+           value="Grants Chaos Rhinos, Maulerfiends and Chaos Land Raiders the ability to prevent overwatch attacks."/>
     <entry name="ChaosSpaceMarines/StimulatedByPain"
            value="Stimulated By Pain"/>
     <entry name="ChaosSpaceMarines/StimulatedByPainDescription"
@@ -183,7 +185,7 @@
     <entry name="ChaosSpaceMarines/BelieversOfTheTrueFaithFlavor"
            value="Though each selfishly sees faith as an easy route to power in on uncaring galaxy, these mortals are zealous worshippers brimming with hate."/>
     <entry name="ChaosSpaceMarines/DarkDiscipleDescription"
-           value="Increases resource cost of Chaos Cultists and grants ability to increase the invulnerable damage reduction of adjacent allied Chaos units."/>
+           value="Grants Chaos Cultists ability to increase the invulnerable damage reduction of adjacent allied Chaos vehicles and fortifications."/>
     <entry name="ChaosSpaceMarines/GiftOfMutationDescription"
            value="Increases chance of infantry units to randomly receive unlocked Boon of Chaos on enemy kill."/>
 

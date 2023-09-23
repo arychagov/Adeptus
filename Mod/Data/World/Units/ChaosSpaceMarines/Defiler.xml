@@ -200,27 +200,6 @@
                 </selfTarget>
             </beginTargets>
         </hammerOfWrath>
-        <genericUnitAbility name="ChaosSpaceMarines/DirgeCaster"
-                            passive="1"
-                            requiredUpgrade="ChaosSpaceMarines/DirgeCaster">
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Tile"
-                              excludeRadius="0"
-                              radius="1">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="ChaosSpaceMarines/DirgeCaster"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-        </genericUnitAbility>
         <daemonforge name="ChaosSpaceMarines/Daemonforge"
                      consumedActionPoints="0"
                      consumedMovement="0"

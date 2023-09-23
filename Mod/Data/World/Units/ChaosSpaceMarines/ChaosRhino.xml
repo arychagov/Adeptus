@@ -23,7 +23,7 @@
             </model>
         </weapon>
         <weapon name="HavocLauncher"
-                requiredUpgrade="ChaosSpaceMarines/BlastDamageDescription">
+                requiredUpgrade="ChaosSpaceMarines/BlastDamage">
             <model>
                 <missileWeapon bone="Bone001"
                                material="Units/ChaosSpaceMarines/ChaosRhino"

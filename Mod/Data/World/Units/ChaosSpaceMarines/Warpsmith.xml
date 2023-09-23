@@ -128,7 +128,7 @@
                     <areas>
                         <area affects="Tile"
                               excludeRadius="0"
-                              radius="1">
+                              radius="2">
                             <modifiers>
                                 <modifier>
                                     <effects>
@@ -311,5 +311,6 @@
                requiredUpgrade="ChaosSpaceMarines/VeteransOfTheLongWar"/>
         <trait name="ChaosSpaceMarines/StimulatedByPain"
                requiredUpgrade="ChaosSpaceMarines/StimulatedByPain"/>
+        <trait name="Relentless"/>
     </traits>
 </unit>

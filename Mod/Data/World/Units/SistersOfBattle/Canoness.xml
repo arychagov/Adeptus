@@ -173,6 +173,7 @@
                                     <conditions>
                                         <unit>
                                             <allied/>
+                                            <faction name="SistersOfBattle"/>
                                         </unit>
                                     </conditions>
                                     <effects>

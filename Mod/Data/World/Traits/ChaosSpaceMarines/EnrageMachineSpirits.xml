@@ -6,11 +6,8 @@
             <conditions>
                 <unit>
                     <allied/>
-                </unit>
-                <unit match="Any">
-                    <type name="ChaosSpaceMarines/Maulerfiend"/>
-                    <type name="ChaosSpaceMarines/Forgefiend"/>
-                    <type name="ChaosSpaceMarines/Heldrake"/>
+                    <faction name="ChaosSpaceMarines"/>
+                    <trait name="Vehicle"/>
                 </unit>
             </conditions>
             <effects>

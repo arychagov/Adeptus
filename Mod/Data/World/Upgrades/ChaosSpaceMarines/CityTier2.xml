@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade icon="Upgrades/CityTier2"
-         position="5">
+         position="5" visible="0">
     <strategyModifiers>
         <modifier>
             <effects>

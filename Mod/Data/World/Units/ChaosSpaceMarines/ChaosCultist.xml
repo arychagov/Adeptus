@@ -49,14 +49,6 @@
                 <oreCost base="10.0"/> <!-- %oreCost base tier=4 factor=0.5 -->
             </effects>
         </modifier>
-        <modifier requiredUpgrade="ChaosSpaceMarines/DarkDisciple"
-                  visible="0">
-            <effects>
-                <foodCost add="5"/>
-                <oreCost add="5"/>
-                <foodUpkeep add="0.5"/>
-            </effects>
-        </modifier>
         <modifier requiredUpgrade="ChaosSpaceMarines/BelieversOfTheTrueFaith"
                   visible="0">
             <effects>
