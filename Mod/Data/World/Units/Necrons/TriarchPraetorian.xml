@@ -209,7 +209,7 @@
                     <areas>
                         <area affects="Unit">
                             <modifiers>
-                                <modifier>
+                                <modifier requiredUpgrade="Necrons/Translocation">
                                     <effects>
                                         <addTrait name="Infiltrate"
                                                   duration="1"/>

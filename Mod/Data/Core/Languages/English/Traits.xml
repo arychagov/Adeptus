@@ -254,6 +254,12 @@
            value="<string name='Actions/ChaosSpaceMarines/LordOfChaosFlavor'/>"/>
     <entry name="ChaosSpaceMarines/MarkOfTzeentchDescription"
            value="Decreases the morale of opponent on attack."/>
+    <entry name="ChaosSpaceMarines/NurgleBlessing"
+           value="Nurgle's Blessing"/>
+    <entry name="ChaosSpaceMarines/NurgleBlessingDescription"
+           value="Increases the armour."/>
+    <entry name="ChaosSpaceMarines/NurgleBlessingFlavor"
+           value="Grandfather Nurgle bestows daemonic fecundity upon his faithful servants, sealing their gaping wounds with pulsating growths and replacing their spilt blood with curdling ichor."/>
     <entry name="ChaosSpaceMarines/NurgleCorruption"
            value="Nurgle Corruption"/>
     <entry name="ChaosSpaceMarines/NurgleCorruptionDescription"

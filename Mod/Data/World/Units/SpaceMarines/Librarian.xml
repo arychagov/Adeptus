@@ -53,8 +53,8 @@
                 <energyCost base="20.0"/> <!-- %energyCost base tier=6 factor=0.5 -->
                 <hitpointsMax base="9.0"/>
                 <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=4 wounds=3 -->
-                <influenceUpkeep base="4.0"/> <!-- %influenceUpkeep base tier=6 factor=2 -->
-                <influenceCost base="80.0"/> <!-- %influenceCost base tier=6 factor=2 -->
+                <influenceUpkeep base="6.0"/> <!-- %influenceUpkeep base tier=6 factor=2 -->
+                <influenceCost base="120.0"/> <!-- %influenceCost base tier=6 factor=2 -->
                 <itemSlots base="6"/>
                 <levelMax base="9"/>
                 <meleeAccuracy base="10"/> <!-- %meleeAccuracy base weaponSkill=5 -->
@@ -65,7 +65,7 @@
                 <movementMax base="3"/>
                 <productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
                 <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
-                <requisitionsCost base="20.0"/> <!-- %requisitionsCost base tier=6 factor=0.5 -->
+                <requisitionsCost base="60.0"/> <!-- %requisitionsCost base tier=6 factor=0.5 -->
             </effects>
         </modifier>
     </modifiers>

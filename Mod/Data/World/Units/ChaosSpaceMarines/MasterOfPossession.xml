@@ -43,8 +43,8 @@
                 <armor base="8"/> <!-- %armor base armor=3+ -->
                 <hitpointsMax base="9.0"/>
                 <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=4 wounds=3 -->
-                <influenceUpkeep base="6.0"/> <!-- %influenceUpkeep base tier=7 factor=2 -->
-                <influenceCost base="120.0"/> <!-- %influenceCost base tier=7 factor=2 -->
+                <influenceUpkeep base="4.0"/> <!-- %influenceUpkeep base tier=7 factor=2 -->
+                <influenceCost base="80.0"/> <!-- %influenceCost base tier=7 factor=2 -->
                 <itemSlots base="6"/>
                 <levelMax base="9"/>
                 <meleeAccuracy base="10"/> <!-- %meleeAccuracy base weaponSkill=5 -->
@@ -55,9 +55,9 @@
                 <movementMax base="3"/>
                 <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
                 <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
-                <energyUpkeep base="3.0"/> <!-- %energyUpkeep base tier=7 factor=1 -->
-                <energyCost base="30.0"/> <!-- %energyCost base tier=7 factor=0.5 -->
-                <foodCost base="30.0"/> <!-- %foodCost base tier=7 factor=0.5 -->
+                <energyUpkeep base="2.0"/> <!-- %energyUpkeep base tier=7 factor=1 -->
+                <energyCost base="20.0"/> <!-- %energyCost base tier=7 factor=0.5 -->
+                <foodCost base="20.0"/> <!-- %foodCost base tier=7 factor=0.5 -->
             </effects>
         </modifier>
     </modifiers>
@@ -118,6 +118,27 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
+        <genericUnitAbility name="ChaosSpaceMarines/NurgleBlessing"
+                            icon="Actions/ChaosSpaceMarines/MarkOfNurgle"
+                            passive="1">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="2">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="ChaosSpaceMarines/NurgleBlessing"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
         <boonOfMutation name="ChaosSpaceMarines/BoonOfMutation"
                         cooldownMax="2"
                         cooldownMin="4"

@@ -231,6 +231,12 @@
            value="Imbues attacks with hell fire that applies damage over time debuff to the attacked enemy."/>
     <entry name="ChaosSpaceMarines/MaliciousFireFlavor"
            value="To a warrior of the Heretic Astartes the boltgun is far more than a weapon - it is a symbol of his anger, the instrument of his vengeance and the bringer of death to his foes."/>
+    <entry name="ChaosSpaceMarines/NurgleBlessing"
+           value="Nurgle's Blessing"/>
+    <entry name="ChaosSpaceMarines/NurgleBlessingDescription"
+           value="Increases the armour of nearby Chaos Cultists and Chaos Spawns."/>
+    <entry name="ChaosSpaceMarines/NurgleBlessingFlavor"
+           value="Grandfather Nurgle bestows daemonic fecundity upon his faithful servants, sealing their gaping wounds with pulsating growths and replacing their spilt blood with curdling ichor."/>
 
     <entry name="CreateSmokeScreenDescription"
            value="Decreases opponent's ranged accuracy."/>

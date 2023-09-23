@@ -70,11 +70,13 @@
         <modifier requiredUpgrade="ChaosSpaceMarines/CityTier3">
             <conditions>
                 <unit>
-                    <enemy/>
+                    <noTrait name="Fortification"/>
                 </unit>
             </conditions>
             <effects>
-                <weaponDamage weapon="SoulBlaze"/>
+                <hitpointsFactorFromMax add="-0.1"/>
+                <lifeStealFactor max="0.0"/>
+                <healingRate mul="-1.0"/>
             </effects>
         </modifier>
     </perTurnModifiers>

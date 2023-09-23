@@ -111,8 +111,8 @@
             <modifiers>
                 <modifier visible="0">
                     <effects>
-                        <influenceCost base="80"/>
-                        <oreCost base="80"/>
+                        <influenceCost base="60"/>
+                        <oreCost base="60"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="ChaosSpaceMarines/ChaosRising">

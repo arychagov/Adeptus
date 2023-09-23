@@ -132,7 +132,10 @@
             </beginTargets>
         </necrodermisRepair>
         <blessingsOfTheOmnissiah name="Necrons/RepairBarge"
-                                 cooldown="1">
+                                 consumedActionPoints="0"
+                                 consumedMovement="0"
+                                 cooldown="1"
+                                 requiredActionPoints="0">
             <model>
                 <action animation="Units/Necrons/GhostArkAbility"
                         sound="Actions/RepairBarge"/>
