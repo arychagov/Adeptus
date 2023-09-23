@@ -177,7 +177,7 @@
     <entry name="ChaosSpaceMarines/TheBlackCitadelFlavor"
            value="Bound to the will of their master, Abaddon the Despoiler, the Black Legion are a dread blight upon the galaxy and amongst the gravest threats to the Imperium."/>
     <entry name="ChaosSpaceMarines/WarpflameGargoylesDescription"
-           value="Grants damage over time to Chaos Rhino, Venomcrawler, Defiler and Chaos Land Raider weapons and the accuracy debuff from attacks."/>
+           value="Grants Chaos Rhino, Forgefiend, Venomcrawler, Defiler and Chaos Land Raider ability to temporary imbue attacks with damage over time debuff and adds the accuracy debuff from attacks."/>
     <entry name="ChaosSpaceMarines/BelieversOfTheTrueFaith"
            value="Believers Of The True Faith"/>
     <entry name="ChaosSpaceMarines/BelieversOfTheTrueFaithDescription"

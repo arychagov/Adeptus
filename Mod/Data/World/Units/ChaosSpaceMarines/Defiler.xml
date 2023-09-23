@@ -251,6 +251,38 @@
                 </selfTarget>
             </beginTargets>
         </createSmokeScreen>
+        <genericUnitAbility name="ChaosSpaceMarines/MaliciousFire"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="5"
+                            icon="Traits/SoulBlaze"
+                            requiredActionPoints="0"
+                            requiredUpgrade="ChaosSpaceMarines/WarpflameGargoyles">
+            <model>
+                <action sound="Actions/ChargeUp"/>
+            </model>
+            <conditions>
+                <unit>
+                    <notAttackedThisTurn/>
+                </unit>
+            </conditions>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="ChaosSpaceMarines/HellFireSelf"
+                                                  duration="1"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
     </actions>
     <traits>
         <trait name="Daemon"/>
@@ -259,8 +291,6 @@
         <trait name="Fleet"/>
         <trait name="ItWillNotDie"/>
         <trait name="Dimmer"
-               requiredUpgrade="ChaosSpaceMarines/WarpflameGargoyles"/>
-        <trait name="SoulBlaze"
                requiredUpgrade="ChaosSpaceMarines/WarpflameGargoyles"/>
         <trait name="Vehicle"/>
         <trait name="ChaosVehicle"/>

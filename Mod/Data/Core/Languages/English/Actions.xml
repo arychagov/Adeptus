@@ -224,9 +224,16 @@
            value="Increases the accuracy of adjacent allied Heldrakes, Forgefiends and Maulerfiends."/>
     <entry name="ChaosSpaceMarines/EnrageMachineSpiritsFlavor"
            value="No armour is safe from the guns of the IV Legion, and once an enemy war engine is marked for destruction, its doomed is sealed."/>
+
+    <entry name="ChaosSpaceMarines/MaliciousFire"
+           value="Malicious Fire"/>
+    <entry name="ChaosSpaceMarines/MaliciousFireDescription"
+           value="Imbues attacks with hell fire that applies damage over time debuff to the attacked enemy."/>
+    <entry name="ChaosSpaceMarines/MaliciousFireFlavor"
+           value="To a warrior of the Heretic Astartes the boltgun is far more than a weapon - it is a symbol of his anger, the instrument of his vengeance and the bringer of death to his foes."/>
+
     <entry name="CreateSmokeScreenDescription"
            value="Decreases opponent's ranged accuracy."/>
-
     <entry name="Eldar/ActivateWebwayGateDescription"
            value="Activates and claims a neutral Webway Gate. Must be within 3 tiles of friendly Eldar unit."/>
     <entry name="Eldar/DoomDescription"
