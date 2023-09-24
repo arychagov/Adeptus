@@ -140,6 +140,11 @@
                 <action animation="Units/Necrons/GhostArkAbility"
                         sound="Actions/RepairBarge"/>
             </model>
+            <conditions>
+                <unit>
+                    <noTrait name="Necrons/UpgradedGaussFlayerArray"/>
+                </unit>
+            </conditions>
             <modifiers>
                 <modifier visible="0">
                     <effects>

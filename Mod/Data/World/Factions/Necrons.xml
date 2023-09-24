@@ -444,8 +444,6 @@
                                         <addTrait name="Necrons/UpgradedGaussFlayerArray"/>
                                         <addTrait name="Exhausted"
                                                   duration="1"/>
-                                        <removeTrait name="Transport"/>
-                                        <addTrait name="Untransport"/>
                                     </effects>
                                 </modifier>
                                 <modifier visible="0">

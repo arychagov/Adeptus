@@ -5,6 +5,7 @@
         <modifier>
             <effects>
                 <rangedAttacks add="4"/>
+                <movementMax add="-1"/>
             </effects>
         </modifier>
     </modifiers>
