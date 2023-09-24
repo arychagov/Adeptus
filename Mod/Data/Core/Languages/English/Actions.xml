@@ -293,7 +293,7 @@
     <entry name="Necrons/InstallAssaultSystem"
            value="Install Assault System"/>
     <entry name="Necrons/InstallAssaultSystemDescription"
-           value="Grants Ghost Ark ability for disembarking units to not consume movement."/>
+           value="Grants Ghost Ark ability for disembarking units to not consume movement.<br/><br/><string name='Actions/UpgradeDisclaimer'/>"/>
     <entry name="Necrons/JudgementOfTheTriarch"
            value="<string name='Traits/Necrons/JudgementOfTheTriarch'/>"/>
     <entry name="Necrons/JudgementOfTheTriarchDescription"

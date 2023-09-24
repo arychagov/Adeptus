@@ -368,7 +368,7 @@
     </quests>
     <actions>
         <installSupportSystem name="Necrons/InstallAssaultSystem"
-                              cooldown="0"
+                              cooldown="1"
                               icon="Actions/Necrons/InstallAssaultSystem"
                               requiredUpgrade="Necrons/GhostProtocol">
             <modifiers>
@@ -411,9 +411,12 @@
                     </areas>
                 </target>
             </beginTargets>
+            <sharedCooldowns>
+                <action name="Necrons/UpgradeGaussFlayerArray"/>
+            </sharedCooldowns>
         </installSupportSystem>
         <installSupportSystem name="Necrons/UpgradeGaussFlayerArray"
-                              cooldown="0"
+                              cooldown="1"
                               icon="Actions/Necrons/UpgradeGaussFlayerArray"
                               requiredUpgrade="Necrons/GhostProtocol">
             <modifiers>
@@ -457,6 +460,9 @@
                     </areas>
                 </target>
             </beginTargets>
+            <sharedCooldowns>
+                <action name="Necrons/InstallAssaultSystem"/>
+            </sharedCooldowns>
         </installSupportSystem>
     </actions>
     <startingUnits>
