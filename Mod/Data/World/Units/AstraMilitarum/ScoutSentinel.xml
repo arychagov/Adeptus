@@ -42,8 +42,9 @@
                 <oreCost base="30.0"/> <!-- %oreCost base tier=6 factor=1 -->
                 <moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
                 <movementMax base="3"/>
-                <productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
-                <rangedAccuracy base="7"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <productionCost base="30.0"/> <!-- %productionCost base tier=6 factor=1 -->
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <rangedDamage add="1"/>
             </effects>
         </modifier>
     </modifiers>

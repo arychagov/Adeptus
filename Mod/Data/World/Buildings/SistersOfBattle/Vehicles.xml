@@ -34,6 +34,8 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="SistersOfBattle/Immolator"/>
+        <produceUnit requiredUpgrade="SistersOfBattle/Hospitaller"
+                     unit="SistersOfBattle/Hospitaller"/>
         <produceUnit requiredUpgrade="SistersOfBattle/Mortifier"
                      unit="SistersOfBattle/Mortifier"/>
         <produceUnit requiredUpgrade="SistersOfBattle/Castigator"

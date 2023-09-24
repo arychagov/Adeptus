@@ -5,6 +5,7 @@
     <modifiers>
         <modifier>
             <effects>
+                <moraleMax add="99" max="99"/>
                 <moraleRegeneration max="0"/>
             </effects>
         </modifier>

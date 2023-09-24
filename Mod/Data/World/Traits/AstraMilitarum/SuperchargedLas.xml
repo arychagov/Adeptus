@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1"
+       category="Buff"
+       icon="Weapons/HotShotLasgun">
+    <modifiers>
+        <modifier>
+            <effects>
+                <rangedAttacks mul="-0.5"/>
+                <damage mul="3"/>
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>

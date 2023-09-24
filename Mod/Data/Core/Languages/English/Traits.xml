@@ -69,7 +69,7 @@
     <entry name="AstraMilitarum/BattleHonour"
            value="Battle Honour"/>
     <entry name="AstraMilitarum/BattleHonourDescription"
-           value="Increases the experience gain rate."/>
+           value="Increases the experience gain rate. Regenerates the morale each turn."/>
     <entry name="AstraMilitarum/BoltDamage"
            value="The Emperor's Benediction"/>
     <entry name="AstraMilitarum/BoltDamageDescription"
@@ -156,6 +156,12 @@
            value="Shock Troops"/>
     <entry name="AstraMilitarum/ShockTroopsDescription"
            value="Increases the attacks while near allied Tempestus Scions, heroes, Imperial Bastions or cities."/>
+    <entry name="AstraMilitarum/SuperchargedLas"
+           value="Supercharged Las"/>
+    <entry name="AstraMilitarum/SuperchargedLasDescription"
+           value="Increases the damage of hot shot lasguns, but removes rapid fire."/>
+    <entry name="AstraMilitarum/SuperchargedLasFlavor"
+           value="With advanced cell shielding - and said to harbour bellicose spirits - hot-shot lasguns can be temporarily overcharged to deadly effect."/>
     <entry name="AstraMilitarum/UpgradedLascannon"
            value="Upgraded Lascannon"/>
     <entry name="AstraMilitarum/UpgradedLascannonDescription"
@@ -1016,7 +1022,7 @@
     <entry name="Rapid"
            value="Rapid"/>
     <entry name="RapidDescription"
-           value="Treats shooting with rapid fire weapons as if in half range."/>
+           value="Doubles the attacks at half range."/>
     <entry name="SupportHero"
            value="Support"/>
     <entry name="SupportHeroDescription"

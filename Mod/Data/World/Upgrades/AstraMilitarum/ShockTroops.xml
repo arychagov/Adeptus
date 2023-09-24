@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade icon="Units/AstraMilitarum/Guardsman"
-         position="4">
+         position="5">
     <strategyModifiers>
         <modifier>
             <effects>

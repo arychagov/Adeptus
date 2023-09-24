@@ -7,10 +7,11 @@
                 <unit>
                     <allied/>
                     <faction name="Necrons"/>
-                    <noTrait name="Fortification"/>
-                    <noTrait name="Vehicle"/>
-                    <noTrait name="MonstrousCreature"/>
-                    <noTrait name="Hero"/>
+                </unit>
+                <unit match="Any">
+                    <type name="Necrons/HeavyDestroyer"/>
+                    <type name="Necrons/Deathmark"/>
+                    <type name="Necrons/Warrior"/>
                 </unit>
             </conditions>
             <effects>

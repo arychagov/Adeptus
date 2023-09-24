@@ -5,10 +5,10 @@
     <modifiers>
         <modifier>
             <conditions>
-                <weapon>
-                    <trait name="RapidFire"/>
-                </weapon>
-                <encounterRange greater="1"/>
+                <unit>
+                    <noTrait name="AstraMilitarum/SuperchargedLas"/>
+                </unit>
+                <encounterRange equal="1"/>
             </conditions>
             <effects>
                 <rangedAttacks mul="1"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade icon="Actions/AstraMilitarumFoodEdict"
-         position="5">
+         position="4">
     <strategyModifiers>
         <modifier>
             <effects>

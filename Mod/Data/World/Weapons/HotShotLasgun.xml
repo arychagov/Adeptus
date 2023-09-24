@@ -22,6 +22,5 @@
                requiredUpgrade="ChaosSpaceMarines/LasDamage"/>
         <trait name="SpaceMarines/LasDamage"
                requiredUpgrade="SpaceMarines/BlastDamage"/>
-        <trait name="RapidFire"/>
     </traits>
 </weapon>

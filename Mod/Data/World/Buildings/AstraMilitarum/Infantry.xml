@@ -34,6 +34,8 @@
     </strategyModifiers>
     <actions>
         <produceUnit unit="AstraMilitarum/Guardsman"/>
+        <produceUnit requiredUpgrade="AstraMilitarum/TechpriestEnginseer"
+                     unit="AstraMilitarum/TechpriestEnginseer"/>
         <produceUnit requiredUpgrade="AstraMilitarum/Ratling"
                      unit="AstraMilitarum/Ratling"/>
         <produceUnit requiredUpgrade="AstraMilitarum/HeavyWeaponsSquad"

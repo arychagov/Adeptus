@@ -102,7 +102,7 @@
     <entry name="AstraMilitarum/ShockTroops"
            value="Shock Troops"/>
     <entry name="AstraMilitarum/ShockTroopsDescription"
-           value="Increases the attacks of Guardsmen in presence of Tempestus Scions, heroes, Imperial Bastions or cities."/>
+           value="Increases the attacks of Guardsmen in presence of Tempestus Scions, heroes, Imperial Bastions or cities. Grants Tempestus Scions ability to fire anti-tank weapon."/>
     <entry name="AstraMilitarum/SmokeLauncher"
            value="Smoke Launcher / Dozer Blade"/>
     <entry name="AstraMilitarum/SmokeLauncherDescription"

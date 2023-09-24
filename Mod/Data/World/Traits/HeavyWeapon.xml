@@ -10,10 +10,23 @@
                     <noTrait name="Relentless"/>
                     <noTrait name="SlowAndPurposeful"/>
                     <noTrait name="Vehicle"/>
+                    <noType name="AstraMilitarum/HeavyWeaponsSquad"/>
                 </unit>
             </conditions>
             <effects>
                 <accuracy mul="-0.5"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <movedThisTurn/>
+                    <noTrait name="Relentless"/>
+                    <type name="AstraMilitarum/HeavyWeaponsSquad"/>
+                </unit>
+            </conditions>
+            <effects>
+                <accuracy add="-2"/>
             </effects>
         </modifier>
     </modifiers>

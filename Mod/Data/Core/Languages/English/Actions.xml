@@ -105,6 +105,12 @@
            value="Senior Officer"/>
     <entry name="AstraMilitarum/SeniorOfficerValkyrieDescription"
            value="Increases the accuracy of nearby allied Tempestus Scions."/>
+    <entry name="AstraMilitarum/SuperchargedLas"
+           value="Supercharged Las"/>
+    <entry name="AstraMilitarum/SuperchargedLasDescription"
+           value="Increases the damage of hot shot lasguns, but removes rapid fire."/>
+    <entry name="AstraMilitarum/SuperchargedLasFlavor"
+           value="With advanced cell shielding - and said to harbour bellicose spirits - hot-shot lasguns can be temporarily overcharged to deadly effect."/>
     <entry name="AstraMilitarum/UpgradeLascannon"
            value="Upgrade Lascannon"/>
     <entry name="AstraMilitarum/UpgradeLascannonDescription"
@@ -297,7 +303,7 @@
     <entry name="Necrons/MethodicalDestruction"
            value="<string name='Traits/Necrons/MethodicalDestruction'/>"/>
     <entry name="Necrons/MethodicalDestructionDescription"
-           value="Increases the accuracy of the Lord and adjacent allied Necrons infantry."/>
+           value="Increases the accuracy of the Lord and nearby allied Necron Warriors, Heavy Destroyers and Deathmarks."/>
     <entry name="Necrons/MethodicalDestructionFlavor"
            value="<string name='Traits/Necrons/MethodicalDestructionFlavor'/>"/>
     <entry name="Necrons/OverchargeQuantumShielding"
