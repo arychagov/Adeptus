@@ -211,7 +211,7 @@
         </awakenTheMachine>
         <constructImperialStrongpoint cooldown="10"
                                       icon="Units/AstraMilitarum/ImperialStrongpoint"
-                                      requiredUpgrade="AstraMilitarum/ImperialStrongpoint">
+                                      requiredUpgrade="AstraMilitarum/Construction">
             <model>
                 <action animation="Units/AstraMilitarum/TechpriestEnginseerBuild"
                         sound="Actions/Construct"/>

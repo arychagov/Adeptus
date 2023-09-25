@@ -220,19 +220,22 @@
             </beginTargets>
         </jetCharge>
         <bloodyCrusade name="Necrons/BloodyCrusade"
+                       cooldown="5"
                        levelUpPriority="0.1"
-                       passive="1"
                        rank="-1"
                        rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile"
+                        <area affects="Unit"
+                              excludeRadius="0"
                               radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Necrons/BloodyCrusade"/>
+                                        <addTrait name="Necrons/BloodyCrusade"
+                                                  durationMax="3"
+                                                  durationMin="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -242,13 +245,10 @@
             </beginTargets>
         </bloodyCrusade>
         <destructionProtocols name="Necrons/DestructionProtocols"
-                              consumedActionPoints="0"
-                              consumedMovement="0"
-                              cooldown="5"
                               levelUpPriority="0.1"
                               rank="-1"
                               rankMax="2"
-                              requiredActionPoints="0">
+                              passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>

@@ -539,8 +539,6 @@
                 </target>
             </beginTargets>
             <sharedCooldowns>
-                <action name="AstraMilitarum/AdditionalFlamer"/>
-                <action name="AstraMilitarum/AdditionalMeltagun"/>
                 <action name="AstraMilitarum/AdditionalHeavyBolters"/>
                 <action name="AstraMilitarum/UpgradeOppressorCannon"/>
                 <action name="AstraMilitarum/UpgradeLascannon"/>
@@ -597,8 +595,6 @@
             </beginTargets>
             <sharedCooldowns>
                 <action name="AstraMilitarum/DeployVoidShieldGenerator"/>
-                <action name="AstraMilitarum/AdditionalFlamer"/>
-                <action name="AstraMilitarum/AdditionalMeltagun"/>
                 <action name="AstraMilitarum/UpgradeOppressorCannon"/>
                 <action name="AstraMilitarum/UpgradeLascannon"/>
             </sharedCooldowns>
@@ -649,8 +645,6 @@
             </beginTargets>
             <sharedCooldowns>
                 <action name="AstraMilitarum/DeployVoidShieldGenerator"/>
-                <action name="AstraMilitarum/AdditionalFlamer"/>
-                <action name="AstraMilitarum/AdditionalMeltagun"/>
                 <action name="AstraMilitarum/AdditionalHeavyBolters"/>
                 <action name="AstraMilitarum/UpgradeLascannon"/>
             </sharedCooldowns>
@@ -701,8 +695,6 @@
             </beginTargets>
             <sharedCooldowns>
                 <action name="AstraMilitarum/DeployVoidShieldGenerator"/>
-                <action name="AstraMilitarum/AdditionalFlamer"/>
-                <action name="AstraMilitarum/AdditionalMeltagun"/>
                 <action name="AstraMilitarum/AdditionalHeavyBolters"/>
                 <action name="AstraMilitarum/UpgradeOppressorCannon"/>
             </sharedCooldowns>

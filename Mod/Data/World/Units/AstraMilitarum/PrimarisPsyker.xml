@@ -56,7 +56,7 @@
                 <energyUpkeep base="1.5"/> <!-- %energyUpkeep base tier=5 factor=1 -->
                 <energyCost base="15.0"/> <!-- %energyCost base tier=5 factor=0.5 -->
                 <foodCost base="15.0"/> <!-- %foodCost base tier=5 factor=0.5 -->
-                <hitpointsMax base="7.0"/>
+                <hitpointsMax base="10.0"/>
                 <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
                 <influenceUpkeep base="3.0"/> <!-- %influenceUpkeep base tier=5 factor=2 -->
                 <influenceCost base="60.0"/> <!-- %influenceCost base tier=5 factor=2 -->
@@ -117,7 +117,12 @@
                         soundCount="4"/>
             </model>
         </move>
-
+        <jumpPack cooldown="3">
+            <model>
+                <action animation="Units/AstraMilitarum/PrimarisPsykerMove"
+                        sound="Actions/JumpPack"/>
+            </model>
+        </jumpPack>
         <genericUnitAbility name="AstraMilitarum/Nightshroud"
                             consumedMovement="0"
                             cooldown="1"
@@ -138,9 +143,6 @@
                         <unit>
                             <allied/>
                             <faction name="AstraMilitarum"/>
-                            <noTrait name="Fortification"/>
-                            <noTrait name="MonstrousCreature"/>
-                            <noTrait name="Vehicle"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -148,8 +150,10 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints addMax="12"
-                                                   addMin="4"/>
+                                        <hitpoints addMax="14"
+                                                   addMin="6"/>
+                                        <addTrait name="AstraMilitarum/Nightshroud"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>

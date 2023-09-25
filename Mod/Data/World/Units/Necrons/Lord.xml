@@ -262,9 +262,6 @@
                     <conditions>
                         <unit>
                             <enemy/>
-                        </unit>
-                        <unit match="Any">
-                            <trait name="Fortification"/>
                             <trait name="Vehicle"/>
                         </unit>
                     </conditions>

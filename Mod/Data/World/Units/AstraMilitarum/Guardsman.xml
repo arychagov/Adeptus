@@ -118,7 +118,6 @@
         </move>
         <genericUnitAbility name="AstraMilitarum/DefendersOfImperium"
                             icon="Units/AstraMilitarum/Guardsman"
-                            requiredUpgrade="AstraMilitarum/DefendersOfImperium"
                             passive="1">
             <beginTargets>
                 <selfTarget>

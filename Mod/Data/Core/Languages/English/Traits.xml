@@ -134,6 +134,12 @@
            value="Grants the ranged damage reduction from attacks from range 2 or higher to nearby allied infantry units and vehicles."/>
     <entry name="AstraMilitarum/InstalledVoidShieldFlavor"
            value="Void shields are normally localised force fields reserved for protecting the monolithic Titans of the Adeptus Mechanicus, but static generators can be erected to serve as an aegis for other targets of vital import. The largest Void Shield generators can even project an invisible bubble of power across a large area of the battlefield, sheltering both troops and strategically vital battlefield locations by absorbing or deflecting the energy of incoming munitions."/>
+    <entry name="AstraMilitarum/Nightshroud"
+           value="Nightshroud"/>
+    <entry name="AstraMilitarum/NightshroudDescription"
+           value="Increases damage reduction."/>
+    <entry name="AstraMilitarum/NightshroudFlavor"
+           value="Calling upon the power of the empyrean, the psyker cloaks their allies in a flowing curtain of shadow, concealing them from the enemy."/>
     <entry name="AstraMilitarum/PowerOfTheMachineSpirit"
            value="<string name='Actions/PowerOfTheMachineSpirit'/>"/>
     <entry name="AstraMilitarum/PowerOfTheMachineSpiritDescription"

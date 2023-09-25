@@ -16,7 +16,7 @@
             <effects>
                 <accuracy addMax="1.5"
                           addMin="0.5"/>
-                <feelNoPainDamageReduction minMax="0.3"
+                <feelNoPainDamageReduction minMax="0.2"
                                            minMin="0.1"/>
             </effects>
         </modifier>

@@ -68,13 +68,9 @@
     <entry name="AstraMilitarum/CommitEverythingFlavor"
            value="The campaign’s senior commander has designated the upcoming battle as so vital that they will funnel all of their resources and assets into securing victory, forgoing frugal logistical management in favour of overwhelming force."/>
     <entry name="AstraMilitarum/Construction"
-           value="Labour Corps / Breeding Licenses"/>
+           value="Monumentalism"/>
     <entry name="AstraMilitarum/ConstructionDescription"
-           value="Building that constructs new buildings as well as generates food and research. Unlocks edict that increases the growth rate of the city."/>
-    <entry name="AstraMilitarum/DefendersOfImperium"
-           value="Defenders Of Imperium"/>
-    <entry name="AstraMilitarum/DefendersOfImperiumDescription"
-           value="Grants Guardsmen aura that reduces the accuracy of ranged attack against adjacent infantry units."/>
+           value="Building that constructs new buildings as well as generates food and research. Unlocks edict that increases the growth rate of the city. Grants Techpriest Enginseers the ability to construct fortifications with Heavy Bolters."/>
     <entry name="AstraMilitarum/DefenseEdictDescription"
            value="Edict that increases the armour of units in the city. Increases Imperial Bastions and cities armor."/>
     <entry name="AstraMilitarum/ImperiumOfMan"
