@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade icon="Weapons/FlechetteDischarger"
-         position="9">
+         position="9"
+         visible="0">
     <requiredUpgrades>
         <upgrade name="Tau/Vehicles"/>
         <upgrade name="Tau/Aircraft"/>
