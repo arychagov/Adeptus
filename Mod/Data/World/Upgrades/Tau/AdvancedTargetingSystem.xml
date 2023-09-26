@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade icon="Actions/Tau/AdvancedTargetingSystem"
-         position="8">
+         position="7">
     <requiredUpgrades>
         <upgrade name="Tau/Vehicles"/>
         <upgrade name="Tau/MonstrousCreatures"/>

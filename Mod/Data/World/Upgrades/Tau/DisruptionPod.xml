@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade icon="Traits/Tau/DisruptionPod"
-         position="10">
+         position="8">
     <requiredUpgrades>
         <upgrade name="Tau/Vehicles"/>
         <upgrade name="Tau/Aircraft"/>
