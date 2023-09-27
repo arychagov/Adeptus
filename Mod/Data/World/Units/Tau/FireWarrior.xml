@@ -110,8 +110,11 @@
             </model>
         </throwGrenade>
         <markerlight name="Tau/Markerlight"
-                     consumedActionPoints="1"
+                     consumedActionPoints="0"
+                     consumedMovement="0"
                      cooldown="1"
+                     requiredActionPoints="0"
+                     requiredMovement="1"
                      requiredUpgrade="Tau/Markerlight">
             <model>
                 <action animation=""

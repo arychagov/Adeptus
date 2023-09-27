@@ -98,6 +98,35 @@
                 </selfTarget>
             </beginTargets>
         </scout>
+        <gravityWaveProjector name="Tau/GravityWaveProjector"
+                              cooldown="1">
+            <model>
+                <action animation=""
+                        sound="Actions/GravityWaveProjector"/>
+            </model>
+            <beginTargets>
+                <target rangeMax="1">
+                    <conditions>
+                        <tile>
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
+                        </tile>
+                    </conditions>
+                    <areas>
+                        <area affects="Tile">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addFeature name="GravityWaves"
+                                                    duration="1"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </gravityWaveProjector>
     </actions>
     <traits>
         <!-- <trait name="Bulky"/> -->

@@ -13,7 +13,6 @@
                 </encounter>
             </conditions>
             <effects>
-                <opponentRangedAccuracy addMin="0" addMax="1"/>
                 <rangedDamageReduction max="0"/>
             </effects>
         </modifier>

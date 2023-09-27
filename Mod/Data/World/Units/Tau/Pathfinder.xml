@@ -133,7 +133,7 @@
             </model>
             <beginTargets>
                 <target lineOfSight="1"
-                        rangeMax="2">
+                        rangeMax="3">
                     <conditions>
                         <unit>
                             <enemy/>
@@ -208,65 +208,7 @@
                     </areas>
                 </target>
             </beginTargets>
-            <sharedCooldowns>
-                <action name="Tau/DeployDrone/Tau/GravInhibitorDrone"/>
-            </sharedCooldowns>
         </deployReconDrone>
-        <deployGravInhibitorDrone name="Tau/DeployDrone"
-                                  consumedActionPoints="0"
-                                  consumedMovement="0"
-                                  cooldown="10"
-                                  requiredActionPoints="0"
-                                  unitType="Tau/GravInhibitorDrone">
-            <model>
-                <action animation=""
-                        sound="Actions/DeployDrone"/>
-            </model>
-            <modifiers>
-                <modifier requiredUpgrade="Tau/DroneController"
-                          visible="0">
-                    <effects>
-                        <cooldown add="-5"/>
-                    </effects>
-                </modifier>
-            </modifiers>
-            <beginTargets>
-                <target rangeMax="1">
-                    <conditions>
-                        <tile>
-                            <noUnit/>
-                            <noFeature name="GravityWaves"/>
-                        </tile>
-                    </conditions>
-                    <areas>
-                        <area affects="Tile">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addUnit name="Tau/GravInhibitorDrone"
-                                                 consumedAction="0"
-                                                 consumedMovement="0"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="Summon"
-                                                  duration="3"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </target>
-            </beginTargets>
-            <sharedCooldowns>
-                <action name="Tau/DeployDrone/Tau/ReconDrone"/>
-            </sharedCooldowns>
-        </deployGravInhibitorDrone>
         <scout consumedActionPoints="0"
                consumedMovement="0"
                cooldown="3"
