@@ -4,7 +4,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <rangedAccuracy add="1"/>
+                <rangedAccuracy add="2"/>
             </effects>
         </modifier>
     </modifiers>
