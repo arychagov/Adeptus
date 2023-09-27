@@ -248,6 +248,32 @@
                 <action name="Tau/DeployDrone/Tau/ShieldDrone"/>
             </sharedCooldowns>
         </deployMarkerDrone>
+        <bondingKnifeRitual name="Tau/BondingKnifeRitual"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="5"
+                            requiredActionPoints="0"
+                            requiredUpgrade="Tau/BondingKnifeRitual">
+            <model>
+                <action bone="ChestBone"
+                        sound="Actions/BondingKnifeRitual"/>
+            </model>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <morale add="100"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </bondingKnifeRitual>
         <senseOfStone name="Tau/SenseOfStone"
                       consumedActionPoints="0"
                       consumedMovement="0"
