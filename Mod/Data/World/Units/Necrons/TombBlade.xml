@@ -35,7 +35,7 @@
                 <strengthDamage base="1.5"/> <!-- %strengthDamage base strength=4 -->
                 <!-- <meleeInitiative base="2"/> -->
                 <moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->
-                <movementMax base="5"/>
+                <movementMax base="4"/>
                 <oreUpkeep base="2.0"/> <!-- %oreUpkeep base tier=6 factor=1 -->
                 <productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
                 <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->

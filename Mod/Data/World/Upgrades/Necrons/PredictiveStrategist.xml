@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="6">
+<upgrade position="6" visible="0">
     <strategyModifiers>
         <modifier>
             <effects>
