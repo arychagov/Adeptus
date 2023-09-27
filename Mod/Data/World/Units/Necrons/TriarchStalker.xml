@@ -31,7 +31,7 @@
         <modifier visible="0">
             <effects>
                 <armor base="7"/> <!-- %armor base armor=11/11/11 -->
-                <energyCost base="60.0"/> <!-- %energyCost base tier=7 factor=1 -->
+                <energyCost base="80.0"/> <!-- %energyCost base tier=7 factor=1 -->
                 <hitpointsMax base="32.0"/>
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=11/11/11 wounds=3 -->
                 <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
@@ -39,7 +39,7 @@
                 <!-- <meleeInitiative base="2"/> -->
                 <moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->
                 <movementMax base="3"/>
-                <oreUpkeep base="3.0"/> <!-- %oreUpkeep base tier=7 factor=1 -->
+                <oreUpkeep base="4.0"/> <!-- %oreUpkeep base tier=7 factor=1 -->
                 <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
                 <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
