@@ -31,6 +31,12 @@
                      unit="Tau/Ethereal"/>
         <produceUnit requiredUpgrade="Tau/Commander"
                      unit="Tau/Commander"/>
+        <produceUnit requiredUpgrade="Tau/CityTier3"
+                     unit="Tau/RazorsharkStrikeFighter"/>
+        <produceUnit requiredUpgrade="Tau/SunSharkBomber"
+                     unit="Tau/SunSharkBomber"/>
+        <produceUnit requiredUpgrade="Tau/TigerShark"
+                     unit="Tau/TigerShark"/>
     </actions>
     <traits>
         <trait name="Tau/UtopiaBonus"

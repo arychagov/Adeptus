@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade dlc="Supplement10"
          icon="Units/Tau/TigerShark"
-         position="9">
-    <requiredUpgrades>
-        <upgrade name="Tau/Aircraft"/>
-    </requiredUpgrades>
-</upgrade>
+         position="9"/>
