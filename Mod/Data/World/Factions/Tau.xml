@@ -433,7 +433,7 @@
                 <action sound="Actions/ForTheGreaterGood"/>
             </model>
             <modifiers>
-                <modifier requiredUpgrade="Tau/ForTheGreaterGoodBonus">
+                <modifier requiredUpgrade="Tau/CityTier2">
                     <effects>
                         <influenceCost mul="-0.33"/>
                     </effects>
