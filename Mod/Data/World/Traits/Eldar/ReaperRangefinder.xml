@@ -10,7 +10,7 @@
                 </encounter>
             </conditions>
             <effects>
-                <rangedDamageReductionBypass add="0.33"/>
+                <rangedDamageReductionBypass add="0.17"/>
             </effects>
         </modifier>
     </modifiers>

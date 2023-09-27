@@ -3,7 +3,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <rangedDamageReductionBypass add="1.0"/>
+                <rangedDamageReductionBypass add="0.15"/>
             </effects>
         </modifier>
     </modifiers>
