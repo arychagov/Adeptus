@@ -128,5 +128,6 @@
         <trait name="OpenTopped"/>
         <trait name="Tank"/>
         <trait name="Vehicle"/>
+        <trait name="AstraMilitarum/Gunner"/>
     </traits>
 </unit>

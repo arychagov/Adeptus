@@ -115,6 +115,7 @@
                                 <modifier>
                                     <effects>
                                         <addTrait name="AstraMilitarum/SeniorOfficerTempestus"/>
+                                        <addTrait name="AstraMilitarum/SeniorOfficerTempestusEnemy"/>
                                     </effects>
                                 </modifier>
                             </modifiers>

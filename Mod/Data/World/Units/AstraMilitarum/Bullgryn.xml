@@ -98,7 +98,26 @@
                         soundCount="4"/>
             </model>
         </move>
-
+        <genericUnitAbility name="AstraMilitarum/SeniorOfficerBullgryn"
+                            icon="Units/AstraMilitarum/Bullgryn"
+                            passive="1">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile"
+                              radius="1">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AstraMilitarum/SeniorOfficerBullgrynEnemy"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
         <hammerOfWrath consumedActionPoints="0"
                        consumedMovement="0"
                        cooldown="3"
