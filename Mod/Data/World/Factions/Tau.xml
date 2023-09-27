@@ -595,7 +595,7 @@
         <purchasePopulation name="Tau/PurchasePopulation"
                             cooldown="1"
                             costScalesWithPace="1"
-                            requiredUpgrade="Tau/PurchasePopulation">
+                            requiredUpgrade="Tau/Construction">
             <model>
                 <action sound="Actions/Proselytise"/>
             </model>

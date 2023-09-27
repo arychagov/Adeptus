@@ -510,6 +510,8 @@
            value="TODO"/>
     <entry name="Tau/ConclaveScreenFlavor"
            value="TODO"/>
+    <entry name="Tau/ConstructionDescription"
+           value="Building that constructs new buildings as well as generates ore, research and influence. Grants the ability to purchase population with influence."/>
     <entry name="Tau/DroneControllerDescription"
            value="Battlesuit support system that increases the accuracy of adjacent drones. Halves cooldown of drone deployment across most Tau units. Grants Cadre's Gun Drone additional Twin-Linked Pulse Carbine."/>
     <entry name="Tau/EmergencyShields"
