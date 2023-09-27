@@ -21,6 +21,6 @@
     <traits>
         <trait name="Blast"/>
         <trait name="Tau/BlastDamage"
-               requiredUpgrade="Tau/BlastDamage"/>
+               requiredUpgrade="Tau/DispruptionPod"/>
     </traits>
 </weapon>

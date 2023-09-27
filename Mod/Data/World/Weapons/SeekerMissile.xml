@@ -19,7 +19,7 @@
     <traits>
         <trait name="HeavyWeapon"/>
         <trait name="Tau/BlastDamage"
-               requiredUpgrade="Tau/BlastDamage"/>
+               requiredUpgrade="Tau/DispruptionPod"/>
         <trait name="SeekerMissile"/>
     </traits>
 </weapon>

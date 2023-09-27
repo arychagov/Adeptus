@@ -20,7 +20,7 @@
         <trait name="IgnoresCover"/>
         <trait name="Homing"/>
         <trait name="Tau/BlastDamage"
-               requiredUpgrade="Tau/BlastDamage"/>
+               requiredUpgrade="Tau/DispruptionPod"/>
         <trait name="TwinLinked"/>
     </traits>
 </weapon>

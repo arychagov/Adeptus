@@ -19,7 +19,7 @@
     <traits>
         <trait name="Assault"/>
         <trait name="Tau/BlastDamage"
-               requiredUpgrade="Tau/BlastDamage"/>
+               requiredUpgrade="Tau/DispruptionPod"/>
         <trait name="TwinLinked"/>
     </traits>
 </weapon>

@@ -24,6 +24,6 @@
         <trait name="LargeBlast"/>
         <trait name="TwinLinked"/>
         <trait name="Tau/BlastDamage"
-               requiredUpgrade="Tau/BlastDamage"/>
+               requiredUpgrade="Tau/DispruptionPod"/>
     </traits>
 </weapon>

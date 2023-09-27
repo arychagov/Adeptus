@@ -26,6 +26,6 @@
         <trait name="Blinding"/>
         <trait name="Grenade"/>
         <trait name="Tau/BlastDamage"
-               requiredUpgrade="Tau/BlastDamage"/>
+               requiredUpgrade="Tau/DispruptionPod"/>
     </traits>
 </weapon>
