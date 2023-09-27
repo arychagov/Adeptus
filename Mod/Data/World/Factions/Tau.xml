@@ -444,15 +444,33 @@
                     <conditions>
                         <unit>
                             <enemy/>
+                        </unit>
+                        <unit match="Any">
                             <moraleMax greater="0"/>
+                            <trait name="Vehicle"/>
                         </unit>
                     </conditions>
                     <areas>
                         <area affects="Unit">
                             <modifiers>
                                 <modifier>
+                                    <conditions>
+                                        <unit>
+                                            <moraleMax greater="0"/>
+                                        </unit>
+                                    </conditions>
                                     <effects>
                                         <morale max="0"/>
+                                    </effects>
+                                </modifier>
+                                <modifier>
+                                    <conditions>
+                                        <unit>
+                                            <trait name="Vehicle"/>
+                                        </unit>
+                                    </conditions>
+                                    <effects>
+                                        <addTrait name="VehicleHeavilyDamaged" duration="2"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
