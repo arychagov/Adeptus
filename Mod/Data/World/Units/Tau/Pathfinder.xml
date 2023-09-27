@@ -125,7 +125,8 @@
                      consumedActionPoints="0"
                      cooldown="1"
                      requiredActionPoints="0"
-                     requiredMovement="1">
+                     requiredMovement="1"
+                     requiredUpgrade="Tau/Markerlight">
             <model>
                 <action animation=""
                         sound="Actions/Markerlight"/>
@@ -146,7 +147,8 @@
                                 <modifier>
                                     <effects>
                                         <addTrait name="Tau/TargetAcquired"
-                                                  duration="1"/>
+                                                  duration="1"
+                                                  rank="0"/>
                                     </effects>
                                 </modifier>
                             </modifiers>

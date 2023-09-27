@@ -111,7 +111,8 @@
         </throwGrenade>
         <markerlight name="Tau/Markerlight"
                      consumedActionPoints="1"
-                     cooldown="1">
+                     cooldown="1"
+                     requiredUpgrade="Tau/Markerlight">
             <model>
                 <action animation=""
                         sound="Actions/Markerlight"/>
@@ -132,7 +133,8 @@
                                 <modifier>
                                     <effects>
                                         <addTrait name="Tau/TargetAcquired"
-                                                  duration="1"/>
+                                                  duration="1"
+                                                  rank="0"/>
                                     </effects>
                                 </modifier>
                             </modifiers>

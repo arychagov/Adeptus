@@ -77,7 +77,8 @@
             </model>
         </move>
         <markerlight name="Tau/Markerlight"
-                     cooldown="1">
+                     cooldown="1"
+                     requiredUpgrade="Tau/Markerlight">
             <beginTargets>
                 <target lineOfSight="1"
                         rangeMax="2">
@@ -94,7 +95,8 @@
                                 <modifier>
                                     <effects>
                                         <addTrait name="Tau/TargetAcquired"
-                                                  duration="1"/>
+                                                  duration="1"
+                                                  rank="0"/>
                                     </effects>
                                 </modifier>
                             </modifiers>

@@ -549,9 +549,9 @@
     <entry name="Tau/Markerlight"
            value="Markerlight"/>
     <entry name="Tau/MarkerlightDescription"
-           value="TODO"/>
+           value="Grants ability to reduce the ranged damage reduction of target non-Fortification unit."/>
     <entry name="Tau/MarkerlightFlavor"
-           value="TODO"/>
+           value="A markerlight is a hand-held device that projects a simple beam onto a target which then transmits a torrent of targeting data to other T'au units, allowing them to engage the target with unerring accuracy."/>
     <entry name="Tau/MobileMissilePod"
            value="Mobile Missile Pod"/>
     <entry name="Tau/MobileMissilePodDescription"
