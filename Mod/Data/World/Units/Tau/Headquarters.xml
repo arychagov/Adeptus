@@ -76,6 +76,31 @@
         </die>
         <cycleWeapon interfaceSound="Interface/CycleWeapon"
                      weaponSlotNames="IonAcceleratorStandard IonAcceleratorOvercharged"/>
+        <scout consumedActionPoints="0"
+               consumedMovement="0"
+               cooldown="3"
+               requiredActionPoints="0"
+               requiredUpgrade="Tau/AdvancedScanners">
+            <model>
+                <action sound="Actions/Scan"/>
+            </model>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile"
+                              radius="4">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <reveal/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </scout>
         <setRallyPoint/>
     </actions>
     <traits>
@@ -84,6 +109,8 @@
         <trait name="Tau/SupportingFire"/>
         <trait name="Transport"/>
         <trait name="Tau/PreciseShooter"/>
+        <trait name="Tau/BlacksunFilter"
+               requiredUpgrade="Tau/AdvancedScanners"/>
         <trait name="Tau/BlacksunDefenceSystem"
                requiredUpgrade="Tau/BlacksunDefenceSystem"/>
     </traits>

@@ -481,11 +481,11 @@
            value="Grants ground vehicles the ability to launch a smoke screen that increases the ranged damage reduction. Reduces the movement penalty for tanks in forests and imperial ruins."/>
 
     <entry name="Tau/AdvancedScanners"
-           value="Advanced Scanners"/>
+           value="Wide-Spectrum Scanners"/>
     <entry name="Tau/AdvancedScannersDescription"
-           value="TODO"/>
+           value="Grants cities ability to scout nearby tiles, increases the sight of cities."/>
     <entry name="Tau/AdvancedScannersFlavor"
-           value="TODO"/>
+           value="This additional scanning package predicts enemy threat vectors and directs harassing fire patterns accordingly."/>
     <entry name="Tau/BlacksunDefenceSystem"
            value="Blacksun Defence System"/>
     <entry name="Tau/BlacksunDefenceSystemDescription"
