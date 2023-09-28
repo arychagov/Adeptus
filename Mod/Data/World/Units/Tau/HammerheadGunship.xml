@@ -144,5 +144,7 @@
                requiredUpgrade="Tau/PointDefenceTargetingRelay"/>
         <trait name="MoveThroughCover"
                requiredUpgrade="Tau/SensorSpines"/>
+        <trait name="Tau/BlacksunDefenceSystem"
+               requiredUpgrade="Tau/BlacksunDefenceSystem"/>
     </traits>
 </unit>

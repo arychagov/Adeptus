@@ -489,9 +489,9 @@
     <entry name="Tau/BlacksunDefenceSystem"
            value="Blacksun Defence System"/>
     <entry name="Tau/BlacksunDefenceSystemDescription"
-           value="TODO"/>
+           value="Increases the regeneration of Battlesuits, cities and vehicles. Increases the sight of Commander, Pathfinders and Battlesuits."/>
     <entry name="Tau/BlacksunDefenceSystemFlavor"
-           value="TODO"/>
+           value="This optical filtering suite allows vehicle sensors to target enemies at full efficiency and range, even during night fighting operations."/>
     <entry name="Tau/BondingKnifeRitualDescription"
            value="Grants Stealth Battlesuits, Broadside Battlesuits, Ghostkeel Battlesuits and Riptide Battlesuits the ability to restore their morale."/>
     <entry name="Tau/CadreFireblade"

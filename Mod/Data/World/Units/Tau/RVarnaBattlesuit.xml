@@ -290,6 +290,8 @@
     <traits>
         <trait name="Tau/BlacksunFilter"
                requiredUpgrade="Tau/BlacksunDefenceSystem"/>
+        <trait name="Tau/BlacksunDefenceSystem"
+               requiredUpgrade="Tau/BlacksunDefenceSystem"/>
         <trait name="Tau/IntegratedShieldGenerator"/>
         <trait name="MonstrousCreature"/>
         <trait name="MoveThroughCover"/>

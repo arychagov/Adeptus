@@ -967,6 +967,12 @@
     <entry name="SpaceMarines/VeilOfTimeFlavor"
            value="The psyker projects his will beyond the regular passage of time, altering the temporal flow to sway the tide of battle."/>
 
+    <entry name="Tau/BlacksunDefenceSystem"
+           value="Blacksun Defence System"/>
+    <entry name="Tau/BlacksunDefenceSystemDescription"
+           value="Increases the regeneration."/>
+    <entry name="Tau/BlacksunDefenceSystemFlavor"
+           value="This optical filtering suite allows vehicle sensors to target enemies at full efficiency and range, even during night fighting operations."/>
     <entry name="Tau/BreakComposureDescription"
            value="Increases ranged attacks."/>
     <entry name="Tau/BreakComposureFlavor"

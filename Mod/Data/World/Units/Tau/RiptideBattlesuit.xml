@@ -284,6 +284,8 @@
     <traits>
         <trait name="Tau/BlacksunFilter"
                requiredUpgrade="Tau/BlacksunDefenceSystem"/>
+        <trait name="Tau/BlacksunDefenceSystem"
+               requiredUpgrade="Tau/BlacksunDefenceSystem"/>
         <trait name="Tau/FireTeam"/>
         <trait name="JetPack"/>
         <trait name="MonstrousCreature"/>

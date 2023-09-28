@@ -183,5 +183,9 @@
         <trait name="ExtraInfantryArmour"
                requiredUpgrade="Tau/ExtraInfantryArmour"/>
         <trait name="Tau/Battlesuit"/>
+        <trait name="Tau/BlacksunFilter"
+               requiredUpgrade="Tau/BlacksunDefenceSystem"/>
+        <trait name="Tau/BlacksunDefenceSystem"
+               requiredUpgrade="Tau/BlacksunDefenceSystem"/>
     </traits>
 </unit>

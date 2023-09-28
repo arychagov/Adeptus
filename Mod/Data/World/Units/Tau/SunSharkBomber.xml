@@ -188,5 +188,7 @@
                requiredUpgrade="Tau/FlechetteDischarger"/>
         <trait name="Tau/PointDefenceTargetingRelay"
                requiredUpgrade="Tau/PointDefenceTargetingRelay"/>
+        <trait name="Tau/BlacksunDefenceSystem"
+               requiredUpgrade="Tau/BlacksunDefenceSystem"/>
     </traits>
 </unit>
