@@ -90,5 +90,6 @@
                requiredUpgrade="Tau/SensorSpines"/>
         <trait name="Tau/BlacksunDefenceSystem"
                requiredUpgrade="Tau/BlacksunDefenceSystem"/>
+        <trait name="MobileCommand"/>
     </traits>
 </unit>

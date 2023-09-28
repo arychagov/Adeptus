@@ -113,5 +113,6 @@
                requiredUpgrade="Tau/AdvancedScanners"/>
         <trait name="Tau/BlacksunDefenceSystem"
                requiredUpgrade="Tau/BlacksunDefenceSystem"/>
+        <trait name="MobileCommand"/>
     </traits>
 </unit>
