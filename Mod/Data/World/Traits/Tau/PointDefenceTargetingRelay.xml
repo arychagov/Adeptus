@@ -7,7 +7,6 @@
                 <unit>
                     <overwatching/>
                 </unit>
-                <supportingFire/>
             </conditions>
             <effects>
                 <attacks mul="0.2"/>
