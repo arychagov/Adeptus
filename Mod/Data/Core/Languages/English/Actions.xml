@@ -562,11 +562,11 @@
            value="Flies across obstacles to the target tile, ignoring enemy overwatch attacks. Briefly increases the accuracy and the attacks."/>
     <entry name="Tau/CommanderJumpPackFlavor"
            value="<string name='Actions/JumpPackFlavor'/>"/>
-    <entry name="Tau/ConvertWildlife"
+    <entry name="Tau/ConvertWildlifeAmbull"
            value="Convert Auxiliary Ambull"/>
-    <entry name="Tau/ConvertWildlifeDescription"
+    <entry name="Tau/ConvertWildlifeAmbullDescription"
            value="Converts a unit of Ambulls to your side. Enslaved units cannot be converted. Cost scales with target strength."/>
-    <entry name="Tau/ConvertWildlifeFlavor"
+    <entry name="Tau/ConvertWildlifeAmbullFlavor"
            value="“Soldiers of the Fire Caste! Kroot and Vespid allies! Today, we stand as a bulwark against the selfish, the soulless, and the mad!”<br/>  — Aun'el Shi'ores, at the loss of Kronus"/>
     <entry name="Tau/DeployTacticalDrone"
            value="Deploy Tactical Drones"/>

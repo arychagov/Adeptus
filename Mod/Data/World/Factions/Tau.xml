@@ -402,12 +402,12 @@
                 <action sound="Actions/ConvertWildlife"/>
             </model>
             <modifiers>
-                <modifier requiredUpgrade="Tau/FriendsToAll">
+                <modifier visible="0" requiredUpgrade="Tau/FriendsToAll">
                     <effects>
                         <influenceCost mul="-0.20"/>
                     </effects>
                 </modifier>
-                <modifier requiredUpgrade="Tau/TotalAssimilation">
+                <modifier visible="0" requiredUpgrade="Tau/TotalAssimilation">
                     <effects>
                         <influenceCost mul="-1.0"/>
                     </effects>
@@ -443,18 +443,19 @@
             </sharedCooldowns>
         </convertWildlife>
         <convertWildlife name="Tau/ConvertWildlifeAmbull"
+                         icon="Actions/Tau/ConvertWildlife"
                          cooldown="5"
                          requiredUpgrade="Tau/FriendsToAll">
             <model>
                 <action sound="Actions/ConvertWildlife"/>
             </model>
             <modifiers>
-                <modifier>
+                <modifier visible="0" requiredUpgrade="Tau/FriendsToAll">
                     <effects>
                         <influenceCost mul="-0.20"/>
                     </effects>
                 </modifier>
-                <modifier requiredUpgrade="Tau/TotalAssimilation">
+                <modifier visible="0" requiredUpgrade="Tau/TotalAssimilation">
                     <effects>
                         <influenceCost mul="-1.0"/>
                     </effects>

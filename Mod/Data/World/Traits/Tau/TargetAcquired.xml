@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait alwaysVisible="1"
        category="Debuff"
-       icon="Actions/Tau/Markerlight" rankMax="2">
+       icon="Actions/Tau/Markerlight"
+       rankMax="2">
     <modifiers>
         <modifier>
             <conditions>
@@ -13,6 +14,8 @@
                 </encounter>
             </conditions>
             <effects>
+                <opponentRangedAccuracy addMax="1"
+                                        addMin="0"/>
                 <rangedDamageReduction max="0"/>
             </effects>
         </modifier>
