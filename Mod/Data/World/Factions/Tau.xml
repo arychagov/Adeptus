@@ -470,7 +470,8 @@
                                         </unit>
                                     </conditions>
                                     <effects>
-                                        <addTrait name="VehicleHeavilyDamaged" duration="2"/>
+                                        <addTrait name="VehicleHeavilyDamaged"
+                                                  duration="2"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -519,6 +520,12 @@
                         <influenceCost base="80"/>
                     </effects>
                 </modifier>
+                <modifier requiredUpgrade="Tau/UniversalLoyalty"
+                          visible="0">
+                    <effects>
+                        <influenceCost mul="-0.2"/>
+                    </effects>
+                </modifier>
             </modifiers>
             <playerModifiers>
                 <modifier>
@@ -539,6 +546,12 @@
                 <modifier visible="0">
                     <effects>
                         <influenceCost base="80"/>
+                    </effects>
+                </modifier>
+                <modifier requiredUpgrade="Tau/UniversalLoyalty"
+                          visible="0">
+                    <effects>
+                        <influenceCost mul="-0.2"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -582,6 +595,12 @@
                         <influenceCost base="80"/>
                     </effects>
                 </modifier>
+                <modifier requiredUpgrade="Tau/UniversalLoyalty"
+                          visible="0">
+                    <effects>
+                        <influenceCost mul="-0.2"/>
+                    </effects>
+                </modifier>
             </modifiers>
             <beginTargets>
                 <target rangeMax="-1">
@@ -623,6 +642,12 @@
                         <influenceCost base="80"/>
                     </effects>
                 </modifier>
+                <modifier requiredUpgrade="Tau/UniversalLoyalty"
+                          visible="0">
+                    <effects>
+                        <influenceCost mul="-0.2"/>
+                    </effects>
+                </modifier>
             </modifiers>
             <beginTargets>
                 <target rangeMax="-1">
@@ -658,6 +683,12 @@
                 <modifier visible="0">
                     <effects>
                         <influenceCost base="80"/>
+                    </effects>
+                </modifier>
+                <modifier requiredUpgrade="Tau/UniversalLoyalty"
+                          visible="0">
+                    <effects>
+                        <influenceCost mul="-0.2"/>
                     </effects>
                 </modifier>
             </modifiers>

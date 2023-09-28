@@ -13,7 +13,7 @@
                 <loyalty add="-5"/>
             </effects>
         </modifier>
-        <modifier requiredUpgrade="Tau/SubversionBonus">
+        <modifier requiredUpgrade="Tau/UniversalLoyalty">
             <conditions>
                 <building>
                     <trait name="Headquarters"/>

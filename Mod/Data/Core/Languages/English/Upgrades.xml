@@ -571,7 +571,7 @@
     <entry name="Tau/UniversalLoyalty"
            value="Universal Loyalty"/>
     <entry name="Tau/UniversalLoyaltyDescription"
-           value="TODO"/>
+           value="Increases the loyalty penalty of Subvert City. Decreases the cost of resources purchase."/>
     <entry name="Tau/UniversalLoyaltyFlavor"
            value="TODO"/>
     <entry name="Tau/UpgradedWeaponry"
