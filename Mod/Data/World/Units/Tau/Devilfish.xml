@@ -13,11 +13,14 @@
     </model>
     <weapons>
         <weapon name="BurstCannon"
-                count="2">
+                count="1">
             <model>
                 <projectileWeapon muzzleBone=".Muzzle"/>
             </model>
         </weapon>
+        <weapon name="BurstCannon"
+                count="1"
+                requiredUpgrade="Tau/UpgradedWeaponry"/>
         <weapon name="SeekerMissile"
                 count="2"
                 enabled="0"
