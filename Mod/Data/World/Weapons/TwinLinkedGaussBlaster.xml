@@ -10,7 +10,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="1"/>
+                <attacks add="0.33"/>
                 <rangedArmorPenetration add="2"/> <!-- %rangedArmorPenetration add armorPiercing=4 -->
                 <rangedDamage add="2"/> <!-- %rangedDamage add strength=5 -->
                 <strengthDamage base="0"/>
@@ -19,9 +19,10 @@
     </modifiers>
     <target rangeMax="2"/>
     <traits>
-        <trait name="Gauss"/>
-        <trait name="GaussDamage"
-               requiredUpgrade="Necrons/GaussDamage"/>
+        <trait name="SmallBlast"/>
+        <trait name="Tesla"/>
+        <trait name="TeslaDamage"
+               requiredUpgrade="Necrons/TeslaDamage"/>
         <trait name="RapidFire"/>
         <trait name="TwinLinked"/>
     </traits>
