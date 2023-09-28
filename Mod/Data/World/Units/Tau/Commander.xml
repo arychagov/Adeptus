@@ -467,6 +467,8 @@
         <shop/>
     </actions>
     <traits>
+        <trait name="Tau/BlacksunFilter"
+               requiredUpgrade="Tau/BlacksunDefenceSystem"/>
         <trait name="Hero"/>
         <trait name="JetPack"/>
         <trait name="Relentless"/>

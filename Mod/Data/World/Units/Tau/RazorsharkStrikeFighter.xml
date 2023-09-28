@@ -185,8 +185,6 @@
                requiredUpgrade="Tau/AdvancedTargetingSystem"/>
         <trait name="Tau/AutomatedRepairSystem"
                requiredUpgrade="Tau/AutomatedRepairSystem"/>
-        <trait name="Tau/BlacksunFilter"
-               requiredUpgrade="Tau/BlacksunFilter"/>
         <trait name="Tau/DisruptionPod"
                requiredUpgrade="Tau/DisruptionPod"/>
         <trait name="Tau/FlechetteDischarger"

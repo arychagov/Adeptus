@@ -306,6 +306,8 @@
         </deployMarkerDrone>
     </actions>
     <traits>
+        <trait name="Tau/BlacksunFilter"
+               requiredUpgrade="Tau/BlacksunDefenceSystem"/>
         <trait name="Tau/SupportSystems"
                rank="0"/>
         <trait name="Tau/SupportingFire"/>

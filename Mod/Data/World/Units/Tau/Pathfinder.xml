@@ -237,7 +237,7 @@
     <traits>
         <trait name="Tau/SupportingFire"/>
         <trait name="Tau/BlacksunFilter"
-               requiredUpgrade="Tau/BlacksunFilter"/>
+               requiredUpgrade="Tau/BlacksunDefenceSystem"/>
         <trait name="ExtraInfantryArmour"
                requiredUpgrade="Tau/ExtraInfantryArmour"/>
         <trait name="Tau/PreciseShooter"/>
