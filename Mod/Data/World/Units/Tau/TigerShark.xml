@@ -80,7 +80,7 @@
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=12/12/10 wounds=6 -->
                 <cargoSlotsRequired base="0"/>
                 <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
-                <movementMax base="5"/>
+                <movementMax base="4"/>
                 <oreCost base="160.0"/> <!-- %oreCost base tier=12 factor=0.5 -->
                 <productionCost base="72.0"/> <!-- %productionCost base tier=12 factor=1 -->
                 <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->

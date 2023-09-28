@@ -51,7 +51,7 @@
                 <meleeAttacks base="1"/>
                 <strengthDamage base="3"/> <!-- %strengthDamage base strength=6 -->
                 <moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->
-                <movementMax base="6"/>
+                <movementMax base="4"/>
                 <productionCost base="54.0"/> <!-- %productionCost base tier=9 factor=1 -->
                 <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>

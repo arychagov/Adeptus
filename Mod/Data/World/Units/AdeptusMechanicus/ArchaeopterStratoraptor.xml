@@ -56,7 +56,7 @@
                 <energyUpkeep base="6.0"/> <!-- %energyUpkeep base tier=9 factor=1 -->
                 <energyCost base="60.0"/> <!-- %energyCost base tier=9 factor=0.5 -->
                 <moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
-                <movementMax base="6"/>
+                <movementMax base="4"/>
                 <productionCost base="54.0"/> <!-- %productionCost base tier=9 factor=1 -->
                 <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>

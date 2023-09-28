@@ -69,7 +69,7 @@
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=12/12/10 wounds=3 -->
                 <oreCost base="30.0"/> <!-- %oreCost base tier=7 factor=0.5 -->
                 <moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
-                <movementMax base="6"/>
+                <movementMax base="4"/>
                 <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
                 <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
             </effects>

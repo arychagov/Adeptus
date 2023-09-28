@@ -36,7 +36,7 @@
                 <hitpointsMax base="18.0"/>
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=11/11/11 wounds=2 -->
                 <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
-                <movementMax base="6"/>
+                <movementMax base="4"/>
                 <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
                 <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
                 <requisitionsCost base="30.0"/> <!-- %requisitionsCost base tier=7 factor=0.5 -->
