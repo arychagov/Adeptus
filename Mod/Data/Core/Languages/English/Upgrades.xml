@@ -529,11 +529,11 @@
     <entry name="Tau/ForceFieldFlavor"
            value="TODO"/>
     <entry name="Tau/FriendsToAll"
-           value="Friends to All"/>
+           value="Friends To All"/>
     <entry name="Tau/FriendsToAllDescription"
-           value="TODO"/>
+           value="Decreases the influence cost of Convert Auxiliary and grants ability to convert Ambulls as well as Kroot Hounds and Vespid Stingwings."/>
     <entry name="Tau/FriendsToAllFlavor"
-           value="TODO"/>
+           value="“Soldiers of the Fire Caste! Kroot and Vespid allies! Today, we stand as a bulwark against the selfish, the soulless, and the mad!”<br/>  — Aun'el Shi'ores, at the loss of Kronus"/>
     <entry name="Tau/GhostkeelDojo"
            value="Ghostkeel Dojo"/>
     <entry name="Tau/GhostkeelDojoDescription"

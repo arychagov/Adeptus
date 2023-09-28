@@ -401,6 +401,13 @@
             <model>
                 <action sound="Actions/ConvertWildlife"/>
             </model>
+            <modifiers requiredUpgrade="Tau/FriendsToAll">
+                <modifier>
+                    <effects>
+                        <influenceCost mul="-0.20"/>
+                    </effects>
+                </modifier>
+            </modifiers>
             <beginTargets>
                 <target rangeMax="-1">
                     <conditions>
@@ -426,6 +433,48 @@
                     </areas>
                 </target>
             </beginTargets>
+            <sharedCooldowns>
+                <action name="Tau/ConvertWildlifeAmbull"/>
+            </sharedCooldowns>
+        </convertWildlife>
+        <convertWildlife name="Tau/ConvertWildlifeAmbull"
+                         cooldown="5"
+                         requiredUpgrade="Tau/FriendsToAll">
+            <model>
+                <action sound="Actions/ConvertWildlife"/>
+            </model>
+            <modifiers>
+                <modifier>
+                    <effects>
+                        <influenceCost mul="-0.20"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <target rangeMax="-1">
+                    <conditions>
+                        <unit>
+                            <enemy/>
+                            <noTrait name="Enslaved"/>
+                            <type name="Neutral/Ambull"/>
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <changePlayer/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+            <sharedCooldowns>
+                <action name="Tau/ConvertWildlife"/>
+            </sharedCooldowns>
         </convertWildlife>
         <forTheGreaterGood name="Tau/ForTheGreaterGood"
                            cooldown="1">

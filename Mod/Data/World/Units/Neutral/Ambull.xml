@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit>
+<unit faction="Tau">
     <model>
         <unit bloodBone="BloodBone"
               idleAnimation="Units/Neutral/AmbullIdle"

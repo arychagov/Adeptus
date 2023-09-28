@@ -40,6 +40,11 @@
                 <strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
             </effects>
         </modifier>
+        <modifier requiredUpgrade="Tau/FriendsToAll">
+            <effects>
+                <foodUpkeep mul="-1.0"/>
+            </effects>
+        </modifier>
     </modifiers>
     <actions>
         <attack>
