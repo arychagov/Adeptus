@@ -977,6 +977,12 @@
            value="Increases ranged attacks."/>
     <entry name="Tau/BreakComposureFlavor"
            value="Though not physically impressive, the T’au can inculcate fear in their enemies through subtler means—by harrying them so that they can’t focus, by surrounding them, by forcing them down tactical paths that only lead to repeated failure. Sometimes you don’t need to even touch an enemy to defeat them."/>
+    <entry name="Tau/ConclaveScreen"
+           value="Dispersion Field"/>
+    <entry name="Tau/ConclaveScreenDescription"
+           value="Increases the invulnerable damage reduction and the max movement."/>
+    <entry name="Tau/ConclaveScreenFlavor"
+           value="So exceptionally drilled and responsive are the warriors of T’au Sept that their fields of fire shift and overlap with inescapable efficiency."/>
     <entry name="Tau/DroneControllerDescription"
            value="Increases the accuracy."/>
     <entry name="Tau/FrequencyLock"

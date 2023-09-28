@@ -505,11 +505,11 @@
     <entry name="Tau/CityTier3Description"
            value="Increases the tile acquisition radius."/>
     <entry name="Tau/ConclaveScreen"
-           value="Conclave Screen"/>
+           value="Dispersion Field"/>
     <entry name="Tau/ConclaveScreenDescription"
-           value="TODO"/>
+           value="Increases the invulnerable damage reduction and the max movement of aircrafts."/>
     <entry name="Tau/ConclaveScreenFlavor"
-           value="TODO"/>
+           value="So exceptionally drilled and responsive are the warriors of T’au Sept that their fields of fire shift and overlap with inescapable efficiency."/>
     <entry name="Tau/ConstructionDescription"
            value="Building that constructs new buildings as well as generates ore, research and influence. Grants the ability to purchase population with influence."/>
     <entry name="Tau/DisruptionPodDescription"

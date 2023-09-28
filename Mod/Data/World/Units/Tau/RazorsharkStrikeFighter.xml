@@ -193,5 +193,7 @@
                requiredUpgrade="Tau/PointDefenceTargetingRelay"/>
         <trait name="Tau/BlacksunDefenceSystem"
                requiredUpgrade="Tau/BlacksunDefenceSystem"/>
+        <trait name="Tau/ConclaveScreen"
+               requiredUpgrade="Tau/ConclaveScreen"/>
     </traits>
 </unit>
