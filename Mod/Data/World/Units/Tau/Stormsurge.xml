@@ -187,5 +187,7 @@
                requiredUpgrade="Tau/BlacksunDefenceSystem"/>
         <trait name="Tau/BlacksunDefenceSystem"
                requiredUpgrade="Tau/BlacksunDefenceSystem"/>
+        <trait name="Tau/GhostkeelElectrowarfareSuite"
+               requiredUpgrade="Tau/GhostkeelDojo"/>
     </traits>
 </unit>

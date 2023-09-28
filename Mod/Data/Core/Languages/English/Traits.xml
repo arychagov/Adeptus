@@ -991,6 +991,8 @@
            value="Decreases the armour."/>
     <entry name="Tau/FrequencyLockFlavor"
            value="Seeker missiles are designed to lock onto the remote targeting beacon provided by a markerlight beam and ride the signal all the way to their target, even bypassing and evading intervening terrain in the process.>"/>
+    <entry name="Tau/GhostkeelElectrowarfareSuite"
+           value="Electrowarfare Suite"/>
     <entry name="Tau/PointDefenceTargetingRelay"
            value="Special Peripheral Assault Module"/>
     <entry name="Tau/Prosperity"

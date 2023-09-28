@@ -537,7 +537,9 @@
     <entry name="Tau/GhostkeelDojo"
            value="Ghostkeel Dojo"/>
     <entry name="Tau/GhostkeelDojoDescription"
-           value="TODO"/>
+           value="Grants Battlesuits increased ranged damage reduction against attacks from range 2 or higher."/>
+    <entry name="Tau/GhostkeelElectrowarfareSuiteFlavor"
+           value="The Ghostkeel's AI electrowarfare suite aggressively scans enemy targeting spectrums and invades the foe's sensor arrays, filling them with false information and scrap-data that makes it almost impossible to effectively fire upon the battlesuit at range."/>
     <entry name="Tau/GhostkeelDojoFlavor"
            value="TODO"/>
     <entry name="Tau/GunDroneDescription"
@@ -566,7 +568,7 @@
            value="Total Assimilation"/>
     <entry name="Tau/TotalAssimilationDescription"
            value="TODO"/>
-    <entry name="Tau/Flavor"
+    <entry name="Tau/TotalAssimilationFlavor"
            value="TODO"/>
     <entry name="Tau/UniversalLoyalty"
            value="Universal Loyalty"/>
