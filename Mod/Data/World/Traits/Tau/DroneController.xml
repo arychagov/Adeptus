@@ -4,7 +4,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <supportSystemSlots add="-1"/>
+                <accuracy mul="0.33"/>
             </effects>
         </modifier>
     </modifiers>

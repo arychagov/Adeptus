@@ -719,36 +719,6 @@
                 </target>
             </beginTargets>
         </purchasePopulation>
-        <installSupportSystem name="Tau/DroneController"
-                              cooldown="1"
-                              requiredUpgrade="Tau/DroneController">
-            <model>
-                <action sound="Actions/InstallSupportSystem"/>
-            </model>
-            <beginTargets>
-                <target rangeMax="-1">
-                    <conditions>
-                        <unit>
-                            <allied/>
-                            <supportSystemSlots greater="0"/>
-                            <noTrait name="Tau/DroneController"/>
-                        </unit>
-                    </conditions>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="Tau/DroneController"/>
-                                        <!-- <addTrait name="Tau/DroneControllerInRange"/> -->
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </target>
-            </beginTargets>
-        </installSupportSystem>
         <installSupportSystem name="Tau/CounterfireDefenceSystem"
                               cooldown="1"
                               requiredUpgrade="Tau/CounterfireDefenceSystem">

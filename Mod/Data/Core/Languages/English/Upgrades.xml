@@ -515,7 +515,7 @@
     <entry name="Tau/DisruptionPodDescription"
            value="Increases vehicle ranged damage reduction. Increases the armour penetration of flame and missile weapons."/>
     <entry name="Tau/DroneControllerDescription"
-           value="Battlesuit support system that increases the accuracy of adjacent drones. Halves cooldown of drone deployment across most Tau units. Grants Cadre's Gun Drone additional Twin-Linked Pulse Carbine."/>
+           value="Halves cooldown of drone deployment across most Tau units. Increases the accuracy of drone units. Grants Cadre's Gun Drone additional Twin-Linked Pulse Carbine."/>
     <entry name="Tau/EmergencyShields"
            value="Emergency Shields"/>
     <entry name="Tau/EmergencyShieldsDescription"
