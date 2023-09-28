@@ -401,10 +401,15 @@
             <model>
                 <action sound="Actions/ConvertWildlife"/>
             </model>
-            <modifiers requiredUpgrade="Tau/FriendsToAll">
-                <modifier>
+            <modifiers>
+                <modifier requiredUpgrade="Tau/FriendsToAll">
                     <effects>
                         <influenceCost mul="-0.20"/>
+                    </effects>
+                </modifier>
+                <modifier requiredUpgrade="Tau/TotalAssimilation">
+                    <effects>
+                        <influenceCost mul="-1.0"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -447,6 +452,11 @@
                 <modifier>
                     <effects>
                         <influenceCost mul="-0.20"/>
+                    </effects>
+                </modifier>
+                <modifier requiredUpgrade="Tau/TotalAssimilation">
+                    <effects>
+                        <influenceCost mul="-1.0"/>
                     </effects>
                 </modifier>
             </modifiers>

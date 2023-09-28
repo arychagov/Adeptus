@@ -242,5 +242,7 @@
         <trait name="ExtraInfantryArmour"
                requiredUpgrade="Tau/ExtraInfantryArmour"/>
         <trait name="Tau/PreciseShooter"/>
+        <trait name="Tau/TotalAssimilation"
+               requiredUpgrade="Tau/TotalAssimilation"/>
     </traits>
 </unit>

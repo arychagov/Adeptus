@@ -101,5 +101,7 @@
         <trait name="Tau/PreciseShooter"/>
         <trait name="Bodyguard"/>
         <trait name="Bulky"/>
+        <trait name="Tau/TotalAssimilation"
+               requiredUpgrade="Tau/TotalAssimilation"/>
     </traits>
 </unit>

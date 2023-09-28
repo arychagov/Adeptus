@@ -242,5 +242,7 @@
                requiredUpgrade="Tau/GhostkeelDojo"/>
         <trait name="Bodyguard"/>
         <trait name="VeryBulky"/>
+        <trait name="Tau/TotalAssimilation"
+               requiredUpgrade="Tau/TotalAssimilation"/>
     </traits>
 </unit>

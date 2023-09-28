@@ -567,9 +567,7 @@
     <entry name="Tau/TotalAssimilation"
            value="Total Assimilation"/>
     <entry name="Tau/TotalAssimilationDescription"
-           value="TODO"/>
-    <entry name="Tau/TotalAssimilationFlavor"
-           value="TODO"/>
+           value="Removes the cost of Convert Auxiliary. Increases the morale and the armour penetration of infantry units. Increases the damage and the hitpoints of infantry units for each adjacent unit."/>
     <entry name="Tau/UniversalLoyalty"
            value="Universal Loyalty"/>
     <entry name="Tau/UniversalLoyaltyDescription"

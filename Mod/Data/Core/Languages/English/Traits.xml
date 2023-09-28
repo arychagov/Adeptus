@@ -1013,6 +1013,10 @@
            value="Angled micro-thrusters integrated into battlesuit plating allows their pilots to trigger a sudden burst of speed for interdiction assaults.>"/>
     <entry name="Tau/SupportingFireDescription"
            value="Increases overwatch attacks."/>
+    <entry name="Tau/TotalAssimilation"
+           value="Total Assimilation"/>
+    <entry name="Tau/TotalAssimilationDescription"
+           value="Increases the morale and the armour penetration. Increases the damage and the hitpoints for each adjacent unit."/>
     <entry name="Tau/VolleyFireDescription"
            value="Increases overwatch attacks."/>
     <entry name="Tau/VolleyFireFlavor"

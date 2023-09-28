@@ -333,5 +333,7 @@
         <trait name="Tau/GhostkeelElectrowarfareSuite"
                requiredUpgrade="Tau/GhostkeelDojo"/>
         <trait name="Bulky"/>
+        <trait name="Tau/TotalAssimilation"
+               requiredUpgrade="Tau/TotalAssimilation"/>
     </traits>
 </unit>
