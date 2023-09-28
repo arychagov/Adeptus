@@ -985,6 +985,12 @@
            value="So exceptionally drilled and responsive are the warriors of T’au Sept that their fields of fire shift and overlap with inescapable efficiency."/>
     <entry name="Tau/DroneControllerDescription"
            value="Increases the accuracy."/>
+    <entry name="Tau/ForceField"
+           value="Force Field"/>
+    <entry name="Tau/ForceFieldDescription"
+           value="Increases the ranged damage reduction."/>
+    <entry name="Tau/ForceFieldFlavor"
+           value="Drone hovers protectively at its operator's shoulder, driving back the enemy with thrumming gravity waves."/>
     <entry name="Tau/FrequencyLock"
            value="Frequency Lock"/>
     <entry name="Tau/FrequencyLockDescription"

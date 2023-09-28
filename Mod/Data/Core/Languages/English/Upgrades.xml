@@ -525,9 +525,9 @@
     <entry name="Tau/ForceField"
            value="Force Field"/>
     <entry name="Tau/ForceFieldDescription"
-           value="TODO"/>
+           value="Grants cities ability that prevents tile movement. Increases the ranged damage reduction of cities."/>
     <entry name="Tau/ForceFieldFlavor"
-           value="TODO"/>
+           value="Drone hovers protectively at its operator's shoulder, driving back the enemy with thrumming gravity waves."/>
     <entry name="Tau/FriendsToAll"
            value="Friends To All"/>
     <entry name="Tau/FriendsToAllDescription"
