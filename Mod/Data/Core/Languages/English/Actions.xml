@@ -577,9 +577,9 @@
     <entry name="Tau/DeployDrone2Description"
            value="Deploys temporary %1%.<br/><br/>%2%"/>
     <entry name="Tau/DeployTacticalDrone"
-           value="Deploy Tactical Drones"/>
+           value="Deploy Jarvis"/>
     <entry name="Tau/DeployTacticalDroneDescription"
-           value="Deploys temporary Tactical Drones."/>
+           value="Deploys temporary Jarvis drones."/>
     <entry name="Tau/KauyonDescription"
            value="Metastrategy that increases the ranged damage reduction of allied T'au battlesuit units in the area. Shares cooldown with other metastrategies."/>
     <entry name="Tau/MarkerlightDescription"

@@ -75,7 +75,7 @@
     <entry name="Tau/GunDrone"
            value="Gun Drones"/>
     <entry name="Tau/TacticalDrone"
-           value="Tactical Drones"/>
+           value="Jarvis"/>
     <entry name="Tau/TacticalDroneDescription"
            value="<string name='Units/Tau/GunDroneDescription'/>"/>
     <entry name="Tau/TacticalDroneFlavor"

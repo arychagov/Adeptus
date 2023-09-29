@@ -32,7 +32,7 @@
                 <armor base="6"/> <!-- %armor base armor=4+ -->
                 <foodUpkeep base="1.5"/> <!-- %foodUpkeep base tier=5 factor=1 -->
                 <foodCost base="15.0"/> <!-- %foodCost base tier=5 factor=0.5 -->
-                <hitpointsMax base="7.0"/>
+                <hitpointsMax base="10.0"/>
                 <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
                 <influenceUpkeep base="3.0"/> <!-- %influenceUpkeep base tier=5 factor=2 -->
                 <influenceCost base="60.0"/> <!-- %influenceCost base tier=5 factor=2 -->
@@ -331,59 +331,26 @@
                 </target>
             </beginTargets>
         </markerlight>
-        <genericUnitAbility name="Tau/DeployTacticalDrone"
-                            consumedActionPoints="0"
-                            consumedMovement="0"
-                            cooldown="10"
-                            icon="Units/Tau/TacticalDrone"
+        <genericUnitAbility name="Tau/BreakComposure"
+                            levelUpPriority="1"
+                            passive="1"
                             rank="-1"
-                            rankMax="2"
-                            requiredActionPoints="0">
-            <model>
-                <action animation=""
-                        sound="Actions/DeployDrone"/>
-            </model>
-            <modifiers>
-                <modifier requiredUpgrade="Tau/DroneController"
-                          visible="0">
-                    <effects>
-                        <cooldown add="-5"/>
-                    </effects>
-                </modifier>
-            </modifiers>
+                            rankMax="2">
             <beginTargets>
-                <target rangeMax="1">
-                    <conditions>
-                        <tile>
-                            <noUnit/>
-                            <noFeature name="GravityWaves"/>
-                        </tile>
-                    </conditions>
+                <selfTarget>
                     <areas>
-                        <area affects="Tile">
+                        <area affects="Tile"
+                              radius="2">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="Tau/TacticalDrone"
-                                                 consumedAction="0"
-                                                 consumedMovement="0"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="Summon"
-                                                  durationMax="5"
-                                                  durationMin="3"/>
+                                        <addTrait name="Tau/BreakComposure"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
                         </area>
                     </areas>
-                </target>
+                </selfTarget>
             </beginTargets>
         </genericUnitAbility>
         <preciseShot name="Tau/PreciseShot"
@@ -409,27 +376,51 @@
                 </modifier>
             </modifiers>
         </preciseShot>
-        <genericUnitAbility name="Tau/BreakComposure"
+        <genericUnitAbility name="Tau/DeployTacticalDrone"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="10"
                             elite="1"
-                            levelUpPriority="1"
-                            passive="1"
+                            icon="Units/Tau/TacticalDrone"
                             rank="-1"
-                            rankMax="0">
+                            rankMax="0"
+                            requiredActionPoints="0">
+            <model>
+                <action animation=""
+                        sound="Actions/DeployDrone"/>
+            </model>
             <beginTargets>
-                <selfTarget>
+                <target rangeMax="1">
+                    <conditions>
+                        <tile>
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
+                        </tile>
+                    </conditions>
                     <areas>
-                        <area affects="Tile"
-                              radius="2">
+                        <area affects="Tile">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Tau/BreakComposure"/>
+                                        <addUnit name="Tau/TacticalDrone"
+                                                 consumedAction="0"
+                                                 consumedMovement="0"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="Summon"
+                                                  duration="10"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
                         </area>
                     </areas>
-                </selfTarget>
+                </target>
             </beginTargets>
         </genericUnitAbility>
         <levelUp/>

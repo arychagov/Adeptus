@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait category="Buff"
-       icon="Actions/Tau/BreakComposure">
+       icon="Actions/Tau/BreakComposure"
+       rankMax="2">
     <modifiers>
         <modifier>
             <conditions>
@@ -10,7 +11,8 @@
                 </unit>
             </conditions>
             <effects>
-                <rangedAttacks mul="0.15"/>
+                <rangedAttacks mulMax="0.12"
+                               mulMin="0.04"/>
             </effects>
         </modifier>
     </modifiers>
