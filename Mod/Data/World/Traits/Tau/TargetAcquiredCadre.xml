@@ -13,6 +13,7 @@
                 </encounter>
             </conditions>
             <effects>
+                <opponentRangedAccuracy add="1"/>
                 <rangedDamageReduction max="0"/>
             </effects>
         </modifier>
@@ -29,7 +30,7 @@
                 </encounter>
             </conditions>
             <effects>
-                <removeTrait name="Tau/TargetAcquired"/>
+                <removeTrait name="Tau/TargetAcquiredCadre"/>
             </effects>
         </modifier>
     </onCombatSelfModifiers>

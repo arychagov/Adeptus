@@ -310,6 +310,7 @@
                         <unit>
                             <enemy/>
                             <noTrait name="Tau/TargetAcquired"/>
+                            <noTrait name="Tau/TargetAcquiredCadre"/>
                             <noTrait name="Fortification"/>
                             <noTrait name="Hero"/>
                         </unit>
@@ -319,7 +320,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Tau/TargetAcquired"
+                                        <addTrait name="Tau/TargetAcquiredCadre"
                                                   duration="1"/>
                                         <addTrait name="Tau/FrequencyLock"
                                                   duration="1"/>

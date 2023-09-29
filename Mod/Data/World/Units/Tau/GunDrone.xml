@@ -86,6 +86,7 @@
                         <unit>
                             <enemy/>
                             <noTrait name="Tau/TargetAcquired"/>
+                            <noTrait name="Tau/TargetAcquiredCadre"/>
                             <noTrait name="City"/>
                         </unit>
                     </conditions>

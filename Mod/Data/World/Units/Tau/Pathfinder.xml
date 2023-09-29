@@ -138,6 +138,7 @@
                         <unit>
                             <enemy/>
                             <noTrait name="Tau/TargetAcquired"/>
+                            <noTrait name="Tau/TargetAcquiredCadre"/>
                             <noTrait name="Fortification"/>
                         </unit>
                     </conditions>
