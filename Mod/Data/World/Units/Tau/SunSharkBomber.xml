@@ -127,16 +127,24 @@
                         endFire="1.9"/>
             </model>
         </heavyBombClusters>
-        <deployInterceptorDrone name="Tau/DeployDrone"
-                                consumedActionPoints="0"
-                                consumedMovement="0"
-                                cooldown="5"
-                                requiredActionPoints="0"
-                                unitType="Tau/InterceptorDrone">
+        <deployReconDrone name="Tau/DeployDrone"
+                          consumedActionPoints="0"
+                          consumedMovement="0"
+                          cooldown="10"
+                          requiredActionPoints="0"
+                          unitType="Tau/ReconDrone">
             <model>
                 <action animation=""
                         sound="Actions/DeployDrone"/>
             </model>
+            <modifiers>
+                <modifier requiredUpgrade="Tau/DroneController"
+                          visible="0">
+                    <effects>
+                        <cooldown add="-5"/>
+                    </effects>
+                </modifier>
+            </modifiers>
             <beginTargets>
                 <target rangeMax="1">
                     <conditions>
@@ -150,7 +158,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="Tau/InterceptorDrone"
+                                        <addUnit name="Tau/ReconDrone"
                                                  consumedAction="0"
                                                  consumedMovement="0"/>
                                     </effects>
@@ -170,7 +178,7 @@
                     </areas>
                 </target>
             </beginTargets>
-        </deployInterceptorDrone>
+        </deployReconDrone>
     </actions>
     <traits>
         <trait name="Flyer"/>

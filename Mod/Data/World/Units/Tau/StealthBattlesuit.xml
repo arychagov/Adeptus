@@ -196,7 +196,7 @@
             </beginTargets>
             <sharedCooldowns>
                 <action name="Tau/DeployDrone/Tau/ShieldDrone"/>
-                <action name="Tau/DeployDrone/Tau/MarkerDrone"/>
+                <action name="Tau/DeployDrone/Tau/ReconDrone"/>
             </sharedCooldowns>
         </deployGunDrone>
         <deployShieldDrone name="Tau/DeployDrone"
@@ -253,16 +253,15 @@
             </beginTargets>
             <sharedCooldowns>
                 <action name="Tau/DeployDrone/Tau/GunDrone"/>
-                <action name="Tau/DeployDrone/Tau/MarkerDrone"/>
+                <action name="Tau/DeployDrone/Tau/ReconDrone"/>
             </sharedCooldowns>
         </deployShieldDrone>
-        <deployMarkerDrone name="Tau/DeployDrone"
-                           consumedActionPoints="0"
-                           consumedMovement="0"
-                           cooldown="10"
-                           requiredActionPoints="0"
-                           requiredUpgrade="Tau/MarkerDrone"
-                           unitType="Tau/MarkerDrone">
+        <deployReconDrone name="Tau/DeployDrone"
+                          consumedActionPoints="0"
+                          consumedMovement="0"
+                          cooldown="10"
+                          requiredActionPoints="0"
+                          unitType="Tau/ReconDrone">
             <model>
                 <action animation=""
                         sound="Actions/DeployDrone"/>
@@ -288,7 +287,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="Tau/MarkerDrone"
+                                        <addUnit name="Tau/ReconDrone"
                                                  consumedAction="0"
                                                  consumedMovement="0"/>
                                     </effects>
@@ -312,7 +311,7 @@
                 <action name="Tau/DeployDrone/Tau/GunDrone"/>
                 <action name="Tau/DeployDrone/Tau/ShieldDrone"/>
             </sharedCooldowns>
-        </deployMarkerDrone>
+        </deployReconDrone>
     </actions>
     <traits>
         <trait name="Tau/BlacksunFilter"

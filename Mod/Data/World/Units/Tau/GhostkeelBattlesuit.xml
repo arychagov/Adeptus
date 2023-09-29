@@ -238,7 +238,5 @@
         <trait name="ExtraInfantryArmour"
                requiredUpgrade="Tau/ExtraInfantryArmour"/>
         <trait name="Tau/Battlesuit"/>
-        <trait name="Tau/GhostkeelElectrowarfareSuite"
-               requiredUpgrade="Tau/GhostkeelDojo"/>
     </traits>
 </unit>
