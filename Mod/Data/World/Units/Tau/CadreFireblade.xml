@@ -368,10 +368,9 @@
             <modifiers>
                 <modifier>
                     <effects>
-                        <accuracy mulMax="1.5"
-                                  mulMin="0.5"/>
-                        <damage mulMax="1.5"
-                                mulMin="0.5"/>
+                        <damage mulMax="7"
+                                mulMin="5"/>
+                        <attacks mul="-0.75"/>
                     </effects>
                 </modifier>
             </modifiers>
