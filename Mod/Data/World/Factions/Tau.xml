@@ -508,6 +508,7 @@
                         <unit match="Any">
                             <moraleMax greater="0"/>
                             <trait name="Vehicle"/>
+                            <trait name="MonstrousCreature"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -531,6 +532,17 @@
                                     </conditions>
                                     <effects>
                                         <addTrait name="VehicleHeavilyDamaged"
+                                                  duration="2"/>
+                                    </effects>
+                                </modifier>
+                                <modifier visible="0">
+                                    <conditions>
+                                        <unit>
+                                            <trait name="Vehicle"/>
+                                        </unit>
+                                    </conditions>
+                                    <effects>
+                                        <addTrait name="MonstrousCreatureHeavilyDamaged"
                                                   duration="2"/>
                                     </effects>
                                 </modifier>

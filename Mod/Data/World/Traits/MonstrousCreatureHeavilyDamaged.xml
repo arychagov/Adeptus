@@ -3,6 +3,11 @@
        icon="Traits/Broken">
     <modifiers>
         <modifier>
+            <conditions>
+                <unit>
+                    <trait name="MonstrousCreature"/>
+                </unit>
+            </conditions>
             <effects>
                 <accuracy mul="-0.33"/>
                 <movementMax add="-1"/>
