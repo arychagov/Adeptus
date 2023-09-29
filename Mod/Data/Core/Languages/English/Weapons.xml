@@ -20,6 +20,12 @@
            value="Power Sword"/>
     <entry name="CaptainPowerSwordFlavor"
            value="<string name='Weapons/PowerFlavor'/>"/>
+    <entry name="DeathPact"
+           value="Death Pact"/>
+    <entry name="DefilerMissileLauncher"
+           value="Defiler Missile Launcher"/>
+    <entry name="DefilerRocketLauncher"
+           value="Defiler Rocket Launcher"/>
     <entry name="DestroyerWarscythe"
            value="<string name='Weapons/Warscythe'/>"/>
     <entry name="DestroyerWarscytheFlavor"
@@ -32,6 +38,10 @@
            value="Exarsist Missile Launcher"/>
     <entry name="ExorcistMissileLauncherFlavor"
            value="The Exarsist missiles fired by these revered vehicles are capable of splitting open enemy battle tanks or destroying entire squads of heavy infantry in one punishing salvo, provided, of course, that the Exorcist’s temperamental machine spirit does not malfunction."/>
+    <entry name="ForgefiendAutocannon"
+           value="Forgefiend Autocannon"/>
+    <entry name="ForgefiendAutocannonFlavor"
+           value="<string name='Weapons/HadesAutocannonFlavor'/>"/>
     <entry name="GaussFlayerArrayGhostArk"
            value="Gauss Flayer Array"/>
     <entry name="GaussFlayerArrayGhostArkFlavor"
@@ -56,24 +66,16 @@
            value="Heavy Autocannon"/>
     <entry name="HeavyAutocannonFlavor"
            value="<string name='Weapons/AutocannonFlavor'/>"/>
-    <entry name="OrbitalBombardmentCaptain"
-           value="Orbital Bombardment"/>
     <entry name="HonourGuardBoltgun"
            value="Boltgun"/>
     <entry name="HonourGuardBoltgunFlavor"
            value="<string name='Weapons/BoltFlavor'/>"/>
-    <entry name="ForgefiendAutocannon"
-           value="Forgefiend Autocannon"/>
-    <entry name="ForgefiendAutocannonFlavor"
-           value="<string name='Weapons/HadesAutocannonFlavor'/>"/>
-    <entry name="DeathPact"
-           value="Death Pact"/>
-    <entry name="DefilerMissileLauncher"
-           value="Defiler Missile Launcher"/>
-    <entry name="DefilerRocketLauncher"
-           value="Defiler Rocket Launcher"/>
     <entry name="LascannonDevastatorSpaceMarine"
            value="Lascannon"/>
     <entry name="LascannonDevastatorSpaceMarineFlavor"
            value="<string name='Weapons/Lascannon'/>"/>
+    <entry name="MobileMissilePod"
+           value="Mobile Missile Pod"/>
+    <entry name="OrbitalBombardmentCaptain"
+           value="Orbital Bombardment"/>
 </language>

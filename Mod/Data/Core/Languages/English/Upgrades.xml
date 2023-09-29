@@ -557,9 +557,7 @@
     <entry name="Tau/MobileMissilePod"
            value="Mobile Missile Pod"/>
     <entry name="Tau/MobileMissilePodDescription"
-           value="TODO"/>
-    <entry name="Tau/MobileMissilePodFlavor"
-           value="TODO"/>
+           value="Grants Fire Warriors ability to shoot with missile weapon."/>
     <entry name="Tau/SeekerMissileDescription"
            value="Grants vehicles and Broadside Battlesuits a missile weapon."/>
     <entry name="Tau/ShieldDroneDescription"

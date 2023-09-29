@@ -21,11 +21,13 @@
                 <projectileWeapon muzzleBone=".Muzzle"/>
             </model>
         </weapon>
-        <weapon name="PhotonGrenade"
+        <weapon name="MobileMissilePod"
                 enabled="0"
-                slotName="PhotonGrenade">
+                requiredUpgrade="Tau/MobileMissilePod"
+                slotName="MobileMissilePod">
             <model>
-                <grenadeWeapon muzzleBone="Bone.004.R"/>
+                <missileWeapon missileScale="0.5"
+                               muzzleBone=".Muzzle"/>
             </model>
         </weapon>
         <weapon name="EMPGrenade"
@@ -93,14 +95,16 @@
                         soundCount="4"/>
             </model>
         </move>
-        <throwGrenade cooldown="10"
-                      requiredUpgrade="Tau/PhotonGrenade"
-                      weaponSlotName="PhotonGrenade">
+        <useWeapon consumedActionPoints="0"
+                   cooldown="1"
+                   requiredActionPoints="0"
+                   requiredUpgrade="Tau/MobileMissilePod"
+                   weaponSlotName="MobileMissilePod">
             <model>
                 <action animation="Units/Tau/FireWarriorGrenade"
                         beginFire="1"/>
             </model>
-        </throwGrenade>
+        </useWeapon>
         <throwGrenade cooldown="10"
                       requiredUpgrade="Tau/EMPGrenade"
                       weaponSlotName="EMPGrenade">
