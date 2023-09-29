@@ -12,12 +12,6 @@
               scale="1.2 1.2 1.2"/>
     </model>
     <weapons>
-        <weapon name="BurstCannon"/>
-        <weapon name="BurstCannon">
-            <model>
-                <projectileWeapon muzzleBone=".Muzzle"/>
-            </model>
-        </weapon>
         <weapon name="SeekerMissile"
                 count="2"
                 enabled="0"
@@ -175,6 +169,94 @@
                 </target>
             </beginTargets>
         </gravityWaveProjector>
+        <deployGunDrone name="Tau/DeployDrone1"
+                        consumedActionPoints="0"
+                        consumedMovement="0"
+                        cooldown="5"
+                        requiredActionPoints="0"
+                        unitType="Tau/GunDrone">
+            <model>
+                <action animation=""
+                        sound="Actions/DeployDrone"/>
+            </model>
+            <beginTargets>
+                <target rangeMax="1">
+                    <conditions>
+                        <tile>
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
+                        </tile>
+                    </conditions>
+                    <areas>
+                        <area affects="Tile">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addUnit name="Tau/GunDrone"
+                                                 consumedAction="0"
+                                                 consumedMovement="0"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="Summon"
+                                                  duration="3"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </deployGunDrone>
+        <deployGunDrone name="Tau/DeployDrone2"
+                        consumedActionPoints="0"
+                        consumedMovement="0"
+                        cooldown="5"
+                        requiredActionPoints="0"
+                        unitType="Tau/GunDrone">
+            <model>
+                <action animation=""
+                        sound="Actions/DeployDrone"/>
+            </model>
+            <beginTargets>
+                <target rangeMax="1">
+                    <conditions>
+                        <tile>
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
+                        </tile>
+                    </conditions>
+                    <areas>
+                        <area affects="Tile">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addUnit name="Tau/GunDrone"
+                                                 consumedAction="0"
+                                                 consumedMovement="0"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="Summon"
+                                                  duration="3"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </deployGunDrone>
     </actions>
     <traits>
         <trait name="Flyer"/>

@@ -568,6 +568,14 @@
            value="Converts a unit of Ambulls to your side. Enslaved units cannot be converted. Cost scales with target strength."/>
     <entry name="Tau/ConvertWildlifeAmbullFlavor"
            value="“Soldiers of the Fire Caste! Kroot and Vespid allies! Today, we stand as a bulwark against the selfish, the soulless, and the mad!”<br/>  — Aun'el Shi'ores, at the loss of Kronus"/>
+    <entry name="Tau/DeployDrone1"
+           value="Deploy %1%"/>
+    <entry name="Tau/DeployDrone1Description"
+           value="Deploys temporary %1%.<br/><br/>%2%"/>
+    <entry name="Tau/DeployDrone2"
+           value="Deploy %1%"/>
+    <entry name="Tau/DeployDrone2Description"
+           value="Deploys temporary %1%.<br/><br/>%2%"/>
     <entry name="Tau/DeployTacticalDrone"
            value="Deploy Tactical Drones"/>
     <entry name="Tau/DeployTacticalDroneDescription"
