@@ -81,5 +81,7 @@
         <trait name="Infiltrate"/>
         <trait name="MoveThroughCover"/>
         <trait name="ForestStealth"/>
+        <trait name="Tau/FriendsToAll"
+               requiredUpgrade="Tau/FriendsToAll"/>
     </traits>
 </unit>

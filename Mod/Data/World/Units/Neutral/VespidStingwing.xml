@@ -110,5 +110,7 @@
         <trait name="HitAndRun"/>
         <trait name="MoveThroughCover"/>
         <trait name="RuinsStealth"/>
+        <trait name="Tau/FriendsToAll"
+               requiredUpgrade="Tau/FriendsToAll"/>
     </traits>
 </unit>

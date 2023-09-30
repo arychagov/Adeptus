@@ -75,5 +75,7 @@
     <traits>
         <trait name="Regeneration"/>
         <trait name="Rending"/>
+        <trait name="Tau/FriendsToAll"
+               requiredUpgrade="Tau/FriendsToAll"/>
     </traits>
 </unit>

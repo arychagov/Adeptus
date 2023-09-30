@@ -1009,6 +1009,12 @@
            value="Decreases the armour."/>
     <entry name="Tau/FrequencyLockFlavor"
            value="Seeker missiles are designed to lock onto the remote targeting beacon provided by a markerlight beam and ride the signal all the way to their target, even bypassing and evading intervening terrain in the process.>"/>
+    <entry name="Tau/FriendsToAll"
+           value="Friends To All"/>
+    <entry name="Tau/FriendsToAllDescription"
+           value="Increases the armour, the morale and the armour penetration."/>
+    <entry name="Tau/FriendsToAllFlavor"
+           value="“Soldiers of the Fire Caste! Kroot and Vespid allies! Today, we stand as a bulwark against the selfish, the soulless, and the mad!”<br/>  — Aun'el Shi'ores, at the loss of Kronus"/>
     <entry name="Tau/GhostkeelElectrowarfareSuite"
            value="Electrowarfare Suite"/>
     <entry name="Tau/NovaFireDescription"
