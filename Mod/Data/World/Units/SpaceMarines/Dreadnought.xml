@@ -151,7 +151,7 @@
         </genericUnitAbility>
         <createSmokeScreen consumedActionPoints="0"
                            consumedMovement="0"
-                           cooldown="10"
+                           cooldown="5"
                            icon="Traits/SmokeScreen"
                            requiredActionPoints="0"
                            requiredUpgrade="SpaceMarines/SmokeLauncher">

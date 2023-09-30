@@ -580,6 +580,10 @@
            value="Deploy Jarvis"/>
     <entry name="Tau/DeployTacticalDroneDescription"
            value="Deploys temporary Jarvis drones."/>
+    <entry name="Tau/EMPGrenade"
+           value="Throw Smoke Grenade"/>
+    <entry name="Tau/EMPGrenadeDescription"
+           value="Increases the ranged damage reduction of the tile."/>
     <entry name="Tau/KauyonDescription"
            value="Metastrategy that increases the ranged damage reduction of allied T'au battlesuit units in the area. Shares cooldown with other metastrategies."/>
     <entry name="Tau/MarkerlightDescription"
