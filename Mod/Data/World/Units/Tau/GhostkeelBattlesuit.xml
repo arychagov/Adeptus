@@ -11,16 +11,7 @@
               walker="1"/>
     </model>
     <weapons>
-        <weapon name="CyclicIonRakerStandard"
-                slotName="CyclicIonRakerStandard">
-            <model>
-                <beamWeapon fireInterval="0.45"
-                            muzzleBone=".CyclicIonRaker"/>
-            </model>
-        </weapon>
-        <weapon name="CyclicIonRakerOvercharged"
-                enabled="0"
-                slotName="CyclicIonRakerOvercharged">
+        <weapon name="CyclicIonRakerStandard">
             <model>
                 <beamWeapon fireInterval="0.45"
                             muzzleBone=".CyclicIonRaker"/>
@@ -109,8 +100,6 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <cycleWeapon interfaceSound="Interface/CycleWeapon"
-                     weaponSlotNames="CyclicIonRakerStandard CyclicIonRakerOvercharged"/>
         <holophotonCountermeasures name="Tau/HolophotonCountermeasures"
                                    consumedActionPoints="0"
                                    consumedMovement="0"
