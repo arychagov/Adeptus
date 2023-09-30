@@ -91,5 +91,7 @@
         <trait name="Tau/BlacksunDefenceSystem"
                requiredUpgrade="Tau/BlacksunDefenceSystem"/>
         <trait name="MobileCommand"/>
+        <trait name="Tau/EmergencyShields"
+               requiredUpgrade="Tau/EmergencyShields"/>
     </traits>
 </unit>

@@ -171,7 +171,6 @@
         <trait name="Tank"/>
         <trait name="Vehicle"/>
         <trait name="Transport"/>
-        <trait name="MobileCommand"/>
         <trait name="ExtraVehicleArmour"
                requiredUpgrade="Tau/ExtraVehicleArmour"/>
         <trait name="Tau/AdvancedTargetingSystem"
@@ -189,5 +188,7 @@
         <trait name="Tau/BlacksunDefenceSystem"
                requiredUpgrade="Tau/BlacksunDefenceSystem"/>
         <trait name="MobileCommand"/>
+        <trait name="Tau/EmergencyShields"
+               requiredUpgrade="Tau/EmergencyShields"/>
     </traits>
 </unit>

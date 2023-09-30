@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1"
+       category="Buff"
+       icon="Traits/Shielded">
+    <modifiers>
+        <modifier>
+            <conditions>
+                <encounterRange equal="1"/>
+            </conditions>
+            <effects>
+                <feelNoPainDamageReduction add="0.1"/>
+            </effects>
+        </modifier>
+        <modifier>
+            <conditions>
+                <encounterRange equal="2"/>
+            </conditions>
+            <effects>
+                <feelNoPainDamageReduction add="0.15"/>
+            </effects>
+        </modifier>
+        <modifier>
+            <conditions>
+                <encounterRange greater="2"/>
+            </conditions>
+            <effects>
+                <feelNoPainDamageReduction add="0.2"/>
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>

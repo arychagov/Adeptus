@@ -985,6 +985,10 @@
            value="So exceptionally drilled and responsive are the warriors of T’au Sept that their fields of fire shift and overlap with inescapable efficiency."/>
     <entry name="Tau/DroneControllerDescription"
            value="Increases the accuracy."/>
+    <entry name="Tau/EmergencyShields"
+           value="Emergency Shields"/>
+    <entry name="Tau/EmergencyShieldsDescription"
+           value="Increases the damage reduction depending on the attack range."/>
     <entry name="Tau/ForceField"
            value="Force Field"/>
     <entry name="Tau/ForceFieldDescription"

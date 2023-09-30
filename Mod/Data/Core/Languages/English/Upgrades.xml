@@ -525,9 +525,7 @@
     <entry name="Tau/EmergencyShields"
            value="Emergency Shields"/>
     <entry name="Tau/EmergencyShieldsDescription"
-           value="TODO"/>
-    <entry name="Tau/EmergencyShieldsFlavor"
-           value="TODO"/>
+           value="Increases the damage reduction of vehicles. The damage reductions scales depending on the attack range."/>
     <entry name="Tau/ForceField"
            value="Force Field"/>
     <entry name="Tau/ForceFieldDescription"

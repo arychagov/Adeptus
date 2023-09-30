@@ -43,7 +43,7 @@
                 <meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
                 <meleeAttacks base="2"/>
                 <strengthDamage base="3"/> <!-- %strengthDamage base strength=6 -->
-                <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+                <moraleMax base="0"/> <!-- %moraleMax base leadership=8 -->
                 <movementMax base="3"/>
                 <oreCost base="30.0"/> <!-- %oreCost base tier=8 factor=0.5 -->
                 <oreUpkeep base="3.0"/> <!-- %oreUpkeep base tier=8 factor=1 -->

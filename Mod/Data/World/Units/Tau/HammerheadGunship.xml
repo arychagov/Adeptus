@@ -146,5 +146,7 @@
                requiredUpgrade="Tau/SensorSpines"/>
         <trait name="Tau/BlacksunDefenceSystem"
                requiredUpgrade="Tau/BlacksunDefenceSystem"/>
+        <trait name="Tau/EmergencyShields"
+               requiredUpgrade="Tau/EmergencyShields"/>
     </traits>
 </unit>

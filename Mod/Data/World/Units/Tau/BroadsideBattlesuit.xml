@@ -51,7 +51,7 @@
                 <meleeAttacks base="2"/>
                 <strengthDamage base="2"/> <!-- %strengthDamage base strength=5 -->
                 <!-- <meleeInitiative base="4"/> -->
-                <moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
+                <moraleMax base="0"/> <!-- %moraleMax base leadership=7 -->
                 <movementMax base="3"/>
                 <productionCost base="48.0"/> <!-- %productionCost base tier=8 factor=1 -->
                 <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
@@ -319,5 +319,6 @@
         <trait name="Tau/GhostkeelElectrowarfareSuite"
                requiredUpgrade="Tau/GhostkeelDojo"/>
         <trait name="VeryBulky"/>
+        <trait name="MonstrousCreature"/>
     </traits>
 </unit>

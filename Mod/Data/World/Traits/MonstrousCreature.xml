@@ -42,6 +42,7 @@
         <modifier>
             <effects>
                 <cargoSlotsRequired add="5"/>
+                <moraleMax base="0"/>
             </effects>
         </modifier>
     </modifiers>
