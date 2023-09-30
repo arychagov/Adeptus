@@ -25,17 +25,17 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="10"/> <!-- %armor base armor=2+ -->
-                <energyCost base="80.0"/> <!-- %energyCost base tier=10 factor=0.5 -->
-                <hitpointsMax base="48.0"/> <!-- %hitpointsMax base toughness=7 wounds=6 -->
+                <armor base="8"/> <!-- %armor base armor=2+ -->
+                <energyCost base="50.0"/> <!-- %energyCost base tier=10 factor=0.5 -->
+                <hitpointsMax base="36.0"/> <!-- %hitpointsMax base toughness=7 wounds=6 -->
                 <meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
                 <meleeAttacks base="3"/>
                 <strengthDamage base="3"/> <!-- %strengthDamage base strength=6 -->
                 <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
                 <movementMax base="3"/>
-                <oreCost base="80.0"/> <!-- %oreCost base tier=10 factor=0.5 -->
-                <oreUpkeep base="8.0"/> <!-- %oreUpkeep base tier=10 factor=1 -->
-                <productionCost base="60.0"/> <!-- %productionCost base tier=10 factor=1 -->
+                <oreCost base="50.0"/> <!-- %oreCost base tier=10 factor=0.5 -->
+                <oreUpkeep base="5.0"/> <!-- %oreUpkeep base tier=10 factor=1 -->
+                <productionCost base="52.0"/> <!-- %productionCost base tier=10 factor=1 -->
                 <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
                 <duplicateTypeCost mul="0.125"/>
             </effects>
@@ -98,136 +98,87 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <novaShield name="Tau/NovaShield"
-                    consumedActionPoints="0"
-                    consumedMovement="0"
-                    cooldown="2">
+        <gravityWaveProjector name="Tau/GravityWaveProjector"
+                              consumedActionPoints="0"
+                              consumedMovement="0"
+                              cooldown="10">
             <model>
-                <action sound="Actions/NovaShield"/>
+                <action animation=""
+                        sound="Actions/GravityWaveProjector"/>
             </model>
             <beginTargets>
-                <selfTarget>
+                <target rangeMax="2">
+                    <conditions>
+                        <tile>
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
+                        </tile>
+                    </conditions>
                     <areas>
-                        <area affects="Unit">
+                        <area affects="Tile">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpointsFactorFromMax add="-0.1"/>
-                                        <addTrait name="Tau/NovaShield"
-                                                  duration="1"/>
+                                        <addFeature name="GravityWaves"
+                                                    duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
                         </area>
                     </areas>
-                </selfTarget>
+                </target>
             </beginTargets>
-            <sharedCooldowns>
-                <action name="Tau/NovaBoost"/>
-                <action name="Tau/NovaFire"/>
-                <action name="Tau/NovaElectromagneticShockwave"/>
-            </sharedCooldowns>
-        </novaShield>
-        <novaBoost name="Tau/NovaBoost"
-                   consumedActionPoints="0"
-                   consumedMovement="0"
-                   cooldown="2">
+        </gravityWaveProjector>
+        <gravityWaveProjector name="Tau/GravityWaveProjector1"
+                              icon="Tau/GravityWaveProjector"
+                              consumedActionPoints="0"
+                              consumedMovement="0"
+                              cooldown="10">
             <model>
-                <action sound="Actions/NovaBoost"/>
+                <action animation=""
+                        sound="Actions/GravityWaveProjector"/>
             </model>
             <beginTargets>
-                <selfTarget>
+                <target rangeMax="2">
+                    <conditions>
+                        <tile>
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
+                        </tile>
+                    </conditions>
                     <areas>
-                        <area affects="Unit">
+                        <area affects="Tile">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpointsFactorFromMax add="-0.1"/>
-                                        <addTrait name="Tau/NovaBoost"
-                                                  duration="1"/>
+                                        <addFeature name="GravityWaves"
+                                                    duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
                         </area>
                     </areas>
-                </selfTarget>
+                </target>
             </beginTargets>
-            <sharedCooldowns>
-                <action name="Tau/NovaFire"/>
-                <action name="Tau/NovaShield"/>
-                <action name="Tau/NovaElectromagneticShockwave"/>
-            </sharedCooldowns>
-        </novaBoost>
-        <novaFire name="Tau/NovaFire"
-                  consumedActionPoints="0"
-                  consumedMovement="0"
-                  cooldown="2">
-            <model>
-                <action sound="Actions/NovaFire"/>
-            </model>
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <hitpointsFactorFromMax add="-0.1"/>
-                                        <addTrait name="Tau/NovaFire"
-                                                  duration="1"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-            <sharedCooldowns>
-                <action name="Tau/NovaBoost"/>
-                <action name="Tau/NovaShield"/>
-                <action name="Tau/NovaElectromagneticShockwave"/>
-            </sharedCooldowns>
-        </novaFire>
-        <novaElectromagneticShockwave name="Tau/NovaElectromagneticShockwave"
-                                      consumedActionPoints="0"
-                                      consumedMovement="0"
-                                      cooldown="2">
-            <model>
-                <action sound="Actions/NovaElectromagneticShockwave"/>
-            </model>
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Unit"
-                              radius="1">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <hitpointsFactorFromMax add="-0.1"/>
-                                        <weaponDamage weapon="NovaElectromagneticShockwave"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-            <sharedCooldowns>
-                <action name="Tau/NovaBoost"/>
-                <action name="Tau/NovaFire"/>
-                <action name="Tau/NovaShield"/>
-            </sharedCooldowns>
-        </novaElectromagneticShockwave>
-        <deployShieldedMissileDrone name="Tau/DeployDrone"
-                                    consumedActionPoints="0"
-                                    consumedMovement="0"
-                                    cooldown="10"
-                                    requiredActionPoints="0"
-                                    unitType="Tau/ShieldedMissileDrone">
+        </gravityWaveProjector>
+        <deployGunDrone name="Tau/DeployDrone1"
+                        consumedActionPoints="0"
+                        consumedMovement="0"
+                        cooldown="10"
+                        requiredActionPoints="0"
+                        unitType="Tau/GunDrone">
             <model>
                 <action animation=""
                         sound="Actions/DeployDrone"/>
             </model>
+            <modifiers>
+                <modifier requiredUpgrade="Tau/DroneController"
+                          visible="0">
+                    <effects>
+                        <cooldown add="-5"/>
+                    </effects>
+                </modifier>
+            </modifiers>
             <beginTargets>
                 <target rangeMax="1">
                     <conditions>
@@ -241,7 +192,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="Tau/ShieldedMissileDrone"
+                                        <addUnit name="Tau/GunDrone"
                                                  consumedAction="0"
                                                  consumedMovement="0"/>
                                     </effects>
@@ -261,31 +212,59 @@
                     </areas>
                 </target>
             </beginTargets>
-        </deployShieldedMissileDrone>
-        <hammerOfWrath consumedActionPoints="0"
-                       consumedMovement="0"
-                       cooldown="3"
-                       requiredUpgrade="Tau/HammerOfWrath">
+        </deployGunDrone>
+        <deployGunDrone name="Tau/DeployDrone2"
+                        consumedActionPoints="0"
+                        consumedMovement="0"
+                        cooldown="10"
+                        requiredActionPoints="0"
+                        unitType="Tau/GunDrone">
             <model>
-                <action sound="Actions/PsychicBuff"/>
+                <action animation=""
+                        sound="Actions/DeployDrone"/>
             </model>
+            <modifiers>
+                <modifier requiredUpgrade="Tau/DroneController"
+                          visible="0">
+                    <effects>
+                        <cooldown add="-5"/>
+                    </effects>
+                </modifier>
+            </modifiers>
             <beginTargets>
-                <selfTarget>
+                <target rangeMax="1">
+                    <conditions>
+                        <tile>
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
+                        </tile>
+                    </conditions>
                     <areas>
+                        <area affects="Tile">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addUnit name="Tau/GunDrone"
+                                                 consumedAction="0"
+                                                 consumedMovement="0"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
                         <area affects="Unit">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="HammerOfWrath"
-                                                  duration="1"/>
+                                        <addTrait name="Summon"
+                                                  duration="3"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
                         </area>
                     </areas>
-                </selfTarget>
+                </target>
             </beginTargets>
-        </hammerOfWrath>
+        </deployGunDrone>
     </actions>
     <traits>
         <trait name="Tau/BlacksunFilter"

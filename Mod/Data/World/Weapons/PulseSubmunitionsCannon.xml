@@ -20,8 +20,11 @@
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="3"/>
+    <target rangeMax="4"/>
     <traits>
+        <trait name="Pinning"/>
+        <trait name="Corrupting"/>
+        <trait name="Barrage"/>
         <trait name="HeavyWeapon"/>
         <trait name="LargeBlast"/>
         <trait name="Tau/ClusterFire"/>

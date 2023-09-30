@@ -370,6 +370,10 @@
            value="Increases the damage reduction."/>
     <entry name="DaemonicFlavor"
            value="The creatures of the Warp are many and foul, with infinite variety, but there are some characteristics that they all share."/>
+    <entry name="Corrupting"
+           value="Corrupting"/>
+    <entry name="CorruptingDescription"
+           value="Applies degradation effect on monstrous creatures and vehicles."/>
     <entry name="DeathPact"
            value="Death Pact"/>
     <entry name="DeathPactDescription"
