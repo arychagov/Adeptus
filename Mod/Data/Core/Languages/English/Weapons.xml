@@ -78,4 +78,8 @@
            value="Mobile Missile Pod"/>
     <entry name="OrbitalBombardmentCaptain"
            value="Orbital Bombardment"/>
+    <entry name="TwinLinkedSmartMissileSystemBroadside"
+           value="Twin-Linked Smart Missile System"/>
+    <entry name="TwinLinkedSmartMissileSystemBroadsideFlavor"
+           value="A smart missile system fires self-guiding missiles with drone intelligence, which can find targets even hiding behind terrain."/>
 </language>

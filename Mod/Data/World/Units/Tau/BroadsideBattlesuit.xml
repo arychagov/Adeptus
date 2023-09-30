@@ -22,7 +22,7 @@
                                   muzzleBone=".Muzzle"/>
             </model>
         </weapon>
-        <weapon name="TwinLinkedSmartMissileSystem">
+        <weapon name="TwinLinkedSmartMissileSystemBroadside">
             <model>
                 <missileWeapon fireInterval="0.6"
                                missileScale="0.5"
@@ -43,8 +43,8 @@
         <modifier visible="0">
             <effects>
                 <armor base="10"/> <!-- %armor base armor=2+ -->
-                <foodCost base="40.0"/> <!-- %foodCost base tier=8 factor=0.5 -->
-                <foodUpkeep base="4.0"/> <!-- %foodUpkeep base tier=8 factor=1 -->
+                <energyCost base="40.0"/> <!-- %foodCost base tier=8 factor=0.5 -->
+                <oreUpkeep base="4.0"/> <!-- %foodUpkeep base tier=8 factor=1 -->
                 <hitpointsMax base="6.0"/>
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=4 wounds=2 -->
                 <meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
@@ -320,5 +320,7 @@
                requiredUpgrade="Tau/GhostkeelDojo"/>
         <trait name="VeryBulky"/>
         <trait name="MonstrousCreature"/>
+        <trait name="Relentless"/>
+        <trait name="Tau/FireTeam"/>
     </traits>
 </unit>
