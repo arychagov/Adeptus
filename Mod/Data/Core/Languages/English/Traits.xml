@@ -1029,6 +1029,8 @@
            value="Total Assimilation"/>
     <entry name="Tau/TotalAssimilationDescription"
            value="Increases the morale and the armour penetration. Increases the damage and the hitpoints for each adjacent unit."/>
+    <entry name="Tau/VelocityTrackerDescription"
+           value="Ignores the ranged damage reduction."/>
     <entry name="Tau/VolleyFireDescription"
            value="Increases overwatch attacks."/>
     <entry name="Tau/VolleyFireFlavor"

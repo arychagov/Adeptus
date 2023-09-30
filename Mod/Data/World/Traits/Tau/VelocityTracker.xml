@@ -4,15 +4,8 @@
        icon="Actions/Tau/VelocityTracker">
     <modifiers>
         <modifier>
-            <conditions>
-                <encounter>
-                    <opponent>
-                        <trait name="Flyer"/>
-                    </opponent>
-                </encounter>
-            </conditions>
             <effects>
-                <rangedAccuracy mul="0.33"/>
+                <rangedDamageReductionBypass mul="1.0"/>
             </effects>
         </modifier>
         <modifier>

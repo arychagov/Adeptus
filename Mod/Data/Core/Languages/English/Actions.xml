@@ -592,6 +592,8 @@
            value="Increases the invulnerable damage reduction of the Ethereal."/>
     <entry name="Tau/UnityDescription"
            value="Increases the influence output."/>
+    <entry name="Tau/VelocityTrackerDescription"
+           value="Installs support system that ignores the ranged damage reduction."/>
     <entry name="Tau/VolleyFireDescription"
            value="Increases overwatch attacks of nearby heroes, cities, Fire Warriors, Pathfinders, Krootox Riders and drones."/>
     <entry name="Tau/VolleyFireFlavor"

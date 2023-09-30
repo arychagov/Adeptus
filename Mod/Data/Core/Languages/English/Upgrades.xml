@@ -570,12 +570,12 @@
            value="Universal Loyalty"/>
     <entry name="Tau/UniversalLoyaltyDescription"
            value="Increases the loyalty penalty of Subvert City. Decreases the cost of resources purchase."/>
-    <entry name="Tau/UniversalLoyaltyFlavor"
-           value="TODO"/>
     <entry name="Tau/UpgradedWeaponry"
            value="Upgraded Weaponry"/>
     <entry name="Tau/UpgradedWeaponryDescription"
            value="Grants Piranhas additional fusion blaster. Grants Devilfish additional burst cannon."/>
+    <entry name="Tau/VelocityTrackerDescription"
+           value="Battlesuit support system that ignores the ranged damage reduction."/>
 
     <entry name="Tyranids/CityTier2Description"
            value="Increases the tile acquisition radius."/>
