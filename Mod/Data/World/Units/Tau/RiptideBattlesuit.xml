@@ -11,26 +11,16 @@
               walker="1"/>
     </model>
     <weapons>
-        <weapon name="IonAcceleratorStandard"
-                slotName="IonAcceleratorStandard">
+        <weapon name="FusionBlaster"
+                count="4">
             <model>
-                <beamWeapon cycleMuzzles="0"
-                            fireInterval="0.33"
-                            muzzleBone=".IonAcceleratorMuzzle"
-                            muzzleCount="2"/>
+                <beamWeapon muzzleBone=".IonAcceleratorMuzzle0"/>
             </model>
         </weapon>
-        <weapon name="IonAcceleratorOvercharged"
+        <weapon name="HeavyBurstCannon"
+                count="2"
                 enabled="0"
-                slotName="IonAcceleratorOvercharged">
-            <model>
-                <beamWeapon cycleMuzzles="0"
-                            fireInterval="0.33"
-                            muzzleBone=".IonAcceleratorMuzzle"
-                            muzzleCount="2"/>
-            </model>
-        </weapon>
-        <weapon name="TwinLinkedPlasmaRifle">
+                slotName="HeavyBurstCannon">
             <model>
                 <projectileWeapon cycleMuzzles="1"
                                   fireInterval="0.17"
@@ -44,7 +34,7 @@
             <effects>
                 <armor base="10"/> <!-- %armor base armor=2+ -->
                 <energyCost base="60.0"/> <!-- %energyCost base tier=9 factor=0.5 -->
-                <hitpointsMax base="30.0"/>
+                <hitpointsMax base="40.0"/>
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=6 wounds=5 -->
                 <meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
                 <meleeAttacks base="2"/>
@@ -115,8 +105,16 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <cycleWeapon interfaceSound="Interface/CycleWeapon"
-                     weaponSlotNames="IonAcceleratorStandard IonAcceleratorOvercharged"/>
+        <useWeapon consumedActionPoints="0"
+                   consumedMovement="0"
+                   cooldown="1"
+                   requiredActionPoints="0"
+                   weaponSlotName="HeavyBurstCannon">
+            <model>
+                <action beginFire="0.1"
+                        endFire="1.0"/>
+            </model>
+        </useWeapon>
         <novaShield name="Tau/NovaShield"
                     consumedActionPoints="0"
                     consumedMovement="0"
@@ -131,7 +129,6 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpointsFactorFromMax add="-0.1"/>
                                         <addTrait name="Tau/NovaShield"
                                                   duration="1"/>
                                     </effects>
@@ -160,7 +157,6 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpointsFactorFromMax add="-0.1"/>
                                         <addTrait name="Tau/NovaBoost"
                                                   duration="1"/>
                                     </effects>
@@ -189,7 +185,6 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpointsFactorFromMax add="-0.1"/>
                                         <addTrait name="Tau/NovaFire"
                                                   duration="1"/>
                                     </effects>

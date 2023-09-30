@@ -7,5 +7,16 @@
                 <invulnerableDamageReduction min="0.33"/>
             </effects>
         </modifier>
+        <modifier>
+            <conditions>
+                <weapon>
+                    <type name="FusionBlaster"/>
+                </weapon>
+                <encounterRange equal="1"/>
+            </conditions>
+            <effects>
+                <rangedAttacks mul="0.5"/>
+            </effects>
+        </modifier>
     </modifiers>
 </trait>

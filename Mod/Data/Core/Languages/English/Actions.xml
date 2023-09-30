@@ -594,6 +594,10 @@
            value="Metastrategy that increases the ranged damage reduction of allied T'au battlesuit units in the area. Shares cooldown with other metastrategies."/>
     <entry name="Tau/MarkerlightDescription"
            value="Reduces the ranged damage reduction of the target enemy non-fortification unit against T'au. Ends after the target enemy unit is attacked by T'au."/>
+    <entry name="Tau/NovaFireDescription"
+           value="Increase the attacks of heavy burst cannon."/>
+    <entry name="Tau/NovaShieldDescription"
+           value="Increase the damage reduction and the attacks of fusion blasters in half range."/>
     <entry name="Tau/RinyonDescription"
            value="Metastrategy that increases the accuracy of allied T'au battlesuit units in the area against enemy units adjacent to other allied units. Shares cooldown with other metastrategies."/>
     <entry name="Tau/SenseOfStoneDescription"

@@ -66,6 +66,10 @@
            value="Heavy Autocannon"/>
     <entry name="HeavyAutocannonFlavor"
            value="<string name='Weapons/AutocannonFlavor'/>"/>
+    <entry name="HeavyBurstCannon"
+           value="Heavy Burst Cannon"/>
+    <entry name="HeavyBurstCannonFlavor"
+           value="<string name='Weapons/BurstFlavor'/>"/>
     <entry name="HonourGuardBoltgun"
            value="Boltgun"/>
     <entry name="HonourGuardBoltgunFlavor"

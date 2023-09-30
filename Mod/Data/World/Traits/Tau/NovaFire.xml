@@ -3,8 +3,14 @@
        icon="Actions/Tau/NovaFire">
     <modifiers>
         <modifier>
+            <conditions>
+                <weapon>
+                    <type name="HeavyBurstCannon"/>
+                </weapon>
+            </conditions>
             <effects>
-                <attacks mul="0.50"/>
+                <rangeMax add="1"/>
+                <rangedAttacks mul="1"/>
             </effects>
         </modifier>
     </modifiers>
