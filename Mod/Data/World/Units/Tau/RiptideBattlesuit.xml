@@ -199,12 +199,13 @@
                 <action name="Tau/NovaShield"/>
             </sharedCooldowns>
         </novaFire>
-        <deployShieldedMissileDrone name="Tau/DeployDrone"
-                                    consumedActionPoints="0"
-                                    consumedMovement="0"
-                                    cooldown="10"
-                                    requiredActionPoints="0"
-                                    unitType="Tau/ShieldedMissileDrone">
+        <deployShieldDrone name="Tau/DeployDrone"
+                           consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="10"
+                           requiredActionPoints="0"
+                           requiredUpgrade="Tau/ShieldDrone"
+                           unitType="Tau/ShieldDrone">
             <model>
                 <action animation=""
                         sound="Actions/DeployDrone"/>
@@ -230,7 +231,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="Tau/ShieldedMissileDrone"
+                                        <addUnit name="Tau/ShieldDrone"
                                                  consumedAction="0"
                                                  consumedMovement="0"/>
                                     </effects>
@@ -250,7 +251,7 @@
                     </areas>
                 </target>
             </beginTargets>
-        </deployShieldedMissileDrone>
+        </deployShieldDrone>
         <hammerOfWrath consumedActionPoints="0"
                        consumedMovement="0"
                        cooldown="3"

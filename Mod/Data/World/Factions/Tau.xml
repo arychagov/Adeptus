@@ -797,6 +797,13 @@
             <model>
                 <action sound="Actions/InstallSupportSystem"/>
             </model>
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="20"/>
+                    </effects>
+                </modifier>
+            </modifiers>
             <beginTargets>
                 <target rangeMax="-1">
                     <conditions>
@@ -826,6 +833,13 @@
             <model>
                 <action sound="Actions/InstallSupportSystem"/>
             </model>
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="40"/>
+                    </effects>
+                </modifier>
+            </modifiers>
             <beginTargets>
                 <target rangeMax="-1">
                     <conditions>
@@ -855,6 +869,13 @@
             <model>
                 <action sound="Actions/InstallSupportSystem"/>
             </model>
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="40"/>
+                    </effects>
+                </modifier>
+            </modifiers>
             <beginTargets>
                 <target rangeMax="-1">
                     <conditions>
@@ -884,6 +905,13 @@
             <model>
                 <action sound="Actions/InstallSupportSystem"/>
             </model>
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="30"/>
+                    </effects>
+                </modifier>
+            </modifiers>
             <beginTargets>
                 <target rangeMax="-1">
                     <conditions>
@@ -913,6 +941,13 @@
             <model>
                 <action sound="Actions/InstallSupportSystem"/>
             </model>
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="40"/>
+                    </effects>
+                </modifier>
+            </modifiers>
             <beginTargets>
                 <target rangeMax="-1">
                     <conditions>
@@ -942,6 +977,13 @@
             <model>
                 <action sound="Actions/InstallSupportSystem"/>
             </model>
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="40"/>
+                    </effects>
+                </modifier>
+            </modifiers>
             <beginTargets>
                 <target rangeMax="-1">
                     <conditions>

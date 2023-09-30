@@ -247,9 +247,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="SpaceMarines/HonourGuard"
-                                                 consumedAction="1"
-                                                 consumedMovement="1"/>
+                                        <addUnit name="SpaceMarines/HonourGuard"/>
                                     </effects>
                                 </modifier>
                             </modifiers>

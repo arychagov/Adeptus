@@ -282,9 +282,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="ChaosSpaceMarines/DaemonPrince"
-                                                 consumedAction="1"
-                                                 consumedMovement="1"/>
+                                        <addUnit name="ChaosSpaceMarines/DaemonPrince"/>
                                     </effects>
                                 </modifier>
                             </modifiers>

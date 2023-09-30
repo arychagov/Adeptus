@@ -13,7 +13,7 @@
                 </encounter>
             </conditions>
             <effects>
-                <rangedDamageReduction max="0"/>
+                <rangedDamageReduction add="-0.15"/>
             </effects>
         </modifier>
     </modifiers>

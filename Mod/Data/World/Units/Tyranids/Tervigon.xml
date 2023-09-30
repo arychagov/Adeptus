@@ -225,9 +225,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="Tyranids/Termagant"
-                                                 consumedAction="0"
-                                                 consumedMovement="0"/>
+                                        <addUnit name="Tyranids/Termagant"/>
                                     </effects>
                                 </modifier>
                             </modifiers>

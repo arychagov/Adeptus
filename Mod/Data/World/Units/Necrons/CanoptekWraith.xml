@@ -170,9 +170,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="Necrons/CanoptekScarab"
-                                                 consumedAction="1"
-                                                 consumedMovement="1"/>
+                                        <addUnit name="Necrons/CanoptekScarab"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
