@@ -27,18 +27,18 @@
         <modifier visible="0">
             <effects>
                 <armor base="8"/> <!-- %armor base armor=3+ -->
-                <foodCost base="30.0"/> <!-- %foodCost base tier=7 factor=0.5 -->
-                <foodUpkeep base="3.0"/> <!-- %foodUpkeep base tier=7 factor=1 -->
-                <hitpointsMax base="2.0"/>
+                <foodCost base="40.0"/> <!-- %foodCost base tier=7 factor=0.5 -->
+                <foodUpkeep base="4.0"/> <!-- %foodUpkeep base tier=7 factor=1 -->
+                <hitpointsMax base="4.0"/>
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
                 <meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
                 <meleeAttacks base="1"/>
                 <strengthDamage base="1.5"/> <!-- %strengthDamage base strength=4 -->
                 <moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
                 <movementMax base="3"/>
-                <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+                <productionCost base="48.0"/> <!-- %productionCost base tier=7 factor=1 -->
                 <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
-                <oreCost base="30.0"/> <!-- %oreCost base tier=7 factor=0.5 -->
+                <oreCost base="40.0"/> <!-- %oreCost base tier=7 factor=0.5 -->
             </effects>
         </modifier>
     </modifiers>
@@ -80,6 +80,33 @@
                         soundCount="1"/>
             </model>
         </move>
+        <genericUnitAbility consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="5"
+                            requiredActionPoints="0"
+                            icon="Attributes/Accuracy"
+                            name="Tau/StrikeAndFade">
+            <model>
+                <action bone="ChestBone"
+                        sound="Actions/BondingKnifeRitual"/>
+            </model>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="Tau/StrikeAndFade" duration="1"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
+
         <bondingKnifeRitual name="Tau/BondingKnifeRitual"
                             consumedActionPoints="0"
                             consumedMovement="0"
@@ -324,7 +351,6 @@
                rank="0"/>
         <trait name="Tau/SupportingFire"/>
         <trait name="Infiltrate"/>
-        <trait name="Shrouded"/>
         <trait name="Stealth"/>
         <trait name="Relentless"/>
         <trait name="ExtraInfantryArmour"
@@ -335,5 +361,6 @@
         <trait name="Bulky"/>
         <trait name="Tau/TotalAssimilation"
                requiredUpgrade="Tau/TotalAssimilation"/>
+        <trait name="Tau/AmbushingPredators"/>
     </traits>
 </unit>

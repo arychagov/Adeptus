@@ -594,6 +594,12 @@
            value="Increases the damage reduction of the Ethereal and adjacent allied T'au infantry and monstrous creatures."/>
     <entry name="Tau/StormOfFireDescription"
            value="Increases the invulnerable damage reduction of the Ethereal."/>
+    <entry name="Tau/StrikeAndFade"
+           value="Strike And Fade"/>
+    <entry name="Tau/StrikeAndFadeDescription"
+           value="Increases the damage reduction and ignores enemy zone of control."/>
+    <entry name="Tau/StrikeAndFadeFlavor"
+           value="T’au are experts at harrying and outmanoeuvring their foes, bleeding them with accurate bursts of fire before fading away into the shadows."/>
     <entry name="Tau/UnityDescription"
            value="Increases the influence output."/>
     <entry name="Tau/VelocityTrackerDescription"

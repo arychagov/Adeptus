@@ -967,6 +967,10 @@
     <entry name="SpaceMarines/VeilOfTimeFlavor"
            value="The psyker projects his will beyond the regular passage of time, altering the temporal flow to sway the tide of battle."/>
 
+    <entry name="Tau/AmbushingPredators"
+           value="Ambushing Predators"/>
+    <entry name="Tau/AmbushingPredatorsDescription"
+           value="Actions do not consume movement."/>
     <entry name="Tau/BlacksunDefenceSystem"
            value="Blacksun Defence System"/>
     <entry name="Tau/BlacksunDefenceSystemDescription"
@@ -1015,6 +1019,12 @@
            value="Increases the accuracy and the attacks."/>
     <entry name="Tau/ReactiveThrustSystemFlavor"
            value="Angled micro-thrusters integrated into battlesuit plating allows their pilots to trigger a sudden burst of speed for interdiction assaults.>"/>
+    <entry name="Tau/StrikeAndFade"
+           value="Strike And Fade"/>
+    <entry name="Tau/StrikeAndFadeDescription"
+           value="Increases the damage reduction and ignores enemy zone of control."/>
+    <entry name="Tau/StrikeAndFadeFlavor"
+           value="T’au are experts at harrying and outmanoeuvring their foes, bleeding them with accurate bursts of fire before fading away into the shadows."/>
     <entry name="Tau/SupportingFireDescription"
            value="Increases overwatch attacks."/>
     <entry name="Tau/TargetAcquired"
