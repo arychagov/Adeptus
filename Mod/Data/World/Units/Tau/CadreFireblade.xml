@@ -371,8 +371,7 @@
                     <effects>
                         <damage mulMax="5.5"
                                 mulMin="4.0"/>
-                        <attacks mul="-0.75"/>
-                        <rangeMax add="-1"/>
+                        <attacks mul="-0.66"/>
                     </effects>
                 </modifier>
             </modifiers>
