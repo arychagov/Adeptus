@@ -346,7 +346,7 @@
             </beginTargets>
         </stormOfFire>
         <calmOfTides name="Tau/CalmOfTides"
-                     cooldown="3"
+                     cooldown="1"
                      levelUpPriority="0.1"
                      rank="-1"
                      rankMax="2">
