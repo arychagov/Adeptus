@@ -16,6 +16,7 @@
                         <unit>
                             <allied/>
                             <damaged/>
+                            <noTrait name="Headquarters"/>
                         </unit>
                         <unit match="Any">
                             <trait name="Fortification"/>

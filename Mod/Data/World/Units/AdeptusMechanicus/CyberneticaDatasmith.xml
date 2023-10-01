@@ -136,11 +136,11 @@
                     <conditions>
                         <unit>
                             <allied/>
-                            <faction name="AdeptusMechanicus"/>
                             <damaged/>
+                            <faction name="AdeptusMechanicus"/>
+                            <noTrait name="Headquarters"/>
                         </unit>
                         <unit match="Any">
-                            <faction name="AdeptusMechanicus"/>
                             <trait name="Fortification"/>
                             <trait name="Vehicle"/>
                         </unit>

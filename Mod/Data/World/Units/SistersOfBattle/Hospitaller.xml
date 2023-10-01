@@ -234,6 +234,7 @@
                         <unit>
                             <allied/>
                             <damaged/>
+                            <noTrait name="Headquarters"/>
                             <faction name="SistersOfBattle"/>
                             <noTrait name="Fortification"/>
                             <noTrait name="Vehicle"/>

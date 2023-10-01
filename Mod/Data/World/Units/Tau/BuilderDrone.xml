@@ -116,10 +116,10 @@
                         <unit>
                             <allied/>
                             <faction name="Tau"/>
+                            <noTrait name="Headquarters"/>
                             <damaged/>
                         </unit>
                         <unit match="Any">
-                            <faction name="Tau"/>
                             <trait name="Fortification"/>
                             <trait name="Vehicle"/>
                         </unit>

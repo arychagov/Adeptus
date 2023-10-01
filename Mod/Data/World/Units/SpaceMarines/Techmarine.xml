@@ -118,6 +118,7 @@
                         <unit>
                             <allied/>
                             <faction name="SpaceMarines"/>
+                            <noTrait name="Headquarters"/>
                             <damaged/>
                         </unit>
                         <unit match="Any">

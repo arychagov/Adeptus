@@ -261,6 +261,7 @@
                         <unit>
                             <allied/>
                             <faction name="Necrons"/>
+                            <noTrait name="Headquarters"/>
                             <damaged/>
                         </unit>
                         <unit match="Any">

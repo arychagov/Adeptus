@@ -283,6 +283,7 @@
                                     <conditions>
                                         <unit>
                                             <allied/>
+                                            <noTrait name="Headquarters"/>
                                         </unit>
                                     </conditions>
                                     <effects>

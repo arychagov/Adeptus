@@ -159,6 +159,7 @@
                             <allied/>
                             <damaged/>
                             <faction name="Necrons"/>
+                            <noTrait name="Headquarters"/>
                             <noTrait name="Fortification"/>
                             <noTrait name="Vehicle"/>
                         </unit>

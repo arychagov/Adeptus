@@ -161,6 +161,7 @@
                         <unit>
                             <allied/>
                             <faction name="Orks"/>
+                            <noTrait name="Headquarters"/>
                             <damaged/>
                         </unit>
                         <unit match="Any">
