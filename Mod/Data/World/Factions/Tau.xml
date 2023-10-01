@@ -402,12 +402,15 @@
                 <action sound="Actions/ConvertWildlife"/>
             </model>
             <modifiers>
-                <modifier visible="0" requiredUpgrade="Tau/FriendsToAll">
+                <modifier requiredUpgrade="Tau/FriendsToAll"
+                          visible="0">
                     <effects>
                         <influenceCost mul="-0.20"/>
+                        <cooldown add="-2"/>
                     </effects>
                 </modifier>
-                <modifier visible="0" requiredUpgrade="Tau/TotalAssimilation">
+                <modifier requiredUpgrade="Tau/TotalAssimilation"
+                          visible="0">
                     <effects>
                         <influenceCost mul="-1.0"/>
                     </effects>
@@ -443,19 +446,22 @@
             </sharedCooldowns>
         </convertWildlife>
         <convertWildlife name="Tau/ConvertWildlifeAmbull"
-                         icon="Actions/Tau/ConvertWildlife"
                          cooldown="5"
+                         icon="Actions/Tau/ConvertWildlife"
                          requiredUpgrade="Tau/FriendsToAll">
             <model>
                 <action sound="Actions/ConvertWildlife"/>
             </model>
             <modifiers>
-                <modifier visible="0" requiredUpgrade="Tau/FriendsToAll">
+                <modifier requiredUpgrade="Tau/FriendsToAll"
+                          visible="0">
                     <effects>
                         <influenceCost mul="-0.20"/>
+                        <cooldown add="-2"/>
                     </effects>
                 </modifier>
-                <modifier visible="0" requiredUpgrade="Tau/TotalAssimilation">
+                <modifier requiredUpgrade="Tau/TotalAssimilation"
+                          visible="0">
                     <effects>
                         <influenceCost mul="-1.0"/>
                     </effects>
@@ -522,6 +528,8 @@
                                     </conditions>
                                     <effects>
                                         <morale max="0"/>
+                                        <addTrait name="Desperation"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                                 <modifier>

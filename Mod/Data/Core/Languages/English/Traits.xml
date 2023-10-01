@@ -416,6 +416,9 @@
     <entry name="FlaredFlavor"
            value="This attack looses a brilliant flare of light, searing the sight of the victim and forcing him to fight blind for a few moments."/>
 
+    <entry name="HeadquartersDescription"
+           value="Destroying the headquarters unit destroys the entire city. Increases the ranged damage reduction against attacks from range 2 or higher. Increases the ranged damage reduction by 5% for each adjacent allied unit."/>
+
     <entry name="IronWill"
            value="Cadia Stands!"/>
     <entry name="IronWillDescription"

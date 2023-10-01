@@ -1,2 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait/>
+<trait alwaysVisible="1">
+    <modifiers>
+        <modifier>
+            <conditions>
+                <encounterRange greater="1"/>
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.17"/>
+            </effects>
+        </modifier>
+        <modifier>
+            <effects>
+                <rangeMax max="2"/>
+            </effects>
+        </modifier>
+        <modifier>
+            <conditions>
+                <unit>
+                    <unitsInRange count="1"
+                                  range="1">
+                        <allied/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.05"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="2"
+                                  range="1">
+                        <allied/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.05"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="3"
+                                  range="1">
+                        <allied/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.05"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="4"
+                                  range="1">
+                        <allied/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.05"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="5"
+                                  range="1">
+                        <allied/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.05"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="6"
+                                  range="1">
+                        <allied/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.05"/>
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>

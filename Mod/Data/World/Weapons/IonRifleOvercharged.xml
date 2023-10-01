@@ -19,7 +19,7 @@
     </modifiers>
     <target rangeMax="3"/>
     <traits>
-        <trait name="Tau/BlastDamage"
-               requiredUpgrade="Tau/DispruptionPod"/>
+        <trait name="Tau/LasDamage"
+               requiredUpgrade="Tau/LasDamage"/>
     </traits>
 </weapon>
