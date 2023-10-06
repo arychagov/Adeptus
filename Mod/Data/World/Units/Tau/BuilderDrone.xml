@@ -122,6 +122,7 @@
                         <unit match="Any">
                             <trait name="Fortification"/>
                             <trait name="Vehicle"/>
+                            <trait name="Tau/Battlesuit"/>
                         </unit>
                     </conditions>
                     <areas>

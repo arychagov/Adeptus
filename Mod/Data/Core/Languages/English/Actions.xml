@@ -554,6 +554,8 @@
            value="Increases ranged attacks of nearby heroes, cities, Fire Warriors, Pathfinders, Krootox Riders and drones."/>
     <entry name="Tau/BreakComposureFlavor"
            value="Though not physically impressive, the T’au can inculcate fear in their enemies through subtler means—by harrying them so that they can’t focus, by surrounding them, by forcing them down tactical paths that only lead to repeated failure. Sometimes you don’t need to even touch an enemy to defeat them."/>
+    <entry name="Tau/BondingKnifeRitualDescription"
+           value="Restores the morale or temporary disables degradation effect for monstrous creatures."/>
     <entry name="Tau/CalmOfTidesDescription"
            value="Restores the hitpoints and the morale of the Ethereal and adjacent allied T'au infantry and monstrous creatures."/>
     <entry name="Tau/CommanderJumpPack"

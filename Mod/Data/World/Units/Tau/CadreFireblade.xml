@@ -294,11 +294,11 @@
         </bondingKnifeRitual>
         <markerlight name="Tau/Markerlight"
                      consumedActionPoints="0"
+                     consumedMovement="0"
                      cooldown="1"
                      rank="-1"
                      rankMax="2"
-                     requiredActionPoints="0"
-                     requiredMovement="0">
+                     requiredActionPoints="0">
             <model>
                 <action animation=""
                         sound="Actions/Markerlight"/>

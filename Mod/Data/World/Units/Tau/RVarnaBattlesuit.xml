@@ -98,6 +98,32 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
+        <bondingKnifeRitual name="Tau/BondingKnifeRitual"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="5"
+                            requiredActionPoints="0"
+                            requiredUpgrade="Tau/BondingKnifeRitual">
+            <model>
+                <action bone="ChestBone"
+                        sound="Actions/BondingKnifeRitual"/>
+            </model>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="UnbreakableMonstrousCreature" duration="1"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </bondingKnifeRitual>
         <gravityWaveProjector name="Tau/GravityWaveProjector"
                               consumedActionPoints="0"
                               consumedMovement="0"

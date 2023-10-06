@@ -44,6 +44,7 @@
                 <foodCost base="15.0"/> <!-- %foodCost base tier=6 factor=0.5 -->
                 <oreCost base="15.0"/> <!-- %oreCost base tier=6 factor=0.5 -->
                 <productionCost base="30.0"/> <!-- %productionCost base tier=6 factor=1 -->
+                <rangedAttacks mul="-0.08"/> <!-- Cadre -->
             </effects>
         </modifier>
     </modifiers>

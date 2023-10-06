@@ -33,7 +33,7 @@
                 <strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
                 <moraleMax base="4"/> <!-- %moraleMax base leadership=5 -->
                 <movementMax base="3"/>
-                <productionCost base="30.0"/> <!-- %productionCost base tier=5 factor=1 -->
+                <productionCost base="36.0"/> <!-- %productionCost base tier=5 factor=1 -->
                 <rangedAccuracy base="4"/> <!-- %rangedAccuracy base ballisticSkill=2 -->
             </effects>
         </modifier>
