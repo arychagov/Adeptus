@@ -114,7 +114,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <morale add="100"/>
+                                        <addTrait name="UnbreakableMonstrousCreature" duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
