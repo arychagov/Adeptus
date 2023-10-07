@@ -37,8 +37,6 @@
             </modifiers>
         </rapidRise>
         <produceUnit unit="Necrons/TombBlade"/>
-        <produceUnit requiredUpgrade="Necrons/CanoptekSpyder"
-                     unit="Necrons/CanoptekSpyder"/>
         <produceUnit requiredUpgrade="Necrons/GhostArk"
                      unit="Necrons/GhostArk"/>
         <produceUnit requiredUpgrade="Necrons/AnnihilationBarge"
