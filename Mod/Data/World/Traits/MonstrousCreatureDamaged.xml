@@ -3,6 +3,13 @@
        icon="Traits/Shaken">
     <modifiers>
         <modifier>
+            <conditions>
+                <unit>
+                    <trait name="MonstrousCreature"/>
+                    <noTrait name="MultimodelMonstrousCreature"/>
+                    <noTrait name="UnbreakableMonstrousCreature"/>
+                </unit>
+            </conditions>
             <effects>
                 <accuracy mul="-0.17"/>
             </effects>

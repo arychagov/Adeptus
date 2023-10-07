@@ -7,6 +7,7 @@
                 <unit>
                     <trait name="Vehicle"/>
                     <noTrait name="MultimodelVehicle"/>
+                    <noTrait name="UnbreakableVehicle"/>
                 </unit>
             </conditions>
             <effects>

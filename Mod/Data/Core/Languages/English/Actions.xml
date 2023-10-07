@@ -337,7 +337,7 @@
     <entry name="Necrons/TriarchPraetorianJumpPackFlavor"
            value="<string name='Actions/JumpPackFlavor'/>"/>
     <entry name="Necrons/VoidStrikeDescription"
-           value="Deals damage to the target vehicle or fortification and forces its degradation."/>
+           value="Deals damage to the target vehicle or monstrous creature and forces its degradation."/>
     <entry name="Necrons/UpgradeGaussFlayerArray"
            value="Upgrade Gauss Flayer Array"/>
     <entry name="Necrons/UpgradeGaussFlayerArrayDescription"

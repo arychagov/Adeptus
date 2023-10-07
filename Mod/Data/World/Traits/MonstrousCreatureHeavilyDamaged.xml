@@ -6,6 +6,8 @@
             <conditions>
                 <unit>
                     <trait name="MonstrousCreature"/>
+                    <noTrait name="MultimodelMonstrousCreature"/>
+                    <noTrait name="UnbreakableMonstrousCreature"/>
                 </unit>
             </conditions>
             <effects>

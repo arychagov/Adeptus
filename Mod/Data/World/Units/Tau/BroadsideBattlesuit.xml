@@ -320,6 +320,7 @@
                requiredUpgrade="Tau/GhostkeelDojo"/>
         <trait name="VeryBulky"/>
         <trait name="MonstrousCreature"/>
+        <trait name="MultimodelMonstrousCreature"/>
         <trait name="Relentless"/>
         <trait name="Tau/FireTeam"/>
     </traits>
