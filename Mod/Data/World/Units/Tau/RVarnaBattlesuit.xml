@@ -156,7 +156,7 @@
             </beginTargets>
         </gravityWaveProjector>
         <gravityWaveProjector name="Tau/GravityWaveProjector1"
-                              icon="Tau/GravityWaveProjector"
+                              icon="Actions/Tau/GravityWaveProjector"
                               consumedActionPoints="0"
                               consumedMovement="0"
                               cooldown="10">

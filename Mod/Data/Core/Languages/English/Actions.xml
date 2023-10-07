@@ -356,6 +356,9 @@
     <entry name="MachineSpiritFlavor"
            value="There are many tales of machine spirits wreaking havoc on the foe, even after their crew are slain and critical systems are failing."/>
 
+    <entry name="RepairDescription"
+           value="Restores the hitpoints of the target allied vehicle, fortification or T'au battlesuit unit."/>
+
     <entry name="SistersOfBattle/BeaconOfFaith"
            value="Beacon of Faith"/>
     <entry name="SistersOfBattle/BeaconOfFaithDescription"
