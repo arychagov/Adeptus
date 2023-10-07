@@ -14,7 +14,7 @@
         <modifier>
             <effects>
                 <attacks add="0.5"/>
-                <rangedArmorPenetration add="3"/> <!-- %rangedArmorPenetration add armorPiercing=1 -->
+                <rangedArmorPenetration add="2"/> <!-- %rangedArmorPenetration add armorPiercing=1 -->
                 <rangedDamage add="2.5"/> <!-- %rangedDamage add strength=8 -->
                 <strengthDamage base="0"/>
             </effects>
@@ -27,5 +27,6 @@
         <trait name="Tau/BoltDamage"
                requiredUpgrade="Tau/BoltDamage"/>
         <trait name="TwinLinked"/>
+        <trait name="Barrage"/>
     </traits>
 </weapon>
