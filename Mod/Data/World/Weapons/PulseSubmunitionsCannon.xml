@@ -27,7 +27,6 @@
         <trait name="Barrage"/>
         <trait name="HeavyWeapon"/>
         <trait name="LargeBlast"/>
-        <trait name="Tau/ClusterFire"/>
         <trait name="Tau/LasDamage"
                requiredUpgrade="Tau/LasDamage"/>
     </traits>
