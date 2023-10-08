@@ -297,7 +297,6 @@
                requiredUpgrade="Tau/BlacksunDefenceSystem"/>
         <trait name="Tau/BlacksunDefenceSystem"
                requiredUpgrade="Tau/BlacksunDefenceSystem"/>
-        <trait name="Tau/IntegratedShieldGenerator"/>
         <trait name="MonstrousCreature"/>
         <trait name="MoveThroughCover"/>
         <trait name="Relentless"/>
@@ -305,6 +304,8 @@
         <trait name="Tau/SupportSystems"
                rank="1"/>
         <trait name="Tau/SupportingFire"/>
+        <trait name="Tau/GhostkeelElectrowarfareSuite"
+               requiredUpgrade="Tau/GhostkeelDojo"/>
         <trait name="ExtraInfantryArmour"
                requiredUpgrade="Tau/ExtraInfantryArmour"/>
     </traits>
