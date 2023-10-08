@@ -9,7 +9,6 @@
                 </unit>
             </conditions>
             <effects>
-                <accuracy add="2"/>
                 <attacks mul="0.15"/>
             </effects>
         </modifier>
