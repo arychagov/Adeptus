@@ -638,6 +638,18 @@
            value="<string name='Traits/Necrons/QuantumDeflectionDescription'/>"/>
     <entry name="Necrons/QuantumDeflectionWeakFlavor"
            value="<string name='Traits/Necrons/QuantumDeflectionFlavor'/>"/>
+    <entry name="Necrons/ReanimationProtocolsTranscendentCtan"
+           value="Reanimation Protocols"/>
+    <entry name="Necrons/ReanimationProtocolsTranscendentCtanDescription"
+           value="Restores hitpoints each turn."/>
+    <entry name="Necrons/ReanimationProtocolsTranscendentCtanFlavor"
+           value="Necrons have sophisticated self-repair systems that return even critically damaged warriors to the fight."/>
+    <entry name="Necrons/ReanimationProtocolsTriarchPraetorian"
+           value="Reanimation Protocols"/>
+    <entry name="Necrons/ReanimationProtocolsTriarchPraetorianDescription"
+           value="Restores hitpoints each turn."/>
+    <entry name="Necrons/ReanimationProtocolsTriarchPraetorianFlavor"
+           value="Necrons have sophisticated self-repair systems that return even critically damaged warriors to the fight."/>
     <entry name="Necrons/ReanimationProtocolsWarrior"
            value="Reanimation Protocols"/>
     <entry name="Necrons/ReanimationProtocolsWarriorDescription"

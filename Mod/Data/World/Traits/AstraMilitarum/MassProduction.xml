@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait category="Buff"
-       icon="Upgrades/AstraMiliatrum/MassProduction">
+       icon="Upgrades/AstraMilitarum/MassProduction">
     <modifiers>
         <modifier>
             <effects>
