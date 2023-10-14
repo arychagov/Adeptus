@@ -23,6 +23,7 @@
                requiredUpgrade="AstraMilitarum/BlastDamage"/>
         <trait name="SpaceMarines/BlastDamage"
                requiredUpgrade="SpaceMarines/BlastDamage"/>
+        <trait name="LargeAntiInfantry"/>
         <trait name="Ordnance"/>
     </traits>
 </weapon>

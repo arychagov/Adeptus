@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1"
+       icon="Traits/LargeBlast">
+    <modifiers>
+        <modifier>
+            <conditions>
+                <encounter>
+                    <opponent match="Any">
+                        <trait name="Hero"/>
+                        <trait name="MonstrousCreature"/>
+                        <trait name="Vehicle"/>
+                        <trait name="Fortification"/>
+                    </opponent>
+                </encounter>
+            </conditions>
+            <effects>
+                <attacks add="-4"/>
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>

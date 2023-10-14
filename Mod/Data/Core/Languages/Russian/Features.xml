@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+    <entry name="NullZone"
+           value="<string name='Traits/NullZone'/>"/>
+    <entry name="NullZoneDescription"
+           value="<string name='Traits/NullZoneDescription'/>"/>
+    <entry name="NullZoneFlavor"
+           value="<string name='Traits/NullZoneFlavor'/>"/>
+    <entry name="SacredGround"
+           value="Sacred Ground"/>
+    <entry name="SacredGroundDescription"
+           value="Feature that ends the movement of a unit and applies damage over time debuff to the enemy."/>
+    <entry name="SacredGroundFlavor"
+           value="Reclaim the Emperor’s dominion and consecrate it once more."/>
+    <entry name="ShatteredDefences"
+           value="<string name='Traits/ShatteredDefences'/>"/>
+    <entry name="ShatteredDefencesDescription"
+           value="<string name='Traits/ShatteredDefencesDescription'/>"/>
+    <entry name="CursedGround"
+           value="Cursed Ground"/>
+    <entry name="CursedGroundDescription"
+           value="Feature that ends the movement of a unit and applies damage over time debuff to the enemy."/>
+</language>

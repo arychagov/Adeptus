@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+    <entry name="AdeptusMechanicus/ConstructionDescription"
+           value="Building that constructs new buildings as well as increases growth, generates food, ore and influence."/>
+    <entry name="AstraMilitarum/ConstructionDescription"
+           value="Building that constructs new buildings as well as increases growth, generates food and research."/>
+    <entry name="ChaosSpaceMarines/ConstructionDescription"
+           value="Building that constructs new buildings as well as increases growth, generates ore and influence."/>
+    <entry name="Eldar/ConstructionDescription"
+           value="Building that constructs new buildings as well as increases growth, harvests ore, generates research and increases growth."/>
+    <entry name="Necrons/ConstructionDescription"
+           value="Building that constructs new buildings as well as increases growth, generates energy, influence and increases loyalty."/>
+    <entry name="Orks/ConstructionDescription"
+           value="Building that constructs new buildings, increases growth, generates ore and influence as well as increases population limit."/>
+    <entry name="SistersOfBattle/ConstructionDescription"
+           value="Building that constructs new buildings, increases growth and generates influence."/>
+    <entry name="SpaceMarines/ConstructionDescription"
+           value="Building that constructs new buildings, increases growth and generates influence."/>
+    <entry name="Tau/ConstructionDescription"
+           value="Building that constructs new buildings as well as increases growth, generates ore, research and influence."/>
+    <entry name="Tyranids/ConstructionDescription"
+           value="Building that constructs new buildings as well as increases growth, generates biomass and increases the population limit."/>
+    <entry name="Tau/MonstrousCreaturesDescription"
+           value="Building that produces monstrous creatures as well as generates research and influence."/>
+    <entry name="SistersOfBattle/VehiclesFlavor"
+           value="The vehicles of the Adepta Sororitas are ancient—relic battle tanks of long-ago crusades. In this hangar, Exarsists, Castigators and Immolators have their machine spirits revived by the Ministorum technicians, are sprinkled with sacred oils, and sacred incantations handed down for thousands of years. To the T’au and Votann, this would be rank superstition—yet the machines work with a deadly efficiency."/>
+
+</language>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
