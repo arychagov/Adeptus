@@ -197,7 +197,7 @@
                 <selfTarget>
                     <areas>
                         <area affects="Tile"
-                              radius="1">
+                              radius="2">
                             <modifiers>
                                 <modifier>
                                     <effects>
