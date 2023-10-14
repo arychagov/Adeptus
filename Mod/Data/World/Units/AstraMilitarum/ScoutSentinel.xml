@@ -182,5 +182,7 @@
                requiredUpgrade="AstraMilitarum/TrainedSentinelPilots"/>
         <trait name="Vehicle"/>
         <trait name="Walker"/>
+        <trait name="AstraMilitarum/MassProduction"
+               requiredUpgrade="AstraMilitarum/MassProduction"/>
     </traits>
 </unit>

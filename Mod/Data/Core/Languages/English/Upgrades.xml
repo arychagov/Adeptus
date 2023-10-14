@@ -85,6 +85,10 @@
            value="Grants Chimeras lasgun array."/>
     <entry name="AstraMilitarum/LasgunArrayFlavor"
            value="Standing tall in ordered ranks, they unleash a devastating fusillade of las-fire."/>
+    <entry name="AstraMilitarum/MassProduction"
+           value="Mass Production"/>
+    <entry name="AstraMilitarum/MassProductionDescription"
+           value="Decreases duplicate cost of vehicles."/>
     <entry name="AstraMilitarum/ReconOperators"
            value="Recon Operators"/>
     <entry name="AstraMilitarum/ReconOperatorsDescription"

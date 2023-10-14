@@ -129,5 +129,7 @@
         <trait name="Tank"/>
         <trait name="Vehicle"/>
         <trait name="AstraMilitarum/Gunner"/>
+        <trait name="AstraMilitarum/MassProduction"
+               requiredUpgrade="AstraMilitarum/MassProduction"/>
     </traits>
 </unit>
