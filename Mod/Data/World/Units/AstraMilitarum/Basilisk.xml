@@ -131,8 +131,6 @@
                requiredUpgrade="AstraMilitarum/SmokeLauncher"/>
         <trait name="ExtraVehicleArmour"
                requiredUpgrade="AstraMilitarum/ExtraVehicleArmour"/>
-        <trait name="RecoveryGear"
-               requiredUpgrade="AstraMilitarum/RecoveryGear"/>
         <trait name="RelicPlating"
                requiredUpgrade="AstraMilitarum/RelicPlating"/>
         <trait name="OpenTopped"/>

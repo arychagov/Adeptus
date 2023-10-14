@@ -96,7 +96,7 @@
     <entry name="AstraMilitarum/ReconOperatorsFlavor"
            value="Adept infiltrators or swift vanguard skirmishers, this regiment’s infantry range ahead of the front lines alongside swifter elements, tackling the enemy without warning and reporting observations to Imperial command."/>
     <entry name="AstraMilitarum/RecoveryGearDescription"
-           value="Increases the healing rate of vehicle near Tech-Priest Enginseers. Increases Tech-Priest Enginseer's blessing of the omnissiah healing effect."/>
+           value="Grants Scout Sentinels multi-laser, increases the armour of Scout Sentinels, but limits their maximum firing range. Increases the accuracy of ranged attacks of Scout Sentinels against enemy units adjacent to Tempestus Scion or Bullgryn."/>
     <entry name="AstraMilitarum/RelicPlatingDescription"
            value="Increases the witchfire damage reduction of ground vehicles. Increases Imperial Bastions' the city damage reduction. Increases Leman Russ Battle Tanks and Baneblades armour."/>
     <entry name="AstraMilitarum/ShockTroops"

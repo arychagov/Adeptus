@@ -707,8 +707,10 @@
     <entry name="MachineSpiritFlavor"
            value="There are many tales of machine spirits wreaking havoc on the foe, even after their crew are slain and critical systems are failing."/>
 
+    <entry name="RecoveryGear"
+           value="Imperial Armory"/>
     <entry name="RecoveryGearDescription"
-           value="Increases the healing rate when allied Tech-Priest Enginseer is nearby."/>
+           value="Reduces the maximum range of ranged weapons, increases the armour."/>
 
     <entry name="ShakenDescription"
            value="Reduces the accuracy."/>

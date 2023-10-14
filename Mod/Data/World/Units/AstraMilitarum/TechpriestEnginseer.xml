@@ -179,11 +179,6 @@
                                         <hitpoints add="8"/>
                                     </effects>
                                 </modifier>
-                                <modifier requiredUpgrade="AstraMilitarum/RecoveryGear">
-                                    <effects>
-                                        <hitpoints add="2"/>
-                                    </effects>
-                                </modifier>
                             </modifiers>
                         </area>
                     </areas>

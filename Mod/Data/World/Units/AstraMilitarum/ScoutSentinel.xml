@@ -21,6 +21,8 @@
                 <beamWeapon muzzleBone=".MuzzleBone0"/>
             </model>
         </weapon>
+        <weapon name="MultiLaser"
+                requiredUpgrade="AstraMilitarum/RecoveryGear"/>
         <weapon name="HunterKillerMissile"
                 enabled="0"
                 slotName="HunterKillerMissile">
@@ -173,6 +175,8 @@
         <trait name="ExtraVehicleArmour"
                requiredUpgrade="AstraMilitarum/ExtraVehicleArmour"/>
         <trait name="RecoveryGear"
+               requiredUpgrade="AstraMilitarum/RecoveryGear"/>
+        <trait name="AstraMilitarum/Gunner"
                requiredUpgrade="AstraMilitarum/RecoveryGear"/>
         <trait name="RelicPlating"
                requiredUpgrade="AstraMilitarum/RelicPlating"/>
