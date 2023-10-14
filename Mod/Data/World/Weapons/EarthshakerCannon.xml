@@ -8,7 +8,7 @@
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="1"/>
+                <attacks add="5"/>
                 <rangedArmorPenetration add="4"/> <!-- %rangedArmorPenetration add armorPiercing=3 -->
                 <rangedDamage add="8"/> <!-- %rangedDamage add strength=9 -->
                 <strengthDamage base="0"/>
@@ -23,7 +23,6 @@
                requiredUpgrade="AstraMilitarum/BlastDamage"/>
         <trait name="SpaceMarines/BlastDamage"
                requiredUpgrade="SpaceMarines/BlastDamage"/>
-        <trait name="LargeBlast"/>
         <trait name="Ordnance"/>
     </traits>
 </weapon>
