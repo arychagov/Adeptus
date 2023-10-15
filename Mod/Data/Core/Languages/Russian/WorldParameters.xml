@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<language>
-	<entry name="ArtefactDensity0" value="Нет"/>
-	<entry name="ArtefactDensity1" value="Очень низкая"/>
-	<entry name="ArtefactDensity2" value="Низкая"/>
-	<entry name="ArtefactDensity3" value="Средняя"/>
-	<entry name="ArtefactDensity4" value="Высокая"/>
-	<entry name="ArtefactDensity5" value="Очень высокая"/>
-</language>

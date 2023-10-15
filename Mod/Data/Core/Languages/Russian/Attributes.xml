@@ -1,5 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<language>
-    <entry name="MoraleDescription"
-           value="The psychological state of the unit. Morale regenerates if the unit has not taken damage this turn. Below 66% morale units become <icon height='20' texture='Icons/Traits/Shaken'/> shaken, decreasing accuracy by 17%. Below 33% morale units become <icon height='20' texture='Icons/Traits/Broken'/> broken, decreasing accuracy by 33%."/>
-</language>
+<language><entry name="MoraleDescription" value="Психологическое состояние подразделения. Моральный дух восстанавливается, если отряд не получил урона в этом ходу. Юниты с моральным духом ниже 66% становятся &lt;icon height='20'texture='Icons/Traits/Shaken'/&gt; потрясенными, что снижает точность на 17%. Единицы боевого духа ниже 33% становятся &lt;icon height='20'texture='Icons/Traits/Broken'/&gt; сломанными, что снижает точность на 33%." /></language>

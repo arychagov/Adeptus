@@ -1,0 +1,2 @@
+google_oauth2_tool==0.0.3
+google-cloud-translate==3.12.0
