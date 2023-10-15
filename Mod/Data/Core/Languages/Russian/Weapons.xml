@@ -1,1 +1,88 @@
-<language><entry name="AstartesChainsword" value="Цепной меч Астартес&quot;" /><entry name="AstartesChainswordFlavor" value="Цепной меч — это мощная бензопила, оснащенная рукоятью, навершием и гардой, делающими ее менее громоздкой. Это распространенное оружие по всему Империуму, имеющее ужасающую репутацию из-за урона, который оно может нанести небронированной плоти»." /><entry name="BoltSniperRifle" value="Болт-снайперская винтовка&quot;" /><entry name="BoltSniperRifleFlavor" value="Снайперские винтовки оснащены мощными оптическими прицелами, позволяющими стрелку поражать слабые места и удаленных противников с безошибочной точностью. Некоторые командиры считают снайперскую винтовку бесчестным оружием, но их меньшинство. Большинство понимает, что прагматизм и мертвые враги позволяют выиграть больше сражений, чем честь»." /><entry name="CadrePulseRifle" value="Импульсная винтовка Кадра&quot;" /><entry name="CadrePulseRifleFlavor" value="&lt;string name='Weapons/PulseRifleFlavor'/&gt;&quot;" /><entry name="CaptainBoltPistol" value="Болт-пистолет&quot;" /><entry name="CaptainBoltPistolFlavor" value="&lt;string name='Weapons/BoltFlavor'/&gt;&quot;" /><entry name="CaptainPowerSword" value="Силовой меч»" /><entry name="CaptainPowerSwordFlavor" value="&lt;string name='Weapons/PowerFlavor'/&gt;&quot;" /><entry name="DeathPact" value="Пакт смерти»" /><entry name="DefilerMissileLauncher" value="Ракетная установка «Осквернитель»" /><entry name="DefilerRocketLauncher" value="Ракетная установка «Осквернитель»" /><entry name="DestroyerWarscythe" value="&lt;string name='Weapons/Warscythe'/&gt;&quot;" /><entry name="DestroyerWarscytheFlavor" value="&lt;string name='Weapons/WarscytheFlavor'/&gt;&quot;" /><entry name="EradicatorNovaCannon" value="Искоренитель Нова Пушка&quot;" /><entry name="EradicatorNovaCannonFlavor" value="&lt;string name='Weapons/BattleCannon'/&gt;&quot;" /><entry name="ExorcistMissileLauncher" value="Экзарсистская ракетная установка&quot;" /><entry name="ExorcistMissileLauncherFlavor" value="Ракеты Экзарсистов, выпущенные этими почитаемыми машинами, способны одним карающим залпом расколоть боевые танки противника или уничтожить целые отряды тяжелой пехоты, при условии, конечно, что темпераментный машинный дух Экзорциста не дает сбоев»." /><entry name="ForgefiendAutocannon" value="Автопушка Forgefiend&quot;" /><entry name="ForgefiendAutocannonFlavor" value="&lt;string name='Weapons/HadesAutocannonFlavor'/&gt;&quot;" /><entry name="GaussFlayerArrayGhostArk" value="Массив свежевателей Гаусса&quot;" /><entry name="GaussFlayerArrayGhostArkFlavor" value="&lt;string name='Weapons/GaussFlavor'/&gt;&quot;" /><entry name="GaussReaper" value="Гаусс Жнец&quot;" /><entry name="GaussReaperFlavor" value="Оружие Гаусса, которое меняет дальность на увеличенную силу удара»." /><entry name="GuardsmanFlamer" value="Огнемет&quot;" /><entry name="GuardsmanFlamerFlavor" value="&lt;string name='Weapons/FlamerFlavor'/&gt;&quot;" /><entry name="GuardsmanMeltagun" value="Мельтаган&quot;" /><entry name="GuardsmanMeltagunFlavor" value="&lt;string name='Weapons/MeltaFlavor'/&gt;&quot;" /><entry name="HeavyLascannon" value="Тяжелая лазерная пушка&quot;" /><entry name="HeavyLascannonFlavor" value="&lt;string name='Weapons/LasFlavor'/&gt;&quot;" /><entry name="HeavyAutocannon" value="Тяжелая автопушка&quot;" /><entry name="HeavyAutocannonFlavor" value="&lt;string name='Weapons/AutocannonFlavor'/&gt;&quot;" /><entry name="HeavyBurstCannon" value="Тяжелая взрывная пушка&quot;" /><entry name="HeavyBurstCannonFlavor" value="&lt;string name='Weapons/BurstFlavor'/&gt;&quot;" /><entry name="HonourGuardBoltgun" value="Болтган&quot;" /><entry name="HonourGuardBoltgunFlavor" value="&lt;string name='Weapons/BoltFlavor'/&gt;&quot;" /><entry name="LascannonDevastatorSpaceMarine" value="Лазпушка&quot;" /><entry name="LascannonDevastatorSpaceMarineFlavor" value="&lt;string name='Weapons/Lascannon'/&gt;&quot;" /><entry name="MobileMissilePod" value="Мобильная ракетная установка&quot;" /><entry name="OrbitalBombardmentCaptain" value="Орбитальная бомбардировка»" /><entry name="TwinLinkedSmartMissileSystemBroadside" value="Двойной интеллектуальный ракетный комплекс»" /><entry name="TwinLinkedSmartMissileSystemBroadsideFlavor" value="Умная ракетная система запускает самонаводящиеся ракеты с помощью дронов, которые могут обнаруживать цели, даже скрывающиеся за местностью»." /></language>
+<language>
+    <entry name="AstartesChainsword"
+           value="Цепной меч Астартес"/>
+    <entry name="AstartesChainswordFlavor"
+           value="Цепной меч — это мощная бензопила, оснащенная рукоятью, навершием и гардой, делающими ее менее громоздкой. Это распространенное оружие по всему Империуму, имеющее ужасающую репутацию из-за урона, который оно может нанести небронированной плоти."/>
+    <entry name="BoltSniperRifle"
+           value="Болт-снайперская винтовка"/>
+    <entry name="BoltSniperRifleFlavor"
+           value="Снайперские винтовки оснащены мощными оптическими прицелами, позволяющими стрелку поражать слабые места и удаленных противников с безошибочной точностью. Некоторые командиры считают снайперскую винтовку бесчестным оружием, но их меньшинство. Большинство понимает, что прагматизм и мертвые враги позволяют выиграть больше сражений, чем честь."/>
+    <entry name="CadrePulseRifle"
+           value="Импульсная винтовка Кадра"/>
+    <entry name="CadrePulseRifleFlavor"
+           value="<string name='Weapons/PulseRifleFlavor'/>"/>
+    <entry name="CaptainBoltPistol"
+           value="Болт-пистолет"/>
+    <entry name="CaptainBoltPistolFlavor"
+           value="<string name='Weapons/BoltFlavor'/>"/>
+    <entry name="CaptainPowerSword"
+           value="Силовой меч"/>
+    <entry name="CaptainPowerSwordFlavor"
+           value="<string name='Weapons/PowerFlavor'/>"/>
+    <entry name="DeathPact"
+           value="Пакт смерти"/>
+    <entry name="DefilerMissileLauncher"
+           value="Ракетная установка Осквернитель"/>
+    <entry name="DefilerRocketLauncher"
+           value="Ракетная установка Осквернитель"/>
+    <entry name="DestroyerWarscythe"
+           value="<string name='Weapons/Warscythe'/>"/>
+    <entry name="DestroyerWarscytheFlavor"
+           value="<string name='Weapons/WarscytheFlavor'/>"/>
+    <entry name="EradicatorNovaCannon"
+           value="Искоренитель Нова Пушка"/>
+    <entry name="EradicatorNovaCannonFlavor"
+           value="<string name='Weapons/BattleCannon'/>"/>
+    <entry name="ExorcistMissileLauncher"
+           value="Экзарсистская ракетная установка"/>
+    <entry name="ExorcistMissileLauncherFlavor"
+           value="Ракеты Экзарсистов, выпущенные этими почитаемыми машинами, способны одним карающим залпом расколоть боевые танки противника или уничтожить целые отряды тяжелой пехоты, при условии, конечно, что темпераментный машинный дух Экзорциста не дает сбоев."/>
+    <entry name="ForgefiendAutocannon"
+           value="Автопушка Forgefiend"/>
+    <entry name="ForgefiendAutocannonFlavor"
+           value="<string name='Weapons/HadesAutocannonFlavor'/>"/>
+    <entry name="GaussFlayerArrayGhostArk"
+           value="Массив свежевателей Гаусса"/>
+    <entry name="GaussFlayerArrayGhostArkFlavor"
+           value="<string name='Weapons/GaussFlavor'/>"/>
+    <entry name="GaussReaper"
+           value="Гаусс Жнец"/>
+    <entry name="GaussReaperFlavor"
+           value="Оружие Гаусса, которое меняет дальность на увеличенную силу удара."/>
+    <entry name="GuardsmanFlamer"
+           value="Огнемет"/>
+    <entry name="GuardsmanFlamerFlavor"
+           value="<string name='Weapons/FlamerFlavor'/>"/>
+    <entry name="GuardsmanMeltagun"
+           value="Мельтаган"/>
+    <entry name="GuardsmanMeltagunFlavor"
+           value="<string name='Weapons/MeltaFlavor'/>"/>
+    <entry name="HeavyLascannon"
+           value="Тяжелая лазерная пушка"/>
+    <entry name="HeavyLascannonFlavor"
+           value="<string name='Weapons/LasFlavor'/>"/>
+    <entry name="HeavyAutocannon"
+           value="Тяжелая автопушка"/>
+    <entry name="HeavyAutocannonFlavor"
+           value="<string name='Weapons/AutocannonFlavor'/>"/>
+    <entry name="HeavyBurstCannon"
+           value="Тяжелая взрывная пушка"/>
+    <entry name="HeavyBurstCannonFlavor"
+           value="<string name='Weapons/BurstFlavor'/>"/>
+    <entry name="HonourGuardBoltgun"
+           value="Болтган"/>
+    <entry name="HonourGuardBoltgunFlavor"
+           value="<string name='Weapons/BoltFlavor'/>"/>
+    <entry name="LascannonDevastatorSpaceMarine"
+           value="Лазпушка"/>
+    <entry name="LascannonDevastatorSpaceMarineFlavor"
+           value="<string name='Weapons/Lascannon'/>"/>
+    <entry name="MobileMissilePod"
+           value="Мобильная ракетная установка"/>
+    <entry name="OrbitalBombardmentCaptain"
+           value="Орбитальная бомбардировка"/>
+    <entry name="TwinLinkedSmartMissileSystemBroadside"
+           value="Двойной интеллектуальный ракетный комплекс"/>
+    <entry name="TwinLinkedSmartMissileSystemBroadsideFlavor"
+           value="Умная ракетная система запускает самонаводящиеся ракеты с помощью дронов, которые могут обнаруживать цели, даже скрывающиеся за местностью."/>
+</language>

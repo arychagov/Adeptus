@@ -1,1 +1,22 @@
-<language><entry name="NullZone" value="&lt;string name='Traits/NullZone'/&gt;&quot;" /><entry name="NullZoneDescription" value="&lt;string name='Traits/NullZoneDescription'/&gt;&quot;" /><entry name="NullZoneFlavor" value="&lt;string name='Traits/NullZoneFlavor'/&gt;&quot;" /><entry name="SacredGround" value="Священная земля»" /><entry name="SacredGroundDescription" value="Функция, завершающая движение юнита и накладывающая на врага дебафф постепенного урона»." /><entry name="SacredGroundFlavor" value="Верните себе власть Императора и освятите ее еще раз»." /><entry name="ShatteredDefences" value="&lt;string name='Traits/ShatteredDefences'/&gt;&quot;" /><entry name="ShatteredDefencesDescription" value="&lt;string name='Traits/ShatteredDefencesDescription'/&gt;&quot;" /><entry name="CursedGround" value="Проклятая земля»" /><entry name="CursedGroundDescription" value="Функция, завершающая движение юнита и накладывающая на врага дебафф постепенного урона»." /></language>
+<language>
+    <entry name="NullZone"
+           value="<string name='Traits/NullZone'/>"/>
+    <entry name="NullZoneDescription"
+           value="<string name='Traits/NullZoneDescription'/>"/>
+    <entry name="NullZoneFlavor"
+           value="<string name='Traits/NullZoneFlavor'/>"/>
+    <entry name="SacredGround"
+           value="Священная земля"/>
+    <entry name="SacredGroundDescription"
+           value="Функция, завершающая движение юнита и накладывающая на врага дебафф постепенного урона."/>
+    <entry name="SacredGroundFlavor"
+           value="Верните себе власть Императора и освятите ее еще раз."/>
+    <entry name="ShatteredDefences"
+           value="<string name='Traits/ShatteredDefences'/>"/>
+    <entry name="ShatteredDefencesDescription"
+           value="<string name='Traits/ShatteredDefencesDescription'/>"/>
+    <entry name="CursedGround"
+           value="Проклятая земля"/>
+    <entry name="CursedGroundDescription"
+           value="Функция, завершающая движение юнита и накладывающая на врага дебафф постепенного урона."/>
+</language>

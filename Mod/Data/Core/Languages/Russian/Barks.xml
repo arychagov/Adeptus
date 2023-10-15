@@ -1,1 +1,32 @@
-<language><entry name="AdeptusMechanicus/IronstriderBallistarius:Idle#3" value="Жуко был здесь…»" /><entry name="Orks/FlashGitz:Idle#0" value="Это Босс! Чего вы хотите, босс?»" /><entry name="Orks/FlashGitz:Idle#1" value="Больше бочек означает больше дакка. Больше дакка означает больше удовольствия!»" /><entry name="Orks/FlashGitz:Idle#2" value="Нет, приятель, это мой сквиг. Получите свое!&quot;" /><entry name="Orks/FlashGitz:Idle#3" value="Эй, босс, что происходит?»" /><entry name="Orks/FlashGitz:Idle#4" value="Один зеленый сквиг сидит на стене. Два…&quot;" /><entry name="Orks/FlashGitz:Idle#5" value="Эта чоппа просто не такая уж большая!»" /><entry name="Orks/FlashGitz:Idle#6" value="Где находится der fit?&quot;" /><entry name="Orks/FlashGitz:Idle#7" value="Кого ты хочешь, чтобы я это сделал?»" /><entry name="Orks/FlashGitz:Idle#8" value="Жуко был здесь…»" /><entry name="Orks/FlashGitz:IdleCount" value="9 дюймов" /><entry name="Tau/GhostkeelBattlesuit:Idle#0" value="Всегда готов.&quot;" /><entry name="Tau/GhostkeelBattlesuit:Idle#1" value="Мы это сделаем»." /><entry name="Tau/GhostkeelBattlesuit:Idle#2" value="Жуко был здесь…»" /><entry name="Tau/GhostkeelBattlesuit:IdleCount" value="3&quot;" /></language>
+<language>
+    <entry name="AdeptusMechanicus/IronstriderBallistarius:Idle#3"
+           value="Жуко был здесь…"/>
+    <entry name="Orks/FlashGitz:Idle#0"
+           value="Это Босс! Чего вы хотите, босс?"/>
+    <entry name="Orks/FlashGitz:Idle#1"
+           value="Больше бочек означает больше дакка. Больше дакка означает больше удовольствия!"/>
+    <entry name="Orks/FlashGitz:Idle#2"
+           value="Нет, приятель, это мой сквиг. Получите свое!"/>
+    <entry name="Orks/FlashGitz:Idle#3"
+           value="Эй, босс, что происходит?"/>
+    <entry name="Orks/FlashGitz:Idle#4"
+           value="Один зеленый сквиг сидит на стене. Два…"/>
+    <entry name="Orks/FlashGitz:Idle#5"
+           value="Эта чоппа просто не такая уж большая!"/>
+    <entry name="Orks/FlashGitz:Idle#6"
+           value="Где находится der fit?"/>
+    <entry name="Orks/FlashGitz:Idle#7"
+           value="Кого ты хочешь, чтобы я это сделал?"/>
+    <entry name="Orks/FlashGitz:Idle#8"
+           value="Жуко был здесь…"/>
+    <entry name="Orks/FlashGitz:IdleCount"
+           value="9 дюймов"/>
+    <entry name="Tau/GhostkeelBattlesuit:Idle#0"
+           value="Всегда готов."/>
+    <entry name="Tau/GhostkeelBattlesuit:Idle#1"
+           value="Мы это сделаем."/>
+    <entry name="Tau/GhostkeelBattlesuit:Idle#2"
+           value="Жуко был здесь…"/>
+    <entry name="Tau/GhostkeelBattlesuit:IdleCount"
+           value="3"/>
+</language>
