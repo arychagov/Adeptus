@@ -1,88 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
 <language>
     <entry name="AstartesChainsword"
-           value="Цепной меч Астартес"/>
+           value="Astartes Chainsword"/>
     <entry name="AstartesChainswordFlavor"
-           value="Цепной меч — это мощная бензопила, оснащенная рукоятью, навершием и гардой, делающими ее менее громоздкой. Это распространенное оружие по всему Империуму, имеющее ужасающую репутацию из-за урона, который оно может нанести небронированной плоти."/>
+           value="A chainsword is a high-powered chainsaw fitted with hilt, pommel and guard to make it less unwieldy. It is a common weapon across the Imperium, with a quite horrifying reputation for the damage it can inflict on unarmoured flesh."/>
     <entry name="BoltSniperRifle"
-           value="Болт-снайперская винтовка"/>
+           value="Bolt Sniper Rifle"/>
     <entry name="BoltSniperRifleFlavor"
-           value="Снайперские винтовки оснащены мощными оптическими прицелами, позволяющими стрелку поражать слабые места и удаленных противников с безошибочной точностью. Некоторые командиры считают снайперскую винтовку бесчестным оружием, но их меньшинство. Большинство понимает, что прагматизм и мертвые враги позволяют выиграть больше сражений, чем честь."/>
+           value="Sniper rifles have powerful telescopic sights, enabling the firer to target weak points and distant foes with unerring accuracy. Some commanders see the sniper rifle as a dishonourable weapon, but they are in the minority. Most understand that pragmatism, and dead enemies, win more battles than honour ever will."/>
     <entry name="CadrePulseRifle"
-           value="Импульсная винтовка Кадра"/>
+           value="Cadre's Pulse Rifle"/>
     <entry name="CadrePulseRifleFlavor"
            value="<string name='Weapons/PulseRifleFlavor'/>"/>
     <entry name="CaptainBoltPistol"
-           value="Болт-пистолет"/>
+           value="Bolt Pistol"/>
     <entry name="CaptainBoltPistolFlavor"
            value="<string name='Weapons/BoltFlavor'/>"/>
     <entry name="CaptainPowerSword"
-           value="Силовой меч"/>
+           value="Power Sword"/>
     <entry name="CaptainPowerSwordFlavor"
            value="<string name='Weapons/PowerFlavor'/>"/>
     <entry name="DeathPact"
-           value="Пакт смерти"/>
+           value="Death Pact"/>
     <entry name="DefilerMissileLauncher"
-           value="Ракетная установка Осквернитель"/>
+           value="Defiler Missile Launcher"/>
     <entry name="DefilerRocketLauncher"
-           value="Ракетная установка Осквернитель"/>
+           value="Defiler Rocket Launcher"/>
     <entry name="DestroyerWarscythe"
            value="<string name='Weapons/Warscythe'/>"/>
     <entry name="DestroyerWarscytheFlavor"
            value="<string name='Weapons/WarscytheFlavor'/>"/>
     <entry name="EradicatorNovaCannon"
-           value="Искоренитель Нова Пушка"/>
+           value="Eradicator Nova Cannon"/>
     <entry name="EradicatorNovaCannonFlavor"
            value="<string name='Weapons/BattleCannon'/>"/>
     <entry name="ExorcistMissileLauncher"
-           value="Экзарсистская ракетная установка"/>
+           value="Exarsist Missile Launcher"/>
     <entry name="ExorcistMissileLauncherFlavor"
-           value="Ракеты Экзарсистов, выпущенные этими почитаемыми машинами, способны одним карающим залпом расколоть боевые танки противника или уничтожить целые отряды тяжелой пехоты, при условии, конечно, что темпераментный машинный дух Экзорциста не дает сбоев."/>
+           value="The Exarsist missiles fired by these revered vehicles are capable of splitting open enemy battle tanks or destroying entire squads of heavy infantry in one punishing salvo, provided, of course, that the Exorcist’s temperamental machine spirit does not malfunction."/>
     <entry name="ForgefiendAutocannon"
-           value="Автопушка Forgefiend"/>
+           value="Forgefiend Autocannon"/>
     <entry name="ForgefiendAutocannonFlavor"
            value="<string name='Weapons/HadesAutocannonFlavor'/>"/>
     <entry name="GaussFlayerArrayGhostArk"
-           value="Массив свежевателей Гаусса"/>
+           value="Gauss Flayer Array"/>
     <entry name="GaussFlayerArrayGhostArkFlavor"
            value="<string name='Weapons/GaussFlavor'/>"/>
     <entry name="GaussReaper"
-           value="Гаусс Жнец"/>
+           value="Gauss Reaper"/>
     <entry name="GaussReaperFlavor"
-           value="Оружие Гаусса, которое меняет дальность на увеличенную силу удара."/>
+           value="Gauss weapon which trades range for increased hitting power."/>
     <entry name="GuardsmanFlamer"
-           value="Огнемет"/>
+           value="Flamer"/>
     <entry name="GuardsmanFlamerFlavor"
            value="<string name='Weapons/FlamerFlavor'/>"/>
     <entry name="GuardsmanMeltagun"
-           value="Мельтаган"/>
+           value="Meltagun"/>
     <entry name="GuardsmanMeltagunFlavor"
            value="<string name='Weapons/MeltaFlavor'/>"/>
     <entry name="HeavyLascannon"
-           value="Тяжелая лазерная пушка"/>
+           value="Heavy Lascannon"/>
     <entry name="HeavyLascannonFlavor"
            value="<string name='Weapons/LasFlavor'/>"/>
     <entry name="HeavyAutocannon"
-           value="Тяжелая автопушка"/>
+           value="Heavy Autocannon"/>
     <entry name="HeavyAutocannonFlavor"
            value="<string name='Weapons/AutocannonFlavor'/>"/>
     <entry name="HeavyBurstCannon"
-           value="Тяжелая взрывная пушка"/>
+           value="Heavy Burst Cannon"/>
     <entry name="HeavyBurstCannonFlavor"
            value="<string name='Weapons/BurstFlavor'/>"/>
     <entry name="HonourGuardBoltgun"
-           value="Болтган"/>
+           value="Boltgun"/>
     <entry name="HonourGuardBoltgunFlavor"
            value="<string name='Weapons/BoltFlavor'/>"/>
     <entry name="LascannonDevastatorSpaceMarine"
-           value="Лазпушка"/>
+           value="Lascannon"/>
     <entry name="LascannonDevastatorSpaceMarineFlavor"
            value="<string name='Weapons/Lascannon'/>"/>
     <entry name="MobileMissilePod"
-           value="Мобильная ракетная установка"/>
+           value="Mobile Missile Pod"/>
     <entry name="OrbitalBombardmentCaptain"
-           value="Орбитальная бомбардировка"/>
+           value="Orbital Bombardment"/>
     <entry name="TwinLinkedSmartMissileSystemBroadside"
-           value="Двойной интеллектуальный ракетный комплекс"/>
+           value="Twin-Linked Smart Missile System"/>
     <entry name="TwinLinkedSmartMissileSystemBroadsideFlavor"
-           value="Умная ракетная система запускает самонаводящиеся ракеты с помощью дронов, которые могут обнаруживать цели, даже скрывающиеся за местностью."/>
+           value="A smart missile system fires self-guiding missiles with drone intelligence, which can find targets even hiding behind terrain."/>
 </language>

@@ -1,26 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
 <language>
     <entry name="AdeptusMechanicus/ConstructionDescription"
-           value="Здание, которое возводит новые здания, а также увеличивает рост, производит еду, руду и влияние."/>
+           value="Building that constructs new buildings as well as increases growth, generates food, ore and influence."/>
     <entry name="AstraMilitarum/ConstructionDescription"
-           value="Здание, которое возводит новые здания, а также увеличивает рост, производит пищу и проводит исследования."/>
+           value="Building that constructs new buildings as well as increases growth, generates food and research."/>
     <entry name="ChaosSpaceMarines/ConstructionDescription"
-           value="Здание, которое возводит новые здания, а также увеличивает рост, генерирует руду и влияние."/>
+           value="Building that constructs new buildings as well as increases growth, generates ore and influence."/>
     <entry name="Eldar/ConstructionDescription"
-           value="Здание, которое строит новые здания, а также увеличивает рост, добывает руду, генерирует исследования и увеличивает рост."/>
+           value="Building that constructs new buildings as well as increases growth, harvests ore, generates research and increases growth."/>
     <entry name="Necrons/ConstructionDescription"
-           value="Здание, которое возводит новые здания, а также увеличивает рост, генерирует энергию, влияние и повышает лояльность."/>
+           value="Building that constructs new buildings as well as increases growth, generates energy, influence and increases loyalty."/>
     <entry name="Orks/ConstructionDescription"
-           value="Здание, которое возводит новые здания, увеличивает рост, генерирует руду и влияние, а также увеличивает лимит населения."/>
+           value="Building that constructs new buildings, increases growth, generates ore and influence as well as increases population limit."/>
     <entry name="SistersOfBattle/ConstructionDescription"
-           value="Здание, которое возводит новые здания, увеличивает рост и генерирует влияние."/>
+           value="Building that constructs new buildings, increases growth and generates influence."/>
     <entry name="SpaceMarines/ConstructionDescription"
-           value="Здание, которое возводит новые здания, увеличивает рост и генерирует влияние."/>
+           value="Building that constructs new buildings, increases growth and generates influence."/>
     <entry name="Tau/ConstructionDescription"
-           value="Здание, которое возводит новые здания, а также увеличивает рост, производит руду, исследования и влияние."/>
+           value="Building that constructs new buildings as well as increases growth, generates ore, research and influence."/>
     <entry name="Tyranids/ConstructionDescription"
-           value="Здание, которое строит новые здания, а также увеличивает рост, генерирует биомассу и увеличивает лимит населения."/>
+           value="Building that constructs new buildings as well as increases growth, generates biomass and increases the population limit."/>
     <entry name="Tau/MonstrousCreaturesDescription"
-           value="Здание, которое производит чудовищных существ, а также способствует исследованиям и влиянию."/>
+           value="Building that produces monstrous creatures as well as generates research and influence."/>
     <entry name="SistersOfBattle/VehiclesFlavor"
-           value="Машины Адепта Сороритас — древние боевые танки-реликвии давних крестовых походов. В этом ангаре техники Министорума воскрешают машинные духи экзарсистов, карателей и самосожженцев, окропляют их священными маслами и священные заклинания передаются из поколения в поколение на протяжении тысячелетий. Для Тау и Вотаннов это было бы величайшим суеверием, однако машины работают со смертельной эффективностью."/>
+           value="The vehicles of the Adepta Sororitas are ancient—relic battle tanks of long-ago crusades. In this hangar, Exarsists, Castigators and Immolators have their machine spirits revived by the Ministorum technicians, are sprinkled with sacred oils, and sacred incantations handed down for thousands of years. To the T’au and Votann, this would be rank superstition—yet the machines work with a deadly efficiency."/>
+
 </language>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
