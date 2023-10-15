@@ -26,17 +26,17 @@
         <modifier visible="0">
             <effects>
                 <armor base="8"/> <!-- %armor base armor=2+ -->
-                <energyCost base="50.0"/> <!-- %energyCost base tier=10 factor=0.5 -->
+                <energyCost base="60.0"/> <!-- %energyCost base tier=10 factor=0.5 -->
                 <hitpointsMax base="36.0"/> <!-- %hitpointsMax base toughness=7 wounds=6 -->
                 <meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
                 <meleeAttacks base="3"/>
                 <strengthDamage base="3"/> <!-- %strengthDamage base strength=6 -->
                 <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
                 <movementMax base="3"/>
-                <oreCost base="50.0"/> <!-- %oreCost base tier=10 factor=0.5 -->
-                <oreUpkeep base="5.0"/> <!-- %oreUpkeep base tier=10 factor=1 -->
-                <productionCost base="52.0"/> <!-- %productionCost base tier=10 factor=1 -->
-                <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <oreCost base="60.0"/> <!-- %oreCost base tier=10 factor=0.5 -->
+                <oreUpkeep base="6.0"/> <!-- %oreUpkeep base tier=10 factor=1 -->
+                <productionCost base="54.0"/> <!-- %productionCost base tier=10 factor=1 -->
+                <rangedAccuracy base="5"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
                 <duplicateTypeCost mul="0.125"/>
             </effects>
         </modifier>
@@ -115,7 +115,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="UnbreakableMonstrousCreature" duration="1"/>
+                                        <addTrait name="UnbreakableMonstrousCreature"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -127,7 +128,8 @@
         <gravityWaveProjector name="Tau/GravityWaveProjector"
                               consumedActionPoints="0"
                               consumedMovement="0"
-                              cooldown="10">
+                              cooldown="10"
+                              requiredActionPoints="0">
             <model>
                 <action animation=""
                         sound="Actions/GravityWaveProjector"/>
@@ -156,10 +158,11 @@
             </beginTargets>
         </gravityWaveProjector>
         <gravityWaveProjector name="Tau/GravityWaveProjector1"
-                              icon="Actions/Tau/GravityWaveProjector"
                               consumedActionPoints="0"
                               consumedMovement="0"
-                              cooldown="10">
+                              cooldown="10"
+                              icon="Actions/Tau/GravityWaveProjector"
+                              requiredActionPoints="0">
             <model>
                 <action animation=""
                         sound="Actions/GravityWaveProjector"/>

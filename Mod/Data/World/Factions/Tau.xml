@@ -610,7 +610,7 @@
             <playerModifiers>
                 <modifier>
                     <effects>
-                        <research add="40"/>
+                        <research add="30"/>
                     </effects>
                 </modifier>
             </playerModifiers>

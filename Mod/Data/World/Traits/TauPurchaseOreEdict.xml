@@ -10,7 +10,7 @@
                 </unit>
             </conditions>
             <effects>
-                <ore add="40"/>
+                <ore add="30"/>
             </effects>
         </modifier>
     </modifiers>

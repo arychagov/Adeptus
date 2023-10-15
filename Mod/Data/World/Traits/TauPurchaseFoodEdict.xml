@@ -10,7 +10,7 @@
                 </unit>
             </conditions>
             <effects>
-                <food add="40"/>
+                <food add="30"/>
             </effects>
         </modifier>
     </modifiers>

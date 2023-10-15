@@ -10,7 +10,7 @@
                 </unit>
             </conditions>
             <effects>
-                <energy add="40"/>
+                <energy add="30"/>
             </effects>
         </modifier>
     </modifiers>
