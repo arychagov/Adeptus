@@ -10,6 +10,10 @@
                         <trait name="MonstrousCreature"/>
                         <trait name="Vehicle"/>
                         <trait name="Fortification"/>
+                        <trait name="Flyer"/>
+                        <trait name="JetPack"/>
+                        <trait name="Jetbike"/>
+                        <trait name="Skimmer"/>
                     </opponent>
                 </encounter>
             </conditions>
