@@ -16,4 +16,18 @@
             </effects>
         </modifier>
     </modifiers>
+    <modifiers>
+        <modifier>
+            <conditions>
+                <unit>
+                    <enemy/>
+                    <trait name="Shaken"/>
+                </unit>
+            </conditions>
+            <effects>
+                <damageTaken mulMax="0.075"
+                             mulMin="0.025"/>
+            </effects>
+        </modifier>
+    </modifiers>
 </trait>
