@@ -9,6 +9,10 @@
                         <noAttacking/>
                     </opponent>
                 </encounter>
+                <unit>
+                    <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                    <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
+                </unit>
             </conditions>
             <effects>
                 <hitpointsFactorFromMax add="0.15"/>
@@ -21,6 +25,10 @@
                         <noAttacking/>
                     </opponent>
                 </encounter>
+                <unit>
+                    <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                    <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
+                </unit>
             </conditions>
             <effects>
                 <hitpointsFactorFromMax add="0.10"/>

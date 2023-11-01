@@ -212,6 +212,12 @@
                                     </effects>
                                 </modifier>
                                 <modifier requiredUpgrade="SistersOfBattle/SoothingLight">
+                                    <conditions>
+                                        <unit>
+                                            <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                                            <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
+                                        </unit>
+                                    </conditions>
                                     <effects>
                                         <hitpointsFactorFromMax add="0.5"/>
                                     </effects>
@@ -292,6 +298,8 @@
                         <unit>
                             <allied/>
                             <damaged/>
+                            <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                            <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                             <faction name="SistersOfBattle"/>
                         </unit>
                     </conditions>

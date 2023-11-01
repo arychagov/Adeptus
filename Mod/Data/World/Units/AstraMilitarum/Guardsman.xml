@@ -145,6 +145,8 @@
             <conditions>
                 <unit>
                     <damaged/>
+                    <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                    <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                 </unit>
             </conditions>
             <beginTargets>
