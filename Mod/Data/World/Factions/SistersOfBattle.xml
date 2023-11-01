@@ -838,6 +838,10 @@
                             <trait name="SistersOfBattle/ShieldOfFaith"/>
                             <trait name="SistersOfBattle/AngelicVisage"/>
                         </unit>
+                        <unit>
+                            <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                            <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
+                        </unit>
                     </conditions>
                     <effects>
                         <hitpoints add="2"/>

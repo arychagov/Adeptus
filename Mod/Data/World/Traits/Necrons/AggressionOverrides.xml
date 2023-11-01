@@ -10,6 +10,12 @@
             </effects>
         </modifier>
         <modifier visible="0">
+            <conditions>
+                <unit>
+                    <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                    <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
+                </unit>
+            </conditions>
             <effects>
                 <hitpoints add="4"/>
             </effects>

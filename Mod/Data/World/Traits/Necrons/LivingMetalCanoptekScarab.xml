@@ -6,6 +6,7 @@
             <conditions>
                 <unit>
                     <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                    <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                 </unit>
             </conditions>
             <effects>
@@ -16,6 +17,7 @@
             <conditions>
                 <unit>
                     <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                    <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                 </unit>
             </conditions>
             <effects>

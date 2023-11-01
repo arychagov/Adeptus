@@ -9,6 +9,10 @@
                         <!-- <noAttacking/> -->
                     </opponent>
                 </encounter>
+                <unit>
+                    <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                    <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
+                </unit>
             </conditions>
             <effects>
                 <hitpoints add="2"/>
@@ -17,6 +21,12 @@
     </onCombatSelfModifiers>
     <perTurnModifiers endure="0">
         <modifier visible="0">
+            <conditions>
+                <unit>
+                    <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                    <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
+                </unit>
+            </conditions>
             <effects>
                 <hitpoints add="2"/>
             </effects>

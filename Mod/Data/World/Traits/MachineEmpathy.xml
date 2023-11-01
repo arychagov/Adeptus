@@ -8,6 +8,10 @@
                     <trait name="Fortification"/>
                     <trait name="Vehicle"/>
                 </unit>
+                <unit>
+                    <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                    <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
+                </unit>
             </conditions>
             <effects>
                 <hitpoints add="4"/>

@@ -6,6 +6,8 @@
                 <unit>
                     <noTrait name="Flyer"/>
                     <trait name="Orks/GreenTideHealing"/>
+                    <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                    <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                 </unit>
             </conditions>
             <effects>

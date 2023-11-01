@@ -6,6 +6,10 @@
                 <tile>
                     <feature name="OrkoidFungus"/>
                 </tile>
+                <unit>
+                    <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                    <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
+                </unit>
             </conditions>
             <effects>
                 <hitpoints add="0.5"/>

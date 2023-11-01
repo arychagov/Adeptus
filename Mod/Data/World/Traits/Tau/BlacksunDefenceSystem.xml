@@ -3,6 +3,12 @@
        icon="Traits/Tau/BlacksunFilter">
     <perTurnModifiers endure="0">
         <modifier>
+            <conditions>
+                <unit>
+                    <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                    <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
+                </unit>
+            </conditions>
             <effects>
                 <hitpoints add="2"/>
             </effects>

@@ -7,6 +7,8 @@
                 <unit>
                     <allied/>
                     <faction name="SpaceMarines"/>
+                    <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                    <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                 </unit>
             </conditions>
             <effects>

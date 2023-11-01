@@ -17,6 +17,8 @@
                             <allied/>
                             <damaged/>
                             <noTrait name="Headquarters"/>
+                            <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                            <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                         </unit>
                         <unit match="Any">
                             <trait name="Fortification"/>
