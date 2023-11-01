@@ -235,6 +235,8 @@
                             <allied/>
                             <damaged/>
                             <noTrait name="Headquarters"/>
+                            <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                            <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                             <faction name="SistersOfBattle"/>
                             <noTrait name="Fortification"/>
                             <noTrait name="Vehicle"/>

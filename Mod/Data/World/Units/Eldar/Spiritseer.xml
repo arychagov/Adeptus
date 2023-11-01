@@ -151,6 +151,8 @@
                                     <conditions>
                                         <unit>
                                             <allied/>
+                                            <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                                            <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                                             <faction name="Eldar"/>
                                         </unit>
                                     </conditions>

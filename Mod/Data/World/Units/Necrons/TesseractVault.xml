@@ -134,6 +134,8 @@
             <conditions>
                 <unit>
                     <noTrait name="Necrons/BloodyCrusade"/>
+                    <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                    <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                     <damaged/>
                 </unit>
             </conditions>

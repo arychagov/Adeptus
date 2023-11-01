@@ -142,6 +142,8 @@
                     <conditions>
                         <unit>
                             <allied/>
+                            <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                            <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                             <faction name="AstraMilitarum"/>
                         </unit>
                     </conditions>

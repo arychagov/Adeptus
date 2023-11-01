@@ -125,6 +125,8 @@
                             <allied/>
                             <faction name="Orks"/>
                             <damaged/>
+                            <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                            <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                             <noTrait name="Fortification"/>
                             <noTrait name="Vehicle"/>
                         </unit>

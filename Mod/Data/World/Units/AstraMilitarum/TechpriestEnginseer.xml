@@ -164,6 +164,8 @@
                         <unit>
                             <allied/>
                             <damaged/>
+                            <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                            <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                             <noTrait name="Headquarters"/>
                         </unit>
                         <unit match="Any">

@@ -368,6 +368,8 @@
                                             <faction name="Tau"/>
                                             <noTrait name="Fortification"/>
                                             <noTrait name="Vehicle"/>
+                                            <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                                            <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                                         </unit>
                                     </conditions>
                                     <effects>

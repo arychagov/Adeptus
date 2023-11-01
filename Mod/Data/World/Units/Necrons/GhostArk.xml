@@ -101,6 +101,8 @@
             <conditions>
                 <unit>
                     <noTrait name="Necrons/BloodyCrusade"/>
+                    <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                    <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                     <damaged/>
                 </unit>
             </conditions>
@@ -159,6 +161,8 @@
                             <allied/>
                             <damaged/>
                             <faction name="Necrons"/>
+                            <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                            <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                             <noTrait name="Headquarters"/>
                             <noTrait name="Fortification"/>
                             <noTrait name="Vehicle"/>

@@ -131,6 +131,8 @@
                         <unit>
                             <allied/>
                             <faction name="AdeptusMechanicus"/>
+                            <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                            <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                         </unit>
                         <unit match="Any">
                             <faction name="AdeptusMechanicus"/>
