@@ -291,7 +291,7 @@
     <entry name="Necrons/DefensiveProtocolsDescription"
            value="Increases the armour of the Lord. Increases regeneration of nearby allied Necron infantry units and monstrous creatures."/>
     <entry name="Necrons/DestructionProtocolsDescription"
-           value="Increases the damage taken for adjacent non-hero enemy units."/>
+           value="Increases the accuracy of the Destroyer Lord. Increases the damage taken of an enemy attacked by the Destroyer Lord this turn."/>
     <entry name="Necrons/DynastyDescription"
            value="Increases the influence output of your empire."/>
     <entry name="Necrons/InstallAssaultSystem"

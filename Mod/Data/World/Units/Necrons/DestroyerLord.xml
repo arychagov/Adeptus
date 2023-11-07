@@ -258,9 +258,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Necrons/DestructionProtocols"
-                                                  durationMax="3"
-                                                  durationMin="1"/>
+                                        <addTrait name="Necrons/DestructionProtocols"/>
                                     </effects>
                                 </modifier>
                             </modifiers>

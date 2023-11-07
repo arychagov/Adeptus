@@ -4,6 +4,16 @@
        rankMax="2">
     <modifiers>
         <modifier>
+            <conditions>
+                <encounter>
+                    <opponent>
+                        <faction name="Necrons"/>
+                    </opponent>
+                </encounter>
+                <unit>
+                    <enemy/>
+                </unit>
+            </conditions>
             <effects>
                 <damageTaken mulMax="0.2"
                              mulMin="0.1"/>
