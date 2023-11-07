@@ -15,8 +15,8 @@
                 </unit>
             </conditions>
             <effects>
-                <rangedDamageReduction minMax="0.17"
-                                       minMin="0.07"/>
+                <rangedDamageReduction addMax="0.17"
+                                       addMin="0.07"/>
             </effects>
         </modifier>
     </modifiers>
