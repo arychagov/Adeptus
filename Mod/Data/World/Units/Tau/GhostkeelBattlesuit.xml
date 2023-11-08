@@ -39,6 +39,7 @@
                 <oreUpkeep base="3.0"/> <!-- %oreUpkeep base tier=8 factor=1 -->
                 <productionCost base="42.0"/> <!-- %productionCost base tier=8 factor=1 -->
                 <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+                <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=5 wounds=4 -->
             </effects>
         </modifier>
     </modifiers>
