@@ -49,7 +49,7 @@
         <modifier visible="0">
             <effects>
                 <armor base="8"/> <!-- %armor base armor=3+ -->
-                <hitpointsMax base="4.0"/>
+                <hitpointsMax base="5.0"/>
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
                 <meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
                 <meleeAttacks base="1"/>
@@ -218,11 +218,52 @@
                 </selfTarget>
             </beginTargets>
         </divineGuidance>
+        <genericUnitAbility name="SistersOfBattle/EternalFire"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="10"
+                            icon="Traits/SoulBlaze"
+                            requiredActionPoints="0"
+                            requiredUpgrade="SistersOfBattle/EternalFire">
+            <model>
+                <action sound="Actions/ChargeUp"/>
+            </model>
+            <modifiers>
+                <modifier requiredUpgrade="SistersOfBattle/Conflagration">
+                    <effects>
+                        <cooldown add="-5"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+            <conditions>
+                <unit>
+                    <notAttackedThisTurn/>
+                </unit>
+            </conditions>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="SistersOfBattle/HolyFireSelf"
+                                                  duration="1"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
     </actions>
     <traits>
         <trait name="SistersOfBattle/ShieldOfFaith"/>
         <trait name="SistersOfBattle/MartyrSpirit"/>
         <trait name="SistersOfBattle/OathOfFaith"/>
+        <trait name="SistersOfBattle/QuicksilverVeil"
+               requiredUpgrade="SistersOfBattle/EternalFire"/>
         <trait name="ExtraInfantryArmour"
                requiredUpgrade="SistersOfBattle/ExtraInfantryArmour"/>
         <trait name="SistersOfBattle/SisterSuperior"

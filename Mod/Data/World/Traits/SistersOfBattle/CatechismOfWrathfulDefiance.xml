@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff"
-       icon="Actions/Tau/Markerlight"
-       rankMax="2">
+<trait category="Debuff" icon="Actions/ChaosSpaceMarines/ShatterDefences">
     <modifiers>
         <modifier>
             <effects>
-                <armor addMax="-1"
-                       addMin="-0.5"/>
+                <rangeMax add="-1"/>
             </effects>
         </modifier>
     </modifiers>

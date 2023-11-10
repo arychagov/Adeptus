@@ -778,6 +778,10 @@
            value="The Emperor’s own divinity is made manifest from this warrior’s golden halo, blinding the enemy with holy light."/>
     <entry name="SistersOfBattle/CatechismOfRepugnanceDescription"
            value="Decreases the accuracy and the attack range."/>
+    <entry name="SistersOfBattle/CatechismOfWrathfulDefiance"
+           value="Catechism Of Wrathful Defiance"/>
+    <entry name="SistersOfBattle/CatechismOfWrathfulDefianceDescription"
+           value="Decreases the attack range."/>
     <entry name="SistersOfBattle/ChadMultiMelta"
            value="Upgraded Multi Melta"/>
     <entry name="SistersOfBattle/ChadMultiMeltaDescription"
@@ -836,7 +840,10 @@
            value="Disables the morale regeneration."/>
     <entry name="SistersOfBattle/VerseOfHolyPietyFlavor"
            value="Pray is stronger than any sword. As the sanctified words of the Order’s holy tenets are roared across the battlefield, the devout are infused with the Emperor’s blessings."/>
-
+    <entry name="SistersOfBattle/QuicksilverVeil"
+           value="Quicksilver Veil"/>
+    <entry name="SistersOfBattle/QuicksilverVeilDescription"
+           value="Grants additional ranged damage reduction for each enemy affected by Holy Fire within range of 2 (up to 15%)."/>
     <entry name="SmallBlast"
            value="Small Blast"/>
     <entry name="SmallBlastDescription"

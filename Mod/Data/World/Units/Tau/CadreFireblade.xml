@@ -402,9 +402,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="Tau/TacticalDrone"
-                                                 consumedAction="0"
-                                                 consumedMovement="0"/>
+                                        <addUnit name="Tau/TacticalDrone"/>
                                     </effects>
                                 </modifier>
                             </modifiers>

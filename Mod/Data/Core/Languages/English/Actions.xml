@@ -373,6 +373,10 @@
            value="The Emperor’s own divinity is made manifest from this warrior’s golden halo, blinding the enemy with holy light."/>
     <entry name="SistersOfBattle/CatechismOfRepugnanceDescription"
            value="Decreases the accuracy and the attack range of the target enemy unit."/>
+    <entry name="SistersOfBattle/CatechismOfWrathfulDefiance"
+           value="Catechism Of Wrathful Defiance"/>
+    <entry name="SistersOfBattle/CatechismOfWrathfulDefianceDescription"
+           value="Decreases the attack range of target enemy vehicle."/>
     <entry name="SistersOfBattle/DesperateForRedemption"
            value="Desperate For Redemption"/>
     <entry name="SistersOfBattle/DesperateForRedemptionDescription"

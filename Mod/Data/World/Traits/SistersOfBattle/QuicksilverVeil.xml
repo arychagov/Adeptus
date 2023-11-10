@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" icon="Traits/SpaceMarines/Infiltrate">
+    <modifiers>
+        <modifier>
+            <conditions>
+                <unit>
+                    <unitsInRange count="1"
+                                  range="2">
+                        <enemy/>
+                        <trait name="SistersOfBattle/HolyFireEnemy"/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.05"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="2"
+                                  range="2">
+                        <enemy/>
+                        <trait name="SistersOfBattle/HolyFireEnemy"/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.05"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="3"
+                                  range="2">
+                        <enemy/>
+                        <trait name="SistersOfBattle/HolyFireEnemy"/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.05"/>
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>
