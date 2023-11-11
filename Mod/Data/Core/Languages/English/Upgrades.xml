@@ -281,7 +281,7 @@
     <entry name="Necrons/Translocation"
            value="Translocation"/>
     <entry name="Necrons/TranslocationDescription"
-           value="Grants Triarch Praetorians ability to ignore overwatch attacks while jumping. Increases the invulnerable damage reduction of Triarch Praetorians."/>
+           value="Increases the invulnerable damage reduction of Triarch Praetorians."/>
     <entry name="Necrons/TranslocationFlavor"
            value="These creatures are determined defenders of their territory, their superior necrodermis allowing them to shrug off the mightiest of blows."/>
     <entry name="Necrons/UnlockedPotential"

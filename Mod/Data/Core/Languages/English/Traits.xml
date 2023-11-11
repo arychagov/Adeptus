@@ -161,7 +161,7 @@
     <entry name="AstraMilitarum/SeniorOfficerBullgrynEnemy"
            value="Senior Officer"/>
     <entry name="AstraMilitarum/SeniorOfficerBullgrynEnemyDescription"
-           value="Increases the accuracy of ranged attack of Basilisks and Hydras against this unit."/>
+           value="Increases the accuracy of ranged attacks of Basilisks, Hydras and Scout Sentinels with <string name='Upgrades/AstraMilitarum/RecoveryGear'/> upgrade against this unit."/>
     <entry name="AstraMilitarum/SeniorOfficerTempestus"
            value="Senior Officer"/>
     <entry name="AstraMilitarum/SeniorOfficerTempestusDescription"
@@ -169,7 +169,7 @@
     <entry name="AstraMilitarum/SeniorOfficerTempestusEnemy"
            value="Senior Officer"/>
     <entry name="AstraMilitarum/SeniorOfficerTempestusEnemyDescription"
-           value="Increases the accuracy of ranged attack of Basilisks and Hydras against this unit."/>
+           value="Increases the accuracy of ranged attack of Basilisks and Hydras and Scout Sentinels with <string name='Upgrades/AstraMilitarum/RecoveryGear'/> upgrade against this unit."/>
     <entry name="AstraMilitarum/SeniorOfficerValkyrie"
            value="Senior Officer"/>
     <entry name="AstraMilitarum/SeniorOfficerValkyrieDescription"
@@ -645,6 +645,18 @@
            value="<string name='Traits/Necrons/QuantumDeflectionDescription'/>"/>
     <entry name="Necrons/QuantumDeflectionWeakFlavor"
            value="<string name='Traits/Necrons/QuantumDeflectionFlavor'/>"/>
+    <entry name="Necrons/ReanimationProtocolsFlayedOne"
+           value="Reanimation Protocols"/>
+    <entry name="Necrons/ReanimationProtocolsFlayedOneDescription"
+           value="Restores hitpoints each turn."/>
+    <entry name="Necrons/ReanimationProtocolsFlayedOneFlavor"
+           value="Necrons have sophisticated self-repair systems that return even critically damaged warriors to the fight."/>
+    <entry name="Necrons/ReanimationProtocolsImmortal"
+           value="Reanimation Protocols"/>
+    <entry name="Necrons/ReanimationProtocolsImmortalDescription"
+           value="Restores hitpoints each turn."/>
+    <entry name="Necrons/ReanimationProtocolsImmortalFlavor"
+           value="Necrons have sophisticated self-repair systems that return even critically damaged warriors to the fight."/>
     <entry name="Necrons/ReanimationProtocolsTranscendentCtan"
            value="Reanimation Protocols"/>
     <entry name="Necrons/ReanimationProtocolsTranscendentCtanDescription"

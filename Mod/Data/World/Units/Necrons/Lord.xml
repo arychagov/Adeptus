@@ -275,8 +275,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints add="-5"
-                                                   addMax="-15"/>
+                                        <hitpoints add="-4"
+                                                   addMax="-12"/>
                                     </effects>
                                 </modifier>
                                 <modifier>
@@ -353,7 +353,6 @@
                requiredUpgrade="Necrons/ExtraInfantryArmour"/>
         <trait name="Hero"/>
         <trait name="Necrons/ReanimationProtocols"/>
-        <trait name="Necrons/PhaseShiftGenerator"/>
         <trait name="Necrons/PredictiveStrategist"
                requiredUpgrade="Necrons/PredictiveStrategist"/>
     </traits>

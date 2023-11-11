@@ -211,12 +211,6 @@
                     <areas>
                         <area affects="Unit">
                             <modifiers>
-                                <modifier requiredUpgrade="Necrons/Translocation">
-                                    <effects>
-                                        <addTrait name="Infiltrate"
-                                                  duration="1"/>
-                                    </effects>
-                                </modifier>
                                 <modifier requiredUpgrade="Necrons/HammerOfWrath">
                                     <effects>
                                         <addTrait name="HammerOfWrath"

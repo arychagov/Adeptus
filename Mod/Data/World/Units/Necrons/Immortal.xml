@@ -179,7 +179,7 @@
                requiredUpgrade="Necrons/AttackCityBonus"/>
         <trait name="ExtraInfantryArmour"
                requiredUpgrade="Necrons/ExtraInfantryArmour"/>
-        <trait name="Necrons/ReanimationProtocols"/>
+        <trait name="Necrons/ReanimationProtocolsImmortal"/>
         <trait name="Necrons/EndlessLegions"
                requiredUpgrade="Necrons/EndlessLegions"/>
         <trait name="Necrons/PredictiveStrategist"
