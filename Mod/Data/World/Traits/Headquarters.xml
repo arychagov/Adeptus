@@ -16,7 +16,7 @@
                 </unit>
             </conditions>
             <effects>
-                <invulnerableDamageReduction add="0.05"/>
+                <invulnerableDamageReduction add="0.075"/>
             </effects>
         </modifier>
         <modifier visible="0">
@@ -29,7 +29,7 @@
                 </unit>
             </conditions>
             <effects>
-                <invulnerableDamageReduction add="0.05"/>
+                <invulnerableDamageReduction add="0.075"/>
             </effects>
         </modifier>
         <modifier visible="0">
@@ -42,7 +42,7 @@
                 </unit>
             </conditions>
             <effects>
-                <invulnerableDamageReduction add="0.05"/>
+                <invulnerableDamageReduction add="0.075"/>
             </effects>
         </modifier>
         <modifier visible="0">
@@ -55,7 +55,7 @@
                 </unit>
             </conditions>
             <effects>
-                <invulnerableDamageReduction add="0.05"/>
+                <invulnerableDamageReduction add="0.075"/>
             </effects>
         </modifier>
         <modifier visible="0">
@@ -68,7 +68,7 @@
                 </unit>
             </conditions>
             <effects>
-                <invulnerableDamageReduction add="0.05"/>
+                <invulnerableDamageReduction add="0.075"/>
             </effects>
         </modifier>
         <modifier visible="0">
@@ -81,7 +81,7 @@
                 </unit>
             </conditions>
             <effects>
-                <invulnerableDamageReduction add="0.05"/>
+                <invulnerableDamageReduction add="0.075"/>
             </effects>
         </modifier>
     </modifiers>

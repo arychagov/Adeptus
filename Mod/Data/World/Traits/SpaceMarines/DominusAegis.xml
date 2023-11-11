@@ -12,6 +12,7 @@
                     <noTrait name="MonstrousCreature"/>
                     <noTrait name="Vehicle"/>
                     <noTrait name="Bike"/>
+                    <noTrait name="Hero"/>
                 </unit>
             </conditions>
             <effects>

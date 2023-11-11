@@ -5,6 +5,7 @@
             <conditions>
                 <unit>
                     <allied/>
+                    <faction name="SistersOfBattle"/>
                     <trait name="Hero"/>
                 </unit>
             </conditions>
