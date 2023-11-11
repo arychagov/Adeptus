@@ -25,7 +25,7 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8"/> <!-- %armor base armor=3+ -->
+                <armor base="6"/> <!-- %armor base armor=3+ -->
                 <hitpointsMax base="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
                 <meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
                 <meleeAttacks base="1"/>
