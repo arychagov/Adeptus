@@ -126,6 +126,10 @@
                             <trait name="Vehicle"/>
                             <trait name="Tau/Battlesuit"/>
                         </unit>
+                        <unit match="Any">
+                            <noTrait name="Hero"/>
+                            <trait name="HealableHero"/>
+                        </unit>
                     </conditions>
                     <areas>
                         <area affects="Unit">

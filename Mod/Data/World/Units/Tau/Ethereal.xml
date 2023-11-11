@@ -371,6 +371,10 @@
                                             <noTrait name="SistersOfBattle/HolyFireEnemy"/>
                                             <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                                         </unit>
+                                        <unit match="Any">
+                                            <noTrait name="Hero"/>
+                                            <trait name="HealableHero"/>
+                                        </unit>
                                     </conditions>
                                     <effects>
                                         <hitpoints addMax="12"
@@ -417,5 +421,6 @@
         <trait name="ExtraInfantryArmour"
                requiredUpgrade="Tau/ExtraInfantryArmour"/>
         <trait name="Tau/PreciseShooter"/>
+        <trait name="HealableHero"/>
     </traits>
 </unit>

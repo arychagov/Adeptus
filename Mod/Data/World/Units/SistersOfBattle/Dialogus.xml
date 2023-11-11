@@ -293,6 +293,10 @@
                                             <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                                             <noTrait name="Headquarters"/>
                                         </unit>
+                                        <unit match="Any">
+                                            <noTrait name="Hero"/>
+                                            <trait name="HealableHero"/>
+                                        </unit>
                                     </conditions>
                                     <effects>
                                         <hitpoints add="6"/>
@@ -319,5 +323,6 @@
         <trait name="Stubborn"/>
         <trait name="ExtraInfantryArmour"
                requiredUpgrade="SistersOfBattle/ExtraInfantryArmour"/>
+        <trait name="HealableHero"/>
     </traits>
 </unit>

@@ -48,7 +48,7 @@
            value="Kastelan Robot does not suffer accuracy loss on hit points loss, increases accuracy. Increases attacks of Fulgurite Electro Priests."/>
 
     <entry name="Artefacts/LoyaltyDescription"
-           value="Increases the loyalty. Space Marines get extra loyalty."/>
+           value="Increases the loyalty. Space Marines get extra requisition and influence."/>
 
     <entry name="AstraMilitarum/AdditionalFlamer"
            value="Installed Flamer"/>
@@ -1146,8 +1146,12 @@
            value="Reduces the morale each turn."/>
     <entry name="FrightFlavor"
            value="<string name='Actions/AuraOfFearFlavor'/>"/>
+    <entry name="HealableHero"
+           value="Healable Hero"/>
+    <entry name="HealableHeroDescription"
+           value="Can be healed by other units."/>
     <entry name="HeroDescription"
-           value="Increases the damage reduction of infantry units. Each adjacent infantry unit increases damage reduction by additional 7.5% (12.5% for Bodyguard units)"/>
+           value="Increases the damage reduction of infantry units. Each adjacent infantry unit increases damage reduction by additional 7.5% (12.5% for Bodyguard units). Cannot be healed, except by self healing."/>
     <entry name="KillshotDescription"
            value="Increases the damage against monstrous creatures, vehicles, heroes and fortifications."/>
     <entry name="MonsterHunter"

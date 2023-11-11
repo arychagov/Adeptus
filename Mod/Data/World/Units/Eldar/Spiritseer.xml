@@ -155,6 +155,10 @@
                                             <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                                             <faction name="Eldar"/>
                                         </unit>
+                                        <unit match="Any">
+                                            <noTrait name="Hero"/>
+                                            <trait name="HealableHero"/>
+                                        </unit>
                                     </conditions>
                                     <effects>
                                         <hitpoints addMax="12"
@@ -312,5 +316,6 @@
         <trait name="Psyker"/>
         <trait name="Eldar/RuneArmour"/>
         <trait name="Eldar/SpiritPreservation"/>
+        <trait name="HealableHero"/>
     </traits>
 </unit>

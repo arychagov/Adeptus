@@ -195,6 +195,10 @@
                             <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                             <damaged/>
                         </unit>
+                        <unit match="Any">
+                            <noTrait name="Hero"/>
+                            <trait name="HealableHero"/>
+                        </unit>
                     </conditions>
                     <areas>
                         <area affects="Unit">
@@ -318,5 +322,6 @@
         <trait name="Necrons/Technomancer"/>
         <trait name="Necrons/PredictiveStrategist"
                requiredUpgrade="Necrons/PredictiveStrategist"/>
+        <trait name="HealableHero"/>
     </traits>
 </unit>
