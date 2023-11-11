@@ -281,7 +281,7 @@
     <entry name="Necrons/Translocation"
            value="Translocation"/>
     <entry name="Necrons/TranslocationDescription"
-           value="Grants Triarch Praetorians ability to ignore overwatch attacks while jumping. Increases the invulnerable damage reduction of Triarch Praetorians."/>
+           value="Increases the invulnerable damage reduction of Triarch Praetorians."/>
     <entry name="Necrons/TranslocationFlavor"
            value="These creatures are determined defenders of their territory, their superior necrodermis allowing them to shrug off the mightiest of blows."/>
     <entry name="Necrons/UnlockedPotential"
@@ -343,7 +343,7 @@
     <entry name="SistersOfBattle/EternalFire"
            value="Eternal Fire"/>
     <entry name="SistersOfBattle/EternalFireDescription"
-           value="Grants Immolators, Sisters Assassinorum, Celestial Sacresants and Lightning Fighters ability to imbue their attacks with holy fire that applies damage over time debuff to the attacked enemy."/>
+           value="Grants Dominions, Immolators, Sisters Assassinorum, Celestial Sacresants and Lightning Fighters ability to imbue their attacks with holy fire that applies damage over time debuff to the attacked enemy. Grants Dominions additional ranged damage reduction for nearby enemies affected by holy fire."/>
     <entry name="SistersOfBattle/EternalFireFlavor"
            value="Burn the mutant. Burn the heretic. Burn the witch."/>
     <entry name="SistersOfBattle/FaithAndFury"

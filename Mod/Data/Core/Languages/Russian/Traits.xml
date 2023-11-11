@@ -48,7 +48,7 @@
            value="Kastelan Robot does not suffer accuracy loss on hit points loss, increases accuracy. Increases attacks of Fulgurite Electro Priests."/>
 
     <entry name="Artefacts/LoyaltyDescription"
-           value="Increases the loyalty. Space Marines get extra loyalty."/>
+           value="Increases the loyalty. Space Marines get extra requisition and influence."/>
 
     <entry name="AstraMilitarum/AdditionalFlamer"
            value="Installed Flamer"/>
@@ -107,7 +107,7 @@
     <entry name="AstraMilitarum/Gunner"
            value="Gunner"/>
     <entry name="AstraMilitarum/GunnerDescription"
-           value="Increases the accuracy of ranged attack against enemy units adjacent to Tempestus Scion or Bullgryn."/>
+           value="Increases the accuracy of ranged attack against enemy units adjacent to Tempestus Scion, Bullgryn or Scout Sentinels with <string name='Upgrades/AstraMilitarum/RecoveryGear'/> upgrade."/>
     <entry name="AstraMilitarum/ImperialStrongpointDamageReduction1"
            value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction1'/>"/>
     <entry name="AstraMilitarum/ImperialStrongpointDamageReduction1Description"
@@ -161,7 +161,7 @@
     <entry name="AstraMilitarum/SeniorOfficerBullgrynEnemy"
            value="Senior Officer"/>
     <entry name="AstraMilitarum/SeniorOfficerBullgrynEnemyDescription"
-           value="Increases the accuracy of ranged attack of Basilisks and Hydras against this unit."/>
+           value="Increases the accuracy of ranged attacks of Basilisks, Hydras and Scout Sentinels with <string name='Upgrades/AstraMilitarum/RecoveryGear'/> upgrade against this unit."/>
     <entry name="AstraMilitarum/SeniorOfficerScoutSentinelEnemy"
            value="Senior Officer"/>
     <entry name="AstraMilitarum/SeniorOfficerScoutSentinelEnemyDescription"
@@ -173,7 +173,7 @@
     <entry name="AstraMilitarum/SeniorOfficerTempestusEnemy"
            value="Senior Officer"/>
     <entry name="AstraMilitarum/SeniorOfficerTempestusEnemyDescription"
-           value="Increases the accuracy of ranged attack of Basilisks and Hydras against this unit."/>
+           value="Increases the accuracy of ranged attack of Basilisks and Hydras and Scout Sentinels with <string name='Upgrades/AstraMilitarum/RecoveryGear'/> upgrade against this unit."/>
     <entry name="AstraMilitarum/SeniorOfficerValkyrie"
            value="Senior Officer"/>
     <entry name="AstraMilitarum/SeniorOfficerValkyrieDescription"
@@ -649,6 +649,18 @@
            value="<string name='Traits/Necrons/QuantumDeflectionDescription'/>"/>
     <entry name="Necrons/QuantumDeflectionWeakFlavor"
            value="<string name='Traits/Necrons/QuantumDeflectionFlavor'/>"/>
+    <entry name="Necrons/ReanimationProtocolsFlayedOne"
+           value="Reanimation Protocols"/>
+    <entry name="Necrons/ReanimationProtocolsFlayedOneDescription"
+           value="Restores hitpoints each turn."/>
+    <entry name="Necrons/ReanimationProtocolsFlayedOneFlavor"
+           value="Necrons have sophisticated self-repair systems that return even critically damaged warriors to the fight."/>
+    <entry name="Necrons/ReanimationProtocolsImmortal"
+           value="Reanimation Protocols"/>
+    <entry name="Necrons/ReanimationProtocolsImmortalDescription"
+           value="Restores hitpoints each turn."/>
+    <entry name="Necrons/ReanimationProtocolsImmortalFlavor"
+           value="Necrons have sophisticated self-repair systems that return even critically damaged warriors to the fight."/>
     <entry name="Necrons/ReanimationProtocolsTranscendentCtan"
            value="Reanimation Protocols"/>
     <entry name="Necrons/ReanimationProtocolsTranscendentCtanDescription"
@@ -782,6 +794,10 @@
            value="The Emperor’s own divinity is made manifest from this warrior’s golden halo, blinding the enemy with holy light."/>
     <entry name="SistersOfBattle/CatechismOfRepugnanceDescription"
            value="Decreases the accuracy and the attack range."/>
+    <entry name="SistersOfBattle/CatechismOfWrathfulDefiance"
+           value="Catechism Of Wrathful Defiance"/>
+    <entry name="SistersOfBattle/CatechismOfWrathfulDefianceDescription"
+           value="Decreases the attack range."/>
     <entry name="SistersOfBattle/ChadMultiMelta"
            value="Upgraded Multi Melta"/>
     <entry name="SistersOfBattle/ChadMultiMeltaDescription"
@@ -840,7 +856,10 @@
            value="Disables the morale regeneration."/>
     <entry name="SistersOfBattle/VerseOfHolyPietyFlavor"
            value="Pray is stronger than any sword. As the sanctified words of the Order’s holy tenets are roared across the battlefield, the devout are infused with the Emperor’s blessings."/>
-
+    <entry name="SistersOfBattle/QuicksilverVeil"
+           value="Quicksilver Veil"/>
+    <entry name="SistersOfBattle/QuicksilverVeilDescription"
+           value="Grants additional ranged damage reduction for each enemy affected by Holy Fire within range of 2 (up to 15%)."/>
     <entry name="SmallBlast"
            value="Small Blast"/>
     <entry name="SmallBlastDescription"
@@ -1131,8 +1150,12 @@
            value="Reduces the morale each turn."/>
     <entry name="FrightFlavor"
            value="<string name='Actions/AuraOfFearFlavor'/>"/>
+    <entry name="HealableHero"
+           value="Healable Hero"/>
+    <entry name="HealableHeroDescription"
+           value="Can be healed by other units."/>
     <entry name="HeroDescription"
-           value="Increases the damage reduction of infantry units. Each adjacent infantry unit increases damage reduction by additional 7.5% (12.5% for Bodyguard units)"/>
+           value="Increases the damage reduction of infantry units. Each adjacent infantry unit increases damage reduction by additional 7.5% (12.5% for Bodyguard units). Cannot be healed, except by self healing."/>
     <entry name="KillshotDescription"
            value="Increases the damage against monstrous creatures, vehicles, heroes and fortifications."/>
     <entry name="MonsterHunter"
