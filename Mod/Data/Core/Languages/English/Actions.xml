@@ -101,6 +101,10 @@
            value="Senior Officer"/>
     <entry name="AstraMilitarum/SeniorOfficerTempestusDescription"
            value="Increases the accuracy of adjacent allied Guardsmen. Increases the accuracy of Basilisk and Hydras against adjacent enemy units."/>
+    <entry name="AstraMilitarum/SeniorOfficerScoutSentinel"
+           value="Senior Officer"/>
+    <entry name="AstraMilitarum/SeniorOfficerScoutSentinelDescription"
+           value="Increases the accuracy of Basilisk and Hydras against adjacent enemy units."/>
     <entry name="AstraMilitarum/SeniorOfficerBulgryn"
            value="Senior Officer"/>
     <entry name="AstraMilitarum/SeniorOfficerBulgrynDescription"

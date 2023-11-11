@@ -85,6 +85,27 @@
                         soundCount="1"/>
             </model>
         </move>
+        <genericUnitAbility name="AstraMilitarum/SeniorOfficerScoutSentinel"
+                            icon="Units/AstraMilitarum/ScoutSentinel"
+                            passive="1"
+                            requiredUpgrade="AstraMilitarum/RecoveryGear">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile"
+                              radius="1">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AstraMilitarum/SeniorOfficerScoutSentinelEnemy"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
         <scout consumedActionPoints="0"
                consumedMovement="0"
                cooldown="3"
@@ -175,8 +196,6 @@
         <trait name="ExtraVehicleArmour"
                requiredUpgrade="AstraMilitarum/ExtraVehicleArmour"/>
         <trait name="RecoveryGear"
-               requiredUpgrade="AstraMilitarum/RecoveryGear"/>
-        <trait name="AstraMilitarum/Gunner"
                requiredUpgrade="AstraMilitarum/RecoveryGear"/>
         <trait name="RelicPlating"
                requiredUpgrade="AstraMilitarum/RelicPlating"/>

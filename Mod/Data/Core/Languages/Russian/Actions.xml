@@ -97,6 +97,10 @@
            value="Restores hitpoints of target allied infantry unit."/>
     <entry name="AstraMilitarum/NightshroudFlavor"
            value="Calling upon the power of the empyrean, the psyker cloaks their allies in a flowing curtain of shadow, concealing them from the enemy."/>
+    <entry name="AstraMilitarum/SeniorOfficerScoutSentinel"
+           value="Senior Officer"/>
+    <entry name="AstraMilitarum/SeniorOfficerScoutSentinelDescription"
+           value="Increases the accuracy of Basilisk and Hydras against adjacent enemy units."/>
     <entry name="AstraMilitarum/SeniorOfficerTempestus"
            value="Senior Officer"/>
     <entry name="AstraMilitarum/SeniorOfficerTempestusDescription"

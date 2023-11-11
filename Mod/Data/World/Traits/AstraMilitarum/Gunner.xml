@@ -8,6 +8,7 @@
                     <opponent match="Any">
                         <trait name="AstraMilitarum/SeniorOfficerBullgrynEnemy"/>
                         <trait name="AstraMilitarum/SeniorOfficerTempestusScionEnemy"/>
+                        <trait name="AstraMilitarum/SeniorOfficerScoutSentinelEnemy"/>
                     </opponent>
                 </encounter>
             </conditions>

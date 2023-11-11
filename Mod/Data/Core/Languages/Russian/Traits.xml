@@ -162,6 +162,10 @@
            value="Senior Officer"/>
     <entry name="AstraMilitarum/SeniorOfficerBullgrynEnemyDescription"
            value="Increases the accuracy of ranged attack of Basilisks and Hydras against this unit."/>
+    <entry name="AstraMilitarum/SeniorOfficerScoutSentinelEnemy"
+           value="Senior Officer"/>
+    <entry name="AstraMilitarum/SeniorOfficerScoutSentinelEnemyDescription"
+           value="Increases the accuracy of ranged attack of Basilisks and Hydras against this unit."/>
     <entry name="AstraMilitarum/SeniorOfficerTempestus"
            value="Senior Officer"/>
     <entry name="AstraMilitarum/SeniorOfficerTempestusDescription"

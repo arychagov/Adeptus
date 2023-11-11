@@ -107,7 +107,7 @@
     <entry name="AstraMilitarum/Gunner"
            value="Gunner"/>
     <entry name="AstraMilitarum/GunnerDescription"
-           value="Increases the accuracy of ranged attack against enemy units adjacent to Tempestus Scion or Bullgryn."/>
+           value="Increases the accuracy of ranged attack against enemy units adjacent to Tempestus Scion, Bullgryn or Scout Sentinels with <string name='Upgrades/AstraMilitarum/RecoveryGear'/> upgrade."/>
     <entry name="AstraMilitarum/ImperialStrongpointDamageReduction1"
            value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReduction1'/>"/>
     <entry name="AstraMilitarum/ImperialStrongpointDamageReduction1Description"
@@ -162,6 +162,10 @@
            value="Senior Officer"/>
     <entry name="AstraMilitarum/SeniorOfficerBullgrynEnemyDescription"
            value="Increases the accuracy of ranged attacks of Basilisks, Hydras and Scout Sentinels with <string name='Upgrades/AstraMilitarum/RecoveryGear'/> upgrade against this unit."/>
+    <entry name="AstraMilitarum/SeniorOfficerScoutSentinelEnemy"
+           value="Senior Officer"/>
+    <entry name="AstraMilitarum/SeniorOfficerScoutSentinelEnemyDescription"
+           value="Increases the accuracy of ranged attack of Basilisks and Hydras against this unit."/>
     <entry name="AstraMilitarum/SeniorOfficerTempestus"
            value="Senior Officer"/>
     <entry name="AstraMilitarum/SeniorOfficerTempestusDescription"
