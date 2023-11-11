@@ -16,7 +16,8 @@
                 </player>
             </conditions>
             <effects>
-                <loyalty add="1"/>
+                <requisition add="1"/>
+                <influence add="1"/>
             </effects>
         </modifier>
     </modifiers>
