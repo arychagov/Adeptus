@@ -111,8 +111,8 @@
                             requiredActionPoints="0"
                             consumedActionPoints="0"
                             consumedMovement="0"
-                            cooldownMin="3"
-                            cooldownMax="1"
+                            cooldownMin="4"
+                            cooldownMax="2"
                             rank="-1"
                             rankMax="2">
             <model>
@@ -120,21 +120,21 @@
                         sound="Actions/MysticBuff"/>
             </model>
             <beginTargets>
-                <target rangeMax="1">
-                    <conditions>
-                        <unit>
-                            <allied/>
-                            <faction name="SpaceMarines"/>
-                            <trait name="Vehicle"/>
-                            <noTrait name="MultimodelVehicle"/>
-                            <noTrait name="UnbreakableVehicle"/>
-                            <hitpointsFraction less="0.66"/>
-                        </unit>
-                    </conditions>
+                <selfTarget>
                     <areas>
-                        <area affects="Unit">
+                        <area affects="Unit" radius="1" excludeRadius="0">
                             <modifiers>
                                 <modifier>
+                                    <conditions>
+                                        <unit>
+                                            <allied/>
+                                            <faction name="SpaceMarines"/>
+                                            <trait name="Vehicle"/>
+                                            <noTrait name="MultimodelVehicle"/>
+                                            <noTrait name="UnbreakableVehicle"/>
+                                            <hitpointsFraction less="0.66"/>
+                                        </unit>
+                                    </conditions>
                                     <effects>
                                         <addTrait name="SpaceMarines/WrathOfTheMachineSpirit"
                                                   duration="1"/>
@@ -143,7 +143,7 @@
                             </modifiers>
                         </area>
                     </areas>
-                </target>
+                </selfTarget>
             </beginTargets>
         </genericUnitAbility>
         <genericUnitAbility name="SpaceMarines/LitanyOfZeal"
@@ -187,10 +187,12 @@
                         <unit>
                             <allied/>
                             <faction name="SpaceMarines"/>
-                            <noTrait name="Hero"/>
-                            <noTrait name="Vehicle"/>
-                            <noTrait name="Fortification"/>
-                            <noTrait name="MonstrousCreature"/>
+                            <noType name="SpaceMarines/Chaplain"/>
+                        </unit>
+                        <unit match="Any">
+                            <trait name="Hero"/>
+                            <type name="SpaceMarines/DevastatorSpaceMarine"/>
+                            <type name="SpaceMarines/Terminator"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -220,7 +222,9 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addUnit name="SpaceMarines/Dreadnought"/>
+                                        <addUnit name="SpaceMarines/Dreadnought"
+                                                 levelMin="0"
+                                                 levelMax="5"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
