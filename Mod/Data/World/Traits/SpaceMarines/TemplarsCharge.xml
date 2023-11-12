@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff"
-       icon="Traits/Rending">
+<trait category="Buff" icon="Traits/Rending">
     <modifiers>
-        <modifier>
-            <effects>
-                <meleeAccuracy mul="0.2"/>
-                <meleeDamage mul="0.2"/>
-            </effects>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <faction name="SpaceMarines"/>
+                </unit>
+            </conditions>
+            <effects/>
         </modifier>
     </modifiers>
 </trait>

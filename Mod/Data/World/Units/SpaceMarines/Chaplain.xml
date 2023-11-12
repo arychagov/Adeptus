@@ -105,54 +105,30 @@
                         soundCount="1"/>
             </model>
         </move>
-        <genericUnitAbility name="SpaceMarines/Righteousness"
+        <genericUnitAbility name="SpaceMarines/WrathOfTheMachineSpirit"
                             icon="Actions/RitesOfWar"
                             levelUpPriority="0.15"
-                            passive="1"
-                            rank="-1"
-                            rankMax="2">
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Tile"
-                              excludeRadius="0"
-                              radius="1">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="SpaceMarines/Righteousness"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-        </genericUnitAbility>
-        <genericUnitAbility name="SpaceMarines/LitanyOfZeal"
+                            requiredActionPoints="0"
                             consumedActionPoints="0"
                             consumedMovement="0"
+                            cooldownMin="3"
                             cooldownMax="1"
-                            cooldownMin="5"
-                            icon="Actions/BolsterDefences"
                             rank="-1"
-                            rankMax="2"
-                            requiredActionPoints="0">
+                            rankMax="2">
             <model>
                 <action animation="Units/SpaceMarines/ChaplainCanticlesOfWrath"
                         sound="Actions/MysticBuff"/>
             </model>
             <beginTargets>
-                <target rangeMax="2">
+                <target rangeMax="1">
                     <conditions>
                         <unit>
                             <allied/>
-                            <notMovedThisTurn/>
                             <faction name="SpaceMarines"/>
-                            <noType name="SpaceMarines/Chaplain"/>
-                            <noTrait name="Fortification"/>
-                            <noTrait name="MonstrousCreature"/>
-                            <noTrait name="Vehicle"/>
+                            <trait name="Vehicle"/>
+                            <noTrait name="MultimodelVehicle"/>
+                            <noTrait name="UnbreakableVehicle"/>
+                            <hitpointsFraction less="0.66"/>
                         </unit>
                     </conditions>
                     <areas>
@@ -160,7 +136,7 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="SpaceMarines/LitanyOfZeal"
+                                        <addTrait name="SpaceMarines/WrathOfTheMachineSpirit"
                                                   duration="1"/>
                                     </effects>
                                 </modifier>
@@ -170,10 +146,93 @@
                 </target>
             </beginTargets>
         </genericUnitAbility>
-        <dogmaAstrates levelUpPriority="0.5"
-                       passive="1"
-                       rank="-1"
-                       rankMax="2">
+        <genericUnitAbility name="SpaceMarines/LitanyOfZeal"
+                            icon="Actions/Heal"
+                            rank="-1"
+                            rankMax="2"
+                            passive="1">
+            <model>
+                <action animation="Units/SpaceMarines/ChaplainCanticlesOfWrath"
+                        sound="Actions/MysticBuff"/>
+            </model>
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile" radius="2">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="SpaceMarines/LitanyOfZeal"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
+        <genericUnitAbility name="SpaceMarines/EvenInDeathIStillServe"
+                            icon="Units/SpaceMarines/Dreadnought"
+                            levelUpPriority="0.5"
+                            cooldownMin="10"
+                            cooldownMax="5"
+                            rank="-1"
+                            rankMax="2">
+            <beginTargets>
+                <target rangeMax="1">
+                    <conditions>
+                        <unit>
+                            <allied/>
+                            <faction name="SpaceMarines"/>
+                            <noTrait name="Hero"/>
+                            <noTrait name="Vehicle"/>
+                            <noTrait name="Fortification"/>
+                            <noTrait name="MonstrousCreature"/>
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects/>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+            <endTargets>
+                <target>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <removeUnit/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                        <area affects="Tile">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addUnit name="SpaceMarines/Dreadnought"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </endTargets>
+        </genericUnitAbility>
+        <genericUnitAbility name="SpaceMarines/TemplarsCharge"
+                            elite="1"
+                            icon="Traits/Rending"
+                            levelUpPriority="1"
+                            rank="-1"
+                            rankMax="0"
+                            passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -186,42 +245,12 @@
                                 </modifier>
                             </modifiers>
                         </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-        </dogmaAstrates>
-        <genericUnitAbility name="SpaceMarines/TemplarsCharge"
-                            consumedActionPoints="0"
-                            consumedMovement="0"
-                            cooldown="5"
-                            elite="1"
-                            icon="Traits/Rending"
-                            levelUpPriority="1"
-                            rank="-1"
-                            rankMax="0"
-                            requiredActionPoints="0">
-            <model>
-                <action animation="Units/SpaceMarines/ChaplainOrationOfRestoration"
-                        sound="Actions/MysticBuff"/>
-            </model>
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Unit"
-                              radius="1">
+                        <area affects="Tile"
+                              radius="2">
                             <modifiers>
                                 <modifier>
-                                    <conditions>
-                                        <unit>
-                                            <allied/>
-                                            <faction name="SpaceMarines"/>
-                                            <noTrait name="Fortification"/>
-                                            <noTrait name="MonstrousCreature"/>
-                                        </unit>
-                                    </conditions>
                                     <effects>
-                                        <addTrait name="SpaceMarines/TemplarsCharge"
-                                                  duration="1"/>
+                                        <addTrait name="SpaceMarines/TemplarsCharge"/>
                                     </effects>
                                 </modifier>
                             </modifiers>

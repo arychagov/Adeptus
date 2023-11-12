@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff"
+       icon="Actions/RitesOfWar">
+    <modifiers>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <hitpointsFraction greater="0.33"
+                                       less="0.66"/>
+                </unit>
+            </conditions>
+            <effects>
+                <accuracy mul="0.17"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <hitpointsFraction less="0.33"/>
+                </unit>
+            </conditions>
+            <effects>
+                <accuracy mul="0.33"/>
+                <movementMax add="1"/>
+                <movement add="1"/>
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>

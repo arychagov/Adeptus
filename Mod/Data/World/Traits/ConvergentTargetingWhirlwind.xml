@@ -4,11 +4,16 @@
     <modifiers>
         <modifier>
             <conditions>
-                <unit>
+                <unit match="Any">
                     <unitsInRange count="1"
                                   range="1">
                         <allied/>
                         <type name="SpaceMarines/Whirlwind"/>
+                    </unitsInRange>
+                    <unitsInRange count="1"
+                                  range="1">
+                        <allied/>
+                        <type name="SpaceMarines/Chaplain"/>
                     </unitsInRange>
                 </unit>
             </conditions>

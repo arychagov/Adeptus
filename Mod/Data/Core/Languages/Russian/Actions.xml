@@ -484,6 +484,12 @@
            value="Levels up non-hero friendly unit."/>
     <entry name="SpaceMarines/EmpireWithinFlavor"
            value="”I can pulp your flesh and snap your bones in less than a second and without so much as lifting a finger. What is the power of technology compared to that?”<br/>  — Vel'Cona, Chief Librarian of the Salamanders"/>
+    <entry name="SpaceMarines/EvenInDeathIStillServe"
+           value="Even In Death I Still Serve"/>
+    <entry name="SpaceMarines/EvenInDeathIStillServeDescription"
+           value="Encases target allied infantry unit in the sarcophagus of Dreadnought. The selected unit loses all experience."/>
+    <entry name="SpaceMarines/EvenInDeathIStillServeFlavor"
+           value="A mortally wounded Space Marine may be interred in the sarcophagus of a Dreadnought, allowing him to bring death to his foes in a new form."/>
     <entry name="SpaceMarines/UpgradedLascannon"
            value="Upgrade Lascannon"/>
     <entry name="SpaceMarines/UpgradedLascannonDescription"
@@ -491,7 +497,7 @@
     <entry name="SpaceMarines/LitanyOfZeal"
            value="<string name='Traits/SpaceMarines/LitanyOfZeal'/>"/>
     <entry name="SpaceMarines/LitanyOfZealDescription"
-           value="<string name='Traits/SpaceMarines/LitanyOfZealDescription'/>"/>
+           value="Increases the regeneration of nearby vehicles and bikes."/>
     <entry name="SpaceMarines/LitanyOfZealFlavor"
            value="<string name='Traits/SpaceMarines/LitanyOfZealFlavor'/>"/>
     <entry name="SpaceMarines/MightOfHeroes"
@@ -506,12 +512,12 @@
            value="Removes invulnerable, witchfire and feel no pain damage reduction on non-hero units adjacent to Librarian."/>
     <entry name="SpaceMarines/NullZoneFlavor"
            value="<string name='Traits/NullZoneFlavor'/>"/>
-    <entry name="SpaceMarines/Righteousness"
-           value="<string name='Traits/SpaceMarines/Righteousness'/>"/>
-    <entry name="SpaceMarines/RighteousnessDescription"
-           value="<string name='Traits/SpaceMarines/RighteousnessDescription'/>"/>
-    <entry name="SpaceMarines/RighteousnessFlavor"
-           value="<string name='Traits/SpaceMarines/RighteousnessFlavor'/>"/>
+    <entry name="SpaceMarines/WrathOfTheMachineSpirit"
+           value="<string name='Traits/SpaceMarines/WrathOfTheMachineSpirit'/>"/>
+    <entry name="SpaceMarines/WrathOfTheMachineSpiritDescription"
+           value="Reverses the degradation effect of adjacent allied vehicles."/>
+    <entry name="SpaceMarines/WrathOfTheMachineSpiritFlavor"
+           value="<string name='Traits/SpaceMarines/WrathOfTheMachineSpiritFlavor'/>"/>
     <entry name="SpaceMarines/SiegeManeuversThunderfireCannon"
            value="Upgrade Thunderfire Cannon"/>
     <entry name="SpaceMarines/SiegeManeuversThunderfireCannon"
@@ -531,7 +537,7 @@
     <entry name="SpaceMarines/TemplarsCharge"
            value="<string name='Traits/SpaceMarines/TemplarsCharge'/>"/>
     <entry name="SpaceMarines/TemplarsChargeDescription"
-           value="<string name='Traits/SpaceMarines/TemplarsChargeDescription'/>"/>
+           value="Increases the loyalty output. Nearby allied vehicles ignore the first degradation effect."/>
     <entry name="SpaceMarines/TemplarsChargeFlavor"
            value="<string name='Traits/SpaceMarines/TemplarsChargeFlavor'/>"/>
     <entry name="SpaceMarines/VeilOfTime"

@@ -9,6 +9,8 @@
                     <noTrait name="AdeptusMechanicus/DataBlessedAutosermon"/>
                     <noTrait name="MachineSpirit"/>
                     <noTrait name="ChaosSpaceMarines/TraitorisLoyalty"/>
+                    <noTrait name="SpaceMarines/WrathOfTheMachineSpirit"/>
+                    <noTrait name="SpaceMarines/TemplarsCharge"/>
                     <hitpointsFraction greater="0.33"
                                        less="0.66"/>
                 </unit>
@@ -25,6 +27,7 @@
                     <noTrait name="AdeptusMechanicus/DataBlessedAutosermon"/>
                     <noTrait name="MachineSpirit"/>
                     <noTrait name="ChaosSpaceMarines/TraitorisLoyalty"/>
+                    <noTrait name="SpaceMarines/WrathOfTheMachineSpirit"/>
                     <hitpointsFraction less="0.33"/>
                 </unit>
             </conditions>

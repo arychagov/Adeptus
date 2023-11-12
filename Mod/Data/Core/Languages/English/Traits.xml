@@ -366,11 +366,11 @@
     <entry name="ConvergentTargetingPredator"
            value="Convergent Targeting"/>
     <entry name="ConvergentTargetingPredatorDescription"
-           value="Increases the accuracy when adjacent to an allied Predator."/>
+           value="Increases the accuracy when adjacent to an allied Predator or Chaplain."/>
     <entry name="ConvergentTargetingWhirlwind"
            value="Convergent Targeting"/>
     <entry name="ConvergentTargetingWhirlwindDescription"
-           value="Increases the accuracy when adjacent to an allied Whirlwind."/>
+           value="Increases the accuracy when adjacent to an allied Whirlwind or Chaplain."/>
 
     <entry name="Daemonic"
            value="Daemonic"/>
@@ -968,7 +968,7 @@
     <entry name="SpaceMarines/LitanyOfZeal"
            value="Litany Of Zeal"/>
     <entry name="SpaceMarines/LitanyOfZealDescription"
-           value="Increases movement of target infantry unit that have not moved this turn and prevents that unit from being targeted by overwatch attacks. The unit also ignores enemy zone of control."/>
+           value="Restores hitpoints each turn."/>
     <entry name="SpaceMarines/LitanyOfZealFlavor"
            value="Bellowing his hatred of the foe, the Chaplain leads his brothers in the wholesale destruction of the enemy."/>
     <entry name="SpaceMarines/MightOfHeroes"
@@ -981,11 +981,11 @@
            value="Prosperity"/>
     <entry name="SpaceMarines/ProsperityDescription"
            value="Increases city growth"/>
-    <entry name="SpaceMarines/Righteousness"
-           value="Righteousness"/>
-    <entry name="SpaceMarines/RighteousnessDescription"
-           value="Increases adjacent allied units melee attacks."/>
-    <entry name="SpaceMarines/RighteousnessFlavor"
+    <entry name="SpaceMarines/WrathOfTheMachineSpirit"
+           value="Wrath Of The Machine Spirit"/>
+    <entry name="SpaceMarines/WrathOfTheMachineSpiritDescription"
+           value="Reverses the degradation effect."/>
+    <entry name="SpaceMarines/WrathOfTheMachineSpiritFlavor"
            value="Rejoice! Let the glory of battle envelop us! Let our enemies fear us, for we are the Emperor's wrath!"/>
     <entry name="SpaceMarines/SiegeManeuversScoutBiker"
            value="Siege Maneuvers"/>
@@ -1014,7 +1014,7 @@
     <entry name="SpaceMarines/TemplarsCharge"
            value="Templar's Charge!"/>
     <entry name="SpaceMarines/TemplarsChargeDescription"
-           value="Temporary increases nearby allied units melee attacks and damage."/>
+           value="Ignores the first degradation effect."/>
     <entry name="SpaceMarines/TemplarsChargeFlavor"
            value="We fight to protect the spiritual and physical heart of our Chapter. That, surely, is worth shedding blood."/>
     <entry name="SpaceMarines/VeilOfTime"
