@@ -515,7 +515,7 @@
     <entry name="SpaceMarines/WrathOfTheMachineSpirit"
            value="<string name='Traits/SpaceMarines/WrathOfTheMachineSpirit'/>"/>
     <entry name="SpaceMarines/WrathOfTheMachineSpiritDescription"
-           value="Reverses the degradation effect of adjacent allied vehicles."/>
+           value="Reverses the degradation effect of target allied vehicle."/>
     <entry name="SpaceMarines/WrathOfTheMachineSpiritFlavor"
            value="<string name='Traits/SpaceMarines/WrathOfTheMachineSpiritFlavor'/>"/>
     <entry name="SpaceMarines/SiegeManeuversThunderfireCannon"

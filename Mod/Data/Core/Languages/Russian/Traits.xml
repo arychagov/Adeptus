@@ -1014,7 +1014,7 @@
     <entry name="SpaceMarines/TemplarsCharge"
            value="Templar's Charge!"/>
     <entry name="SpaceMarines/TemplarsChargeDescription"
-           value="Ignores the first degradation effect."/>
+           value="Ignores the first degradation effect of vehicle."/>
     <entry name="SpaceMarines/TemplarsChargeFlavor"
            value="We fight to protect the spiritual and physical heart of our Chapter. That, surely, is worth shedding blood."/>
     <entry name="SpaceMarines/VeilOfTime"

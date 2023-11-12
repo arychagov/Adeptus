@@ -178,6 +178,9 @@
                             cooldownMax="5"
                             rank="-1"
                             rankMax="2">
+            <model>
+                <action sound="Actions/DropPod"/>
+            </model>
             <beginTargets>
                 <target rangeMax="1">
                     <conditions>
