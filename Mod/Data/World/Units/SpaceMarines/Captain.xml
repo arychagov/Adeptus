@@ -57,7 +57,7 @@
                 <itemSlots base="6"/>
                 <levelMax base="9"/>
                 <meleeAccuracy base="12"/> <!-- %meleeAccuracy base weaponSkill=6 -->
-                <meleeAttacks base="3"/>
+                <meleeAttacks base="2"/>
                 <strengthDamage base="1.5"/> <!-- %strengthDamage base strength=4 -->
                 <!-- <meleeInitiative base="5"/> -->
                 <moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
