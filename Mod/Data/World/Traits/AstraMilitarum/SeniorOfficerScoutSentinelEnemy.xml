@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff" icon="Units/AstraMilitarum/ScoutSentinel">
+<trait category="Debuff"
+       icon="Units/AstraMilitarum/ScoutSentinel">
     <modifiers>
         <modifier>
             <conditions>

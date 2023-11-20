@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait icon="Units/AstraMilitarum/Guardsman"
-       category="Buff">
+<trait category="Buff"
+       icon="Units/AstraMilitarum/Guardsman">
     <modifiers>
         <modifier>
             <conditions>
                 <unit>
-                    <allied />
+                    <allied/>
                     <faction name="AstraMilitarum"/>
                     <noTrait name="Vehicle"/>
                     <noTrait name="Fortification"/>

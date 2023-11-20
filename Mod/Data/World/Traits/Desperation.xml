@@ -9,7 +9,8 @@
                 </unit>
             </conditions>
             <effects>
-                <moraleMax base="99" max="99"/>
+                <moraleMax base="99"
+                           max="99"/>
                 <moraleRegeneration max="0"/>
             </effects>
         </modifier>

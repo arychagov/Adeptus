@@ -81,7 +81,8 @@
     </actions>
     <traits>
         <!-- <trait name="Bulky"/> -->
-        <trait name="Tau/DroneController" requiredUpgrade="Tau/DroneController"/>
+        <trait name="Tau/DroneController"
+               requiredUpgrade="Tau/DroneController"/>
         <trait name="JetPack"/>
         <trait name="Relentless"/>
         <trait name="Shielded"/>

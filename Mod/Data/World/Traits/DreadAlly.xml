@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Traits/Fear">
+<trait category="Buff"
+       icon="Traits/Fear">
     <perTurnModifiers endure="0">
         <modifier>
             <conditions>

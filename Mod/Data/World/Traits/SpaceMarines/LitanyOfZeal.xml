@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait category="Buff"
-       rankMax="2"
-       icon="Actions/Heal">
+       icon="Actions/Heal"
+       rankMax="2">
     <perTurnModifiers endure="0">
         <modifier>
             <conditions>
@@ -17,7 +17,8 @@
                 </unit>
             </conditions>
             <effects>
-                <hitpoints addMin="2" addMax="4"/>
+                <hitpoints addMax="4"
+                           addMin="2"/>
             </effects>
         </modifier>
     </perTurnModifiers>

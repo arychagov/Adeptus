@@ -185,9 +185,9 @@
         </bringItDown>
         <laurelsOfCommand name="AstraMilitarum/LaurelsOfCommand"
                           icon="Items/LaurelsOfCommand"
+                          passive="1"
                           rank="-1"
-                          rankMax="2"
-                          passive="1">
+                          rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>

@@ -80,12 +80,12 @@
                         soundCount="1"/>
             </model>
         </move>
-        <genericUnitAbility consumedActionPoints="0"
+        <genericUnitAbility name="Tau/StrikeAndFade"
+                            consumedActionPoints="0"
                             consumedMovement="0"
                             cooldown="5"
-                            requiredActionPoints="0"
                             icon="Attributes/Accuracy"
-                            name="Tau/StrikeAndFade">
+                            requiredActionPoints="0">
             <model>
                 <action bone="ChestBone"
                         sound="Actions/BondingKnifeRitual"/>
@@ -97,7 +97,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="Tau/StrikeAndFade" duration="1"/>
+                                        <addTrait name="Tau/StrikeAndFade"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>

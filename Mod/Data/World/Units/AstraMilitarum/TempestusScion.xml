@@ -152,8 +152,8 @@
         <genericUnitAbility name="AstraMilitarum/SuperchargedLas"
                             consumedActionPoints="0"
                             consumedMovement="0"
-                            icon="Weapons/HotShotLasgun"
                             cooldown="5"
+                            icon="Weapons/HotShotLasgun"
                             requiredActionPoints="1">
             <beginTargets>
                 <selfTarget>
@@ -162,7 +162,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="AstraMilitarum/SuperchargedLas" duration="1"/>
+                                        <addTrait name="AstraMilitarum/SuperchargedLas"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Debuff" icon="Traits/Blind">
+<trait category="Debuff"
+       icon="Traits/Blind">
     <modifiers>
         <modifier>
             <effects>

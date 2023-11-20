@@ -113,7 +113,9 @@
                 </selfTarget>
             </beginTargets>
         </auraOfFear>
-        <genericUnitAbility name="ChaosSpaceMarines/DaemonPrincePresence" icon="Units/ChaosSpaceMarines/DaemonPrince" passive="1">
+        <genericUnitAbility name="ChaosSpaceMarines/DaemonPrincePresence"
+                            icon="Units/ChaosSpaceMarines/DaemonPrince"
+                            passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>

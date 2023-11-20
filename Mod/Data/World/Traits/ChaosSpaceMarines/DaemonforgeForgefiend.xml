@@ -7,7 +7,8 @@
                 <attacks mul="0.75"/>
                 <damage mul="2"/>
                 <armorPenetration add="1"/>
-                <additionalMembersHit add="2" max="2"/>
+                <additionalMembersHit add="2"
+                                      max="2"/>
             </effects>
         </modifier>
     </modifiers>

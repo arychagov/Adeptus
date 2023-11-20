@@ -84,7 +84,9 @@
                         soundCount="1"/>
             </model>
         </move>
-        <genericUnitAbility name="ChaosSpaceMarines/AuraOfDread" icon="Traits/Fear" passive="1">
+        <genericUnitAbility name="ChaosSpaceMarines/AuraOfDread"
+                            icon="Traits/Fear"
+                            passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
@@ -104,11 +106,14 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <genericUnitAbility name="ChaosSpaceMarines/TraitorisLoyalty" icon="Traits/Vehicle" passive="1">
+        <genericUnitAbility name="ChaosSpaceMarines/TraitorisLoyalty"
+                            icon="Traits/Vehicle"
+                            passive="1">
             <beginTargets>
                 <selfTarget>
                     <areas>
-                        <area affects="Tile" radius="1">
+                        <area affects="Tile"
+                              radius="1">
                             <modifiers>
                                 <modifier>
                                     <effects>

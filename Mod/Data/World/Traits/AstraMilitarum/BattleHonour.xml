@@ -26,7 +26,8 @@
                 </unit>
             </conditions>
             <effects>
-                <morale addMin="1" addMax="2"/>
+                <morale addMax="2"
+                        addMin="1"/>
             </effects>
         </modifier>
     </perTurnModifiers>

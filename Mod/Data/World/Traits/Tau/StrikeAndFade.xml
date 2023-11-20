@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Attributes/Accuracy">
+<trait category="Buff"
+       icon="Attributes/Accuracy">
     <modifiers>
         <modifier>
             <effects>

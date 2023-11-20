@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<entry name="ArtefactDensity0" value="None"/>
-	<entry name="ArtefactDensity1" value="Very Low"/>
-	<entry name="ArtefactDensity2" value="Low"/>
-	<entry name="ArtefactDensity3" value="Medium"/>
-	<entry name="ArtefactDensity4" value="High"/>
-	<entry name="ArtefactDensity5" value="Very High"/>
+    <entry name="ArtefactDensity0"
+           value="None"/>
+    <entry name="ArtefactDensity1"
+           value="Very Low"/>
+    <entry name="ArtefactDensity2"
+           value="Low"/>
+    <entry name="ArtefactDensity3"
+           value="Medium"/>
+    <entry name="ArtefactDensity4"
+           value="High"/>
+    <entry name="ArtefactDensity5"
+           value="Very High"/>
 </language>

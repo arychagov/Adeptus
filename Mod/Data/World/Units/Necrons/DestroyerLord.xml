@@ -248,9 +248,9 @@
         </bloodyCrusade>
         <destructionProtocols name="Necrons/DestructionProtocols"
                               levelUpPriority="0.1"
+                              passive="1"
                               rank="-1"
-                              rankMax="2"
-                              passive="1">
+                              rankMax="2">
             <beginTargets>
                 <selfTarget>
                     <areas>

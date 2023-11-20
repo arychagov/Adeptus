@@ -7,8 +7,8 @@
             <effects>
                 <armor addMax="2"
                        addMin="1"/>
-                <invulnerableDamageReduction minMin="0.05"
-                                             minMax="0.15"/>
+                <invulnerableDamageReduction minMax="0.15"
+                                             minMin="0.05"/>
             </effects>
         </modifier>
     </modifiers>

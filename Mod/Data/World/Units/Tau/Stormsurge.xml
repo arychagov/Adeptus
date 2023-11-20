@@ -147,7 +147,8 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="UnbreakableMonstrousCreature" duration="1"/>
+                                        <addTrait name="UnbreakableMonstrousCreature"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
