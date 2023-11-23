@@ -655,6 +655,10 @@
            value="Chapter tactic that increases the melee accuracy of Assault Space Marines, Terminators and heroes."/>
     <entry name="DevastatorDoctrineDescription"
            value="Chapter tactic that increases the accuracy of Devastator Space Marines, Scouts and Devastator Centurions."/>
+    <entry name="FullThrottleDescription"
+           value="Grants movement to adjacent allied tanks with movement remaining."/>
+    <entry name="GunnersKillOnSightDescription"
+           value="Increases the ranged attacks of adjacent allied tanks."/>
     <entry name="MisfortuneDescription"
            value="Increases the damage taken for the target non-hero enemy unit."/>
     <entry name="Luminagen"
