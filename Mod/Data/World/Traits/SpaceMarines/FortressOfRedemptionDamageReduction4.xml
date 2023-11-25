@@ -4,8 +4,8 @@
     <modifiers>
         <modifier>
             <effects>
-                <hitpointsMax add="4"/>
-                <invulnerableDamageReduction add="0.17"/>
+                <armor add="1"/>
+                <hitpointsMax mul="0.2"/>
             </effects>
         </modifier>
     </modifiers>

@@ -5,13 +5,12 @@
         <modifier>
             <conditions>
                 <unit>
-                    <allied/>
                     <noTrait name="SistersOfBattle/HolyFireEnemy"/>
                     <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                 </unit>
             </conditions>
             <effects>
-                <hitpoints add="6"/>
+                <hitpoints add="8"/>
             </effects>
         </modifier>
     </perTurnModifiers>

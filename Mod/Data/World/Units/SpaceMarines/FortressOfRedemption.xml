@@ -57,7 +57,7 @@
             <effects>
                 <armor base="10"/> <!-- %armor base armor=14/14/14 -->
                 <cargoSlots base="6"/> <!-- %cargoSlots base capacity=20 -->
-                <hitpointsMax base="32.0"/>
+                <hitpointsMax base="20.0"/>
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base armor=14/14/14 wounds=2 -->
                 <moraleMax base="0"/> <!-- %moraleMax base leadership=8 -->
                 <movementMax max="0"/>
@@ -65,13 +65,6 @@
                 <influenceCost base="40.0"/> <!-- %influenceCost base tier=6 factor=1 -->
                 <productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
                 <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
-            </effects>
-        </modifier>
-        <modifier requiredUpgrade="SpaceMarines/FortressOfRedemptionDamageReduction"
-                  visible="0">
-            <effects>
-                <armor add="1"/>
-                <hitpointsMax mul="0.2"/>
             </effects>
         </modifier>
     </modifiers>
@@ -169,5 +162,7 @@
                requiredUpgrade="SpaceMarines/CityTier3"/>
         <trait name="SpaceMarines/FortressOfRedemptionDamageReduction3"
                requiredUpgrade="SpaceMarines/CityTier4"/>
+        <trait name="SpaceMarines/FortressOfRedemptionDamageReduction4"
+               requiredUpgrade="SpaceMarines/FortressOfRedemptionDamageReduction"/>
     </traits>
 </unit>
