@@ -256,6 +256,85 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
+        <genericUnitAbility name="Necrons/InstallAssaultSystem"
+                            charges="1"
+                            icon="Actions/Necrons/InstallAssaultSystem"
+                            requiredActionPoints="1"
+                            requiredMovement="1"
+                            requiredUpgrade="Necrons/GhostProtocol">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <energyCost base="15"/>
+                        <influenceCost base="15"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <selfTarget>
+                    <conditions>
+                        <unit>
+                            <noTrait name="AssaultVehicle"/>
+                            <noTrait name="Necrons/UpgradedGaussFlayerArray"/>
+                            <notAttackedThisTurn/>
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AssaultVehicle"/>
+                                        <addTrait name="Exhausted"
+                                                  duration="1"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
+        <genericUnitAbility name="Necrons/UpgradeGaussFlayerArray"
+                            charges="1"
+                            icon="Actions/Necrons/UpgradeGaussFlayerArray"
+                            requiredActionPoints="1"
+                            requiredMovement="1"
+                            requiredUpgrade="Necrons/GhostProtocol">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <energyCost base="15"/>
+                        <influenceCost base="15"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <selfTarget>
+                    <conditions>
+                        <unit>
+                            <cargoSlotsTaken equal="0"/>
+                            <noTrait name="AssaultVehicle"/>
+                            <noTrait name="Necrons/UpgradedGaussFlayerArray"/>
+                            <notAttackedThisTurn/>
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="Necrons/UpgradedGaussFlayerArray"/>
+                                        <addTrait name="Exhausted"
+                                                  duration="1"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
     </actions>
     <traits>
         <trait name="Necrons/LivingMetal"/>

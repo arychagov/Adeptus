@@ -177,6 +177,82 @@
                 </modifier>
             </modifiers>
         </orbitalDeployment>
+        <genericUnitAbility name="SpaceMarines/AdditionalHeavyBolters"
+                            charges="1"
+                            icon="Actions/TwoAdditionalHeavyBolters"
+                            requiredActionPoints="1"
+                            requiredMovement="1"
+                            requiredUpgrade="SpaceMarines/PredatorLascannon">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="30"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <selfTarget>
+                    <conditions>
+                        <unit>
+                            <noTrait name="SpaceMarines/AdditionalHeavyBolters"/>
+                            <noTrait name="SpaceMarines/UpgradedLascannon"/>
+                            <notAttackedThisTurn/>
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="SpaceMarines/AdditionalHeavyBolters"/>
+                                        <addTrait name="Exhausted"
+                                                  duration="1"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
+        <genericUnitAbility name="SpaceMarines/UpgradedLascannon"
+                            charges="1"
+                            icon="Actions/UpgradedLascannon"
+                            requiredActionPoints="1"
+                            requiredMovement="1"
+                            requiredUpgrade="SpaceMarines/PredatorLascannon">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="30"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <selfTarget>
+                    <conditions>
+                        <unit>
+                            <noTrait name="SpaceMarines/AdditionalHeavyBolters"/>
+                            <noTrait name="SpaceMarines/UpgradedLascannon"/>
+                            <notAttackedThisTurn/>
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="SpaceMarines/UpgradedLascannon"/>
+                                        <addTrait name="Exhausted"
+                                                  duration="1"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
     </actions>
     <traits>
         <trait name="AndTheyShallKnowNoFear"/>

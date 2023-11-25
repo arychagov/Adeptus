@@ -209,6 +209,43 @@
                         endFire="1.0"/>
             </model>
         </useWeapon>
+        <genericUnitAbility name="SpaceMarines/AdditionalMultiMelta"
+                            charges="1"
+                            icon="Actions/AdditionalMultiMelta"
+                            requiredActionPoints="1"
+                            requiredMovement="1"
+                            requiredUpgrade="SpaceMarines/LandSpeederMultiMelta">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="20"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <selfTarget>
+                    <conditions>
+                        <unit>
+                            <noTrait name="SpaceMarines/AdditionalMultiMelta"/>
+                            <notAttackedThisTurn/>
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="SpaceMarines/AdditionalMultiMelta"/>
+                                        <addTrait name="Exhausted"
+                                                  duration="1"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
     </actions>
     <traits>
         <trait name="AndTheyShallKnowNoFear"/>

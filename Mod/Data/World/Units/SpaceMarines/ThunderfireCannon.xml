@@ -168,6 +168,47 @@
                 </modifier>
             </modifiers>
         </orbitalDeployment>
+        <genericUnitAbility name="SpaceMarines/SiegeManeuversThunderfireCannon"
+                            charges="1"
+                            icon="Upgrades/SpaceMarines/SiegeManeuvers"
+                            requiredActionPoints="1"
+                            requiredMovement="1"
+                            requiredUpgrade="SpaceMarines/SiegeManeuvers">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="0"/>
+                        <requisitionsCost base="10"/>
+                        <energyCost base="10"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <selfTarget>
+                    <conditions>
+                        <unit>
+                            <noTrait name="SpaceMarines/SiegeManeuversThunderfireCannon"/>
+                            <notAttackedThisTurn/>
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="Relentless"/>
+                                        <addTrait name="SpaceMarines/SiegeManeuversThunderfireCannon"/>
+                                        <addTrait name="Exhausted"
+                                                  duration="1"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
+
     </actions>
     <traits>
         <trait name="AndTheyShallKnowNoFear"/>
