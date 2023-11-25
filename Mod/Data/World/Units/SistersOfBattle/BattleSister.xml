@@ -54,10 +54,10 @@
                 <!-- <meleeInitiative base="3"/> -->
                 <moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
                 <movementMax base="3"/>
-                <productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
+                <productionCost base="30.0"/> <!-- %productionCost base tier=6 factor=1 -->
                 <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
-                <requisitionsUpkeep base="2.0"/> <!-- %requisitionsUpkeep base tier=6 factor=1 -->
-                <requisitionsCost base="40.0"/> <!-- %requisitionsCost base tier=6 factor=1 -->
+                <requisitionsUpkeep base="1.5"/> <!-- %requisitionsUpkeep base tier=6 factor=1 -->
+                <requisitionsCost base="30.0"/> <!-- %requisitionsCost base tier=6 factor=1 -->
             </effects>
         </modifier>
     </modifiers>
