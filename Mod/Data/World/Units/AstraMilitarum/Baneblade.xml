@@ -234,7 +234,5 @@
         <trait name="SuperHeavy"/>
         <trait name="Tank"/>
         <trait name="Vehicle"/>
-        <trait name="AstraMilitarum/MassProduction"
-               requiredUpgrade="AstraMilitarum/MassProduction"/>
     </traits>
 </unit>
