@@ -423,6 +423,8 @@
            value="Creates temporary feature on the target tile that applies damage over time debuff to the enemy and ends the movement."/>
     <entry name="SistersOfBattle/SacredGroundSecondFlavor"
            value="Reclaim the Emperor’s dominion and consecrate it once more."/>
+    <entry name="SistersOfBattle/SacralVigorDescription"
+           value="Sacred Rite that restores the hitpoints of non-hero units with Shield of Faith."/>
     <entry name="SistersOfBattle/Sacrifice"
            value="Sacrifice"/>
     <entry name="SistersOfBattle/SacrificeDescription"

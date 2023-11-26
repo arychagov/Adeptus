@@ -839,6 +839,7 @@
                             <trait name="SistersOfBattle/AngelicVisage"/>
                         </unit>
                         <unit>
+                            <noTrait name="Hero"/>
                             <noTrait name="SistersOfBattle/HolyFireEnemy"/>
                             <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                         </unit>
