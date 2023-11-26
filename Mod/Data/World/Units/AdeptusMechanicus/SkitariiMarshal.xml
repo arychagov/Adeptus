@@ -18,12 +18,6 @@
                                   muzzleBone="GunMuzzle"/>
             </model>
         </weapon>
-        <weapon name="ControlStave">
-            <model>
-                <powerWeapon effectBone="SceptreTop"
-                             fireInterval="10.0"/>
-            </model>
-        </weapon>
     </weapons>
     <modifiers>
         <modifier visible="0">
@@ -31,7 +25,7 @@
                 <armor base="6"/> <!-- %armor base armor=4+ -->
                 <foodCost base="20.0"/> <!-- %foodCost base tier=6 factor=0.5 -->
                 <foodUpkeep base="2.0"/> <!-- %foodUpkeep base tier=6 factor=1 -->
-                <hitpointsMax base="6.0"/>
+                <hitpointsMax base="9.0"/>
                 <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
                 <influenceUpkeep base="4.0"/> <!-- %influenceUpkeep base tier=6 factor=2 -->
                 <influenceCost base="80.0"/> <!-- %influenceCost base tier=6 factor=2 -->

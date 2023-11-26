@@ -13,14 +13,14 @@
     <modifiers>
         <modifier>
             <effects>
-                <attacks add="1"/>
-                <rangedArmorPenetration add="0"/> <!-- %rangedArmorPenetration add armorPiercing=- -->
-                <rangedDamage add="1"/> <!-- %rangedDamage add strength=3 -->
+                <attacks add="2"/>
+                <rangedArmorPenetration add="4"/> <!-- %rangedArmorPenetration add armorPiercing=- -->
+                <rangedDamage add="3"/> <!-- %rangedDamage add strength=3 -->
                 <strengthDamage base="0"/>
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="1"/>
+    <target rangeMax="2"/>
     <traits>
         <trait name="AdeptusMechanicus/RadPoisoning"/>
         <trait name="Assault"/>
