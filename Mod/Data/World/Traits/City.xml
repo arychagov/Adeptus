@@ -8,8 +8,12 @@
                 </unit>
             </conditions>
             <effects>
-                <cityDamageReduction add="0.33"/>
                 <healingRate mul="1.5"/>
+            </effects>
+        </modifier>
+        <modifier>
+            <effects>
+                <cityDamageReduction add="0.33"/>
             </effects>
         </modifier>
         <modifier>
