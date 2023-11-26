@@ -301,6 +301,10 @@
                                             <noTrait name="Fortification"/>
                                             <noTrait name="Vehicle"/>
                                         </unit>
+                                        <unit match="Any">
+                                            <noTrait name="Tau/Battlesuit"/>
+                                            <type name="Tau/CrisisBattlesuit"/>
+                                        </unit>
                                     </conditions>
                                     <effects>
                                         <addTrait name="Tau/SenseOfStone"
@@ -370,6 +374,10 @@
                                             <noTrait name="Vehicle"/>
                                             <noTrait name="SistersOfBattle/HolyFireEnemy"/>
                                             <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
+                                        </unit>
+                                        <unit match="Any">
+                                            <noTrait name="Tau/Battlesuit"/>
+                                            <type name="Tau/CrisisBattlesuit"/>
                                         </unit>
                                         <unit match="Any">
                                             <noTrait name="Hero"/>
