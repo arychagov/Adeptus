@@ -4,7 +4,6 @@
         <modifier>
             <effects>
                 <accuracy add="1"/>
-                <opponentRangedAccuracy mul="-0.17"/>
             </effects>
         </modifier>
     </modifiers>
