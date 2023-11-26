@@ -20,6 +20,21 @@
         <modifier>
             <conditions>
                 <player>
+                    <faction name="AdeptusMechanicus"/>
+                </player>
+                <unit>
+                    <allied/>
+                    <noTrait name="City"/>
+                </unit>
+            </conditions>
+            <effects>
+                <cityDamageReduction add="0.08"/>
+                <rangedDamageReduction add="0.08"/>
+            </effects>
+        </modifier>
+        <modifier>
+            <conditions>
+                <player>
                     <noFaction name="Neutral"/>
                 </player>
                 <unit>
