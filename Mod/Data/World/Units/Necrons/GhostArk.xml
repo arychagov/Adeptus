@@ -337,7 +337,7 @@
         </genericUnitAbility>
     </actions>
     <traits>
-        <trait name="Necrons/LivingMetal"/>
+        <trait name="Necrons/LivingMetalGhostArk"/>
         <trait name="OpenTopped"/>
         <trait name="Skimmer"/>
         <trait name="Transport"/>

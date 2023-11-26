@@ -227,7 +227,7 @@
                requiredUpgrade="Necrons/AttackCityBonus"/>
         <trait name="ExtraInfantryArmour"
                requiredUpgrade="Necrons/ExtraInfantryArmour"/>
-        <trait name="Necrons/ReanimationProtocolsFlayedOne"/>
+        <trait name="Necrons/ReanimationProtocols"/>
         <trait name="Infiltrate"/>
         <trait name="HitAndRun"
                requiredUpgrade="Necrons/StormOfFlensingBlades"/>
