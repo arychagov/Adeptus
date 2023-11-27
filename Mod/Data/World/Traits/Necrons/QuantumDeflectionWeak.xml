@@ -15,7 +15,7 @@
                 </unit>
             </conditions>
             <effects>
-                <invulnerableDamageReduction min="0.17"/>
+                <cityDamageReduction min="0.17"/>
             </effects>
         </modifier>
     </modifiers>
