@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade icon="Traits/SistersOfBattle/SimulacrumImperialis"
-         position="3">
+         position="1">
     <strategyModifiers>
         <modifier>
             <effects>

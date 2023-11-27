@@ -499,7 +499,7 @@
     <entry name="Necrons/DestructionProtocolsDebuff"
            value="<string name='Actions/Necrons/DestructionProtocols'/>"/>
     <entry name="Necrons/DestructionProtocolsDebuffDescription"
-           value="Increases the damage taken."/>
+           value="Decreases the armour."/>
 
     <entry name="Necrons/EndlessLegions"
            value="Endless Legions"/>
@@ -967,6 +967,10 @@
            value="Upgraded Lascannon"/>
     <entry name="SpaceMarines/UpgradedLascannonDescription"
            value="Improves lascannon damage, armour penetration and accuracy."/>
+    <entry name="SpaceMarines/ImprovedClearance"
+           value="Improved Clearance"/>
+    <entry name="SpaceMarines/ImprovedClearanceDescription"
+           value="Ignores the penalties of rivers and forests."/>
     <entry name="SpaceMarines/LitanyOfZeal"
            value="Litany Of Zeal"/>
     <entry name="SpaceMarines/LitanyOfZealDescription"

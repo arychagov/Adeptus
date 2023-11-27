@@ -29,6 +29,7 @@
                     <noTrait name="Skimmer"/>
                     <noTrait name="Tyranids/BoundingLeap"/>
                     <noTrait name="ChaosSpaceMarines/IconOfExcess"/>
+                    <noTrait name="SpaceMarines/ImprovedClearance"/>
                 </unit>
             </conditions>
             <effects>

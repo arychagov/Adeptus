@@ -204,6 +204,7 @@
                             <trait name="Hero"/>
                             <type name="SpaceMarines/DevastatorSpaceMarine"/>
                             <type name="SpaceMarines/Terminator"/>
+                            <type name="SpaceMarines/AssaultSpaceMarine"/>
                         </unit>
                     </conditions>
                     <areas>

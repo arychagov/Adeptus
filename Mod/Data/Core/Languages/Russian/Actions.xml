@@ -489,7 +489,7 @@
     <entry name="SpaceMarines/EvenInDeathIStillServe"
            value="Even In Death I Still Serve"/>
     <entry name="SpaceMarines/EvenInDeathIStillServeDescription"
-           value="Encases target allied Devastator Space Marine, Terminator or a hero in the sarcophagus of Dreadnought."/>
+           value="Encases target allied Assault Space Marine, Devastator Space Marine, Terminator or a hero in the sarcophagus of Dreadnought."/>
     <entry name="SpaceMarines/EvenInDeathIStillServeFlavor"
            value="A mortally wounded Space Marine may be interred in the sarcophagus of a Dreadnought, allowing him to bring death to his foes in a new form."/>
     <entry name="SpaceMarines/UpgradedLascannon"

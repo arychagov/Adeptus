@@ -403,6 +403,10 @@
            value="Grants Scouts abilities to scout, to temporary increase the ranged damage reduction while in an imperial ruin or a forest, and to clear tiles."/>
     <entry name="SpaceMarines/InfiltrateFlavor"
            value="The weave of this camo cloak emulates the movements of the elements. As a gust of wind passes, as rainfalls across the battlefield, as the haze of heat shimmers the air, the bearers form flickers in and out of perception. If the bearer remains stationary, they are clouded entirely, a ghost lost to the wilds."/>
+    <entry name="SpaceMarines/ImprovedClearance"
+           value="Improved Clearance"/>
+    <entry name="SpaceMarines/ImprovedClearanceDescription"
+           value="Grants Razorbacks ability to ignore the penalties of rivers and forests."/>
     <entry name="SpaceMarines/CityTier2Description"
            value="Increases the tile acquisition radius, and the damage reduction and the hitpoints of Fortresses of Redemption."/>
     <entry name="SpaceMarines/CityTier3Description"

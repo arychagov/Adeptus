@@ -63,7 +63,7 @@
                 <strengthDamage base="1.5"/> <!-- %strengthDamage base strength=4 -->
                 <!-- <meleeInitiative base="4"/> -->
                 <moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
-                <movementMax base="3"/>
+                <movementMax base="4"/>
                 <productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
                 <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
                 <foodUpkeep base="2.0"/> <!-- %foodUpkeep base tier=6 factor=1 -->

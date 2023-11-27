@@ -499,7 +499,7 @@
     <entry name="Necrons/DestructionProtocolsDebuff"
            value="<string name='Actions/Necrons/DestructionProtocols'/>"/>
     <entry name="Necrons/DestructionProtocolsDebuffDescription"
-           value="Increases the damage taken."/>
+           value="Decreases the armour."/>
 
     <entry name="Necrons/EndlessLegions"
            value="Endless Legions"/>
