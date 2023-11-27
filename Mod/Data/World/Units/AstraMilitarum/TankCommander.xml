@@ -345,5 +345,6 @@
                requiredUpgrade="AstraMilitarum/RelicPlating"/>
         <trait name="Tank"/>
         <trait name="Vehicle"/>
+        <trait name="HealableHero"/>
     </traits>
 </unit>
