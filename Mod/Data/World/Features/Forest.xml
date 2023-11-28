@@ -71,7 +71,7 @@
                     <noTrait name="DozerBlade"/>
                     <noTrait name="SiegeShield"/>
                     <noTrait name="ChaosSpaceMarines/IconOfExcess"/>
-                    <noTrait name="SpaceMarines/ImprovedClearance"/>
+                    <noTrait name="ImprovedClearance"/>
                 </unit>
             </conditions>
             <effects>

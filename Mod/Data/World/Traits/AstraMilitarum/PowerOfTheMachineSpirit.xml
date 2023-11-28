@@ -18,4 +18,20 @@
             </effects>
         </modifier>
     </modifiers>
+    <perTurnModifiers endure="0">
+        <modifier requiredUpgrade="AstraMilitarum/ShowThemSteel">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <faction name="AstraMilitarum"/>
+                    <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                    <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
+                    <trait name="Vehicle"/>
+                </unit>
+            </conditions>
+            <effects>
+                <hitpoints add="1"/>
+            </effects>
+        </modifier>
+    </perTurnModifiers>
 </trait>

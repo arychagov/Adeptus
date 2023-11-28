@@ -147,7 +147,7 @@
     <entry name="AstraMilitarum/PowerOfTheMachineSpirit"
            value="<string name='Actions/PowerOfTheMachineSpirit'/>"/>
     <entry name="AstraMilitarum/PowerOfTheMachineSpiritDescription"
-           value="<string name='Actions/PowerOfTheMachineSpiritDescription'/>"/>
+           value="<string name='Actions/PowerOfTheMachineSpiritDescription'/>. Increases the health regeneration with <string name='Upgrades/AstraMilitarum/ShowThemSteel'/> upgrade."/>
     <entry name="AstraMilitarum/PowerOfTheMachineSpiritFlavor"
            value="<string name='Actions/PowerOfTheMachineSpiritFlavor'/>"/>
     <entry name="AstraMilitarum/Prosperity"
@@ -178,6 +178,12 @@
            value="Shock Troops"/>
     <entry name="AstraMilitarum/ShockTroopsDescription"
            value="Increases the attacks while near allied Tempestus Scions, heroes, Imperial Bastions or cities."/>
+    <entry name="AstraMilitarum/ShowThemSteel"
+           value="Show Them Steel!"/>
+    <entry name="AstraMilitarum/ShowThemSteelDescription"
+           value="Increases the healing rate."/>
+    <entry name="AstraMilitarum/ShowThemSteelFlavor"
+           value="With the officer’s clarion call ringing in their ears, soldiers lose all sense of doubt, faith shielding their souls from malevolence."/>
     <entry name="AstraMilitarum/SuperchargedLas"
            value="Supercharged Las"/>
     <entry name="AstraMilitarum/SuperchargedLasDescription"
@@ -967,9 +973,9 @@
            value="Upgraded Lascannon"/>
     <entry name="SpaceMarines/UpgradedLascannonDescription"
            value="Improves lascannon damage, armour penetration and accuracy."/>
-    <entry name="SpaceMarines/ImprovedClearance"
+    <entry name="ImprovedClearance"
            value="Improved Clearance"/>
-    <entry name="SpaceMarines/ImprovedClearanceDescription"
+    <entry name="ImprovedClearanceDescription"
            value="Ignores the penalties of rivers and forests."/>
     <entry name="SpaceMarines/LitanyOfZeal"
            value="Litany Of Zeal"/>

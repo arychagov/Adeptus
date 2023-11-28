@@ -79,6 +79,10 @@
            value="Grants Guardsmen and Tempestus Scions ability to treat shooting with rapid fire weapons as if in half range."/>
     <entry name="AstraMilitarum/ImperiumOfManFlavor"
            value="<string name='Traits/AstraMilitarum/ImperiumOfManFlavor'/>"/>
+    <entry name="AstraMilitarum/ImprovedClearance"
+           value="Improved Clearance"/>
+    <entry name="AstraMilitarum/ImprovedClearanceDescription"
+           value="Grants Chimeras ability to ignore the penalties of rivers and forests."/>
     <entry name="AstraMilitarum/LasgunArray"
            value="Lasgun Array"/>
     <entry name="AstraMilitarum/LasgunArrayDescription"
@@ -99,6 +103,12 @@
            value="Shock Troops"/>
     <entry name="AstraMilitarum/ShockTroopsDescription"
            value="Increases the attacks of Guardsmen in presence of Tempestus Scions, heroes, Imperial Bastions or cities. Grants Tempestus Scions ability to fire anti-tank weapon."/>
+    <entry name="AstraMilitarum/ShowThemSteel"
+           value="Show Them Steel!"/>
+    <entry name="AstraMilitarum/ShowThemSteelDescription"
+           value="Increases vehicles healing rate, increases the healing effect of Techpriest Enginseers's Blessing of the Omnissiah. Adds passive health regeneration bonus for vehicles near Techpriest Engineseers."/>
+    <entry name="AstraMilitarum/ShowThemSteelFlavor"
+           value="With the officer’s clarion call ringing in their ears, soldiers lose all sense of doubt, faith shielding their souls from malevolence."/>
     <entry name="AstraMilitarum/SmokeLauncher"
            value="Smoke Launcher / Dozer Blade"/>
     <entry name="AstraMilitarum/SmokeLauncherDescription"

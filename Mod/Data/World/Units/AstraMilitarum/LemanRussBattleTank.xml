@@ -200,5 +200,7 @@
                requiredUpgrade="AstraMilitarum/RelicPlating"/>
         <trait name="Tank"/>
         <trait name="Vehicle"/>
+        <trait name="AstraMilitarum/ShowThemSteel"
+               requiredUpgrade="AstraMilitarum/ShowThemSteel"/>
     </traits>
 </unit>

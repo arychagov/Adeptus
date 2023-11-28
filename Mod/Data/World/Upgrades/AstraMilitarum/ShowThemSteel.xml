@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="1">
+<upgrade position="4">
     <requiredUpgrades>
         <upgrade name="SpaceMarines/Vehicles"/>
     </requiredUpgrades>

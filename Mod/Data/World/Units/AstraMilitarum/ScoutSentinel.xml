@@ -205,5 +205,7 @@
                requiredUpgrade="AstraMilitarum/TrainedSentinelPilots"/>
         <trait name="Vehicle"/>
         <trait name="Walker"/>
+        <trait name="AstraMilitarum/ShowThemSteel"
+               requiredUpgrade="AstraMilitarum/ShowThemSteel"/>
     </traits>
 </unit>

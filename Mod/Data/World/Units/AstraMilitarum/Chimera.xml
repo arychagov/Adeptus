@@ -134,5 +134,9 @@
         <trait name="Tank"/>
         <trait name="Transport"/>
         <trait name="Vehicle"/>
+        <trait name="ImprovedClearance"
+               requiredUpgrade="SpaceMarines/ImprovedClearance"/>
+        <trait name="AstraMilitarum/ShowThemSteel"
+               requiredUpgrade="AstraMilitarum/ShowThemSteel"/>
     </traits>
 </unit>

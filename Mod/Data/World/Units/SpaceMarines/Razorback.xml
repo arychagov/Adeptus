@@ -222,7 +222,7 @@
         <trait name="Vehicle"/>
         <trait name="SpaceMarines/SiegeMasters"/>
         <trait name="SpaceMarines/MachineEmpathy"/>
-        <trait name="SpaceMarines/ImprovedClearance"
+        <trait name="ImprovedClearance"
                requiredUpgrade="SpaceMarines/ImprovedClearance"/>
     </traits>
 </unit>

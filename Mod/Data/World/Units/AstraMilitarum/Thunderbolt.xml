@@ -167,5 +167,7 @@
                requiredUpgrade="AstraMilitarum/ExtraVehicleArmour"/>
         <trait name="Flyer"/>
         <trait name="Vehicle"/>
+        <trait name="AstraMilitarum/ShowThemSteel"
+               requiredUpgrade="AstraMilitarum/ShowThemSteel"/>
     </traits>
 </unit>

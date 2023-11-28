@@ -216,5 +216,7 @@
         <!-- <trait name="Hover"/> -->
         <trait name="Transport"/>
         <trait name="Vehicle"/>
+        <trait name="AstraMilitarum/ShowThemSteel"
+               requiredUpgrade="AstraMilitarum/ShowThemSteel"/>
     </traits>
 </unit>
