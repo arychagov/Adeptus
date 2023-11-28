@@ -143,30 +143,6 @@
                 </modifier>
             </modifiers>
         </clearTileUnitAbility>
-        <genericUnitAbility name="SpaceMarines/Infiltrate"
-                            consumedActionPoints="0"
-                            consumedMovement="0"
-                            cooldown="5"
-                            icon="Traits/SpaceMarines/Infiltrate"
-                            requiredActionPoints="0"
-                            requiredUpgrade="SpaceMarines/Infiltrate">
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="SpaceMarines/Infiltrate"
-                                                  duration="1"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-        </genericUnitAbility>
         <orbitalDeployment requiredUpgrade="SpaceMarines/OrbitalDeployment">
             <model>
                 <action sound="Actions/DropPod"/>
@@ -195,5 +171,7 @@
         <trait name="SpaceMarines/TheFleshIsWeak"/>
         <trait name="SpaceMarines/Omniscope"
                requiredUpgrade="SpaceMarines/Omniscope"/>
+        <trait name="SpaceMarines/Infiltrate"
+               requiredUpgrade="SpaceMarines/Infiltrate"/>
     </traits>
 </unit>
