@@ -2,6 +2,7 @@
 <upgrade icon="Weapons/HeavyBolter"
          position="8">
     <requiredUpgrades>
+        <upgrade name="AstraMilitarum/Aircraft"/>
         <upgrade name="AstraMilitarum/RogalDornBattleTank"/>
         <upgrade name="AstraMilitarum/LemanRussBattleTank"/>
     </requiredUpgrades>

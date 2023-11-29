@@ -13,5 +13,16 @@
                 <rangedAttacks mul="1"/>
             </effects>
         </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <trait name="Rapid"/>
+                </unit>
+                <encounterRange greater="1"/>
+            </conditions>
+            <effects>
+                <rangedAttacks mul="1"/>
+            </effects>
+        </modifier>
     </modifiers>
 </trait>

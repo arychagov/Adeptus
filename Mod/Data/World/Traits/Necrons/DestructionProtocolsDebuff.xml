@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait alwaysVisible="1"
        category="Debuff"
-       icon="Actions/Necrons/DestructionProtocols"
-       rankMax="2">
+       icon="Actions/Necrons/DestructionProtocols">
     <modifiers>
         <modifier>
             <effects>
-                <armor addMax="-1.5"
-                       addMin="-0.5"/>
+                <armor add="-1"/>
             </effects>
         </modifier>
     </modifiers>

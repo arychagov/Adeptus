@@ -107,9 +107,9 @@
            value="Senior Officer"/>
     <entry name="AstraMilitarum/SeniorOfficerScoutSentinelDescription"
            value="Increases the accuracy of Basilisk and Hydras against adjacent enemy units."/>
-    <entry name="AstraMilitarum/SeniorOfficerBulgryn"
+    <entry name="AstraMilitarum/SeniorOfficerBullgryn"
            value="Senior Officer"/>
-    <entry name="AstraMilitarum/SeniorOfficerBulgrynDescription"
+    <entry name="AstraMilitarum/SeniorOfficerBullgrynDescription"
            value="Increases the accuracy of Basilisk and Hydras against adjacent enemy units."/>
     <entry name="AstraMilitarum/SeniorOfficerValkyrie"
            value="Senior Officer"/>
@@ -132,7 +132,7 @@
     <entry name="AstraMilitarum/WallOfMuscle"
            value="<string name='Traits/AstraMilitarum/WallOfMuscle'/>"/>
     <entry name="AstraMilitarum/WallOfMuscleDescription"
-           value="Reduces melee attacks of adjacent enemy units."/>
+           value="Reduces the ranged attacks of adjacent enemy units."/>
     <entry name="AstraMilitarum/WallOfMuscleFlavor"
            value="<string name='Traits/AstraMilitarum/WallOfMuscleFlavor'/>"/>
 
@@ -578,7 +578,7 @@
     <entry name="Tau/BondingKnifeRitualDescription"
            value="Restores the morale or temporary disables degradation effect for monstrous creatures."/>
     <entry name="Tau/CalmOfTidesDescription"
-           value="Restores the hitpoints and the morale of the Ethereal and adjacent allied T'au infantry and monstrous creatures."/>
+           value="Restores the hitpoints and the morale of the Ethereal and adjacent allied T'au infantry."/>
     <entry name="Tau/CommanderJumpPack"
            value="<string name='Actions/JumpPack'/>"/>
     <entry name="Tau/CommanderJumpPackDescription"
@@ -624,7 +624,7 @@
     <entry name="Tau/RinyonDescription"
            value="Metastrategy that increases the accuracy of allied T'au battlesuit units in the area against enemy units adjacent to other allied units. Shares cooldown with other metastrategies."/>
     <entry name="Tau/SenseOfStoneDescription"
-           value="Increases the damage reduction of the Ethereal and adjacent allied T'au infantry and monstrous creatures."/>
+           value="Increases the damage reduction of the Ethereal and adjacent allied T'au infantry."/>
     <entry name="Tau/StormOfFireDescription"
            value="Increases the invulnerable damage reduction of the Ethereal."/>
     <entry name="Tau/StrikeAndFade"
