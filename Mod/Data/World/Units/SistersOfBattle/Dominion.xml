@@ -16,7 +16,7 @@
            rowSize="3"
            size="3"/>
     <weapons>
-        <weapon name="Flamer">
+        <weapon name="DominionsFlamer">
             <model>
                 <projectileWeapon effectScale="0.75"
                                   fireInterval="10"

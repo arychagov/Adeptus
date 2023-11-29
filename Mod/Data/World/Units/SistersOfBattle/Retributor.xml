@@ -16,7 +16,7 @@
            rowSize="3"
            size="3"/>
     <weapons>
-        <weapon name="MultiMelta">
+        <weapon name="RetributorsMultiMelta">
             <model>
                 <beamWeapon muzzleBone="Muzzle"
                             muzzleCount="2"/>
@@ -136,6 +136,8 @@
         </genericUnitAbility>
         <genericUnitAbility name="SistersOfBattle/CatechismOfWrathfulDefiance"
                             consumedActionPoints="0"
+                            requiredActionPoints="0"
+                            consumedMovement="0"
                             cooldown="5"
                             icon="Actions/ChaosSpaceMarines/ShatterDefences">
             <model>

@@ -86,4 +86,12 @@
            value="Twin-Linked Smart Missile System"/>
     <entry name="TwinLinkedSmartMissileSystemBroadsideFlavor"
            value="A smart missile system fires self-guiding missiles with drone intelligence, which can find targets even hiding behind terrain."/>
+    <entry name="DominionsFlamer"
+           value="Dominion's Flamer"/>
+    <entry name="DominionsFlamerFlavor"
+           value="<string name='Weapons/FlamerFlavor'/>"/>
+    <entry name="RetributorsMultiMelta"
+           value="Retributor's Multi-Melta"/>
+    <entry name="RetributorsMultiMeltaFlavor"
+           value="<string name='Weapons/MultiMeltaFlavor'/>"/>
 </language>
