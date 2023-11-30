@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement13"
+      icon="Buildings/Drukhari/Headquarters">
+    <model>
+        <structureUnit explosionsBone="Portal"
+                       heatImpactSound="Impacts/HeatConcrete"
+                       heatImpactSoundCount="4"
+                       idleAnimationCount="0"
+                       kineticImpactSound="Impacts/KineticConcrete"
+                       kineticImpactSoundCount="5"
+                       material="Buildings/Drukhari/Buildings"
+                       mesh="Units/Eldar/Headquarters"
+                       scale="1.2 1.2 1.2">
+            <effects>
+                <effect blueprint="Effects/WebwayGate"
+                        bone="Portal"
+                        position="0.000000 0.000000 53.300999"
+                        rotation="0 0 1 -55"/>
+            </effects>
+        </structureUnit>
+    </model>
+    <weapons>
+        <weapon name="DisintegratorCannon"
+                count="3">
+            <model>
+                <projectileWeapon bone="Bone"
+                                  fireInterval="0.05"
+                                  material="Buildings/Eldar/Buildings"
+                                  mesh="Weapons/Eldar/HeadquartersWeapons"
+                                  muzzleBone="HeavyMuzzle"
+                                  projectilesEmitterBlueprint="Effects/DisintegratorCannonProjectilesEmitter"/>
+            </model>
+        </weapon>
+    </weapons>
+    <modifiers>
+        <modifier visible="0">
+            <effects>
+                <armor base="6"/> <!-- %armor base armor=10/10/10 -->
+                <cargoSlots base="6"/> <!-- %cargoSlots base capacity=20 -->
+                <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+                <movementMax max="0"/>
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+            </effects>
+        </modifier>
+    </modifiers>
+    <strategyModifiers></strategyModifiers>
+    <actions>
+        <attack>
+            <model>
+                <action beginFire="0.5"
+                        endFire="1.5"/>
+            </model>
+        </attack>
+        <die>
+            <model>
+                <action sound="Units/Eldar/WebwayGateDie"
+                        soundCount="1"/>
+            </model>
+        </die>
+        <setRallyPoint/>
+    </actions>
+    <traits>
+        <trait name="Fortification"/>
+        <trait name="Headquarters"/>
+        <trait name="Transport"/>
+        <trait name="Drukhari/PowerFromPain"/>
+        <trait name="Drukhari/SoulHunger"/>
+    </traits>
+</unit>

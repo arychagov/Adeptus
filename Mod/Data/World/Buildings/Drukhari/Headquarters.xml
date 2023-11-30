@@ -23,8 +23,8 @@
         </modifier>
     </modifiers>
     <actions>
-        <produceUnit unit="Drukhari/Archon"
-                     requiredUpgrade="Drukhari/Archon"/>
+        <produceUnit requiredUpgrade="Drukhari/Archon"
+                     unit="Drukhari/Archon"/>
         <produceUnit requiredUpgrade="Drukhari/Succubus"
                      unit="Drukhari/Succubus"/>
         <produceUnit requiredUpgrade="Drukhari/Haemonculus"
