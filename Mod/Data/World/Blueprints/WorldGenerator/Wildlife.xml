@@ -36,8 +36,5 @@
         <pack>
             <unit type="Neutral/Umbra"/>
         </pack>
-        <pack>
-            <unit type="Neutral/Enslaver"/>
-        </pack>
     </packs>
 </wildlife>

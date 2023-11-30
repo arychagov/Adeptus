@@ -44,6 +44,13 @@
         <forestDensity modifier="0.3"/>
         <forestDensity modifier="0.4"/>
     </forestDensities>
+    <growths>
+        <growth modifier="0.5"/>
+        <growth modifier="0.75"/>
+        <growth modifier="1.0"/>
+        <growth modifier="1.5"/>
+        <growth modifier="2.0"/>
+    </growths>
     <holySiteDensities>
         <holySiteDensity modifier="0.05"/>
         <holySiteDensity modifier="0.075"/>
@@ -72,6 +79,19 @@
         <landMass modifier="0.80"/>
         <landMass modifier="0.95"/>
     </landMasses>
+    <maximumTechnologyTierOptions>
+        <maximumTechnologyTier modifier="0"/>
+        <maximumTechnologyTier modifier="1"/>
+        <maximumTechnologyTier modifier="2"/>
+        <maximumTechnologyTier modifier="3"/>
+        <maximumTechnologyTier modifier="4"/>
+        <maximumTechnologyTier modifier="5"/>
+        <maximumTechnologyTier modifier="6"/>
+        <maximumTechnologyTier modifier="7"/>
+        <maximumTechnologyTier modifier="8"/>
+        <maximumTechnologyTier modifier="9"/>
+        <maximumTechnologyTier modifier="10"/>
+    </maximumTechnologyTierOptions>
     <necronTombDensities>
         <necronTombDensity modifier="0.01"/>
         <necronTombDensity modifier="0.015"/>
@@ -107,6 +127,16 @@
         <regionSize modifier="12"/>
         <regionSize modifier="16"/>
     </regionSizes>
+    <requiredTechnologiesPerTierOptions>
+        <requiredTechnologiesPerTier modifier="0"/>
+        <requiredTechnologiesPerTier modifier="1"/>
+        <requiredTechnologiesPerTier modifier="2"/>
+        <requiredTechnologiesPerTier modifier="3"/>
+        <requiredTechnologiesPerTier modifier="4"/>
+        <requiredTechnologiesPerTier modifier="5"/>
+        <requiredTechnologiesPerTier modifier="6"/>
+        <requiredTechnologiesPerTier modifier="7"/>
+    </requiredTechnologiesPerTierOptions>
     <researchCosts>
         <researchCosts modifier="0.5"/>
         <researchCosts modifier="0.75"/>
@@ -114,6 +144,19 @@
         <researchCosts modifier="1.5"/>
         <researchCosts modifier="2.0"/>
     </researchCosts>
+    <researchedTechnologyTierOptions>
+        <researchedTechnologyTier modifier="0"/>
+        <researchedTechnologyTier modifier="1"/>
+        <researchedTechnologyTier modifier="2"/>
+        <researchedTechnologyTier modifier="3"/>
+        <researchedTechnologyTier modifier="4"/>
+        <researchedTechnologyTier modifier="5"/>
+        <researchedTechnologyTier modifier="6"/>
+        <researchedTechnologyTier modifier="7"/>
+        <researchedTechnologyTier modifier="8"/>
+        <researchedTechnologyTier modifier="9"/>
+        <researchedTechnologyTier modifier="10"/>
+    </researchedTechnologyTierOptions>
     <resourceCosts>
         <resourceCost modifier="0.5"/>
         <resourceCost modifier="0.75"/>
