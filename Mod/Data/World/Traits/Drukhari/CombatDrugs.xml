@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff"
+       icon="Actions/Drukhari/CombatDrugs">
+    <modifiers>
+        <modifier>
+            <effects>
+                <attacks mul="0.33"/>
+            </effects>
+        </modifier>
+        <modifier requiredUpgrade="Drukhari/Splintermind"
+                  visible="1">
+            <effects>
+                <moraleLossFactor add="-0.33"/>
+            </effects>
+        </modifier>
+        <modifier requiredUpgrade="Drukhari/GraveLotus"
+                  visible="1">
+            <effects>
+                <circumstanceMeleeDamage mul="0.50"/>
+            </effects>
+        </modifier>
+        <modifier requiredUpgrade="Drukhari/Painbringer"
+                  visible="1">
+            <effects>
+                <feelNoPainDamageReduction add="0.33"/>
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>

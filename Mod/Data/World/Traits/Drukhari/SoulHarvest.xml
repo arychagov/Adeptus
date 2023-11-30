@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1"
+       category="Buff"
+       icon="Actions/Drukhari/SoulHarvest"
+       rankMax="2">
+    <modifiers>
+        <modifier>
+            <effects>
+                <damage mul="0.17"/>
+                <influencePerKillValue addMax="9"
+                                       addMin="3"/>
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>

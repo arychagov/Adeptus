@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1"
+       category="Buff"
+       icon="Actions/Drukhari/BloodDancer"
+       rankMax="2">
+    <modifiers>
+        <modifier>
+            <effects>
+                <meleeAccuracy addMax="6"
+                               addMin="2"/>
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>
