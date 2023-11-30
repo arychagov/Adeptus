@@ -136,10 +136,10 @@
         </genericUnitAbility>
         <genericUnitAbility name="SistersOfBattle/CatechismOfWrathfulDefiance"
                             consumedActionPoints="0"
-                            requiredActionPoints="0"
                             consumedMovement="0"
                             cooldown="5"
-                            icon="Actions/ChaosSpaceMarines/ShatterDefences">
+                            icon="Actions/ChaosSpaceMarines/ShatterDefences"
+                            requiredActionPoints="0">
             <model>
                 <action sound="Actions/PsychicDebuff"/>
             </model>
