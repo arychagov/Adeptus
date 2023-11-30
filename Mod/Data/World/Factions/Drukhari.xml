@@ -556,6 +556,11 @@
                         </player>
                         <unit>
                             <type name="Eldar/WebwayGate"/>
+                            <unitsInRange count="1"
+                                          range="3">
+                                <allied/>
+                                <faction name="Drukhari"/>
+                            </unitsInRange>
                         </unit>
                     </conditions>
                     <areas>

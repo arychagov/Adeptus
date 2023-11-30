@@ -68,8 +68,6 @@
                            requiredUpgrade="Drukhari/Vehicles"/>
         <constructBuilding building="Drukhari/Construction"
                            requiredUpgrade="Drukhari/Construction"/>
-        <constructBuilding building="Drukhari/Heroes"
-                           requiredUpgrade="Drukhari/Heroes"/>
         <constructBuilding building="Drukhari/Aircraft"
                            requiredUpgrade="Drukhari/Aircraft"/>
     </actions>
