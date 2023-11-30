@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon>
+    <model>
+        <beamWeapon beamsBlueprint="Effects/IonBeams"
+                    beamsEmitterBlueprint="Effects/DScytheBeamsEmitter"
+                    displaceExplosions="0"
+                    explosionsBlueprint="Effects/DScytheExplosions"
+                    explosionsEmitterBlueprint="Effects/DScytheExplosionsEmitter"
+                    fireInterval="10.0"
+                    fireSound="Weapons/DarkScythe"
+                    fireSoundCount="3"
+                    muzzleFlashesBlueprint="Effects/IonMuzzleFlashes"
+                    muzzleFlashesEmitterBlueprint="Effects/DScytheMuzzleFlashesEmitter"/>
+    </model>
+    <modifiers>
+        <modifier>
+            <effects>
+                <attacks add="1"/>
+                <rangedArmorPenetration add="6"/> <!-- %rangedArmorPenetration add armorPiercing=2 -->
+                <rangedDamage add="6"/> <!-- %rangedDamage add strength=8 -->
+                <strengthDamage base="0"/>
+            </effects>
+        </modifier>
+    </modifiers>
+    <target rangeMax="2"/>
+    <traits>
+        <trait name="HeavyWeapon"/>
+        <trait name="Drukhari/HeavyWeaponBonus"
+               requiredUpgrade="Drukhari/HeavyWeaponBonus"/>
+        <trait name="Blast"/>
+        <trait name="Lance"/>
+    </traits>
+</weapon>
