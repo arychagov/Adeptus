@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade icon="Traits/ExtraInfantryArmour"
+         position="5">
+    <strategyModifiers>
+        <modifier>
+            <effects>
+                <increaseInfantryScore base="1.0"/>
+            </effects>
+        </modifier>
+    </strategyModifiers>
+</upgrade>

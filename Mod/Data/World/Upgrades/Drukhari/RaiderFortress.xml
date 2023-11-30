@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade icon="Actions/Drukhari/RaiderFortress"
+         position="3">
+    <strategyModifiers>
+        <modifier>
+            <effects>
+                <increaseCitiesScore base="1.0"/>
+            </effects>
+        </modifier>
+    </strategyModifiers>
+</upgrade>

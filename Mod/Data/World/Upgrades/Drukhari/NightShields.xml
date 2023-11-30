@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade icon="Traits/Drukhari/NightShields"
+         position="5">
+    <requiredUpgrades>
+        <upgrade name="Drukhari/Aircraft"/>
+        <upgrade name="Drukhari/Raider"/>
+        <upgrade name="Drukhari/Ravager"/>
+        <upgrade name="Drukhari/Tantalus"/>
+    </requiredUpgrades>
+</upgrade>
