@@ -195,6 +195,13 @@
     <entry name="ChaosSpaceMarines/GiftOfMutationDescription"
            value="Increases chance of infantry units to randomly receive unlocked Boon of Chaos on enemy kill."/>
 
+    <entry name="Drukhari/Archon"
+           value="Archon"/>
+    <entry name="Drukhari/ArchonDescription"
+           value="<string name='Units/Drukhari/ArchonDescription'/>"/>
+    <entry name="Drukhari/ArchonFlavor"
+           value="<string name='Units/Drukhari/ArchonFlavor'/>"/>
+
     <entry name="Eldar/Autarch"
            value="Autarch"/>
     <entry name="Eldar/AutarchDescription"
