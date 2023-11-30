@@ -15,6 +15,10 @@
                dlc="Supplement3"/>
         <track name="Music/ChaosSpaceMarinesTheme"
                dlc="Supplement3"/>
+        <track name="Music/DrukhariBGM"
+               dlc="Supplement13"/>
+        <track name="Music/DrukhariTheme"
+               dlc="Supplement13"/>
         <track name="Music/EldarBGM"
                dlc="Supplement7"/>
         <track name="Music/EldarTheme"

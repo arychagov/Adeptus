@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="utf-8"?>
+<faction actionsTitle="GUI/DrukhariPlayerPowers"
+         buildingVariations="3"
+         constructSound="Actions/WebwayRedoubt"
+         dlc="Supplement13"
+         energy="1"
+         energyPooling="0.25"
+         food="1"
+         foodPooling="0.25"
+         influence="1"
+         loyalty="1"
+         ore="1"
+         playable="1"
+         production="1"
+         research="1"
+         startingCity="1"
+         startingEnergy="25"
+         startingFood="25"
+         startingInfluence="25"
+         startingOre="50"
+         startingRequisitions="0"
+         webwayGate="Eldar/WebwayGate">
+    <music>
+        <track name="Music/AdeptusMechanicusBGM"
+               dlc="Supplement9"/>
+        <track name="Music/AdeptusMechanicusTheme"
+               dlc="Supplement9"/>
+        <track name="Music/AstraMilitarumBGM"/>
+        <track name="Music/AstraMilitarumTheme"/>
+        <track name="Music/BGM0"/>
+        <track name="Music/BGM1"/>
+        <track name="Music/ChaosSpaceMarinesBGM"
+               dlc="Supplement3"/>
+        <track name="Music/ChaosSpaceMarinesTheme"
+               dlc="Supplement3"/>
+        <mainTrack name="Music/DrukhariBGM"
+                   dlc="Supplement13"/>
+        <track name="Music/DrukhariTheme"
+               dlc="Supplement13"/>
+        <track name="Music/EldarBGM"
+               dlc="Supplement7"/>
+        <track name="Music/EldarTheme"
+               dlc="Supplement7"/>
+        <track name="Music/MainBGM"/>
+        <track name="Music/MainTheme"/>
+        <track name="Music/NecronsBGM"/>
+        <track name="Music/NecronsTheme"/>
+        <track name="Music/OrksBGM"/>
+        <track name="Music/OrksTheme"/>
+        <track name="Music/SistersOfBattleBGM"
+               dlc="Supplement11"/>
+        <track name="Music/SistersOfBattleTheme"
+               dlc="Supplement11"/>
+        <track name="Music/SpaceMarinesBGM"/>
+        <track name="Music/SpaceMarinesTheme"/>
+        <track name="Music/TauBGM"
+               dlc="Supplement5"/>
+        <track name="Music/TauTheme"
+               dlc="Supplement5"/>
+        <track name="Music/TyranidsBGM"
+               dlc="Supplement2"/>
+        <track name="Music/TyranidsTheme"
+               dlc="Supplement2"/>
+    </music>
+    <quests>
+        <quest name="Drukhari/Story0"
+               firstTurn="2"
+               icon="Quests/Drukhari/Chapter0"
+               lastTurn="2">
+            <stages>
+                <stage>
+                    <objectives>
+                        <controlOutpost count="4"/>
+                    </objectives>
+                </stage>
+                <stage>
+                    <objectives>
+                        <killCamp descriptionName="KillImperialStrongpointDescription">
+                            <boss type="AstraMilitarum/ImperialStrongpoint"/>
+                        </killCamp>
+                    </objectives>
+                    <rewards>
+                        <influence amount="40"/>
+                    </rewards>
+                </stage>
+            </stages>
+        </quest>
+        <quest name="Drukhari/Story1"
+               firstTurn="20"
+               icon="Quests/Drukhari/Chapter1"
+               lastTurn="30">
+            <conditions>
+                <quests>
+                    <completed name="Drukhari/Story0"/>
+                </quests>
+            </conditions>
+            <stages>
+                <stage>
+                    <objectives>
+                        <constructBuilding buildingType="Drukhari/Infantry"
+                                           count="1"/>
+                        <researchUpgrade upgrade="Drukhari/Wyche"/>
+                        <produceUnit count="2"
+                                     unitType="Drukhari/Wyche"/>
+                    </objectives>
+                    <rewards>
+                        <influence amount="80"/>
+                    </rewards>
+                </stage>
+                <stage>
+                    <objectives>
+                        <executeUnitOrder name="Drukhari/CombatDrugs"
+                                          description="UseCombatDrugsDescription"/>
+                        <surviveInvasion relativeStrength="0.5"
+                                         strength="6"
+                                         waveInterval="2"
+                                         waves="2">
+                            <attackers>
+                                <unit count="2"
+                                      rankMax="3"
+                                      rankMin="1"
+                                      type="SistersOfBattle/BattleSister"/>
+                                <unit count="1"
+                                      rankMax="3"
+                                      rankMin="1"
+                                      type="SistersOfBattle/Imagifier"/>
+                                <unit count="1"
+                                      rankMax="3"
+                                      rankMin="1"
+                                      type="SistersOfBattle/Zephyrim"/>
+                                <unit count="1"
+                                      rankMax="3"
+                                      rankMin="1"
+                                      type="SpaceMarines/DevastatorSpaceMarine"/>
+                                <unit count="1"
+                                      rankMax="3"
+                                      rankMin="1"
+                                      type="SpaceMarines/ScoutBiker"/>
+                                <unit count="1"
+                                      rankMax="3"
+                                      rankMin="1"
+                                      type="SpaceMarines/Whirlwind"/>
+                            </attackers>
+                        </surviveInvasion>
+                    </objectives>
+                    <rewards>
+                        <unit type="Drukhari/Wrack"/>
+                    </rewards>
+                </stage>
+            </stages>
+        </quest>
+        <quest name="Drukhari/Story2"
+               firstTurn="40"
+               icon="Quests/Drukhari/Chapter2"
+               lastTurn="50">
+            <conditions>
+                <quests>
+                    <completed name="Drukhari/Story1"/>
+                </quests>
+            </conditions>
+            <stages>
+                <stage>
+                    <objectives>
+                        <researchUpgrade upgrade="Drukhari/Vehicles"/>
+                        <constructBuilding buildingType="Drukhari/Vehicles"
+                                           count="1"/>
+                        <researchUpgrade upgrade="Drukhari/Raider"/>
+                        <produceUnit count="1"
+                                     unitType="Drukhari/Raider"/>
+                        <killCamp descriptionName="KillCampWithEtherealDescription"
+                                  relativeStrength="0.5"
+                                  strength="6">
+                            <boss rankMax="4"
+                                  rankMin="4"
+                                  type="Tau/Ethereal"/>
+                            <defenders>
+                                <unit count="2"
+                                      rankMax="4"
+                                      rankMin="2"
+                                      type="Tau/FireWarrior"/>
+                                <unit count="1"
+                                      rankMax="4"
+                                      rankMin="2"
+                                      type="Tau/StealthBattlesuit"/>
+                                <unit count="1"
+                                      rankMax="4"
+                                      rankMin="2"
+                                      type="Tau/GhostkeelBattlesuit"/>
+                                <unit count="1"
+                                      rankMax="4"
+                                      rankMin="2"
+                                      type="Tau/Pathfinder"/>
+                                <unit count="1"
+                                      rankMax="4"
+                                      rankMin="2"
+                                      type="Tau/CrisisBattlesuit"/>
+                            </defenders>
+                        </killCamp>
+                    </objectives>
+                    <rewards>
+                        <ore amount="100"/>
+                    </rewards>
+                </stage>
+                <stage>
+                    <objectives>
+                        <killCamp descriptionName="KillCampDescription"
+                                  relativeStrength="0.5"
+                                  strength="6">
+                            <defenders>
+                                <unit count="2"
+                                      rankMax="6"
+                                      rankMin="4"
+                                      type="Eldar/Ranger"/>
+                                <unit count="2"
+                                      rankMax="6"
+                                      rankMin="4"
+                                      type="Eldar/Guardian"/>
+                                <unit count="1"
+                                      rankMax="6"
+                                      rankMin="4"
+                                      type="Eldar/ShiningSpear"/>
+                                <unit count="1"
+                                      rankMax="4"
+                                      rankMin="2"
+                                      type="Eldar/WaveSerpent"/>
+                                <unit count="1"
+                                      rankMax="4"
+                                      rankMin="2"
+                                      type="Eldar/HowlingBanshee"/>
+                                <unit count="1"
+                                      rankMax="4"
+                                      rankMin="2"
+                                      type="Eldar/FireDragon"/>
+                            </defenders>
+                        </killCamp>
+                    </objectives>
+                    <rewards>
+                        <item type="UltraWidebandAuspex"/>
+                    </rewards>
+                </stage>
+            </stages>
+        </quest>
+        <quest name="Drukhari/Story3"
+               firstTurn="60"
+               icon="Quests/Drukhari/Chapter3"
+               lastTurn="70">
+            <conditions>
+                <quests>
+                    <completed name="Drukhari/Story2"/>
+                </quests>
+            </conditions>
+            <stages>
+                <stage>
+                    <objectives>
+                        <killCamp relativeStrength="0.5"
+                                  strength="6">
+                            <defenders>
+                                <unit count="1"
+                                      rankMax="5"
+                                      rankMin="3"
+                                      type="Tyranids/HiveGuard"/>
+                                <unit count="1"
+                                      rankMax="5"
+                                      rankMin="3"
+                                      type="Tyranids/Tyrannocyte"/>
+                                <unit count="1"
+                                      rankMax="5"
+                                      rankMin="3"
+                                      type="Tyranids/Venomthrope"/>
+                                <unit count="1"
+                                      rankMax="5"
+                                      rankMin="3"
+                                      type="Tyranids/Biovore"/>
+                                <unit count="1"
+                                      rankMax="5"
+                                      rankMin="3"
+                                      type="Tyranids/Termagant"/>
+                                <unit count="1"
+                                      rankMax="5"
+                                      rankMin="3"
+                                      type="Tyranids/Warrior"/>
+                            </defenders>
+                        </killCamp>
+                        <killCamp relativeStrength="0.5"
+                                  strength="6">
+                            <defenders>
+                                <unit count="1"
+                                      rankMax="5"
+                                      rankMin="3"
+                                      type="Tyranids/HiveGuard"/>
+                                <unit count="1"
+                                      rankMax="5"
+                                      rankMin="3"
+                                      type="Tyranids/Tyrannocyte"/>
+                                <unit count="1"
+                                      rankMax="5"
+                                      rankMin="3"
+                                      type="Tyranids/Venomthrope"/>
+                                <unit count="1"
+                                      rankMax="5"
+                                      rankMin="3"
+                                      type="Tyranids/Biovore"/>
+                                <unit count="1"
+                                      rankMax="5"
+                                      rankMin="3"
+                                      type="Tyranids/Termagant"/>
+                                <unit count="1"
+                                      rankMax="5"
+                                      rankMin="3"
+                                      type="Tyranids/Warrior"/>
+                            </defenders>
+                        </killCamp>
+                    </objectives>
+                    <rewards>
+                        <food amount="150"/>
+                    </rewards>
+                </stage>
+                <stage>
+                    <objectives>
+                        <killCamp descriptionName="KillCampWithAdeptusMechanicusDescription"
+                                  faction="AdeptusMechanicus"
+                                  relativeStrength="0.5"
+                                  strength="8">
+                            <boss name="Cities/AdeptusMechanicus13"
+                                  type="AdeptusMechanicus/Headquarters"/>
+                            <defenders>
+                                <unit count="2"
+                                      rankMax="5"
+                                      rankMin="3"
+                                      type="AdeptusMechanicus/SkitariiRanger"/>
+                                <unit count="2"
+                                      rankMax="5"
+                                      rankMin="3"
+                                      type="AdeptusMechanicus/KataphronBreacher"/>
+                                <unit count="1"
+                                      rankMax="5"
+                                      rankMin="3"
+                                      type="AdeptusMechanicus/FulguriteElectroPriest"/>
+                                <unit count="1"
+                                      rankMax="5"
+                                      rankMin="3"
+                                      type="AdeptusMechanicus/OnagerDunecrawler"/>
+                            </defenders>
+                        </killCamp>
+                    </objectives>
+                    <rewards>
+                        <playerTrait name="Drukhari/BonusResources"
+                                     duration="5"/>
+                    </rewards>
+                </stage>
+            </stages>
+        </quest>
+        <quest name="Drukhari/Story4"
+               firstTurn="80"
+               icon="Quests/Drukhari/Chapter4"
+               lastTurn="90">
+            <conditions>
+                <quests>
+                    <completed name="Drukhari/Story3"/>
+                </quests>
+            </conditions>
+            <stages>
+                <stage>
+                    <objectives>
+                        <killCampWithNoctilithCrown bossKillCompletes="1"
+                                                    descriptionName="KillNoctilithCrownDescription"
+                                                    relativeStrength="0.5"
+                                                    strength="4">
+                            <boss rankMax="6"
+                                  rankMin="6"
+                                  type="ChaosSpaceMarines/NoctilithCrown"/>
+                            <defenders>
+                                <unit count="4"
+                                      rankMax="6"
+                                      rankMin="4"
+                                      type="ChaosSpaceMarines/DarkDisciple"/>
+                            </defenders>
+                        </killCampWithNoctilithCrown>
+                    </objectives>
+                    <rewards>
+                        <item type="DuskBlade"/>
+                    </rewards>
+                </stage>
+                <stage>
+                    <objectives>
+                        <killCamp relativeStrength="1.0"
+                                  strength="10">
+                            <boss rankMax="6"
+                                  rankMin="6"
+                                  type="Eldar/Autarch"/>
+                            <defenders>
+                                <unit count="1"
+                                      rankMax="6"
+                                      rankMin="4"
+                                      type="Eldar/Warlock"/>
+                                <unit count="1"
+                                      rankMax="6"
+                                      rankMin="4"
+                                      type="Eldar/DarkReaper"/>
+                                <unit count="1"
+                                      rankMax="6"
+                                      rankMin="4"
+                                      type="Eldar/Wraithblade"/>
+                                <unit count="1"
+                                      rankMax="6"
+                                      rankMin="4"
+                                      type="Eldar/WarWalker"/>
+                                <unit count="1"
+                                      rankMax="6"
+                                      rankMin="4"
+                                      type="Eldar/Hornet"/>
+                            </defenders>
+                        </killCamp>
+                    </objectives>
+                    <rewards>
+                        <playerTrait name="PreferredEnemy"
+                                     duration="10"/>
+                    </rewards>
+                </stage>
+            </stages>
+        </quest>
+        <quest name="Drukhari/Story5"
+               firstTurn="100"
+               icon="Quests/Drukhari/Chapter5"
+               lastTurn="110">
+            <conditions>
+                <quests>
+                    <completed name="Drukhari/Story4"/>
+                </quests>
+            </conditions>
+            <stages>
+                <stage>
+                    <objectives>
+                        <visitTile clearEnemies="1"
+                                   count="1">
+                            <defenders>
+                                <unit count="3"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="Necrons/Deathmark"/>
+                                <unit count="3"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="Necrons/CanoptekWraith"/>
+                                <unit count="2"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="Necrons/DoomsdayArk"/>
+                                <unit count="2"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="Necrons/DoomScythe"/>
+                                <unit count="1"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="Necrons/Monolith"/>
+                            </defenders>
+                        </visitTile>
+                    </objectives>
+                </stage>
+                <stage>
+                    <startRewards>
+                        <unit token="Avatar"
+                              type="Eldar/AvatarOfKhaine"/>
+                    </startRewards>
+                    <objectives>
+                        <surviveInvasion bossWave="4"
+                                         relativeStrength="2"
+                                         strength="32"
+                                         waveInterval="1"
+                                         waves="5">
+                            <boss rankMax="9"
+                                  rankMin="9"
+                                  type="ChaosSpaceMarines/DaemonPrince"/>
+                            <attackers>
+                                <unit count="1"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="ChaosSpaceMarines/ChaosLandRaider"/>
+                                <unit count="1"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="ChaosSpaceMarines/GreaterBrassScorpionOfKhorne"/>
+                                <unit count="1"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="ChaosSpaceMarines/Heldrake"/>
+                                <unit count="1"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="ChaosSpaceMarines/Forgefiend"/>
+                                <unit count="2"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="ChaosSpaceMarines/WarpTalon"/>
+                                <unit count="2"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="ChaosSpaceMarines/Obliterator"/>
+                                <unit count="1"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="ChaosSpaceMarines/Defiler"/>
+                                <unit count="1"
+                                      rankMax="7"
+                                      rankMin="5"
+                                      type="ChaosSpaceMarines/Venomcrawler"/>
+                            </attackers>
+                        </surviveInvasion>
+                        <keepUnitAlive descriptionName="KeepUnitAliveDescription"
+                                       token="Avatar"/>
+                    </objectives>
+                    <rewards>
+                        <victory/>
+                    </rewards>
+                </stage>
+            </stages>
+        </quest>
+        <quest name="LordOfSkulls"
+               icon="Units/Neutral/LordOfSkulls">
+            <stages>
+                <stage>
+                    <objectives>
+                        <killLordOfSkulls unitType="Neutral/LordOfSkulls"/>
+                    </objectives>
+                    <rewards>
+                        <playerTrait name="SkullsForTheSkullThrone"/>
+                    </rewards>
+                </stage>
+            </stages>
+        </quest>
+    </quests>
+    <actions>
+        <activateWebwayGate name="Eldar/ActivateWebwayGate"
+                            cooldown="1">
+            <model>
+                <action sound="Actions/ActivateWebwayGate"/>
+            </model>
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="10"/>
+                    </effects>
+                </modifier>
+                <modifier requiredUpgrade="Eldar/WebwayGateBonus">
+                    <effects>
+                        <influenceCost mul="-1.0"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <target rangeMax="-1">
+                    <conditions>
+                        <player>
+                            <faction name="Neutral"/>
+                        </player>
+                        <unit>
+                            <type name="Eldar/WebwayGate"/>
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <changePlayer/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </activateWebwayGate>
+        <webwayRedoubt name="Drukhari/RaiderFortress"
+                       cooldown="1"
+                       costScalesWithCities="1"
+                       requiredUpgrade="Drukhari/RaiderFortress">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="60"/>
+                        <oreCost base="60"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <target rangeMax="-1">
+                    <conditions>
+                        <unit>
+                            <affiliate/>
+                            <type name="Eldar/WebwayGate"/>
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <removeUnit/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                        <area affects="Tile">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <foundCity/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </webwayRedoubt>
+        <genericPlayerAbility name="Drukhari/RaidFromTheWebway"
+                              cooldown="3"
+                              icon="Units/Drukhari/WebwayPortal"
+                              interfaceSound="Actions/ActivateWebwayGate">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="60"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <target rangeMax="-1">
+                    <conditions>
+                        <tile>
+                            <noFeatureCategory name="Resource"/>
+                            <noFeatureCategory name="WireWeed"/>
+                            <land/>
+                            <noEnemyCity/>
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
+                        </tile>
+                    </conditions>
+                    <areas>
+                        <area affects="Tile">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addUnit name="Drukhari/WebwayPortal"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="Summon"
+                                                  duration="3"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </genericPlayerAbility>
+        <archonsInspection name="Drukhari/BonusResources"
+                           cooldown="10"
+                           icon="Traits/Drukhari/BonusResources"
+                           interfaceSound="Interface/BonusResources"
+                           requiredUpgrade="Drukhari/BonusResources">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="80"/>
+                    </effects>
+                </modifier>
+                <modifier requiredUpgrade="Drukhari/SoulHungerCost">
+                    <effects>
+                        <influenceCost mul="-0.2"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <target rangeMax="-1">
+                    <conditions>
+                        <tile>
+                            <affiliatedCity/>
+                        </tile>
+                    </conditions>
+                    <areas>
+                        <area affects="Tile">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="Drukhari/BonusResources"
+                                                  duration="10"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </archonsInspection>
+        <soulHunger name="Drukhari/WealthPlunder"
+                    cooldown="10"
+                    durationInSeconds="0.1"
+                    icon="Traits/Drukhari/WealthPlunder"
+                    interfaceSound="Interface/WealthPlunder"
+                    requiredUpgrade="Drukhari/WealthPlunder">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="80"/>
+                    </effects>
+                </modifier>
+                <modifier requiredUpgrade="Drukhari/SoulHungerCost">
+                    <effects>
+                        <influenceCost mul="-0.2"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+            <unitModifiers>
+                <modifier>
+                    <effects>
+                        <addTrait name="Drukhari/WealthPlunder"
+                                  duration="10"/>
+                    </effects>
+                </modifier>
+            </unitModifiers>
+        </soulHunger>
+        <soulHunger name="Drukhari/FeastOfTorment"
+                    cooldown="10"
+                    durationInSeconds="0.1"
+                    icon="Traits/Drukhari/FeastOfTorment"
+                    interfaceSound="Interface/FeastOfTorment"
+                    requiredUpgrade="Drukhari/FeastOfTorment">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="80"/>
+                    </effects>
+                </modifier>
+                <modifier requiredUpgrade="Drukhari/SoulHungerCost">
+                    <effects>
+                        <influenceCost mul="-0.2"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+            <unitModifiers>
+                <modifier>
+                    <effects>
+                        <addTrait name="Drukhari/FeastOfTorment"
+                                  duration="10"/>
+                    </effects>
+                </modifier>
+            </unitModifiers>
+        </soulHunger>
+        <soulHunger name="Drukhari/SacrificeToKhaine"
+                    cooldown="10"
+                    durationInSeconds="0.1"
+                    icon="Traits/Drukhari/SacrificeToKhaine"
+                    interfaceSound="Interface/SacrificeToKhaine"
+                    requiredUpgrade="Drukhari/SacrificeToKhaine">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="80"/>
+                    </effects>
+                </modifier>
+                <modifier requiredUpgrade="Drukhari/SoulHungerCost">
+                    <effects>
+                        <influenceCost mul="-0.2"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+            <unitModifiers>
+                <modifier>
+                    <effects>
+                        <addTrait name="Drukhari/SacrificeToKhaine"
+                                  duration="10"/>
+                    </effects>
+                </modifier>
+            </unitModifiers>
+        </soulHunger>
+        <soulHunger name="Drukhari/SoulHungerLoyalty"
+                    cooldown="10"
+                    durationInSeconds="0.1"
+                    interfaceSound="Interface/SoulHungerLoyalty"
+                    requiredUpgrade="Drukhari/SoulHungerLoyalty">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="80"/>
+                    </effects>
+                </modifier>
+                <modifier requiredUpgrade="Drukhari/SoulHungerCost">
+                    <effects>
+                        <influenceCost mul="-0.2"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+            <playerModifiers>
+                <modifier>
+                    <effects>
+                        <addTrait name="Drukhari/SoulHungerLoyalty"
+                                  duration="10"/>
+                    </effects>
+                </modifier>
+            </playerModifiers>
+        </soulHunger>
+        <webwayArtillery name="Drukhari/SoulShelling"
+                         cooldown="3"
+                         durationInSeconds="0.1"
+                         interfaceSound="Interface/SoulShelling"
+                         requiredUpgrade="Drukhari/SoulShelling">
+
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="40"/>
+                    </effects>
+                </modifier>
+                <modifier requiredUpgrade="Drukhari/SoulHungerCost">
+                    <effects>
+                        <influenceCost mul="-0.2"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+            <beginTargets>
+                <target rangeMax="-1">
+                    <conditions>
+                        <unit>
+                            <enemy/>
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <weaponDamage weapon="SoulShelling"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </webwayArtillery>
+        <soulHunger name="Drukhari/SoulHungerOutposts"
+                    cooldown="10"
+                    durationInSeconds="0.1"
+                    interfaceSound="Interface/SoulHungerOutposts"
+                    requiredUpgrade="Drukhari/SoulHungerOutposts">
+            <modifiers>
+                <modifier visible="0">
+                    <effects>
+                        <influenceCost base="80"/>
+                    </effects>
+                </modifier>
+                <modifier requiredUpgrade="Drukhari/SoulHungerCost">
+                    <effects>
+                        <influenceCost mul="-0.2"/>
+                    </effects>
+                </modifier>
+            </modifiers>
+            <playerModifiers>
+                <modifier>
+                    <effects>
+                        <addTrait name="Drukhari/SoulHungerOutposts"
+                                  duration="10"/>
+                    </effects>
+                </modifier>
+            </playerModifiers>
+        </soulHunger>
+    </actions>
+    <startingUnits>
+        <unit count="2"
+              type="Drukhari/KabaliteWarrior"/>
+    </startingUnits>
+</faction>
