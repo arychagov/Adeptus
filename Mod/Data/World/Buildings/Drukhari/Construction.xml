@@ -59,10 +59,8 @@
         <constructBuilding building="Drukhari/Energy"/>
         <constructBuilding building="Drukhari/Research"/>
         <constructBuilding building="Drukhari/Influence"/>
-        <constructBuilding building="Drukhari/Loyalty"
-                           requiredUpgrade="Drukhari/Loyalty"/>
-        <constructBuilding building="Drukhari/Housing"
-                           requiredUpgrade="Drukhari/Housing"/>
+        <constructBuilding building="Drukhari/Loyalty"/>
+        <constructBuilding building="Drukhari/Housing"/>
         <constructBuilding building="Drukhari/Infantry"/>
         <constructBuilding building="Drukhari/Vehicles"
                            requiredUpgrade="Drukhari/Vehicles"/>
