@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade icon="Actions/AdeptusMechanicus/BroadSpectrumDataTether"
-         position="2">
+         position="2"
+         visible="0">
     <requiredUpgrades>
         <upgrade name="AdeptusMechanicus/Vehicles"/>
     </requiredUpgrades>

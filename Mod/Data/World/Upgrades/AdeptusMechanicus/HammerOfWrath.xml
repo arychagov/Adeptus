@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade icon="Actions/HammerOfWrath"
-         position="7">
+         position="7"
+         visible="0">
     <requiredUpgrades>
         <upgrade name="AdeptusMechanicus/PteraxiiSterylizor"/>
         <upgrade name="AdeptusMechanicus/FulguriteElectroPriest"/>

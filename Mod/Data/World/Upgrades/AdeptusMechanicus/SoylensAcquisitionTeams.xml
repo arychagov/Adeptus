@@ -1,3 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade icon="Traits/AdeptusMechanicus/SoylensAcquisitionTeams"
-         position="4"/>
+         position="4"
+         visible="0"/>

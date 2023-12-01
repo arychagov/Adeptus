@@ -1,3 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade icon="Buildings/AdeptusMechanicus/Aircraft"
-         position="6"/>
+         position="7"
+         visible="0"/>
