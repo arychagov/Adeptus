@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
+    <entry name="AdeptusMechanicus/AimAssist"
+           value="Aim Assist"/>
+    <entry name="AdeptusMechanicus/AimAssistDescription"
+           value=""/>
+    <entry name="AdeptusMechanicus/AircraftMastery"
+           value="Aircraft Mastery"/>
+    <entry name="AdeptusMechanicus/AircraftMasteryDescription"
+           value=""/>
+    <entry name="AdeptusMechanicus/ArchaeopterTransvector"
+           value="<string name='Units/AdeptusMechanicus/ArchaeopterTransvector'/>"/>
+    <entry name="AdeptusMechanicus/ArchaeopterTransvectorDescription"
+           value="<string name='Units/AdeptusMechanicus/ArchaeopterTransvectorDescription'/>"/>
+    <entry name="AdeptusMechanicus/Cognis"
+           value="Cognis"/>
+    <entry name="AdeptusMechanicus/CognisDescription"
+           value=""/>
+    <entry name="AdeptusMechanicus/DataAnalysis"
+           value="Data Analysis"/>
+    <entry name="AdeptusMechanicus/DataAnalysisDescription"
+           value=""/>
+    <entry name="AdeptusMechanicus/DuneriderShell"
+           value="Dunerider Shell"/>
+    <entry name="AdeptusMechanicus/DuneriderShellDescription"
+           value=""/>
+    <entry name="AdeptusMechanicus/FortressOfMars"
+           value="Fortress Of Mars"/>
+    <entry name="AdeptusMechanicus/FortressOfMarsDescription"
+           value=""/>
+    <entry name="AdeptusMechanicus/GravitonMastery"
+           value="Graviton Mastery"/>
+    <entry name="AdeptusMechanicus/GravitonMasteryDescription"
+           value=""/>
+    <entry name="AdeptusMechanicus/GravitonPull"
+           value="Graviton Pull"/>
+    <entry name="AdeptusMechanicus/GravitonPullDescription"
+           value=""/>
+    <entry name="AdeptusMechanicus/MartialPlating"
+           value="Martial Plating"/>
+    <entry name="AdeptusMechanicus/MartialPlatingDescription"
+           value=""/>
+    <entry name="AdeptusMechanicus/MatterOverMind"
+           value="Matter Over Mind"/>
+    <entry name="AdeptusMechanicus/MatterOverMindDescription"
+           value=""/>
+    <entry name="AdeptusMechanicus/NoEscape"
+           value="No Escape"/>
+    <entry name="AdeptusMechanicus/NoEscapeDescription"
+           value=""/>
+    <entry name="AdeptusMechanicus/PowerOverwhelming"
+           value="Power Overwhelming"/>
+    <entry name="AdeptusMechanicus/PowerOverwhelmingDescription"
+           value=""/>
     <entry name="AdeptusMechanicus/CityTier2Description"
            value="Increases the tile acquisition radius."/>
     <entry name="AdeptusMechanicus/CityTier3Description"

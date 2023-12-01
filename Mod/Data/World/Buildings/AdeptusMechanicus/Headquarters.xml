@@ -18,9 +18,16 @@
                 <ore add="6"/>
                 <populationLimit add="6"/>
                 <research add="6"/>
+                <production add="6"/>
             </effects>
         </modifier>
     </modifiers>
+    <actions>
+        <produceUnit requiredUpgrade="AdeptusMechanicus/ArchaeopterTransvector"
+                     unit="AdeptusMechanicus/ArchaeopterTransvector"/>
+        <produceUnit requiredUpgrade="AdeptusMechanicus/ArchaeopterStratoraptor"
+                     unit="AdeptusMechanicus/ArchaeopterStratoraptor"/>
+    </actions>
     <traits>
         <trait name="AdeptusMechanicus/CityTier2"
                requiredUpgrade="AdeptusMechanicus/CityTier2"/>

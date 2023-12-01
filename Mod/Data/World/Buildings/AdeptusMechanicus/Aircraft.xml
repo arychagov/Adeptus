@@ -34,8 +34,5 @@
         </modifier>
     </strategyModifiers>
     <actions>
-        <produceUnit unit="AdeptusMechanicus/ArchaeopterTransvector"/>
-        <produceUnit requiredUpgrade="AdeptusMechanicus/ArchaeopterStratoraptor"
-                     unit="AdeptusMechanicus/ArchaeopterStratoraptor"/>
     </actions>
 </building>

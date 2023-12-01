@@ -135,7 +135,6 @@
                             <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                         </unit>
                         <unit match="Any">
-                            <faction name="AdeptusMechanicus"/>
                             <trait name="Fortification"/>
                             <trait name="Vehicle"/>
                         </unit>
