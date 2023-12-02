@@ -7,7 +7,7 @@
     <entry name="AdeptusMechanicus/AircraftMastery"
            value="Aircraft Mastery"/>
     <entry name="AdeptusMechanicus/AircraftMasteryDescription"
-           value="Decreases the production cost of aircraft units."/>
+           value="Increases the production output of aircraft producing building."/>
     <entry name="AdeptusMechanicus/ArchaeopterTransvector"
            value="<string name='Units/AdeptusMechanicus/ArchaeopterTransvector'/>"/>
     <entry name="AdeptusMechanicus/ArchaeopterTransvectorDescription"

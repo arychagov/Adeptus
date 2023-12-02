@@ -2,6 +2,6 @@
 <upgrade icon="Units/AdeptusMechanicus/ArchaeopterStratoraptor"
          position="8">
     <requiredUpgrades>
-        <upgrade name="AdeptusMechanicus/Aircraft"/>
+        <upgrade name="AdeptusMechanicus/ArchaeopterTransvector"/>
     </requiredUpgrades>
 </upgrade>

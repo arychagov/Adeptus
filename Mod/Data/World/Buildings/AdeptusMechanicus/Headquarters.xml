@@ -39,5 +39,7 @@
                requiredUpgrade="AdeptusMechanicus/ReclaimatorProtocols"/>
         <trait name="AdeptusMechanicus/Prosperity"
                requiredUpgrade="AdeptusMechanicus/Construction"/>
+        <trait name="AdeptusMechanicus/AircraftMastery"
+               requiredUpgrade="AdeptusMechanicus/AircraftMastery"/>
     </traits>
 </building>

@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade icon="Buildings/AdeptusMechanicus/Aircraft"
-         position="8"/>
+         position="8">
+    <requiredUpgrades>
+        <upgrade name="AdeptusMechanicus/ArchaeopterTransvector"/>
+    </requiredUpgrades>
+</upgrade>
