@@ -3,6 +3,11 @@
        icon="Actions/Jink">
     <modifiers>
         <modifier>
+            <conditions>
+                <weapon>
+                    <noTrait name="AdeptusMechanicus/Cognis"/>
+                </weapon>
+            </conditions>
             <effects>
                 <rangedDamageReduction add="0.17"/>
                 <accuracy mul="-0.17"/>

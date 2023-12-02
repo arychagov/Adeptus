@@ -3,6 +3,11 @@
        icon="Traits/Blind">
     <modifiers>
         <modifier>
+            <conditions>
+                <weapon>
+                    <noTrait name="AdeptusMechanicus/Cognis"/>
+                </weapon>
+            </conditions>
             <effects>
                 <accuracy mul="-0.25"/>
             </effects>

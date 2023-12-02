@@ -12,6 +12,9 @@
                     <noTrait name="Vehicle"/>
                     <noType name="AstraMilitarum/HeavyWeaponsSquad"/>
                 </unit>
+                <weapon>
+                    <noTrait name="AdeptusMechanicus/Cognis"/>
+                </weapon>
             </conditions>
             <effects>
                 <accuracy mul="-0.5"/>

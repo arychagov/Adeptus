@@ -6,6 +6,9 @@
                 <unit>
                     <noTrait name="Tyranids/SynapseLink"/>
                 </unit>
+                <weapon>
+                    <noTrait name="AdeptusMechanicus/Cognis"/>
+                </weapon>
             </conditions>
             <effects>
                 <accuracy mul="-0.17"/>

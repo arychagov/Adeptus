@@ -12,6 +12,9 @@
                     <noTrait name="Fortification"/>
                     <noTrait name="Hero"/>
                 </unit>
+                <weapon>
+                    <noTrait name="AdeptusMechanicus/Cognis"/>
+                </weapon>
             </conditions>
             <effects>
                 <accuracy mulMax="-0.1"

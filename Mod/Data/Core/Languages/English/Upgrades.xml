@@ -15,7 +15,7 @@
     <entry name="AdeptusMechanicus/Cognis"
            value="Cognis"/>
     <entry name="AdeptusMechanicus/CognisDescription"
-           value=""/>
+           value="Limits accuracy loss for cognis weapons."/>
     <entry name="AdeptusMechanicus/DataAnalysis"
            value="Data Analysis"/>
     <entry name="AdeptusMechanicus/DataAnalysisDescription"

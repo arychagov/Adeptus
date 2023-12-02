@@ -20,7 +20,8 @@
     <traits>
         <trait name="Blast"/>
         <trait name="Assault"/>
-        <trait name="AdeptusMechanicus/Cognis"/>
+        <trait name="AdeptusMechanicus/Cognis"
+               requiredUpgrade="AdeptusMechanicus/Cognis"/>
         <trait name="TwinLinked"/>
         <trait name="AdeptusMechanicus/AssaultWeaponBonus"
                requiredUpgrade="AdeptusMechanicus/AssaultWeaponBonus"/>
