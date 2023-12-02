@@ -22,6 +22,10 @@
            value="Decreases the armour."/>
     <entry name="AdeptusMechanicus/BlessedArmsDebuffFlavor"
            value="This household reverently maintains the masterwork weapons of former ages, their power undimmed."/>
+    <entry name="AdeptusMechanicus/DuneriderShell"
+           value="Dunerider Shell"/>
+    <entry name="AdeptusMechanicus/DuneriderShellDescription"
+           value="Increases the armour and negates open topped effect."/>
     <entry name="AdeptusMechanicus/SiphonVigourDescription"
            value="Increases the invulnerable damage reduction."/>
     <entry name="AdeptusMechanicus/GalvanicFieldDescription"

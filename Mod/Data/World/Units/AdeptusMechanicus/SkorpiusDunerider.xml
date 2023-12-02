@@ -124,5 +124,7 @@
         <trait name="UnbreakableVehicle"/>
         <trait name="AdeptusMechanicus/ControlEdict"
                requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
+        <trait name="AdeptusMechanicus/DuneriderShell"
+               requiredUpgrade="AdeptusMechanicus/DuneriderShell"/>
     </traits>
 </unit>

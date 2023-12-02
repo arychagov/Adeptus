@@ -6,6 +6,7 @@
                 <encounter>
                     <opponent>
                         <trait name="OpenTopped"/>
+                        <noTrait name="AdeptusMechanicus/DuneriderShell"/>
                     </opponent>
                 </encounter>
             </conditions>
