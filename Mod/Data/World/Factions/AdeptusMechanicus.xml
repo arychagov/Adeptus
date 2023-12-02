@@ -541,6 +541,11 @@
                         <cooldown mul="-0.5"/>
                     </effects>
                 </modifier>
+                <modifier requiredUpgrade="AdeptusMechanicus/PowerOverwhelming">
+                    <effects>
+                        <influenceCost mul="-1.0"/>
+                    </effects>
+                </modifier>
             </modifiers>
             <beginTargets>
                 <target rangeMax="-1">
@@ -581,6 +586,11 @@
                         <influenceCost base="4"/>
                     </effects>
                 </modifier>
+                <modifier requiredUpgrade="AdeptusMechanicus/PowerOverwhelming">
+                    <effects>
+                        <influenceCost mul="-0.25"/>
+                    </effects>
+                </modifier>
             </modifiers>
             <beginTargets>
                 <target rangeMax="-1">
@@ -616,6 +626,11 @@
                         <influenceCost base="4"/>
                     </effects>
                 </modifier>
+                <modifier requiredUpgrade="AdeptusMechanicus/PowerOverwhelming">
+                    <effects>
+                        <influenceCost mul="-0.25"/>
+                    </effects>
+                </modifier>
             </modifiers>
             <unitModifiers>
                 <modifier>
@@ -642,6 +657,11 @@
                 <modifier visible="0">
                     <effects>
                         <influenceCost base="4"/>
+                    </effects>
+                </modifier>
+                <modifier requiredUpgrade="AdeptusMechanicus/PowerOverwhelming">
+                    <effects>
+                        <influenceCost mul="-0.25"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -672,6 +692,11 @@
                         <influenceCost base="4"/>
                     </effects>
                 </modifier>
+                <modifier requiredUpgrade="AdeptusMechanicus/PowerOverwhelming">
+                    <effects>
+                        <influenceCost mul="-0.25"/>
+                    </effects>
+                </modifier>
             </modifiers>
             <unitModifiers>
                 <modifier>
@@ -698,6 +723,11 @@
                 <modifier visible="0">
                     <effects>
                         <influenceCost base="4"/>
+                    </effects>
+                </modifier>
+                <modifier requiredUpgrade="AdeptusMechanicus/PowerOverwhelming">
+                    <effects>
+                        <influenceCost mul="-0.25"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -728,6 +758,11 @@
                         <influenceCost base="4"/>
                     </effects>
                 </modifier>
+                <modifier requiredUpgrade="AdeptusMechanicus/PowerOverwhelming">
+                    <effects>
+                        <influenceCost mul="-0.25"/>
+                    </effects>
+                </modifier>
             </modifiers>
             <unitModifiers>
                 <modifier>
@@ -754,6 +789,11 @@
                 <modifier visible="0">
                     <effects>
                         <influenceCost base="4"/>
+                    </effects>
+                </modifier>
+                <modifier requiredUpgrade="AdeptusMechanicus/PowerOverwhelming">
+                    <effects>
+                        <influenceCost mul="-0.25"/>
                     </effects>
                 </modifier>
             </modifiers>
@@ -784,6 +824,11 @@
                         <influenceCost base="4"/>
                     </effects>
                 </modifier>
+                <modifier requiredUpgrade="AdeptusMechanicus/PowerOverwhelming">
+                    <effects>
+                        <influenceCost mul="-0.25"/>
+                    </effects>
+                </modifier>
             </modifiers>
             <unitModifiers>
                 <modifier>
@@ -812,6 +857,11 @@
                         <influenceCost base="4"/>
                     </effects>
                 </modifier>
+                <modifier requiredUpgrade="AdeptusMechanicus/PowerOverwhelming">
+                    <effects>
+                        <influenceCost mul="-0.25"/>
+                    </effects>
+                </modifier>
             </modifiers>
             <unitModifiers>
                 <modifier>
@@ -838,6 +888,11 @@
                 <modifier visible="0">
                     <effects>
                         <influenceCost base="4"/>
+                    </effects>
+                </modifier>
+                <modifier requiredUpgrade="AdeptusMechanicus/PowerOverwhelming">
+                    <effects>
+                        <influenceCost mul="-0.25"/>
                     </effects>
                 </modifier>
             </modifiers>

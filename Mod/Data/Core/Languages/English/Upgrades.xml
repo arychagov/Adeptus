@@ -51,7 +51,7 @@
     <entry name="AdeptusMechanicus/PowerOverwhelming"
            value="Power Overwhelming"/>
     <entry name="AdeptusMechanicus/PowerOverwhelmingDescription"
-           value=""/>
+           value="Removes the cost of Power Surge. Decreases the cost of invocations and doctrinas."/>
     <entry name="AdeptusMechanicus/CityTier3Description"
            value="Increases the tile acquisition radius."/>
     <entry name="AdeptusMechanicus/CognisHeavyStubberDescription"
