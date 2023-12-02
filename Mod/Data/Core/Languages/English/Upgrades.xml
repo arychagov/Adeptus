@@ -3,11 +3,11 @@
     <entry name="AdeptusMechanicus/AimAssist"
            value="Aim Assist"/>
     <entry name="AdeptusMechanicus/AimAssistDescription"
-           value=""/>
+           value="Increases the accuracy of Skitarii Vanguards and Fulgurite Electro-Priests."/>
     <entry name="AdeptusMechanicus/AircraftMastery"
            value="Aircraft Mastery"/>
     <entry name="AdeptusMechanicus/AircraftMasteryDescription"
-           value=""/>
+           value="Decreases the production cost of aircraft units."/>
     <entry name="AdeptusMechanicus/ArchaeopterTransvector"
            value="<string name='Units/AdeptusMechanicus/ArchaeopterTransvector'/>"/>
     <entry name="AdeptusMechanicus/ArchaeopterTransvectorDescription"
@@ -23,7 +23,7 @@
     <entry name="AdeptusMechanicus/DuneriderShell"
            value="Dunerider Shell"/>
     <entry name="AdeptusMechanicus/DuneriderShellDescription"
-           value="Increases the armour and negates open topped effect for Skorpius Duneriders."/>
+           value="Increases the armour and negates open-topped effect for Skorpius Duneriders."/>
     <entry name="AdeptusMechanicus/FortressOfMars"
            value="Fortress Of Mars"/>
     <entry name="AdeptusMechanicus/FortressOfMarsDescription"

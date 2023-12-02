@@ -155,5 +155,7 @@
                requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
         <trait name="AdeptusMechanicus/MatterOverMind"
                requiredUpgrade="AdeptusMechanicus/MatterOverMind"/>
+        <trait name="PreferredEnemy"
+               requiredUpgrade="AdeptusMechanicus/AimAssist"/>
     </traits>
 </unit>
