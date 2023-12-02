@@ -111,6 +111,36 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
+        <genericUnitAbility name="AdeptusMechanicus/GravitonPull"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="5"
+                            icon="Upgrades/AdeptusMechanicus/GravitonPull"
+                            requiredActionPoints="0"
+                            requiredUpgrade="AdeptusMechanicus/GravitonPull">
+            <beginTargets>
+                <target rangeMax="2">
+                    <conditions>
+                        <unit>
+                            <enemy/>
+                            <noTrait name="AdeptusMechanicus/GravitonPull"/>
+                        </unit>
+                    </conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AdeptusMechanicus/GravitonPull"
+                                                  duration="1"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </genericUnitAbility>
     </actions>
     <traits>
         <trait name="AdeptusMechanicus/DoctrinaImperatives"/>

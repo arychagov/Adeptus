@@ -22,6 +22,10 @@
            value="<string name='Traits/AdeptusMechanicus/SiphonedVigourFlavor'/>"/>
     <entry name="AdeptusMechanicus/GalvanicFieldDescription"
            value="Increases the armour penetration and accuracy of target allied Canticles of the Omnissiah or flyer unit."/>
+    <entry name="AdeptusMechanicus/GravitonPull"
+           value="Graviton Pull"/>
+    <entry name="AdeptusMechanicus/GravitonPullDescription"
+           value="Temporary slows down target enemy unit."/>
     <entry name="AdeptusMechanicus/TechAdept"
            value="Tech-Adept"/> <!-- Tech-Priest Manipulus ability -->
     <entry name="AdeptusMechanicus/TechAdeptDescription"
