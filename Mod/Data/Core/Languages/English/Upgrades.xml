@@ -12,6 +12,10 @@
            value="<string name='Units/AdeptusMechanicus/ArchaeopterTransvector'/>"/>
     <entry name="AdeptusMechanicus/ArchaeopterTransvectorDescription"
            value="<string name='Units/AdeptusMechanicus/ArchaeopterTransvectorDescription'/>"/>
+    <entry name="AdeptusMechanicus/BlessedConduits"
+           value="Blessed Conduits / Hive World Approval"/>
+    <entry name="AdeptusMechanicus/BlessedConduitsDescription"
+           value="Reduces the cooldown of Power Surge. Increases the tile acquisition radius."/>
     <entry name="AdeptusMechanicus/Cognis"
            value="Cognis"/>
     <entry name="AdeptusMechanicus/CognisDescription"

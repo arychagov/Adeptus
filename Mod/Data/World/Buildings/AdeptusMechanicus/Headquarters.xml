@@ -32,7 +32,7 @@
         <trait name="AdeptusMechanicus/CityTier2"
                requiredUpgrade="AdeptusMechanicus/Construction"/>
         <trait name="AdeptusMechanicus/CityTier3"
-               requiredUpgrade="AdeptusMechanicus/CityTier3"/>
+               requiredUpgrade="AdeptusMechanicus/BlessedConduits"/>
         <trait name="Headquarters"/>
         <trait name="Capital"/>
         <trait name="AdeptusMechanicus/ReclaimatorProtocols"
