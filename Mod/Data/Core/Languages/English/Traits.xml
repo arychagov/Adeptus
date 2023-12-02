@@ -34,10 +34,14 @@
            value="Increases the invulnerable damage reduction."/>
     <entry name="AdeptusMechanicus/GalvanicFieldDescription"
            value="Increases the armour penetration and accuracy."/>
+    <entry name="AdeptusMechanicus/GravitonMastery"
+           value="Graviton Mastery"/>
+    <entry name="AdeptusMechanicus/GravitonMasteryDescription"
+           value="Increases the accuracy."/>
     <entry name="AdeptusMechanicus/GravitonPull"
            value="Graviton Pull"/>
     <entry name="AdeptusMechanicus/GravitonPullDescription"
-           value="Slowed down."/>
+           value="Slowed down. Takes more damage with <string name='AdeptusMechanicus/GravitonMastery'/> upgrade."/>
     <entry name="AdeptusMechanicus/TechAdept"
            value="Tech-Adept"/> <!-- Tech-Priest Manipulus ability -->
     <entry name="AdeptusMechanicus/TechAdeptDescription"
