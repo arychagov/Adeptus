@@ -26,6 +26,10 @@
            value="Dunerider Shell"/>
     <entry name="AdeptusMechanicus/DuneriderShellDescription"
            value="Increases the armour and negates open topped effect."/>
+    <entry name="AdeptusMechanicus/FortressOfMars"
+           value="Fortress Of Mars"/>
+    <entry name="AdeptusMechanicus/FortressOfMarsDescription"
+           value="Increases the armour and the attack range."/>
     <entry name="AdeptusMechanicus/SiphonVigourDescription"
            value="Increases the invulnerable damage reduction."/>
     <entry name="AdeptusMechanicus/GalvanicFieldDescription"

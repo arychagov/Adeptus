@@ -94,4 +94,8 @@
            value="Retributor's Multi-Melta"/>
     <entry name="RetributorsMultiMeltaFlavor"
            value="<string name='Weapons/MultiMeltaFlavor'/>"/>
+    <entry name="GatlingRocketLauncherHQ"
+           value="<string name='Weapons/GatlingRocketLauncher'/>"/>
+    <entry name="GatlingRocketLauncherHQFlavor"
+           value="<string name='Weapons/GatlingRocketLauncherFlavor'/>"/>
 </language>

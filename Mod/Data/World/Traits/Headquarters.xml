@@ -2,6 +2,12 @@
 <trait alwaysVisible="1">
     <modifiers>
         <modifier>
+            <conditions>
+                <unit>
+                    <noFaction name="Necrons"/>
+                    <noFaction name="AdeptusMechanicus"/>
+                </unit>
+            </conditions>
             <effects>
                 <rangeMax max="2"/>
             </effects>

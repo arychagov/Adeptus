@@ -24,7 +24,7 @@
                                   muzzleCount="2"/>
             </model>
         </weapon>
-        <weapon name="GatlingRocketLauncher"
+        <weapon name="GatlingRocketLauncherHQ"
                 count="2">
             <model>
                 <missileWeapon bone="HQBone"
@@ -70,5 +70,7 @@
         <trait name="Transport"/>
         <trait name="AdeptusMechanicus/ControlEdict"
                requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
+        <trait name="AdeptusMechanicus/FortressOfMars"
+               requiredUpgrade="AdeptusMechanicus/FortressOfMars"/>
     </traits>
 </unit>
