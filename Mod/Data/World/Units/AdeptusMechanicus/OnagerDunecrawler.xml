@@ -161,5 +161,7 @@
                requiredUpgrade="AdeptusMechanicus/MachineSpiritResurgent"/>
         <trait name="AdeptusMechanicus/ControlEdict"
                requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
+        <trait name="AdeptusMechanicus/MartialPlatingOnagerDunecrawler"
+               requiredUpgrade="AdeptusMechanicus/MartialPlating"/>
     </traits>
 </unit>

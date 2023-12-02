@@ -113,5 +113,7 @@
         <trait name="UnbreakableVehicle"/>
         <trait name="AdeptusMechanicus/ControlEdict"
                requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
+        <trait name="AdeptusMechanicus/MartialPlatingSkorpiusDisintegrator"
+               requiredUpgrade="AdeptusMechanicus/MartialPlating"/>
     </traits>
 </unit>

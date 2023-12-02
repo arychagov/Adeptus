@@ -147,5 +147,7 @@
                requiredUpgrade="AdeptusMechanicus/MachineSpiritResurgent"/>
         <trait name="AdeptusMechanicus/ControlEdict"
                requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
+        <trait name="AdeptusMechanicus/MartialPlatingIronstriderBallistarius"
+               requiredUpgrade="AdeptusMechanicus/MartialPlating"/>
     </traits>
 </unit>
