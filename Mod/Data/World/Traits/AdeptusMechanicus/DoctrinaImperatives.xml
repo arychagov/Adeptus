@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait/>
+<trait>
+    <modifiers>
+        <modifier requiredUpgrade="AdeptusMechanicus/DataAnalysis">
+            <conditions>
+                <unit>
+                    <noTrait name="Hero"/>
+                </unit>
+            </conditions>
+            <effects>
+                <experienceGainRate mul="0.33"/>
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>
