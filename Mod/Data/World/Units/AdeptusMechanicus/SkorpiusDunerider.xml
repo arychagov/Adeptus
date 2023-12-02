@@ -42,7 +42,7 @@
     <modifiers>
         <modifier visible="0">
             <effects>
-                <armor base="8"/> <!-- %armor base armor=3+ -->
+                <armor base="7"/> <!-- %armor base armor=3+ -->
                 <cargoSlots base="2"/> <!-- %cargoSlots base capacity=12 -->
                 <hitpointsMax base="18.0"/>
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=6 wounds=3 -->
@@ -113,7 +113,6 @@
         </genericUnitAbility>
     </actions>
     <traits>
-        <trait name="AssaultVehicle"/>
         <trait name="AdeptusMechanicus/DoctrinaImperatives"/>
         <trait name="ExtraVehicleArmour"
                requiredUpgrade="AdeptusMechanicus/ExtraVehicleArmour"/>
