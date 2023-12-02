@@ -145,6 +145,7 @@
                         <unit match="Any">
                             <trait name="Fortification"/>
                             <trait name="Vehicle"/>
+                            <trait name="AdeptusMechanicus/MatterOverMind"/>
                         </unit>
                         <unit match="Any">
                             <noTrait name="Hero"/>
@@ -175,5 +176,7 @@
                requiredUpgrade="AdeptusMechanicus/CommandUplink"/>
         <trait name="AdeptusMechanicus/ControlEdict"
                requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
+        <trait name="AdeptusMechanicus/MatterOverMind"
+               requiredUpgrade="AdeptusMechanicus/MatterOverMind"/>
     </traits>
 </unit>

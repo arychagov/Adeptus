@@ -127,5 +127,7 @@
         <trait name="Relentless"/>
         <trait name="AdeptusMechanicus/ControlEdict"
                requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
+        <trait name="AdeptusMechanicus/MatterOverMind"
+               requiredUpgrade="AdeptusMechanicus/MatterOverMind"/>
     </traits>
 </unit>

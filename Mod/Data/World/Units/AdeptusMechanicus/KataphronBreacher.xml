@@ -100,5 +100,7 @@
         <trait name="Relentless"/>
         <trait name="MoveThroughCover"/>
         <trait name="VeryBulky"/>
+        <trait name="AdeptusMechanicus/MatterOverMind"
+               requiredUpgrade="AdeptusMechanicus/MatterOverMind"/>
     </traits>
 </unit>

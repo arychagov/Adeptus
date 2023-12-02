@@ -113,6 +113,8 @@
                requiredUpgrade="AdeptusMechanicus/Omnispex"/>
         <trait name="AdeptusMechanicus/ControlEdict"
                requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
+        <trait name="AdeptusMechanicus/MatterOverMind"
+               requiredUpgrade="AdeptusMechanicus/MatterOverMind"/>
         <!-- <trait name="Relentless"/> -->
     </traits>
 </unit>

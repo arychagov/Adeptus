@@ -98,5 +98,7 @@
         <trait name="AdeptusMechanicus/ControlEdict"
                requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
         <trait name="VeryBulky"/>
+        <trait name="AdeptusMechanicus/MatterOverMind"
+               requiredUpgrade="AdeptusMechanicus/MatterOverMind"/>
     </traits>
 </unit>
