@@ -186,6 +186,12 @@
                                                   duration="1"/>
                                     </effects>
                                 </modifier>
+                                <modifier requiredUpgrade="AdeptusMechanicus/NoEscape">
+                                    <effects>
+                                        <addTrait name="AdeptusMechanicus/GravitonPull"
+                                                  duration="2"/>
+                                    </effects>
+                                </modifier>
                             </modifiers>
                         </area>
                     </areas>
