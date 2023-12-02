@@ -30,7 +30,7 @@
     </actions>
     <traits>
         <trait name="AdeptusMechanicus/CityTier2"
-               requiredUpgrade="AdeptusMechanicus/CityTier2"/>
+               requiredUpgrade="AdeptusMechanicus/Construction"/>
         <trait name="AdeptusMechanicus/CityTier3"
                requiredUpgrade="AdeptusMechanicus/CityTier3"/>
         <trait name="Headquarters"/>

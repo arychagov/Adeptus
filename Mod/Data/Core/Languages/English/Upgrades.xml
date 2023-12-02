@@ -52,8 +52,6 @@
            value="Power Overwhelming"/>
     <entry name="AdeptusMechanicus/PowerOverwhelmingDescription"
            value=""/>
-    <entry name="AdeptusMechanicus/CityTier2Description"
-           value="Increases the tile acquisition radius."/>
     <entry name="AdeptusMechanicus/CityTier3Description"
            value="Increases the tile acquisition radius."/>
     <entry name="AdeptusMechanicus/CognisHeavyStubberDescription"
@@ -66,6 +64,10 @@
            value="Removes Doctrina Imperatives malus."/>
     <entry name="AdeptusMechanicus/ControlEdictFlavor"
            value="A Doctrina Imperative is hardly a subtle tool, disabling a soldier just as much as it enables them elsewhere. Yet, the attentions of an experienced Marshal can aid in overcoming the Imperative’s cruder commands, enabling the soldier to perform far above their nominal norms."/>
+    <entry name="AdeptusMechanicus/Construction"
+           value="Artisan Constructorum / Mavoraforming"/>
+    <entry name="AdeptusMechanicus/ConstructionDescription"
+           value="Unlocks building that constructs new buildings as well as generates food, ore and influence. Increases the tile acquisition radius."/>
     <entry name="AdeptusMechanicus/Dunestriders"
            value="Dunestriders"/>
     <entry name="AdeptusMechanicus/DunestridersDescription"
