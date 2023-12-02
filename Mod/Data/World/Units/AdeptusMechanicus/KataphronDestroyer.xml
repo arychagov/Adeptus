@@ -100,5 +100,7 @@
         <trait name="VeryBulky"/>
         <trait name="AdeptusMechanicus/MatterOverMind"
                requiredUpgrade="AdeptusMechanicus/MatterOverMind"/>
+        <trait name="AdeptusMechanicus/GravitonMastery"
+               requiredUpgrade="AdeptusMechanicus/GravitonMastery"/>
     </traits>
 </unit>

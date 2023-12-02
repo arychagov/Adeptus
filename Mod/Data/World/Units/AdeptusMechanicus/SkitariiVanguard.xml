@@ -118,5 +118,7 @@
         <trait name="PreferredEnemy"
                requiredUpgrade="AdeptusMechanicus/AimAssist"/>
         <!-- <trait name="Relentless"/> -->
+        <trait name="AdeptusMechanicus/GravitonMastery"
+               requiredUpgrade="AdeptusMechanicus/GravitonMastery"/>
     </traits>
 </unit>

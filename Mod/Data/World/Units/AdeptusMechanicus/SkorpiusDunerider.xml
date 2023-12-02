@@ -155,5 +155,7 @@
                requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
         <trait name="AdeptusMechanicus/DuneriderShell"
                requiredUpgrade="AdeptusMechanicus/DuneriderShell"/>
+        <trait name="AdeptusMechanicus/GravitonMastery"
+               requiredUpgrade="AdeptusMechanicus/GravitonMastery"/>
     </traits>
 </unit>

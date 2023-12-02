@@ -115,5 +115,7 @@
                requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
         <trait name="AdeptusMechanicus/MartialPlatingSkorpiusDisintegrator"
                requiredUpgrade="AdeptusMechanicus/MartialPlating"/>
+        <trait name="AdeptusMechanicus/GravitonMastery"
+               requiredUpgrade="AdeptusMechanicus/GravitonMastery"/>
     </traits>
 </unit>

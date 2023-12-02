@@ -35,7 +35,7 @@
     <entry name="AdeptusMechanicus/GravitonMastery"
            value="Graviton Mastery"/>
     <entry name="AdeptusMechanicus/GravitonMasteryDescription"
-           value=""/>
+           value="Increases the damage against units slowed by Graviton Pull debuff. Increases the accuracy of all Adeptus Mechanicus units."/>
     <entry name="AdeptusMechanicus/GravitonPull"
            value="Graviton Pull"/>
     <entry name="AdeptusMechanicus/GravitonPullDescription"

@@ -149,5 +149,7 @@
                requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
         <trait name="AdeptusMechanicus/MartialPlatingIronstriderBallistarius"
                requiredUpgrade="AdeptusMechanicus/MartialPlating"/>
+        <trait name="AdeptusMechanicus/GravitonMastery"
+               requiredUpgrade="AdeptusMechanicus/GravitonMastery"/>
     </traits>
 </unit>

@@ -157,5 +157,7 @@
                requiredUpgrade="AdeptusMechanicus/MatterOverMind"/>
         <trait name="PreferredEnemy"
                requiredUpgrade="AdeptusMechanicus/AimAssist"/>
+        <trait name="AdeptusMechanicus/GravitonMastery"
+               requiredUpgrade="AdeptusMechanicus/GravitonMastery"/>
     </traits>
 </unit>

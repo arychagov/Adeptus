@@ -180,5 +180,7 @@
         <trait name="AdeptusMechanicus/ControlEdict"
                requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
         <trait name="AdeptusMechanicus/BlessedArms"/>
+        <trait name="AdeptusMechanicus/GravitonMastery"
+               requiredUpgrade="AdeptusMechanicus/GravitonMastery"/>
     </traits>
 </unit>
