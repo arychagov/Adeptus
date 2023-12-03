@@ -40,8 +40,8 @@
                 <foodUpkeep base="4.0"/> <!-- %foodUpkeep base tier=8 factor=1 -->
                 <hitpointsMax base="6.0"/>
                 <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=4 wounds=2 -->
-                <influenceUpkeep base="8.0"/> <!-- %influenceUpkeep base tier=8 factor=2 -->
-                <influenceCost base="160.0"/> <!-- %influenceCost base tier=8 factor=2 -->
+                <influenceUpkeep base="6.0"/> <!-- %influenceUpkeep base tier=8 factor=2 -->
+                <influenceCost base="120.0"/> <!-- %influenceCost base tier=8 factor=2 -->
                 <itemSlots base="6"/>
                 <levelMax base="9"/>
                 <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
@@ -49,7 +49,7 @@
                 <strengthDamage base="1.5"/> <!-- %strengthDamage base strength=4 -->
                 <moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
                 <movementMax base="3"/>
-                <productionCost base="48.0"/> <!-- %productionCost base tier=8 factor=1 -->
+                <productionCost base="42.0"/> <!-- %productionCost base tier=8 factor=1 -->
                 <rangedAccuracy base="10"/> <!-- %rangedAccuracy base ballisticSkill=5 -->
             </effects>
         </modifier>
@@ -130,7 +130,9 @@
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <hitpoints add="6"/>
+                                        <hitpoints add="8"/>
+                                        <addTrait name="AdeptusMechanicus/MasterOfMachines"
+                                                  duration="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -139,6 +141,26 @@
                 </target>
             </beginTargets>
         </masterOfMachines>
+        <genericUnitAbility name="AdeptusMechanicus/MechanicusLocum"
+                            passive="1"
+                            rank="-1"
+                            rankMax="2">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AdeptusMechanicus/MechanicusLocum"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
         <scryerskull name="AdeptusMechanicus/Scryerskull"
                      cooldownMax="1"
                      cooldownMin="3"
@@ -162,9 +184,45 @@
                                 </modifier>
                             </modifiers>
                         </area>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <conditions>
+                                        <unit>
+                                            <enemy/>
+                                        </unit>
+                                    </conditions>
+                                    <effects>
+                                        <addTrait name="Scryerskull"
+                                                  duration="1"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
                     </areas>
                 </target>
             </beginTargets>
+            <endTargets>
+                <target>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <conditions>
+                                        <unit>
+                                            <enemy/>
+                                        </unit>
+                                    </conditions>
+                                    <effects>
+                                        <addTrait name="AdeptusMechanicus/Scryerskull"
+                                                  duration="1"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </endTargets>
         </scryerskull>
         <genericUnitAbility name="AdeptusMechanicus/LordOfTheMachineCult"
                             passive="1"
@@ -175,7 +233,8 @@
                     <areas>
                         <area affects="Tile"
                               excludeRadius="0"
-                              radius="1">
+                              radiusMax="3"
+                              radiusMin="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
@@ -188,54 +247,48 @@
                 </selfTarget>
             </beginTargets>
         </genericUnitAbility>
-        <wrathOfMars name="AdeptusMechanicus/WrathOfMars"
-                     consumedActionPoints="0"
-                     consumedMovement="0"
-                     cooldown="3"
-                     rank="-1"
-                     rankMax="2"
-                     requiredActionPoints="0">
+        <genericUnitAbility name="AdeptusMechanicus/BlackHole"
+                            cooldown="10"
+                            elite="1"
+                            icon="Units/AdeptusMechanicus/BlackHole"
+                            rank="-1"
+                            rankMax="0">
             <model>
                 <action animation="Units/AdeptusMechanicus/TechPriestDominusAbility"
                         sound="Actions/WrathOfMars"/>
             </model>
             <beginTargets>
-                <selfTarget>
+                <target rangeMax="3">
+                    <conditions>
+                        <tile>
+                            <noUnit/>
+                            <noFeature name="GravityWaves"/>
+                        </tile>
+                    </conditions>
                     <areas>
+                        <area affects="Tile">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addUnit name="AdeptusMechanicus/BlackHole"
+                                                 consumedAction="0"
+                                                 consumedMovement="0"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
                         <area affects="Unit">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="AdeptusMechanicus/WrathOfMars"
-                                                  duration="1"/>
+                                        <addTrait name="Summon"
+                                                  duration="2"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
                         </area>
                     </areas>
-                </selfTarget>
-            </beginTargets>
-        </wrathOfMars>
-        <genericUnitAbility name="AdeptusMechanicus/MechanicusLocum"
-                            elite="1"
-                            levelUpPriority="1"
-                            passive="1"
-                            rank="-1"
-                            rankMax="0">
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="AdeptusMechanicus/MechanicusLocum"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
+                </target>
             </beginTargets>
         </genericUnitAbility>
         <levelUp/>

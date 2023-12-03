@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
+    <entry name="AdeptusMechanicus/BlackHole"
+           value="Black Hole"/>
+    <entry name="AdeptusMechanicus/BlackHoleDescription"
+           value="Devours everything and leaves you with nothing."/>
+
     <entry name="SpaceMarines/Captain"
            value="Captain of the Lost"/>
     <entry name="SpaceMarines/ChaplainDescription"

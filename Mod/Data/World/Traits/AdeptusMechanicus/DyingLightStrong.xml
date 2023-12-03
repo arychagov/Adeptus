@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff"
+       icon="Units/AdeptusMechanicus/BlackHole">
+    <modifiers>
+        <modifier>
+            <effects>
+                <movementMax add="-2"/>
+            </effects>
+        </modifier>
+        <modifier requiredUpgrade="AdeptusMechanicus/GravitonMastery">
+            <conditions>
+                <encounter>
+                    <opponent>
+                        <faction name="AdeptusMechanicus"/>
+                    </opponent>
+                </encounter>
+                <unit>
+                    <enemy/>
+                </unit>
+            </conditions>
+            <effects>
+                <damageTaken mul="0.1"/>
+            </effects>
+        </modifier>
+    </modifiers>
+    <perTurnModifiers endure="0">
+        <modifier>
+            <conditions>
+                <unit>
+                    <noTrait name="Fortification"/>
+                </unit>
+            </conditions>
+            <effects>
+                <hitpointsFactorFromMax add="-0.25"/>
+            </effects>
+        </modifier>
+    </perTurnModifiers>
+</trait>

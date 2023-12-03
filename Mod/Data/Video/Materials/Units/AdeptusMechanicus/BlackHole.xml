@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/AdeptusMechanicus/BlackHoleDiffuse"/>
+		<texture name="Units/AdeptusMechanicus/BlackHoleNormal"/>
+		<texture name="Units/AdeptusMechanicus/BlackHoleSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

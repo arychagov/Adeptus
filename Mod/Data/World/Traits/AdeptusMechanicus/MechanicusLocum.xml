@@ -6,8 +6,10 @@
     <modifiers>
         <modifier>
             <effects>
-                <influence add="9"/>
-                <research add="9"/>
+                <influence addMax="6"
+                           addMin="2"/>
+                <research addMax="6"
+                          addMin="2"/>
             </effects>
         </modifier>
     </modifiers>

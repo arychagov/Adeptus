@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+    <model>
+        <unit bloodBone="BloodBone"
+              idleAnimation="Units/Neutral/UmbraIdle"
+              idleAnimationCount="2"
+              idleContinuously="1"
+              material="Units/AdeptusMechanicus/BlackHole"
+              mesh="Units/Neutral/Umbra"
+              normalWeight="0.1"
+              portraitZoomModifier="0.5"
+              position="0 0 42"
+              scale="3 3 3">
+            <effects>
+                <effect blueprint="Effects/BlackHole"
+                        bone="BloodBone"
+                        portraitRenderQueue="PortraitSimpleParticleSystems"
+                        position="0 0 0"
+                        renderQueue="SimpleParticleSystems"/>
+            </effects>
+        </unit>
+    </model>
+    <modifiers>
+        <modifier visible="0">
+            <effects>
+                <hitpointsMax base="999"/>
+                <armor base="999"/>
+                <levelMax base="0"/>
+                <moraleMax base="0"/>
+                <movementMax max="0"/>
+                <sight base="0"/>
+                <cityDamageReduction min="1.0"/>
+                <invulnerableDamageReduction min="1.0"/>
+                <rangedDamageReduction min="1.0"/>
+                <witchfireDamageReduction min="1.0"/>
+            </effects>
+        </modifier>
+    </modifiers>
+    <actions>
+        <die>
+            <model>
+                <action animation="Units/Neutral/UmbraDie0"
+                        sound="Units/Neutral/UmbraDie"
+                        soundCount="1"
+                        soundDelay="0"/>
+            </model>
+        </die>
+        <genericUnitAbility name="AdeptusMechanicus/DyingLight"
+                            icon="Units/AdeptusMechanicus/BlackHole"
+                            passive="1">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="1">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AdeptusMechanicus/DyingLightStrong"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                        <area affects="Tile"
+                              excludeRadius="0"
+                              radius="2">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AdeptusMechanicus/DyingLightWeak"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
+    </actions>
+    <traits>
+        <trait name="Infiltrate"/>
+    </traits>
+</unit>

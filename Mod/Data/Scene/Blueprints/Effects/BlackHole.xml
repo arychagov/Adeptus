@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpleParticleSystem enabled="1"
+                      material="Effects/GravityWaves"
+                      particleOrientation="Self"
+                      variationCount="1 1">
+    <updateQueues>
+        <updateQueue name="Parallel3"/>
+    </updateQueues>
+    <emitters>
+        <sphereEmitter emissionVolumeMax="0 0 64"
+                       emissionVolumeMin="0 0 64"
+                       interval="0.1"
+                       particleLifeTimeMax="4.0"
+                       particleLifeTimeMin="4.0"
+                       particleSizeMax="1 1"
+                       particleSizeMin="1 1"
+                       particleVelocityMax="-12"
+                       particleVelocityMin="-12"
+                       randomSpawnTimes="0"
+                       rotation="0 1 0 -90"
+                       spawns="1"/>
+    </emitters>
+    <affectors>
+        <colorAffector>
+            <colors>
+                <color progress="0.0"
+                       value="1 1 0 0"/>
+                <color progress="0.5"
+                       value="1 1 0 0.5"/>
+                <color progress="1.0"
+                       value="1 1 0 0"/>
+            </colors>
+        </colorAffector>
+        <scaleAffector>
+            <scales>
+                <scale progress="0.0"
+                       value="1 1"/>
+                <scale progress="1.0"
+                       value="350 350"/>
+            </scales>
+        </scaleAffector>
+    </affectors>
+</simpleParticleSystem>

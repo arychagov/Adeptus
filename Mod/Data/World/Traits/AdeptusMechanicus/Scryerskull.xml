@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff"
+       icon="Actions/AdeptusMechanicus/Scryerskull"
+       rankMax="2">
+    <modifiers>
+        <modifier>
+            <conditions>
+                <weapon>
+                    <noTrait name="AdeptusMechanicus/Cognis"/>
+                </weapon>
+            </conditions>
+            <effects>
+                <accuracy addMax="-2"
+                          addMin="-1"/>
+            </effects>
+        </modifier>
+        <modifier>
+            <effects>
+                <rangedDamageReduction addMax="-0.33"
+                                       addMin="-0.11"/>
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>

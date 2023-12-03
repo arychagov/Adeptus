@@ -66,6 +66,10 @@
            value="Increases the armour."/>
     <entry name="AdeptusMechanicus/MasterOfMachinesFlavor"
            value="“Our enemies may rest but rust never sleeps.”<br/>—Tech-Priest Jung, Forge World Gehenna"/>
+    <entry name="AdeptusMechanicus/MasterOfMachinesHeal"
+           value="Master of Machines"/>
+    <entry name="AdeptusMechanicus/MasterOfMachinesHealDescription"
+           value="Restores the hitpoints."/>
     <entry name="AdeptusMechanicus/MartialPlatingOnagerDunecrawler"
            value="Martial Plating"/>
     <entry name="AdeptusMechanicus/MartialPlatingOnagerDunecrawlerDescription"
@@ -84,9 +88,20 @@
            value="Increases Repulsor Grid effect and hit points."/>
     <entry name="AdeptusMechanicus/ReprogramKastelanRobotFlavor"
            value="Since the aftermath of Warmaster Horus’ rebellion the Legio Cybernetica’s robots have been controlled completely by their masters – not by the bio-plastic cerebra and nerve-like tendril webs of Mechanicum constructs, but by sanctified doctrina wafers. No bigger than the cards of the Emperor’s Tarot, these slivers of wetware are entrusted to the Cybernetica Datasmiths that accompany the robot maniples to war. Inserted into the dataslot hidden behind each robot’s chestplate, the wafer’s command protocol will dictate every iota of the host’s behaviour, usually optimising its ability to destroy its foes in a spectacular fashion."/>
+    <entry name="AdeptusMechanicus/Scryerskull"
+           value="Scryerskull"/>
+    <entry name="AdeptusMechanicus/ScryerskullDescription"
+           value="Decreases the ranged damage reduction and the accuracy."/>
     <entry name="AdeptusMechanicus/DataBlessedAutosermonDescription"
            value="Kastelan Robot does not suffer accuracy loss on hit points loss, increases accuracy. Increases attacks of Fulgurite Electro Priests."/>
-
+    <entry name="AdeptusMechanicus/DyingLightWeak"
+           value="Dying Light"/>
+    <entry name="AdeptusMechanicus/DyingLightWeakDescription"
+           value="Takes damage over time and slowed down. Takes more damage with <string name='Upgrades/AdeptusMechanicus/GravitonMastery'/> upgrade."/>
+    <entry name="AdeptusMechanicus/DyingLightStrong"
+           value="Dying Light"/>
+    <entry name="AdeptusMechanicus/DyingLightStrongDescription"
+           value="Takes damage over time and slowed down. Takes more damage with <string name='Upgrades/AdeptusMechanicus/GravitonMastery'/> upgrade."/>
     <entry name="Artefacts/LoyaltyDescription"
            value="Increases the loyalty. Space Marines get extra requisition and influence."/>
 

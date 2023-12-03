@@ -8,6 +8,14 @@
            value="Increases the movement, but decreases the accuracy of Doctrina Imperatives units. Cost scales with the amount of affected units (up to 10)."/>
     <entry name="AdeptusMechanicus/CommandUplinkDescription"
            value="Adeptus Mechanicus infantry units cannot be shaken or broken."/>
+    <entry name="AdeptusMechanicus/BlackHole"
+           value="Black Hole"/>
+    <entry name="AdeptusMechanicus/BlackHoleDescription"
+           value="Sets up temporary black hole on unoccupied tile that slows down and deals damage to surrounding units, except fortifications."/>
+    <entry name="AdeptusMechanicus/DyingLight"
+           value="Dying Light"/>
+    <entry name="AdeptusMechanicus/DyingLightDescription"
+           value="Slows down and damages nearby units, except fortifications."/>
     <entry name="AdeptusMechanicus/EnrichedRoundsDescription"
            value="Grants additional actions to target infantry unit, but it dies next turn of over saturation."/>
     <entry name="AdeptusMechanicus/ProtectorImperativeDescription"
@@ -52,6 +60,8 @@
            value="Increases Repulsor Grid effect and hit points of target allied Kastelan Robot."/>
     <entry name="AdeptusMechanicus/ReprogramKastelanRobotFlavor"
            value="Since the aftermath of Warmaster Horus’ rebellion the Legio Cybernetica’s robots have been controlled completely by their masters – not by the bio-plastic cerebra and nerve-like tendril webs of Mechanicum constructs, but by sanctified doctrina wafers. No bigger than the cards of the Emperor’s Tarot, these slivers of wetware are entrusted to the Cybernetica Datasmiths that accompany the robot maniples to war. Inserted into the dataslot hidden behind each robot’s chestplate, the wafer’s command protocol will dictate every iota of the host’s behaviour, usually optimising its ability to destroy its foes in a spectacular fashion."/>
+    <entry name="AdeptusMechanicus/ScryerskullDescription"
+           value="Reveals the target tile and adjacent tiles. Decreases the ranged damage reduction and the accuracy of enemy unit on a targeted tile."/>
     <entry name="AdeptusMechanicus/DataBlessedAutosermon"
            value="Data-Blessed Autosermon"/> <!-- Tech-Priest Manipulus elite -->
     <entry name="AdeptusMechanicus/DataBlessedAutosermonDescription"
@@ -59,7 +69,7 @@
     <entry name="AdeptusMechanicus/DataBlessedAutosermonFlavor"
            value="Struck with an infoload of revelation, truly blessed Tech-Priests will override the sacred canticles to deliver the Machine God’s adaptive wisdom."/>
     <entry name="AdeptusMechanicus/MasterOfMachinesDescription"
-           value="Restores the hitpoints of the target vehicle or fortification, or any unit with <string name='AdeptusMechanicus/MatterOverMind'/> upgrade."/>
+           value="Restores the hitpoints of the target vehicle or fortification, or any unit with <string name='Upgrades/AdeptusMechanicus/MatterOverMind'/> upgrade."/>
 
     <entry name="AstraMilitarum/AdditionalFlamer"
            value="Install Flamer"/>
