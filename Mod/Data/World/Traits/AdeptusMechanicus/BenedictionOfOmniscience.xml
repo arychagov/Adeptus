@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait category="Buff"
-       icon="Actions/AdeptusMechanicus/BenedictionOfOmniscience"
-       rankMax="9">
+       icon="Actions/AdeptusMechanicus/BenedictionOfOmniscience">
     <modifiers>
         <modifier>
             <effects>
-                <rangedAccuracy mulMax="0.5"
-                                mulMin="0.05"/>
+                <rangedAccuracy mul="0.2"/>
             </effects>
         </modifier>
     </modifiers>

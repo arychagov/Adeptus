@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait category="Buff"
-       icon="Actions/AdeptusMechanicus/IncantationOfTheIronSoul"
-       rankMax="9">
+       icon="Actions/AdeptusMechanicus/IncantationOfTheIronSoul">
     <modifiers>
         <modifier>
             <effects>
-                <moraleLossFactor mulMax="-0.5"
-                                  mulMin="-0.05"/>
+                <moraleLossFactor mul="-0.2"/>
             </effects>
         </modifier>
     </modifiers>

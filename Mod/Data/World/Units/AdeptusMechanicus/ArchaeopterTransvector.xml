@@ -139,7 +139,7 @@
         </genericUnitAbility>
         <scout consumedActionPoints="0"
                consumedMovement="0"
-               cooldown="10"
+               cooldown="3"
                requiredActionPoints="0">
             <model>
                 <action sound="Actions/Scan"/>
