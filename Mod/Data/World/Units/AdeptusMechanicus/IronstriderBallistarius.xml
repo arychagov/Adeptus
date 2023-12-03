@@ -110,30 +110,6 @@
                      interfaceSound="Interface/CycleWeapon"
                      requiredUpgrade="AdeptusMechanicus/Dunestriders"
                      weaponSlotNames="Lascannon TwinLinkedCognisAutocannon"/>
-        <hammerOfWrath consumedActionPoints="0"
-                       consumedMovement="0"
-                       cooldown="3"
-                       requiredUpgrade="AdeptusMechanicus/HammerOfWrath">
-            <model>
-                <action sound="Actions/PsychicBuff"/>
-            </model>
-            <beginTargets>
-                <selfTarget>
-                    <areas>
-                        <area affects="Unit">
-                            <modifiers>
-                                <modifier>
-                                    <effects>
-                                        <addTrait name="HammerOfWrath"
-                                                  duration="1"/>
-                                    </effects>
-                                </modifier>
-                            </modifiers>
-                        </area>
-                    </areas>
-                </selfTarget>
-            </beginTargets>
-        </hammerOfWrath>
     </actions>
     <traits>
         <trait name="AdeptusMechanicus/Bionics"/>

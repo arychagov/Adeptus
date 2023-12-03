@@ -143,8 +143,8 @@
                             <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
                         </unit>
                         <unit match="Any">
-                            <trait name="Fortification"/>
                             <trait name="Vehicle"/>
+                            <type name="AdeptusMechanicus/FulguriteElectroPriest"/>
                             <trait name="AdeptusMechanicus/MatterOverMind"/>
                         </unit>
                         <unit match="Any">
