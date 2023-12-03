@@ -52,6 +52,8 @@
            value="No Escape"/>
     <entry name="AdeptusMechanicus/NoEscapeDescription"
            value="Increases the duration of Graviton Pull effect."/>
+    <entry name="AdeptusMechanicus/OmnispexDescription"
+           value="Allows Skitarii Vanguard and Skitarii Rangers to ignore ranged damage reduction. Allows Skitarii Rangers to temporary negate penalty when firing heavy weapons after moving."/>
     <entry name="AdeptusMechanicus/PowerOverwhelming"
            value="Power Overwhelming"/>
     <entry name="AdeptusMechanicus/PowerOverwhelmingDescription"

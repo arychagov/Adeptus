@@ -25,7 +25,10 @@
                 <unit>
                     <movedThisTurn/>
                     <noTrait name="Relentless"/>
+                </unit>
+                <unit match="Any">
                     <type name="AstraMilitarum/HeavyWeaponsSquad"/>
+                    <type name="AdeptusMechanicus/SkitariiRanger"/>
                 </unit>
             </conditions>
             <effects>

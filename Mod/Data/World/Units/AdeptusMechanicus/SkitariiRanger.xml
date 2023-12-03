@@ -117,6 +117,30 @@
                 </target>
             </beginTargets>
         </genericUnitAbility>
+        <genericUnitAbility name="SpaceMarines/TacticalPrecision"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="5"
+                            icon="Actions/Signum"
+                            requiredActionPoints="0"
+                            requiredUpgrade="AdeptusMechanicus/Omnispex">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="Relentless"
+                                                  duration="1"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
     </actions>
     <traits>
         <trait name="AdeptusMechanicus/DoctrinaImperatives"/>
@@ -130,7 +154,6 @@
                requiredUpgrade="AdeptusMechanicus/CommandUplink"/>
         <trait name="AdeptusMechanicus/Omnispex"
                requiredUpgrade="AdeptusMechanicus/Omnispex"/>
-        <trait name="Relentless"/>
         <trait name="AdeptusMechanicus/ControlEdict"
                requiredUpgrade="AdeptusMechanicus/ControlEdict"/>
         <trait name="AdeptusMechanicus/MatterOverMind"
