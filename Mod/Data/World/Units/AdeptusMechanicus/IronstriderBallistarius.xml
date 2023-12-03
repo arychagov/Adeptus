@@ -49,7 +49,7 @@
                 <moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
                 <movementMax base="3"/>
                 <productionCost base="30.0"/> <!-- %productionCost base tier=5 factor=1 -->
-                <rangedAccuracy base="9"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+                <rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
             </effects>
         </modifier>
     </modifiers>

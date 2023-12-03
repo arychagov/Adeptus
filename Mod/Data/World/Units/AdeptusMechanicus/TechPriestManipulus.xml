@@ -40,8 +40,8 @@
                 <foodUpkeep base="3.0"/> <!-- %foodUpkeep base tier=7 factor=1 -->
                 <hitpointsMax base="9.0"/>
                 <duplicateTypeCost mul="2.0"/> <!-- %hitpointsMax base toughness=4 wounds=2 -->
-                <influenceUpkeep base="6.0"/> <!-- %influenceUpkeep base tier=7 factor=2 -->
-                <influenceCost base="120.0"/> <!-- %influenceCost base tier=7 factor=2 -->
+                <influenceUpkeep base="5.0"/> <!-- %influenceUpkeep base tier=7 factor=2 -->
+                <influenceCost base="100.0"/> <!-- %influenceCost base tier=7 factor=2 -->
                 <itemSlots base="6"/>
                 <levelMax base="9"/>
                 <meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
@@ -49,7 +49,7 @@
                 <strengthDamage base="1.5"/> <!-- %strengthDamage base strength=4 -->
                 <moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
                 <movementMax base="3"/>
-                <productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+                <productionCost base="40.0"/> <!-- %productionCost base tier=7 factor=1 -->
                 <rangedAccuracy base="10"/> <!-- %rangedAccuracy base ballisticSkill=5 -->
             </effects>
         </modifier>
