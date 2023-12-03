@@ -21,6 +21,7 @@
     <traits>
         <trait name="Haywire"/>
         <trait name="HeavyWeapon"/>
+        <trait name="GravitonPull"/>
         <trait name="AdeptusMechanicus/HeavyWeaponBonus"
                requiredUpgrade="AdeptusMechanicus/HeavyWeaponBonus"/>
     </traits>

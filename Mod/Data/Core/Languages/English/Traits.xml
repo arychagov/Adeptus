@@ -1260,4 +1260,16 @@
            value="Berserk"/>
     <entry name="UnbreakableMonstrousCreatureDescription"
            value="Does not suffer accuracy loss on hit points loss"/>
+    <entry name="GravitonPull"
+           value="Graviton Pull"/>
+    <entry name="GravitonPullDescription"
+           value="Applies Graviton Pull slow effect."/>
+    <entry name="Pierce"
+           value="Pierce"/>
+    <entry name="PierceDescription"
+           value="Applies the armour decrease debuff on attack."/>
+    <entry name="Pierced"
+           value="Pierce"/>
+    <entry name="PiercedDescription"
+           value="Decreases the armour."/>
 </language>

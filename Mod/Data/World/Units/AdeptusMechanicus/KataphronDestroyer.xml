@@ -14,7 +14,7 @@
     <group memberDeltaX="80"
            memberDeltaY="80"
            rowSize="3"
-           size="3"/>
+           size="2"/>
     <weapons>
         <weapon name="HeavyGravCannon">
             <model>
@@ -33,7 +33,7 @@
             <effects>
                 <foodUpkeep base="4.0"/> <!-- %foodUpkeep base tier=8 factor=1 -->
                 <foodCost base="40.0"/> <!-- %foodCost base tier=8 factor=0.5 -->
-                <hitpointsMax base="8.0"/>
+                <hitpointsMax base="12.0"/>
                 <duplicateTypeCost mul="0.125"/> <!-- %hitpointsMax base toughness=5 wounds=2 -->
                 <meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
                 <meleeAttacks base="1"/>
@@ -43,7 +43,7 @@
                 <movementMax base="3"/>
                 <productionCost base="48.0"/> <!-- %productionCost base tier=8 factor=1 -->
                 <rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
-                <armor base="7"/> <!-- %armor base armor=4+ -->
+                <armor base="8"/> <!-- %armor base armor=4+ -->
             </effects>
         </modifier>
     </modifiers>

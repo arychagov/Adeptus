@@ -22,11 +22,13 @@
             </effects>
         </modifier>
     </modifiers>
-    <target rangeMax="2"/>
+    <target rangeMax="3"/>
     <traits>
         <trait name="Assault"/>
         <trait name="Concussive"/>
         <trait name="Graviton"/>
+        <trait name="GravitonPull"/>
+        <trait name="Pierce"/>
         <trait name="Salvo"/>
         <trait name="AdeptusMechanicus/AssaultWeaponBonus"
                requiredUpgrade="AdeptusMechanicus/AssaultWeaponBonus"/>
