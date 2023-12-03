@@ -111,13 +111,13 @@
                 </selfTarget>
             </beginTargets>
         </controlEdict>
-        <aggressionOverride name="AdeptusMechanicus/AggressionOverride"
-                            consumedActionPoints="0"
+        <genericUnitAbility name="AdeptusMechanicus/SetupOutpost"
+                            cooldownMax="3"
                             consumedMovement="0"
-                            cooldown="2"
+                            cooldownMin="7"
+                            icon="Features/Outpost"
                             rank="-1"
-                            rankMax="2"
-                            requiredActionPoints="0">
+                            rankMax="2">
             <model>
                 <action animation="Units/AdeptusMechanicus/SkitariiMarshalAbility"
                         sound="Actions/AggressionOverride"/>
@@ -125,21 +125,26 @@
             <beginTargets>
                 <target rangeMax="2">
                     <conditions>
-                        <unit>
-                            <allied/>
-                            <faction name="AdeptusMechanicus"/>
-                            <noTrait name="Vehicle"/>
-                            <noTrait name="Fortification"/>
-                            <noTrait name="MonstrousCreature"/>
-                        </unit>
+                        <tile>
+                            <land/>
+                            <noEnemyCity/>
+                            <noEnemyPlayer/>
+                            <noEnemyUnit/>
+                            <noFeature name="Outpost"/>
+                            <noFeature name="GravityWaves"/>
+                        </tile>
                     </conditions>
                     <areas>
-                        <area affects="Unit">
+                        <area affects="Tile">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="AdeptusMechanicus/AggressionOverride"
-                                                  duration="1"/>
+                                        <addFeature name="Outpost"
+                                                    durationMax="3"
+                                                    durationMin="1"/>
+                                        <addFeature name="OutpostMockResource"
+                                                    durationMax="3"
+                                                    durationMin="1"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -147,8 +152,9 @@
                     </areas>
                 </target>
             </beginTargets>
-        </aggressionOverride>
-        <genericUnitAbility name="AdeptusMechanicus/ServoSkullUplink"
+        </genericUnitAbility>
+        <genericUnitAbility name="AdeptusMechanicus/RadSaturationMarshall"
+                            icon="Actions/AdeptusMechanicus/RadSaturation"
                             passive="1"
                             rank="-1"
                             rankMax="2">
@@ -156,12 +162,23 @@
                 <selfTarget>
                     <areas>
                         <area affects="Tile"
+                              excludeRadius="0"
+                              radius="2">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AdeptusMechanicus/RadSaturation"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                        <area affects="Tile"
                               radiusMax="3"
                               radiusMin="1">
                             <modifiers>
                                 <modifier>
                                     <effects>
-                                        <addTrait name="AdeptusMechanicus/ServoSkullUplink"/>
+                                        <addTrait name="AdeptusMechanicus/RadSaturationMarshall"/>
                                     </effects>
                                 </modifier>
                             </modifiers>
@@ -184,21 +201,20 @@
                         sound="Actions/EnrichedRounds"/>
             </model>
             <beginTargets>
-                <selfTarget>
+                <target rangeMax="2">
+                    <conditions>
+                        <unit>
+                            <allied/>
+                            <faction name="AdeptusMechanicus"/>
+                            <noTrait name="Vehicle"/>
+                            <noTrait name="Fortification"/>
+                            <noTrait name="MonstrousCreature"/>
+                        </unit>
+                    </conditions>
                     <areas>
-                        <area affects="Unit"
-                              radius="3">
+                        <area affects="Unit">
                             <modifiers>
                                 <modifier>
-                                    <conditions>
-                                        <unit>
-                                            <allied/>
-                                            <faction name="AdeptusMechanicus"/>
-                                            <noTrait name="Vehicle"/>
-                                            <noTrait name="Fortification"/>
-                                            <noTrait name="MonstrousCreature"/>
-                                        </unit>
-                                    </conditions>
                                     <effects>
                                         <addTrait name="AdeptusMechanicus/EnrichedRounds"
                                                   duration="1"/>
@@ -207,7 +223,7 @@
                             </modifiers>
                         </area>
                     </areas>
-                </selfTarget>
+                </target>
             </beginTargets>
         </enrichedRounds>
         <levelUp/>

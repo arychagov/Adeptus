@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff"
+<trait category="Debuff"
        icon="Actions/AdeptusMechanicus/EnrichedRounds">
     <modifiers>
         <modifier>
             <effects>
-                <damage mul="0.15"/>
+                <actionPointsMax add="2"/>
+                <actionPoints add="2"/>
             </effects>
         </modifier>
     </modifiers>
+    <onTraitRemovedModifiers>
+        <modifier>
+            <effects>
+                <removeUnit/>
+            </effects>
+        </modifier>
+    </onTraitRemovedModifiers>
 </trait>

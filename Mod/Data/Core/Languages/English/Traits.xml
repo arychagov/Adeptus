@@ -30,6 +30,8 @@
            value="Dunerider Shell"/>
     <entry name="AdeptusMechanicus/DuneriderShellDescription"
            value="Increases the armour and negates open topped effect."/>
+    <entry name="AdeptusMechanicus/EnrichedRoundsDescription"
+           value="Dies on the next turn."/>
     <entry name="AdeptusMechanicus/FortressOfMars"
            value="Fortress Of Mars"/>
     <entry name="AdeptusMechanicus/FortressOfMarsDescription"
@@ -46,6 +48,12 @@
            value="Graviton Pull"/>
     <entry name="AdeptusMechanicus/GravitonPullDescription"
            value="Slowed down. Takes more damage with <string name='AdeptusMechanicus/GravitonMastery'/> upgrade."/>
+    <entry name="AdeptusMechanicus/RadSaturationMarshall"
+           value="Rad-Saturation (Amplifier)"/>
+    <entry name="AdeptusMechanicus/RadSaturationMarshallDescription"
+           value="Increases the damage and the armour penetration of Rad-Saturation."/>
+    <entry name="AdeptusMechanicus/RadSaturationMarshallFlavor"
+           value="Harnessing the destructive energies of forge worlds within their weaponry, certain Skitarii are so soaked in radiation that even to approach them is to confer a death sentence upon yourself. Victory for them is pyrrhic, as this radiation burns through even their heavy armour plate, slowly poisoning them to death even as their carbines bring about the (much quicker) demise of their enemies."/>
     <entry name="AdeptusMechanicus/TechAdept"
            value="Tech-Adept"/> <!-- Tech-Priest Manipulus ability -->
     <entry name="AdeptusMechanicus/TechAdeptDescription"

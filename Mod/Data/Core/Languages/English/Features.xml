@@ -20,4 +20,7 @@
            value="Cursed Ground"/>
     <entry name="CursedGroundDescription"
            value="Feature that ends the movement of a unit and applies damage over time debuff to the enemy."/>
+    <entry name="OutpostMockResource"
+           value="Outpost"/>
+
 </language>
