@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
+    <entry name="AdeptusMechanicus/AdditionalCognisHeavyStubber"
+           value="Installed Cognis Heavy Stubber"/>
+    <entry name="AdeptusMechanicus/AdditionalCognisHeavyStubber"
+           value="Grants this unit additional Cognis Heavy Stubber.<br/><br/><string name='Actions/UpgradeDisclaimer'/>"/>
     <entry name="AdeptusMechanicus/AggressorImperativeDescription"
            value="Increases the movement, but decreases the armour."/>
     <entry name="AdeptusMechanicus/CommandUplinkDescription"

@@ -20,6 +20,8 @@
            value="Cognis"/>
     <entry name="AdeptusMechanicus/CognisDescription"
            value="Limits accuracy loss for cognis weapons."/>
+    <entry name="AdeptusMechanicus/CognisHeavyStubberDescription"
+           value="Grants Kastelan Robots and Onager Dunecrawlers an ability to install Cognis Heavy Stubber."/>
     <entry name="AdeptusMechanicus/DataAnalysis"
            value="Data Analysis"/>
     <entry name="AdeptusMechanicus/DataAnalysisDescription"

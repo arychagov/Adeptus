@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
+    <entry name="AdeptusMechanicus/AdditionalCognisHeavyStubber"
+           value="Install Cognis Heavy Stubber"/>
+    <entry name="AdeptusMechanicus/AdditionalCognisHeavyStubber"
+           value="Grants this unit additional Cognis Heavy Stubber.<br/><br/><string name='Actions/UpgradeDisclaimer'/>"/>
     <entry name="AdeptusMechanicus/AggressorImperativeDescription"
            value="Increases the movement, but decreases the accuracy of Doctrina Imperatives units. Cost scales with the amount of affected units (up to 10)."/>
     <entry name="AdeptusMechanicus/CommandUplinkDescription"

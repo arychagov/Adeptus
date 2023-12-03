@@ -23,9 +23,6 @@
         <weapon name="Lascannon"
                 enabled="0"
                 slotName="Lascannon"/>
-        <weapon name="CognisHeavyStubber"
-                count="1"
-                requiredUpgrade="AdeptusMechanicus/CognisHeavyStubber"/>
         <weapon name="None"
                 enabled="0"
                 requiredUpgrade="AdeptusMechanicus/BroadSpectrumDataTether">
