@@ -47,7 +47,7 @@
     <entry name="AdeptusMechanicus/GravitonPull"
            value="Graviton Pull"/>
     <entry name="AdeptusMechanicus/GravitonPullDescription"
-           value="Slowed down. Takes more damage with <string name='AdeptusMechanicus/GravitonMastery'/> upgrade."/>
+           value="Slowed down. Takes more damage with <string name='Upgrades/AdeptusMechanicus/GravitonMastery'/> upgrade."/>
     <entry name="AdeptusMechanicus/RadSaturationMarshall"
            value="Rad-Saturation (Amplifier)"/>
     <entry name="AdeptusMechanicus/RadSaturationMarshallDescription"
