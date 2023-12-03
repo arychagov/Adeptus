@@ -573,8 +573,7 @@
                                   cooldown="3"
                                   durationInSeconds="0.1"
                                   rankMax="9"
-                                  requiredUpgrade="AdeptusMechanicus/LitanyOfTheElectromancer"
-                                  scaleInfluenceCost="1">
+                                  requiredUpgrade="AdeptusMechanicus/LitanyOfTheElectromancer">
             <model>
                 <action sound="Actions/LitanyOfTheElectromancer"/>
             </model>
@@ -583,7 +582,7 @@
                     <effects>
                         <attacks mulMax="9.0"
                                  mulMin="0.0"/>
-                        <influenceCost base="4"/>
+                        <influenceCost base="60"/>
                     </effects>
                 </modifier>
                 <modifier requiredUpgrade="AdeptusMechanicus/PowerOverwhelming">
