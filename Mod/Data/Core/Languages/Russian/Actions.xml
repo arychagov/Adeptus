@@ -39,7 +39,7 @@
     <entry name="AdeptusMechanicus/DataBlessedAutosermonDescription"
            value="Grants nearby allied Kastelan Robots ability to not suffer accuracy loss on hit points loss, increases their accuracy. Increases nearby allied Fulgurite Electro Priests attacks."/>
     <entry name="AdeptusMechanicus/DataBlessedAutosermonFlavor"
-           value="Struck with an Infoload of revelation, truly blessed Tech-Priests will override the sacred canticles to deliver the Machine God’s adaptive wisdom."/>
+           value="Struck with an infoload of revelation, truly blessed Tech-Priests will override the sacred canticles to deliver the Machine God’s adaptive wisdom."/>
 
     <entry name="AstraMilitarum/AdditionalFlamer"
            value="Install Flamer"/>
