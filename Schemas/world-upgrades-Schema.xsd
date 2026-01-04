@@ -1,111 +1,126 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Version 1.0 Compiled by Kurziel 1/29/23 -->
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	<xs:element name="gameData">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="requiredUpgrades">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="upgrade">
-								<xs:complexType>
-									<xs:attribute name="name" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="strategyModifiers">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="modifier">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element name="effects">
-											<xs:complexType mixed="true">
-												<xs:sequence minOccurs="0">
-													<xs:choice maxOccurs="unbounded">
-														<xs:element name="increaseVehiclesScore">
-															<xs:complexType>
-																<xs:attribute name="base" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="increaseInfantryScore">
-															<xs:complexType>
-																<xs:attribute name="base" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="increaseInfluenceRadiusScore">
-															<xs:complexType>
-																<xs:attribute name="base" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="increaseAircraftScore">
-															<xs:complexType>
-																<xs:attribute name="base" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="increaseEnergyScore">
-															<xs:complexType>
-																<xs:attribute name="base" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="increaseFoodScore">
-															<xs:complexType>
-																<xs:attribute name="base" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="increaseLoyaltyScore">
-															<xs:complexType>
-																<xs:attribute name="base" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="increaseOreScore">
-															<xs:complexType>
-																<xs:attribute name="base" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="increaseResearchScore">
-															<xs:complexType>
-																<xs:attribute name="base" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="increaseHeroesScore">
-															<xs:complexType>
-																<xs:attribute name="base" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="increaseCitiesScore">
-															<xs:complexType>
-																<xs:attribute name="base" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="increasePopulationLimitScore">
-															<xs:complexType>
-																<xs:attribute name="base" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="increaseInfluenceScore">
-															<xs:complexType>
-																<xs:attribute name="base" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="increaseSupportScore">
-															<xs:complexType>
-																<xs:attribute name="base" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-													</xs:choice>
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
-									</xs:sequence>
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="gameData">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="requiredUpgrades">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="upgrade">
+                                <xs:complexType>
+                                    <xs:attribute name="name" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="strategyModifiers">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="modifier">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="effects">
+                                            <xs:complexType mixed="true">
+                                                <xs:sequence minOccurs="0">
+                                                    <xs:choice maxOccurs="unbounded">
+                                                        <xs:element name="increaseVehiclesScore">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="base" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="increaseInfantryScore">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="base" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="increaseInfluenceRadiusScore">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="base" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="increaseAircraftScore">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="base" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="increaseEnergyScore">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="base" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="increaseFoodScore">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="base" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="increaseLoyaltyScore">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="base" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="increaseOreScore">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="base" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="increaseResearchScore">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="base" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="increaseHeroesScore">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="base" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="increaseCitiesScore">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="base" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="increasePopulationLimitScore">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="base" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="increaseInfluenceScore">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="base" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="increaseSupportScore">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="base" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:choice>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 </xs:schema>

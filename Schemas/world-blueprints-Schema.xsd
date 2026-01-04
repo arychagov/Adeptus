@@ -1,467 +1,468 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Version 1.0 Compiled by Kurziel 1/29/23 -->
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	<xs:element name="gameData">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="packs">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="pack">
-								<xs:complexType mixed="true">
-									<xs:sequence minOccurs="0">
-										<xs:element name="unit">
-											<xs:complexType>
-												<xs:attribute name="type" type="xs:string" use="required" />
-											</xs:complexType>
-										</xs:element>
-									</xs:sequence>
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="defaultModifiers">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="modifier">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element name="effects">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element minOccurs="0" name="actionPointsMax">
-														<xs:complexType>
-															<xs:attribute name="base" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" name="armor">
-														<xs:complexType>
-															<xs:attribute name="base" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" name="meleeArmorPenetration">
-														<xs:complexType>
-															<xs:attribute name="base" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" name="cargoSlots">
-														<xs:complexType>
-															<xs:attribute name="base" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" name="cargoSlotsRequired">
-														<xs:complexType>
-															<xs:attribute name="base" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" name="experienceGainRate">
-														<xs:complexType>
-															<xs:attribute name="base" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" name="healingRate">
-														<xs:complexType>
-															<xs:attribute name="base" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" name="itemSlots">
-														<xs:complexType>
-															<xs:attribute name="base" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" name="levelMax">
-														<xs:complexType>
-															<xs:attribute name="base" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" name="meleeAccuracy">
-														<xs:complexType>
-															<xs:attribute name="base" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" name="meleeAttacks">
-														<xs:complexType>
-															<xs:attribute name="base" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" name="moraleLossFactor">
-														<xs:complexType>
-															<xs:attribute name="base" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" name="moraleMax">
-														<xs:complexType>
-															<xs:attribute name="base" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" name="moraleRegeneration">
-														<xs:complexType>
-															<xs:attribute name="base" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" name="movementMax">
-														<xs:complexType>
-															<xs:attribute name="base" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" name="productionCost">
-														<xs:complexType>
-															<xs:attribute name="base" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" name="rangedAccuracy">
-														<xs:complexType>
-															<xs:attribute name="base" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" name="sight">
-														<xs:complexType>
-															<xs:attribute name="base" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" name="influencePerTile">
-														<xs:complexType>
-															<xs:attribute name="base" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" name="loyaltyPerCity">
-														<xs:complexType>
-															<xs:attribute name="base" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
-									</xs:sequence>
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="colors">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="color">
-								<xs:complexType>
-									<xs:attribute name="name" type="xs:string" use="required" />
-									<xs:attribute name="value" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="arcticRegionDensities">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="arcticRegionDensity">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="artefactDensities">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="artefactDensity">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="desertRegionDensities">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="desertRegionDensity">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="difficulties">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="difficulty">
-								<xs:complexType>
-									<xs:attribute name="loyaltyModifier" type="xs:string" use="required" />
-									<xs:attribute name="levelModifier" type="xs:string" use="optional" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="forestDensities">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="forestDensity">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="holySiteDensities">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="holySiteDensity">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="imperialRuinsDensities">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="imperialRuinsDensity">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="jokaeroTraderEncampmentDensities">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="jokaeroTraderEncampmentDensity">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="landMasses">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="landMass">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="necronTombDensities">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="necronTombDensity">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="orkoidFungusDensities">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="orkoidFungusDensity">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="paces">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="pace">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="regionDensities">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="regionDensity">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="regionSizes">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="regionSize">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="researchCosts">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="researchCosts">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="resourceCosts">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="resourceCost">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="resourceUpkeeps">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="resourceUpkeep">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="riverDensities">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="riverDensity">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="ruinsOfVaulDensities">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="ruinsOfVaulDensity">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="sizes">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="size">
-								<xs:complexType>
-									<xs:attribute name="dimension" type="xs:string" use="required" />
-									<xs:attribute name="recommendedPlayers" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="specialResourceDensities">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="specialResourceDensity">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="startingResources">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="startingResource">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="tropicalRegionDensities">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="tropicalRegionDensity">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="turnTimers">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="turnTimer">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="volcanicRegionDensities">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="volcanicRegionDensity">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="webwayGateDensities">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="webwayGateDensity">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="wildlifeDensities">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="wildlifeDensity">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="wireWeedDensities">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="wireWeedDensity">
-								<xs:complexType>
-									<xs:attribute name="modifier" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="gameData">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="packs">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="pack">
+                                <xs:complexType mixed="true">
+                                    <xs:sequence minOccurs="0">
+                                        <xs:element name="unit">
+                                            <xs:complexType>
+                                                <xs:attribute name="type" type="xs:string" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="defaultModifiers">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="modifier">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="effects">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element minOccurs="0" name="actionPointsMax">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="base" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="armor">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="base" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="meleeArmorPenetration">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="base" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="cargoSlots">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="base" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="cargoSlotsRequired">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="base" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="experienceGainRate">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="base" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="healingRate">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="base" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="itemSlots">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="base" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="levelMax">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="base" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="meleeAccuracy">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="base" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="meleeAttacks">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="base" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="moraleLossFactor">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="base" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="moraleMax">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="base" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="moraleRegeneration">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="base" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="movementMax">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="base" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="productionCost">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="base" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="rangedAccuracy">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="base" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="sight">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="base" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="influencePerTile">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="base" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="loyaltyPerCity">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="base" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="colors">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="color">
+                                <xs:complexType>
+                                    <xs:attribute name="name" type="xs:string" use="required"/>
+                                    <xs:attribute name="value" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="arcticRegionDensities">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="arcticRegionDensity">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="artefactDensities">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="artefactDensity">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="desertRegionDensities">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="desertRegionDensity">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="difficulties">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="difficulty">
+                                <xs:complexType>
+                                    <xs:attribute name="loyaltyModifier" type="xs:string" use="required"/>
+                                    <xs:attribute name="levelModifier" type="xs:string" use="optional"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="forestDensities">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="forestDensity">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="holySiteDensities">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="holySiteDensity">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="imperialRuinsDensities">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="imperialRuinsDensity">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="jokaeroTraderEncampmentDensities">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="jokaeroTraderEncampmentDensity">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="landMasses">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="landMass">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="necronTombDensities">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="necronTombDensity">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="orkoidFungusDensities">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="orkoidFungusDensity">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="paces">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="pace">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="regionDensities">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="regionDensity">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="regionSizes">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="regionSize">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="researchCosts">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="researchCosts">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="resourceCosts">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="resourceCost">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="resourceUpkeeps">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="resourceUpkeep">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="riverDensities">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="riverDensity">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="ruinsOfVaulDensities">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="ruinsOfVaulDensity">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="sizes">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="size">
+                                <xs:complexType>
+                                    <xs:attribute name="dimension" type="xs:string" use="required"/>
+                                    <xs:attribute name="recommendedPlayers" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="specialResourceDensities">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="specialResourceDensity">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="startingResources">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="startingResource">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="tropicalRegionDensities">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="tropicalRegionDensity">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="turnTimers">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="turnTimer">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="volcanicRegionDensities">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="volcanicRegionDensity">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="webwayGateDensities">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="webwayGateDensity">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="wildlifeDensities">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="wildlifeDensity">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="wireWeedDensities">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="wireWeedDensity">
+                                <xs:complexType>
+                                    <xs:attribute name="modifier" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 </xs:schema>

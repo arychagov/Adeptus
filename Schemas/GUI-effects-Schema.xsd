@@ -1,54 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Version 1.0 Compiled by Kurziel 1/29/23 -->
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	<xs:element name="gameData">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="affectors">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:choice maxOccurs="unbounded">
-								<xs:element maxOccurs="unbounded" name="colorAffector">
-									<xs:complexType>
-										<xs:sequence>
-											<xs:element name="colors">
-												<xs:complexType mixed="true">
-													<xs:sequence minOccurs="0">
-														<xs:element name="color">
-															<xs:complexType>
-																<xs:attribute name="value" type="xs:string" use="required" />
-																<xs:attribute name="progress" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-													</xs:sequence>
-												</xs:complexType>
-											</xs:element>
-										</xs:sequence>
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="translationAffector">
-									<xs:complexType>
-										<xs:sequence>
-											<xs:element name="translations">
-												<xs:complexType>
-													<xs:sequence>
-														<xs:element maxOccurs="unbounded" name="translation">
-															<xs:complexType>
-																<xs:attribute name="value" type="xs:string" use="required" />
-																<xs:attribute name="progress" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-													</xs:sequence>
-												</xs:complexType>
-											</xs:element>
-										</xs:sequence>
-									</xs:complexType>
-								</xs:element>
-							</xs:choice>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="gameData">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="affectors">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:choice maxOccurs="unbounded">
+                                <xs:element maxOccurs="unbounded" name="colorAffector">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="colors">
+                                                <xs:complexType mixed="true">
+                                                    <xs:sequence minOccurs="0">
+                                                        <xs:element name="color">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="value" type="xs:string"
+                                                                              use="required"/>
+                                                                <xs:attribute name="progress" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="translationAffector">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="translations">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element maxOccurs="unbounded" name="translation">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="value" type="xs:string"
+                                                                              use="required"/>
+                                                                <xs:attribute name="progress" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:choice>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 </xs:schema>

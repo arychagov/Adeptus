@@ -1,290 +1,301 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Version 1.0 Compiled by Kurziel 1/29/23 -->
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	<xs:element name="gameData">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="traits">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="trait">
-								<xs:complexType>
-									<xs:attribute name="name" type="xs:string" use="required" />
-									<xs:attribute name="requiredUpgrade" type="xs:string" use="optional" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="actions">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="tactic">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element name="modifiers">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element name="modifier">
-														<xs:complexType mixed="true">
-															<xs:sequence minOccurs="0">
-																<xs:element name="effects">
-																	<xs:complexType>
-																		<xs:sequence>
-																			<xs:element name="influenceCost">
-																				<xs:complexType>
-																					<xs:attribute name="base" type="xs:string" use="required" />
-																				</xs:complexType>
-																			</xs:element>
-																		</xs:sequence>
-																	</xs:complexType>
-																</xs:element>
-															</xs:sequence>
-															<xs:attribute name="visible" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
-										<xs:element name="actorModifiers">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element name="modifier" type="xs:string" />
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
-										<xs:element minOccurs="0" name="strategyModifiers">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element name="modifier" type="xs:string" />
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
-									</xs:sequence>
-									<xs:attribute name="cooldown" type="xs:string" use="required" />
-									<xs:attribute name="durationInSeconds" type="xs:string" use="required" />
-									<xs:attribute name="interfaceSound" type="xs:string" use="required" />
-									<xs:attribute name="name" type="xs:string" use="required" />
-									<xs:attribute name="requiredUpgrade" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-							<xs:element name="riteOfChange">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element name="modifiers">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element name="modifier">
-														<xs:complexType>
-															<xs:simpleContent>
-																<xs:extension base="xs:string">
-																	<xs:attribute name="visible" type="xs:string" use="required" />
-																</xs:extension>
-															</xs:simpleContent>
-														</xs:complexType>
-													</xs:element>
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
-										<xs:element name="actorModifiers">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element name="modifier" type="xs:string" />
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
-									</xs:sequence>
-									<xs:attribute name="cooldown" type="xs:string" use="required" />
-									<xs:attribute name="durationInSeconds" type="xs:string" use="required" />
-									<xs:attribute name="interfaceSound" type="xs:string" use="required" />
-									<xs:attribute name="name" type="xs:string" use="required" />
-									<xs:attribute name="requiredUpgrade" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-							<xs:element name="riteOfPestilence">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element name="modifiers">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element name="modifier">
-														<xs:complexType>
-															<xs:simpleContent>
-																<xs:extension base="xs:string">
-																	<xs:attribute name="visible" type="xs:string" use="required" />
-																</xs:extension>
-															</xs:simpleContent>
-														</xs:complexType>
-													</xs:element>
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
-										<xs:element name="actorModifiers">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element name="modifier" type="xs:string" />
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
-									</xs:sequence>
-									<xs:attribute name="cooldown" type="xs:string" use="required" />
-									<xs:attribute name="durationInSeconds" type="xs:string" use="required" />
-									<xs:attribute name="interfaceSound" type="xs:string" use="required" />
-									<xs:attribute name="name" type="xs:string" use="required" />
-									<xs:attribute name="requiredUpgrade" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-							<xs:element name="riteOfBlood">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element name="modifiers">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element name="modifier">
-														<xs:complexType>
-															<xs:simpleContent>
-																<xs:extension base="xs:string">
-																	<xs:attribute name="visible" type="xs:string" use="required" />
-																</xs:extension>
-															</xs:simpleContent>
-														</xs:complexType>
-													</xs:element>
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
-										<xs:element name="actorModifiers">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element name="modifier" type="xs:string" />
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
-									</xs:sequence>
-									<xs:attribute name="cooldown" type="xs:string" use="required" />
-									<xs:attribute name="durationInSeconds" type="xs:string" use="required" />
-									<xs:attribute name="interfaceSound" type="xs:string" use="required" />
-									<xs:attribute name="name" type="xs:string" use="required" />
-									<xs:attribute name="requiredUpgrade" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-							<xs:element name="riteOfUnholyPleasure">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element name="modifiers">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element name="modifier">
-														<xs:complexType>
-															<xs:simpleContent>
-																<xs:extension base="xs:string">
-																	<xs:attribute name="visible" type="xs:string" use="required" />
-																</xs:extension>
-															</xs:simpleContent>
-														</xs:complexType>
-													</xs:element>
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
-										<xs:element name="actorModifiers">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element name="modifier" type="xs:string" />
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
-									</xs:sequence>
-									<xs:attribute name="cooldown" type="xs:string" use="required" />
-									<xs:attribute name="durationInSeconds" type="xs:string" use="required" />
-									<xs:attribute name="interfaceSound" type="xs:string" use="required" />
-									<xs:attribute name="name" type="xs:string" use="required" />
-									<xs:attribute name="requiredUpgrade" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-							<xs:element name="asuryaniArrivals">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element name="modifiers">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element maxOccurs="unbounded" name="modifier">
-														<xs:complexType>
-															<xs:simpleContent>
-																<xs:extension base="xs:string">
-																	<xs:attribute name="visible" type="xs:string" use="optional" />
-																	<xs:attribute name="requiredUpgrade" type="xs:string" use="optional" />
-																</xs:extension>
-															</xs:simpleContent>
-														</xs:complexType>
-													</xs:element>
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
-										<xs:element name="actorModifiers">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element name="modifier" type="xs:string" />
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
-									</xs:sequence>
-									<xs:attribute name="cooldown" type="xs:string" use="required" />
-									<xs:attribute name="durationInSeconds" type="xs:string" use="required" />
-									<xs:attribute name="interfaceSound" type="xs:string" use="required" />
-									<xs:attribute name="name" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-							<xs:element name="transcendentBliss">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element name="modifiers">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element name="modifier">
-														<xs:complexType>
-															<xs:simpleContent>
-																<xs:extension base="xs:string">
-																	<xs:attribute name="visible" type="xs:string" use="required" />
-																</xs:extension>
-															</xs:simpleContent>
-														</xs:complexType>
-													</xs:element>
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
-										<xs:element name="actorModifiers">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element name="modifier" type="xs:string" />
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
-									</xs:sequence>
-									<xs:attribute name="cooldown" type="xs:string" use="required" />
-									<xs:attribute name="durationInSeconds" type="xs:string" use="required" />
-									<xs:attribute name="interfaceSound" type="xs:string" use="required" />
-									<xs:attribute name="name" type="xs:string" use="required" />
-									<xs:attribute name="requiredUpgrade" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="modifiers">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="modifier">
-								<xs:complexType>
-									<xs:simpleContent>
-										<xs:extension base="xs:string">
-											<xs:attribute name="requiredUpgrade" type="xs:string" use="optional" />
-										</xs:extension>
-									</xs:simpleContent>
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="gameData">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="traits">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="trait">
+                                <xs:complexType>
+                                    <xs:attribute name="name" type="xs:string" use="required"/>
+                                    <xs:attribute name="requiredUpgrade" type="xs:string" use="optional"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="actions">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="tactic">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="modifiers">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="modifier">
+                                                        <xs:complexType mixed="true">
+                                                            <xs:sequence minOccurs="0">
+                                                                <xs:element name="effects">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="influenceCost">
+                                                                                <xs:complexType>
+                                                                                    <xs:attribute name="base"
+                                                                                                  type="xs:string"
+                                                                                                  use="required"/>
+                                                                                </xs:complexType>
+                                                                            </xs:element>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                            <xs:attribute name="visible" type="xs:string"
+                                                                          use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="actorModifiers">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="modifier" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element minOccurs="0" name="strategyModifiers">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="modifier" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="cooldown" type="xs:string" use="required"/>
+                                    <xs:attribute name="durationInSeconds" type="xs:string" use="required"/>
+                                    <xs:attribute name="interfaceSound" type="xs:string" use="required"/>
+                                    <xs:attribute name="name" type="xs:string" use="required"/>
+                                    <xs:attribute name="requiredUpgrade" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="riteOfChange">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="modifiers">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="modifier">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="visible" type="xs:string"
+                                                                                  use="required"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="actorModifiers">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="modifier" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="cooldown" type="xs:string" use="required"/>
+                                    <xs:attribute name="durationInSeconds" type="xs:string" use="required"/>
+                                    <xs:attribute name="interfaceSound" type="xs:string" use="required"/>
+                                    <xs:attribute name="name" type="xs:string" use="required"/>
+                                    <xs:attribute name="requiredUpgrade" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="riteOfPestilence">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="modifiers">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="modifier">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="visible" type="xs:string"
+                                                                                  use="required"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="actorModifiers">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="modifier" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="cooldown" type="xs:string" use="required"/>
+                                    <xs:attribute name="durationInSeconds" type="xs:string" use="required"/>
+                                    <xs:attribute name="interfaceSound" type="xs:string" use="required"/>
+                                    <xs:attribute name="name" type="xs:string" use="required"/>
+                                    <xs:attribute name="requiredUpgrade" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="riteOfBlood">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="modifiers">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="modifier">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="visible" type="xs:string"
+                                                                                  use="required"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="actorModifiers">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="modifier" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="cooldown" type="xs:string" use="required"/>
+                                    <xs:attribute name="durationInSeconds" type="xs:string" use="required"/>
+                                    <xs:attribute name="interfaceSound" type="xs:string" use="required"/>
+                                    <xs:attribute name="name" type="xs:string" use="required"/>
+                                    <xs:attribute name="requiredUpgrade" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="riteOfUnholyPleasure">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="modifiers">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="modifier">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="visible" type="xs:string"
+                                                                                  use="required"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="actorModifiers">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="modifier" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="cooldown" type="xs:string" use="required"/>
+                                    <xs:attribute name="durationInSeconds" type="xs:string" use="required"/>
+                                    <xs:attribute name="interfaceSound" type="xs:string" use="required"/>
+                                    <xs:attribute name="name" type="xs:string" use="required"/>
+                                    <xs:attribute name="requiredUpgrade" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="asuryaniArrivals">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="modifiers">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element maxOccurs="unbounded" name="modifier">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="visible" type="xs:string"
+                                                                                  use="optional"/>
+                                                                    <xs:attribute name="requiredUpgrade"
+                                                                                  type="xs:string" use="optional"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="actorModifiers">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="modifier" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="cooldown" type="xs:string" use="required"/>
+                                    <xs:attribute name="durationInSeconds" type="xs:string" use="required"/>
+                                    <xs:attribute name="interfaceSound" type="xs:string" use="required"/>
+                                    <xs:attribute name="name" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="transcendentBliss">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="modifiers">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="modifier">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="visible" type="xs:string"
+                                                                                  use="required"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="actorModifiers">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="modifier" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="cooldown" type="xs:string" use="required"/>
+                                    <xs:attribute name="durationInSeconds" type="xs:string" use="required"/>
+                                    <xs:attribute name="interfaceSound" type="xs:string" use="required"/>
+                                    <xs:attribute name="name" type="xs:string" use="required"/>
+                                    <xs:attribute name="requiredUpgrade" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="modifiers">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="modifier">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="requiredUpgrade" type="xs:string" use="optional"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 </xs:schema>

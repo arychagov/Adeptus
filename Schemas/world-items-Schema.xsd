@@ -1,811 +1,964 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Version 1.0 Compiled by Kurziel 1/29/23 -->
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	<xs:element name="gameData">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="actions">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:choice maxOccurs="unbounded">
-								<xs:element maxOccurs="unbounded" name="genericUnitAbility">
-									<xs:complexType>
-										<xs:sequence>
-											<xs:element minOccurs="0" name="combatEndedProcessUseConditions" type="xs:string" />
-											<xs:element name="beginTargets">
-												<xs:complexType>
-													<xs:sequence>
-														<xs:element name="selfTarget">
-															<xs:complexType>
-																<xs:sequence>
-																	<xs:element name="areas">
-																		<xs:complexType>
-																			<xs:sequence>
-																				<xs:element name="area">
-																					<xs:complexType>
-																						<xs:sequence>
-																							<xs:element name="modifiers">
-																								<xs:complexType>
-																									<xs:sequence>
-																										<xs:element name="modifier">
-																											<xs:complexType>
-																												<xs:sequence>
-																													<xs:element name="effects">
-																														<xs:complexType>
-																															<xs:sequence>
-																																<xs:element name="addTrait">
-																																	<xs:complexType>
-																																		<xs:attribute name="name" type="xs:string" use="required" />
-																																	</xs:complexType>
-																																</xs:element>
-																															</xs:sequence>
-																														</xs:complexType>
-																													</xs:element>
-																												</xs:sequence>
-																											</xs:complexType>
-																										</xs:element>
-																									</xs:sequence>
-																								</xs:complexType>
-																							</xs:element>
-																						</xs:sequence>
-																						<xs:attribute name="affects" type="xs:string" use="required" />
-																					</xs:complexType>
-																				</xs:element>
-																			</xs:sequence>
-																		</xs:complexType>
-																	</xs:element>
-																</xs:sequence>
-															</xs:complexType>
-														</xs:element>
-													</xs:sequence>
-												</xs:complexType>
-											</xs:element>
-										</xs:sequence>
-										<xs:attribute name="passive" type="xs:string" use="required" />
-										<xs:attribute name="cooldown" type="xs:string" use="optional" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="blightGrenade">
-									<xs:complexType>
-										<xs:sequence>
-											<xs:element name="model">
-												<xs:complexType>
-													<xs:sequence>
-														<xs:element name="action">
-															<xs:complexType>
-																<xs:attribute name="sound" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-													</xs:sequence>
-												</xs:complexType>
-											</xs:element>
-											<xs:element name="beginTargets">
-												<xs:complexType>
-													<xs:sequence>
-														<xs:element name="target">
-															<xs:complexType>
-																<xs:sequence>
-																	<xs:element name="conditions">
-																		<xs:complexType>
-																			<xs:sequence>
-																				<xs:element name="unit">
-																					<xs:complexType>
-																						<xs:sequence>
-																							<xs:element name="enemy" />
-																							<xs:element maxOccurs="unbounded" name="noTrait">
-																								<xs:complexType>
-																									<xs:attribute name="name" type="xs:string" use="required" />
-																								</xs:complexType>
-																							</xs:element>
-																						</xs:sequence>
-																					</xs:complexType>
-																				</xs:element>
-																			</xs:sequence>
-																		</xs:complexType>
-																	</xs:element>
-																	<xs:element name="areas">
-																		<xs:complexType>
-																			<xs:sequence>
-																				<xs:element name="area">
-																					<xs:complexType>
-																						<xs:sequence>
-																							<xs:element name="modifiers">
-																								<xs:complexType>
-																									<xs:sequence>
-																										<xs:element name="modifier">
-																											<xs:complexType>
-																												<xs:sequence>
-																													<xs:element name="effects">
-																														<xs:complexType>
-																															<xs:sequence>
-																																<xs:element name="addTrait">
-																																	<xs:complexType>
-																																		<xs:attribute name="duration" type="xs:string" use="required" />
-																																		<xs:attribute name="name" type="xs:string" use="required" />
-																																	</xs:complexType>
-																																</xs:element>
-																															</xs:sequence>
-																														</xs:complexType>
-																													</xs:element>
-																												</xs:sequence>
-																											</xs:complexType>
-																										</xs:element>
-																									</xs:sequence>
-																								</xs:complexType>
-																							</xs:element>
-																						</xs:sequence>
-																						<xs:attribute name="affects" type="xs:string" use="required" />
-																					</xs:complexType>
-																				</xs:element>
-																			</xs:sequence>
-																		</xs:complexType>
-																	</xs:element>
-																</xs:sequence>
-																<xs:attribute name="rangeMax" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-													</xs:sequence>
-												</xs:complexType>
-											</xs:element>
-										</xs:sequence>
-										<xs:attribute name="charges" type="xs:string" use="required" />
-										<xs:attribute name="consumedActionPoints" type="xs:string" use="required" />
-										<xs:attribute name="consumedMovement" type="xs:string" use="required" />
-										<xs:attribute name="requiredActionPoints" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="blindGrenade">
-									<xs:complexType>
-										<xs:sequence>
-											<xs:element name="beginTargets">
-												<xs:complexType>
-													<xs:sequence>
-														<xs:element name="target">
-															<xs:complexType>
-																<xs:sequence>
-																	<xs:element name="areas">
-																		<xs:complexType>
-																			<xs:sequence>
-																				<xs:element name="area">
-																					<xs:complexType>
-																						<xs:sequence>
-																							<xs:element name="modifiers">
-																								<xs:complexType>
-																									<xs:sequence>
-																										<xs:element name="modifier">
-																											<xs:complexType>
-																												<xs:sequence>
-																													<xs:element name="effects">
-																														<xs:complexType>
-																															<xs:sequence>
-																																<xs:element name="addTrait">
-																																	<xs:complexType>
-																																		<xs:attribute name="duration" type="xs:string" use="required" />
-																																		<xs:attribute name="name" type="xs:string" use="required" />
-																																	</xs:complexType>
-																																</xs:element>
-																															</xs:sequence>
-																														</xs:complexType>
-																													</xs:element>
-																												</xs:sequence>
-																											</xs:complexType>
-																										</xs:element>
-																									</xs:sequence>
-																								</xs:complexType>
-																							</xs:element>
-																						</xs:sequence>
-																						<xs:attribute name="affects" type="xs:string" use="required" />
-																					</xs:complexType>
-																				</xs:element>
-																			</xs:sequence>
-																		</xs:complexType>
-																	</xs:element>
-																</xs:sequence>
-																<xs:attribute name="rangeMax" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-													</xs:sequence>
-												</xs:complexType>
-											</xs:element>
-										</xs:sequence>
-										<xs:attribute name="charges" type="xs:string" use="required" />
-										<xs:attribute name="consumedActionPoints" type="xs:string" use="required" />
-										<xs:attribute name="consumedMovement" type="xs:string" use="required" />
-										<xs:attribute name="requiredActionPoints" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="combatStimulant">
-									<xs:complexType>
-										<xs:sequence>
-											<xs:element name="beginTargets">
-												<xs:complexType>
-													<xs:sequence>
-														<xs:element name="selfTarget">
-															<xs:complexType>
-																<xs:sequence>
-																	<xs:element name="areas">
-																		<xs:complexType>
-																			<xs:sequence>
-																				<xs:element name="area">
-																					<xs:complexType>
-																						<xs:sequence>
-																							<xs:element name="modifiers">
-																								<xs:complexType>
-																									<xs:sequence>
-																										<xs:element name="modifier">
-																											<xs:complexType>
-																												<xs:sequence>
-																													<xs:element name="effects">
-																														<xs:complexType>
-																															<xs:sequence>
-																																<xs:element name="addTrait">
-																																	<xs:complexType>
-																																		<xs:attribute name="duration" type="xs:string" use="required" />
-																																		<xs:attribute name="name" type="xs:string" use="required" />
-																																	</xs:complexType>
-																																</xs:element>
-																															</xs:sequence>
-																														</xs:complexType>
-																													</xs:element>
-																												</xs:sequence>
-																											</xs:complexType>
-																										</xs:element>
-																									</xs:sequence>
-																								</xs:complexType>
-																							</xs:element>
-																						</xs:sequence>
-																						<xs:attribute name="affects" type="xs:string" use="required" />
-																					</xs:complexType>
-																				</xs:element>
-																			</xs:sequence>
-																		</xs:complexType>
-																	</xs:element>
-																</xs:sequence>
-															</xs:complexType>
-														</xs:element>
-													</xs:sequence>
-												</xs:complexType>
-											</xs:element>
-										</xs:sequence>
-										<xs:attribute name="charges" type="xs:string" use="required" />
-										<xs:attribute name="consumedActionPoints" type="xs:string" use="required" />
-										<xs:attribute name="consumedMovement" type="xs:string" use="required" />
-										<xs:attribute name="requiredActionPoints" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="dimensionalKey">
-									<xs:complexType>
-										<xs:simpleContent>
-											<xs:extension base="xs:string">
-												<xs:attribute name="cooldown" type="xs:string" use="required" />
-											</xs:extension>
-										</xs:simpleContent>
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="faolchusWing">
-									<xs:complexType>
-										<xs:sequence>
-											<xs:element name="beginTargets">
-												<xs:complexType>
-													<xs:sequence>
-														<xs:element name="selfTarget">
-															<xs:complexType>
-																<xs:sequence>
-																	<xs:element name="areas">
-																		<xs:complexType>
-																			<xs:sequence>
-																				<xs:element name="area">
-																					<xs:complexType>
-																						<xs:sequence>
-																							<xs:element name="modifiers">
-																								<xs:complexType>
-																									<xs:sequence>
-																										<xs:element name="modifier">
-																											<xs:complexType>
-																												<xs:sequence>
-																													<xs:element name="effects">
-																														<xs:complexType>
-																															<xs:sequence>
-																																<xs:element name="addTrait">
-																																	<xs:complexType>
-																																		<xs:attribute name="name" type="xs:string" use="required" />
-																																		<xs:attribute name="duration" type="xs:string" use="required" />
-																																	</xs:complexType>
-																																</xs:element>
-																															</xs:sequence>
-																														</xs:complexType>
-																													</xs:element>
-																												</xs:sequence>
-																											</xs:complexType>
-																										</xs:element>
-																									</xs:sequence>
-																								</xs:complexType>
-																							</xs:element>
-																						</xs:sequence>
-																						<xs:attribute name="affects" type="xs:string" use="required" />
-																					</xs:complexType>
-																				</xs:element>
-																			</xs:sequence>
-																		</xs:complexType>
-																	</xs:element>
-																</xs:sequence>
-															</xs:complexType>
-														</xs:element>
-													</xs:sequence>
-												</xs:complexType>
-											</xs:element>
-										</xs:sequence>
-										<xs:attribute name="cooldown" type="xs:string" use="required" />
-										<xs:attribute name="consumedMovement" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="forbiddenKnowledge">
-									<xs:complexType>
-										<xs:sequence>
-											<xs:element name="beginTargets">
-												<xs:complexType>
-													<xs:sequence>
-														<xs:element name="selfTarget">
-															<xs:complexType>
-																<xs:sequence>
-																	<xs:element name="areas">
-																		<xs:complexType>
-																			<xs:sequence>
-																				<xs:element name="area">
-																					<xs:complexType>
-																						<xs:sequence>
-																							<xs:element name="modifiers">
-																								<xs:complexType>
-																									<xs:sequence>
-																										<xs:element name="modifier">
-																											<xs:complexType>
-																												<xs:sequence>
-																													<xs:element name="effects">
-																														<xs:complexType>
-																															<xs:sequence>
-																																<xs:element name="level">
-																																	<xs:complexType>
-																																		<xs:attribute name="add" type="xs:string" use="required" />
-																																	</xs:complexType>
-																																</xs:element>
-																																<xs:element name="influencePerExperience">
-																																	<xs:complexType>
-																																		<xs:attribute name="max" type="xs:string" use="required" />
-																																	</xs:complexType>
-																																</xs:element>
-																																<xs:element name="researchPerExperience">
-																																	<xs:complexType>
-																																		<xs:attribute name="max" type="xs:string" use="required" />
-																																	</xs:complexType>
-																																</xs:element>
-																															</xs:sequence>
-																														</xs:complexType>
-																													</xs:element>
-																												</xs:sequence>
-																											</xs:complexType>
-																										</xs:element>
-																									</xs:sequence>
-																								</xs:complexType>
-																							</xs:element>
-																						</xs:sequence>
-																						<xs:attribute name="affects" type="xs:string" use="required" />
-																					</xs:complexType>
-																				</xs:element>
-																			</xs:sequence>
-																		</xs:complexType>
-																	</xs:element>
-																</xs:sequence>
-															</xs:complexType>
-														</xs:element>
-													</xs:sequence>
-												</xs:complexType>
-											</xs:element>
-										</xs:sequence>
-										<xs:attribute name="charges" type="xs:string" use="required" />
-										<xs:attribute name="consumedActionPoints" type="xs:string" use="required" />
-										<xs:attribute name="consumedMovement" type="xs:string" use="required" />
-										<xs:attribute name="requiredActionPoints" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="jokaeroDigitalWeapon">
-									<xs:complexType>
-										<xs:sequence>
-											<xs:element name="beginTargets">
-												<xs:complexType>
-													<xs:sequence>
-														<xs:element name="target">
-															<xs:complexType>
-																<xs:sequence>
-																	<xs:element name="areas">
-																		<xs:complexType>
-																			<xs:sequence>
-																				<xs:element name="area">
-																					<xs:complexType>
-																						<xs:sequence>
-																							<xs:element name="modifiers">
-																								<xs:complexType>
-																									<xs:sequence>
-																										<xs:element name="modifier">
-																											<xs:complexType>
-																												<xs:sequence>
-																													<xs:element name="effects">
-																														<xs:complexType>
-																															<xs:sequence>
-																																<xs:element name="weaponDamage">
-																																	<xs:complexType>
-																																		<xs:attribute name="weapon" type="xs:string" use="required" />
-																																	</xs:complexType>
-																																</xs:element>
-																															</xs:sequence>
-																														</xs:complexType>
-																													</xs:element>
-																												</xs:sequence>
-																											</xs:complexType>
-																										</xs:element>
-																									</xs:sequence>
-																								</xs:complexType>
-																							</xs:element>
-																						</xs:sequence>
-																						<xs:attribute name="affects" type="xs:string" use="required" />
-																					</xs:complexType>
-																				</xs:element>
-																			</xs:sequence>
-																		</xs:complexType>
-																	</xs:element>
-																</xs:sequence>
-																<xs:attribute name="rangeMax" type="xs:string" use="required" />
-																<xs:attribute name="lineOfSight" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-													</xs:sequence>
-												</xs:complexType>
-											</xs:element>
-										</xs:sequence>
-										<xs:attribute name="consumedActionPoints" type="xs:string" use="required" />
-										<xs:attribute name="consumedMovement" type="xs:string" use="required" />
-										<xs:attribute name="cooldown" type="xs:string" use="required" />
-										<xs:attribute name="icon" type="xs:string" use="required" />
-										<xs:attribute name="requiredActionPoints" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="laurelsOfCommand">
-									<xs:complexType>
-										<xs:sequence>
-											<xs:element name="beginTargets">
-												<xs:complexType>
-													<xs:sequence>
-														<xs:element name="selfTarget">
-															<xs:complexType>
-																<xs:sequence>
-																	<xs:element name="areas">
-																		<xs:complexType>
-																			<xs:sequence>
-																				<xs:element name="area">
-																					<xs:complexType>
-																						<xs:sequence>
-																							<xs:element name="modifiers">
-																								<xs:complexType>
-																									<xs:sequence>
-																										<xs:element name="modifier">
-																											<xs:complexType>
-																												<xs:sequence>
-																													<xs:element name="effects">
-																														<xs:complexType>
-																															<xs:sequence>
-																																<xs:element name="morale">
-																																	<xs:complexType>
-																																		<xs:attribute name="add" type="xs:string" use="required" />
-																																	</xs:complexType>
-																																</xs:element>
-																															</xs:sequence>
-																														</xs:complexType>
-																													</xs:element>
-																												</xs:sequence>
-																											</xs:complexType>
-																										</xs:element>
-																									</xs:sequence>
-																								</xs:complexType>
-																							</xs:element>
-																						</xs:sequence>
-																						<xs:attribute name="affects" type="xs:string" use="required" />
-																						<xs:attribute name="radius" type="xs:string" use="required" />
-																					</xs:complexType>
-																				</xs:element>
-																			</xs:sequence>
-																		</xs:complexType>
-																	</xs:element>
-																</xs:sequence>
-															</xs:complexType>
-														</xs:element>
-													</xs:sequence>
-												</xs:complexType>
-											</xs:element>
-										</xs:sequence>
-										<xs:attribute name="cooldown" type="xs:string" use="required" />
-										<xs:attribute name="consumedActionPoints" type="xs:string" use="required" />
-										<xs:attribute name="consumedMovement" type="xs:string" use="required" />
-										<xs:attribute name="icon" type="xs:string" use="required" />
-										<xs:attribute name="requiredActionPoints" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="poweredBolas">
-									<xs:complexType>
-										<xs:sequence>
-											<xs:element name="beginTargets">
-												<xs:complexType>
-													<xs:sequence>
-														<xs:element name="target">
-															<xs:complexType>
-																<xs:sequence>
-																	<xs:element name="areas">
-																		<xs:complexType>
-																			<xs:sequence>
-																				<xs:element name="area">
-																					<xs:complexType>
-																						<xs:sequence>
-																							<xs:element name="modifiers">
-																								<xs:complexType>
-																									<xs:sequence>
-																										<xs:element name="modifier">
-																											<xs:complexType>
-																												<xs:sequence>
-																													<xs:element name="effects">
-																														<xs:complexType>
-																															<xs:sequence>
-																																<xs:element name="addTrait">
-																																	<xs:complexType>
-																																		<xs:attribute name="duration" type="xs:string" use="required" />
-																																		<xs:attribute name="name" type="xs:string" use="required" />
-																																	</xs:complexType>
-																																</xs:element>
-																															</xs:sequence>
-																														</xs:complexType>
-																													</xs:element>
-																												</xs:sequence>
-																											</xs:complexType>
-																										</xs:element>
-																									</xs:sequence>
-																								</xs:complexType>
-																							</xs:element>
-																						</xs:sequence>
-																						<xs:attribute name="affects" type="xs:string" use="required" />
-																					</xs:complexType>
-																				</xs:element>
-																			</xs:sequence>
-																		</xs:complexType>
-																	</xs:element>
-																</xs:sequence>
-																<xs:attribute name="rangeMax" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-													</xs:sequence>
-												</xs:complexType>
-											</xs:element>
-										</xs:sequence>
-										<xs:attribute name="cooldown" type="xs:string" use="optional" />
-										<xs:attribute name="consumedActionPoints" type="xs:string" use="required" />
-										<xs:attribute name="consumedMovement" type="xs:string" use="required" />
-										<xs:attribute name="requiredActionPoints" type="xs:string" use="required" />
-										<xs:attribute name="charges" type="xs:string" use="optional" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="mediPack">
-									<xs:complexType>
-										<xs:sequence>
-											<xs:element name="beginTargets">
-												<xs:complexType>
-													<xs:sequence>
-														<xs:element name="selfTarget">
-															<xs:complexType>
-																<xs:sequence>
-																	<xs:element name="areas">
-																		<xs:complexType>
-																			<xs:sequence>
-																				<xs:element name="area">
-																					<xs:complexType>
-																						<xs:sequence>
-																							<xs:element name="modifiers">
-																								<xs:complexType>
-																									<xs:sequence>
-																										<xs:element name="modifier">
-																											<xs:complexType>
-																												<xs:sequence>
-																													<xs:element name="effects">
-																														<xs:complexType>
-																															<xs:sequence>
-																																<xs:element name="hitpointsFactorFromMax">
-																																	<xs:complexType>
-																																		<xs:attribute name="add" type="xs:string" use="required" />
-																																	</xs:complexType>
-																																</xs:element>
-																															</xs:sequence>
-																														</xs:complexType>
-																													</xs:element>
-																												</xs:sequence>
-																											</xs:complexType>
-																										</xs:element>
-																									</xs:sequence>
-																								</xs:complexType>
-																							</xs:element>
-																						</xs:sequence>
-																						<xs:attribute name="affects" type="xs:string" use="required" />
-																					</xs:complexType>
-																				</xs:element>
-																			</xs:sequence>
-																		</xs:complexType>
-																	</xs:element>
-																</xs:sequence>
-															</xs:complexType>
-														</xs:element>
-													</xs:sequence>
-												</xs:complexType>
-											</xs:element>
-										</xs:sequence>
-										<xs:attribute name="charges" type="xs:string" use="required" />
-										<xs:attribute name="consumedActionPoints" type="xs:string" use="required" />
-										<xs:attribute name="consumedMovement" type="xs:string" use="required" />
-										<xs:attribute name="requiredActionPoints" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="stunGrenade">
-									<xs:complexType>
-										<xs:sequence>
-											<xs:element name="beginTargets">
-												<xs:complexType>
-													<xs:sequence>
-														<xs:element name="target">
-															<xs:complexType>
-																<xs:sequence>
-																	<xs:element name="areas">
-																		<xs:complexType>
-																			<xs:sequence>
-																				<xs:element name="area">
-																					<xs:complexType>
-																						<xs:sequence>
-																							<xs:element name="modifiers">
-																								<xs:complexType>
-																									<xs:sequence>
-																										<xs:element name="modifier">
-																											<xs:complexType>
-																												<xs:sequence>
-																													<xs:element name="effects">
-																														<xs:complexType>
-																															<xs:sequence>
-																																<xs:element name="addTrait">
-																																	<xs:complexType>
-																																		<xs:attribute name="duration" type="xs:string" use="required" />
-																																		<xs:attribute name="name" type="xs:string" use="required" />
-																																	</xs:complexType>
-																																</xs:element>
-																															</xs:sequence>
-																														</xs:complexType>
-																													</xs:element>
-																												</xs:sequence>
-																											</xs:complexType>
-																										</xs:element>
-																									</xs:sequence>
-																								</xs:complexType>
-																							</xs:element>
-																						</xs:sequence>
-																						<xs:attribute name="affects" type="xs:string" use="required" />
-																					</xs:complexType>
-																				</xs:element>
-																			</xs:sequence>
-																		</xs:complexType>
-																	</xs:element>
-																</xs:sequence>
-																<xs:attribute name="rangeMax" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-													</xs:sequence>
-												</xs:complexType>
-											</xs:element>
-										</xs:sequence>
-										<xs:attribute name="charges" type="xs:string" use="required" />
-										<xs:attribute name="consumedActionPoints" type="xs:string" use="required" />
-										<xs:attribute name="consumedMovement" type="xs:string" use="required" />
-										<xs:attribute name="icon" type="xs:string" use="required" />
-										<xs:attribute name="requiredActionPoints" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="temporaryShield">
-									<xs:complexType>
-										<xs:sequence>
-											<xs:element name="beginTargets">
-												<xs:complexType>
-													<xs:sequence>
-														<xs:element name="selfTarget">
-															<xs:complexType>
-																<xs:sequence>
-																	<xs:element name="areas">
-																		<xs:complexType>
-																			<xs:sequence>
-																				<xs:element name="area">
-																					<xs:complexType>
-																						<xs:sequence>
-																							<xs:element name="modifiers">
-																								<xs:complexType>
-																									<xs:sequence>
-																										<xs:element name="modifier">
-																											<xs:complexType>
-																												<xs:sequence>
-																													<xs:element name="effects">
-																														<xs:complexType>
-																															<xs:sequence>
-																																<xs:element name="addTrait">
-																																	<xs:complexType>
-																																		<xs:attribute name="duration" type="xs:string" use="required" />
-																																		<xs:attribute name="name" type="xs:string" use="required" />
-																																	</xs:complexType>
-																																</xs:element>
-																															</xs:sequence>
-																														</xs:complexType>
-																													</xs:element>
-																												</xs:sequence>
-																											</xs:complexType>
-																										</xs:element>
-																									</xs:sequence>
-																								</xs:complexType>
-																							</xs:element>
-																						</xs:sequence>
-																						<xs:attribute name="affects" type="xs:string" use="required" />
-																					</xs:complexType>
-																				</xs:element>
-																			</xs:sequence>
-																		</xs:complexType>
-																	</xs:element>
-																</xs:sequence>
-															</xs:complexType>
-														</xs:element>
-													</xs:sequence>
-												</xs:complexType>
-											</xs:element>
-										</xs:sequence>
-										<xs:attribute name="charges" type="xs:string" use="required" />
-										<xs:attribute name="consumedActionPoints" type="xs:string" use="required" />
-										<xs:attribute name="consumedMovement" type="xs:string" use="required" />
-										<xs:attribute name="requiredActionPoints" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-							</xs:choice>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="modifiers">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="modifier">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element name="effects">
-											<xs:complexType mixed="true">
-												<xs:sequence minOccurs="0">
-													<xs:element name="influenceCost">
-														<xs:complexType>
-															<xs:attribute name="base" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
-									</xs:sequence>
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="traits">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="trait">
-								<xs:complexType>
-									<xs:attribute name="name" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="gameData">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="actions">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:choice maxOccurs="unbounded">
+                                <xs:element maxOccurs="unbounded" name="genericUnitAbility">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element minOccurs="0" name="combatEndedProcessUseConditions"
+                                                        type="xs:string"/>
+                                            <xs:element name="beginTargets">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element name="selfTarget">
+                                                            <xs:complexType>
+                                                                <xs:sequence>
+                                                                    <xs:element name="areas">
+                                                                        <xs:complexType>
+                                                                            <xs:sequence>
+                                                                                <xs:element name="area">
+                                                                                    <xs:complexType>
+                                                                                        <xs:sequence>
+                                                                                            <xs:element
+                                                                                                    name="modifiers">
+                                                                                                <xs:complexType>
+                                                                                                    <xs:sequence>
+                                                                                                        <xs:element
+                                                                                                                name="modifier">
+                                                                                                            <xs:complexType>
+                                                                                                                <xs:sequence>
+                                                                                                                    <xs:element
+                                                                                                                            name="effects">
+                                                                                                                        <xs:complexType>
+                                                                                                                            <xs:sequence>
+                                                                                                                                <xs:element
+                                                                                                                                        name="addTrait">
+                                                                                                                                    <xs:complexType>
+                                                                                                                                        <xs:attribute
+                                                                                                                                                name="name"
+                                                                                                                                                type="xs:string"
+                                                                                                                                                use="required"/>
+                                                                                                                                    </xs:complexType>
+                                                                                                                                </xs:element>
+                                                                                                                            </xs:sequence>
+                                                                                                                        </xs:complexType>
+                                                                                                                    </xs:element>
+                                                                                                                </xs:sequence>
+                                                                                                            </xs:complexType>
+                                                                                                        </xs:element>
+                                                                                                    </xs:sequence>
+                                                                                                </xs:complexType>
+                                                                                            </xs:element>
+                                                                                        </xs:sequence>
+                                                                                        <xs:attribute name="affects"
+                                                                                                      type="xs:string"
+                                                                                                      use="required"/>
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                            </xs:sequence>
+                                                                        </xs:complexType>
+                                                                    </xs:element>
+                                                                </xs:sequence>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                        <xs:attribute name="passive" type="xs:string" use="required"/>
+                                        <xs:attribute name="cooldown" type="xs:string" use="optional"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="blightGrenade">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="model">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element name="action">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="sound" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                            <xs:element name="beginTargets">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element name="target">
+                                                            <xs:complexType>
+                                                                <xs:sequence>
+                                                                    <xs:element name="conditions">
+                                                                        <xs:complexType>
+                                                                            <xs:sequence>
+                                                                                <xs:element name="unit">
+                                                                                    <xs:complexType>
+                                                                                        <xs:sequence>
+                                                                                            <xs:element name="enemy"/>
+                                                                                            <xs:element
+                                                                                                    maxOccurs="unbounded"
+                                                                                                    name="noTrait">
+                                                                                                <xs:complexType>
+                                                                                                    <xs:attribute
+                                                                                                            name="name"
+                                                                                                            type="xs:string"
+                                                                                                            use="required"/>
+                                                                                                </xs:complexType>
+                                                                                            </xs:element>
+                                                                                        </xs:sequence>
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                            </xs:sequence>
+                                                                        </xs:complexType>
+                                                                    </xs:element>
+                                                                    <xs:element name="areas">
+                                                                        <xs:complexType>
+                                                                            <xs:sequence>
+                                                                                <xs:element name="area">
+                                                                                    <xs:complexType>
+                                                                                        <xs:sequence>
+                                                                                            <xs:element
+                                                                                                    name="modifiers">
+                                                                                                <xs:complexType>
+                                                                                                    <xs:sequence>
+                                                                                                        <xs:element
+                                                                                                                name="modifier">
+                                                                                                            <xs:complexType>
+                                                                                                                <xs:sequence>
+                                                                                                                    <xs:element
+                                                                                                                            name="effects">
+                                                                                                                        <xs:complexType>
+                                                                                                                            <xs:sequence>
+                                                                                                                                <xs:element
+                                                                                                                                        name="addTrait">
+                                                                                                                                    <xs:complexType>
+                                                                                                                                        <xs:attribute
+                                                                                                                                                name="duration"
+                                                                                                                                                type="xs:string"
+                                                                                                                                                use="required"/>
+                                                                                                                                        <xs:attribute
+                                                                                                                                                name="name"
+                                                                                                                                                type="xs:string"
+                                                                                                                                                use="required"/>
+                                                                                                                                    </xs:complexType>
+                                                                                                                                </xs:element>
+                                                                                                                            </xs:sequence>
+                                                                                                                        </xs:complexType>
+                                                                                                                    </xs:element>
+                                                                                                                </xs:sequence>
+                                                                                                            </xs:complexType>
+                                                                                                        </xs:element>
+                                                                                                    </xs:sequence>
+                                                                                                </xs:complexType>
+                                                                                            </xs:element>
+                                                                                        </xs:sequence>
+                                                                                        <xs:attribute name="affects"
+                                                                                                      type="xs:string"
+                                                                                                      use="required"/>
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                            </xs:sequence>
+                                                                        </xs:complexType>
+                                                                    </xs:element>
+                                                                </xs:sequence>
+                                                                <xs:attribute name="rangeMax" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                        <xs:attribute name="charges" type="xs:string" use="required"/>
+                                        <xs:attribute name="consumedActionPoints" type="xs:string" use="required"/>
+                                        <xs:attribute name="consumedMovement" type="xs:string" use="required"/>
+                                        <xs:attribute name="requiredActionPoints" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="blindGrenade">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="beginTargets">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element name="target">
+                                                            <xs:complexType>
+                                                                <xs:sequence>
+                                                                    <xs:element name="areas">
+                                                                        <xs:complexType>
+                                                                            <xs:sequence>
+                                                                                <xs:element name="area">
+                                                                                    <xs:complexType>
+                                                                                        <xs:sequence>
+                                                                                            <xs:element
+                                                                                                    name="modifiers">
+                                                                                                <xs:complexType>
+                                                                                                    <xs:sequence>
+                                                                                                        <xs:element
+                                                                                                                name="modifier">
+                                                                                                            <xs:complexType>
+                                                                                                                <xs:sequence>
+                                                                                                                    <xs:element
+                                                                                                                            name="effects">
+                                                                                                                        <xs:complexType>
+                                                                                                                            <xs:sequence>
+                                                                                                                                <xs:element
+                                                                                                                                        name="addTrait">
+                                                                                                                                    <xs:complexType>
+                                                                                                                                        <xs:attribute
+                                                                                                                                                name="duration"
+                                                                                                                                                type="xs:string"
+                                                                                                                                                use="required"/>
+                                                                                                                                        <xs:attribute
+                                                                                                                                                name="name"
+                                                                                                                                                type="xs:string"
+                                                                                                                                                use="required"/>
+                                                                                                                                    </xs:complexType>
+                                                                                                                                </xs:element>
+                                                                                                                            </xs:sequence>
+                                                                                                                        </xs:complexType>
+                                                                                                                    </xs:element>
+                                                                                                                </xs:sequence>
+                                                                                                            </xs:complexType>
+                                                                                                        </xs:element>
+                                                                                                    </xs:sequence>
+                                                                                                </xs:complexType>
+                                                                                            </xs:element>
+                                                                                        </xs:sequence>
+                                                                                        <xs:attribute name="affects"
+                                                                                                      type="xs:string"
+                                                                                                      use="required"/>
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                            </xs:sequence>
+                                                                        </xs:complexType>
+                                                                    </xs:element>
+                                                                </xs:sequence>
+                                                                <xs:attribute name="rangeMax" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                        <xs:attribute name="charges" type="xs:string" use="required"/>
+                                        <xs:attribute name="consumedActionPoints" type="xs:string" use="required"/>
+                                        <xs:attribute name="consumedMovement" type="xs:string" use="required"/>
+                                        <xs:attribute name="requiredActionPoints" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="combatStimulant">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="beginTargets">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element name="selfTarget">
+                                                            <xs:complexType>
+                                                                <xs:sequence>
+                                                                    <xs:element name="areas">
+                                                                        <xs:complexType>
+                                                                            <xs:sequence>
+                                                                                <xs:element name="area">
+                                                                                    <xs:complexType>
+                                                                                        <xs:sequence>
+                                                                                            <xs:element
+                                                                                                    name="modifiers">
+                                                                                                <xs:complexType>
+                                                                                                    <xs:sequence>
+                                                                                                        <xs:element
+                                                                                                                name="modifier">
+                                                                                                            <xs:complexType>
+                                                                                                                <xs:sequence>
+                                                                                                                    <xs:element
+                                                                                                                            name="effects">
+                                                                                                                        <xs:complexType>
+                                                                                                                            <xs:sequence>
+                                                                                                                                <xs:element
+                                                                                                                                        name="addTrait">
+                                                                                                                                    <xs:complexType>
+                                                                                                                                        <xs:attribute
+                                                                                                                                                name="duration"
+                                                                                                                                                type="xs:string"
+                                                                                                                                                use="required"/>
+                                                                                                                                        <xs:attribute
+                                                                                                                                                name="name"
+                                                                                                                                                type="xs:string"
+                                                                                                                                                use="required"/>
+                                                                                                                                    </xs:complexType>
+                                                                                                                                </xs:element>
+                                                                                                                            </xs:sequence>
+                                                                                                                        </xs:complexType>
+                                                                                                                    </xs:element>
+                                                                                                                </xs:sequence>
+                                                                                                            </xs:complexType>
+                                                                                                        </xs:element>
+                                                                                                    </xs:sequence>
+                                                                                                </xs:complexType>
+                                                                                            </xs:element>
+                                                                                        </xs:sequence>
+                                                                                        <xs:attribute name="affects"
+                                                                                                      type="xs:string"
+                                                                                                      use="required"/>
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                            </xs:sequence>
+                                                                        </xs:complexType>
+                                                                    </xs:element>
+                                                                </xs:sequence>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                        <xs:attribute name="charges" type="xs:string" use="required"/>
+                                        <xs:attribute name="consumedActionPoints" type="xs:string" use="required"/>
+                                        <xs:attribute name="consumedMovement" type="xs:string" use="required"/>
+                                        <xs:attribute name="requiredActionPoints" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="dimensionalKey">
+                                    <xs:complexType>
+                                        <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                                <xs:attribute name="cooldown" type="xs:string" use="required"/>
+                                            </xs:extension>
+                                        </xs:simpleContent>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="faolchusWing">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="beginTargets">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element name="selfTarget">
+                                                            <xs:complexType>
+                                                                <xs:sequence>
+                                                                    <xs:element name="areas">
+                                                                        <xs:complexType>
+                                                                            <xs:sequence>
+                                                                                <xs:element name="area">
+                                                                                    <xs:complexType>
+                                                                                        <xs:sequence>
+                                                                                            <xs:element
+                                                                                                    name="modifiers">
+                                                                                                <xs:complexType>
+                                                                                                    <xs:sequence>
+                                                                                                        <xs:element
+                                                                                                                name="modifier">
+                                                                                                            <xs:complexType>
+                                                                                                                <xs:sequence>
+                                                                                                                    <xs:element
+                                                                                                                            name="effects">
+                                                                                                                        <xs:complexType>
+                                                                                                                            <xs:sequence>
+                                                                                                                                <xs:element
+                                                                                                                                        name="addTrait">
+                                                                                                                                    <xs:complexType>
+                                                                                                                                        <xs:attribute
+                                                                                                                                                name="name"
+                                                                                                                                                type="xs:string"
+                                                                                                                                                use="required"/>
+                                                                                                                                        <xs:attribute
+                                                                                                                                                name="duration"
+                                                                                                                                                type="xs:string"
+                                                                                                                                                use="required"/>
+                                                                                                                                    </xs:complexType>
+                                                                                                                                </xs:element>
+                                                                                                                            </xs:sequence>
+                                                                                                                        </xs:complexType>
+                                                                                                                    </xs:element>
+                                                                                                                </xs:sequence>
+                                                                                                            </xs:complexType>
+                                                                                                        </xs:element>
+                                                                                                    </xs:sequence>
+                                                                                                </xs:complexType>
+                                                                                            </xs:element>
+                                                                                        </xs:sequence>
+                                                                                        <xs:attribute name="affects"
+                                                                                                      type="xs:string"
+                                                                                                      use="required"/>
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                            </xs:sequence>
+                                                                        </xs:complexType>
+                                                                    </xs:element>
+                                                                </xs:sequence>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                        <xs:attribute name="cooldown" type="xs:string" use="required"/>
+                                        <xs:attribute name="consumedMovement" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="forbiddenKnowledge">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="beginTargets">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element name="selfTarget">
+                                                            <xs:complexType>
+                                                                <xs:sequence>
+                                                                    <xs:element name="areas">
+                                                                        <xs:complexType>
+                                                                            <xs:sequence>
+                                                                                <xs:element name="area">
+                                                                                    <xs:complexType>
+                                                                                        <xs:sequence>
+                                                                                            <xs:element
+                                                                                                    name="modifiers">
+                                                                                                <xs:complexType>
+                                                                                                    <xs:sequence>
+                                                                                                        <xs:element
+                                                                                                                name="modifier">
+                                                                                                            <xs:complexType>
+                                                                                                                <xs:sequence>
+                                                                                                                    <xs:element
+                                                                                                                            name="effects">
+                                                                                                                        <xs:complexType>
+                                                                                                                            <xs:sequence>
+                                                                                                                                <xs:element
+                                                                                                                                        name="level">
+                                                                                                                                    <xs:complexType>
+                                                                                                                                        <xs:attribute
+                                                                                                                                                name="add"
+                                                                                                                                                type="xs:string"
+                                                                                                                                                use="required"/>
+                                                                                                                                    </xs:complexType>
+                                                                                                                                </xs:element>
+                                                                                                                                <xs:element
+                                                                                                                                        name="influencePerExperience">
+                                                                                                                                    <xs:complexType>
+                                                                                                                                        <xs:attribute
+                                                                                                                                                name="max"
+                                                                                                                                                type="xs:string"
+                                                                                                                                                use="required"/>
+                                                                                                                                    </xs:complexType>
+                                                                                                                                </xs:element>
+                                                                                                                                <xs:element
+                                                                                                                                        name="researchPerExperience">
+                                                                                                                                    <xs:complexType>
+                                                                                                                                        <xs:attribute
+                                                                                                                                                name="max"
+                                                                                                                                                type="xs:string"
+                                                                                                                                                use="required"/>
+                                                                                                                                    </xs:complexType>
+                                                                                                                                </xs:element>
+                                                                                                                            </xs:sequence>
+                                                                                                                        </xs:complexType>
+                                                                                                                    </xs:element>
+                                                                                                                </xs:sequence>
+                                                                                                            </xs:complexType>
+                                                                                                        </xs:element>
+                                                                                                    </xs:sequence>
+                                                                                                </xs:complexType>
+                                                                                            </xs:element>
+                                                                                        </xs:sequence>
+                                                                                        <xs:attribute name="affects"
+                                                                                                      type="xs:string"
+                                                                                                      use="required"/>
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                            </xs:sequence>
+                                                                        </xs:complexType>
+                                                                    </xs:element>
+                                                                </xs:sequence>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                        <xs:attribute name="charges" type="xs:string" use="required"/>
+                                        <xs:attribute name="consumedActionPoints" type="xs:string" use="required"/>
+                                        <xs:attribute name="consumedMovement" type="xs:string" use="required"/>
+                                        <xs:attribute name="requiredActionPoints" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="jokaeroDigitalWeapon">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="beginTargets">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element name="target">
+                                                            <xs:complexType>
+                                                                <xs:sequence>
+                                                                    <xs:element name="areas">
+                                                                        <xs:complexType>
+                                                                            <xs:sequence>
+                                                                                <xs:element name="area">
+                                                                                    <xs:complexType>
+                                                                                        <xs:sequence>
+                                                                                            <xs:element
+                                                                                                    name="modifiers">
+                                                                                                <xs:complexType>
+                                                                                                    <xs:sequence>
+                                                                                                        <xs:element
+                                                                                                                name="modifier">
+                                                                                                            <xs:complexType>
+                                                                                                                <xs:sequence>
+                                                                                                                    <xs:element
+                                                                                                                            name="effects">
+                                                                                                                        <xs:complexType>
+                                                                                                                            <xs:sequence>
+                                                                                                                                <xs:element
+                                                                                                                                        name="weaponDamage">
+                                                                                                                                    <xs:complexType>
+                                                                                                                                        <xs:attribute
+                                                                                                                                                name="weapon"
+                                                                                                                                                type="xs:string"
+                                                                                                                                                use="required"/>
+                                                                                                                                    </xs:complexType>
+                                                                                                                                </xs:element>
+                                                                                                                            </xs:sequence>
+                                                                                                                        </xs:complexType>
+                                                                                                                    </xs:element>
+                                                                                                                </xs:sequence>
+                                                                                                            </xs:complexType>
+                                                                                                        </xs:element>
+                                                                                                    </xs:sequence>
+                                                                                                </xs:complexType>
+                                                                                            </xs:element>
+                                                                                        </xs:sequence>
+                                                                                        <xs:attribute name="affects"
+                                                                                                      type="xs:string"
+                                                                                                      use="required"/>
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                            </xs:sequence>
+                                                                        </xs:complexType>
+                                                                    </xs:element>
+                                                                </xs:sequence>
+                                                                <xs:attribute name="rangeMax" type="xs:string"
+                                                                              use="required"/>
+                                                                <xs:attribute name="lineOfSight" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                        <xs:attribute name="consumedActionPoints" type="xs:string" use="required"/>
+                                        <xs:attribute name="consumedMovement" type="xs:string" use="required"/>
+                                        <xs:attribute name="cooldown" type="xs:string" use="required"/>
+                                        <xs:attribute name="icon" type="xs:string" use="required"/>
+                                        <xs:attribute name="requiredActionPoints" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="laurelsOfCommand">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="beginTargets">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element name="selfTarget">
+                                                            <xs:complexType>
+                                                                <xs:sequence>
+                                                                    <xs:element name="areas">
+                                                                        <xs:complexType>
+                                                                            <xs:sequence>
+                                                                                <xs:element name="area">
+                                                                                    <xs:complexType>
+                                                                                        <xs:sequence>
+                                                                                            <xs:element
+                                                                                                    name="modifiers">
+                                                                                                <xs:complexType>
+                                                                                                    <xs:sequence>
+                                                                                                        <xs:element
+                                                                                                                name="modifier">
+                                                                                                            <xs:complexType>
+                                                                                                                <xs:sequence>
+                                                                                                                    <xs:element
+                                                                                                                            name="effects">
+                                                                                                                        <xs:complexType>
+                                                                                                                            <xs:sequence>
+                                                                                                                                <xs:element
+                                                                                                                                        name="morale">
+                                                                                                                                    <xs:complexType>
+                                                                                                                                        <xs:attribute
+                                                                                                                                                name="add"
+                                                                                                                                                type="xs:string"
+                                                                                                                                                use="required"/>
+                                                                                                                                    </xs:complexType>
+                                                                                                                                </xs:element>
+                                                                                                                            </xs:sequence>
+                                                                                                                        </xs:complexType>
+                                                                                                                    </xs:element>
+                                                                                                                </xs:sequence>
+                                                                                                            </xs:complexType>
+                                                                                                        </xs:element>
+                                                                                                    </xs:sequence>
+                                                                                                </xs:complexType>
+                                                                                            </xs:element>
+                                                                                        </xs:sequence>
+                                                                                        <xs:attribute name="affects"
+                                                                                                      type="xs:string"
+                                                                                                      use="required"/>
+                                                                                        <xs:attribute name="radius"
+                                                                                                      type="xs:string"
+                                                                                                      use="required"/>
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                            </xs:sequence>
+                                                                        </xs:complexType>
+                                                                    </xs:element>
+                                                                </xs:sequence>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                        <xs:attribute name="cooldown" type="xs:string" use="required"/>
+                                        <xs:attribute name="consumedActionPoints" type="xs:string" use="required"/>
+                                        <xs:attribute name="consumedMovement" type="xs:string" use="required"/>
+                                        <xs:attribute name="icon" type="xs:string" use="required"/>
+                                        <xs:attribute name="requiredActionPoints" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="poweredBolas">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="beginTargets">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element name="target">
+                                                            <xs:complexType>
+                                                                <xs:sequence>
+                                                                    <xs:element name="areas">
+                                                                        <xs:complexType>
+                                                                            <xs:sequence>
+                                                                                <xs:element name="area">
+                                                                                    <xs:complexType>
+                                                                                        <xs:sequence>
+                                                                                            <xs:element
+                                                                                                    name="modifiers">
+                                                                                                <xs:complexType>
+                                                                                                    <xs:sequence>
+                                                                                                        <xs:element
+                                                                                                                name="modifier">
+                                                                                                            <xs:complexType>
+                                                                                                                <xs:sequence>
+                                                                                                                    <xs:element
+                                                                                                                            name="effects">
+                                                                                                                        <xs:complexType>
+                                                                                                                            <xs:sequence>
+                                                                                                                                <xs:element
+                                                                                                                                        name="addTrait">
+                                                                                                                                    <xs:complexType>
+                                                                                                                                        <xs:attribute
+                                                                                                                                                name="duration"
+                                                                                                                                                type="xs:string"
+                                                                                                                                                use="required"/>
+                                                                                                                                        <xs:attribute
+                                                                                                                                                name="name"
+                                                                                                                                                type="xs:string"
+                                                                                                                                                use="required"/>
+                                                                                                                                    </xs:complexType>
+                                                                                                                                </xs:element>
+                                                                                                                            </xs:sequence>
+                                                                                                                        </xs:complexType>
+                                                                                                                    </xs:element>
+                                                                                                                </xs:sequence>
+                                                                                                            </xs:complexType>
+                                                                                                        </xs:element>
+                                                                                                    </xs:sequence>
+                                                                                                </xs:complexType>
+                                                                                            </xs:element>
+                                                                                        </xs:sequence>
+                                                                                        <xs:attribute name="affects"
+                                                                                                      type="xs:string"
+                                                                                                      use="required"/>
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                            </xs:sequence>
+                                                                        </xs:complexType>
+                                                                    </xs:element>
+                                                                </xs:sequence>
+                                                                <xs:attribute name="rangeMax" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                        <xs:attribute name="cooldown" type="xs:string" use="optional"/>
+                                        <xs:attribute name="consumedActionPoints" type="xs:string" use="required"/>
+                                        <xs:attribute name="consumedMovement" type="xs:string" use="required"/>
+                                        <xs:attribute name="requiredActionPoints" type="xs:string" use="required"/>
+                                        <xs:attribute name="charges" type="xs:string" use="optional"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="mediPack">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="beginTargets">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element name="selfTarget">
+                                                            <xs:complexType>
+                                                                <xs:sequence>
+                                                                    <xs:element name="areas">
+                                                                        <xs:complexType>
+                                                                            <xs:sequence>
+                                                                                <xs:element name="area">
+                                                                                    <xs:complexType>
+                                                                                        <xs:sequence>
+                                                                                            <xs:element
+                                                                                                    name="modifiers">
+                                                                                                <xs:complexType>
+                                                                                                    <xs:sequence>
+                                                                                                        <xs:element
+                                                                                                                name="modifier">
+                                                                                                            <xs:complexType>
+                                                                                                                <xs:sequence>
+                                                                                                                    <xs:element
+                                                                                                                            name="effects">
+                                                                                                                        <xs:complexType>
+                                                                                                                            <xs:sequence>
+                                                                                                                                <xs:element
+                                                                                                                                        name="hitpointsFactorFromMax">
+                                                                                                                                    <xs:complexType>
+                                                                                                                                        <xs:attribute
+                                                                                                                                                name="add"
+                                                                                                                                                type="xs:string"
+                                                                                                                                                use="required"/>
+                                                                                                                                    </xs:complexType>
+                                                                                                                                </xs:element>
+                                                                                                                            </xs:sequence>
+                                                                                                                        </xs:complexType>
+                                                                                                                    </xs:element>
+                                                                                                                </xs:sequence>
+                                                                                                            </xs:complexType>
+                                                                                                        </xs:element>
+                                                                                                    </xs:sequence>
+                                                                                                </xs:complexType>
+                                                                                            </xs:element>
+                                                                                        </xs:sequence>
+                                                                                        <xs:attribute name="affects"
+                                                                                                      type="xs:string"
+                                                                                                      use="required"/>
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                            </xs:sequence>
+                                                                        </xs:complexType>
+                                                                    </xs:element>
+                                                                </xs:sequence>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                        <xs:attribute name="charges" type="xs:string" use="required"/>
+                                        <xs:attribute name="consumedActionPoints" type="xs:string" use="required"/>
+                                        <xs:attribute name="consumedMovement" type="xs:string" use="required"/>
+                                        <xs:attribute name="requiredActionPoints" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="stunGrenade">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="beginTargets">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element name="target">
+                                                            <xs:complexType>
+                                                                <xs:sequence>
+                                                                    <xs:element name="areas">
+                                                                        <xs:complexType>
+                                                                            <xs:sequence>
+                                                                                <xs:element name="area">
+                                                                                    <xs:complexType>
+                                                                                        <xs:sequence>
+                                                                                            <xs:element
+                                                                                                    name="modifiers">
+                                                                                                <xs:complexType>
+                                                                                                    <xs:sequence>
+                                                                                                        <xs:element
+                                                                                                                name="modifier">
+                                                                                                            <xs:complexType>
+                                                                                                                <xs:sequence>
+                                                                                                                    <xs:element
+                                                                                                                            name="effects">
+                                                                                                                        <xs:complexType>
+                                                                                                                            <xs:sequence>
+                                                                                                                                <xs:element
+                                                                                                                                        name="addTrait">
+                                                                                                                                    <xs:complexType>
+                                                                                                                                        <xs:attribute
+                                                                                                                                                name="duration"
+                                                                                                                                                type="xs:string"
+                                                                                                                                                use="required"/>
+                                                                                                                                        <xs:attribute
+                                                                                                                                                name="name"
+                                                                                                                                                type="xs:string"
+                                                                                                                                                use="required"/>
+                                                                                                                                    </xs:complexType>
+                                                                                                                                </xs:element>
+                                                                                                                            </xs:sequence>
+                                                                                                                        </xs:complexType>
+                                                                                                                    </xs:element>
+                                                                                                                </xs:sequence>
+                                                                                                            </xs:complexType>
+                                                                                                        </xs:element>
+                                                                                                    </xs:sequence>
+                                                                                                </xs:complexType>
+                                                                                            </xs:element>
+                                                                                        </xs:sequence>
+                                                                                        <xs:attribute name="affects"
+                                                                                                      type="xs:string"
+                                                                                                      use="required"/>
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                            </xs:sequence>
+                                                                        </xs:complexType>
+                                                                    </xs:element>
+                                                                </xs:sequence>
+                                                                <xs:attribute name="rangeMax" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                        <xs:attribute name="charges" type="xs:string" use="required"/>
+                                        <xs:attribute name="consumedActionPoints" type="xs:string" use="required"/>
+                                        <xs:attribute name="consumedMovement" type="xs:string" use="required"/>
+                                        <xs:attribute name="icon" type="xs:string" use="required"/>
+                                        <xs:attribute name="requiredActionPoints" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="temporaryShield">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="beginTargets">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element name="selfTarget">
+                                                            <xs:complexType>
+                                                                <xs:sequence>
+                                                                    <xs:element name="areas">
+                                                                        <xs:complexType>
+                                                                            <xs:sequence>
+                                                                                <xs:element name="area">
+                                                                                    <xs:complexType>
+                                                                                        <xs:sequence>
+                                                                                            <xs:element
+                                                                                                    name="modifiers">
+                                                                                                <xs:complexType>
+                                                                                                    <xs:sequence>
+                                                                                                        <xs:element
+                                                                                                                name="modifier">
+                                                                                                            <xs:complexType>
+                                                                                                                <xs:sequence>
+                                                                                                                    <xs:element
+                                                                                                                            name="effects">
+                                                                                                                        <xs:complexType>
+                                                                                                                            <xs:sequence>
+                                                                                                                                <xs:element
+                                                                                                                                        name="addTrait">
+                                                                                                                                    <xs:complexType>
+                                                                                                                                        <xs:attribute
+                                                                                                                                                name="duration"
+                                                                                                                                                type="xs:string"
+                                                                                                                                                use="required"/>
+                                                                                                                                        <xs:attribute
+                                                                                                                                                name="name"
+                                                                                                                                                type="xs:string"
+                                                                                                                                                use="required"/>
+                                                                                                                                    </xs:complexType>
+                                                                                                                                </xs:element>
+                                                                                                                            </xs:sequence>
+                                                                                                                        </xs:complexType>
+                                                                                                                    </xs:element>
+                                                                                                                </xs:sequence>
+                                                                                                            </xs:complexType>
+                                                                                                        </xs:element>
+                                                                                                    </xs:sequence>
+                                                                                                </xs:complexType>
+                                                                                            </xs:element>
+                                                                                        </xs:sequence>
+                                                                                        <xs:attribute name="affects"
+                                                                                                      type="xs:string"
+                                                                                                      use="required"/>
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                            </xs:sequence>
+                                                                        </xs:complexType>
+                                                                    </xs:element>
+                                                                </xs:sequence>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                        <xs:attribute name="charges" type="xs:string" use="required"/>
+                                        <xs:attribute name="consumedActionPoints" type="xs:string" use="required"/>
+                                        <xs:attribute name="consumedMovement" type="xs:string" use="required"/>
+                                        <xs:attribute name="requiredActionPoints" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:choice>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="modifiers">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="modifier">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="effects">
+                                            <xs:complexType mixed="true">
+                                                <xs:sequence minOccurs="0">
+                                                    <xs:element name="influenceCost">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="base" type="xs:string" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="traits">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="trait">
+                                <xs:complexType>
+                                    <xs:attribute name="name" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 </xs:schema>

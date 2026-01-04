@@ -1,516 +1,568 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Version 1.0 Compiled by Kurziel 1/29/23 -->
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	<xs:element name="gameData">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="model">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:choice maxOccurs="unbounded">
-								<xs:element name="buildings" />
-								<xs:element name="bedrock">
-									<xs:complexType>
-										<xs:attribute name="material" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="effect">
-									<xs:complexType>
-										<xs:attribute name="blueprint" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="vegetation">
-									<xs:complexType>
-										<xs:attribute name="material" type="xs:string" use="required" />
-										<xs:attribute name="depthMaterial" type="xs:string" use="required" />
-										<xs:attribute name="effectBlueprint" type="xs:string" use="optional" />
-										<xs:attribute name="effectEmitterBlueprint" type="xs:string" use="optional" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="clusterMines" />
-								<xs:element name="simpleModel">
-									<xs:complexType>
-										<xs:attribute name="mesh" type="xs:string" use="required" />
-										<xs:attribute name="material" type="xs:string" use="required" />
-										<xs:attribute name="groundMaterial" type="xs:string" use="required" />
-										<xs:attribute name="flow" type="xs:string" use="optional" />
-										<xs:attribute name="groundFlow" type="xs:string" use="optional" />
-										<xs:attribute name="explorationEffectBlueprint" type="xs:string" use="optional" />
-										<xs:attribute name="scale" type="xs:string" use="optional" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="smokeScreen">
-									<xs:complexType>
-										<xs:attribute name="blueprint" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="animals">
-									<xs:complexType>
-										<xs:attribute name="blueprint" type="xs:string" use="required" />
-										<xs:attribute name="mesh" type="xs:string" use="required" />
-										<xs:attribute name="material" type="xs:string" use="required" />
-										<xs:attribute name="groundMaterial" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="necronTomb">
-									<xs:complexType>
-										<xs:attribute name="blueprint" type="xs:string" use="required" />
-										<xs:attribute name="effectBlueprint" type="xs:string" use="required" />
-										<xs:attribute name="groundMaterial" type="xs:string" use="optional" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="imperialRuin">
-									<xs:complexType>
-										<xs:attribute name="material" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="outpost" />
-								<xs:element name="river" />
-								<xs:element name="rocks" />
-								<xs:element name="telekineDome" />
-							</xs:choice>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="traits">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="trait">
-								<xs:complexType>
-									<xs:attribute name="name" type="xs:string" use="required" />
-									<xs:attribute name="requiredUpgrade" type="xs:string" use="optional" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="ground">
-					<xs:complexType>
-						<xs:attribute name="channel" type="xs:string" use="required" />
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="modifiers">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="modifier">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element minOccurs="0" name="conditions">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element minOccurs="0" name="tile">
-														<xs:complexType>
-															<xs:sequence>
-																<xs:element name="noFeature">
-																	<xs:complexType>
-																		<xs:attribute name="name" type="xs:string" use="required" />
-																	</xs:complexType>
-																</xs:element>
-															</xs:sequence>
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" name="unit">
-														<xs:complexType>
-															<xs:sequence>
-																<xs:element minOccurs="0" name="trait">
-																	<xs:complexType>
-																		<xs:attribute name="name" type="xs:string" use="required" />
-																	</xs:complexType>
-																</xs:element>
-																<xs:element maxOccurs="unbounded" name="noTrait">
-																	<xs:complexType>
-																		<xs:attribute name="name" type="xs:string" use="required" />
-																	</xs:complexType>
-																</xs:element>
-															</xs:sequence>
-														</xs:complexType>
-													</xs:element>
-													<xs:element minOccurs="0" name="player">
-														<xs:complexType>
-															<xs:sequence>
-																<xs:element minOccurs="0" name="noFaction">
-																	<xs:complexType>
-																		<xs:attribute name="name" type="xs:string" use="required" />
-																	</xs:complexType>
-																</xs:element>
-																<xs:element minOccurs="0" name="faction">
-																	<xs:complexType>
-																		<xs:attribute name="name" type="xs:string" use="required" />
-																	</xs:complexType>
-																</xs:element>
-															</xs:sequence>
-														</xs:complexType>
-													</xs:element>
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
-										<xs:element name="effects">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:choice maxOccurs="unbounded">
-														<xs:element name="biomassOnConsume">
-															<xs:complexType>
-																<xs:attribute name="add" type="xs:string" use="optional" />
-																<xs:attribute name="max" type="xs:string" use="optional" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="buildingSlots">
-															<xs:complexType>
-																<xs:attribute name="add" type="xs:string" use="optional" />
-																<xs:attribute name="max" type="xs:string" use="optional" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="food">
-															<xs:complexType>
-																<xs:attribute name="mul" type="xs:string" use="optional" />
-																<xs:attribute name="add" type="xs:string" use="optional" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="research">
-															<xs:complexType>
-																<xs:attribute name="mul" type="xs:string" use="optional" />
-																<xs:attribute name="add" type="xs:string" use="optional" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="energy">
-															<xs:complexType>
-																<xs:attribute name="mul" type="xs:string" use="optional" />
-																<xs:attribute name="add" type="xs:string" use="optional" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="biomass">
-															<xs:complexType>
-																<xs:attribute name="add" type="xs:string" use="optional" />
-																<xs:attribute name="mul" type="xs:string" use="optional" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="growth">
-															<xs:complexType>
-																<xs:attribute name="mul" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="requisitions">
-															<xs:complexType>
-																<xs:attribute name="add" type="xs:string" use="optional" />
-																<xs:attribute name="mul" type="xs:string" use="optional" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="influence">
-															<xs:complexType>
-																<xs:attribute name="add" type="xs:string" use="optional" />
-																<xs:attribute name="mul" type="xs:string" use="optional" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="ore">
-															<xs:complexType>
-																<xs:attribute name="mul" type="xs:string" use="optional" />
-																<xs:attribute name="add" type="xs:string" use="optional" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="movementCost">
-															<xs:complexType>
-																<xs:attribute name="add" type="xs:string" use="optional" />
-																<xs:attribute name="min" type="xs:string" use="optional" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="productionCost">
-															<xs:complexType>
-																<xs:attribute name="base" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-														<xs:element name="loyalty">
-															<xs:complexType>
-																<xs:attribute name="mul" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-													</xs:choice>
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
-									</xs:sequence>
-									<xs:attribute name="visible" type="xs:string" use="optional" />
-									<xs:attribute name="requiredUpgrade" type="xs:string" use="optional" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="rocks">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="meshes">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element maxOccurs="unbounded" name="mesh">
-											<xs:complexType>
-												<xs:attribute name="name" type="xs:string" use="required" />
-											</xs:complexType>
-										</xs:element>
-									</xs:sequence>
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-						<xs:attribute name="material" type="xs:string" use="required" />
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="vegetation">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:choice maxOccurs="unbounded">
-								<xs:element name="bushes">
-									<xs:complexType>
-										<xs:sequence minOccurs="0">
-											<xs:element name="meshes">
-												<xs:complexType>
-													<xs:sequence>
-														<xs:element maxOccurs="unbounded" name="mesh">
-															<xs:complexType>
-																<xs:attribute name="name" type="xs:string" use="required" />
-																<xs:attribute name="weight" type="xs:string" use="optional" />
-															</xs:complexType>
-														</xs:element>
-													</xs:sequence>
-												</xs:complexType>
-											</xs:element>
-										</xs:sequence>
-										<xs:attribute name="clusterSizeMin" type="xs:string" use="optional" />
-										<xs:attribute name="clusterSizeMax" type="xs:string" use="optional" />
-										<xs:attribute name="scaleMin" type="xs:string" use="optional" />
-										<xs:attribute name="scaleMax" type="xs:string" use="optional" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="trees">
-									<xs:complexType>
-										<xs:sequence minOccurs="0">
-											<xs:element name="meshes">
-												<xs:complexType>
-													<xs:sequence>
-														<xs:element maxOccurs="unbounded" name="mesh">
-															<xs:complexType>
-																<xs:attribute name="name" type="xs:string" use="required" />
-															</xs:complexType>
-														</xs:element>
-													</xs:sequence>
-												</xs:complexType>
-											</xs:element>
-										</xs:sequence>
-										<xs:attribute name="clusterSizeMin" type="xs:string" use="optional" />
-										<xs:attribute name="clusterSizeMax" type="xs:string" use="optional" />
-										<xs:attribute name="scaleMin" type="xs:string" use="optional" />
-										<xs:attribute name="scaleMax" type="xs:string" use="optional" />
-									</xs:complexType>
-								</xs:element>
-							</xs:choice>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="decals">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="meshes">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element maxOccurs="unbounded" name="mesh">
-											<xs:complexType>
-												<xs:attribute name="name" type="xs:string" use="required" />
-											</xs:complexType>
-										</xs:element>
-									</xs:sequence>
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="areas">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="area">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element name="modifiers">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element maxOccurs="unbounded" name="modifier">
-														<xs:complexType>
-															<xs:sequence>
-																<xs:element minOccurs="0" name="conditions">
-																	<xs:complexType>
-																		<xs:sequence>
-																			<xs:element name="player">
-																				<xs:complexType>
-																					<xs:sequence>
-																						<xs:element name="faction">
-																							<xs:complexType>
-																								<xs:attribute name="name" type="xs:string" use="required" />
-																							</xs:complexType>
-																						</xs:element>
-																					</xs:sequence>
-																				</xs:complexType>
-																			</xs:element>
-																		</xs:sequence>
-																	</xs:complexType>
-																</xs:element>
-																<xs:element name="effects">
-																	<xs:complexType>
-																		<xs:sequence>
-																			<xs:choice maxOccurs="unbounded">
-																				<xs:element name="energy">
-																					<xs:complexType>
-																						<xs:attribute name="mul" type="xs:string" use="required" />
-																					</xs:complexType>
-																				</xs:element>
-																				<xs:element name="influence">
-																					<xs:complexType>
-																						<xs:attribute name="mul" type="xs:string" use="required" />
-																					</xs:complexType>
-																				</xs:element>
-																				<xs:element name="ore">
-																					<xs:complexType>
-																						<xs:attribute name="mul" type="xs:string" use="required" />
-																					</xs:complexType>
-																				</xs:element>
-																				<xs:element name="biomass">
-																					<xs:complexType>
-																						<xs:attribute name="mul" type="xs:string" use="required" />
-																					</xs:complexType>
-																				</xs:element>
-																				<xs:element name="food">
-																					<xs:complexType>
-																						<xs:attribute name="mul" type="xs:string" use="required" />
-																					</xs:complexType>
-																				</xs:element>
-																				<xs:element name="requisitions">
-																					<xs:complexType>
-																						<xs:attribute name="mul" type="xs:string" use="required" />
-																					</xs:complexType>
-																				</xs:element>
-																				<xs:element name="production">
-																					<xs:complexType>
-																						<xs:attribute name="mul" type="xs:string" use="required" />
-																					</xs:complexType>
-																				</xs:element>
-																				<xs:element name="research">
-																					<xs:complexType>
-																						<xs:attribute name="mul" type="xs:string" use="required" />
-																					</xs:complexType>
-																				</xs:element>
-																			</xs:choice>
-																		</xs:sequence>
-																	</xs:complexType>
-																</xs:element>
-															</xs:sequence>
-														</xs:complexType>
-													</xs:element>
-												</xs:sequence>
-											</xs:complexType>
-										</xs:element>
-									</xs:sequence>
-									<xs:attribute name="affects" type="xs:string" use="required" />
-									<xs:attribute name="radius" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="exploreConditions">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element name="unit">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element name="type">
-											<xs:complexType>
-												<xs:attribute name="name" type="xs:string" use="required" />
-											</xs:complexType>
-										</xs:element>
-									</xs:sequence>
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="rewards">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:choice maxOccurs="unbounded">
-								<xs:element name="research">
-									<xs:complexType>
-										<xs:simpleContent>
-											<xs:extension base="xs:string">
-												<xs:attribute name="amount" type="xs:string" use="required" />
-												<xs:attribute name="amountVariation" type="xs:string" use="required" />
-											</xs:extension>
-										</xs:simpleContent>
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="biomass">
-									<xs:complexType>
-										<xs:attribute name="amount" type="xs:string" use="required" />
-										<xs:attribute name="amountVariation" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="energy">
-									<xs:complexType>
-										<xs:attribute name="amount" type="xs:string" use="required" />
-										<xs:attribute name="amountVariation" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="food">
-									<xs:complexType>
-										<xs:attribute name="amount" type="xs:string" use="required" />
-										<xs:attribute name="amountVariation" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="influence">
-									<xs:complexType>
-										<xs:attribute name="amount" type="xs:string" use="required" />
-										<xs:attribute name="amountVariation" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="ore">
-									<xs:complexType>
-										<xs:attribute name="amount" type="xs:string" use="required" />
-										<xs:attribute name="amountVariation" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="requisitions">
-									<xs:complexType>
-										<xs:attribute name="amount" type="xs:string" use="required" />
-										<xs:attribute name="amountVariation" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="unit">
-									<xs:complexType>
-										<xs:attribute name="type" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="item">
-									<xs:complexType>
-										<xs:attribute name="type" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="unitTrait">
-									<xs:complexType>
-										<xs:attribute name="name" type="xs:string" use="required" />
-										<xs:attribute name="duration" type="xs:string" use="required" />
-									</xs:complexType>
-								</xs:element>
-							</xs:choice>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="items">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element maxOccurs="unbounded" name="item">
-								<xs:complexType>
-									<xs:attribute name="type" type="xs:string" use="required" />
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="gameData">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="model">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:choice maxOccurs="unbounded">
+                                <xs:element name="buildings"/>
+                                <xs:element name="bedrock">
+                                    <xs:complexType>
+                                        <xs:attribute name="material" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="effect">
+                                    <xs:complexType>
+                                        <xs:attribute name="blueprint" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="vegetation">
+                                    <xs:complexType>
+                                        <xs:attribute name="material" type="xs:string" use="required"/>
+                                        <xs:attribute name="depthMaterial" type="xs:string" use="required"/>
+                                        <xs:attribute name="effectBlueprint" type="xs:string" use="optional"/>
+                                        <xs:attribute name="effectEmitterBlueprint" type="xs:string" use="optional"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="clusterMines"/>
+                                <xs:element name="simpleModel">
+                                    <xs:complexType>
+                                        <xs:attribute name="mesh" type="xs:string" use="required"/>
+                                        <xs:attribute name="material" type="xs:string" use="required"/>
+                                        <xs:attribute name="groundMaterial" type="xs:string" use="required"/>
+                                        <xs:attribute name="flow" type="xs:string" use="optional"/>
+                                        <xs:attribute name="groundFlow" type="xs:string" use="optional"/>
+                                        <xs:attribute name="explorationEffectBlueprint" type="xs:string"
+                                                      use="optional"/>
+                                        <xs:attribute name="scale" type="xs:string" use="optional"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="smokeScreen">
+                                    <xs:complexType>
+                                        <xs:attribute name="blueprint" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="animals">
+                                    <xs:complexType>
+                                        <xs:attribute name="blueprint" type="xs:string" use="required"/>
+                                        <xs:attribute name="mesh" type="xs:string" use="required"/>
+                                        <xs:attribute name="material" type="xs:string" use="required"/>
+                                        <xs:attribute name="groundMaterial" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="necronTomb">
+                                    <xs:complexType>
+                                        <xs:attribute name="blueprint" type="xs:string" use="required"/>
+                                        <xs:attribute name="effectBlueprint" type="xs:string" use="required"/>
+                                        <xs:attribute name="groundMaterial" type="xs:string" use="optional"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="imperialRuin">
+                                    <xs:complexType>
+                                        <xs:attribute name="material" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="outpost"/>
+                                <xs:element name="river"/>
+                                <xs:element name="rocks"/>
+                                <xs:element name="telekineDome"/>
+                            </xs:choice>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="traits">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="trait">
+                                <xs:complexType>
+                                    <xs:attribute name="name" type="xs:string" use="required"/>
+                                    <xs:attribute name="requiredUpgrade" type="xs:string" use="optional"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="ground">
+                    <xs:complexType>
+                        <xs:attribute name="channel" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="modifiers">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="modifier">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element minOccurs="0" name="conditions">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element minOccurs="0" name="tile">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="noFeature">
+                                                                    <xs:complexType>
+                                                                        <xs:attribute name="name" type="xs:string"
+                                                                                      use="required"/>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="unit">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element minOccurs="0" name="trait">
+                                                                    <xs:complexType>
+                                                                        <xs:attribute name="name" type="xs:string"
+                                                                                      use="required"/>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element maxOccurs="unbounded" name="noTrait">
+                                                                    <xs:complexType>
+                                                                        <xs:attribute name="name" type="xs:string"
+                                                                                      use="required"/>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element minOccurs="0" name="player">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element minOccurs="0" name="noFaction">
+                                                                    <xs:complexType>
+                                                                        <xs:attribute name="name" type="xs:string"
+                                                                                      use="required"/>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element minOccurs="0" name="faction">
+                                                                    <xs:complexType>
+                                                                        <xs:attribute name="name" type="xs:string"
+                                                                                      use="required"/>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="effects">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:choice maxOccurs="unbounded">
+                                                        <xs:element name="biomassOnConsume">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="add" type="xs:string"
+                                                                              use="optional"/>
+                                                                <xs:attribute name="max" type="xs:string"
+                                                                              use="optional"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="buildingSlots">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="add" type="xs:string"
+                                                                              use="optional"/>
+                                                                <xs:attribute name="max" type="xs:string"
+                                                                              use="optional"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="food">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="mul" type="xs:string"
+                                                                              use="optional"/>
+                                                                <xs:attribute name="add" type="xs:string"
+                                                                              use="optional"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="research">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="mul" type="xs:string"
+                                                                              use="optional"/>
+                                                                <xs:attribute name="add" type="xs:string"
+                                                                              use="optional"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="energy">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="mul" type="xs:string"
+                                                                              use="optional"/>
+                                                                <xs:attribute name="add" type="xs:string"
+                                                                              use="optional"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="biomass">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="add" type="xs:string"
+                                                                              use="optional"/>
+                                                                <xs:attribute name="mul" type="xs:string"
+                                                                              use="optional"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="growth">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="mul" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="requisitions">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="add" type="xs:string"
+                                                                              use="optional"/>
+                                                                <xs:attribute name="mul" type="xs:string"
+                                                                              use="optional"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="influence">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="add" type="xs:string"
+                                                                              use="optional"/>
+                                                                <xs:attribute name="mul" type="xs:string"
+                                                                              use="optional"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="ore">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="mul" type="xs:string"
+                                                                              use="optional"/>
+                                                                <xs:attribute name="add" type="xs:string"
+                                                                              use="optional"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="movementCost">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="add" type="xs:string"
+                                                                              use="optional"/>
+                                                                <xs:attribute name="min" type="xs:string"
+                                                                              use="optional"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="productionCost">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="base" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="loyalty">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="mul" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:choice>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="visible" type="xs:string" use="optional"/>
+                                    <xs:attribute name="requiredUpgrade" type="xs:string" use="optional"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="rocks">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="meshes">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="mesh">
+                                            <xs:complexType>
+                                                <xs:attribute name="name" type="xs:string" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="material" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="vegetation">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:choice maxOccurs="unbounded">
+                                <xs:element name="bushes">
+                                    <xs:complexType>
+                                        <xs:sequence minOccurs="0">
+                                            <xs:element name="meshes">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element maxOccurs="unbounded" name="mesh">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="name" type="xs:string"
+                                                                              use="required"/>
+                                                                <xs:attribute name="weight" type="xs:string"
+                                                                              use="optional"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                        <xs:attribute name="clusterSizeMin" type="xs:string" use="optional"/>
+                                        <xs:attribute name="clusterSizeMax" type="xs:string" use="optional"/>
+                                        <xs:attribute name="scaleMin" type="xs:string" use="optional"/>
+                                        <xs:attribute name="scaleMax" type="xs:string" use="optional"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="trees">
+                                    <xs:complexType>
+                                        <xs:sequence minOccurs="0">
+                                            <xs:element name="meshes">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element maxOccurs="unbounded" name="mesh">
+                                                            <xs:complexType>
+                                                                <xs:attribute name="name" type="xs:string"
+                                                                              use="required"/>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                        <xs:attribute name="clusterSizeMin" type="xs:string" use="optional"/>
+                                        <xs:attribute name="clusterSizeMax" type="xs:string" use="optional"/>
+                                        <xs:attribute name="scaleMin" type="xs:string" use="optional"/>
+                                        <xs:attribute name="scaleMax" type="xs:string" use="optional"/>
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:choice>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="decals">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="meshes">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="mesh">
+                                            <xs:complexType>
+                                                <xs:attribute name="name" type="xs:string" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="areas">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="area">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="modifiers">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element maxOccurs="unbounded" name="modifier">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element minOccurs="0" name="conditions">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="player">
+                                                                                <xs:complexType>
+                                                                                    <xs:sequence>
+                                                                                        <xs:element name="faction">
+                                                                                            <xs:complexType>
+                                                                                                <xs:attribute
+                                                                                                        name="name"
+                                                                                                        type="xs:string"
+                                                                                                        use="required"/>
+                                                                                            </xs:complexType>
+                                                                                        </xs:element>
+                                                                                    </xs:sequence>
+                                                                                </xs:complexType>
+                                                                            </xs:element>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="effects">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:choice maxOccurs="unbounded">
+                                                                                <xs:element name="energy">
+                                                                                    <xs:complexType>
+                                                                                        <xs:attribute name="mul"
+                                                                                                      type="xs:string"
+                                                                                                      use="required"/>
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                                <xs:element name="influence">
+                                                                                    <xs:complexType>
+                                                                                        <xs:attribute name="mul"
+                                                                                                      type="xs:string"
+                                                                                                      use="required"/>
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                                <xs:element name="ore">
+                                                                                    <xs:complexType>
+                                                                                        <xs:attribute name="mul"
+                                                                                                      type="xs:string"
+                                                                                                      use="required"/>
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                                <xs:element name="biomass">
+                                                                                    <xs:complexType>
+                                                                                        <xs:attribute name="mul"
+                                                                                                      type="xs:string"
+                                                                                                      use="required"/>
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                                <xs:element name="food">
+                                                                                    <xs:complexType>
+                                                                                        <xs:attribute name="mul"
+                                                                                                      type="xs:string"
+                                                                                                      use="required"/>
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                                <xs:element name="requisitions">
+                                                                                    <xs:complexType>
+                                                                                        <xs:attribute name="mul"
+                                                                                                      type="xs:string"
+                                                                                                      use="required"/>
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                                <xs:element name="production">
+                                                                                    <xs:complexType>
+                                                                                        <xs:attribute name="mul"
+                                                                                                      type="xs:string"
+                                                                                                      use="required"/>
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                                <xs:element name="research">
+                                                                                    <xs:complexType>
+                                                                                        <xs:attribute name="mul"
+                                                                                                      type="xs:string"
+                                                                                                      use="required"/>
+                                                                                    </xs:complexType>
+                                                                                </xs:element>
+                                                                            </xs:choice>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="affects" type="xs:string" use="required"/>
+                                    <xs:attribute name="radius" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="exploreConditions">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="unit">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="type">
+                                            <xs:complexType>
+                                                <xs:attribute name="name" type="xs:string" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="rewards">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:choice maxOccurs="unbounded">
+                                <xs:element name="research">
+                                    <xs:complexType>
+                                        <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                                <xs:attribute name="amount" type="xs:string" use="required"/>
+                                                <xs:attribute name="amountVariation" type="xs:string" use="required"/>
+                                            </xs:extension>
+                                        </xs:simpleContent>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="biomass">
+                                    <xs:complexType>
+                                        <xs:attribute name="amount" type="xs:string" use="required"/>
+                                        <xs:attribute name="amountVariation" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="energy">
+                                    <xs:complexType>
+                                        <xs:attribute name="amount" type="xs:string" use="required"/>
+                                        <xs:attribute name="amountVariation" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="food">
+                                    <xs:complexType>
+                                        <xs:attribute name="amount" type="xs:string" use="required"/>
+                                        <xs:attribute name="amountVariation" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="influence">
+                                    <xs:complexType>
+                                        <xs:attribute name="amount" type="xs:string" use="required"/>
+                                        <xs:attribute name="amountVariation" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="ore">
+                                    <xs:complexType>
+                                        <xs:attribute name="amount" type="xs:string" use="required"/>
+                                        <xs:attribute name="amountVariation" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="requisitions">
+                                    <xs:complexType>
+                                        <xs:attribute name="amount" type="xs:string" use="required"/>
+                                        <xs:attribute name="amountVariation" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="unit">
+                                    <xs:complexType>
+                                        <xs:attribute name="type" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="item">
+                                    <xs:complexType>
+                                        <xs:attribute name="type" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="unitTrait">
+                                    <xs:complexType>
+                                        <xs:attribute name="name" type="xs:string" use="required"/>
+                                        <xs:attribute name="duration" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:choice>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="items">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="item">
+                                <xs:complexType>
+                                    <xs:attribute name="type" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 </xs:schema>
